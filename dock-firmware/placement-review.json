@@ -1,0 +1,2574 @@
+{
+  "status": "pass: native PCB pad/source and connector direction audit",
+  "pass": true,
+  "boards": [
+    {
+      "PCB": "hardware/pcb/evt1/dock-control/dock-controller-placement.kicad_pcb",
+      "sha256": "6302de94f5efdc0ab3cf5270f321480261bc3232e7cad139462f83a8b67f695c",
+      "source_XML": "hardware/pcb/evt1/dock-control/dock-controller-native.xml",
+      "source_XML_sha256": "a67f1ba8e4e945d99a3d8cc76595d201034de1c18b26629563c390414a7beb28",
+      "KiCad_native_version": "7.0.7",
+      "references_checked": 44,
+      "physical_pads_checked": 165,
+      "pad_checks": [
+        {
+          "reference": "C209",
+          "pad": "1",
+          "net": "NTC_LID_ADC",
+          "board_XY_mm": [
+            83.52,
+            170.0
+          ]
+        },
+        {
+          "reference": "C209",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            84.48,
+            170.0
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "1",
+          "net": "GND",
+          "board_XY_mm": [
+            104.75,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "2",
+          "net": "3V3_UI",
+          "board_XY_mm": [
+            104.25,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "3",
+          "net": "LCD_DB0",
+          "board_XY_mm": [
+            103.75,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "4",
+          "net": "LCD_DB1",
+          "board_XY_mm": [
+            103.25,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "5",
+          "net": "LCD_DB2",
+          "board_XY_mm": [
+            102.75,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "6",
+          "net": "LCD_DB3",
+          "board_XY_mm": [
+            102.25,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "7",
+          "net": "LCD_DB4",
+          "board_XY_mm": [
+            101.75,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "8",
+          "net": "LCD_DB5",
+          "board_XY_mm": [
+            101.25,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "9",
+          "net": "LCD_DB6",
+          "board_XY_mm": [
+            100.75,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "10",
+          "net": "LCD_DB7",
+          "board_XY_mm": [
+            100.25,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "11",
+          "net": "LCD_A0",
+          "board_XY_mm": [
+            99.75,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "12",
+          "net": "LCD_WRn",
+          "board_XY_mm": [
+            99.25,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "13",
+          "net": "LCD_CSn",
+          "board_XY_mm": [
+            98.75,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "14",
+          "net": "LCD_RESETn",
+          "board_XY_mm": [
+            98.25,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "15",
+          "net": "BTN_LEFTn",
+          "board_XY_mm": [
+            97.75,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "16",
+          "net": "BTN_CENTERn_RAW",
+          "board_XY_mm": [
+            97.25,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "17",
+          "net": "BTN_RIGHTn",
+          "board_XY_mm": [
+            96.75,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "18",
+          "net": "GND",
+          "board_XY_mm": [
+            96.25,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "19",
+          "net": "GND",
+          "board_XY_mm": [
+            95.75,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "20",
+          "net": "GND",
+          "board_XY_mm": [
+            95.25,
+            138.85
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "MP",
+          "net": "GND",
+          "board_XY_mm": [
+            106.65,
+            135.6
+          ]
+        },
+        {
+          "reference": "J201",
+          "pad": "MP",
+          "net": "GND",
+          "board_XY_mm": [
+            93.35,
+            135.6
+          ]
+        },
+        {
+          "reference": "R212",
+          "pad": "1",
+          "net": "LCD_RESETn_MCU",
+          "board_XY_mm": [
+            96.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R212",
+          "pad": "2",
+          "net": "LCD_RESETn",
+          "board_XY_mm": [
+            96.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "R209",
+          "pad": "1",
+          "net": "LCD_A0_MCU",
+          "board_XY_mm": [
+            87.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R209",
+          "pad": "2",
+          "net": "LCD_A0",
+          "board_XY_mm": [
+            87.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "R208",
+          "pad": "1",
+          "net": "LCD_DB7_MCU",
+          "board_XY_mm": [
+            84.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R208",
+          "pad": "2",
+          "net": "LCD_DB7",
+          "board_XY_mm": [
+            84.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "R224",
+          "pad": "1",
+          "net": "STATUS_LED",
+          "board_XY_mm": [
+            57.0,
+            151.825
+          ]
+        },
+        {
+          "reference": "R224",
+          "pad": "2",
+          "net": "STATUS_LED_A",
+          "board_XY_mm": [
+            57.0,
+            150.175
+          ]
+        },
+        {
+          "reference": "R213",
+          "pad": "1",
+          "net": "BOOT0",
+          "board_XY_mm": [
+            61.0,
+            170.825
+          ]
+        },
+        {
+          "reference": "R213",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            61.0,
+            169.175
+          ]
+        },
+        {
+          "reference": "C202",
+          "pad": "1",
+          "net": "3V3",
+          "board_XY_mm": [
+            64.52,
+            163.0
+          ]
+        },
+        {
+          "reference": "C202",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            65.48,
+            163.0
+          ]
+        },
+        {
+          "reference": "U202",
+          "pad": "1",
+          "net": "GND",
+          "board_XY_mm": [
+            88.8,
+            157.0
+          ]
+        },
+        {
+          "reference": "U202",
+          "pad": "2",
+          "net": "unconnected-(U202-ALERT_RDY-Pad2)",
+          "board_XY_mm": [
+            88.8,
+            157.5
+          ]
+        },
+        {
+          "reference": "U202",
+          "pad": "3",
+          "net": "GND",
+          "board_XY_mm": [
+            88.8,
+            158.0
+          ]
+        },
+        {
+          "reference": "U202",
+          "pad": "4",
+          "net": "BASE_FB",
+          "board_XY_mm": [
+            88.8,
+            158.5
+          ]
+        },
+        {
+          "reference": "U202",
+          "pad": "5",
+          "net": "LID_FB",
+          "board_XY_mm": [
+            88.8,
+            159.0
+          ]
+        },
+        {
+          "reference": "U202",
+          "pad": "6",
+          "net": "BASE_VOUT_DIV",
+          "board_XY_mm": [
+            93.2,
+            159.0
+          ]
+        },
+        {
+          "reference": "U202",
+          "pad": "7",
+          "net": "LID_VOUT_DIV",
+          "board_XY_mm": [
+            93.2,
+            158.5
+          ]
+        },
+        {
+          "reference": "U202",
+          "pad": "8",
+          "net": "3V3_ANALOG",
+          "board_XY_mm": [
+            93.2,
+            158.0
+          ]
+        },
+        {
+          "reference": "U202",
+          "pad": "9",
+          "net": "MON_I2C_SDA",
+          "board_XY_mm": [
+            93.2,
+            157.5
+          ]
+        },
+        {
+          "reference": "U202",
+          "pad": "10",
+          "net": "MON_I2C_SCL",
+          "board_XY_mm": [
+            93.2,
+            157.0
+          ]
+        },
+        {
+          "reference": "R223",
+          "pad": "1",
+          "net": "UV_VBUS_MON",
+          "board_XY_mm": [
+            101.0,
+            161.825
+          ]
+        },
+        {
+          "reference": "R223",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            101.0,
+            160.175
+          ]
+        },
+        {
+          "reference": "C204",
+          "pad": "1",
+          "net": "3V3",
+          "board_XY_mm": [
+            76.52,
+            151.0
+          ]
+        },
+        {
+          "reference": "C204",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            77.48,
+            151.0
+          ]
+        },
+        {
+          "reference": "R219",
+          "pad": "1",
+          "net": "3V3_ANALOG",
+          "board_XY_mm": [
+            95.0,
+            166.825
+          ]
+        },
+        {
+          "reference": "R219",
+          "pad": "2",
+          "net": "NTC_LID",
+          "board_XY_mm": [
+            95.0,
+            165.175
+          ]
+        },
+        {
+          "reference": "R215",
+          "pad": "1",
+          "net": "3V3",
+          "board_XY_mm": [
+            107.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R215",
+          "pad": "2",
+          "net": "3V3_UI",
+          "board_XY_mm": [
+            107.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "R210",
+          "pad": "1",
+          "net": "LCD_WRn_MCU",
+          "board_XY_mm": [
+            90.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R210",
+          "pad": "2",
+          "net": "LCD_WRn",
+          "board_XY_mm": [
+            90.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "R222",
+          "pad": "1",
+          "net": "UV_5V_SW",
+          "board_XY_mm": [
+            101.0,
+            157.825
+          ]
+        },
+        {
+          "reference": "R222",
+          "pad": "2",
+          "net": "UV_VBUS_MON",
+          "board_XY_mm": [
+            101.0,
+            156.175
+          ]
+        },
+        {
+          "reference": "C210",
+          "pad": "1",
+          "net": "3V3_ANALOG",
+          "board_XY_mm": [
+            90.52,
+            153.0
+          ]
+        },
+        {
+          "reference": "C210",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            91.48,
+            153.0
+          ]
+        },
+        {
+          "reference": "R216",
+          "pad": "1",
+          "net": "3V3_ANALOG",
+          "board_XY_mm": [
+            84.0,
+            154.825
+          ]
+        },
+        {
+          "reference": "R216",
+          "pad": "2",
+          "net": "MON_I2C_SCL",
+          "board_XY_mm": [
+            84.0,
+            153.175
+          ]
+        },
+        {
+          "reference": "R217",
+          "pad": "1",
+          "net": "3V3_ANALOG",
+          "board_XY_mm": [
+            84.0,
+            158.825
+          ]
+        },
+        {
+          "reference": "R217",
+          "pad": "2",
+          "net": "MON_I2C_SDA",
+          "board_XY_mm": [
+            84.0,
+            157.175
+          ]
+        },
+        {
+          "reference": "R204",
+          "pad": "1",
+          "net": "LCD_DB3_MCU",
+          "board_XY_mm": [
+            72.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R204",
+          "pad": "2",
+          "net": "LCD_DB3",
+          "board_XY_mm": [
+            72.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "C212",
+          "pad": "1",
+          "net": "BTN_RIGHTn",
+          "board_XY_mm": [
+            84.52,
+            147.0
+          ]
+        },
+        {
+          "reference": "C212",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            85.48,
+            147.0
+          ]
+        },
+        {
+          "reference": "C201",
+          "pad": "1",
+          "net": "3V3",
+          "board_XY_mm": [
+            64.52,
+            151.0
+          ]
+        },
+        {
+          "reference": "C201",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            65.48,
+            151.0
+          ]
+        },
+        {
+          "reference": "R207",
+          "pad": "1",
+          "net": "LCD_DB6_MCU",
+          "board_XY_mm": [
+            81.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R207",
+          "pad": "2",
+          "net": "LCD_DB6",
+          "board_XY_mm": [
+            81.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "C205",
+          "pad": "1",
+          "net": "3V3_ANALOG",
+          "board_XY_mm": [
+            64.0,
+            157.48
+          ]
+        },
+        {
+          "reference": "C205",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            64.0,
+            156.52
+          ]
+        },
+        {
+          "reference": "R205",
+          "pad": "1",
+          "net": "LCD_DB4_MCU",
+          "board_XY_mm": [
+            75.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R205",
+          "pad": "2",
+          "net": "LCD_DB4",
+          "board_XY_mm": [
+            75.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "C203",
+          "pad": "1",
+          "net": "3V3",
+          "board_XY_mm": [
+            76.52,
+            163.0
+          ]
+        },
+        {
+          "reference": "C203",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            77.48,
+            163.0
+          ]
+        },
+        {
+          "reference": "R206",
+          "pad": "1",
+          "net": "LCD_DB5_MCU",
+          "board_XY_mm": [
+            78.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R206",
+          "pad": "2",
+          "net": "LCD_DB5",
+          "board_XY_mm": [
+            78.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "C207",
+          "pad": "1",
+          "net": "MCU_NRSTn",
+          "board_XY_mm": [
+            61.52,
+            162.0
+          ]
+        },
+        {
+          "reference": "C207",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            62.48,
+            162.0
+          ]
+        },
+        {
+          "reference": "R203",
+          "pad": "1",
+          "net": "LCD_DB2_MCU",
+          "board_XY_mm": [
+            69.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R203",
+          "pad": "2",
+          "net": "LCD_DB2",
+          "board_XY_mm": [
+            69.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "R211",
+          "pad": "1",
+          "net": "LCD_CSn_MCU",
+          "board_XY_mm": [
+            93.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R211",
+          "pad": "2",
+          "net": "LCD_CSn",
+          "board_XY_mm": [
+            93.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "R214",
+          "pad": "1",
+          "net": "3V3",
+          "board_XY_mm": [
+            56.175,
+            141.0
+          ]
+        },
+        {
+          "reference": "R214",
+          "pad": "2",
+          "net": "3V3_ANALOG",
+          "board_XY_mm": [
+            57.825,
+            141.0
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "1",
+          "net": "3V3",
+          "board_XY_mm": [
+            66.8375,
+            154.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "2",
+          "net": "LOOP_A",
+          "board_XY_mm": [
+            66.8375,
+            154.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "3",
+          "net": "LOOP_B",
+          "board_XY_mm": [
+            66.8375,
+            155.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "4",
+          "net": "SOURCE_OK",
+          "board_XY_mm": [
+            66.8375,
+            155.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "5",
+          "net": "unconnected-(U201-PH0-Pad5)",
+          "board_XY_mm": [
+            66.8375,
+            156.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "6",
+          "net": "unconnected-(U201-PH1-Pad6)",
+          "board_XY_mm": [
+            66.8375,
+            156.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "7",
+          "net": "MCU_NRSTn",
+          "board_XY_mm": [
+            66.8375,
+            157.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "8",
+          "net": "GND",
+          "board_XY_mm": [
+            66.8375,
+            157.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "9",
+          "net": "3V3_ANALOG",
+          "board_XY_mm": [
+            66.8375,
+            158.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "10",
+          "net": "LCD_DB0_MCU",
+          "board_XY_mm": [
+            66.8375,
+            158.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "11",
+          "net": "LCD_DB1_MCU",
+          "board_XY_mm": [
+            66.8375,
+            159.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "12",
+          "net": "LCD_DB2_MCU",
+          "board_XY_mm": [
+            66.8375,
+            159.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "13",
+          "net": "LCD_DB3_MCU",
+          "board_XY_mm": [
+            68.25,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "14",
+          "net": "LCD_DB4_MCU",
+          "board_XY_mm": [
+            68.75,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "15",
+          "net": "LCD_DB5_MCU",
+          "board_XY_mm": [
+            69.25,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "16",
+          "net": "LCD_DB6_MCU",
+          "board_XY_mm": [
+            69.75,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "17",
+          "net": "LCD_DB7_MCU",
+          "board_XY_mm": [
+            70.25,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "18",
+          "net": "NTC_BASE_ADC",
+          "board_XY_mm": [
+            70.75,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "19",
+          "net": "NTC_LID_ADC",
+          "board_XY_mm": [
+            71.25,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "20",
+          "net": "UV_VBUS_MON",
+          "board_XY_mm": [
+            71.75,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "21",
+          "net": "MON_I2C_SCL",
+          "board_XY_mm": [
+            72.25,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "22",
+          "net": "MON_I2C_SDA",
+          "board_XY_mm": [
+            72.75,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "23",
+          "net": "GND",
+          "board_XY_mm": [
+            73.25,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "24",
+          "net": "3V3",
+          "board_XY_mm": [
+            73.75,
+            161.1625
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "25",
+          "net": "BTN_LEFTn",
+          "board_XY_mm": [
+            75.1625,
+            159.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "26",
+          "net": "BTN_CENTERn_DEBOUNCED",
+          "board_XY_mm": [
+            75.1625,
+            159.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "27",
+          "net": "BTN_RIGHTn",
+          "board_XY_mm": [
+            75.1625,
+            158.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "28",
+          "net": "MCU_ARM",
+          "board_XY_mm": [
+            75.1625,
+            158.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "29",
+          "net": "MCU_STOPn",
+          "board_XY_mm": [
+            75.1625,
+            157.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "30",
+          "net": "WDI",
+          "board_XY_mm": [
+            75.1625,
+            157.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "31",
+          "net": "UV_RUN",
+          "board_XY_mm": [
+            75.1625,
+            156.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "32",
+          "net": "DEVICE_FAULTn",
+          "board_XY_mm": [
+            75.1625,
+            156.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "33",
+          "net": "UV_LIMIT_FAULTn",
+          "board_XY_mm": [
+            75.1625,
+            155.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "34",
+          "net": "SWDIO",
+          "board_XY_mm": [
+            75.1625,
+            155.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "35",
+          "net": "GND",
+          "board_XY_mm": [
+            75.1625,
+            154.75
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "36",
+          "net": "3V3",
+          "board_XY_mm": [
+            75.1625,
+            154.25
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "37",
+          "net": "SWCLK",
+          "board_XY_mm": [
+            73.75,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "38",
+          "net": "RELEASE_SEEN",
+          "board_XY_mm": [
+            73.25,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "39",
+          "net": "CC_OUT1",
+          "board_XY_mm": [
+            72.75,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "40",
+          "net": "CC_OUT2",
+          "board_XY_mm": [
+            72.25,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "41",
+          "net": "LCD_A0_MCU",
+          "board_XY_mm": [
+            71.75,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "42",
+          "net": "LCD_WRn_MCU",
+          "board_XY_mm": [
+            71.25,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "43",
+          "net": "LCD_CSn_MCU",
+          "board_XY_mm": [
+            70.75,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "44",
+          "net": "BOOT0",
+          "board_XY_mm": [
+            70.25,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "45",
+          "net": "LCD_RESETn_MCU",
+          "board_XY_mm": [
+            69.75,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "46",
+          "net": "STATUS_LED",
+          "board_XY_mm": [
+            69.25,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "47",
+          "net": "GND",
+          "board_XY_mm": [
+            68.75,
+            152.8375
+          ]
+        },
+        {
+          "reference": "U201",
+          "pad": "48",
+          "net": "3V3",
+          "board_XY_mm": [
+            68.25,
+            152.8375
+          ]
+        },
+        {
+          "reference": "J202",
+          "pad": "1",
+          "net": "3V3",
+          "board_XY_mm": [
+            66.73,
+            171.635
+          ]
+        },
+        {
+          "reference": "J202",
+          "pad": "2",
+          "net": "SWDIO",
+          "board_XY_mm": [
+            66.73,
+            170.365
+          ]
+        },
+        {
+          "reference": "J202",
+          "pad": "3",
+          "net": "MCU_NRSTn",
+          "board_XY_mm": [
+            68.0,
+            171.635
+          ]
+        },
+        {
+          "reference": "J202",
+          "pad": "4",
+          "net": "SWCLK",
+          "board_XY_mm": [
+            68.0,
+            170.365
+          ]
+        },
+        {
+          "reference": "J202",
+          "pad": "5",
+          "net": "GND",
+          "board_XY_mm": [
+            69.27,
+            171.635
+          ]
+        },
+        {
+          "reference": "J202",
+          "pad": "6",
+          "net": "unconnected-(J202-Pad6)",
+          "board_XY_mm": [
+            69.27,
+            170.365
+          ]
+        },
+        {
+          "reference": "R201",
+          "pad": "1",
+          "net": "LCD_DB0_MCU",
+          "board_XY_mm": [
+            63.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R201",
+          "pad": "2",
+          "net": "LCD_DB0",
+          "board_XY_mm": [
+            63.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "C206",
+          "pad": "1",
+          "net": "3V3_ANALOG",
+          "board_XY_mm": [
+            60.0,
+            157.775
+          ]
+        },
+        {
+          "reference": "C206",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            60.0,
+            156.225
+          ]
+        },
+        {
+          "reference": "R221",
+          "pad": "1",
+          "net": "NTC_LID",
+          "board_XY_mm": [
+            84.0,
+            166.825
+          ]
+        },
+        {
+          "reference": "R221",
+          "pad": "2",
+          "net": "NTC_LID_ADC",
+          "board_XY_mm": [
+            84.0,
+            165.175
+          ]
+        },
+        {
+          "reference": "R225",
+          "pad": "1",
+          "net": "3V3",
+          "board_XY_mm": [
+            81.0,
+            150.825
+          ]
+        },
+        {
+          "reference": "R225",
+          "pad": "2",
+          "net": "BTN_LEFTn",
+          "board_XY_mm": [
+            81.0,
+            149.175
+          ]
+        },
+        {
+          "reference": "R202",
+          "pad": "1",
+          "net": "LCD_DB1_MCU",
+          "board_XY_mm": [
+            66.0,
+            143.825
+          ]
+        },
+        {
+          "reference": "R202",
+          "pad": "2",
+          "net": "LCD_DB1",
+          "board_XY_mm": [
+            66.0,
+            142.175
+          ]
+        },
+        {
+          "reference": "R220",
+          "pad": "1",
+          "net": "NTC_BASE",
+          "board_XY_mm": [
+            80.0,
+            166.825
+          ]
+        },
+        {
+          "reference": "R220",
+          "pad": "2",
+          "net": "NTC_BASE_ADC",
+          "board_XY_mm": [
+            80.0,
+            165.175
+          ]
+        },
+        {
+          "reference": "C211",
+          "pad": "1",
+          "net": "BTN_LEFTn",
+          "board_XY_mm": [
+            80.52,
+            147.0
+          ]
+        },
+        {
+          "reference": "C211",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            81.48,
+            147.0
+          ]
+        },
+        {
+          "reference": "C208",
+          "pad": "1",
+          "net": "NTC_BASE_ADC",
+          "board_XY_mm": [
+            79.52,
+            170.0
+          ]
+        },
+        {
+          "reference": "C208",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            80.48,
+            170.0
+          ]
+        },
+        {
+          "reference": "D201",
+          "pad": "1",
+          "net": "GND",
+          "board_XY_mm": [
+            56.2125,
+            147.0
+          ]
+        },
+        {
+          "reference": "D201",
+          "pad": "2",
+          "net": "STATUS_LED_A",
+          "board_XY_mm": [
+            57.7875,
+            147.0
+          ]
+        },
+        {
+          "reference": "R226",
+          "pad": "1",
+          "net": "3V3",
+          "board_XY_mm": [
+            85.0,
+            150.825
+          ]
+        },
+        {
+          "reference": "R226",
+          "pad": "2",
+          "net": "BTN_RIGHTn",
+          "board_XY_mm": [
+            85.0,
+            149.175
+          ]
+        },
+        {
+          "reference": "TP201",
+          "pad": "1",
+          "net": "BOOT0",
+          "board_XY_mm": [
+            60.0,
+            167.0
+          ]
+        },
+        {
+          "reference": "R218",
+          "pad": "1",
+          "net": "3V3_ANALOG",
+          "board_XY_mm": [
+            90.0,
+            166.825
+          ]
+        },
+        {
+          "reference": "R218",
+          "pad": "2",
+          "net": "NTC_BASE",
+          "board_XY_mm": [
+            90.0,
+            165.175
+          ]
+        }
+      ],
+      "connector_poses": {
+        "J201": {
+          "board_origin_XY_mm": [
+            100.0,
+            137.0
+          ],
+          "angle_deg": 180.0,
+          "dock_origin_XY_mm": [
+            0.0,
+            63.0
+          ],
+          "dock_pin1_XY_mm": [
+            4.75,
+            61.150000000000006
+          ],
+          "dock_mouth_vector_XY": [
+            -1.2246467991473532e-16,
+            1.0
+          ],
+          "conductor_order": "pin1+X",
+          "mating_contract": "J201p toJ301p"
+        }
+      },
+      "tracks_and_vias": 0,
+      "pass": true
+    },
+    {
+      "PCB": "hardware/pcb/evt1/dock-control/dock-lid-placement.kicad_pcb",
+      "sha256": "6fc2608bf8466717a4919f7afda0458297b4e22480bf7431d250720d5db0191e",
+      "source_XML": "hardware/pcb/evt1/dock-control/dock-lid-ui-native.xml",
+      "source_XML_sha256": "6c5c32475a597fada90be6c697b707fbdca438c96149c9017451786df398cabb",
+      "KiCad_native_version": "7.0.7",
+      "references_checked": 28,
+      "physical_pads_checked": 109,
+      "pad_checks": [
+        {
+          "reference": "J301",
+          "pad": "1",
+          "net": "GND",
+          "board_XY_mm": [
+            129.75,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "2",
+          "net": "3V3_UI",
+          "board_XY_mm": [
+            129.25,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "3",
+          "net": "LCD_DB0",
+          "board_XY_mm": [
+            128.75,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "4",
+          "net": "LCD_DB1",
+          "board_XY_mm": [
+            128.25,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "5",
+          "net": "LCD_DB2",
+          "board_XY_mm": [
+            127.75,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "6",
+          "net": "LCD_DB3",
+          "board_XY_mm": [
+            127.25,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "7",
+          "net": "LCD_DB4",
+          "board_XY_mm": [
+            126.75,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "8",
+          "net": "LCD_DB5",
+          "board_XY_mm": [
+            126.25,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "9",
+          "net": "LCD_DB6",
+          "board_XY_mm": [
+            125.75,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "10",
+          "net": "LCD_DB7",
+          "board_XY_mm": [
+            125.25,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "11",
+          "net": "LCD_A0",
+          "board_XY_mm": [
+            124.75,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "12",
+          "net": "LCD_WRn",
+          "board_XY_mm": [
+            124.25,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "13",
+          "net": "LCD_CSn",
+          "board_XY_mm": [
+            123.75,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "14",
+          "net": "LCD_RESETn",
+          "board_XY_mm": [
+            123.25,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "15",
+          "net": "BTN_LEFTn",
+          "board_XY_mm": [
+            122.75,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "16",
+          "net": "BTN_CENTERn_RAW",
+          "board_XY_mm": [
+            122.25,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "17",
+          "net": "BTN_RIGHTn",
+          "board_XY_mm": [
+            121.75,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "18",
+          "net": "GND",
+          "board_XY_mm": [
+            121.25,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "19",
+          "net": "GND",
+          "board_XY_mm": [
+            120.75,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "20",
+          "net": "GND",
+          "board_XY_mm": [
+            120.25,
+            88.85
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "MP",
+          "net": "GND",
+          "board_XY_mm": [
+            131.65,
+            85.6
+          ]
+        },
+        {
+          "reference": "J301",
+          "pad": "MP",
+          "net": "GND",
+          "board_XY_mm": [
+            118.35,
+            85.6
+          ]
+        },
+        {
+          "reference": "R311",
+          "pad": "1",
+          "net": "LCD_DB6",
+          "board_XY_mm": [
+            123.0,
+            110.825
+          ]
+        },
+        {
+          "reference": "R311",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            123.0,
+            109.175
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "1",
+          "net": "LCD_V0",
+          "board_XY_mm": [
+            93.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "2",
+          "net": "LCD_V1",
+          "board_XY_mm": [
+            94.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "3",
+          "net": "LCD_V2",
+          "board_XY_mm": [
+            94.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "4",
+          "net": "LCD_V3",
+          "board_XY_mm": [
+            95.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "5",
+          "net": "LCD_V4",
+          "board_XY_mm": [
+            95.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "6",
+          "net": "unconnected-(J302-MATES_LCD_6-Pad6)",
+          "board_XY_mm": [
+            96.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "7",
+          "net": "LCD_C2M",
+          "board_XY_mm": [
+            96.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "8",
+          "net": "LCD_C2P",
+          "board_XY_mm": [
+            97.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "9",
+          "net": "LCD_C1P",
+          "board_XY_mm": [
+            97.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "10",
+          "net": "LCD_C1M",
+          "board_XY_mm": [
+            98.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "11",
+          "net": "LCD_C3P",
+          "board_XY_mm": [
+            98.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "12",
+          "net": "LCD_VOUT",
+          "board_XY_mm": [
+            99.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "13",
+          "net": "3V3_UI",
+          "board_XY_mm": [
+            99.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "14",
+          "net": "GND",
+          "board_XY_mm": [
+            100.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "15",
+          "net": "LCD_DB7",
+          "board_XY_mm": [
+            100.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "16",
+          "net": "LCD_DB6",
+          "board_XY_mm": [
+            101.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "17",
+          "net": "LCD_DB5",
+          "board_XY_mm": [
+            101.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "18",
+          "net": "LCD_DB4",
+          "board_XY_mm": [
+            102.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "19",
+          "net": "LCD_DB3",
+          "board_XY_mm": [
+            102.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "20",
+          "net": "LCD_DB2",
+          "board_XY_mm": [
+            103.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "21",
+          "net": "LCD_DB1",
+          "board_XY_mm": [
+            103.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "22",
+          "net": "LCD_DB0",
+          "board_XY_mm": [
+            104.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "23",
+          "net": "3V3_UI",
+          "board_XY_mm": [
+            104.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "24",
+          "net": "LCD_WRn",
+          "board_XY_mm": [
+            105.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "25",
+          "net": "LCD_A0",
+          "board_XY_mm": [
+            105.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "26",
+          "net": "LCD_RESETn",
+          "board_XY_mm": [
+            106.0,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "27",
+          "net": "LCD_CSn",
+          "board_XY_mm": [
+            106.5,
+            86.0
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "MP",
+          "net": "GND",
+          "board_XY_mm": [
+            91.7,
+            87.5
+          ]
+        },
+        {
+          "reference": "J302",
+          "pad": "MP",
+          "net": "GND",
+          "board_XY_mm": [
+            108.3,
+            87.5
+          ]
+        },
+        {
+          "reference": "R303",
+          "pad": "1",
+          "net": "LCD_RESETn",
+          "board_XY_mm": [
+            123.0,
+            100.825
+          ]
+        },
+        {
+          "reference": "R303",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            123.0,
+            99.175
+          ]
+        },
+        {
+          "reference": "S302",
+          "pad": "1",
+          "net": "BTN_CENTERn_RAW",
+          "board_XY_mm": [
+            96.0,
+            143.75
+          ]
+        },
+        {
+          "reference": "S302",
+          "pad": "1",
+          "net": "BTN_CENTERn_RAW",
+          "board_XY_mm": [
+            104.0,
+            143.75
+          ]
+        },
+        {
+          "reference": "S302",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            96.0,
+            148.25
+          ]
+        },
+        {
+          "reference": "S302",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            104.0,
+            148.25
+          ]
+        },
+        {
+          "reference": "C309",
+          "pad": "1",
+          "net": "LCD_VOUT",
+          "board_XY_mm": [
+            68.0,
+            99.475
+          ]
+        },
+        {
+          "reference": "C309",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            68.0,
+            96.525
+          ]
+        },
+        {
+          "reference": "C308",
+          "pad": "1",
+          "net": "LCD_C3P",
+          "board_XY_mm": [
+            73.0,
+            99.475
+          ]
+        },
+        {
+          "reference": "C308",
+          "pad": "2",
+          "net": "LCD_C1M",
+          "board_XY_mm": [
+            73.0,
+            96.525
+          ]
+        },
+        {
+          "reference": "C311",
+          "pad": "1",
+          "net": "3V3_UI",
+          "board_XY_mm": [
+            117.52,
+            94.0
+          ]
+        },
+        {
+          "reference": "C311",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            118.48,
+            94.0
+          ]
+        },
+        {
+          "reference": "C310",
+          "pad": "1",
+          "net": "3V3_UI",
+          "board_XY_mm": [
+            114.225,
+            94.0
+          ]
+        },
+        {
+          "reference": "C310",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            115.775,
+            94.0
+          ]
+        },
+        {
+          "reference": "C305",
+          "pad": "1",
+          "net": "LCD_V4",
+          "board_XY_mm": [
+            69.225,
+            92.0
+          ]
+        },
+        {
+          "reference": "C305",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            70.775,
+            92.0
+          ]
+        },
+        {
+          "reference": "R309",
+          "pad": "1",
+          "net": "LCD_DB4",
+          "board_XY_mm": [
+            115.0,
+            110.825
+          ]
+        },
+        {
+          "reference": "R309",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            115.0,
+            109.175
+          ]
+        },
+        {
+          "reference": "R301",
+          "pad": "1",
+          "net": "3V3_UI",
+          "board_XY_mm": [
+            115.0,
+            100.825
+          ]
+        },
+        {
+          "reference": "R301",
+          "pad": "2",
+          "net": "LCD_CSn",
+          "board_XY_mm": [
+            115.0,
+            99.175
+          ]
+        },
+        {
+          "reference": "C306",
+          "pad": "1",
+          "net": "LCD_C2M",
+          "board_XY_mm": [
+            85.0,
+            99.475
+          ]
+        },
+        {
+          "reference": "C306",
+          "pad": "2",
+          "net": "LCD_C2P",
+          "board_XY_mm": [
+            85.0,
+            96.525
+          ]
+        },
+        {
+          "reference": "C302",
+          "pad": "1",
+          "net": "LCD_V1",
+          "board_XY_mm": [
+            81.225,
+            92.0
+          ]
+        },
+        {
+          "reference": "C302",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            82.775,
+            92.0
+          ]
+        },
+        {
+          "reference": "R312",
+          "pad": "1",
+          "net": "LCD_DB7",
+          "board_XY_mm": [
+            127.0,
+            110.825
+          ]
+        },
+        {
+          "reference": "R312",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            127.0,
+            109.175
+          ]
+        },
+        {
+          "reference": "R306",
+          "pad": "1",
+          "net": "LCD_DB1",
+          "board_XY_mm": [
+            119.0,
+            106.825
+          ]
+        },
+        {
+          "reference": "R306",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            119.0,
+            105.175
+          ]
+        },
+        {
+          "reference": "C304",
+          "pad": "1",
+          "net": "LCD_V3",
+          "board_XY_mm": [
+            73.225,
+            92.0
+          ]
+        },
+        {
+          "reference": "C304",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            74.775,
+            92.0
+          ]
+        },
+        {
+          "reference": "R307",
+          "pad": "1",
+          "net": "LCD_DB2",
+          "board_XY_mm": [
+            123.0,
+            106.825
+          ]
+        },
+        {
+          "reference": "R307",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            123.0,
+            105.175
+          ]
+        },
+        {
+          "reference": "S303",
+          "pad": "1",
+          "net": "BTN_RIGHTn",
+          "board_XY_mm": [
+            118.0,
+            143.75
+          ]
+        },
+        {
+          "reference": "S303",
+          "pad": "1",
+          "net": "BTN_RIGHTn",
+          "board_XY_mm": [
+            126.0,
+            143.75
+          ]
+        },
+        {
+          "reference": "S303",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            118.0,
+            148.25
+          ]
+        },
+        {
+          "reference": "S303",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            126.0,
+            148.25
+          ]
+        },
+        {
+          "reference": "C303",
+          "pad": "1",
+          "net": "LCD_V2",
+          "board_XY_mm": [
+            77.225,
+            92.0
+          ]
+        },
+        {
+          "reference": "C303",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            78.775,
+            92.0
+          ]
+        },
+        {
+          "reference": "C301",
+          "pad": "1",
+          "net": "LCD_V0",
+          "board_XY_mm": [
+            85.225,
+            92.0
+          ]
+        },
+        {
+          "reference": "C301",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            86.775,
+            92.0
+          ]
+        },
+        {
+          "reference": "R308",
+          "pad": "1",
+          "net": "LCD_DB3",
+          "board_XY_mm": [
+            127.0,
+            106.825
+          ]
+        },
+        {
+          "reference": "R308",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            127.0,
+            105.175
+          ]
+        },
+        {
+          "reference": "R310",
+          "pad": "1",
+          "net": "LCD_DB5",
+          "board_XY_mm": [
+            119.0,
+            110.825
+          ]
+        },
+        {
+          "reference": "R310",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            119.0,
+            109.175
+          ]
+        },
+        {
+          "reference": "S301",
+          "pad": "1",
+          "net": "BTN_LEFTn",
+          "board_XY_mm": [
+            74.0,
+            143.75
+          ]
+        },
+        {
+          "reference": "S301",
+          "pad": "1",
+          "net": "BTN_LEFTn",
+          "board_XY_mm": [
+            82.0,
+            143.75
+          ]
+        },
+        {
+          "reference": "S301",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            74.0,
+            148.25
+          ]
+        },
+        {
+          "reference": "S301",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            82.0,
+            148.25
+          ]
+        },
+        {
+          "reference": "R305",
+          "pad": "1",
+          "net": "LCD_DB0",
+          "board_XY_mm": [
+            115.0,
+            106.825
+          ]
+        },
+        {
+          "reference": "R305",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            115.0,
+            105.175
+          ]
+        },
+        {
+          "reference": "R302",
+          "pad": "1",
+          "net": "3V3_UI",
+          "board_XY_mm": [
+            119.0,
+            100.825
+          ]
+        },
+        {
+          "reference": "R302",
+          "pad": "2",
+          "net": "LCD_WRn",
+          "board_XY_mm": [
+            119.0,
+            99.175
+          ]
+        },
+        {
+          "reference": "R304",
+          "pad": "1",
+          "net": "LCD_A0",
+          "board_XY_mm": [
+            127.0,
+            100.825
+          ]
+        },
+        {
+          "reference": "R304",
+          "pad": "2",
+          "net": "GND",
+          "board_XY_mm": [
+            127.0,
+            99.175
+          ]
+        },
+        {
+          "reference": "C307",
+          "pad": "1",
+          "net": "LCD_C1P",
+          "board_XY_mm": [
+            79.0,
+            99.475
+          ]
+        },
+        {
+          "reference": "C307",
+          "pad": "2",
+          "net": "LCD_C1M",
+          "board_XY_mm": [
+            79.0,
+            96.525
+          ]
+        }
+      ],
+      "connector_poses": {
+        "J301": {
+          "board_origin_XY_mm": [
+            125.0,
+            87.0
+          ],
+          "angle_deg": 180.0,
+          "dock_origin_XY_mm": [
+            25.0,
+            113.0
+          ],
+          "dock_pin1_XY_mm": [
+            29.75,
+            111.15
+          ],
+          "dock_mouth_vector_XY": [
+            -1.2246467991473532e-16,
+            1.0
+          ],
+          "conductor_order": "pin1+X",
+          "mating_contract": "J201p toJ301p"
+        },
+        "J302": {
+          "board_origin_XY_mm": [
+            100.0,
+            86.0
+          ],
+          "angle_deg": 0.0,
+          "dock_origin_XY_mm": [
+            0.0,
+            114.0
+          ],
+          "dock_pin1_XY_mm": [
+            -6.5,
+            114.0
+          ],
+          "dock_mouth_vector_XY": [
+            -0.0,
+            -1.0
+          ],
+          "conductor_order": "pin1-X",
+          "mating_contract": "J302p toLCDp"
+        }
+      },
+      "tracks_and_vias": 0,
+      "pass": true
+    }
+  ],
+  "physical_pads_checked": 274,
+  "limits": [
+    "Controller PCB is the controller subset of the future shared base, with source/safety areas unpopulated.",
+    "Observed track/via counts do not establish routing, DRC acceptance or fabrication readiness.",
+    "Connector mouth/pin order follows the stated native board frame; socket actual mate depth/Z and physical continuity remain unqualified.",
+    "This is pad identity and nominal placement evidence, not PCB DRC acceptance or complete-part CAD fit."
+  ],
+  "physical_validation": false,
+  "full_product_order_ready": false
+}

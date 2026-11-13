@@ -1,0 +1,22 @@
+Manufacturer,MPN,Quantity_per_board,References,Schematic_value,Footprint,Assembly_note,Manufacturer_source
+Diodes Incorporated,B140HW-7,1,D1,Schottky 1A/20V candidate,Selected:Diodes_B140HW_SOD123_A1_K2,Custom footprint uses logical pad1 ANODE /pad2 CATHODE. Physical cathode stripe goes at the CAD cathode bar/pad2; do not assume generic diode pad1 numbering.,https://www.diodes.com/datasheet/download/B140HW.pdf
+Espressif,ESP32-C3-MINI-1-N4X,1,U6,ESP32-C3-MINI-1-N4X candidate,Selected:Espressif_ESP32-C3-MINI-1_53Pads,Preserve four-layer copper/antenna keepout. Quote stencil/ground-pad process using the native custom53-pad footprint.,https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html
+JST,SM06B-SRSS-TB(LF)(SN),1,J4,SERVICE_USB_BOOT,Selected:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+JST,SM10B-SRSS-TB(LF)(SN),1,J7,SM10B-SRSS-TB candidate,Selected:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal,Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+Littelfuse,1206L050YR,1,F1,PTC 500mA candidate,Selected:Fuse_1206_3216Metric,"500mA hold PTC, not a precise current limiter. Use6V variant matching this exact part/height, not a taller alternate.",https://www.littelfuse.com/assetdocs/resettable-ptcs-1206l-datasheet?assetguid=2b6a1515-d4ee-4c83-8bd4-152b4901b8f5
+Murata,GRM155R71C104KA88D,3,C71 C82 C84,100nF / 100nF / VDDIO local,Selected:C_0402_1005Metric,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23
+Murata,GRM155R71C224KA12D,1,C81,220nF,Selected:C_0402_1005Metric,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C224KA12%23
+Murata,GRM188R71C104KA01D,2,C32 C34,100nF,Selected:Murata_GRM18_0603_Reflow,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23
+Murata,GRM21BR61A106KE19L,1,C31,10uF 10V,Selected:Murata_GRM21_0805_Reflow,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23
+Omron,B3U-1000P,2,SW1 SW2,MODE / momentary / POWER / momentary,Selected:SW_SPST_B3U-1000P,,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf
+STMicroelectronics,LSM303AGRTR,1,U81,LSM303AGRTR,Selected:LGA-12_2x2mm_P0.5mm,Pin1 and fixed package orientation must match the native footprint. Do not rotate for convenience; board registers to the molded back arrow.,https://www.st.com/resource/en/datasheet/lsm303agr.pdf
+STMicroelectronics,USBLC6-2SC6,1,U75,USBLC6-2SC6,Selected:SOT-23-6,,https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+TDK,C1608X7R1E105K080AB,1,C33,1uF,Selected:TDK_C1608_0603_Reflow,,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB
+TDK,C2012X5R1E226M125AC,1,C83,22uF 10V / Ceff>=10uF at3V3,Selected:C_0805_2012Metric,C83 incoming/process acceptance: >=10uF effective at3.3V over intended temperature/age. Nominal22uF and voltage rating alone are not acceptance; manufacturer curves are reference data.,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1E226M125AC
+Texas Instruments,TPS3422EGDRYR,1,U71,TPS3422EGDRYR,Selected:Texas_USON-6_1x1.45mm_P0.5mm_SMD,,https://www.ti.com/lit/ds/symlink/tps3422.pdf
+Vishay,BAT54WS-E3-08,3,D71 D72 D73,BAT54WS-E3-08,Selected:D_SOD-323,,https://www.vishay.com/docs/86465/bat54ws.pdf
+Vishay,TNPW040210K0BEED,1,R71,10k,Selected:R_0402_1005Metric,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW040222R0BEED,2,R75 R76,22R,Selected:R_0402_1005Metric,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW060310K0BEEA,6,R31 R32 R33 R34 R35 R36,10k,Selected:Vishay_TNPW0603_IEC_Reflow,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW06034K70BEEA,2,R37 R38,4.7k,Selected:Vishay_TNPW0603_IEC_Reflow,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW08051M00BEEA,2,R39 R40,1.00M 1%,Selected:Vishay_TNPW0805_IEC_Reflow,,https://www.vishay.com/docs/28758/tnpw_e3.pdf

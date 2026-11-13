@@ -1,0 +1,386 @@
+metadata:
+  title: EVT1 body J6 to flange J7 / ten independent conductors
+  notes: EVT first article. Native numeric pin map; verify mating marks/continuity.
+    Free-span dimensions are between modeled wire-exit datums; stock blanks are longer
+    and are not finished cut lengths. No physical crimp/current/fit acceptance.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J6:
+    type: JST SH10 without protrusions
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    pinlabels: &id001
+    - GND
+    - VBUS_CHG
+    - 3V3
+    - PACK_P
+    - MOTOR_ARM
+    - MOTOR_PWM
+    - DOCK_PRESENT_N
+    - I2C_SDA
+    - I2C_SCL
+    - TIP_EXC_EN
+    ignore_in_bom: false
+    manufacturer: JST
+    mpn: SHR-10V-S
+  J7:
+    type: JST SH10 without protrusions
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    pinlabels: *id001
+    ignore_in_bom: false
+    manufacturer: JST
+    mpn: SHR-10V-S
+    notes: 'Supply finished crimp terminals in numbered order with this
+
+      housing loose. Insert only after the cap/body module is threaded;
+
+      do not feed the11mm housing alongside the other neck conductors.'
+cables:
+  IB01:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - GND
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Nominal free insulated path63.788mm,
+
+      before terminal take-up.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  IB02:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - VBUS_CHG
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Nominal free insulated path63.423mm,
+
+      before terminal take-up.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  IB03:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - 3V3
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Nominal free insulated path63.145mm,
+
+      before terminal take-up.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  IB04:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - PACK_P
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Nominal free insulated path62.959mm,
+
+      before terminal take-up.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  IB05:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - MOTOR_ARM
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Nominal free insulated path62.865mm,
+
+      before terminal take-up.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  IB06:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - MOTOR_PWM
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Nominal free insulated path62.865mm,
+
+      before terminal take-up.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  IB07:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - DOCK_PRESENT_N
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Nominal free insulated path62.959mm,
+
+      before terminal take-up.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  IB08:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - I2C_SDA
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Nominal free insulated path63.145mm,
+
+      before terminal take-up.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  IB09:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - I2C_SCL
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Nominal free insulated path63.423mm,
+
+      before terminal take-up.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  IB10:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - TIP_EXC_EN
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Nominal free insulated path63.788mm,
+
+      before terminal take-up.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+connections:
+- - J6:
+    - 1
+  - IB01:
+    - 1
+  - J7:
+    - 1
+- - J6:
+    - 2
+  - IB02:
+    - 1
+  - J7:
+    - 2
+- - J6:
+    - 3
+  - IB03:
+    - 1
+  - J7:
+    - 3
+- - J6:
+    - 4
+  - IB04:
+    - 1
+  - J7:
+    - 4
+- - J6:
+    - 5
+  - IB05:
+    - 1
+  - J7:
+    - 5
+- - J6:
+    - 6
+  - IB06:
+    - 1
+  - J7:
+    - 6
+- - J6:
+    - 7
+  - IB07:
+    - 1
+  - J7:
+    - 7
+- - J6:
+    - 8
+  - IB08:
+    - 1
+  - J7:
+    - 8
+- - J6:
+    - 9
+  - IB09:
+    - 1
+  - J7:
+    - 9
+- - J6:
+    - 10
+  - IB10:
+    - 1
+  - J7:
+    - 10
+additional_bom_items:
+- description: SH socket crimp terminal
+  qty: 20
+  unit: pcs
+  manufacturer: JST
+  mpn: SSH-003T-P0.2-H

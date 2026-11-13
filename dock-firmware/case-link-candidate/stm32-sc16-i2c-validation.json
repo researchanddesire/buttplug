@@ -1,0 +1,49 @@
+{
+  "scope": "Isolated STM32L071 I2C2 callback candidate and link fixture",
+  "host_test": {
+    "command": "make -f adapter.mk adapter-test",
+    "result": "PASS",
+    "sanitizer": "undefined",
+    "MMIO_model": true
+  },
+  "target_build": {
+    "command": "make -f adapter.mk adapter-compile",
+    "compiler": "arm-none-eabi-gcc (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 13.3.1 20240614",
+    "cpu": "Cortex-M0+",
+    "object": {
+      "sha256": "280a3a05cb7842592bcc071a5cab46432acca5cc478ceb5e2235f4723ccae70f",
+      "text_bytes": 1056,
+      "data_bytes": 0,
+      "bss_bytes": 0
+    },
+    "link_fixture": {
+      "sha256": "43ca98ab7724401eda50e2287d1c12e822de696ecf25566d2d479cccb1299214",
+      "text_bytes": 2222,
+      "data_bytes": 0,
+      "bss_bytes": 288,
+      "undefined_symbols": 0,
+      "flashable": false
+    }
+  },
+  "source_sha256": {
+    "stm32_sc16_i2c.c": "496338e92f5103ccd55d37cdd41c8ccc0bc241c312b5395f45653c0ea8269d2a",
+    "stm32_sc16_i2c.h": "8cd6a2c7be563ea839945c7cb62f9a65bb5c8d07d0d00d6b11dc0e1d5d6c8f3e",
+    "test_stm32_sc16_i2c.c": "772c18e85020f6b892128b91cd774298d19574ce7d694cb98903718446fe1e0d",
+    "test_stm32_sc16_i2c_model.h": "04e94026c7cf4fa87aeddbd59bb0717d6b876c449c184ba3aa90923749678946",
+    "stm32_sc16_i2c_compile.c": "e0e49399f05ce58d82f3fd3e13d357e9ded0f732fc47d349daffc28f17c6364a",
+    "STM32-SC16-I2C.md": "8312f53fa0f73976c99a30476dbf13ea75986ecf7acbe3c406a7ec023cfd988f",
+    "adapter.mk": "55a82df4a673bea3ef80ee6facc9b72e4fb85f9e89fba5bbd9f98732cd96feab",
+    "Makefile": "ba54716b378452c59249152cf4411cc23f4af14a3e7bc9e49932c6c81bd1a791",
+    "compile_only.ld": "d0990cfbdc8b42c5d4bce8fc18ae78aea8b4f74f08d35327abe27f32cfa96850",
+    "sc16_bridge.c": "51fbbe70f2215431c28b2fec780b67b27baea76c240b19c6bfc053ba4d3a19fe",
+    "sc16_bridge.h": "160105e256b589e379b92f4066ce9ab89609bf3eb6db5b8c556e8605b7b85603",
+    "../include/board_pins.h": "50b8100ca8064fa83b7c08c8e56defd781b94098325d6c68aa9fac78760322ab",
+    "../src/board_stm32l071.c": "4ae9bc81367c94de16cb25b67560ecda0a4ff333ca4523a2ba94672b4ee866e2",
+    "../src/runtime.c": "bf0abc090687222416ebf6df000735d95ce5b4b1019aad7f2c84317a6d9736ea",
+    "../vendor/st/stm32l071xx.h": "b68de5ee2a55cbdf717ab18744f41487a58f79d90ad8bf6122f887fe4f176a54",
+    "../vendor/sources.json": "2fe01b580290b8bbd41e7ae91a5ee33a4609b26fa1a10d2f7a070fb09011339c",
+    "../../hardware/pcb/evt1/case-telemetry-study/hardware-contract.json": "66df0f96a216a2ece8c16b6774e85021a44eccb8d8c2eaa6520fa71ba95aabae"
+  },
+  "production_runtime_integrated": false,
+  "powered_validation": false
+}

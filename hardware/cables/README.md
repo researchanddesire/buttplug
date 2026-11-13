@@ -1,10 +1,11 @@
 # Cable harnesses
 
-P1 uses the existing R29 interboard, R26 tip, R37 pack/dual-NTC and R0 motor
-recipes, plus the new [two-wire charging recipe](charging-p1/README.md).
-See `assembly-docs/cable-harnesses.md` for the current connection table.
-The charging recipe matches the native R35F DOCK_5V/GND map; the motor map is
-also checked against R35F. Physical motor/dock routing still needs completion.
+Current work is the [EVT1 loom set](evt1/README.md), using the five current
+EVT1 PCB netlists. It has separate interboard, compass, pack/dual-NTC, motor,
+two-wire tip, four-contact and cradle sources. See
+`assembly-docs/cable-harnesses.md` for the connection table and generated child
+BOM links. P1/R35F recipes below remain prior references and do not override
+the current pin map, two-wire thermistor or four-contact USB interface.
 
 Use individually insulated joints and simple accessible harness restraint.
 Do not resume the R38 comb or R39 cage designs. Starting blanks are trimmed

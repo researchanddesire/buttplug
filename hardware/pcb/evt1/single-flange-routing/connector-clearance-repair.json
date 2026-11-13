@@ -1,0 +1,684 @@
+{
+  "input_board_sha256": "c7fa8519054089a71cad11b55d2593b30dd79a87b650c82507b3cde8f903b769",
+  "board_sha256": "66245307894266b9192c4790698155dad848790f151d25c901a740830896e53e",
+  "frozen_study_board_sha256": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
+  "authorization": "Root-approved two-part repair after independent native placement DRC and UV59-pose mating proof",
+  "positions_product_XZ_mm": {
+    "U75": {
+      "old": [
+        -1,
+        4
+      ],
+      "new": [
+        6.3,
+        9
+      ]
+    },
+    "U71": {
+      "old": [
+        -1,
+        -6
+      ],
+      "new": [
+        -1,
+        -7
+      ]
+    }
+  },
+  "all_other_footprints_and_models_unchanged": true,
+  "mechanical_proof_path": "hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/j7-mate-trial/combined-review.json",
+  "mechanical_proof_sha256": "14594ead44fb287736eb43742138bbbdca840c07b22a9b952e80e18a133e7cd8",
+  "mechanical_native_sha256": "dfc2dc4259e04644e73bd546e336e8d87d6070c07d4d4c53d3bcc2cfcee5ed3e",
+  "disposable_native_placement_DRC_sha256": "18ea6232930b036743d9c9523414f576dcde342ea9fed27f0061fdb1837b347c",
+  "removed_copper": [
+    {
+      "uuid": "4e010a33-7855-4101-bbcf-e7b2c9b71baf",
+      "reason": "rebuild USB ESD fanout",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        0,
+        96750000,
+        96950000,
+        96750000,
+        96950000,
+        500000,
+        true,
+        200000
+      ]
+    },
+    {
+      "uuid": "85389611-36bd-40a6-9074-fa1cc580e34b",
+      "reason": "rebuild USB ESD fanout",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        31,
+        97862500,
+        96950000,
+        96750000,
+        96950000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "d34093c7-3779-44e1-be77-61fa15fa58fe",
+      "reason": "rebuild USB ESD fanout",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        96750000,
+        95050000,
+        96750000,
+        95050000,
+        500000,
+        true,
+        200000
+      ]
+    },
+    {
+      "uuid": "0643e78f-f5bb-4a34-ab56-5313e6563d77",
+      "reason": "rebuild USB ESD fanout",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        31,
+        97862500,
+        95050000,
+        96750000,
+        95050000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "e2978179-ec5d-4904-9203-5bf8222faf53",
+      "reason": "rebuild USB ESD fanout",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        0,
+        101250000,
+        96950000,
+        101250000,
+        96950000,
+        500000,
+        true,
+        200000
+      ]
+    },
+    {
+      "uuid": "51bb6cd7-4e8c-4483-b196-867cb6d85bc2",
+      "reason": "rebuild USB ESD fanout",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        31,
+        100137500,
+        96950000,
+        101250000,
+        96950000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "805fb2ac-4693-4a94-b08d-6072892a3093",
+      "reason": "rebuild USB ESD fanout",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        101250000,
+        95050000,
+        101250000,
+        95050000,
+        500000,
+        true,
+        200000
+      ]
+    },
+    {
+      "uuid": "8be5114a-c217-42c0-9514-440492501ec4",
+      "reason": "rebuild USB ESD fanout",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        31,
+        100137500,
+        95050000,
+        101250000,
+        95050000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "59029c02-3c07-46d3-a0a0-2cf2ad513c30",
+      "reason": "rebuild USB contact fanout",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        0,
+        90000000,
+        90000000,
+        96750000,
+        96750000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "2cc49645-15ce-4e81-b45b-ae815668d676",
+      "reason": "rebuild USB contact fanout",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        0,
+        96750000,
+        96750000,
+        96750000,
+        96950000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "c82df3f4-1582-4b1b-a630-1fbbb1e7595a",
+      "reason": "rebuild USB contact fanout",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        96000000,
+        90000000,
+        96750000,
+        90750000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "b9ded93c-2e97-40d1-a281-eac878b461c3",
+      "reason": "rebuild USB contact fanout",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        96750000,
+        90750000,
+        96750000,
+        95050000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "98db9683-7a0e-4df0-adaa-2b9697f52435",
+      "reason": "rebuild USB ESD channel landing",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        0,
+        96750000,
+        96950000,
+        101250000,
+        96950000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "68bd03a4-01f3-4a3b-b751-0c8cfc469153",
+      "reason": "rebuild USB ESD channel landing",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        96750000,
+        95050000,
+        101250000,
+        95050000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "ba2a259c-80f9-4c8b-8d7a-ae54d32f2482",
+      "reason": "rebuild USB contact-to-series paired section",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        0,
+        101250000,
+        96950000,
+        102250000,
+        97950000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "ef61cf9e-c3e3-4312-a372-1b94fbb9d831",
+      "reason": "rebuild USB contact-to-series paired section",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        0,
+        102250000,
+        97950000,
+        101800000,
+        98400000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "2c06d020-9a40-4601-9fdc-01da9e9411a9",
+      "reason": "rebuild USB contact-to-series paired section",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        0,
+        101800000,
+        98400000,
+        84400000,
+        98400000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "1f136a32-2915-4ac7-aa9b-3eb121c6ec57",
+      "reason": "rebuild USB contact-to-series paired section",
+      "original_signature": [
+        "USB_DM_CONTACT",
+        0,
+        84400000,
+        98400000,
+        82500000,
+        96500000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "a31c43c2-19b8-47af-9479-10b98d69cd19",
+      "reason": "rebuild USB contact-to-series paired section",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        101250000,
+        95050000,
+        103500000,
+        97300000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "dc330645-6d9d-4d4f-8e55-ae079e4f3322",
+      "reason": "rebuild USB contact-to-series paired section",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        103500000,
+        97300000,
+        103500000,
+        98750000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "1a536cff-19d2-4ac0-a3fd-0e9c64685e32",
+      "reason": "rebuild USB contact-to-series paired section",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        103500000,
+        98750000,
+        84000000,
+        98750000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "efb8ace5-d70c-49d5-95c1-bb5b4b845629",
+      "reason": "rebuild USB contact-to-series paired section",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        84000000,
+        98750000,
+        81800000,
+        96550000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "b477cb51-5d62-4876-ac37-d7e4e4dbb67e",
+      "reason": "rebuild USB contact-to-series paired section",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        81800000,
+        96550000,
+        81800000,
+        94200000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "c3000f98-4ad5-4a85-99c3-d14e979f31fb",
+      "reason": "rebuild USB contact-to-series paired section",
+      "original_signature": [
+        "USB_DP_CONTACT",
+        0,
+        81800000,
+        94200000,
+        82500000,
+        93500000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "639fa2ef-ce05-435c-994c-3229694c4777",
+      "reason": "rebuild ESD short ground return",
+      "original_signature": [
+        "GND",
+        31,
+        97862500,
+        96000000,
+        96900000,
+        96000000,
+        350000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "f9a95944-a772-483d-84c5-3a91a62d8355",
+      "reason": "rebuild ESD VBUS bias",
+      "original_signature": [
+        "DOCK_5V",
+        31,
+        100137500,
+        96000000,
+        101600000,
+        96000000,
+        400000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "83dc96df-e365-4e0f-9edf-56e379014b24",
+      "reason": "rebuild ESD VBUS bias",
+      "original_signature": [
+        "DOCK_5V",
+        31,
+        101600000,
+        96000000,
+        102600000,
+        95000000,
+        400000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "fbf9fc6f-8ac9-4846-add6-c0d800591af3",
+      "reason": "rebuild PTC to diode anode",
+      "original_signature": [
+        "DOCK_FUSED",
+        31,
+        105400000,
+        95000000,
+        105400000,
+        93500000,
+        600000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "e89f355e-5ff0-4f53-a001-f2054ed34fb6",
+      "reason": "rebuild PTC to diode anode",
+      "original_signature": [
+        "DOCK_FUSED",
+        31,
+        105400000,
+        93500000,
+        106600000,
+        92300000,
+        600000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "a4d9592c-1857-45f8-a9f9-4e923b8f0f34",
+      "reason": "rebuild PTC to diode anode",
+      "original_signature": [
+        "DOCK_FUSED",
+        31,
+        106600000,
+        92300000,
+        109950000,
+        92300000,
+        600000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "da9b8eb0-2b1d-4061-b324-4227089193eb",
+      "reason": "rebuild PTC to diode anode",
+      "original_signature": [
+        "DOCK_FUSED",
+        31,
+        109950000,
+        92300000,
+        110650000,
+        93000000,
+        600000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "b568e2db-f476-4f1b-b0a1-498cdbf06c4e",
+      "reason": "rebuild PTC to diode anode",
+      "original_signature": [
+        "DOCK_FUSED",
+        31,
+        110650000,
+        93000000,
+        110650000,
+        95000000,
+        600000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "407ae9ae-5b7f-42f5-b06a-7a5394d4ef5d",
+      "reason": "old U71 terminal route after1mm translation",
+      "original_signature": [
+        "3V3",
+        31,
+        101490000,
+        105606100,
+        99406100,
+        105606100,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "518b17f4-5f12-42f4-98e4-8915a7ed3f17",
+      "reason": "old U71 terminal route after1mm translation",
+      "original_signature": [
+        "3V3",
+        31,
+        99406100,
+        105606100,
+        99300000,
+        105500000,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "befc94cb-0b19-49e9-ae14-dd0fa69e2af5",
+      "reason": "old U71 terminal route after1mm translation",
+      "original_signature": [
+        "3V3",
+        31,
+        99300000,
+        105500000,
+        99300000,
+        97384700,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "53c121ee-a5f8-4a4c-bd1f-0f7b1cb30af5",
+      "reason": "old U71 terminal route after1mm translation",
+      "original_signature": [
+        "GND",
+        31,
+        99300000,
+        106000000,
+        99300000,
+        106500000,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "848a4db5-99b6-4691-85c8-af63c47900bb",
+      "reason": "old U71 terminal route after1mm translation",
+      "original_signature": [
+        "GND",
+        31,
+        99300000,
+        106000000,
+        98700000,
+        106000000,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "ee1cdbd5-3c20-45d1-bc9b-ab599d342c6c",
+      "reason": "old U71 terminal route after1mm translation",
+      "original_signature": [
+        "GND",
+        31,
+        99300000,
+        108820000,
+        99300000,
+        106500000,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "1eafa3e6-f62a-47f1-8c12-ac33f3d6184f",
+      "reason": "old U71 terminal route after1mm translation",
+      "original_signature": [
+        "MCU_EN",
+        31,
+        98256000,
+        106969000,
+        98725000,
+        106500000,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "a4021d98-28a4-4306-95fc-5fc763ef8e0e",
+      "reason": "old U71 terminal route after1mm translation",
+      "original_signature": [
+        "POWER_SWITCH_N",
+        31,
+        98448300,
+        105248300,
+        98700000,
+        105500000,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "01cdc1c8-edfd-44d3-a95b-7af272453572",
+      "reason": "general routing intersected reconstructed ESD critical copper",
+      "original_signature": [
+        "PACK_P",
+        2,
+        94123300,
+        97897200,
+        109551800,
+        97897200,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "ce02d90d-b867-4a34-a1de-b14691f29a0a",
+      "reason": "general routing intersected reconstructed ESD critical copper",
+      "original_signature": [
+        "VBAT_ADC",
+        2,
+        110327700,
+        98547300,
+        88753600,
+        98547300,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "688816d4-d0cc-456a-9b1c-65b3cfca9eae",
+      "reason": "general routing intersected translated pad",
+      "original_signature": [
+        "MCU_EN",
+        0,
+        98256000,
+        106969000,
+        98256000,
+        106969000,
+        500000,
+        false,
+        200000
+      ]
+    }
+  ],
+  "preserved_original_copper": 431,
+  "replacement_critical": 51,
+  "all_other_copper_properties_preserved": true,
+  "native_full_DRC_required": true
+}

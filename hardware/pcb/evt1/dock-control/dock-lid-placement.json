@@ -1,0 +1,290 @@
+{
+  "scope": "Separate lid UI placement candidate",
+  "status": "Unrouted; no physical fit or fabrication release",
+  "native_board": "dock-lid-placement.kicad_pcb",
+  "native_board_sha256": "6fc2608bf8466717a4919f7afda0458297b4e22480bf7431d250720d5db0191e",
+  "native_schematic_xml": "dock-lid-ui-native.xml",
+  "native_schematic_xml_sha256": "6c5c32475a597fada90be6c697b707fbdca438c96149c9017451786df398cabb",
+  "builder_sha256": "8b9988944a2b92e1fa0c3642ef93394c47fdba9a6c5ad02b053d811bfc389757",
+  "outline_dock_xy_mm": [
+    [
+      -33,
+      49
+    ],
+    [
+      33,
+      49
+    ],
+    [
+      36,
+      52
+    ],
+    [
+      36,
+      117
+    ],
+    [
+      33,
+      120
+    ],
+    [
+      -33,
+      120
+    ],
+    [
+      -36,
+      117
+    ],
+    [
+      -36,
+      52
+    ]
+  ],
+  "cutouts_dock_xy_mm": [],
+  "thickness_mm": 1,
+  "F_Cu_global_Z_mm": null,
+  "pcbnew_native_to_dock_xy": "dockX=nativeX-100; dockY=200-nativeY",
+  "StepUp_import": {
+    "pcb_placement": 2,
+    "F_Cu_local_Z_mm": 0,
+    "B_Cu_local_Z_mm": -1,
+    "local_to_dock_4x4": [
+      [
+        1,
+        0,
+        0,
+        0.0
+      ],
+      [
+        0,
+        1,
+        0,
+        84.5
+      ],
+      [
+        0,
+        0,
+        1,
+        null
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "note": "StepUp centres outline bounds and reflects native down-pageY. Identity App::Placement rotation; lid Z translation must be solved from actual socket contact plane. No reflected FreeCAD placement."
+  },
+  "footprint_placements_dock_xy_and_native_angle": {
+    "S301": [
+      -22,
+      54,
+      0
+    ],
+    "S302": [
+      0,
+      54,
+      0
+    ],
+    "S303": [
+      22,
+      54,
+      0
+    ],
+    "J302": [
+      0,
+      114,
+      0
+    ],
+    "J301": [
+      25,
+      113,
+      180
+    ],
+    "C301": [
+      -14,
+      108,
+      0
+    ],
+    "C302": [
+      -18,
+      108,
+      0
+    ],
+    "C303": [
+      -22,
+      108,
+      0
+    ],
+    "C304": [
+      -26,
+      108,
+      0
+    ],
+    "C305": [
+      -30,
+      108,
+      0
+    ],
+    "C306": [
+      -15,
+      102,
+      90
+    ],
+    "C307": [
+      -21,
+      102,
+      90
+    ],
+    "C308": [
+      -27,
+      102,
+      90
+    ],
+    "C309": [
+      -32,
+      102,
+      90
+    ],
+    "C310": [
+      15,
+      106,
+      0
+    ],
+    "C311": [
+      18,
+      106,
+      0
+    ],
+    "R301": [
+      15,
+      100,
+      90
+    ],
+    "R302": [
+      19,
+      100,
+      90
+    ],
+    "R303": [
+      23,
+      100,
+      90
+    ],
+    "R304": [
+      27,
+      100,
+      90
+    ],
+    "R305": [
+      15,
+      94,
+      90
+    ],
+    "R306": [
+      19,
+      94,
+      90
+    ],
+    "R307": [
+      23,
+      94,
+      90
+    ],
+    "R308": [
+      27,
+      94,
+      90
+    ],
+    "R309": [
+      15,
+      90,
+      90
+    ],
+    "R310": [
+      19,
+      90,
+      90
+    ],
+    "R311": [
+      23,
+      90,
+      90
+    ],
+    "R312": [
+      27,
+      90,
+      90
+    ]
+  },
+  "socket_directions": {
+    "J301": {
+      "native_footprint_angle_deg": 180,
+      "dock_mouth_vector": [
+        0,
+        1,
+        0
+      ],
+      "dock_pin1_side": "+X",
+      "cable_conductor_mapping": "p to p; TypeD opposite-face20way; physical routing/continuity open"
+    },
+    "J302": {
+      "native_footprint_angle_deg": 0,
+      "dock_mouth_vector": [
+        0,
+        -1,
+        0
+      ],
+      "dock_pin1_side": "-X",
+      "electrical_mapping": "LCD p to socket p",
+      "padrow_position_is_not_FFC_tip": true,
+      "FFC_tip_global_center_mm": [
+        0,
+        112.575222039,
+        61.85
+      ],
+      "FFC_contact_face_global_Z_mm": 61.7,
+      "FFC_contact_normal": [
+        0,
+        0,
+        -1
+      ],
+      "socket_mating_Z_mm": null,
+      "insertion_depth_qualified": false
+    }
+  },
+  "reserved_regions": {
+    "FFC_return_XY_mm": [
+      -8,
+      60,
+      8,
+      108.5
+    ],
+    "FFC_socket_transition": "Keepout stops before J302 courtyard; actual flex/socket mate remains open"
+  },
+  "mounting_boss_keepouts_dock_xy_R_mm": [
+    [
+      -52,
+      60,
+      3
+    ],
+    [
+      52,
+      60,
+      3
+    ],
+    [
+      -52,
+      115,
+      3
+    ],
+    [
+      52,
+      115,
+      3
+    ]
+  ],
+  "routing_present": false,
+  "full_product_order_ready": false
+}

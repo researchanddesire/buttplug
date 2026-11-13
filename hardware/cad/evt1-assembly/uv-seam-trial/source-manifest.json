@@ -1,0 +1,167 @@
+{
+  "design_status": "Unqualified native geometric trial. No optical containment, attenuation, cleaning, holding-force or material-opacity result.",
+  "geometry_source": "Parent-defined nominal seam ring and relief, dock closed globalXYZ. No purchased component is replaced with a fit proxy.",
+  "read_only_geometry_sources": [
+    "hardware/cad/evt1-assembly/DockAssembly.FCStd:LowerShell,UpperShell,LowerChamber,UpperChamber,CustomHingePin",
+    "tools/build_evt1_dock_front_closure.py and its source-bound frozen trial"
+  ],
+  "base_upstand": {
+    "outer_WH_R_mm": [
+      127.5,
+      162.5,
+      48.75
+    ],
+    "inner_WH_R_mm": [
+      125.5,
+      160.5,
+      47.75
+    ],
+    "center_Y_mm": 77.5,
+    "Z_mm": [
+      40,
+      43
+    ],
+    "front_interrupt_X_mm": [
+      -9.5,
+      9.5
+    ],
+    "front_interrupt_Y_below_mm": 0.8
+  },
+  "upper_entry_relief": {
+    "WH_R_mm": [
+      128.1,
+      163.1,
+      49.05
+    ],
+    "center_Y_mm": 77.5,
+    "Z_mm": [
+      40.2,
+      43.4
+    ],
+    "front_exclusion_X_mm": [
+      -9.2,
+      9.2
+    ],
+    "front_exclusion_Y_below_mm": 6.5
+  },
+  "nominal_clearances_mm": {
+    "radial": 0.3,
+    "axial": 0.4,
+    "base_radial_wall": 1.0,
+    "upper_outer_wall_at_relief_bottom": 0.95,
+    "front_baffle_side_overlap": 2.5
+  },
+  "manufacturing_trial": "Integral MJF/SLA upstand and entry relief; measured tolerance, warpage, surface finish, cleaning and opaque material selection remain open. No flexible snap or bonded light seal credited. Front retained magnets and plugs are frozen source geometry.",
+  "geometric_visibility_scope": "Finite line segments through nominal opaque geometry only. Reflected paths, transmission, surface scattering, source spectrum, irradiance, dose, interlock response, and received dimensions require physical validation.",
+  "front_returns": {
+    "base_cheeks_X_mm": [
+      [
+        -13.5,
+        -12.5
+      ],
+      [
+        12.5,
+        13.5
+      ]
+    ],
+    "base_cheeks_YZ_mm": [
+      -3.75,
+      10,
+      39.6,
+      43
+    ],
+    "upper_liner_notches_X_mm": [
+      [
+        -13.8,
+        -12.2
+      ],
+      [
+        12.2,
+        13.8
+      ]
+    ],
+    "upper_liner_notches_YZ_mm": [
+      -4.05,
+      10.3,
+      40.2,
+      43.3
+    ],
+    "reason": "Exact BRep confirmed an opposite-side diagonal ray bypassed the finite-width grip/ring-gap/rear-baffle combination. Return cheeks bridge this path. New local liner entry cuts preserve0.3mm nominal clearance; frozen closure is unchanged."
+  },
+  "front_return_loading": {
+    "lower_liner_full_depth_slots_X_mm": [
+      [
+        -13.8,
+        -12.2
+      ],
+      [
+        12.2,
+        13.8
+      ]
+    ],
+    "lower_liner_slots_YZ_mm": [
+      -4.05,
+      10.3,
+      10,
+      58
+    ],
+    "lower_plug_wall_wings_X_mm": [
+      [
+        -15.5,
+        -11.8
+      ],
+      [
+        11.8,
+        15.5
+      ]
+    ],
+    "lower_plug_wall_wings_YZ_mm": [
+      2.3,
+      4.3,
+      13.2,
+      39.8
+    ],
+    "floor_wings_Z_mm": [
+      13.2,
+      14.4
+    ],
+    "floor_wings_rear_Y_mm": 12.3,
+    "rear_floor_overlap_mm": 2,
+    "nominal_floor_gap_mm": 0.2,
+    "added_printed_parts": 0,
+    "sequence": "Vertical slotted liner, magnets and combined captive plug/baffles, then preassembled contact module. Whole-product loading checked by master owner.",
+    "reason": "Integral cheeks would obstruct vertical lower-liner installation. Full-depth slots plus mechanically retained overlap wings preserve installation and cover the new openings; source closure files remain frozen.",
+    "lower_plug_cheek_clearance_X_mm": [
+      [
+        -13.8,
+        -12
+      ],
+      [
+        12,
+        13.8
+      ]
+    ],
+    "lower_plug_cheek_clearance_YZ_mm": [
+      2,
+      4.6,
+      39.3,
+      40.1
+    ],
+    "cheek_to_plug_clearance_below_mm": 0.3,
+    "cheek_vertical_overlap_with_original_central_baffle_mm": 0.4
+  },
+  "upper_liner_rear_loading_notch": {
+    "WH_R_mm": [
+      27.8,
+      10.6,
+      0.4
+    ],
+    "center_Y_mm": 159.4,
+    "Z_mm": [
+      40.4,
+      47.2
+    ],
+    "reason": "Original upper-liner rear web notch stops at46.2 but tapered wall interferes throughlocal46.4015 during vertical insertion. Raising notch top to47.2 leaves0.3166mm nominal forward clearance where intact wall resumes. Only the liner is cut; hinge and case geometry stay unchanged."
+  },
+  "rejected_shallow_gap_native": "rejected/UVSeamShallowGapRejected.FCStd"
+}

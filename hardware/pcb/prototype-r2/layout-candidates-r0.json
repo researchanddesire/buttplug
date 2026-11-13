@@ -1,0 +1,3161 @@
+{
+  "date": "2026-10-30",
+  "status": "Assembly candidates, not the human-owned BOM or procurement authorization",
+  "parts": {
+    "J1": {
+      "mpn": "S2B-PH-SM4-TB",
+      "manufacturer": "JST",
+      "footprint": "JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal",
+      "height_mm": 4.8,
+      "source": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf",
+      "note": "Internal dock harness header only; exposed magnetic contacts, seals, polarity and pigtail remain separate mechanical work."
+    },
+    "F1": {
+      "mpn": "1206L050YR",
+      "manufacturer": "Littelfuse",
+      "footprint": "Fuse_1206_3216Metric",
+      "height_mm": 0.75,
+      "source": "https://www.littelfuse.com/assetdocs/resettable-ptcs-1206l-datasheet?assetguid=2b6a1515-d4ee-4c83-8bd4-152b4901b8f5",
+      "note": "0.5 A hold at 20 C, 6 V family candidate; not a precision current limiter. Exact YR ordering suffix from manufacturer packaging table; resistance and enclosed temperature derating still require review."
+    },
+    "D1": {
+      "mpn": "B140HW-7",
+      "manufacturer": "Diodes Inc.",
+      "footprint": "Diodes_B140HW_SOD123_A1_K2",
+      "height_mm": 1.35,
+      "source": "https://www.diodes.com/datasheet/download/B140HW.pdf",
+      "note": "1 A / 40 V Schottky candidate. Local footprint explicitly maps A=1,K=2 to the R0 symbol; stock KiCad polarity numbering would be wrong."
+    },
+    "C1": {
+      "mpn": "GRM21BR71A475KA73L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM21_0805_Reflow",
+      "height_mm": 1.4,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR71A475KA73%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "4.7 uF, 10 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "U1": {
+      "mpn": "BQ24074RGT",
+      "manufacturer": "Texas Instruments",
+      "footprint": "TI_RGT0016C_3x3mm_BQ24074_EP1.68mm",
+      "height_mm": 1.0,
+      "source": "See footprint-register-r0.json",
+      "land_source": "See footprint-register-r0.json",
+      "note": "Candidate IC; package and assembly-process boundaries remain in the footprint/charge review."
+    },
+    "J2": {
+      "mpn": "S4B-PH-SM4-TB",
+      "manufacturer": "JST",
+      "footprint": "JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal",
+      "height_mm": 4.8,
+      "source": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf",
+      "note": "Four-wire protected pack adapter: PACK_P,GND,PACK_NTC,PACK_GUARD. Actual pack lead order and two cell-coupled NTC attachments require review."
+    },
+    "R1": {
+      "mpn": "TNPW06038K87BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R2": {
+      "mpn": "TNPW06033K24BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R3": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "C2": {
+      "mpn": "GRM21BR71A475KA73L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM21_0805_Reflow",
+      "height_mm": 1.4,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR71A475KA73%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "4.7 uF, 10 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C3": {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM21_0805_Reflow",
+      "height_mm": 1.35,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "10 uF, 10 V, X5R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "R4": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R5": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "U2": {
+      "mpn": "TPS63070RNM",
+      "manufacturer": "Texas Instruments",
+      "footprint": "TI_RNM0015A_2.5x3mm_TPS63070",
+      "height_mm": 1.0,
+      "source": "See footprint-register-r0.json",
+      "land_source": "See footprint-register-r0.json",
+      "note": "Candidate IC; package and assembly-process boundaries remain in the footprint/charge review."
+    },
+    "L1": {
+      "mpn": "XFL4020-152MEC",
+      "manufacturer": "Coilcraft",
+      "footprint": "L_Coilcraft_XxL4020",
+      "height_mm": 2.1,
+      "source": "https://www.coilcraft.com/pdfs/xfl4020.pdf",
+      "note": "1.5 uH, 20%; 4.1 A saturation at 10% inductance drop, 25 C. Published land pattern matches library. Peak-current and thermal qualification remain open."
+    },
+    "C11": {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM21_0805_Reflow",
+      "height_mm": 1.35,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "10 uF, 10 V, X5R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C12": {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM21_0805_Reflow",
+      "height_mm": 1.35,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "10 uF, 10 V, X5R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C13": {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM31_1206_Reflow",
+      "height_mm": 2.7,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "22 uF, 10 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C14": {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM31_1206_Reflow",
+      "height_mm": 2.7,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "22 uF, 10 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C15": {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM31_1206_Reflow",
+      "height_mm": 2.7,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "22 uF, 10 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C16": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "R11": {
+      "mpn": "TNPW0603312KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R12": {
+      "mpn": "TNPW0603100KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R13": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "C51": {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "footprint": "TDK_C1608_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "land_source": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x5r1a106k080ac.pdf",
+      "note": "10 uF, 10 V, X5R, 10%; production version. Local HF bypass from TI reference circuit; effective capacitance, voltage margin and loop behavior remain to be verified."
+    },
+    "C52": {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "footprint": "TDK_C1608_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "land_source": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x5r1a106k080ac.pdf",
+      "note": "10 uF, 10 V, X5R, 10%; production version. Local HF bypass from TI reference circuit; effective capacitance, voltage margin and loop behavior remain to be verified."
+    },
+    "U8": {
+      "mpn": "TPS3700DDCR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "TSOT-23-6",
+      "height_mm": 1.1,
+      "source": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+      "land_source": "https://www.ti.com/lit/ml/mpds124i/mpds124i.pdf",
+      "note": "Candidate IC; package and assembly-process boundaries remain in the footprint/charge review."
+    },
+    "U9": {
+      "mpn": "TPS3808G33DBVR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "SOT-23-6",
+      "height_mm": 1.45,
+      "source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "land_source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "note": "Candidate IC; package and assembly-process boundaries remain in the footprint/charge review."
+    },
+    "R42": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R43": {
+      "mpn": "TNPW0805715KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0805_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R44": {
+      "mpn": "TNPW0603110KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R45": {
+      "mpn": "TNPW0603200KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R46": {
+      "mpn": "TNPW060311K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R47": {
+      "mpn": "TNPW06031K00BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R48": {
+      "mpn": "TNPW0603100KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "JP1": {
+      "mpn": "PCB solder jumper / open",
+      "manufacturer": "PCB feature",
+      "footprint": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+      "height_mm": 0,
+      "source": "https://gitlab.com/kicad/libraries/kicad-footprints/",
+      "note": "Fabricated open copper feature; charging permit remains open by default. Not a purchased shorting cap."
+    },
+    "Q1": {
+      "mpn": "AO3400A",
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "footprint": "SOT-23",
+      "height_mm": 1.25,
+      "source": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf",
+      "land_source": "https://www.aosmd.com/sites/default/files/res/package/SOT23.pdf",
+      "note": "Candidate IC; package and assembly-process boundaries remain in the footprint/charge review."
+    },
+    "C43": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C44": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "U3": {
+      "mpn": "TPS63070RNM",
+      "manufacturer": "Texas Instruments",
+      "footprint": "TI_RNM0015A_2.5x3mm_TPS63070",
+      "height_mm": 1.0,
+      "source": "See footprint-register-r0.json",
+      "land_source": "See footprint-register-r0.json",
+      "note": "Candidate IC; package and assembly-process boundaries remain in the footprint/charge review."
+    },
+    "L2": {
+      "mpn": "XFL4020-152MEC",
+      "manufacturer": "Coilcraft",
+      "footprint": "L_Coilcraft_XxL4020",
+      "height_mm": 2.1,
+      "source": "https://www.coilcraft.com/pdfs/xfl4020.pdf",
+      "note": "1.5 uH, 20%; 4.1 A saturation at 10% inductance drop, 25 C. Published land pattern matches library. Peak-current and thermal qualification remain open."
+    },
+    "C21": {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM21_0805_Reflow",
+      "height_mm": 1.35,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "10 uF, 10 V, X5R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C22": {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM21_0805_Reflow",
+      "height_mm": 1.35,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "10 uF, 10 V, X5R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C23": {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM31_1206_Reflow",
+      "height_mm": 2.7,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "22 uF, 10 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C24": {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM31_1206_Reflow",
+      "height_mm": 2.7,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "22 uF, 10 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C25": {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM31_1206_Reflow",
+      "height_mm": 2.7,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "22 uF, 10 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C26": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "R21": {
+      "mpn": "TNPW0805362KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0805_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R22": {
+      "mpn": "TNPW0603100KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R26": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "C53": {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "footprint": "TDK_C1608_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "land_source": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x5r1a106k080ac.pdf",
+      "note": "10 uF, 10 V, X5R, 10%; production version. Local HF bypass from TI reference circuit; effective capacitance, voltage margin and loop behavior remain to be verified."
+    },
+    "C54": {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "footprint": "TDK_C1608_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "land_source": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x5r1a106k080ac.pdf",
+      "note": "10 uF, 10 V, X5R, 10%; production version. Local HF bypass from TI reference circuit; effective capacitance, voltage margin and loop behavior remain to be verified."
+    },
+    "U4": {
+      "mpn": "SN74LVC1G11DBVR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "SOT-23-6",
+      "height_mm": 1.45,
+      "source": "See footprint-register-r0.json",
+      "land_source": "See footprint-register-r0.json",
+      "note": "Candidate IC; package and assembly-process boundaries remain in the footprint/charge review."
+    },
+    "U5": {
+      "mpn": "DRV8212DSGR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+      "height_mm": 0.8,
+      "source": "See footprint-register-r0.json",
+      "land_source": "See footprint-register-r0.json",
+      "note": "Candidate IC; package and assembly-process boundaries remain in the footprint/charge review."
+    },
+    "J3": {
+      "mpn": "SM02B-SRSS-TB",
+      "manufacturer": "JST",
+      "footprint": "JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal",
+      "height_mm": 2.95,
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "note": "Motor OUT1/OUT2; pin2 is not ground. Connector headline rating does not qualify measured startup/stall or actual wire/crimp path."
+    },
+    "C27": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C28": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C29": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C30": {
+      "mpn": "GRM32ER61A476KE20L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM32_1210_Reflow",
+      "height_mm": 2.7,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM32ER61A476KE20%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "47 uF, 10 V, X5R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "R23": {
+      "mpn": "TNPW0603100KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R24": {
+      "mpn": "TNPW0603100KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R25": {
+      "mpn": "TNPW0603100KBEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "U6": {
+      "mpn": "ESP32-C3-MINI-1-N4X",
+      "manufacturer": "Espressif",
+      "footprint": "Espressif_ESP32-C3-MINI-1_53Pads",
+      "height_mm": 2.55,
+      "source": "See footprint-register-r0.json",
+      "land_source": "See footprint-register-r0.json",
+      "note": "Candidate IC; package and assembly-process boundaries remain in the footprint/charge review."
+    },
+    "C31": {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM21_0805_Reflow",
+      "height_mm": 1.35,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "10 uF, 10 V, X5R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C32": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C33": {
+      "mpn": "C1608X7R1E105K080AB",
+      "manufacturer": "TDK",
+      "footprint": "TDK_C1608_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+      "land_source": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x7r1e105k080ab.pdf",
+      "note": "1 uF, 25 V, X7R, 10%; production status shown by manufacturer. Effective capacitance in this circuit remains unverified."
+    },
+    "R31": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R32": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R33": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R34": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "SW1": {
+      "mpn": "B3U-1000P",
+      "manufacturer": "Omron",
+      "footprint": "SW_SPST_B3U-1000P",
+      "height_mm": 1.75,
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+      "note": "Top-actuated SPST-NO; no boss or ground terminal. Two contacts are electrically interchangeable. Silicone actuator, force, travel and sealing remain unvalidated."
+    },
+    "SW2": {
+      "mpn": "B3U-1000P",
+      "manufacturer": "Omron",
+      "footprint": "SW_SPST_B3U-1000P",
+      "height_mm": 1.75,
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+      "note": "Top-actuated SPST-NO; no boss or ground terminal. Two contacts are electrically interchangeable. Silicone actuator, force, travel and sealing remain unvalidated."
+    },
+    "SW3": {
+      "mpn": "B3U-1000P",
+      "manufacturer": "Omron",
+      "footprint": "SW_SPST_B3U-1000P",
+      "height_mm": 1.75,
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+      "note": "Top-actuated SPST-NO; no boss or ground terminal. Two contacts are electrically interchangeable. Silicone actuator, force, travel and sealing remain unvalidated."
+    },
+    "SW4": {
+      "mpn": "B3U-1000P",
+      "manufacturer": "Omron",
+      "footprint": "SW_SPST_B3U-1000P",
+      "height_mm": 1.75,
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+      "note": "Top-actuated SPST-NO; no boss or ground terminal. Two contacts are electrically interchangeable. Silicone actuator, force, travel and sealing remain unvalidated."
+    },
+    "R35": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R36": {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R37": {
+      "mpn": "TNPW06034K70BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R38": {
+      "mpn": "TNPW06034K70BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R39": {
+      "mpn": "TNPW08051M00BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0805_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "R40": {
+      "mpn": "TNPW08051M00BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0805_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "C34": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "J4": {
+      "mpn": "SM06B-SRSS-TB",
+      "manufacturer": "JST",
+      "footprint": "JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal",
+      "height_mm": 2.95,
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "note": "Self-powered native USB/debug harness. No USB VBUS on this connector. Harness impedance, ESD and fixture remain open."
+    },
+    "U7": {
+      "mpn": "MC3635",
+      "manufacturer": "MEMSIC",
+      "footprint": "MEMSIC_MC3635_LGA10_1.6x1.6mm_P0.4mm",
+      "height_mm": 1.0,
+      "source": "See footprint-register-r0.json",
+      "land_source": "See footprint-register-r0.json",
+      "note": "Candidate IC; package and assembly-process boundaries remain in the footprint/charge review. MC3635 nominal contact-sized 0.30x0.20mm lands; device-specific stencil/process acceptance remains open."
+    },
+    "R41": {
+      "mpn": "TNPW06034K70BEEA",
+      "manufacturer": "Vishay",
+      "footprint": "Vishay_TNPW0603_IEC_Reflow",
+      "height_mm": 0.55,
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "land_source": "https://www.vishay.com/doc?28950",
+      "note": "0.1%, 25 ppm/K family candidate; E192 supported. Procurement and actual lot are unverified."
+    },
+    "C41": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "C42": {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "footprint": "Murata_GRM18_0603_Reflow",
+      "height_mm": 0.9,
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "land_source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+      "note": "100 nF, 16 V, X7R, 10%; DC-bias, temperature, tolerance and effective capacitance need verification in this circuit."
+    },
+    "J5": {
+      "mpn": "SM04B-SRSS-TB",
+      "manufacturer": "JST",
+      "footprint": "JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal",
+      "height_mm": 2.95,
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "note": "Tip harness1=3V3,2=GND,3=SDA,4=SCL. Connector/mating-plug and bend envelope need mechanical validation."
+    }
+  },
+  "footprints": {
+    "JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal": {
+      "sha256": "0e46ae73444327728b30b8c9b1e2e3151061fd2ea6db129f4907689f46deba13",
+      "native_load": true,
+      "sources": [
+        "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            1.0,
+            3.5
+          ],
+          "position_mm": [
+            -1.0,
+            -2.85
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            1.0,
+            3.5
+          ],
+          "position_mm": [
+            1.0,
+            -2.85
+          ]
+        },
+        {
+          "number": "MP",
+          "size_mm": [
+            1.5,
+            3.4
+          ],
+          "position_mm": [
+            3.35,
+            2.9
+          ]
+        },
+        {
+          "number": "MP",
+          "size_mm": [
+            1.5,
+            3.4
+          ],
+          "position_mm": [
+            -3.35,
+            2.9
+          ]
+        }
+      ]
+    },
+    "Fuse_1206_3216Metric": {
+      "sha256": "1146eee0fa83d5d56ea05f52f44992431b8c4f3fa2c405819e4aed6ba58ffcf2",
+      "native_load": true,
+      "sources": [
+        "https://www.littelfuse.com/assetdocs/resettable-ptcs-1206l-datasheet?assetguid=2b6a1515-d4ee-4c83-8bd4-152b4901b8f5"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            1.25,
+            1.75
+          ],
+          "position_mm": [
+            -1.4,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            1.25,
+            1.75
+          ],
+          "position_mm": [
+            1.4,
+            0.0
+          ]
+        }
+      ]
+    },
+    "Diodes_B140HW_SOD123_A1_K2": {
+      "sha256": "6546062afa1ff4721fdf2eef31ae556ba3a03a8e5f95428eeee55142a4300d83",
+      "native_load": true,
+      "sources": [
+        "https://www.diodes.com/datasheet/download/B140HW.pdf"
+      ],
+      "pads": [
+        {
+          "number": "2",
+          "size_mm": [
+            0.9,
+            1.2
+          ],
+          "position_mm": [
+            -1.65,
+            0.0
+          ]
+        },
+        {
+          "number": "1",
+          "size_mm": [
+            0.9,
+            1.2
+          ],
+          "position_mm": [
+            1.65,
+            0.0
+          ]
+        }
+      ]
+    },
+    "Murata_GRM21_0805_Reflow": {
+      "sha256": "14a153e4351966779520212e42e49e6cb16162809e38a6da953698210fe0bc66",
+      "native_load": true,
+      "sources": [
+        "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR71A475KA73%23",
+        "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf",
+        "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.7,
+            1.3
+          ],
+          "position_mm": [
+            -0.95,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.7,
+            1.3
+          ],
+          "position_mm": [
+            0.95,
+            0.0
+          ]
+        }
+      ]
+    },
+    "TI_RGT0016C_3x3mm_BQ24074_EP1.68mm": {
+      "sha256": "52ba9ed049da6285e6d53ff7c20f7a703591faff1af91547756c3b507e999add",
+      "native_load": true,
+      "sources": [
+        "See footprint-register-r0.json"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.6,
+            0.24
+          ],
+          "position_mm": [
+            -1.4,
+            -0.75
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.6,
+            0.24
+          ],
+          "position_mm": [
+            -1.4,
+            -0.25
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            0.6,
+            0.24
+          ],
+          "position_mm": [
+            -1.4,
+            0.25
+          ]
+        },
+        {
+          "number": "4",
+          "size_mm": [
+            0.6,
+            0.24
+          ],
+          "position_mm": [
+            -1.4,
+            0.75
+          ]
+        },
+        {
+          "number": "5",
+          "size_mm": [
+            0.24,
+            0.6
+          ],
+          "position_mm": [
+            -0.75,
+            1.4
+          ]
+        },
+        {
+          "number": "6",
+          "size_mm": [
+            0.24,
+            0.6
+          ],
+          "position_mm": [
+            -0.25,
+            1.4
+          ]
+        },
+        {
+          "number": "7",
+          "size_mm": [
+            0.24,
+            0.6
+          ],
+          "position_mm": [
+            0.25,
+            1.4
+          ]
+        },
+        {
+          "number": "8",
+          "size_mm": [
+            0.24,
+            0.6
+          ],
+          "position_mm": [
+            0.75,
+            1.4
+          ]
+        },
+        {
+          "number": "9",
+          "size_mm": [
+            0.6,
+            0.24
+          ],
+          "position_mm": [
+            1.4,
+            0.75
+          ]
+        },
+        {
+          "number": "10",
+          "size_mm": [
+            0.6,
+            0.24
+          ],
+          "position_mm": [
+            1.4,
+            0.25
+          ]
+        },
+        {
+          "number": "11",
+          "size_mm": [
+            0.6,
+            0.24
+          ],
+          "position_mm": [
+            1.4,
+            -0.25
+          ]
+        },
+        {
+          "number": "12",
+          "size_mm": [
+            0.6,
+            0.24
+          ],
+          "position_mm": [
+            1.4,
+            -0.75
+          ]
+        },
+        {
+          "number": "13",
+          "size_mm": [
+            0.24,
+            0.6
+          ],
+          "position_mm": [
+            0.75,
+            -1.4
+          ]
+        },
+        {
+          "number": "14",
+          "size_mm": [
+            0.24,
+            0.6
+          ],
+          "position_mm": [
+            0.25,
+            -1.4
+          ]
+        },
+        {
+          "number": "15",
+          "size_mm": [
+            0.24,
+            0.6
+          ],
+          "position_mm": [
+            -0.25,
+            -1.4
+          ]
+        },
+        {
+          "number": "16",
+          "size_mm": [
+            0.24,
+            0.6
+          ],
+          "position_mm": [
+            -0.75,
+            -1.4
+          ]
+        },
+        {
+          "number": "17",
+          "size_mm": [
+            1.68,
+            1.68
+          ],
+          "position_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            1.55,
+            1.55
+          ],
+          "position_mm": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal": {
+      "sha256": "89a92e57393b55e02c635b8058c6daf9e7ec2def28a4d5c9b56400b700a3a16b",
+      "native_load": true,
+      "sources": [
+        "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            1.0,
+            3.5
+          ],
+          "position_mm": [
+            -3.0,
+            -2.85
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            1.0,
+            3.5
+          ],
+          "position_mm": [
+            -1.0,
+            -2.85
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            1.0,
+            3.5
+          ],
+          "position_mm": [
+            1.0,
+            -2.85
+          ]
+        },
+        {
+          "number": "4",
+          "size_mm": [
+            1.0,
+            3.5
+          ],
+          "position_mm": [
+            3.0,
+            -2.85
+          ]
+        },
+        {
+          "number": "MP",
+          "size_mm": [
+            1.5,
+            3.4
+          ],
+          "position_mm": [
+            5.35,
+            2.9
+          ]
+        },
+        {
+          "number": "MP",
+          "size_mm": [
+            1.5,
+            3.4
+          ],
+          "position_mm": [
+            -5.35,
+            2.9
+          ]
+        }
+      ]
+    },
+    "Vishay_TNPW0603_IEC_Reflow": {
+      "sha256": "4f7d110d0ce200223679391401ae06ce2784253f3ec8fc7f91e548432bddb805",
+      "native_load": true,
+      "sources": [
+        "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "https://www.vishay.com/doc?28950"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.55,
+            0.9
+          ],
+          "position_mm": [
+            -0.725,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.55,
+            0.9
+          ],
+          "position_mm": [
+            0.725,
+            0.0
+          ]
+        }
+      ]
+    },
+    "TI_RNM0015A_2.5x3mm_TPS63070": {
+      "sha256": "ba1445972c51ababc715ccf72e91b37875e0528ddfab40341e507797fca03977",
+      "native_load": true,
+      "sources": [
+        "See footprint-register-r0.json"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.6,
+            0.25
+          ],
+          "position_mm": [
+            -1.15,
+            -0.75
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.6,
+            0.25
+          ],
+          "position_mm": [
+            -1.15,
+            -0.25
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            0.6,
+            0.25
+          ],
+          "position_mm": [
+            -1.15,
+            0.25
+          ]
+        },
+        {
+          "number": "4",
+          "size_mm": [
+            0.6,
+            0.25
+          ],
+          "position_mm": [
+            -1.15,
+            0.75
+          ]
+        },
+        {
+          "number": "5",
+          "size_mm": [
+            0.25,
+            0.6
+          ],
+          "position_mm": [
+            -0.725,
+            1.4
+          ]
+        },
+        {
+          "number": "6",
+          "size_mm": [
+            0.25,
+            0.6
+          ],
+          "position_mm": [
+            -0.225,
+            1.4
+          ]
+        },
+        {
+          "number": "14",
+          "size_mm": [
+            0.25,
+            0.6
+          ],
+          "position_mm": [
+            -0.225,
+            -1.4
+          ]
+        },
+        {
+          "number": "15",
+          "size_mm": [
+            0.25,
+            0.6
+          ],
+          "position_mm": [
+            -0.725,
+            -1.4
+          ]
+        },
+        {
+          "number": "9",
+          "size_mm": [
+            1.45,
+            0.35
+          ],
+          "position_mm": [
+            0.775,
+            0.5
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            1.35,
+            0.25
+          ],
+          "position_mm": [
+            0.775,
+            0.5
+          ]
+        },
+        {
+          "number": "10",
+          "size_mm": [
+            1.8,
+            0.35
+          ],
+          "position_mm": [
+            0.6,
+            0.0
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            1.7,
+            0.25
+          ],
+          "position_mm": [
+            0.6,
+            0.0
+          ]
+        },
+        {
+          "number": "11",
+          "size_mm": [
+            1.45,
+            0.35
+          ],
+          "position_mm": [
+            0.775,
+            -0.5
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            1.35,
+            0.25
+          ],
+          "position_mm": [
+            0.775,
+            -0.5
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.575,
+            0.25
+          ],
+          "position_mm": [
+            0.3875,
+            -0.5
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.575,
+            0.25
+          ],
+          "position_mm": [
+            1.1625,
+            -0.5
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.72,
+            0.25
+          ],
+          "position_mm": [
+            0.14,
+            0.0
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.72,
+            0.25
+          ],
+          "position_mm": [
+            1.06,
+            0.0
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.575,
+            0.25
+          ],
+          "position_mm": [
+            0.3875,
+            0.5
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.575,
+            0.25
+          ],
+          "position_mm": [
+            1.1625,
+            0.5
+          ]
+        },
+        {
+          "number": "13",
+          "size_mm": [
+            0.05,
+            0.05
+          ],
+          "position_mm": [
+            0.275,
+            -1.4
+          ]
+        },
+        {
+          "number": "12",
+          "size_mm": [
+            0.05,
+            0.05
+          ],
+          "position_mm": [
+            0.775,
+            -1.4
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.05,
+            0.05
+          ],
+          "position_mm": [
+            0.275,
+            -1.4
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.05,
+            0.05
+          ],
+          "position_mm": [
+            0.275,
+            -1.4
+          ]
+        },
+        {
+          "number": "7",
+          "size_mm": [
+            0.05,
+            0.05
+          ],
+          "position_mm": [
+            0.275,
+            1.4
+          ]
+        },
+        {
+          "number": "8",
+          "size_mm": [
+            0.05,
+            0.05
+          ],
+          "position_mm": [
+            0.775,
+            1.4
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.05,
+            0.05
+          ],
+          "position_mm": [
+            0.275,
+            1.4
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.05,
+            0.05
+          ],
+          "position_mm": [
+            0.275,
+            1.4
+          ]
+        }
+      ]
+    },
+    "L_Coilcraft_XxL4020": {
+      "sha256": "30110236b1a7e21c6a51c839bdec61d9c7227f35071bf19509ffcb03c41b719d",
+      "native_load": true,
+      "sources": [
+        "https://www.coilcraft.com/pdfs/xfl4020.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.98,
+            3.4
+          ],
+          "position_mm": [
+            -1.185,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.98,
+            3.4
+          ],
+          "position_mm": [
+            1.185,
+            0.0
+          ]
+        }
+      ]
+    },
+    "Murata_GRM31_1206_Reflow": {
+      "sha256": "fdb2e5f9b3a895a5def2a651894bf61e5c929bb0e4a87ad4f1c3313e38e1e877",
+      "native_load": true,
+      "sources": [
+        "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+        "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            1.05,
+            1.7
+          ],
+          "position_mm": [
+            -1.475,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            1.05,
+            1.7
+          ],
+          "position_mm": [
+            1.475,
+            0.0
+          ]
+        }
+      ]
+    },
+    "Murata_GRM18_0603_Reflow": {
+      "sha256": "d5d7ee46b38a3fb165aa16798dae1cd83e89234c7dc379c37c5544f78d43ead1",
+      "native_load": true,
+      "sources": [
+        "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+        "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.65,
+            0.8
+          ],
+          "position_mm": [
+            -0.675,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.65,
+            0.8
+          ],
+          "position_mm": [
+            0.675,
+            0.0
+          ]
+        }
+      ]
+    },
+    "TDK_C1608_0603_Reflow": {
+      "sha256": "71e8830d58f065ff5c1389a4a97b33e38c658caa0c7c8c3f3cb92b4016d7aa91",
+      "native_load": true,
+      "sources": [
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+        "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x5r1a106k080ac.pdf",
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+        "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x7r1e105k080ab.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.65,
+            0.8
+          ],
+          "position_mm": [
+            -0.675,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.65,
+            0.8
+          ],
+          "position_mm": [
+            0.675,
+            0.0
+          ]
+        }
+      ]
+    },
+    "TSOT-23-6": {
+      "sha256": "bb565f24e25d7a33093e458600e83ce4a4cf9a28af761cfe4b836bf18f935a36",
+      "native_load": true,
+      "sources": [
+        "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+        "https://www.ti.com/lit/ml/mpds124i/mpds124i.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            -1.1375,
+            -0.95
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            -1.1375,
+            0.0
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            -1.1375,
+            0.95
+          ]
+        },
+        {
+          "number": "4",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            1.1375,
+            0.95
+          ]
+        },
+        {
+          "number": "5",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            1.1375,
+            0.0
+          ]
+        },
+        {
+          "number": "6",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            1.1375,
+            -0.95
+          ]
+        }
+      ]
+    },
+    "SOT-23-6": {
+      "sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97",
+      "native_load": true,
+      "sources": [
+        "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+        "See footprint-register-r0.json"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            -1.1375,
+            -0.95
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            -1.1375,
+            0.0
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            -1.1375,
+            0.95
+          ]
+        },
+        {
+          "number": "4",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            1.1375,
+            0.95
+          ]
+        },
+        {
+          "number": "5",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            1.1375,
+            0.0
+          ]
+        },
+        {
+          "number": "6",
+          "size_mm": [
+            1.325,
+            0.6
+          ],
+          "position_mm": [
+            1.1375,
+            -0.95
+          ]
+        }
+      ]
+    },
+    "Vishay_TNPW0805_IEC_Reflow": {
+      "sha256": "3cfbef5351c6348fd51625863ff5043b7bab3735e5be5c23efc965ed910dddd3",
+      "native_load": true,
+      "sources": [
+        "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "https://www.vishay.com/doc?28950"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.65,
+            1.3
+          ],
+          "position_mm": [
+            -0.875,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.65,
+            1.3
+          ],
+          "position_mm": [
+            0.875,
+            0.0
+          ]
+        }
+      ]
+    },
+    "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm": {
+      "sha256": "d4d2426fd9197c41f4f440aefae6f163cf81093a82e51ba1263213ab77e9abc5",
+      "native_load": true,
+      "sources": [
+        "https://gitlab.com/kicad/libraries/kicad-footprints/"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            1.0,
+            0.5
+          ],
+          "position_mm": [
+            -0.65,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            1.0,
+            0.5
+          ],
+          "position_mm": [
+            0.65,
+            0.0
+          ]
+        }
+      ]
+    },
+    "SOT-23": {
+      "sha256": "7840e31dbf5d8c9a047e25e8c69951e6c3792e0d4d316642c2832be29923c42f",
+      "native_load": true,
+      "sources": [
+        "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf",
+        "https://www.aosmd.com/sites/default/files/res/package/SOT23.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            1.475,
+            0.6
+          ],
+          "position_mm": [
+            -0.9375,
+            -0.95
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            1.475,
+            0.6
+          ],
+          "position_mm": [
+            -0.9375,
+            0.95
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            1.475,
+            0.6
+          ],
+          "position_mm": [
+            0.9375,
+            0.0
+          ]
+        }
+      ]
+    },
+    "WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm": {
+      "sha256": "49d73df23660337633d21be302713c02386787d8be72c717d451357e5df5466b",
+      "native_load": true,
+      "sources": [
+        "See footprint-register-r0.json"
+      ],
+      "pads": [
+        {
+          "number": "",
+          "size_mm": [
+            0.75,
+            0.65
+          ],
+          "position_mm": [
+            0.0,
+            0.4
+          ]
+        },
+        {
+          "number": "",
+          "size_mm": [
+            0.75,
+            0.65
+          ],
+          "position_mm": [
+            0.0,
+            -0.4
+          ]
+        },
+        {
+          "number": "1",
+          "size_mm": [
+            0.5,
+            0.25
+          ],
+          "position_mm": [
+            -0.95,
+            -0.75
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.5,
+            0.25
+          ],
+          "position_mm": [
+            -0.95,
+            -0.25
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            0.5,
+            0.25
+          ],
+          "position_mm": [
+            -0.95,
+            0.25
+          ]
+        },
+        {
+          "number": "4",
+          "size_mm": [
+            0.5,
+            0.25
+          ],
+          "position_mm": [
+            -0.95,
+            0.75
+          ]
+        },
+        {
+          "number": "5",
+          "size_mm": [
+            0.5,
+            0.25
+          ],
+          "position_mm": [
+            0.95,
+            0.75
+          ]
+        },
+        {
+          "number": "6",
+          "size_mm": [
+            0.5,
+            0.25
+          ],
+          "position_mm": [
+            0.95,
+            0.25
+          ]
+        },
+        {
+          "number": "7",
+          "size_mm": [
+            0.5,
+            0.25
+          ],
+          "position_mm": [
+            0.95,
+            -0.25
+          ]
+        },
+        {
+          "number": "8",
+          "size_mm": [
+            0.5,
+            0.25
+          ],
+          "position_mm": [
+            0.95,
+            -0.75
+          ]
+        },
+        {
+          "number": "9",
+          "size_mm": [
+            0.9,
+            1.6
+          ],
+          "position_mm": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal": {
+      "sha256": "776e226bd0e8c87106b445814fa63d414583bbb098696cdd737557176ded6391",
+      "native_load": true,
+      "sources": [
+        "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            -0.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            0.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "MP",
+          "size_mm": [
+            1.2,
+            1.8
+          ],
+          "position_mm": [
+            -1.8,
+            1.875
+          ]
+        },
+        {
+          "number": "MP",
+          "size_mm": [
+            1.2,
+            1.8
+          ],
+          "position_mm": [
+            1.8,
+            1.875
+          ]
+        }
+      ]
+    },
+    "Murata_GRM32_1210_Reflow": {
+      "sha256": "9f3e0ebfd8504e73c53d6ea16cedbdd93480abe0147b049be0a57755da9c1749",
+      "native_load": true,
+      "sources": [
+        "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM32ER61A476KE20%23",
+        "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            1.1,
+            2.3
+          ],
+          "position_mm": [
+            -1.65,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            1.1,
+            2.3
+          ],
+          "position_mm": [
+            1.65,
+            0.0
+          ]
+        }
+      ]
+    },
+    "Espressif_ESP32-C3-MINI-1_53Pads": {
+      "sha256": "8c01680b2f44df5b26a14d78608c86a5daf309d66d468f419962402e9c78dc60",
+      "native_load": true,
+      "sources": [
+        "See footprint-register-r0.json"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            -4.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            -3.2
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            -2.4
+          ]
+        },
+        {
+          "number": "4",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            -1.6
+          ]
+        },
+        {
+          "number": "5",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            -0.8
+          ]
+        },
+        {
+          "number": "6",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            0.0
+          ]
+        },
+        {
+          "number": "7",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            0.8
+          ]
+        },
+        {
+          "number": "8",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            1.6
+          ]
+        },
+        {
+          "number": "9",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            2.4
+          ]
+        },
+        {
+          "number": "10",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            3.2
+          ]
+        },
+        {
+          "number": "11",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            -5.9,
+            4.0
+          ]
+        },
+        {
+          "number": "12",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -4.8,
+            4.9
+          ]
+        },
+        {
+          "number": "13",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -4.0,
+            4.9
+          ]
+        },
+        {
+          "number": "14",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -3.2,
+            4.9
+          ]
+        },
+        {
+          "number": "15",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -2.4,
+            4.9
+          ]
+        },
+        {
+          "number": "16",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -1.6,
+            4.9
+          ]
+        },
+        {
+          "number": "17",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -0.8,
+            4.9
+          ]
+        },
+        {
+          "number": "18",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            0.0,
+            4.9
+          ]
+        },
+        {
+          "number": "19",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            0.8,
+            4.9
+          ]
+        },
+        {
+          "number": "20",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            1.6,
+            4.9
+          ]
+        },
+        {
+          "number": "21",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            2.4,
+            4.9
+          ]
+        },
+        {
+          "number": "22",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            3.2,
+            4.9
+          ]
+        },
+        {
+          "number": "23",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            4.0,
+            4.9
+          ]
+        },
+        {
+          "number": "24",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            4.8,
+            4.9
+          ]
+        },
+        {
+          "number": "25",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            4.0
+          ]
+        },
+        {
+          "number": "26",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            3.2
+          ]
+        },
+        {
+          "number": "27",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            2.4
+          ]
+        },
+        {
+          "number": "28",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            1.6
+          ]
+        },
+        {
+          "number": "29",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            0.8
+          ]
+        },
+        {
+          "number": "30",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            0.0
+          ]
+        },
+        {
+          "number": "31",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            -0.8
+          ]
+        },
+        {
+          "number": "32",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            -1.6
+          ]
+        },
+        {
+          "number": "33",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            -2.4
+          ]
+        },
+        {
+          "number": "34",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            -3.2
+          ]
+        },
+        {
+          "number": "35",
+          "size_mm": [
+            0.8,
+            0.4
+          ],
+          "position_mm": [
+            5.9,
+            -4.0
+          ]
+        },
+        {
+          "number": "36",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            4.8,
+            -4.9
+          ]
+        },
+        {
+          "number": "37",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            4.0,
+            -4.9
+          ]
+        },
+        {
+          "number": "38",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            3.2,
+            -4.9
+          ]
+        },
+        {
+          "number": "39",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            2.4,
+            -4.9
+          ]
+        },
+        {
+          "number": "40",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            1.6,
+            -4.9
+          ]
+        },
+        {
+          "number": "41",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            0.8,
+            -4.9
+          ]
+        },
+        {
+          "number": "42",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            0.0,
+            -4.9
+          ]
+        },
+        {
+          "number": "43",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -0.8,
+            -4.9
+          ]
+        },
+        {
+          "number": "44",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -1.6,
+            -4.9
+          ]
+        },
+        {
+          "number": "45",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -2.4,
+            -4.9
+          ]
+        },
+        {
+          "number": "46",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -3.2,
+            -4.9
+          ]
+        },
+        {
+          "number": "47",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -4.0,
+            -4.9
+          ]
+        },
+        {
+          "number": "48",
+          "size_mm": [
+            0.4,
+            0.8
+          ],
+          "position_mm": [
+            -4.8,
+            -4.9
+          ]
+        },
+        {
+          "number": "50",
+          "size_mm": [
+            0.7,
+            0.7
+          ],
+          "position_mm": [
+            5.95,
+            -4.95
+          ]
+        },
+        {
+          "number": "51",
+          "size_mm": [
+            0.7,
+            0.7
+          ],
+          "position_mm": [
+            5.95,
+            4.95
+          ]
+        },
+        {
+          "number": "52",
+          "size_mm": [
+            0.7,
+            0.7
+          ],
+          "position_mm": [
+            -5.95,
+            4.95
+          ]
+        },
+        {
+          "number": "53",
+          "size_mm": [
+            0.7,
+            0.7
+          ],
+          "position_mm": [
+            -5.95,
+            -4.95
+          ]
+        },
+        {
+          "number": "49",
+          "size_mm": [
+            0.05,
+            0.05
+          ],
+          "position_mm": [
+            -1.975,
+            -1.975
+          ]
+        },
+        {
+          "number": "49",
+          "size_mm": [
+            1.45,
+            1.45
+          ],
+          "position_mm": [
+            -1.975,
+            0.0
+          ]
+        },
+        {
+          "number": "49",
+          "size_mm": [
+            1.45,
+            1.45
+          ],
+          "position_mm": [
+            -1.975,
+            1.975
+          ]
+        },
+        {
+          "number": "49",
+          "size_mm": [
+            1.45,
+            1.45
+          ],
+          "position_mm": [
+            0.0,
+            -1.975
+          ]
+        },
+        {
+          "number": "49",
+          "size_mm": [
+            1.45,
+            1.45
+          ],
+          "position_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "49",
+          "size_mm": [
+            1.45,
+            1.45
+          ],
+          "position_mm": [
+            0.0,
+            1.975
+          ]
+        },
+        {
+          "number": "49",
+          "size_mm": [
+            1.45,
+            1.45
+          ],
+          "position_mm": [
+            1.975,
+            -1.975
+          ]
+        },
+        {
+          "number": "49",
+          "size_mm": [
+            1.45,
+            1.45
+          ],
+          "position_mm": [
+            1.975,
+            0.0
+          ]
+        },
+        {
+          "number": "49",
+          "size_mm": [
+            1.45,
+            1.45
+          ],
+          "position_mm": [
+            1.975,
+            1.975
+          ]
+        }
+      ]
+    },
+    "SW_SPST_B3U-1000P": {
+      "sha256": "d188c425a346f67070dfa078c0396e9b35b5d2764c20111195f8b98c3cef71a8",
+      "native_load": true,
+      "sources": [
+        "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.9,
+            1.7
+          ],
+          "position_mm": [
+            -1.7,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.9,
+            1.7
+          ],
+          "position_mm": [
+            1.7,
+            0.0
+          ]
+        }
+      ]
+    },
+    "JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal": {
+      "sha256": "2152992f93d9b6b3ee7740637a8fd2327b410251723c37e636114bbf2ae185d6",
+      "native_load": true,
+      "sources": [
+        "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            -2.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            -1.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            -0.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "4",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            0.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "5",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            1.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "6",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            2.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "MP",
+          "size_mm": [
+            1.2,
+            1.8
+          ],
+          "position_mm": [
+            3.8,
+            1.875
+          ]
+        },
+        {
+          "number": "MP",
+          "size_mm": [
+            1.2,
+            1.8
+          ],
+          "position_mm": [
+            -3.8,
+            1.875
+          ]
+        }
+      ]
+    },
+    "MEMSIC_MC3635_LGA10_1.6x1.6mm_P0.4mm": {
+      "sha256": "8ed223855612473c6c4088814c133af8847b1d3694ec6e2497d25f75a2e37d8f",
+      "native_load": true,
+      "sources": [
+        "See footprint-register-r0.json"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.3,
+            0.2
+          ],
+          "position_mm": [
+            -0.55,
+            -0.6
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.3,
+            0.2
+          ],
+          "position_mm": [
+            -0.55,
+            -0.2
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            0.3,
+            0.2
+          ],
+          "position_mm": [
+            -0.55,
+            0.2
+          ]
+        },
+        {
+          "number": "4",
+          "size_mm": [
+            0.3,
+            0.2
+          ],
+          "position_mm": [
+            -0.55,
+            0.6
+          ]
+        },
+        {
+          "number": "5",
+          "size_mm": [
+            0.2,
+            0.3
+          ],
+          "position_mm": [
+            0.0,
+            0.6
+          ]
+        },
+        {
+          "number": "6",
+          "size_mm": [
+            0.3,
+            0.2
+          ],
+          "position_mm": [
+            0.55,
+            0.6
+          ]
+        },
+        {
+          "number": "7",
+          "size_mm": [
+            0.3,
+            0.2
+          ],
+          "position_mm": [
+            0.55,
+            0.2
+          ]
+        },
+        {
+          "number": "8",
+          "size_mm": [
+            0.3,
+            0.2
+          ],
+          "position_mm": [
+            0.55,
+            -0.2
+          ]
+        },
+        {
+          "number": "9",
+          "size_mm": [
+            0.3,
+            0.2
+          ],
+          "position_mm": [
+            0.55,
+            -0.6
+          ]
+        },
+        {
+          "number": "10",
+          "size_mm": [
+            0.2,
+            0.3
+          ],
+          "position_mm": [
+            0.0,
+            -0.6
+          ]
+        }
+      ]
+    },
+    "JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal": {
+      "sha256": "91193c2349f4a62adbe7d9dc5b6f35c32cec65a5acb56adcd52efda94128ee1b",
+      "native_load": true,
+      "sources": [
+        "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            -1.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "2",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            -0.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "3",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            0.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "4",
+          "size_mm": [
+            0.6,
+            1.55
+          ],
+          "position_mm": [
+            1.5,
+            -2.0
+          ]
+        },
+        {
+          "number": "MP",
+          "size_mm": [
+            1.2,
+            1.8
+          ],
+          "position_mm": [
+            2.8,
+            1.875
+          ]
+        },
+        {
+          "number": "MP",
+          "size_mm": [
+            1.2,
+            1.8
+          ],
+          "position_mm": [
+            -2.8,
+            1.875
+          ]
+        }
+      ]
+    }
+  },
+  "verification_scope": "Native load and explicit pad geometry/source hashes. Package/land comparison boundaries are documented; this is not independent assembler approval."
+}

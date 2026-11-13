@@ -1,0 +1,50 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T21:46:15",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/c2f01ee4-ba69-5989-8320-4f654535c885",
+            "violations": []
+        },
+        {
+            "path": "/dock-ui-source/",
+            "uuid_path": "/c2f01ee4-ba69-5989-8320-4f654535c885/6523ae97-e0d9-5d3b-85ee-0beea93de2ac",
+            "violations": []
+        },
+        {
+            "path": "/dock-lid-ui/",
+            "uuid_path": "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd",
+            "violations": []
+        },
+        {
+            "path": "/dock-uv-base/",
+            "uuid_path": "/c2f01ee4-ba69-5989-8320-4f654535c885/a9a1dd45-995b-5e37-98c5-58a63d83bd7e",
+            "violations": []
+        },
+        {
+            "path": "/dock-controller/",
+            "uuid_path": "/c2f01ee4-ba69-5989-8320-4f654535c885/4a3c17e6-6fa4-5381-a325-88f98c52cacb",
+            "violations": []
+        },
+        {
+            "path": "/dock-safety/",
+            "uuid_path": "/c2f01ee4-ba69-5989-8320-4f654535c885/ca7a80a7-21de-5ddd-8895-aad096924de4",
+            "violations": []
+        },
+        {
+            "path": "/dock-uv-lid/",
+            "uuid_path": "/c2f01ee4-ba69-5989-8320-4f654535c885/afa0e7d2-f63e-5cc8-a40b-105a68cb4a13",
+            "violations": []
+        }
+    ],
+    "source": "dock-system.kicad_sch"
+}

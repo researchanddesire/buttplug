@@ -1,0 +1,9 @@
+# UV PCB supplier review only
+
+This package covers this UV board only. It is not an order or a complete-product fabrication release. Actual stackup, stencil/reflow, UV/thermal qualification, received tolerances, opacity and final clamshell fit remain open.
+
+Request nominal1mm copper-plus-FR4,2layers,70um outer copper each,FR4core0.86mm,ENIG,mask10um each. Coatings are additional to nominal laminate/copper thickness. Require minimum finished conductor cross-sections consistent with the resistance acceptance; supplier stackup/process acceptance is pending. Minimum trace/clearance0.2/0.2mm,via0.6/0.3mm,4NPTH2.2mm mounting holes and1mm internal milling radii. Tenting/plugging and backing-pad surface finish require process review. No soldermask electrical isolation to a common Al backing is credited.
+
+Twenty onboard purchased positions use the exact selected MPNs. Four TP copper solder lands and four holes are not purchased parts. The two remote thermal parts are separately listed and MUST NOT be placed as PCB components. Provide strain relief and actual hottest-region thermal attachment. Do not substitute a ground thermal pad for either LED terminal. Match the marked cathode to pad1; the physical package and selected OEM model agree on positive localX. Reconcile bottom placement rotations with the native board before programming assembly.
+
+The power budget requires each complete hot UV PCB supply/return loop<=20mOhm as an acceptance target; actual resistance is not yet measured. The separate full branch allowance includes connectors,crimps and wire; see ../../../../dock-safety/power-budget.json in the source tree. Input/output effective capacitance>=1uF, loop stability, source changes/inrush, optical cutoff/leakage/dose/efficacy and thermal/material aging require measurement.

@@ -1,0 +1,248 @@
+{
+  "FreeCAD": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "packages": {
+    "TPS22950_YBH6": {
+      "native": "TPS22950_YBH6.FCStd",
+      "native_sha256": "ad675e9796ce8c7bbf26b4fd2b3380718d778f1eb63b3d670a202f532b112e22",
+      "STEP": "TPS22950_YBH6.step",
+      "STEP_sha256": "4fe037b9485edd4464a884feb4ec3228b2fbb0ecb2a78a6c21893484765343d8",
+      "editable_native_bodies": 7,
+      "bounds_mm": [
+        -0.353,
+        -0.553,
+        1.3877787807814455e-17,
+        0.353,
+        0.553,
+        0.4
+      ],
+      "dimensions": {
+        "body_nominal_XY_mm": [
+          0.706,
+          1.106
+        ],
+        "body_XY_min_mm": [
+          0.686,
+          1.086
+        ],
+        "body_XY_max_mm": [
+          0.726,
+          1.126
+        ],
+        "overall_max_height_mm": 0.4,
+        "ball_diameter_nominal_mm": 0.205,
+        "ball_diameter_min_max_mm": [
+          0.185,
+          0.225
+        ],
+        "ball_height_nominal_mm": 0.16,
+        "ball_height_min_max_mm": [
+          0.13,
+          0.19
+        ],
+        "pitch_mm": 0.4,
+        "note": "Spheres cut at published nominal stand-off; totalheight uses publishedmax because no nominal totalheight isgiven."
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps22950.pdf#page=21 YBH0006-C02 4226594/A03/2021",
+      "classification": "selected-package dimensional reconstruction; NOT OEM CAD",
+      "omitted": "internal die/bonding, undimensioned edge cosmetics/markings; no process/reflow/tolerance qualification",
+      "model_frame": "PCB+X and model+Y up; nativePCB+Y maps model-Y; seating planeZ0",
+      "primary_PDF_sha256": "e0f4f5766ba30309af96287e20345b34b38986da59bb0e644bf5401e009c0c66"
+    },
+    "TPS3431_DRB8": {
+      "native": "TPS3431_DRB8.FCStd",
+      "native_sha256": "eb616d604b071a8b5b6d28d0ddd5595f58824d9fe975db24981b879ccba031b2",
+      "STEP": "TPS3431_DRB8.step",
+      "STEP_sha256": "2db2ec8dd946a9b69415853b52f71d2e1cc5180f99936e099a2eb59c534364e0",
+      "editable_native_bodies": 10,
+      "bounds_mm": [
+        -1.5,
+        -1.5,
+        0.0,
+        1.5,
+        1.5,
+        1.0
+      ],
+      "dimensions": {
+        "body_nominal_XY_mm": [
+          3,
+          3
+        ],
+        "body_XY_min_mm": [
+          2.9,
+          2.9
+        ],
+        "body_XY_max_mm": [
+          3.1,
+          3.1
+        ],
+        "overall_max_height_mm": 1,
+        "side_contact_width_length_nominal_mm": [
+          0.31,
+          0.4
+        ],
+        "side_contact_width_min_max_mm": [
+          0.25,
+          0.37
+        ],
+        "side_contact_length_min_max_mm": [
+          0.3,
+          0.5
+        ],
+        "pitch_mm": 0.65,
+        "EP_nominal_XY_mm": [
+          1.5,
+          1.75
+        ],
+        "EP_XY_tolerance_mm": 0.1,
+        "four_EP_finger_width_reference_mm": 0.23,
+        "EP_finger_X_centres_mm": [
+          -0.325,
+          0.325
+        ],
+        "EP_finger_outer_Y_mm": [
+          -1.5,
+          1.5
+        ],
+        "standoff_range_mm": [
+          0,
+          0.05
+        ],
+        "note": "Terminalcornerradii notdimensioned: rectangular terminals retain publishedexternal extents. Fingers overlapEP by0.025mm to form oneeditable metalbody."
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps3431.pdf DRB0008A4218875/A01/2018 packageoutline",
+      "classification": "selected-package dimensional reconstruction; NOT OEM CAD",
+      "omitted": "internal die/bonding, undimensioned edge cosmetics/markings; no process/reflow/tolerance qualification",
+      "model_frame": "PCB+X and model+Y up; nativePCB+Y maps model-Y; seating planeZ0",
+      "primary_PDF_sha256": "99bf5dbfffe06e8f85d9a86cfb777a0151e85b4a103033bc025f4897a0bdc6f3"
+    },
+    "TPS22992_RXP8": {
+      "native": "TPS22992_RXP8.FCStd",
+      "native_sha256": "d1165e7f7d928057029a45bf2eac12c1720e823a132341c9c061fd77e511b704",
+      "STEP": "TPS22992_RXP8.step",
+      "STEP_sha256": "3245eca30677e513bbf8eafb0ebc470cef67336d98d34022dcd5a9027190359b",
+      "editable_native_bodies": 9,
+      "bounds_mm": [
+        -0.625,
+        -0.75,
+        0.0,
+        0.625,
+        0.75,
+        0.8
+      ],
+      "dimensions": {
+        "body_nominal_XY_mm": [
+          1.25,
+          1.5
+        ],
+        "body_XY_min_mm": [
+          1.15,
+          1.4
+        ],
+        "body_XY_max_mm": [
+          1.35,
+          1.6
+        ],
+        "overall_max_height_mm": 0.8,
+        "contact_width_nominal_mm": 0.25,
+        "contact_width_min_max_mm": [
+          0.2,
+          0.3
+        ],
+        "corner_contact_length_nominal_mm": 0.25,
+        "corner_contact_length_min_max_mm": [
+          0.2,
+          0.3
+        ],
+        "middle_contact_length_nominal_mm": 0.5,
+        "middle_contact_length_min_max_mm": [
+          0.4,
+          0.6
+        ],
+        "end_contact_length_nominal_mm": 0.375,
+        "end_contact_length_min_max_mm": [
+          0.325,
+          0.425
+        ],
+        "standoff_range_mm": [
+          0,
+          0.05
+        ],
+        "note": "Contacts are actual package terminals, shorter thanPCB solderlands; eight0.25wide contacts with asymmetric lengths."
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps22992.pdf#page=26 RXP0008A4225934/A05/2020",
+      "classification": "selected-package dimensional reconstruction; NOT OEM CAD",
+      "omitted": "internal die/bonding, undimensioned edge cosmetics/markings; no process/reflow/tolerance qualification",
+      "model_frame": "PCB+X and model+Y up; nativePCB+Y maps model-Y; seating planeZ0",
+      "primary_PDF_sha256": "573ce9db8df0007e14ab23432bc5cb3ee32137f7299421cb10299ba274a8ed6e"
+    },
+    "TUSB320_RWB12": {
+      "native": "TUSB320_RWB12.FCStd",
+      "native_sha256": "664166bc54880292d92fbdbce86e39131aa6166278f7819fa40c3323cfa8c4fe",
+      "STEP": "TUSB320_RWB12.step",
+      "STEP_sha256": "38b1e1657b71a90e605d48f10542c92b39fbfd63d4c1754e7ab89a7cde8d8f8c",
+      "editable_native_bodies": 13,
+      "bounds_mm": [
+        -0.8,
+        -0.8,
+        0.0,
+        0.8,
+        0.8,
+        0.4
+      ],
+      "dimensions": {
+        "body_nominal_XY_mm": [
+          1.6,
+          1.6
+        ],
+        "body_XY_min_mm": [
+          1.55,
+          1.55
+        ],
+        "body_XY_max_mm": [
+          1.65,
+          1.65
+        ],
+        "overall_max_height_mm": 0.4,
+        "contact_width_nominal_mm": 0.2,
+        "contact_width_min_max_mm": [
+          0.15,
+          0.25
+        ],
+        "four_side_contact_length_nominal_mm": 0.5,
+        "four_side_contact_length_min_max_mm": [
+          0.4,
+          0.6
+        ],
+        "eight_end_contact_length_nominal_mm": 0.3,
+        "eight_end_contact_length_min_max_mm": [
+          0.2,
+          0.4
+        ],
+        "contact_thickness_reference_mm": 0.13,
+        "pitch_mm": 0.4,
+        "standoff_range_mm": [
+          0,
+          0.05
+        ],
+        "note": "Pin1 undimensioned corner clip omitted. Metalreference thickness0.13 is represented; native pad1(-X,-Y) maps model(-X,+Y). Body starts at stand-off midrange0.025."
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tusb320lai.pdf#page=35 RWB0012A4221631/B07/2017",
+      "classification": "selected-package dimensional reconstruction; NOT OEM CAD",
+      "omitted": "internal die/bonding, undimensioned edge cosmetics/markings; no process/reflow/tolerance qualification",
+      "model_frame": "PCB+X and model+Y up; nativePCB+Y maps model-Y; seating planeZ0",
+      "primary_PDF_sha256": "62f7b3f65338e25ebd6fd46ef04474ba806b06b1cc04bc0b3d7b8191b01ca87d"
+    }
+  },
+  "primary_drawings_visually_inspected": true,
+  "independent_RXP_DRB_peer_review": "uv_power2026-11-12; correctedendpadRXP0.375mm",
+  "physical_validation": false
+}

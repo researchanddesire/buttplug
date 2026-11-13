@@ -1,0 +1,57 @@
+{
+  "builder_sha256": "f2f9a8f285478d03dfc666bfbb2691df4723939e9a746506194e5b5a249dbf1e",
+  "cut_exporter_sha256": "ccfd7cc1dab88d21a621e37760d4066364250096b697f893cee4962ed16500a4",
+  "profiles": [
+    {
+      "name": "flange_long_silicone",
+      "quantity_default": 2,
+      "head_centre_to_hole_mm": 24.05664688023036,
+      "manufactured_sheet_thickness_mm": 0.254
+    },
+    {
+      "name": "flange_short_silicone",
+      "quantity_default": 1,
+      "head_centre_to_hole_mm": 14.056646880230359,
+      "manufactured_sheet_thickness_mm": 0.254
+    },
+    {
+      "name": "flange_long_PET",
+      "quantity_default": 4,
+      "head_centre_to_hole_mm": 24.05664688023036,
+      "manufactured_sheet_thickness_mm": 0.0508
+    },
+    {
+      "name": "flange_short_PET",
+      "quantity_default": 2,
+      "head_centre_to_hole_mm": 14.056646880230359,
+      "manufactured_sheet_thickness_mm": 0.0508
+    },
+    {
+      "name": "body_silicone0",
+      "quantity_default": 1,
+      "hole_centre_distance_mm": 48.06846120181884,
+      "neutral_path_radius_mm": 18.793285398110733,
+      "manufactured_sheet_thickness_mm": 0.254
+    },
+    {
+      "name": "body_PET0",
+      "quantity_default": 1,
+      "hole_centre_distance_mm": 48.076947847476845,
+      "neutral_path_radius_mm": 18.942885398110736,
+      "manufactured_sheet_thickness_mm": 0.0508
+    },
+    {
+      "name": "body_PET1",
+      "quantity_default": 1,
+      "hole_centre_distance_mm": 48.058841837936605,
+      "neutral_path_radius_mm": 18.993685398110735,
+      "manufactured_sheet_thickness_mm": 0.0508
+    }
+  ],
+  "body_neutral_path": "centralradialarc pluslinearformedramps plusflatends; noPETstretchcredit",
+  "flange_developed_extra_mm": 0.05664688023035924,
+  "elastic_forming_or_received_fit_validated": false,
+  "PET_slit_visual_kerf_mm": 0.08,
+  "actual_knife_kerf_must_not_be_assumed": true,
+  "silicone_shipping_liners_removed_before_relax_and_cut": true
+}

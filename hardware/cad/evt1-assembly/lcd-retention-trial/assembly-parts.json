@@ -1,0 +1,20 @@
+{
+  "scope": "Isolated LCD retention coupon; does not change human-owned product BOM",
+  "custom_printed": [
+    {"part": "Left carrier", "quantity": 1, "native_body": "LCDRetentionLeftCarrier", "print": "LCDRetentionLeftCarrier.stl"},
+    {"part": "Right carrier", "quantity": 1, "native_body": "LCDRetentionRightCarrier", "print": "LCDRetentionRightCarrier.stl"},
+    {"part": "Bench roof receiver", "quantity": 1, "print": "RoofCoupon.stl", "product_part": false},
+    {"part": "Bench bezel receiver", "quantity": 1, "print": "BezelCoupon.stl", "product_part": false}
+  ],
+  "soft_cuts": [
+    {"manufacturer": "Rogers", "mpn": "4790-92-09030-04 P", "product_identifier": "3036884", "size_mm": [1.2, 22], "nominal_total_thickness_reference_mm": 0.75, "quantity": 4, "total_supported_thickness_must_be_measured": true},
+    {"manufacturer": "CS Hyde", "mpn": "48-2F-1-100", "material": "Plain Mylar TypeA PET", "nominal_layer_mm": 0.0508, "shape": "Screw-registered profile from cut-patterns-1to1.svg", "default_layers_each_side": 9, "default_total_cut_quantity": 18, "quantity_is_received_measurement_dependent": true}
+  ],
+  "existing_parts_reused": [
+    {"manufacturer": "Newhaven", "mpn": "NHD-C12864B2Z-RN-FBW", "quantity": 1},
+    {"manufacturer": "NBK", "mpn": "SNSS-M2-6", "quantity": 4, "underhead_Z_mm": 64, "shaft_tip_Z_mm": 70}
+  ],
+  "adhesive_credited": false,
+  "stock_availability_quote_or_order_verified": false,
+  "physical_or_product_release": false
+}

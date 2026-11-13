@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/dock/dock-evt1.kicad_sch</source>
+    <date>2026-11-12T12:32:07</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EVT USB-C cradle input and protected four-wire output</title>
+        <company>Research and Desire</company>
+        <rev>EVT1 electrical candidate</rev>
+        <date>2026-11-12</date>
+        <source>dock-evt1.kicad_sch</source>
+        <comment number="1" value="LAYOUT INTEGRATION REQUIRED BEFORE PCB ORDER"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C91">
+      <value>1uF 10V</value>
+      <footprint>EVT1:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3343a2a-d97c-5420-97e0-aa4b4ddfd97e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C92">
+      <value>100nF</value>
+      <footprint>EVT1:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3879846a-04da-5f46-a9fa-e68ecfb7d0a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J91">
+      <value>USB4105-GF-A-120</value>
+      <footprint>EVT1:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
+      <datasheet>https://gct.co/files/drawings/usb4105.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet">https://gct.co/files/drawings/usb4105.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="USB4105" description="USB4105-GF-A-120 USB-C receptacle, USB2, top mount"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6fb5b5b-cf36-5877-96a3-715b9ebc0a89</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A4"/>
+            <pin num="A5"/>
+            <pin num="A6"/>
+            <pin num="A7"/>
+            <pin num="A8"/>
+            <pin num="A9"/>
+            <pin num="A12"/>
+            <pin num="B1"/>
+            <pin num="B4"/>
+            <pin num="B5"/>
+            <pin num="B6"/>
+            <pin num="B7"/>
+            <pin num="B8"/>
+            <pin num="B9"/>
+            <pin num="B12"/>
+            <pin num="S1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J93">
+      <value>TO PIN BOARD J94</value>
+      <footprint>EVT1:Contact_Loom_4Land</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:Contact_Loom_4Land</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn4" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be8060cc-5ecb-5726-81f0-a7b5644f509f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R91">
+      <value>5.1k 1%</value>
+      <footprint>EVT1:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3561825c-7a5c-51ce-9ada-47d5d5705eea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R92">
+      <value>5.1k 1%</value>
+      <footprint>EVT1:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f61c70a-6e72-568d-a5d8-098c6e616391</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R93">
+      <value>210k 1%</value>
+      <footprint>EVT1:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c65ffcf-f39b-5e1d-9d1f-991e772ad9e2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R94">
+      <value>100k</value>
+      <footprint>EVT1:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99b7220c-dcf6-58ce-ae81-0093dae6986f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP91">
+      <value>FAULT TEST</value>
+      <footprint>EVT1:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn1" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35d9fc14-6135-5487-82f6-157987a63980</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U91">
+      <value>USBLC6-2SC6</value>
+      <footprint>EVT1:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="USBLC6_2SC6" description="USB data/5V ESD array; short return at contact entry"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8978d2b-01c1-5991-ae7a-8be7ccbc699b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U92">
+      <value>TPS2553DBVR</value>
+      <footprint>EVT1:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps2553.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="TPS2553DBVR" description="Current-limited USB switch; R210k, 110..150mA at exact nominal resistor"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="dock-evt1"/>
+      <property name="Sheetfile" value="dock-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2aea7f9-ee7a-5de8-95f1-fce1afc773b4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="PrototypeR0" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="Conn1">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Logical connector pin numbering; physical connector and footprint not selected</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="Conn4">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Logical connector pin numbering; physical connector and footprint not selected</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="TPS2553DBVR">
+      <description>Current-limited USB switch; R210k, 110..150mA at exact nominal resistor</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps2553.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2553DBVR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553.pdf</field>
+        <field name="Description">Current-limited USB switch; R210k, 110..150mA at exact nominal resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="FAULT_N" type="open_collector"/>
+        <pin num="5" name="ILIM" type="passive"/>
+        <pin num="6" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="USB4105">
+      <description>USB4105-GF-A-120 USB-C receptacle, USB2, top mount</description>
+      <docs>https://gct.co/files/drawings/usb4105.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB4105</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://gct.co/files/drawings/usb4105.pdf</field>
+        <field name="Description">USB4105-GF-A-120 USB-C receptacle, USB2, top mount</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_out"/>
+        <pin num="A4" name="VBUS" type="power_out"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="DP" type="bidirectional"/>
+        <pin num="A7" name="DM" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="DP" type="bidirectional"/>
+        <pin num="B7" name="DM" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="USBLC6_2SC6">
+      <description>USB data/5V ESD array; short return at contact entry</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6_2SC6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description">USB data/5V ESD array; short return at contact entry</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1_IN" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IO2_IN" type="passive"/>
+        <pin num="4" name="IO2_OUT" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="IO1_OUT" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PrototypeR0">
+      <uri>${KIPRJMOD}/PrototypeR0.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="CC1" class="Default">
+      <node ref="J91" pin="A5" pinfunction="CC1_A5" pintype="passive"/>
+      <node ref="R91" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="2" name="CC2" class="Default">
+      <node ref="J91" pin="B5" pinfunction="CC2_B5" pintype="passive"/>
+      <node ref="R92" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="DOCK_5V" class="Default">
+      <node ref="C92" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J93" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="U92" pin="6" pinfunction="OUT_6" pintype="power_out"/>
+    </net>
+    <net code="4" name="DOCK_DM" class="Default">
+      <node ref="J91" pin="A7" pinfunction="DM_A7" pintype="bidirectional"/>
+      <node ref="J91" pin="B7" pinfunction="DM_B7" pintype="bidirectional"/>
+      <node ref="J93" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U91" pin="1" pinfunction="IO1_IN_1" pintype="passive"/>
+      <node ref="U91" pin="6" pinfunction="IO1_OUT_6" pintype="passive"/>
+    </net>
+    <net code="5" name="DOCK_DP" class="Default">
+      <node ref="J91" pin="A6" pinfunction="DP_A6" pintype="bidirectional"/>
+      <node ref="J91" pin="B6" pinfunction="DP_B6" pintype="bidirectional"/>
+      <node ref="J93" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U91" pin="3" pinfunction="IO2_IN_3" pintype="passive"/>
+      <node ref="U91" pin="4" pinfunction="IO2_OUT_4" pintype="passive"/>
+    </net>
+    <net code="6" name="DOCK_FAULT_N" class="Default">
+      <node ref="R94" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP91" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U92" pin="4" pinfunction="FAULT_N_4" pintype="open_collector"/>
+    </net>
+    <net code="7" name="DOCK_ILIM" class="Default">
+      <node ref="R93" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U92" pin="5" pinfunction="ILIM_5" pintype="passive"/>
+    </net>
+    <net code="8" name="GND" class="Default">
+      <node ref="C91" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C92" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J91" pin="A1" pinfunction="GND_A1" pintype="power_out"/>
+      <node ref="J91" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="J91" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="J91" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="J91" pin="S1" pinfunction="SHIELD_S1" pintype="passive"/>
+      <node ref="J93" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R91" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R92" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R93" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U91" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U92" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="9" name="HOST_5V" class="Default">
+      <node ref="C91" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J91" pin="A4" pinfunction="VBUS_A4" pintype="power_out"/>
+      <node ref="J91" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="J91" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="J91" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
+      <node ref="R94" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U91" pin="5" pinfunction="VBUS_5" pintype="passive"/>
+      <node ref="U92" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U92" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="10" name="unconnected-(J91-SBU1-PadA8)" class="Default">
+      <node ref="J91" pin="A8" pinfunction="SBU1_A8" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(J91-SBU2-PadB8)" class="Default">
+      <node ref="J91" pin="B8" pinfunction="SBU2_B8" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

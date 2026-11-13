@@ -1,0 +1,75 @@
+{
+  "scope": "Steady-state screening of the radio schematic and coupled UV resistor values",
+  "input_hashes": {
+    "calculator": "b2e80614f131c8f5257700f929d36e748c5edd97089e77c00f3d8c88cf8e9b97",
+    "native_netlist": "66f0e13daea9dd34e6cb4891113760f65af9b7b612425ac45bcc707d8896121e",
+    "radio_source_bindings": "0a2e600183d8b785362cd30b87d0ca9c6530a30804089a6c45910dd41d12f3db",
+    "frozen_safety_budget": "aa6b03156f494c8640d7c4f1f622bfdb080d30c9a9c07262faff435cdc9c3d04"
+  },
+  "radio": {
+    "combined_allocation_mA": 70.0,
+    "host_items_mA": {
+      "R152_and_R154_high": 0.06938775510204082,
+      "R153_IRQ_low": 0.3469387755102041,
+      "R216_R217_I2C_low": 1.4763352149370386,
+      "SN74LVC1G97_Icc_max": 0.01,
+      "SN74LVC1G97_input_level_current_allowance": 1.0,
+      "TPS22950_Iq_at_up_to_85C": 0.06,
+      "TMUX_enable_input_and_power_off_leakage_allowance": 0.02
+    },
+    "host_items_sum_mA": 2.9826617455492834,
+    "switch_output_limit_at_resistor_corners_mA": [
+      33.88141504733433,
+      66.2318113396889
+    ],
+    "arithmetic_margin_to_allocation_mA": 0.7855269147618134,
+    "local_normal_load_acceptance_mA": 30.0
+  },
+  "UV": {
+    "all_four_emitters_retained": true,
+    "limiter_mA": [
+      604.7793467606315,
+      732.9805599960868
+    ],
+    "normal_input_mA": 563.6299860205146,
+    "normal_margin_to_limiter_min_mA": 41.14936074011689,
+    "each_LED_nominal_mA": 47.39336492890995,
+    "each_LED_upper_mA": 49.32778798723282,
+    "normal_driver_input_floor_V": 4.260359942171445
+  },
+  "source": {
+    "minimum_dock_input_V": 4.5,
+    "qualified_current_mA": 1500,
+    "normal_max_sum_mA": 1298.2952432439115,
+    "steady_limiter_sum_mA": 1467.6458172194834,
+    "margin_to_1p5A_mA": 32.35418278051657,
+    "loop_floor_each_mA_before_wiring_and_contact_loss": 10.157538391738326,
+    "loop_remaining_ohms_for_10mA": 6.841892353195476,
+    "shared_board_drop_V": 0.06491476216219558,
+    "shared_U602_drop_V": 0.02366631430584919
+  },
+  "primary_sources": {
+    "TPS22950 current limit and IQ": "https://www.ti.com/lit/ds/symlink/tps22950.pdf",
+    "TPS22919 worst on resistance at 3.6 V": "https://www.ti.com/lit/ds/symlink/tps22919.pdf",
+    "TPS2553 ILIM equations": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+    "SN74LVC1G97 static ICC and \u0394ICC": "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf",
+    "TMUX1511 powered-off leakage": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf"
+  },
+  "assumptions": [
+    "3.4 V host rail ceiling is a project bound to verify.",
+    "The 1 mA transition allowance covers two SN74LVC1G97 inputs at the datasheet's individual \u0394ICC test point. It is an engineering allowance for the actual waveforms.",
+    "The inverse resistor correction is a screening estimate near the TPS22950 19.2 k\u03a9 test point.",
+    "The 0.25 \u03a9 U602 bound uses the lower 3.6 V test rail through 125\u00b0C. Harness and contact drops remain to measure.",
+    "Existing 10 mA UI allocation and UV driver assumptions retain their original qualification conditions."
+  ],
+  "bench_checks": [
+    "Measure TPS22950 current limit, startup and short response with the actual C901/C902, harness and module.",
+    "Confirm local radio current at or below 30 mA over supported modes and operating conditions.",
+    "Measure aggregate source current with both UV branches and radio under normal load, inrush and faults.",
+    "Measure wetting current through each complete switch loop while the radio starts and operates.",
+    "Confirm the assumed common path resistance, boost efficiency, UV driver VIN and optical/thermal performance.",
+    "Measure source-drop isolation, default USB current and suspend with the revised circuitry."
+  ],
+  "physical_validation": false,
+  "full_product_order_ready": false
+}

@@ -1,0 +1,25 @@
+{
+  "scope": "Thermal/sensor mounting trial only; separate from human-owned product BOM and frozen UV-board assembly BOMs",
+  "order_authorized_or_placed": false,
+  "custom_parts": [
+    {"part": "6061-T6 stepped U spreader", "quantity": 2, "canonical_quote_geometry": "BaseSpreader6061.step", "opposite_installed_pose": "LidSpreader6061.step", "same_physical_part": true},
+    {"part": "6061-T6 thermostat pressure bar 8x5x1mm", "quantity": 2, "canonical_quote_geometry": "BaseThermostatPressureBar6061.step", "opposite_installed_pose": "LidThermostatPressureBar6061.step", "same_physical_part": true},
+    {"part": "MJF PA12 dry NTC clip", "quantity": 2, "native_body": "UVBaseDryNTCClip", "derived_print": "UVBaseDryNTCClip.stl", "received taps/force/creep qualification": "required"},
+    {"part": "MJF PA12 sleeved-terminal guard", "quantity": 2, "native_body": "UVBaseTerminalGuard", "derived_print": "UVBaseTerminalGuard.stl", "received sleeve/lacing/retention qualification": "required"},
+    {"part": "TGP1500 insulating pad cut 12x3x0.508mm", "quantity": 4, "installed_copperplane_gap_mm": 0.4},
+    {"part": "TGP1500 dry-NTC support cut 3x4x0.508mm", "quantity": 2, "force_acceptance_N": [0.05, 0.2]},
+    {"part": "Shell integral capture-shoulder additions", "quantity": 8, "source": "build_components(...)[shell_shoulder_adds]", "not_a_loose_part": true, "not_integrated_into_master_yet": true}
+  ],
+  "selected_stock": [
+    {"manufacturer": "Sensata", "mpn": "67L045", "quantity": 2},
+    {"manufacturer": "Vishay", "mpn": "NTCLE413E2103F524A", "quantity": 2},
+    {"manufacturer": "NBK", "mpn": "SNSS-M2-3", "quantity": 2, "purpose": "thermostat pressure bar"},
+    {"manufacturer": "Accu", "mpn": "SIK-M2-4-A2", "quantity": 6, "purpose": "two NTC-clip screws and one terminal-guard screw per module"},
+    {"manufacturer": "Henkel/Bergquist", "material": "GAP PAD TGP1500", "thickness_mm": 0.508, "stock_sheet_candidate": "GP1500-0.020-02-0404", "quantity": 1, "manufacturer_identity/thickness_confirmation_required": true},
+    {"manufacturer": "TE Connectivity", "mpn": "RNF-100-1/16-0-SP", "cut_candidate_mm": 10, "cut_quantity": 4, "purpose": "independent thermostat terminal/joint sleeves", "received_length_and_shrink_trial_required": true},
+    {"manufacturer": "Panduit", "mpn": "PLT.6SM-C", "trial_quantity": 4, "purpose": "sensor tail/terminal-guard lacing", "actual_installed_pose_and_tail_retention_pending": true}
+  ],
+  "existing_parts_reused": {"UV_PCBA": 2, "existing_PCB_mount_screws": 8, "existing_shell_posts": 8},
+  "wire_extensions": {"status": "needed, installed routes not completed by this trial", "signals": ["NTC pair", "independent cutoff loop"], "no_HV_hinge": true},
+  "supplier_quote_or_build_release": false
+}

@@ -1,0 +1,751 @@
+(kicad_symbol_lib
+  (version 20220914)
+  (generator case_telemetry_candidate)
+  (symbol
+    "ABM8G"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ABM8G" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://abracon.com/Resonators/ABM8G.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "ABM8G14.7456MHz,CL10pF,80ohmESR; oscillatorqualificationpending" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "ABM8G_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "ABM8G_1_1"
+      (pin passive line (at -20.32 2.54 0) (length 5.08) (name "XTAL1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "XTAL2" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 2.54 180)
+        (length 5.08)
+        (name "CASE_GND2" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 -2.54 180)
+        (length 5.08)
+        (name "CASE_GND4" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "C"
+    (pin_names hide)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol
+      "C_0_1"
+      (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+      (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+      (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+      (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol
+      "C_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "Conn6"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 22.86 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "Conn6" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "Logical connector pin numbering; physical connector and footprint not selected"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "Conn6_0_1" (rectangle (start -15.24 17.78) (end 15.24 -17.78) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "Conn6_1_1"
+      (pin passive line (at -20.32 12.7 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 7.619999999999999 0)
+        (length 5.08)
+        (name "2" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 2.539999999999999 0)
+        (length 5.08)
+        (name "3" (effects (font (size 1.016 1.016))))
+        (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 -2.540000000000001 0)
+        (length 5.08)
+        (name "4" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 -7.620000000000001 0)
+        (length 5.08)
+        (name "5" (effects (font (size 1.016 1.016))))
+        (number "5" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -12.7 0) (length 5.08) (name "6" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "NINA_B112_05B"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 45.72 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "NINA_B112_05B" (at 0 43.18 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "Datasheet"
+      "https://content.u-blox.com/sites/default/files/NINA-B1_DataSheet_UBX-15019243.pdf"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "B112integratedPIFA/hardware02/u-connectXpress7.0; B111/1Uantenna variants not substituted"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "NINA_B112_05B_0_1" (rectangle (start -15.24 40.64) (end 15.24 -40.64) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "NINA_B112_05B_1_1"
+      (pin output line (at -20.32 35.56 0) (length 5.08) (name "RED" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 30.480000000000004 0)
+        (length 5.08)
+        (name "IO2" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 25.400000000000002 0)
+        (length 5.08)
+        (name "IO3" (effects (font (size 1.016 1.016))))
+        (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 20.32 0)
+        (length 5.08)
+        (name "IO4" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 15.240000000000002 0)
+        (length 5.08)
+        (name "IO5" (effects (font (size 1.016 1.016))))
+        (number "5" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        (name "GND6" (effects (font (size 1.016 1.016))))
+        (number "6" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 5.080000000000002 0)
+        (length 5.08)
+        (name "GREEN_SWITCH1" (effects (font (size 1.016 1.016))))
+        (number "7" (effects (font (size 1.016 1.016)))))
+      (pin output line (at -20.32 0.0 0) (length 5.08) (name "BLUE" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 -5.079999999999998 0)
+        (length 5.08)
+        (name "VCC_IO" (effects (font (size 1.016 1.016))))
+        (number "9" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 -10.159999999999997 0)
+        (length 5.08)
+        (name "VCC" (effects (font (size 1.016 1.016))))
+        (number "10" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at -20.32 -15.239999999999995 0)
+        (length 5.08)
+        (name "SWDCLK" (effects (font (size 1.016 1.016))))
+        (number "11" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 -20.32 0)
+        (length 5.08)
+        (name "GND12" (effects (font (size 1.016 1.016))))
+        (number "12" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 -25.4 0)
+        (length 5.08)
+        (name "ANT_B111_ONLY_NC" (effects (font (size 1.016 1.016))))
+        (number "13" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 -30.480000000000004 0)
+        (length 5.08)
+        (name "GND14" (effects (font (size 1.016 1.016))))
+        (number "14" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 -35.56 0)
+        (length 5.08)
+        (name "SWDIO" (effects (font (size 1.016 1.016))))
+        (number "15" (effects (font (size 1.016 1.016)))))
+      (pin
+        output
+        line
+        (at 20.32 35.56 180)
+        (length 5.08)
+        (name "UART_DTR" (effects (font (size 1.016 1.016))))
+        (number "16" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at 20.32 30.480000000000004 180)
+        (length 5.08)
+        (name "UART_DSR" (effects (font (size 1.016 1.016))))
+        (number "17" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at 20.32 25.400000000000002 180)
+        (length 5.08)
+        (name "SWITCH2" (effects (font (size 1.016 1.016))))
+        (number "18" (effects (font (size 1.016 1.016)))))
+      (pin input line (at 20.32 20.32 180) (length 5.08) (name "RESETn" (effects (font (size 1.016 1.016)))) (number "19" (effects (font (size 1.016 1.016)))))
+      (pin
+        output
+        line
+        (at 20.32 15.240000000000002 180)
+        (length 5.08)
+        (name "UART_RTSn" (effects (font (size 1.016 1.016))))
+        (number "20" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at 20.32 10.160000000000004 180)
+        (length 5.08)
+        (name "UART_CTSn" (effects (font (size 1.016 1.016))))
+        (number "21" (effects (font (size 1.016 1.016)))))
+      (pin
+        output
+        line
+        (at 20.32 5.080000000000002 180)
+        (length 5.08)
+        (name "UART_TX" (effects (font (size 1.016 1.016))))
+        (number "22" (effects (font (size 1.016 1.016)))))
+      (pin input line (at 20.32 0.0 180) (length 5.08) (name "UART_RX" (effects (font (size 1.016 1.016)))) (number "23" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 -5.079999999999998 180)
+        (length 5.08)
+        (name "IO24" (effects (font (size 1.016 1.016))))
+        (number "24" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 -10.159999999999997 180)
+        (length 5.08)
+        (name "IO25" (effects (font (size 1.016 1.016))))
+        (number "25" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at 20.32 -15.239999999999995 180)
+        (length 5.08)
+        (name "GND26" (effects (font (size 1.016 1.016))))
+        (number "26" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 -20.32 180)
+        (length 5.08)
+        (name "IO27" (effects (font (size 1.016 1.016))))
+        (number "27" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 -25.4 180)
+        (length 5.08)
+        (name "NFC1" (effects (font (size 1.016 1.016))))
+        (number "28" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 -30.480000000000004 180)
+        (length 5.08)
+        (name "NFC2" (effects (font (size 1.016 1.016))))
+        (number "29" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at 20.32 -35.56 180)
+        (length 5.08)
+        (name "GND30" (effects (font (size 1.016 1.016))))
+        (number "30" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "31" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "32" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "33" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "34" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "35" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "36" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "37" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "38" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "39" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "40" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "41" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at -20.32 10.160000000000004 0)
+        (length 5.08)
+        hide
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "42" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "R"
+    (pin_names hide)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol
+      "R_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "SC16IS750_IBS"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 40.64 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SC16IS750_IBS" (at 0 38.1 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "HVQFN24SOT616-3,notTSSOPpinmap; exposedpad25isphysicalGNDland" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "SC16IS750_IBS_0_1" (rectangle (start -15.24 35.56) (end 15.24 -35.56) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "SC16IS750_IBS_1_1"
+      (pin input line (at -20.32 30.48 0) (length 5.08) (name "RESETn" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 25.4 0) (length 5.08) (name "XTAL1" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin output line (at -20.32 20.32 0) (length 5.08) (name "XTAL2" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at -20.32 15.24 0) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 10.16 0) (length 5.08) (name "I2C_SPI" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at -20.32 5.080000000000002 0)
+        (length 5.08)
+        (name "A0" (effects (font (size 1.016 1.016))))
+        (number "6" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 0.0 0) (length 5.08) (name "A1" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+      (pin
+        no_connect
+        line
+        (at -20.32 -5.080000000000002 0)
+        (length 5.08)
+        (name "NC" (effects (font (size 1.016 1.016))))
+        (number "8" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 -10.16 0) (length 5.08) (name "SCL" (effects (font (size 1.016 1.016)))) (number "9" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 -15.239999999999998 0)
+        (length 5.08)
+        (name "SDA" (effects (font (size 1.016 1.016))))
+        (number "10" (effects (font (size 1.016 1.016)))))
+      (pin
+        open_collector
+        line
+        (at -20.32 -20.319999999999997 0)
+        (length 5.08)
+        (name "IRQn" (effects (font (size 1.016 1.016))))
+        (number "11" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 -25.400000000000002 0)
+        (length 5.08)
+        (name "GPIO0" (effects (font (size 1.016 1.016))))
+        (number "12" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 -30.48 0)
+        (length 5.08)
+        (name "GPIO1" (effects (font (size 1.016 1.016))))
+        (number "13" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 30.48 180)
+        (length 5.08)
+        (name "GPIO2" (effects (font (size 1.016 1.016))))
+        (number "14" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 25.4 180)
+        (length 5.08)
+        (name "GPIO3" (effects (font (size 1.016 1.016))))
+        (number "15" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 20.32 180) (length 5.08) (name "VSS" (effects (font (size 1.016 1.016)))) (number "16" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 15.24 180)
+        (length 5.08)
+        (name "GPIO4" (effects (font (size 1.016 1.016))))
+        (number "17" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 10.16 180)
+        (length 5.08)
+        (name "GPIO5" (effects (font (size 1.016 1.016))))
+        (number "18" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 5.080000000000002 180)
+        (length 5.08)
+        (name "GPIO6" (effects (font (size 1.016 1.016))))
+        (number "19" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 0.0 180)
+        (length 5.08)
+        (name "GPIO7" (effects (font (size 1.016 1.016))))
+        (number "20" (effects (font (size 1.016 1.016)))))
+      (pin
+        output
+        line
+        (at 20.32 -5.080000000000002 180)
+        (length 5.08)
+        (name "RTSn" (effects (font (size 1.016 1.016))))
+        (number "21" (effects (font (size 1.016 1.016)))))
+      (pin input line (at 20.32 -10.16 180) (length 5.08) (name "CTSn" (effects (font (size 1.016 1.016)))) (number "22" (effects (font (size 1.016 1.016)))))
+      (pin
+        output
+        line
+        (at 20.32 -15.239999999999998 180)
+        (length 5.08)
+        (name "TX" (effects (font (size 1.016 1.016))))
+        (number "23" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at 20.32 -20.319999999999997 180)
+        (length 5.08)
+        (name "RX" (effects (font (size 1.016 1.016))))
+        (number "24" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at 20.32 -25.400000000000002 180)
+        (length 5.08)
+        (name "EP_GND" (effects (font (size 1.016 1.016))))
+        (number "25" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "SN74LVC1G97_DCK"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SN74LVC1G97_DCK" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "SchmittAND: In1LOW =>Y=In2ANDIn0; accepts existingfilteredSOURCE_OK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "SN74LVC1G97_DCK_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "SN74LVC1G97_DCK_1_1"
+      (pin
+        input
+        line
+        (at -20.32 5.08 0)
+        (length 5.08)
+        (name "In1_tiedLOW" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at -20.32 0.0 0)
+        (length 5.08)
+        (name "In0_PH1request" (effects (font (size 1.016 1.016))))
+        (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at -20.32 -5.08 0)
+        (length 5.08)
+        (name "In2_SOURCE_OK" (effects (font (size 1.016 1.016))))
+        (number "6" (effects (font (size 1.016 1.016)))))
+      (pin output line (at 20.32 5.08 180) (length 5.08) (name "Y_AND" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "VCC" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 -5.08 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "TLV70033_DDC"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TLV70033_DDC" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv700.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Localradio3V3LDO; neverburden theoldUI10mArail withmoduleload" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "TLV70033_DDC_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "TLV70033_DDC_1_1"
+      (pin power_in line (at -20.32 5.08 0) (length 5.08) (name "IN" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 0.0 0) (length 5.08) (name "EN" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin power_out line (at 20.32 5.08 180) (length 5.08) (name "OUT" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin no_connect line (at 20.32 -5.08 180) (length 5.08) (name "NC" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "TMUX1511_RSV"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 27.939999999999998 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TMUX1511_RSV" (at 0 25.4 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux1511.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "ActualRSV16UQFN; powered-offprotection<=3.6V; threecontrols usehardwarequalifiedactiveEN"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "TMUX1511_RSV_0_1" (rectangle (start -15.24 22.86) (end 15.24 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "TMUX1511_RSV_1_1"
+      (pin input line (at -20.32 17.78 0) (length 5.08) (name "SEL1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 12.700000000000001 0)
+        (length 5.08)
+        (name "S1" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 7.620000000000001 0)
+        (length 5.08)
+        (name "D1" (effects (font (size 1.016 1.016))))
+        (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at -20.32 2.540000000000001 0)
+        (length 5.08)
+        (name "SEL2" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 -2.539999999999999 0)
+        (length 5.08)
+        (name "S2" (effects (font (size 1.016 1.016))))
+        (number "5" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 -7.619999999999997 0)
+        (length 5.08)
+        (name "D2" (effects (font (size 1.016 1.016))))
+        (number "6" (effects (font (size 1.016 1.016)))))
+      (pin no_connect line (at -20.32 -12.7 0) (length 5.08) (name "NC7" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at -20.32 -17.78 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 17.78 180) (length 5.08) (name "D3" (effects (font (size 1.016 1.016)))) (number "9" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 12.700000000000001 180)
+        (length 5.08)
+        (name "S3" (effects (font (size 1.016 1.016))))
+        (number "10" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at 20.32 7.620000000000001 180)
+        (length 5.08)
+        (name "SEL3" (effects (font (size 1.016 1.016))))
+        (number "11" (effects (font (size 1.016 1.016)))))
+      (pin
+        no_connect
+        line
+        (at 20.32 2.540000000000001 180)
+        (length 5.08)
+        (name "NC12" (effects (font (size 1.016 1.016))))
+        (number "12" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 -2.539999999999999 180)
+        (length 5.08)
+        (name "D4" (effects (font (size 1.016 1.016))))
+        (number "13" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 -7.619999999999997 180)
+        (length 5.08)
+        (name "S4" (effects (font (size 1.016 1.016))))
+        (number "14" (effects (font (size 1.016 1.016)))))
+      (pin input line (at 20.32 -12.7 180) (length 5.08) (name "SEL4" (effects (font (size 1.016 1.016)))) (number "15" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 -17.78 180) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "16" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "TPS22950_YBH"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TPS22950_YBH" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22950.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "ActualYBH6WCSP pin map; fixed19.2k setting; FLT is not an ordinarycurrent-limitindicator"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "TPS22950_YBH_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "TPS22950_YBH_1_1"
+      (pin power_in line (at -20.32 5.08 0) (length 5.08) (name "VIN" (effects (font (size 1.016 1.016)))) (number "B1" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 0.0 0) (length 5.08) (name "ON" (effects (font (size 1.016 1.016)))) (number "A1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -5.08 0) (length 5.08) (name "ILIM" (effects (font (size 1.016 1.016)))) (number "C2" (effects (font (size 1.016 1.016)))))
+      (pin power_out line (at 20.32 5.08 180) (length 5.08) (name "VOUT" (effects (font (size 1.016 1.016)))) (number "B2" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "C1" (effects (font (size 1.016 1.016)))))
+      (pin
+        open_collector
+        line
+        (at 20.32 -5.08 180)
+        (length 5.08)
+        (name "FLTn" (effects (font (size 1.016 1.016))))
+        (number "A2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "TPS3808G33_DBV"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TPS3808G33_DBV" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3808.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "CTopen gives12..28msresetdelay; waitrealmodule startupURC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "TPS3808G33_DBV_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "TPS3808G33_DBV_1_1"
+      (pin power_in line (at -20.32 5.08 0) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 0.0 0) (length 5.08) (name "SENSE" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 -5.08 0) (length 5.08) (name "MRn" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        open_collector
+        line
+        (at 20.32 5.08 180)
+        (length 5.08)
+        (name "RESETn" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 0.0 180) (length 5.08) (name "CT" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 -5.08 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016))))))))

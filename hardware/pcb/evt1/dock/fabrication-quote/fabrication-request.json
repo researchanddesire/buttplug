@@ -1,0 +1,21 @@
+{
+  "scope": "EVT prototype fabrication quote; no full-product build release, supplier acceptance or order",
+  "layers": 2,
+  "copper_layer_order": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "thickness_mm": 1.0,
+  "material": "FR4",
+  "finish": "ENIG",
+  "outer_copper_oz": 1,
+  "inner_copper_oz": null,
+  "copper_clearance_min_mm": 0.19999999999999998,
+  "track_width_min_mm": 0.15,
+  "via_drill_min_mm": 0.3,
+  "via_diameter_min_mm": 0.5,
+  "copper_to_board_edge_min_mm": 0.3,
+  "hole_to_copper_min_mm": 0.15,
+  "supplier_review": "USB4105 locating-peg land pattern requires acceptance of0.15mm hole-to-copper clearance on dock board; review routed slots, finished thickness/holes and paste. Pin-board thickness sets spring compression.",
+  "native_stackup_finish": "None"
+}

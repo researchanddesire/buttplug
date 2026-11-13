@@ -1,0 +1,448 @@
+{
+  "status": "Frozen v1 candidate wire contract for implementation review; hardware and physical qualification remain open. Change semantic layout only by versioned replacement.",
+  "encoding": "Little-endian; fixed 20-byte values; compatible with ATT_MTU 23. Reserved bits and fields must be zero.",
+  "service_uuid": "ad3c1000-6424-4a93-befd-6ab278057a86",
+  "security": "Plug GATT server must require authenticated/encrypted access according to the separately qualified pairing policy; NINA client cannot impose security on an unsecured server attribute.",
+  "independent_transport": "PC native USB and ROM recovery have no radio, bridge, reset or power dependency. The D+/D- path is physically direct.",
+  "characteristics": {
+    "thermal_sample": {
+      "uuid": "ad3c1001-6424-4a93-befd-6ab278057a86",
+      "properties": [
+        "read",
+        "notify"
+      ],
+      "bytes": 20,
+      "fields": [
+        {
+          "name": "version",
+          "offset": 0,
+          "type": "u8",
+          "value": 1
+        },
+        {
+          "name": "flags",
+          "offset": 1,
+          "type": "u8",
+          "bits": {
+            "0": "attempt_completed",
+            "1": "temperature_valid",
+            "2": "PGOOD_active_at_start",
+            "3": "PGOOD_active_at_end",
+            "4": "source_changed_during_attempt",
+            "5": "ADC_or_sensor_fault",
+            "6": "sample_follows_observed_source_loss",
+            "7": "raw_ratio_valid"
+          }
+        },
+        {
+          "name": "attempt_sequence",
+          "offset": 2,
+          "type": "u16"
+        },
+        {
+          "name": "plug_boot_id",
+          "offset": 4,
+          "type": "u32"
+        },
+        {
+          "name": "started_ms",
+          "offset": 8,
+          "type": "u32"
+        },
+        {
+          "name": "completed_ms",
+          "offset": 12,
+          "type": "u32"
+        },
+        {
+          "name": "tip_centi_C",
+          "offset": 16,
+          "type": "i16",
+          "invalid": -32768
+        },
+        {
+          "name": "raw_ratio_q16",
+          "offset": 18,
+          "type": "u16",
+          "invalid": 65535,
+          "meaning": "Optional dimensionless thermistor ratio: integer divided by 65536; 0xffff is reserved as invalid. It is not raw ADC counts and does not automatically establish temperature validity."
+        }
+      ],
+      "rules": [
+        "Publish each distinct NTC attempt with its original start and completion ticks, including invalid attempts.",
+        "Never restamp a cached 1 Hz sample at a 100 ms UI tick.",
+        "Invalid data cannot refresh the last valid sample age.",
+        "The receiver computes age from the mapped acquisition tick and current case monotonic time, including time-anchor uncertainty."
+      ]
+    },
+    "charge_sample": {
+      "uuid": "ad3c1002-6424-4a93-befd-6ab278057a86",
+      "properties": [
+        "read",
+        "notify"
+      ],
+      "bytes": 20,
+      "fields": [
+        {
+          "name": "version",
+          "offset": 0,
+          "type": "u8",
+          "value": 1
+        },
+        {
+          "name": "validity",
+          "offset": 1,
+          "type": "u16",
+          "bits": {
+            "0": "ISET_valid",
+            "1": "TS_valid",
+            "2": "VBAT_valid",
+            "3": "CHG_valid",
+            "4": "CE_valid",
+            "5": "PGOOD_valid",
+            "6": "charge_history_continuous",
+            "7": "timer_fault_latched",
+            "8": "ISET_saturated_or_input_fault",
+            "9": "TS_saturated_or_input_fault",
+            "10": "measurement_reset_or_gap",
+            "11": "battery_presence_qualified",
+            "12": "termination_candidate_only",
+            "13": "reserved",
+            "14": "reserved",
+            "15": "reserved"
+          }
+        },
+        {
+          "name": "charge_sequence",
+          "offset": 3,
+          "type": "u16"
+        },
+        {
+          "name": "plug_boot_id",
+          "offset": 5,
+          "type": "u32"
+        },
+        {
+          "name": "sample_completed_ms",
+          "offset": 9,
+          "type": "u32"
+        },
+        {
+          "name": "charge_current_0p1_mA",
+          "offset": 13,
+          "type": "u16",
+          "invalid": 65535
+        },
+        {
+          "name": "TS_mV",
+          "offset": 15,
+          "type": "u16",
+          "invalid": 65535
+        },
+        {
+          "name": "VBAT_mV",
+          "offset": 17,
+          "type": "u16",
+          "invalid": 65535
+        },
+        {
+          "name": "raw_status",
+          "offset": 19,
+          "type": "u8",
+          "bits": {
+            "0": "CHG_pin_low",
+            "1": "CE_pin_low_charge_allowed",
+            "2": "PGOOD_pin_low_valid_input",
+            "3": "CHG_fault_pattern_observed",
+            "4": "TS_in_qualified_window",
+            "5": "first_cycle_CHG_low_seen",
+            "6": "taper_history_seen",
+            "7": "reserved"
+          }
+        }
+      ],
+      "rules": [
+        "Flags report observations and candidates, not SOC or a new Ready state.",
+        "Bare CHG high with zero ISET never means Done.",
+        "Sample CHG locally every 25 ms or faster and retain edge history. Approximately 2 Hz faults cannot be inferred from 1 Hz notifications alone.",
+        "On failed I2C, ADC or configuration readback, publish invalid status; do not reuse the last value as fresh.",
+        "ISET, TS, VBAT and valid CHG/CE/PGOOD observations form an acquisition bundle spanning at most 250 ms and ending at sample_completed_ms. Clear validity for any field outside that window.",
+        "sample_completed_ms is the actual acquisition-group completion tick, not the BLE publication tick. Continuous CHG fault history remains independent of the bundled snapshot."
+      ]
+    },
+    "source_event": {
+      "uuid": "ad3c1003-6424-4a93-befd-6ab278057a86",
+      "properties": [
+        "read",
+        "notify"
+      ],
+      "bytes": 20,
+      "fields": [
+        {
+          "name": "version",
+          "offset": 0,
+          "type": "u8",
+          "value": 1
+        },
+        {
+          "name": "flags",
+          "offset": 1,
+          "type": "u8",
+          "bits": {
+            "0": "observed_PGOOD_loss",
+            "1": "reconnected_before_first_new_attempt",
+            "2": "first_new_attempt_started",
+            "3": "first_new_attempt_completed",
+            "4": "first_new_attempt_valid",
+            "5": "event_queue_overflow",
+            "6": "reconnected_before_first_valid_temperature",
+            "7": "reserved"
+          }
+        },
+        {
+          "name": "event_sequence",
+          "offset": 2,
+          "type": "u16"
+        },
+        {
+          "name": "plug_boot_id",
+          "offset": 4,
+          "type": "u32"
+        },
+        {
+          "name": "observed_loss_ms",
+          "offset": 8,
+          "type": "u32"
+        },
+        {
+          "name": "first_new_started_ms",
+          "offset": 12,
+          "type": "u32"
+        },
+        {
+          "name": "first_new_completed_ms",
+          "offset": 16,
+          "type": "u32"
+        }
+      ],
+      "rules": [
+        "PGOOD loss is a source-loss candidate, never confirmation of physical removal.",
+        "The first post-loss attempt must begin after the loss observation. A cached or already-running conversion does not qualify.",
+        "Match event timestamps to the thermal attempt history. Missing records or wrap ambiguity invalidate inferred baselines.",
+        "Retain reconnection before the first new attempt separately from reconnection before the first valid temperature."
+      ]
+    },
+    "command": {
+      "uuid": "ad3c1004-6424-4a93-befd-6ab278057a86",
+      "properties": [
+        "write_with_response"
+      ],
+      "bytes": 20,
+      "fields": [
+        {
+          "name": "version",
+          "offset": 0,
+          "type": "u8",
+          "value": 1
+        },
+        {
+          "name": "opcode",
+          "offset": 1,
+          "type": "u8",
+          "values": {
+            "1": "request_snapshot",
+            "2": "time_anchor_request",
+            "3": "request_baseline_capture",
+            "4": "read_source_event_by_sequence"
+          }
+        },
+        {
+          "name": "request_id",
+          "offset": 2,
+          "type": "u16"
+        },
+        {
+          "name": "case_session_id",
+          "offset": 4,
+          "type": "u32"
+        },
+        {
+          "name": "case_monotonic_ms",
+          "offset": 8,
+          "type": "u32"
+        },
+        {
+          "name": "argument0",
+          "offset": 12,
+          "type": "u32"
+        },
+        {
+          "name": "argument1",
+          "offset": 16,
+          "type": "u32"
+        }
+      ],
+      "rules": [
+        "No charger CE control, UV safety override or USB mode switch opcode.",
+        "ATT write success confirms transport only. Wait for command_result with the matching request_id and case_session_id_echo.",
+        "Commands are idempotent by case_session_id/request_id. Duplicates must not create a second baseline event.",
+        "Never reuse a request_id within the same case_session_id. Establish a new session nonce before exhausting the 16-bit request-ID space.",
+        "case_session_id is a fresh 32-bit transport nonce initialized at case boot and rotated before any request-ID reuse. It is not the plug sensor boot identifier. Its producer must ensure freshness in the comparison window using a qualified persistent counter or qualified entropy. If freshness cannot be established, command correlation and time anchoring remain invalid."
+      ]
+    },
+    "command_result": {
+      "uuid": "ad3c1005-6424-4a93-befd-6ab278057a86",
+      "properties": [
+        "read",
+        "notify"
+      ],
+      "bytes": 20,
+      "fields": [
+        {
+          "name": "version",
+          "offset": 0,
+          "type": "u8",
+          "value": 1
+        },
+        {
+          "name": "result",
+          "offset": 1,
+          "type": "u8",
+          "values": {
+            "0": "accepted",
+            "1": "unsupported",
+            "2": "invalid_argument",
+            "3": "history_unavailable",
+            "4": "busy_or_stale",
+            "5": "not_qualified"
+          }
+        },
+        {
+          "name": "request_id",
+          "offset": 2,
+          "type": "u16"
+        },
+        {
+          "name": "plug_boot_id",
+          "offset": 4,
+          "type": "u32"
+        },
+        {
+          "name": "received_ms",
+          "offset": 8,
+          "type": "u32"
+        },
+        {
+          "name": "completed_ms",
+          "offset": 12,
+          "type": "u32"
+        },
+        {
+          "name": "case_session_id_echo",
+          "offset": 16,
+          "type": "u32",
+          "meaning": "Exact echo of the case transport-session nonce, not a result payload. It must match the current pending request, including the first time anchor."
+        }
+      ],
+      "rules": [
+        "The time anchor uses case request-send/result-receive ticks and plug received_ms/completed_ms. Retain the offset interval and its uncertainty.",
+        "No wall-clock or UTC guarantee exists without an independent case time source or a PC anchor."
+      ]
+    },
+    "source_valid_sample": {
+      "uuid": "ad3c1006-6424-4a93-befd-6ab278057a86",
+      "properties": [
+        "read",
+        "notify"
+      ],
+      "bytes": 20,
+      "fields": [
+        {
+          "name": "version",
+          "offset": 0,
+          "type": "u8",
+          "value": 1
+        },
+        {
+          "name": "flags",
+          "offset": 1,
+          "type": "u8",
+          "bits": {
+            "0": "first_valid_after_loss_available",
+            "1": "reconnected_before_first_valid_temperature",
+            "2": "event_queue_overflow",
+            "3": "reserved",
+            "4": "reserved",
+            "5": "reserved",
+            "6": "reserved",
+            "7": "reserved"
+          }
+        },
+        {
+          "name": "event_sequence",
+          "offset": 2,
+          "type": "u16"
+        },
+        {
+          "name": "plug_boot_id",
+          "offset": 4,
+          "type": "u32"
+        },
+        {
+          "name": "observed_loss_ms",
+          "offset": 8,
+          "type": "u32"
+        },
+        {
+          "name": "first_valid_started_ms",
+          "offset": 12,
+          "type": "u32"
+        },
+        {
+          "name": "first_valid_completed_ms",
+          "offset": 16,
+          "type": "u32"
+        }
+      ],
+      "rules": [
+        "Link to source_event by event_sequence, plug_boot_id and observed_loss_ms. Never overwrite the distinct first-attempt record.",
+        "Identify the first valid sample in the thermal attempt history; invalid attempts cannot populate these timestamps.",
+        "Reconnection before a valid post-loss sample remains distinguishable from reconnection before any post-loss attempt."
+      ]
+    }
+  },
+  "transport_limits": {
+    "routine_notification_target_Hz": 1,
+    "bridge": "SC16IS750: 64-byte FIFO, 115200 8N1, actual automatic RTS/CTS. A continuous line-rate stream can fill the FIFO in 5.56 ms.",
+    "not_guaranteed": [
+      "BLE availability in ROM recovery or C3reset",
+      "persistent pairing until qualified",
+      "notification delivery/order across reconnect",
+      "submillisecond timestamps",
+      "wall-clock persistence",
+      "case ambient temperature from radio die sensor"
+    ],
+    "reconnect": "Read a fresh snapshot and missing bounded event sequence. A plug boot-ID change invalidates timing/history across that boundary. Modular ordering is valid only within the half-range window of the same known boot.",
+    "limits": "Twenty-byte values avoid a larger-MTU dependency. Separate characteristics are not an atomic snapshot; check boot, sequence, timing and validity."
+  },
+  "decode_rules": [
+    "Reject values not exactly 20 bytes, unsupported versions and nonzero reserved bits. A failed decode cannot refresh any freshness timestamp.",
+    "Flags determine availability. Tick 0 and sequence 0 are valid after wrap; numeric zero is not an invalid sentinel.",
+    "An invalid numeric sentinel with its validity flag set is malformed. Invalidate that field and report a protocol fault; retain prior valid data without restamping it.",
+    "temperature_valid requires attempt_completed and a noninvalid tip value. raw_ratio_valid requires attempt_completed and a noninvalid ratio, independently of temperature_valid. An absent ratio does not invalidate an otherwise valid temperature.",
+    "Invalid charge numeric fields must carry 0xffff. Decode observations only; infer no Done, SOC or Ready state. CHG, CE and PGOOD each have independent validity.",
+    "Link source-attempt and first-valid records by boot ID, event sequence and loss tick. Reordered or missing records cannot create a synthetic complete baseline.",
+    "After plug boot change, reconnect, unknown ordering or an excessive gap, invalidate cross-boot timing and require a fresh snapshot/time anchor. Boot IDs are correlation identifiers, not authentication.",
+    "Use uint16 sequence and uint32 tick modular ordering only for a known same boot and a span smaller than half the respective modulus. Larger or ambiguous gaps invalidate ordering.",
+    "Compute age from actual acquisition time and the case/plug time-anchor uncertainty. Receipt of a delayed notification cannot make a sample fresh.",
+    "A cache may expose fresh, aged or unknown data but cannot invent thermal readiness or charge-completion thresholds."
+  ],
+  "time_anchor_rules": [
+    "Allow at most one outstanding time-anchor request per case session. Match request_id, exact case_session_id_echo and current plug_boot_id. Clear pending requests on disconnect or either session/boot change.",
+    "The case records monotonic transmit T0 and complete-result receive T3. The plug returns monotonic receive T1 and completion T2. After wrap-safe conversion, the plug-minus-case offset lies in [T2-T3, T1-T0]. Reject an interval whose lower bound exceeds its upper bound.",
+    "Uncertainty includes the whole interval and timer resolution. Assume no fixed BLE latency. The implementation must state its overdue-result policy.",
+    "Map a sample to the case clock only when its boot and tick window match a valid anchor. Otherwise its age is unknown. Monotonic ticks are not UTC.",
+    "Duplicate commands are idempotent by case_session_id/request_id. After bounded idempotency-history eviction, return history_unavailable rather than recreate a baseline.",
+    "A retained result from an earlier case session must never satisfy a new request, even when its 16-bit request ID and plug boot ID match. Check case_session_id_echo first."
+  ]
+}

@@ -1,0 +1,1328 @@
+{
+  "source_placement_sha256": "6fc2608bf8466717a4919f7afda0458297b4e22480bf7431d250720d5db0191e",
+  "source_XML_sha256": "6c5c32475a597fada90be6c697b707fbdca438c96149c9017451786df398cabb",
+  "board_seed_sha256": "006aa2659913e02e2d1b1748d10938ab9e89ceb1a94d71c3e688c1374813a7e5",
+  "critical_fixed_refs": [
+    "J301",
+    "J302",
+    "S301",
+    "S302",
+    "S303"
+  ],
+  "passive_locations": {
+    "C301": [
+      -11,
+      117.3,
+      90
+    ],
+    "C302": [
+      -9.5,
+      117.3,
+      90
+    ],
+    "C303": [
+      -8,
+      117.3,
+      90
+    ],
+    "C304": [
+      -6.5,
+      117.3,
+      90
+    ],
+    "C305": [
+      -5,
+      117.3,
+      90
+    ],
+    "C306": [
+      -3.5,
+      111.2,
+      90
+    ],
+    "C307": [
+      -1,
+      111.2,
+      90
+    ],
+    "C308": [
+      1.5,
+      111.2,
+      90
+    ],
+    "C309": [
+      4,
+      111.2,
+      90
+    ],
+    "C310": [
+      8,
+      115.6,
+      90
+    ],
+    "C311": [
+      1,
+      117.4,
+      0
+    ],
+    "R301": [
+      12,
+      110,
+      90
+    ],
+    "R302": [
+      15,
+      110,
+      90
+    ],
+    "R303": [
+      12,
+      106,
+      90
+    ],
+    "R304": [
+      15,
+      106,
+      90
+    ],
+    "R305": [
+      12,
+      102,
+      90
+    ],
+    "R306": [
+      15,
+      102,
+      90
+    ],
+    "R307": [
+      12,
+      99,
+      90
+    ],
+    "R308": [
+      15,
+      99,
+      90
+    ],
+    "R309": [
+      12,
+      96,
+      90
+    ],
+    "R310": [
+      15,
+      96,
+      90
+    ],
+    "R311": [
+      12,
+      93,
+      90
+    ],
+    "R312": [
+      15,
+      93,
+      90
+    ]
+  },
+  "mounts_NPTH2_3mm_R3": {
+    "H301": [
+      -30,
+      65
+    ],
+    "H302": [
+      30,
+      65
+    ],
+    "H303": [
+      -32,
+      115
+    ],
+    "H304": [
+      32,
+      105
+    ]
+  },
+  "B_side_components": {
+    "C301": {
+      "dock_xyz_topUnresolved": [
+        -11,
+        117.3
+      ],
+      "case_max_height_mm": 0.9,
+      "planned_mounted_clearance_mm": 1.05
+    },
+    "C302": {
+      "dock_xyz_topUnresolved": [
+        -9.5,
+        117.3
+      ],
+      "case_max_height_mm": 0.9,
+      "planned_mounted_clearance_mm": 1.05
+    },
+    "C303": {
+      "dock_xyz_topUnresolved": [
+        -8,
+        117.3
+      ],
+      "case_max_height_mm": 0.9,
+      "planned_mounted_clearance_mm": 1.05
+    },
+    "C304": {
+      "dock_xyz_topUnresolved": [
+        -6.5,
+        117.3
+      ],
+      "case_max_height_mm": 0.9,
+      "planned_mounted_clearance_mm": 1.05
+    },
+    "C305": {
+      "dock_xyz_topUnresolved": [
+        -5,
+        117.3
+      ],
+      "case_max_height_mm": 0.9,
+      "planned_mounted_clearance_mm": 1.05
+    },
+    "C306": {
+      "dock_xyz_topUnresolved": [
+        -3.5,
+        111.2
+      ],
+      "case_max_height_mm": 1.8,
+      "planned_mounted_clearance_mm": 1.95
+    },
+    "C307": {
+      "dock_xyz_topUnresolved": [
+        -1,
+        111.2
+      ],
+      "case_max_height_mm": 1.8,
+      "planned_mounted_clearance_mm": 1.95
+    },
+    "C308": {
+      "dock_xyz_topUnresolved": [
+        1.5,
+        111.2
+      ],
+      "case_max_height_mm": 1.8,
+      "planned_mounted_clearance_mm": 1.95
+    },
+    "C309": {
+      "dock_xyz_topUnresolved": [
+        4,
+        111.2
+      ],
+      "case_max_height_mm": 1.8,
+      "planned_mounted_clearance_mm": 1.95
+    },
+    "C310": {
+      "dock_xyz_topUnresolved": [
+        8,
+        115.6
+      ],
+      "case_max_height_mm": 0.9,
+      "planned_mounted_clearance_mm": 1.05
+    },
+    "C311": {
+      "dock_xyz_topUnresolved": [
+        1,
+        117.4
+      ],
+      "case_max_height_mm": 0.55,
+      "planned_mounted_clearance_mm": 0.65
+    }
+  },
+  "height_sources": [
+    "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X7R1H225K160AB",
+    "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+    "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+  ],
+  "pads": {
+    "J301": [
+      {
+        "n": "1",
+        "net": "GND",
+        "xy": [
+          29.75,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "3V3_UI",
+        "xy": [
+          29.25,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "3",
+        "net": "LCD_DB0",
+        "xy": [
+          28.75,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "4",
+        "net": "LCD_DB1",
+        "xy": [
+          28.25,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "5",
+        "net": "LCD_DB2",
+        "xy": [
+          27.75,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "6",
+        "net": "LCD_DB3",
+        "xy": [
+          27.25,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "7",
+        "net": "LCD_DB4",
+        "xy": [
+          26.75,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "8",
+        "net": "LCD_DB5",
+        "xy": [
+          26.25,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "9",
+        "net": "LCD_DB6",
+        "xy": [
+          25.75,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "10",
+        "net": "LCD_DB7",
+        "xy": [
+          25.25,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "11",
+        "net": "LCD_A0",
+        "xy": [
+          24.75,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "12",
+        "net": "LCD_WRn",
+        "xy": [
+          24.25,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "13",
+        "net": "LCD_CSn",
+        "xy": [
+          23.75,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "14",
+        "net": "LCD_RESETn",
+        "xy": [
+          23.25,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "15",
+        "net": "BTN_LEFTn",
+        "xy": [
+          22.75,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "16",
+        "net": "BTN_CENTERn_RAW",
+        "xy": [
+          22.25,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "17",
+        "net": "BTN_RIGHTn",
+        "xy": [
+          21.75,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "18",
+        "net": "GND",
+        "xy": [
+          21.25,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "19",
+        "net": "GND",
+        "xy": [
+          20.75,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "20",
+        "net": "GND",
+        "xy": [
+          20.25,
+          111.15
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "MP",
+        "net": "GND",
+        "xy": [
+          31.65,
+          114.4
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "MP",
+        "net": "GND",
+        "xy": [
+          18.35,
+          114.4
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "R311": [
+      {
+        "n": "1",
+        "net": "LCD_DB6",
+        "xy": [
+          12.0,
+          92.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          12.0,
+          93.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "H303": [
+      {
+        "n": "",
+        "net": "",
+        "xy": [
+          -32.0,
+          115.0
+        ],
+        "layer": "NPTH through"
+      }
+    ],
+    "J302": [
+      {
+        "n": "1",
+        "net": "LCD_V0",
+        "xy": [
+          -6.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "LCD_V1",
+        "xy": [
+          -6.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "3",
+        "net": "LCD_V2",
+        "xy": [
+          -5.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "4",
+        "net": "LCD_V3",
+        "xy": [
+          -5.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "5",
+        "net": "LCD_V4",
+        "xy": [
+          -4.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "6",
+        "net": "unconnected-(J302-MATES_LCD_6-Pad6)",
+        "xy": [
+          -4.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "7",
+        "net": "LCD_C2M",
+        "xy": [
+          -3.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "8",
+        "net": "LCD_C2P",
+        "xy": [
+          -3.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "9",
+        "net": "LCD_C1P",
+        "xy": [
+          -2.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "10",
+        "net": "LCD_C1M",
+        "xy": [
+          -2.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "11",
+        "net": "LCD_C3P",
+        "xy": [
+          -1.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "12",
+        "net": "LCD_VOUT",
+        "xy": [
+          -1.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "13",
+        "net": "3V3_UI",
+        "xy": [
+          -0.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "14",
+        "net": "GND",
+        "xy": [
+          0.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "15",
+        "net": "LCD_DB7",
+        "xy": [
+          0.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "16",
+        "net": "LCD_DB6",
+        "xy": [
+          1.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "17",
+        "net": "LCD_DB5",
+        "xy": [
+          1.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "18",
+        "net": "LCD_DB4",
+        "xy": [
+          2.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "19",
+        "net": "LCD_DB3",
+        "xy": [
+          2.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "20",
+        "net": "LCD_DB2",
+        "xy": [
+          3.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "21",
+        "net": "LCD_DB1",
+        "xy": [
+          3.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "22",
+        "net": "LCD_DB0",
+        "xy": [
+          4.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "23",
+        "net": "3V3_UI",
+        "xy": [
+          4.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "24",
+        "net": "LCD_WRn",
+        "xy": [
+          5.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "25",
+        "net": "LCD_A0",
+        "xy": [
+          5.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "26",
+        "net": "LCD_RESETn",
+        "xy": [
+          6.0,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "27",
+        "net": "LCD_CSn",
+        "xy": [
+          6.5,
+          114.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "MP",
+        "net": "GND",
+        "xy": [
+          -8.3,
+          112.5
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "MP",
+        "net": "GND",
+        "xy": [
+          8.3,
+          112.5
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "R303": [
+      {
+        "n": "1",
+        "net": "LCD_RESETn",
+        "xy": [
+          12.0,
+          105.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          12.0,
+          106.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "S302": [
+      {
+        "n": "1",
+        "net": "BTN_CENTERn_RAW",
+        "xy": [
+          -4.0,
+          56.25
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "1",
+        "net": "BTN_CENTERn_RAW",
+        "xy": [
+          4.0,
+          56.25
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          -4.0,
+          51.75
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          4.0,
+          51.75
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "H304": [
+      {
+        "n": "",
+        "net": "",
+        "xy": [
+          32.0,
+          105.0
+        ],
+        "layer": "NPTH through"
+      }
+    ],
+    "R309": [
+      {
+        "n": "1",
+        "net": "LCD_DB4",
+        "xy": [
+          12.0,
+          95.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          12.0,
+          96.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "R301": [
+      {
+        "n": "1",
+        "net": "3V3_UI",
+        "xy": [
+          12.0,
+          109.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "LCD_CSn",
+        "xy": [
+          12.0,
+          110.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "R312": [
+      {
+        "n": "1",
+        "net": "LCD_DB7",
+        "xy": [
+          15.0,
+          92.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          15.0,
+          93.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "R306": [
+      {
+        "n": "1",
+        "net": "LCD_DB1",
+        "xy": [
+          15.0,
+          101.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          15.0,
+          102.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "R307": [
+      {
+        "n": "1",
+        "net": "LCD_DB2",
+        "xy": [
+          12.0,
+          98.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          12.0,
+          99.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "S303": [
+      {
+        "n": "1",
+        "net": "BTN_RIGHTn",
+        "xy": [
+          18.0,
+          56.25
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "1",
+        "net": "BTN_RIGHTn",
+        "xy": [
+          26.0,
+          56.25
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          18.0,
+          51.75
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          26.0,
+          51.75
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "H301": [
+      {
+        "n": "",
+        "net": "",
+        "xy": [
+          -30.0,
+          65.0
+        ],
+        "layer": "NPTH through"
+      }
+    ],
+    "R308": [
+      {
+        "n": "1",
+        "net": "LCD_DB3",
+        "xy": [
+          15.0,
+          98.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          15.0,
+          99.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "R310": [
+      {
+        "n": "1",
+        "net": "LCD_DB5",
+        "xy": [
+          15.0,
+          95.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          15.0,
+          96.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "S301": [
+      {
+        "n": "1",
+        "net": "BTN_LEFTn",
+        "xy": [
+          -26.0,
+          56.25
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "1",
+        "net": "BTN_LEFTn",
+        "xy": [
+          -18.0,
+          56.25
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          -26.0,
+          51.75
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          -18.0,
+          51.75
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "R305": [
+      {
+        "n": "1",
+        "net": "LCD_DB0",
+        "xy": [
+          12.0,
+          101.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          12.0,
+          102.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "R302": [
+      {
+        "n": "1",
+        "net": "3V3_UI",
+        "xy": [
+          15.0,
+          109.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "LCD_WRn",
+        "xy": [
+          15.0,
+          110.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "R304": [
+      {
+        "n": "1",
+        "net": "LCD_A0",
+        "xy": [
+          15.0,
+          105.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          15.0,
+          106.825
+        ],
+        "layer": "F.Cu"
+      }
+    ],
+    "H302": [
+      {
+        "n": "",
+        "net": "",
+        "xy": [
+          30.0,
+          65.0
+        ],
+        "layer": "NPTH through"
+      }
+    ],
+    "C309": [
+      {
+        "n": "1",
+        "net": "LCD_VOUT",
+        "xy": [
+          4.0,
+          109.725
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          4.0,
+          112.675
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "C308": [
+      {
+        "n": "1",
+        "net": "LCD_C3P",
+        "xy": [
+          1.5,
+          109.725
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "LCD_C1M",
+        "xy": [
+          1.5,
+          112.675
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "C311": [
+      {
+        "n": "1",
+        "net": "3V3_UI",
+        "xy": [
+          0.52,
+          117.4
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          1.48,
+          117.4
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "C310": [
+      {
+        "n": "1",
+        "net": "3V3_UI",
+        "xy": [
+          8.0,
+          114.825
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          8.0,
+          116.375
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "C305": [
+      {
+        "n": "1",
+        "net": "LCD_V4",
+        "xy": [
+          -5.0,
+          116.525
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          -5.0,
+          118.075
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "C306": [
+      {
+        "n": "1",
+        "net": "LCD_C2M",
+        "xy": [
+          -3.5,
+          109.725
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "LCD_C2P",
+        "xy": [
+          -3.5,
+          112.675
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "C302": [
+      {
+        "n": "1",
+        "net": "LCD_V1",
+        "xy": [
+          -9.5,
+          116.525
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          -9.5,
+          118.075
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "C304": [
+      {
+        "n": "1",
+        "net": "LCD_V3",
+        "xy": [
+          -6.5,
+          116.525
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          -6.5,
+          118.075
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "C303": [
+      {
+        "n": "1",
+        "net": "LCD_V2",
+        "xy": [
+          -8.0,
+          116.525
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          -8.0,
+          118.075
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "C301": [
+      {
+        "n": "1",
+        "net": "LCD_V0",
+        "xy": [
+          -11.0,
+          116.525
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "GND",
+        "xy": [
+          -11.0,
+          118.075
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "C307": [
+      {
+        "n": "1",
+        "net": "LCD_C1P",
+        "xy": [
+          -1.0,
+          109.725
+        ],
+        "layer": "B.Cu"
+      },
+      {
+        "n": "2",
+        "net": "LCD_C1M",
+        "xy": [
+          -1.0,
+          112.675
+        ],
+        "layer": "B.Cu"
+      }
+    ]
+  },
+  "socket_mating_Z_qualified": false,
+  "full_product_order_ready": false,
+  "final_board_sha256": "a7f45608992ae84fcc229e2492af9244682d75f991f0f522f98c2046b7ecad08"
+}

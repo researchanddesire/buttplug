@@ -1,0 +1,803 @@
+{
+  "scope": "Saved native readback, editable dimensions and nominal assembled BRep intersections only",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "native_sha256": "688c072ac989355187df894464c211c0e026bd0f2808f03d6ede89bcbbc055cd",
+  "verifier_sha256": "f063b5de0273b987fd29cbef191a7257d068df499dd38bb81f94a412710fd7e1",
+  "saved_reopen": true,
+  "dimension_edit_restore": true,
+  "component_checks": {
+    "display": {
+      "scope": "Nominal installed FFC candidate; bend, strain relief, connector and fit require qualification",
+      "native_body": "DockLCDInstalledFFC",
+      "native_path": "DockLCDFFCInstalledPath",
+      "centreline_length_mm": 65.0,
+      "centreline_radius_mm": 3.0,
+      "inner_radius_mm": 2.95,
+      "lead_in_mm": 4.0,
+      "return_run_mm": 51.575222039230624,
+      "local_entry_mm": [
+        0,
+        -22,
+        -0.95
+      ],
+      "local_connector_tip_mm": [
+        0,
+        25.57522203923062,
+        -6.95
+      ],
+      "connector_entry_direction": [
+        0,
+        1,
+        0
+      ],
+      "connector_contact_face_normal": [
+        0,
+        0,
+        -1
+      ],
+      "finished_contact_tail_thickness_mm": 0.3,
+      "flat_stiffened_end_length_mm": 5,
+      "contact_land_count": 27,
+      "body_valid": true,
+      "body_solids": 1,
+      "BOP_check_passed": true,
+      "solid_volume_mm3": 100.42227433388504,
+      "local_bounds_mm": [
+        -7.0,
+        -29.05,
+        -7.100000000000005,
+        7.0,
+        25.575222039230628,
+        -0.9000000000000061
+      ],
+      "radius_qualified": false,
+      "installed_fit_qualified": false
+    },
+    "pogo": {
+      "mpn": "0906-2-15-20-75-14-11-0",
+      "compression_mm": 0.6,
+      "PCB_seating_Z_mm": 0,
+      "contact_Z_mm": 4.4038,
+      "tail_end_Z_mm": -1.7526000000000002,
+      "bounds_method": "Shape.optimalBoundingBox(False, False); analytic BRep extrema",
+      "native_bodies": 2,
+      "body_validity": [
+        true,
+        true
+      ],
+      "nominal_max_stroke_mm": 1.397,
+      "not_physical_qualification": true
+    }
+  },
+  "bodies": [
+    {
+      "name": "LowerShell",
+      "tip_type": "PartDesign::SubtractiveLoft",
+      "exact_bounds_mm": [
+        -65.0000001,
+        -5.0000001,
+        -1e-07,
+        65.0000001,
+        168.6500001,
+        44.40000010000001
+      ]
+    },
+    {
+      "name": "UpperShell",
+      "tip_type": "PartDesign::Pocket",
+      "exact_bounds_mm": [
+        -66.34153207233057,
+        -6.341532072330606,
+        35.8999999,
+        66.34153207233057,
+        168.6500001,
+        68.00043328391817
+      ]
+    },
+    {
+      "name": "ScallopedBezel",
+      "tip_type": "PartDesign::Pocket",
+      "exact_bounds_mm": [
+        -41.80000009999999,
+        44.55999990000001,
+        67.69999990000001,
+        41.8000038038153,
+        111.44000009999999,
+        70.50000010000001
+      ]
+    },
+    {
+      "name": "LeftButton",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        -29.0,
+        49.0,
+        70.3,
+        -15.0,
+        59.0,
+        73.0
+      ]
+    },
+    {
+      "name": "CenterButton",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        -8.0,
+        49.5,
+        70.3,
+        8.0,
+        58.5,
+        73.0
+      ]
+    },
+    {
+      "name": "RightButton",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        15.0,
+        49.0,
+        70.3,
+        29.0,
+        59.0,
+        73.0
+      ]
+    },
+    {
+      "name": "CustomHingePin",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        -38.00000000000001,
+        161.8,
+        37.55,
+        36.99999999999999,
+        167.0,
+        42.75000000000001
+      ]
+    },
+    {
+      "name": "LowerChamber",
+      "tip_type": "PartDesign::SubtractiveLoft",
+      "exact_bounds_mm": [
+        -61.70000000000002,
+        -1.700000000000017,
+        10.999999999999998,
+        61.70000000000002,
+        156.70000000000002,
+        37.0
+      ]
+    },
+    {
+      "name": "UpperChamber",
+      "tip_type": "PartDesign::Pocket",
+      "exact_bounds_mm": [
+        -61.70000010000001,
+        -1.7000001000000171,
+        40.59999989999998,
+        61.70000010000001,
+        156.7000001,
+        57.5000001
+      ]
+    },
+    {
+      "name": "DockLCDFrontSheet",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        -24.0,
+        -15.0,
+        -0.9000000000000001,
+        24.0,
+        14.0,
+        -0.20000000000000018
+      ]
+    },
+    {
+      "name": "DockLCDBorder",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        -23.5,
+        -14.5,
+        -1.8,
+        23.5,
+        13.5,
+        0.0
+      ]
+    },
+    {
+      "name": "DockLCDViewSheet",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        -22.0,
+        -12.0,
+        -0.20000000000000018,
+        22.0,
+        12.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DockLCDActiveArea",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        -19.82,
+        -9.9,
+        -0.20000000000000018,
+        19.82,
+        9.9,
+        0.0
+      ]
+    },
+    {
+      "name": "DockLCDGlassFFC",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        -24.0,
+        -22.0,
+        -1.6,
+        24.0,
+        14.0,
+        -0.9000000000000001
+      ]
+    },
+    {
+      "name": "DockLCDInstalledFFC",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        -7.0,
+        -29.05,
+        -7.100000000000005,
+        7.0,
+        25.575222039230628,
+        -0.9000000000000061
+      ]
+    },
+    {
+      "name": "Pogo0906_2ShellAndTail",
+      "tip_type": "PartDesign::Revolution",
+      "exact_bounds_mm": [
+        -0.9143999999999999,
+        -0.9143999999999999,
+        -1.7526000000000002,
+        0.9143999999999999,
+        0.9144,
+        2.6924
+      ]
+    },
+    {
+      "name": "Pogo0906_2VisiblePlunger",
+      "tip_type": "PartDesign::Revolution",
+      "exact_bounds_mm": [
+        -0.5334000000000002,
+        -0.5334,
+        2.6923999999999997,
+        0.5334,
+        0.5334,
+        4.4038
+      ]
+    },
+    {
+      "name": "ContactCarrier",
+      "tip_type": "PartDesign::Pocket",
+      "exact_bounds_mm": [
+        -46.5,
+        15.5,
+        5.5,
+        -10.0,
+        23.2,
+        53.0
+      ]
+    },
+    {
+      "name": "ContactRetainer",
+      "tip_type": "PartDesign::Pocket",
+      "exact_bounds_mm": [
+        -46.0,
+        14.0,
+        17.0,
+        -10.0,
+        17.796200000000002,
+        49.0
+      ]
+    },
+    {
+      "name": "UVPackageBody1",
+      "tip_type": "PartDesign::Feature",
+      "exact_bounds_mm": [
+        -1.72499999999999,
+        -0.5,
+        -1.72499999999999,
+        1.72499999999999,
+        0.0,
+        1.72499999999998
+      ]
+    },
+    {
+      "name": "UVPackageBody2",
+      "tip_type": "PartDesign::Feature",
+      "exact_bounds_mm": [
+        -0.9149999999999642,
+        0.0,
+        -0.9149999999999784,
+        -0.0499999999999829,
+        0.075,
+        0.9149999999999642
+      ]
+    },
+    {
+      "name": "UVPackageBody3",
+      "tip_type": "PartDesign::Feature",
+      "exact_bounds_mm": [
+        -1.625,
+        0.0,
+        -1.625000000000016,
+        1.625000000000002,
+        0.075,
+        1.625000000000002
+      ]
+    },
+    {
+      "name": "UVPackageBody4",
+      "tip_type": "PartDesign::Feature",
+      "exact_bounds_mm": [
+        0.050000000000011,
+        0.0,
+        -0.9149999999999783,
+        0.9150000000000493,
+        0.075,
+        0.914999999999964
+      ]
+    },
+    {
+      "name": "UVPackageBody5",
+      "tip_type": "PartDesign::Feature",
+      "exact_bounds_mm": [
+        -1.57499999999999,
+        -0.7,
+        -1.5749999999999902,
+        -0.249999999999915,
+        -0.49999999999999994,
+        1.5750000000000002
+      ]
+    },
+    {
+      "name": "UVPackageBody6",
+      "tip_type": "PartDesign::Feature",
+      "exact_bounds_mm": [
+        0.250000000000085,
+        -0.7,
+        -1.5749999999999902,
+        1.5750000000001,
+        -0.49999999999999994,
+        1.5750000000000002
+      ]
+    },
+    {
+      "name": "UVPackageBody7",
+      "tip_type": "PartDesign::Feature",
+      "exact_bounds_mm": [
+        -1.574999999999992,
+        0.075,
+        -1.574999999999992,
+        1.57500000000002,
+        0.47500000000000003,
+        1.575000000000006
+      ]
+    },
+    {
+      "name": "UVPackageBody8",
+      "tip_type": "PartDesign::Feature",
+      "exact_bounds_mm": [
+        -1.54499999999999,
+        0.475,
+        -1.545000000000004,
+        1.54500000000007,
+        0.675,
+        1.54500000000002
+      ]
+    },
+    {
+      "name": "UVPackageBody9",
+      "tip_type": "PartDesign::Feature",
+      "exact_bounds_mm": [
+        -1.5,
+        0.675,
+        -1.5,
+        1.5000000000000007,
+        1.0750000000000002,
+        1.5
+      ]
+    },
+    {
+      "name": "UVPackageBody10",
+      "tip_type": "PartDesign::Feature",
+      "exact_bounds_mm": [
+        -0.25,
+        0.075,
+        -0.25,
+        0.25,
+        0.47500000000000003,
+        0.25000000000000006
+      ]
+    },
+    {
+      "name": "LatchCover",
+      "tip_type": "PartDesign::Pad",
+      "exact_bounds_mm": [
+        -8.5,
+        -7.800000000000001,
+        35.5,
+        8.5,
+        -5.2,
+        44.5
+      ]
+    },
+    {
+      "name": "SelectedScrewM2x6",
+      "tip_type": "PartDesign::Revolution",
+      "exact_bounds_mm": [
+        -1.9,
+        -1.9,
+        -6.0,
+        1.9,
+        1.9,
+        6.269999999999999e-16
+      ]
+    },
+    {
+      "name": "SelectedScrewM3x12",
+      "tip_type": "PartDesign::Revolution",
+      "exact_bounds_mm": [
+        -2.75,
+        -2.75,
+        -12.0,
+        2.75,
+        2.75,
+        9.075e-16
+      ]
+    }
+  ],
+  "base_static_pairs": 190,
+  "lid_static_pairs": 45,
+  "closed_component_bounds_mm": {
+    "LowerShellInstance": [
+      -65.0000001,
+      -5.0000001,
+      -1e-07,
+      65.0000001,
+      168.6500001,
+      44.40000010000001
+    ],
+    "CustomHingePinInstance": [
+      -38.00000000000001,
+      161.8,
+      37.55,
+      36.99999999999999,
+      167.0,
+      42.75000000000001
+    ],
+    "LowerChamberInstance": [
+      -61.70000000000002,
+      -1.700000000000017,
+      10.999999999999998,
+      61.70000000000002,
+      156.70000000000002,
+      37.0
+    ],
+    "ContactCarrierInstance": [
+      -46.5,
+      15.5,
+      5.5,
+      -10.0,
+      23.2,
+      53.0
+    ],
+    "ContactRetainerInstance": [
+      -46.0,
+      14.0,
+      17.0,
+      -10.0,
+      17.796200000000002,
+      49.0
+    ],
+    "PogoContact1": [
+      -38.9144,
+      17.043599999999998,
+      42.5856,
+      -37.0856,
+      23.2,
+      44.4144
+    ],
+    "PogoContact2": [
+      -32.9144,
+      17.043599999999998,
+      42.5856,
+      -31.0856,
+      23.2,
+      44.4144
+    ],
+    "PogoContact3": [
+      -26.9144,
+      17.043599999999998,
+      42.5856,
+      -25.0856,
+      23.2,
+      44.4144
+    ],
+    "PogoContact4": [
+      -20.9144,
+      17.043599999999998,
+      42.5856,
+      -19.0856,
+      23.2,
+      44.4144
+    ],
+    "ChamberScrew0": [
+      -53.9,
+      58.1,
+      6.75,
+      -50.1,
+      61.9,
+      12.75
+    ],
+    "ChamberScrew1": [
+      50.1,
+      58.1,
+      6.75,
+      53.9,
+      61.9,
+      12.75
+    ],
+    "ChamberScrew2": [
+      -53.9,
+      113.1,
+      6.75,
+      -50.1,
+      116.9,
+      12.75
+    ],
+    "ChamberScrew3": [
+      50.1,
+      113.1,
+      6.75,
+      53.9,
+      116.9,
+      12.75
+    ],
+    "CarrierScrew0": [
+      -45.75,
+      16.25,
+      0.24999999999999908,
+      -40.25,
+      21.75,
+      12.25
+    ],
+    "CarrierScrew1": [
+      -17.75,
+      16.25,
+      0.24999999999999908,
+      -12.25,
+      21.75,
+      12.25
+    ],
+    "PinBoardAssembly": [
+      -42.0,
+      17.7962,
+      36.8,
+      -14.0,
+      18.796200000000002,
+      46.8
+    ],
+    "LowerUVLED1": [
+      -43.724999999999994,
+      92.27500000000002,
+      13.199999999999998,
+      -40.275000000000006,
+      95.725,
+      14.975
+    ],
+    "LowerUVLED2": [
+      40.275000000000006,
+      92.27500000000002,
+      13.199999999999998,
+      43.724999999999994,
+      95.725,
+      14.975
+    ],
+    "USBBoardAssembly": [
+      -11.0,
+      -5.000000099999998,
+      5.4,
+      11.0,
+      26.5,
+      9.7100001
+    ],
+    "DeviceAssembly": [
+      -45.0,
+      23.150000000000002,
+      13.0,
+      45.0000001,
+      148.10000015649777,
+      51.0
+    ],
+    "UpperShellInstance": [
+      -66.34153207233058,
+      -6.3415320723306,
+      35.8999999,
+      66.3415320723306,
+      168.6500001,
+      68.00043328550281
+    ],
+    "ScallopedBezelInstance": [
+      -41.80000009999999,
+      44.55999990000001,
+      67.69999990000001,
+      41.8000038038153,
+      111.44000009999999,
+      70.50000010000001
+    ],
+    "LeftButtonInstance": [
+      -29.0,
+      49.0,
+      70.3,
+      -15.0,
+      59.0,
+      73.0
+    ],
+    "CenterButtonInstance": [
+      -8.0,
+      49.5,
+      70.3,
+      8.0,
+      58.5,
+      73.0
+    ],
+    "RightButtonInstance": [
+      15.0,
+      49.0,
+      70.3,
+      29.0,
+      59.0,
+      73.0
+    ],
+    "UpperChamberInstance": [
+      -61.70000010000001,
+      -1.7000001000000171,
+      40.59999989999998,
+      61.70000010000001,
+      156.7000001,
+      57.5000001
+    ],
+    "LatchCoverInstance": [
+      -8.5,
+      -7.800000000000002,
+      35.5,
+      8.5,
+      -5.199999999999999,
+      44.5
+    ],
+    "DockLCDInstance": [
+      -24.0,
+      57.95,
+      61.699999999999996,
+      24.0,
+      112.57522203923062,
+      68.80000000000001
+    ],
+    "UpperUVLED1": [
+      -43.724999999999994,
+      92.275,
+      53.52499999999999,
+      -40.275000000000006,
+      95.72499999999998,
+      55.3
+    ],
+    "UpperUVLED2": [
+      40.275000000000006,
+      92.275,
+      53.52499999999999,
+      43.724999999999994,
+      95.72499999999998,
+      55.3
+    ]
+  },
+  "poses": [
+    {
+      "angle_deg": 0,
+      "pairs": 200,
+      "pivot_error_mm": 0.0,
+      "direction_error": 0.0,
+      "case_tip_numeric_error_bound_mm": 0.0,
+      "intersections": []
+    },
+    {
+      "angle_deg": 10,
+      "pairs": 200,
+      "pivot_error_mm": 2.954664404122942e-14,
+      "direction_error": 1.2412670766236366e-16,
+      "case_tip_numeric_error_bound_mm": 2.0480906764290005e-14,
+      "intersections": []
+    },
+    {
+      "angle_deg": 30,
+      "pairs": 200,
+      "pivot_error_mm": 2.0497522594321983e-14,
+      "direction_error": 6.955527313080394e-16,
+      "case_tip_numeric_error_bound_mm": 1.147662006658265e-13,
+      "intersections": []
+    },
+    {
+      "angle_deg": 60,
+      "pairs": 200,
+      "pivot_error_mm": 6.974903571661357e-14,
+      "direction_error": 2.220446049250313e-16,
+      "case_tip_numeric_error_bound_mm": 3.6637359812630166e-14,
+      "intersections": []
+    },
+    {
+      "angle_deg": 90,
+      "pairs": 200,
+      "pivot_error_mm": 3.5584526105821693e-14,
+      "direction_error": 5.586934762913554e-16,
+      "case_tip_numeric_error_bound_mm": 9.218442358807364e-14,
+      "intersections": []
+    },
+    {
+      "angle_deg": 110,
+      "pairs": 200,
+      "pivot_error_mm": 2.931546926666178e-14,
+      "direction_error": 2.6417551405193607e-16,
+      "case_tip_numeric_error_bound_mm": 4.358895981856945e-14,
+      "intersections": []
+    }
+  ],
+  "intersections": [],
+  "intentional_thread_mates": [
+    {
+      "first": "LowerShellInstance",
+      "second": "ChamberScrew0",
+      "common_volume_mm3": 4.806636759992389,
+      "outside_thread_cylinder_mm3": 0.0
+    },
+    {
+      "first": "LowerShellInstance",
+      "second": "ChamberScrew1",
+      "common_volume_mm3": 4.806636759992389,
+      "outside_thread_cylinder_mm3": 0.0
+    },
+    {
+      "first": "LowerShellInstance",
+      "second": "ChamberScrew2",
+      "common_volume_mm3": 4.806636759992391,
+      "outside_thread_cylinder_mm3": 0.0
+    },
+    {
+      "first": "LowerShellInstance",
+      "second": "ChamberScrew3",
+      "common_volume_mm3": 4.806636759992393,
+      "outside_thread_cylinder_mm3": 0.0
+    },
+    {
+      "first": "ContactCarrierInstance",
+      "second": "CarrierScrew0",
+      "common_volume_mm3": 14.578953408065136,
+      "outside_thread_cylinder_mm3": 0.0
+    },
+    {
+      "first": "ContactCarrierInstance",
+      "second": "CarrierScrew1",
+      "common_volume_mm3": 14.578953408065129,
+      "outside_thread_cylinder_mm3": 0.0
+    }
+  ],
+  "nominal_geometry_pass": true,
+  "physical_validation": false,
+  "full_product_order_ready": false
+}

@@ -1,0 +1,118 @@
+{
+  "status": "mechanical study selection, no order or build release",
+  "source_product_sha256": "fe22bca30660e3cbf7244689a06a6230ae7b93f18c64489593fdc5829d02553f",
+  "selected_targets": {
+    "manufacturer": "Mill-Max",
+    "mpn": "1946-0-00-15-00-00-03-0",
+    "qty": 4,
+    "primary_catalog": "https://www.mill-max.com/sites/default/files/external/catalog/2020-01/202-246_3.pdf",
+    "catalog_pdf_sha256": "5ad66d275f130650f22fd86a6afb956497788cb4ce24207a80cfb3ee22e8e9f7",
+    "catalog_page_printed": "223.1",
+    "catalog_page_PDF_1based": 28,
+    "exact_part_manufacturer_datasheet_mirror": "https://static6.arrow.com/aropdfconversion/1fdd2089ca4b7c3a2282584e0172dfa2fed79a3a/1946-0-00-15-00-00-03-0.pdf",
+    "recommended_mounting_hole_mm": 0.8636,
+    "proposed_copper_land_mm": 3.2,
+    "manufacturer_recommended_land_diameter_not_found": true,
+    "above_PCB_mm": 3.048,
+    "tail_below_mountshoulder_mm": 2.794,
+    "diameters_mm": {
+      "face": 3.175,
+      "neck": 1.7018,
+      "base": 2.54,
+      "tail": 0.762
+    },
+    "published_generic_length_tolerance_mm": 0.127,
+    "published_generic_diameter_tolerance_mm": 0.0508,
+    "geometry": "Native dimensioned external stepped profile; undocumented chamfer/tip curves omitted. Not OEM CAD.",
+    "models": [
+      "models/MillMax1946.FCStd",
+      "models/MillMax1946.step"
+    ],
+    "material": "Brass alloy360,1/2hard percatalog; exactmodernpart permitsbrassalloy",
+    "finish": "10uin gold overnickel; exposedfinish/material/siliconeprocess compatibility unqualified",
+    "current_rating": "application specific, no numericcurrentratinginferred",
+    "cover_aperture_proposed_finished_min_max_mm": [
+      3.7,
+      3.8
+    ],
+    "worstcase_aperture_radial_clearance_mm": 0.07622655686370104,
+    "clearance_assumptions": {
+      "head_diameter_max_mm": 3.2258,
+      "face_above_board_max_mm": 3.175,
+      "angle_deg": 2,
+      "lateral_offset_mm": 0.05,
+      "not_a_received_process_acceptance": true
+    },
+    "hole_shaft_tolerance_assembly_acceptance_open": true
+  },
+  "selected_switches": {
+    "manufacturer": "Omron",
+    "mpn": "B3U-1000P",
+    "qty": 2,
+    "primary": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+    "height_nominal_mm": 1.6,
+    "height_min_max_mm": [
+      1.5,
+      1.75
+    ],
+    "body_mm": [
+      3,
+      2.5,
+      1.2
+    ],
+    "plunger_diameter_mm": 1.5,
+    "operating_force_N": [
+      1.01,
+      1.99
+    ],
+    "pretravel_nominal_mm": 0.15,
+    "pretravel_min_max_mm": [
+      0.03,
+      0.35
+    ],
+    "pretravel_not_max_overtravel": true,
+    "washing": "not possible permanufacturer; keepdry"
+  },
+  "PCB_retention": {
+    "manufacturer": "NBK",
+    "mpn": "SPA-M1.4-2-MC3",
+    "qty": 4,
+    "primary": "https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/highintensity/SPA-MC3/SPA-M1.4-MC3/",
+    "head_mm": [
+      2.5,
+      0.8
+    ],
+    "shaft_mm": [
+      1.4,
+      2.0
+    ],
+    "pitch_mm": 0.3,
+    "material": "RENY",
+    "threadcosmetic": "not modeled; nominal bounding shaft only",
+    "tap_pilot_mm": 1.1,
+    "received_tap_strip_preload_and_creep_qualified": false
+  },
+  "new_rigid_custom_parts": 0,
+  "body_PCB_preserved": true,
+  "daughterboard_and_Samtec_superseded": true,
+  "RF_keepout_is_open": true,
+  "no_selected_silicone_modulus_or_sealing_adhesion_assumption": true,
+  "physical_validation": false,
+  "permanent_insert": {
+    "kind": "Onepre-curedsiliconediaphragm,2closedbuttoncups+4contactnecksleeves",
+    "trial_material_manufacturer": "Smooth-On",
+    "grade": "DragonSkin20",
+    "primary": "https://www.smooth-on.com/tb/files/DRAGON_SKIN_SERIES_TB.pdf",
+    "nominal_Shore_A": 20,
+    "manufacturer_mix_ratio_A_B": [
+      1,
+      1
+    ],
+    "published_cure_h_at23C": 4,
+    "free_flange_mm": 0.3,
+    "loaded_flange_mm": 0.248,
+    "loaded_thickness_is_not_a_force_or_strain_model": true,
+    "working_strain_tear_sealing_overmold_bond_UVaging_and_suitability_qualified": false,
+    "skin_material_final_selection": false
+  }
+}

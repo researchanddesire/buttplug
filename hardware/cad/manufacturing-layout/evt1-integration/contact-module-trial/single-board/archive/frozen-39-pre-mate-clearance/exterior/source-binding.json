@@ -1,0 +1,306 @@
+{
+  "status": "Frozen self-contained nominal exterior;39-package and sampled assembly checks pass; physical trials pending",
+  "native_sha256": "4b9471fea1af7ace656350d1bc001c665d675ac7fe8014103637b7c204a3b7c5",
+  "mechanical_native_sha256": "5c348efe59825bde7b0c91fa99e66e62f69fff4aa421e58338a5896c09de2b4f",
+  "builder_sha256": "7a9b6a1dcbda4d0946f3249c8fdd43b15bc453018f5887dac4601e64a6263260",
+  "product_source_sha256": "fe22bca30660e3cbf7244689a06a6230ae7b93f18c64489593fdc5829d02553f",
+  "MCAD_sha256": "8dda2eaf21f807c8db826f6e73ade89361c89d9588d606d94cbf8a227998c84d",
+  "PCB_sha256": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
+  "dock_translation_mm": [
+    0,
+    53.2,
+    32
+  ],
+  "canonical_roles": [
+    {
+      "role": "MetalBody",
+      "volume_mm3": 18057.035380410318,
+      "product_bounds_mm": [
+        -18.669085398110735,
+        -14.2500001,
+        -18.669085398110735,
+        18.669085398110735,
+        64.0000001,
+        18.669085398110735
+      ]
+    },
+    {
+      "role": "MotorThermistorCap",
+      "volume_mm3": 14927.009355141925,
+      "product_bounds_mm": [
+        -18.257438191802706,
+        54.75,
+        -18.257438191802706,
+        18.257438191802706,
+        98.10000015649776,
+        18.257438191802706
+      ]
+    },
+    {
+      "role": "ContinuousSkin",
+      "volume_mm3": 23045.58103721199,
+      "product_bounds_mm": [
+        -45.0,
+        -30.049999999999997,
+        -19.0,
+        45.0,
+        -2.9999999,
+        19.0
+      ]
+    },
+    {
+      "role": "SteelKeeper0",
+      "volume_mm3": 50.26548245743669,
+      "product_bounds_mm": [
+        -18.5,
+        -28.3,
+        -12.0,
+        -10.5,
+        -27.3,
+        -4.0
+      ]
+    },
+    {
+      "role": "SteelKeeper1",
+      "volume_mm3": 50.26548245743663,
+      "product_bounds_mm": [
+        -1.0,
+        -28.3,
+        -14.5,
+        7.0,
+        -27.3,
+        -6.5
+      ]
+    },
+    {
+      "role": "Contact_GND",
+      "volume_mm3": 12.031202541537697,
+      "product_bounds_mm": [
+        -17.5875,
+        -30.0,
+        8.412499999999994,
+        -14.4125,
+        -24.158,
+        11.5875
+      ]
+    },
+    {
+      "role": "Contact_USB_DM",
+      "volume_mm3": 12.031202541537699,
+      "product_bounds_mm": [
+        -11.5875,
+        -30.0,
+        8.412499999999994,
+        -8.4125,
+        -24.158,
+        11.5875
+      ]
+    },
+    {
+      "role": "Contact_USB_DP",
+      "volume_mm3": 12.0312025415377,
+      "product_bounds_mm": [
+        -5.5875,
+        -30.0,
+        8.412499999999994,
+        -2.4125,
+        -24.158,
+        11.5875
+      ]
+    },
+    {
+      "role": "Contact_DOCK_5V",
+      "volume_mm3": 12.0312025415377,
+      "product_bounds_mm": [
+        0.4125000000000001,
+        -30.0,
+        8.412499999999994,
+        3.5875,
+        -24.158,
+        11.5875
+      ]
+    }
+  ],
+  "external_links": 0,
+  "physical_validation": false,
+  "provenance_by_role": {
+    "Contact_GND": {
+      "manufacturer": "Mill-Max",
+      "mpn": "1946-0-00-15-00-00-03-0",
+      "primary": "https://www.mill-max.com/sites/default/files/external/catalog/2020-01/202-246_3.pdf",
+      "printed_page": "223.1",
+      "model_type": "Manufacturer dimension reconstruction, undocumented chamfer/tip cosmetics omitted; not OEM STEP",
+      "model_source": "hardware/pcb/evt1/single-flange-study/Selected.3dshapes/MillMax1946.step",
+      "model_sha256": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+      "model_to_product_matrix4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -16.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -26.952
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          10.0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "Contact_USB_DM": {
+      "manufacturer": "Mill-Max",
+      "mpn": "1946-0-00-15-00-00-03-0",
+      "primary": "https://www.mill-max.com/sites/default/files/external/catalog/2020-01/202-246_3.pdf",
+      "printed_page": "223.1",
+      "model_type": "Manufacturer dimension reconstruction, undocumented chamfer/tip cosmetics omitted; not OEM STEP",
+      "model_source": "hardware/pcb/evt1/single-flange-study/Selected.3dshapes/MillMax1946.step",
+      "model_sha256": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+      "model_to_product_matrix4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -10.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -26.952
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          10.0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "Contact_USB_DP": {
+      "manufacturer": "Mill-Max",
+      "mpn": "1946-0-00-15-00-00-03-0",
+      "primary": "https://www.mill-max.com/sites/default/files/external/catalog/2020-01/202-246_3.pdf",
+      "printed_page": "223.1",
+      "model_type": "Manufacturer dimension reconstruction, undocumented chamfer/tip cosmetics omitted; not OEM STEP",
+      "model_source": "hardware/pcb/evt1/single-flange-study/Selected.3dshapes/MillMax1946.step",
+      "model_sha256": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+      "model_to_product_matrix4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -26.952
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          10.0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "Contact_DOCK_5V": {
+      "manufacturer": "Mill-Max",
+      "mpn": "1946-0-00-15-00-00-03-0",
+      "primary": "https://www.mill-max.com/sites/default/files/external/catalog/2020-01/202-246_3.pdf",
+      "printed_page": "223.1",
+      "model_type": "Manufacturer dimension reconstruction, undocumented chamfer/tip cosmetics omitted; not OEM STEP",
+      "model_source": "hardware/pcb/evt1/single-flange-study/Selected.3dshapes/MillMax1946.step",
+      "model_sha256": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+      "model_to_product_matrix4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -26.952
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          10.0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "MetalBody": {
+      "source_product": "EVT1Product.FCStd",
+      "source_sha256": "fe22bca30660e3cbf7244689a06a6230ae7b93f18c64489593fdc5829d02553f",
+      "source_role": "MetalBody",
+      "geometry_changed": false
+    },
+    "MotorThermistorCap": {
+      "source_product": "EVT1Product.FCStd",
+      "source_sha256": "fe22bca30660e3cbf7244689a06a6230ae7b93f18c64489593fdc5829d02553f",
+      "source_role": "MotorThermistorCap",
+      "geometry_changed": false
+    },
+    "SteelKeeper0": {
+      "source_product_sha256": "fe22bca30660e3cbf7244689a06a6230ae7b93f18c64489593fdc5829d02553f",
+      "source_role": "SteelKeeper0",
+      "translation_XYZ_mm": [
+        24,
+        -3.2,
+        0
+      ],
+      "material_and_holding_qualification": false
+    },
+    "SteelKeeper1": {
+      "source_product_sha256": "fe22bca30660e3cbf7244689a06a6230ae7b93f18c64489593fdc5829d02553f",
+      "source_role": "SteelKeeper1",
+      "translation_XYZ_mm": [
+        24,
+        -3.2,
+        0
+      ],
+      "material_and_holding_qualification": false
+    },
+    "ContinuousSkin": {
+      "native_recipe": "tools/build_evt1_flange_contact_module.py:add_continuous_skin",
+      "source_root_and_marker_product_sha256": "fe22bca30660e3cbf7244689a06a6230ae7b93f18c64489593fdc5829d02553f",
+      "rear_datum_Y_mm": -29.7,
+      "material_and_molding_qualification": false
+    }
+  }
+}

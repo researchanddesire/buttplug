@@ -1,0 +1,29 @@
+{
+  "scope": "Isolated SC16IS750 bridge driver",
+  "host_test": {
+    "command": "make -f bridge.mk bridge-test",
+    "result": "PASS",
+    "sanitizer": "undefined",
+    "mock_bus": true
+  },
+  "target_compile": {
+    "command": "make -f bridge.mk bridge-compile",
+    "compiler": "arm-none-eabi-gcc (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 13.3.1 20240614",
+    "cpu": "Cortex-M0+",
+    "object_sha256": "21c22f3882ce3ff56ee442e2e31db31b29f85377bf85a95d329d80be8d0bccb4",
+    "text_bytes": 1018,
+    "data_bytes": 0,
+    "bss_bytes": 0
+  },
+  "source_sha256": {
+    "sc16_bridge.c": "51fbbe70f2215431c28b2fec780b67b27baea76c240b19c6bfc053ba4d3a19fe",
+    "sc16_bridge.h": "160105e256b589e379b92f4066ce9ab89609bf3eb6db5b8c556e8605b7b85603",
+    "test_sc16_bridge.c": "923043d47f424d2cbaeea920243b8fd46ea2f7dccfdeee44d676043dae837a4c",
+    "bridge.mk": "c4a1ecb2990cc8f634c43c26f38a4d053e302d83a6e1ceb25569edd75485af86",
+    "SC16-BRIDGE.md": "06e909d8de31d7f044d1e4f06a8435173cfbf338d619bf2afd2a1202bd204eb2",
+    "Makefile": "ba54716b378452c59249152cf4411cc23f4af14a3e7bc9e49932c6c81bd1a791",
+    "../../hardware/pcb/evt1/case-telemetry-study/hardware-contract.json": "66df0f96a216a2ece8c16b6774e85021a44eccb8d8c2eaa6520fa71ba95aabae"
+  },
+  "board_adapter_integrated": false,
+  "powered_validation": false
+}

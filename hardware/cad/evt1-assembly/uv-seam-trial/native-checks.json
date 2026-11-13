@@ -1,0 +1,6973 @@
+{
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "builder_SHA256": "38c6edf80175b451c9397fa0eccdc38c84e27bdea428fb01fcc5379297b82939",
+  "read_only_sources_SHA256": {
+    "hardware/cad/evt1-assembly/DockAssembly.FCStd": "688c072ac989355187df894464c211c0e026bd0f2808f03d6ede89bcbbc055cd",
+    "tools/build_evt1_dock_front_closure.py": "c049f7d91da8a693dcb70b672e0d0338010c8db6724f440f8a7ac85ecae677d1",
+    "hardware/cad/evt1-assembly/front-closure-trial/native-checks.json": "39f2be2323b27cb17f15404db8e04813e407f1575a83ecd270e5237249852d5f",
+    "hardware/cad/evt1-assembly/front-closure-trial/FrontClosureTrial.FCStd": "81ad1b8ce2527cfee736c3f98338aa6c53125259f3e53f72504d623ebdbd658e",
+    "hardware/cad/evt1-assembly/front-closure-trial/source-manifest.json": "a7e6487ef111c02728264004a59ab71fe3f769aa152c2a58fcae1cb035041bce",
+    "hardware/cad/evt1-assembly/uv-seam-trial/rejected/UVSeamShallowGapRejected.FCStd": "0d65e95c0294809596b06b1ceb081e70a796213703aa49d91b7b46abf65d8694",
+    "hardware/cad/evt1-assembly/uv-seam-trial/rejected/reference.json": "017fe4c9b251f565d8e02f9417526fa787b011c1a293050a518fd90545205b6c"
+  },
+  "source_hashes_unchanged": true,
+  "source_manifest_SHA256": "eb9d9a8f53925c17a4fd2e991eecf724026b0bf1095cc5318c1d9303d8e7ae9b",
+  "native_SHA256": "f3f03d831875ac3c9557a880aa823ea1d3bad62276a3982b112c7e92584f747b",
+  "opening_native_SHA256": "8dd1dcf182c4fc0ca0d56c105fc9d23b6e8c32377da07c8f87eec145518555e6",
+  "changed_geometry": {
+    "nominal_geometry": {
+      "center_Y_mm": 77.5,
+      "base_outer_WH_R_mm": [
+        127.5,
+        162.5,
+        48.75
+      ],
+      "base_inner_WH_R_mm": [
+        125.5,
+        160.5,
+        47.75
+      ],
+      "base_Z_mm": [
+        40.0,
+        43.0
+      ],
+      "base_front_interruption_X_mm": [
+        -9.5,
+        9.5
+      ],
+      "base_front_interruption_Y_below_mm": 0.8,
+      "lid_relief_WH_R_mm": [
+        128.1,
+        163.1,
+        49.05
+      ],
+      "lid_relief_Z_mm": [
+        40.2,
+        43.4
+      ],
+      "lid_relief_front_exclusion_X_mm": [
+        -9.2,
+        9.2
+      ],
+      "lid_relief_front_exclusion_Y_below_mm": 6.5,
+      "closed_nominal_radial_clearance_mm": 0.3,
+      "closed_nominal_axial_clearance_mm": 0.4,
+      "front_baffle_overlap_each_side_mm": 2.5,
+      "front_return_cheeks_X_mm": [
+        [
+          -13.5,
+          -12.5
+        ],
+        [
+          12.5,
+          13.5
+        ]
+      ],
+      "front_return_cheeks_YZ_mm": [
+        -3.75,
+        10,
+        39.6,
+        43
+      ],
+      "upper_liner_cheek_entry_X_mm": [
+        [
+          -13.8,
+          -12.2
+        ],
+        [
+          12.2,
+          13.8
+        ]
+      ],
+      "upper_liner_cheek_entry_YZ_mm": [
+        -4.05,
+        10.3,
+        40.2,
+        43.3
+      ],
+      "lower_liner_loading_slots_X_mm": [
+        [
+          -13.8,
+          -12.2
+        ],
+        [
+          12.2,
+          13.8
+        ]
+      ],
+      "lower_liner_loading_slots_YZ_mm": [
+        -4.05,
+        10.3,
+        10,
+        58
+      ],
+      "lower_plug_side_wings_X_mm": [
+        [
+          -15.5,
+          -11.8
+        ],
+        [
+          11.8,
+          15.5
+        ]
+      ],
+      "lower_plug_side_wings_YZ_mm": [
+        2.3,
+        4.3,
+        13.2,
+        39.8
+      ],
+      "lower_plug_floor_wings_rear_Y_mm": 12.3,
+      "lower_plug_cheek_clearance_X_mm": [
+        [
+          -13.8,
+          -12
+        ],
+        [
+          12,
+          13.8
+        ]
+      ],
+      "lower_plug_cheek_clearance_YZ_mm": [
+        2,
+        4.6,
+        39.3,
+        40.1
+      ],
+      "upper_liner_rear_web_loading_notch_WH_R_mm": [
+        27.8,
+        10.6,
+        0.4
+      ],
+      "upper_liner_rear_web_loading_notch_YZ_mm": [
+        159.4,
+        40.4,
+        47.2
+      ],
+      "hinge_axis_YZ_mm": [
+        164.4,
+        40.15
+      ]
+    },
+    "base_added_volume_mm3": 1508.5910732142208,
+    "lid_removed_volume_mm3": 2430.509917767752,
+    "closed_minimum_added_upstand_to_lid_mm": 0.29999999999996935,
+    "changed_region_component_checks": [
+      {
+        "side": "lower",
+        "body": "UVSeamLowerLiner",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 2.6172504656604816
+      },
+      {
+        "side": "lower",
+        "body": "UVSeamLowerRetainer",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 0.29999999999999716
+      },
+      {
+        "side": "lower",
+        "body": "UVSeamLowerMagnet1",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 2.4528761816488003
+      },
+      {
+        "side": "lower",
+        "body": "UVSeamLowerMagnet2",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 2.4528761816488003
+      },
+      {
+        "side": "lower",
+        "body": "UVSeamLowerRetainerScrew",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 9.885969776937637
+      },
+      {
+        "side": "lower",
+        "body": "UVSeamHingePin",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 4.150000000000006
+      },
+      {
+        "side": "upper",
+        "body": "UVSeamUpperLiner",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 0.29999999999998295
+      },
+      {
+        "side": "upper",
+        "body": "UVSeamUpperRetainer",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 2.009227138577319
+      },
+      {
+        "side": "upper",
+        "body": "UVSeamUpperMagnet1",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 2.01875
+      },
+      {
+        "side": "upper",
+        "body": "UVSeamUpperMagnet2",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 2.01875
+      },
+      {
+        "side": "upper",
+        "body": "UVSeamUpperRetainerScrew",
+        "changed_volume_intersection_mm3": 0.0,
+        "distance_to_changed_region_mm": 8.22357823953207
+      }
+    ],
+    "closed_minimum_added_upstand_to_upper_liner_mm": 0.29999999999999716,
+    "upper_shell_remains_single_valid_solid": true,
+    "minimum_nominal_lid_outer_wall_at_relief_bottom_mm": 0.95,
+    "front_interruption_bridged_by_24mm_upper_and_extended31mm_lower_baffles": true,
+    "opaque_material_or_strength_qualified": false
+  },
+  "loading": {
+    "loading": [
+      {
+        "side": "lower",
+        "vertical_liner_loading_poses": 33,
+        "plug_loading_poses": 17,
+        "plug_installed_after_liner": true,
+        "driver_corridor_diameter_mm": 4.6,
+        "driver_corridor_Y_mm": [
+          6.3,
+          24.3
+        ],
+        "driver_Z_mm": 34.8
+      },
+      {
+        "side": "upper",
+        "vertical_liner_loading_poses": 33,
+        "plug_loading_poses": 17,
+        "plug_installed_after_liner": true,
+        "driver_corridor_diameter_mm": 4.6,
+        "driver_corridor_Y_mm": [
+          8.0,
+          26.0
+        ],
+        "driver_Z_mm": 42.0
+      }
+    ],
+    "old_lower_liner_without_slots_at_plus30Z_interference_mm3": 46.800000000000026,
+    "additional_printed_parts": 0,
+    "full_product_loading_qualified": false,
+    "assembly_sequence": "Slotted liners first; magnets then combined rear plugs/baffles; preassembled contact module afterward. Whole master geometry and received parts still require parent checks."
+  },
+  "opening_pose_checks": [
+    {
+      "opening_degrees": 0.0,
+      "bodies": [
+        {
+          "body": "UVSeamLowerShell",
+          "exact_bounds_mm": [
+            -65.0000001,
+            -6.4,
+            -1e-07,
+            65.0000001,
+            168.6500001,
+            44.40000010000001
+          ],
+          "volume_mm3": 115535.40770706575
+        },
+        {
+          "body": "UVSeamLowerLiner",
+          "exact_bounds_mm": [
+            -61.70000000000002,
+            -1.700000000000017,
+            10.999999999999998,
+            61.70000000000002,
+            156.70000000000002,
+            37.0
+          ],
+          "volume_mm3": 54864.294369857336
+        },
+        {
+          "body": "UVSeamLowerRetainer",
+          "exact_bounds_mm": [
+            -15.5,
+            -2.062250033324451,
+            13.2,
+            15.5,
+            12.3,
+            40.0
+          ],
+          "volume_mm3": 2001.3059902939528
+        },
+        {
+          "body": "UVSeamLowerMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.38125,
+            37.612500000000004,
+            -2.41875,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.38125,
+            37.612500000000004,
+            7.1812499999999995,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.7000000000000006,
+            32.9,
+            1.9,
+            6.300000000000001,
+            36.699999999999996
+          ],
+          "volume_mm3": 41.53185488045707
+        },
+        {
+          "body": "UVSeamHingePin",
+          "exact_bounds_mm": [
+            -38.00000000000001,
+            161.8,
+            37.55,
+            36.99999999999999,
+            167.0,
+            42.75000000000001
+          ],
+          "volume_mm3": 544.454028989645
+        },
+        {
+          "body": "UVSeamUpperShell",
+          "exact_bounds_mm": [
+            -66.34153207233057,
+            -7.800000100000001,
+            35.5,
+            66.34153207233057,
+            168.6500001,
+            68.00043328391817
+          ],
+          "volume_mm3": 95751.26651062061
+        },
+        {
+          "body": "UVSeamUpperLiner",
+          "exact_bounds_mm": [
+            -61.70000010000001,
+            -1.7000001000000189,
+            40.59999989999998,
+            61.70000010000001,
+            156.7000001,
+            57.5000001
+          ],
+          "volume_mm3": 45409.02369960658
+        },
+        {
+          "body": "UVSeamUpperRetainer",
+          "exact_bounds_mm": [
+            -12.0000001,
+            -2.062250033324451,
+            37.0,
+            12.0000001,
+            8.621301875147928,
+            51.5000001
+          ],
+          "volume_mm3": 884.6633152989893
+        },
+        {
+          "body": "UVSeamUpperMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.38125,
+            41.1,
+            -2.41875,
+            -0.6187500000000004,
+            42.6875
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamUpperMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.38125,
+            41.1,
+            7.1812499999999995,
+            -0.6187500000000004,
+            42.6875
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamUpperRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -2.0000000000000004,
+            40.1,
+            1.9,
+            8.000000000000002,
+            43.9
+          ],
+          "volume_mm3": 47.81504018763666
+        }
+      ],
+      "cross_module_pairs": 42,
+      "overlap_findings": []
+    },
+    {
+      "opening_degrees": 0.25,
+      "bodies": [
+        {
+          "body": "UVSeamLowerShell",
+          "exact_bounds_mm": [
+            -65.0000001,
+            -6.4,
+            -1e-07,
+            65.0000001,
+            168.6500001,
+            44.40000010000001
+          ],
+          "volume_mm3": 115535.40770706575
+        },
+        {
+          "body": "UVSeamLowerLiner",
+          "exact_bounds_mm": [
+            -61.70000000000002,
+            -1.700000000000017,
+            10.999999999999998,
+            61.70000000000002,
+            156.70000000000002,
+            37.0
+          ],
+          "volume_mm3": 54864.294369857336
+        },
+        {
+          "body": "UVSeamLowerRetainer",
+          "exact_bounds_mm": [
+            -15.5,
+            -2.062250033324451,
+            13.2,
+            15.5,
+            12.3,
+            40.0
+          ],
+          "volume_mm3": 2001.3059902939528
+        },
+        {
+          "body": "UVSeamLowerMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.38125,
+            37.612500000000004,
+            -2.41875,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.38125,
+            37.612500000000004,
+            7.1812499999999995,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.7000000000000006,
+            32.9,
+            1.9,
+            6.300000000000001,
+            36.699999999999996
+          ],
+          "volume_mm3": 41.53185488045707
+        },
+        {
+          "body": "UVSeamHingePin",
+          "exact_bounds_mm": [
+            -38.00000000000001,
+            161.8,
+            37.55,
+            36.99999999999999,
+            167.0,
+            42.75000000000001
+          ],
+          "volume_mm3": 544.454028989645
+        },
+        {
+          "body": "UVSeamUpperShell",
+          "exact_bounds_mm": [
+            -66.34153207233057,
+            -7.818650168284535,
+            35.8999999,
+            66.34153207233057,
+            168.6500001,
+            68.69524648806106
+          ],
+          "volume_mm3": 95751.26651062074
+        },
+        {
+          "body": "UVSeamUpperLiner",
+          "exact_bounds_mm": [
+            -61.70000010000001,
+            -1.696455458535865,
+            40.63359309781687,
+            61.70000010000001,
+            156.7020368876285,
+            58.195346440493346
+          ],
+          "volume_mm3": 45409.023699606565
+        },
+        {
+          "body": "UVSeamUpperRetainer",
+          "exact_bounds_mm": [
+            -12.0000001,
+            -2.0558657924659802,
+            37.692487169218964,
+            12.0000001,
+            8.672308336461839,
+            52.18832931508006
+          ],
+          "volume_mm3": 884.6633152989893
+        },
+        {
+          "body": "UVSeamUpperMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.375488661046676,
+            41.82001880071696,
+            -2.41875,
+            -0.6061072431246433,
+            43.42828394932974
+          ],
+          "volume_mm3": 28.279621514083985
+        },
+        {
+          "body": "UVSeamUpperMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.375488661046676,
+            41.82001880071696,
+            7.1812499999999995,
+            -0.6061072431246433,
+            43.42828394932974
+          ],
+          "volume_mm3": 28.279621514083985
+        },
+        {
+          "body": "UVSeamUpperRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.9947071790381683,
+            40.78242204809832,
+            1.9,
+            8.017851225094942,
+            44.591112493406605
+          ],
+          "volume_mm3": 47.81504018763665
+        }
+      ],
+      "cross_module_pairs": 42,
+      "overlap_findings": []
+    },
+    {
+      "opening_degrees": 0.5,
+      "bodies": [
+        {
+          "body": "UVSeamLowerShell",
+          "exact_bounds_mm": [
+            -65.0000001,
+            -6.4,
+            -1e-07,
+            65.0000001,
+            168.6500001,
+            44.40000010000001
+          ],
+          "volume_mm3": 115535.40770706575
+        },
+        {
+          "body": "UVSeamLowerLiner",
+          "exact_bounds_mm": [
+            -61.70000000000002,
+            -1.700000000000017,
+            10.999999999999998,
+            61.70000000000002,
+            156.70000000000002,
+            37.0
+          ],
+          "volume_mm3": 54864.294369857336
+        },
+        {
+          "body": "UVSeamLowerRetainer",
+          "exact_bounds_mm": [
+            -15.5,
+            -2.062250033324451,
+            13.2,
+            15.5,
+            12.3,
+            40.0
+          ],
+          "volume_mm3": 2001.3059902939528
+        },
+        {
+          "body": "UVSeamLowerMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.38125,
+            37.612500000000004,
+            -2.41875,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.38125,
+            37.612500000000004,
+            7.1812499999999995,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.7000000000000006,
+            32.9,
+            1.9,
+            6.300000000000001,
+            36.699999999999996
+          ],
+          "volume_mm3": 41.53185488045707
+        },
+        {
+          "body": "UVSeamHingePin",
+          "exact_bounds_mm": [
+            -38.00000000000001,
+            161.8,
+            37.55,
+            36.99999999999999,
+            167.0,
+            42.75000000000001
+          ],
+          "volume_mm3": 544.454028989645
+        },
+        {
+          "body": "UVSeamUpperShell",
+          "exact_bounds_mm": [
+            -66.34153207233057,
+            -7.834021541717724,
+            35.8999999,
+            66.34153207233057,
+            168.65000010000003,
+            69.38994941577808
+          ],
+          "volume_mm3": 95751.26651062063
+        },
+        {
+          "body": "UVSeamUpperLiner",
+          "exact_bounds_mm": [
+            -61.70000010000001,
+            -1.689748579984588,
+            40.66717708871635,
+            61.70000010000001,
+            156.70422023338017,
+            58.89034922360428
+          ],
+          "volume_mm3": 45409.023699606565
+        },
+        {
+          "body": "UVSeamUpperRetainer",
+          "exact_bounds_mm": [
+            -12.0000001,
+            -2.046312471863802,
+            38.3850211259399,
+            12.0000001,
+            8.726279628550282,
+            52.87642933772484
+          ],
+          "volume_mm3": 884.6633152989896
+        },
+        {
+          "body": "UVSeamUpperMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.3664950415153605,
+            42.54000580668336,
+            -2.41875,
+            -0.5903230078185766,
+            44.169005484858744
+          ],
+          "volume_mm3": 28.279621514083992
+        },
+        {
+          "body": "UVSeamUpperMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.3664950415153605,
+            42.54000580668336,
+            7.1812499999999995,
+            -0.5903230078185766,
+            44.169005484858744
+          ],
+          "volume_mm3": 28.279621514083992
+        },
+        {
+          "body": "UVSeamUpperRetainerScrew",
+          "exact_bounds_mm": [
+            -1.8999999999999997,
+            -1.9862464427044704,
+            41.46483205579256,
+            1.8999999999999997,
+            8.03867974088253,
+            45.28214043443317
+          ],
+          "volume_mm3": 47.81504018763664
+        }
+      ],
+      "cross_module_pairs": 42,
+      "overlap_findings": []
+    },
+    {
+      "opening_degrees": 1.0,
+      "bodies": [
+        {
+          "body": "UVSeamLowerShell",
+          "exact_bounds_mm": [
+            -65.0000001,
+            -6.4,
+            -1e-07,
+            65.0000001,
+            168.6500001,
+            44.40000010000001
+          ],
+          "volume_mm3": 115535.40770706575
+        },
+        {
+          "body": "UVSeamLowerLiner",
+          "exact_bounds_mm": [
+            -61.70000000000002,
+            -1.700000000000017,
+            10.999999999999998,
+            61.70000000000002,
+            156.70000000000002,
+            37.0
+          ],
+          "volume_mm3": 54864.294369857336
+        },
+        {
+          "body": "UVSeamLowerRetainer",
+          "exact_bounds_mm": [
+            -15.5,
+            -2.062250033324451,
+            13.2,
+            15.5,
+            12.3,
+            40.0
+          ],
+          "volume_mm3": 2001.3059902939528
+        },
+        {
+          "body": "UVSeamLowerMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.38125,
+            37.612500000000004,
+            -2.41875,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.38125,
+            37.612500000000004,
+            7.1812499999999995,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.7000000000000006,
+            32.9,
+            1.9,
+            6.300000000000001,
+            36.699999999999996
+          ],
+          "volume_mm3": 41.53185488045707
+        },
+        {
+          "body": "UVSeamHingePin",
+          "exact_bounds_mm": [
+            -38.00000000000001,
+            161.8,
+            37.55,
+            36.99999999999999,
+            167.0,
+            42.75000000000001
+          ],
+          "volume_mm3": 544.454028989645
+        },
+        {
+          "body": "UVSeamUpperShell",
+          "exact_bounds_mm": [
+            -66.34153207233057,
+            -7.854926795863954,
+            35.8999999,
+            66.34153207233057,
+            168.6500001,
+            70.7776719962085
+          ],
+          "volume_mm3": 95751.26651062064
+        },
+        {
+          "body": "UVSeamUpperLiner",
+          "exact_bounds_mm": [
+            -61.70000010000001,
+            -1.6668486825798399,
+            40.73431489238745,
+            61.70000010000001,
+            156.70902643019258,
+            60.27927119706639
+          ],
+          "volume_mm3": 45409.02369960657
+        },
+        {
+          "body": "UVSeamUpperRetainer",
+          "exact_bounds_mm": [
+            -12.0000001,
+            -2.017699379285364,
+            39.770176661854265,
+            12.0000001,
+            8.843112538481796,
+            54.25188940859067
+          ],
+          "volume_mm3": 884.6633152989896
+        },
+        {
+          "body": "UVSeamUpperMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.338811707155644,
+            43.97982960517106,
+            -2.41875,
+            -0.5493313637541433,
+            45.65020490688939
+          ],
+          "volume_mm3": 28.279621514083956
+        },
+        {
+          "body": "UVSeamUpperMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.338811707155644,
+            43.97982960517106,
+            7.1812499999999995,
+            -0.5493313637541433,
+            45.65020490688939
+          ],
+          "volume_mm3": 28.279621514083956
+        },
+        {
+          "body": "UVSeamUpperRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.9598219285518246,
+            42.829563982033335,
+            1.9,
+            8.089267001680213,
+            46.66389003650219
+          ],
+          "volume_mm3": 47.815040187636654
+        }
+      ],
+      "cross_module_pairs": 42,
+      "overlap_findings": []
+    },
+    {
+      "opening_degrees": 2.0,
+      "bodies": [
+        {
+          "body": "UVSeamLowerShell",
+          "exact_bounds_mm": [
+            -65.0000001,
+            -6.4,
+            -1e-07,
+            65.0000001,
+            168.6500001,
+            44.40000010000001
+          ],
+          "volume_mm3": 115535.40770706575
+        },
+        {
+          "body": "UVSeamLowerLiner",
+          "exact_bounds_mm": [
+            -61.70000000000002,
+            -1.700000000000017,
+            10.999999999999998,
+            61.70000000000002,
+            156.70000000000002,
+            37.0
+          ],
+          "volume_mm3": 54864.294369857336
+        },
+        {
+          "body": "UVSeamLowerRetainer",
+          "exact_bounds_mm": [
+            -15.5,
+            -2.062250033324451,
+            13.2,
+            15.5,
+            12.3,
+            40.0
+          ],
+          "volume_mm3": 2001.3059902939528
+        },
+        {
+          "body": "UVSeamLowerMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.38125,
+            37.612500000000004,
+            -2.41875,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.38125,
+            37.612500000000004,
+            7.1812499999999995,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.7000000000000006,
+            32.9,
+            1.9,
+            6.300000000000001,
+            36.699999999999996
+          ],
+          "volume_mm3": 41.53185488045707
+        },
+        {
+          "body": "UVSeamHingePin",
+          "exact_bounds_mm": [
+            -38.00000000000001,
+            161.8,
+            37.55,
+            36.99999999999999,
+            167.0,
+            42.75000000000001
+          ],
+          "volume_mm3": 544.454028989645
+        },
+        {
+          "body": "UVSeamUpperShell",
+          "exact_bounds_mm": [
+            -66.34153207233057,
+            -7.857383072354904,
+            35.8999999,
+            66.34153207233057,
+            168.6500001,
+            73.54601440686044
+          ],
+          "volume_mm3": 95751.26651062067
+        },
+        {
+          "body": "UVSeamUpperLiner",
+          "exact_bounds_mm": [
+            -61.70000010000001,
+            -1.5831116943556833,
+            40.86845189676784,
+            61.70000010000001,
+            156.72039550546913,
+            63.052410723159944
+          ],
+          "volume_mm3": 45409.02369960661
+        },
+        {
+          "body": "UVSeamUpperRetainer",
+          "exact_bounds_mm": [
+            -12.0000001,
+            -1.9224562818908564,
+            42.540469021576726,
+            12.0000001,
+            9.112307336680345,
+            56.99948314508983
+          ],
+          "volume_mm3": 884.6633152989891
+        },
+        {
+          "body": "UVSeamUpperMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.2446693279684595,
+            46.858492607143944,
+            -2.41875,
+            -0.4296675632747964,
+            48.611234398082416
+          ],
+          "volume_mm3": 28.279621514083964
+        },
+        {
+          "body": "UVSeamUpperMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.2446693279684595,
+            46.858492607143944,
+            7.1812499999999995,
+            -0.4296675632747964,
+            48.611234398082416
+          ],
+          "volume_mm3": 28.279621514083956
+        },
+        {
+          "body": "UVSeamUpperRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.8689690437803934,
+            45.55831174292017,
+            1.9,
+            8.226147766847818,
+            49.42579587899773
+          ],
+          "volume_mm3": 47.81504018763666
+        }
+      ],
+      "cross_module_pairs": 42,
+      "overlap_findings": []
+    },
+    {
+      "opening_degrees": 3.0,
+      "bodies": [
+        {
+          "body": "UVSeamLowerShell",
+          "exact_bounds_mm": [
+            -65.0000001,
+            -6.4,
+            -1e-07,
+            65.0000001,
+            168.6500001,
+            44.40000010000001
+          ],
+          "volume_mm3": 115535.40770706575
+        },
+        {
+          "body": "UVSeamLowerLiner",
+          "exact_bounds_mm": [
+            -61.70000000000002,
+            -1.700000000000017,
+            10.999999999999998,
+            61.70000000000002,
+            156.70000000000002,
+            37.0
+          ],
+          "volume_mm3": 54864.294369857336
+        },
+        {
+          "body": "UVSeamLowerRetainer",
+          "exact_bounds_mm": [
+            -15.5,
+            -2.062250033324451,
+            13.2,
+            15.5,
+            12.3,
+            40.0
+          ],
+          "volume_mm3": 2001.3059902939528
+        },
+        {
+          "body": "UVSeamLowerMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.38125,
+            37.612500000000004,
+            -2.41875,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.38125,
+            37.612500000000004,
+            7.1812499999999995,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.7000000000000006,
+            32.9,
+            1.9,
+            6.300000000000001,
+            36.699999999999996
+          ],
+          "volume_mm3": 41.53185488045707
+        },
+        {
+          "body": "UVSeamHingePin",
+          "exact_bounds_mm": [
+            -38.00000000000001,
+            161.8,
+            37.55,
+            36.99999999999999,
+            167.0,
+            42.75000000000001
+          ],
+          "volume_mm3": 544.454028989645
+        },
+        {
+          "body": "UVSeamUpperShell",
+          "exact_bounds_mm": [
+            -66.34153207233057,
+            -7.80736808126732,
+            35.8999999,
+            66.34153207233057,
+            168.6500001,
+            76.30418406804021
+          ],
+          "volume_mm3": 95751.2665106209
+        },
+        {
+          "body": "UVSeamUpperLiner",
+          "exact_bounds_mm": [
+            -61.70000010000001,
+            -1.448814642425422,
+            41.00237005371022,
+            61.70000010000001,
+            156.73410386269913,
+            65.81857395311718
+          ],
+          "volume_mm3": 45409.023699606594
+        },
+        {
+          "body": "UVSeamUpperRetainer",
+          "exact_bounds_mm": [
+            -12.0000001,
+            -1.7765497531111143,
+            45.31003322127836,
+            12.0000001,
+            9.428804270400226,
+            59.741944365829
+          ],
+          "volume_mm3": 884.6633152989896
+        },
+        {
+          "body": "UVSeamUpperMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.098851539119206,
+            49.73511213728223,
+            -2.41875,
+            -0.2597950493148735,
+            51.56968651531213
+          ],
+          "volume_mm3": 28.279621514083964
+        },
+        {
+          "body": "UVSeamUpperMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.098851539119206,
+            49.73511213728223,
+            7.1812499999999995,
+            -0.2597950493148735,
+            51.56968651531213
+          ],
+          "volume_mm3": 28.279621514083956
+        },
+        {
+          "body": "UVSeamUpperRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9000000000000004,
+            -1.7274690203545995,
+            48.28541207965877,
+            1.9000000000000004,
+            8.410600600295682,
+            52.18487622421204
+          ],
+          "volume_mm3": 47.81504018763668
+        }
+      ],
+      "cross_module_pairs": 42,
+      "overlap_findings": []
+    },
+    {
+      "opening_degrees": 5.0,
+      "bodies": [
+        {
+          "body": "UVSeamLowerShell",
+          "exact_bounds_mm": [
+            -65.0000001,
+            -6.4,
+            -1e-07,
+            65.0000001,
+            168.6500001,
+            44.40000010000001
+          ],
+          "volume_mm3": 115535.40770706575
+        },
+        {
+          "body": "UVSeamLowerLiner",
+          "exact_bounds_mm": [
+            -61.70000000000002,
+            -1.700000000000017,
+            10.999999999999998,
+            61.70000000000002,
+            156.70000000000002,
+            37.0
+          ],
+          "volume_mm3": 54864.294369857336
+        },
+        {
+          "body": "UVSeamLowerRetainer",
+          "exact_bounds_mm": [
+            -15.5,
+            -2.062250033324451,
+            13.2,
+            15.5,
+            12.3,
+            40.0
+          ],
+          "volume_mm3": 2001.3059902939528
+        },
+        {
+          "body": "UVSeamLowerMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.38125,
+            37.612500000000004,
+            -2.41875,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.38125,
+            37.612500000000004,
+            7.1812499999999995,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.7000000000000006,
+            32.9,
+            1.9,
+            6.300000000000001,
+            36.699999999999996
+          ],
+          "volume_mm3": 41.53185488045707
+        },
+        {
+          "body": "UVSeamHingePin",
+          "exact_bounds_mm": [
+            -38.00000000000001,
+            161.8,
+            37.55,
+            36.99999999999999,
+            167.0,
+            42.75000000000001
+          ],
+          "volume_mm3": 544.454028989645
+        },
+        {
+          "body": "UVSeamUpperShell",
+          "exact_bounds_mm": [
+            -66.34153207233057,
+            -7.550001215175204,
+            35.89999989999999,
+            66.34153207233057,
+            168.6500001,
+            81.78664783583184
+          ],
+          "volume_mm3": 95751.26651062066
+        },
+        {
+          "body": "UVSeamUpperLiner",
+          "exact_bounds_mm": [
+            -61.70000010000001,
+            -1.0287193688025156,
+            41.26938673329825,
+            61.70000010000001,
+            156.76852100893004,
+            71.32660350586852
+          ],
+          "volume_mm3": 45409.023699606616
+        },
+        {
+          "body": "UVSeamUpperRetainer",
+          "exact_bounds_mm": [
+            -12.0000001,
+            -1.3329395985978951,
+            50.84360307506437,
+            12.0000001,
+            10.203304532954267,
+            65.20812955688693
+          ],
+          "volume_mm3": 884.6633152989893
+        },
+        {
+          "body": "UVSeamUpperMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -4.652383129778906,
+            55.4787166867273,
+            -2.41875,
+            0.23035386149493897,
+            57.47525499478367
+          ],
+          "volume_mm3": 28.279621514083964
+        },
+        {
+          "body": "UVSeamUpperMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -4.652383129778906,
+            55.4787166867273,
+            7.1812499999999995,
+            0.23035386149493897,
+            57.47525499478367
+          ],
+          "volume_mm3": 28.279621514083956
+        },
+        {
+          "body": "UVSeamUpperRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.2927153811309582,
+            53.73134843082918,
+            1.9,
+            8.921983253754707,
+            57.69119976907312
+          ],
+          "volume_mm3": 47.81504018763666
+        }
+      ],
+      "cross_module_pairs": 42,
+      "overlap_findings": []
+    },
+    {
+      "opening_degrees": 10.0,
+      "bodies": [
+        {
+          "body": "UVSeamLowerShell",
+          "exact_bounds_mm": [
+            -65.0000001,
+            -6.4,
+            -1e-07,
+            65.0000001,
+            168.6500001,
+            44.40000010000001
+          ],
+          "volume_mm3": 115535.40770706575
+        },
+        {
+          "body": "UVSeamLowerLiner",
+          "exact_bounds_mm": [
+            -61.70000000000002,
+            -1.700000000000017,
+            10.999999999999998,
+            61.70000000000002,
+            156.70000000000002,
+            37.0
+          ],
+          "volume_mm3": 54864.294369857336
+        },
+        {
+          "body": "UVSeamLowerRetainer",
+          "exact_bounds_mm": [
+            -15.5,
+            -2.062250033324451,
+            13.2,
+            15.5,
+            12.3,
+            40.0
+          ],
+          "volume_mm3": 2001.3059902939528
+        },
+        {
+          "body": "UVSeamLowerMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.38125,
+            37.612500000000004,
+            -2.41875,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.38125,
+            37.612500000000004,
+            7.1812499999999995,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.7000000000000006,
+            32.9,
+            1.9,
+            6.300000000000001,
+            36.699999999999996
+          ],
+          "volume_mm3": 41.53185488045707
+        },
+        {
+          "body": "UVSeamHingePin",
+          "exact_bounds_mm": [
+            -38.00000000000001,
+            161.8,
+            37.55,
+            36.99999999999999,
+            167.0,
+            42.75000000000001
+          ],
+          "volume_mm3": 544.454028989645
+        },
+        {
+          "body": "UVSeamUpperShell",
+          "exact_bounds_mm": [
+            -66.34153207233057,
+            -5.991359094853485,
+            35.8999999,
+            66.34153207233057,
+            168.6500001,
+            95.2564155414987
+          ],
+          "volume_mm3": 95751.26651062067
+        },
+        {
+          "body": "UVSeamUpperLiner",
+          "exact_bounds_mm": [
+            -61.70000010000001,
+            0.9015738046223125,
+            41.93025435689085,
+            61.70000010000001,
+            156.8951220817561,
+            84.91593413487053
+          ],
+          "volume_mm3": 45409.023699606565
+        },
+        {
+          "body": "UVSeamUpperRetainer",
+          "exact_bounds_mm": [
+            -12.0000001,
+            0.6576985787589857,
+            64.6058213737534,
+            12.0000001,
+            12.958837150536219,
+            78.72555151809468
+          ],
+          "volume_mm3": 884.6633152989895
+        },
+        {
+          "body": "UVSeamUpperMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -2.6369255473203945,
+            69.74077258373636,
+            -2.41875,
+            2.3288878584464983,
+            72.131154337782
+          ],
+          "volume_mm3": 28.279621514083964
+        },
+        {
+          "body": "UVSeamUpperMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -2.6369255473203945,
+            69.74077258373636,
+            7.1812499999999995,
+            2.3288878584464983,
+            72.131154337782
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamUpperRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            0.67559084978544,
+            67.25933459945729,
+            1.9,
+            11.02724809514162,
+            71.851758859862
+          ],
+          "volume_mm3": 47.815040187636654
+        }
+      ],
+      "cross_module_pairs": 42,
+      "overlap_findings": []
+    },
+    {
+      "opening_degrees": 110.0,
+      "bodies": [
+        {
+          "body": "UVSeamLowerShell",
+          "exact_bounds_mm": [
+            -65.0000001,
+            -6.4,
+            -1e-07,
+            65.0000001,
+            168.6500001,
+            44.40000010000001
+          ],
+          "volume_mm3": 115535.40770706575
+        },
+        {
+          "body": "UVSeamLowerLiner",
+          "exact_bounds_mm": [
+            -61.70000000000002,
+            -1.700000000000017,
+            10.999999999999998,
+            61.70000000000002,
+            156.70000000000002,
+            37.0
+          ],
+          "volume_mm3": 54864.294369857336
+        },
+        {
+          "body": "UVSeamLowerRetainer",
+          "exact_bounds_mm": [
+            -15.5,
+            -2.062250033324451,
+            13.2,
+            15.5,
+            12.3,
+            40.0
+          ],
+          "volume_mm3": 2001.3059902939528
+        },
+        {
+          "body": "UVSeamLowerMagnet1",
+          "exact_bounds_mm": [
+            -7.1812499999999995,
+            -5.38125,
+            37.612500000000004,
+            -2.41875,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerMagnet2",
+          "exact_bounds_mm": [
+            2.41875,
+            -5.38125,
+            37.612500000000004,
+            7.1812499999999995,
+            -0.6187500000000004,
+            39.2
+          ],
+          "volume_mm3": 28.279621514083967
+        },
+        {
+          "body": "UVSeamLowerRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9,
+            -1.7000000000000006,
+            32.9,
+            1.9,
+            6.300000000000001,
+            36.699999999999996
+          ],
+          "volume_mm3": 41.53185488045707
+        },
+        {
+          "body": "UVSeamHingePin",
+          "exact_bounds_mm": [
+            -38.00000000000001,
+            161.8,
+            37.55,
+            36.99999999999999,
+            167.0,
+            42.75000000000001
+          ],
+          "volume_mm3": 544.454028989645
+        },
+        {
+          "body": "UVSeamUpperShell",
+          "exact_bounds_mm": [
+            -66.34153207233058,
+            160.14999989999998,
+            35.89999989999995,
+            66.34153207233058,
+            245.08845043499915,
+            203.5554629657978
+          ],
+          "volume_mm3": 95751.26651062073
+        },
+        {
+          "body": "UVSeamUpperLiner",
+          "exact_bounds_mm": [
+            -61.700000100000025,
+            167.45641668296128,
+            47.231724015554896,
+            61.70000010000002,
+            235.2216779167471,
+            196.07903534804285
+          ],
+          "volume_mm3": 45409.02369960662
+        },
+        {
+          "body": "UVSeamUpperRetainer",
+          "exact_bounds_mm": [
+            -12.000000100000003,
+            215.71856499030795,
+            182.65216447078203,
+            12.000000100000003,
+            229.02900432652135,
+            196.19712583807558
+          ],
+          "volume_mm3": 884.6633152989898
+        },
+        {
+          "body": "UVSeamUpperMagnet1",
+          "exact_bounds_mm": [
+            -7.18125,
+            221.7324445161693,
+            194.34902555262573,
+            -2.4187500000000006,
+            224.8530774842554,
+            199.3672686366481
+          ],
+          "volume_mm3": 28.27962151408396
+        },
+        {
+          "body": "UVSeamUpperMagnet2",
+          "exact_bounds_mm": [
+            2.4187500000000006,
+            221.7324445161693,
+            194.34902555262573,
+            7.181250000000001,
+            224.8530774842554,
+            199.3672686366481
+          ],
+          "volume_mm3": 28.27962151408396
+        },
+        {
+          "body": "UVSeamUpperRetainerScrew",
+          "exact_bounds_mm": [
+            -1.9000000000000004,
+            217.84496578509527,
+            185.83535035344485,
+            1.9000000000000004,
+            223.9902758186311,
+            196.22413497694836
+          ],
+          "volume_mm3": 47.81504018763674
+        }
+      ],
+      "cross_module_pairs": 42,
+      "overlap_findings": []
+    }
+  ],
+  "closed_finite_ray_screen": {
+    "method": "Finite opaque-solid mesh ray screen with segment/triangle BVH acceleration, every apparent clear segment rechecked against exact BRep. No all-ray proof, reflections, transmission or measured optical attenuation.",
+    "source_count": 427,
+    "seam_target_count": 304,
+    "sampled_segments": 129808,
+    "mesh_facets": 93464,
+    "linear_mesh_deflection_mm": 0.02,
+    "angular_mesh_deflection_radians": 0.12,
+    "BRep_rechecked_apparent_clear_segments": 14,
+    "direct_clear_segment_findings": [
+      {
+        "interior_mm": [
+          -10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          471.7255393974858,
+          -190.69021575899433,
+          36.2961956848201
+        ]
+      },
+      {
+        "interior_mm": [
+          -10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          471.7383454426297,
+          -190.69533817705187,
+          40.15
+        ]
+      },
+      {
+        "interior_mm": [
+          -10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          471.7255393974858,
+          -190.69021575899433,
+          44.0038043151799
+        ]
+      },
+      {
+        "interior_mm": [
+          -10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          489.91996191714634,
+          -153.53065481866776,
+          37.03938690362663
+        ]
+      },
+      {
+        "interior_mm": [
+          -10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          489.9283881653922,
+          -153.53327631812203,
+          40.15
+        ]
+      },
+      {
+        "interior_mm": [
+          -10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          489.91996191714634,
+          -153.53065481866776,
+          43.26061309637337
+        ]
+      },
+      {
+        "interior_mm": [
+          0.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          -373.0276341214345,
+          -346.15912518000556,
+          40.15
+        ]
+      },
+      {
+        "interior_mm": [
+          0.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          373.0276341214345,
+          -346.15912518000556,
+          40.15
+        ]
+      },
+      {
+        "interior_mm": [
+          10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          -489.91996191714634,
+          -153.53065481866776,
+          37.03938690362663
+        ]
+      },
+      {
+        "interior_mm": [
+          10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          -489.9283881653922,
+          -153.53327631812203,
+          40.15
+        ]
+      },
+      {
+        "interior_mm": [
+          10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          -489.91996191714634,
+          -153.53065481866776,
+          43.26061309637337
+        ]
+      },
+      {
+        "interior_mm": [
+          10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          -471.7255393974858,
+          -190.69021575899433,
+          36.2961956848201
+        ]
+      },
+      {
+        "interior_mm": [
+          10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          -471.7383454426297,
+          -190.69533817705187,
+          40.15
+        ]
+      },
+      {
+        "interior_mm": [
+          10.0,
+          2,
+          40.15
+        ],
+        "exterior_mm": [
+          -471.7255393974858,
+          -190.69021575899433,
+          44.0038043151799
+        ]
+      }
+    ],
+    "all_source_points_mm": [
+      [
+        -35,
+        25,
+        14.5
+      ],
+      [
+        -35,
+        25,
+        25
+      ],
+      [
+        -35,
+        25,
+        38
+      ],
+      [
+        -35,
+        25,
+        40.15
+      ],
+      [
+        -35,
+        25,
+        42
+      ],
+      [
+        -35,
+        25,
+        54
+      ],
+      [
+        -35,
+        25,
+        55
+      ],
+      [
+        -35,
+        80,
+        14.5
+      ],
+      [
+        -35,
+        80,
+        25
+      ],
+      [
+        -35,
+        80,
+        38
+      ],
+      [
+        -35,
+        80,
+        40.15
+      ],
+      [
+        -35,
+        80,
+        42
+      ],
+      [
+        -35,
+        80,
+        54
+      ],
+      [
+        -35,
+        80,
+        55
+      ],
+      [
+        -35,
+        135,
+        14.5
+      ],
+      [
+        -35,
+        135,
+        25
+      ],
+      [
+        -35,
+        135,
+        38
+      ],
+      [
+        -35,
+        135,
+        40.15
+      ],
+      [
+        -35,
+        135,
+        42
+      ],
+      [
+        -35,
+        135,
+        54
+      ],
+      [
+        -35,
+        135,
+        55
+      ],
+      [
+        0,
+        25,
+        14.5
+      ],
+      [
+        0,
+        25,
+        25
+      ],
+      [
+        0,
+        25,
+        38
+      ],
+      [
+        0,
+        25,
+        40.15
+      ],
+      [
+        0,
+        25,
+        42
+      ],
+      [
+        0,
+        25,
+        54
+      ],
+      [
+        0,
+        25,
+        55
+      ],
+      [
+        0,
+        80,
+        14.5
+      ],
+      [
+        0,
+        80,
+        25
+      ],
+      [
+        0,
+        80,
+        38
+      ],
+      [
+        0,
+        80,
+        40.15
+      ],
+      [
+        0,
+        80,
+        42
+      ],
+      [
+        0,
+        80,
+        54
+      ],
+      [
+        0,
+        80,
+        55
+      ],
+      [
+        0,
+        135,
+        14.5
+      ],
+      [
+        0,
+        135,
+        25
+      ],
+      [
+        0,
+        135,
+        38
+      ],
+      [
+        0,
+        135,
+        40.15
+      ],
+      [
+        0,
+        135,
+        42
+      ],
+      [
+        0,
+        135,
+        54
+      ],
+      [
+        0,
+        135,
+        55
+      ],
+      [
+        35,
+        25,
+        14.5
+      ],
+      [
+        35,
+        25,
+        25
+      ],
+      [
+        35,
+        25,
+        38
+      ],
+      [
+        35,
+        25,
+        40.15
+      ],
+      [
+        35,
+        25,
+        42
+      ],
+      [
+        35,
+        25,
+        54
+      ],
+      [
+        35,
+        25,
+        55
+      ],
+      [
+        35,
+        80,
+        14.5
+      ],
+      [
+        35,
+        80,
+        25
+      ],
+      [
+        35,
+        80,
+        38
+      ],
+      [
+        35,
+        80,
+        40.15
+      ],
+      [
+        35,
+        80,
+        42
+      ],
+      [
+        35,
+        80,
+        54
+      ],
+      [
+        35,
+        80,
+        55
+      ],
+      [
+        35,
+        135,
+        14.5
+      ],
+      [
+        35,
+        135,
+        25
+      ],
+      [
+        35,
+        135,
+        38
+      ],
+      [
+        35,
+        135,
+        40.15
+      ],
+      [
+        35,
+        135,
+        42
+      ],
+      [
+        35,
+        135,
+        54
+      ],
+      [
+        35,
+        135,
+        55
+      ],
+      [
+        -10.0,
+        2,
+        38
+      ],
+      [
+        -10.0,
+        2,
+        40.15
+      ],
+      [
+        -10.0,
+        2,
+        42
+      ],
+      [
+        -10.0,
+        10,
+        38
+      ],
+      [
+        -10.0,
+        10,
+        40.15
+      ],
+      [
+        -10.0,
+        10,
+        42
+      ],
+      [
+        -10.0,
+        10,
+        44.5
+      ],
+      [
+        58,
+        55.83333333333333,
+        38
+      ],
+      [
+        58,
+        55.83333333333333,
+        40.15
+      ],
+      [
+        58,
+        55.83333333333333,
+        42
+      ],
+      [
+        50,
+        55.83333333333333,
+        38
+      ],
+      [
+        50,
+        55.83333333333333,
+        40.15
+      ],
+      [
+        50,
+        55.83333333333333,
+        42
+      ],
+      [
+        50,
+        55.83333333333333,
+        44.5
+      ],
+      [
+        10.0,
+        153,
+        38
+      ],
+      [
+        10.0,
+        153,
+        40.15
+      ],
+      [
+        10.0,
+        153,
+        42
+      ],
+      [
+        10.0,
+        145,
+        38
+      ],
+      [
+        10.0,
+        145,
+        40.15
+      ],
+      [
+        10.0,
+        145,
+        42
+      ],
+      [
+        10.0,
+        145,
+        44.5
+      ],
+      [
+        -58,
+        99.16666666666667,
+        38
+      ],
+      [
+        -58,
+        99.16666666666667,
+        40.15
+      ],
+      [
+        -58,
+        99.16666666666667,
+        42
+      ],
+      [
+        -50,
+        99.16666666666667,
+        38
+      ],
+      [
+        -50,
+        99.16666666666667,
+        40.15
+      ],
+      [
+        -50,
+        99.16666666666667,
+        42
+      ],
+      [
+        -50,
+        99.16666666666667,
+        44.5
+      ],
+      [
+        0.0,
+        2,
+        40.15
+      ],
+      [
+        0.0,
+        10,
+        38
+      ],
+      [
+        0.0,
+        10,
+        40.15
+      ],
+      [
+        0.0,
+        10,
+        42
+      ],
+      [
+        0.0,
+        10,
+        44.5
+      ],
+      [
+        58,
+        77.5,
+        38
+      ],
+      [
+        58,
+        77.5,
+        40.15
+      ],
+      [
+        58,
+        77.5,
+        42
+      ],
+      [
+        50,
+        77.5,
+        38
+      ],
+      [
+        50,
+        77.5,
+        40.15
+      ],
+      [
+        50,
+        77.5,
+        42
+      ],
+      [
+        50,
+        77.5,
+        44.5
+      ],
+      [
+        0.0,
+        153,
+        38
+      ],
+      [
+        0.0,
+        153,
+        40.15
+      ],
+      [
+        0.0,
+        153,
+        42
+      ],
+      [
+        0.0,
+        145,
+        38
+      ],
+      [
+        0.0,
+        145,
+        40.15
+      ],
+      [
+        0.0,
+        145,
+        42
+      ],
+      [
+        0.0,
+        145,
+        44.5
+      ],
+      [
+        -58,
+        77.5,
+        38
+      ],
+      [
+        -58,
+        77.5,
+        40.15
+      ],
+      [
+        -58,
+        77.5,
+        42
+      ],
+      [
+        -50,
+        77.5,
+        38
+      ],
+      [
+        -50,
+        77.5,
+        40.15
+      ],
+      [
+        -50,
+        77.5,
+        42
+      ],
+      [
+        -50,
+        77.5,
+        44.5
+      ],
+      [
+        10.0,
+        2,
+        38
+      ],
+      [
+        10.0,
+        2,
+        40.15
+      ],
+      [
+        10.0,
+        2,
+        42
+      ],
+      [
+        10.0,
+        10,
+        38
+      ],
+      [
+        10.0,
+        10,
+        40.15
+      ],
+      [
+        10.0,
+        10,
+        42
+      ],
+      [
+        10.0,
+        10,
+        44.5
+      ],
+      [
+        58,
+        99.16666666666667,
+        38
+      ],
+      [
+        58,
+        99.16666666666667,
+        40.15
+      ],
+      [
+        58,
+        99.16666666666667,
+        42
+      ],
+      [
+        50,
+        99.16666666666667,
+        38
+      ],
+      [
+        50,
+        99.16666666666667,
+        40.15
+      ],
+      [
+        50,
+        99.16666666666667,
+        42
+      ],
+      [
+        50,
+        99.16666666666667,
+        44.5
+      ],
+      [
+        -10.0,
+        153,
+        38
+      ],
+      [
+        -10.0,
+        153,
+        40.15
+      ],
+      [
+        -10.0,
+        153,
+        42
+      ],
+      [
+        -10.0,
+        145,
+        38
+      ],
+      [
+        -10.0,
+        145,
+        40.15
+      ],
+      [
+        -10.0,
+        145,
+        42
+      ],
+      [
+        -10.0,
+        145,
+        44.5
+      ],
+      [
+        -58,
+        55.83333333333333,
+        38
+      ],
+      [
+        -58,
+        55.83333333333333,
+        40.15
+      ],
+      [
+        -58,
+        55.83333333333333,
+        42
+      ],
+      [
+        -50,
+        55.83333333333333,
+        38
+      ],
+      [
+        -50,
+        55.83333333333333,
+        40.15
+      ],
+      [
+        -50,
+        55.83333333333333,
+        42
+      ],
+      [
+        -50,
+        55.83333333333333,
+        44.5
+      ],
+      [
+        20.61262626546222,
+        2.3678709609261546,
+        38
+      ],
+      [
+        20.61262626546222,
+        2.3678709609261546,
+        40.15
+      ],
+      [
+        20.61262626546222,
+        2.3678709609261546,
+        42
+      ],
+      [
+        19.56841672770181,
+        10.299429851916637,
+        38
+      ],
+      [
+        19.56841672770181,
+        10.299429851916637,
+        40.15
+      ],
+      [
+        19.56841672770181,
+        10.299429851916637,
+        42
+      ],
+      [
+        19.56841672770181,
+        10.299429851916637,
+        44.5
+      ],
+      [
+        31.455387591698862,
+        5.273180102014668,
+        38
+      ],
+      [
+        31.455387591698862,
+        5.273180102014668,
+        40.15
+      ],
+      [
+        31.455387591698862,
+        5.273180102014668,
+        42
+      ],
+      [
+        28.393920132778142,
+        12.664216362104963,
+        38
+      ],
+      [
+        28.393920132778142,
+        12.664216362104963,
+        40.15
+      ],
+      [
+        28.393920132778142,
+        12.664216362104963,
+        42
+      ],
+      [
+        28.393920132778142,
+        12.664216362104963,
+        44.5
+      ],
+      [
+        41.17674144737499,
+        10.885806367476889,
+        38
+      ],
+      [
+        41.17674144737499,
+        10.885806367476889,
+        40.15
+      ],
+      [
+        41.17674144737499,
+        10.885806367476889,
+        42
+      ],
+      [
+        36.30665001530522,
+        17.232633089806768,
+        38
+      ],
+      [
+        36.30665001530522,
+        17.232633089806768,
+        40.15
+      ],
+      [
+        36.30665001530522,
+        17.232633089806768,
+        42
+      ],
+      [
+        36.30665001530522,
+        17.232633089806768,
+        44.5
+      ],
+      [
+        49.11419363252311,
+        18.82325855262501,
+        38
+      ],
+      [
+        49.11419363252311,
+        18.82325855262501,
+        40.15
+      ],
+      [
+        49.11419363252311,
+        18.82325855262501,
+        42
+      ],
+      [
+        42.76736691019323,
+        23.693349984694777,
+        38
+      ],
+      [
+        42.76736691019323,
+        23.693349984694777,
+        40.15
+      ],
+      [
+        42.76736691019323,
+        23.693349984694777,
+        42
+      ],
+      [
+        42.76736691019323,
+        23.693349984694777,
+        44.5
+      ],
+      [
+        54.72681989798533,
+        28.54461240830114,
+        38
+      ],
+      [
+        54.72681989798533,
+        28.54461240830114,
+        40.15
+      ],
+      [
+        54.72681989798533,
+        28.54461240830114,
+        42
+      ],
+      [
+        47.335783637895034,
+        31.606079867221858,
+        38
+      ],
+      [
+        47.335783637895034,
+        31.606079867221858,
+        40.15
+      ],
+      [
+        47.335783637895034,
+        31.606079867221858,
+        42
+      ],
+      [
+        47.335783637895034,
+        31.606079867221858,
+        44.5
+      ],
+      [
+        57.63212903907384,
+        39.38737373453778,
+        38
+      ],
+      [
+        57.63212903907384,
+        39.38737373453778,
+        40.15
+      ],
+      [
+        57.63212903907384,
+        39.38737373453778,
+        42
+      ],
+      [
+        49.70057014808336,
+        40.43158327229819,
+        38
+      ],
+      [
+        49.70057014808336,
+        40.43158327229819,
+        40.15
+      ],
+      [
+        49.70057014808336,
+        40.43158327229819,
+        42
+      ],
+      [
+        49.70057014808336,
+        40.43158327229819,
+        44.5
+      ],
+      [
+        57.63212903907384,
+        115.61262626546221,
+        38
+      ],
+      [
+        57.63212903907384,
+        115.61262626546221,
+        40.15
+      ],
+      [
+        57.63212903907384,
+        115.61262626546221,
+        42
+      ],
+      [
+        49.70057014808336,
+        114.5684167277018,
+        38
+      ],
+      [
+        49.70057014808336,
+        114.5684167277018,
+        40.15
+      ],
+      [
+        49.70057014808336,
+        114.5684167277018,
+        42
+      ],
+      [
+        49.70057014808336,
+        114.5684167277018,
+        44.5
+      ],
+      [
+        54.72681989798533,
+        126.45538759169887,
+        38
+      ],
+      [
+        54.72681989798533,
+        126.45538759169887,
+        40.15
+      ],
+      [
+        54.72681989798533,
+        126.45538759169887,
+        42
+      ],
+      [
+        47.335783637895034,
+        123.39392013277815,
+        38
+      ],
+      [
+        47.335783637895034,
+        123.39392013277815,
+        40.15
+      ],
+      [
+        47.335783637895034,
+        123.39392013277815,
+        42
+      ],
+      [
+        47.335783637895034,
+        123.39392013277815,
+        44.5
+      ],
+      [
+        49.11419363252311,
+        136.176741447375,
+        38
+      ],
+      [
+        49.11419363252311,
+        136.176741447375,
+        40.15
+      ],
+      [
+        49.11419363252311,
+        136.176741447375,
+        42
+      ],
+      [
+        42.76736691019323,
+        131.30665001530522,
+        38
+      ],
+      [
+        42.76736691019323,
+        131.30665001530522,
+        40.15
+      ],
+      [
+        42.76736691019323,
+        131.30665001530522,
+        42
+      ],
+      [
+        42.76736691019323,
+        131.30665001530522,
+        44.5
+      ],
+      [
+        41.17674144737499,
+        144.1141936325231,
+        38
+      ],
+      [
+        41.17674144737499,
+        144.1141936325231,
+        40.15
+      ],
+      [
+        41.17674144737499,
+        144.1141936325231,
+        42
+      ],
+      [
+        36.30665001530522,
+        137.7673669101932,
+        38
+      ],
+      [
+        36.30665001530522,
+        137.7673669101932,
+        40.15
+      ],
+      [
+        36.30665001530522,
+        137.7673669101932,
+        42
+      ],
+      [
+        36.30665001530522,
+        137.7673669101932,
+        44.5
+      ],
+      [
+        31.455387591698862,
+        149.72681989798534,
+        38
+      ],
+      [
+        31.455387591698862,
+        149.72681989798534,
+        40.15
+      ],
+      [
+        31.455387591698862,
+        149.72681989798534,
+        42
+      ],
+      [
+        28.393920132778142,
+        142.33578363789505,
+        38
+      ],
+      [
+        28.393920132778142,
+        142.33578363789505,
+        40.15
+      ],
+      [
+        28.393920132778142,
+        142.33578363789505,
+        42
+      ],
+      [
+        28.393920132778142,
+        142.33578363789505,
+        44.5
+      ],
+      [
+        20.61262626546222,
+        152.63212903907385,
+        38
+      ],
+      [
+        20.61262626546222,
+        152.63212903907385,
+        40.15
+      ],
+      [
+        20.61262626546222,
+        152.63212903907385,
+        42
+      ],
+      [
+        19.56841672770181,
+        144.70057014808336,
+        38
+      ],
+      [
+        19.56841672770181,
+        144.70057014808336,
+        40.15
+      ],
+      [
+        19.56841672770181,
+        144.70057014808336,
+        42
+      ],
+      [
+        19.56841672770181,
+        144.70057014808336,
+        44.5
+      ],
+      [
+        -20.61262626546222,
+        152.63212903907385,
+        38
+      ],
+      [
+        -20.61262626546222,
+        152.63212903907385,
+        40.15
+      ],
+      [
+        -20.61262626546222,
+        152.63212903907385,
+        42
+      ],
+      [
+        -19.56841672770181,
+        144.70057014808336,
+        38
+      ],
+      [
+        -19.56841672770181,
+        144.70057014808336,
+        40.15
+      ],
+      [
+        -19.56841672770181,
+        144.70057014808336,
+        42
+      ],
+      [
+        -19.56841672770181,
+        144.70057014808336,
+        44.5
+      ],
+      [
+        -31.455387591698855,
+        149.72681989798534,
+        38
+      ],
+      [
+        -31.455387591698855,
+        149.72681989798534,
+        40.15
+      ],
+      [
+        -31.455387591698855,
+        149.72681989798534,
+        42
+      ],
+      [
+        -28.39392013277814,
+        142.33578363789505,
+        38
+      ],
+      [
+        -28.39392013277814,
+        142.33578363789505,
+        40.15
+      ],
+      [
+        -28.39392013277814,
+        142.33578363789505,
+        42
+      ],
+      [
+        -28.39392013277814,
+        142.33578363789505,
+        44.5
+      ],
+      [
+        -41.17674144737499,
+        144.1141936325231,
+        38
+      ],
+      [
+        -41.17674144737499,
+        144.1141936325231,
+        40.15
+      ],
+      [
+        -41.17674144737499,
+        144.1141936325231,
+        42
+      ],
+      [
+        -36.30665001530522,
+        137.7673669101932,
+        38
+      ],
+      [
+        -36.30665001530522,
+        137.7673669101932,
+        40.15
+      ],
+      [
+        -36.30665001530522,
+        137.7673669101932,
+        42
+      ],
+      [
+        -36.30665001530522,
+        137.7673669101932,
+        44.5
+      ],
+      [
+        -49.114193632523104,
+        136.176741447375,
+        38
+      ],
+      [
+        -49.114193632523104,
+        136.176741447375,
+        40.15
+      ],
+      [
+        -49.114193632523104,
+        136.176741447375,
+        42
+      ],
+      [
+        -42.767366910193225,
+        131.30665001530522,
+        38
+      ],
+      [
+        -42.767366910193225,
+        131.30665001530522,
+        40.15
+      ],
+      [
+        -42.767366910193225,
+        131.30665001530522,
+        42
+      ],
+      [
+        -42.767366910193225,
+        131.30665001530522,
+        44.5
+      ],
+      [
+        -54.72681989798533,
+        126.45538759169887,
+        38
+      ],
+      [
+        -54.72681989798533,
+        126.45538759169887,
+        40.15
+      ],
+      [
+        -54.72681989798533,
+        126.45538759169887,
+        42
+      ],
+      [
+        -47.335783637895034,
+        123.39392013277815,
+        38
+      ],
+      [
+        -47.335783637895034,
+        123.39392013277815,
+        40.15
+      ],
+      [
+        -47.335783637895034,
+        123.39392013277815,
+        42
+      ],
+      [
+        -47.335783637895034,
+        123.39392013277815,
+        44.5
+      ],
+      [
+        -57.63212903907384,
+        115.61262626546221,
+        38
+      ],
+      [
+        -57.63212903907384,
+        115.61262626546221,
+        40.15
+      ],
+      [
+        -57.63212903907384,
+        115.61262626546221,
+        42
+      ],
+      [
+        -49.70057014808336,
+        114.5684167277018,
+        38
+      ],
+      [
+        -49.70057014808336,
+        114.5684167277018,
+        40.15
+      ],
+      [
+        -49.70057014808336,
+        114.5684167277018,
+        42
+      ],
+      [
+        -49.70057014808336,
+        114.5684167277018,
+        44.5
+      ],
+      [
+        -57.63212903907385,
+        39.38737373453779,
+        38
+      ],
+      [
+        -57.63212903907385,
+        39.38737373453779,
+        40.15
+      ],
+      [
+        -57.63212903907385,
+        39.38737373453779,
+        42
+      ],
+      [
+        -49.70057014808337,
+        40.431583272298205,
+        38
+      ],
+      [
+        -49.70057014808337,
+        40.431583272298205,
+        40.15
+      ],
+      [
+        -49.70057014808337,
+        40.431583272298205,
+        42
+      ],
+      [
+        -49.70057014808337,
+        40.431583272298205,
+        44.5
+      ],
+      [
+        -54.72681989798533,
+        28.544612408301145,
+        38
+      ],
+      [
+        -54.72681989798533,
+        28.544612408301145,
+        40.15
+      ],
+      [
+        -54.72681989798533,
+        28.544612408301145,
+        42
+      ],
+      [
+        -47.335783637895034,
+        31.60607986722186,
+        38
+      ],
+      [
+        -47.335783637895034,
+        31.60607986722186,
+        40.15
+      ],
+      [
+        -47.335783637895034,
+        31.60607986722186,
+        42
+      ],
+      [
+        -47.335783637895034,
+        31.60607986722186,
+        44.5
+      ],
+      [
+        -49.11419363252311,
+        18.82325855262501,
+        38
+      ],
+      [
+        -49.11419363252311,
+        18.82325855262501,
+        40.15
+      ],
+      [
+        -49.11419363252311,
+        18.82325855262501,
+        42
+      ],
+      [
+        -42.76736691019323,
+        23.693349984694777,
+        38
+      ],
+      [
+        -42.76736691019323,
+        23.693349984694777,
+        40.15
+      ],
+      [
+        -42.76736691019323,
+        23.693349984694777,
+        42
+      ],
+      [
+        -42.76736691019323,
+        23.693349984694777,
+        44.5
+      ],
+      [
+        -41.176741447374994,
+        10.885806367476901,
+        38
+      ],
+      [
+        -41.176741447374994,
+        10.885806367476901,
+        40.15
+      ],
+      [
+        -41.176741447374994,
+        10.885806367476901,
+        42
+      ],
+      [
+        -36.30665001530523,
+        17.232633089806782,
+        38
+      ],
+      [
+        -36.30665001530523,
+        17.232633089806782,
+        40.15
+      ],
+      [
+        -36.30665001530523,
+        17.232633089806782,
+        42
+      ],
+      [
+        -36.30665001530523,
+        17.232633089806782,
+        44.5
+      ],
+      [
+        -31.455387591698845,
+        5.273180102014669,
+        38
+      ],
+      [
+        -31.455387591698845,
+        5.273180102014669,
+        40.15
+      ],
+      [
+        -31.455387591698845,
+        5.273180102014669,
+        42
+      ],
+      [
+        -28.393920132778128,
+        12.664216362104964,
+        38
+      ],
+      [
+        -28.393920132778128,
+        12.664216362104964,
+        40.15
+      ],
+      [
+        -28.393920132778128,
+        12.664216362104964,
+        42
+      ],
+      [
+        -28.393920132778128,
+        12.664216362104964,
+        44.5
+      ],
+      [
+        -20.612626265462218,
+        2.3678709609261546,
+        38
+      ],
+      [
+        -20.612626265462218,
+        2.3678709609261546,
+        40.15
+      ],
+      [
+        -20.612626265462218,
+        2.3678709609261546,
+        42
+      ],
+      [
+        -19.568416727701806,
+        10.299429851916637,
+        38
+      ],
+      [
+        -19.568416727701806,
+        10.299429851916637,
+        40.15
+      ],
+      [
+        -19.568416727701806,
+        10.299429851916637,
+        42
+      ],
+      [
+        -19.568416727701806,
+        10.299429851916637,
+        44.5
+      ],
+      [
+        -53.3,
+        25,
+        39.8
+      ],
+      [
+        -53.3,
+        25,
+        40.05
+      ],
+      [
+        -53.3,
+        25,
+        40.15
+      ],
+      [
+        -53.3,
+        25,
+        40.25
+      ],
+      [
+        -53.3,
+        25,
+        40.4
+      ],
+      [
+        -53.3,
+        25,
+        42
+      ],
+      [
+        -53.3,
+        25,
+        43.15
+      ],
+      [
+        -35,
+        7,
+        39.8
+      ],
+      [
+        -35,
+        7,
+        40.05
+      ],
+      [
+        -35,
+        7,
+        40.15
+      ],
+      [
+        -35,
+        7,
+        40.25
+      ],
+      [
+        -35,
+        7,
+        40.4
+      ],
+      [
+        -35,
+        7,
+        42
+      ],
+      [
+        -35,
+        7,
+        43.15
+      ],
+      [
+        -35,
+        15,
+        39.8
+      ],
+      [
+        -35,
+        15,
+        40.05
+      ],
+      [
+        -35,
+        15,
+        40.15
+      ],
+      [
+        -35,
+        15,
+        40.25
+      ],
+      [
+        -35,
+        15,
+        40.4
+      ],
+      [
+        -35,
+        15,
+        42
+      ],
+      [
+        -35,
+        15,
+        43.15
+      ],
+      [
+        -35,
+        25,
+        39.8
+      ],
+      [
+        -35,
+        25,
+        40.05
+      ],
+      [
+        -35,
+        25,
+        40.15
+      ],
+      [
+        -35,
+        25,
+        40.25
+      ],
+      [
+        -35,
+        25,
+        40.4
+      ],
+      [
+        -35,
+        25,
+        42
+      ],
+      [
+        -35,
+        25,
+        43.15
+      ],
+      [
+        -15,
+        7,
+        39.8
+      ],
+      [
+        -15,
+        7,
+        40.05
+      ],
+      [
+        -15,
+        7,
+        40.15
+      ],
+      [
+        -15,
+        7,
+        40.25
+      ],
+      [
+        -15,
+        7,
+        40.4
+      ],
+      [
+        -15,
+        7,
+        42
+      ],
+      [
+        -15,
+        7,
+        43.15
+      ],
+      [
+        -15,
+        15,
+        39.8
+      ],
+      [
+        -15,
+        15,
+        40.05
+      ],
+      [
+        -15,
+        15,
+        40.15
+      ],
+      [
+        -15,
+        15,
+        40.25
+      ],
+      [
+        -15,
+        15,
+        40.4
+      ],
+      [
+        -15,
+        15,
+        42
+      ],
+      [
+        -15,
+        15,
+        43.15
+      ],
+      [
+        -15,
+        25,
+        39.8
+      ],
+      [
+        -15,
+        25,
+        40.05
+      ],
+      [
+        -15,
+        25,
+        40.15
+      ],
+      [
+        -15,
+        25,
+        40.25
+      ],
+      [
+        -15,
+        25,
+        40.4
+      ],
+      [
+        -15,
+        25,
+        42
+      ],
+      [
+        -15,
+        25,
+        43.15
+      ],
+      [
+        0,
+        7,
+        39.8
+      ],
+      [
+        0,
+        7,
+        40.05
+      ],
+      [
+        0,
+        15,
+        39.8
+      ],
+      [
+        0,
+        15,
+        40.05
+      ],
+      [
+        0,
+        15,
+        40.15
+      ],
+      [
+        0,
+        15,
+        40.25
+      ],
+      [
+        0,
+        15,
+        40.4
+      ],
+      [
+        0,
+        15,
+        42
+      ],
+      [
+        0,
+        15,
+        43.15
+      ],
+      [
+        0,
+        25,
+        39.8
+      ],
+      [
+        0,
+        25,
+        40.05
+      ],
+      [
+        0,
+        25,
+        40.15
+      ],
+      [
+        0,
+        25,
+        40.25
+      ],
+      [
+        0,
+        25,
+        40.4
+      ],
+      [
+        0,
+        25,
+        42
+      ],
+      [
+        0,
+        25,
+        43.15
+      ],
+      [
+        15,
+        7,
+        39.8
+      ],
+      [
+        15,
+        7,
+        40.05
+      ],
+      [
+        15,
+        7,
+        40.15
+      ],
+      [
+        15,
+        7,
+        40.25
+      ],
+      [
+        15,
+        7,
+        40.4
+      ],
+      [
+        15,
+        7,
+        42
+      ],
+      [
+        15,
+        7,
+        43.15
+      ],
+      [
+        15,
+        15,
+        39.8
+      ],
+      [
+        15,
+        15,
+        40.05
+      ],
+      [
+        15,
+        15,
+        40.15
+      ],
+      [
+        15,
+        15,
+        40.25
+      ],
+      [
+        15,
+        15,
+        40.4
+      ],
+      [
+        15,
+        15,
+        42
+      ],
+      [
+        15,
+        15,
+        43.15
+      ],
+      [
+        15,
+        25,
+        39.8
+      ],
+      [
+        15,
+        25,
+        40.05
+      ],
+      [
+        15,
+        25,
+        40.15
+      ],
+      [
+        15,
+        25,
+        40.25
+      ],
+      [
+        15,
+        25,
+        40.4
+      ],
+      [
+        15,
+        25,
+        42
+      ],
+      [
+        15,
+        25,
+        43.15
+      ],
+      [
+        35,
+        7,
+        39.8
+      ],
+      [
+        35,
+        7,
+        40.05
+      ],
+      [
+        35,
+        7,
+        40.15
+      ],
+      [
+        35,
+        7,
+        40.25
+      ],
+      [
+        35,
+        7,
+        40.4
+      ],
+      [
+        35,
+        7,
+        42
+      ],
+      [
+        35,
+        7,
+        43.15
+      ],
+      [
+        35,
+        15,
+        39.8
+      ],
+      [
+        35,
+        15,
+        40.05
+      ],
+      [
+        35,
+        15,
+        40.15
+      ],
+      [
+        35,
+        15,
+        40.25
+      ],
+      [
+        35,
+        15,
+        40.4
+      ],
+      [
+        35,
+        15,
+        42
+      ],
+      [
+        35,
+        15,
+        43.15
+      ],
+      [
+        35,
+        25,
+        39.8
+      ],
+      [
+        35,
+        25,
+        40.05
+      ],
+      [
+        35,
+        25,
+        40.15
+      ],
+      [
+        35,
+        25,
+        40.25
+      ],
+      [
+        35,
+        25,
+        40.4
+      ],
+      [
+        35,
+        25,
+        42
+      ],
+      [
+        35,
+        25,
+        43.15
+      ],
+      [
+        53.3,
+        25,
+        39.8
+      ],
+      [
+        53.3,
+        25,
+        40.05
+      ],
+      [
+        53.3,
+        25,
+        40.15
+      ],
+      [
+        53.3,
+        25,
+        40.25
+      ],
+      [
+        53.3,
+        25,
+        40.4
+      ],
+      [
+        53.3,
+        25,
+        42
+      ],
+      [
+        53.3,
+        25,
+        43.15
+      ]
+    ],
+    "seam_targets": "6samples per straight/12per quadrant,3seamZ at40.01/40.15/40.29; plus free sampled hinge-eye annulusR4.4 and bore-endR1.6. Each interior-to-aperture direction is continued500mm beyond its aperture; endpoint height varies with ray slope.",
+    "all_aperture_target_points_mm": [
+      [
+        -12.5,
+        -5,
+        40.01
+      ],
+      [
+        -12.5,
+        -5,
+        40.15
+      ],
+      [
+        -12.5,
+        -5,
+        40.29
+      ],
+      [
+        65,
+        50.416666666666664,
+        40.01
+      ],
+      [
+        65,
+        50.416666666666664,
+        40.15
+      ],
+      [
+        65,
+        50.416666666666664,
+        40.29
+      ],
+      [
+        12.5,
+        160,
+        40.01
+      ],
+      [
+        12.5,
+        160,
+        40.15
+      ],
+      [
+        12.5,
+        160,
+        40.29
+      ],
+      [
+        -65,
+        104.58333333333333,
+        40.01
+      ],
+      [
+        -65,
+        104.58333333333333,
+        40.15
+      ],
+      [
+        -65,
+        104.58333333333333,
+        40.29
+      ],
+      [
+        -7.5,
+        -5,
+        40.01
+      ],
+      [
+        -7.5,
+        -5,
+        40.15
+      ],
+      [
+        -7.5,
+        -5,
+        40.29
+      ],
+      [
+        65,
+        61.25,
+        40.01
+      ],
+      [
+        65,
+        61.25,
+        40.15
+      ],
+      [
+        65,
+        61.25,
+        40.29
+      ],
+      [
+        7.5,
+        160,
+        40.01
+      ],
+      [
+        7.5,
+        160,
+        40.15
+      ],
+      [
+        7.5,
+        160,
+        40.29
+      ],
+      [
+        -65,
+        93.75,
+        40.01
+      ],
+      [
+        -65,
+        93.75,
+        40.15
+      ],
+      [
+        -65,
+        93.75,
+        40.29
+      ],
+      [
+        -2.5,
+        -5,
+        40.01
+      ],
+      [
+        -2.5,
+        -5,
+        40.15
+      ],
+      [
+        -2.5,
+        -5,
+        40.29
+      ],
+      [
+        65,
+        72.08333333333334,
+        40.01
+      ],
+      [
+        65,
+        72.08333333333334,
+        40.15
+      ],
+      [
+        65,
+        72.08333333333334,
+        40.29
+      ],
+      [
+        2.5,
+        160,
+        40.01
+      ],
+      [
+        2.5,
+        160,
+        40.15
+      ],
+      [
+        2.5,
+        160,
+        40.29
+      ],
+      [
+        -65,
+        82.91666666666666,
+        40.01
+      ],
+      [
+        -65,
+        82.91666666666666,
+        40.15
+      ],
+      [
+        -65,
+        82.91666666666666,
+        40.29
+      ],
+      [
+        2.5,
+        -5,
+        40.01
+      ],
+      [
+        2.5,
+        -5,
+        40.15
+      ],
+      [
+        2.5,
+        -5,
+        40.29
+      ],
+      [
+        65,
+        82.91666666666667,
+        40.01
+      ],
+      [
+        65,
+        82.91666666666667,
+        40.15
+      ],
+      [
+        65,
+        82.91666666666667,
+        40.29
+      ],
+      [
+        -2.5,
+        160,
+        40.01
+      ],
+      [
+        -2.5,
+        160,
+        40.15
+      ],
+      [
+        -2.5,
+        160,
+        40.29
+      ],
+      [
+        -65,
+        72.08333333333333,
+        40.01
+      ],
+      [
+        -65,
+        72.08333333333333,
+        40.15
+      ],
+      [
+        -65,
+        72.08333333333333,
+        40.29
+      ],
+      [
+        7.5,
+        -5,
+        40.01
+      ],
+      [
+        7.5,
+        -5,
+        40.15
+      ],
+      [
+        7.5,
+        -5,
+        40.29
+      ],
+      [
+        65,
+        93.75,
+        40.01
+      ],
+      [
+        65,
+        93.75,
+        40.15
+      ],
+      [
+        65,
+        93.75,
+        40.29
+      ],
+      [
+        -7.5,
+        160,
+        40.01
+      ],
+      [
+        -7.5,
+        160,
+        40.15
+      ],
+      [
+        -7.5,
+        160,
+        40.29
+      ],
+      [
+        -65,
+        61.25,
+        40.01
+      ],
+      [
+        -65,
+        61.25,
+        40.15
+      ],
+      [
+        -65,
+        61.25,
+        40.29
+      ],
+      [
+        12.5,
+        -5,
+        40.01
+      ],
+      [
+        12.5,
+        -5,
+        40.15
+      ],
+      [
+        12.5,
+        -5,
+        40.29
+      ],
+      [
+        65,
+        104.58333333333333,
+        40.01
+      ],
+      [
+        65,
+        104.58333333333333,
+        40.15
+      ],
+      [
+        65,
+        104.58333333333333,
+        40.29
+      ],
+      [
+        -12.5,
+        160,
+        40.01
+      ],
+      [
+        -12.5,
+        160,
+        40.15
+      ],
+      [
+        -12.5,
+        160,
+        40.29
+      ],
+      [
+        -65,
+        50.41666666666667,
+        40.01
+      ],
+      [
+        -65,
+        50.41666666666667,
+        40.15
+      ],
+      [
+        -65,
+        50.41666666666667,
+        40.29
+      ],
+      [
+        18.270156461507153,
+        -4.892946161930176,
+        40.01
+      ],
+      [
+        18.270156461507153,
+        -4.892946161930176,
+        40.15
+      ],
+      [
+        18.270156461507153,
+        -4.892946161930176,
+        40.29
+      ],
+      [
+        24.754516100806416,
+        -4.039264020161525,
+        40.01
+      ],
+      [
+        24.754516100806416,
+        -4.039264020161525,
+        40.15
+      ],
+      [
+        24.754516100806416,
+        -4.039264020161525,
+        40.29
+      ],
+      [
+        31.071973265158086,
+        -2.34650647475528,
+        40.01
+      ],
+      [
+        31.071973265158086,
+        -2.34650647475528,
+        40.15
+      ],
+      [
+        31.071973265158086,
+        -2.34650647475528,
+        40.29
+      ],
+      [
+        37.11443451095006,
+        0.15636292336558455,
+        40.01
+      ],
+      [
+        37.11443451095006,
+        0.15636292336558455,
+        40.15
+      ],
+      [
+        37.11443451095006,
+        0.15636292336558455,
+        40.29
+      ],
+      [
+        42.778511650980114,
+        3.4265193848727407,
+        40.01
+      ],
+      [
+        42.778511650980114,
+        3.4265193848727407,
+        40.15
+      ],
+      [
+        42.778511650980114,
+        3.4265193848727407,
+        40.29
+      ],
+      [
+        47.96729075500344,
+        7.408009626051133,
+        40.01
+      ],
+      [
+        47.96729075500344,
+        7.408009626051133,
+        40.15
+      ],
+      [
+        47.96729075500344,
+        7.408009626051133,
+        40.29
+      ],
+      [
+        52.591990373948875,
+        12.03270924499656,
+        40.01
+      ],
+      [
+        52.591990373948875,
+        12.03270924499656,
+        40.15
+      ],
+      [
+        52.591990373948875,
+        12.03270924499656,
+        40.29
+      ],
+      [
+        56.57348061512726,
+        17.221488349019893,
+        40.01
+      ],
+      [
+        56.57348061512726,
+        17.221488349019893,
+        40.15
+      ],
+      [
+        56.57348061512726,
+        17.221488349019893,
+        40.29
+      ],
+      [
+        59.843637076634415,
+        22.885565489049934,
+        40.01
+      ],
+      [
+        59.843637076634415,
+        22.885565489049934,
+        40.15
+      ],
+      [
+        59.843637076634415,
+        22.885565489049934,
+        40.29
+      ],
+      [
+        62.34650647475529,
+        28.92802673484192,
+        40.01
+      ],
+      [
+        62.34650647475529,
+        28.92802673484192,
+        40.15
+      ],
+      [
+        62.34650647475529,
+        28.92802673484192,
+        40.29
+      ],
+      [
+        64.03926402016153,
+        35.24548389919359,
+        40.01
+      ],
+      [
+        64.03926402016153,
+        35.24548389919359,
+        40.15
+      ],
+      [
+        64.03926402016153,
+        35.24548389919359,
+        40.29
+      ],
+      [
+        64.89294616193018,
+        41.729843538492844,
+        40.01
+      ],
+      [
+        64.89294616193018,
+        41.729843538492844,
+        40.15
+      ],
+      [
+        64.89294616193018,
+        41.729843538492844,
+        40.29
+      ],
+      [
+        64.89294616193018,
+        113.27015646150716,
+        40.01
+      ],
+      [
+        64.89294616193018,
+        113.27015646150716,
+        40.15
+      ],
+      [
+        64.89294616193018,
+        113.27015646150716,
+        40.29
+      ],
+      [
+        64.03926402016153,
+        119.75451610080641,
+        40.01
+      ],
+      [
+        64.03926402016153,
+        119.75451610080641,
+        40.15
+      ],
+      [
+        64.03926402016153,
+        119.75451610080641,
+        40.29
+      ],
+      [
+        62.34650647475529,
+        126.07197326515808,
+        40.01
+      ],
+      [
+        62.34650647475529,
+        126.07197326515808,
+        40.15
+      ],
+      [
+        62.34650647475529,
+        126.07197326515808,
+        40.29
+      ],
+      [
+        59.843637076634415,
+        132.11443451095008,
+        40.01
+      ],
+      [
+        59.843637076634415,
+        132.11443451095008,
+        40.15
+      ],
+      [
+        59.843637076634415,
+        132.11443451095008,
+        40.29
+      ],
+      [
+        56.57348061512726,
+        137.7785116509801,
+        40.01
+      ],
+      [
+        56.57348061512726,
+        137.7785116509801,
+        40.15
+      ],
+      [
+        56.57348061512726,
+        137.7785116509801,
+        40.29
+      ],
+      [
+        52.591990373948875,
+        142.96729075500343,
+        40.01
+      ],
+      [
+        52.591990373948875,
+        142.96729075500343,
+        40.15
+      ],
+      [
+        52.591990373948875,
+        142.96729075500343,
+        40.29
+      ],
+      [
+        47.96729075500344,
+        147.59199037394887,
+        40.01
+      ],
+      [
+        47.96729075500344,
+        147.59199037394887,
+        40.15
+      ],
+      [
+        47.96729075500344,
+        147.59199037394887,
+        40.29
+      ],
+      [
+        42.778511650980114,
+        151.57348061512727,
+        40.01
+      ],
+      [
+        42.778511650980114,
+        151.57348061512727,
+        40.15
+      ],
+      [
+        42.778511650980114,
+        151.57348061512727,
+        40.29
+      ],
+      [
+        37.11443451095006,
+        154.84363707663442,
+        40.01
+      ],
+      [
+        37.11443451095006,
+        154.84363707663442,
+        40.15
+      ],
+      [
+        37.11443451095006,
+        154.84363707663442,
+        40.29
+      ],
+      [
+        31.071973265158086,
+        157.34650647475527,
+        40.01
+      ],
+      [
+        31.071973265158086,
+        157.34650647475527,
+        40.15
+      ],
+      [
+        31.071973265158086,
+        157.34650647475527,
+        40.29
+      ],
+      [
+        24.754516100806416,
+        159.0392640201615,
+        40.01
+      ],
+      [
+        24.754516100806416,
+        159.0392640201615,
+        40.15
+      ],
+      [
+        24.754516100806416,
+        159.0392640201615,
+        40.29
+      ],
+      [
+        18.270156461507153,
+        159.89294616193018,
+        40.01
+      ],
+      [
+        18.270156461507153,
+        159.89294616193018,
+        40.15
+      ],
+      [
+        18.270156461507153,
+        159.89294616193018,
+        40.29
+      ],
+      [
+        -18.270156461507145,
+        159.89294616193018,
+        40.01
+      ],
+      [
+        -18.270156461507145,
+        159.89294616193018,
+        40.15
+      ],
+      [
+        -18.270156461507145,
+        159.89294616193018,
+        40.29
+      ],
+      [
+        -24.75451610080641,
+        159.0392640201615,
+        40.01
+      ],
+      [
+        -24.75451610080641,
+        159.0392640201615,
+        40.15
+      ],
+      [
+        -24.75451610080641,
+        159.0392640201615,
+        40.29
+      ],
+      [
+        -31.07197326515808,
+        157.3465064747553,
+        40.01
+      ],
+      [
+        -31.07197326515808,
+        157.3465064747553,
+        40.15
+      ],
+      [
+        -31.07197326515808,
+        157.3465064747553,
+        40.29
+      ],
+      [
+        -37.11443451095006,
+        154.84363707663442,
+        40.01
+      ],
+      [
+        -37.11443451095006,
+        154.84363707663442,
+        40.15
+      ],
+      [
+        -37.11443451095006,
+        154.84363707663442,
+        40.29
+      ],
+      [
+        -42.77851165098012,
+        151.57348061512727,
+        40.01
+      ],
+      [
+        -42.77851165098012,
+        151.57348061512727,
+        40.15
+      ],
+      [
+        -42.77851165098012,
+        151.57348061512727,
+        40.29
+      ],
+      [
+        -47.96729075500344,
+        147.59199037394887,
+        40.01
+      ],
+      [
+        -47.96729075500344,
+        147.59199037394887,
+        40.15
+      ],
+      [
+        -47.96729075500344,
+        147.59199037394887,
+        40.29
+      ],
+      [
+        -52.59199037394886,
+        142.96729075500343,
+        40.01
+      ],
+      [
+        -52.59199037394886,
+        142.96729075500343,
+        40.15
+      ],
+      [
+        -52.59199037394886,
+        142.96729075500343,
+        40.29
+      ],
+      [
+        -56.573480615127266,
+        137.7785116509801,
+        40.01
+      ],
+      [
+        -56.573480615127266,
+        137.7785116509801,
+        40.15
+      ],
+      [
+        -56.573480615127266,
+        137.7785116509801,
+        40.29
+      ],
+      [
+        -59.843637076634415,
+        132.11443451095008,
+        40.01
+      ],
+      [
+        -59.843637076634415,
+        132.11443451095008,
+        40.15
+      ],
+      [
+        -59.843637076634415,
+        132.11443451095008,
+        40.29
+      ],
+      [
+        -62.34650647475528,
+        126.07197326515809,
+        40.01
+      ],
+      [
+        -62.34650647475528,
+        126.07197326515809,
+        40.15
+      ],
+      [
+        -62.34650647475528,
+        126.07197326515809,
+        40.29
+      ],
+      [
+        -64.03926402016153,
+        119.75451610080641,
+        40.01
+      ],
+      [
+        -64.03926402016153,
+        119.75451610080641,
+        40.15
+      ],
+      [
+        -64.03926402016153,
+        119.75451610080641,
+        40.29
+      ],
+      [
+        -64.89294616193018,
+        113.27015646150716,
+        40.01
+      ],
+      [
+        -64.89294616193018,
+        113.27015646150716,
+        40.15
+      ],
+      [
+        -64.89294616193018,
+        113.27015646150716,
+        40.29
+      ],
+      [
+        -64.89294616193018,
+        41.72984353849286,
+        40.01
+      ],
+      [
+        -64.89294616193018,
+        41.72984353849286,
+        40.15
+      ],
+      [
+        -64.89294616193018,
+        41.72984353849286,
+        40.29
+      ],
+      [
+        -64.03926402016153,
+        35.24548389919358,
+        40.01
+      ],
+      [
+        -64.03926402016153,
+        35.24548389919358,
+        40.15
+      ],
+      [
+        -64.03926402016153,
+        35.24548389919358,
+        40.29
+      ],
+      [
+        -62.34650647475529,
+        28.928026734841925,
+        40.01
+      ],
+      [
+        -62.34650647475529,
+        28.928026734841925,
+        40.15
+      ],
+      [
+        -62.34650647475529,
+        28.928026734841925,
+        40.29
+      ],
+      [
+        -59.843637076634415,
+        22.885565489049945,
+        40.01
+      ],
+      [
+        -59.843637076634415,
+        22.885565489049945,
+        40.15
+      ],
+      [
+        -59.843637076634415,
+        22.885565489049945,
+        40.29
+      ],
+      [
+        -56.57348061512726,
+        17.221488349019886,
+        40.01
+      ],
+      [
+        -56.57348061512726,
+        17.221488349019886,
+        40.15
+      ],
+      [
+        -56.57348061512726,
+        17.221488349019886,
+        40.29
+      ],
+      [
+        -52.591990373948875,
+        12.03270924499656,
+        40.01
+      ],
+      [
+        -52.591990373948875,
+        12.03270924499656,
+        40.15
+      ],
+      [
+        -52.591990373948875,
+        12.03270924499656,
+        40.29
+      ],
+      [
+        -47.967290755003454,
+        7.40800962605114,
+        40.01
+      ],
+      [
+        -47.967290755003454,
+        7.40800962605114,
+        40.15
+      ],
+      [
+        -47.967290755003454,
+        7.40800962605114,
+        40.29
+      ],
+      [
+        -42.77851165098011,
+        3.4265193848727407,
+        40.01
+      ],
+      [
+        -42.77851165098011,
+        3.4265193848727407,
+        40.15
+      ],
+      [
+        -42.77851165098011,
+        3.4265193848727407,
+        40.29
+      ],
+      [
+        -37.11443451095007,
+        0.15636292336558455,
+        40.01
+      ],
+      [
+        -37.11443451095007,
+        0.15636292336558455,
+        40.15
+      ],
+      [
+        -37.11443451095007,
+        0.15636292336558455,
+        40.29
+      ],
+      [
+        -31.07197326515809,
+        -2.34650647475528,
+        40.01
+      ],
+      [
+        -31.07197326515809,
+        -2.34650647475528,
+        40.15
+      ],
+      [
+        -31.07197326515809,
+        -2.34650647475528,
+        40.29
+      ],
+      [
+        -24.754516100806434,
+        -4.039264020161518,
+        40.01
+      ],
+      [
+        -24.754516100806434,
+        -4.039264020161518,
+        40.15
+      ],
+      [
+        -24.754516100806434,
+        -4.039264020161518,
+        40.29
+      ],
+      [
+        -18.270156461507135,
+        -4.892946161930176,
+        40.01
+      ],
+      [
+        -18.270156461507135,
+        -4.892946161930176,
+        40.15
+      ],
+      [
+        -18.270156461507135,
+        -4.892946161930176,
+        40.29
+      ],
+      [
+        -35,
+        168.7154552337742,
+        41.00839741687096
+      ],
+      [
+        -35,
+        168.0584662941312,
+        42.59450902528625
+      ],
+      [
+        -35,
+        166.84450902528624,
+        43.8084662941312
+      ],
+      [
+        -35,
+        165.25839741687096,
+        44.465455233774215
+      ],
+      [
+        -35,
+        163.54160258312905,
+        44.465455233774215
+      ],
+      [
+        -35,
+        161.95549097471377,
+        43.8084662941312
+      ],
+      [
+        -35,
+        160.74153370586882,
+        42.59450902528625
+      ],
+      [
+        -35,
+        160.0845447662258,
+        41.00839741687096
+      ],
+      [
+        -35,
+        165.25839741687096,
+        35.83454476622578
+      ],
+      [
+        -35,
+        166.84450902528624,
+        36.4915337058688
+      ],
+      [
+        -35,
+        168.0584662941312,
+        37.70549097471375
+      ],
+      [
+        -35,
+        168.7154552337742,
+        39.291602583129034
+      ],
+      [
+        -25,
+        168.7154552337742,
+        41.00839741687096
+      ],
+      [
+        -25,
+        168.0584662941312,
+        42.59450902528625
+      ],
+      [
+        -25,
+        166.84450902528624,
+        43.8084662941312
+      ],
+      [
+        -25,
+        165.25839741687096,
+        44.465455233774215
+      ],
+      [
+        -25,
+        163.54160258312905,
+        44.465455233774215
+      ],
+      [
+        -25,
+        161.95549097471377,
+        43.8084662941312
+      ],
+      [
+        -25,
+        160.74153370586882,
+        42.59450902528625
+      ],
+      [
+        -25,
+        160.0845447662258,
+        41.00839741687096
+      ],
+      [
+        -25,
+        165.25839741687096,
+        35.83454476622578
+      ],
+      [
+        -25,
+        166.84450902528624,
+        36.4915337058688
+      ],
+      [
+        -25,
+        168.0584662941312,
+        37.70549097471375
+      ],
+      [
+        -25,
+        168.7154552337742,
+        39.291602583129034
+      ],
+      [
+        -15,
+        168.7154552337742,
+        41.00839741687096
+      ],
+      [
+        -15,
+        168.0584662941312,
+        42.59450902528625
+      ],
+      [
+        -15,
+        166.84450902528624,
+        43.8084662941312
+      ],
+      [
+        -15,
+        165.25839741687096,
+        44.465455233774215
+      ],
+      [
+        -15,
+        163.54160258312905,
+        44.465455233774215
+      ],
+      [
+        -15,
+        161.95549097471377,
+        43.8084662941312
+      ],
+      [
+        -15,
+        160.74153370586882,
+        42.59450902528625
+      ],
+      [
+        -15,
+        160.0845447662258,
+        41.00839741687096
+      ],
+      [
+        -15,
+        165.25839741687096,
+        35.83454476622578
+      ],
+      [
+        -15,
+        166.84450902528624,
+        36.4915337058688
+      ],
+      [
+        -15,
+        168.0584662941312,
+        37.70549097471375
+      ],
+      [
+        -15,
+        168.7154552337742,
+        39.291602583129034
+      ],
+      [
+        15,
+        168.7154552337742,
+        41.00839741687096
+      ],
+      [
+        15,
+        168.0584662941312,
+        42.59450902528625
+      ],
+      [
+        15,
+        166.84450902528624,
+        43.8084662941312
+      ],
+      [
+        15,
+        165.25839741687096,
+        44.465455233774215
+      ],
+      [
+        15,
+        163.54160258312905,
+        44.465455233774215
+      ],
+      [
+        15,
+        161.95549097471377,
+        43.8084662941312
+      ],
+      [
+        15,
+        160.74153370586882,
+        42.59450902528625
+      ],
+      [
+        15,
+        160.0845447662258,
+        41.00839741687096
+      ],
+      [
+        15,
+        165.25839741687096,
+        35.83454476622578
+      ],
+      [
+        15,
+        166.84450902528624,
+        36.4915337058688
+      ],
+      [
+        15,
+        168.0584662941312,
+        37.70549097471375
+      ],
+      [
+        15,
+        168.7154552337742,
+        39.291602583129034
+      ],
+      [
+        25,
+        168.7154552337742,
+        41.00839741687096
+      ],
+      [
+        25,
+        168.0584662941312,
+        42.59450902528625
+      ],
+      [
+        25,
+        166.84450902528624,
+        43.8084662941312
+      ],
+      [
+        25,
+        165.25839741687096,
+        44.465455233774215
+      ],
+      [
+        25,
+        163.54160258312905,
+        44.465455233774215
+      ],
+      [
+        25,
+        161.95549097471377,
+        43.8084662941312
+      ],
+      [
+        25,
+        160.74153370586882,
+        42.59450902528625
+      ],
+      [
+        25,
+        160.0845447662258,
+        41.00839741687096
+      ],
+      [
+        25,
+        165.25839741687096,
+        35.83454476622578
+      ],
+      [
+        25,
+        166.84450902528624,
+        36.4915337058688
+      ],
+      [
+        25,
+        168.0584662941312,
+        37.70549097471375
+      ],
+      [
+        25,
+        168.7154552337742,
+        39.291602583129034
+      ],
+      [
+        35,
+        168.7154552337742,
+        41.00839741687096
+      ],
+      [
+        35,
+        168.0584662941312,
+        42.59450902528625
+      ],
+      [
+        35,
+        166.84450902528624,
+        43.8084662941312
+      ],
+      [
+        35,
+        165.25839741687096,
+        44.465455233774215
+      ],
+      [
+        35,
+        163.54160258312905,
+        44.465455233774215
+      ],
+      [
+        35,
+        161.95549097471377,
+        43.8084662941312
+      ],
+      [
+        35,
+        160.74153370586882,
+        42.59450902528625
+      ],
+      [
+        35,
+        160.0845447662258,
+        41.00839741687096
+      ],
+      [
+        35,
+        165.25839741687096,
+        35.83454476622578
+      ],
+      [
+        35,
+        166.84450902528624,
+        36.4915337058688
+      ],
+      [
+        35,
+        168.0584662941312,
+        37.70549097471375
+      ],
+      [
+        35,
+        168.7154552337742,
+        39.291602583129034
+      ],
+      [
+        -36.1,
+        165.87820725201806,
+        40.76229349178414
+      ],
+      [
+        -36.1,
+        165.01229349178416,
+        41.62820725201806
+      ],
+      [
+        -36.1,
+        163.78770650821585,
+        41.62820725201806
+      ],
+      [
+        -36.1,
+        162.92179274798195,
+        40.76229349178414
+      ],
+      [
+        -36.1,
+        162.92179274798195,
+        39.537706508215855
+      ],
+      [
+        -36.1,
+        163.78770650821585,
+        38.67179274798194
+      ],
+      [
+        -36.1,
+        165.01229349178416,
+        38.67179274798194
+      ],
+      [
+        -36.1,
+        165.87820725201806,
+        39.537706508215855
+      ],
+      [
+        36.1,
+        165.87820725201806,
+        40.76229349178414
+      ],
+      [
+        36.1,
+        165.01229349178416,
+        41.62820725201806
+      ],
+      [
+        36.1,
+        163.78770650821585,
+        41.62820725201806
+      ],
+      [
+        36.1,
+        162.92179274798195,
+        40.76229349178414
+      ],
+      [
+        36.1,
+        162.92179274798195,
+        39.537706508215855
+      ],
+      [
+        36.1,
+        163.78770650821585,
+        38.67179274798194
+      ],
+      [
+        36.1,
+        165.01229349178416,
+        38.67179274798194
+      ],
+      [
+        36.1,
+        165.87820725201806,
+        39.537706508215855
+      ]
+    ],
+    "exact_BRep_reference_and_regression_controls": {
+      "side_original_seam_control": {
+        "without_upstand_exact_clear": true,
+        "with_upstand_exact_blocked": true
+      },
+      "front_adversarial_controls": [
+        {
+          "interior_mm": [
+            -53.3,
+            25,
+            40.05
+          ],
+          "exterior_mm": [
+            27.96047948830287,
+            -15.630239744151435,
+            40.05
+          ],
+          "without_return_cheeks_exact_clear": true,
+          "with_returns_exact_blockers": [
+            {
+              "body": "UVSeamLowerShell",
+              "material_intersection_length_mm": 1.1180339887498931
+            }
+          ]
+        },
+        {
+          "interior_mm": [
+            -53.3,
+            25,
+            40.15
+          ],
+          "exterior_mm": [
+            27.96047948830287,
+            -15.630239744151435,
+            40.15
+          ],
+          "without_return_cheeks_exact_clear": true,
+          "with_returns_exact_blockers": [
+            {
+              "body": "UVSeamLowerShell",
+              "material_intersection_length_mm": 1.1180339887498931
+            }
+          ]
+        },
+        {
+          "interior_mm": [
+            -53.3,
+            25,
+            40.25
+          ],
+          "exterior_mm": [
+            27.96047948830287,
+            -15.630239744151435,
+            40.25
+          ],
+          "without_return_cheeks_exact_clear": true,
+          "with_returns_exact_blockers": [
+            {
+              "body": "UVSeamLowerShell",
+              "material_intersection_length_mm": 1.1180339887498931
+            }
+          ]
+        },
+        {
+          "interior_mm": [
+            53.3,
+            25,
+            40.05
+          ],
+          "exterior_mm": [
+            -27.96047948830287,
+            -15.630239744151435,
+            40.05
+          ],
+          "without_return_cheeks_exact_clear": true,
+          "with_returns_exact_blockers": [
+            {
+              "body": "UVSeamLowerShell",
+              "material_intersection_length_mm": 1.1180339887498931
+            }
+          ]
+        },
+        {
+          "interior_mm": [
+            53.3,
+            25,
+            40.15
+          ],
+          "exterior_mm": [
+            -27.96047948830287,
+            -15.630239744151435,
+            40.15
+          ],
+          "without_return_cheeks_exact_clear": true,
+          "with_returns_exact_blockers": [
+            {
+              "body": "UVSeamLowerShell",
+              "material_intersection_length_mm": 1.1180339887498931
+            }
+          ]
+        },
+        {
+          "interior_mm": [
+            53.3,
+            25,
+            40.25
+          ],
+          "exterior_mm": [
+            -27.96047948830287,
+            -15.630239744151435,
+            40.25
+          ],
+          "without_return_cheeks_exact_clear": true,
+          "with_returns_exact_blockers": [
+            {
+              "body": "UVSeamLowerShell",
+              "material_intersection_length_mm": 1.1180339887498931
+            }
+          ]
+        }
+      ],
+      "shallow_3D_regression_controls": [
+        {
+          "interior_mm": [
+            -53.3,
+            25,
+            39.679
+          ],
+          "exterior_mm": [
+            27.96047948830287,
+            -15.630239744151435,
+            40.31689476398318
+          ],
+          "exact_blockers": [
+            {
+              "body": "UVSeamLowerShell",
+              "material_intersection_length_mm": 1.1180615468300485
+            }
+          ],
+          "rejected_native_exact_clear": true,
+          "rejected_native_SHA256": "0d65e95c0294809596b06b1ceb081e70a796213703aa49d91b7b46abf65d8694"
+        },
+        {
+          "interior_mm": [
+            -53.3,
+            25,
+            39.67
+          ],
+          "exterior_mm": [
+            27.96047948830287,
+            -15.630239744151435,
+            40.32008383590642
+          ],
+          "exact_blockers": [
+            {
+              "body": "UVSeamLowerShell",
+              "material_intersection_length_mm": 1.1180626100536626
+            }
+          ],
+          "rejected_native_exact_clear": true,
+          "rejected_native_SHA256": "0d65e95c0294809596b06b1ceb081e70a796213703aa49d91b7b46abf65d8694"
+        },
+        {
+          "interior_mm": [
+            53.3,
+            25,
+            39.679
+          ],
+          "exterior_mm": [
+            -27.96047948830287,
+            -15.630239744151435,
+            40.31689476398318
+          ],
+          "exact_blockers": [
+            {
+              "body": "UVSeamLowerShell",
+              "material_intersection_length_mm": 1.1180615468300485
+            }
+          ],
+          "rejected_native_exact_clear": true,
+          "rejected_native_SHA256": "0d65e95c0294809596b06b1ceb081e70a796213703aa49d91b7b46abf65d8694"
+        },
+        {
+          "interior_mm": [
+            53.3,
+            25,
+            39.67
+          ],
+          "exterior_mm": [
+            -27.96047948830287,
+            -15.630239744151435,
+            40.32008383590642
+          ],
+          "exact_blockers": [
+            {
+              "body": "UVSeamLowerShell",
+              "material_intersection_length_mm": 1.1180626100536626
+            }
+          ],
+          "rejected_native_exact_clear": true,
+          "rejected_native_SHA256": "0d65e95c0294809596b06b1ceb081e70a796213703aa49d91b7b46abf65d8694"
+        }
+      ]
+    },
+    "exact_BRep_mesh_calibration_segments": [
+      {
+        "interior_mm": [
+          -35,
+          25,
+          14.5
+        ],
+        "exterior_mm": [
+          235.5471893696727,
+          -335.7295858262303,
+          321.24039114757113
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -35,
+          135,
+          40.15
+        ],
+        "exterior_mm": [
+          131.86804261204176,
+          -487.97402575162255,
+          40.15
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          0,
+          80,
+          55
+        ],
+        "exterior_mm": [
+          121.99087445265921,
+          -486.8350328020166,
+          -43.21950714978088
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          35,
+          80,
+          38
+        ],
+        "exterior_mm": [
+          358.72185347775894,
+          523.1725827255618,
+          60.406935831381155
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -10.0,
+          10,
+          42
+        ],
+        "exterior_mm": [
+          -74.00872579493364,
+          656.5690449057721,
+          33.97424423060846
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -58,
+          99.16666666666667,
+          40.15
+        ],
+        "exterior_mm": [
+          -111.06963813503472,
+          -462.5365520216405,
+          41.380240856187335
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          50,
+          77.5,
+          44.5
+        ],
+        "exterior_mm": [
+          -392.1834202383463,
+          510.53560094054893,
+          34.58733510079734
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          10.0,
+          2,
+          42
+        ],
+        "exterior_mm": [
+          30.806107866041934,
+          659.8248180720458,
+          37.87372193903429
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -10.0,
+          145,
+          42
+        ],
+        "exterior_mm": [
+          491.43077661448297,
+          372.0927478676257,
+          28.537437404870335
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          31.455387591698862,
+          5.273180102014668,
+          40.15
+        ],
+        "exterior_mm": [
+          289.35268739495524,
+          518.9222247854173,
+          41.2263463751789
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          42.76736691019323,
+          23.693349984694777,
+          40.15
+        ],
+        "exterior_mm": [
+          -200.37557498752864,
+          623.3600563577087,
+          39.53408479056014
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          57.63212903907384,
+          115.61262626546221,
+          38
+        ],
+        "exterior_mm": [
+          103.76072385280946,
+          -462.99596517115316,
+          53.47906812362726
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          42.76736691019323,
+          131.30665001530522,
+          38
+        ],
+        "exterior_mm": [
+          -246.94707867851844,
+          577.3514752439547,
+          74.83182009437485
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          28.393920132778142,
+          142.33578363789505,
+          44.5
+        ],
+        "exterior_mm": [
+          -541.7555999322865,
+          -35.30715843130045,
+          17.058073319723515
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -31.455387591698855,
+          149.72681989798534,
+          42
+        ],
+        "exterior_mm": [
+          24.210236894913624,
+          -503.0494379251095,
+          34.189639735292545
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -42.767366910193225,
+          131.30665001530522,
+          42
+        ],
+        "exterior_mm": [
+          282.50729688832206,
+          569.5238054228206,
+          10.273078896722069
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -57.63212903907385,
+          39.38737373453779,
+          40.15
+        ],
+        "exterior_mm": [
+          47.80543847172245,
+          658.7820362081875,
+          43.148251415791655
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -42.76736691019323,
+          23.693349984694777,
+          40.15
+        ],
+        "exterior_mm": [
+          -216.242488963081,
+          570.326124561156,
+          39.05761849982856
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -20.612626265462218,
+          2.3678709609261546,
+          38
+        ],
+        "exterior_mm": [
+          -365.8510416881355,
+          460.3443452560417,
+          54.72238140507946
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -35,
+          7,
+          40.25
+        ],
+        "exterior_mm": [
+          553.4874501162179,
+          72.68733190549575,
+          40.50705584025557
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -35,
+          25,
+          43.15
+        ],
+        "exterior_mm": [
+          279.8278499770362,
+          591.8545190883844,
+          29.44179503892819
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -15,
+          25,
+          40.15
+        ],
+        "exterior_mm": [
+          -252.93113396734185,
+          593.327203788299,
+          40.15
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          0,
+          25,
+          40.25
+        ],
+        "exterior_mm": [
+          -452.61846344988044,
+          -277.97346539969965,
+          40.73780855148563
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          15,
+          15,
+          43.15
+        ],
+        "exterior_mm": [
+          -112.89230051690545,
+          655.563070587569,
+          48.757886535812936
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          35,
+          15,
+          40.15
+        ],
+        "exterior_mm": [
+          35.0,
+          663.3307289799916,
+          58.98541168897506
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          53.3,
+          25,
+          42
+        ],
+        "exterior_mm": [
+          -455.72050174499554,
+          -226.16143178207017,
+          26.511711706772328
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -35,
+          135,
+          25
+        ],
+        "exterior_mm": [
+          151.95413032771293,
+          -480.8488999030543,
+          92.25949771084072
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          0,
+          80,
+          42
+        ],
+        "exterior_mm": [
+          323.54276003025944,
+          -409.6380961275694,
+          28.57730961398821
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          35,
+          80,
+          14.5
+        ],
+        "exterior_mm": [
+          177.837195100614,
+          591.259442697763,
+          222.76375961166136
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -10.0,
+          10,
+          38
+        ],
+        "exterior_mm": [
+          -180.95009170809263,
+          629.5165076303434,
+          48.31086765020078
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          10.0,
+          145,
+          44.5
+        ],
+        "exterior_mm": [
+          -242.00427177429012,
+          -453.1609436036865,
+          24.98038530817662
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          50,
+          77.5,
+          40.15
+        ],
+        "exterior_mm": [
+          -361.1377962987044,
+          530.2150365802371,
+          44.855594964277714
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          10.0,
+          2,
+          38
+        ],
+        "exterior_mm": [
+          70.74276889116656,
+          663.1178069223478,
+          29.23095021271238
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -10.0,
+          145,
+          38
+        ],
+        "exterior_mm": [
+          375.6049323670759,
+          -341.29066470736797,
+          49.77380393494138
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          19.56841672770181,
+          10.299429851916637,
+          44.5
+        ],
+        "exterior_mm": [
+          -75.38835834576363,
+          654.4364127319493,
+          25.180266947076976
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          49.11419363252311,
+          18.82325855262501,
+          42
+        ],
+        "exterior_mm": [
+          -292.5370687816935,
+          -382.051844364273,
+          6.968012661591857
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          49.70057014808336,
+          40.43158327229819,
+          42
+        ],
+        "exterior_mm": [
+          135.37187512347612,
+          620.6119494991425,
+          30.415414428511834
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          49.11419363252311,
+          136.176741447375,
+          40.15
+        ],
+        "exterior_mm": [
+          -525.7941164619958,
+          260.63370721368705,
+          39.216584205893746
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          28.393920132778142,
+          142.33578363789505,
+          40.15
+        ],
+        "exterior_mm": [
+          -356.9265123671977,
+          -379.28574777072447,
+          40.15
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -31.455387591698855,
+          149.72681989798534,
+          38
+        ],
+        "exterior_mm": [
+          -126.5458183158433,
+          659.1301918196211,
+          72.6494995239894
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -42.767366910193225,
+          131.30665001530522,
+          38
+        ],
+        "exterior_mm": [
+          462.4042084706804,
+          410.1704443010427,
+          60.426086946339076
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -49.70057014808336,
+          114.5684167277018,
+          44.5
+        ],
+        "exterior_mm": [
+          469.0554994835468,
+          412.15158281310903,
+          9.262263446066498
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -49.11419363252311,
+          18.82325855262501,
+          42
+        ],
+        "exterior_mm": [
+          -185.24015343843917,
+          568.0416296526593,
+          26.14729351375425
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -28.393920132778128,
+          12.664216362104964,
+          42
+        ],
+        "exterior_mm": [
+          -412.8774867515171,
+          409.18842202259424,
+          24.039407079293444
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -35,
+          7,
+          40.05
+        ],
+        "exterior_mm": [
+          407.3461159764172,
+          477.58568959165365,
+          39.872871931213496
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -35,
+          25,
+          40.4
+        ],
+        "exterior_mm": [
+          43.269807267205636,
+          656.0904745467193,
+          39.230386442540265
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          -15,
+          25,
+          39.8
+        ],
+        "exterior_mm": [
+          -538.9314912923929,
+          200.6819861020584,
+          44.945545622823204
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      },
+      {
+        "interior_mm": [
+          0,
+          25,
+          40.05
+        ],
+        "exterior_mm": [
+          -156.0010782216793,
+          650.1560350479049,
+          59.730450780238144
+        ],
+        "mesh_blocked": true,
+        "exact_BRep_blocked": true
+      }
+    ],
+    "optical_leakage_or_containment_qualified": false
+  },
+  "saved_closed_readback": {
+    "opening_degrees": 0.0,
+    "bodies": [
+      {
+        "body": "UVSeamLowerShell",
+        "exact_bounds_mm": [
+          -65.0000001,
+          -6.4,
+          -1e-07,
+          65.0000001,
+          168.6500001,
+          44.40000010000001
+        ],
+        "volume_mm3": 115535.40770706584
+      },
+      {
+        "body": "UVSeamLowerLiner",
+        "exact_bounds_mm": [
+          -61.70000000000002,
+          -1.700000000000017,
+          10.999999999999998,
+          61.70000000000002,
+          156.70000000000002,
+          37.0
+        ],
+        "volume_mm3": 54864.294369857336
+      },
+      {
+        "body": "UVSeamLowerRetainer",
+        "exact_bounds_mm": [
+          -15.5,
+          -2.062250033324451,
+          13.2,
+          15.5,
+          12.3,
+          40.0
+        ],
+        "volume_mm3": 2001.3059902939528
+      },
+      {
+        "body": "UVSeamLowerMagnet1",
+        "exact_bounds_mm": [
+          -7.1812499999999995,
+          -5.38125,
+          37.612500000000004,
+          -2.41875,
+          -0.6187500000000004,
+          39.2
+        ],
+        "volume_mm3": 28.279621514083967
+      },
+      {
+        "body": "UVSeamLowerMagnet2",
+        "exact_bounds_mm": [
+          2.41875,
+          -5.38125,
+          37.612500000000004,
+          7.1812499999999995,
+          -0.6187500000000004,
+          39.2
+        ],
+        "volume_mm3": 28.279621514083967
+      },
+      {
+        "body": "UVSeamLowerRetainerScrew",
+        "exact_bounds_mm": [
+          -1.9,
+          -1.7000000000000004,
+          32.9,
+          1.9,
+          6.300000000000001,
+          36.699999999999996
+        ],
+        "volume_mm3": 41.53185488045706
+      },
+      {
+        "body": "UVSeamHingePin",
+        "exact_bounds_mm": [
+          -38.00000000000001,
+          161.8,
+          37.55,
+          36.99999999999999,
+          167.0,
+          42.75000000000001
+        ],
+        "volume_mm3": 544.454028989645
+      },
+      {
+        "body": "UVSeamUpperShell",
+        "exact_bounds_mm": [
+          -66.34153207233057,
+          -7.800000100000001,
+          35.5,
+          66.34153207233057,
+          168.6500001,
+          68.00043328391817
+        ],
+        "volume_mm3": 95751.26651062058
+      },
+      {
+        "body": "UVSeamUpperLiner",
+        "exact_bounds_mm": [
+          -61.70000010000001,
+          -1.7000001000000189,
+          40.59999989999998,
+          61.70000010000001,
+          156.7000001,
+          57.5000001
+        ],
+        "volume_mm3": 45409.02369960658
+      },
+      {
+        "body": "UVSeamUpperRetainer",
+        "exact_bounds_mm": [
+          -12.0000001,
+          -2.062250033324451,
+          37.0,
+          12.0000001,
+          8.621301875147928,
+          51.5000001
+        ],
+        "volume_mm3": 884.6633152989896
+      },
+      {
+        "body": "UVSeamUpperMagnet1",
+        "exact_bounds_mm": [
+          -7.1812499999999995,
+          -5.38125,
+          41.1,
+          -2.41875,
+          -0.6187500000000004,
+          42.6875
+        ],
+        "volume_mm3": 28.279621514083967
+      },
+      {
+        "body": "UVSeamUpperMagnet2",
+        "exact_bounds_mm": [
+          2.41875,
+          -5.38125,
+          41.1,
+          7.1812499999999995,
+          -0.6187500000000004,
+          42.6875
+        ],
+        "volume_mm3": 28.279621514083967
+      },
+      {
+        "body": "UVSeamUpperRetainerScrew",
+        "exact_bounds_mm": [
+          -1.9,
+          -2.0000000000000004,
+          40.1,
+          1.9,
+          8.0,
+          43.9
+        ],
+        "volume_mm3": 47.81504018763665
+      }
+    ],
+    "cross_module_pairs": 42,
+    "overlap_findings": []
+  },
+  "saved_opening_readback": {
+    "opening_degrees": 2.0,
+    "bodies": [
+      {
+        "body": "UVSeamLowerShell",
+        "exact_bounds_mm": [
+          -65.0000001,
+          -6.4,
+          -1e-07,
+          65.0000001,
+          168.6500001,
+          44.40000010000001
+        ],
+        "volume_mm3": 115535.40770706584
+      },
+      {
+        "body": "UVSeamLowerLiner",
+        "exact_bounds_mm": [
+          -61.70000000000002,
+          -1.700000000000017,
+          10.999999999999998,
+          61.70000000000002,
+          156.70000000000002,
+          37.0
+        ],
+        "volume_mm3": 54864.294369857336
+      },
+      {
+        "body": "UVSeamLowerRetainer",
+        "exact_bounds_mm": [
+          -15.5,
+          -2.062250033324451,
+          13.2,
+          15.5,
+          12.3,
+          40.0
+        ],
+        "volume_mm3": 2001.3059902939528
+      },
+      {
+        "body": "UVSeamLowerMagnet1",
+        "exact_bounds_mm": [
+          -7.1812499999999995,
+          -5.38125,
+          37.612500000000004,
+          -2.41875,
+          -0.6187500000000004,
+          39.2
+        ],
+        "volume_mm3": 28.279621514083967
+      },
+      {
+        "body": "UVSeamLowerMagnet2",
+        "exact_bounds_mm": [
+          2.41875,
+          -5.38125,
+          37.612500000000004,
+          7.1812499999999995,
+          -0.6187500000000004,
+          39.2
+        ],
+        "volume_mm3": 28.279621514083967
+      },
+      {
+        "body": "UVSeamLowerRetainerScrew",
+        "exact_bounds_mm": [
+          -1.9,
+          -1.7000000000000004,
+          32.9,
+          1.9,
+          6.300000000000001,
+          36.699999999999996
+        ],
+        "volume_mm3": 41.53185488045706
+      },
+      {
+        "body": "UVSeamHingePin",
+        "exact_bounds_mm": [
+          -38.00000000000001,
+          161.8,
+          37.55,
+          36.99999999999999,
+          167.0,
+          42.75000000000001
+        ],
+        "volume_mm3": 544.454028989645
+      },
+      {
+        "body": "UVSeamUpperShell",
+        "exact_bounds_mm": [
+          -66.34153207233057,
+          -7.857383072354904,
+          35.8999999,
+          66.34153207233057,
+          168.6500001,
+          73.54601440686044
+        ],
+        "volume_mm3": 95751.26651062057
+      },
+      {
+        "body": "UVSeamUpperLiner",
+        "exact_bounds_mm": [
+          -61.70000010000001,
+          -1.5831116943556833,
+          40.86845189676784,
+          61.70000010000001,
+          156.72039550546913,
+          63.052410723159944
+        ],
+        "volume_mm3": 45409.02369960661
+      },
+      {
+        "body": "UVSeamUpperRetainer",
+        "exact_bounds_mm": [
+          -12.0000001,
+          -1.9224562818908564,
+          42.540469021576726,
+          12.0000001,
+          9.112307336680345,
+          56.99948314508983
+        ],
+        "volume_mm3": 884.6633152989893
+      },
+      {
+        "body": "UVSeamUpperMagnet1",
+        "exact_bounds_mm": [
+          -7.1812499999999995,
+          -5.2446693279684595,
+          46.858492607143944,
+          -2.41875,
+          -0.4296675632747964,
+          48.611234398082416
+        ],
+        "volume_mm3": 28.279621514083964
+      },
+      {
+        "body": "UVSeamUpperMagnet2",
+        "exact_bounds_mm": [
+          2.41875,
+          -5.2446693279684595,
+          46.858492607143944,
+          7.1812499999999995,
+          -0.4296675632747964,
+          48.611234398082416
+        ],
+        "volume_mm3": 28.279621514083956
+      },
+      {
+        "body": "UVSeamUpperRetainerScrew",
+        "exact_bounds_mm": [
+          -1.9,
+          -1.868969043780393,
+          45.55831174292017,
+          1.9,
+          8.226147766847818,
+          49.42579587899773
+        ],
+        "volume_mm3": 47.815040187636654
+      }
+    ],
+    "cross_module_pairs": 42,
+    "overlap_findings": []
+  },
+  "STEP_print_test_sectors": {
+    "side-lower-shell.step": {
+      "SHA256": "6a1c3b88e13a04bd23a061b38ffeac96d87507b0e6443106d938cd11d90c7757",
+      "clip_bounds_mm": [
+        -66,
+        65,
+        34,
+        -52,
+        90,
+        48
+      ],
+      "solid_count": 1,
+      "volume_mm3": 524.9999999999992,
+      "exact_bounds_mm": [
+        -65.0,
+        65.0,
+        34.0,
+        -62.000000000000014,
+        90.0,
+        43.0
+      ],
+      "STEP_volume_delta_mm3": 7.958078640513122e-13,
+      "relative_volume_tolerance": 2e-06,
+      "symmetric_BRep_difference_mm3": [
+        0.0,
+        0.0
+      ],
+      "bidirectional_edge_samples": 240,
+      "maximum_edge_distance_mm": 2.0097183471152322e-14,
+      "linear_exchange_tolerance_mm": 1e-05,
+      "source": "Exact final native shell cut; testonly. Includes native added/removed seam geometry."
+    },
+    "side-upper-shell.step": {
+      "SHA256": "60be102e1cf99088463314b49d9f58a3b4b6c8a6fd69bb0705cd8551a10554ae",
+      "clip_bounds_mm": [
+        -66,
+        65,
+        34,
+        -52,
+        90,
+        48
+      ],
+      "solid_count": 1,
+      "volume_mm3": 445.50197726856806,
+      "exact_bounds_mm": [
+        -66.0000001,
+        64.9999999,
+        40.29999989999998,
+        -62.91680179399445,
+        90.00000010000002,
+        48.0000001
+      ],
+      "STEP_volume_delta_mm3": 2.324344450244098e-08,
+      "relative_volume_tolerance": 2e-06,
+      "symmetric_BRep_difference_mm3": [
+        0.0,
+        0.0
+      ],
+      "bidirectional_edge_samples": 210,
+      "maximum_edge_distance_mm": 5.501821919818546e-12,
+      "linear_exchange_tolerance_mm": 1e-05,
+      "source": "Exact final native shell cut; testonly. Includes native added/removed seam geometry."
+    },
+    "front-lower-shell.step": {
+      "SHA256": "9adaf32db34672db3df242a66ff6884e64305f63e5b8225a75e87379b0437c4a",
+      "clip_bounds_mm": [
+        -16,
+        -9,
+        31,
+        16,
+        10,
+        55
+      ],
+      "solid_count": 1,
+      "volume_mm3": 1206.5311183177714,
+      "exact_bounds_mm": [
+        -16.0000001,
+        -6.4,
+        30.9999999,
+        16.0000001,
+        10.0,
+        43.0
+      ],
+      "STEP_volume_delta_mm3": -2.1373125491663814e-11,
+      "relative_volume_tolerance": 2e-06,
+      "symmetric_BRep_difference_mm3": [
+        0.0,
+        0.0
+      ],
+      "bidirectional_edge_samples": 1710,
+      "maximum_edge_distance_mm": 2.2382845123889482e-13,
+      "linear_exchange_tolerance_mm": 1e-05,
+      "source": "Exact final native shell cut; testonly. Includes native added/removed seam geometry."
+    },
+    "front-upper-shell.step": {
+      "SHA256": "456ac8ad11c4ecdefca333b0317b94358447f5b5a6e124e1f2054c24e6f0d958",
+      "clip_bounds_mm": [
+        -16,
+        -9,
+        31,
+        16,
+        10,
+        55
+      ],
+      "solid_count": 1,
+      "volume_mm3": 1831.6587989690195,
+      "exact_bounds_mm": [
+        -16.000000100000005,
+        -7.800000100000001,
+        35.5,
+        16.0000001,
+        0.4000000999999999,
+        55.00000010000003
+      ],
+      "STEP_volume_delta_mm3": -0.0002355478779918485,
+      "relative_volume_tolerance": 2e-06,
+      "symmetric_BRep_difference_mm3": [
+        0.0,
+        0.0
+      ],
+      "bidirectional_edge_samples": 1650,
+      "maximum_edge_distance_mm": 6.000000141171309e-07,
+      "linear_exchange_tolerance_mm": 1e-05,
+      "source": "Exact final native shell cut; testonly. Includes native added/removed seam geometry."
+    },
+    "hinge-lower-shell.step": {
+      "SHA256": "fd395504248909f30c32c4b9197b9db523c2c45a8ec1bb233699d787dfbeafc9",
+      "clip_bounds_mm": [
+        -40,
+        150,
+        33,
+        40,
+        171,
+        50
+      ],
+      "solid_count": 1,
+      "volume_mm3": 5375.066597633791,
+      "exact_bounds_mm": [
+        -40.00000010000001,
+        150.0,
+        32.9999999,
+        40.000000100000015,
+        168.6500001,
+        44.40000010000001
+      ],
+      "STEP_volume_delta_mm3": 7.187649043771671e-05,
+      "relative_volume_tolerance": 2e-06,
+      "symmetric_BRep_difference_mm3": [
+        0.0,
+        0.0
+      ],
+      "bidirectional_edge_samples": 1300,
+      "maximum_edge_distance_mm": 8.715141932286024e-12,
+      "linear_exchange_tolerance_mm": 1e-05,
+      "source": "Exact final native shell cut; testonly. Includes native added/removed seam geometry."
+    },
+    "hinge-upper-shell.step": {
+      "SHA256": "7f3719350feb766b0a6ca6f0a70212c29b335c882afb634d77a4f701be28ade9",
+      "clip_bounds_mm": [
+        -40,
+        150,
+        33,
+        40,
+        171,
+        50
+      ],
+      "solid_count": 1,
+      "volume_mm3": 3836.53357873563,
+      "exact_bounds_mm": [
+        -40.00000010000001,
+        150.7883567983823,
+        35.8999999,
+        40.000000100000015,
+        168.6500001,
+        50.00000010000001
+      ],
+      "STEP_volume_delta_mm3": -0.005423194937975495,
+      "relative_volume_tolerance": 2e-06,
+      "symmetric_BRep_difference_mm3": [
+        0.0,
+        0.0
+      ],
+      "bidirectional_edge_samples": 920,
+      "maximum_edge_distance_mm": 6.000000141171101e-07,
+      "linear_exchange_tolerance_mm": 1e-05,
+      "source": "Exact final native shell cut; testonly. Includes native added/removed seam geometry."
+    }
+  },
+  "full_product_or_optical_qualification": false
+}

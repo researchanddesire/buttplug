@@ -1,0 +1,165 @@
+{
+  "source_path": "/private/tmp/compass-jobs/full-shell-prefix/ShellFeaturePreflight.FCStd",
+  "source_SHA256": "baf8c64b9f422bf33e64f73f6ab47119032e7ed6c43057c4eb758378dd7dd49f",
+  "negative_original_collar_intersection_mm3": 0.2813155172324699,
+  "negative_original_bounds_mm": [
+    -48.0,
+    14.0,
+    13.3,
+    -47.203881753602325,
+    14.848880617794624,
+    14.300000000000004
+  ],
+  "relief_WH_R_centerXYZ_depth_mm": [
+    10.6,
+    10.6,
+    0.8,
+    -43,
+    19,
+    37.1,
+    24
+  ],
+  "remaining_outer_to_actual_relieved_inner_wire_mm": 1.3298306038668812,
+  "remaining_wall_nearest_points": [
+    [
+      [
+        -49.05304535664787,
+        13.042526665299686,
+        0.0
+      ],
+      [
+        -48.083349813390114,
+        13.952548636664662,
+        0.0
+      ]
+    ]
+  ],
+  "actual_collar_clearance_mm": 0.1999999999999993,
+  "collar_nearest_points": [
+    [
+      [
+        -47.5,
+        13.999999999999996,
+        13.3
+      ],
+      [
+        -47.5,
+        13.999999999999996,
+        13.100000000000001
+      ]
+    ],
+    [
+      [
+        -48.0,
+        14.499999999999996,
+        13.3
+      ],
+      [
+        -48.0,
+        14.499999999999996,
+        13.100000000000001
+      ]
+    ],
+    [
+      [
+        -47.203881753602325,
+        14.0,
+        13.3
+      ],
+      [
+        -47.203881753602325,
+        13.999999999999996,
+        13.100000000000001
+      ]
+    ],
+    [
+      [
+        -48.0,
+        14.848880617794624,
+        13.3
+      ],
+      [
+        -48.0,
+        14.848880617794624,
+        13.100000000000001
+      ]
+    ]
+  ],
+  "carrier_lift_checks": [
+    {
+      "Z_lift_mm": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 0.1,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 0.25,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 1,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 2,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 3,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 4,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 6,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 8,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 10,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 12,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 15,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 20,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 25,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 30,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 35,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_lift_mm": 40,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "BOP_check": "None",
+  "state": "Preserved negative clearance control for superseded13.1 relief bottom; not final geometry",
+  "reason_for_correction": "True minimum0.2mm at ledge, despite0.3 lateral profile offset. Parent authorized relief bottom13.0 at floor top, preserving all floor material below13.0."
+}

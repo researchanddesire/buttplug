@@ -1,0 +1,154 @@
+{
+  "status": "Selected parts and primary drawing reconstruction; no purchase or physical qualification",
+  "parts": [
+    {
+      "manufacturer": "JST",
+      "mpn": "SHR-10V-S",
+      "qty": 2,
+      "role": "body J6 and flange J7 wire housing without protrusions",
+      "dimensions_mm": {
+        "circuit_pitch": 1,
+        "circuits": 10,
+        "pin_span": 9,
+        "lip_width": 11,
+        "overall_axial_length": 5,
+        "lip_depth": 2.8,
+        "inserted_body_depth": 2.1
+      },
+      "material": "PBT, natural white",
+      "source": "https://www.jst.com/wp-content/uploads/2021/01/eSH-new.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "geometry": "native dimensioned stepped profile, separate channel pockets; undocumented internal details explicitly illustrative"
+    },
+    {
+      "manufacturer": "JST",
+      "mpn": "SSH-003T-P0.2-H",
+      "qty": 20,
+      "role": "one contact per end per conductor",
+      "wire_AWG": [
+        32,
+        28
+      ],
+      "insulation_OD_mm": [
+        0.4,
+        0.8
+      ],
+      "published_outline_mm": [
+        0.8,
+        3.9,
+        1.35
+      ],
+      "source": "https://www.jst.com/wp-content/uploads/2020/12/APSH.pdf",
+      "page": 1,
+      "geometry": "native formed-U section and barrel cuts; 0.10 mm wall and seated depth illustrative, no crimp-die or internal contact proof"
+    },
+    {
+      "manufacturer": "Accu-Glass",
+      "mpn": "100690",
+      "role": "ten numbered independent interboard conductors; existing selection retained",
+      "AWG": 28,
+      "construction": "7 x 0.005 inch silver-plated copper / Kapton Type-F",
+      "nominal_OD_mm": 0.508,
+      "design_incoming_OD_mm": [
+        0.4,
+        0.6
+      ],
+      "R_max_20C_ohm_per_m": 0.244,
+      "published_bend_radius_mm": 3.302,
+      "design_centerline_bend_radius_min_mm": 4.0,
+      "blank_length_mm": 120,
+      "blank_count": 10,
+      "blank_is_not_finished_length": true,
+      "source": "https://www.accuglassproducts.com/sites/default/files/catalog/kapton_insulated_uhv_wire.pdf",
+      "page": 2,
+      "limitations": "OD and bend basis have no published received tolerance. Verify insulation, controlled strip/crimp and pull test. Sealed-device ampacity not established by catalog test headlines."
+    }
+  ],
+  "pin_map": [
+    {
+      "pin": 1,
+      "body_J6": "GND",
+      "flange_J7": "GND",
+      "numeric_1_to_1": true
+    },
+    {
+      "pin": 2,
+      "body_J6": "VBUS_CHG",
+      "flange_J7": "VBUS_CHG",
+      "numeric_1_to_1": true
+    },
+    {
+      "pin": 3,
+      "body_J6": "3V3",
+      "flange_J7": "3V3",
+      "numeric_1_to_1": true
+    },
+    {
+      "pin": 4,
+      "body_J6": "PACK_P",
+      "flange_J7": "PACK_P",
+      "numeric_1_to_1": true
+    },
+    {
+      "pin": 5,
+      "body_J6": "MOTOR_ARM",
+      "flange_J7": "MOTOR_ARM",
+      "numeric_1_to_1": true
+    },
+    {
+      "pin": 6,
+      "body_J6": "MOTOR_PWM",
+      "flange_J7": "MOTOR_PWM",
+      "numeric_1_to_1": true
+    },
+    {
+      "pin": 7,
+      "body_J6": "DOCK_PRESENT_N",
+      "flange_J7": "DOCK_PRESENT_N",
+      "numeric_1_to_1": true
+    },
+    {
+      "pin": 8,
+      "body_J6": "I2C_SDA",
+      "flange_J7": "I2C_SDA",
+      "numeric_1_to_1": true
+    },
+    {
+      "pin": 9,
+      "body_J6": "I2C_SCL",
+      "flange_J7": "I2C_SCL",
+      "numeric_1_to_1": true
+    },
+    {
+      "pin": 10,
+      "body_J6": "TIP_EXC_EN",
+      "flange_J7": "TIP_EXC_EN",
+      "numeric_1_to_1": true
+    }
+  ],
+  "header_MPN": "SM10B-SRSS-TB(LF)(SN)",
+  "unchanged_header_positions": true,
+  "OEM_CAD_access": {
+    "url": "https://www.jst-mfg.com/product/index.php?doc=2&filename=SHR-10V-S.zip&series=231&type=10",
+    "observed": "JST requires company, contact details and email delivery; restrictive redistribution terms. No form submitted or contact made. Public catalog reconstruction used."
+  },
+  "sources": [
+    {
+      "path": "sources/eSH.pdf",
+      "sha256": "4ad9c1d0da1476a47d33d86e8b5af856a490b62561789df84492ba426fb73631"
+    },
+    {
+      "path": "sources/APSH.pdf",
+      "sha256": "d8ce22316bce13a1519c131587a6e94b367081610dccb6a2704f4efb5b814476"
+    }
+  ],
+  "qualification_pending": [
+    "received complete mating geometry and terminal seating",
+    "supplier controlled crimp dimensions/tooling/pull test and continuity",
+    "actual wire routing, strain relief and assembly sequence",
+    "tolerance, vibration, current and thermal qualification"
+  ]
+}

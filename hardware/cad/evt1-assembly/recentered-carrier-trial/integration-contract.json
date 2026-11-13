@@ -1,0 +1,182 @@
+{
+  "helper": "tools/build_evt1_dock_recentered_carrier.py",
+  "helper_SHA256": "f11d6f712b67ecc7922473bb45e00e385c1e0608a7b147e8330813a274f982fe",
+  "API": {
+    "build(doc,prefix)": "Returns App::Part; prefix defaults to Recentered. Child native Carrier/Retainer Bodies are exposed as part.Carrier/part.Retainer. Selected hardware sources are in separate hidden part.SelectedSources.",
+    "add_pin_board(doc,part,path=PIN_PCB,name)": "Owner must already be saved. Adds external unchanged PinPCB at translation(-6,18.7962,40.3), Rx-90. Default nameRecenteredPinBoard; caller may select canonical name. Source doc is not saved.",
+    "apply_lower_liner_relief(liner_body,prefix)": "Identity-placed native liner Body only. Adds RR10.6x10.6,R0.8 pocket centered(-43,19),Z13.0..37.1. Does not modify any other document."
+  },
+  "default_root": "RecenteredContactModule",
+  "Contact_prefix_root": "ContactContactModule",
+  "registry": [
+    {
+      "default_name": "RecenteredCarrier",
+      "Contact_prefix_name": "ContactCarrier",
+      "role": "native carrier Body"
+    },
+    {
+      "default_name": "RecenteredRetainer",
+      "Contact_prefix_name": "ContactRetainer",
+      "role": "native retainer Body"
+    },
+    {
+      "default_name": "RecenteredPogo0",
+      "Contact_prefix_name": "ContactPogo0",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredPogo1",
+      "Contact_prefix_name": "ContactPogo1",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredPogo2",
+      "Contact_prefix_name": "ContactPogo2",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredPogo3",
+      "Contact_prefix_name": "ContactPogo3",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredMagnet0",
+      "Contact_prefix_name": "ContactMagnet0",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredMagnetSpring0",
+      "Contact_prefix_name": "ContactMagnetSpring0",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredMagnet1",
+      "Contact_prefix_name": "ContactMagnet1",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredMagnetSpring1",
+      "Contact_prefix_name": "ContactMagnetSpring1",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredFootScrew0",
+      "Contact_prefix_name": "ContactFootScrew0",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredFootScrew1",
+      "Contact_prefix_name": "ContactFootScrew1",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredRetainerScrew0",
+      "Contact_prefix_name": "ContactRetainerScrew0",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredRetainerScrew1",
+      "Contact_prefix_name": "ContactRetainerScrew1",
+      "role": "selected hardware App::Link"
+    },
+    {
+      "default_name": "RecenteredPinBoard",
+      "Contact_prefix_name": "ContactPinBoard",
+      "role": "external unchanged PinPCB App::Link"
+    }
+  ],
+  "selected_source_group": "RecenteredSelectedSources / ContactSelectedSources",
+  "duplicate_installation_guard": "Install the complete module or its physical children once. If root creates canonical Carrier/Retainer instance links, keep the native Bodies under the hidden helper part so its scoped links remain valid; reparent only the other physical hardware links as needed. Do not duplicate old source hardware.",
+  "external_registry": {
+    "path": "hardware/cad/evt1-assembly/pcb/PinPCB.FCStd",
+    "SHA256": "b23b12cdc70600ad15efffc73ef2380cc70e242e8e4bf0bce5304f69d88a6a90",
+    "pose_translation_mm": [
+      -6,
+      18.7962,
+      40.3
+    ],
+    "Rx_deg": -90
+  },
+  "native_reference_frame": "Global physical dock frame, identity Body placements",
+  "mechanical_interfaces": {
+    "foot_centers_XY_mm": [
+      [
+        -43,
+        19
+      ],
+      [
+        -15,
+        19
+      ]
+    ],
+    "foot_envelope_mm": [
+      7,
+      7,
+      3
+    ],
+    "M3_screw_axes_XY_mm": [
+      [
+        -43,
+        19
+      ],
+      [
+        -15,
+        19
+      ]
+    ],
+    "retainer_M2_axes_XZ_mm": [
+      [
+        -41.5,
+        33
+      ],
+      [
+        -13.5,
+        33
+      ]
+    ],
+    "wire_hood_center_X_mm": -28,
+    "contact_axes_XZ_mm": [
+      [
+        -16,
+        42
+      ],
+      [
+        -10,
+        42
+      ],
+      [
+        -4,
+        42
+      ],
+      [
+        2,
+        42
+      ]
+    ],
+    "loaded_stop_Y_mm": 23.2,
+    "free_pin_tip_Y_mm": 23.8,
+    "compression_mm": 0.6,
+    "magnet_centers_XZ_mm": [
+      [
+        -14.5,
+        24
+      ],
+      [
+        3,
+        21.5
+      ]
+    ],
+    "magnet_Y_mm": [
+      19.2,
+      22.2
+    ],
+    "keeper_front_Y_mm": 24.9
+  },
+  "limitations": [
+    "Inherited selected visualization helix has explicit C0 BOP edge/face continuity finding.",
+    "Thin stop material/process, creep/strength, received tolerances, pin and magnet forces, sealing, installed wires and physical assembly remain open.",
+    "Collar geometry changed; prior floor/source-blocking rays are not transferred. Historical14 clear seam rays remain findings; no UV containment claim.",
+    "The carrier covers Power/Mode crowns while mated. No access holes are designed. Qualify off-dock battery-powered ROM entry then late USB mating; absent/flat-battery pre-mold J4 service also remains a release gate."
+  ],
+  "full_source_bound_checks": "native-checks.json must exist and match final Native/inputs before calling audit complete"
+}

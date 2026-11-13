@@ -1,0 +1,52 @@
+{
+  "status": "Selected native dimensional reconstructions; received hardware and process fastening unqualified",
+  "manufacturer": "Accu",
+  "source_checked_date": "2026-11-12",
+  "parts": [
+    {
+      "mpn": "SIK-M2-6-A2",
+      "diameter": 2.0,
+      "length": 6.0,
+      "head": 3.8,
+      "height": 1.2,
+      "pitch": 0.4,
+      "url": "https://www.accu.co.uk/phillips-countersunk-screws/65898-SIK-M2-6-A2",
+      "key": "M2x6",
+      "quantity": 4,
+      "material": "A2 stainless steel",
+      "standard": "DIN 965H / EN ISO 7046-2",
+      "countersunk_angle_deg": {
+        "min": 90,
+        "max": 92
+      },
+      "nominal_model_angle_deg": 90
+    },
+    {
+      "mpn": "SIK-M3-12-A2",
+      "diameter": 3.0,
+      "length": 12.0,
+      "head": 5.5,
+      "height": 1.65,
+      "pitch": 0.5,
+      "url": "https://www.accu.co.uk/phillips-countersunk-screws/65913-SIK-M3-12-A2",
+      "key": "M3x12",
+      "quantity": 2,
+      "material": "A2 stainless steel",
+      "standard": "DIN 965H / EN ISO 7046-2",
+      "countersunk_angle_deg": {
+        "min": 90,
+        "max": 92
+      },
+      "nominal_model_angle_deg": 90
+    }
+  ],
+  "model_basis": "Published maximum head diameter/height, nominal shaft major diameter and overall length; top head rim retained above90degreecone. Cosmetic threads, drive recesses, edge breaks and undimensioned radii omitted. Not supplierCAD.",
+  "native_builder": "tools/build_evt1_dock_fasteners.py",
+  "builder_sha256": "377b4b87bce38d76cd8bb0f4b39af8a21055f9737010b7c6f3010c2cbbc88c55",
+  "thread_fit": "Major-diameter shafts intentionally overlap tapped pilots; saved native checker restricts allowed intersections to those cylindrical engagement volumes.",
+  "stock_or_price_verified": false,
+  "supplier_acceptance": false,
+  "physical_validation": false,
+  "torque_and_tap_acceptance": false,
+  "full_product_order_ready": false
+}

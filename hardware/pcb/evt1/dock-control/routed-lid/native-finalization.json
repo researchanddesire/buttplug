@@ -1,0 +1,37 @@
+{
+  "reason": "Center only native-reported automatic track endpoints on same-net vias; submicrometre SES conversion correction. Authored local copper unchanged.",
+  "changes": [
+    {
+      "before": {
+        "kind": "track",
+        "net": "LCD_A0",
+        "layer": "In2.Cu",
+        "start": [
+          15.11,
+          103.8142
+        ],
+        "end": [
+          14.6356,
+          103.8142
+        ],
+        "width": 0.15
+      },
+      "after": {
+        "kind": "track",
+        "net": "LCD_A0",
+        "layer": "In2.Cu",
+        "start": [
+          15.1098,
+          103.8142
+        ],
+        "end": [
+          14.6356,
+          103.8142
+        ],
+        "width": 0.15
+      },
+      "delta_mm": 0.0002
+    }
+  ],
+  "board_sha256_after_alignment": "894161bc0b670881ea24fded32583840de99916fe65049eaf751af5cb12a6410"
+}

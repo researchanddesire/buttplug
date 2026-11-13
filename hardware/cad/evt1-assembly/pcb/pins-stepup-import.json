@@ -1,0 +1,561 @@
+{
+  "source_board_sha256": "3faea1fc2400a41d702ec16b7dd0f9865fa4372babbb825ed40c61603e8f49fa",
+  "stepup_file": "/home/cad/CompassEVT/workbench/kicadStepUpMod/kicadStepUptools.py",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "objects": [
+    {
+      "name": "PCB_Sketch_draft",
+      "label": "PCB_Sketch_draft",
+      "type": "Sketcher::SketchObject",
+      "visible": true,
+      "parents": [],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        100.0,
+        -110.0,
+        0.0,
+        128.0,
+        -100.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Local_CS_319a",
+      "label": "Local_CS_319a",
+      "type": "PartDesign::CoordinateSystem",
+      "visible": false,
+      "parents": [
+        "Board_319a"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "Pcb_319a",
+      "label": "Pcb_319a",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "Board_Geoms_319a"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -14.0,
+        -5.0,
+        -1.0,
+        14.0,
+        5.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Board_Geoms_319a",
+      "label": "Board_Geoms_319a",
+      "type": "App::Part",
+      "visible": true,
+      "parents": [
+        "Board_319a"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -14.0,
+        -5.0,
+        -1.0,
+        14.0,
+        5.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Origin",
+      "label": "Origin",
+      "type": "App::Origin",
+      "visible": false,
+      "parents": [
+        "Board_Geoms_319a"
+      ]
+    },
+    {
+      "name": "X_Axis",
+      "label": "X-axis",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Y_Axis",
+      "label": "Y-axis",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "Z_Axis",
+      "label": "Z-axis",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane",
+      "label": "XY-plane",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "XZ_Plane",
+      "label": "XZ-plane",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        -1e+100,
+        1e+100,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane",
+      "label": "YZ-plane",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "Origin001",
+      "label": "Origin001",
+      "type": "App::Point",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Board_319a",
+      "label": "pins-evt1",
+      "type": "App::Part",
+      "visible": true,
+      "parents": [],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -14.0,
+        -5.0,
+        -1.0,
+        14.0,
+        5.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Origin002",
+      "label": "Origin004",
+      "type": "App::Origin",
+      "visible": false,
+      "parents": [
+        "Board_319a"
+      ]
+    },
+    {
+      "name": "X_Axis001",
+      "label": "X-axis001",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Y_Axis001",
+      "label": "Y-axis001",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "Z_Axis001",
+      "label": "Z-axis001",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane001",
+      "label": "XY-plane001",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "XZ_Plane001",
+      "label": "XZ-plane001",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        -1e+100,
+        1e+100,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane001",
+      "label": "YZ-plane001",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "Origin003",
+      "label": "Origin003",
+      "type": "App::Point",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PCB_Sketch_319a",
+      "label": "PCB_Sketch_319a",
+      "type": "Sketcher::SketchObject",
+      "visible": false,
+      "parents": [
+        "Board_Geoms_319a"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -14.0,
+        -5.0,
+        0.0,
+        14.0,
+        5.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Step_Models_319a",
+      "label": "Step_Models_319a",
+      "type": "App::Part",
+      "visible": true,
+      "parents": [
+        "Board_319a"
+      ]
+    },
+    {
+      "name": "Origin004",
+      "label": "Origin007",
+      "type": "App::Origin",
+      "visible": false,
+      "parents": [
+        "Step_Models_319a"
+      ]
+    },
+    {
+      "name": "X_Axis002",
+      "label": "X-axis002",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Y_Axis002",
+      "label": "Y-axis002",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "Z_Axis002",
+      "label": "Z-axis002",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane002",
+      "label": "XY-plane002",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "XZ_Plane002",
+      "label": "XZ-plane002",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        -1e+100,
+        1e+100,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane002",
+      "label": "YZ-plane002",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "Origin005",
+      "label": "Origin006",
+      "type": "App::Point",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

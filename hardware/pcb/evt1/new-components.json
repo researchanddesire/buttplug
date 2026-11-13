@@ -1,0 +1,1100 @@
+[
+  {
+    "ref": "U71",
+    "value": "TPS3422EGDRYR",
+    "symbol": "TPS3422EGDRYR",
+    "sheet": "07-recovery",
+    "source": "https://www.ti.com/lit/ds/symlink/tps3422.pdf",
+    "footprint": "EVT1:Texas_USON-6_1x1.45mm_P0.5mm_SMD",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "3": {
+        "name": "PB1_N",
+        "net": "POWER_SWITCH_N"
+      },
+      "5": {
+        "name": "TS_7S5_LOW",
+        "net": "GND"
+      },
+      "6": {
+        "name": "TST",
+        "net": "GND"
+      },
+      "1": {
+        "name": "RST_N",
+        "net": "MCU_EN"
+      },
+      "4": {
+        "name": "VCC",
+        "net": "3V3"
+      },
+      "2": {
+        "name": "GND",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "C71",
+    "value": "100nF",
+    "symbol": "C",
+    "sheet": "07-recovery",
+    "source": "",
+    "footprint": "EVT1:C_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "3V3"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "R71",
+    "value": "10k",
+    "symbol": "R",
+    "sheet": "07-recovery",
+    "source": "",
+    "footprint": "EVT1:R_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "3V3"
+      },
+      "2": {
+        "name": "2",
+        "net": "POWER_SWITCH_N"
+      }
+    }
+  },
+  {
+    "ref": "D71",
+    "value": "BAT54WS-E3-08",
+    "symbol": "BAT54WS",
+    "sheet": "07-recovery",
+    "source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+    "footprint": "EVT1:D_SOD-323",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "2": {
+        "name": "A",
+        "net": "POWER_N"
+      },
+      "1": {
+        "name": "K",
+        "net": "POWER_SWITCH_N"
+      }
+    }
+  },
+  {
+    "ref": "D72",
+    "value": "BAT54WS-E3-08",
+    "symbol": "BAT54WS",
+    "sheet": "07-recovery",
+    "source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+    "footprint": "EVT1:D_SOD-323",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "2": {
+        "name": "A",
+        "net": "POWER_N"
+      },
+      "1": {
+        "name": "K",
+        "net": "DOCK_PRESENT_N"
+      }
+    }
+  },
+  {
+    "ref": "D73",
+    "value": "BAT54WS-E3-08",
+    "symbol": "BAT54WS",
+    "sheet": "07-recovery",
+    "source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+    "footprint": "EVT1:D_SOD-323",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "2": {
+        "name": "A",
+        "net": "BOOT_N"
+      },
+      "1": {
+        "name": "K",
+        "net": "MODE_N"
+      }
+    }
+  },
+  {
+    "ref": "J1",
+    "value": "FIXED CONTACT TARGETS GND DM DP 5V",
+    "symbol": "Conn4",
+    "sheet": "contact-fragment",
+    "source": "",
+    "footprint": "EVT1:Contact_Loom_4Land",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "Four separate wires. Fixed metal posts in device; moving pins and magnets in dock.",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "GND"
+      },
+      "2": {
+        "name": "2",
+        "net": "USB_DM_CONTACT"
+      },
+      "3": {
+        "name": "3",
+        "net": "USB_DP_CONTACT"
+      },
+      "4": {
+        "name": "4",
+        "net": "DOCK_5V"
+      }
+    }
+  },
+  {
+    "ref": "R75",
+    "value": "22R",
+    "symbol": "R",
+    "sheet": "contact-fragment",
+    "source": "",
+    "footprint": "EVT1:R_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "USB_DM_CONTACT"
+      },
+      "2": {
+        "name": "2",
+        "net": "USB_DM"
+      }
+    }
+  },
+  {
+    "ref": "R76",
+    "value": "22R",
+    "symbol": "R",
+    "sheet": "contact-fragment",
+    "source": "",
+    "footprint": "EVT1:R_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "USB_DP_CONTACT"
+      },
+      "2": {
+        "name": "2",
+        "net": "USB_DP"
+      }
+    }
+  },
+  {
+    "ref": "U75",
+    "value": "USBLC6-2SC6",
+    "symbol": "USBLC6_2SC6",
+    "sheet": "contact-fragment",
+    "source": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "footprint": "EVT1:SOT-23-6",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "IO1_IN",
+        "net": "USB_DM_CONTACT"
+      },
+      "2": {
+        "name": "GND",
+        "net": "GND"
+      },
+      "3": {
+        "name": "IO2_IN",
+        "net": "USB_DP_CONTACT"
+      },
+      "6": {
+        "name": "IO1_OUT",
+        "net": "USB_DM_CONTACT"
+      },
+      "5": {
+        "name": "VBUS",
+        "net": "DOCK_5V"
+      },
+      "4": {
+        "name": "IO2_OUT",
+        "net": "USB_DP_CONTACT"
+      }
+    }
+  },
+  {
+    "ref": "U7",
+    "value": "ADS1115IDGSR /0x48",
+    "symbol": "ADS1115IDGSR",
+    "sheet": "04-sensors",
+    "source": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+    "footprint": "EVT1:VSSOP-10_3x3mm_P0.5mm",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "ADDR",
+        "net": "GND"
+      },
+      "4": {
+        "name": "AIN0_NTC",
+        "net": "TIP_NTC"
+      },
+      "5": {
+        "name": "AIN1_EXC_HALF",
+        "net": "TIP_EXC_HALF"
+      },
+      "6": {
+        "name": "AIN2",
+        "net": "GND"
+      },
+      "7": {
+        "name": "AIN3",
+        "net": "GND"
+      },
+      "8": {
+        "name": "VDD",
+        "net": "3V3"
+      },
+      "3": {
+        "name": "GND",
+        "net": "GND"
+      },
+      "9": {
+        "name": "SDA",
+        "net": "I2C_SDA"
+      },
+      "10": {
+        "name": "SCL",
+        "net": "I2C_SCL"
+      },
+      "2": {
+        "name": "ALERT_RDY",
+        "net": null
+      }
+    }
+  },
+  {
+    "ref": "R61",
+    "value": "10k 0.1%",
+    "symbol": "R",
+    "sheet": "04-sensors",
+    "source": "",
+    "footprint": "EVT1:R_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TIP_EXC_EN"
+      },
+      "2": {
+        "name": "2",
+        "net": "TIP_NTC"
+      }
+    }
+  },
+  {
+    "ref": "C61",
+    "value": "100nF",
+    "symbol": "C",
+    "sheet": "04-sensors",
+    "source": "",
+    "footprint": "EVT1:C_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "3V3"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "C62",
+    "value": "10nF",
+    "symbol": "C",
+    "sheet": "04-sensors",
+    "source": "",
+    "footprint": "EVT1:C_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TIP_NTC"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "R62",
+    "value": "10k 0.1%",
+    "symbol": "R",
+    "sheet": "04-sensors",
+    "source": "",
+    "footprint": "EVT1:R_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TIP_EXC_EN"
+      },
+      "2": {
+        "name": "2",
+        "net": "TIP_EXC_HALF"
+      }
+    }
+  },
+  {
+    "ref": "R63",
+    "value": "10k 0.1%",
+    "symbol": "R",
+    "sheet": "04-sensors",
+    "source": "",
+    "footprint": "EVT1:R_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TIP_EXC_HALF"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "C63",
+    "value": "10nF",
+    "symbol": "C",
+    "sheet": "04-sensors",
+    "source": "",
+    "footprint": "EVT1:C_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TIP_EXC_HALF"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "J5",
+    "value": "TIP NTC / GND",
+    "symbol": "Conn2",
+    "sheet": "04-sensors",
+    "source": "",
+    "footprint": "EVT1:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TIP_NTC"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "J81",
+    "value": "FIXED FLANGE SENSOR LOOM",
+    "symbol": "Conn4",
+    "sheet": "04-sensors",
+    "source": "",
+    "footprint": "EVT1:Contact_Loom_4Land",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "3V3"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      },
+      "3": {
+        "name": "3",
+        "net": "I2C_SDA"
+      },
+      "4": {
+        "name": "4",
+        "net": "I2C_SCL"
+      }
+    }
+  },
+  {
+    "ref": "TH101",
+    "value": "B57540G1103F000 / 10k 1% / curve8307",
+    "symbol": "NTC_TDK",
+    "sheet": "external-04-sensors",
+    "source": "https://www.tdk-electronics.tdk.com/inf/50/db/ntc_09/Glass_enc_Sensors__B57540__G540__G1540.pdf",
+    "footprint": "",
+    "assembly_domain": "REMOTE_TIP",
+    "on_main_board": false,
+    "note": "Glass bead in cap thermal pocket, two insulated leads to body J5.",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "TIP_NTC"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "U81",
+    "value": "LSM303AGRTR",
+    "symbol": "LSM303AGRTR",
+    "sheet": "sensor-evt1",
+    "source": "https://www.st.com/resource/en/datasheet/lsm303agr.pdf",
+    "footprint": "EVT1:LGA-12_2x2mm_P0.5mm",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "SCL",
+        "net": "I2C_SCL"
+      },
+      "4": {
+        "name": "SDA",
+        "net": "I2C_SDA"
+      },
+      "2": {
+        "name": "CS_XL",
+        "net": "3V3"
+      },
+      "3": {
+        "name": "CS_MAG",
+        "net": "3V3"
+      },
+      "5": {
+        "name": "C1",
+        "net": "MAG_C1"
+      },
+      "7": {
+        "name": "INT_MAG",
+        "net": null
+      },
+      "9": {
+        "name": "VDD",
+        "net": "3V3"
+      },
+      "10": {
+        "name": "VDDIO",
+        "net": "3V3"
+      },
+      "6": {
+        "name": "GND",
+        "net": "GND"
+      },
+      "8": {
+        "name": "GND",
+        "net": "GND"
+      },
+      "11": {
+        "name": "INT2_XL",
+        "net": null
+      },
+      "12": {
+        "name": "INT1_XL",
+        "net": null
+      }
+    }
+  },
+  {
+    "ref": "C81",
+    "value": "220nF",
+    "symbol": "C",
+    "sheet": "sensor-evt1",
+    "source": "",
+    "footprint": "EVT1:C_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "MAG_C1"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "C82",
+    "value": "100nF",
+    "symbol": "C",
+    "sheet": "sensor-evt1",
+    "source": "",
+    "footprint": "EVT1:C_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "3V3"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "C83",
+    "value": "22uF 10V / Ceff>=10uF at3V3",
+    "symbol": "C",
+    "sheet": "sensor-evt1",
+    "source": "",
+    "footprint": "EVT1:C_0805_2012Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "MLCC candidate: qualify >=10uF effective at3V3/temp versus ST p35 bulk recommendation before layout release.",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "3V3"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "J82",
+    "value": "TO BODY J81 / FIXED IN FLANGE",
+    "symbol": "Conn4",
+    "sheet": "sensor-evt1",
+    "source": "",
+    "footprint": "EVT1:Sensor_Loom_4Land",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "3V3"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      },
+      "3": {
+        "name": "3",
+        "net": "I2C_SDA"
+      },
+      "4": {
+        "name": "4",
+        "net": "I2C_SCL"
+      }
+    }
+  },
+  {
+    "ref": "J91",
+    "value": "USB4105-GF-A-120",
+    "symbol": "USB4105",
+    "sheet": "dock-evt1",
+    "source": "https://gct.co/files/drawings/usb4105.pdf",
+    "footprint": "EVT1:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "A1": {
+        "name": "GND",
+        "net": "GND"
+      },
+      "A4": {
+        "name": "VBUS",
+        "net": "HOST_5V"
+      },
+      "A5": {
+        "name": "CC1",
+        "net": "CC1"
+      },
+      "A6": {
+        "name": "DP",
+        "net": "DOCK_DP"
+      },
+      "A7": {
+        "name": "DM",
+        "net": "DOCK_DM"
+      },
+      "A8": {
+        "name": "SBU1",
+        "net": null
+      },
+      "A9": {
+        "name": "VBUS",
+        "net": "HOST_5V"
+      },
+      "A12": {
+        "name": "GND",
+        "net": "GND"
+      },
+      "B1": {
+        "name": "GND",
+        "net": "GND"
+      },
+      "B4": {
+        "name": "VBUS",
+        "net": "HOST_5V"
+      },
+      "B5": {
+        "name": "CC2",
+        "net": "CC2"
+      },
+      "B6": {
+        "name": "DP",
+        "net": "DOCK_DP"
+      },
+      "B7": {
+        "name": "DM",
+        "net": "DOCK_DM"
+      },
+      "B8": {
+        "name": "SBU2",
+        "net": null
+      },
+      "B9": {
+        "name": "VBUS",
+        "net": "HOST_5V"
+      },
+      "B12": {
+        "name": "GND",
+        "net": "GND"
+      },
+      "S1": {
+        "name": "SHIELD",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "U92",
+    "value": "TPS2553DBVR",
+    "symbol": "TPS2553DBVR",
+    "sheet": "dock-evt1",
+    "source": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+    "footprint": "EVT1:SOT-23-6",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "IN",
+        "net": "HOST_5V"
+      },
+      "3": {
+        "name": "EN",
+        "net": "HOST_5V"
+      },
+      "5": {
+        "name": "ILIM",
+        "net": "DOCK_ILIM"
+      },
+      "6": {
+        "name": "OUT",
+        "net": "DOCK_5V"
+      },
+      "2": {
+        "name": "GND",
+        "net": "GND"
+      },
+      "4": {
+        "name": "FAULT_N",
+        "net": "DOCK_FAULT_N"
+      }
+    }
+  },
+  {
+    "ref": "U91",
+    "value": "USBLC6-2SC6",
+    "symbol": "USBLC6_2SC6",
+    "sheet": "dock-evt1",
+    "source": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "footprint": "EVT1:SOT-23-6",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "IO1_IN",
+        "net": "DOCK_DM"
+      },
+      "2": {
+        "name": "GND",
+        "net": "GND"
+      },
+      "3": {
+        "name": "IO2_IN",
+        "net": "DOCK_DP"
+      },
+      "6": {
+        "name": "IO1_OUT",
+        "net": "DOCK_DM"
+      },
+      "5": {
+        "name": "VBUS",
+        "net": "HOST_5V"
+      },
+      "4": {
+        "name": "IO2_OUT",
+        "net": "DOCK_DP"
+      }
+    }
+  },
+  {
+    "ref": "R91",
+    "value": "5.1k 1%",
+    "symbol": "R",
+    "sheet": "dock-evt1",
+    "source": "",
+    "footprint": "EVT1:R_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "CC1"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "R92",
+    "value": "5.1k 1%",
+    "symbol": "R",
+    "sheet": "dock-evt1",
+    "source": "",
+    "footprint": "EVT1:R_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "CC2"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "R93",
+    "value": "210k 1%",
+    "symbol": "R",
+    "sheet": "dock-evt1",
+    "source": "",
+    "footprint": "EVT1:R_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DOCK_ILIM"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "R94",
+    "value": "100k",
+    "symbol": "R",
+    "sheet": "dock-evt1",
+    "source": "",
+    "footprint": "EVT1:R_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "HOST_5V"
+      },
+      "2": {
+        "name": "2",
+        "net": "DOCK_FAULT_N"
+      }
+    }
+  },
+  {
+    "ref": "C91",
+    "value": "1uF 10V",
+    "symbol": "C",
+    "sheet": "dock-evt1",
+    "source": "",
+    "footprint": "EVT1:C_0603_1608Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "HOST_5V"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "C92",
+    "value": "100nF",
+    "symbol": "C",
+    "sheet": "dock-evt1",
+    "source": "",
+    "footprint": "EVT1:C_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DOCK_5V"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "J93",
+    "value": "TO PIN BOARD J94",
+    "symbol": "Conn4",
+    "sheet": "dock-evt1",
+    "source": "",
+    "footprint": "EVT1:Contact_Loom_4Land",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "GND"
+      },
+      "2": {
+        "name": "2",
+        "net": "DOCK_DM"
+      },
+      "3": {
+        "name": "3",
+        "net": "DOCK_DP"
+      },
+      "4": {
+        "name": "4",
+        "net": "DOCK_5V"
+      }
+    }
+  },
+  {
+    "ref": "TP91",
+    "value": "FAULT TEST",
+    "symbol": "Conn1",
+    "sheet": "dock-evt1",
+    "source": "",
+    "footprint": "EVT1:TestPoint_Pad_D1.0mm",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "DOCK_FAULT_N"
+      }
+    }
+  },
+  {
+    "ref": "P91",
+    "value": "0906-2-15-20-75-14-11-0",
+    "symbol": "Pogo0906",
+    "sheet": "pins-evt1",
+    "source": "https://www.mill-max.com/products/spring-loaded/0906",
+    "footprint": "EVT1:MillMax_0906_2",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "CONTACT",
+        "net": "GND"
+      }
+    }
+  },
+  {
+    "ref": "P92",
+    "value": "0906-2-15-20-75-14-11-0",
+    "symbol": "Pogo0906",
+    "sheet": "pins-evt1",
+    "source": "https://www.mill-max.com/products/spring-loaded/0906",
+    "footprint": "EVT1:MillMax_0906_2",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "CONTACT",
+        "net": "DOCK_DM"
+      }
+    }
+  },
+  {
+    "ref": "P93",
+    "value": "0906-2-15-20-75-14-11-0",
+    "symbol": "Pogo0906",
+    "sheet": "pins-evt1",
+    "source": "https://www.mill-max.com/products/spring-loaded/0906",
+    "footprint": "EVT1:MillMax_0906_2",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "CONTACT",
+        "net": "DOCK_DP"
+      }
+    }
+  },
+  {
+    "ref": "P94",
+    "value": "0906-2-15-20-75-14-11-0",
+    "symbol": "Pogo0906",
+    "sheet": "pins-evt1",
+    "source": "https://www.mill-max.com/products/spring-loaded/0906",
+    "footprint": "EVT1:MillMax_0906_2",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "CONTACT",
+        "net": "DOCK_5V"
+      }
+    }
+  },
+  {
+    "ref": "J94",
+    "value": "TO USB BOARD J93",
+    "symbol": "Conn4",
+    "sheet": "pins-evt1",
+    "source": "",
+    "footprint": "EVT1:Contact_Loom_4Land",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "GND"
+      },
+      "2": {
+        "name": "2",
+        "net": "DOCK_DM"
+      },
+      "3": {
+        "name": "3",
+        "net": "DOCK_DP"
+      },
+      "4": {
+        "name": "4",
+        "net": "DOCK_5V"
+      }
+    }
+  },
+  {
+    "ref": "C84",
+    "value": "100nF / VDDIO local",
+    "symbol": "C",
+    "sheet": "c84-fragment",
+    "source": "",
+    "footprint": "EVT1:C_0402_1005Metric",
+    "assembly_domain": "MAIN_T",
+    "on_main_board": true,
+    "note": "",
+    "pins": {
+      "1": {
+        "name": "1",
+        "net": "3V3"
+      },
+      "2": {
+        "name": "2",
+        "net": "GND"
+      }
+    }
+  }
+]

@@ -1,0 +1,412 @@
+{
+  "complete": true,
+  "physical_validation": false,
+  "sources_sha256": {
+    "legacy.FCStd": "bfcd28555a96ceb1ad077c3d403a0d44bcef9efba0fb2f553eb315c89c14e152",
+    "single-flange.FCStd": "e2430ff72e0b36d9a079791ec246fe2c94ea94c3a07bae22ed7cae8e10cc2884"
+  },
+  "geometry_copy_sha256": {
+    "legacy-geometry.FCStd": "f2c49a2e0268411cd4b85ecbb1514f293111f3a95367355b5f0ca97c79554455",
+    "single-flange-geometry.FCStd": "e4a12eddb57295cae13dd1ed91d96a920b778bcbd9f6b2beee7bce8675ce6b61"
+  },
+  "legacy_bounds_mm": {
+    "MoldHalfA": [
+      -58.0,
+      -37.0,
+      -28.0,
+      58.0,
+      13.0000001,
+      1e-07
+    ],
+    "MoldHalfB": [
+      -58.0,
+      -37.0,
+      -1.000000009184851e-07,
+      58.0,
+      13.0000001,
+      28.0
+    ],
+    "TrialContinuousSkin": [
+      -45.0,
+      -26.849999999999998,
+      -19.0,
+      45.0,
+      -2.9999999999999996,
+      19.0
+    ],
+    "ClosedAssemblyDummy": [
+      -44.0000001,
+      -24.5,
+      -16.0000001,
+      44.0000001,
+      22.000000100000005,
+      16.0000001
+    ]
+  },
+  "candidate_bounds_mm": {
+    "ProposedFlangeTray": [
+      -44.0000001,
+      -25.952,
+      -16.0000001,
+      44.0000001,
+      -7.9999999,
+      16.0000001
+    ],
+    "ProposedRearHalf": [
+      -44.0,
+      -28.700000000000003,
+      -16.0,
+      44.0,
+      -22.89999999999999,
+      16.0
+    ],
+    "RevisedContinuousSkin": [
+      -45.0000001,
+      -30.049999999999997,
+      -19.0,
+      45.0000001,
+      -2.9999999,
+      19.0
+    ],
+    "PermanentSixOpeningDiaphragm": [
+      -20.7,
+      -29.492,
+      -3.1500000000000004,
+      4.7,
+      -26.951999999999988,
+      12.65
+    ],
+    "ContactMoldingFaceMask": [
+      -19.5,
+      -32.0,
+      6.8,
+      5.5,
+      -30.0,
+      13.2
+    ],
+    "Contact_GND": [
+      -17.5875,
+      -30.0,
+      8.4125,
+      -14.4125,
+      -24.158,
+      11.5875
+    ],
+    "Contact_USB_DM_CONTACT": [
+      -11.5875,
+      -30.0,
+      8.4125,
+      -8.4125,
+      -24.158,
+      11.5875
+    ],
+    "Contact_USB_DP_CONTACT": [
+      -5.5875,
+      -30.0,
+      8.4125,
+      -2.4125,
+      -24.158,
+      11.5875
+    ],
+    "Contact_DOCK_5V": [
+      0.4125000000000001,
+      -30.0,
+      8.4125,
+      3.5875,
+      -24.158,
+      11.5875
+    ],
+    "IntegralSiliconeBoss0": [
+      -19.5,
+      -29.8,
+      -2.5,
+      -14.5,
+      -29.25,
+      2.5
+    ],
+    "IntegralSiliconeBoss1": [
+      -11.5,
+      -29.8,
+      -2.5,
+      -6.5,
+      -29.25,
+      2.5
+    ]
+  },
+  "legacy_tool_vs_candidate": [
+    {
+      "tool": "MoldHalfA",
+      "part": "ProposedFlangeTray",
+      "volume_mm3": 0
+    },
+    {
+      "tool": "MoldHalfA",
+      "part": "ProposedRearHalf",
+      "volume_mm3": 2126.5853361672325,
+      "bounds_mm": [
+        -44.0,
+        -28.700000000000003,
+        -16.0,
+        44.0,
+        -26.499999999999996,
+        2.177999999999999e-15
+      ]
+    },
+    {
+      "tool": "MoldHalfA",
+      "part": "RevisedContinuousSkin",
+      "volume_mm3": 2331.952591919111,
+      "bounds_mm": [
+        -45.0,
+        -30.05,
+        -19.0,
+        45.0,
+        -25.499999999999996,
+        1.8480000000000004e-15
+      ]
+    },
+    {
+      "tool": "MoldHalfA",
+      "part": "PermanentSixOpeningDiaphragm",
+      "volume_mm3": 33.34903887754046,
+      "bounds_mm": [
+        -20.700000000000003,
+        -29.250000000000007,
+        -3.1500000000000004,
+        4.700000000000003,
+        -26.951999999999988,
+        2.232560000000003e-15
+      ]
+    },
+    {
+      "tool": "MoldHalfA",
+      "part": "ContactMoldingFaceMask",
+      "volume_mm3": 0
+    },
+    {
+      "tool": "MoldHalfA",
+      "part": "Contact_GND",
+      "volume_mm3": 0
+    },
+    {
+      "tool": "MoldHalfA",
+      "part": "Contact_USB_DM_CONTACT",
+      "volume_mm3": 0
+    },
+    {
+      "tool": "MoldHalfA",
+      "part": "Contact_USB_DP_CONTACT",
+      "volume_mm3": 0
+    },
+    {
+      "tool": "MoldHalfA",
+      "part": "Contact_DOCK_5V",
+      "volume_mm3": 0
+    },
+    {
+      "tool": "MoldHalfA",
+      "part": "IntegralSiliconeBoss0",
+      "volume_mm3": 5.3996123733574635,
+      "bounds_mm": [
+        -19.5,
+        -29.8,
+        -2.5,
+        -14.5,
+        -29.25,
+        1.5308084989341916e-16
+      ]
+    },
+    {
+      "tool": "MoldHalfA",
+      "part": "IntegralSiliconeBoss1",
+      "volume_mm3": 5.3996123733574635,
+      "bounds_mm": [
+        -11.5,
+        -29.8,
+        -2.5,
+        -6.5,
+        -29.25,
+        1.5308084989341916e-16
+      ]
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "ProposedFlangeTray",
+      "volume_mm3": 0
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "ProposedRearHalf",
+      "volume_mm3": 2178.297341859547,
+      "bounds_mm": [
+        -44.0,
+        -28.700000000000003,
+        0.0,
+        44.0,
+        -26.499999999999996,
+        16.0
+      ]
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "RevisedContinuousSkin",
+      "volume_mm3": 2316.144568925145,
+      "bounds_mm": [
+        -45.0,
+        -30.05,
+        -4.592425496802574e-16,
+        45.0000001,
+        -25.499999999999996,
+        19.0
+      ]
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "PermanentSixOpeningDiaphragm",
+      "volume_mm3": 141.4015751820715,
+      "bounds_mm": [
+        -20.700000000000003,
+        -29.492,
+        0.0,
+        4.700000000000003,
+        -26.951999999999988,
+        12.65
+      ]
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "ContactMoldingFaceMask",
+      "volume_mm3": 245.7900866452987,
+      "bounds_mm": [
+        -19.5,
+        -32.0,
+        6.8,
+        5.5,
+        -30.0,
+        13.2
+      ]
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "Contact_GND",
+      "volume_mm3": 10.96316451709599,
+      "bounds_mm": [
+        -17.5875,
+        -30.0,
+        8.4125,
+        -14.4125,
+        -26.499999999999996,
+        11.5875
+      ]
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "Contact_USB_DM_CONTACT",
+      "volume_mm3": 10.96316451709599,
+      "bounds_mm": [
+        -11.5875,
+        -30.0,
+        8.4125,
+        -8.4125,
+        -26.499999999999996,
+        11.5875
+      ]
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "Contact_USB_DP_CONTACT",
+      "volume_mm3": 10.96316451709599,
+      "bounds_mm": [
+        -5.5875,
+        -30.0,
+        8.4125,
+        -2.4125,
+        -26.499999999999996,
+        11.5875
+      ]
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "Contact_DOCK_5V",
+      "volume_mm3": 10.96316451709599,
+      "bounds_mm": [
+        0.4125000000000001,
+        -30.0,
+        8.4125,
+        3.5875,
+        -26.499999999999996,
+        11.5875
+      ]
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "IntegralSiliconeBoss0",
+      "volume_mm3": 5.399612373357466,
+      "bounds_mm": [
+        -19.5,
+        -29.8,
+        -4.592425496802574e-16,
+        -14.5,
+        -29.25,
+        2.5
+      ]
+    },
+    {
+      "tool": "MoldHalfB",
+      "part": "IntegralSiliconeBoss1",
+      "volume_mm3": 5.399612373357464,
+      "bounds_mm": [
+        -11.5,
+        -29.8,
+        -4.592425496802574e-16,
+        -6.5,
+        -29.25,
+        2.5
+      ]
+    }
+  ],
+  "current_mask_vs_skin": [
+    {
+      "part": "RevisedContinuousSkin",
+      "volume_mm3": 0
+    },
+    {
+      "part": "IntegralSiliconeBoss0",
+      "volume_mm3": 0
+    },
+    {
+      "part": "IntegralSiliconeBoss1",
+      "volume_mm3": 0
+    }
+  ],
+  "mask_opening_study": [
+    {
+      "travel_mm": 0,
+      "common_mm3": 245.7900866452987
+    },
+    {
+      "travel_mm": 1,
+      "common_mm3": 245.7900866452987
+    },
+    {
+      "travel_mm": 3,
+      "common_mm3": 245.7900866452986
+    },
+    {
+      "travel_mm": 5,
+      "common_mm3": 245.7900866452986
+    },
+    {
+      "travel_mm": 7,
+      "common_mm3": 0
+    },
+    {
+      "travel_mm": 8,
+      "common_mm3": 0
+    },
+    {
+      "travel_mm": 10,
+      "common_mm3": 0
+    }
+  ]
+}

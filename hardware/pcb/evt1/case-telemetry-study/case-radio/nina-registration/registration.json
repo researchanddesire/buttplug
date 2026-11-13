@@ -1,0 +1,877 @@
+{
+  "pass": true,
+  "scope": "OEM package and native land registration with a temporary one-footprint PCB",
+  "model": "NINA-B112 OEM library solid, checked against NINA-B112-05B-00 family drawing",
+  "tools": {
+    "KiCad": "10.0.8",
+    "PythonOCC": "7.8.1.1"
+  },
+  "source_sha256": {
+    "vendor/nina/NINA-B112-OEM.stp": "78e4f1c18a36a8155a9f61f7df46bbc43a8965719e24700cf944e77f6c59e882",
+    "case-radio/Radio.pretty/NINA-B112_OEM.kicad_mod": "889626a74db6572a644bdfb97c6faf3b64a3f0c52e06f0eb72d6575ce7804d95",
+    "vendor/nina/extraction.json": "da6eb0a525737b393faf7797e16f47a7fb7919269c05509f5e6c71874d1da97a",
+    "case-radio/nina-registration/check_registration.py": "0948897a4bc20d287a634cef1794943275018178639fed45c7fcc2837c309524"
+  },
+  "OEM_bounds_mm": [
+    -77.0863523,
+    -14.76137115,
+    -0.02,
+    -67.0863523,
+    -0.76137115,
+    3.759
+  ],
+  "OEM_solid_count": 101,
+  "local_registration": {
+    "frame": "center of the module outline; +X to antenna, +Y up in top view; Z0 at contact bottoms",
+    "right_handed_formula": "(x,y,z)=(y_oem+tx,-x_oem+ty,z_oem+tz)",
+    "translation_after_minus_90_degree_z_rotation_mm": [
+      7.76137115,
+      -72.0863523,
+      0.02
+    ],
+    "module_bounds_mm": [
+      -7.0,
+      -5.0,
+      0.0,
+      7.0,
+      5.0,
+      3.779
+    ],
+    "antenna_bounds_mm": [
+      3.1,
+      -5.0,
+      0.779,
+      7.0,
+      5.0,
+      3.779
+    ]
+  },
+  "verified_fixture_only_KiCad_model_fields": {
+    "offset_mm": [
+      7.76137115,
+      -72.0863523,
+      -0.025
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate_degrees": [
+      0,
+      0,
+      90
+    ],
+    "board_copper_top_Z_mm": 0.97,
+    "board_outline_XY_mm": [
+      -10,
+      -8,
+      10,
+      8
+    ],
+    "board_thickness_setting_mm": 1.0,
+    "exported_solids": 144
+  },
+  "pads": [
+    {
+      "pad": 1,
+      "center_XY_mm": [
+        -6.2,
+        -4.125
+      ],
+      "module_local_bounds_mm": [
+        -6.55,
+        -4.7,
+        0.0,
+        -5.85,
+        -3.55,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 2,
+      "center_XY_mm": [
+        -5.2,
+        -4.125
+      ],
+      "module_local_bounds_mm": [
+        -5.55,
+        -4.7,
+        0.0,
+        -4.85,
+        -3.55,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 3,
+      "center_XY_mm": [
+        -4.2,
+        -4.125
+      ],
+      "module_local_bounds_mm": [
+        -4.55,
+        -4.7,
+        0.0,
+        -3.85,
+        -3.55,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 4,
+      "center_XY_mm": [
+        -3.2,
+        -4.125
+      ],
+      "module_local_bounds_mm": [
+        -3.55,
+        -4.7,
+        0.0,
+        -2.85,
+        -3.55,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 5,
+      "center_XY_mm": [
+        -2.2,
+        -4.125
+      ],
+      "module_local_bounds_mm": [
+        -2.55,
+        -4.7,
+        0.0,
+        -1.85,
+        -3.55,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 6,
+      "center_XY_mm": [
+        -1.2,
+        -4.125
+      ],
+      "module_local_bounds_mm": [
+        -1.55,
+        -4.7,
+        0.0,
+        -0.85,
+        -3.55,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 7,
+      "center_XY_mm": [
+        -0.2,
+        -4.125
+      ],
+      "module_local_bounds_mm": [
+        -0.55,
+        -4.7,
+        0.0,
+        0.15,
+        -3.55,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 8,
+      "center_XY_mm": [
+        0.8,
+        -4.125
+      ],
+      "module_local_bounds_mm": [
+        0.45,
+        -4.7,
+        0.0,
+        1.15,
+        -3.55,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 9,
+      "center_XY_mm": [
+        1.8,
+        -4.125
+      ],
+      "module_local_bounds_mm": [
+        1.45,
+        -4.7,
+        0.0,
+        2.15,
+        -3.55,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 10,
+      "center_XY_mm": [
+        2.8,
+        -4.125
+      ],
+      "module_local_bounds_mm": [
+        2.45,
+        -4.7,
+        0.0,
+        3.15,
+        -3.55,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 11,
+      "center_XY_mm": [
+        2.725,
+        -2.0
+      ],
+      "module_local_bounds_mm": [
+        2.15,
+        -2.35,
+        0.0,
+        3.3,
+        -1.65,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 12,
+      "center_XY_mm": [
+        2.725,
+        -1.0
+      ],
+      "module_local_bounds_mm": [
+        2.15,
+        -1.35,
+        0.0,
+        3.3,
+        -0.65,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 13,
+      "center_XY_mm": [
+        2.725,
+        -0.0
+      ],
+      "module_local_bounds_mm": [
+        2.15,
+        -0.35,
+        0.0,
+        3.3,
+        0.35,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 14,
+      "center_XY_mm": [
+        2.725,
+        1.0
+      ],
+      "module_local_bounds_mm": [
+        2.15,
+        0.65,
+        0.0,
+        3.3,
+        1.35,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 15,
+      "center_XY_mm": [
+        2.725,
+        2.0
+      ],
+      "module_local_bounds_mm": [
+        2.15,
+        1.65,
+        0.0,
+        3.3,
+        2.35,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 16,
+      "center_XY_mm": [
+        2.8,
+        4.125
+      ],
+      "module_local_bounds_mm": [
+        2.45,
+        3.55,
+        0.0,
+        3.15,
+        4.7,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 17,
+      "center_XY_mm": [
+        1.8,
+        4.125
+      ],
+      "module_local_bounds_mm": [
+        1.45,
+        3.55,
+        0.0,
+        2.15,
+        4.7,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 18,
+      "center_XY_mm": [
+        0.8,
+        4.125
+      ],
+      "module_local_bounds_mm": [
+        0.45,
+        3.55,
+        0.0,
+        1.15,
+        4.7,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 19,
+      "center_XY_mm": [
+        -0.2,
+        4.125
+      ],
+      "module_local_bounds_mm": [
+        -0.55,
+        3.55,
+        0.0,
+        0.15,
+        4.7,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 20,
+      "center_XY_mm": [
+        -1.2,
+        4.125
+      ],
+      "module_local_bounds_mm": [
+        -1.55,
+        3.55,
+        0.0,
+        -0.85,
+        4.7,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 21,
+      "center_XY_mm": [
+        -2.2,
+        4.125
+      ],
+      "module_local_bounds_mm": [
+        -2.55,
+        3.55,
+        0.0,
+        -1.85,
+        4.7,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 22,
+      "center_XY_mm": [
+        -3.2,
+        4.125
+      ],
+      "module_local_bounds_mm": [
+        -3.55,
+        3.55,
+        0.0,
+        -2.85,
+        4.7,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 23,
+      "center_XY_mm": [
+        -4.2,
+        4.125
+      ],
+      "module_local_bounds_mm": [
+        -4.55,
+        3.55,
+        0.0,
+        -3.85,
+        4.7,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 24,
+      "center_XY_mm": [
+        -5.2,
+        4.125
+      ],
+      "module_local_bounds_mm": [
+        -5.55,
+        3.55,
+        0.0,
+        -4.85,
+        4.7,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 25,
+      "center_XY_mm": [
+        -6.2,
+        4.125
+      ],
+      "module_local_bounds_mm": [
+        -6.55,
+        3.55,
+        0.0,
+        -5.85,
+        4.7,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 26,
+      "center_XY_mm": [
+        -6.125,
+        2.0
+      ],
+      "module_local_bounds_mm": [
+        -6.7,
+        1.65,
+        0.0,
+        -5.55,
+        2.35,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 27,
+      "center_XY_mm": [
+        -6.125,
+        1.0
+      ],
+      "module_local_bounds_mm": [
+        -6.7,
+        0.65,
+        0.0,
+        -5.55,
+        1.35,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 28,
+      "center_XY_mm": [
+        -6.125,
+        -0.0
+      ],
+      "module_local_bounds_mm": [
+        -6.7,
+        -0.35,
+        0.0,
+        -5.55,
+        0.35,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 29,
+      "center_XY_mm": [
+        -6.125,
+        -1.0
+      ],
+      "module_local_bounds_mm": [
+        -6.7,
+        -1.35,
+        0.0,
+        -5.55,
+        -0.65,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 30,
+      "center_XY_mm": [
+        -6.125,
+        -2.0
+      ],
+      "module_local_bounds_mm": [
+        -6.7,
+        -2.35,
+        0.0,
+        -5.55,
+        -1.65,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.805,
+      "host_contact_area_mm2": 0.8039485,
+      "common_area_mm2": 0.8039485
+    },
+    {
+      "pad": 31,
+      "center_XY_mm": [
+        -3.425,
+        -0.575
+      ],
+      "module_local_bounds_mm": [
+        -3.775,
+        -0.925,
+        0.0,
+        -3.075,
+        -0.225,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 32,
+      "center_XY_mm": [
+        -3.425,
+        0.575
+      ],
+      "module_local_bounds_mm": [
+        -3.775,
+        0.225,
+        0.0,
+        -3.075,
+        0.925,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 33,
+      "center_XY_mm": [
+        -2.275,
+        -1.725
+      ],
+      "module_local_bounds_mm": [
+        -2.625,
+        -2.075,
+        0.0,
+        -1.925,
+        -1.375,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 34,
+      "center_XY_mm": [
+        -2.275,
+        -0.575
+      ],
+      "module_local_bounds_mm": [
+        -2.625,
+        -0.925,
+        0.0,
+        -1.925,
+        -0.225,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 35,
+      "center_XY_mm": [
+        -2.275,
+        0.575
+      ],
+      "module_local_bounds_mm": [
+        -2.625,
+        0.225,
+        0.0,
+        -1.925,
+        0.925,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 36,
+      "center_XY_mm": [
+        -2.275,
+        1.725
+      ],
+      "module_local_bounds_mm": [
+        -2.625,
+        1.375,
+        0.0,
+        -1.925,
+        2.075,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 37,
+      "center_XY_mm": [
+        -1.125,
+        -0.575
+      ],
+      "module_local_bounds_mm": [
+        -1.475,
+        -0.925,
+        0.0,
+        -0.775,
+        -0.225,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 38,
+      "center_XY_mm": [
+        -1.125,
+        0.575
+      ],
+      "module_local_bounds_mm": [
+        -1.475,
+        0.225,
+        0.0,
+        -0.775,
+        0.925,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 39,
+      "center_XY_mm": [
+        0.025,
+        -1.725
+      ],
+      "module_local_bounds_mm": [
+        -0.325,
+        -2.075,
+        0.0,
+        0.375,
+        -1.375,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 40,
+      "center_XY_mm": [
+        0.025,
+        -0.575
+      ],
+      "module_local_bounds_mm": [
+        -0.325,
+        -0.925,
+        0.0,
+        0.375,
+        -0.225,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 41,
+      "center_XY_mm": [
+        0.025,
+        0.575
+      ],
+      "module_local_bounds_mm": [
+        -0.325,
+        0.225,
+        0.0,
+        0.375,
+        0.925,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    },
+    {
+      "pad": 42,
+      "center_XY_mm": [
+        0.025,
+        1.725
+      ],
+      "module_local_bounds_mm": [
+        -0.325,
+        1.375,
+        0.0,
+        0.375,
+        2.075,
+        0.02
+      ],
+      "position_error_mm": 0.0,
+      "module_contact_area_mm2": 0.49,
+      "host_contact_area_mm2": 0.49,
+      "common_area_mm2": 0.49
+    }
+  ],
+  "dock_pose_selected": false,
+  "physical_validation": false
+}

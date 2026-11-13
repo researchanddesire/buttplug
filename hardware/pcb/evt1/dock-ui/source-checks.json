@@ -1,0 +1,492 @@
+{
+  "status": "pass: actual KiCad native XML/footprint pin contracts",
+  "kicad_native_exporter": "Eeschema 10.0.8",
+  "component_count": 48,
+  "purchased_positions": 45,
+  "manual_copper_features": 3,
+  "unique_purchased_MPNs": 19,
+  "explicit_terminal_checks": 88,
+  "USB_data_path_has_only_receptacle_ESD_and_device_contact_port": true,
+  "no_parallel_CC_Rd": true,
+  "low_current_path_cannot_be_bypassed_without_qualified_Q103": true,
+  "SOURCE_OK_is_actively_grounded_until_two_stage_power_qualification": true,
+  "TUSB_enable_has_independent_powergood_delay": true,
+  "slow_CC_edge_has_Schmitt_inverter": true,
+  "absent_UI_harness_defaults_CENTER_released": true,
+  "footprint_pin_checks": [
+    {
+      "reference": "J101",
+      "pad_numbers": [
+        "A1",
+        "A12",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B12",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1"
+      ],
+      "footprint_sha256": "ea73e710b0546db3482557a8b89e7a9b2ef5d3fce6cce00f84b97914c4405ada"
+    },
+    {
+      "reference": "U103",
+      "pad_numbers": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "footprint_sha256": "2abf2bb4b1110202e15b132c53544bef68c4a56c1fc1b0bdcd5f1fa536190e8d"
+    },
+    {
+      "reference": "U114",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "footprint_sha256": "bf06bb9583c40562265e319ac36c73b6150587a3148fd28145b5f1b70f0ce9d7"
+    },
+    {
+      "reference": "U121",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "footprint_sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97"
+    },
+    {
+      "reference": "U102",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "footprint_sha256": "a6ba2bd4b67d10b05fd36c6e6b9885defdf4c9c42f2f7c4842bc94d63cf8a4a3"
+    },
+    {
+      "reference": "U104",
+      "pad_numbers": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "footprint_sha256": "6554e73e754ce23b557d44ec444c6da39b5bb428ec96807afc5a2465b652e70f"
+    },
+    {
+      "reference": "U105",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "footprint_sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97"
+    },
+    {
+      "reference": "Q103",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "footprint_sha256": "7840e31dbf5d8c9a047e25e8c69951e6c3792e0d4d316642c2832be29923c42f"
+    },
+    {
+      "reference": "U120",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "footprint_sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97"
+    },
+    {
+      "reference": "U123",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "footprint_sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97"
+    },
+    {
+      "reference": "U122",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "footprint_sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97"
+    },
+    {
+      "reference": "U124",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "footprint_sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97"
+    },
+    {
+      "reference": "R101",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R105",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R108",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R106",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R107",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R120",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R121",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R122",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R123",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R124",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R125",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R126",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R127",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R128",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R129",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R130",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R131",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R132",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "R133",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    {
+      "reference": "C101",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6"
+    },
+    {
+      "reference": "C102",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6"
+    },
+    {
+      "reference": "C103",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6"
+    },
+    {
+      "reference": "C104",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6"
+    },
+    {
+      "reference": "C105",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6"
+    },
+    {
+      "reference": "C106",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    {
+      "reference": "C107",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    {
+      "reference": "C108",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    {
+      "reference": "C109",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    {
+      "reference": "C110",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    {
+      "reference": "C111",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    {
+      "reference": "C112",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    {
+      "reference": "C113",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    {
+      "reference": "C114",
+      "pad_numbers": [
+        "1",
+        "2"
+      ],
+      "footprint_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    {
+      "reference": "J102",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "footprint_sha256": "46a4cc69f80e92c69a5654277f0ee1ff5e0ca38f68037ac4adbd7237e26037f9"
+    },
+    {
+      "reference": "J103",
+      "pad_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "footprint_sha256": "4a5f99473183042ea520a9be12772e12bed3ca9970365e59efed117bf5150fcc"
+    },
+    {
+      "reference": "J104",
+      "pad_numbers": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "footprint_sha256": "b0ebe7302e184e6f5e531b61043ffc78e318fba2929863c2d01132136118c0af"
+    }
+  ],
+  "source_sha256": {
+    "DockUI.kicad_sym": "8b3a221fbc296f0ca3cd40c5fc205ccd98fb79ac8509f8907813dc5f6af5040f",
+    "build_source.py": "0087c3fe21b886511bb857fd78dd9fda31f4bdaedf95d81bf7be09498506f66a",
+    "check_native.py": "c8dd90064fb20edbbe71ea767d20819ca6f741a546f1665e7277cb5a33d054c7",
+    "check_source.py": "1e70dcb83817fd25174f0ca4fc86b23480b495aef0bea7f3b1db48c1cae59aba",
+    "dock-ui-source.kicad_pro": "ac70acc72e30f8ed6cb966b6d806fc2ba1ac5670196054afe0f059fc284fa368",
+    "dock-ui-source.kicad_sch": "d0a0ad8ba49be1c1ad237f1e7467d33ea4598a49dab84190b4596324fab25038",
+    "fp-lib-table": "fb14e2e01b19347ecb44cc074d268f7250bcc577d32b78f2c834863d53e22499",
+    "source-circuit-parts.json": "ee133c8ac4c453210c79e33a086aea0005fd97b34f365316bda6c7b7965725f7",
+    "source-native.xml": "e830041b21a15ca00e1809b44a40095723d81362f4f04625a9ed4dfde1af521e",
+    "sym-lib-table": "c43d170e40b096519c17073332752ae89b2f71ea0ce5fd0d534e8dc888b9e6fa"
+  },
+  "native_ERC_run": true,
+  "native_ERC_scope": "USB/source-current sheet only; full UI/safety/UV sheets are absent",
+  "native_ERC_binding_sha256": "1abfa15e3a60f1eaf2fb23a10356c4fd17f23b7a205cd8308eec487a992d23a5",
+  "PCB_created_or_routed": false,
+  "powered_validation": false,
+  "full_product_order_ready": false
+}

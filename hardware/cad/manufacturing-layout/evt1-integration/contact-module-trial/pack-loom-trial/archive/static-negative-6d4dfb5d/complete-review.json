@@ -1,0 +1,1377 @@
+{
+  "status": "Disposable complete-bundle candidate; intersections below are findings, not waivers",
+  "native_sha256": "6d4dfb5d884b956d56dca9ce4a20691ed05cd49ddce985b85bf5822c038d628a",
+  "source_native_sha256": "e2430ff72e0b36d9a079791ec246fe2c94ea94c3a07bae22ed7cae8e10cc2884",
+  "immutable_context_native_sha256": "f7e042204114bab92438b8af2fd692bfa8ebbe251eb26c37a7e1f1ab84806942",
+  "source_MCAD_sha256": "9fdaaa0e70aba5a95e8aef0648da7428b468d3b7d4eb236217032a7e7d1ee240",
+  "active_selection_sha256": "636f3c000b3c7fc1b0757e9daa43b0969af16a2771e7b25dcd364bba5d30a227",
+  "builder_sha256": "578ad21bb18597be1b58cda25ad233b2bd91c72bedf1cebfaac1bc7ec4062b7a",
+  "paths_sha256": "9b0b292e8212d96d7b5455a4950d997da6a236e42e15826801b53ff343abde69",
+  "curve_utilities_sha256": "1881c23392c0219f389bd54b46d511990dcd87ff2b452e1abb2ca5ae97e3efef",
+  "wire_count": 18,
+  "neck_conductors": 16,
+  "wires": [
+    {
+      "wire": "IB01",
+      "net": "GND",
+      "bounds_mm": [
+        -4.800000100000001,
+        -24.7420001,
+        1.2099962201983705,
+        3.076647493556928,
+        31.525,
+        4.80677934126846
+      ],
+      "volume_mm3": 17.229715288277195,
+      "free_path_mm": 60.93247657396141,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999998,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.7763568394002505e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "IB02",
+      "net": "VBUS_CHG",
+      "bounds_mm": [
+        -3.800000100000001,
+        -24.7420001,
+        1.2099960845750146,
+        3.076499965724012,
+        31.525,
+        3.8238424500224566
+      ],
+      "volume_mm3": 17.09432200123289,
+      "free_path_mm": 60.453837244341145,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999998,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.7763568394002505e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "IB03",
+      "net": "3V3",
+      "bounds_mm": [
+        -2.800000100000001,
+        -24.7420001,
+        1.209996193206878,
+        3.076089814534938,
+        31.525,
+        2.8663055526308314
+      ],
+      "volume_mm3": 16.987383990827123,
+      "free_path_mm": 60.07760143730697,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999998,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.7763568394002505e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "IB04",
+      "net": "PACK_P",
+      "bounds_mm": [
+        -2.525,
+        -24.7420001,
+        1.1993541420088578,
+        3.075631216056183,
+        31.525,
+        1.9965592123223794
+      ],
+      "volume_mm3": 16.911673978329077,
+      "free_path_mm": 59.811133672947065,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999998,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.7763568394002505e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "IB05",
+      "net": "MOTOR_ARM",
+      "bounds_mm": [
+        -2.525,
+        -24.7420001,
+        0.19989359301853046,
+        3.075100635676253,
+        31.525,
+        1.8100027727093997
+      ],
+      "volume_mm3": 16.868576616188996,
+      "free_path_mm": 59.660246819872754,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999998,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.7763568394002505e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "IB06",
+      "net": "MOTOR_PWM",
+      "bounds_mm": [
+        -2.525,
+        -24.7420001,
+        -0.8001213526175103,
+        3.0751230770600544,
+        31.525,
+        1.8100012609412077
+      ],
+      "volume_mm3": 16.859827113098746,
+      "free_path_mm": 59.628553397955926,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999998,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.7763568394002505e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "IB07",
+      "net": "DOCK_PRESENT_N",
+      "bounds_mm": [
+        -2.525,
+        -24.7420001,
+        -1.8000547779083496,
+        3.0750617577412944,
+        31.525,
+        1.810001057846689
+      ],
+      "volume_mm3": 16.88454658310138,
+      "free_path_mm": 59.71700703081953,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999998,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.7763568394002505e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "IB08",
+      "net": "I2C_SDA",
+      "bounds_mm": [
+        -2.525,
+        -24.7420001,
+        -2.8023191818773387,
+        3.295943477638224,
+        31.525,
+        1.8100037854241708
+      ],
+      "volume_mm3": 16.943837610965048,
+      "free_path_mm": 59.92376510468988,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999998,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.7763568394002505e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "IB09",
+      "net": "I2C_SCL",
+      "bounds_mm": [
+        -2.525,
+        -24.7420001,
+        -3.8022189875007526,
+        3.853019203499668,
+        31.525,
+        1.810003802429686
+      ],
+      "volume_mm3": 17.034407166260173,
+      "free_path_mm": 60.24441666241553,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999998,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.7763568394002505e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "IB10",
+      "net": "TIP_EXC_EN",
+      "bounds_mm": [
+        -2.525,
+        -24.7420001,
+        -4.802640831415695,
+        4.8000001,
+        31.525,
+        1.8100037454298485
+      ],
+      "volume_mm3": 17.15730181296706,
+      "free_path_mm": 60.67250867359,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999998,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.7763568394002505e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "PACK_FACTORY_POWER1",
+      "net": "PACK_P",
+      "bounds_mm": [
+        -20.38002957471932,
+        -20.615000100000028,
+        -2.0150001000000013,
+        7.0,
+        -17.184999899999998,
+        7.815000100000003
+      ],
+      "volume_mm3": 13.027893965220565,
+      "free_path_mm": 41.79296996075771,
+      "factory_path_mm": null,
+      "OD_mm": 0.63,
+      "minimum_sampled_radius_mm": 4.665029474719318,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 4.070144838902081e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "BODY_POWER1",
+      "net": "PACK_P",
+      "bounds_mm": [
+        -4.600000100000002,
+        -17.800000100000002,
+        -2.0000001000000025,
+        8.3000001,
+        48.0500001,
+        5.3000001
+      ],
+      "volume_mm3": 24.00881984457138,
+      "free_path_mm": 85.74716346814061,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999997,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 2.175583928816829e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "PACK_FACTORY_POWER2",
+      "net": "GND",
+      "bounds_mm": [
+        -20.38002957471932,
+        -21.815000100000017,
+        -0.8150001000000021,
+        7.0,
+        -17.184999899999994,
+        8.715000100000003
+      ],
+      "volume_mm3": 13.101165720730355,
+      "free_path_mm": 42.02802285959752,
+      "factory_path_mm": null,
+      "OD_mm": 0.63,
+      "minimum_sampled_radius_mm": 4.518750000000002,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 7.32410687763558e-15,
+      "minimum_join_tangent_dot": 1.0
+    },
+    {
+      "wire": "BODY_POWER2",
+      "net": "GND",
+      "bounds_mm": [
+        -4.600000100000002,
+        -17.800000100000002,
+        -0.8000001000000007,
+        9.0000001,
+        47.2000001,
+        6.100000100000002
+      ],
+      "volume_mm3": 24.274647152673918,
+      "free_path_mm": 86.68733524799237,
+      "factory_path_mm": null,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999997,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 4.440892098500626e-15,
+      "minimum_join_tangent_dot": 0.9999999999999999
+    },
+    {
+      "wire": "NTC1_SIGNAL",
+      "net": "PACK_NTC",
+      "bounds_mm": [
+        -9.060000100000002,
+        -15.000000100000028,
+        -9.999998860287249e-08,
+        34.3750001,
+        45.0250001,
+        8.675000100000009
+      ],
+      "volume_mm3": 35.39244762525232,
+      "free_path_mm": 116.40068024131685,
+      "factory_path_mm": 8.433229858215793,
+      "OD_mm": 0.55,
+      "minimum_sampled_radius_mm": 1.9999999999999973,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.507288760336424e-14,
+      "minimum_join_tangent_dot": 0.9999999999999999
+    },
+    {
+      "wire": "NTC1_RETURN",
+      "net": "GND",
+      "bounds_mm": [
+        -9.660000100000003,
+        -15.000000100000014,
+        -1.0000000118484433e-07,
+        39.575000100000004,
+        46.5250001,
+        9.575000100000073
+      ],
+      "volume_mm3": 42.365794123866756,
+      "free_path_mm": 124.95188857578401,
+      "factory_path_mm": 13.633229858215795,
+      "OD_mm": 0.55,
+      "minimum_sampled_radius_mm": 1.7000000000000008,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 5.684341886080802e-14,
+      "minimum_join_tangent_dot": 0.9999999999999999
+    },
+    {
+      "wire": "NTC2_SIGNAL",
+      "net": "PACK_GUARD",
+      "bounds_mm": [
+        -8.160000100000001,
+        -15.000000100000028,
+        -8.675000100000009,
+        34.3750001,
+        43.5250001,
+        3.1750001000000037
+      ],
+      "volume_mm3": 34.76188311737779,
+      "free_path_mm": 113.74659869773868,
+      "factory_path_mm": 8.433229858215793,
+      "OD_mm": 0.55,
+      "minimum_sampled_radius_mm": 1.9999999999999973,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 1.507288760336424e-14,
+      "minimum_join_tangent_dot": 0.9999999999999999
+    },
+    {
+      "wire": "NTC2_RETURN",
+      "net": "GND",
+      "bounds_mm": [
+        -7.5600001000000026,
+        -15.000000100000014,
+        -9.575000100000073,
+        39.575000100000004,
+        46.5250001,
+        2.2750000999999997
+      ],
+      "volume_mm3": 41.31574094814366,
+      "free_path_mm": 120.5321555926254,
+      "factory_path_mm": 13.633229858215795,
+      "OD_mm": 0.55,
+      "minimum_sampled_radius_mm": 1.7000000000000008,
+      "samples_per_edge": 1001,
+      "maximum_join_gap_mm": 5.684341886080802e-14,
+      "minimum_join_tangent_dot": 0.9999999999999999
+    }
+  ],
+  "fixed_checks": [
+    {
+      "wire": "IB01",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedRearHalf",
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "IB02",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedRearHalf",
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "MetalBody",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "IB03",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedRearHalf",
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "MetalBody",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "IB04",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedRearHalf",
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "MetalBody",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "IB05",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedRearHalf",
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "MetalBody",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "IB06",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedRearHalf",
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "MetalBody",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "IB07",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedRearHalf",
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "MetalBody",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "IB08",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedRearHalf",
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "MetalBody",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "IB09",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedRearHalf",
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "MetalBody",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "IB10",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedRearHalf",
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "PACK_FACTORY_POWER1",
+      "intersections": [
+        {
+          "part": "PackGrowthAllowance",
+          "common_mm3": 0.07793113276311187
+        }
+      ],
+      "native_containing_box_separation_proofs": [
+        "RevisedContinuousSkin"
+      ]
+    },
+    {
+      "wire": "BODY_POWER1",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "PACK_FACTORY_POWER2",
+      "intersections": [
+        {
+          "part": "PackGrowthAllowance",
+          "common_mm3": 0.07793113276311187
+        }
+      ],
+      "native_containing_box_separation_proofs": [
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin"
+      ]
+    },
+    {
+      "wire": "BODY_POWER2",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "NTC1_SIGNAL",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "NTC1_RETURN",
+      "intersections": [
+        {
+          "part": "ProposedFlangeTray",
+          "common_mm3": 0.5311128886021216
+        }
+      ],
+      "native_containing_box_separation_proofs": [
+        "RevisedContinuousSkin",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "NTC2_SIGNAL",
+      "intersections": [],
+      "native_containing_box_separation_proofs": [
+        "ProposedFlangeTray",
+        "RevisedContinuousSkin",
+        "BodyInsulatingSleeve"
+      ]
+    },
+    {
+      "wire": "NTC2_RETURN",
+      "intersections": [
+        {
+          "part": "ProposedFlangeTray",
+          "common_mm3": 0.5311124351057401
+        }
+      ],
+      "native_containing_box_separation_proofs": [
+        "RevisedContinuousSkin",
+        "BodyInsulatingSleeve"
+      ]
+    }
+  ],
+  "wire_pair_detailed_checks": [],
+  "wire_pair_separation_proofs": [
+    {
+      "a": "IB01",
+      "b": "IB02",
+      "native_centerline_separation_lower_bound_mm": 0.15000000000000002
+    },
+    {
+      "a": "IB01",
+      "b": "IB03",
+      "native_centerline_separation_lower_bound_mm": 0.9
+    },
+    {
+      "a": "IB01",
+      "b": "IB04",
+      "native_centerline_separation_lower_bound_mm": 1.65
+    },
+    {
+      "a": "IB01",
+      "b": "IB05",
+      "native_centerline_separation_lower_bound_mm": 2.4
+    },
+    {
+      "a": "IB01",
+      "b": "IB06",
+      "native_centerline_separation_lower_bound_mm": 3.15
+    },
+    {
+      "a": "IB01",
+      "b": "IB07",
+      "native_centerline_separation_lower_bound_mm": 3.9
+    },
+    {
+      "a": "IB01",
+      "b": "IB08",
+      "native_centerline_separation_lower_bound_mm": 4.65
+    },
+    {
+      "a": "IB01",
+      "b": "IB09",
+      "native_centerline_separation_lower_bound_mm": 5.4
+    },
+    {
+      "a": "IB01",
+      "b": "IB10",
+      "native_centerline_separation_lower_bound_mm": 6.149999999999999
+    },
+    {
+      "a": "IB01",
+      "b": "PACK_FACTORY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 2.381690339409455
+    },
+    {
+      "a": "IB01",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 0.12224837014216405
+    },
+    {
+      "a": "IB01",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 2.3946219260781048
+    },
+    {
+      "a": "IB01",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 0.47685465769090707
+    },
+    {
+      "a": "IB01",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 0.2565474687626039
+    },
+    {
+      "a": "IB01",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 0.5411928551069638
+    },
+    {
+      "a": "IB01",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 1.4440630542994517
+    },
+    {
+      "a": "IB01",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 1.7017705828294691
+    },
+    {
+      "a": "IB02",
+      "b": "IB03",
+      "native_centerline_separation_lower_bound_mm": 0.15000000000000002
+    },
+    {
+      "a": "IB02",
+      "b": "IB04",
+      "native_centerline_separation_lower_bound_mm": 0.9
+    },
+    {
+      "a": "IB02",
+      "b": "IB05",
+      "native_centerline_separation_lower_bound_mm": 1.65
+    },
+    {
+      "a": "IB02",
+      "b": "IB06",
+      "native_centerline_separation_lower_bound_mm": 2.4
+    },
+    {
+      "a": "IB02",
+      "b": "IB07",
+      "native_centerline_separation_lower_bound_mm": 3.15
+    },
+    {
+      "a": "IB02",
+      "b": "IB08",
+      "native_centerline_separation_lower_bound_mm": 3.9
+    },
+    {
+      "a": "IB02",
+      "b": "IB09",
+      "native_centerline_separation_lower_bound_mm": 4.6499999999999995
+    },
+    {
+      "a": "IB02",
+      "b": "IB10",
+      "native_centerline_separation_lower_bound_mm": 5.4
+    },
+    {
+      "a": "IB02",
+      "b": "PACK_FACTORY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 3.3816814591648123
+    },
+    {
+      "a": "IB02",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 0.9032747627370877
+    },
+    {
+      "a": "IB02",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 3.39454894643867
+    },
+    {
+      "a": "IB02",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 1.2718786312116106
+    },
+    {
+      "a": "IB02",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 1.1969107486649413
+    },
+    {
+      "a": "IB02",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 1.417759688571188
+    },
+    {
+      "a": "IB02",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 2.27195847004983
+    },
+    {
+      "a": "IB02",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 2.597504762144129
+    },
+    {
+      "a": "IB03",
+      "b": "IB04",
+      "native_centerline_separation_lower_bound_mm": 0.15000000000000002
+    },
+    {
+      "a": "IB03",
+      "b": "IB05",
+      "native_centerline_separation_lower_bound_mm": 0.9
+    },
+    {
+      "a": "IB03",
+      "b": "IB06",
+      "native_centerline_separation_lower_bound_mm": 1.65
+    },
+    {
+      "a": "IB03",
+      "b": "IB07",
+      "native_centerline_separation_lower_bound_mm": 2.4
+    },
+    {
+      "a": "IB03",
+      "b": "IB08",
+      "native_centerline_separation_lower_bound_mm": 3.149999999999999
+    },
+    {
+      "a": "IB03",
+      "b": "IB09",
+      "native_centerline_separation_lower_bound_mm": 3.9
+    },
+    {
+      "a": "IB03",
+      "b": "IB10",
+      "native_centerline_separation_lower_bound_mm": 4.65
+    },
+    {
+      "a": "IB03",
+      "b": "PACK_FACTORY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 4.381672519311478
+    },
+    {
+      "a": "IB03",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 1.212946860468079
+    },
+    {
+      "a": "IB03",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 4.394477320521161
+    },
+    {
+      "a": "IB03",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 2.0649010203253595
+    },
+    {
+      "a": "IB03",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 1.6848090999707852
+    },
+    {
+      "a": "IB03",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 2.34805056955817
+    },
+    {
+      "a": "IB03",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 3.1035870708600877
+    },
+    {
+      "a": "IB03",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 3.493238941458788
+    },
+    {
+      "a": "IB04",
+      "b": "IB05",
+      "native_centerline_separation_lower_bound_mm": 0.15000000000000002
+    },
+    {
+      "a": "IB04",
+      "b": "IB06",
+      "native_centerline_separation_lower_bound_mm": 0.9
+    },
+    {
+      "a": "IB04",
+      "b": "IB07",
+      "native_centerline_separation_lower_bound_mm": 1.6499999999999995
+    },
+    {
+      "a": "IB04",
+      "b": "IB08",
+      "native_centerline_separation_lower_bound_mm": 2.4
+    },
+    {
+      "a": "IB04",
+      "b": "IB09",
+      "native_centerline_separation_lower_bound_mm": 3.15
+    },
+    {
+      "a": "IB04",
+      "b": "IB10",
+      "native_centerline_separation_lower_bound_mm": 3.9
+    },
+    {
+      "a": "IB04",
+      "b": "PACK_FACTORY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 5.381663519177385
+    },
+    {
+      "a": "IB04",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 1.3368243615157631
+    },
+    {
+      "a": "IB04",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 5.3944070070073975
+    },
+    {
+      "a": "IB04",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 2.281948125834329
+    },
+    {
+      "a": "IB04",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 2.2029014134645086
+    },
+    {
+      "a": "IB04",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 3.0997798277583666
+    },
+    {
+      "a": "IB04",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 3.9410573824623194
+    },
+    {
+      "a": "IB04",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 4.38899436620386
+    },
+    {
+      "a": "IB05",
+      "b": "IB06",
+      "native_centerline_separation_lower_bound_mm": 0.1499999999999999
+    },
+    {
+      "a": "IB05",
+      "b": "IB07",
+      "native_centerline_separation_lower_bound_mm": 0.9
+    },
+    {
+      "a": "IB05",
+      "b": "IB08",
+      "native_centerline_separation_lower_bound_mm": 1.65
+    },
+    {
+      "a": "IB05",
+      "b": "IB09",
+      "native_centerline_separation_lower_bound_mm": 2.4
+    },
+    {
+      "a": "IB05",
+      "b": "IB10",
+      "native_centerline_separation_lower_bound_mm": 3.15
+    },
+    {
+      "a": "IB05",
+      "b": "PACK_FACTORY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 6.381654458079651
+    },
+    {
+      "a": "IB05",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 1.4763735237580673
+    },
+    {
+      "a": "IB05",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 6.394337966345118
+    },
+    {
+      "a": "IB05",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 1.703394234602492
+    },
+    {
+      "a": "IB05",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 2.8158626753705525
+    },
+    {
+      "a": "IB05",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 3.753110962755689
+    },
+    {
+      "a": "IB05",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 3.5030632705863454
+    },
+    {
+      "a": "IB05",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 4.467546084366762
+    },
+    {
+      "a": "IB06",
+      "b": "IB07",
+      "native_centerline_separation_lower_bound_mm": 0.15000000000000002
+    },
+    {
+      "a": "IB06",
+      "b": "IB08",
+      "native_centerline_separation_lower_bound_mm": 0.9
+    },
+    {
+      "a": "IB06",
+      "b": "IB09",
+      "native_centerline_separation_lower_bound_mm": 1.65
+    },
+    {
+      "a": "IB06",
+      "b": "IB10",
+      "native_centerline_separation_lower_bound_mm": 2.4
+    },
+    {
+      "a": "IB06",
+      "b": "PACK_FACTORY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 7.381645335324344
+    },
+    {
+      "a": "IB06",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 1.6280555897783926
+    },
+    {
+      "a": "IB06",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 7.3942701606510415
+    },
+    {
+      "a": "IB06",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 1.475
+    },
+    {
+      "a": "IB06",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 3.5030632705863454
+    },
+    {
+      "a": "IB06",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 4.467546084366762
+    },
+    {
+      "a": "IB06",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 2.8158626753705525
+    },
+    {
+      "a": "IB06",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 3.753110962755689
+    },
+    {
+      "a": "IB07",
+      "b": "IB08",
+      "native_centerline_separation_lower_bound_mm": 0.15000000000000002
+    },
+    {
+      "a": "IB07",
+      "b": "IB09",
+      "native_centerline_separation_lower_bound_mm": 0.9
+    },
+    {
+      "a": "IB07",
+      "b": "IB10",
+      "native_centerline_separation_lower_bound_mm": 1.65
+    },
+    {
+      "a": "IB07",
+      "b": "PACK_FACTORY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 8.381636150206255
+    },
+    {
+      "a": "IB07",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 1.4846162716432971
+    },
+    {
+      "a": "IB07",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 8.394203553620413
+    },
+    {
+      "a": "IB07",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 1.703394234602492
+    },
+    {
+      "a": "IB07",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 4.247865744097693
+    },
+    {
+      "a": "IB07",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 5.230219941373628
+    },
+    {
+      "a": "IB07",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 2.2029014134645086
+    },
+    {
+      "a": "IB07",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 3.0997798277583666
+    },
+    {
+      "a": "IB08",
+      "b": "IB09",
+      "native_centerline_separation_lower_bound_mm": 0.15000000000000002
+    },
+    {
+      "a": "IB08",
+      "b": "IB10",
+      "native_centerline_separation_lower_bound_mm": 0.9
+    },
+    {
+      "a": "IB08",
+      "b": "PACK_FACTORY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 9.381626902008653
+    },
+    {
+      "a": "IB08",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 1.6238761206506087
+    },
+    {
+      "a": "IB08",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 9.394138110442508
+    },
+    {
+      "a": "IB08",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 2.281948125834329
+    },
+    {
+      "a": "IB08",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 5.037382583500809
+    },
+    {
+      "a": "IB08",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 6.031079738285634
+    },
+    {
+      "a": "IB08",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 1.6848090999707852
+    },
+    {
+      "a": "IB08",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 2.523609690186703
+    },
+    {
+      "a": "IB09",
+      "b": "IB10",
+      "native_centerline_separation_lower_bound_mm": 0.15000000000000002
+    },
+    {
+      "a": "IB09",
+      "b": "PACK_FACTORY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 10.381617590003044
+    },
+    {
+      "a": "IB09",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 2.11352073513316
+    },
+    {
+      "a": "IB09",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 10.394073797721664
+    },
+    {
+      "a": "IB09",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 3.025324726897083
+    },
+    {
+      "a": "IB09",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 5.861816334413431
+    },
+    {
+      "a": "IB09",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 6.862356616776334
+    },
+    {
+      "a": "IB09",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 1.2853052866616157
+    },
+    {
+      "a": "IB09",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 2.043716143939439
+    },
+    {
+      "a": "IB10",
+      "b": "PACK_FACTORY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 10.617630546759738
+    },
+    {
+      "a": "IB10",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 2.2776508150176715
+    },
+    {
+      "a": "IB10",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 10.975167772728748
+    },
+    {
+      "a": "IB10",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 3.148530706933175
+    },
+    {
+      "a": "IB10",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 6.713760805258966
+    },
+    {
+      "a": "IB10",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 7.7180608118803375
+    },
+    {
+      "a": "IB10",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 1.028239753651072
+    },
+    {
+      "a": "IB10",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 1.6810570393323874
+    },
+    {
+      "a": "PACK_FACTORY_POWER1",
+      "b": "BODY_POWER1",
+      "native_centerline_separation_lower_bound_mm": 6.1850000000000005
+    },
+    {
+      "a": "PACK_FACTORY_POWER1",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 0.1545609593324555
+    },
+    {
+      "a": "PACK_FACTORY_POWER1",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 6.290070600652828
+    },
+    {
+      "a": "PACK_FACTORY_POWER1",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 2.4070416736712286
+    },
+    {
+      "a": "PACK_FACTORY_POWER1",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 2.471856799988351
+    },
+    {
+      "a": "PACK_FACTORY_POWER1",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 6.572996967214164
+    },
+    {
+      "a": "PACK_FACTORY_POWER1",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 6.326697920819506
+    },
+    {
+      "a": "BODY_POWER1",
+      "b": "PACK_FACTORY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 6.290070600652828
+    },
+    {
+      "a": "BODY_POWER1",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 0.18661817616705312
+    },
+    {
+      "a": "BODY_POWER1",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 0.6351163747586381
+    },
+    {
+      "a": "BODY_POWER1",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 0.9134225256826862
+    },
+    {
+      "a": "BODY_POWER1",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 0.21046067630381982
+    },
+    {
+      "a": "BODY_POWER1",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 0.4557764064044145
+    },
+    {
+      "a": "PACK_FACTORY_POWER2",
+      "b": "BODY_POWER2",
+      "native_centerline_separation_lower_bound_mm": 6.1850000000000005
+    },
+    {
+      "a": "PACK_FACTORY_POWER2",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 3.6054257832212278
+    },
+    {
+      "a": "PACK_FACTORY_POWER2",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 3.6661700319661055
+    },
+    {
+      "a": "PACK_FACTORY_POWER2",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 6.5897301865961015
+    },
+    {
+      "a": "PACK_FACTORY_POWER2",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 6.498068152033308
+    },
+    {
+      "a": "BODY_POWER2",
+      "b": "NTC1_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 0.46194810307256406
+    },
+    {
+      "a": "BODY_POWER2",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 0.0750000000008616
+    },
+    {
+      "a": "BODY_POWER2",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 0.4880145812734642
+    },
+    {
+      "a": "BODY_POWER2",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 0.08053413335996329
+    },
+    {
+      "a": "NTC1_SIGNAL",
+      "b": "NTC1_RETURN",
+      "native_centerline_separation_lower_bound_mm": 0.06615685357182866
+    },
+    {
+      "a": "NTC1_SIGNAL",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 0.6402577074389928
+    },
+    {
+      "a": "NTC1_SIGNAL",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 0.9797058540778354
+    },
+    {
+      "a": "NTC1_RETURN",
+      "b": "NTC2_SIGNAL",
+      "native_centerline_separation_lower_bound_mm": 1.4143455394445659
+    },
+    {
+      "a": "NTC1_RETURN",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 0.05000000000000049
+    },
+    {
+      "a": "NTC2_SIGNAL",
+      "b": "NTC2_RETURN",
+      "native_centerline_separation_lower_bound_mm": 0.06615685357182866
+    }
+  ],
+  "wire_pair_intersections": [],
+  "ACH_candidate_matrix4": [
+    [
+      -1,
+      0,
+      0,
+      -4.1
+    ],
+    [
+      0,
+      0,
+      1,
+      -18.4
+    ],
+    [
+      0,
+      1,
+      0,
+      -1.1
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "ACH_fixed_intersections": [],
+  "physical_validation": false,
+  "service_motion_validated": false,
+  "open_gates": [
+    "Received factory pack exits and longer power lead request",
+    "Complete live connector/tool handling and opening motion",
+    "Actual crimp and solder joints, insulation coverage, strain relief and received wire diameters",
+    "Dry NTC mounting/adhesive/wrapper compatibility and independent thermal response",
+    "RF, electrical power/charging, material/temperature/aging and molding qualification"
+  ]
+}

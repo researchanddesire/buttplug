@@ -1,0 +1,30 @@
+{
+  "state": "Known failing C0 result from completed native body-by-body diagnostic, not a fresh clean BOP claim",
+  "source_native_SHA256": "6bd3ddf5dfde8230c80b80df13ed5df0e0cecb41c8856b9c846b9480ae6c4e30",
+  "body": "RecenteredMagnetSpringSource",
+  "serialized_BRep_SHA256": "c06a4e36ab094548564cd8980438655a02634330439ce5a1ad72bf04272ffcb9",
+  "BOP_pass": false,
+  "BOP_errors": [
+    "Error in Edge: BOPAlgo GeomAbs_C0",
+    "Error in Face: BOPAlgo GeomAbs_C0"
+  ],
+  "completed_error_evidence": "build.log plus explicit isolated per-body diagnostic",
+  "error_log_SHA256": "6833bb403dbeb9b9050d3b7c388d321e3786719e552e0a92c6b41a3593a88e13",
+  "source_spring_helper_SHA256": "e6a788d411016befb77ee629536e1d2fbc1e0c4a9a238cd695e20fbcbeef7800",
+  "valid": true,
+  "solid_count": 1,
+  "volume_mm3": 7.265716409687702,
+  "raw_serialized_BRep_SHA256": "d72aecd1e2e17369fdf2fa0d89a2e2d67cc325bc0f1e0b24022c3a3da1c84bd6",
+  "serialization": "cleaned() removes triangulation only; exact geometry/topology retained",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "OCC_version": "7.8.1"
+}

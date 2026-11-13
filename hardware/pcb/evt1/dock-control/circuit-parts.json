@@ -1,0 +1,3727 @@
+{
+  "status": "native controller and lid UI schematic candidate; placement is an unrouted shared-base subset",
+  "parts": [
+    {
+      "reference": "U201",
+      "value": "STM32L071CBT6",
+      "manufacturer": "STMicroelectronics",
+      "mpn": "STM32L071CBT6",
+      "footprint": "DockControl:LQFP-48_7x7mm_P0.5mm",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "J201",
+      "value": "FH12-20S-0.5SH(55)",
+      "manufacturer": "Hirose",
+      "mpn": "FH12-20S-0.5SH(55)",
+      "footprint": "DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "U202",
+      "value": "ADS1115IDGSR /0x48",
+      "manufacturer": "Texas Instruments",
+      "mpn": "ADS1115IDGSR",
+      "footprint": "DockControl:VSSOP-10_3x3mm_P0.5mm",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "J202",
+      "value": "TC2030-CTX-NL SWD CONTACT PATTERN",
+      "manufacturer": "manual copper",
+      "mpn": "\u2013",
+      "footprint": "DockControl:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical",
+      "note": "Use Cortex TC2030-CTX-NL wiring:1VTREF,2SWDIO,3NRST,4SWCLK,5GND,6NC. NoSWO onthisM0+. Workshop tool, not populated connector.",
+      "item_type": "manual_copper",
+      "board": "controller"
+    },
+    {
+      "reference": "X201",
+      "value": "BASE INTERSHEET CONTRACT / NO PCB",
+      "manufacturer": "annotation",
+      "mpn": "\u2013",
+      "footprint": "",
+      "note": "Global circuit interface; no invented connector. Real ports resolve in fullsystem.",
+      "item_type": "annotation",
+      "board": "controller"
+    },
+    {
+      "reference": "R201",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R202",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R203",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R204",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R205",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R206",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R207",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R208",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R209",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R210",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R211",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R212",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R213",
+      "value": "10k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R214",
+      "value": "0 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603JR-070RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R215",
+      "value": "0 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603JR-070RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R216",
+      "value": "4k7 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-074K7L",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R217",
+      "value": "4k7 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-074K7L",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R218",
+      "value": "10k0.1 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R219",
+      "value": "10k0.1 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R220",
+      "value": "1k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R221",
+      "value": "1k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R222",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R223",
+      "value": "150k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07150KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R224",
+      "value": "2k2 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-072K2L",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R225",
+      "value": "10k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R226",
+      "value": "10k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C201",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C202",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C203",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C204",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C205",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C207",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C208",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C209",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C210",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C211",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C212",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C206",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "D201",
+      "value": "LTST-C190KGKT GREEN",
+      "manufacturer": "Lite-On",
+      "mpn": "LTST-C190KGKT",
+      "footprint": "DockControl:LED_0603_1608Metric",
+      "note": "Low-current status indication; confirm brightness at~0.5mA.",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "TP201",
+      "value": "BOOT0 WORKSHOP PAD",
+      "manufacturer": "manual copper",
+      "mpn": "\u2013",
+      "footprint": "DockControl:TestPoint_Pad_D1.0mm",
+      "note": "",
+      "item_type": "manual_copper",
+      "board": "controller"
+    },
+    {
+      "reference": "#FLG201",
+      "value": "PWR_FLAG",
+      "manufacturer": "annotation",
+      "mpn": "\u2013",
+      "footprint": "",
+      "note": "Standalone supply context; not proof of external source.",
+      "item_type": "annotation",
+      "board": "controller"
+    },
+    {
+      "reference": "#FLG202",
+      "value": "PWR_FLAG",
+      "manufacturer": "annotation",
+      "mpn": "\u2013",
+      "footprint": "",
+      "note": "Standalone supply context; not proof of external source.",
+      "item_type": "annotation",
+      "board": "controller"
+    },
+    {
+      "reference": "#FLG203",
+      "value": "PWR_FLAG",
+      "manufacturer": "annotation",
+      "mpn": "\u2013",
+      "footprint": "",
+      "note": "Standalone supply context; not proof of external source.",
+      "item_type": "annotation",
+      "board": "controller"
+    },
+    {
+      "reference": "#FLG204",
+      "value": "PWR_FLAG",
+      "manufacturer": "annotation",
+      "mpn": "\u2013",
+      "footprint": "",
+      "note": "Standalone supply context; not proof of external source.",
+      "item_type": "annotation",
+      "board": "controller"
+    },
+    {
+      "reference": "LCD301",
+      "value": "NHD-C12864B2Z-RN-FBW",
+      "manufacturer": "Newhaven Display",
+      "mpn": "NHD-C12864B2Z-RN-FBW",
+      "footprint": "",
+      "note": "Purchased COGLCD, linked nativeMCAD inCADassembly. NoPCBfootprint: mates throughJ302.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "J302",
+      "value": "52437-2771 / DIRECT LCD MATE",
+      "manufacturer": "Molex",
+      "mpn": "52437-2771",
+      "footprint": "DockControl:Molex_52437-2771_1x27-1MP_P0.50mm_Horizontal",
+      "note": "Selected forEVTmatingtrial; LCD3mm exposedland vsrecommended4mm. Pin p mates LCD pin p in installed pose.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "J301",
+      "value": "FH12-20S-0.5SH(55)",
+      "manufacturer": "Hirose",
+      "mpn": "FH12-20S-0.5SH(55)",
+      "footprint": "DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "S301",
+      "value": "B3FS-1002P",
+      "manufacturer": "Omron / Aratas",
+      "mpn": "B3FS-1002P",
+      "footprint": "DockControl:SW_SPST_Omron_B3FS-100xP",
+      "note": "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "S302",
+      "value": "B3FS-1002P",
+      "manufacturer": "Omron / Aratas",
+      "mpn": "B3FS-1002P",
+      "footprint": "DockControl:SW_SPST_Omron_B3FS-100xP",
+      "note": "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "S303",
+      "value": "B3FS-1002P",
+      "manufacturer": "Omron / Aratas",
+      "mpn": "B3FS-1002P",
+      "footprint": "DockControl:SW_SPST_Omron_B3FS-100xP",
+      "note": "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C301",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C302",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C303",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C304",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C305",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C306",
+      "value": "2.2uF50V",
+      "manufacturer": "TDK",
+      "mpn": "C3216X7R1H225K160AB",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C307",
+      "value": "2.2uF50V",
+      "manufacturer": "TDK",
+      "mpn": "C3216X7R1H225K160AB",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C308",
+      "value": "2.2uF50V",
+      "manufacturer": "TDK",
+      "mpn": "C3216X7R1H225K160AB",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C309",
+      "value": "2.2uF50V",
+      "manufacturer": "TDK",
+      "mpn": "C3216X7R1H225K160AB",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C310",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C311",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R301",
+      "value": "47k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R302",
+      "value": "47k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R303",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R304",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R305",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R306",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R307",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R308",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R309",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R310",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R311",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R312",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    }
+  ],
+  "generated_pin_manifest": [
+    {
+      "ref": "U201",
+      "value": "STM32L071CBT6",
+      "symbol": "STM32L071CBT6",
+      "sheet": "dock-controller",
+      "source": "https://www.st.com/resource/en/datasheet/stm32l071cb.pdf",
+      "footprint": "DockControl:LQFP-48_7x7mm_P0.5mm",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "VDD",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "PC13",
+          "net": "LOOP_A"
+        },
+        "3": {
+          "name": "PC14",
+          "net": "LOOP_B"
+        },
+        "4": {
+          "name": "PC15",
+          "net": "SOURCE_OK"
+        },
+        "5": {
+          "name": "PH0",
+          "net": null
+        },
+        "6": {
+          "name": "PH1",
+          "net": null
+        },
+        "7": {
+          "name": "NRST",
+          "net": "MCU_NRSTn"
+        },
+        "8": {
+          "name": "VSSA",
+          "net": "GND"
+        },
+        "9": {
+          "name": "VDDA",
+          "net": "3V3_ANALOG"
+        },
+        "10": {
+          "name": "PA0",
+          "net": "LCD_DB0_MCU"
+        },
+        "11": {
+          "name": "PA1",
+          "net": "LCD_DB1_MCU"
+        },
+        "12": {
+          "name": "PA2",
+          "net": "LCD_DB2_MCU"
+        },
+        "13": {
+          "name": "PA3",
+          "net": "LCD_DB3_MCU"
+        },
+        "14": {
+          "name": "PA4",
+          "net": "LCD_DB4_MCU"
+        },
+        "15": {
+          "name": "PA5",
+          "net": "LCD_DB5_MCU"
+        },
+        "16": {
+          "name": "PA6",
+          "net": "LCD_DB6_MCU"
+        },
+        "17": {
+          "name": "PA7",
+          "net": "LCD_DB7_MCU"
+        },
+        "18": {
+          "name": "PB0",
+          "net": "NTC_BASE_ADC"
+        },
+        "19": {
+          "name": "PB1",
+          "net": "NTC_LID_ADC"
+        },
+        "20": {
+          "name": "PB2",
+          "net": "UV_VBUS_MON"
+        },
+        "21": {
+          "name": "PB10",
+          "net": "MON_I2C_SCL"
+        },
+        "22": {
+          "name": "PB11",
+          "net": "MON_I2C_SDA"
+        },
+        "23": {
+          "name": "VSS",
+          "net": "GND"
+        },
+        "24": {
+          "name": "VDD",
+          "net": "3V3"
+        },
+        "25": {
+          "name": "PB12",
+          "net": "BTN_LEFTn"
+        },
+        "26": {
+          "name": "PB13",
+          "net": "BTN_CENTERn_DEBOUNCED"
+        },
+        "27": {
+          "name": "PB14",
+          "net": "BTN_RIGHTn"
+        },
+        "28": {
+          "name": "PB15",
+          "net": "MCU_ARM"
+        },
+        "29": {
+          "name": "PA8",
+          "net": "MCU_STOPn"
+        },
+        "30": {
+          "name": "PA9",
+          "net": "WDI"
+        },
+        "31": {
+          "name": "PA10",
+          "net": "UV_RUN"
+        },
+        "32": {
+          "name": "PA11",
+          "net": "DEVICE_FAULTn"
+        },
+        "33": {
+          "name": "PA12",
+          "net": "UV_LIMIT_FAULTn"
+        },
+        "34": {
+          "name": "PA13",
+          "net": "SWDIO"
+        },
+        "35": {
+          "name": "VSS",
+          "net": "GND"
+        },
+        "36": {
+          "name": "VDDIO2",
+          "net": "3V3"
+        },
+        "37": {
+          "name": "PA14",
+          "net": "SWCLK"
+        },
+        "38": {
+          "name": "PA15",
+          "net": "RELEASE_SEEN"
+        },
+        "39": {
+          "name": "PB3",
+          "net": "CC_OUT1"
+        },
+        "40": {
+          "name": "PB4",
+          "net": "CC_OUT2"
+        },
+        "41": {
+          "name": "PB5",
+          "net": "LCD_A0_MCU"
+        },
+        "42": {
+          "name": "PB6",
+          "net": "LCD_WRn_MCU"
+        },
+        "43": {
+          "name": "PB7",
+          "net": "LCD_CSn_MCU"
+        },
+        "44": {
+          "name": "BOOT0",
+          "net": "BOOT0"
+        },
+        "45": {
+          "name": "PB8",
+          "net": "LCD_RESETn_MCU"
+        },
+        "46": {
+          "name": "PB9",
+          "net": "STATUS_LED"
+        },
+        "47": {
+          "name": "VSS",
+          "net": "GND"
+        },
+        "48": {
+          "name": "VDD",
+          "net": "3V3"
+        }
+      }
+    },
+    {
+      "ref": "J201",
+      "value": "FH12-20S-0.5SH(55)",
+      "symbol": "FH12_20_BOTTOM",
+      "sheet": "dock-controller",
+      "source": "https://www.hirose.com/en/product/p/CL0586-0524-9-55",
+      "footprint": "DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "FFC_1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "FFC_2",
+          "net": "3V3_UI"
+        },
+        "3": {
+          "name": "FFC_3",
+          "net": "LCD_DB0"
+        },
+        "4": {
+          "name": "FFC_4",
+          "net": "LCD_DB1"
+        },
+        "5": {
+          "name": "FFC_5",
+          "net": "LCD_DB2"
+        },
+        "6": {
+          "name": "FFC_6",
+          "net": "LCD_DB3"
+        },
+        "7": {
+          "name": "FFC_7",
+          "net": "LCD_DB4"
+        },
+        "8": {
+          "name": "FFC_8",
+          "net": "LCD_DB5"
+        },
+        "9": {
+          "name": "FFC_9",
+          "net": "LCD_DB6"
+        },
+        "10": {
+          "name": "FFC_10",
+          "net": "LCD_DB7"
+        },
+        "11": {
+          "name": "FFC_11",
+          "net": "LCD_A0"
+        },
+        "12": {
+          "name": "FFC_12",
+          "net": "LCD_WRn"
+        },
+        "13": {
+          "name": "FFC_13",
+          "net": "LCD_CSn"
+        },
+        "14": {
+          "name": "FFC_14",
+          "net": "LCD_RESETn"
+        },
+        "15": {
+          "name": "FFC_15",
+          "net": "BTN_LEFTn"
+        },
+        "16": {
+          "name": "FFC_16",
+          "net": "BTN_CENTERn_RAW"
+        },
+        "17": {
+          "name": "FFC_17",
+          "net": "BTN_RIGHTn"
+        },
+        "18": {
+          "name": "FFC_18",
+          "net": "GND"
+        },
+        "19": {
+          "name": "FFC_19",
+          "net": "GND"
+        },
+        "20": {
+          "name": "FFC_20",
+          "net": "GND"
+        },
+        "MP": {
+          "name": "METAL_HOLDDOWNS",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "U202",
+      "value": "ADS1115IDGSR /0x48",
+      "symbol": "ADS1115_DOCK",
+      "sheet": "dock-controller",
+      "source": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+      "footprint": "DockControl:VSSOP-10_3x3mm_P0.5mm",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "ADDR_GND",
+          "net": "GND"
+        },
+        "4": {
+          "name": "AIN0_BASE_FB",
+          "net": "BASE_FB"
+        },
+        "5": {
+          "name": "AIN1_LID_FB",
+          "net": "LID_FB"
+        },
+        "6": {
+          "name": "AIN2_BASE_VOUT_DIV",
+          "net": "BASE_VOUT_DIV"
+        },
+        "7": {
+          "name": "AIN3_LID_VOUT_DIV",
+          "net": "LID_VOUT_DIV"
+        },
+        "8": {
+          "name": "VDD",
+          "net": "3V3_ANALOG"
+        },
+        "3": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "9": {
+          "name": "SDA",
+          "net": "MON_I2C_SDA"
+        },
+        "10": {
+          "name": "SCL",
+          "net": "MON_I2C_SCL"
+        },
+        "2": {
+          "name": "ALERT_RDY",
+          "net": null
+        }
+      }
+    },
+    {
+      "ref": "J202",
+      "value": "TC2030-CTX-NL SWD CONTACT PATTERN",
+      "symbol": "Conn6",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Use Cortex TC2030-CTX-NL wiring:1VTREF,2SWDIO,3NRST,4SWCLK,5GND,6NC. NoSWO onthisM0+. Workshop tool, not populated connector.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "SWDIO"
+        },
+        "3": {
+          "name": "3",
+          "net": "MCU_NRSTn"
+        },
+        "4": {
+          "name": "4",
+          "net": "SWCLK"
+        },
+        "5": {
+          "name": "5",
+          "net": "GND"
+        },
+        "6": {
+          "name": "6",
+          "net": null
+        }
+      }
+    },
+    {
+      "ref": "X201",
+      "value": "BASE INTERSHEET CONTRACT / NO PCB",
+      "symbol": "BASE_CONTEXT_PORTS",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "",
+      "assembly_domain": "INTERSHEET_CONTEXT",
+      "on_main_board": false,
+      "note": "Global circuit interface; no invented connector. Real ports resolve in fullsystem.",
+      "pins": {
+        "1": {
+          "name": "SOURCE_OK",
+          "net": "SOURCE_OK"
+        },
+        "2": {
+          "name": "CC_OUT1",
+          "net": "CC_OUT1"
+        },
+        "3": {
+          "name": "CC_OUT2",
+          "net": "CC_OUT2"
+        },
+        "4": {
+          "name": "DEVICE_FAULTn",
+          "net": "DEVICE_FAULTn"
+        },
+        "5": {
+          "name": "UV_LIMIT_FAULTn",
+          "net": "UV_LIMIT_FAULTn"
+        },
+        "6": {
+          "name": "LOOP_A",
+          "net": "LOOP_A"
+        },
+        "7": {
+          "name": "LOOP_B",
+          "net": "LOOP_B"
+        },
+        "8": {
+          "name": "MCU_NRSTn",
+          "net": "MCU_NRSTn"
+        },
+        "9": {
+          "name": "UV_RUN",
+          "net": "UV_RUN"
+        },
+        "10": {
+          "name": "RELEASE_SEEN",
+          "net": "RELEASE_SEEN"
+        },
+        "11": {
+          "name": "BTN_CENTERn_DEBOUNCED",
+          "net": "BTN_CENTERn_DEBOUNCED"
+        },
+        "12": {
+          "name": "BTN_CENTERn_RAW",
+          "net": "BTN_CENTERn_RAW"
+        },
+        "13": {
+          "name": "MCU_ARM",
+          "net": "MCU_ARM"
+        },
+        "14": {
+          "name": "MCU_STOPn",
+          "net": "MCU_STOPn"
+        },
+        "15": {
+          "name": "WDI",
+          "net": "WDI"
+        },
+        "16": {
+          "name": "UV_5V_SW",
+          "net": "UV_5V_SW"
+        },
+        "17": {
+          "name": "BASE_FB",
+          "net": "BASE_FB"
+        },
+        "18": {
+          "name": "LID_FB",
+          "net": "LID_FB"
+        },
+        "19": {
+          "name": "BASE_VOUT_DIV",
+          "net": "BASE_VOUT_DIV"
+        },
+        "20": {
+          "name": "LID_VOUT_DIV",
+          "net": "LID_VOUT_DIV"
+        },
+        "21": {
+          "name": "NTC_BASE",
+          "net": "NTC_BASE"
+        },
+        "22": {
+          "name": "NTC_LID",
+          "net": "NTC_LID"
+        },
+        "23": {
+          "name": "3V3",
+          "net": "3V3"
+        },
+        "24": {
+          "name": "GND",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R201",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB0_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_DB0"
+        }
+      }
+    },
+    {
+      "ref": "R202",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB1_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_DB1"
+        }
+      }
+    },
+    {
+      "ref": "R203",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB2_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_DB2"
+        }
+      }
+    },
+    {
+      "ref": "R204",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB3_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_DB3"
+        }
+      }
+    },
+    {
+      "ref": "R205",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB4_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_DB4"
+        }
+      }
+    },
+    {
+      "ref": "R206",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB5_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_DB5"
+        }
+      }
+    },
+    {
+      "ref": "R207",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB6_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_DB6"
+        }
+      }
+    },
+    {
+      "ref": "R208",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB7_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_DB7"
+        }
+      }
+    },
+    {
+      "ref": "R209",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_A0_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_A0"
+        }
+      }
+    },
+    {
+      "ref": "R210",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_WRn_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_WRn"
+        }
+      }
+    },
+    {
+      "ref": "R211",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_CSn_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_CSn"
+        }
+      }
+    },
+    {
+      "ref": "R212",
+      "value": "33 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_RESETn_MCU"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_RESETn"
+        }
+      }
+    },
+    {
+      "ref": "R213",
+      "value": "10k ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BOOT0"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R214",
+      "value": "0 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "3V3_ANALOG"
+        }
+      }
+    },
+    {
+      "ref": "R215",
+      "value": "0 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "3V3_UI"
+        }
+      }
+    },
+    {
+      "ref": "R216",
+      "value": "4k7 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_ANALOG"
+        },
+        "2": {
+          "name": "2",
+          "net": "MON_I2C_SCL"
+        }
+      }
+    },
+    {
+      "ref": "R217",
+      "value": "4k7 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_ANALOG"
+        },
+        "2": {
+          "name": "2",
+          "net": "MON_I2C_SDA"
+        }
+      }
+    },
+    {
+      "ref": "R218",
+      "value": "10k0.1 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_ANALOG"
+        },
+        "2": {
+          "name": "2",
+          "net": "NTC_BASE"
+        }
+      }
+    },
+    {
+      "ref": "R219",
+      "value": "10k0.1 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_ANALOG"
+        },
+        "2": {
+          "name": "2",
+          "net": "NTC_LID"
+        }
+      }
+    },
+    {
+      "ref": "R220",
+      "value": "1k ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "NTC_BASE"
+        },
+        "2": {
+          "name": "2",
+          "net": "NTC_BASE_ADC"
+        }
+      }
+    },
+    {
+      "ref": "R221",
+      "value": "1k ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "NTC_LID"
+        },
+        "2": {
+          "name": "2",
+          "net": "NTC_LID_ADC"
+        }
+      }
+    },
+    {
+      "ref": "R222",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "UV_5V_SW"
+        },
+        "2": {
+          "name": "2",
+          "net": "UV_VBUS_MON"
+        }
+      }
+    },
+    {
+      "ref": "R223",
+      "value": "150k ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "UV_VBUS_MON"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R224",
+      "value": "2k2 ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "STATUS_LED"
+        },
+        "2": {
+          "name": "2",
+          "net": "STATUS_LED_A"
+        }
+      }
+    },
+    {
+      "ref": "R225",
+      "value": "10k ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "BTN_LEFTn"
+        }
+      }
+    },
+    {
+      "ref": "R226",
+      "value": "10k ohm",
+      "symbol": "R",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "BTN_RIGHTn"
+        }
+      }
+    },
+    {
+      "ref": "C201",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C202",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C203",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C204",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C205",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_ANALOG"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C207",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "MCU_NRSTn"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C208",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "NTC_BASE_ADC"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C209",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "NTC_LID_ADC"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C210",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_ANALOG"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C211",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BTN_LEFTn"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C212",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BTN_RIGHTn"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C206",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_ANALOG"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "D201",
+      "value": "LTST-C190KGKT GREEN",
+      "symbol": "LED",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:LED_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Low-current status indication; confirm brightness at~0.5mA.",
+      "pins": {
+        "2": {
+          "name": "A",
+          "net": "STATUS_LED_A"
+        },
+        "1": {
+          "name": "K",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "TP201",
+      "value": "BOOT0 WORKSHOP PAD",
+      "symbol": "Conn1",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "DockControl:TestPoint_Pad_D1.0mm",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BOOT0"
+        }
+      }
+    },
+    {
+      "ref": "#FLG201",
+      "value": "PWR_FLAG",
+      "symbol": "PWR_FLAG",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "",
+      "assembly_domain": "ANNOTATION",
+      "on_main_board": false,
+      "note": "Standalone supply context; not proof of external source.",
+      "pins": {
+        "1": {
+          "name": "pwr",
+          "net": "3V3"
+        }
+      }
+    },
+    {
+      "ref": "#FLG202",
+      "value": "PWR_FLAG",
+      "symbol": "PWR_FLAG",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "",
+      "assembly_domain": "ANNOTATION",
+      "on_main_board": false,
+      "note": "Standalone supply context; not proof of external source.",
+      "pins": {
+        "1": {
+          "name": "pwr",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "#FLG203",
+      "value": "PWR_FLAG",
+      "symbol": "PWR_FLAG",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "",
+      "assembly_domain": "ANNOTATION",
+      "on_main_board": false,
+      "note": "Standalone supply context; not proof of external source.",
+      "pins": {
+        "1": {
+          "name": "pwr",
+          "net": "3V3_ANALOG"
+        }
+      }
+    },
+    {
+      "ref": "#FLG204",
+      "value": "PWR_FLAG",
+      "symbol": "PWR_FLAG",
+      "sheet": "dock-controller",
+      "source": "",
+      "footprint": "",
+      "assembly_domain": "ANNOTATION",
+      "on_main_board": false,
+      "note": "Standalone supply context; not proof of external source.",
+      "pins": {
+        "1": {
+          "name": "pwr",
+          "net": "3V3_UI"
+        }
+      }
+    },
+    {
+      "ref": "LCD301",
+      "value": "NHD-C12864B2Z-RN-FBW",
+      "symbol": "NHD_C12864B2Z",
+      "sheet": "dock-lid-ui",
+      "source": "https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf",
+      "footprint": "",
+      "assembly_domain": "OFF_BOARD_LCD",
+      "on_main_board": false,
+      "note": "Purchased COGLCD, linked nativeMCAD inCADassembly. NoPCBfootprint: mates throughJ302.",
+      "pins": {
+        "1": {
+          "name": "V0",
+          "net": "LCD_V0"
+        },
+        "2": {
+          "name": "V1",
+          "net": "LCD_V1"
+        },
+        "3": {
+          "name": "V2",
+          "net": "LCD_V2"
+        },
+        "4": {
+          "name": "V3",
+          "net": "LCD_V3"
+        },
+        "5": {
+          "name": "V4",
+          "net": "LCD_V4"
+        },
+        "6": {
+          "name": "C4_PLUS_NC",
+          "net": null
+        },
+        "7": {
+          "name": "C2_MINUS",
+          "net": "LCD_C2M"
+        },
+        "8": {
+          "name": "C2_PLUS",
+          "net": "LCD_C2P"
+        },
+        "9": {
+          "name": "C1_PLUS",
+          "net": "LCD_C1P"
+        },
+        "10": {
+          "name": "C1_MINUS",
+          "net": "LCD_C1M"
+        },
+        "11": {
+          "name": "C3_PLUS",
+          "net": "LCD_C3P"
+        },
+        "12": {
+          "name": "VOUT",
+          "net": "LCD_VOUT"
+        },
+        "13": {
+          "name": "VDD",
+          "net": "3V3_UI"
+        },
+        "14": {
+          "name": "VSS",
+          "net": "GND"
+        },
+        "15": {
+          "name": "DB7",
+          "net": "LCD_DB7"
+        },
+        "16": {
+          "name": "DB6",
+          "net": "LCD_DB6"
+        },
+        "17": {
+          "name": "DB5",
+          "net": "LCD_DB5"
+        },
+        "18": {
+          "name": "DB4",
+          "net": "LCD_DB4"
+        },
+        "19": {
+          "name": "DB3",
+          "net": "LCD_DB3"
+        },
+        "20": {
+          "name": "DB2",
+          "net": "LCD_DB2"
+        },
+        "21": {
+          "name": "DB1",
+          "net": "LCD_DB1"
+        },
+        "22": {
+          "name": "DB0",
+          "net": "LCD_DB0"
+        },
+        "23": {
+          "name": "RD_N_WRITE_ONLY",
+          "net": "3V3_UI"
+        },
+        "24": {
+          "name": "WR_N",
+          "net": "LCD_WRn"
+        },
+        "25": {
+          "name": "A0",
+          "net": "LCD_A0"
+        },
+        "26": {
+          "name": "RESET_N",
+          "net": "LCD_RESETn"
+        },
+        "27": {
+          "name": "CS_N",
+          "net": "LCD_CSn"
+        }
+      }
+    },
+    {
+      "ref": "J302",
+      "value": "52437-2771 / DIRECT LCD MATE",
+      "symbol": "MOLEX_52437_2771",
+      "sheet": "dock-lid-ui",
+      "source": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/524/52437/524373071_sd.pdf",
+      "footprint": "DockControl:Molex_52437-2771_1x27-1MP_P0.50mm_Horizontal",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Selected forEVTmatingtrial; LCD3mm exposedland vsrecommended4mm. Pin p mates LCD pin p in installed pose.",
+      "pins": {
+        "1": {
+          "name": "MATES_LCD_1",
+          "net": "LCD_V0"
+        },
+        "2": {
+          "name": "MATES_LCD_2",
+          "net": "LCD_V1"
+        },
+        "3": {
+          "name": "MATES_LCD_3",
+          "net": "LCD_V2"
+        },
+        "4": {
+          "name": "MATES_LCD_4",
+          "net": "LCD_V3"
+        },
+        "5": {
+          "name": "MATES_LCD_5",
+          "net": "LCD_V4"
+        },
+        "6": {
+          "name": "MATES_LCD_6",
+          "net": null
+        },
+        "7": {
+          "name": "MATES_LCD_7",
+          "net": "LCD_C2M"
+        },
+        "8": {
+          "name": "MATES_LCD_8",
+          "net": "LCD_C2P"
+        },
+        "9": {
+          "name": "MATES_LCD_9",
+          "net": "LCD_C1P"
+        },
+        "10": {
+          "name": "MATES_LCD_10",
+          "net": "LCD_C1M"
+        },
+        "11": {
+          "name": "MATES_LCD_11",
+          "net": "LCD_C3P"
+        },
+        "12": {
+          "name": "MATES_LCD_12",
+          "net": "LCD_VOUT"
+        },
+        "13": {
+          "name": "MATES_LCD_13",
+          "net": "3V3_UI"
+        },
+        "14": {
+          "name": "MATES_LCD_14",
+          "net": "GND"
+        },
+        "15": {
+          "name": "MATES_LCD_15",
+          "net": "LCD_DB7"
+        },
+        "16": {
+          "name": "MATES_LCD_16",
+          "net": "LCD_DB6"
+        },
+        "17": {
+          "name": "MATES_LCD_17",
+          "net": "LCD_DB5"
+        },
+        "18": {
+          "name": "MATES_LCD_18",
+          "net": "LCD_DB4"
+        },
+        "19": {
+          "name": "MATES_LCD_19",
+          "net": "LCD_DB3"
+        },
+        "20": {
+          "name": "MATES_LCD_20",
+          "net": "LCD_DB2"
+        },
+        "21": {
+          "name": "MATES_LCD_21",
+          "net": "LCD_DB1"
+        },
+        "22": {
+          "name": "MATES_LCD_22",
+          "net": "LCD_DB0"
+        },
+        "23": {
+          "name": "MATES_LCD_23",
+          "net": "3V3_UI"
+        },
+        "24": {
+          "name": "MATES_LCD_24",
+          "net": "LCD_WRn"
+        },
+        "25": {
+          "name": "MATES_LCD_25",
+          "net": "LCD_A0"
+        },
+        "26": {
+          "name": "MATES_LCD_26",
+          "net": "LCD_RESETn"
+        },
+        "27": {
+          "name": "MATES_LCD_27",
+          "net": "LCD_CSn"
+        },
+        "MP": {
+          "name": "METAL_HOLDDOWNS",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "J301",
+      "value": "FH12-20S-0.5SH(55)",
+      "symbol": "FH12_20_BOTTOM",
+      "sheet": "dock-lid-ui",
+      "source": "https://www.hirose.com/en/product/p/CL0586-0524-9-55",
+      "footprint": "DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "FFC_1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "FFC_2",
+          "net": "3V3_UI"
+        },
+        "3": {
+          "name": "FFC_3",
+          "net": "LCD_DB0"
+        },
+        "4": {
+          "name": "FFC_4",
+          "net": "LCD_DB1"
+        },
+        "5": {
+          "name": "FFC_5",
+          "net": "LCD_DB2"
+        },
+        "6": {
+          "name": "FFC_6",
+          "net": "LCD_DB3"
+        },
+        "7": {
+          "name": "FFC_7",
+          "net": "LCD_DB4"
+        },
+        "8": {
+          "name": "FFC_8",
+          "net": "LCD_DB5"
+        },
+        "9": {
+          "name": "FFC_9",
+          "net": "LCD_DB6"
+        },
+        "10": {
+          "name": "FFC_10",
+          "net": "LCD_DB7"
+        },
+        "11": {
+          "name": "FFC_11",
+          "net": "LCD_A0"
+        },
+        "12": {
+          "name": "FFC_12",
+          "net": "LCD_WRn"
+        },
+        "13": {
+          "name": "FFC_13",
+          "net": "LCD_CSn"
+        },
+        "14": {
+          "name": "FFC_14",
+          "net": "LCD_RESETn"
+        },
+        "15": {
+          "name": "FFC_15",
+          "net": "BTN_LEFTn"
+        },
+        "16": {
+          "name": "FFC_16",
+          "net": "BTN_CENTERn_RAW"
+        },
+        "17": {
+          "name": "FFC_17",
+          "net": "BTN_RIGHTn"
+        },
+        "18": {
+          "name": "FFC_18",
+          "net": "GND"
+        },
+        "19": {
+          "name": "FFC_19",
+          "net": "GND"
+        },
+        "20": {
+          "name": "FFC_20",
+          "net": "GND"
+        },
+        "MP": {
+          "name": "METAL_HOLDDOWNS",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "S301",
+      "value": "B3FS-1002P",
+      "symbol": "SW",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:SW_SPST_Omron_B3FS-100xP",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BTN_LEFTn"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "S302",
+      "value": "B3FS-1002P",
+      "symbol": "SW",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:SW_SPST_Omron_B3FS-100xP",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BTN_CENTERn_RAW"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "S303",
+      "value": "B3FS-1002P",
+      "symbol": "SW",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:SW_SPST_Omron_B3FS-100xP",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "BTN_RIGHTn"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C301",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_V0"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C302",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_V1"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C303",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_V2"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C304",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C305",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_V4"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C306",
+      "value": "2.2uF50V",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_C2M"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_C2P"
+        }
+      }
+    },
+    {
+      "ref": "C307",
+      "value": "2.2uF50V",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_C1P"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_C1M"
+        }
+      }
+    },
+    {
+      "ref": "C308",
+      "value": "2.2uF50V",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_C3P"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_C1M"
+        }
+      }
+    },
+    {
+      "ref": "C309",
+      "value": "2.2uF50V",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_VOUT"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C310",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_UI"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C311",
+      "value": "100nF",
+      "symbol": "C",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_UI"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R301",
+      "value": "47k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_UI"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_CSn"
+        }
+      }
+    },
+    {
+      "ref": "R302",
+      "value": "47k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3_UI"
+        },
+        "2": {
+          "name": "2",
+          "net": "LCD_WRn"
+        }
+      }
+    },
+    {
+      "ref": "R303",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_RESETn"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R304",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_A0"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R305",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB0"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R306",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB1"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R307",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB2"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R308",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R309",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB4"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R310",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB5"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R311",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB6"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R312",
+      "value": "100k ohm",
+      "symbol": "R",
+      "sheet": "dock-lid-ui",
+      "source": "",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "LCD_DB7"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    }
+  ],
+  "stock_footprint_snapshots": {
+    "LQFP-48_7x7mm_P0.5mm": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_QFP.pretty/LQFP-48_7x7mm_P0.5mm.kicad_mod",
+      "sha256": "01122c4b6e6db957683d0dd7aed0b7add72ad2cca01ca258908d2ebac4bee9d8"
+    },
+    "VSSOP-10_3x3mm_P0.5mm": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_SO.pretty/VSSOP-10_3x3mm_P0.5mm.kicad_mod",
+      "sha256": "cd57ee7dfbd384dc1781f12ed058ece515e52a530370701d039e9641f2ccd1f6"
+    },
+    "Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Connector_FFC-FPC.pretty/Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal.kicad_mod",
+      "sha256": "6f04c725dbe1c5e58a7c12d19360fe04c251fa744c514d8b320e264b8dd28c06"
+    },
+    "Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Connector.pretty/Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical.kicad_mod",
+      "sha256": "57c6d35b43e1b88a36581eba48f1ea77345677124233631fb1b3fce3abab76c3"
+    },
+    "R_0603_1608Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    "C_0402_1005Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod",
+      "sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    "C_0603_1608Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+      "sha256": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6"
+    },
+    "C_1206_3216Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_1206_3216Metric.kicad_mod",
+      "sha256": "0260300ad70a54d468e7e1462882d2b79160ff261c8536201e95cb1b67454a56"
+    },
+    "SW_SPST_Omron_B3FS-100xP": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Button_Switch_SMD.pretty/SW_SPST_Omron_B3FS-100xP.kicad_mod",
+      "sha256": "726dbb863b9ed4b3f22269ee234a9b58e0ef323cc33e68cba9e7e7aff954543f"
+    },
+    "TestPoint_Pad_D1.0mm": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/TestPoint.pretty/TestPoint_Pad_D1.0mm.kicad_mod",
+      "sha256": "f656c9fb1f11e345b0f97d9a7119972e5dcca486fc2ca65bd06c086ce49cc0f7"
+    },
+    "LED_0603_1608Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/LED_SMD.pretty/LED_0603_1608Metric.kicad_mod",
+      "sha256": "fc97fced1536541b16bae010b22d0204b3c6e7680ebf76507c56f7dff2c16649"
+    }
+  },
+  "MCU_physical_pin_map": {
+    "10": {
+      "gpio": "PA0",
+      "net": "LCD_DB0_MCU",
+      "direction": "output"
+    },
+    "11": {
+      "gpio": "PA1",
+      "net": "LCD_DB1_MCU",
+      "direction": "output"
+    },
+    "12": {
+      "gpio": "PA2",
+      "net": "LCD_DB2_MCU",
+      "direction": "output"
+    },
+    "13": {
+      "gpio": "PA3",
+      "net": "LCD_DB3_MCU",
+      "direction": "output"
+    },
+    "14": {
+      "gpio": "PA4",
+      "net": "LCD_DB4_MCU",
+      "direction": "output"
+    },
+    "15": {
+      "gpio": "PA5",
+      "net": "LCD_DB5_MCU",
+      "direction": "output"
+    },
+    "16": {
+      "gpio": "PA6",
+      "net": "LCD_DB6_MCU",
+      "direction": "output"
+    },
+    "17": {
+      "gpio": "PA7",
+      "net": "LCD_DB7_MCU",
+      "direction": "output"
+    },
+    "2": {
+      "gpio": "PC13",
+      "net": "LOOP_A",
+      "direction": "input"
+    },
+    "3": {
+      "gpio": "PC14",
+      "net": "LOOP_B",
+      "direction": "input"
+    },
+    "4": {
+      "gpio": "PC15",
+      "net": "SOURCE_OK",
+      "direction": "input"
+    },
+    "18": {
+      "gpio": "PB0",
+      "net": "NTC_BASE_ADC",
+      "direction": "analoginputADC8"
+    },
+    "19": {
+      "gpio": "PB1",
+      "net": "NTC_LID_ADC",
+      "direction": "analoginputADC9"
+    },
+    "20": {
+      "gpio": "PB2",
+      "net": "UV_VBUS_MON",
+      "direction": "input"
+    },
+    "21": {
+      "gpio": "PB10",
+      "net": "MON_I2C_SCL",
+      "direction": "I2C2SCL"
+    },
+    "22": {
+      "gpio": "PB11",
+      "net": "MON_I2C_SDA",
+      "direction": "I2C2SDA"
+    },
+    "25": {
+      "gpio": "PB12",
+      "net": "BTN_LEFTn",
+      "direction": "input"
+    },
+    "26": {
+      "gpio": "PB13",
+      "net": "BTN_CENTERn_DEBOUNCED",
+      "direction": "input"
+    },
+    "27": {
+      "gpio": "PB14",
+      "net": "BTN_RIGHTn",
+      "direction": "input"
+    },
+    "28": {
+      "gpio": "PB15",
+      "net": "MCU_ARM",
+      "direction": "output;external100kpulldown"
+    },
+    "29": {
+      "gpio": "PA8",
+      "net": "MCU_STOPn",
+      "direction": "output;external100kpulldown"
+    },
+    "30": {
+      "gpio": "PA9",
+      "net": "WDI",
+      "direction": "output;mainloopheartbeat"
+    },
+    "31": {
+      "gpio": "PA10",
+      "net": "UV_RUN",
+      "direction": "input"
+    },
+    "32": {
+      "gpio": "PA11",
+      "net": "DEVICE_FAULTn",
+      "direction": "input"
+    },
+    "33": {
+      "gpio": "PA12",
+      "net": "UV_LIMIT_FAULTn",
+      "direction": "input"
+    },
+    "34": {
+      "gpio": "PA13",
+      "net": "SWDIO",
+      "direction": "debug"
+    },
+    "37": {
+      "gpio": "PA14",
+      "net": "SWCLK",
+      "direction": "debug"
+    },
+    "38": {
+      "gpio": "PA15",
+      "net": "RELEASE_SEEN",
+      "direction": "input"
+    },
+    "39": {
+      "gpio": "PB3",
+      "net": "CC_OUT1",
+      "direction": "input"
+    },
+    "40": {
+      "gpio": "PB4",
+      "net": "CC_OUT2",
+      "direction": "input"
+    },
+    "41": {
+      "gpio": "PB5",
+      "net": "LCD_A0_MCU",
+      "direction": "output"
+    },
+    "42": {
+      "gpio": "PB6",
+      "net": "LCD_WRn_MCU",
+      "direction": "output"
+    },
+    "43": {
+      "gpio": "PB7",
+      "net": "LCD_CSn_MCU",
+      "direction": "output"
+    },
+    "45": {
+      "gpio": "PB8",
+      "net": "LCD_RESETn_MCU",
+      "direction": "output"
+    },
+    "46": {
+      "gpio": "PB9",
+      "net": "STATUS_LED",
+      "direction": "output;defaultsourceLEDoff"
+    },
+    "1": {
+      "gpio": "VDD",
+      "net": "3V3",
+      "direction": "supplyorcontrol"
+    },
+    "7": {
+      "gpio": "NRST",
+      "net": "MCU_NRSTn",
+      "direction": "supplyorcontrol"
+    },
+    "8": {
+      "gpio": "VSSA",
+      "net": "GND",
+      "direction": "supplyorcontrol"
+    },
+    "9": {
+      "gpio": "VDDA",
+      "net": "3V3_ANALOG",
+      "direction": "supplyorcontrol"
+    },
+    "23": {
+      "gpio": "VSS",
+      "net": "GND",
+      "direction": "supplyorcontrol"
+    },
+    "24": {
+      "gpio": "VDD",
+      "net": "3V3",
+      "direction": "supplyorcontrol"
+    },
+    "35": {
+      "gpio": "VSS",
+      "net": "GND",
+      "direction": "supplyorcontrol"
+    },
+    "36": {
+      "gpio": "VDDIO2",
+      "net": "3V3",
+      "direction": "supplyorcontrol"
+    },
+    "44": {
+      "gpio": "BOOT0",
+      "net": "BOOT0",
+      "direction": "supplyorcontrol"
+    },
+    "47": {
+      "gpio": "VSS",
+      "net": "GND",
+      "direction": "supplyorcontrol"
+    },
+    "48": {
+      "gpio": "VDD",
+      "net": "3V3",
+      "direction": "supplyorcontrol"
+    },
+    "5": {
+      "gpio": "PH0",
+      "net": null,
+      "direction": "analoginputwhennotused"
+    },
+    "6": {
+      "gpio": "PH1",
+      "net": null,
+      "direction": "analoginputwhennotused"
+    }
+  },
+  "MCU_native_terminal_nets": {
+    "1": {
+      "name": "VDD",
+      "net": "3V3"
+    },
+    "2": {
+      "name": "PC13",
+      "net": "LOOP_A"
+    },
+    "3": {
+      "name": "PC14",
+      "net": "LOOP_B"
+    },
+    "4": {
+      "name": "PC15",
+      "net": "SOURCE_OK"
+    },
+    "5": {
+      "name": "PH0",
+      "net": null
+    },
+    "6": {
+      "name": "PH1",
+      "net": null
+    },
+    "7": {
+      "name": "NRST",
+      "net": "MCU_NRSTn"
+    },
+    "8": {
+      "name": "VSSA",
+      "net": "GND"
+    },
+    "9": {
+      "name": "VDDA",
+      "net": "3V3_ANALOG"
+    },
+    "10": {
+      "name": "PA0",
+      "net": "LCD_DB0_MCU"
+    },
+    "11": {
+      "name": "PA1",
+      "net": "LCD_DB1_MCU"
+    },
+    "12": {
+      "name": "PA2",
+      "net": "LCD_DB2_MCU"
+    },
+    "13": {
+      "name": "PA3",
+      "net": "LCD_DB3_MCU"
+    },
+    "14": {
+      "name": "PA4",
+      "net": "LCD_DB4_MCU"
+    },
+    "15": {
+      "name": "PA5",
+      "net": "LCD_DB5_MCU"
+    },
+    "16": {
+      "name": "PA6",
+      "net": "LCD_DB6_MCU"
+    },
+    "17": {
+      "name": "PA7",
+      "net": "LCD_DB7_MCU"
+    },
+    "18": {
+      "name": "PB0",
+      "net": "NTC_BASE_ADC"
+    },
+    "19": {
+      "name": "PB1",
+      "net": "NTC_LID_ADC"
+    },
+    "20": {
+      "name": "PB2",
+      "net": "UV_VBUS_MON"
+    },
+    "21": {
+      "name": "PB10",
+      "net": "MON_I2C_SCL"
+    },
+    "22": {
+      "name": "PB11",
+      "net": "MON_I2C_SDA"
+    },
+    "23": {
+      "name": "VSS",
+      "net": "GND"
+    },
+    "24": {
+      "name": "VDD",
+      "net": "3V3"
+    },
+    "25": {
+      "name": "PB12",
+      "net": "BTN_LEFTn"
+    },
+    "26": {
+      "name": "PB13",
+      "net": "BTN_CENTERn_DEBOUNCED"
+    },
+    "27": {
+      "name": "PB14",
+      "net": "BTN_RIGHTn"
+    },
+    "28": {
+      "name": "PB15",
+      "net": "MCU_ARM"
+    },
+    "29": {
+      "name": "PA8",
+      "net": "MCU_STOPn"
+    },
+    "30": {
+      "name": "PA9",
+      "net": "WDI"
+    },
+    "31": {
+      "name": "PA10",
+      "net": "UV_RUN"
+    },
+    "32": {
+      "name": "PA11",
+      "net": "DEVICE_FAULTn"
+    },
+    "33": {
+      "name": "PA12",
+      "net": "UV_LIMIT_FAULTn"
+    },
+    "34": {
+      "name": "PA13",
+      "net": "SWDIO"
+    },
+    "35": {
+      "name": "VSS",
+      "net": "GND"
+    },
+    "36": {
+      "name": "VDDIO2",
+      "net": "3V3"
+    },
+    "37": {
+      "name": "PA14",
+      "net": "SWCLK"
+    },
+    "38": {
+      "name": "PA15",
+      "net": "RELEASE_SEEN"
+    },
+    "39": {
+      "name": "PB3",
+      "net": "CC_OUT1"
+    },
+    "40": {
+      "name": "PB4",
+      "net": "CC_OUT2"
+    },
+    "41": {
+      "name": "PB5",
+      "net": "LCD_A0_MCU"
+    },
+    "42": {
+      "name": "PB6",
+      "net": "LCD_WRn_MCU"
+    },
+    "43": {
+      "name": "PB7",
+      "net": "LCD_CSn_MCU"
+    },
+    "44": {
+      "name": "BOOT0",
+      "net": "BOOT0"
+    },
+    "45": {
+      "name": "PB8",
+      "net": "LCD_RESETn_MCU"
+    },
+    "46": {
+      "name": "PB9",
+      "net": "STATUS_LED"
+    },
+    "47": {
+      "name": "VSS",
+      "net": "GND"
+    },
+    "48": {
+      "name": "VDD",
+      "net": "3V3"
+    }
+  },
+  "LCD_physical_pin_map": {
+    "1": {
+      "signal": "V0",
+      "net": "LCD_V0"
+    },
+    "2": {
+      "signal": "V1",
+      "net": "LCD_V1"
+    },
+    "3": {
+      "signal": "V2",
+      "net": "LCD_V2"
+    },
+    "4": {
+      "signal": "V3",
+      "net": "LCD_V3"
+    },
+    "5": {
+      "signal": "V4",
+      "net": "LCD_V4"
+    },
+    "6": {
+      "signal": "C4_PLUS_NC",
+      "net": null
+    },
+    "7": {
+      "signal": "C2_MINUS",
+      "net": "LCD_C2M"
+    },
+    "8": {
+      "signal": "C2_PLUS",
+      "net": "LCD_C2P"
+    },
+    "9": {
+      "signal": "C1_PLUS",
+      "net": "LCD_C1P"
+    },
+    "10": {
+      "signal": "C1_MINUS",
+      "net": "LCD_C1M"
+    },
+    "11": {
+      "signal": "C3_PLUS",
+      "net": "LCD_C3P"
+    },
+    "12": {
+      "signal": "VOUT",
+      "net": "LCD_VOUT"
+    },
+    "13": {
+      "signal": "VDD",
+      "net": "3V3_UI"
+    },
+    "14": {
+      "signal": "VSS",
+      "net": "GND"
+    },
+    "15": {
+      "signal": "DB7",
+      "net": "LCD_DB7"
+    },
+    "16": {
+      "signal": "DB6",
+      "net": "LCD_DB6"
+    },
+    "17": {
+      "signal": "DB5",
+      "net": "LCD_DB5"
+    },
+    "18": {
+      "signal": "DB4",
+      "net": "LCD_DB4"
+    },
+    "19": {
+      "signal": "DB3",
+      "net": "LCD_DB3"
+    },
+    "20": {
+      "signal": "DB2",
+      "net": "LCD_DB2"
+    },
+    "21": {
+      "signal": "DB1",
+      "net": "LCD_DB1"
+    },
+    "22": {
+      "signal": "DB0",
+      "net": "LCD_DB0"
+    },
+    "23": {
+      "signal": "RD_N_WRITE_ONLY",
+      "net": "3V3_UI"
+    },
+    "24": {
+      "signal": "WR_N",
+      "net": "LCD_WRn"
+    },
+    "25": {
+      "signal": "A0",
+      "net": "LCD_A0"
+    },
+    "26": {
+      "signal": "RESET_N",
+      "net": "LCD_RESETn"
+    },
+    "27": {
+      "signal": "CS_N",
+      "net": "LCD_CSn"
+    }
+  },
+  "LCD_socket_physical_pad_map": {
+    "1": "LCD_V0",
+    "2": "LCD_V1",
+    "3": "LCD_V2",
+    "4": "LCD_V3",
+    "5": "LCD_V4",
+    "6": null,
+    "7": "LCD_C2M",
+    "8": "LCD_C2P",
+    "9": "LCD_C1P",
+    "10": "LCD_C1M",
+    "11": "LCD_C3P",
+    "12": "LCD_VOUT",
+    "13": "3V3_UI",
+    "14": "GND",
+    "15": "LCD_DB7",
+    "16": "LCD_DB6",
+    "17": "LCD_DB5",
+    "18": "LCD_DB4",
+    "19": "LCD_DB3",
+    "20": "LCD_DB2",
+    "21": "LCD_DB1",
+    "22": "LCD_DB0",
+    "23": "3V3_UI",
+    "24": "LCD_WRn",
+    "25": "LCD_A0",
+    "26": "LCD_RESETn",
+    "27": "LCD_CSn",
+    "MP": "GND"
+  },
+  "hinge_link_pins": {
+    "1": "GND",
+    "2": "3V3_UI",
+    "3": "LCD_DB0",
+    "4": "LCD_DB1",
+    "5": "LCD_DB2",
+    "6": "LCD_DB3",
+    "7": "LCD_DB4",
+    "8": "LCD_DB5",
+    "9": "LCD_DB6",
+    "10": "LCD_DB7",
+    "11": "LCD_A0",
+    "12": "LCD_WRn",
+    "13": "LCD_CSn",
+    "14": "LCD_RESETn",
+    "15": "BTN_LEFTn",
+    "16": "BTN_CENTERn_RAW",
+    "17": "BTN_RIGHTn",
+    "18": "GND",
+    "19": "GND",
+    "20": "GND"
+  },
+  "builder_sha256": "6797217df3a095b87857fd78bd3f3a31ee60c3b949f80eb14a0668d3e2ace67f",
+  "full_product_order_ready": false
+}

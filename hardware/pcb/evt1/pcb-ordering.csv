@@ -1,0 +1,54 @@
+Manufacturer,MPN,Qty_per_complete_device_and_dock,References,Value,Footprints,Manufacturer_source,Assembly_note
+Alpha and Omega Semiconductor,AO3400A,1,body:Q1,AO3400A,PrototypeR0:SOT-23,https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf,
+Coilcraft,XFL4020-152MEC,2,body:L1 body:L2,1.5uH / Isat>=4A candidate,PrototypeR0:L_Coilcraft_XxL4020,https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf,Isat is specified at25C. Check transient/current/thermal behavior on assembled regulators; use manufacturer land pattern.
+Diodes Incorporated,B140HW-7,1,flange:D1,Schottky 1A/20V candidate,PrototypeR0:Diodes_B140HW_SOD123_A1_K2,https://www.diodes.com/datasheet/download/B140HW.pdf,Custom footprint uses logical pad1 ANODE /pad2 CATHODE. Physical cathode stripe goes at the CAD cathode bar/pad2; do not assume generic diode pad1 numbering.
+Espressif,ESP32-C3-MINI-1-N4X,1,flange:U6,ESP32-C3-MINI-1-N4X candidate,PrototypeR0:Espressif_ESP32-C3-MINI-1_53Pads,https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html,Preserve four-layer copper/antenna keepout. Quote stencil/ground-pad process using the native custom53-pad footprint.
+GCT,USB4105-GF-A-120,1,dock:J91,USB4105-GF-A-120,EVT1:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,https://gct.co/files/drawings/usb4105.pdf,
+JST,BM02B-SRSS-TB(LF)(SN),1,body:J5,TIP NTC / GND,EVT1:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf,Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.
+JST,SM02B-SRSS-TB(LF)(SN),1,body:J3,MOTOR_2PIN,PrototypeR0:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf,Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.
+JST,SM06B-SRSS-TB(LF)(SN),1,flange:J4,SERVICE_USB_BOOT,PrototypeR0:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf,Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.
+JST,SM10B-SRSS-TB(LF)(SN),2,body:J6 flange:J7,SM10B-SRSS-TB candidate,PrototypeR0:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf,Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.
+Littelfuse,1206L050YR,1,flange:F1,PTC 500mA candidate,PrototypeR0:Fuse_1206_3216Metric,https://www.littelfuse.com/assetdocs/resettable-ptcs-1206l-datasheet?assetguid=2b6a1515-d4ee-4c83-8bd4-152b4901b8f5,"500mA hold PTC, not a precise current limiter. Use6V variant matching this exact part/height, not a taller alternate."
+Mill-Max,0906-2-15-20-75-14-11-0,4,pins:P91 pins:P92 pins:P93 pins:P94,0906-2-15-20-75-14-11-0,EVT1:MillMax_0906_2,https://www.mill-max.com/products/spring-loaded/0906,"Spring pin through1mm board; height/stroke are set by the carrier/retainer, not a generic component-height box."
+Murata,GRM155R71C104KA88D,7,body:C28 body:C29 body:C61 flange:C71 sensor:C82 sensor:C84 dock:C92,100nF; 100nF / VDDIO local,EVT1:C_0402_1005Metric; PrototypeR0:C_0402_1005Metric,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23,
+Murata,GRM155R71C224KA12D,1,sensor:C81,220nF,EVT1:C_0402_1005Metric,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C224KA12%23,
+Murata,GRM155R71H103KA88D,2,body:C62 body:C63,10nF,EVT1:C_0402_1005Metric,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71H103KA88%23,
+Murata,GRM188R71C104KA01D,7,body:C16 body:C26 body:C27 body:C43 body:C44 flange:C32 flange:C34,100nF; 100nF 10V,PrototypeR0:Murata_GRM18_0603_Reflow,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23,
+Murata,GRM21BR61A106KE19L,6,body:C3 body:C11 body:C12 body:C21 body:C22 flange:C31,10uF 10V,PrototypeR0:Murata_GRM21_0805_Reflow,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23,
+Murata,GRM21BR71A475KA73L,2,body:C1 body:C2,4.7uF 10V; 4.7uF 10V X7R,PrototypeR0:Murata_GRM21_0805_Reflow,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR71A475KA73%23,
+Murata,GRM31CR71A226KE15L,6,body:C13 body:C14 body:C15 body:C23 body:C24 body:C25,22uF 10V X7R,PrototypeR0:Murata_GRM31_1206_Reflow,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23,
+Murata,GRM32ER61A476KE20L,1,body:C30,47uF 10V,PrototypeR0:Murata_GRM32_1210_Reflow,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM32ER61A476KE20%23,
+Omron,B3U-1000P,2,flange:SW1 flange:SW2,MODE / momentary; POWER / momentary,PrototypeR0:SW_SPST_B3U-1000P,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf,
+STMicroelectronics,LSM303AGRTR,1,sensor:U81,LSM303AGRTR,EVT1:LGA-12_2x2mm_P0.5mm,https://www.st.com/resource/en/datasheet/lsm303agr.pdf,Pin1 and fixed package orientation must match the native footprint. Do not rotate for convenience; board registers to the molded back arrow.
+STMicroelectronics,USBLC6-2SC6,2,flange:U75 dock:U91,USBLC6-2SC6,EVT1:SOT-23-6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,
+TDK,C1608X5R1A106K080AC,4,body:C51 body:C52 body:C53 body:C54,10uF 10V X5R 0603 HF,PrototypeR0:TDK_C1608_0603_Reflow,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC,
+TDK,C1608X7R1E105K080AB,2,flange:C33 dock:C91,1uF; 1uF 10V,EVT1:C_0603_1608Metric; PrototypeR0:TDK_C1608_0603_Reflow,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB,
+TDK,C2012X5R1E226M125AC,1,sensor:C83,22uF 10V / Ceff>=10uF at3V3,EVT1:C_0805_2012Metric,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1E226M125AC,C83 incoming/process acceptance: >=10uF effective at3.3V over intended temperature/age. Nominal22uF and voltage rating alone are not acceptance; manufacturer curves are reference data.
+Texas Instruments,ADS1115IDGSR,1,body:U7,ADS1115IDGSR /0x48,EVT1:VSSOP-10_3x3mm_P0.5mm,https://www.ti.com/lit/ds/symlink/ads1115.pdf,
+Texas Instruments,BQ24074RGTR,1,body:U1,BQ24074RGT candidate,PrototypeR0:TI_RGT0016C_3x3mm_BQ24074_EP1.68mm,https://www.ti.com/lit/ds/symlink/bq24074.pdf,
+Texas Instruments,DRV8212DSGR,1,body:U5,DRV8212DSG candidate,PrototypeR0:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,https://www.ti.com/lit/ds/symlink/drv8212.pdf,
+Texas Instruments,SN74LVC1G11DBVR,1,body:U4,SN74LVC1G11DBV candidate,PrototypeR0:SOT-23-6,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf,
+Texas Instruments,TPS2553DBVR,1,dock:U92,TPS2553DBVR,EVT1:SOT-23-6,https://www.ti.com/lit/ds/symlink/tps2553.pdf,
+Texas Instruments,TPS3422EGDRYR,1,flange:U71,TPS3422EGDRYR,EVT1:Texas_USON-6_1x1.45mm_P0.5mm_SMD,https://www.ti.com/lit/ds/symlink/tps3422.pdf,
+Texas Instruments,TPS3700DDCR,1,body:U8,TPS3700DDCR,PrototypeR0:TSOT-23-6,https://www.ti.com/lit/ds/symlink/tps3700.pdf,
+Texas Instruments,TPS3808G33DBVR,1,body:U9,TPS3808G33DBVR,PrototypeR0:SOT-23-6,https://www.ti.com/lit/ds/symlink/tps3808.pdf,
+Texas Instruments,TPS63070RNMR,2,body:U2 body:U3,TPS63070RNM candidate,PrototypeR0:TI_RNM0015A_2.5x3mm_TPS63070,https://www.ti.com/lit/ds/symlink/tps63070.pdf,
+Vishay,BAT54WS-E3-08,3,flange:D71 flange:D72 flange:D73,BAT54WS-E3-08,EVT1:D_SOD-323,https://www.vishay.com/docs/86465/bat54ws.pdf,
+Vishay,CRCW0402210KFKED,1,dock:R93,210k 1%,EVT1:R_0402_1005Metric,https://www.vishay.com/docs/20035/dcrcwe3.pdf,
+Vishay,TNPW0402100KBEED,5,body:R23 body:R24 body:R25 body:R48 dock:R94,100k; 100k 1%,EVT1:R_0402_1005Metric; PrototypeR0:R_0402_1005Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW040210K0BEED,8,body:R3 body:R4 body:R5 body:R61 body:R62 body:R63 body:R42 flange:R71,10.0k 0.1%; 10k; 10k 0.1%,EVT1:R_0402_1005Metric; PrototypeR0:R_0402_1005Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW040211K0BEED,1,body:R46,11k 1%,PrototypeR0:R_0402_1005Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW04021K00BEED,1,body:R47,1k 1%,PrototypeR0:R_0402_1005Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW040222R0BEED,2,flange:R75 flange:R76,22R,EVT1:R_0402_1005Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW04023K24BEED,1,body:R2,3.24k 1%,PrototypeR0:R_0402_1005Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW04025K10BEED,2,dock:R91 dock:R92,5.1k 1%,EVT1:R_0402_1005Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW04028K87BEED,1,body:R1,8.87k 1% / ~100mA,PrototypeR0:R_0402_1005Metric,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW0603100KBEEA,2,body:R12 body:R22,100k 0.1%,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW060310K0BEEA,8,body:R13 body:R26 flange:R31 flange:R32 flange:R33 flange:R34 flange:R35 flange:R36,10k,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW0603110KBEEA,1,body:R44,110k 0.1%,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW0603200KBEEA,1,body:R45,200k 0.1%,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW0603312KBEEA,1,body:R11,312k 0.1%,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW06034K70BEEA,2,flange:R37 flange:R38,4.7k,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW08051M00BEEA,2,flange:R39 flange:R40,1.00M 1%,PrototypeR0:Vishay_TNPW0805_IEC_Reflow,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW0805362KBEEA,1,body:R21,362k 0.1%,PrototypeR0:Vishay_TNPW0805_IEC_Reflow,https://www.vishay.com/docs/28758/tnpw_e3.pdf,
+Vishay,TNPW0805715KBEEA,1,body:R43,715k 0.1%,PrototypeR0:Vishay_TNPW0805_IEC_Reflow,https://www.vishay.com/docs/28758/tnpw_e3.pdf,

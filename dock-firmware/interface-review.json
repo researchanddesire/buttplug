@@ -1,0 +1,2100 @@
+{
+  "status": "pass: independent firmware/native endpoint audit",
+  "pass": true,
+  "terminal_checks": 410,
+  "GPIOs_checked": 35,
+  "source_sha256": {
+    "hardware/pcb/evt1/dock-control/native-checks.json": "af951491a9e23c3adfe5412b677a7e9dfa29fa5714824c45948b7a90662cc23b",
+    "hardware/pcb/evt1/dock-safety/native-checks.json": "35b0b045a8dd06eeeb90500fc8d91279a425781ea2614460dab1c73034d42a6f",
+    "hardware/pcb/evt1/dock-ui/native-checks.json": "1abfa15e3a60f1eaf2fb23a10356c4fd17f23b7a205cd8308eec487a992d23a5",
+    "hardware/pcb/evt1/dock-uv/base/native-checks.json": "8bcf8d2f27750a9856381d037779d3395f7a06cc66109ba92f2f0f5cbe98be72",
+    "hardware/pcb/evt1/dock-uv/lid/native-checks.json": "55d0838b4cb49d91a5120cde5d3d0f68772e16b64709c694d323c63b6b42d9ea",
+    "hardware/pcb/evt1/dock-control/dock-control-native.xml": "e7b0829c74c1d373e954ba77ee8fff1b2cf4eafc0da170c1f816330b63678772",
+    "hardware/pcb/evt1/dock-safety/native.xml": "d4448522ad04c7d7356cbc15d4765f94448e00d16a9c622ca4908c7c63a9905c",
+    "hardware/pcb/evt1/dock-ui/source-native.xml": "e830041b21a15ca00e1809b44a40095723d81362f4f04625a9ed4dfde1af521e",
+    "hardware/pcb/evt1/dock-uv/base/native.xml": "ed424ba52328d64c2287a98a3f1892fbcc0b0323154b572c5c8f6af684124292",
+    "hardware/pcb/evt1/dock-uv/lid/native.xml": "cc70d37ddfa9278c39e95229923f6cde779d012ed57097679c9946e10aca1936"
+  },
+  "native_endpoint_checks": [
+    {
+      "reference": "U201",
+      "physical_pin": "10",
+      "net": "LCD_DB0_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "11",
+      "net": "LCD_DB1_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "12",
+      "net": "LCD_DB2_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "13",
+      "net": "LCD_DB3_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "14",
+      "net": "LCD_DB4_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "15",
+      "net": "LCD_DB5_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "16",
+      "net": "LCD_DB6_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "17",
+      "net": "LCD_DB7_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "2",
+      "net": "LOOP_A"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "3",
+      "net": "LOOP_B"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "4",
+      "net": "SOURCE_OK"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "18",
+      "net": "NTC_BASE_ADC"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "19",
+      "net": "NTC_LID_ADC"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "20",
+      "net": "UV_VBUS_MON"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "21",
+      "net": "MON_I2C_SCL"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "22",
+      "net": "MON_I2C_SDA"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "25",
+      "net": "BTN_LEFTn"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "26",
+      "net": "BTN_CENTERn_DEBOUNCED"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "27",
+      "net": "BTN_RIGHTn"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "28",
+      "net": "MCU_ARM"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "29",
+      "net": "MCU_STOPn"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "30",
+      "net": "WDI"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "31",
+      "net": "UV_RUN"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "32",
+      "net": "DEVICE_FAULTn"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "33",
+      "net": "UV_LIMIT_FAULTn"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "34",
+      "net": "SWDIO"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "37",
+      "net": "SWCLK"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "38",
+      "net": "RELEASE_SEEN"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "39",
+      "net": "CC_OUT1"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "40",
+      "net": "CC_OUT2"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "41",
+      "net": "LCD_A0_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "42",
+      "net": "LCD_WRn_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "43",
+      "net": "LCD_CSn_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "45",
+      "net": "LCD_RESETn_MCU"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "46",
+      "net": "STATUS_LED"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "1",
+      "net": "3V3"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "7",
+      "net": "MCU_NRSTn"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "8",
+      "net": "GND"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "9",
+      "net": "3V3_ANALOG"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "23",
+      "net": "GND"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "24",
+      "net": "3V3"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "35",
+      "net": "GND"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "36",
+      "net": "3V3"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "44",
+      "net": "BOOT0"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "47",
+      "net": "GND"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "48",
+      "net": "3V3"
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "5",
+      "net": null
+    },
+    {
+      "reference": "U201",
+      "physical_pin": "6",
+      "net": null
+    },
+    {
+      "reference": "U202",
+      "physical_pin": "1",
+      "net": "GND"
+    },
+    {
+      "reference": "U202",
+      "physical_pin": "2",
+      "net": null
+    },
+    {
+      "reference": "U202",
+      "physical_pin": "3",
+      "net": "GND"
+    },
+    {
+      "reference": "U202",
+      "physical_pin": "4",
+      "net": "BASE_FB"
+    },
+    {
+      "reference": "U202",
+      "physical_pin": "5",
+      "net": "LID_FB"
+    },
+    {
+      "reference": "U202",
+      "physical_pin": "6",
+      "net": "BASE_VOUT_DIV"
+    },
+    {
+      "reference": "U202",
+      "physical_pin": "7",
+      "net": "LID_VOUT_DIV"
+    },
+    {
+      "reference": "U202",
+      "physical_pin": "8",
+      "net": "3V3_ANALOG"
+    },
+    {
+      "reference": "U202",
+      "physical_pin": "9",
+      "net": "MON_I2C_SDA"
+    },
+    {
+      "reference": "U202",
+      "physical_pin": "10",
+      "net": "MON_I2C_SCL"
+    },
+    {
+      "reference": "R201",
+      "physical_pin": "1",
+      "net": "LCD_DB0_MCU"
+    },
+    {
+      "reference": "R201",
+      "physical_pin": "2",
+      "net": "LCD_DB0"
+    },
+    {
+      "reference": "R202",
+      "physical_pin": "1",
+      "net": "LCD_DB1_MCU"
+    },
+    {
+      "reference": "R202",
+      "physical_pin": "2",
+      "net": "LCD_DB1"
+    },
+    {
+      "reference": "R203",
+      "physical_pin": "1",
+      "net": "LCD_DB2_MCU"
+    },
+    {
+      "reference": "R203",
+      "physical_pin": "2",
+      "net": "LCD_DB2"
+    },
+    {
+      "reference": "R204",
+      "physical_pin": "1",
+      "net": "LCD_DB3_MCU"
+    },
+    {
+      "reference": "R204",
+      "physical_pin": "2",
+      "net": "LCD_DB3"
+    },
+    {
+      "reference": "R205",
+      "physical_pin": "1",
+      "net": "LCD_DB4_MCU"
+    },
+    {
+      "reference": "R205",
+      "physical_pin": "2",
+      "net": "LCD_DB4"
+    },
+    {
+      "reference": "R206",
+      "physical_pin": "1",
+      "net": "LCD_DB5_MCU"
+    },
+    {
+      "reference": "R206",
+      "physical_pin": "2",
+      "net": "LCD_DB5"
+    },
+    {
+      "reference": "R207",
+      "physical_pin": "1",
+      "net": "LCD_DB6_MCU"
+    },
+    {
+      "reference": "R207",
+      "physical_pin": "2",
+      "net": "LCD_DB6"
+    },
+    {
+      "reference": "R208",
+      "physical_pin": "1",
+      "net": "LCD_DB7_MCU"
+    },
+    {
+      "reference": "R208",
+      "physical_pin": "2",
+      "net": "LCD_DB7"
+    },
+    {
+      "reference": "R209",
+      "physical_pin": "1",
+      "net": "LCD_A0_MCU"
+    },
+    {
+      "reference": "R209",
+      "physical_pin": "2",
+      "net": "LCD_A0"
+    },
+    {
+      "reference": "R210",
+      "physical_pin": "1",
+      "net": "LCD_WRn_MCU"
+    },
+    {
+      "reference": "R210",
+      "physical_pin": "2",
+      "net": "LCD_WRn"
+    },
+    {
+      "reference": "R211",
+      "physical_pin": "1",
+      "net": "LCD_CSn_MCU"
+    },
+    {
+      "reference": "R211",
+      "physical_pin": "2",
+      "net": "LCD_CSn"
+    },
+    {
+      "reference": "R212",
+      "physical_pin": "1",
+      "net": "LCD_RESETn_MCU"
+    },
+    {
+      "reference": "R212",
+      "physical_pin": "2",
+      "net": "LCD_RESETn"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "1",
+      "net": "GND"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "1",
+      "net": "GND"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "2",
+      "net": "3V3_UI"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "2",
+      "net": "3V3_UI"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "3",
+      "net": "LCD_DB0"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "3",
+      "net": "LCD_DB0"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "4",
+      "net": "LCD_DB1"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "4",
+      "net": "LCD_DB1"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "5",
+      "net": "LCD_DB2"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "5",
+      "net": "LCD_DB2"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "6",
+      "net": "LCD_DB3"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "6",
+      "net": "LCD_DB3"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "7",
+      "net": "LCD_DB4"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "7",
+      "net": "LCD_DB4"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "8",
+      "net": "LCD_DB5"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "8",
+      "net": "LCD_DB5"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "9",
+      "net": "LCD_DB6"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "9",
+      "net": "LCD_DB6"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "10",
+      "net": "LCD_DB7"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "10",
+      "net": "LCD_DB7"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "11",
+      "net": "LCD_A0"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "11",
+      "net": "LCD_A0"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "12",
+      "net": "LCD_WRn"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "12",
+      "net": "LCD_WRn"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "13",
+      "net": "LCD_CSn"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "13",
+      "net": "LCD_CSn"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "14",
+      "net": "LCD_RESETn"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "14",
+      "net": "LCD_RESETn"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "15",
+      "net": "BTN_LEFTn"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "15",
+      "net": "BTN_LEFTn"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "16",
+      "net": "BTN_CENTERn_RAW"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "16",
+      "net": "BTN_CENTERn_RAW"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "17",
+      "net": "BTN_RIGHTn"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "17",
+      "net": "BTN_RIGHTn"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "18",
+      "net": "GND"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "18",
+      "net": "GND"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "19",
+      "net": "GND"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "19",
+      "net": "GND"
+    },
+    {
+      "reference": "J201",
+      "physical_pin": "20",
+      "net": "GND"
+    },
+    {
+      "reference": "J301",
+      "physical_pin": "20",
+      "net": "GND"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "1",
+      "net": "LCD_V0"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "1",
+      "net": "LCD_V0"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "2",
+      "net": "LCD_V1"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "2",
+      "net": "LCD_V1"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "3",
+      "net": "LCD_V2"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "3",
+      "net": "LCD_V2"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "4",
+      "net": "LCD_V3"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "4",
+      "net": "LCD_V3"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "5",
+      "net": "LCD_V4"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "5",
+      "net": "LCD_V4"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "6",
+      "net": null
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "6",
+      "net": null
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "7",
+      "net": "LCD_C2M"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "7",
+      "net": "LCD_C2M"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "8",
+      "net": "LCD_C2P"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "8",
+      "net": "LCD_C2P"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "9",
+      "net": "LCD_C1P"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "9",
+      "net": "LCD_C1P"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "10",
+      "net": "LCD_C1M"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "10",
+      "net": "LCD_C1M"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "11",
+      "net": "LCD_C3P"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "11",
+      "net": "LCD_C3P"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "12",
+      "net": "LCD_VOUT"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "12",
+      "net": "LCD_VOUT"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "13",
+      "net": "3V3_UI"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "13",
+      "net": "3V3_UI"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "14",
+      "net": "GND"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "14",
+      "net": "GND"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "15",
+      "net": "LCD_DB7"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "15",
+      "net": "LCD_DB7"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "16",
+      "net": "LCD_DB6"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "16",
+      "net": "LCD_DB6"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "17",
+      "net": "LCD_DB5"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "17",
+      "net": "LCD_DB5"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "18",
+      "net": "LCD_DB4"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "18",
+      "net": "LCD_DB4"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "19",
+      "net": "LCD_DB3"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "19",
+      "net": "LCD_DB3"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "20",
+      "net": "LCD_DB2"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "20",
+      "net": "LCD_DB2"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "21",
+      "net": "LCD_DB1"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "21",
+      "net": "LCD_DB1"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "22",
+      "net": "LCD_DB0"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "22",
+      "net": "LCD_DB0"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "23",
+      "net": "3V3_UI"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "23",
+      "net": "3V3_UI"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "24",
+      "net": "LCD_WRn"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "24",
+      "net": "LCD_WRn"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "25",
+      "net": "LCD_A0"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "25",
+      "net": "LCD_A0"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "26",
+      "net": "LCD_RESETn"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "26",
+      "net": "LCD_RESETn"
+    },
+    {
+      "reference": "LCD301",
+      "physical_pin": "27",
+      "net": "LCD_CSn"
+    },
+    {
+      "reference": "J302",
+      "physical_pin": "27",
+      "net": "LCD_CSn"
+    },
+    {
+      "reference": "C301",
+      "physical_pin": "1",
+      "net": "LCD_V0"
+    },
+    {
+      "reference": "C301",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C302",
+      "physical_pin": "1",
+      "net": "LCD_V1"
+    },
+    {
+      "reference": "C302",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C303",
+      "physical_pin": "1",
+      "net": "LCD_V2"
+    },
+    {
+      "reference": "C303",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C304",
+      "physical_pin": "1",
+      "net": "LCD_V3"
+    },
+    {
+      "reference": "C304",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C305",
+      "physical_pin": "1",
+      "net": "LCD_V4"
+    },
+    {
+      "reference": "C305",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C306",
+      "physical_pin": "1",
+      "net": "LCD_C2M"
+    },
+    {
+      "reference": "C306",
+      "physical_pin": "2",
+      "net": "LCD_C2P"
+    },
+    {
+      "reference": "C307",
+      "physical_pin": "1",
+      "net": "LCD_C1P"
+    },
+    {
+      "reference": "C307",
+      "physical_pin": "2",
+      "net": "LCD_C1M"
+    },
+    {
+      "reference": "C308",
+      "physical_pin": "1",
+      "net": "LCD_C3P"
+    },
+    {
+      "reference": "C308",
+      "physical_pin": "2",
+      "net": "LCD_C1M"
+    },
+    {
+      "reference": "C309",
+      "physical_pin": "1",
+      "net": "LCD_VOUT"
+    },
+    {
+      "reference": "C309",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "S301",
+      "physical_pin": "1",
+      "net": "BTN_LEFTn"
+    },
+    {
+      "reference": "S301",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "S302",
+      "physical_pin": "1",
+      "net": "BTN_CENTERn_RAW"
+    },
+    {
+      "reference": "S302",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "S303",
+      "physical_pin": "1",
+      "net": "BTN_RIGHTn"
+    },
+    {
+      "reference": "S303",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "R225",
+      "physical_pin": "1",
+      "net": "3V3"
+    },
+    {
+      "reference": "R225",
+      "physical_pin": "2",
+      "net": "BTN_LEFTn"
+    },
+    {
+      "reference": "R226",
+      "physical_pin": "1",
+      "net": "3V3"
+    },
+    {
+      "reference": "R226",
+      "physical_pin": "2",
+      "net": "BTN_RIGHTn"
+    },
+    {
+      "reference": "R218",
+      "physical_pin": "1",
+      "net": "3V3_ANALOG"
+    },
+    {
+      "reference": "R218",
+      "physical_pin": "2",
+      "net": "NTC_BASE"
+    },
+    {
+      "reference": "R219",
+      "physical_pin": "1",
+      "net": "3V3_ANALOG"
+    },
+    {
+      "reference": "R219",
+      "physical_pin": "2",
+      "net": "NTC_LID"
+    },
+    {
+      "reference": "R220",
+      "physical_pin": "1",
+      "net": "NTC_BASE"
+    },
+    {
+      "reference": "R220",
+      "physical_pin": "2",
+      "net": "NTC_BASE_ADC"
+    },
+    {
+      "reference": "R221",
+      "physical_pin": "1",
+      "net": "NTC_LID"
+    },
+    {
+      "reference": "R221",
+      "physical_pin": "2",
+      "net": "NTC_LID_ADC"
+    },
+    {
+      "reference": "R222",
+      "physical_pin": "1",
+      "net": "UV_5V_SW"
+    },
+    {
+      "reference": "R222",
+      "physical_pin": "2",
+      "net": "UV_VBUS_MON"
+    },
+    {
+      "reference": "R223",
+      "physical_pin": "1",
+      "net": "UV_VBUS_MON"
+    },
+    {
+      "reference": "R223",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C208",
+      "physical_pin": "1",
+      "net": "NTC_BASE_ADC"
+    },
+    {
+      "reference": "C208",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C209",
+      "physical_pin": "1",
+      "net": "NTC_LID_ADC"
+    },
+    {
+      "reference": "C209",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "J202",
+      "physical_pin": "1",
+      "net": "3V3"
+    },
+    {
+      "reference": "J202",
+      "physical_pin": "2",
+      "net": "SWDIO"
+    },
+    {
+      "reference": "J202",
+      "physical_pin": "3",
+      "net": "MCU_NRSTn"
+    },
+    {
+      "reference": "J202",
+      "physical_pin": "4",
+      "net": "SWCLK"
+    },
+    {
+      "reference": "J202",
+      "physical_pin": "5",
+      "net": "GND"
+    },
+    {
+      "reference": "J202",
+      "physical_pin": "6",
+      "net": null
+    },
+    {
+      "reference": "C207",
+      "physical_pin": "1",
+      "net": "MCU_NRSTn"
+    },
+    {
+      "reference": "C207",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "R606",
+      "physical_pin": "1",
+      "net": "SAFE_RESETn"
+    },
+    {
+      "reference": "R606",
+      "physical_pin": "2",
+      "net": "MCU_NRSTn"
+    },
+    {
+      "reference": "U608",
+      "physical_pin": "1",
+      "net": "GND"
+    },
+    {
+      "reference": "U608",
+      "physical_pin": "2",
+      "net": "BTN_CENTERn_RAW"
+    },
+    {
+      "reference": "U608",
+      "physical_pin": "3",
+      "net": "BTN_CENTERn_DEBOUNCED"
+    },
+    {
+      "reference": "U608",
+      "physical_pin": "4",
+      "net": "3V3"
+    },
+    {
+      "reference": "U114",
+      "physical_pin": "3",
+      "net": "BTN_CENTERn_DEBOUNCED"
+    },
+    {
+      "reference": "U114",
+      "physical_pin": "4",
+      "net": "BTN_CENTER_PRESSED"
+    },
+    {
+      "reference": "U614",
+      "physical_pin": "1",
+      "net": "BTN_CENTERn_DEBOUNCED"
+    },
+    {
+      "reference": "U614",
+      "physical_pin": "3",
+      "net": "BTN_CENTER_PRESSED"
+    },
+    {
+      "reference": "U614",
+      "physical_pin": "4",
+      "net": "CLOCK_PRESS"
+    },
+    {
+      "reference": "U614",
+      "physical_pin": "6",
+      "net": "CLOCK_RELEASE"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "1",
+      "net": "CLEARn"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "2",
+      "net": "3V3"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "3",
+      "net": "CLOCK_RELEASE"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "4",
+      "net": "3V3"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "5",
+      "net": "RELEASE_SEEN"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "9",
+      "net": "UV_RUN"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "10",
+      "net": "3V3"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "11",
+      "net": "CLOCK_PRESS"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "12",
+      "net": "ARM_D"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "13",
+      "net": "CLEARn"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "14",
+      "net": "3V3"
+    },
+    {
+      "reference": "U609",
+      "physical_pin": "7",
+      "net": "GND"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "1",
+      "net": "RELEASE_SEEN"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "2",
+      "net": "MCU_ARM"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "3",
+      "net": "ARM_D"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "4",
+      "net": "LOOP_A"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "5",
+      "net": "SOURCE_OK"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "6",
+      "net": "UV_GATE_A"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "9",
+      "net": "UV_RUN"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "10",
+      "net": "LOOP_B"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "8",
+      "net": "UV_GATE_B"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "12",
+      "net": "UV_RUN"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "13",
+      "net": "UV_POWER_GOOD"
+    },
+    {
+      "reference": "U615",
+      "physical_pin": "11",
+      "net": "UV_CTRL"
+    },
+    {
+      "reference": "U612",
+      "physical_pin": "1",
+      "net": "LOOP_A"
+    },
+    {
+      "reference": "U612",
+      "physical_pin": "2",
+      "net": "LOOP_B"
+    },
+    {
+      "reference": "U612",
+      "physical_pin": "4",
+      "net": "SOURCE_OK"
+    },
+    {
+      "reference": "U612",
+      "physical_pin": "5",
+      "net": "SAFE_RESETn"
+    },
+    {
+      "reference": "U612",
+      "physical_pin": "6",
+      "net": "RAW_SAFE"
+    },
+    {
+      "reference": "U612",
+      "physical_pin": "9",
+      "net": "RAW_SAFE"
+    },
+    {
+      "reference": "U612",
+      "physical_pin": "10",
+      "net": "MCU_STOPn"
+    },
+    {
+      "reference": "U612",
+      "physical_pin": "12",
+      "net": "UV_DELAYn"
+    },
+    {
+      "reference": "U612",
+      "physical_pin": "13",
+      "net": "3V3"
+    },
+    {
+      "reference": "U612",
+      "physical_pin": "8",
+      "net": "CLEARn"
+    },
+    {
+      "reference": "U606",
+      "physical_pin": "2",
+      "net": "WDT_CWD"
+    },
+    {
+      "reference": "U606",
+      "physical_pin": "3",
+      "net": "3V3"
+    },
+    {
+      "reference": "U606",
+      "physical_pin": "5",
+      "net": "3V3"
+    },
+    {
+      "reference": "U606",
+      "physical_pin": "6",
+      "net": "WDI"
+    },
+    {
+      "reference": "U606",
+      "physical_pin": "7",
+      "net": "SAFE_RESETn"
+    },
+    {
+      "reference": "U606",
+      "physical_pin": "8",
+      "net": "SAFE_RESETn"
+    },
+    {
+      "reference": "U606",
+      "physical_pin": "9",
+      "net": "GND"
+    },
+    {
+      "reference": "R603",
+      "physical_pin": "1",
+      "net": "3V3"
+    },
+    {
+      "reference": "R603",
+      "physical_pin": "2",
+      "net": "WDT_CWD"
+    },
+    {
+      "reference": "R604",
+      "physical_pin": "1",
+      "net": "MCU_ARM"
+    },
+    {
+      "reference": "R604",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "R605",
+      "physical_pin": "1",
+      "net": "MCU_STOPn"
+    },
+    {
+      "reference": "R605",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "R602",
+      "physical_pin": "1",
+      "net": "WDI"
+    },
+    {
+      "reference": "R602",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "U610",
+      "physical_pin": "8",
+      "net": "UV_GATE_A"
+    },
+    {
+      "reference": "U610",
+      "physical_pin": "2",
+      "net": "UV_5V_LIMITED"
+    },
+    {
+      "reference": "U610",
+      "physical_pin": "6",
+      "net": "UV_5V_MID"
+    },
+    {
+      "reference": "U611",
+      "physical_pin": "8",
+      "net": "UV_GATE_B"
+    },
+    {
+      "reference": "U611",
+      "physical_pin": "2",
+      "net": "UV_5V_MID"
+    },
+    {
+      "reference": "U611",
+      "physical_pin": "6",
+      "net": "UV_5V_SW"
+    },
+    {
+      "reference": "U611",
+      "physical_pin": "3",
+      "net": "UV_POWER_GOOD"
+    },
+    {
+      "reference": "U103",
+      "physical_pin": "7",
+      "net": "CC_OUT1"
+    },
+    {
+      "reference": "U103",
+      "physical_pin": "8",
+      "net": "CC_OUT2"
+    },
+    {
+      "reference": "U104",
+      "physical_pin": "A2",
+      "net": "DEVICE_FAULTn"
+    },
+    {
+      "reference": "U105",
+      "physical_pin": "4",
+      "net": "UV_LIMIT_FAULTn"
+    },
+    {
+      "reference": "U401",
+      "physical_pin": "1",
+      "net": "UV_5V_SW"
+    },
+    {
+      "reference": "U401",
+      "physical_pin": "2",
+      "net": "UV_CTRL"
+    },
+    {
+      "reference": "U401",
+      "physical_pin": "3",
+      "net": "BASE_SW"
+    },
+    {
+      "reference": "U401",
+      "physical_pin": "4",
+      "net": "GND"
+    },
+    {
+      "reference": "U401",
+      "physical_pin": "5",
+      "net": "BASE_COMP"
+    },
+    {
+      "reference": "U401",
+      "physical_pin": "6",
+      "net": "BASE_FB_RAW"
+    },
+    {
+      "reference": "J401",
+      "physical_pin": "1",
+      "net": "UV_5V_SW"
+    },
+    {
+      "reference": "J621",
+      "physical_pin": "1",
+      "net": "UV_5V_SW"
+    },
+    {
+      "reference": "J401",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "J621",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "J401",
+      "physical_pin": "3",
+      "net": "UV_CTRL"
+    },
+    {
+      "reference": "J621",
+      "physical_pin": "3",
+      "net": "UV_CTRL"
+    },
+    {
+      "reference": "J401",
+      "physical_pin": "4",
+      "net": "BASE_FB"
+    },
+    {
+      "reference": "J621",
+      "physical_pin": "4",
+      "net": "BASE_FB"
+    },
+    {
+      "reference": "J401",
+      "physical_pin": "5",
+      "net": "BASE_VOUT_DIV"
+    },
+    {
+      "reference": "J621",
+      "physical_pin": "5",
+      "net": "BASE_VOUT_DIV"
+    },
+    {
+      "reference": "J401",
+      "physical_pin": "6",
+      "net": "NTC_BASE"
+    },
+    {
+      "reference": "J621",
+      "physical_pin": "6",
+      "net": "NTC_BASE"
+    },
+    {
+      "reference": "J401",
+      "physical_pin": "7",
+      "net": "BASE_THERM_SEND"
+    },
+    {
+      "reference": "J621",
+      "physical_pin": "7",
+      "net": "BASE_THERM_SEND"
+    },
+    {
+      "reference": "J401",
+      "physical_pin": "8",
+      "net": "LOOP_A_RAW"
+    },
+    {
+      "reference": "J621",
+      "physical_pin": "8",
+      "net": "LOOP_A_RAW"
+    },
+    {
+      "reference": "L401",
+      "physical_pin": "1",
+      "net": "UV_5V_SW"
+    },
+    {
+      "reference": "L401",
+      "physical_pin": "2",
+      "net": "BASE_SW"
+    },
+    {
+      "reference": "D401",
+      "physical_pin": "1",
+      "net": "BASE_VOUT"
+    },
+    {
+      "reference": "D401",
+      "physical_pin": "2",
+      "net": "BASE_SW"
+    },
+    {
+      "reference": "D402",
+      "physical_pin": "2",
+      "net": "BASE_VOUT"
+    },
+    {
+      "reference": "D402",
+      "physical_pin": "1",
+      "net": "BASE_LED_MID"
+    },
+    {
+      "reference": "D403",
+      "physical_pin": "2",
+      "net": "BASE_LED_MID"
+    },
+    {
+      "reference": "D403",
+      "physical_pin": "1",
+      "net": "BASE_LED_K"
+    },
+    {
+      "reference": "Q401",
+      "physical_pin": "2",
+      "net": "BASE_FB_RAW"
+    },
+    {
+      "reference": "Q401",
+      "physical_pin": "3",
+      "net": "BASE_LED_K"
+    },
+    {
+      "reference": "R401",
+      "physical_pin": "1",
+      "net": "BASE_FB_RAW"
+    },
+    {
+      "reference": "R401",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "R405",
+      "physical_pin": "1",
+      "net": "BASE_VOUT"
+    },
+    {
+      "reference": "R405",
+      "physical_pin": "2",
+      "net": "BASE_VOUT_SENSE"
+    },
+    {
+      "reference": "R406",
+      "physical_pin": "1",
+      "net": "BASE_VOUT_SENSE"
+    },
+    {
+      "reference": "R406",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "R407",
+      "physical_pin": "1",
+      "net": "BASE_VOUT_SENSE"
+    },
+    {
+      "reference": "R407",
+      "physical_pin": "2",
+      "net": "BASE_VOUT_DIV"
+    },
+    {
+      "reference": "R408",
+      "physical_pin": "1",
+      "net": "BASE_FB_RAW"
+    },
+    {
+      "reference": "R408",
+      "physical_pin": "2",
+      "net": "BASE_FB"
+    },
+    {
+      "reference": "TH401",
+      "physical_pin": "1",
+      "net": "NTC_BASE"
+    },
+    {
+      "reference": "TH401",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "S401",
+      "physical_pin": "1",
+      "net": "BASE_THERM_SEND"
+    },
+    {
+      "reference": "S401",
+      "physical_pin": "2",
+      "net": "LOOP_A_RAW"
+    },
+    {
+      "reference": "Q401",
+      "physical_pin": "1",
+      "net": "BASE_CATHODE_GATE"
+    },
+    {
+      "reference": "R402",
+      "physical_pin": "1",
+      "net": "UV_CTRL"
+    },
+    {
+      "reference": "R402",
+      "physical_pin": "2",
+      "net": "BASE_CATHODE_GATE"
+    },
+    {
+      "reference": "C402",
+      "physical_pin": "1",
+      "net": "BASE_VOUT"
+    },
+    {
+      "reference": "C402",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C404",
+      "physical_pin": "1",
+      "net": "BASE_FB"
+    },
+    {
+      "reference": "C404",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C405",
+      "physical_pin": "1",
+      "net": "BASE_VOUT_DIV"
+    },
+    {
+      "reference": "C405",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "U501",
+      "physical_pin": "1",
+      "net": "UV_5V_SW"
+    },
+    {
+      "reference": "U501",
+      "physical_pin": "2",
+      "net": "UV_CTRL"
+    },
+    {
+      "reference": "U501",
+      "physical_pin": "3",
+      "net": "LID_SW"
+    },
+    {
+      "reference": "U501",
+      "physical_pin": "4",
+      "net": "GND"
+    },
+    {
+      "reference": "U501",
+      "physical_pin": "5",
+      "net": "LID_COMP"
+    },
+    {
+      "reference": "U501",
+      "physical_pin": "6",
+      "net": "LID_FB_RAW"
+    },
+    {
+      "reference": "J501",
+      "physical_pin": "1",
+      "net": "UV_5V_SW"
+    },
+    {
+      "reference": "J622",
+      "physical_pin": "1",
+      "net": "UV_5V_SW"
+    },
+    {
+      "reference": "J501",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "J622",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "J501",
+      "physical_pin": "3",
+      "net": "UV_CTRL"
+    },
+    {
+      "reference": "J622",
+      "physical_pin": "3",
+      "net": "UV_CTRL"
+    },
+    {
+      "reference": "J501",
+      "physical_pin": "4",
+      "net": "LID_FB"
+    },
+    {
+      "reference": "J622",
+      "physical_pin": "4",
+      "net": "LID_FB"
+    },
+    {
+      "reference": "J501",
+      "physical_pin": "5",
+      "net": "LID_VOUT_DIV"
+    },
+    {
+      "reference": "J622",
+      "physical_pin": "5",
+      "net": "LID_VOUT_DIV"
+    },
+    {
+      "reference": "J501",
+      "physical_pin": "6",
+      "net": "NTC_LID"
+    },
+    {
+      "reference": "J622",
+      "physical_pin": "6",
+      "net": "NTC_LID"
+    },
+    {
+      "reference": "J501",
+      "physical_pin": "7",
+      "net": "LID_THERM_SEND"
+    },
+    {
+      "reference": "J622",
+      "physical_pin": "7",
+      "net": "LID_THERM_SEND"
+    },
+    {
+      "reference": "J501",
+      "physical_pin": "8",
+      "net": "LOOP_B_RAW"
+    },
+    {
+      "reference": "J622",
+      "physical_pin": "8",
+      "net": "LOOP_B_RAW"
+    },
+    {
+      "reference": "L501",
+      "physical_pin": "1",
+      "net": "UV_5V_SW"
+    },
+    {
+      "reference": "L501",
+      "physical_pin": "2",
+      "net": "LID_SW"
+    },
+    {
+      "reference": "D501",
+      "physical_pin": "1",
+      "net": "LID_VOUT"
+    },
+    {
+      "reference": "D501",
+      "physical_pin": "2",
+      "net": "LID_SW"
+    },
+    {
+      "reference": "D502",
+      "physical_pin": "2",
+      "net": "LID_VOUT"
+    },
+    {
+      "reference": "D502",
+      "physical_pin": "1",
+      "net": "LID_LED_MID"
+    },
+    {
+      "reference": "D503",
+      "physical_pin": "2",
+      "net": "LID_LED_MID"
+    },
+    {
+      "reference": "D503",
+      "physical_pin": "1",
+      "net": "LID_LED_K"
+    },
+    {
+      "reference": "Q501",
+      "physical_pin": "2",
+      "net": "LID_FB_RAW"
+    },
+    {
+      "reference": "Q501",
+      "physical_pin": "3",
+      "net": "LID_LED_K"
+    },
+    {
+      "reference": "R501",
+      "physical_pin": "1",
+      "net": "LID_FB_RAW"
+    },
+    {
+      "reference": "R501",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "R505",
+      "physical_pin": "1",
+      "net": "LID_VOUT"
+    },
+    {
+      "reference": "R505",
+      "physical_pin": "2",
+      "net": "LID_VOUT_SENSE"
+    },
+    {
+      "reference": "R506",
+      "physical_pin": "1",
+      "net": "LID_VOUT_SENSE"
+    },
+    {
+      "reference": "R506",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "R507",
+      "physical_pin": "1",
+      "net": "LID_VOUT_SENSE"
+    },
+    {
+      "reference": "R507",
+      "physical_pin": "2",
+      "net": "LID_VOUT_DIV"
+    },
+    {
+      "reference": "R508",
+      "physical_pin": "1",
+      "net": "LID_FB_RAW"
+    },
+    {
+      "reference": "R508",
+      "physical_pin": "2",
+      "net": "LID_FB"
+    },
+    {
+      "reference": "TH501",
+      "physical_pin": "1",
+      "net": "NTC_LID"
+    },
+    {
+      "reference": "TH501",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "S501",
+      "physical_pin": "1",
+      "net": "LID_THERM_SEND"
+    },
+    {
+      "reference": "S501",
+      "physical_pin": "2",
+      "net": "LOOP_B_RAW"
+    },
+    {
+      "reference": "Q501",
+      "physical_pin": "1",
+      "net": "LID_CATHODE_GATE"
+    },
+    {
+      "reference": "R502",
+      "physical_pin": "1",
+      "net": "UV_CTRL"
+    },
+    {
+      "reference": "R502",
+      "physical_pin": "2",
+      "net": "LID_CATHODE_GATE"
+    },
+    {
+      "reference": "C502",
+      "physical_pin": "1",
+      "net": "LID_VOUT"
+    },
+    {
+      "reference": "C502",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C504",
+      "physical_pin": "1",
+      "net": "LID_FB"
+    },
+    {
+      "reference": "C504",
+      "physical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C505",
+      "physical_pin": "1",
+      "net": "LID_VOUT_DIV"
+    },
+    {
+      "reference": "C505",
+      "physical_pin": "2",
+      "net": "GND"
+    }
+  ],
+  "timing_review": [
+    {
+      "issue": "Falling-edge watchdog would see two loops between edges when simply toggled",
+      "fix": "One high/low WDI pulse per completed healthy loop;100ms work limit plus10ms cadence stays below170ms watchdog minimum"
+    },
+    {
+      "issue": "Post-cut rail is absent before UV_RUN and may still be rising immediately after it",
+      "fix": "Check PB2 digital presence after300ms start grace, alongside LED current/voltage; no analog4.3V measurement claimed"
+    },
+    {
+      "issue": "Fault acknowledgement release could precede420ms UV supervisor recovery",
+      "fix": "Require500ms continuously healthy inputs before accepting a fresh acknowledgement press"
+    },
+    {
+      "issue": "Compiler-dependent busy delay inflated LCD full-frame runtime",
+      "fix": "Use SysTick core-clock counting for conservative bus delays; scope/loop timing remains a hardware gate"
+    },
+    {
+      "issue": "Previous J302 reversal double-flipped the installed LCD contact order",
+      "fix": "Manufacturer topview pin1left/mouthdown matches unrotated nativefootprint after boardy-to-dockminusY mapping; direct1:1 mate preserves LCDpin1-X after X-axis fold"
+    }
+  ],
+  "boundaries": [
+    "Independent endpoint audit is not full-system native ERC or PCB pad/net parity.",
+    "LCD socket1:1 and hinge1:1 contracts still need physical continuity/mating qualification.",
+    "PB2 is digital rail presence, not voltage-floor telemetry.",
+    "Actual supervisor/PG/watchdog/ADC/filter/clock timing, source budget and optical shutdown remain unpowered."
+  ],
+  "physical_validation": false,
+  "full_product_order_ready": false
+}

@@ -1,0 +1,19 @@
+{
+  "official_source_url": "https://raw.githubusercontent.com/freerouting/freerouting/v1.9.0/src/main/java/app/freerouting/autoroute/BatchAutorouter.java",
+  "original_java_sha256": "34b47ab808495cefcfbc616fdc9d749c3de31c778bb23052621a00fe6f8e0aad",
+  "patched_java_sha256": "c88e36e370a5b968b0e6b1d631581d56876ee24b67bb0022a5bebfc076f475b3",
+  "official_base_jar_sha256": "9084a4888937a7f31f857ecc12aa7a37407f51160e4d2892dff9c9bb47ae3102",
+  "changes": [
+    "maze search2seconds firstpass, doubling to max5seconds perconnection instead100seconds unbounded exponential",
+    "no geometric or electrical-rule changes; all output validatedby nativeKiCad"
+  ],
+  "scope": "offline local development tooling, no devicefirmware or physicalsafety timer changed",
+  "bounded_jar_sha256": "dba19f53d0d59ddc3ab55fa8421136276ca44920633ac18ea10d07987cb27600",
+  "compiler": "officialAzulJDK19 javac--release11; compileonlyprimaryBatchAutorouterclass;otherJARentriesunchanged",
+  "import_warning_only_patch": {
+    "official_source_url": "https://raw.githubusercontent.com/freerouting/freerouting/v1.9.0/src/main/java/app/freerouting/interactive/BoardHandling.java",
+    "original_sha256": "048ed9248c6c91f3887544a6293c2c2ae620173d5945f2ca108d2d1fb60a3566",
+    "patched_sha256": "9acecf06d96b2ee161b0474d30726d1af533d556e24d972c335b2d64ee167b48",
+    "change": "Onlynonfatalwarningsareloggedratherthanmodal; errorsstillblockandread_resultunchanged. AvoidinaccessibleJDKappwarningdialog inlocalCLI. NativeKiCadDRC/padparitymandatory."
+  }
+}

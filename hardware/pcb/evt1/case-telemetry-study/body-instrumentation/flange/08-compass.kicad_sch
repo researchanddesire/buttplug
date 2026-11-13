@@ -1,0 +1,323 @@
+(kicad_sch
+  (version 20230121)
+  (generator build_evt1_electrical)
+  (uuid 53a82262-c646-5d31-b4b7-c336f273c622)
+  (paper "A3")
+  (title_block
+    (title "Flange-fixed eCompass sensor daughterboard")
+    (date "2026-11-12")
+    (rev "EVT1 electrical candidate")
+    (company "Research and Desire")
+    (comment 1 "TELEMETRY STUDY / ORIGINAL ARTWORK UNCHANGED / NO RELEASE"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:Conn4"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn4" (at 0 15.239999999999998 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn4_0_1" (rectangle (start -15.24 12.7) (end 15.24 -12.7) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn4_1_1"
+        (pin passive line (at -20.32 7.62 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "3" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -7.62 0) (length 5.08) (name "4" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:LSM303AGRTR"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 22.86 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "LSM303AGRTR" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm303agr.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "Flange-fixed compass: accel 0x19, magnetometer 0x1e" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "LSM303AGRTR_0_1" (rectangle (start -15.24 17.78) (end 15.24 -17.78) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "LSM303AGRTR_1_1"
+        (pin input line (at -20.32 12.7 0) (length 5.08) (name "SCL" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 7.619999999999999 0)
+          (length 5.08)
+          (name "SDA" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 2.539999999999999 0)
+          (length 5.08)
+          (name "CS_XL" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 -2.540000000000001 0)
+          (length 5.08)
+          (name "CS_MAG" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -7.620000000000001 0)
+          (length 5.08)
+          (name "C1" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin output line (at -20.32 -12.7 0) (length 5.08) (name "INT_MAG" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 12.7 180) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "9" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 7.619999999999999 180)
+          (length 5.08)
+          (name "VDDIO" (effects (font (size 1.016 1.016))))
+          (number "10" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 2.539999999999999 180)
+          (length 5.08)
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -2.540000000000001 180)
+          (length 5.08)
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "8" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at 20.32 -7.620000000000001 180)
+          (length 5.08)
+          (name "INT2_XL" (effects (font (size 1.016 1.016))))
+          (number "11" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at 20.32 -12.7 180)
+          (length 5.08)
+          (name "INT1_XL" (effects (font (size 1.016 1.016))))
+          (number "12" (effects (font (size 1.016 1.016))))))))
+  (symbol
+    (lib_id "PrototypeR0:LSM303AGRTR")
+    (at 88.9 68.58 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid ea1183ab-5902-5305-afe3-c4d3595010c0)
+    (property "Reference" "U81" (at 88.9 45.72 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "LSM303AGRTR" (at 88.9 48.26 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "Selected:LGA-12_2x2mm_P0.5mm" (at 88.9 68.58 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm303agr.pdf" (at 88.9 68.58 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 88.9 68.58 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 88.9 68.58 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 88.9 68.58 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 9c65a9a1-f7f7-5ad7-8154-8389c57089c5))
+    (pin "4" (uuid 1bf9f58b-db0b-595b-801e-0e61f534a996))
+    (pin "2" (uuid c561ce45-f22e-5ce9-9498-14a88dafaed3))
+    (pin "3" (uuid 4a94beb1-31a8-5f5d-b21d-f14f4d0fd473))
+    (pin "5" (uuid 3b22a7bd-992f-5175-afd2-bd95696d3531))
+    (pin "7" (uuid c341e0f5-da32-5905-99d7-27d3138aa0e6))
+    (pin "9" (uuid f3ca265e-1a56-5e4c-9ddc-e554462cb95d))
+    (pin "10" (uuid 48cd3c5a-e367-55f9-bf3c-5712bf4d4c0a))
+    (pin "6" (uuid 8a076bfd-1847-565b-89f0-d07544df559c))
+    (pin "8" (uuid 0379dc4e-1c9f-5fca-853d-0b2fcd7df65e))
+    (pin "11" (uuid 8c1b1bee-590e-57cc-8aef-365ed86907b9))
+    (pin "12" (uuid 2c3f9d07-7ae5-5664-8c76-2b7d7b06caf2))
+    (instances
+      (project "sensor-evt1" (path "/53a82262-c646-5d31-b4b7-c336f273c622" (reference "U81") (unit 1)))
+      (project "system-evt1" (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/53a82262-c646-5d31-b4b7-c336f273c622" (reference "U81") (unit 1)))
+      (project "single-flange" (path "/98679ec4-8701-5dbd-8834-eb692629a93c/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "U81") (unit 1)))
+      (project
+        "single-flange-system"
+        (path "/2a952132-4860-544e-b6f1-1853c762201d/1432decd-a49e-5a01-80c1-c3a07ecc4cd0/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "U81") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/1432decd-a49e-5a01-80c1-c3a07ecc4cd0/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "U81") (unit 1)))))
+  (wire (pts (xy 68.58 55.88) (xy 63.5 55.88)) (stroke (width 0) (type default)) (uuid 61bcf534-b7f9-560f-8857-91c55a92f09e))
+  (global_label "I2C_SCL" (shape input) (at 63.5 55.88 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 40dac033-50ed-5fe9-a4e1-7eb2607c9729))
+  (wire (pts (xy 68.58 60.96) (xy 63.5 60.96)) (stroke (width 0) (type default)) (uuid 8e9bf185-babc-5783-b8c0-e2ac9e8c6f15))
+  (global_label "I2C_SDA" (shape input) (at 63.5 60.96 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 2545f485-0826-59ba-8fa7-45ad5f91f9bd))
+  (wire (pts (xy 68.58 66.04) (xy 63.5 66.04)) (stroke (width 0) (type default)) (uuid a6587dad-12e4-57f6-ac5d-2db7644c28d2))
+  (global_label "3V3" (shape input) (at 63.5 66.04 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 176ecff1-13ea-55d1-8e9a-2a393c73febf))
+  (wire (pts (xy 68.58 71.12) (xy 63.5 71.12)) (stroke (width 0) (type default)) (uuid e9bdf9dc-a9e0-57cb-ae17-0c1b6dc0356f))
+  (global_label "3V3" (shape input) (at 63.5 71.12 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 677f1809-951f-5492-bcf0-6c923b626af8))
+  (wire (pts (xy 68.58 76.2) (xy 63.5 76.2)) (stroke (width 0) (type default)) (uuid 06dabdfc-c5b0-52fe-8fa7-6df2b69ac7e1))
+  (global_label "MAG_C1" (shape input) (at 63.5 76.2 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 92afa69e-e491-5d33-b8e6-3c147316391c))
+  (no_connect (at 68.58 81.28) (uuid 6daa5dcc-9c02-5840-b72d-3e8215af3a0c))
+  (wire (pts (xy 109.22 55.88) (xy 114.3 55.88)) (stroke (width 0) (type default)) (uuid 40ddd663-9510-54ae-b90f-8a9315bca6fd))
+  (global_label "3V3" (shape input) (at 114.3 55.88 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 989dcafa-7568-57ec-8f30-42583be14234))
+  (wire (pts (xy 109.22 60.96) (xy 114.3 60.96)) (stroke (width 0) (type default)) (uuid cad473d1-fd0f-5976-aa1d-e053cb4cc92d))
+  (global_label "3V3" (shape input) (at 114.3 60.96 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 3d7157a5-5064-5baf-9a26-f290f8e6afb4))
+  (wire (pts (xy 109.22 66.04) (xy 114.3 66.04)) (stroke (width 0) (type default)) (uuid d2b177ae-2cbe-5e90-8ad3-aba86ad43c6c))
+  (global_label "GND" (shape input) (at 114.3 66.04 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 216f76fd-9a04-5b3b-aea8-e81e6614d270))
+  (wire (pts (xy 109.22 71.12) (xy 114.3 71.12)) (stroke (width 0) (type default)) (uuid 451f772f-a6b4-5ca4-b845-22f118aea587))
+  (global_label "GND" (shape input) (at 114.3 71.12 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid b2998198-83f1-5c94-84ae-7c08aa865599))
+  (no_connect (at 109.22 76.2) (uuid 45459f88-fb99-564c-bedb-06c6793f957c))
+  (no_connect (at 109.22 81.28) (uuid 7c555c0e-0ca5-59f2-a420-77b025bf97e9))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 160.02 48.26 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 5a7d77ee-40dc-59b4-bcd3-4c63caef83ef)
+    (property "Reference" "C81" (at 168.91000000000003 46.989999999999995 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "220nF" (at 168.91000000000003 49.53 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Selected:C_0402_1005Metric" (at 160.02 48.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 160.02 48.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 160.02 48.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 160.02 48.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 160.02 48.26 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 00b95fc1-c058-5200-9bce-e5f65e4503c9))
+    (pin "2" (uuid 3d54ce93-3573-534c-ab26-2b385e3e7784))
+    (instances
+      (project "sensor-evt1" (path "/53a82262-c646-5d31-b4b7-c336f273c622" (reference "C81") (unit 1)))
+      (project "system-evt1" (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/53a82262-c646-5d31-b4b7-c336f273c622" (reference "C81") (unit 1)))
+      (project "single-flange" (path "/98679ec4-8701-5dbd-8834-eb692629a93c/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C81") (unit 1)))
+      (project
+        "single-flange-system"
+        (path "/2a952132-4860-544e-b6f1-1853c762201d/1432decd-a49e-5a01-80c1-c3a07ecc4cd0/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C81") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/1432decd-a49e-5a01-80c1-c3a07ecc4cd0/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C81") (unit 1)))))
+  (wire (pts (xy 160.02 43.18) (xy 160.02 38.1)) (stroke (width 0) (type default)) (uuid 612770a3-0fb5-5924-ac41-c02c40407751))
+  (global_label "MAG_C1" (shape input) (at 160.02 38.1 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 9a4b67d9-86de-5554-a3e2-fd17648e6bed))
+  (wire (pts (xy 160.02 53.34) (xy 160.02 58.42)) (stroke (width 0) (type default)) (uuid e04f43ff-a58b-54d5-8db4-8cc320734e3c))
+  (global_label "GND" (shape input) (at 160.02 58.42 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 64e9c707-f264-54d5-bf7d-0501df68d0d4))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 160.02 86.36 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 9697131e-d142-53ad-b7df-f01f0ae968d7)
+    (property "Reference" "C82" (at 168.91000000000003 85.09 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF" (at 168.91000000000003 87.63 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Selected:C_0402_1005Metric" (at 160.02 86.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 160.02 86.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 160.02 86.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 160.02 86.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 160.02 86.36 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 6209fd5c-b2af-5598-b1cd-378a71e7dad3))
+    (pin "2" (uuid 961a8ecb-28c1-595d-86ea-5fc60e2726e2))
+    (instances
+      (project "sensor-evt1" (path "/53a82262-c646-5d31-b4b7-c336f273c622" (reference "C82") (unit 1)))
+      (project "system-evt1" (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/53a82262-c646-5d31-b4b7-c336f273c622" (reference "C82") (unit 1)))
+      (project "single-flange" (path "/98679ec4-8701-5dbd-8834-eb692629a93c/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C82") (unit 1)))
+      (project
+        "single-flange-system"
+        (path "/2a952132-4860-544e-b6f1-1853c762201d/1432decd-a49e-5a01-80c1-c3a07ecc4cd0/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C82") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/1432decd-a49e-5a01-80c1-c3a07ecc4cd0/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C82") (unit 1)))))
+  (wire (pts (xy 160.02 81.28) (xy 160.02 76.2)) (stroke (width 0) (type default)) (uuid e42c9706-8232-57f2-abc6-0c1173273f58))
+  (global_label "3V3" (shape input) (at 160.02 76.2 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid d225cbed-efd9-5183-bd96-970ee43ab588))
+  (wire (pts (xy 160.02 91.44) (xy 160.02 96.52)) (stroke (width 0) (type default)) (uuid cb20339c-4e1b-550f-bf3a-691fa596f517))
+  (global_label "GND" (shape input) (at 160.02 96.52 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 09bbf0ed-d517-5c75-8c87-285348cda124))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 160.02 124.46 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 3673b694-5ae6-550e-8997-4904c7356c4f)
+    (property "Reference" "C83" (at 168.91000000000003 123.19 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "22uF 10V / Ceff>=10uF at3V3" (at 168.91000000000003 125.72999999999999 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Selected:C_0805_2012Metric" (at 160.02 124.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 160.02 124.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 160.02 124.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 160.02 124.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "MLCC candidate: qualify >=10uF effective at3V3/temp versus ST p35 bulk recommendation before layout release."
+      (at 160.02 124.46 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 83c2174a-df5f-52af-b129-fb2223a9189b))
+    (pin "2" (uuid 35daf80b-0933-5d00-ab73-b0d61518b9de))
+    (instances
+      (project "sensor-evt1" (path "/53a82262-c646-5d31-b4b7-c336f273c622" (reference "C83") (unit 1)))
+      (project "system-evt1" (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/53a82262-c646-5d31-b4b7-c336f273c622" (reference "C83") (unit 1)))
+      (project "single-flange" (path "/98679ec4-8701-5dbd-8834-eb692629a93c/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C83") (unit 1)))
+      (project
+        "single-flange-system"
+        (path "/2a952132-4860-544e-b6f1-1853c762201d/1432decd-a49e-5a01-80c1-c3a07ecc4cd0/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C83") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/1432decd-a49e-5a01-80c1-c3a07ecc4cd0/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C83") (unit 1)))))
+  (wire (pts (xy 160.02 119.38) (xy 160.02 114.3)) (stroke (width 0) (type default)) (uuid ee447b54-9988-516b-9162-6febffc75874))
+  (global_label "3V3" (shape input) (at 160.02 114.3 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 4888c612-f850-5e4e-ba8b-65d405f81aa3))
+  (wire (pts (xy 160.02 129.54) (xy 160.02 134.62)) (stroke (width 0) (type default)) (uuid a42620b1-dc1d-5bc1-a514-a9ad89925d06))
+  (global_label "GND" (shape input) (at 160.02 134.62 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 7d698628-2e2d-525c-a0a6-f44c7cc18268))
+  (text
+    "Both sensor axes are fixed to the flange/back-arrow reference, independent of cap rotation.\nPlace near +X flange end, away from motor, steel keepers and charging magnets.\nNo extra pullups: existing R32/R33 pull up the common 3V3 I2C bus.\nRegister axes to CAD. Calibrate assembled magnetic offsets; suppress heading when docked.\nSensor PCB placement, magnetic survey and final axis transform still require integration."
+    (at 40.64 170.18 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid 84be934a-13dd-5182-83cc-0a16d9d87c73))
+  (sheet_instances (path "/" (page "1")))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 218.44 124.46 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 4b1e489f-13bc-5383-a6c7-83fbb7a6626e)
+    (property "Reference" "C84" (at 227.32999999999998 123.19 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF / VDDIO local" (at 227.32999999999998 125.72999999999999 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Selected:C_0402_1005Metric" (at 218.44 124.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 218.44 124.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 218.44 124.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 218.44 124.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 218.44 124.46 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid e0923b68-a726-50c4-bc40-4c18eaa151fc))
+    (pin "2" (uuid f29f44c0-619e-53bb-b6e8-6d6a4387ff92))
+    (instances
+      (project "sensor-evt1" (path "/53a82262-c646-5d31-b4b7-c336f273c622" (reference "C84") (unit 1)))
+      (project "system-evt1" (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/53a82262-c646-5d31-b4b7-c336f273c622" (reference "C84") (unit 1)))
+      (project "single-flange" (path "/98679ec4-8701-5dbd-8834-eb692629a93c/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C84") (unit 1)))
+      (project
+        "single-flange-system"
+        (path "/2a952132-4860-544e-b6f1-1853c762201d/1432decd-a49e-5a01-80c1-c3a07ecc4cd0/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C84") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/1432decd-a49e-5a01-80c1-c3a07ecc4cd0/cbb59296-9b5c-565e-9ee7-8cd7614f04ac" (reference "C84") (unit 1)))))
+  (wire (pts (xy 218.44 119.38) (xy 218.44 114.3)) (stroke (width 0) (type default)) (uuid a36d1ec1-a051-5a58-a566-c4721c86662f))
+  (global_label "3V3" (shape input) (at 218.44 114.3 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 7954720e-282b-5b0e-bce3-4bace673b8e0))
+  (wire (pts (xy 218.44 129.54) (xy 218.44 134.62)) (stroke (width 0) (type default)) (uuid 5e6c9972-816b-5406-9c79-b83e4159e68a))
+  (global_label "GND" (shape input) (at 218.44 134.62 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 626fda79-1de8-5e4b-8aff-3eef7b728c18)))

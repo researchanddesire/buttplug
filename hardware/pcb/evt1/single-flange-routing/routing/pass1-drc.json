@@ -1,0 +1,875 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T20:36:24",
+    "ignored_checks": [
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "single-flange.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [BOOT_N] on B.Cu, length 0.2793 mm",
+                    "pos": {
+                        "x": 75.7056,
+                        "y": 104.1975
+                    },
+                    "uuid": "a6c396c6-a801-4f2e-8c58-2e471aac2dae"
+                },
+                {
+                    "description": "Track [BOOT_N] on B.Cu, length 1.2874 mm",
+                    "pos": {
+                        "x": 82.0906,
+                        "y": 104.4907
+                    },
+                    "uuid": "3b9ed93a-bf54-463b-81c1-d4eebd45325a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [BOOT_N] on B.Cu, length 1.2861 mm",
+                    "pos": {
+                        "x": 83.0,
+                        "y": 105.4001
+                    },
+                    "uuid": "35af227d-c6c3-43a5-a669-688e14d4e165"
+                },
+                {
+                    "description": "Track [BOOT_N] on B.Cu, length 0.1846 mm",
+                    "pos": {
+                        "x": 105.1805,
+                        "y": 103.1305
+                    },
+                    "uuid": "10fce049-e1f0-4298-9467-dfe9ec9ad9c5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Via [DOCK_PRESENT_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 70.0,
+                        "y": 105.0953
+                    },
+                    "uuid": "6eb30e34-0103-4e19-8ea2-e923ae4dc0fa"
+                },
+                {
+                    "description": "Track [DOCK_PRESENT_N] on B.Cu, length 1.1126 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 101.5
+                    },
+                    "uuid": "4decbc43-59e6-4dfc-b413-dd13336a69e6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of SW1 on F.Cu",
+                    "pos": {
+                        "x": 84.7,
+                        "y": 100.0
+                    },
+                    "uuid": "c4cc1f07-6570-4ad4-b7cf-4dae71939925"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 83.4731,
+                        "y": 103.2019
+                    },
+                    "uuid": "64330a6c-0656-458a-8f8b-6e5d5c8b4b25"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of SW2 on F.Cu",
+                    "pos": {
+                        "x": 92.7,
+                        "y": 100.0
+                    },
+                    "uuid": "af967c6f-74aa-4328-a59a-d2647fa7641a"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 92.8,
+                        "y": 95.5
+                    },
+                    "uuid": "f5905f6c-ef9f-46de-aeab-cdff8ffe1d5f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [MCU_EN] on B.Cu, length 0.5309 mm",
+                    "pos": {
+                        "x": 84.3754,
+                        "y": 103.3753
+                    },
+                    "uuid": "413ba4f3-1295-4ac3-8cc5-a377f4f6f225"
+                },
+                {
+                    "description": "Track [MCU_EN] on B.Cu, length 1.1133 mm",
+                    "pos": {
+                        "x": 80.5378,
+                        "y": 103.2128
+                    },
+                    "uuid": "52d6fb65-7c71-46e1-859e-ca84ddf37d6e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [MODE_N] on B.Cu, length 1.7855 mm",
+                    "pos": {
+                        "x": 88.725,
+                        "y": 98.0
+                    },
+                    "uuid": "ecf8726b-cd5d-41b2-aee4-94263df08384"
+                },
+                {
+                    "description": "Track [MODE_N] on B.Cu, length 0.8121 mm",
+                    "pos": {
+                        "x": 70.0,
+                        "y": 94.9121
+                    },
+                    "uuid": "cb3e92b5-f850-47d2-9e72-f863ed1d16d3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [MODE_N] on F.Cu, length 0.6769 mm",
+                    "pos": {
+                        "x": 89.3,
+                        "y": 100.0
+                    },
+                    "uuid": "98850425-adcb-4440-9cb2-f5ee0fca7361"
+                },
+                {
+                    "description": "Track [MODE_N] on B.Cu, length 0.7304 mm",
+                    "pos": {
+                        "x": 102.4335,
+                        "y": 102.4835
+                    },
+                    "uuid": "ef26e1e5-96ef-4cf0-9cc9-4e554c6a45fc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [MOTOR_PWM] on B.Cu, length 0.8119 mm",
+                    "pos": {
+                        "x": 74.9,
+                        "y": 101.6
+                    },
+                    "uuid": "881e0c90-d59b-404f-b524-daf611d70b6a"
+                },
+                {
+                    "description": "Pad 6 [MOTOR_PWM] of J7 on B.Cu",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 100.5
+                    },
+                    "uuid": "b0631952-8d0b-411f-afeb-a5837a08bc00"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [TIP_EXC_EN] on B.Cu, length 0.9980 mm",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 104.5
+                    },
+                    "uuid": "7489dda7-45f0-46b1-a176-4108076e2b19"
+                },
+                {
+                    "description": "Track [TIP_EXC_EN] on B.Cu, length 0.8200 mm",
+                    "pos": {
+                        "x": 74.9,
+                        "y": 98.4
+                    },
+                    "uuid": "199a1d79-6695-45f7-be88-695b48666ac6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on In2.Cu, length 1.2576 mm",
+                    "pos": {
+                        "x": 98.1947,
+                        "y": 97.4254
+                    },
+                    "uuid": "100b1c7b-84c3-4966-9660-e7a3c9a08aab"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on In2.Cu, length 0.1245 mm",
+                    "pos": {
+                        "x": 94.1605,
+                        "y": 97.1877
+                    },
+                    "uuid": "70f963e7-b8f3-4e58-9b6d-a6ce9bc22994"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on In2.Cu, length 0.1212 mm",
+                    "pos": {
+                        "x": 96.9371,
+                        "y": 97.4254
+                    },
+                    "uuid": "88895f80-2df0-4bac-879d-294ab4e04cec"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on In2.Cu, length 0.2126 mm",
+                    "pos": {
+                        "x": 94.3731,
+                        "y": 97.1877
+                    },
+                    "uuid": "c41c05ac-2f8e-4620-bab4-90d4e7b8cd50"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on B.Cu, length 2.0839 mm",
+                    "pos": {
+                        "x": 101.49,
+                        "y": 105.6061
+                    },
+                    "uuid": "407ae9ae-5b7f-42f5-b06a-7a5394d4ef5d"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on B.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 99.4061,
+                        "y": 105.6061
+                    },
+                    "uuid": "518b17f4-5f12-42f4-98e4-8915a7ed3f17"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on B.Cu, length 0.1344 mm",
+                    "pos": {
+                        "x": 131.7469,
+                        "y": 99.655
+                    },
+                    "uuid": "5850a7f1-38a7-4373-bbcb-2a9d89feb298"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on B.Cu, length 0.1344 mm",
+                    "pos": {
+                        "x": 134.2531,
+                        "y": 100.155
+                    },
+                    "uuid": "5d018222-e930-432e-822d-a3355a6ef398"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on B.Cu, length 0.2055 mm",
+                    "pos": {
+                        "x": 98.8547,
+                        "y": 96.7269
+                    },
+                    "uuid": "75d2c716-8d22-4ba3-9090-ed5b6d24b004"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on B.Cu, length 0.6737 mm",
+                    "pos": {
+                        "x": 134.9268,
+                        "y": 100.155
+                    },
+                    "uuid": "81617b20-99dc-4881-b3da-28f6c22e0569"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on B.Cu, length 1.7469 mm",
+                    "pos": {
+                        "x": 130.0,
+                        "y": 99.655
+                    },
+                    "uuid": "928ee38e-212a-479f-97a4-29c9c2d41641"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on B.Cu, length 0.2125 mm",
+                    "pos": {
+                        "x": 98.8547,
+                        "y": 96.9394
+                    },
+                    "uuid": "ab0a5bd9-03d9-4133-9667-ea4e23f1dd56"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on B.Cu, length 0.3956 mm",
+                    "pos": {
+                        "x": 133.7625,
+                        "y": 100.25
+                    },
+                    "uuid": "bcf91911-53b9-49d1-9804-0552bec76d53"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [3V3] on B.Cu, length 0.3956 mm",
+                    "pos": {
+                        "x": 132.2375,
+                        "y": 99.75
+                    },
+                    "uuid": "efe196ed-2374-4fa0-863a-5c83208229f8"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [BOOT_N] on B.Cu, length 0.6081 mm",
+                    "pos": {
+                        "x": 74.9,
+                        "y": 104.0
+                    },
+                    "uuid": "721ffd2e-9b9f-4dc3-9651-3aab4fe407bb"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [BOOT_N] on B.Cu, length 0.2793 mm",
+                    "pos": {
+                        "x": 75.7056,
+                        "y": 104.1975
+                    },
+                    "uuid": "a6c396c6-a801-4f2e-8c58-2e471aac2dae"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_EN] on In2.Cu, length 0.9181 mm",
+                    "pos": {
+                        "x": 79.5478,
+                        "y": 94.5246
+                    },
+                    "uuid": "ae0ccea0-29de-45b6-84f3-75d50ea3e573"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_EN] on In2.Cu, length 0.2354 mm",
+                    "pos": {
+                        "x": 73.4696,
+                        "y": 92.2977
+                    },
+                    "uuid": "c6a9ae45-eae8-4db6-8960-95f58c0e3a80"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_EN] on In2.Cu, length 0.2647 mm",
+                    "pos": {
+                        "x": 80.4659,
+                        "y": 94.5246
+                    },
+                    "uuid": "d6a1289a-8b3b-40f7-a7a7-fb55f3925820"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_EN] on In2.Cu, length 0.5470 mm",
+                    "pos": {
+                        "x": 73.0828,
+                        "y": 91.9109
+                    },
+                    "uuid": "dfd04ee4-48aa-4b2d-9bb3-d3be46d51131"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_EN] on B.Cu, length 0.3582 mm",
+                    "pos": {
+                        "x": 80.696,
+                        "y": 94.3244
+                    },
+                    "uuid": "44dce9b8-b1ce-4e7a-9f86-7e550490f845"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_EN] on B.Cu, length 0.3939 mm",
+                    "pos": {
+                        "x": 81.0542,
+                        "y": 94.3244
+                    },
+                    "uuid": "8e686deb-b263-4741-b714-324949c55f13"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_EN] on B.Cu, length 0.7478 mm",
+                    "pos": {
+                        "x": 83.2256,
+                        "y": 100.8744
+                    },
+                    "uuid": "9421894b-f45f-40d8-9e1a-00a1f70f4dd6"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [MCU_EN] on B.Cu, length 0.0881 mm",
+                    "pos": {
+                        "x": 83.2879,
+                        "y": 100.8121
+                    },
+                    "uuid": "a76393d8-a2ab-430b-9b2b-8c47d99a554f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [PACK_P] on B.Cu, length 2.6493 mm",
+                    "pos": {
+                        "x": 94.1233,
+                        "y": 98.026
+                    },
+                    "uuid": "250650ed-249c-43fb-bd94-6880e158d86b"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [PACK_P] on B.Cu, length 0.6703 mm",
+                    "pos": {
+                        "x": 91.474,
+                        "y": 98.026
+                    },
+                    "uuid": "55eb4d2f-7b55-44ae-97af-063d17062127"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [STRAP8] on B.Cu, length 0.2896 mm",
+                    "pos": {
+                        "x": 76.1723,
+                        "y": 102.8254
+                    },
+                    "uuid": "3844116e-f6e9-4e50-9927-ea30fa31eafa"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [STRAP8] on B.Cu, length 0.6081 mm",
+                    "pos": {
+                        "x": 74.9,
+                        "y": 103.2
+                    },
+                    "uuid": "ba29acf5-1248-4de3-8732-f1a1bd9a6848"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [STRAP8] on B.Cu, length 0.5298 mm",
+                    "pos": {
+                        "x": 75.8827,
+                        "y": 102.8254
+                    },
+                    "uuid": "d97689eb-a57a-4e47-bca3-4852ffde6909"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [VBAT_ADC] on In2.Cu, length 0.4253 mm",
+                    "pos": {
+                        "x": 87.9687,
+                        "y": 98.1877
+                    },
+                    "uuid": "33e359c9-3bd0-4c45-9fd1-a6fe081eac0f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [VBAT_ADC] on In2.Cu, length 0.5086 mm",
+                    "pos": {
+                        "x": 88.394,
+                        "y": 98.1877
+                    },
+                    "uuid": "d5e09f08-f622-4092-bd7d-393324765cf4"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [BOOT_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 82.0906,
+                        "y": 103.2033
+                    },
+                    "uuid": "03cd3ee1-c4f0-403c-b85e-2be243525283"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [BOOT_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 105.1805,
+                        "y": 103.6276
+                    },
+                    "uuid": "0c683e38-ee4c-47f5-941f-f6dcb6d523a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [BOOT_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 75.7056,
+                        "y": 104.1975
+                    },
+                    "uuid": "44430f9f-e686-4ca7-a835-6ecda80ee0ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [DOCK_PRESENT_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 70.0,
+                        "y": 105.0953
+                    },
+                    "uuid": "6eb30e34-0103-4e19-8ea2-e923ae4dc0fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [MCU_EN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 80.5378,
+                        "y": 103.2128
+                    },
+                    "uuid": "7e621e57-8a6b-4285-bfaf-e08fc8d766b9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [MODE_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 70.0,
+                        "y": 94.9121
+                    },
+                    "uuid": "776ee0be-0629-4a54-9bc9-a2af141ff749"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [MODE_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 102.4335,
+                        "y": 102.4835
+                    },
+                    "uuid": "a9be23f7-693d-4607-908a-5ade089894f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [MOTOR_PWM] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.0881,
+                        "y": 101.6
+                    },
+                    "uuid": "d139b63f-8472-44bd-a414-dfd901cbb292"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [TIP_EXC_EN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 75.72,
+                        "y": 98.4
+                    },
+                    "uuid": "95e38efa-4ce1-4c49-9370-ca152630a449"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [TIP_EXC_EN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 90.2943,
+                        "y": 105.2057
+                    },
+                    "uuid": "bed68f5b-4393-4629-bbe6-c4136c9ca28a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        }
+    ]
+}

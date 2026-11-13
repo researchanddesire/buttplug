@@ -1,0 +1,154 @@
+metadata:
+  title: EVT1 fixed compass / body J81 to sensor J82
+  notes: EVT first article. Native numeric pin map; verify mating marks/continuity.
+    Free-span dimensions are between modeled wire-exit datums; stock blanks are longer
+    and are not finished cut lengths. No physical crimp/current/fit acceptance.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J81:
+    type: Body hand-solder lands
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    pinlabels: &id001
+    - 3V3
+    - GND
+    - I2C_SDA
+    - I2C_SCL
+    ignore_in_bom: true
+  J82:
+    type: Sensor hand-solder lands
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    pinlabels: *id001
+    ignore_in_bom: true
+cables:
+  CS1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - 3V3
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.55mm.
+
+      Centreline bend at least2mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+  CS2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - GND
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.55mm.
+
+      Centreline bend at least2mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+  CS3:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - I2C_SDA
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.55mm.
+
+      Centreline bend at least2mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+  CS4:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - I2C_SCL
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.55mm.
+
+      Centreline bend at least2mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+connections:
+- - J81:
+    - 1
+  - CS1:
+    - 1
+  - J82:
+    - 1
+- - J81:
+    - 2
+  - CS2:
+    - 1
+  - J82:
+    - 2
+- - J81:
+    - 3
+  - CS3:
+    - 1
+  - J82:
+    - 3
+- - J81:
+    - 4
+  - CS4:
+    - 1
+  - J82:
+    - 4
+additional_bom_items: []

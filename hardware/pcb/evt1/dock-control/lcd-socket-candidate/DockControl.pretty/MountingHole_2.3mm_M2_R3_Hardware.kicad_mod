@@ -1,0 +1,6 @@
+(footprint "MountingHole_2.3mm_M2_R3_Hardware"(version 20221018)(generator route_lid)(layer "F.Cu")(attr exclude_from_pos_files exclude_from_bom)
+ (fp_text reference "REF**"(at 0 -3.6)(layer "F.SilkS")(effects(font(size .8 .8)(thickness .12))))
+ (fp_text value "M2 NPTH2.3/R3 hardware"(at 0 3.6)(layer "F.Fab")(effects(font(size .8 .8)(thickness .12))))
+ (pad "" np_thru_hole circle(at 0 0)(size 2.3 2.3)(drill 2.3)(layers "*.Cu" "*.Mask"))
+ (fp_circle(center 0 0)(end 3 0)(layer "F.CrtYd")(width .05)(fill none))
+ (fp_circle(center 0 0)(end 3 0)(layer "B.CrtYd")(width .05)(fill none)))

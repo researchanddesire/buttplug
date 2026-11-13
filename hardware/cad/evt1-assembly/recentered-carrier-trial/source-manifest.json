@@ -1,0 +1,98 @@
+{
+  "scope": "Frozen isolated recentered carrier trial; no master/source artwork edits or physical release",
+  "helper": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/tools/build_evt1_dock_recentered_carrier.py",
+  "helper_SHA256": "f11d6f712b67ecc7922473bb45e00e385c1e0608a7b147e8330813a274f982fe",
+  "native_cold_read_valid_physical_components": 15,
+  "native_cold_read_fully_constrained_sketches": true,
+  "preview_matches_final_saved_native_geometry": true,
+  "preview_geometry_binding_tolerance_mm": 1e-07,
+  "new_module_nominal_fit_pass": true,
+  "whole_dock_with_device_pass": true,
+  "all_component_BOP_checks_pass": false,
+  "coil_C0_exception_preserved": true,
+  "received_or_physical_qualification": false,
+  "source_inputs": [
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/tools/build_evt1_native_dock.py",
+      "SHA256": "7eb82305aa7163532abc48d4449d80d0676372f9d8ef02a7d79948ea01282da6"
+    },
+    {
+      "path": "/private/tmp/compass-jobs/RootFeaturePreflight.FCStd",
+      "SHA256": "1fd7f112510343753373dc7deca9982b8a3437ae8d9da79bf7ffcc52fd44a983"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/cad/evt1-assembly/pcb/PinPCB.FCStd",
+      "SHA256": "b23b12cdc70600ad15efffc73ef2380cc70e242e8e4bf0bce5304f69d88a6a90"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/cad/evt1-assembly/pcb/MainPCB.FCStd",
+      "SHA256": "c045bffdaff295370e94087e86039af5249143c1b47365903e8586af5cb26dc1"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/tools/build_evt1_dock_pogo.py",
+      "SHA256": "0ceed22fc08d62296bd4937bacf9e61971736b11ded0f5a92af96143fc425a30"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/tools/build_evt1_dock_fasteners.py",
+      "SHA256": "ed67378ef1cb6489aafb0d15ba823911a136bce2360ccd7c5205f3caf111b6df"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/tools/build_evt1_dock_button_mechanics.py",
+      "SHA256": "e6a788d411016befb77ee629536e1d2fbc1e0c4a9a238cd695e20fbcbeef7800"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/cad/evt1-assembly/recentered-carrier-trial/check_trial.py",
+      "SHA256": "bef0546c5439acd3f41feea929c9b831fda55f79d80e2394a1460d6529c30f71"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/tools/build_evt1_dock_recentered_carrier.py",
+      "SHA256": "f11d6f712b67ecc7922473bb45e00e385c1e0608a7b147e8330813a274f982fe"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/cad/evt1-assembly/recentered-carrier-trial/device_check.py",
+      "SHA256": "c98d5b1120d0e059aa711d06168ead02eadca370139bc51d4194b4e9c3433cbc"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/cad/evt1-assembly/recentered-carrier-trial/selected-coil-bop-evidence.json",
+      "SHA256": "7308b1290385ef2883f5697e1b1748dab248f86d30655d943bba79e87b951ed6"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/cad/evt1-assembly/recentered-carrier-trial/selected-coil-source.brp",
+      "SHA256": "c06a4e36ab094548564cd8980438655a02634330439ce5a1ad72bf04272ffcb9"
+    },
+    {
+      "path": "/private/tmp/compass-jobs/candidate050/DockAssembly.FCStd",
+      "SHA256": "6271a77b21ac1f03880138435662bdc9fe38453330030ee84cb44265e237f6eb"
+    },
+    {
+      "path": "hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/exterior/SingleFlangeExterior.FCStd",
+      "SHA256": "4b9471fea1af7ace656350d1bc001c665d675ac7fe8014103637b7c204a3b7c5"
+    },
+    {
+      "path": "hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/exterior/ButtonPressKeepouts.FCStd",
+      "SHA256": "a53dd2418516020987e14224f249a8deb583b08baf07801c0e843c2d9926f1ca"
+    }
+  ],
+  "files_SHA256": {
+    "README.md": "d4877ff4c6c9b081e44f2db821063c4bd196aa26aa9dc5caf93373da15082395",
+    "integration-contract.json": "9ee085d59a173f072c43f2690cf9a516a0f62392992d0a11b01a3e4154e64b25",
+    "RecenteredCarrierTrial.FCStd": "e99414d283d6a23a06703b179732f3e3d651cf1c92a6dbcd4686578a21f3e013",
+    "native-checks.json": "e00361280eeab1f6203a41adf08b49e005731ea9b55a93939aded59d0d301a2d",
+    "check_trial.py": "bef0546c5439acd3f41feea929c9b831fda55f79d80e2394a1460d6529c30f71",
+    "device_check.py": "c98d5b1120d0e059aa711d06168ead02eadca370139bc51d4194b4e9c3433cbc",
+    "freeze_outputs.py": "33f99a9f03d439e70e07bb81f001436462960fb7ae5c0ebf7888651dc250bfba",
+    "selected-coil-source.brp": "c06a4e36ab094548564cd8980438655a02634330439ce5a1ad72bf04272ffcb9",
+    "selected-coil-bop-evidence.json": "7308b1290385ef2883f5697e1b1748dab248f86d30655d943bba79e87b951ed6",
+    "negative-prefix-findings.json": "dba3316624f364878164201c319288bc6700d45b76d6bf1f248d44c714840a10",
+    "negative-skin-collar-findings.json": "cd07e47ec1823f55e9353816999a44385640fbfa9f21e1f258ccc7382119468b",
+    "liner-relief-13p1-ledged-probe.json": "5f2a706b39424dc1d522f0726a36c95d902a76e84ea6eb2b6539a7d155794995",
+    "export_preview_meshes.py": "95b3329c575821c5c1a3d2bf23720cf3833ca1838f37c56b09ae0b87802ac157",
+    "preview_geometry.py": "65eda68cb426e6dd7879545335e1c8b9cf1fb487da9f33864393b32fe48a6f21",
+    "render_preview.py": "e5d25967420f18165e77af02a212bbb29ba87bb781cc3a32866806d51470845e",
+    "preview-input-binding.json": "a87f69a867831e43d361ce08bf226b1d833697fc9505fe361d21ee3288151aaf",
+    "preview-meshes-render-source.json": "401a06460040ffe99c62a36505aaca2c9c0dfa0acac37ce049ef54747ab68160",
+    "assembled-preview.png": "76f4142678f7251acee7f7a69ce745eb72a5a94720d0c3ad51921e8f83e0bd59",
+    "exploded-rear-preview.png": "4f9c15e2f666b21b65642d0a01aa4b17d68cc83da517076cecdc36fff767d7e5"
+  },
+  "nonpackage_diagnostics": "Partial/failed logs, generated FCBak and pycache are not release inputs; unique negative findings are preserved in the named JSON files."
+}

@@ -1,0 +1,276 @@
+(kicad_symbol_lib
+  (version 20220914)
+  (generator dock_candidate)
+  (symbol
+    "C"
+    (pin_names hide)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol
+      "C_0_1"
+      (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+      (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+      (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+      (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol
+      "C_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "DMN62D2U"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "DMN62D2U" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.diodes.com/datasheet/download/DMN62D2U.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "60V NMOS, gateUVCTRL, sourceFB, drainLEDcathode." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "DMN62D2U_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "DMN62D2U_1_1"
+      (pin input line (at -20.32 2.54 0) (length 5.08) (name "G" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 2.54 180) (length 5.08) (name "D" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 -2.54 180) (length 5.08) (name "S" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "GH8"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 27.939999999999998 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "GH8" (at 0 25.4 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Straight1:1toJ621/J622; no highvoltage across hinge." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "GH8_0_1" (rectangle (start -15.24 22.86) (end 15.24 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "GH8_1_1"
+      (pin passive line (at -20.32 17.78 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 12.700000000000001 0)
+        (length 5.08)
+        (name "2" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 7.620000000000001 0)
+        (length 5.08)
+        (name "3" (effects (font (size 1.016 1.016))))
+        (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 2.540000000000001 0)
+        (length 5.08)
+        (name "4" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 -2.539999999999999 0)
+        (length 5.08)
+        (name "5" (effects (font (size 1.016 1.016))))
+        (number "5" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 -7.619999999999997 0)
+        (length 5.08)
+        (name "6" (effects (font (size 1.016 1.016))))
+        (number "6" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -12.7 0) (length 5.08) (name "7" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -17.78 0) (length 5.08) (name "8" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 17.78 180)
+        (length 5.08)
+        (name "MOUNT_GND" (effects (font (size 1.016 1.016))))
+        (number "MP" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "NTC413"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "NTC413" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.vishay.com/docs/29078/ntcle413.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Remote10k1%B25/85 3435K1%; controller owns pullup/filter." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "NTC413_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "NTC413_1_1"
+      (pin passive line (at -20.32 2.54 0) (length 5.08) (name "NTC" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 2.54 180) (length 5.08) (name "RETURN" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "PMEG6010CEH"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "PMEG6010CEH" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "60V1A Schottky; physical bar identifies K pin1." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "PMEG6010CEH_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "PMEG6010CEH_1_1"
+      (pin passive line (at -20.32 2.54 0) (length 5.08) (name "A" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 2.54 180) (length 5.08) (name "K" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "PWR_FLAG"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "PWR_FLAG" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Explicit external supply contract; annotation only, not a component" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "PWR_FLAG_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "PWR_FLAG_1_1"
+      (pin
+        power_out
+        line
+        (at -20.32 2.54 0)
+        (length 5.08)
+        (name "EXTERNAL_RAIL" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "PowerInductor"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "PowerInductor" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP4020TA.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "10uH20%;DCR243mOhmmax;Isat2.3A; actual recommended lands." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "PowerInductor_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "PowerInductor_1_1"
+      (pin passive line (at -20.32 2.54 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 2.54 180) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "R"
+    (pin_names hide)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol
+      "R_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "SolderLand"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SolderLand" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "Logical connector pin numbering; physical connector and footprint not selected"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "SolderLand_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "SolderLand_1_1"
+      (pin passive line (at -20.32 2.54 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "THERM67L"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "THERM67L" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "Datasheet"
+      "https://www.sensata.com/sites/default/files/a/sensata-6700-series-subminiature-bimetal-disc-thermostats-datasheet.pdf"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "67L045 opens45+/-5C. Published lowlevel reference10mA@5V;4.5..5.25V use NOT vendor qualified."
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "THERM67L_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "THERM67L_1_1"
+      (pin
+        passive
+        line
+        (at -20.32 2.54 0)
+        (length 5.08)
+        (name "NC_CONTACT" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 2.54 180)
+        (length 5.08)
+        (name "NC_CONTACT" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "TPS61165DBVR"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TPS61165DBVR" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61165.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "Static CTRL; 200mV feedback; 37..39V openLED OVP. CTRL low2.5ms shutdown; cathodeFET separate interrupt."
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "TPS61165DBVR_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "TPS61165DBVR_1_1"
+      (pin power_in line (at -20.32 5.08 0) (length 5.08) (name "VIN" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 0.0 0) (length 5.08) (name "CTRL_STATIC" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 -5.08 0) (length 5.08) (name "FB" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 5.08 180) (length 5.08) (name "SW" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 -5.08 180) (length 5.08) (name "COMP" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "VLMU35CB20"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "VLMU35CB20" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "Two electrical terminals only; cathode mark identifies1. Both large pads carry LED current and heat."
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "VLMU35CB20_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "VLMU35CB20_1_1"
+      (pin passive line (at -20.32 2.54 0) (length 5.08) (name "A" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 2.54 180)
+        (length 5.08)
+        (name "K_MARKED" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))))))

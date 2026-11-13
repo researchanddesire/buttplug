@@ -1,0 +1,72 @@
+{
+  "pass": true,
+  "scope": "Saved logical graph/native labels and generated child BOMs. Installed interboard spans are checked only when interboard_spans_verified is true; all other routes and all physical/process qualification remain open",
+  "harnesses": {
+    "interboard-evt1": {
+      "conductors": 10,
+      "purchased_MPNs": 3,
+      "child_BOM_matches_source": true
+    },
+    "compass-evt1": {
+      "conductors": 4,
+      "purchased_MPNs": 1,
+      "child_BOM_matches_source": true
+    },
+    "motor-evt1": {
+      "conductors": 2,
+      "purchased_MPNs": 4,
+      "child_BOM_matches_source": true
+    },
+    "tip-evt1": {
+      "conductors": 2,
+      "purchased_MPNs": 4,
+      "child_BOM_matches_source": true
+    },
+    "contacts-evt1": {
+      "conductors": 4,
+      "purchased_MPNs": 1,
+      "child_BOM_matches_source": true
+    },
+    "dock-evt1": {
+      "conductors": 4,
+      "purchased_MPNs": 1,
+      "child_BOM_matches_source": true
+    },
+    "pack-evt1": {
+      "conductors": 10,
+      "purchased_MPNs": 5,
+      "child_BOM_matches_source": true
+    }
+  },
+  "conductors": 36,
+  "interboard_spans_verified": true,
+  "logical_source_sha256": "ac31cf18338cbede15c687116822510fa29d9cd5f2b1506d79078d26f046fda3",
+  "source_review_sha256": "c4e099dfe089b3c5ad181c995aaca277b05334ffce1739a331b1308b1a400168",
+  "verifier_sha256": "19262e1bec856f7758cb8a014c1a692bb6638d287d25a3d34616e30e0772b400",
+  "export_directory": "/private/tmp/compass-evt1/cable-export",
+  "generated_files_sha256": {
+    "interboard-evt1.svg": "ae77e36afb28f93c1f1d9abe81cb0085fde421300b9200f4c30a34e6951bd93e",
+    "interboard-evt1.png": "79aec9d1a95fc25ed66a7376f707e42c78811eace36c3ac27314aad0cfb5a3d0",
+    "interboard-evt1.bom.tsv": "5b698ba340e09f2ad6e71cbf89c98c2f77bd785a3dbaab486b93e48efa08b45b",
+    "compass-evt1.svg": "206d90920f6fa79d4e590b7864de7df8272625b75cd7a7e1f574105deb9686ac",
+    "compass-evt1.png": "e2c5a0634e876348d1cc2e5fcc84b34e377838972976b8c2e6cb186e0a883a9e",
+    "compass-evt1.bom.tsv": "c15ead6f26fd4a2e4843121a1ce19e3ad5b0afebada765e42a7d2fd419debd86",
+    "motor-evt1.svg": "559a3a7e5e47bc0147d1408543e72479f570dfe0dc52de087dde26b3a353a82e",
+    "motor-evt1.png": "45eb100640f69a9670ce207ef586364230adea4636be30d0a949d6ce778e25ea",
+    "motor-evt1.bom.tsv": "b8d7895c903a88801d2c7d0af64fb04ed13da2c02ae50f6e6c66f25f5773bbc2",
+    "tip-evt1.svg": "80ab7ff060cdb15730fe2de43a3bfa2a86031fdb26b4f7e61f138cd46c84dc4e",
+    "tip-evt1.png": "c3e6429da963931fffdfdc098eeab8f89f5c84413de5b54b4a535956627a1590",
+    "tip-evt1.bom.tsv": "91375e13c8ad7f4198f5bedb81099fd4d01f126ba3011b02ca886f7666a91ccd",
+    "contacts-evt1.svg": "fe1d206c386aa92256e6a60ab771d84c16ea0039217a5bbae55c2e05f1c31c18",
+    "contacts-evt1.png": "8c168d2e2077e35e04120b0828496197b326eb0a92760ec240c500601873ead8",
+    "contacts-evt1.bom.tsv": "5afbf51bb1ac6b03c802c29f1e7712bf6d7519d11afb659c0071dd7151bb4343",
+    "dock-evt1.svg": "0a5a6ef0498825315b494554cb097d7f035fe1b38d49fe409f1544d55a208824",
+    "dock-evt1.png": "96b1f36c44f9659f84e42fb830e92e8f8b50fcf61264e3ba4e64637248f75221",
+    "dock-evt1.bom.tsv": "ecf919360058b7b86aca891cc029606787648d11c7d5f52af72f01d7ebc3dbe7",
+    "pack-evt1.svg": "5ccf1b7203f273f92aad69c9e7fd264ccf78d04ba0792c27975ea1839b2c050c",
+    "pack-evt1.png": "a2ba7986f75e754b8d12a0f1e3c2856deea2f97b17c75939313aeb45b06dfd5b",
+    "pack-evt1.bom.tsv": "c749681dfb510100c6773fdc710f386b97fcdd207f12f36ceb6934db63114475"
+  },
+  "physical_validation": false,
+  "full_product_order_ready": false
+}

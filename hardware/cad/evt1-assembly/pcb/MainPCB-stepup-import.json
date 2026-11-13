@@ -1,0 +1,3040 @@
+{
+  "scope": "Actual source-bound StepUp board/model import; nominal assembly fit not yet established",
+  "board": "hardware/pcb/evt1/dock-main/dock-main-MCAD-placement.kicad_pcb",
+  "board_sha256": "fe4e33675675ad068e8b8b114f9128b161d94eb7afd8538dcab9db65b91fe43a",
+  "native": "hardware/cad/evt1-assembly/pcb/MainPCB.FCStd",
+  "native_sha256": "c045bffdaff295370e94087e86039af5249143c1b47365903e8586af5cb26dc1",
+  "root_object": "Board_cf1e",
+  "selected_models": {
+    "R224": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C623": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "R605": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "U615": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245"
+    },
+    "U124": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635"
+    },
+    "R127": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C111": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R202": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R129": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "J602": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal.step",
+      "sha256": "5a6b7dc9f24b3e12dafe0a70189e9b9102689f2fb2b2866ad35fa8605756ca8a"
+    },
+    "R120": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "U607": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635"
+    },
+    "U609": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245"
+    },
+    "R618": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C211": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "U121": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635"
+    },
+    "R132": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C622": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "C203": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C608": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C209": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R617": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R209": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R610": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    "R214": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "U611": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/TPS22992_RXP8.step",
+      "sha256": "3245eca30677e513bbf8eafb0ebc470cef67336d98d34022dcd5a9027190359b"
+    },
+    "C110": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R206": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C610": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R221": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "U202": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/VSSOP-10_3x3mm_P0.5mm.step",
+      "sha256": "24fb2bd055d0d988ec8582e8a5f473ecf890c4d247091414c8b38e75833411d0"
+    },
+    "J201": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal.step",
+      "sha256": "b394b3277738e505a3b95dadb5f2b1a005a112860fc541f52d1ab5f42b472ae3"
+    },
+    "C202": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R207": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "Q103": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-23.step",
+      "sha256": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0"
+    },
+    "R612": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "D201": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/LED_0603_1608Metric.step",
+      "sha256": "98343205ec260ec165026ba2d44329a23096779ac36c553ea84aa7b370242e6d"
+    },
+    "R604": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "U612": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245"
+    },
+    "C612": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R226": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R606": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C105": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "R203": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "U105": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635"
+    },
+    "J101": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/USB4105-GF-A-120.step",
+      "sha256": "a106e6a6174145e6294191979648fe78dc39bfb451c034132f26a47c9bfabb98"
+    },
+    "R130": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C206": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "R215": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R223": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R601": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "U122": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635"
+    },
+    "R126": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R615": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    "R108": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "J601": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal.step",
+      "sha256": "5a6b7dc9f24b3e12dafe0a70189e9b9102689f2fb2b2866ad35fa8605756ca8a"
+    },
+    "R217": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "U616": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635"
+    },
+    "C114": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "U602": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-363_SC-70-6.step",
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4"
+    },
+    "C615": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "U114": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-363_SC-70-6.step",
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4"
+    },
+    "R121": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C106": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C112": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R218": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R122": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "U103": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/TUSB320_RWB12.step",
+      "sha256": "38b1e1657b71a90e605d48f10542c92b39fbfd63d4c1754e7ab89a7cde8d8f8c"
+    },
+    "R133": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C602": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C210": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R608": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R211": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C102": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "R614": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    "C101": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "R220": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R128": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R611": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    "R613": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C201": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C624": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "C620": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "C107": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R131": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C103": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "R125": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "J622": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.step",
+      "sha256": "38ec5ea738ca3ac47fea2b125a9725bf6c56b3e8ed942df666378dc55b43e322"
+    },
+    "U608": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-143.step",
+      "sha256": "b35b433c0dc71ac416a9c731e744d2e0610f82ebe97275830f0e17cdcbe44512"
+    },
+    "C616": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C621": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "U614": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-363_SC-70-6.step",
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4"
+    },
+    "C204": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C208": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C205": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "U201": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/LQFP-48_7x7mm_P0.5mm.step",
+      "sha256": "4c2330b9a6a0a05852ac6c25463c2168f7fa24276b94f1d6acf2ceed19098622"
+    },
+    "R106": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C108": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C606": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R107": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R603": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R204": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R607": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C104": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "R213": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C109": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C607": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "U606": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/TPS3431_DRB8.step",
+      "sha256": "2db2ec8dd946a9b69415853b52f71d2e1cc5180f99936e099a2eb59c534364e0"
+    },
+    "U610": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/TPS22992_RXP8.step",
+      "sha256": "3245eca30677e513bbf8eafb0ebc470cef67336d98d34022dcd5a9027190359b"
+    },
+    "U123": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635"
+    },
+    "C212": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R101": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R123": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R225": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C611": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R619": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R616": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C207": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R212": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R124": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "U104": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/TPS22950_YBH6.step",
+      "sha256": "4fe037b9485edd4464a884feb4ec3228b2fbb0ecb2a78a6c21893484765343d8"
+    },
+    "U102": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/TSOT-23-5.step",
+      "sha256": "5120f0cee43ef7743cc08408d2c12f234fcac7355386e330a3a16f336e23da8d"
+    },
+    "C613": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R222": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R205": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R201": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C614": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "U120": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635"
+    },
+    "C609": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "R219": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R208": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R216": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R602": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C113": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "U613": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/SOT-363_SC-70-6.step",
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4"
+    },
+    "R105": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R210": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "J621": {
+      "path": "hardware/pcb/evt1/dock-main/DockMain.3dshapes/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.step",
+      "sha256": "38ec5ea738ca3ac47fea2b125a9725bf6c56b3e8ed942df666378dc55b43e322"
+    }
+  },
+  "imported_model_objects": {
+    "R224": [
+      {
+        "name": "Shape",
+        "label": "R224_R_0603_1608Metric_0262e345e21a"
+      }
+    ],
+    "C623": [
+      {
+        "name": "Shape001",
+        "label": "C623_C_0603_1608Metric_dcc8ba245394"
+      }
+    ],
+    "R605": [
+      {
+        "name": "Shape002",
+        "label": "R605_R_0603_1608Metric_07060947a518"
+      }
+    ],
+    "U615": [
+      {
+        "name": "Shape003",
+        "label": "U615_TSSOP-14_4.4x5mm_P0.65mm_fb76451ff9e5"
+      }
+    ],
+    "U124": [
+      {
+        "name": "Shape004",
+        "label": "U124_SOT-23-6_8f8ad1644266"
+      }
+    ],
+    "R127": [
+      {
+        "name": "Shape005",
+        "label": "R127_R_0603_1608Metric_c5147edb52d8"
+      }
+    ],
+    "C111": [
+      {
+        "name": "Shape006",
+        "label": "C111_C_0402_1005Metric_dbebb0b3ec05"
+      }
+    ],
+    "R202": [
+      {
+        "name": "Shape007",
+        "label": "R202_R_0603_1608Metric_790c711e7be7"
+      }
+    ],
+    "R129": [
+      {
+        "name": "Shape008",
+        "label": "R129_R_0603_1608Metric_66e5df43f02f"
+      }
+    ],
+    "J602": [
+      {
+        "name": "Shape009",
+        "label": "J602_JST_SM02B_GHS_TB_b0d30e2cb93e"
+      }
+    ],
+    "R120": [
+      {
+        "name": "Shape010",
+        "label": "R120_R_0603_1608Metric_5ad200c99416"
+      }
+    ],
+    "U607": [
+      {
+        "name": "Shape011",
+        "label": "U607_SOT-23-6_bfb4298ef041"
+      }
+    ],
+    "U609": [
+      {
+        "name": "Shape012",
+        "label": "U609_TSSOP-14_4.4x5mm_P0.65mm_efda7fb35b7a"
+      }
+    ],
+    "R618": [
+      {
+        "name": "Shape013",
+        "label": "R618_R_0603_1608Metric_8c616087a5fc"
+      }
+    ],
+    "C211": [
+      {
+        "name": "Shape014",
+        "label": "C211_C_0402_1005Metric_859945ae1e6a"
+      }
+    ],
+    "U121": [
+      {
+        "name": "Shape015",
+        "label": "U121_SOT-23-6_5b4b25d1258b"
+      }
+    ],
+    "R132": [
+      {
+        "name": "Shape016",
+        "label": "R132_R_0603_1608Metric_469be52dcd73"
+      }
+    ],
+    "C622": [
+      {
+        "name": "Shape017",
+        "label": "C622_C_0603_1608Metric_a273a3e51054"
+      }
+    ],
+    "C203": [
+      {
+        "name": "Shape018",
+        "label": "C203_C_0402_1005Metric_fbd63b6bff62"
+      }
+    ],
+    "C608": [
+      {
+        "name": "Shape019",
+        "label": "C608_C_0402_1005Metric_08fe4c4de8f0"
+      }
+    ],
+    "C209": [
+      {
+        "name": "Shape020",
+        "label": "C209_C_0402_1005Metric_00b975e74d99"
+      }
+    ],
+    "R617": [
+      {
+        "name": "Shape021",
+        "label": "R617_R_0603_1608Metric_f022f79238c2"
+      }
+    ],
+    "R209": [
+      {
+        "name": "Shape022",
+        "label": "R209_R_0603_1608Metric_3a0d104ae539"
+      }
+    ],
+    "R610": [
+      {
+        "name": "Shape023",
+        "label": "R610_R_0805_2012Metric_81061dce8fc2"
+      }
+    ],
+    "R214": [
+      {
+        "name": "Shape024",
+        "label": "R214_R_0603_1608Metric_3d5e08ad8005"
+      }
+    ],
+    "U611": [
+      {
+        "name": "Open_CASCADE_STEP_translator_7_8_3",
+        "label": "U611_Open CASCADE STEP translator 7.8 009_3b0db7bec392"
+      }
+    ],
+    "C110": [
+      {
+        "name": "Shape025",
+        "label": "C110_C_0402_1005Metric_a9942865a435"
+      }
+    ],
+    "R206": [
+      {
+        "name": "Shape026",
+        "label": "R206_R_0603_1608Metric_045f526ea6ee"
+      }
+    ],
+    "C610": [
+      {
+        "name": "Shape027",
+        "label": "C610_C_0402_1005Metric_3bcd085aa306"
+      }
+    ],
+    "R221": [
+      {
+        "name": "Shape028",
+        "label": "R221_R_0603_1608Metric_6c36f81a8c17"
+      }
+    ],
+    "U202": [
+      {
+        "name": "Shape029",
+        "label": "U202_VSSOP_10_3x3mm_P05mm_e7b76caab1ab"
+      }
+    ],
+    "J201": [
+      {
+        "name": "Hirose_FH12_xxS_0_5SH_Parametric_v0_1",
+        "label": "J201_Hirose_FH12_xxS_0_5SH_Parametric_v0_1_71b9e4bca4b5"
+      }
+    ],
+    "C202": [
+      {
+        "name": "Shape030",
+        "label": "C202_C_0402_1005Metric_c9f532a19bd3"
+      }
+    ],
+    "R207": [
+      {
+        "name": "Shape031",
+        "label": "R207_R_0603_1608Metric_bb5780c2a405"
+      }
+    ],
+    "Q103": [
+      {
+        "name": "Shape032",
+        "label": "Q103_SOT-23_9d348f5bb95a"
+      }
+    ],
+    "R612": [
+      {
+        "name": "Shape033",
+        "label": "R612_R_0603_1608Metric_c28c88146f24"
+      }
+    ],
+    "D201": [
+      {
+        "name": "Shape034",
+        "label": "D201_LED_0603_1608Metric_5518bb2d47f8"
+      }
+    ],
+    "R604": [
+      {
+        "name": "Shape035",
+        "label": "R604_R_0603_1608Metric_09d067003352"
+      }
+    ],
+    "U612": [
+      {
+        "name": "Shape036",
+        "label": "U612_TSSOP-14_4.4x5mm_P0.65mm_17e455aba7bc"
+      }
+    ],
+    "C612": [
+      {
+        "name": "Shape037",
+        "label": "C612_C_0402_1005Metric_5245b930d16b"
+      }
+    ],
+    "R226": [
+      {
+        "name": "Shape038",
+        "label": "R226_R_0603_1608Metric_2732cd32c094"
+      }
+    ],
+    "R606": [
+      {
+        "name": "Shape039",
+        "label": "R606_R_0603_1608Metric_0f98c291f332"
+      }
+    ],
+    "C105": [
+      {
+        "name": "Shape040",
+        "label": "C105_C_0603_1608Metric_275fa8428665"
+      }
+    ],
+    "R203": [
+      {
+        "name": "Shape041",
+        "label": "R203_R_0603_1608Metric_d8afd6bb822b"
+      }
+    ],
+    "U105": [
+      {
+        "name": "Shape042",
+        "label": "U105_SOT-23-6_fbdc5d7195d8"
+      }
+    ],
+    "J101": [
+      {
+        "name": "Open_CASCADE_STEP_translator_7_8_1",
+        "label": "J101_Open CASCADE STEP translator 7.8 044_d12d8e61fcba"
+      }
+    ],
+    "R130": [
+      {
+        "name": "Shape043",
+        "label": "R130_R_0603_1608Metric_7d1f1de48b2e"
+      }
+    ],
+    "C206": [
+      {
+        "name": "Shape044",
+        "label": "C206_C_0603_1608Metric_1b3b1ca8a50e"
+      }
+    ],
+    "R215": [
+      {
+        "name": "Shape045",
+        "label": "R215_R_0603_1608Metric_519c878ae203"
+      }
+    ],
+    "R223": [
+      {
+        "name": "Shape046",
+        "label": "R223_R_0603_1608Metric_4ed4aef46142"
+      }
+    ],
+    "R601": [
+      {
+        "name": "Shape047",
+        "label": "R601_R_0603_1608Metric_bb3bd735e09a"
+      }
+    ],
+    "U122": [
+      {
+        "name": "Shape048",
+        "label": "U122_SOT-23-6_89838a450215"
+      }
+    ],
+    "R126": [
+      {
+        "name": "Shape049",
+        "label": "R126_R_0603_1608Metric_82e7400db848"
+      }
+    ],
+    "R615": [
+      {
+        "name": "Shape050",
+        "label": "R615_R_0805_2012Metric_1e624785d7e6"
+      }
+    ],
+    "R108": [
+      {
+        "name": "Shape051",
+        "label": "R108_R_0603_1608Metric_1f25f8122075"
+      }
+    ],
+    "J601": [
+      {
+        "name": "Shape052",
+        "label": "J601_JST_SM02B_GHS_TB_be7c09bc1c7b"
+      }
+    ],
+    "R217": [
+      {
+        "name": "Shape053",
+        "label": "R217_R_0603_1608Metric_0c1a25dc71ca"
+      }
+    ],
+    "U616": [
+      {
+        "name": "Shape054",
+        "label": "U616_SOT-23-6_43ab10f56e8d"
+      }
+    ],
+    "C114": [
+      {
+        "name": "Shape055",
+        "label": "C114_C_0402_1005Metric_a4cc9eb5e51c"
+      }
+    ],
+    "U602": [
+      {
+        "name": "Shape056",
+        "label": "U602_SOT-363_SC-70-6_95c2b613efe1"
+      }
+    ],
+    "C615": [
+      {
+        "name": "Shape057",
+        "label": "C615_C_0402_1005Metric_14bea3d41097"
+      }
+    ],
+    "U114": [
+      {
+        "name": "Shape058",
+        "label": "U114_SOT-363_SC-70-6_550e2d3862af"
+      }
+    ],
+    "R121": [
+      {
+        "name": "Shape059",
+        "label": "R121_R_0603_1608Metric_994d76b1c72f"
+      }
+    ],
+    "C106": [
+      {
+        "name": "Shape060",
+        "label": "C106_C_0402_1005Metric_373f0305c5dd"
+      }
+    ],
+    "C112": [
+      {
+        "name": "Shape061",
+        "label": "C112_C_0402_1005Metric_f52f9a4040d4"
+      }
+    ],
+    "R218": [
+      {
+        "name": "Shape062",
+        "label": "R218_R_0603_1608Metric_f876f83848f2"
+      }
+    ],
+    "R122": [
+      {
+        "name": "Shape063",
+        "label": "R122_R_0603_1608Metric_a13d839b0b70"
+      }
+    ],
+    "U103": [
+      {
+        "name": "Open_CASCADE_STEP_translator_7_8_4",
+        "label": "U103_Open CASCADE STEP translator 7.8 056_c23813770802"
+      }
+    ],
+    "R133": [
+      {
+        "name": "Shape064",
+        "label": "R133_R_0603_1608Metric_15adab00d577"
+      }
+    ],
+    "C602": [
+      {
+        "name": "Shape065",
+        "label": "C602_C_0402_1005Metric_4b6a68a00f54"
+      }
+    ],
+    "C210": [
+      {
+        "name": "Shape066",
+        "label": "C210_C_0402_1005Metric_67c925adab9b"
+      }
+    ],
+    "R608": [
+      {
+        "name": "Shape067",
+        "label": "R608_R_0603_1608Metric_53446cb25e35"
+      }
+    ],
+    "R211": [
+      {
+        "name": "Shape068",
+        "label": "R211_R_0603_1608Metric_c808b713c69c"
+      }
+    ],
+    "C102": [
+      {
+        "name": "Shape069",
+        "label": "C102_C_0603_1608Metric_929fa6f7176e"
+      }
+    ],
+    "R614": [
+      {
+        "name": "Shape070",
+        "label": "R614_R_0805_2012Metric_1841d88e141f"
+      }
+    ],
+    "C101": [
+      {
+        "name": "Shape071",
+        "label": "C101_C_0603_1608Metric_0100fcd7af00"
+      }
+    ],
+    "R220": [
+      {
+        "name": "Shape072",
+        "label": "R220_R_0603_1608Metric_500389157101"
+      }
+    ],
+    "R128": [
+      {
+        "name": "Shape073",
+        "label": "R128_R_0603_1608Metric_ebb3f461fec2"
+      }
+    ],
+    "R611": [
+      {
+        "name": "Shape074",
+        "label": "R611_R_0805_2012Metric_6e290c1e6c5f"
+      }
+    ],
+    "R613": [
+      {
+        "name": "Shape075",
+        "label": "R613_R_0603_1608Metric_7495c941141a"
+      }
+    ],
+    "C201": [
+      {
+        "name": "Shape076",
+        "label": "C201_C_0402_1005Metric_363cf0abb79b"
+      }
+    ],
+    "C624": [
+      {
+        "name": "Shape077",
+        "label": "C624_C_0603_1608Metric_be1639e1ec66"
+      }
+    ],
+    "C620": [
+      {
+        "name": "Shape078",
+        "label": "C620_C_0603_1608Metric_d0490579e5d2"
+      }
+    ],
+    "C107": [
+      {
+        "name": "Shape079",
+        "label": "C107_C_0402_1005Metric_d699d4612896"
+      }
+    ],
+    "R131": [
+      {
+        "name": "Shape080",
+        "label": "R131_R_0603_1608Metric_a0259ebac458"
+      }
+    ],
+    "C103": [
+      {
+        "name": "Shape081",
+        "label": "C103_C_0603_1608Metric_9b86917421a4"
+      }
+    ],
+    "R125": [
+      {
+        "name": "Shape082",
+        "label": "R125_R_0603_1608Metric_17c130ad4008"
+      }
+    ],
+    "J622": [
+      {
+        "name": "Shape083",
+        "label": "J622_JST_SM08B_GHS_TB_da5ec7bc18cc"
+      }
+    ],
+    "U608": [
+      {
+        "name": "Shape084",
+        "label": "U608_SOT-143_fbe06ce07219"
+      }
+    ],
+    "C616": [
+      {
+        "name": "Shape085",
+        "label": "C616_C_0402_1005Metric_4c33d90084b7"
+      }
+    ],
+    "C621": [
+      {
+        "name": "Shape086",
+        "label": "C621_C_0603_1608Metric_94fdce546ada"
+      }
+    ],
+    "U614": [
+      {
+        "name": "Shape087",
+        "label": "U614_SOT-363_SC-70-6_3a6e6b99c807"
+      }
+    ],
+    "C204": [
+      {
+        "name": "Shape088",
+        "label": "C204_C_0402_1005Metric_597e9af4ef09"
+      }
+    ],
+    "C208": [
+      {
+        "name": "Shape089",
+        "label": "C208_C_0402_1005Metric_64fe5fe85912"
+      }
+    ],
+    "C205": [
+      {
+        "name": "Shape090",
+        "label": "C205_C_0402_1005Metric_776550085cd7"
+      }
+    ],
+    "U201": [
+      {
+        "name": "Shape091",
+        "label": "U201_LQFP_48_7x7mm_P05mm_943891cc0895"
+      }
+    ],
+    "R106": [
+      {
+        "name": "Shape092",
+        "label": "R106_R_0603_1608Metric_8e477de609e3"
+      }
+    ],
+    "C108": [
+      {
+        "name": "Shape093",
+        "label": "C108_C_0402_1005Metric_1ddcba357c0c"
+      }
+    ],
+    "C606": [
+      {
+        "name": "Shape094",
+        "label": "C606_C_0402_1005Metric_2d165aaf8e42"
+      }
+    ],
+    "R107": [
+      {
+        "name": "Shape095",
+        "label": "R107_R_0603_1608Metric_912b5364e90a"
+      }
+    ],
+    "R603": [
+      {
+        "name": "Shape096",
+        "label": "R603_R_0603_1608Metric_cc4e3f0b749b"
+      }
+    ],
+    "R204": [
+      {
+        "name": "Shape097",
+        "label": "R204_R_0603_1608Metric_cad19d312b91"
+      }
+    ],
+    "R607": [
+      {
+        "name": "Shape098",
+        "label": "R607_R_0603_1608Metric_60f4cceb8f9a"
+      }
+    ],
+    "C104": [
+      {
+        "name": "Shape099",
+        "label": "C104_C_0603_1608Metric_c173e187508d"
+      }
+    ],
+    "R213": [
+      {
+        "name": "Shape100",
+        "label": "R213_R_0603_1608Metric_cb4e92ed6686"
+      }
+    ],
+    "C109": [
+      {
+        "name": "Shape101",
+        "label": "C109_C_0402_1005Metric_33a8faff06f5"
+      }
+    ],
+    "C607": [
+      {
+        "name": "Shape102",
+        "label": "C607_C_0402_1005Metric_e42ab7b19439"
+      }
+    ],
+    "U606": [
+      {
+        "name": "Open_CASCADE_STEP_translator_7_8_2",
+        "label": "U606_Open CASCADE STEP translator 7.8 065_c96e774b9f11"
+      }
+    ],
+    "U610": [
+      {
+        "name": "Open_CASCADE_STEP_translator_7_8_001",
+        "label": "U610_Open CASCADE STEP translator 7.8 074_8bd6159e7dc7"
+      }
+    ],
+    "U123": [
+      {
+        "name": "Shape103",
+        "label": "U123_SOT-23-6_2388af7437e3"
+      }
+    ],
+    "C212": [
+      {
+        "name": "Shape104",
+        "label": "C212_C_0402_1005Metric_12764620a9e9"
+      }
+    ],
+    "R101": [
+      {
+        "name": "Shape105",
+        "label": "R101_R_0603_1608Metric_759a8e612b9f"
+      }
+    ],
+    "R123": [
+      {
+        "name": "Shape106",
+        "label": "R123_R_0603_1608Metric_a7dfd10f7caf"
+      }
+    ],
+    "R225": [
+      {
+        "name": "Shape107",
+        "label": "R225_R_0603_1608Metric_f5205cb8cc3d"
+      }
+    ],
+    "C611": [
+      {
+        "name": "Shape108",
+        "label": "C611_C_0402_1005Metric_738d94bfa658"
+      }
+    ],
+    "R619": [
+      {
+        "name": "Shape109",
+        "label": "R619_R_0603_1608Metric_eacd15a59881"
+      }
+    ],
+    "R616": [
+      {
+        "name": "Shape110",
+        "label": "R616_R_0603_1608Metric_cff1b1c11f92"
+      }
+    ],
+    "C207": [
+      {
+        "name": "Shape111",
+        "label": "C207_C_0402_1005Metric_b27e09bca11c"
+      }
+    ],
+    "R212": [
+      {
+        "name": "Shape112",
+        "label": "R212_R_0603_1608Metric_1ab5c05e07d4"
+      }
+    ],
+    "R124": [
+      {
+        "name": "Shape113",
+        "label": "R124_R_0603_1608Metric_480b9dd53916"
+      }
+    ],
+    "U104": [
+      {
+        "name": "Open_CASCADE_STEP_translator_7_8_002",
+        "label": "U104_Open CASCADE STEP translator 7.8 081_ef32c6c50dcc"
+      }
+    ],
+    "U102": [
+      {
+        "name": "Shape114",
+        "label": "U102_TSOT-23-5_7e587b4dd220"
+      }
+    ],
+    "C613": [
+      {
+        "name": "Shape115",
+        "label": "C613_C_0402_1005Metric_8c7dd9fed111"
+      }
+    ],
+    "R222": [
+      {
+        "name": "Shape116",
+        "label": "R222_R_0603_1608Metric_55e7d34adf9f"
+      }
+    ],
+    "R205": [
+      {
+        "name": "Shape117",
+        "label": "R205_R_0603_1608Metric_b7177c5437fe"
+      }
+    ],
+    "R201": [
+      {
+        "name": "Shape118",
+        "label": "R201_R_0603_1608Metric_f58de8cefc14"
+      }
+    ],
+    "C614": [
+      {
+        "name": "Shape119",
+        "label": "C614_C_0402_1005Metric_83cfa340988e"
+      }
+    ],
+    "U120": [
+      {
+        "name": "Shape120",
+        "label": "U120_SOT-23-6_add2eae4d794"
+      }
+    ],
+    "C609": [
+      {
+        "name": "Shape121",
+        "label": "C609_C_0402_1005Metric_4e8bf5450800"
+      }
+    ],
+    "R219": [
+      {
+        "name": "Shape122",
+        "label": "R219_R_0603_1608Metric_93b9fbc140b8"
+      }
+    ],
+    "R208": [
+      {
+        "name": "Shape123",
+        "label": "R208_R_0603_1608Metric_2b059e84f494"
+      }
+    ],
+    "R216": [
+      {
+        "name": "Shape124",
+        "label": "R216_R_0603_1608Metric_48f3e76a34f1"
+      }
+    ],
+    "R602": [
+      {
+        "name": "Shape125",
+        "label": "R602_R_0603_1608Metric_e1f7183bf2ce"
+      }
+    ],
+    "C113": [
+      {
+        "name": "Shape126",
+        "label": "C113_C_0402_1005Metric_3b29ca78337f"
+      }
+    ],
+    "U613": [
+      {
+        "name": "Shape127",
+        "label": "U613_SOT-363_SC-70-6_6ae790a8550b"
+      }
+    ],
+    "R105": [
+      {
+        "name": "Shape128",
+        "label": "R105_R_0603_1608Metric_d3d6ecbe0e2d"
+      }
+    ],
+    "R210": [
+      {
+        "name": "Shape129",
+        "label": "R210_R_0603_1608Metric_902135cc4eb0"
+      }
+    ],
+    "J621": [
+      {
+        "name": "Shape130",
+        "label": "J621_JST_SM08B_GHS_TB_1a2e8cd04638"
+      }
+    ]
+  },
+  "missing_component_models": [],
+  "solid_count": 219,
+  "unmodeled_copper_only_references": [
+    "J102",
+    "J103",
+    "J104",
+    "J202",
+    "TP201",
+    "TP601",
+    "TP602",
+    "TP603",
+    "TP604",
+    "TP605",
+    "TP606",
+    "TP607"
+  ],
+  "model_coverage_binding": {
+    "file": "hardware/cad/evt1-assembly/pcb/MainPCB-source-models.json",
+    "sha256": "d23df85c809483888de90b695e8c108b822d72c96eeaef003349fc4e9624c179"
+  },
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "pcb_placement": 2,
+  "root_exact_bounds_mm": [
+    -48.0,
+    -37.00000009999999,
+    -1.2,
+    48.0,
+    36.0,
+    4.245000000000001
+  ],
+  "objects": [
+    {
+      "name": "PCB_Sketch_draft",
+      "label": "PCB_Sketch_draft",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Local_CS_cf1e",
+      "label": "Local_CS_cf1e",
+      "type": "PartDesign::CoordinateSystem"
+    },
+    {
+      "name": "Pcb_cf1e",
+      "label": "Pcb_cf1e",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Board_Geoms_cf1e",
+      "label": "Board_Geoms_cf1e",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin",
+      "label": "Origin",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis",
+      "label": "X-axis",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis",
+      "label": "Y-axis",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis",
+      "label": "Z-axis",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane",
+      "label": "XY-plane",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane",
+      "label": "XZ-plane",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane",
+      "label": "YZ-plane",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin001",
+      "label": "Origin001",
+      "type": "App::Point"
+    },
+    {
+      "name": "Board_cf1e",
+      "label": "dock-main-MCAD-placement",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin002",
+      "label": "Origin004",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis001",
+      "label": "X-axis001",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis001",
+      "label": "Y-axis001",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis001",
+      "label": "Z-axis001",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane001",
+      "label": "XY-plane001",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane001",
+      "label": "XZ-plane001",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane001",
+      "label": "YZ-plane001",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin003",
+      "label": "Origin003",
+      "type": "App::Point"
+    },
+    {
+      "name": "PCB_Sketch_cf1e",
+      "label": "PCB_Sketch_cf1e",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Step_Models_cf1e",
+      "label": "Step_Models_cf1e",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin004",
+      "label": "Origin007",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis002",
+      "label": "X-axis002",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis002",
+      "label": "Y-axis002",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis002",
+      "label": "Z-axis002",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane002",
+      "label": "XY-plane002",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane002",
+      "label": "XZ-plane002",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane002",
+      "label": "YZ-plane002",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin005",
+      "label": "Origin006",
+      "type": "App::Point"
+    },
+    {
+      "name": "Top_cf1e",
+      "label": "Top_cf1e",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin006",
+      "label": "Origin010",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis003",
+      "label": "X-axis003",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis003",
+      "label": "Y-axis003",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis003",
+      "label": "Z-axis003",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane003",
+      "label": "XY-plane003",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane003",
+      "label": "XZ-plane003",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane003",
+      "label": "YZ-plane003",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin007",
+      "label": "Origin009",
+      "type": "App::Point"
+    },
+    {
+      "name": "Shape",
+      "label": "R224_R_0603_1608Metric_0262e345e21a",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape001",
+      "label": "C623_C_0603_1608Metric_dcc8ba245394",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape002",
+      "label": "R605_R_0603_1608Metric_07060947a518",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape003",
+      "label": "U615_TSSOP-14_4.4x5mm_P0.65mm_fb76451ff9e5",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape004",
+      "label": "U124_SOT-23-6_8f8ad1644266",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape005",
+      "label": "R127_R_0603_1608Metric_c5147edb52d8",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape006",
+      "label": "C111_C_0402_1005Metric_dbebb0b3ec05",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape007",
+      "label": "R202_R_0603_1608Metric_790c711e7be7",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape008",
+      "label": "R129_R_0603_1608Metric_66e5df43f02f",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape009",
+      "label": "J602_JST_SM02B_GHS_TB_b0d30e2cb93e",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape010",
+      "label": "R120_R_0603_1608Metric_5ad200c99416",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape011",
+      "label": "U607_SOT-23-6_bfb4298ef041",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape012",
+      "label": "U609_TSSOP-14_4.4x5mm_P0.65mm_efda7fb35b7a",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape013",
+      "label": "R618_R_0603_1608Metric_8c616087a5fc",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape014",
+      "label": "C211_C_0402_1005Metric_859945ae1e6a",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape015",
+      "label": "U121_SOT-23-6_5b4b25d1258b",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape016",
+      "label": "R132_R_0603_1608Metric_469be52dcd73",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape017",
+      "label": "C622_C_0603_1608Metric_a273a3e51054",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape018",
+      "label": "C203_C_0402_1005Metric_fbd63b6bff62",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape019",
+      "label": "C608_C_0402_1005Metric_08fe4c4de8f0",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape020",
+      "label": "C209_C_0402_1005Metric_00b975e74d99",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape021",
+      "label": "R617_R_0603_1608Metric_f022f79238c2",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape022",
+      "label": "R209_R_0603_1608Metric_3a0d104ae539",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape023",
+      "label": "R610_R_0805_2012Metric_81061dce8fc2",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape024",
+      "label": "R214_R_0603_1608Metric_3d5e08ad8005",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature",
+      "label": "Open CASCADE STEP translator 7.8 3",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature001",
+      "label": "Open CASCADE STEP translator 7.8 001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature002",
+      "label": "Open CASCADE STEP translator 7.8 002",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature003",
+      "label": "Open CASCADE STEP translator 7.8 003",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature004",
+      "label": "Open CASCADE STEP translator 7.8 004",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature005",
+      "label": "Open CASCADE STEP translator 7.8 005",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature006",
+      "label": "Open CASCADE STEP translator 7.8 006",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature007",
+      "label": "Open CASCADE STEP translator 7.8 007",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature008",
+      "label": "Open CASCADE STEP translator 7.8 008",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Open_CASCADE_STEP_translator_7_8_3",
+      "label": "U611_Open CASCADE STEP translator 7.8 009_3b0db7bec392",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin016",
+      "label": "Origin023",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis008",
+      "label": "X-axis008",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis008",
+      "label": "Y-axis008",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis008",
+      "label": "Z-axis008",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane008",
+      "label": "XY-plane008",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane008",
+      "label": "XZ-plane008",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane008",
+      "label": "YZ-plane008",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin017",
+      "label": "Origin022",
+      "type": "App::Point"
+    },
+    {
+      "name": "Shape025",
+      "label": "C110_C_0402_1005Metric_a9942865a435",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape026",
+      "label": "R206_R_0603_1608Metric_045f526ea6ee",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape027",
+      "label": "C610_C_0402_1005Metric_3bcd085aa306",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape028",
+      "label": "R221_R_0603_1608Metric_6c36f81a8c17",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape029",
+      "label": "U202_VSSOP_10_3x3mm_P05mm_e7b76caab1ab",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature009",
+      "label": "body",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature010",
+      "label": "lock",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature011",
+      "label": "pins",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Hirose_FH12_xxS_0_5SH_Parametric_v0_1",
+      "label": "J201_Hirose_FH12_xxS_0_5SH_Parametric_v0_1_71b9e4bca4b5",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin018",
+      "label": "Origin026",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis009",
+      "label": "X-axis009",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis009",
+      "label": "Y-axis009",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis009",
+      "label": "Z-axis009",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane009",
+      "label": "XY-plane009",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane009",
+      "label": "XZ-plane009",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane009",
+      "label": "YZ-plane009",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin019",
+      "label": "Origin025",
+      "type": "App::Point"
+    },
+    {
+      "name": "Shape030",
+      "label": "C202_C_0402_1005Metric_c9f532a19bd3",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape031",
+      "label": "R207_R_0603_1608Metric_bb5780c2a405",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape032",
+      "label": "Q103_SOT-23_9d348f5bb95a",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape033",
+      "label": "R612_R_0603_1608Metric_c28c88146f24",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape034",
+      "label": "D201_LED_0603_1608Metric_5518bb2d47f8",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape035",
+      "label": "R604_R_0603_1608Metric_09d067003352",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape036",
+      "label": "U612_TSSOP-14_4.4x5mm_P0.65mm_17e455aba7bc",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape037",
+      "label": "C612_C_0402_1005Metric_5245b930d16b",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape038",
+      "label": "R226_R_0603_1608Metric_2732cd32c094",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape039",
+      "label": "R606_R_0603_1608Metric_0f98c291f332",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape040",
+      "label": "C105_C_0603_1608Metric_275fa8428665",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape041",
+      "label": "R203_R_0603_1608Metric_d8afd6bb822b",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape042",
+      "label": "U105_SOT-23-6_fbdc5d7195d8",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature012",
+      "label": "Open CASCADE STEP translator 7.8 1",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature013",
+      "label": "Open CASCADE STEP translator 7.8 009",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature014",
+      "label": "Open CASCADE STEP translator 7.8 010",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature015",
+      "label": "Open CASCADE STEP translator 7.8 011",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature016",
+      "label": "Open CASCADE STEP translator 7.8 012",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature017",
+      "label": "Open CASCADE STEP translator 7.8 013",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature018",
+      "label": "Open CASCADE STEP translator 7.8 014",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature019",
+      "label": "Open CASCADE STEP translator 7.8 015",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature020",
+      "label": "Open CASCADE STEP translator 7.8 016",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature021",
+      "label": "Open CASCADE STEP translator 7.8 017",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature022",
+      "label": "Open CASCADE STEP translator 7.8 018",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature023",
+      "label": "Open CASCADE STEP translator 7.8 019",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature024",
+      "label": "Open CASCADE STEP translator 7.8 020",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature025",
+      "label": "Open CASCADE STEP translator 7.8 021",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature026",
+      "label": "Open CASCADE STEP translator 7.8 022",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature027",
+      "label": "Open CASCADE STEP translator 7.8 023",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature028",
+      "label": "Open CASCADE STEP translator 7.8 024",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature029",
+      "label": "Open CASCADE STEP translator 7.8 025",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature030",
+      "label": "Open CASCADE STEP translator 7.8 026",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature031",
+      "label": "Open CASCADE STEP translator 7.8 027",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature032",
+      "label": "Open CASCADE STEP translator 7.8 028",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature033",
+      "label": "Open CASCADE STEP translator 7.8 029",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature034",
+      "label": "Open CASCADE STEP translator 7.8 030",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature035",
+      "label": "Open CASCADE STEP translator 7.8 031",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature036",
+      "label": "Open CASCADE STEP translator 7.8 032",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature037",
+      "label": "Open CASCADE STEP translator 7.8 033",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature038",
+      "label": "Open CASCADE STEP translator 7.8 034",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature039",
+      "label": "Open CASCADE STEP translator 7.8 035",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature040",
+      "label": "Open CASCADE STEP translator 7.8 036",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature041",
+      "label": "Open CASCADE STEP translator 7.8 037",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature042",
+      "label": "Open CASCADE STEP translator 7.8 038",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature043",
+      "label": "Open CASCADE STEP translator 7.8 039",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature044",
+      "label": "Open CASCADE STEP translator 7.8 040",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature045",
+      "label": "Open CASCADE STEP translator 7.8 041",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature046",
+      "label": "Open CASCADE STEP translator 7.8 042",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature047",
+      "label": "Open CASCADE STEP translator 7.8 043",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Open_CASCADE_STEP_translator_7_8_1",
+      "label": "J101_Open CASCADE STEP translator 7.8 044_d12d8e61fcba",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin020",
+      "label": "Origin029",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis010",
+      "label": "X-axis010",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis010",
+      "label": "Y-axis010",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis010",
+      "label": "Z-axis010",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane010",
+      "label": "XY-plane010",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane010",
+      "label": "XZ-plane010",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane010",
+      "label": "YZ-plane010",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin021",
+      "label": "Origin028",
+      "type": "App::Point"
+    },
+    {
+      "name": "Shape043",
+      "label": "R130_R_0603_1608Metric_7d1f1de48b2e",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape044",
+      "label": "C206_C_0603_1608Metric_1b3b1ca8a50e",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape045",
+      "label": "R215_R_0603_1608Metric_519c878ae203",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape046",
+      "label": "R223_R_0603_1608Metric_4ed4aef46142",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape047",
+      "label": "R601_R_0603_1608Metric_bb3bd735e09a",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape048",
+      "label": "U122_SOT-23-6_89838a450215",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape049",
+      "label": "R126_R_0603_1608Metric_82e7400db848",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape050",
+      "label": "R615_R_0805_2012Metric_1e624785d7e6",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape051",
+      "label": "R108_R_0603_1608Metric_1f25f8122075",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape052",
+      "label": "J601_JST_SM02B_GHS_TB_be7c09bc1c7b",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape053",
+      "label": "R217_R_0603_1608Metric_0c1a25dc71ca",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape054",
+      "label": "U616_SOT-23-6_43ab10f56e8d",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape055",
+      "label": "C114_C_0402_1005Metric_a4cc9eb5e51c",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape056",
+      "label": "U602_SOT-363_SC-70-6_95c2b613efe1",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape057",
+      "label": "C615_C_0402_1005Metric_14bea3d41097",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape058",
+      "label": "U114_SOT-363_SC-70-6_550e2d3862af",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape059",
+      "label": "R121_R_0603_1608Metric_994d76b1c72f",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape060",
+      "label": "C106_C_0402_1005Metric_373f0305c5dd",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape061",
+      "label": "C112_C_0402_1005Metric_f52f9a4040d4",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape062",
+      "label": "R218_R_0603_1608Metric_f876f83848f2",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape063",
+      "label": "R122_R_0603_1608Metric_a13d839b0b70",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature048",
+      "label": "Open CASCADE STEP translator 7.8 4",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature049",
+      "label": "Open CASCADE STEP translator 7.8 044",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature050",
+      "label": "Open CASCADE STEP translator 7.8 045",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature051",
+      "label": "Open CASCADE STEP translator 7.8 046",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature052",
+      "label": "Open CASCADE STEP translator 7.8 047",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature053",
+      "label": "Open CASCADE STEP translator 7.8 048",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature054",
+      "label": "Open CASCADE STEP translator 7.8 049",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature055",
+      "label": "Open CASCADE STEP translator 7.8 050",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature056",
+      "label": "Open CASCADE STEP translator 7.8 051",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature057",
+      "label": "Open CASCADE STEP translator 7.8 052",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature058",
+      "label": "Open CASCADE STEP translator 7.8 053",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature059",
+      "label": "Open CASCADE STEP translator 7.8 054",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature060",
+      "label": "Open CASCADE STEP translator 7.8 055",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Open_CASCADE_STEP_translator_7_8_4",
+      "label": "U103_Open CASCADE STEP translator 7.8 056_c23813770802",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin022",
+      "label": "Origin032",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis011",
+      "label": "X-axis011",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis011",
+      "label": "Y-axis011",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis011",
+      "label": "Z-axis011",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane011",
+      "label": "XY-plane011",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane011",
+      "label": "XZ-plane011",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane011",
+      "label": "YZ-plane011",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin023",
+      "label": "Origin031",
+      "type": "App::Point"
+    },
+    {
+      "name": "Shape064",
+      "label": "R133_R_0603_1608Metric_15adab00d577",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape065",
+      "label": "C602_C_0402_1005Metric_4b6a68a00f54",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape066",
+      "label": "C210_C_0402_1005Metric_67c925adab9b",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape067",
+      "label": "R608_R_0603_1608Metric_53446cb25e35",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape068",
+      "label": "R211_R_0603_1608Metric_c808b713c69c",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape069",
+      "label": "C102_C_0603_1608Metric_929fa6f7176e",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape070",
+      "label": "R614_R_0805_2012Metric_1841d88e141f",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape071",
+      "label": "C101_C_0603_1608Metric_0100fcd7af00",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape072",
+      "label": "R220_R_0603_1608Metric_500389157101",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape073",
+      "label": "R128_R_0603_1608Metric_ebb3f461fec2",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape074",
+      "label": "R611_R_0805_2012Metric_6e290c1e6c5f",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape075",
+      "label": "R613_R_0603_1608Metric_7495c941141a",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape076",
+      "label": "C201_C_0402_1005Metric_363cf0abb79b",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape077",
+      "label": "C624_C_0603_1608Metric_be1639e1ec66",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape078",
+      "label": "C620_C_0603_1608Metric_d0490579e5d2",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape079",
+      "label": "C107_C_0402_1005Metric_d699d4612896",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape080",
+      "label": "R131_R_0603_1608Metric_a0259ebac458",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape081",
+      "label": "C103_C_0603_1608Metric_9b86917421a4",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape082",
+      "label": "R125_R_0603_1608Metric_17c130ad4008",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape083",
+      "label": "J622_JST_SM08B_GHS_TB_da5ec7bc18cc",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape084",
+      "label": "U608_SOT-143_fbe06ce07219",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape085",
+      "label": "C616_C_0402_1005Metric_4c33d90084b7",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape086",
+      "label": "C621_C_0603_1608Metric_94fdce546ada",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape087",
+      "label": "U614_SOT-363_SC-70-6_3a6e6b99c807",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape088",
+      "label": "C204_C_0402_1005Metric_597e9af4ef09",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape089",
+      "label": "C208_C_0402_1005Metric_64fe5fe85912",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape090",
+      "label": "C205_C_0402_1005Metric_776550085cd7",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape091",
+      "label": "U201_LQFP_48_7x7mm_P05mm_943891cc0895",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape092",
+      "label": "R106_R_0603_1608Metric_8e477de609e3",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape093",
+      "label": "C108_C_0402_1005Metric_1ddcba357c0c",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape094",
+      "label": "C606_C_0402_1005Metric_2d165aaf8e42",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape095",
+      "label": "R107_R_0603_1608Metric_912b5364e90a",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape096",
+      "label": "R603_R_0603_1608Metric_cc4e3f0b749b",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape097",
+      "label": "R204_R_0603_1608Metric_cad19d312b91",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape098",
+      "label": "R607_R_0603_1608Metric_60f4cceb8f9a",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape099",
+      "label": "C104_C_0603_1608Metric_c173e187508d",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape100",
+      "label": "R213_R_0603_1608Metric_cb4e92ed6686",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape101",
+      "label": "C109_C_0402_1005Metric_33a8faff06f5",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape102",
+      "label": "C607_C_0402_1005Metric_e42ab7b19439",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature061",
+      "label": "Open CASCADE STEP translator 7.8 2",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature062",
+      "label": "Open CASCADE STEP translator 7.8 056",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature063",
+      "label": "Open CASCADE STEP translator 7.8 057",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature064",
+      "label": "Open CASCADE STEP translator 7.8 058",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature065",
+      "label": "Open CASCADE STEP translator 7.8 059",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature066",
+      "label": "Open CASCADE STEP translator 7.8 060",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature067",
+      "label": "Open CASCADE STEP translator 7.8 061",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature068",
+      "label": "Open CASCADE STEP translator 7.8 062",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature069",
+      "label": "Open CASCADE STEP translator 7.8 063",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature070",
+      "label": "Open CASCADE STEP translator 7.8 064",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Open_CASCADE_STEP_translator_7_8_2",
+      "label": "U606_Open CASCADE STEP translator 7.8 065_c96e774b9f11",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin024",
+      "label": "Origin034",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis012",
+      "label": "X-axis012",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis012",
+      "label": "Y-axis012",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis012",
+      "label": "Z-axis012",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane012",
+      "label": "XY-plane012",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane012",
+      "label": "XZ-plane012",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane012",
+      "label": "YZ-plane012",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin025",
+      "label": "Origin033",
+      "type": "App::Point"
+    },
+    {
+      "name": "X_Axis013",
+      "label": "X-axis013",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis013",
+      "label": "Y-axis013",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis013",
+      "label": "Z-axis013",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane013",
+      "label": "XY-plane013",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane013",
+      "label": "XZ-plane013",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane013",
+      "label": "YZ-plane013",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin026",
+      "label": "Origin035",
+      "type": "App::Point"
+    },
+    {
+      "name": "Origin027",
+      "label": "Origin027",
+      "type": "App::Origin"
+    },
+    {
+      "name": "Part__Feature071",
+      "label": "Open CASCADE STEP translator 7.8 065",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature072",
+      "label": "Open CASCADE STEP translator 7.8 066",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature073",
+      "label": "Open CASCADE STEP translator 7.8 067",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature074",
+      "label": "Open CASCADE STEP translator 7.8 068",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature075",
+      "label": "Open CASCADE STEP translator 7.8 069",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature076",
+      "label": "Open CASCADE STEP translator 7.8 070",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature077",
+      "label": "Open CASCADE STEP translator 7.8 071",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature078",
+      "label": "Open CASCADE STEP translator 7.8 072",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature079",
+      "label": "Open CASCADE STEP translator 7.8 073",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Open_CASCADE_STEP_translator_7_8_001",
+      "label": "U610_Open CASCADE STEP translator 7.8 074_8bd6159e7dc7",
+      "type": "App::Part"
+    },
+    {
+      "name": "Shape103",
+      "label": "U123_SOT-23-6_2388af7437e3",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape104",
+      "label": "C212_C_0402_1005Metric_12764620a9e9",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape105",
+      "label": "R101_R_0603_1608Metric_759a8e612b9f",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape106",
+      "label": "R123_R_0603_1608Metric_a7dfd10f7caf",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape107",
+      "label": "R225_R_0603_1608Metric_f5205cb8cc3d",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape108",
+      "label": "C611_C_0402_1005Metric_738d94bfa658",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape109",
+      "label": "R619_R_0603_1608Metric_eacd15a59881",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape110",
+      "label": "R616_R_0603_1608Metric_cff1b1c11f92",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape111",
+      "label": "C207_C_0402_1005Metric_b27e09bca11c",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape112",
+      "label": "R212_R_0603_1608Metric_1ab5c05e07d4",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape113",
+      "label": "R124_R_0603_1608Metric_480b9dd53916",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature080",
+      "label": "Open CASCADE STEP translator 7.8 074",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature081",
+      "label": "Open CASCADE STEP translator 7.8 075",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature082",
+      "label": "Open CASCADE STEP translator 7.8 076",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature083",
+      "label": "Open CASCADE STEP translator 7.8 077",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature084",
+      "label": "Open CASCADE STEP translator 7.8 078",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature085",
+      "label": "Open CASCADE STEP translator 7.8 079",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature086",
+      "label": "Open CASCADE STEP translator 7.8 080",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Open_CASCADE_STEP_translator_7_8_002",
+      "label": "U104_Open CASCADE STEP translator 7.8 081_ef32c6c50dcc",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin028",
+      "label": "Origin038",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis014",
+      "label": "X-axis014",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis014",
+      "label": "Y-axis014",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis014",
+      "label": "Z-axis014",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane014",
+      "label": "XY-plane014",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane014",
+      "label": "XZ-plane014",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane014",
+      "label": "YZ-plane014",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin029",
+      "label": "Origin037",
+      "type": "App::Point"
+    },
+    {
+      "name": "Shape114",
+      "label": "U102_TSOT-23-5_7e587b4dd220",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape115",
+      "label": "C613_C_0402_1005Metric_8c7dd9fed111",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape116",
+      "label": "R222_R_0603_1608Metric_55e7d34adf9f",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape117",
+      "label": "R205_R_0603_1608Metric_b7177c5437fe",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape118",
+      "label": "R201_R_0603_1608Metric_f58de8cefc14",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape119",
+      "label": "C614_C_0402_1005Metric_83cfa340988e",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape120",
+      "label": "U120_SOT-23-6_add2eae4d794",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape121",
+      "label": "C609_C_0402_1005Metric_4e8bf5450800",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape122",
+      "label": "R219_R_0603_1608Metric_93b9fbc140b8",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape123",
+      "label": "R208_R_0603_1608Metric_2b059e84f494",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape124",
+      "label": "R216_R_0603_1608Metric_48f3e76a34f1",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape125",
+      "label": "R602_R_0603_1608Metric_e1f7183bf2ce",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape126",
+      "label": "C113_C_0402_1005Metric_3b29ca78337f",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape127",
+      "label": "U613_SOT-363_SC-70-6_6ae790a8550b",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape128",
+      "label": "R105_R_0603_1608Metric_d3d6ecbe0e2d",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape129",
+      "label": "R210_R_0603_1608Metric_902135cc4eb0",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape130",
+      "label": "J621_JST_SM08B_GHS_TB_1a2e8cd04638",
+      "type": "Part::Feature"
+    }
+  ],
+  "importer_sha256": "2cb7c983680a2da9adfcea034711c1d19e7d39e2621f2cd3a2f1fdb99e812661",
+  "physical_fit": false
+}

@@ -1,0 +1,586 @@
+{
+  "status": "native thermal/sensor mounting candidate; not physically qualified",
+  "builder_sha256": "5ef3279122b265adcf465af8f144f830303a45e29cba416a507081d752874c31",
+  "native_sha256": "71c6bbcea81b14399faf77824e64790ad9d6e84d7c3c6a7273ad44cdbfc012ac",
+  "frozen_sources": {
+    "base": {
+      "status": "pass: actual STEP valid and selected LED terminal/optical planes verified",
+      "board_file": "dock-uv-base.kicad_pcb",
+      "board_sha256": "2869e1102f18f18faf50fb3c7566a9f70aed2cd1d5c648f97af3ad59ab63ff70",
+      "STEP_file": "dock-uv-base.step",
+      "STEP_sha256": "52c1b5f82f3f41d22065ed1889aa4cb3af9bcb385ba9f1fe45d42b9605f533da",
+      "checker_sha256": "5177e0aac5a0f5a64f2f82e23ea1aab54e81c90ce051a042e050572edefe9bc3",
+      "valid_solid_count": 41,
+      "core_bounds_mm": [
+        -49.0,
+        86.0,
+        0.0,
+        49.0,
+        135.0,
+        0.86
+      ],
+      "CLI_source_planar_origin_mm": [
+        100,
+        200
+      ],
+      "CLI_STEP_planar_center_mm": [
+        0,
+        110.5
+      ],
+      "CLI_STEP_F_copper_plane_Z_mm": 0.93,
+      "CLI_STEP_B_copper_plane_Z_mm": -0.07,
+      "CLI_STEP_F_package_mount_Z_mm": 0.98,
+      "CLI_STEP_B_package_mount_Z_mm": -0.12,
+      "CLI_STEP_LED_optical_top_Z_mm": 2.755,
+      "CLI_STEP_LED_active_optical_normal": [
+        0,
+        0,
+        1
+      ],
+      "CLI_STEP_solder_standoff_mm": 0.05,
+      "CLI_STEP_to_dock_rigid_4x4": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          12.27
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "StepUp_expected_centered_Fplane0_to_dock_rigid_4x4": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          110.5
+        ],
+        [
+          0,
+          0,
+          1,
+          13.2
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "StepUp_note": "The centered StepUp convention must be checked after native import; do not apply it directly to this uncentered CLI STEP. Lid is Ry180, not a mirror; X-site references intentionally exchange.",
+      "selected_models_manifest_sha256": "194de367a06436233722888d5cb3207c032ef23cf328a25cd44f30022252db87",
+      "remote_parts": "NTC and67L045 are not solder-mounted PCB bodies; their thermal attachment/retention is separate.",
+      "physical_fit": false,
+      "thermal_validation": false,
+      "optical_validation": false
+    },
+    "lid": {
+      "status": "pass: actual STEP valid and selected LED terminal/optical planes verified",
+      "board_file": "dock-uv-lid.kicad_pcb",
+      "board_sha256": "8ed2d77df57834d373a5ddd5d83f086be5ee8448584b7f99bf27f68e78c9c145",
+      "STEP_file": "dock-uv-lid.step",
+      "STEP_sha256": "7705cdd6d07ee1ba27daa9c0cb920e1f09a1eb03a196731dad34aba5653c8428",
+      "checker_sha256": "5177e0aac5a0f5a64f2f82e23ea1aab54e81c90ce051a042e050572edefe9bc3",
+      "valid_solid_count": 41,
+      "core_bounds_mm": [
+        -49.0,
+        86.0,
+        0.0,
+        49.0,
+        135.0,
+        0.86
+      ],
+      "CLI_source_planar_origin_mm": [
+        100,
+        200
+      ],
+      "CLI_STEP_planar_center_mm": [
+        0,
+        110.5
+      ],
+      "CLI_STEP_F_copper_plane_Z_mm": 0.93,
+      "CLI_STEP_B_copper_plane_Z_mm": -0.07,
+      "CLI_STEP_F_package_mount_Z_mm": 0.98,
+      "CLI_STEP_B_package_mount_Z_mm": -0.12,
+      "CLI_STEP_LED_optical_top_Z_mm": 2.755,
+      "CLI_STEP_LED_active_optical_normal": [
+        0,
+        0,
+        1
+      ],
+      "CLI_STEP_solder_standoff_mm": 0.05,
+      "CLI_STEP_to_dock_rigid_4x4": [
+        [
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          56.23
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "StepUp_expected_centered_Fplane0_to_dock_rigid_4x4": [
+        [
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          110.5
+        ],
+        [
+          0,
+          0,
+          -1,
+          55.3
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "StepUp_note": "The centered StepUp convention must be checked after native import; do not apply it directly to this uncentered CLI STEP. Lid is Ry180, not a mirror; X-site references intentionally exchange.",
+      "selected_models_manifest_sha256": "194de367a06436233722888d5cb3207c032ef23cf328a25cd44f30022252db87",
+      "remote_parts": "NTC and67L045 are not solder-mounted PCB bodies; their thermal attachment/retention is separate.",
+      "physical_fit": false,
+      "thermal_validation": false,
+      "optical_validation": false
+    }
+  },
+  "actual_source_solid_checks": [
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 20,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 21,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 22,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 23,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 24,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 25,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 26,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 27,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 28,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 29,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 30,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 31,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 32,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 33,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 34,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 35,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 36,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 37,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 38,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVBaseSpreader6061",
+      "source_solid": 39,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 20,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 21,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 22,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 23,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 24,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 25,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 26,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 27,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 28,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 29,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 30,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 31,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 32,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 33,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 34,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 35,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 36,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 37,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 38,
+      "intersection_mm3": 0.0
+    },
+    {
+      "component": "UVLidSpreader6061",
+      "source_solid": 39,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "selected_parts": {
+    "thermostat": {
+      "mpn": "67L045",
+      "manufacturer": "Sensata",
+      "primary": "https://www.sensata.com/sites/default/files/a/sensata-6700-series-subminiature-bimetal-disc-thermostats-datasheet.pdf",
+      "manufacturer_PDF_mirror": "https://datasheet.lcsc.com/datasheet/pdf/4c88ade08706f1af20a35c2091fb47f8.pdf",
+      "download_sha256": "9594546e47a02682a491c0b8a2c05b8813faf6692b89db2f9228240dfe06f548",
+      "model_basis": "Manufacturerp3 dimensions; nominal15.24mm top-to-bodybottom derivedfrom29.59totalminus14.35REF leads. No guaranteed body-height tolerance inferred.",
+      "width_mm": [
+        10.16,
+        0.13
+      ],
+      "depth_mm": [
+        4.7,
+        0.25
+      ],
+      "tab_mm": [
+        0.76,
+        0.03
+      ],
+      "tab_extension_mm": [
+        6.35,
+        0.51
+      ],
+      "hole_from_top_mm": [
+        2.79,
+        0.13
+      ],
+      "hole_diameter_mm": [
+        3.64,
+        0.089
+      ],
+      "hole_source_discrepancy": "Inch0.145 equals3.683mm, not printed3.64mm; receivedholegoverns.",
+      "lead_pitch_mm": [
+        5.08,
+        0.25
+      ],
+      "lead_width_mm": [
+        0.76,
+        0.08
+      ],
+      "lead_shoulder_width_mm": [
+        1.27,
+        0.1
+      ],
+      "lead_thickness_mm": [
+        0.33,
+        0.013
+      ],
+      "lead_plane_from_bracket_back_mm": [
+        2.79,
+        0.13
+      ],
+      "low_level4p5to5p25V_qualification": false
+    },
+    "NTC": {
+      "mpn": "NTCLE413E2103F524A",
+      "manufacturer": "Vishay",
+      "primary": "https://www.vishay.com/docs/29078/ntcle413.pdf",
+      "download_sha256": "6606fa831adab4119fb59af4123b9902ce193ee36d193b9da8d85028174f7312",
+      "revision": "15-Oct-2026",
+      "head_max_diameter_mm": 3,
+      "head_max_length_mm": 10,
+      "total_length_mm": [
+        52,
+        5
+      ],
+      "wire_insulation_diameter_for_information_mm": 1,
+      "twin_width_for_information_mm": 2,
+      "stripped_end_mm": [
+        3,
+        1
+      ],
+      "model_basis": "Primarymaximum3x10mm lacquered head reconstructed as a capsule; not OEMCAD or a supplied profile tolerance.",
+      "mounting": "Dry V saddle plus removable soft-backed clip; no potting, overmolding or fluidcontact.",
+      "minimum_body_dielectric_Vrms": 500
+    },
+    "pad": {
+      "manufacturer": "Henkel/Bergquist",
+      "material": "GAP PAD TGP1500",
+      "sheet_order_code_candidate": "GP1500-0.020-02-0404",
+      "primary": "https://dm.henkel-dam.com/is/content/henkel/lt-8116-brochure-thermal-interface-materials-selection-guide-1",
+      "download_sha256": "f9dd0ac838e9e608763c086b0f5d97ff4d0e518b6d62a2f71f63445609185b03",
+      "manufacturer_training_order_code": "https://www.digikey.com/en/ptm/h/bergquist/thermal-interface-materials-tim-gap-pad",
+      "free_thickness_mm": 0.508,
+      "LED_cut_mm": [
+        12,
+        3
+      ],
+      "installed_LED_gap_mm": 0.4,
+      "thermal_conductivity_W_mK_typ": 1.5,
+      "Youngs_modulus_kPa_typ": 310,
+      "dielectric_breakdown_Vac_typ": 6000,
+      "printed_electrical_data_are_test_typicals_not_product_insulation_qualification": true,
+      "received_thickness_tolerance_not_assumed": true,
+      "sheet_identity_thickness_quote_required": true
+    },
+    "metal": {
+      "material": "6061-T6 aluminium",
+      "process": "CNC machine from6mm stock; integral1mm arms/steppedbridge/raisedcontactislands",
+      "finish": "Deburr and roundcontactislandedgesR0.2; targetRa<=1.6um, no burrs. Anodize is not credited as insulation."
+    },
+    "M2x3": {
+      "manufacturer": "NBK",
+      "mpn": "SNSS-M2-3",
+      "primary": "https://www.nbk1560.com/images/en-US/product/miniaturescrew/SNSS/SNSS_1.pdf",
+      "diameter_mm": 2,
+      "length_mm": 3,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 2,
+      "hex_AF_mm": 1.5
+    },
+    "M2x4CS": {
+      "manufacturer": "Accu",
+      "mpn": "SIK-M2-4-A2",
+      "primary": "https://www.accu.co.uk/phillips-countersunk-screws/65896-SIK-M2-4-A2",
+      "diameter_mm": 2,
+      "length_mm": 4,
+      "head_diameter_mm": 3.8,
+      "head_height_mm": 1.2,
+      "head_angle_deg": 90
+    },
+    "wire_sleeve": {
+      "manufacturer": "TE Connectivity",
+      "mpn": "RNF-100-1/16-0-SP",
+      "primary": "https://www.te.com/content/dam/te-com/documents/energy/global/productdocuments/Miscellaneous%20Locations/energy-epp0500-SoluzioniPerLindustia-italian.pdf",
+      "expanded_ID_mm": 1.6,
+      "recovered_ID_mm": 0.8,
+      "recovered_wall_mm": 0.43,
+      "assembly_outer_diameter_limit_mm": 2.4
+    },
+    "lacing": {
+      "manufacturer": "Panduit",
+      "mpn": "PLT.6SM-C",
+      "primary": "https://www.panduit.com/content/dam/panduit/en/products/media/0/00/200/8200/111598200.pdf",
+      "length_mm": 71,
+      "width_mm": 1.8,
+      "thickness_mm": 0.76,
+      "head_approx_mm": [
+        3.1,
+        2.4,
+        3.2
+      ],
+      "installed_lacing_and_tail_pose_not_yet_modelled": true
+    }
+  },
+  "metal_body_count": 2,
+  "UVsource_solids_each": 41,
+  "source_boards_modified": false,
+  "geometry": {
+    "main_plate_Z_base_mm": [
+      8,
+      9
+    ],
+    "rear_bridge_Z_base_mm": [
+      6.5,
+      7.5
+    ],
+    "rear_bridge_Y_mm": [
+      128,
+      135
+    ],
+    "metal_inner_arm_X_abs_min_mm": 36.6,
+    "LED_contact_island_top_Z_base_mm": 11.8,
+    "LEDpad_copperplane_gap_mm": 0.4,
+    "spreader_post_opposed_endnotch_width_mm": 5.8,
+    "shell_post_mm": 5.2,
+    "shell_shoulder_radius_mm": 3.8,
+    "NTC_head_center_base_mm": [
+      -42.8,
+      108.5,
+      7.178679656440358
+    ],
+    "thermostat_bracket_origin_base_mm": [
+      42,
+      97,
+      10.5
+    ]
+  },
+  "required_acceptance": [
+    "receivedsensor/PCB/padstackandmatedGH/wireclearance",
+    "actualcontactforce/flatness/padflowanddielectricaftercycles",
+    "sensorleadextensions/sleeving/lacingand1Nstrainrelieftrial",
+    "sensorlag/hottestLEDanddriverselection/thermalcutoffwithfaults",
+    "FR4/vias/islands/closedcasejunctiontemperature",
+    "UVleakage/dose/efficacy/materialaging/finishedcontainment"
+  ],
+  "physical_validation": false,
+  "full_product_release": false
+}

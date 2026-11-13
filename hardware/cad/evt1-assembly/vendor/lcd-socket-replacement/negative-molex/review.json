@@ -1,0 +1,72 @@
+{
+  "result": "FAIL: rigid translated closed-envelope does not establish a valid loaded mate",
+  "scope": "Independent exact BRep review; no master, display, socket or board source saved or changed",
+  "source_inputs_SHA256": {
+    "/private/tmp/compass-jobs/candidate050/DockAssembly.FCStd": "6271a77b21ac1f03880138435662bdc9fe38453330030ee84cb44265e237f6eb",
+    "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/cad/evt1-assembly/vendor/lcd-socket/524372771.stp": "d5672a336735ddad3354496a4e732e10df378164f574a02ad6431cc5a0de58a4",
+    "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/cad/evt1-assembly/pcb/LidUI.FCStd": "7fcdcd8b23c0f0bcdb182775fe4686363033f1589fb85882a2bb0e41dad4e858",
+    "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/tools/build_evt1_dock_lcd_socket.py": "649c5f1c167a108e70441289c2f7585ba3f6ddb834bc9b9f71f66c1682e4ccc0",
+    "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/tools/build_evt1_dock_display.py": "54cc9ba96bd4ade34bc43983c7242d6761dc84b309e70a1aa159a5069d14fc0c",
+    "/private/tmp/compass-display/52437-mirror.pdf": "6f146c0e7c2bcedde342736818a236303f0b022c88ee208daa86c789b13e8172"
+  },
+  "reproduced_F60p5_common_mm3": [
+    0.6564104550645329,
+    7.6820701482240485
+  ],
+  "F61p0_common_mm3": [
+    0.09028874382405498,
+    3.10412500000112
+  ],
+  "F61p1_common_mm3": [
+    0.8450732616424339,
+    0.0
+  ],
+  "native_section_geometry": {
+    "terminal_section_X_mm": 0,
+    "intercontact_section_X_mm": 0.25,
+    "housing_guide_floor_above_H_mm": 0.725,
+    "rigid_latch_underside_above_H_mm": 0.905,
+    "gap_mm": 0.18,
+    "modeled_intercontact_ribbon_plus_stiffener_mm": 0.2,
+    "interval_contradiction_for_fixed_FFC": {
+      "latch_clearance_requires_board_F_at_least_mm": 61.095,
+      "intercontact_floor_clearance_requires_board_F_at_most_mm": 61.075
+    },
+    "note": "Actual pad width also overlaps guide strips; these are not all contact-only intersections. Exact original open CAD is retained; rigid1.6mm translation was only an outer-envelope candidate."
+  },
+  "section_image": "socket-sections.png",
+  "primary_documents": [
+    {
+      "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/524/52437/524373071_sd.pdf",
+      "document": "SD-52437-019 RevF",
+      "role": "Outer geometry,0.3\u00b10.05 FPC and3mm insertion reference; no loaded copper-height dimension"
+    },
+    {
+      "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/524/52437/PS-52437-027-001.pdf?inline=",
+      "document": "PS-52437-027 RevE,selected gold**71 family",
+      "role": "Pages 13-14 require low FPC loading, full insertion to the housing before gentle actuation, and received FPC compatibility evaluation. No loaded mating height is given."
+    }
+  ],
+  "conclusion": "Do not promote F61.1 or any new shim solely to suppress the latch clash. Exact rigid guide conflicts remain. Seek a compatible 27-way replacement with usable closed CAD and separately qualify received fit. The frozen old native is negative evidence, not a mating proof.",
+  "received_fixture_procedure": [
+    "Use an unpowered inert LCD/socket coupon and the actual finished PCB; support the glass without loading the active area or COG.",
+    "With the actuator fully open, insert the actual straight tail fully to the actual housing stop. Do not force the fixed 65 mm fold to the old 3.6752 mm reference.",
+    "Measure the copper face and actual soldered H-plane height, insertion witness and neutral 65 mm route. Select equal measured shims at all four holes.",
+    "Check latch action, all 27 continuity paths and neighboring shorts before power. Then check button rest gap/full stroke and the entire lid roof/PCB clearance.",
+    "Do not cycle through every candidate height or adopt unmodeled spring/plastic deflection as proof."
+  ],
+  "next_action": "Parent authorized a separate replacement study; preserve the frozen 83f routed LidUI and all source models.",
+  "report_files_SHA256": {
+    "probe-lcd-slot.py": "31427517603733351a39c25067898647879abd2f6a14ceecf856a945f313e6bd",
+    "lcd-slot-height-probe.json": "634029c4c186ca71d53fd89fb59e784019a2c957fa992d229000e288697c4c6b",
+    "probe-lcd-conflict-details.py": "b9334408a8d597a8d241e0f69c9deec0d3e4e096b39597b4889b24a479fb9ad3",
+    "lcd-common-details.json": "e8a63b803ebe23593da57e18f68ea3326e4426b3aad97c079b5b41b07d9650c1",
+    "probe-lcd-terminal-separation.py": "a190c4d8accb9861d7eb522541937b5707ecc01ace03a3417977c3845c6afcd3",
+    "lcd-terminal-separation.json": "f393158e26c176ed096bb767582862443a5828d8fe7eb32cee0d968282e476d6",
+    "draw-socket-sections.py": "d9164b1e72dc6d5c0ca473ca13fd001178066cb2eb6405839d55e2264c20dede",
+    "socket-sections.svg": "8e97f5da9e717f8d9e5a200c23ac393f8b01618acaeca9be05ea6f90443a76b6",
+    "socket-sections.png": "6ecbbb3466450ad1b136f124b87d5bb9a834c187a47159bc38f4b14c8e261fbd"
+  },
+  "loaded_contact_height_qualified": false,
+  "actual_received_or_powered_result": false
+}

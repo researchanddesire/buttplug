@@ -1,0 +1,69 @@
+{
+  "manufacturer": "Mill-Max",
+  "mpn": "0906-2-15-20-75-14-11-0",
+  "model_kind": "Editable native external dimensional reconstruction; not OEM CAD",
+  "authoring_module": "tools/build_evt1_dock_pogo.py",
+  "datum": "PCB seating underside of flange Z=0, contact along +Z, tail along -Z",
+  "compression_parameter": "part.Parameters.Compression; independent sibling parameter object avoids a child-to-parent expression cycle",
+  "sources": [
+    {
+      "url": "https://www.mill-max.com/sites/default/files/external/catalog/2021-02/023-028.pdf",
+      "manufacturer_authored": true,
+      "relevant_page": "PDF page 5, printed page 25",
+      "sha256_of_inspected_download": "e39890d8755b75b97f37e5732b0e3af1b2b8907adc5b7b2699171813b75542f2",
+      "drawing_inspected": true,
+      "document_not_redistributed": true
+    },
+    {
+      "url": "https://static6.arrow.com/aropdfconversion/adfa1bc04697174a4358693f99b5c90949307da3/0906-2-15-20-75-14-11-0.pdf",
+      "manufacturer_authored": true,
+      "revision": "2025-05-02 12:41 PM EDT",
+      "relevant_page": "1 for exact MPN, initial height and stroke; 2 for general tolerances",
+      "web_text_verified": true,
+      "document_not_redistributed": true
+    }
+  ],
+  "drawing_unit": "inch; mm calculated with exact 25.4 multiplier",
+  "nominal_dimensions_in": {
+    "free_height_from_PCB_seating_face": 0.197,
+    "fixed_shell_height_from_PCB_seating_face": 0.106,
+    "tail_length_below_PCB_seating_face": 0.069,
+    "plunger_diameter": 0.042,
+    "upper_barrel_diameter": 0.059,
+    "lower_barrel_diameter": 0.064,
+    "flange_diameter": 0.072,
+    "tail_diameter": 0.017,
+    "flange_thickness": 0.016,
+    "lower_barrel_length_above_flange": 0.028,
+    "nominal_mid_stroke": 0.0275,
+    "nominal_max_stroke": 0.055
+  },
+  "nominal_dimensions_mm": {
+    "free_height_from_PCB_seating_face": 5.0038,
+    "fixed_shell_height_from_PCB_seating_face": 2.6924,
+    "tail_length_below_PCB_seating_face": 1.7526,
+    "plunger_diameter": 1.0668,
+    "upper_barrel_diameter": 1.4986,
+    "lower_barrel_diameter": 1.6256,
+    "flange_diameter": 1.8288,
+    "tail_diameter": 0.4318,
+    "flange_thickness": 0.4064,
+    "lower_barrel_length_above_flange": 0.7112,
+    "nominal_mid_stroke": 0.6985,
+    "nominal_max_stroke": 1.397
+  },
+  "general_drawing_tolerance_in": {"length": 0.006, "diameter": 0.002, "angle_deg": 2},
+  "stroke_resolution": {
+    "selected_0906_2_max_stroke_in": 0.055,
+    "short_stroke_0906_0_and_0906_8_max_stroke_in": 0.039,
+    "warning": "The .039 callout belongs to the short-stroke variants, not selected 0906-2. Do not substitute it for selected stroke."
+  },
+  "model_detail_limits": [
+    "Round plunger top and tail end are represented as hemispheres inferred from the drawing. Their radii are not separately dimensioned by the manufacturer.",
+    "Undimensioned chamfers, edge breaks, internal spring and internal working clearances are omitted.",
+    "Plunger body represents its external projection only; Compression changes exposed stem length. This is not a spring/force simulation.",
+    "Nominal 0.6 mm compression is an assembly setting below catalog midstroke 0.6985 mm; acceptance of the finished tolerance stack remains a separate check.",
+    "Manufacturer general tolerances do not establish installed coplanarity or force. Actual received pins and the finished mounting/stop stack need measurement."
+  ],
+  "physical_validation": false
+}

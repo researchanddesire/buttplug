@@ -1,0 +1,106 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T12:32:06",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4",
+            "violations": []
+        },
+        {
+            "path": "/Body electronics/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5",
+            "violations": []
+        },
+        {
+            "path": "/Body electronics/Body / dock and power interfaces/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089",
+            "violations": []
+        },
+        {
+            "path": "/Body electronics/Body / regulated motor and inhibit/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3",
+            "violations": []
+        },
+        {
+            "path": "/Body electronics/Body / motion and tip connector/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9",
+            "violations": []
+        },
+        {
+            "path": "/Body electronics/Body / independent charge permission/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c",
+            "violations": []
+        },
+        {
+            "path": "/Body electronics/Interboard connection/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/85304e0d-e789-5146-ac79-f7c2ec838d2a",
+            "violations": []
+        },
+        {
+            "path": "/Flange electronics/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42",
+            "violations": []
+        },
+        {
+            "path": "/Flange electronics/Flange / dock and power interfaces/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/da544d5a-8b4e-53d9-80a3-b45e226fb089",
+            "violations": []
+        },
+        {
+            "path": "/Flange electronics/Flange / radio, local controls and service/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2",
+            "violations": []
+        },
+        {
+            "path": "/Flange electronics/Interboard connection/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/dc32a3fb-37c9-5a8a-965e-060f668f25a1",
+            "violations": []
+        },
+        {
+            "path": "/Remote tip/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/f2e53901-fdd6-5e3c-8206-d72b72f8de5e",
+            "violations": []
+        },
+        {
+            "path": "/Cell-coupled dual NTCs/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/2744a34a-d704-5736-aae7-23d77cfb07f3",
+            "violations": []
+        },
+        {
+            "path": "/Flange electronics/Hardware wake and USB recovery/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/d1a9806d-8d63-56e8-80db-d32f9aa994fb",
+            "violations": []
+        },
+        {
+            "path": "/Fixed flange compass sensor/",
+            "uuid_path": "/b0765cff-5edc-5370-a16a-6618602c4cf4/53a82262-c646-5d31-b4b7-c336f273c622",
+            "violations": []
+        }
+    ],
+    "source": "system-evt1.kicad_sch"
+}

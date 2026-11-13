@@ -1,0 +1,58 @@
+{
+  "status": "nominal EVT fabrication requirements; supplier stackup/process and physical acceptance pending",
+  "native_board_sha256": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+  "board_nominal_thickness_mm": 1.0,
+  "stack_order": [
+    {
+      "layer": "F.Cu",
+      "nominal_copper_um": 35,
+      "role": "signals, USB/CC and local power"
+    },
+    {
+      "layer": "In1.Cu",
+      "nominal_copper_um": 35,
+      "role": "ground reference; no signal tracks"
+    },
+    {
+      "layer": "In2.Cu",
+      "nominal_copper_um": 35,
+      "role": "separated power distribution and low-speed signals"
+    },
+    {
+      "layer": "B.Cu",
+      "nominal_copper_um": 35,
+      "role": "signals and local connections"
+    }
+  ],
+  "copper_selection": "Nominal1oz labels do not guarantee the requested finished minimums; obtain supplier acceptance of35umouter/30uminner/0.15mmbore/25umwall and actual hot-aged4wire commonR<=50mOhm",
+  "DC_model_reference_finished_copper_um": 35,
+  "dielectric_core_and_prepreg_distribution": "not supplier-selected; maintain1.00mm nominal overall Cu+dielectric and approve actual stackup before fabrication",
+  "controlled_impedance_or_USB_performance_qualification": false,
+  "ordinary_track_clearance_mm": [
+    0.15,
+    0.15
+  ],
+  "ordinary_via_diameter_finished_bore_mm": [
+    0.5,
+    0.2
+  ],
+  "global_hole_clearance_mm": 0.2,
+  "bounded_manufacturer_exception": "J101-owned hole/copper pattern only0.15mm; actual nominal spacing~0.1751mm; supplier acceptance required",
+  "via_wall_models_um": [
+    25,
+    18
+  ],
+  "PCB_path_acceptance": "Actual finished hot/aged J101VBUS/GND-land to J621/J622 supply/return-land common copper path<=50mOhm; include process/tolerances. SemiconductorRON and branch connectors/wires/UVboard are separate.",
+  "UV_driver_minimum_input_candidate_V": 4.1,
+  "UV_efficiency_floor_assumption": 0.7,
+  "DC_source_and_transient_physical_qualification": false,
+  "fabrication_release": false,
+  "requested_finished_outer_Cu_min_um": 35,
+  "requested_finished_inner_Cu_min_um": 30,
+  "requested_finished_via_bore_min_mm": 0.15,
+  "requested_via_wall_plating_min_um": 25,
+  "native_min_annular_ring_mm": 0.1,
+  "J101_feature_capability_review": "Explicit supplier review of native0.10mm plated-stake annular ring and bounded0.15mm J101-owned hole/copper rule; do not assume generic pooled capability",
+  "supplier_acceptance": false,
+  "accepted_process_candidate_via_wall_min_um": 25
+}

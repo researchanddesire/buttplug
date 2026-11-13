@@ -1,0 +1,199 @@
+{
+  "status": "Frozen separate nominal wiring/Tray successor; blocked from locking-compatible product promotion",
+  "native_file": "LocalTrayReliefLoomTrial.FCStd",
+  "native_sha256": "93f79a0a3c46d9976f756f89f3c6d730208946d13c89078248d9545dc0e254be",
+  "physical_validation": false,
+  "master_or_source_promotion": false,
+  "human_BOM_edited": false,
+  "native_bodies_cold_valid": 53,
+  "external_links": 0,
+  "physical_changes_from_negative": [
+    "Two NTC return-wire forms",
+    "Two rear-open notches confined to old reference-pack ribs"
+  ],
+  "unchanged_shape_BRep_digest_count": 831,
+  "component_models_PCBA_pack_body_and_endpoints_unchanged": true,
+  "direct_USB_and_body69_source_unchanged": true,
+  "digital_wire_separation": {
+    "total_pairs": 153,
+    "retained_unchanged_wire_pairs": 120,
+    "fresh_unique_pairs_involving_changed_returns": 33,
+    "minimum_native_curve_plus_profile_gap_mm": 0.05,
+    "real_fixed_material_intersections_after_local_repair": 0,
+    "growth_envelope_exit_findings_mm3": [
+      0.07793113276311187,
+      0.07793113276311187
+    ]
+  },
+  "free_lengths_mm": {
+    "IB01": {
+      "extension_or_free_path_mm": 60.93247657396141,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 60.93247657396141
+    },
+    "IB02": {
+      "extension_or_free_path_mm": 60.453837244341145,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 60.453837244341145
+    },
+    "IB03": {
+      "extension_or_free_path_mm": 60.07760143730697,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 60.07760143730697
+    },
+    "IB04": {
+      "extension_or_free_path_mm": 59.811133672947065,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 59.811133672947065
+    },
+    "IB05": {
+      "extension_or_free_path_mm": 59.660246819872754,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 59.660246819872754
+    },
+    "IB06": {
+      "extension_or_free_path_mm": 59.628553397955926,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 59.628553397955926
+    },
+    "IB07": {
+      "extension_or_free_path_mm": 59.71700703081953,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 59.71700703081953
+    },
+    "IB08": {
+      "extension_or_free_path_mm": 59.92376510468988,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 59.92376510468988
+    },
+    "IB09": {
+      "extension_or_free_path_mm": 60.24441666241553,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 60.24441666241553
+    },
+    "IB10": {
+      "extension_or_free_path_mm": 60.67250867359,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 60.67250867359
+    },
+    "PACK_FACTORY_POWER1": {
+      "extension_or_free_path_mm": 41.79296996075771,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 41.79296996075771
+    },
+    "BODY_POWER1": {
+      "extension_or_free_path_mm": 85.74716346814061,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 85.74716346814061
+    },
+    "PACK_FACTORY_POWER2": {
+      "extension_or_free_path_mm": 42.02802285959752,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 42.02802285959752
+    },
+    "BODY_POWER2": {
+      "extension_or_free_path_mm": 86.68733524799237,
+      "factory_sensor_path_mm": null,
+      "total_free_path_mm": 86.68733524799237
+    },
+    "NTC1_SIGNAL": {
+      "extension_or_free_path_mm": 116.40068024131685,
+      "factory_sensor_path_mm": 8.433229858215793,
+      "total_free_path_mm": 124.83391009953264
+    },
+    "NTC1_RETURN": {
+      "extension_or_free_path_mm": 127.30111970309083,
+      "factory_sensor_path_mm": 13.633229858215795,
+      "total_free_path_mm": 140.93434956130662
+    },
+    "NTC2_SIGNAL": {
+      "extension_or_free_path_mm": 113.74659869773868,
+      "factory_sensor_path_mm": 8.433229858215793,
+      "total_free_path_mm": 122.17982855595447
+    },
+    "NTC2_RETURN": {
+      "extension_or_free_path_mm": 122.74186058729506,
+      "factory_sensor_path_mm": 13.633229858215795,
+      "total_free_path_mm": 136.37509044551086
+    }
+  },
+  "current_saved_nut_gaps_mm": [
+    0.222899977049578,
+    0.22629433099966162
+  ],
+  "nut_lock_compatible": false,
+  "nut_lock_gate": {
+    "budget_report": "nut-lock-budget-review.json",
+    "primary_scenario": "SavedPilot17_RearMinusHalfMM",
+    "source_saved_nut_bounds_mm": [
+      -12.000000000000007,
+      -14.0,
+      -13.856406460551021,
+      12.000000000000002,
+      -9.999999999999998,
+      13.856406460551023
+    ],
+    "sharp_hex_AF_mm": 24,
+    "sharp_corner_diameter_mm": 27.71281292110204,
+    "budget_rearward_allowance_mm": 0.5,
+    "washer_selected": false,
+    "shifted_conflicting_parts": [
+      "NTC1_SIGNAL",
+      "NTC1_RETURN",
+      "NTC2_SIGNAL",
+      "NTC2_RETURN",
+      "PackNTC1",
+      "PackNTC2"
+    ],
+    "unshifted_all_angle_conflicting_heads": [
+      "PackNTC1",
+      "PackNTC2"
+    ],
+    "conclusion": "Select actual nut/angular registration/locking stack and reroute/reposition the reported conductors/heads before product promotion."
+  },
+  "current_source_bindings": {
+    "main_flange_native_sha256": "e2430ff72e0b36d9a079791ec246fe2c94ea94c3a07bae22ed7cae8e10cc2884",
+    "portable_exterior_native_sha256": "4b9471fea1af7ace656350d1bc001c665d675ac7fe8014103637b7c204a3b7c5",
+    "routed_MCAD_sha256": "9fdaaa0e70aba5a95e8aef0648da7428b468d3b7d4eb236217032a7e7d1ee240",
+    "original_product_sha256": "fe22bca30660e3cbf7244689a06a6230ae7b93f18c64489593fdc5829d02553f",
+    "pack_spec_sha256": "78f4d12fc27ff52bab62059a73facc4f9c80f37784ce44214cce6f976a5d5ad5",
+    "selected_component_helper_sha256": "f2ee36e179d7dbf24d6b77ee616f329bcc377e1c420cf008e16f61819a578393"
+  },
+  "files_sha256": {
+    "LocalTrayReliefLoomTrial.FCStd": "93f79a0a3c46d9976f756f89f3c6d730208946d13c89078248d9545dc0e254be",
+    "rib-relief-review.json": "be4c664aabe6f16ff618528691a4edcde18a992a550da4d0c1362e6e90402d13",
+    "independent-cold-readback.json": "48cc7b8ab5d2c1f6a0cb2f7fcf55b14c362076758c8e4bcc0dcfb0ad842c6936",
+    "TrayLocalRibReliefs.step": "2514984727deaf40a6e5d555139b119b1ac51a5fe7560efa08fdf016b9b0ef92",
+    "tray_relief_api.py": "8fae8ef60dbb29e646aaa5a22d814f782c938c2d2b64849b60f6b0b3d03af88d",
+    "API-portability-rebind.json": "b7dfdf44ef23663ea5d103a4a5283fc97cf357b7a659c612a7a8aa9209c11af6",
+    "study_rib_relief.py": "30d8fc5caa04c25c03ea3fdc1208436888e3904209cdf7d4e2c3a3b0c744d197",
+    "pack_paths_relief.py": "d369a17b0465e0c1253d4c83ebbfbcb4a09fb812aa23b46acc34843d6ccdf85d",
+    "curve_utils.py": "1881c23392c0219f389bd54b46d511990dcd87ff2b452e1abb2ca5ae97e3efef",
+    "CompletePackLoomTrial.FCStd": "6d4dfb5d884b956d56dca9ce4a20691ed05cd49ddce985b85bf5822c038d628a",
+    "complete-review.json": "ace80d162e7f784b7d6e02ae04c9cdc61127bfbb503de9258668b11eb4dedefb",
+    "pack_paths.py": "9b0b292e8212d96d7b5455a4950d997da6a236e42e15826801b53ff343abde69",
+    "build_complete_coupon.py": "578ad21bb18597be1b58cda25ad233b2bd91c72bedf1cebfaac1bc7ec4062b7a",
+    "NutLockClearanceBudget.FCStd": "84251bdf6ae58946689ac8f60ac6aec1bea52da2a30772a2d8fbc006a446318e",
+    "nut-lock-budget-review.json": "7a992684bf7204b4217050420e4862d69a2e0b94bcbb03787a4a8ada287b0490",
+    "check_nut_lock_budget.py": "a1c7e40ac5a2ef7c6e6ef418bb45d0cbc69f3abcc65e2ee170f189feb3f37c47",
+    "check_frozen_trial.py": "572a884c2b4fbcee99f864f4c8187bd5e70f4e0c9a12a2a03ad1c9291df14af7",
+    "ACHMatedComponentSource.FCStd": "ccf5e5775cb66476fa3a4841d0bd54e8b644fb51cbbc5f3e8c4f088021f14aad",
+    "ACHTP-02V-S.step": "661bf3fdf6103798d534ecc092af94245f79df2ca2f09a80e3f86c8579ea83d3",
+    "ACHTR-02V-S.step": "ca60d09c777a07a9b1534a812d746d77854c2f604e07b70bec24fe0df0887db3",
+    "selected-parts.json": "804697606fba959cf16ddf537c1018f893675d285634cfcd1493253459f61fcc",
+    "component-pose-rebind.json": "efdb62494d5d12db162fbdc100eb318f2cec1975a6d37a518228fc55fba8ace1",
+    "parts-and-cut-stock.json": "1fc7fe650c906422157b5ac8b71d5020fbcaa451c36c123bde25894f574ce3c9",
+    "source-manifest.json": "b75644255e9ee4658cab4628dc02a4c5d40b468d5d9b100a79bfa567e957d0f4",
+    "README.md": "f41b41c9dd656a129ff0ca8bf642e59dedc48ee6a9d5d8c74539c7deac732277",
+    "archive/static-negative-6d4dfb5d/CompletePackLoomTrial.FCStd": "6d4dfb5d884b956d56dca9ce4a20691ed05cd49ddce985b85bf5822c038d628a",
+    "archive/static-negative-6d4dfb5d/complete-review.json": "ace80d162e7f784b7d6e02ae04c9cdc61127bfbb503de9258668b11eb4dedefb"
+  },
+  "open_gates": [
+    "Locking-compatible sensor heads/routes and selected/received nut/washer stack",
+    "Factory pack exits and growth port; exact requested longer leads",
+    "Physical pack supports/retention and no-preload NTC/head-tail restraint",
+    "Crimp/solder/heatshrink/adhesion and received OD/tolerance",
+    "Attached-wire mating/withdrawal and cap threading; positive body-side strain relief",
+    "Thermal/electrical/RF/magnetic/molding and complete-product validation"
+  ]
+}

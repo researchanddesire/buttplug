@@ -1,0 +1,98 @@
+{
+  "status": "Native KiCad circuit conservation and ERC pass; no PCB routing/mechanical acceptance",
+  "checker_sha256": "289a963c0a4bf2014f1965271475fdb59b16fd2ca9ee9efa92c065dd9d41c1de",
+  "native_tool_version": "10.0.8",
+  "retained_refs": 111,
+  "added_refs": 21,
+  "total_refs": 132,
+  "retained_endpoints_checked_net_type_function": 380,
+  "only_existing_terminal_changes": [
+    {
+      "ref": "U7",
+      "pin": "6",
+      "from": [
+        "GND",
+        "input",
+        "AIN2_6"
+      ],
+      "to": [
+        "CHARGE_CURRENT_ADC",
+        "input",
+        "AIN2_6"
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "7",
+      "from": [
+        "GND",
+        "input",
+        "AIN3_7"
+      ],
+      "to": [
+        "CHARGE_TS_ADC",
+        "input",
+        "AIN3_7"
+      ]
+    }
+  ],
+  "new_connected_endpoints": 57,
+  "source_XML_sha256": "ff45834490030e434ebc3209d34376de735c03c3ace2755d129a7e2ddceecc7a",
+  "candidate_XML_sha256": "a3c7d0d9067a6eb6e8e02a16102a3dfe293dd266e79c9fa92cf730999d5b2945",
+  "ERC_sha256": "6bd83758584427e38db5e8759eda8ae6260367144c36d3693cbacf6662fad7b4",
+  "ERC_violations": 0,
+  "ERC_ignored_tests": [],
+  "ERC_exclusions": [],
+  "original_body69_artwork_sha256": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367",
+  "frozen_flange_artwork_sha256": "b03c5ad9541e2e10d8a9097ae05d14ded36d2ebb1534d0a0c33b38f99a64f2b1",
+  "source_bindings_sha256": "149522a66da1a863439f798327410411999b39b2411793e655b2ca0856227740",
+  "local_source_sha256": {
+    "EVT1.pretty/C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+    "EVT1.pretty/C_0603_1608Metric.kicad_mod": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6",
+    "EVT1.pretty/C_0805_2012Metric.kicad_mod": "f9821eb1d391e3d2bc6c77832e3dcb89c12eb239a84b32afe731e7e2e61509bb",
+    "EVT1.pretty/Contact_Loom_4Land.kicad_mod": "7185b1e0ae748704f1b87c1163680bea278718aa846d6da8c471a02a542c6c42",
+    "EVT1.pretty/D_SOD-323.kicad_mod": "6bf85735559484a964ff7c8b81cc916b29c8f5fe064c56f2901d54741bf0e9c7",
+    "EVT1.pretty/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.kicad_mod": "e76b055eab60132dd845f79bdac7221537bddda780f711ac0093ac9a9326ce2b",
+    "EVT1.pretty/LGA-12_2x2mm_P0.5mm.kicad_mod": "693f0fe1eab49489c7d71935e02ff6a56789c18b04d51bb9e8f3807e2d53ec78",
+    "EVT1.pretty/MillMax_0906_2.kicad_mod": "f8ceb9a9d773735d3d5e9754185000dfb50c73c3e54a3e41fffede53cf2772c0",
+    "EVT1.pretty/NPTH_1.6mm_LocatingPin.kicad_mod": "8fe471c6904e84da5084a1a455db03d78a8cf99c8af2b12da0604391a9fe3152",
+    "EVT1.pretty/NPTH_1.8mm_LocatingPin.kicad_mod": "5361c5ea661574b30c6a0f639b863d289b4c761990b14db48b3dc051a6da685e",
+    "EVT1.pretty/R_0402_1005Metric.kicad_mod": "70ac457d61f801181665148cd036282c1eeb9e00383e132500ca0c21ed6befac",
+    "EVT1.pretty/SOT-23-6.kicad_mod": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97",
+    "EVT1.pretty/Sensor_Loom_4Land.kicad_mod": "ff7c6c391216f75612ed1c5a3db11b192eaaa59911f22de156e1e9e041753cb9",
+    "EVT1.pretty/TestPoint_Pad_D1.0mm.kicad_mod": "f656c9fb1f11e345b0f97d9a7119972e5dcca486fc2ca65bd06c086ce49cc0f7",
+    "EVT1.pretty/Texas_USON-6_1x1.45mm_P0.5mm_SMD.kicad_mod": "826f683cd81d19814e0806ab3deb69ddfe598fd86a574f3a6378a3cecbd2c3cc",
+    "EVT1.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod": "3d3efd30bee5895ee6eaed00d12e29bd6ef120c531b32ed861cfda16fd72bc51",
+    "EVT1.pretty/VSSOP-10_3x3mm_P0.5mm.kicad_mod": "cd57ee7dfbd384dc1781f12ed058ece515e52a530370701d039e9641f2ccd1f6",
+    "PrototypeR0.kicad_sym": "5974b69a87dbbe9442e1f4e12e5e16f91d270d9902f1c3e13de8ade1b85ac00b",
+    "Telemetry.pretty/C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+    "Telemetry.pretty/R_0402_1005Metric.kicad_mod": "70ac457d61f801181665148cd036282c1eeb9e00383e132500ca0c21ed6befac",
+    "Telemetry.pretty/SOT-353_SC-70-5.kicad_mod": "cc5ee1c918dbaa99b16baa8594edab018d13f222e90942da9ef0706549ffdb56",
+    "Telemetry.pretty/TI_DTM0008A.kicad_mod": "6fa9f4fd2bf05f887647fa95bd13056d9c5746a6659522f939fe0c8a1057787d",
+    "body/01-power.kicad_sch": "b3931a94cf3b0f5fc34a694a91021043756ccf518a7ecc8fa53cf28c32e8e9ee",
+    "body/02-motor.kicad_sch": "1967ea5851c3e053c17bbd9a06d39cb254c4f48f0d9a9c8f4b638efb01048ef6",
+    "body/04-sensors.kicad_sch": "7e6e74ae2f984b8be2f7c0dd8d057f928b73f5afdc4575a471913b981d6ac8e5",
+    "body/05-charge-guard.kicad_sch": "a47c36ed5c447dfc379ddbc2da1ccf31381fe0404ce72eaea5160219121bfa79",
+    "body/06-interboard.kicad_sch": "d036e7a4d36c84245c5613e3a77722cbb74f80175182943516e71e131cee6239",
+    "body/07-current-observer.kicad_sch": "4f2b6265d753261a7ad8b5899d1f13483fc20f909c20981fbe265c4842016c7b",
+    "body/08-TS-observer.kicad_sch": "1b787f5f7974c12487341b6e3fcc2aa716e68bcc804ec644e47870b8852a88ab",
+    "body/09-status-observer.kicad_sch": "cb6e4428691c3c401680a2f4ccd7a8a04103a6bce77f0ed8397b69f7b6f0d38c",
+    "body/body-evt1.kicad_sch": "8b88c93270f24ed829b4112fb1951287dcc37a0b93005a09efd858d77a14edcd",
+    "body-instrumentation-placement.kicad_pro": "b728a3d40cc94c169e5c98aa3a595bb5d483074c758b7d081648c691eff7b523",
+    "external-04-sensors.kicad_sch": "e2e21c1472ee735357662b8373698ebbf6f21244562258be8c75daa001d8ca9c",
+    "external-05-charge-guard.kicad_sch": "91926aecb71df3aa6f26ac70825ec33d299e48282665014542bff9fd963f83d1",
+    "flange/01-power.kicad_sch": "fb33f62f3a537aa2cd5b5d58269ad1818544620cae55594f1fbe7abf7e4d852c",
+    "flange/03-control.kicad_sch": "36683b87e3798d98a19790f8ee0bb13c85bdcf72b4acbd13d10cd3da8adf2a4d",
+    "flange/04-targets.kicad_sch": "383154f0e803527f18318ccc28585bfa610ced16b5167f1466dd6fa05fce03b6",
+    "flange/06-interboard.kicad_sch": "2d93ad58319df4d7ebff89b4d7c93c8b7ffd616e76fa50d1dbd3079eca9fe007",
+    "flange/07-recovery.kicad_sch": "fec2f868d6739489fb1c3aefbf8c72b162eaba6f29a76ef572e07a8e6fbb743e",
+    "flange/08-compass.kicad_sch": "e9f2f4020de1109f83894efee714c7c5da3c9bfc0df40faebe70a44ace363535",
+    "flange/flange.kicad_sch": "73b427c85fe6e8a5918e1e6d9279026c1c82801cf1bb96b8459e15f9dc863e6c",
+    "fp-lib-table": "3cca5c3ad911da97104c112883676369baad602e0c173e90a0637061a2f8f8e1",
+    "instrumented-device.kicad_pro": "928b45220d59e36142324faacbf3a756be6852120cd4209f97be9e649caf3f16",
+    "instrumented-device.kicad_sch": "88e830c87dce2873c8e9f9bb7dd6655b1559e32acb7d42a91571c89e2229b811",
+    "sym-lib-table": "52fe3e807d97855095b03af0651643337651cbbcd335a0d9bdef6621c1385721"
+  },
+  "physical_validation": false,
+  "source_promotion": false
+}

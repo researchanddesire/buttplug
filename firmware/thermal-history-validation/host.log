@@ -1,0 +1,6 @@
+PASS: boot/off, local-arm gate, duty bounds, lease expiry, dock removal, sensor fault latch, temperature/battery trips, stale sensor, arm timeout, default/config lock, hardware latch, stop and signed sensor decoding
+PASS: Compass packet bounds, north wrap, fresh distinct samples, pulse/settle cycle, lease, retarget, stop, dock and independent motor gate
+EVT compass: 1680 known tilted poses and calibrations passed
+EVT thermistor fixtures, rail/open/short/drift and compass rejection tests passed
+PASS: configurable scaling/inversion/clamps, edge triggers, separate elapsed/qualified wear, removal, pause, gap and dock accounting
+Thermal history: actual sample age, loss/straddle/early removal, first fresh post-loss sample, invalid/gap/reconnect, bounded rings and reset/timebase tests pass.

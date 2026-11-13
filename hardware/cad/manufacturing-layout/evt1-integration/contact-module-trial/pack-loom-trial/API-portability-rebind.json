@@ -1,0 +1,10 @@
+{
+  "status": "Import-only portability binding; native/function geometry unchanged",
+  "native_sha256": "93f79a0a3c46d9976f756f89f3c6d730208946d13c89078248d9545dc0e254be",
+  "original_API_sha256": "31f845ac4f0af8cd09a73c81b42ec6032e73d69427b76f1ebc5b72a5362c021f",
+  "portable_API_sha256": "8fae8ef60dbb29e646aaa5a22d814f782c938c2d2b64849b60f6b0b3d03af88d",
+  "all_function_ASTs_identical": true,
+  "function_AST_sha256": "dbf1b934ba81a34449cead19a1a76097266ecdc2b0d230cf00d0b7843c758c56",
+  "change": "Import FreeCAD/Part directly instead of importing the PythonOCC wire utility. The two-rib native Pocket API therefore runs in the existing FreeCAD VM without requiring PythonOCC.",
+  "native_rebuilt": false
+}

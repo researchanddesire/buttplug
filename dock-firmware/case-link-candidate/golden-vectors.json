@@ -1,0 +1,99 @@
+{
+  "protocol_sha256": "4678caf5112116f93fc80a013288c87fad0e0572ccb57d29b35e8bd2dbe971a5",
+  "scope": "Independent Python-struct fixtures, not a sender interoperability or hardware result",
+  "vectors": [
+    {
+      "name": "thermal",
+      "kind": 1,
+      "format": "<BBHIIIhH",
+      "input_fields_in_order": [
+        1,
+        143,
+        65534,
+        305419896,
+        4294967280,
+        16,
+        -1234,
+        32768
+      ],
+      "wire_hex": "018ffeff78563412f0ffffff100000002efb0080"
+    },
+    {
+      "name": "charge",
+      "kind": 2,
+      "format": "<BHHIIHHHB",
+      "input_fields_in_order": [
+        1,
+        127,
+        30292,
+        2309737967,
+        270544960,
+        987,
+        1234,
+        4123,
+        37
+      ],
+      "wire_hex": "017f005476efcdab8940302010db03d2041b1025"
+    },
+    {
+      "name": "source",
+      "kind": 3,
+      "format": "<BBHIIII",
+      "input_fields_in_order": [
+        1,
+        29,
+        86,
+        305419896,
+        100,
+        120,
+        160
+      ],
+      "wire_hex": "011d5600785634126400000078000000a0000000"
+    },
+    {
+      "name": "command",
+      "kind": 4,
+      "format": "<BBHIIII",
+      "input_fields_in_order": [
+        1,
+        2,
+        65533,
+        591751049,
+        4294967280,
+        0,
+        0
+      ],
+      "wire_hex": "0102fdff89674523f0ffffff0000000000000000"
+    },
+    {
+      "name": "result",
+      "kind": 5,
+      "format": "<BBHIIII",
+      "input_fields_in_order": [
+        1,
+        0,
+        65533,
+        305419896,
+        4294967288,
+        4,
+        591751049
+      ],
+      "wire_hex": "0100fdff78563412f8ffffff0400000089674523"
+    },
+    {
+      "name": "first_valid",
+      "kind": 6,
+      "format": "<BBHIIII",
+      "input_fields_in_order": [
+        1,
+        1,
+        86,
+        305419896,
+        100,
+        140,
+        180
+      ],
+      "wire_hex": "0101560078563412640000008c000000b4000000"
+    }
+  ]
+}

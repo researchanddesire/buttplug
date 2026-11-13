@@ -1,0 +1,86 @@
+{
+  "sources": [
+    {
+      "path": "firmware/main/evt_console.c",
+      "SHA256": "f25776bb50d3dd9d1c2496895a5312bd2dc7ef986b1ffbb2ce60d82ecaf188d1",
+      "provenance": "Frozen read-only audit before authorized edits"
+    },
+    {
+      "path": "firmware/main/evt_console.h",
+      "SHA256": "3d7624843e416c964860d96f469b4d846e7061b4775ac464d3aea71d65e683ba",
+      "provenance": "Frozen read-only audit before authorized edits"
+    },
+    {
+      "path": "firmware/main/main.c",
+      "SHA256": "eae27ee8cb65b53173d8d4c4bcd4fa4605f4a244a9db8ca3f70523e32d4de179",
+      "provenance": "Frozen read-only audit before authorized edits"
+    },
+    {
+      "path": "firmware/main/CMakeLists.txt",
+      "SHA256": "1a2e6d7a0a2c806991b8fd7346915b9c9c02bea2825416f6f12bb1b77576d8b1",
+      "provenance": "Still unchanged when baseline recorded"
+    },
+    {
+      "path": "developer-docs/docs/firmware.md",
+      "SHA256": "17b8eaf06fe11273c8a38da3a1bb02fb673babe7ad231f69272c76a8f4f7b7a1",
+      "provenance": "Still unchanged when baseline recorded"
+    },
+    {
+      "path": "developer-docs/docs/testing.md",
+      "SHA256": "2844569e57708d8ea080cd987c0cbc0656c1bb5cc02f77f4270ce671f34343f2",
+      "provenance": "Still unchanged when baseline recorded"
+    },
+    {
+      "path": "firmware/platformio.ini",
+      "SHA256": "ebb7539a52032f63767e3058cd75a0c8b118cf01d8f93088e5869fb65987da31",
+      "provenance": "Still unchanged when baseline recorded"
+    },
+    {
+      "path": "firmware/sdkconfig.evt1",
+      "SHA256": "e1ed2fe57a4040a38d2ab045af0784fcff7df62ea7a411ebeca561396e1be9f2",
+      "provenance": "Still unchanged when baseline recorded"
+    },
+    {
+      "path": "firmware/sdkconfig.prototype-r0",
+      "SHA256": "e1ed2fe57a4040a38d2ab045af0784fcff7df62ea7a411ebeca561396e1be9f2",
+      "provenance": "Still unchanged when baseline recorded"
+    },
+    {
+      "path": "firmware/tests/run_host_tests.sh",
+      "SHA256": "58d52b247c530211e057598d3a297d40aaaccb02087da1f7937ba5f1ba362c95",
+      "provenance": "Still unchanged when baseline recorded"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "firmware/.pio/build/evt1/firmware.elf",
+      "bytes": 11547032,
+      "mtime_ns": 1794519143295450448,
+      "SHA256": "0eb86fbc9c5d6c3cd599769e2517b67a1e7a027e6313d9f9834b71dd2f6ad2bf",
+      "state": "Existing baseline artifact hashed"
+    },
+    {
+      "path": "firmware/.pio/build/evt1/firmware.bin",
+      "bytes": 1142704,
+      "mtime_ns": 1794519143952977895,
+      "SHA256": "e1a2f827d422343b8492e7a0c372b31b9bb694054e5ef826fd37e00754acc3e3",
+      "state": "Existing baseline artifact hashed"
+    },
+    {
+      "path": "firmware/.pio/build/prototype-r0/firmware.elf",
+      "bytes": 11373520,
+      "mtime_ns": 1794519053669607877,
+      "SHA256": null,
+      "state": "Cloud-dataless; first read timed out. File preserved; new builds use isolated temporary output."
+    },
+    {
+      "path": "firmware/.pio/build/prototype-r0/firmware.bin",
+      "bytes": 1109856,
+      "mtime_ns": 1794519053869153338,
+      "SHA256": "7d7f82ecb78e28922b99a70595e48eaedf252daca97068ad0d355e92a32d339e",
+      "state": "Existing baseline artifact hashed"
+    }
+  ],
+  "original_build_directory_will_be_preserved": true,
+  "frozen_UV_helper_SHA256": "38c6edf80175b451c9397fa0eccdc38c84e27bdea428fb01fcc5379297b82939"
+}

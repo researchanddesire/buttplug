@@ -1,0 +1,486 @@
+{
+  "scope": "Inert closed-assembly overmold casting trial only; no electronics/human-use/tooling release",
+  "native_sha256": "bfcd28555a96ceb1ad077c3d403a0d44bcef9efba0fb2f553eb315c89c14e152",
+  "source_native_sha256": "ed256853cd7b79968c2993927d670df206ee3718927df7bde5aabcfefd847ebd",
+  "builder_sha256": "0af69fb8e5495e88a70c858ad75107dbebb236a5cc1642c8608f52ebdc2b7496",
+  "exports": {
+    "TrialContinuousSkin": {
+      "STEP_sha256": "4d4e4ff612ee2b4fdfaed92fa229caee87fb296d9dc9c9bb531f2ec9d36c98b6",
+      "view_STL_sha256": "2f4224ee5ca8163e1820d6b230520ad44781b8dc9fa197ed0b81ad589d87c04b",
+      "section_view_STL_sha256": "0891decceb7585333777531c4b58e6fd0b1c426bf57ff2b80ebed3cd760ea08a"
+    },
+    "ClosedAssemblyDummy": {
+      "STEP_sha256": "0b752d9008314288ef51a5ede2b68c9d8dfac3b71e85e916015725dbfdc4f075",
+      "view_STL_sha256": "f070b512e4c8ea11ea6ef8689cbb0527bc1d615049d7b5ff80e4574f16c29c8d",
+      "print_STL_sha256": "08df7f32b0d6a9baf62d02f99144e77125c50638942b887cbfabba0cf792134b",
+      "section_view_STL_sha256": "5971bba33678ecb3c1bafdbc6cfbd20a82b0e122a92a5ea431ae212fbfdd042c"
+    },
+    "MoldHalfA": {
+      "STEP_sha256": "a9f1813f40771ff07b45d3511485644105f3904d8ffbd711752ef6127e77e17e",
+      "view_STL_sha256": "76c654d7760fcb8f230e9beec5eb60cdcac6d38db5e45b36372c15a864ca8183",
+      "print_STL_sha256": "cff06493045f0695c9a837d2d37ac7ea729b7b5594ffb6fcd0ad701ca9f4994b"
+    },
+    "MoldHalfB": {
+      "STEP_sha256": "e8ba9f6ad806562ad027c0b9bef7cbb82dd0d6b7180925dabf3ebfb55cd3e095",
+      "view_STL_sha256": "a7bf47b9558704039177a2b09f226b4cb54d4b133a802ecb08f93df476702395",
+      "print_STL_sha256": "e3fa9a14407b195d112e4d40fc835d19b07659f99da0677e282b948a34a02d18"
+    }
+  },
+  "skin_target_mm": [
+    90,
+    38
+  ],
+  "minimum_nominal_end_skin_mm": 1,
+  "rear_face_Y_mm": -26.5,
+  "top_face_Y_mm": -6,
+  "root_end_Y_mm": -3,
+  "arrow": {
+    "direction": "+X back proposal",
+    "height_mm": 0.35
+  },
+  "tool_half_block_mm": [
+    116,
+    50,
+    28
+  ],
+  "tool_split": "Z=0; opens +/-Z",
+  "M4_bolt_centers_XY_mm": [
+    [
+      -52,
+      -31
+    ],
+    [
+      52,
+      -31
+    ],
+    [
+      -52,
+      6
+    ],
+    [
+      52,
+      6
+    ]
+  ],
+  "dowel_centers_XY_mm": [
+    [
+      -52,
+      -15
+    ],
+    [
+      51,
+      -7
+    ]
+  ],
+  "dowel_pocket_diameter_mm": 4.2,
+  "dowel_pocket_total_depth_mm": 11,
+  "gate_diameter_mm": 4,
+  "vent_width_depth_mm": [
+    0.6,
+    0.3
+  ],
+  "vent_center_X_bottomY_mm": [
+    [
+      -32,
+      -6.5
+    ],
+    [
+      32,
+      -6.5
+    ],
+    [
+      -10.2,
+      -4
+    ],
+    [
+      10.2,
+      -4
+    ]
+  ],
+  "hardware_trial": {
+    "M4x65_bolt": 4,
+    "M4_flat_washer": 8,
+    "M4_nut": 4,
+    "diameter4x10_dowel": 2
+  },
+  "silicone_skin_volume_ml": 23.983484179996864,
+  "limits": [
+    "Solid dummy replaces the closed assembly ONLY for external filling/demolding; no real cavity-leak/button/contact test.",
+    "No exact silicone/tool/release material, shrink allowance, pressure, cure time or production temperature selected.",
+    "Nominal zero neck shutoff; printing, finishing and real metal tolerance need physical fit and flash trials.",
+    "Dummy locator bar is not a product feature. Dummy print needs support under this external bar.",
+    "Source metal threads remain pilot/root envelopes; dummy has no threads or structural acceptance.",
+    "Clamp holes and removable dowels are dimensional allowances; no clamp-force or tool-strength rating.",
+    "Nut locking, actual pack/battery service, contact/button sealing, NTC/USB/compass PCB and dock remain unresolved."
+  ],
+  "verified_parts": {
+    "TrialContinuousSkin": {
+      "valid_single_solid": true,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "STEP_volume_delta_mm3": 9.968061931431293e-10,
+      "native_volume_mm3": 23983.484179996864
+    },
+    "ClosedAssemblyDummy": {
+      "valid_single_solid": true,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "STEP_volume_delta_mm3": 3.5652192309498787e-10,
+      "native_volume_mm3": 51710.923418979124,
+      "print_mesh_closed": true,
+      "print_bounds_xyz_mm": [
+        88.0,
+        31.999999999999993,
+        46.5
+      ]
+    },
+    "MoldHalfA": {
+      "valid_single_solid": true,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "STEP_volume_delta_mm3": 0.008785304278717376,
+      "native_volume_mm3": 123485.86157284668,
+      "print_mesh_closed": true,
+      "print_bounds_xyz_mm": [
+        116.0,
+        50.0,
+        28.0
+      ]
+    },
+    "MoldHalfB": {
+      "valid_single_solid": true,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "STEP_volume_delta_mm3": 0.007103452328010462,
+      "native_volume_mm3": 123485.86321684215,
+      "print_mesh_closed": true,
+      "print_bounds_xyz_mm": [
+        116.0,
+        50.0,
+        28.0
+      ]
+    }
+  },
+  "geometry_checks": {
+    "minimum_flange_envelope_to_rigid_insert_mm": 1.0,
+    "continuous_skin_valid_single_solid": true,
+    "connected_skin_gate_vent_network": true,
+    "nominal_connected_fill_volume_ml": 24.17784527325147,
+    "release_translation_samples": [
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": 0,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": -0.1,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": -0.25,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": -0.5,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": -1,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": -2,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": -4,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": -8,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": -16,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": -28,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfA",
+        "Z_translation_mm": -40,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 0,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 0.1,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 0.25,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 0.5,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 1,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 2,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 4,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 8,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 16,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 28,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      },
+      {
+        "tool": "MoldHalfB",
+        "Z_translation_mm": 40,
+        "intersections_mm3": {
+          "trial_dummy": 0.0,
+          "continuous_skin": 0.0,
+          "source_installed_body": 0.0,
+          "source_installed_cap": 0.0,
+          "alignment_dowel0": 0.0,
+          "alignment_dowel1": 0.0,
+          "other_tool_half": 0.0
+        }
+      }
+    ],
+    "dowel_geometry": [
+      {
+        "index": 0,
+        "diametrical_clearance_mm": 0.2,
+        "total_axial_end_clearance_mm": 1
+      },
+      {
+        "index": 1,
+        "diametrical_clearance_mm": 0.2,
+        "total_axial_end_clearance_mm": 1
+      }
+    ],
+    "bolt_geometry": [
+      {
+        "index": 0,
+        "diametrical_shank_clearance_mm": 0.5
+      },
+      {
+        "index": 1,
+        "diametrical_shank_clearance_mm": 0.5
+      },
+      {
+        "index": 2,
+        "diametrical_shank_clearance_mm": 0.5
+      },
+      {
+        "index": 3,
+        "diametrical_shank_clearance_mm": 0.5
+      }
+    ],
+    "limits": "Rigid nominal geometry and finite translations only; bolts removed, tools slide along straight dowels during opening. No continuous swept proof, fit, clamping, flow, flash, cure, shrink, adhesion or physical validation."
+  },
+  "verifier_sha256": "7f56a82cc104fff88ddb3a3fb895be01714663926d380d258a500a4684e4d9be"
+}

@@ -1,0 +1,30 @@
+{
+  "software": "Official Freerouting2.5.0 JVM JAR",
+  "primary_release": "https://github.com/freerouting/freerouting/releases/tag/v2.5.0",
+  "JAR_sha256": "f6f51bb02245e8e717f9359bd260cc9c5c0b1bc0acc8b7cb2cd5b8ffeb5de3c7",
+  "JRE": "task-local Eclipse Temurin25.0.5+8; not installed",
+  "max_autoroute_passes": 3,
+  "optimizer_threads": 0,
+  "telemetry_disabled": true,
+  "REST_API_enabled": false,
+  "MCP_server_enabled": false,
+  "GUI_enabled": false,
+  "source_board_or_jobs_uploaded": false,
+  "settings_source": "/private/tmp/compass-single-flange-router/freerouting.json",
+  "settings_sha256": "35441259e99d386ed89615e15c470932354cc23b3009bf5d08ec707f4de5da35",
+  "reserved_signal_layer": "In1.Cu",
+  "strict_acceptance": "Full native KiCad10.0.8 DRC0violations/0unconnected, source netlist parity and frozen geometry parity; router logs alone are not acceptance",
+  "fabrication_or_powered_result": false,
+  "automatic_neckdown": false,
+  "opt_in_neck_width_um": 0,
+  "native_minimum_trace_mm": 0.15,
+  "completed_pass1_settings_sha256": "21e4e45528f6423c9d4c5579594a4bc13fc3cf2f38d4e8e3423c1858ca5d2d2e",
+  "completed_pass1_automatic_neckdown": "Default enabled;31 illegal necks restored to native0.15mm with guarded repair",
+  "automatic_neckdown_setting_applies_to": "Future router passes; final completion used native checked routing, no second Freerouting pass",
+  "completed_general_route_stages": [
+    "Official offline Freerouting2.5,3bounded autorouter passes",
+    "Guarded native-width restoration",
+    "Authorized two-part mate-clearance repair and critical routing reconstruction",
+    "Native shape-checked residual routing and exact DRC-bound endpoint finalization"
+  ]
+}

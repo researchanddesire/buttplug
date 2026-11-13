@@ -1,0 +1,162 @@
+{
+  "input_board_sha256": "37010419311faf649e3b1d16d8881009c49292e8efe3f77b8808e5974a055791",
+  "board_sha256": "26302bf6ed0e5990d9ee7b4bd825f7bf7ebf6cc7f38d9fdbb79acd98fbbd488c",
+  "added": [
+    {
+      "kind": "track",
+      "uuid": "ffae85fe-9045-4547-8b88-793b3c115ddf",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -0.7,
+        -6.5
+      ],
+      "end": [
+        -0.2,
+        -6.5
+      ],
+      "width_mm": 0.2,
+      "role": "reset local bypass supply"
+    },
+    {
+      "kind": "track",
+      "uuid": "9d1414b3-e794-4320-9efa-943366071b24",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -0.2,
+        -6.5
+      ],
+      "end": [
+        -0.2,
+        -8.2
+      ],
+      "width_mm": 0.2,
+      "role": "reset local bypass supply"
+    },
+    {
+      "kind": "track",
+      "uuid": "57a97637-de8f-4b05-be5d-595fd7aae4c2",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -0.2,
+        -8.2
+      ],
+      "end": [
+        -1.48,
+        -8.2
+      ],
+      "width_mm": 0.2,
+      "role": "reset local bypass supply"
+    },
+    {
+      "kind": "track",
+      "uuid": "f46160a8-579b-46df-ac81-88ff4016f105",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -1.48,
+        -8.2
+      ],
+      "end": [
+        -1.48,
+        -9
+      ],
+      "width_mm": 0.2,
+      "role": "reset local bypass supply"
+    },
+    {
+      "kind": "track",
+      "uuid": "c0a73ca1-6e25-49a3-8892-471d14d36ec7",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -0.52,
+        -9
+      ],
+      "end": [
+        0.3,
+        -9
+      ],
+      "width_mm": 0.25,
+      "role": "reset capacitor direct plane return"
+    },
+    {
+      "kind": "via",
+      "uuid": "8d74711b-4be1-447d-9498-3d5860579a2b",
+      "net": "GND",
+      "product_XZ_mm": [
+        0.3,
+        -9
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "reset capacitor direct plane return"
+    },
+    {
+      "kind": "track",
+      "uuid": "aed99c27-54e6-49d6-9d3a-bdac4902fc0d",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -1.3,
+        -7
+      ],
+      "end": [
+        -0.7,
+        -7
+      ],
+      "width_mm": 0.2,
+      "role": "reset package ground tie"
+    },
+    {
+      "kind": "track",
+      "uuid": "64af22a4-6902-4b93-a09f-24e28f7f1d1b",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -0.7,
+        -7
+      ],
+      "end": [
+        -0.7,
+        -7.5
+      ],
+      "width_mm": 0.2,
+      "role": "reset package ground tie"
+    },
+    {
+      "kind": "track",
+      "uuid": "46b51875-88a3-4937-95b9-12539ef7aff9",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -1.3,
+        -7
+      ],
+      "end": [
+        -2.2,
+        -7
+      ],
+      "width_mm": 0.2,
+      "role": "reset package direct plane return"
+    },
+    {
+      "kind": "via",
+      "uuid": "4544e522-bc39-4065-8422-c491e05cee9a",
+      "net": "GND",
+      "product_XZ_mm": [
+        -2.2,
+        -7
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "reset package direct plane return"
+    }
+  ],
+  "all_preexisting_copper_preserved": true,
+  "C71_VDD_route_mm": 4.28,
+  "C71_direct_GND_return_mm": 0.82,
+  "purpose": "Avoid two via transitions/remote path in the local100nF reset bypass after the authorized U71 move; actual high-frequency supply behaviour remains to measure"
+}

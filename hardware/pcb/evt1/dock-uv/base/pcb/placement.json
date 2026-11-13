@@ -1,0 +1,955 @@
+{
+  "status": "unrouted placement; no fabrication release",
+  "board": "dock-uv-base.kicad_pcb",
+  "board_sha256": "6fae230415720dadcfd734b331df11594cefbb5f72c099bd0317154fea990ef5",
+  "schematic_native_xml_sha256": "c1a723a41e02d81a3f3790f26e58a8ea7ec29c8c892109c857f5fc0215cba158",
+  "parts_sha256": "cb2ea50ecbbf67db27a4a215484bafd4b07117ff45d0eb10bbf37eceb7856e8b",
+  "builder_sha256": "20a5525a2af630fc6219675615406a2525c0516988ae7a71b171f72e1eb02a57",
+  "outline_dock_planar_mm": [
+    [
+      -49,
+      86
+    ],
+    [
+      -35,
+      86
+    ],
+    [
+      -35,
+      128
+    ],
+    [
+      35,
+      128
+    ],
+    [
+      35,
+      86
+    ],
+    [
+      49,
+      86
+    ],
+    [
+      49,
+      135
+    ],
+    [
+      -49,
+      135
+    ]
+  ],
+  "mount_centers_mm": [
+    [
+      -45,
+      89
+    ],
+    [
+      45,
+      89
+    ],
+    [
+      -45,
+      132
+    ],
+    [
+      45,
+      132
+    ]
+  ],
+  "hardware_keepout_radius_mm": 3,
+  "thickness_mm": 1,
+  "target_copper_um": 70,
+  "placements": [
+    {
+      "reference": "H404",
+      "xy_mm": [
+        45.0,
+        132.0
+      ],
+      "side": "F",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "",
+          "xy_mm": [
+            45.0,
+            132.0
+          ],
+          "net": ""
+        }
+      ]
+    },
+    {
+      "reference": "H403",
+      "xy_mm": [
+        -45.0,
+        132.0
+      ],
+      "side": "F",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "",
+          "xy_mm": [
+            -45.0,
+            132.0
+          ],
+          "net": ""
+        }
+      ]
+    },
+    {
+      "reference": "H402",
+      "xy_mm": [
+        45.0,
+        89.0
+      ],
+      "side": "F",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "",
+          "xy_mm": [
+            45.0,
+            89.0
+          ],
+          "net": ""
+        }
+      ]
+    },
+    {
+      "reference": "H401",
+      "xy_mm": [
+        -45.0,
+        89.0
+      ],
+      "side": "F",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "",
+          "xy_mm": [
+            -45.0,
+            89.0
+          ],
+          "net": ""
+        }
+      ]
+    },
+    {
+      "reference": "TP404",
+      "xy_mm": [
+        44.0,
+        111.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            44.0,
+            111.0
+          ],
+          "net": "LOOP_A_RAW"
+        }
+      ]
+    },
+    {
+      "reference": "TP403",
+      "xy_mm": [
+        40.0,
+        111.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            40.0,
+            111.0
+          ],
+          "net": "BASE_THERM_SEND"
+        }
+      ]
+    },
+    {
+      "reference": "TP402",
+      "xy_mm": [
+        44.0,
+        104.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            44.0,
+            104.0
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "TP401",
+      "xy_mm": [
+        40.0,
+        104.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            40.0,
+            104.0
+          ],
+          "net": "NTC_BASE"
+        }
+      ]
+    },
+    {
+      "reference": "C405",
+      "xy_mm": [
+        -46.0,
+        125.5
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -46.775,
+            125.5
+          ],
+          "net": "BASE_VOUT_DIV"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -45.225,
+            125.5
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C404",
+      "xy_mm": [
+        -42.0,
+        125.5
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -42.775,
+            125.5
+          ],
+          "net": "BASE_FB"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -41.225,
+            125.5
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C403",
+      "xy_mm": [
+        -45.0,
+        112.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -45.775,
+            112.0
+          ],
+          "net": "BASE_COMP"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -44.225,
+            112.0
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C402",
+      "xy_mm": [
+        -46.5,
+        97.9
+      ],
+      "side": "B",
+      "angle_deg": -90.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -46.5,
+            99.375
+          ],
+          "net": "BASE_VOUT"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -46.5,
+            96.425
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "C401",
+      "xy_mm": [
+        -38.0,
+        106.0
+      ],
+      "side": "B",
+      "angle_deg": 90.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -38.0,
+            104.525
+          ],
+          "net": "UV_5V_SW"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -38.0,
+            107.475
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R408",
+      "xy_mm": [
+        -38.0,
+        125.5
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -38.825,
+            125.5
+          ],
+          "net": "BASE_FB_RAW"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -37.175,
+            125.5
+          ],
+          "net": "BASE_FB"
+        }
+      ]
+    },
+    {
+      "reference": "R407",
+      "xy_mm": [
+        -38.0,
+        122.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -38.825,
+            122.0
+          ],
+          "net": "BASE_VOUT_SENSE"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -37.175,
+            122.0
+          ],
+          "net": "BASE_VOUT_DIV"
+        }
+      ]
+    },
+    {
+      "reference": "R406",
+      "xy_mm": [
+        -42.0,
+        122.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -42.825,
+            122.0
+          ],
+          "net": "BASE_VOUT_SENSE"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -41.175,
+            122.0
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R405",
+      "xy_mm": [
+        -46.0,
+        122.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -46.9125,
+            122.0
+          ],
+          "net": "BASE_VOUT"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -45.0875,
+            122.0
+          ],
+          "net": "BASE_VOUT_SENSE"
+        }
+      ]
+    },
+    {
+      "reference": "R404",
+      "xy_mm": [
+        -46.0,
+        118.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -46.9125,
+            118.0
+          ],
+          "net": "BASE_VOUT"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -45.0875,
+            118.0
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R403",
+      "xy_mm": [
+        -38.0,
+        118.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -38.825,
+            118.0
+          ],
+          "net": "BASE_CATHODE_GATE"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -37.175,
+            118.0
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "R402",
+      "xy_mm": [
+        -42.0,
+        118.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -42.825,
+            118.0
+          ],
+          "net": "UV_CTRL"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -41.175,
+            118.0
+          ],
+          "net": "BASE_CATHODE_GATE"
+        }
+      ]
+    },
+    {
+      "reference": "R401",
+      "xy_mm": [
+        -41.5,
+        112.0
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -42.4125,
+            112.0
+          ],
+          "net": "BASE_FB_RAW"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -40.5875,
+            112.0
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J401",
+      "xy_mm": [
+        0.0,
+        131.5
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -4.375,
+            129.65
+          ],
+          "net": "UV_5V_SW"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -3.125,
+            129.65
+          ],
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "xy_mm": [
+            -1.875,
+            129.65
+          ],
+          "net": "UV_CTRL"
+        },
+        {
+          "number": "4",
+          "xy_mm": [
+            -0.625,
+            129.65
+          ],
+          "net": "BASE_FB"
+        },
+        {
+          "number": "5",
+          "xy_mm": [
+            0.625,
+            129.65
+          ],
+          "net": "BASE_VOUT_DIV"
+        },
+        {
+          "number": "6",
+          "xy_mm": [
+            1.875,
+            129.65
+          ],
+          "net": "NTC_BASE"
+        },
+        {
+          "number": "7",
+          "xy_mm": [
+            3.125,
+            129.65
+          ],
+          "net": "BASE_THERM_SEND"
+        },
+        {
+          "number": "8",
+          "xy_mm": [
+            4.375,
+            129.65
+          ],
+          "net": "LOOP_A_RAW"
+        },
+        {
+          "number": "MP",
+          "xy_mm": [
+            6.225,
+            132.85
+          ],
+          "net": "GND"
+        },
+        {
+          "number": "MP",
+          "xy_mm": [
+            -6.225,
+            132.85
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "Q401",
+      "xy_mm": [
+        -37.5,
+        111.5
+      ],
+      "side": "B",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -38.4375,
+            110.55
+          ],
+          "net": "BASE_CATHODE_GATE"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -38.4375,
+            112.45
+          ],
+          "net": "BASE_FB_RAW"
+        },
+        {
+          "number": "3",
+          "xy_mm": [
+            -36.5625,
+            111.5
+          ],
+          "net": "BASE_LED_K"
+        }
+      ]
+    },
+    {
+      "reference": "D403",
+      "xy_mm": [
+        42.0,
+        94.0
+      ],
+      "side": "F",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            42.9125,
+            94.0
+          ],
+          "net": "BASE_LED_K"
+        },
+        {
+          "number": "1",
+          "xy_mm": [
+            43.8,
+            94.0
+          ],
+          "net": "BASE_LED_K"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            41.0875,
+            94.0
+          ],
+          "net": "BASE_LED_MID"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            40.2,
+            94.0
+          ],
+          "net": "BASE_LED_MID"
+        }
+      ]
+    },
+    {
+      "reference": "D402",
+      "xy_mm": [
+        -42.0,
+        94.0
+      ],
+      "side": "F",
+      "angle_deg": 0.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -41.0875,
+            94.0
+          ],
+          "net": "BASE_LED_MID"
+        },
+        {
+          "number": "1",
+          "xy_mm": [
+            -40.2,
+            94.0
+          ],
+          "net": "BASE_LED_MID"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -42.9125,
+            94.0
+          ],
+          "net": "BASE_VOUT"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -43.8,
+            94.0
+          ],
+          "net": "BASE_VOUT"
+        }
+      ]
+    },
+    {
+      "reference": "D401",
+      "xy_mm": [
+        -46.5,
+        107.0
+      ],
+      "side": "B",
+      "angle_deg": 90.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -46.5,
+            105.6
+          ],
+          "net": "BASE_VOUT"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -46.5,
+            108.4
+          ],
+          "net": "BASE_SW"
+        }
+      ]
+    },
+    {
+      "reference": "L401",
+      "xy_mm": [
+        -42.5,
+        103.0
+      ],
+      "side": "B",
+      "angle_deg": 180.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -40.65,
+            103.0
+          ],
+          "net": "UV_5V_SW"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -44.35,
+            103.0
+          ],
+          "net": "BASE_SW"
+        }
+      ]
+    },
+    {
+      "reference": "U401",
+      "xy_mm": [
+        -42.5,
+        107.5
+      ],
+      "side": "B",
+      "angle_deg": 90.0,
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            -41.55,
+            106.3625
+          ],
+          "net": "UV_5V_SW"
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            -42.5,
+            106.3625
+          ],
+          "net": "UV_CTRL"
+        },
+        {
+          "number": "3",
+          "xy_mm": [
+            -43.45,
+            106.3625
+          ],
+          "net": "BASE_SW"
+        },
+        {
+          "number": "4",
+          "xy_mm": [
+            -43.45,
+            108.6375
+          ],
+          "net": "GND"
+        },
+        {
+          "number": "5",
+          "xy_mm": [
+            -42.5,
+            108.6375
+          ],
+          "net": "BASE_COMP"
+        },
+        {
+          "number": "6",
+          "xy_mm": [
+            -41.55,
+            108.6375
+          ],
+          "net": "BASE_FB_RAW"
+        }
+      ]
+    }
+  ],
+  "ECAD_to_planar": "x=nativeX-100,y=200-nativeY",
+  "StepUp_center_mm": [
+    0,
+    110.5
+  ],
+  "base_global_F_plane_Z_mm": 13.2,
+  "lid_global_F_plane_Z_mm": 55.3,
+  "base_rigid_4x4": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      110.5
+    ],
+    [
+      0,
+      0,
+      1,
+      13.2
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "lid_rigid_4x4": [
+    [
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      110.5
+    ],
+    [
+      0,
+      0,
+      -1,
+      55.3
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "note": "LidRy180 is a proper rotation; physicalleft/rightLEDreferences swap. Liner aperture/supports being revised separately.",
+  "physical_fit": false,
+  "thermal_validation": false
+}

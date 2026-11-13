@@ -1,0 +1,485 @@
+{
+  "status": "pass: local STEP solid validity/analytic extrema and selected native-body readback",
+  "FreeCAD": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "model_plan_sha256": "07318b7012e2fbd46faa40150d33615dab0733294292ab24d00c66dc47da653b",
+  "STEP_footprint_families": [
+    {
+      "footprint": "DockControl:C_0402_1005Metric",
+      "STEP": "C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "solid_count": 1,
+      "volume_mm3": 0.22661663706143587,
+      "bounds_mm": [
+        -0.5,
+        -0.25,
+        0.0,
+        0.5,
+        0.25,
+        0.5
+      ]
+    },
+    {
+      "footprint": "DockControl:C_0603_1608Metric",
+      "STEP": "C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "solid_count": 1,
+      "volume_mm3": 0.9303638934211691,
+      "bounds_mm": [
+        -0.8,
+        -0.4,
+        0.0,
+        0.8,
+        0.4,
+        0.8
+      ]
+    },
+    {
+      "footprint": "DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "STEP": "Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal.step",
+      "sha256": "b394b3277738e505a3b95dadb5f2b1a005a112860fc541f52d1ab5f42b472ae3",
+      "solid_count": 3,
+      "volume_mm3": 141.89496736454953,
+      "bounds_mm": [
+        -7.05,
+        -4.400000000000001,
+        0.0,
+        7.05,
+        2.0000000000000013,
+        2.00000000000033
+      ]
+    },
+    {
+      "footprint": "DockControl:LED_0603_1608Metric",
+      "STEP": "LED_0603_1608Metric.step",
+      "sha256": "98343205ec260ec165026ba2d44329a23096779ac36c553ea84aa7b370242e6d",
+      "solid_count": 1,
+      "volume_mm3": 1.0669788367839736,
+      "bounds_mm": [
+        -0.8,
+        -0.4,
+        -3.469446951954e-18,
+        0.8,
+        0.4,
+        1.1
+      ]
+    },
+    {
+      "footprint": "DockControl:LQFP-48_7x7mm_P0.5mm",
+      "STEP": "LQFP-48_7x7mm_P0.5mm.step",
+      "sha256": "4c2330b9a6a0a05852ac6c25463c2168f7fa24276b94f1d6acf2ceed19098622",
+      "solid_count": 1,
+      "volume_mm3": 66.42758420217163,
+      "bounds_mm": [
+        -4.5,
+        -4.5,
+        -8.326672684689e-17,
+        4.5,
+        4.5,
+        1.5000001000000003
+      ]
+    },
+    {
+      "footprint": "DockControl:R_0603_1608Metric",
+      "STEP": "R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "solid_count": 1,
+      "volume_mm3": 0.537218760197631,
+      "bounds_mm": [
+        -0.8,
+        -0.4,
+        -2.775557561563e-17,
+        0.8,
+        0.4,
+        0.45
+      ]
+    },
+    {
+      "footprint": "DockControl:VSSOP-10_3x3mm_P0.5mm",
+      "STEP": "VSSOP-10_3x3mm_P0.5mm.step",
+      "sha256": "24fb2bd055d0d988ec8582e8a5f473ecf890c4d247091414c8b38e75833411d0",
+      "solid_count": 1,
+      "volume_mm3": 9.469419711713579,
+      "bounds_mm": [
+        -2.45,
+        -1.5000001,
+        0.0,
+        2.45,
+        1.5000001,
+        1.2000001
+      ]
+    },
+    {
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "STEP": "C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "solid_count": 1,
+      "volume_mm3": 0.22661663706143587,
+      "bounds_mm": [
+        -0.5,
+        -0.25,
+        0.0,
+        0.5,
+        0.25,
+        0.5
+      ]
+    },
+    {
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "STEP": "C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "solid_count": 1,
+      "volume_mm3": 0.9303638934211691,
+      "bounds_mm": [
+        -0.8,
+        -0.4,
+        0.0,
+        0.8,
+        0.4,
+        0.8
+      ]
+    },
+    {
+      "footprint": "DockSafety:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal",
+      "STEP": "JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal.step",
+      "sha256": "5a6b7dc9f24b3e12dafe0a70189e9b9102689f2fb2b2866ad35fa8605756ca8a",
+      "solid_count": 1,
+      "volume_mm3": 64.52872854400725,
+      "bounds_mm": [
+        -2.875,
+        -2.475,
+        -0.0050000000000000044,
+        2.875,
+        2.4754,
+        4.245000000000001
+      ]
+    },
+    {
+      "footprint": "DockSafety:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",
+      "STEP": "JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.step",
+      "sha256": "38ec5ea738ca3ac47fea2b125a9725bf6c56b3e8ed942df666378dc55b43e322",
+      "solid_count": 1,
+      "volume_mm3": 137.723289176029,
+      "bounds_mm": [
+        -6.625,
+        -2.475,
+        -0.0050000000000000044,
+        6.625,
+        2.4754,
+        4.245000000000001
+      ]
+    },
+    {
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "STEP": "R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "solid_count": 1,
+      "volume_mm3": 0.537218760197631,
+      "bounds_mm": [
+        -0.8,
+        -0.4,
+        -2.775557561563e-17,
+        0.8,
+        0.4,
+        0.45
+      ]
+    },
+    {
+      "footprint": "DockSafety:R_0805_2012Metric",
+      "STEP": "R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "solid_count": 1,
+      "volume_mm3": 1.0002281402964461,
+      "bounds_mm": [
+        -1.0,
+        -0.6,
+        -2.775557561563e-17,
+        1.0,
+        0.6,
+        0.45
+      ]
+    },
+    {
+      "footprint": "DockSafety:SOT-143",
+      "STEP": "SOT-143.step",
+      "sha256": "b35b433c0dc71ac416a9c731e744d2e0610f82ebe97275830f0e17cdcbe44512",
+      "solid_count": 1,
+      "volume_mm3": 3.7295832896584304,
+      "bounds_mm": [
+        -1.15,
+        -1.4500001000000002,
+        0.0,
+        1.15,
+        1.4500001000000002,
+        1.1000001000000001
+      ]
+    },
+    {
+      "footprint": "DockSafety:SOT-23-6",
+      "STEP": "SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+      "solid_count": 1,
+      "volume_mm3": 6.565613634439697,
+      "bounds_mm": [
+        -1.4,
+        -1.4500001000000002,
+        0.0,
+        1.4,
+        1.4500001000000002,
+        1.5500001
+      ]
+    },
+    {
+      "footprint": "DockSafety:SOT-363_SC-70-6",
+      "STEP": "SOT-363_SC-70-6.step",
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4",
+      "solid_count": 1,
+      "volume_mm3": 2.3414748095661375,
+      "bounds_mm": [
+        -1.05,
+        -1.0000001,
+        0.0,
+        1.05,
+        1.0000001,
+        1.1000001000000001
+      ]
+    },
+    {
+      "footprint": "DockSafety:TSSOP-14_4.4x5mm_P0.65mm",
+      "STEP": "TSSOP-14_4.4x5mm_P0.65mm.step",
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+      "solid_count": 1,
+      "volume_mm3": 19.55925997717116,
+      "bounds_mm": [
+        -3.2,
+        -2.5000001000000003,
+        -5.551115123126e-17,
+        3.2,
+        2.5000001000000003,
+        1.0000001
+      ]
+    },
+    {
+      "footprint": "DockSafety:Texas_DRB0008A_3x3mm_P0.65_EP_Fingers",
+      "STEP": "TPS3431_DRB8.step",
+      "sha256": "2db2ec8dd946a9b69415853b52f71d2e1cc5180f99936e099a2eb59c534364e0",
+      "solid_count": 10,
+      "volume_mm3": 8.759599999999988,
+      "bounds_mm": [
+        -1.5,
+        -1.5,
+        0.0,
+        1.5,
+        1.5,
+        1.0
+      ]
+    },
+    {
+      "footprint": "DockSafety:Texas_RXP0008A_1.25x1.5mm_Asymmetric",
+      "STEP": "TPS22992_RXP8.step",
+      "sha256": "3245eca30677e513bbf8eafb0ebc470cef67336d98d34022dcd5a9027190359b",
+      "solid_count": 9,
+      "volume_mm3": 1.4406250000000012,
+      "bounds_mm": [
+        -0.625,
+        -0.75,
+        0.0,
+        0.625,
+        0.75,
+        0.8
+      ]
+    },
+    {
+      "footprint": "DockUI:C_0402_1005Metric",
+      "STEP": "C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "solid_count": 1,
+      "volume_mm3": 0.22661663706143587,
+      "bounds_mm": [
+        -0.5,
+        -0.25,
+        0.0,
+        0.5,
+        0.25,
+        0.5
+      ]
+    },
+    {
+      "footprint": "DockUI:C_0603_1608Metric",
+      "STEP": "C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "solid_count": 1,
+      "volume_mm3": 0.9303638934211691,
+      "bounds_mm": [
+        -0.8,
+        -0.4,
+        0.0,
+        0.8,
+        0.4,
+        0.8
+      ]
+    },
+    {
+      "footprint": "DockUI:R_0603_1608Metric",
+      "STEP": "R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "solid_count": 1,
+      "volume_mm3": 0.537218760197631,
+      "bounds_mm": [
+        -0.8,
+        -0.4,
+        -2.775557561563e-17,
+        0.8,
+        0.4,
+        0.45
+      ]
+    },
+    {
+      "footprint": "DockUI:SOT-23",
+      "STEP": "SOT-23.step",
+      "sha256": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0",
+      "solid_count": 1,
+      "volume_mm3": 4.40252311208218,
+      "bounds_mm": [
+        -1.25,
+        -1.5000001000000003,
+        0.0,
+        1.25,
+        1.5000001000000003,
+        1.2000001
+      ]
+    },
+    {
+      "footprint": "DockUI:SOT-23-6",
+      "STEP": "SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+      "solid_count": 1,
+      "volume_mm3": 6.565613634439697,
+      "bounds_mm": [
+        -1.4,
+        -1.4500001000000002,
+        0.0,
+        1.4,
+        1.4500001000000002,
+        1.5500001
+      ]
+    },
+    {
+      "footprint": "DockUI:SOT-363_SC-70-6",
+      "STEP": "SOT-363_SC-70-6.step",
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4",
+      "solid_count": 1,
+      "volume_mm3": 2.3414748095661375,
+      "bounds_mm": [
+        -1.05,
+        -1.0000001,
+        0.0,
+        1.05,
+        1.0000001,
+        1.1000001000000001
+      ]
+    },
+    {
+      "footprint": "DockUI:TSOT-23-5",
+      "STEP": "TSOT-23-5.step",
+      "sha256": "5120f0cee43ef7743cc08408d2c12f234fcac7355386e330a3a16f336e23da8d",
+      "solid_count": 1,
+      "volume_mm3": 3.936029852013449,
+      "bounds_mm": [
+        -1.4,
+        -1.4500001000000002,
+        0.0,
+        1.4,
+        1.4500001000000002,
+        0.9500000999999999
+      ]
+    },
+    {
+      "footprint": "DockUI:Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+      "STEP": "TUSB320_RWB12.step",
+      "sha256": "38b1e1657b71a90e605d48f10542c92b39fbfd63d4c1754e7ab89a7cde8d8f8c",
+      "solid_count": 13,
+      "volume_mm3": 1.0743999999999991,
+      "bounds_mm": [
+        -0.8,
+        -0.8,
+        0.0,
+        0.8,
+        0.8,
+        0.4
+      ]
+    },
+    {
+      "footprint": "DockUI:Texas_YBH0006-C02_DSBGA-6_1.106x0.706mm_P0.4mm",
+      "STEP": "TPS22950_YBH6.step",
+      "sha256": "4fe037b9485edd4464a884feb4ec3228b2fbb0ecb2a78a6c21893484765343d8",
+      "solid_count": 7,
+      "volume_mm3": 0.21112594771992393,
+      "bounds_mm": [
+        -0.353,
+        -0.553,
+        -2.0904327754243e-33,
+        0.353,
+        0.553,
+        0.4
+      ]
+    },
+    {
+      "footprint": "DockUI:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "STEP": "USB4105-GF-A-120.step",
+      "sha256": "a106e6a6174145e6294191979648fe78dc39bfb451c034132f26a47c9bfabb98",
+      "solid_count": 36,
+      "volume_mm3": 120.02345057025074,
+      "bounds_mm": [
+        -4.470000100485504,
+        -3.6750000999999997,
+        -1.2,
+        4.470000100485504,
+        4.105,
+        3.3100001
+      ]
+    }
+  ],
+  "editable_native_readback": [
+    {
+      "native": "TPS22950_YBH6.FCStd",
+      "sha256": "ad675e9796ce8c7bbf26b4fd2b3380718d778f1eb63b3d670a202f532b112e22",
+      "editable_bodies": 7,
+      "STEP_volume_matches_mm3_tolerance": 1e-06
+    },
+    {
+      "native": "TPS3431_DRB8.FCStd",
+      "sha256": "eb616d604b071a8b5b6d28d0ddd5595f58824d9fe975db24981b879ccba031b2",
+      "editable_bodies": 10,
+      "STEP_volume_matches_mm3_tolerance": 1e-06
+    },
+    {
+      "native": "TPS22992_RXP8.FCStd",
+      "sha256": "d1165e7f7d928057029a45bf2eac12c1720e823a132341c9c061fd77e511b704",
+      "editable_bodies": 9,
+      "STEP_volume_matches_mm3_tolerance": 1e-06
+    },
+    {
+      "native": "TUSB320_RWB12.FCStd",
+      "sha256": "664166bc54880292d92fbdbce86e39131aa6166278f7819fa40c3323cfa8c4fe",
+      "editable_bodies": 13,
+      "STEP_volume_matches_mm3_tolerance": 1e-06
+    },
+    {
+      "native": "USB4105-GF-A-120.FCStd",
+      "sha256": "9c7493c0697067eb0d15fb694d2487080e556f6f493d8e4df424f3a014d886d2",
+      "editable_bodies": 36,
+      "four_native_stake_extrusions_in_two_shell_bodies": true
+    }
+  ],
+  "physical_received_part_or_fit_validation": false,
+  "note": "Standard KiCad families are attributed nominal package models; custom TI packages/USB stake derivative are dimensional reconstructions, not OEM exact CAD."
+}

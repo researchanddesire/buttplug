@@ -1,0 +1,74 @@
+{
+  "status": "Selected parts and reconstructed editable geometry for an unpowered coupon; not a mechanical release",
+  "switch": {
+    "manufacturer": "Omron",
+    "mpn": "B3FS-1002P",
+    "primary_datasheet": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf",
+    "model": "../vendor/buttons/SW_SPST_Omron_B3FS-100xP.step",
+    "model_sha256": "b329c059bd0fc4def23f1dbf3a8ab42d79451e42368166bfa454033e4741fdc1",
+    "model_basis": "Detailed KiCad community family STEP, not manufacturer CAD; released external geometry only",
+    "free_actuator_height_nominal_mm": 3.1,
+    "legacy_height_tolerance_mm": 0.2,
+    "height_revision_and_received_stack_qualification_required": true,
+    "operating_force_N": [0.98, 1.96],
+    "release_force_min_N": 0.49,
+    "pretravel_mm": [0.15, 0.45],
+    "allowable_total_travel_mm": null,
+    "allowable_postclick_load_N": null,
+    "pretravel_is_not_an_overtravel_rating": true
+  },
+  "spring": {
+    "manufacturer": "Lee Spring",
+    "mpn": "LC014B02S",
+    "selection": "spring-selection.json",
+    "primary_catalog": "https://www.leespring.com/sites/default/files/2023-03/lee-spring-catalog-us.pdf",
+    "download_sha256": "b0f9e7f0ea1e2d3a7316cd69dd2b42b3d3fd8652bbdf59bc98f6b640280294b1",
+    "PDF_page_1based": 70,
+    "printed_page": 68,
+    "exact_order_code_basis": "LC014B02 table row plus S stainless suffix as instructed in manufacturer footer",
+    "model_basis": "Manufacturer OD/wire/length; turn distribution reconstructed and closed-ground end microgeometry omitted",
+    "order_placed_or_current_stock_confirmed": false,
+    "assembly_insertion_min_length_candidate_mm": 2.6,
+    "assembly_compression_above_80percent_nominal_capacity": true,
+    "assembly_set_and_force_retest_required": true
+  },
+  "coupon_fasteners": [
+    {
+      "manufacturer": "Accu",
+      "mpn": "SIK-M2-6-A2",
+      "quantity": 4,
+      "primary_page": "https://www.accu.co.uk/phillips-countersunk-screws/65898-SIK-M2-6-A2",
+      "diameter_length_head_diameter_head_height_mm": [2, 6, 3.8, 1.2],
+      "pitch_mm": 0.4,
+      "head_angle_degrees": 90,
+      "drive": "PH0",
+      "model_basis": "Editable revolved manufacturer external profile; threads, drive recess and edge breaks omitted"
+    },
+    {
+      "manufacturer": "Accu",
+      "mpn": "SIK-M3-12-A2",
+      "quantity": 4,
+      "primary_page": "https://www.accu.co.uk/phillips-countersunk-screws/65913-SIK-M3-12-A2",
+      "diameter_length_head_diameter_head_height_mm": [3, 12, 5.5, 1.65],
+      "pitch_mm": 0.5,
+      "head_angle_degrees": 90,
+      "drive": "PH1",
+      "model_basis": "Editable revolved manufacturer external profile; threads, drive recess and edge breaks omitted"
+    }
+  ],
+  "printed_parts": {
+    "first_trial_process": "MJF PA12",
+    "alternative_process": "Tough SLA, with a separate print/postcure/force/fatigue coupon",
+    "minimum_feature_guidance": "https://www.hp.com/us-en/printers/3d-printers/learning-center/how-to-design-3d-print-model.html",
+    "material_strength_creep_and_fatigue_validated": false,
+    "one_printed_cap_contains": ["visible crown", "guide posts", "retention ring", "internal preload seats", "compliant shoe and tip", "serpentine shoe tethers", "return fingers and rounded toes", "spring pilots"],
+    "loose_separate_plunger": false
+  },
+  "master_API": {
+    "source": "../../../../tools/build_evt1_dock_button_mechanics.py",
+    "components": "build_components(doc, board_z=60.5, gap=.2, solder=.05, switch_height=3.1, prefix='DockButton')",
+    "counterparts": "fixed_features()",
+    "coordinate_system": "Global dock frame; no mirrors or reflected transforms",
+    "master_modified_by_this_trial": false
+  }
+}

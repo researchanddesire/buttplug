@@ -1,0 +1,58 @@
+{
+  "device": {
+    "native": "hardware/cad/evt1-assembly/sources/ReadableEVT1Product.FCStd",
+    "sha256": "63da08fb57ef4bd5c0af9bbb872e5ec13d2163aa234433ed3da78c525ebb3833",
+    "host_native": "hardware/cad/evt1-assembly/DockAssembly.FCStd",
+    "host_sha256": "688c072ac989355187df894464c211c0e026bd0f2808f03d6ede89bcbbc055cd",
+    "placement_mm": [
+      0,
+      50,
+      32
+    ],
+    "contacts_Y_mm": 23.2,
+    "contact_center_Z_mm": 43.5,
+    "actual_outer_skin_bottom_Z_mm": 13.0,
+    "actual_body_max_outer_radius_mm": 18.669085398110735,
+    "inner_skin_surface_is_not_the_outer_support_surface": true
+  },
+  "soft_sheet": {
+    "manufacturer": "Rogers",
+    "grade": "BISCO HT-6240",
+    "ordering_definition": "HT-6240 transparent solid silicone, plain/nonadhesive,0.010in; converter cut per supplied profiles; no invented stock SKU",
+    "primary": "https://rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/bisco/english/data-sheets/180-093-bisco-ht-6240-transparent-solid-silicone-data-sheet.pdf",
+    "availability_primary": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/bisco/english/product-availability/180-464-bisco-silicones-general-industrial-product-availability.pdf",
+    "nominal_thickness_mm": 0.254,
+    "published_thickness_tolerance_mm": [
+      -0.051,
+      0.051
+    ],
+    "durometer_Shore_A": [
+      35,
+      45
+    ],
+    "published_UV_resistance_is_not_a_275nm_aging_or_transmission_guarantee": true,
+    "loaded_thickness_is_measured_not_predicted": true,
+    "adhesive_credited": false,
+    "quote_stock_and_received_identity_verified": false
+  },
+  "shim": {
+    "manufacturer": "CS Hyde",
+    "mpn": "48-2F-1-100",
+    "material": "Plain Mylar TypeA PET",
+    "primary": "https://cshyde.com/viewitems/films/mylar-polyester-pet-film",
+    "nominal_thickness_mm": 0.0508,
+    "stock": "0.002in,1in x100ft",
+    "thickness_tolerance_not_assumed": true,
+    "each_layer_has_integral_tail_and_slit_registration_hole": true,
+    "film_retention_requires_closed_hole_silicone_cover": true
+  },
+  "print": {
+    "material": "MJF PA12 or tough SLA",
+    "liner_min_nominal_floor_mm": 1.5,
+    "snap_catch_material_strength_and_soft_tail_tear_qualification": false
+  },
+  "fasteners": {
+    "new_purchased_fasteners": 0,
+    "retention": "Integral liner mushroom catches; stretch sheet/film holes over received heads during inert trial. No adhesive."
+  }
+}

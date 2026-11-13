@@ -1,0 +1,127 @@
+{
+  "status": "source-bound electrical proposal; no original circuit or artwork mutation",
+  "source_inputs_sha256": {
+    "COLLABORATION.md": "ab8cf33e7546ec7664659eeddaa4ddfaed74cce6a10a7a92e120d3e7f1a7be86",
+    "developer-docs/docs/thermal-presence-study.md": "1054dd7a2d8b76d5034bf5e61b4a6e80657e03854b74ae8b06286cfd862f798e",
+    "developer-docs/docs/prd.md": "265efeeb2809a4b74415095349091610dda1bedd45091b243cb1582040a7d56a",
+    "hardware/pcb/evt1/body/body-evt1.kicad_pcb": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367",
+    "hardware/pcb/evt1/body/body-native.xml": "c3d8482b08b67be70ab82b612c3b99c2ac6012e765f1fe9419d0106f707c945a",
+    "hardware/pcb/evt1/body/01-power.kicad_sch": "7df99f13e91ef7bb0ddcdf6dab2a70ef7afc8f72afce0907b9f634e50ca2be08",
+    "hardware/pcb/evt1/body/04-sensors.kicad_sch": "562626eb8ea093d1e375a8288ca83005ccb2f4aeb7e0511c1ab5c421d5e9ab48",
+    "hardware/pcb/evt1/body/mcad.json": "52830d9f24a8a5a5a7f12e78980a3e8ed60ac03704f2e190ad55fd8c926f40ef",
+    "hardware/pcb/evt1/parts-selection.json": "41047c4a6a6c5f2a1de48918d1fa903048433dcbaa6c83ddff48a617731d1da2",
+    "hardware/pcb/evt1/system-native.xml": "3c0e8899ac864f9a6f12f18e9f3bce4b03cc2555a41cee5c8c98f17b78b22db5",
+    "hardware/pcb/evt1/single-flange-routing/single-flange.kicad_pcb": "b03c5ad9541e2e10d8a9097ae05d14ded36d2ebb1534d0a0c33b38f99a64f2b1",
+    "hardware/pcb/evt1/single-flange-routing/native-checks.json": "768b40e4a6144081421d85ed8a420f2110bc9c20f86b4833bd83edeb000de55b",
+    "hardware/pcb/evt1/dock-main/dock-main.kicad_pcb": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+    "hardware/pcb/evt1/dock-main/native-checks.json": "a6c61eeca985f728762a7194ff157d6c56519dd6e0add4b9f2cc5315307cfb4e",
+    "hardware/pcb/evt1/dock-control/pin-contract.json": "24756e7929caacedfe2c1b8e80992c07cbb3577d21c29b79f44c08f15ed0614a",
+    "hardware/pcb/evt1/dock-safety/power-budget.json": "aa6b03156f494c8640d7c4f1f622bfdb080d30c9a9c07262faff435cdc9c3d04",
+    "hardware/pcb/evt1/dock-safety/build_power_budget.py": "64ef4613832311ba0a80003773111ead8cf7f620b3f27e25fcad8324f0be5ccc",
+    "hardware/pcb/evt1/dock-ui/power-budget.json": "8b01070698cdf513900b2fcc2ce8afb39eeaa33762fcb6f58bd56a297a3b87fa",
+    "hardware/bom.csv": "d5424d0536840bd3b555c439a129c0271b19b1cfbb3b94f1e1709e57cd63f05c"
+  },
+  "primary_PDF_references": {
+    "bq24074": {
+      "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "path": "/private/tmp/compass-case-telemetry/bq24074.pdf",
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1",
+      "bytes": 3739103
+    },
+    "ads1115": {
+      "url": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+      "path": "/private/tmp/compass-case-telemetry/ads1115.pdf",
+      "sha256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834",
+      "bytes": 2654255
+    },
+    "opa391": {
+      "url": "https://www.ti.com/lit/ds/symlink/opa391.pdf",
+      "path": "/private/tmp/compass-case-telemetry/opa391.pdf",
+      "sha256": "47047209423c48c4d01b35e8d62b6bcd4e1e0094a84f1eeb654eeff3492c4c91",
+      "bytes": 2525654
+    },
+    "tca9536": {
+      "url": "https://www.ti.com/lit/ds/symlink/tca9536.pdf",
+      "path": "/private/tmp/compass-case-telemetry/tca9536.pdf",
+      "sha256": "96e8633ff5d8b9a43dcbf5062e0f9db3058027a4ce8bf8aa8442e304792afe87",
+      "bytes": 1702383
+    },
+    "nina-b1": {
+      "url": "https://content.u-blox.com/sites/default/files/NINA-B1_DataSheet_UBX-15019243.pdf",
+      "path": "/private/tmp/compass-case-telemetry/nina-b1.pdf",
+      "sha256": "18429c9558418e29515c906be0f33b46b758bd7536fa0aa3ca573d8096733dfd",
+      "bytes": 1840678
+    },
+    "nina-b1-sim": {
+      "url": "https://content.u-blox.com/sites/default/files/NINA-B1_SIM_UBX-15026175.pdf",
+      "path": "/private/tmp/compass-case-telemetry/nina-b1-sim.pdf",
+      "sha256": "a3de0cbd1bb1fd3d16d832e38f33290dfecbbd72fb09addc41ae97d1efa65481",
+      "bytes": 2506307
+    },
+    "sc16is750": {
+      "url": "https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf",
+      "path": "/private/tmp/compass-case-telemetry/sc16is750.pdf",
+      "sha256": "805796f4b2fd33e64c2fac8bf6e71319f03a6e2246981089c00c7e1c8bd7de06",
+      "bytes": 758123
+    },
+    "u-connect-at": {
+      "url": "https://content.u-blox.com/sites/default/files/documents/u-connectXpress-ATCommands-Manual_UBX-14044127.pdf",
+      "path": "/private/tmp/compass-case-telemetry/u-connect-at.pdf",
+      "sha256": "087cbfc584882570afec74050072426aac9c3c84c6fa38357bfa9a439aee393d",
+      "bytes": 1743902
+    },
+    "tmux1511": {
+      "url": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf",
+      "path": "/private/tmp/compass-case-telemetry/tmux1511.pdf",
+      "sha256": "04291b41a68347fedbbb0776aa44f500eaca65f2ca3af0e022ee60d41c7b1e9f",
+      "bytes": 2548204
+    },
+    "tps22950": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps22950.pdf",
+      "path": "/private/tmp/compass-case-telemetry/tps22950.pdf",
+      "sha256": "e0f4f5766ba30309af96287e20345b34b38986da59bb0e644bf5401e009c0c66",
+      "bytes": 1649886
+    },
+    "tps2553": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+      "path": "/private/tmp/compass-case-telemetry/tps2553.pdf",
+      "sha256": "edd76d150b073ae8d4addbf85f6845b8c722fbd0b35ef025ac3c9e704a6a3385",
+      "bytes": 2472498
+    },
+    "tlv70033": {
+      "url": "https://www.ti.com/lit/ds/symlink/tlv700.pdf",
+      "path": "/private/tmp/compass-case-telemetry/tlv70033.pdf",
+      "sha256": "fdb008365c01d2be8c61a79a9087b133cbcb93b5e86a40764981d574e3a882aa",
+      "bytes": 1123994
+    },
+    "tps3808": {
+      "url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "path": "/private/tmp/compass-case-telemetry/tps3808.pdf",
+      "sha256": "74d889c0f68af88032f1633c26381817cc03e10d9fd3b4c177a044ad3ed86eed",
+      "bytes": 2046179
+    },
+    "sn74lvc1g04": {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf",
+      "path": "/private/tmp/compass-case-telemetry/sn74lvc1g04.pdf",
+      "sha256": "5322c1ab3cd3bd3f7af9c9bfa1c6139dad799d0968d9eea3ee2d84648ffc2e9e",
+      "bytes": 2748842
+    },
+    "sn74lvc1g14": {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf",
+      "path": "/private/tmp/compass-case-telemetry/sn74lvc1g14.pdf",
+      "sha256": "3d59568b16a2b7abb63d33ebe6f8ddd37e12dd3ca2616dd803872c509a583283",
+      "bytes": 3094384
+    },
+    "sn74lvc1g97": {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf",
+      "path": "/private/tmp/compass-case-telemetry/sn74lvc1g97.pdf",
+      "sha256": "6b017caf4db9a41ba0c24cb17c82765a9f78094c29ff333f935cdf395dd74c3f",
+      "bytes": 2101671
+    }
+  },
+  "frozen_flange_preserved": true,
+  "original_body69_preserved": true,
+  "source_main150_preserved": true,
+  "human_BOM_edited": false,
+  "order_or_release": false
+}

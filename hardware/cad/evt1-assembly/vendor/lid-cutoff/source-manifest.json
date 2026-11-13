@@ -1,0 +1,132 @@
+{
+  "selected_part": "D2F-01L",
+  "manufacturer_at_datasheet": "Omron Corporation, Electronic and Mechanical Components Company",
+  "current_product_page": "https://www.aratas.com/us-en/products/switches/D2F",
+  "current_brand_note": "The Omron component URL currently redirects to Aratas, formerly Omron Components; frozen selected MPN is preserved.",
+  "source": {
+    "manufacturer_PDF": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf",
+    "document": "B036-E1-12",
+    "print_code": "0318(0207)(O)",
+    "local_reference_outside_repository": "/private/tmp/compass-lid-cutoff/D2F.pdf",
+    "PDF_SHA256": "d3f2ed08101cf7ec6f57577643225f73faa5475026dda0072bcddf2d99fb04db",
+    "retrieved_date": "2026-11-12",
+    "PDF_publication": "Reference PDF and rendered pages are kept outside repository.",
+    "CAD_availability": "Current manufacturer product page explicitly requires login/member registration for CAD. No account created. Distributor CAD retrieval did not yield an anonymous model.",
+    "geometry_kind": "Editable native dimensional reconstruction of selected straight-PCB-terminal hinge-lever model; NOT manufacturer STEP."
+  },
+  "local_frame": {
+    "origin": "Case centre at mounting-hole centreline",
+    "length_axis": "+X from hinge/COM toward NC",
+    "width_axis": "Y",
+    "actuator_height_axis": "+Z",
+    "face_convention": "Viewed from -Y toward the front marked COM/NO/NC",
+    "holes_XZ_mm": [
+      [
+        -3.25,
+        0
+      ],
+      [
+        3.25,
+        0
+      ]
+    ]
+  },
+  "page_2_electrical": {
+    "terminal_functions_in_marked_front_view": [
+      "COM",
+      "NO",
+      "NC"
+    ],
+    "manufacturer_pin_numbers": "Not assigned by this source. Use function labels; project numbering is separate.",
+    "contacts": "Gold-alloy crossbar, D2F-01 models",
+    "rated_load": "0.1A at 30VDC resistive under stated test conditions",
+    "minimum_applicable_load_reference": "1mA at 5VDC; see page5 micro-load graph and reliability qualifications",
+    "contact_resistance_initial_max_ohm": 0.1,
+    "safety_approval": "The listed standard model is not automatically a safety-approved variant."
+  },
+  "page_3_mechanical": {
+    "lower_case_overall_length_mm": 12.8,
+    "lower_case_length_tolerance_mm": 0.15,
+    "lower_case_width_mm": 5.8,
+    "lower_case_width_tolerance_mm": 0.15,
+    "mounting_hole_pitch_mm": 6.5,
+    "mounting_hole_pitch_tolerance_mm": 0.1,
+    "mounting_hole_offset_from_case_end_mm": 3.15,
+    "case_bottom_below_mounting_line_mm": 1.5,
+    "straight_pin_length_below_case_bottom_mm": 3.5,
+    "pin_tip_local_Z_mm": -5,
+    "pin_pitch_mm": 5.08,
+    "pin_width_mm": 0.9,
+    "pin_thickness_mm": 0.4,
+    "pin_function_centres_X_mm": {
+      "COM": -5.08,
+      "NO": 0,
+      "NC": 5.08
+    },
+    "undimensioned_pin_retention_scallops": "Omitted; nominal straight section is modeled. No insertion/retention-force claim."
+  },
+  "page_4_mechanical": {
+    "body_top_above_mounting_line_mm": 5,
+    "main_upper_case_length_mm": 12.7,
+    "upper_case_width_mm": 5.7,
+    "left_hole": "Circle diameter2.2(+0.12/0), clipped at Z\u00b11 by published2.0(+0.12/0) flat spacing",
+    "right_hole": "Diameter2.0(+0.12/0)",
+    "lever_width_mm": 3,
+    "lever_thickness_mm": 0.3,
+    "lever_length_mm": 12.8,
+    "A_forcepoint_reference_from_first_mount_X_mm": 10.8,
+    "A_forcepoint_reference_local_X_mm": 7.55,
+    "general_dimension_tolerance_note": "Unless otherwise specified, \u00b10.4mm. Reference/illustration geometry is not an OEM hinge model.",
+    "not_independently_dimensioned": [
+      "Upper/lower case split elevation1.4mm is illustration-derived",
+      "Mold-edge, bottom reliefs and small case detail",
+      "Hinge pivot, bent lever root, internal plunger and exact free angle"
+    ],
+    "reconstruction_caveat": "Two case steps and real through-hole profiles are native features. Small undimensioned external reliefs are omitted; no relief-based clearance is credited."
+  },
+  "page_4_operating_characteristics": {
+    "OP_nominal_mm": 6.8,
+    "OP_tolerance_mm": 1.5,
+    "OP_interval_mm": [
+      5.3,
+      8.3
+    ],
+    "FP_max_mm": 10,
+    "OT_min_mm": 0.55,
+    "MD_max_mm": 0.5,
+    "OF_max_N": 0.78,
+    "RF_min_N": 0.05,
+    "PT": "Not published for hinge-lever model. The adjacent pin-plunger PT0.5mm does not apply.",
+    "RP": "No separate absolute RP published. From direction of operation, conservative RP<=OP+MD<=8.8mm; measure actual RP.",
+    "OT_meaning": "Minimum guaranteed available post-OP travel; not maximum total travel.",
+    "fixed_stop_coverage": "A fixed stop cannot cover the full3mm OP tolerance while staying within0.55mm guaranteed overtravel; received-switch adjustment/compliance required."
+  },
+  "derived_reference_blade": {
+    "solid": "Published12.8x3x0.3mm straight blade; actual bent-root/hinge detail omitted",
+    "root_Z_reference_mm": 4.7,
+    "root_X_reference": "Solved from nominal A(X7.55,Z6.8) and published blade size; not a manufacturer pivot datum",
+    "operating_reference_height_mm": 6.8,
+    "free_limit_reference_height_mm": 10,
+    "is_actual_free_position": false,
+    "is_mechanical_travel_limit": false,
+    "clearance_from_omitted_hinge_detail_credited": false
+  },
+  "page_5_mounting": {
+    "screws": "M2 with plain or spring washers",
+    "published_tightening_torque_Nm": [
+      0.08,
+      0.1
+    ],
+    "mounting_and_loom_qualification": "Parent owns real mounts, washers, wire terminations, strain relief and actuator adjustment."
+  },
+  "qualification": {
+    "selected_MPN_and_function": true,
+    "native_dimensional_models": true,
+    "OEM_CAD": false,
+    "received_dimensions_checked": false,
+    "received_OP_RP_measured": false,
+    "actuator_overtravel_qualified": false,
+    "lid_cutoff_performance_tested": false,
+    "physical_build_release": false
+  }
+}

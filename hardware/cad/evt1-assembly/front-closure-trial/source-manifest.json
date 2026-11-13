@@ -1,0 +1,256 @@
+{
+  "selection": "Two axial K&J D31 magnet pairs across the clamshell seam, captured by side-loading cups and screwed rear plugs",
+  "status": "Inert closure trial; holding, printing, strength, magnetic interference and UV containment unqualified",
+  "selected_hardware": [
+    {
+      "manufacturer": "K&J Magnetics",
+      "MPN": "D31",
+      "quantity": 4,
+      "primary_URL": "https://www.kjmagnetics.com/d31-neodymium-disc-magnet",
+      "nominal_inch": {
+        "diameter": 0.1875,
+        "thickness": 0.0625
+      },
+      "nominal_exact_mm": {
+        "diameter": 4.7625,
+        "thickness": 1.5875
+      },
+      "published_metric_rounded_mm": {
+        "diameter": 4.76,
+        "thickness": 1.59
+      },
+      "published_tolerance": "\u00b10.004in (.1mm)",
+      "CAD_tolerance_used_mm": 0.1016,
+      "material": "N42 NdFeB",
+      "coating": "Ni-Cu-Ni",
+      "magnetization": "Axial",
+      "polarity_instruction": "North along dock+Z on both lower and upper discs gives attracting facing poles when closed; verify received poles before capture.",
+      "CAD_basis": "Native circle/Pad from actual manufacturer dimensions. Unpublished edge breaks omitted; not a bounding-box proxy.",
+      "OEM_STEP_download": "https://www.kjmagnetics.com/resources/3dmodels/D31.step.zip",
+      "OEM_STEP_download_result": "Public manufacturer link returned403; no bypass attempted.",
+      "pull_force_limit": "Catalog0.75lb value is to a thick steel plate. It is not used as installed holding force across this plastic gap."
+    },
+    {
+      "manufacturer": "NBK",
+      "MPN": "SNSS-M2-6 lower / SNSS-M2-8 upper",
+      "quantity": 2,
+      "primary_URL": "https://www.nbk1560.com/en/products/specialscrew/nedzicom/miniaturescrew/SNSS/SNSS-M2/SNSS-M2-8/",
+      "lower_primary_URL": "https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/miniaturescrew/SNSS/",
+      "thread_major_mm": 2,
+      "pitch_mm": 0.4,
+      "head_D_mm": 3.8,
+      "head_H_mm": 2,
+      "hex_socket_AF_mm": 1.5,
+      "material": "SUSXM7 equivalent to SUS304",
+      "underhead_L_mm": {
+        "lower": 6,
+        "upper": 8
+      },
+      "CAD_basis": "Native revolved selected nominal head/major profile. Drive recess, thread helix and undisclosed edge breaks omitted. Manufacturer torque is not accepted torque in printed plastic."
+    }
+  ],
+  "visible_grip": {
+    "width_X_mm": 17,
+    "height_Z_mm": 9,
+    "corner_radius_mm": 3,
+    "front_Y_mm": -7.8,
+    "Z_range_mm": [
+      35.5,
+      44.5
+    ],
+    "upper_back_Y_mm": -5.2,
+    "lower_relief_back_Y_mm": -6.6,
+    "lower_visible_wall_mm": 1.2,
+    "nominal_gap_to_lower_cup_front_mm": 0.2,
+    "nominal_vertical_overlap_below_base_seam_mm": "Central4.5mm; extreme rounded sides1.5mm. Separate rear baffle lip provides3mm nominal overlap.",
+    "finish": "Cream face/visible grip; orange upper shell and dark lower shell. Use a cream finish zone if the upper cup is integrated into a single printed lid."
+  },
+  "catch_bodies": {
+    "X_bounds_mm": [
+      -8.5,
+      8.5
+    ],
+    "Y_bounds_mm": [
+      -6.4,
+      0.4
+    ],
+    "lower_Z_bounds_mm": [
+      35.5,
+      40
+    ],
+    "upper_Z_bounds_mm": [
+      40.3,
+      44.5
+    ],
+    "magnets_X_mm": [
+      -4.8,
+      4.8
+    ],
+    "magnets_Y_mm": -3,
+    "pocket_D_mm": 5.05,
+    "lower_channel_Z_mm": [
+      37.4,
+      39.2
+    ],
+    "upper_channel_Z_mm": [
+      41.1,
+      42.9
+    ],
+    "nominal_channel_height_mm": 1.8,
+    "face_wall_mm": 0.8,
+    "floor_seated_magnet_face_gap_mm": 1.9,
+    "radial_clearance_with_OEM_max_mag_mm": 0.09295,
+    "vertical_channel_clearance_with_OEM_max_mag_mm": 0.1109
+  },
+  "rear_retention": {
+    "retainer": "Rear plug and offset liner baffle form one printed part per shell; no extra product print parts",
+    "lower_screw_XYZ_bearing_mm": [
+      0,
+      4.3,
+      34.8
+    ],
+    "upper_screw_XYZ_bearing_mm": [
+      0,
+      6,
+      42
+    ],
+    "head_rear_Y_mm": {
+      "lower": 6.3,
+      "upper": 8
+    },
+    "nominal_M2_thread_engagement_mm": {
+      "lower": 2.1,
+      "upper": 2.4
+    },
+    "tap_pilot_D_mm": 1.6,
+    "pilot_depth_mm": {
+      "lower": 3.3,
+      "upper": 3.6
+    },
+    "pilot_end_allowance_beyond_screw_tip_mm": 1.2,
+    "no_adhesive_credited": true,
+    "parts_removed_for_normal_opening": 0
+  },
+  "loading": {
+    "magnets": "Before rear plugs and device: slide flat discs from+Y toward\u2212Y through each5.05x1.8 channel, seat atY\u22123; do not force or press-fit.",
+    "plugs": "Insert shaped rear plug from+Y after magnets. Its concave fingers close the side-loading paths, then install the selected screw.",
+    "driver": "1.5mm hex; nominal \u00d84.6x18mm rear approach. Lower axisX0/Z34.8,Y6.3..24.3; upperX0/Z42,Y8..26. Complete actual tool fit and whole-dock access remain unqualified.",
+    "process": "Print, clean and qualify pilot/tap on actual MJF or engineering SLA coupon. Candidate pilot-end allowance1.2mm includes tap/runout study; it is not a qualified tap/tool profile."
+  },
+  "motion": {
+    "hinge_axis": "DockX atY164.4/Z40.15",
+    "opening_rotation": "\u2212angle aboutX",
+    "closed_degrees": 0,
+    "released_reference_degrees": 2,
+    "released_definition": "Geometrically opened reference; no magnet force/release threshold is predicted.",
+    "sampled_opening_degrees": [
+      0.1,
+      0.5,
+      1,
+      1.5,
+      2,
+      3,
+      5,
+      10,
+      30,
+      60,
+      110
+    ],
+    "not_proved": "Continuous swept clearance, manufactured tolerances, holding force, UV leakage and transport retention"
+  },
+  "integration": {
+    "main_master_modified": false,
+    "API": "add_catch(shellBody,side); add_liner_clearance(linerBody,side); build_retainer/build_magnet/build_screw into the matching moving group. Cropped shell/liner coupons are test context only.",
+    "coupon_context": "Exact front wall BReps cropped read-only from the saved master. Clipping boxes define the coupon bounds and are not assembly fit models.",
+    "master_to_product": "Do not import cropped coupon walls into the master. Apply the actual native features or reconstruct them on the owned shell bodies.",
+    "root_owns": "Whole-shell integration, cream finish, original LatchCover removal, final seam/driver/device/UV checks and any physical release."
+  },
+  "qualification": {
+    "MJF_or_SLA_material_selected": false,
+    "printed_hole_or_tap_trial": false,
+    "magnet_polarness_received_checked": false,
+    "retainer_strength_or_loosening": false,
+    "installed_pull_force_measured": false,
+    "magnetic_interference_measured": false,
+    "opaque_seam_or_UV_leakage_verified": false,
+    "UV_cutoffs_qualified_by_closure": false,
+    "full_product_order_ready": false
+  },
+  "liner_counterparts": {
+    "sequence": "Integral cups exist first. Install relieved lower liner vertically down and upper liner vertically up BEFORE magnets/rear plugs/baffles. Install magnet discs, then combined plug/baffles and their screws, then device/obstructing hardware.",
+    "full_depth_loading_slot": {
+      "X_mm": [
+        -8.9,
+        8.9
+      ],
+      "Y_mm": [
+        -2.5,
+        0.8
+      ],
+      "Z_mm": [
+        10,
+        58
+      ]
+    },
+    "upper_local_final_seat_clearance": {
+      "X_mm": [
+        -8.9,
+        8.9
+      ],
+      "Y_mm": [
+        -2.5,
+        6.4
+      ],
+      "Z_mm": [
+        40.3,
+        44.9
+      ]
+    },
+    "lower_offset_baffle": {
+      "X_mm": [
+        -12,
+        12
+      ],
+      "Y_mm": [
+        2.3,
+        4.3
+      ],
+      "Z_mm": [
+        13.2,
+        40
+      ],
+      "floor_overlap_toe_Y_mm": [
+        -1.7,
+        4.3
+      ],
+      "toe_Z_mm": [
+        13.2,
+        14.4
+      ],
+      "clearance_above_floor_mm": 0.2,
+      "side_overlap_mm": 3.1,
+      "rear_floor_overlap_mm": 3.5
+    },
+    "upper_offset_baffle": {
+      "X_mm": [
+        -12,
+        12
+      ],
+      "front_Y_at_Z40_6_mm": 2.3,
+      "front_Y_at_Z51_5_mm": 6.621301775147929,
+      "thickness_Y_mm": 2,
+      "top_Z_mm": 51.5,
+      "rear_overlap_lip_Y_mm": [
+        4.5,
+        5.7
+      ],
+      "rear_overlap_lip_Z_mm": [
+        37,
+        40.6
+      ],
+      "overlap_below_lower_baffle_top_mm": 3,
+      "closed_lip_gap_mm": 0.2
+    },
+    "UV_qualification": "Geometric offset/overlap only; whole opaque seam, material aging and measured optical leakage remain unqualified."
+  }
+}

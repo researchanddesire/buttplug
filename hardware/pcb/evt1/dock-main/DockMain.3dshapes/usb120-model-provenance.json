@@ -1,0 +1,47 @@
+{
+  "selected_MPN": "GCT USB4105-GF-A-120",
+  "classification": "selected dimensional derivative of KiCad family STEP; NOT OEM selected-part CAD",
+  "family_source_STEP": "USB4105-family-source.step",
+  "family_source_sha256": "6338ce740fa231c2d3dcc6384e0576994a47240a312a21413cb85d76990a69a0",
+  "family_source_license": "KiCad-LICENSE.md",
+  "primary_drawing": "https://gct.co/files/drawings/usb4105.pdf",
+  "primary_drawing_sha256": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5",
+  "manufacturer_stake_below_seating_mm": 1.2,
+  "manufacturer_stake_tolerance_mm": 0.15,
+  "native": "USB4105-GF-A-120.FCStd",
+  "native_sha256": "9c7493c0697067eb0d15fb694d2487080e556f6f493d8e4df424f3a014d886d2",
+  "STEP": "USB4105-GF-A-120.step",
+  "STEP_sha256": "a106e6a6174145e6294191979648fe78dc39bfb451c034132f26a47c9bfabb98",
+  "editable_bodies": 36,
+  "changed_shell_bodies": [
+    {
+      "body": "SourceSolid17",
+      "source_solid_index": 17,
+      "section_plane_mm": -0.9,
+      "source_stake_bottom_mm": -0.95,
+      "selected_stake_bottom_mm": -1.2,
+      "additive_pad_mm": 0.3,
+      "four_stakes_count": 2
+    },
+    {
+      "body": "SourceSolid35",
+      "source_solid_index": 35,
+      "section_plane_mm": -0.9,
+      "source_stake_bottom_mm": -0.95,
+      "selected_stake_bottom_mm": -1.2,
+      "additive_pad_mm": 0.3,
+      "four_stakes_count": 2
+    }
+  ],
+  "unchanged_geometry": "All other34 imported source solids; shell geometry above Z-0.90 unchanged. Only four stakes extended0.25mm below source bottom.",
+  "bounds_mm": [
+    -4.470000100485504,
+    -3.6750000999999997,
+    -1.2,
+    4.470000100485504,
+    4.105,
+    3.3100001
+  ],
+  "physical_validation": false,
+  "qualification": "Family dimensions/model details other than selected stake delta remain nominal attributed CAD. Actual received parts, 1.00mm PCB protrusion and window tolerance require trial."
+}

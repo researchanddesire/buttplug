@@ -1,0 +1,365 @@
+{
+  "scope": "Seven native-pin-map WireViz sources; starting stock only unless interboard_spans_verified is true. Unfinished routes and physical qualification do not become released lengths.",
+  "native_netlist_sha256": {
+    "hardware/pcb/evt1/system-native.xml": "3c0e8899ac864f9a6f12f18e9f3bce4b03cc2555a41cee5c8c98f17b78b22db5",
+    "hardware/pcb/evt1/body/body-native.xml": "c3d8482b08b67be70ab82b612c3b99c2ac6012e765f1fe9419d0106f707c945a",
+    "hardware/pcb/evt1/flange/flange-native.xml": "9c0d169c366faefc82ea75a587081153268920bf3501967db7871bdeef5ace94",
+    "hardware/pcb/evt1/sensor/sensor-native.xml": "3ac68f835b2828d53407a89dad6a772609c62e3e35535b7a43ecfbfc78ffe4d4",
+    "hardware/pcb/evt1/dock/dock-native.xml": "2ec129f7cc999db397cbebb4d3731b8227310a2b7a202d41de8f2992b56fca9a",
+    "hardware/pcb/evt1/pins/pins-native.xml": "0b79c9d8ee6c55b8e3bca0699bb4624734d2b7b03987fe3cd9f01639f7410228"
+  },
+  "interboard_spans_verified": true,
+  "loom_native_sha256": "a29919940e59ce1e8dbbec74fc3601d16145c7e334d6e190b128a7f209796833",
+  "loom_review_sha256": "9edadbde0144b665656c857769bcfa2b41ccc3975cc1fd146c23f80010a8ba56",
+  "builder_sha256": "cbdde5ad729bb60fb68deb85b1d6829e90de1a26a641c75c31ea7cb45fd77232",
+  "pin_contracts": [
+    {
+      "harness": "W-PACK-EVT1",
+      "from": [
+        "body",
+        "J2",
+        "3"
+      ],
+      "to": [
+        "system",
+        "TH1",
+        "1"
+      ],
+      "net": "PACK_NTC"
+    },
+    {
+      "harness": "W-PACK-EVT1",
+      "from": [
+        "body",
+        "J2",
+        "2"
+      ],
+      "to": [
+        "system",
+        "TH1",
+        "2"
+      ],
+      "net": "GND"
+    },
+    {
+      "harness": "W-PACK-EVT1",
+      "from": [
+        "body",
+        "J2",
+        "4"
+      ],
+      "to": [
+        "system",
+        "TH2",
+        "1"
+      ],
+      "net": "PACK_GUARD"
+    },
+    {
+      "harness": "W-PACK-EVT1",
+      "from": [
+        "body",
+        "J2",
+        "2"
+      ],
+      "to": [
+        "system",
+        "TH2",
+        "2"
+      ],
+      "net": "GND"
+    },
+    {
+      "harness": "W-TIP-EVT1",
+      "from": [
+        "body",
+        "J5",
+        "1"
+      ],
+      "to": [
+        "system",
+        "TH101",
+        "1"
+      ],
+      "net": "TIP_NTC"
+    },
+    {
+      "harness": "W-TIP-EVT1",
+      "from": [
+        "body",
+        "J5",
+        "2"
+      ],
+      "to": [
+        "system",
+        "TH101",
+        "2"
+      ],
+      "net": "GND"
+    },
+    {
+      "harness": "W-INTERBOARD-EVT1",
+      "from": [
+        "body",
+        "J6",
+        "1"
+      ],
+      "to": [
+        "flange",
+        "J7",
+        "1"
+      ],
+      "net": "GND"
+    },
+    {
+      "harness": "W-INTERBOARD-EVT1",
+      "from": [
+        "body",
+        "J6",
+        "2"
+      ],
+      "to": [
+        "flange",
+        "J7",
+        "2"
+      ],
+      "net": "VBUS_CHG"
+    },
+    {
+      "harness": "W-INTERBOARD-EVT1",
+      "from": [
+        "body",
+        "J6",
+        "3"
+      ],
+      "to": [
+        "flange",
+        "J7",
+        "3"
+      ],
+      "net": "3V3"
+    },
+    {
+      "harness": "W-INTERBOARD-EVT1",
+      "from": [
+        "body",
+        "J6",
+        "4"
+      ],
+      "to": [
+        "flange",
+        "J7",
+        "4"
+      ],
+      "net": "PACK_P"
+    },
+    {
+      "harness": "W-INTERBOARD-EVT1",
+      "from": [
+        "body",
+        "J6",
+        "5"
+      ],
+      "to": [
+        "flange",
+        "J7",
+        "5"
+      ],
+      "net": "MOTOR_ARM"
+    },
+    {
+      "harness": "W-INTERBOARD-EVT1",
+      "from": [
+        "body",
+        "J6",
+        "6"
+      ],
+      "to": [
+        "flange",
+        "J7",
+        "6"
+      ],
+      "net": "MOTOR_PWM"
+    },
+    {
+      "harness": "W-INTERBOARD-EVT1",
+      "from": [
+        "body",
+        "J6",
+        "7"
+      ],
+      "to": [
+        "flange",
+        "J7",
+        "7"
+      ],
+      "net": "DOCK_PRESENT_N"
+    },
+    {
+      "harness": "W-INTERBOARD-EVT1",
+      "from": [
+        "body",
+        "J6",
+        "8"
+      ],
+      "to": [
+        "flange",
+        "J7",
+        "8"
+      ],
+      "net": "I2C_SDA"
+    },
+    {
+      "harness": "W-INTERBOARD-EVT1",
+      "from": [
+        "body",
+        "J6",
+        "9"
+      ],
+      "to": [
+        "flange",
+        "J7",
+        "9"
+      ],
+      "net": "I2C_SCL"
+    },
+    {
+      "harness": "W-INTERBOARD-EVT1",
+      "from": [
+        "body",
+        "J6",
+        "10"
+      ],
+      "to": [
+        "flange",
+        "J7",
+        "10"
+      ],
+      "net": "TIP_EXC_EN"
+    },
+    {
+      "harness": "W-COMPASS-EVT1",
+      "from": [
+        "body",
+        "J81",
+        "1"
+      ],
+      "to": [
+        "sensor",
+        "J82",
+        "1"
+      ],
+      "net": "3V3"
+    },
+    {
+      "harness": "W-COMPASS-EVT1",
+      "from": [
+        "body",
+        "J81",
+        "2"
+      ],
+      "to": [
+        "sensor",
+        "J82",
+        "2"
+      ],
+      "net": "GND"
+    },
+    {
+      "harness": "W-COMPASS-EVT1",
+      "from": [
+        "body",
+        "J81",
+        "3"
+      ],
+      "to": [
+        "sensor",
+        "J82",
+        "3"
+      ],
+      "net": "I2C_SDA"
+    },
+    {
+      "harness": "W-COMPASS-EVT1",
+      "from": [
+        "body",
+        "J81",
+        "4"
+      ],
+      "to": [
+        "sensor",
+        "J82",
+        "4"
+      ],
+      "net": "I2C_SCL"
+    },
+    {
+      "harness": "W-DOCK-EVT1",
+      "from": [
+        "dock",
+        "J93",
+        "1"
+      ],
+      "to": [
+        "pins",
+        "J94",
+        "1"
+      ],
+      "net": "GND"
+    },
+    {
+      "harness": "W-DOCK-EVT1",
+      "from": [
+        "dock",
+        "J93",
+        "2"
+      ],
+      "to": [
+        "pins",
+        "J94",
+        "2"
+      ],
+      "net": "DOCK_DM"
+    },
+    {
+      "harness": "W-DOCK-EVT1",
+      "from": [
+        "dock",
+        "J93",
+        "3"
+      ],
+      "to": [
+        "pins",
+        "J94",
+        "3"
+      ],
+      "net": "DOCK_DP"
+    },
+    {
+      "harness": "W-DOCK-EVT1",
+      "from": [
+        "dock",
+        "J93",
+        "4"
+      ],
+      "to": [
+        "pins",
+        "J94",
+        "4"
+      ],
+      "net": "DOCK_5V"
+    }
+  ],
+  "files": {
+    "interboard-evt1.yml": "36ebfaf3aaf455110374767f561a589b3e7a9cad6930fdffd567917e52fc7028",
+    "compass-evt1.yml": "43e8408ed8eb7ce9bddd912c744cccf76776eb15348f16353803baee230cc6ea",
+    "pack-evt1.yml": "52bb520dfc39a489216685b75e347f9e596e7f70dfc67638526fef4530c091c6",
+    "motor-evt1.yml": "005fddde1b22a4b815eda50ab313185d8d516e9db8e34a15d420ad740aff7c65",
+    "tip-evt1.yml": "f74b9450f25a5d63b263ad5762a7a96ef6306f1f67604923cfc764de0cd13af4",
+    "contacts-evt1.yml": "cdc3f4b352c3baf803909083fd18f5ebf851abc7159f41a33163390024393da3",
+    "dock-evt1.yml": "7271052e6d104b0ddf8c9cbeb333df7ed831a8cbf0b339aacb82fc5d70e58c98"
+  },
+  "wire_stock_sha256": "2eea6f39bab8607fbd06e29a42693bd5b4e409b3cbffdc51bc62e6819f7cff68",
+  "physical_validation": false,
+  "full_product_order_ready": false
+}

@@ -1,0 +1,515 @@
+{
+  "operating_reference": {
+    "native_component_bodies": [
+      {
+        "body": "DockLidCutoffCase",
+        "features": [
+          "Sketcher::SketchObject",
+          "PartDesign::Pad",
+          "Sketcher::SketchObject",
+          "PartDesign::Pad",
+          "Sketcher::SketchObject",
+          "PartDesign::Pocket"
+        ],
+        "valid": true,
+        "volume_mm3": 436.34654207423864,
+        "exact_bounds_mm": [
+          -6.4,
+          -2.9000000000000004,
+          -1.5,
+          6.4,
+          2.9000000000000004,
+          5.0
+        ]
+      },
+      {
+        "body": "DockLidCutoffCOM",
+        "features": [
+          "Sketcher::SketchObject",
+          "PartDesign::Pad"
+        ],
+        "valid": true,
+        "volume_mm3": 1.2600000000000007,
+        "exact_bounds_mm": [
+          -5.53,
+          -0.2,
+          -5.0,
+          -4.63,
+          0.2,
+          -1.5
+        ]
+      },
+      {
+        "body": "DockLidCutoffNO",
+        "features": [
+          "Sketcher::SketchObject",
+          "PartDesign::Pad"
+        ],
+        "valid": true,
+        "volume_mm3": 1.26,
+        "exact_bounds_mm": [
+          -0.45,
+          -0.2,
+          -5.0,
+          0.45,
+          0.2,
+          -1.5
+        ]
+      },
+      {
+        "body": "DockLidCutoffNC",
+        "features": [
+          "Sketcher::SketchObject",
+          "PartDesign::Pad"
+        ],
+        "valid": true,
+        "volume_mm3": 1.2600000000000007,
+        "exact_bounds_mm": [
+          4.63,
+          -0.2,
+          -5.0,
+          5.53,
+          0.2,
+          -1.5
+        ]
+      },
+      {
+        "body": "DockLidCutoffLever",
+        "features": [
+          "Sketcher::SketchObject",
+          "PartDesign::Pad"
+        ],
+        "valid": true,
+        "volume_mm3": 11.520000000000003,
+        "exact_bounds_mm": [
+          -5.122380326658336,
+          -1.5,
+          4.7,
+          7.592257603577585,
+          1.5,
+          6.800000000019203
+        ]
+      }
+    ],
+    "native_body_count": 5,
+    "actual_case_mounting_holes_open": true,
+    "native_blade_tip_reference_mm": [
+      7.549999999996806,
+      0.0,
+      6.800000000019202
+    ],
+    "blade_reference_height_mm": 6.8,
+    "blade_root_is_derived_not_OEM": true,
+    "published_terminal_function_X_mm": {
+      "COM": -5.08,
+      "NO": 0,
+      "NC": 5.08
+    },
+    "published_OP_interval_mm": [
+      5.3,
+      8.3
+    ],
+    "published_OT_minimum_mm": 0.55,
+    "published_MD_maximum_mm": 0.5,
+    "absolute_RP_published": false,
+    "PT_published_for_hinge_lever": false,
+    "physical_fit_and_received_OPRP_qualified": false,
+    "saved_readback": {
+      "native_component_bodies": [
+        {
+          "body": "DockLidCutoffCase",
+          "features": [
+            "Sketcher::SketchObject",
+            "PartDesign::Pad",
+            "Sketcher::SketchObject",
+            "PartDesign::Pad",
+            "Sketcher::SketchObject",
+            "PartDesign::Pocket"
+          ],
+          "valid": true,
+          "volume_mm3": 436.34654207423864,
+          "exact_bounds_mm": [
+            -6.4,
+            -2.9000000000000004,
+            -1.5,
+            6.4,
+            2.9000000000000004,
+            5.0
+          ]
+        },
+        {
+          "body": "DockLidCutoffCOM",
+          "features": [
+            "Sketcher::SketchObject",
+            "PartDesign::Pad"
+          ],
+          "valid": true,
+          "volume_mm3": 1.2600000000000007,
+          "exact_bounds_mm": [
+            -5.53,
+            -0.2,
+            -5.0,
+            -4.63,
+            0.2,
+            -1.5
+          ]
+        },
+        {
+          "body": "DockLidCutoffNO",
+          "features": [
+            "Sketcher::SketchObject",
+            "PartDesign::Pad"
+          ],
+          "valid": true,
+          "volume_mm3": 1.26,
+          "exact_bounds_mm": [
+            -0.45,
+            -0.2,
+            -5.0,
+            0.45,
+            0.2,
+            -1.5
+          ]
+        },
+        {
+          "body": "DockLidCutoffNC",
+          "features": [
+            "Sketcher::SketchObject",
+            "PartDesign::Pad"
+          ],
+          "valid": true,
+          "volume_mm3": 1.2600000000000007,
+          "exact_bounds_mm": [
+            4.63,
+            -0.2,
+            -5.0,
+            5.53,
+            0.2,
+            -1.5
+          ]
+        },
+        {
+          "body": "DockLidCutoffLever",
+          "features": [
+            "Sketcher::SketchObject",
+            "PartDesign::Pad"
+          ],
+          "valid": true,
+          "volume_mm3": 11.520000000000007,
+          "exact_bounds_mm": [
+            -5.122380326658336,
+            -1.5,
+            4.7,
+            7.592257603577587,
+            1.5,
+            6.800000000019196
+          ]
+        }
+      ],
+      "native_body_count": 5,
+      "actual_case_mounting_holes_open": true,
+      "native_blade_tip_reference_mm": [
+        7.549999999996806,
+        0.0,
+        6.800000000019202
+      ],
+      "blade_reference_height_mm": 6.8,
+      "blade_root_is_derived_not_OEM": true,
+      "published_terminal_function_X_mm": {
+        "COM": -5.08,
+        "NO": 0,
+        "NC": 5.08
+      },
+      "published_OP_interval_mm": [
+        5.3,
+        8.3
+      ],
+      "published_OT_minimum_mm": 0.55,
+      "published_MD_maximum_mm": 0.5,
+      "absolute_RP_published": false,
+      "PT_published_for_hinge_lever": false,
+      "physical_fit_and_received_OPRP_qualified": false
+    },
+    "native_SHA256": "36472e02f129d0d2d06a9a935bf1f0fd01a946ad587750cf2fdf0899a39a211d"
+  },
+  "native_parameter_edit_checks": [
+    {
+      "input_reference_height_mm": 5.3,
+      "actual_tip_mm": [
+        7.709326053159574,
+        0.0,
+        5.300000000005492
+      ]
+    },
+    {
+      "input_reference_height_mm": 8.3,
+      "actual_tip_mm": [
+        7.206862261033192,
+        0.0,
+        8.300000000032913
+      ]
+    },
+    {
+      "input_reference_height_mm": 10,
+      "actual_tip_mm": [
+        6.574919104367182,
+        0.0,
+        10.000000000048448
+      ]
+    },
+    {
+      "input_reference_height_mm": 6.8,
+      "actual_tip_mm": [
+        7.549999999996806,
+        0.0,
+        6.800000000019202
+      ]
+    }
+  ],
+  "free_limit_reference": {
+    "native_component_bodies": [
+      {
+        "body": "DockLidCutoffCase",
+        "features": [
+          "Sketcher::SketchObject",
+          "PartDesign::Pad",
+          "Sketcher::SketchObject",
+          "PartDesign::Pad",
+          "Sketcher::SketchObject",
+          "PartDesign::Pocket"
+        ],
+        "valid": true,
+        "volume_mm3": 436.34654207423864,
+        "exact_bounds_mm": [
+          -6.4,
+          -2.9000000000000004,
+          -1.5,
+          6.4,
+          2.9000000000000004,
+          5.0
+        ]
+      },
+      {
+        "body": "DockLidCutoffCOM",
+        "features": [
+          "Sketcher::SketchObject",
+          "PartDesign::Pad"
+        ],
+        "valid": true,
+        "volume_mm3": 1.2600000000000007,
+        "exact_bounds_mm": [
+          -5.53,
+          -0.2,
+          -5.0,
+          -4.63,
+          0.2,
+          -1.5
+        ]
+      },
+      {
+        "body": "DockLidCutoffNO",
+        "features": [
+          "Sketcher::SketchObject",
+          "PartDesign::Pad"
+        ],
+        "valid": true,
+        "volume_mm3": 1.26,
+        "exact_bounds_mm": [
+          -0.45,
+          -0.2,
+          -5.0,
+          0.45,
+          0.2,
+          -1.5
+        ]
+      },
+      {
+        "body": "DockLidCutoffNC",
+        "features": [
+          "Sketcher::SketchObject",
+          "PartDesign::Pad"
+        ],
+        "valid": true,
+        "volume_mm3": 1.2600000000000007,
+        "exact_bounds_mm": [
+          4.63,
+          -0.2,
+          -5.0,
+          5.53,
+          0.2,
+          -1.5
+        ]
+      },
+      {
+        "body": "DockLidCutoffLever",
+        "features": [
+          "Sketcher::SketchObject",
+          "PartDesign::Pad"
+        ],
+        "valid": true,
+        "volume_mm3": 11.520000000000001,
+        "exact_bounds_mm": [
+          -5.197874484412982,
+          -1.5,
+          4.7,
+          6.692670865702604,
+          1.5,
+          10.000000000048459
+        ]
+      }
+    ],
+    "native_body_count": 5,
+    "actual_case_mounting_holes_open": true,
+    "native_blade_tip_reference_mm": [
+      6.57491910436718,
+      0.0,
+      10.000000000048459
+    ],
+    "blade_reference_height_mm": 10.0,
+    "blade_root_is_derived_not_OEM": true,
+    "published_terminal_function_X_mm": {
+      "COM": -5.08,
+      "NO": 0,
+      "NC": 5.08
+    },
+    "published_OP_interval_mm": [
+      5.3,
+      8.3
+    ],
+    "published_OT_minimum_mm": 0.55,
+    "published_MD_maximum_mm": 0.5,
+    "absolute_RP_published": false,
+    "PT_published_for_hinge_lever": false,
+    "physical_fit_and_received_OPRP_qualified": false,
+    "saved_readback": {
+      "native_component_bodies": [
+        {
+          "body": "DockLidCutoffCase",
+          "features": [
+            "Sketcher::SketchObject",
+            "PartDesign::Pad",
+            "Sketcher::SketchObject",
+            "PartDesign::Pad",
+            "Sketcher::SketchObject",
+            "PartDesign::Pocket"
+          ],
+          "valid": true,
+          "volume_mm3": 436.34654207423864,
+          "exact_bounds_mm": [
+            -6.4,
+            -2.9000000000000004,
+            -1.5,
+            6.4,
+            2.9000000000000004,
+            5.0
+          ]
+        },
+        {
+          "body": "DockLidCutoffCOM",
+          "features": [
+            "Sketcher::SketchObject",
+            "PartDesign::Pad"
+          ],
+          "valid": true,
+          "volume_mm3": 1.2600000000000007,
+          "exact_bounds_mm": [
+            -5.53,
+            -0.2,
+            -5.0,
+            -4.63,
+            0.2,
+            -1.5
+          ]
+        },
+        {
+          "body": "DockLidCutoffNO",
+          "features": [
+            "Sketcher::SketchObject",
+            "PartDesign::Pad"
+          ],
+          "valid": true,
+          "volume_mm3": 1.26,
+          "exact_bounds_mm": [
+            -0.45,
+            -0.2,
+            -5.0,
+            0.45,
+            0.2,
+            -1.5
+          ]
+        },
+        {
+          "body": "DockLidCutoffNC",
+          "features": [
+            "Sketcher::SketchObject",
+            "PartDesign::Pad"
+          ],
+          "valid": true,
+          "volume_mm3": 1.2600000000000007,
+          "exact_bounds_mm": [
+            4.63,
+            -0.2,
+            -5.0,
+            5.53,
+            0.2,
+            -1.5
+          ]
+        },
+        {
+          "body": "DockLidCutoffLever",
+          "features": [
+            "Sketcher::SketchObject",
+            "PartDesign::Pad"
+          ],
+          "valid": true,
+          "volume_mm3": 11.520000000000001,
+          "exact_bounds_mm": [
+            -5.197874484412982,
+            -1.5,
+            4.7,
+            6.692670865702604,
+            1.5,
+            10.000000000048459
+          ]
+        }
+      ],
+      "native_body_count": 5,
+      "actual_case_mounting_holes_open": true,
+      "native_blade_tip_reference_mm": [
+        6.57491910436718,
+        0.0,
+        10.000000000048459
+      ],
+      "blade_reference_height_mm": 10.0,
+      "blade_root_is_derived_not_OEM": true,
+      "published_terminal_function_X_mm": {
+        "COM": -5.08,
+        "NO": 0,
+        "NC": 5.08
+      },
+      "published_OP_interval_mm": [
+        5.3,
+        8.3
+      ],
+      "published_OT_minimum_mm": 0.55,
+      "published_MD_maximum_mm": 0.5,
+      "absolute_RP_published": false,
+      "PT_published_for_hinge_lever": false,
+      "physical_fit_and_received_OPRP_qualified": false
+    },
+    "native_SHA256": "5a5fa9de7eac91ca059f49548e76d6c3755e4817c9988e08f1aec01ff1e62490"
+  },
+  "builder_SHA256": "e67fd0ffcbbb766bfa706f5b2ae8ff7e81eb3f73ad6e793e1bb85bb756a8a078",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "datasheet_SHA256": "d3f2ed08101cf7ec6f57577643225f73faa5475026dda0072bcddf2d99fb04db",
+  "source_manifest_SHA256": "b1522ce0529eb6337616fbcdba53b2cc8cd92d179cb00b7fc5c0631cb974478f"
+}

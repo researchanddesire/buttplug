@@ -1,0 +1,614 @@
+(footprint
+  "Espressif_ESP32-C3-MINI-1_53Pads"
+  (version 20221018)
+  (generator pcbnew)
+  locked
+  (layer "F.Cu")
+  (descr
+    "Espressif ESP32-C3-MINI-1 datasheetv2.2 Figures3-1,10-1,11-1.13.2x16.6mm;48regular+4corner+9EPADislands(number49).AntennaregionallCukeepout;RF3Dclearanceandcenterpasteprocessnotqualified.")
+  (property "AssemblyDomain" "MAIN_T")
+  (property "CandidateHeight_mm" "2.55")
+  (property "DesignStatus" "CANDIDATE / REVIEW ONLY")
+  (property "MPN" "ESP32-C3-MINI-1-N4X")
+  (property "Manufacturer" "Espressif")
+  (property "PlacementStatus" "R15 routed flange candidate / NOT FABRICATION")
+  (attr smd)
+  (fp_text
+    value
+    "ESP32-C3-MINI-1-N4X candidate"
+    (at 0 2.5 180)
+    (layer "F.Fab")
+    hide
+    (effects (font (size 0.65 0.65) (thickness 0.1)))
+    (tstamp f6cfbffd-6cbe-478a-b90c-cd49a87a220c))
+  (fp_text
+    user
+    "ANTENNA: no metal/copper; verify external RF clearance"
+    (at 0 -8.3 180)
+    (layer "Dwgs.User")
+    (effects (font (size 0.55 0.55) (thickness 0.1)))
+    (tstamp 13a39d12-00dd-4e1c-8105-131cf924e791))
+  (fp_rect
+    (start -6.6 -11)
+    (end 6.6 -5.6)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "Dwgs.User")
+    (tstamp 8e0e0c37-11c8-4f27-9856-91e9778b802c))
+  (fp_rect (start -7 -11.4) (end 7 6) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 73b29122-ac79-476d-9551-3b69e1c93e74))
+  (fp_rect (start -6.6 -11) (end 6.6 5.6) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp d390d714-0daa-416a-8593-fd978402687a))
+  (pad
+    "1"
+    smd
+    rect
+    locked
+    (at -5.9 -4)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 0bd3c94b-6397-4a11-a9e8-eef071f5a52f))
+  (pad
+    "2"
+    smd
+    rect
+    locked
+    (at -5.9 -3.2)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 0ced7d9a-8a79-4f69-a8f9-ff3b38070617))
+  (pad
+    "3"
+    smd
+    rect
+    locked
+    (at -5.9 -2.4)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 277e9e14-3edf-4f46-bac8-6c07de1b3999))
+  (pad
+    "4"
+    smd
+    rect
+    locked
+    (at -5.9 -1.6)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 9ae3534b-6e07-4dd5-9af7-df7cda764a83))
+  (pad
+    "5"
+    smd
+    rect
+    locked
+    (at -5.9 -0.8)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp aafcf37c-97ca-4ae1-b9df-71b2690cc387))
+  (pad
+    "6"
+    smd
+    rect
+    locked
+    (at -5.9 0)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp b9ddd188-8e5e-4cea-b96e-20f0b1653288))
+  (pad
+    "7"
+    smd
+    rect
+    locked
+    (at -5.9 0.8)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 26e9c40a-6303-4146-ac0a-09f1a98e87ab))
+  (pad
+    "8"
+    smd
+    rect
+    locked
+    (at -5.9 1.6)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 36172d97-9bbf-40f6-a2e4-d58cd4c5d55c))
+  (pad
+    "9"
+    smd
+    rect
+    locked
+    (at -5.9 2.4)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp b93bffc2-2ed5-4b7d-8761-ce62cac4e429))
+  (pad
+    "10"
+    smd
+    rect
+    locked
+    (at -5.9 3.2)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 131f5e9e-a914-4be0-a71f-89b77e0494c1))
+  (pad
+    "11"
+    smd
+    rect
+    locked
+    (at -5.9 4)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 6cef4286-769a-4ff8-b687-eaff77110504))
+  (pad
+    "12"
+    smd
+    rect
+    locked
+    (at -4.8 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 4b830cc7-8a1f-42ea-8b22-5f5c41d75862))
+  (pad
+    "13"
+    smd
+    rect
+    locked
+    (at -4 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp eb86ccc8-4575-42ca-9c1d-1c21b719a712))
+  (pad
+    "14"
+    smd
+    rect
+    locked
+    (at -3.2 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 982d5dab-cd35-43bf-a067-f224b9a162f1))
+  (pad
+    "15"
+    smd
+    rect
+    locked
+    (at -2.4 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 90d2bd06-26ac-4f27-b634-e1333b012059))
+  (pad
+    "16"
+    smd
+    rect
+    locked
+    (at -1.6 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 3bff27aa-42eb-41b3-a87f-5be571e00f85))
+  (pad
+    "17"
+    smd
+    rect
+    locked
+    (at -0.8 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp d33a8fa2-c557-4b34-b0cd-d08b5c0b00c9))
+  (pad
+    "18"
+    smd
+    rect
+    locked
+    (at 0 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 7cae5c88-aea5-40d4-a558-ae1f20d36e50))
+  (pad
+    "19"
+    smd
+    rect
+    locked
+    (at 0.8 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 93c10ef8-970a-4774-8689-cfa197ee71e5))
+  (pad
+    "20"
+    smd
+    rect
+    locked
+    (at 1.6 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 3204146e-a3ff-4554-beb2-aaa82daf52a6))
+  (pad
+    "21"
+    smd
+    rect
+    locked
+    (at 2.4 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 8f4d7927-752d-4405-b3de-c3b9d12755ce))
+  (pad
+    "22"
+    smd
+    rect
+    locked
+    (at 3.2 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 588052d1-1975-43ab-bf84-c41f3179f92d))
+  (pad
+    "23"
+    smd
+    rect
+    locked
+    (at 4 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp ca44a102-db30-404e-a3cb-e62e248e42e6))
+  (pad
+    "24"
+    smd
+    rect
+    locked
+    (at 4.8 4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp c5772d71-fda4-4abc-911a-15a32e88e229))
+  (pad
+    "25"
+    smd
+    rect
+    locked
+    (at 5.9 4)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp f556e327-7bbe-4357-92fa-0267603edf8c))
+  (pad
+    "26"
+    smd
+    rect
+    locked
+    (at 5.9 3.2)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp a730477f-f692-43bb-b709-b1acd4d4ef87))
+  (pad
+    "27"
+    smd
+    rect
+    locked
+    (at 5.9 2.4)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp ab8ba111-e29e-4750-af85-2d00ce185640))
+  (pad
+    "28"
+    smd
+    rect
+    locked
+    (at 5.9 1.6)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 37e87f04-f733-4a10-8d8d-f3c88c3e4253))
+  (pad
+    "29"
+    smd
+    rect
+    locked
+    (at 5.9 0.8)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp c2bd43ea-be35-401e-bbfc-9d684710c7b8))
+  (pad
+    "30"
+    smd
+    rect
+    locked
+    (at 5.9 0)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 99192148-8204-4e91-9d10-43c63ed7d31e))
+  (pad
+    "31"
+    smd
+    rect
+    locked
+    (at 5.9 -0.8)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp cd3d10f1-afc5-49ac-a934-3130d2725f5a))
+  (pad
+    "32"
+    smd
+    rect
+    locked
+    (at 5.9 -1.6)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 7c81304e-f0d5-4c90-b435-50f297ed4677))
+  (pad
+    "33"
+    smd
+    rect
+    locked
+    (at 5.9 -2.4)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp eb8a81ba-4c77-43f3-a700-7c3f155fb5c0))
+  (pad
+    "34"
+    smd
+    rect
+    locked
+    (at 5.9 -3.2)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp d7b81640-7b52-443d-8818-78a88f640dbf))
+  (pad
+    "35"
+    smd
+    rect
+    locked
+    (at 5.9 -4)
+    (size 0.8 0.4)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (tstamp 623f3801-4a2d-454f-9124-ab97179a49c5))
+  (pad
+    "36"
+    smd
+    rect
+    locked
+    (at 4.8 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 94ad3b29-675f-4b83-90fe-0c5c25d30c0b))
+  (pad
+    "37"
+    smd
+    rect
+    locked
+    (at 4 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 04674c01-a585-465d-91c0-56aa333af958))
+  (pad
+    "38"
+    smd
+    rect
+    locked
+    (at 3.2 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 5f606ca5-5095-4900-ad10-927447bfd670))
+  (pad
+    "39"
+    smd
+    rect
+    locked
+    (at 2.4 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 8d3eaa98-6087-4d53-960e-2db860aae33f))
+  (pad
+    "40"
+    smd
+    rect
+    locked
+    (at 1.6 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 615468b6-fa6f-45ad-a32d-8ebd2a5f6db2))
+  (pad
+    "41"
+    smd
+    rect
+    locked
+    (at 0.8 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp af3ffaa4-f859-41c6-9472-b33fc77e97e3))
+  (pad
+    "42"
+    smd
+    rect
+    locked
+    (at 0 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp b82abdee-17ed-4ab9-9c1e-100517d6e5a6))
+  (pad
+    "43"
+    smd
+    rect
+    locked
+    (at -0.8 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 94e018cf-644a-447b-911b-14b487b1736f))
+  (pad
+    "44"
+    smd
+    rect
+    locked
+    (at -1.6 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp baca30af-d965-43ee-ac3f-6d5aa8dde2d1))
+  (pad
+    "45"
+    smd
+    rect
+    locked
+    (at -2.4 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp e771898c-89e9-458b-a4bd-f5a96146f082))
+  (pad
+    "46"
+    smd
+    rect
+    locked
+    (at -3.2 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 9c59b3af-2dde-4303-b2b8-66888945f1b1))
+  (pad
+    "47"
+    smd
+    rect
+    locked
+    (at -4 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 48d8e584-d270-415e-9efe-3076ab2bce7c))
+  (pad
+    "48"
+    smd
+    rect
+    locked
+    (at -4.8 -4.9)
+    (size 0.4 0.8)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 01203443-c886-4edf-b9cf-08fa29dcc022))
+  (pad
+    "49"
+    smd
+    custom
+    locked
+    (at -1.975 -1.975)
+    (size 0.05 0.05)
+    (layers "F.Cu" "F.Mask")
+    (zone_connect 2)
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives (gr_poly (pts (xy -0.725 -0.125) (xy -0.125 -0.725) (xy 0.725 -0.725) (xy 0.725 0.725) (xy -0.725 0.725)) (width 0) (fill yes)))
+    (tstamp 2f597503-ecae-4bde-9b49-cc0d10fd1c2d))
+  (pad "49" smd rect locked (at -1.975 0) (size 1.45 1.45) (layers "F.Cu" "F.Mask") (zone_connect 2) (tstamp d7a33a34-fa85-4b44-94bb-9c3ce40c04b3))
+  (pad "49" smd rect locked (at -1.975 1.975) (size 1.45 1.45) (layers "F.Cu" "F.Mask") (zone_connect 2) (tstamp 795d34a0-7266-4139-a0e0-f032bb40f0f9))
+  (pad "49" smd rect locked (at 0 -1.975) (size 1.45 1.45) (layers "F.Cu" "F.Mask") (zone_connect 2) (tstamp 54d232b9-cceb-4b62-ba1d-b58baee45d55))
+  (pad "49" smd rect locked (at 0 0) (size 1.45 1.45) (layers "F.Cu" "F.Mask") (zone_connect 2) (tstamp fc1b91ff-cd31-4a06-a153-8141ec66f5d0))
+  (pad "49" smd rect locked (at 0 1.975) (size 1.45 1.45) (layers "F.Cu" "F.Mask") (zone_connect 2) (tstamp 97b354f7-1080-44be-854f-c956d6070ddb))
+  (pad "49" smd rect locked (at 1.975 -1.975) (size 1.45 1.45) (layers "F.Cu" "F.Mask") (zone_connect 2) (tstamp f8f182ec-f0f4-4592-99b4-71df3e5a7347))
+  (pad "49" smd rect locked (at 1.975 0) (size 1.45 1.45) (layers "F.Cu" "F.Mask") (zone_connect 2) (tstamp 7f074b4f-9c6c-4b28-a91d-3ca2fdddcb7c))
+  (pad "49" smd rect locked (at 1.975 1.975) (size 1.45 1.45) (layers "F.Cu" "F.Mask") (zone_connect 2) (tstamp 5aac6277-9734-4643-a86a-508a25ca2df7))
+  (pad
+    "50"
+    smd
+    rect
+    locked
+    (at 5.95 -4.95)
+    (size 0.7 0.7)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 6a80cafb-80b3-4e8b-8ec6-89dd1f468dbf))
+  (pad
+    "51"
+    smd
+    rect
+    locked
+    (at 5.95 4.95)
+    (size 0.7 0.7)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 472d5622-c6c2-49a1-aef9-a8ef60380713))
+  (pad
+    "52"
+    smd
+    rect
+    locked
+    (at -5.95 4.95)
+    (size 0.7 0.7)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp d08ce092-865b-499b-88b7-20eeea257f7a))
+  (pad
+    "53"
+    smd
+    rect
+    locked
+    (at -5.95 -4.95)
+    (size 0.7 0.7)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.04)
+    (zone_connect 2)
+    (tstamp 368ed96d-1ed8-450b-b42b-d8009b170249))
+  (zone
+    (net 0)
+    (net_name "")
+    (layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
+    (tstamp 78e6e6c9-9162-40cf-9fd6-0b24d74b1f9e)
+    (hatch edge 0.5)
+    (connect_pads (clearance 0))
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
+    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+    (polygon (pts (xy -6.6 -11) (xy 6.6 -11) (xy 6.6 -5.6) (xy -6.6 -5.6))))
+  (model "${KIPRJMOD}/Selected.3dshapes/ESP32-C3-MINI-1-OEM.step" (offset (xyz -6.6 -5.6 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0))))

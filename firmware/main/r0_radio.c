@@ -17,6 +17,9 @@
 #include "host/ble_sm.h"
 #include "services/gap/ble_svc_gap.h"
 #include "services/gatt/ble_svc_gatt.h"
+#ifdef BOARD_EVT1
+#include "evt_case_radio.h"
+#endif
 
 void ble_store_config_init(void);
 
@@ -30,20 +33,59 @@ static uint32_t ble_passkey;
 static const ble_uuid128_t service_uuid = BLE_UUID128_INIT(0x00,0xf0,0x52,0x4c,0x16,0x52,0x46,0x95,0x8c,0x4f,0x94,0x2d,0xe0,0x96,0x14,0x93);
 static const ble_uuid128_t status_uuid = BLE_UUID128_INIT(0x01,0xf0,0x52,0x4c,0x16,0x52,0x46,0x95,0x8c,0x4f,0x94,0x2d,0xe0,0x96,0x14,0x93);
 static const ble_uuid128_t command_uuid = BLE_UUID128_INIT(0x02,0xf0,0x52,0x4c,0x16,0x52,0x46,0x95,0x8c,0x4f,0x94,0x2d,0xe0,0x96,0x14,0x93);
+#ifdef BOARD_EVT1
+/* Bounded app snapshot; legacy USB/bench JSON remains on ...f001. */
+static const ble_uuid128_t compass_uuid = BLE_UUID128_INIT(0x03,0xf0,0x52,0x4c,0x16,0x52,0x46,0x95,0x8c,0x4f,0x94,0x2d,0xe0,0x96,0x14,0x93);
+static char compass_read_snapshot[512];
+static size_t compass_read_length;
+static uint16_t compass_read_connection = BLE_HS_CONN_HANDLE_NONE;
+static const ble_uuid128_t wear_uuid = BLE_UUID128_INIT(0x04,0xf0,0x52,0x4c,0x16,0x52,0x46,0x95,0x8c,0x4f,0x94,0x2d,0xe0,0x96,0x14,0x93);
+static char wear_read_snapshot[256];
+static size_t wear_read_length;
+static uint16_t wear_read_connection = BLE_HS_CONN_HANDLE_NONE;
+#define BLE_DEVICE_NAME "RAD Compass"
+#else
+#define BLE_DEVICE_NAME "Buttplug R0"
+#endif
 static void advertise(void);
 static int access_cb(uint16_t conn, uint16_t attr, struct ble_gatt_access_ctxt *ctxt, void *arg) {
     (void)conn; (void)attr; (void)arg;
+#ifdef BOARD_EVT1
+    if (ctxt->op == BLE_GATT_ACCESS_OP_READ_CHR && ble_uuid_cmp(ctxt->chr->uuid, &wear_uuid.u) == 0) {
+        if (ctxt->offset == 0 || wear_read_connection != conn) {
+            wear_read_length = r0_wear_status_json(wear_read_snapshot,sizeof(wear_read_snapshot));
+            wear_read_connection = conn;
+        }
+        return os_mbuf_append(ctxt->om,wear_read_snapshot,wear_read_length) == 0 ? 0 : BLE_ATT_ERR_INSUFFICIENT_RES;
+    }
+    if (ctxt->op == BLE_GATT_ACCESS_OP_READ_CHR && ble_uuid_cmp(ctxt->chr->uuid, &compass_uuid.u) == 0) {
+        /* Freeze all fragments of one ATT long read. Main publishes at50Hz;
+         * combining different snapshots across offsets would corrupt JSON.
+         */
+        if (ctxt->offset == 0 || compass_read_connection != conn) {
+            compass_read_length = r0_compass_status_json(compass_read_snapshot, sizeof(compass_read_snapshot));
+            compass_read_connection = conn;
+        }
+        return os_mbuf_append(ctxt->om, compass_read_snapshot, compass_read_length) == 0 ? 0 : BLE_ATT_ERR_INSUFFICIENT_RES;
+    }
+#endif
     if (ctxt->op == BLE_GATT_ACCESS_OP_READ_CHR && ble_uuid_cmp(ctxt->chr->uuid, &status_uuid.u) == 0) {
-        char json[640]; size_t n = r0_status_json(json, sizeof(json));
+        char json[R0_STATUS_JSON_CAPACITY]; size_t n = r0_status_json(json, sizeof(json));
         return os_mbuf_append(ctxt->om, json, n) == 0 ? 0 : BLE_ATT_ERR_INSUFFICIENT_RES;
     }
     if (ctxt->op == BLE_GATT_ACCESS_OP_WRITE_CHR && ble_uuid_cmp(ctxt->chr->uuid, &command_uuid.u) == 0) {
-        uint8_t cmd[2]; uint16_t n;
-        if (OS_MBUF_PKTLEN(ctxt->om) != 2 || ble_hs_mbuf_to_flat(ctxt->om, cmd, sizeof(cmd), &n) != 0)
+        uint8_t bytes[6]; uint16_t n;
+        size_t length = OS_MBUF_PKTLEN(ctxt->om);
+        if ((length != 2 && length != sizeof(bytes)) ||
+            ble_hs_mbuf_to_flat(ctxt->om, bytes, sizeof(bytes), &n) != 0)
             return BLE_ATT_ERR_INVALID_ATTR_VALUE_LEN;
-        if ((cmd[0] != R0_CMD_STOP && cmd[0] != R0_CMD_DUTY) || cmd[1] > 25 ||
-            (cmd[0] == R0_CMD_STOP && cmd[1] != 0)) return BLE_ATT_ERR_VALUE_NOT_ALLOWED;
-        return r0_enqueue(cmd[0], cmd[1]) ? 0 : BLE_ATT_ERR_INSUFFICIENT_RES;
+        compass_command_t command;
+        if (!compass_decode_command(bytes, n, &command)) return BLE_ATT_ERR_VALUE_NOT_ALLOWED;
+#ifndef BOARD_EVT1
+        if (command.opcode != COMPASS_CMD_STOP && command.opcode != COMPASS_CMD_DUTY)
+            return BLE_ATT_ERR_VALUE_NOT_ALLOWED;
+#endif
+        return r0_enqueue_compass(&command) ? 0 : BLE_ATT_ERR_INSUFFICIENT_RES;
     }
     return BLE_ATT_ERR_UNLIKELY;
 }
@@ -51,15 +93,26 @@ static const struct ble_gatt_svc_def services[] = {{.type = BLE_GATT_SVC_TYPE_PR
     .uuid = &service_uuid.u, .characteristics = (struct ble_gatt_chr_def[]) {
         {.uuid=&status_uuid.u, .access_cb=access_cb, .flags=BLE_GATT_CHR_F_READ | BLE_GATT_CHR_F_READ_ENC | BLE_GATT_CHR_F_READ_AUTHEN},
         {.uuid=&command_uuid.u, .access_cb=access_cb, .flags=BLE_GATT_CHR_F_WRITE | BLE_GATT_CHR_F_WRITE_ENC | BLE_GATT_CHR_F_WRITE_AUTHEN},
+#ifdef BOARD_EVT1
+        {.uuid=&compass_uuid.u, .access_cb=access_cb, .flags=BLE_GATT_CHR_F_READ | BLE_GATT_CHR_F_READ_ENC | BLE_GATT_CHR_F_READ_AUTHEN},
+        {.uuid=&wear_uuid.u, .access_cb=access_cb, .flags=BLE_GATT_CHR_F_READ | BLE_GATT_CHR_F_READ_ENC | BLE_GATT_CHR_F_READ_AUTHEN},
+#endif
         {0}}}, {0}};
 static int gap_event(struct ble_gap_event *event, void *arg) {
     (void)arg;
+#ifdef BOARD_EVT1
+    evt_case_radio_gap_event(event);
+#endif
     switch (event->type) {
     case BLE_GAP_EVENT_CONNECT:
         if (event->connect.status != 0) advertise();
         else ble_gap_security_initiate(event->connect.conn_handle);
         break;
     case BLE_GAP_EVENT_DISCONNECT:
+#ifdef BOARD_EVT1
+        compass_read_connection = BLE_HS_CONN_HANDLE_NONE;
+        wear_read_connection = BLE_HS_CONN_HANDLE_NONE;
+#endif
         r0_enqueue(R0_CMD_LINK_LOST, 0); advertise(); break;
     case BLE_GAP_EVENT_ADV_COMPLETE:
         advertise(); break;
@@ -80,11 +133,17 @@ static void advertise(void) {
     struct ble_hs_adv_fields fields = {0};
     fields.flags = BLE_HS_ADV_F_DISC_GEN | BLE_HS_ADV_F_BREDR_UNSUP;
     fields.uuids128 = (ble_uuid128_t *)&service_uuid; fields.num_uuids128 = 1; fields.uuids128_is_complete = 1;
+#ifdef BOARD_EVT1
+    fields.uuids128_is_complete = 0; /* Case service is in the scan response. */
+#endif
     int rc = ble_gap_adv_set_fields(&fields);
     if (rc != 0) { ESP_LOGE(TAG, "BLE advertisement fields: %d", rc); return; }
     struct ble_hs_adv_fields scan = {0};
-    scan.name = (uint8_t *)"Buttplug R0";
+    scan.name = (uint8_t *)BLE_DEVICE_NAME;
     scan.name_len = strlen((char *)scan.name); scan.name_is_complete = 1;
+#ifdef BOARD_EVT1
+    scan.uuids128 = (ble_uuid128_t *)&evt_case_service_uuid;scan.num_uuids128 = 1;scan.uuids128_is_complete = 0;
+#endif
     if (ble_gap_adv_rsp_set_fields(&scan) != 0) return;
     struct ble_gap_adv_params params = {.conn_mode = BLE_GAP_CONN_MODE_UND,
         .disc_mode = BLE_GAP_DISC_MODE_GEN, .itvl_min = 1600, .itvl_max = 1920};
@@ -94,7 +153,12 @@ static void advertise(void) {
 static void on_sync(void) {
     if (ble_hs_util_ensure_addr(0) == 0 && ble_hs_id_infer_auto(0, &own_addr_type) == 0) advertise();
 }
-static void on_reset(int reason) { r0_enqueue(R0_CMD_LINK_LOST, 0); ESP_LOGE(TAG, "BLE reset: %d", reason); }
+static void on_reset(int reason) {
+#ifdef BOARD_EVT1
+    evt_case_radio_reset();
+#endif
+    r0_enqueue(R0_CMD_LINK_LOST, 0); ESP_LOGE(TAG, "BLE reset: %d", reason);
+}
 static void ble_thread(void *p) { (void)p; nimble_port_run(); nimble_port_freertos_deinit(); }
 static bool authorized(httpd_req_t *req) {
     char auth[48], expected[48];
@@ -103,7 +167,7 @@ static bool authorized(httpd_req_t *req) {
 }
 static esp_err_t status_get(httpd_req_t *req) {
     if (!authorized(req)) return httpd_resp_send_err(req, HTTPD_401_UNAUTHORIZED, "Bearer token required");
-    char json[640]; r0_status_json(json, sizeof(json));
+    char json[R0_STATUS_JSON_CAPACITY]; r0_status_json(json, sizeof(json));
     httpd_resp_set_type(req, "application/json");
     httpd_resp_set_hdr(req, "Cache-Control", "no-store");
     return httpd_resp_send(req, json, HTTPD_RESP_USE_STRLEN);
@@ -190,10 +254,13 @@ esp_err_t r0_radio_init(void) {
     ble_hs_cfg.sm_bonding = 1; ble_hs_cfg.sm_mitm = 1; ble_hs_cfg.sm_sc = 1;
     ble_hs_cfg.sm_our_key_dist = BLE_SM_PAIR_KEY_DIST_ENC | BLE_SM_PAIR_KEY_DIST_ID;
     ble_hs_cfg.sm_their_key_dist = BLE_SM_PAIR_KEY_DIST_ENC | BLE_SM_PAIR_KEY_DIST_ID;
-    ble_svc_gap_init(); ble_svc_gatt_init(); ble_svc_gap_device_name_set("Buttplug R0");
+    ble_svc_gap_init(); ble_svc_gatt_init(); ble_svc_gap_device_name_set(BLE_DEVICE_NAME);
     int rc = ble_gatts_count_cfg(services);
     if (rc == 0) rc = ble_gatts_add_svcs(services);
     if (rc != 0) return ESP_FAIL;
+#ifdef BOARD_EVT1
+    if ((err = evt_case_radio_init()) != ESP_OK) return err;
+#endif
     ble_store_config_init();
     nimble_port_freertos_init(ble_thread);
     return ESP_OK;

@@ -1,0 +1,87 @@
+{
+  "input_board_sha256": "c141ef6db3c9dfd9aa5401b265b9d1e3814c87702110a134a9c5892ddee4715a",
+  "native_DRC_sha256": "c8cb0689b6c1b4ec6c7d648bea3923c89019f16fd757aa521f379357f7d9c6ef",
+  "board_sha256": "d2509b8d5e5c55ded483135d464ae510a6410b18388a11bc3b2163f70b1eb069",
+  "added": [
+    {
+      "net": "GND",
+      "purpose": "native-checked grid bridge",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "path_native_mm": [
+        [
+          84.7,
+          100.0
+        ],
+        [
+          84.5,
+          100.25
+        ],
+        [
+          84.25,
+          100.5
+        ],
+        [
+          84.25,
+          100.75
+        ],
+        [
+          84.0,
+          101.0
+        ],
+        [
+          84.0,
+          102.5
+        ],
+        [
+          83.75,
+          102.75
+        ],
+        [
+          83.4731,
+          103.2019
+        ]
+      ],
+      "expanded_states": 287
+    },
+    {
+      "net": "GND",
+      "purpose": "native-checked grid bridge",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "path_native_mm": [
+        [
+          92.7,
+          100.0
+        ],
+        [
+          92.25,
+          100.0
+        ],
+        [
+          89.75,
+          102.5
+        ],
+        [
+          89.5,
+          102.5
+        ],
+        [
+          87.5,
+          104.5
+        ],
+        [
+          87.0,
+          104.7
+        ]
+      ],
+      "expanded_states": 1170
+    }
+  ],
+  "unresolved": [],
+  "all_preexisting_copper_preserved": true,
+  "bounded_unlocked_ripup": [],
+  "native_full_DRC_required": true,
+  "clearance_nm": 150200,
+  "outer_and_internal_cut_edge_clearance_nm": 300000
+}

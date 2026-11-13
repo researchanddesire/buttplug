@@ -1,0 +1,76 @@
+{
+  "selected_part": "GCT USB4105-GF-A-120",
+  "primary_drawing": {
+    "url": "https://gct.co/files/drawings/usb4105.pdf",
+    "revision": "B4",
+    "date": "2023-12-18",
+    "inspected_page": 1,
+    "sha256": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5",
+    "retrieval": "public manufacturer PDF downloaded2026-11-12; temp read-only visual inspection",
+    "facts_mm": {
+      "body_length": 7.35,
+      "body_width": 8.94,
+      "body_height_above_seat": 3.31,
+      "PCB_layout_front_from_footprint_origin": 3.675,
+      "selected_stake_below_seat": 1.2
+    }
+  },
+  "stock_model": {
+    "origin": "KiCad10.0.8 bundled Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step",
+    "sha256": "6338ce740fa231c2d3dcc6384e0576994a47240a312a21413cb85d76990a69a0",
+    "FreeCAD_runtime": "1.1.4 read-only Part.read + optimalBoundingBox(False,False)",
+    "bounds_mm": [
+      -4.470000100485504,
+      -3.6750000999999997,
+      -0.95,
+      4.470000100485504,
+      4.105,
+      3.3100001
+    ],
+    "qualification": "selected family geometric reference; stock0.95mm stake differs from selected1201.20mm; not exact OEM-selected-part geometry"
+  },
+  "old_MCAD_datums": {
+    "builder": "tools/build_charging_dock.py",
+    "builder_sha256": "111e1e2679034ae06a27cb1dc6009ea9796bb80d37b61976af459a9086920354",
+    "PCB_bottom_top_mm": [
+      5.4,
+      6.4
+    ],
+    "window_bottom_Z_mm": 5.1,
+    "meaning": "window bottom is not connector seating datum"
+  },
+  "new_USB_transform": {
+    "reference": "J101",
+    "native_origin_mm": [
+      100,
+      201.325
+    ],
+    "native_angle_deg": 0,
+    "mating_face_dock_mm": [
+      0,
+      -5
+    ],
+    "manufacturer_front_relative_footprint_mm": [
+      0,
+      3.675
+    ],
+    "face_direction_dock": [
+      0,
+      -1,
+      0
+    ],
+    "OEM_body_top_z_mm": 9.71,
+    "selected_120_stake_bottom_z_mm": 5.2,
+    "existing_window_bottom_z_mm": 5.1,
+    "stock_KiCad_STEP_stake_mm": 0.95,
+    "selected_stake_mm": 1.2,
+    "source": "https://gct.co/files/drawings/usb4105.pdf Rev B4 2023-12-18",
+    "note": "5.1mm is old enclosure-window bottom, not socket-body bottom. Stock STEP has0.95mm stakes; selected120 has1.20mm. Native footprint face maps through Y inversion; STEP model uses+Y opposite nativePCB+Y."
+  },
+  "source_pad_drill_geometry_unchanged": true,
+  "derived_library_changes": {
+    "J101": "two F.SilkS outer vertical ends3.25\u21922.475mm, no copper/fab/drill change",
+    "J102": "manual-land courtyard1.5\u21921.0mm, no copper/fab/drill change"
+  },
+  "physical_mating_qualified": false
+}

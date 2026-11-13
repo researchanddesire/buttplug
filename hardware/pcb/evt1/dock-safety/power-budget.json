@@ -1,0 +1,161 @@
+{
+  "status": "prototype circuit arithmetic; full PVT/suspend/inrush and physical acceptance pending",
+  "builder_sha256": "64ef4613832311ba0a80003773111ead8cf7f620b3f27e25fcad8324f0be5ccc",
+  "stable_source_budget_sha256": "8b01070698cdf513900b2fcc2ce8afb39eeaa33762fcb6f58bd56a297a3b87fa",
+  "steady_state_only": true,
+  "source_power_budget_json_unchanged": true,
+  "supersedes_fields_in_dock_ui_power_budget": [
+    "dock_overhead.allocated_items",
+    "UV_modules.minimum_driver_input_V",
+    "qualified_total_including_contactloops"
+  ],
+  "device_default_allocation_mA": 70,
+  "device_qualified_allocation_mA": 630,
+  "dock_UI_overhead_allocation_mA": 10,
+  "dock_UI_items": [
+    {
+      "name": "MCU Flash workload and active peripheral allocation at4.2MHz",
+      "allocation_mA": 2.0
+    },
+    {
+      "name": "LCD including contrast chargepump allocation",
+      "allocation_mA": 1.5
+    },
+    {
+      "name": "three button loads including source R127/MAX6816,rawCENTER and clock pulls",
+      "allocation_mA": 1.3
+    },
+    {
+      "name": "LCD eight data100k pulldowns",
+      "allocation_mA": 0.28
+    },
+    {
+      "name": "two NTC10k pullups",
+      "allocation_mA": 0.35
+    },
+    {
+      "name": "statusLED including resistor tolerance",
+      "allocation_mA": 0.6
+    },
+    {
+      "name": "ADS1115 published continuousconversion max",
+      "allocation_mA": 0.3
+    },
+    {
+      "name": "source TUSB/LDO and safety logic/supervisors/watchdog allocation",
+      "allocation_mA": 1.5
+    },
+    {
+      "name": "fault/PG/CC and logic/output pulls including UVFET gates",
+      "allocation_mA": 1.0
+    },
+    {
+      "name": "dynamic/leakage reserve",
+      "allocation_mA": 1.17
+    }
+  ],
+  "not_vendor_guaranteed": [
+    "TUSB320 max Icc not published",
+    "LCD max specified only25C",
+    "complete10mA allocation requires actual assembledmeasurement",
+    "TPS61165 2.3mA Iq is typical, not a published maximum",
+    "70percent boost efficiency requires qualification at actual voltage/load/temperature"
+  ],
+  "contact_loops": {
+    "source": "HOST_5V through U602TPS22919 enabledonlySOURCE_OK",
+    "legacy_disabled": true,
+    "series_pull_ohm": 430,
+    "tolerance": 0.01,
+    "each_min_at4p5V_mA": 10.36150126640571,
+    "each_max_at5p25V_mA": 12.332628611698379,
+    "qualified_total_max_mA": 24.665257223396758,
+    "primary_rating": "Sensata6700 lowlevel0.010A at5VDC for100000cycles; not a4.5..5.25V guarantee",
+    "qualification_pending": "Actual4.5..5.25V switching/contact resistance/leakage/life must be qualified; no vendor drycircuit guarantee claimed"
+  },
+  "UV_limiter_min_mA": 682.5446766323497,
+  "UV_limiter_max_mA": 819.7791533482316,
+  "qualified_source_worst_sum_mA": 1484.4444105716284,
+  "margin_to1p5A_mA": 15.555589428371604,
+  "normal_qualified_source_total_at_UV_floor_mA": 1315.2801626521914,
+  "UV_normal_design": {
+    "RSET_mpn": "CRCW08053R65FKEA",
+    "RSET_ohm": 3.65,
+    "LED_current_min_mA": 52.645715820574814,
+    "LED_current_nominal_mA": 54.79452054794521,
+    "LED_current_max_mA": 57.03103159071848,
+    "Vout_ceiling_V": 16.204,
+    "LED_power_total_W": 1.8482616717920044,
+    "bleeder_and_divider_power_total_W": 0.005801106788635418,
+    "VIN_floor_V": 4.1,
+    "efficiency_floor_assumption": 0.7,
+    "driver_Iq_total_mA": 4.6,
+    "driver_Iq_basis": "Two2.3mA datasheettypicals; actualworstcase requiresqualification",
+    "input_required_mA": 650.6149054287945,
+    "minimum_limiter_margin_mA": 31.92977120355522,
+    "minimum_efficiency_to_stay_below_limiter_at_floor": 0.6670314693619025,
+    "primary_driver_input_range_V": [
+      3,
+      18
+    ],
+    "primary_driver_source": "https://www.ti.com/lit/ds/symlink/tps61165.pdf RevE sections7.4/10",
+    "efficiency_Vf_and_FETdrop_require_measurement": true
+  },
+  "UV_path_resistance": {
+    "common_switch_Rmax_ohm": 0.165,
+    "common_PCB_supply_plus_return_max_ohm": 0.05,
+    "each_branch_supply_plus_return_max_ohm": 0.29,
+    "common_PCB_boundary": "Full supply+return PCB copper fromUSBinputVBUS/GND pads through externalsource/UVswitch copper toJ621/J622 branchlands, including sharedHOST/GND necks/planes/vias overtemperature; excludes semiconductorRON and branchconnectors/harness/localUVPCB",
+    "common_PCB_current_boundary": "Conservatively apply the entire50mOhm commonPCB allowance at full qualified source current: UV plus630mA device,10mA UI and bothcontactloops; a measured segment split may refine thisbound",
+    "branch_includes": [
+      "all four mated GH electrical contacts, total up to0.200ohm after testing",
+      "crimps",
+      "supply and return wire",
+      "local PCB copper",
+      "temperature and aging"
+    ],
+    "branch_resistance_allocations_ohm": {
+      "four_mated_contacts_aftertest": 0.2,
+      "four_crimp_joints": 0.01,
+      "PCB_supply_and_return_including_vias_attemperature": 0.02,
+      "wire_supply_and_return_attemperature": 0.06
+    },
+    "wire": {
+      "gauge": "26AWG stranded",
+      "incoming_max_resistance_ohm_per_m_at20C": 0.135,
+      "conductor_max_C": 80,
+      "copper_TCR_per_K": 0.00393,
+      "power_wire_each_leg_max_mm": 175,
+      "supply_plus_return_max_length_mm": 350,
+      "calculated_hot_wire_max_ohm": 0.05839155,
+      "actual_wire_and_crimp_qualification": false
+    },
+    "qualification_current_total_mA": 650.6149054287945,
+    "qualification_current_total_boundary": "UV-only total; sharedPCBusesfullsourcecurrentbelow",
+    "qualification_current_each_mA": 325.30745271439724,
+    "common_PCB_qualification_current_mA": 1315.2801626521914,
+    "UV_switch_qualification_current_mA": 650.6149054287945,
+    "each_branch_qualification_current_mA": 325.30745271439724,
+    "DC_drop_V": {
+      "common_PCB_at_full_source_current": 0.06576400813260957,
+      "switches_at_UV_current": 0.1073514593957511,
+      "each_branch_at_half_UV_current": 0.0943391612871752,
+      "sum": 0.26745462881553583
+    },
+    "floor_from4p5V_V": 4.232545371184464,
+    "normal_maximum_load_floor_from4p5V_V": 4.232545371184464,
+    "DC_headroom_above_driver_floor_V": 0.13254537118446397,
+    "not_maintained_at_fault_currentlimit": true,
+    "no_wire_only_allocation": true,
+    "branch_symmetry_required_or_recalculate": true,
+    "acceptance": "Measure actual hot-aged commonPCB supply+return path and each complete branch. Require bothdriverVIN>=4.10V throughout validatednormaloperation/transients atminimum4.5V dockinput; measureboostefficiency>=70percent andactualIq/Vf/currentlimits. DCheadroom isnot ripple/startupmargin. DefaultRp disablesUV."
+  },
+  "release_gates": [
+    "PCB layout/nativeDRC and actualpad/netlist parity",
+    "effective Cout>=1uF at39V,temp,age andloop stability",
+    "full UI10mA,currentlimit,USBsuspend/inrush/sourcechanges",
+    "actualcontactloop load range and thermal attachment",
+    "UV opticaltail/leakage/dose/efficacy and thermal/materialaging"
+  ],
+  "physical_validation": false,
+  "full_product_order_ready": false
+}

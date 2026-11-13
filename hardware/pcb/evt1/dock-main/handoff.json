@@ -1,0 +1,55 @@
+{
+  "status": "frozen routed main input manifest; final authoritative source/pad status is native-checks.json",
+  "board_file": "dock-main.kicad_pcb",
+  "board_sha256": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+  "electrical_references": 150,
+  "mechanical_mounts": 6,
+  "package_model_positions": 138,
+  "copper_only_positions": 12,
+  "source_copper_items": 192,
+  "main_critical_copper_items": 207,
+  "remaining_authored_fanout_items": 58,
+  "native_DRC_observed": [
+    0,
+    0
+  ],
+  "native_DRC_sha256": "8d39105c884759789c952b399b02caf605ae9cca8764bc78d372efb0873e1a62",
+  "MCAD_snapshot": "dock-main-MCAD-placement.kicad_pcb",
+  "MCAD_snapshot_sha256": "fe4e33675675ad068e8b8b114f9128b161d94eb7afd8538dcab9db65b91fe43a",
+  "MCAD_parity_sha256": "9c2adac73bd8ebc2cae851bd13c2a5a8af74f313e5d68b9b4f0edbbff0b2051b",
+  "MCAD_geometry": "pcbX-100,200-pcbY; Fnormal+dockZ; bboxcentre100,168\u2192dock0,32; bottom/top5.4/6.4",
+  "final_model_coverage_sha256": "03d7a541ea4c49e29f7a718916b2395cf7d7715f5131b5d2ecd1b96e79dfff3b",
+  "mfg_spec_sha256": "f183d300b64ff863ec2fc756a0591e30452581811f8c0634a6245ad386092863",
+  "build_constraints_sha256": "fa01e6c2602177eea0eca9eb9416f044a75ec69055839355006823ec58b3adcd",
+  "final_DC_study_sha256": "55826162b83e763d512cabf71aa8273571f680b590c49dae02bb01b96f3c858c",
+  "minimum_process_corner_estimates_ohm": [
+    {
+      "branch": "BASE",
+      "outer_Cu_min_mm": 0.035,
+      "inner_Cu_min_mm": 0.03,
+      "via_finished_bore_min_mm": 0.15,
+      "via_wall_min_mm": 0.025,
+      "temperature_C": 85,
+      "surface_width_retention": 0.8,
+      "engineering_model_reserve_ohm": 0.003,
+      "estimated_common_PCB_R_ohm": 0.048844279125555966,
+      "margin_to50mOhm_ohm": 0.001155720874444037
+    },
+    {
+      "branch": "LID",
+      "outer_Cu_min_mm": 0.035,
+      "inner_Cu_min_mm": 0.03,
+      "via_finished_bore_min_mm": 0.15,
+      "via_wall_min_mm": 0.025,
+      "temperature_C": 85,
+      "surface_width_retention": 0.8,
+      "engineering_model_reserve_ohm": 0.003,
+      "estimated_common_PCB_R_ohm": 0.04848838040637435,
+      "margin_to50mOhm_ohm": 0.0015116195936256543
+    }
+  ],
+  "source_and_supplier_acceptance": false,
+  "physical_validation": false,
+  "fabrication_release": false,
+  "root_followup": "Consolidated ordering artifact must use exact150main +lid/UV/pins selected native positions; humanhardware/bom.csv untouched"
+}

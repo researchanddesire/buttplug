@@ -1,0 +1,253 @@
+{
+  "audit_state": "Read-only source audit and private proposal only. No firmware/PCB mutation, device measurement, safety qualification or contact-isolation claim.",
+  "IDF_version": "5.5.3",
+  "upstream_tag": "v5.5.3",
+  "exact_official_source_comparisons": [
+    {
+      "IDF_relative_path": "components/hal/esp32c3/include/hal/usb_serial_jtag_ll.h",
+      "primary_URL": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5.3/components/hal/esp32c3/include/hal/usb_serial_jtag_ll.h",
+      "official_SHA256": "bee8fb6275878af2b62a0a967a45ed843ac0f05a38c2172c42432bac52de18ce",
+      "installed_SHA256": "bee8fb6275878af2b62a0a967a45ed843ac0f05a38c2172c42432bac52de18ce",
+      "exact_match": true
+    },
+    {
+      "IDF_relative_path": "components/hal/esp32c3/include/hal/gpio_ll.h",
+      "primary_URL": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5.3/components/hal/esp32c3/include/hal/gpio_ll.h",
+      "official_SHA256": "a0a6de23abf6afd333bedc5f5ce127c98e391fcbc3b6e61f8ceb5307cb2367cb",
+      "installed_SHA256": "a0a6de23abf6afd333bedc5f5ce127c98e391fcbc3b6e61f8ceb5307cb2367cb",
+      "exact_match": true
+    },
+    {
+      "IDF_relative_path": "components/soc/esp32c3/register/soc/usb_serial_jtag_reg.h",
+      "primary_URL": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5.3/components/soc/esp32c3/register/soc/usb_serial_jtag_reg.h",
+      "official_SHA256": "95f3e77503afc172908377fa1f749f3da40c01a4f62bb762281208b3e826a5a0",
+      "installed_SHA256": "95f3e77503afc172908377fa1f749f3da40c01a4f62bb762281208b3e826a5a0",
+      "exact_match": true
+    },
+    {
+      "IDF_relative_path": "components/esp_hw_support/sleep_console.c",
+      "primary_URL": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5.3/components/esp_hw_support/sleep_console.c",
+      "official_SHA256": "51252958a1df993fdbe244e1a70047b8fbbd347469063e90335f99ee73709d03",
+      "installed_SHA256": "51252958a1df993fdbe244e1a70047b8fbbd347469063e90335f99ee73709d03",
+      "exact_match": true
+    },
+    {
+      "IDF_relative_path": "components/esp_hw_support/sleep_modes.c",
+      "primary_URL": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5.3/components/esp_hw_support/sleep_modes.c",
+      "official_SHA256": "f536a6d3f18075f88acf161dfa8821a2c340cacad5a37517e089c354317a343d",
+      "installed_SHA256": "f536a6d3f18075f88acf161dfa8821a2c340cacad5a37517e089c354317a343d",
+      "exact_match": true
+    },
+    {
+      "IDF_relative_path": "components/esp_system/port/soc/esp32c3/clk.c",
+      "primary_URL": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5.3/components/esp_system/port/soc/esp32c3/clk.c",
+      "official_SHA256": "57e63eb06506a7cf94b28d538a92f534ecadfe420cf5366d7886152b71e3b02a",
+      "installed_SHA256": "57e63eb06506a7cf94b28d538a92f534ecadfe420cf5366d7886152b71e3b02a",
+      "exact_match": true
+    },
+    {
+      "IDF_relative_path": "components/bootloader_support/src/bootloader_console.c",
+      "primary_URL": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5.3/components/bootloader_support/src/bootloader_console.c",
+      "official_SHA256": "3b735a187e3fc7bd92bfc0861a11a7d78159f259759e5af1c84bd7c85ede1830",
+      "installed_SHA256": "3b735a187e3fc7bd92bfc0861a11a7d78159f259759e5af1c84bd7c85ede1830",
+      "exact_match": true
+    },
+    {
+      "IDF_relative_path": "components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c",
+      "primary_URL": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5.3/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c",
+      "official_SHA256": "e26ed1445fc0b2340e2f7505d8a625bd6498961dfb893a28a5c89996a723ff98",
+      "installed_SHA256": "e26ed1445fc0b2340e2f7505d8a625bd6498961dfb893a28a5c89996a723ff98",
+      "exact_match": true
+    },
+    {
+      "IDF_relative_path": "components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c",
+      "primary_URL": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5.3/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c",
+      "official_SHA256": "58779a75668f9d253a7f0ea0c8a7bbb194204a41b8979b98b7261c1954c5d29d",
+      "installed_SHA256": "58779a75668f9d253a7f0ea0c8a7bbb194204a41b8979b98b7261c1954c5d29d",
+      "exact_match": true
+    },
+    {
+      "IDF_relative_path": "components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c",
+      "primary_URL": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5.3/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c",
+      "official_SHA256": "fa671482d75c98f8ef694b816e1b5b8719f49d98696aecbcdafae93a859071da",
+      "installed_SHA256": "fa671482d75c98f8ef694b816e1b5b8719f49d98696aecbcdafae93a859071da",
+      "exact_match": true
+    }
+  ],
+  "source_snapshots": [
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/firmware/main/evt_console.c",
+      "SHA256": "f25776bb50d3dd9d1c2496895a5312bd2dc7ef986b1ffbb2ce60d82ecaf188d1"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/firmware/main/evt_console.h",
+      "SHA256": "3d7624843e416c964860d96f469b4d846e7061b4775ac464d3aea71d65e683ba"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/firmware/main/main.c",
+      "SHA256": "eae27ee8cb65b53173d8d4c4bcd4fa4605f4a244a9db8ca3f70523e32d4de179"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/firmware/main/Kconfig.projbuild",
+      "SHA256": "2313f2f3fecd9eee616e820e144c7f494538d4e38e2affcb98875613df527060"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/firmware/sdkconfig.evt1",
+      "SHA256": "e1ed2fe57a4040a38d2ab045af0784fcff7df62ea7a411ebeca561396e1be9f2"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/firmware/sdkconfig.defaults",
+      "SHA256": "ae3054a8fb78762affdb53da8ba063f4f81ea8283f6706bde765c064cbb8b4e9"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/firmware/platformio.ini",
+      "SHA256": "ebb7539a52032f63767e3058cd75a0c8b118cf01d8f93088e5869fb65987da31"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/flange/flange-native.xml",
+      "SHA256": "9c0d169c366faefc82ea75a587081153268920bf3501967db7871bdeef5ace94"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/body/body-native.xml",
+      "SHA256": "c3d8482b08b67be70ab82b612c3b99c2ac6012e765f1fe9419d0106f707c945a"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/flange/flange-evt1.kicad_sch",
+      "SHA256": "1e6b6971a842a0ebcaeacbe347867abfdc26b4db7b86189400eff039ad4c0dbc"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/hal/esp32c3/include/hal/usb_serial_jtag_ll.h",
+      "SHA256": "bee8fb6275878af2b62a0a967a45ed843ac0f05a38c2172c42432bac52de18ce"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/hal/esp32c3/include/hal/gpio_ll.h",
+      "SHA256": "a0a6de23abf6afd333bedc5f5ce127c98e391fcbc3b6e61f8ceb5307cb2367cb"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/soc/esp32c3/register/soc/usb_serial_jtag_reg.h",
+      "SHA256": "95f3e77503afc172908377fa1f749f3da40c01a4f62bb762281208b3e826a5a0"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/esp_hw_support/sleep_console.c",
+      "SHA256": "51252958a1df993fdbe244e1a70047b8fbbd347469063e90335f99ee73709d03"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/esp_hw_support/sleep_modes.c",
+      "SHA256": "f536a6d3f18075f88acf161dfa8821a2c340cacad5a37517e089c354317a343d"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/esp_system/port/soc/esp32c3/clk.c",
+      "SHA256": "57e63eb06506a7cf94b28d538a92f534ecadfe420cf5366d7886152b71e3b02a"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/bootloader_support/src/bootloader_console.c",
+      "SHA256": "3b735a187e3fc7bd92bfc0861a11a7d78159f259759e5af1c84bd7c85ede1830"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c",
+      "SHA256": "e26ed1445fc0b2340e2f7505d8a625bd6498961dfb893a28a5c89996a723ff98"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c",
+      "SHA256": "58779a75668f9d253a7f0ea0c8a7bbb194204a41b8979b98b7261c1954c5d29d"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c",
+      "SHA256": "fa671482d75c98f8ef694b816e1b5b8719f49d98696aecbcdafae93a859071da"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/version.txt",
+      "SHA256": "b473c8e2ed91b38d7e96e54d4ce094474ca6015c0641b7cdfc0ab94b1f8b4668"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/esp_driver_usb_serial_jtag/Kconfig",
+      "SHA256": "8ef250dc1ab81bb2646a21234a6184945a8a4baa024473a30198c4b237f128ea"
+    },
+    {
+      "path": "/Users/lucianchapar/.platformio/packages/framework-espidf/components/soc/esp32c3/include/soc/soc_caps.h",
+      "SHA256": "1ce1653bf99363fe4f3322fad7537c3cb29f7e3248aa41c4312bfc46718528df"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/flange/07-recovery.kicad_sch",
+      "SHA256": "e2de3e53acd6560b0482053618c2b53147f99ebb6e1858cad9cb3db6d21bfdf1"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/flange/03-control.kicad_sch",
+      "SHA256": "6be4c84e9902f69f8099ceb2c76bc556e9323529f783d6580e80a5b7db62f6cf"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/flange/01-power.kicad_sch",
+      "SHA256": "c016c9aa23914e11c54fd1880b80136282131cda2bca4dd50a5f6784732e2b0b"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/flange/06-interboard.kicad_sch",
+      "SHA256": "13634211212f16554640b721e97d5a964e9f22e1bab355f5242c1a07d19305e6"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/body/01-power.kicad_sch",
+      "SHA256": "7df99f13e91ef7bb0ddcdf6dab2a70ef7afc8f72afce0907b9f634e50ca2be08"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/body/05-charge-guard.kicad_sch",
+      "SHA256": "399db55afdee82fa7a511fad911bcea51af7b9ce0f809e0c150db03facb4e3c8"
+    },
+    {
+      "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/native-checks.json",
+      "SHA256": "69fba275e78c55f1119f8ed07af6090dfb27dc8ed480d82e0db455c9fa605510"
+    }
+  ],
+  "output_reports": {
+    "AUDIT.md": {
+      "SHA256": "ce58b589d8826cbc7d5198ac995c56faeb878ac96acd3f2ca1f846269a9dd55c",
+      "bytes": 6905
+    },
+    "PRIVATE_PROPOSAL.md": {
+      "SHA256": "abad3d9066ac2c36a1ea0de676e59ba674f226fca931b60a75d1aa7c434007b6",
+      "bytes": 4649
+    }
+  },
+  "measured_contact_voltage_or_leakage": null,
+  "firmware_or_PCB_changed": false,
+  "source_hashes_unchanged_during_report_freeze": true,
+  "findings": {
+    "native_USB_DP": {
+      "MCU": "U6",
+      "module_pad": "27",
+      "GPIO": 19,
+      "series_resistor": "R76",
+      "series_ohms": 22,
+      "contact": "J1.3"
+    },
+    "native_USB_DM": {
+      "MCU": "U6",
+      "module_pad": "26",
+      "GPIO": 18,
+      "series_resistor": "R75",
+      "series_ohms": 22,
+      "contact": "J1.2"
+    },
+    "DOCK_N": {
+      "GPIO": 20,
+      "module_pad": "30",
+      "active_level": 0,
+      "native_net": "DOCK_PRESENT_N",
+      "semantics": "BQ24074 power-good, not mechanical closure"
+    },
+    "reset_register_defaults": {
+      "USB_PAD_ENABLE": 1,
+      "DP_PULLUP": 1,
+      "DM_PULLUP": 0,
+      "PAD_PULL_OVERRIDE": 0
+    },
+    "current_app_disconnects_USB_when_undocked": false,
+    "driver_uninstall_disables_USB_pads": false,
+    "firmware_only_policy_covers_ROM_reset": false,
+    "light_sleep_documentation_source_discrepancy_recorded": true,
+    "physical_current_voltage_or_isolation_qualification": false
+  },
+  "primary_sources_not_mirrored_into_repository": [
+    "https://docs.espressif.com/projects/esp-idf/en/v5.5.3/esp32c3/api-guides/usb-serial-jtag-console.html",
+    "https://docs.espressif.com/projects/esptool/en/latest/esp32c3/advanced-topics/boot-mode-selection.html",
+    "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+  ]
+}

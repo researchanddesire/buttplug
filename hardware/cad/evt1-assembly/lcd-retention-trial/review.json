@@ -1,0 +1,70 @@
+{
+  "native_sha256": "324c1bf695388c44b33b2b04952df54d929efc825d6596fece1c9ee4e81cffe6",
+  "builder_sha256": "4ffd5ea933f9f6b63fc0e23873f2b3a167bec2d61647e68bea7aa0db920b55d3",
+  "status": "firstcompliantLCDcoupon; physicalqualificationpending",
+  "received_stack": {
+    "measured_local_LCD_depth_mm": 1.8,
+    "measured_free_total_foam_mm": 0.75,
+    "measured_PET_layer_mm": 0.0508,
+    "PET_layers_each": 9,
+    "PET_stack_mm": 0.4572,
+    "local_front_face_Z_mm": 68.8,
+    "front_gap_mm": 0.5625,
+    "rear_gap_mm": 0.5427999999999997,
+    "front_compression_fraction": 0.25,
+    "rear_compression_fraction": 0.276266666666667,
+    "equal_spring_linear_float_estimate_mm": 0.009850000000000136,
+    "CFD25percent_nominal_reference_force_N": 0.08975999999999999,
+    "force_or_glass_stress_not_validated": true
+  },
+  "feature_dimensions": {
+    "shared_mounts": [
+      [
+        -34.5,
+        69
+      ],
+      [
+        34.5,
+        69
+      ],
+      [
+        -13,
+        105
+      ],
+      [
+        13,
+        105
+      ]
+    ],
+    "ear_floor_Z_mm": 66,
+    "ear_top_Z_mm": 67.7,
+    "unchanged_head_Z_mm": 64,
+    "rear_pad_platform_Z_mm": 66,
+    "front_pad_pocket_floor_Z_mm": 69.3625,
+    "nominal_pad_gap_mm": 0.5625,
+    "face_pad_X_abs_mm": [
+      22.5,
+      23.7
+    ],
+    "face_pad_Y_mm": [
+      76,
+      98
+    ],
+    "no_edge_preload": true,
+    "no_adhesive_credit": true
+  },
+  "selected_LCD_SHA256": "6fd8053ab7961345e04773c4d3113529df448efd5a68a5c6cf82d61366dba662",
+  "display_builder_sha256": "54cc9ba96bd4ade34bc43983c7242d6761dc84b309e70a1aa159a5069d14fc0c",
+  "display_source_manifest_sha256": "46b92be7852739e17d7f10bd88783e2926b67344b68c28542e20f879f9806886",
+  "printed_bodies": [
+    "RoofCoupon",
+    "BezelCoupon",
+    "LCDRetentionLeftCarrier",
+    "LCDRetentionRightCarrier"
+  ],
+  "master_edited": false,
+  "adhesive_credited": false,
+  "glass_force_or_mura_validated": false,
+  "published_LCD_minimum_depth_assumed": false,
+  "physical_validation": false
+}

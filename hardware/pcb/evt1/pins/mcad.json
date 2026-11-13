@@ -1,0 +1,341 @@
+{
+  "board_sha256": "3faea1fc2400a41d702ec16b7dd0f9865fa4372babbb825ed40c61603e8f49fa",
+  "board_file": "hardware/pcb/evt1/pins/pins-evt1.kicad_pcb",
+  "outline_xy_mm": [
+    [
+      0,
+      0
+    ],
+    [
+      28,
+      0
+    ],
+    [
+      28,
+      10
+    ],
+    [
+      0,
+      10
+    ]
+  ],
+  "thickness_mm": 1.0,
+  "components": [
+    {
+      "ref": "P94",
+      "fab_bounds_xy_mm": [
+        21.0356,
+        5.7356,
+        22.9644,
+        7.6644
+      ],
+      "height_budget_mm": 1.6
+    },
+    {
+      "ref": "P92",
+      "fab_bounds_xy_mm": [
+        9.0356,
+        5.7356,
+        10.9644,
+        7.6644
+      ],
+      "height_budget_mm": 1.6
+    },
+    {
+      "ref": "P93",
+      "fab_bounds_xy_mm": [
+        15.0356,
+        5.7356,
+        16.9644,
+        7.6644
+      ],
+      "height_budget_mm": 1.6
+    },
+    {
+      "ref": "P91",
+      "fab_bounds_xy_mm": [
+        3.0356,
+        5.7356,
+        4.9644,
+        7.6644
+      ],
+      "height_budget_mm": 1.6
+    }
+  ],
+  "holes": [
+    {
+      "ref": "P94",
+      "number": "1",
+      "xy_mm": [
+        22.0,
+        6.7
+      ],
+      "drill_xy_mm": [
+        0.6,
+        0.6
+      ],
+      "angle_deg": 0.0
+    },
+    {
+      "ref": "P92",
+      "number": "1",
+      "xy_mm": [
+        10.0,
+        6.7
+      ],
+      "drill_xy_mm": [
+        0.6,
+        0.6
+      ],
+      "angle_deg": 0.0
+    },
+    {
+      "ref": "P93",
+      "number": "1",
+      "xy_mm": [
+        16.0,
+        6.7
+      ],
+      "drill_xy_mm": [
+        0.6,
+        0.6
+      ],
+      "angle_deg": 0.0
+    },
+    {
+      "ref": "P91",
+      "number": "1",
+      "xy_mm": [
+        4.0,
+        6.7
+      ],
+      "drill_xy_mm": [
+        0.6,
+        0.6
+      ],
+      "angle_deg": 0.0
+    }
+  ],
+  "routes": [
+    {
+      "kind": "track",
+      "net": "DOCK_5V",
+      "start": [
+        15.0,
+        8.5
+      ],
+      "end": [
+        20.2,
+        8.5
+      ],
+      "width_mm": 0.2,
+      "layer": "B.Cu"
+    },
+    {
+      "kind": "track",
+      "net": "DOCK_5V",
+      "start": [
+        20.2,
+        8.5
+      ],
+      "end": [
+        22.0,
+        6.7
+      ],
+      "width_mm": 0.2,
+      "layer": "B.Cu"
+    },
+    {
+      "kind": "track",
+      "net": "DOCK_DM",
+      "start": [
+        10.0,
+        8.5
+      ],
+      "end": [
+        10.0,
+        6.7
+      ],
+      "width_mm": 0.2,
+      "layer": "B.Cu"
+    },
+    {
+      "kind": "track",
+      "net": "DOCK_DP",
+      "start": [
+        12.5,
+        8.5
+      ],
+      "end": [
+        14.3,
+        6.7
+      ],
+      "width_mm": 0.2,
+      "layer": "B.Cu"
+    },
+    {
+      "kind": "track",
+      "net": "DOCK_DP",
+      "start": [
+        14.3,
+        6.7
+      ],
+      "end": [
+        16.0,
+        6.7
+      ],
+      "width_mm": 0.2,
+      "layer": "B.Cu"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "xy_mm": [
+        25.5,
+        8.5
+      ],
+      "diameter_mm": 0.6
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "xy_mm": [
+        6.0,
+        8.5
+      ],
+      "diameter_mm": 0.6
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        7.5,
+        8.5
+      ],
+      "end": [
+        5.8,
+        8.5
+      ],
+      "width_mm": 0.2,
+      "layer": "B.Cu"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        5.8,
+        8.5
+      ],
+      "end": [
+        4.0,
+        6.7
+      ],
+      "width_mm": 0.2,
+      "layer": "B.Cu"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        6.0,
+        8.5
+      ],
+      "end": [
+        7.5,
+        8.5
+      ],
+      "width_mm": 0.2,
+      "layer": "B.Cu"
+    }
+  ],
+  "pads": [
+    {
+      "ref": "P94",
+      "number": "1",
+      "net": "DOCK_5V",
+      "xy_mm": [
+        22.0,
+        6.7
+      ],
+      "front": true,
+      "back": true
+    },
+    {
+      "ref": "P92",
+      "number": "1",
+      "net": "DOCK_DM",
+      "xy_mm": [
+        10.0,
+        6.7
+      ],
+      "front": true,
+      "back": true
+    },
+    {
+      "ref": "P93",
+      "number": "1",
+      "net": "DOCK_DP",
+      "xy_mm": [
+        16.0,
+        6.7
+      ],
+      "front": true,
+      "back": true
+    },
+    {
+      "ref": "P91",
+      "number": "1",
+      "net": "GND",
+      "xy_mm": [
+        4.0,
+        6.7
+      ],
+      "front": true,
+      "back": true
+    },
+    {
+      "ref": "J94",
+      "number": "1",
+      "net": "GND",
+      "xy_mm": [
+        7.5,
+        8.5
+      ],
+      "front": false,
+      "back": true
+    },
+    {
+      "ref": "J94",
+      "number": "2",
+      "net": "DOCK_DM",
+      "xy_mm": [
+        10.0,
+        8.5
+      ],
+      "front": false,
+      "back": true
+    },
+    {
+      "ref": "J94",
+      "number": "3",
+      "net": "DOCK_DP",
+      "xy_mm": [
+        12.5,
+        8.5
+      ],
+      "front": false,
+      "back": true
+    },
+    {
+      "ref": "J94",
+      "number": "4",
+      "net": "DOCK_5V",
+      "xy_mm": [
+        15.0,
+        8.5
+      ],
+      "front": false,
+      "back": true
+    }
+  ]
+}

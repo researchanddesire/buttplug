@@ -1,0 +1,3814 @@
+{
+  "status": "all138 physical package positions have local STEP;12 copper-only positions correctly omit purchased-body models",
+  "board_before_sha256": "0038a0076aeba83d6d42fd8be251fc0d33b637275d75facee1fa6460c4a25da6",
+  "board_after_sha256": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+  "electrical_references": 150,
+  "physical_model_positions": 138,
+  "copper_only_positions": 12,
+  "all_other_board_tokens_exact": true,
+  "references": [
+    {
+      "reference": "R224",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C623",
+      "source_footprint": "DockSafety:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R605",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U615",
+      "source_footprint": "DockSafety:TSSOP-14_4.4x5mm_P0.65mm",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+        "model_sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U124",
+      "source_footprint": "DockUI:SOT-23-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-23-6.step",
+        "model_sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R127",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "TP606",
+      "source_footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "C111",
+      "source_footprint": "DockUI:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R202",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R129",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "J602",
+      "source_footprint": "DockSafety:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal.step",
+        "model_sha256": "5a6b7dc9f24b3e12dafe0a70189e9b9102689f2fb2b2866ad35fa8605756ca8a",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R120",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U607",
+      "source_footprint": "DockSafety:SOT-23-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-23-6.step",
+        "model_sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U609",
+      "source_footprint": "DockSafety:TSSOP-14_4.4x5mm_P0.65mm",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+        "model_sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R618",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C211",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U121",
+      "source_footprint": "DockUI:SOT-23-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-23-6.step",
+        "model_sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R132",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "J102",
+      "source_footprint": "DockUI:Contact_Loom_4Land",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "C622",
+      "source_footprint": "DockSafety:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C203",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C608",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C209",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R617",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R209",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R610",
+      "source_footprint": "DockSafety:R_0805_2012Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0805_2012Metric.step",
+        "model_sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R214",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U611",
+      "source_footprint": "DockSafety:Texas_RXP0008A_1.25x1.5mm_Asymmetric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/TPS22992_RXP8.step",
+        "model_sha256": "3245eca30677e513bbf8eafb0ebc470cef67336d98d34022dcd5a9027190359b",
+        "classification": "selected primary-dimensional reconstruction",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C110",
+      "source_footprint": "DockUI:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R206",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C610",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R221",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "TP601",
+      "source_footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "U202",
+      "source_footprint": "DockControl:VSSOP-10_3x3mm_P0.5mm",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/VSSOP-10_3x3mm_P0.5mm.step",
+        "model_sha256": "24fb2bd055d0d988ec8582e8a5f473ecf890c4d247091414c8b38e75833411d0",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "J202",
+      "source_footprint": "DockControl:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "J201",
+      "source_footprint": "DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal.step",
+        "model_sha256": "b394b3277738e505a3b95dadb5f2b1a005a112860fc541f52d1ab5f42b472ae3",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C202",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R207",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "Q103",
+      "source_footprint": "DockUI:SOT-23",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-23.step",
+        "model_sha256": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R612",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "D201",
+      "source_footprint": "DockControl:LED_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/LED_0603_1608Metric.step",
+        "model_sha256": "98343205ec260ec165026ba2d44329a23096779ac36c553ea84aa7b370242e6d",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R604",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "TP201",
+      "source_footprint": "DockControl:TestPoint_Pad_D1.0mm",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "U612",
+      "source_footprint": "DockSafety:TSSOP-14_4.4x5mm_P0.65mm",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+        "model_sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C612",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R226",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R606",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C105",
+      "source_footprint": "DockUI:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R203",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U105",
+      "source_footprint": "DockUI:SOT-23-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-23-6.step",
+        "model_sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "TP604",
+      "source_footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "J101",
+      "source_footprint": "DockUI:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/USB4105-GF-A-120.step",
+        "model_sha256": "a106e6a6174145e6294191979648fe78dc39bfb451c034132f26a47c9bfabb98",
+        "classification": "selected1.20mm stake derivative; other family geometry unchanged",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R130",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "TP602",
+      "source_footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "C206",
+      "source_footprint": "DockControl:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R215",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R223",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R601",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U122",
+      "source_footprint": "DockUI:SOT-23-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-23-6.step",
+        "model_sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R126",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R615",
+      "source_footprint": "DockSafety:R_0805_2012Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0805_2012Metric.step",
+        "model_sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R108",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "J601",
+      "source_footprint": "DockSafety:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal.step",
+        "model_sha256": "5a6b7dc9f24b3e12dafe0a70189e9b9102689f2fb2b2866ad35fa8605756ca8a",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R217",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U616",
+      "source_footprint": "DockSafety:SOT-23-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-23-6.step",
+        "model_sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C114",
+      "source_footprint": "DockUI:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U602",
+      "source_footprint": "DockSafety:SOT-363_SC-70-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-363_SC-70-6.step",
+        "model_sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C615",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "J104",
+      "source_footprint": "DockUI:Control_Loom_10Land",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "U114",
+      "source_footprint": "DockUI:SOT-363_SC-70-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-363_SC-70-6.step",
+        "model_sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R121",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C106",
+      "source_footprint": "DockUI:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C112",
+      "source_footprint": "DockUI:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R218",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R122",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U103",
+      "source_footprint": "DockUI:Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/TUSB320_RWB12.step",
+        "model_sha256": "38b1e1657b71a90e605d48f10542c92b39fbfd63d4c1754e7ab89a7cde8d8f8c",
+        "classification": "selected primary-dimensional reconstruction",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R133",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C602",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C210",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R608",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R211",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C102",
+      "source_footprint": "DockUI:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R614",
+      "source_footprint": "DockSafety:R_0805_2012Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0805_2012Metric.step",
+        "model_sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "TP603",
+      "source_footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "C101",
+      "source_footprint": "DockUI:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R220",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R128",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R611",
+      "source_footprint": "DockSafety:R_0805_2012Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0805_2012Metric.step",
+        "model_sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R613",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C201",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C624",
+      "source_footprint": "DockSafety:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C620",
+      "source_footprint": "DockSafety:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C107",
+      "source_footprint": "DockUI:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R131",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C103",
+      "source_footprint": "DockUI:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R125",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "J622",
+      "source_footprint": "DockSafety:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.step",
+        "model_sha256": "38ec5ea738ca3ac47fea2b125a9725bf6c56b3e8ed942df666378dc55b43e322",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U608",
+      "source_footprint": "DockSafety:SOT-143",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-143.step",
+        "model_sha256": "b35b433c0dc71ac416a9c731e744d2e0610f82ebe97275830f0e17cdcbe44512",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C616",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C621",
+      "source_footprint": "DockSafety:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U614",
+      "source_footprint": "DockSafety:SOT-363_SC-70-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-363_SC-70-6.step",
+        "model_sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C204",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C208",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "TP605",
+      "source_footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "C205",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U201",
+      "source_footprint": "DockControl:LQFP-48_7x7mm_P0.5mm",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/LQFP-48_7x7mm_P0.5mm.step",
+        "model_sha256": "4c2330b9a6a0a05852ac6c25463c2168f7fa24276b94f1d6acf2ceed19098622",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R106",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C108",
+      "source_footprint": "DockUI:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C606",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R107",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R603",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R204",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R607",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C104",
+      "source_footprint": "DockUI:C_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0603_1608Metric.step",
+        "model_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R213",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C109",
+      "source_footprint": "DockUI:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C607",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "TP607",
+      "source_footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "U606",
+      "source_footprint": "DockSafety:Texas_DRB0008A_3x3mm_P0.65_EP_Fingers",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/TPS3431_DRB8.step",
+        "model_sha256": "2db2ec8dd946a9b69415853b52f71d2e1cc5180f99936e099a2eb59c534364e0",
+        "classification": "selected primary-dimensional reconstruction",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U610",
+      "source_footprint": "DockSafety:Texas_RXP0008A_1.25x1.5mm_Asymmetric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/TPS22992_RXP8.step",
+        "model_sha256": "3245eca30677e513bbf8eafb0ebc470cef67336d98d34022dcd5a9027190359b",
+        "classification": "selected primary-dimensional reconstruction",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U123",
+      "source_footprint": "DockUI:SOT-23-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-23-6.step",
+        "model_sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C212",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R101",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R123",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R225",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C611",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R619",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R616",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C207",
+      "source_footprint": "DockControl:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R212",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R124",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U104",
+      "source_footprint": "DockUI:Texas_YBH0006-C02_DSBGA-6_1.106x0.706mm_P0.4mm",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/TPS22950_YBH6.step",
+        "model_sha256": "4fe037b9485edd4464a884feb4ec3228b2fbb0ecb2a78a6c21893484765343d8",
+        "classification": "selected primary-dimensional reconstruction",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U102",
+      "source_footprint": "DockUI:TSOT-23-5",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/TSOT-23-5.step",
+        "model_sha256": "5120f0cee43ef7743cc08408d2c12f234fcac7355386e330a3a16f336e23da8d",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C613",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R222",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R205",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R201",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C614",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U120",
+      "source_footprint": "DockUI:SOT-23-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-23-6.step",
+        "model_sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C609",
+      "source_footprint": "DockSafety:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R219",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R208",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R216",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R602",
+      "source_footprint": "DockSafety:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "C113",
+      "source_footprint": "DockUI:C_0402_1005Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/C_0402_1005Metric.step",
+        "model_sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "U613",
+      "source_footprint": "DockSafety:SOT-363_SC-70-6",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/SOT-363_SC-70-6.step",
+        "model_sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "J103",
+      "source_footprint": "DockUI:Control_Loom_3Land",
+      "model": null,
+      "copper_only": true
+    },
+    {
+      "reference": "R105",
+      "source_footprint": "DockUI:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "R210",
+      "source_footprint": "DockControl:R_0603_1608Metric",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/R_0603_1608Metric.step",
+        "model_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    },
+    {
+      "reference": "J621",
+      "source_footprint": "DockSafety:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",
+      "model": {
+        "model_URI": "${KIPRJMOD}/DockMain.3dshapes/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.step",
+        "model_sha256": "38ec5ea738ca3ac47fea2b125a9725bf6c56b3e8ed942df666378dc55b43e322",
+        "classification": "attributed selected-footprint package-family STEP; dimensions/tolerances remain explicit physical qualification",
+        "transforms": {
+          "offset": [
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": [
+            "1",
+            "1",
+            "1"
+          ],
+          "rotate": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "copper_only": false
+    }
+  ],
+  "model_plan_sha256": "07318b7012e2fbd46faa40150d33615dab0733294292ab24d00c66dc47da653b",
+  "physical_validation": false,
+  "MCAD_snapshot_model_coverage_sha256": "68607ba50ffe899e563c4e0d1c53c670024e42ca093f80183ae45514662e28ea",
+  "final_geometry_parity_sha256": "9c2adac73bd8ebc2cae851bd13c2a5a8af74f313e5d68b9b4f0edbbff0b2051b",
+  "all_original_model_files_and_poses_unchanged": true
+}

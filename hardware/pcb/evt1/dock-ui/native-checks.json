@@ -1,0 +1,47 @@
+{
+  "status": "pass: source-bound native KiCad ERC",
+  "scope": "USB/source-current sheet only; full UI/safety/UV sheets are absent",
+  "checked_at_utc": "2026-11-12T20:00:02.500040+00:00",
+  "kicad_version": "10.0.8",
+  "source_sha256": {
+    "DockUI.kicad_sym": "8b3a221fbc296f0ca3cd40c5fc205ccd98fb79ac8509f8907813dc5f6af5040f",
+    "DockUI.pretty/C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+    "DockUI.pretty/C_0603_1608Metric.kicad_mod": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6",
+    "DockUI.pretty/Contact_Loom_4Land.kicad_mod": "46a4cc69f80e92c69a5654277f0ee1ff5e0ca38f68037ac4adbd7237e26037f9",
+    "DockUI.pretty/Control_Loom_10Land.kicad_mod": "b0ebe7302e184e6f5e531b61043ffc78e318fba2929863c2d01132136118c0af",
+    "DockUI.pretty/Control_Loom_3Land.kicad_mod": "4a5f99473183042ea520a9be12772e12bed3ca9970365e59efed117bf5150fcc",
+    "DockUI.pretty/R_0603_1608Metric.kicad_mod": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4",
+    "DockUI.pretty/SOT-23-6.kicad_mod": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97",
+    "DockUI.pretty/SOT-23.kicad_mod": "7840e31dbf5d8c9a047e25e8c69951e6c3792e0d4d316642c2832be29923c42f",
+    "DockUI.pretty/SOT-363_SC-70-6.kicad_mod": "bf06bb9583c40562265e319ac36c73b6150587a3148fd28145b5f1b70f0ce9d7",
+    "DockUI.pretty/TSOT-23-5.kicad_mod": "a6ba2bd4b67d10b05fd36c6e6b9885defdf4c9c42f2f7c4842bc94d63cf8a4a3",
+    "DockUI.pretty/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.kicad_mod": "2abf2bb4b1110202e15b132c53544bef68c4a56c1fc1b0bdcd5f1fa536190e8d",
+    "DockUI.pretty/Texas_YBH0006-C02_DSBGA-6_1.106x0.706mm_P0.4mm.kicad_mod": "6554e73e754ce23b557d44ec444c6da39b5bb428ec96807afc5a2465b652e70f",
+    "DockUI.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod": "ea73e710b0546db3482557a8b89e7a9b2ef5d3fce6cce00f84b97914c4405ada",
+    "build_source.py": "0087c3fe21b886511bb857fd78dd9fda31f4bdaedf95d81bf7be09498506f66a",
+    "check_native.py": "c8dd90064fb20edbbe71ea767d20819ca6f741a546f1665e7277cb5a33d054c7",
+    "check_source.py": "1e70dcb83817fd25174f0ca4fc86b23480b495aef0bea7f3b1db48c1cae59aba",
+    "dock-ui-source.kicad_pro": "ac70acc72e30f8ed6cb966b6d806fc2ba1ac5670196054afe0f059fc284fa368",
+    "dock-ui-source.kicad_sch": "d0a0ad8ba49be1c1ad237f1e7467d33ea4598a49dab84190b4596324fab25038",
+    "fp-lib-table": "fb14e2e01b19347ecb44cc074d268f7250bcc577d32b78f2c834863d53e22499",
+    "source-circuit-parts.json": "ee133c8ac4c453210c79e33a086aea0005fd97b34f365316bda6c7b7965725f7",
+    "sym-lib-table": "c43d170e40b096519c17073332752ae89b2f71ea0ce5fd0d534e8dc888b9e6fa"
+  },
+  "reports_sha256": {
+    "source-native.xml": "e830041b21a15ca00e1809b44a40095723d81362f4f04625a9ed4dfde1af521e",
+    "erc.json": "23d348666fc9a8ed1820d28e26090106704b4a016f9608d7249354ae396032d8"
+  },
+  "ERC_error_count": 0,
+  "ERC_warning_count": 0,
+  "ERC_exclusions": [],
+  "standard_ignored_checks": [
+    "footprint_filter",
+    "four_way_junction",
+    "simulation_model_issue",
+    "single_global_label"
+  ],
+  "off_sheet_context_findings": [],
+  "PCB_created_or_routed": false,
+  "powered_validation": false,
+  "full_product_order_ready": false
+}

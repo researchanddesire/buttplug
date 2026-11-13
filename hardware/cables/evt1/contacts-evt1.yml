@@ -1,0 +1,157 @@
+metadata:
+  title: EVT1 four fixed feedthrough targets to flange J1
+  notes: EVT first article. Native numeric pin map; verify mating marks/continuity.
+    Free-span dimensions are between modeled wire-exit datums; stock blanks are longer
+    and are not finished cut lengths. No physical crimp/current/fit acceptance. D-/D+
+    are an adjacent short pair. Route together with controlled lay and minimal end
+    fanout; no90ohm or USB signal-integrity qualification follows from this logical
+    drawing. Solder/clean/cool posts before fitting their inner rings.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  TARGET:
+    type: Fixed contact tails; X-38/-32/-26/-20
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    pinlabels: &id001
+    - GND
+    - USB_DM_CONTACT
+    - USB_DP_CONTACT
+    - DOCK_5V
+    ignore_in_bom: true
+  J1:
+    type: Flange B.Cu hand-solder lands
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    pinlabels: *id001
+    ignore_in_bom: true
+cables:
+  CT1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - GND
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.08
+    length_unit: m
+    ignore_in_bom: false
+    notes: '80mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  CT2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - USB_DM_CONTACT
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.08
+    length_unit: m
+    ignore_in_bom: false
+    notes: '80mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  CT3:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - USB_DP_CONTACT
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.08
+    length_unit: m
+    ignore_in_bom: false
+    notes: '80mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  CT4:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - DOCK_5V
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.08
+    length_unit: m
+    ignore_in_bom: false
+    notes: '80mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+connections:
+- - TARGET:
+    - 1
+  - CT1:
+    - 1
+  - J1:
+    - 1
+- - TARGET:
+    - 2
+  - CT2:
+    - 1
+  - J1:
+    - 2
+- - TARGET:
+    - 3
+  - CT3:
+    - 1
+  - J1:
+    - 3
+- - TARGET:
+    - 4
+  - CT4:
+    - 1
+  - J1:
+    - 4
+additional_bom_items: []

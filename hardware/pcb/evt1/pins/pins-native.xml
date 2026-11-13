@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/pins/pins-evt1.kicad_sch</source>
+    <date>2026-11-12T12:32:08</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Four spring pins / rigid metal-face stops / contact order</title>
+        <company>Research and Desire</company>
+        <rev>EVT1 electrical candidate</rev>
+        <date>2026-11-12</date>
+        <source>pins-evt1.kicad_sch</source>
+        <comment number="1" value="LAYOUT INTEGRATION REQUIRED BEFORE PCB ORDER"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J94">
+      <value>TO USB BOARD J93</value>
+      <footprint>EVT1:Contact_Loom_4Land</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:Contact_Loom_4Land</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn4" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="pins-evt1"/>
+      <property name="Sheetfile" value="pins-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb78bd1f-d398-51b1-9de4-07fc197f65de</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P91">
+      <value>0906-2-15-20-75-14-11-0</value>
+      <footprint>EVT1:MillMax_0906_2</footprint>
+      <datasheet>https://www.mill-max.com/products/spring-loaded/0906</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:MillMax_0906_2</field>
+        <field name="Datasheet">https://www.mill-max.com/products/spring-loaded/0906</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="Pogo0906" description="0906-2-15-20-75-14-11-0 spring pin; through-hole solder tail"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="pins-evt1"/>
+      <property name="Sheetfile" value="pins-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b3af123-88ac-5327-a11d-865d645ad4ab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P92">
+      <value>0906-2-15-20-75-14-11-0</value>
+      <footprint>EVT1:MillMax_0906_2</footprint>
+      <datasheet>https://www.mill-max.com/products/spring-loaded/0906</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:MillMax_0906_2</field>
+        <field name="Datasheet">https://www.mill-max.com/products/spring-loaded/0906</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="Pogo0906" description="0906-2-15-20-75-14-11-0 spring pin; through-hole solder tail"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="pins-evt1"/>
+      <property name="Sheetfile" value="pins-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84570dcc-5c6a-5541-b30b-c2148e16336f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P93">
+      <value>0906-2-15-20-75-14-11-0</value>
+      <footprint>EVT1:MillMax_0906_2</footprint>
+      <datasheet>https://www.mill-max.com/products/spring-loaded/0906</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:MillMax_0906_2</field>
+        <field name="Datasheet">https://www.mill-max.com/products/spring-loaded/0906</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="Pogo0906" description="0906-2-15-20-75-14-11-0 spring pin; through-hole solder tail"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="pins-evt1"/>
+      <property name="Sheetfile" value="pins-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a71d4f9-5544-518b-b7d0-7743d27243ac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P94">
+      <value>0906-2-15-20-75-14-11-0</value>
+      <footprint>EVT1:MillMax_0906_2</footprint>
+      <datasheet>https://www.mill-max.com/products/spring-loaded/0906</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:MillMax_0906_2</field>
+        <field name="Datasheet">https://www.mill-max.com/products/spring-loaded/0906</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="Pogo0906" description="0906-2-15-20-75-14-11-0 spring pin; through-hole solder tail"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="pins-evt1"/>
+      <property name="Sheetfile" value="pins-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c25843b-5ed2-5422-8c8b-54a6ed7dcd15</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="PrototypeR0" part="Conn4">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Logical connector pin numbering; physical connector and footprint not selected</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="Pogo0906">
+      <description>0906-2-15-20-75-14-11-0 spring pin; through-hole solder tail</description>
+      <docs>https://www.mill-max.com/products/spring-loaded/0906</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pogo0906</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.mill-max.com/products/spring-loaded/0906</field>
+        <field name="Description">0906-2-15-20-75-14-11-0 spring pin; through-hole solder tail</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CONTACT" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PrototypeR0">
+      <uri>${KIPRJMOD}/PrototypeR0.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="DOCK_5V" class="Default">
+      <node ref="J94" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="P94" pin="1" pinfunction="CONTACT_1" pintype="passive"/>
+    </net>
+    <net code="2" name="DOCK_DM" class="Default">
+      <node ref="J94" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="P92" pin="1" pinfunction="CONTACT_1" pintype="passive"/>
+    </net>
+    <net code="3" name="DOCK_DP" class="Default">
+      <node ref="J94" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="P93" pin="1" pinfunction="CONTACT_1" pintype="passive"/>
+    </net>
+    <net code="4" name="GND" class="Default">
+      <node ref="J94" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="P91" pin="1" pinfunction="CONTACT_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

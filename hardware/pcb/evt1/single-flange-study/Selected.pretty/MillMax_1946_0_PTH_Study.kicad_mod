@@ -1,0 +1,6 @@
+(footprint "MillMax_1946_0_PTH_Study"(version 20221018)(generator pcbnew)(layer "F.Cu")(descr "1946-0-00-15-00-00-03-0; OEM .034in recommended mounting hole; 3.2mm pad is engineering trial choice, no accepted annulus")(attr through_hole)
+(fp_text reference "CT?"(at 0 -2.5)(layer "F.SilkS")(effects(font(size .7 .7)(thickness .12))))
+(fp_text value "1946-0-00-15-00-00-03-0"(at 0 2.5)(layer "F.Fab")(effects(font(size .5 .5)(thickness .1))))
+(fp_circle(center 0 0)(end 1.5875 0)(layer "F.Fab")(width .05)(fill none))
+(fp_circle(center 0 0)(end 1.85 0)(layer "F.CrtYd")(width .05)(fill none))(fp_circle(center 0 0)(end 2 0)(layer "B.CrtYd")(width .05)(fill none))
+(pad "1" thru_hole circle(at 0 0)(size 3.2 3.2)(drill .8636)(layers "*.Cu" "*.Mask"))(model "${KIPRJMOD}/Selected.3dshapes/MillMax1946.step"(offset(xyz 0 0 0))(scale(xyz 1 1 1))(rotate(xyz 0 0 0))))

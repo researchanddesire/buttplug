@@ -1,0 +1,76 @@
+{
+  "input_board_sha256": "ba09d09052bebfa3545249f259144e9564030fb39454988e2966e65ab745afab",
+  "input_DRC_sha256": "0cac5cbdfb8136c2739e8750ac9f5aca903b04ee6d4bd72fbacd2daae9a55c4a",
+  "output_board_sha256": "8f409427efc7415b47c18574ea3ffd43f875d0d0cdcaccb9bdf388cda4aff87c",
+  "added": [
+    {
+      "ref": "U114",
+      "pad": "6",
+      "net": "SOURCE_REQUEST",
+      "native_mm_path": [
+        [
+          95.95,
+          181.35
+        ],
+        [
+          96.25,
+          181.35
+        ],
+        [
+          96.25,
+          180.95
+        ]
+      ],
+      "track_width_mm": 0.15,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    }
+  ],
+  "no_direct_free_escape": [
+    [
+      "J201",
+      "16",
+      "BTN_CENTERn_RAW"
+    ],
+    [
+      "J621",
+      "6",
+      "NTC_BASE"
+    ],
+    [
+      "R207",
+      "1",
+      "LCD_DB6_MCU"
+    ],
+    [
+      "U103",
+      "11",
+      "CC_ENABLE"
+    ],
+    [
+      "U201",
+      "2",
+      "LOOP_A"
+    ],
+    [
+      "U201",
+      "26",
+      "BTN_CENTERn_DEBOUNCED"
+    ],
+    [
+      "U606",
+      "2",
+      "WDT_CWD"
+    ],
+    [
+      "U611",
+      "7",
+      "CUT_B_CT"
+    ]
+  ],
+  "physical_DRC_clearance_test_mm": 0.1502,
+  "native_DRC_required": true,
+  "protected_copper_mutated": 0
+}

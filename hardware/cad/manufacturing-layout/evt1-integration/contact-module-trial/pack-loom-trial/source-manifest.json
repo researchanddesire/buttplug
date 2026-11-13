@@ -1,0 +1,40 @@
+{
+  "status": "Primary-source component/handling provenance",
+  "sources": [
+    {
+      "primary_URL": "https://www.jst.com/wp-content/uploads/2021/03/eACH1.pdf",
+      "local_file": "sources/eACH1.pdf",
+      "sha256": "4280ff19632883de05ff52f837a0ba3ebb392cf5d6ba86c93393c6a3a6d642fd"
+    },
+    {
+      "primary_URL": "https://www.vishay.com/docs/29078/ntcle413.pdf",
+      "local_file": "sources/Vishay-29078.pdf",
+      "sha256": "6606fa831adab4119fb59af4123b9902ce193ee36d193b9da8d85028174f7312"
+    },
+    {
+      "primary_URL": "https://www.vishay.com/doc?29222",
+      "local_file": "sources/Vishay-29222.pdf",
+      "sha256": "bc9f8ada9e0cc1382cabcf811d167ade07340d38f8e8e83585706a18665ab0c7"
+    },
+    {
+      "primary_URL": "https://www.accuglassproducts.com/sites/default/files/catalog/kapton_insulated_uhv_wire.pdf",
+      "local_file": "sources/AccuGlass-wire.pdf",
+      "sha256": "68d000f99cea64455e69b4989651d65f52c79982e8f3aee01b0b0f89f96b1a64"
+    },
+    {
+      "primary_URL": "https://www.te.com/en/product-5052894108.html",
+      "exact_MPN": "RNF-100-1/16-BK-SP",
+      "primary_drawing_URL": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=RNF-100_USA_STANDARD_SIZES&DocType=Customer+Drawing&PartCntxt=5052894108",
+      "drawing_revision": "A2 25-Jul-2025",
+      "retrieval": "Read through web tool; direct curl403, no local PDF claimed",
+      "availability": "Primary lists Active but not currently available directly; distributor availability not verified"
+    },
+    {
+      "primary_URL": "https://www.3m.com/3M/en_US/p/dc/v000091658/",
+      "exact_part_number": "7000050064",
+      "TDS_URL": "https://multimedia.3m.com/mws/media/136011O/3m-polyimide-film-tape-5413-tds.pdf",
+      "retrieval": "Primary part identity/dimensions read; direct TDS curl403; no local PDF claimed"
+    }
+  ],
+  "all_purchases_and_supplier_messages": false
+}

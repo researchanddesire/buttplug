@@ -1,0 +1,599 @@
+{
+  "status": "read-only inspection, no PCB mutation",
+  "board_sha256": "8a00e40491fff508f95fb872acfc6eaad7cb6cc74bbd274359a80264cfb93dc7",
+  "net": "LOOP_A_RAW",
+  "native_DRC_findings": [
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Track [LOOP_A_RAW] on B.Cu, length 21.8482 mm",
+          "pos": {
+            "x": 115.625,
+            "y": 140.851
+          },
+          "uuid": "b54f1b76-160c-44ef-8fa8-6c3e2fca143a"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    }
+  ],
+  "items": [
+    {
+      "uuid": "cdc042dc-a85e-4627-9573-e7e0f3d6d0f0",
+      "type": "pad",
+      "locked": true,
+      "label": "R614.1",
+      "layers": [
+        "F.Cu"
+      ],
+      "position_native_mm": [
+        140.0,
+        166.9125
+      ],
+      "neighbours": [
+        "1cfdcd77-0e6e-4c95-b816-9eb7ced9276e",
+        "43f89fb4-0b39-46c7-8ab2-12af3879ef78",
+        "6350e8ca-09b7-41f9-9e05-50400d183819",
+        "64f48de4-d884-4a02-9e6a-63e78a7ed4c6",
+        "9788b562-c046-427a-92f3-0a7042e365ad",
+        "9ef9b0be-96d6-4e1b-97f4-b8f09fd48d81",
+        "e8452d2f-6d9b-460f-8f17-e93ae2b0f88c"
+      ]
+    },
+    {
+      "uuid": "f6466710-ae2d-4ed9-9f6c-127b82a227b6",
+      "type": "pad",
+      "locked": true,
+      "label": "U613.1",
+      "layers": [
+        "F.Cu"
+      ],
+      "position_native_mm": [
+        140.05,
+        161.35
+      ],
+      "neighbours": [
+        "aace644d-a857-43a1-bdcd-58733be83e70"
+      ]
+    },
+    {
+      "uuid": "6aad19c4-4dd4-4303-8b1d-cb6286e7e1e7",
+      "type": "pad",
+      "locked": true,
+      "label": "J621.8",
+      "layers": [
+        "F.Cu"
+      ],
+      "position_native_mm": [
+        121.625,
+        139.85
+      ],
+      "neighbours": [
+        "3c4d9ca4-3365-4f8d-a59c-8ba12664ec4c"
+      ]
+    },
+    {
+      "uuid": "034f8c68-138a-4a99-a1fc-c5d4e749bc48",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        141.284,
+        166.804
+      ],
+      "end_native_mm": [
+        141.175,
+        166.912
+      ],
+      "width_mm": 0.2,
+      "length_mm": 0.15344380078712858,
+      "neighbours": [
+        "1cfdcd77-0e6e-4c95-b816-9eb7ced9276e",
+        "43f89fb4-0b39-46c7-8ab2-12af3879ef78",
+        "48bb53a3-b4d6-4fc7-8bf7-8b6031e56900"
+      ]
+    },
+    {
+      "uuid": "1cfdcd77-0e6e-4c95-b816-9eb7ced9276e",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        141.284,
+        166.804
+      ],
+      "end_native_mm": [
+        140.108,
+        166.804
+      ],
+      "width_mm": 0.2,
+      "length_mm": 1.176,
+      "neighbours": [
+        "cdc042dc-a85e-4627-9573-e7e0f3d6d0f0",
+        "034f8c68-138a-4a99-a1fc-c5d4e749bc48",
+        "43f89fb4-0b39-46c7-8ab2-12af3879ef78",
+        "6350e8ca-09b7-41f9-9e05-50400d183819",
+        "64f48de4-d884-4a02-9e6a-63e78a7ed4c6",
+        "9788b562-c046-427a-92f3-0a7042e365ad",
+        "9ef9b0be-96d6-4e1b-97f4-b8f09fd48d81",
+        "e8452d2f-6d9b-460f-8f17-e93ae2b0f88c",
+        "48bb53a3-b4d6-4fc7-8bf7-8b6031e56900"
+      ]
+    },
+    {
+      "uuid": "3c4d9ca4-3365-4f8d-a59c-8ba12664ec4c",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        121.625,
+        139.85
+      ],
+      "end_native_mm": [
+        120.624,
+        140.851
+      ],
+      "width_mm": 0.2,
+      "length_mm": 1.415627775935468,
+      "neighbours": [
+        "6aad19c4-4dd4-4303-8b1d-cb6286e7e1e7",
+        "f3d3ea38-3387-475f-a30e-3470d2c908a3"
+      ]
+    },
+    {
+      "uuid": "43f89fb4-0b39-46c7-8ab2-12af3879ef78",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        141.175,
+        166.912
+      ],
+      "end_native_mm": [
+        140.0,
+        166.912
+      ],
+      "width_mm": 0.2,
+      "length_mm": 1.175,
+      "neighbours": [
+        "cdc042dc-a85e-4627-9573-e7e0f3d6d0f0",
+        "034f8c68-138a-4a99-a1fc-c5d4e749bc48",
+        "1cfdcd77-0e6e-4c95-b816-9eb7ced9276e",
+        "6350e8ca-09b7-41f9-9e05-50400d183819",
+        "64f48de4-d884-4a02-9e6a-63e78a7ed4c6",
+        "9788b562-c046-427a-92f3-0a7042e365ad",
+        "9ef9b0be-96d6-4e1b-97f4-b8f09fd48d81",
+        "e8452d2f-6d9b-460f-8f17-e93ae2b0f88c",
+        "48bb53a3-b4d6-4fc7-8bf7-8b6031e56900"
+      ]
+    },
+    {
+      "uuid": "6350e8ca-09b7-41f9-9e05-50400d183819",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        140.0,
+        166.912
+      ],
+      "end_native_mm": [
+        140.0,
+        166.9125
+      ],
+      "width_mm": 0.2,
+      "length_mm": 0.0005,
+      "neighbours": [
+        "cdc042dc-a85e-4627-9573-e7e0f3d6d0f0",
+        "1cfdcd77-0e6e-4c95-b816-9eb7ced9276e",
+        "43f89fb4-0b39-46c7-8ab2-12af3879ef78",
+        "64f48de4-d884-4a02-9e6a-63e78a7ed4c6",
+        "9788b562-c046-427a-92f3-0a7042e365ad",
+        "9ef9b0be-96d6-4e1b-97f4-b8f09fd48d81",
+        "e8452d2f-6d9b-460f-8f17-e93ae2b0f88c"
+      ]
+    },
+    {
+      "uuid": "64f48de4-d884-4a02-9e6a-63e78a7ed4c6",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        140.0,
+        166.912
+      ],
+      "end_native_mm": [
+        138.735,
+        165.647
+      ],
+      "width_mm": 0.2,
+      "length_mm": 1.7889801564019654,
+      "neighbours": [
+        "cdc042dc-a85e-4627-9573-e7e0f3d6d0f0",
+        "1cfdcd77-0e6e-4c95-b816-9eb7ced9276e",
+        "43f89fb4-0b39-46c7-8ab2-12af3879ef78",
+        "6350e8ca-09b7-41f9-9e05-50400d183819",
+        "9099bb9e-18a1-4cc8-8419-557f7c138a28",
+        "9788b562-c046-427a-92f3-0a7042e365ad",
+        "9ef9b0be-96d6-4e1b-97f4-b8f09fd48d81",
+        "e8452d2f-6d9b-460f-8f17-e93ae2b0f88c"
+      ]
+    },
+    {
+      "uuid": "9099bb9e-18a1-4cc8-8419-557f7c138a28",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        138.735,
+        165.647
+      ],
+      "end_native_mm": [
+        138.735,
+        161.755
+      ],
+      "width_mm": 0.2,
+      "length_mm": 3.892,
+      "neighbours": [
+        "64f48de4-d884-4a02-9e6a-63e78a7ed4c6",
+        "fda4708b-6d00-4d99-a15d-f327a970929a"
+      ]
+    },
+    {
+      "uuid": "9788b562-c046-427a-92f3-0a7042e365ad",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        140.108,
+        166.804
+      ],
+      "end_native_mm": [
+        140.0,
+        166.912
+      ],
+      "width_mm": 0.2,
+      "length_mm": 0.15273506473629428,
+      "neighbours": [
+        "cdc042dc-a85e-4627-9573-e7e0f3d6d0f0",
+        "1cfdcd77-0e6e-4c95-b816-9eb7ced9276e",
+        "43f89fb4-0b39-46c7-8ab2-12af3879ef78",
+        "6350e8ca-09b7-41f9-9e05-50400d183819",
+        "64f48de4-d884-4a02-9e6a-63e78a7ed4c6",
+        "9ef9b0be-96d6-4e1b-97f4-b8f09fd48d81",
+        "e8452d2f-6d9b-460f-8f17-e93ae2b0f88c"
+      ]
+    },
+    {
+      "uuid": "9ef9b0be-96d6-4e1b-97f4-b8f09fd48d81",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        140.108,
+        166.804
+      ],
+      "end_native_mm": [
+        140.0,
+        166.912
+      ],
+      "width_mm": 0.2,
+      "length_mm": 0.15273506473629428,
+      "neighbours": [
+        "cdc042dc-a85e-4627-9573-e7e0f3d6d0f0",
+        "1cfdcd77-0e6e-4c95-b816-9eb7ced9276e",
+        "43f89fb4-0b39-46c7-8ab2-12af3879ef78",
+        "6350e8ca-09b7-41f9-9e05-50400d183819",
+        "64f48de4-d884-4a02-9e6a-63e78a7ed4c6",
+        "9788b562-c046-427a-92f3-0a7042e365ad",
+        "e8452d2f-6d9b-460f-8f17-e93ae2b0f88c"
+      ]
+    },
+    {
+      "uuid": "aace644d-a857-43a1-bdcd-58733be83e70",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        139.14,
+        161.35
+      ],
+      "end_native_mm": [
+        140.05,
+        161.35
+      ],
+      "width_mm": 0.2,
+      "length_mm": 0.91,
+      "neighbours": [
+        "f6466710-ae2d-4ed9-9f6c-127b82a227b6",
+        "fda4708b-6d00-4d99-a15d-f327a970929a"
+      ]
+    },
+    {
+      "uuid": "e8452d2f-6d9b-460f-8f17-e93ae2b0f88c",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        140.108,
+        166.804
+      ],
+      "end_native_mm": [
+        140.0,
+        166.912
+      ],
+      "width_mm": 0.2,
+      "length_mm": 0.15273506473629428,
+      "neighbours": [
+        "cdc042dc-a85e-4627-9573-e7e0f3d6d0f0",
+        "1cfdcd77-0e6e-4c95-b816-9eb7ced9276e",
+        "43f89fb4-0b39-46c7-8ab2-12af3879ef78",
+        "6350e8ca-09b7-41f9-9e05-50400d183819",
+        "64f48de4-d884-4a02-9e6a-63e78a7ed4c6",
+        "9788b562-c046-427a-92f3-0a7042e365ad",
+        "9ef9b0be-96d6-4e1b-97f4-b8f09fd48d81"
+      ]
+    },
+    {
+      "uuid": "f3d3ea38-3387-475f-a30e-3470d2c908a3",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        120.624,
+        140.851
+      ],
+      "end_native_mm": [
+        115.625,
+        140.851
+      ],
+      "width_mm": 0.2,
+      "length_mm": 4.999,
+      "neighbours": [
+        "3c4d9ca4-3365-4f8d-a59c-8ba12664ec4c",
+        "a8d25886-7ff0-4346-9403-af7035bf772d"
+      ]
+    },
+    {
+      "uuid": "fda4708b-6d00-4d99-a15d-f327a970929a",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu"
+      ],
+      "start_native_mm": [
+        138.735,
+        161.755
+      ],
+      "end_native_mm": [
+        139.14,
+        161.35
+      ],
+      "width_mm": 0.2,
+      "length_mm": 0.5727564927611035,
+      "neighbours": [
+        "9099bb9e-18a1-4cc8-8419-557f7c138a28",
+        "aace644d-a857-43a1-bdcd-58733be83e70"
+      ]
+    },
+    {
+      "uuid": "48bb53a3-b4d6-4fc7-8bf7-8b6031e56900",
+      "type": "via",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ],
+      "position_native_mm": [
+        141.284,
+        166.804
+      ],
+      "neighbours": [
+        "034f8c68-138a-4a99-a1fc-c5d4e749bc48",
+        "1cfdcd77-0e6e-4c95-b816-9eb7ced9276e",
+        "43f89fb4-0b39-46c7-8ab2-12af3879ef78",
+        "dfd20a1a-db35-4e07-ae7d-d268993294f8"
+      ]
+    },
+    {
+      "uuid": "a8d25886-7ff0-4346-9403-af7035bf772d",
+      "type": "via",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ],
+      "position_native_mm": [
+        115.625,
+        140.851
+      ],
+      "neighbours": [
+        "f3d3ea38-3387-475f-a30e-3470d2c908a3",
+        "7b9221ef-4043-45b0-adc9-8a797b45e2f8",
+        "b54f1b76-160c-44ef-8fa8-6c3e2fca143a"
+      ]
+    },
+    {
+      "uuid": "4e1190c5-003f-49a2-8153-33331fed3e79",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "In2.Cu"
+      ],
+      "start_native_mm": [
+        119.1848,
+        137.2912
+      ],
+      "end_native_mm": [
+        145.1966,
+        137.2912
+      ],
+      "width_mm": 0.2,
+      "length_mm": 26.0118,
+      "neighbours": [
+        "6c932e98-d2a3-4bc6-b778-6dbe6af0cdfd",
+        "7b9221ef-4043-45b0-adc9-8a797b45e2f8"
+      ]
+    },
+    {
+      "uuid": "6c932e98-d2a3-4bc6-b778-6dbe6af0cdfd",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "In2.Cu"
+      ],
+      "start_native_mm": [
+        145.1966,
+        137.2912
+      ],
+      "end_native_mm": [
+        146.9115,
+        139.0061
+      ],
+      "width_mm": 0.2,
+      "length_mm": 2.425234838113621,
+      "neighbours": [
+        "4e1190c5-003f-49a2-8153-33331fed3e79",
+        "bbe28347-a949-4c73-abea-148063fd2ffe"
+      ]
+    },
+    {
+      "uuid": "7b9221ef-4043-45b0-adc9-8a797b45e2f8",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "In2.Cu"
+      ],
+      "start_native_mm": [
+        115.625,
+        140.851
+      ],
+      "end_native_mm": [
+        119.1848,
+        137.2912
+      ],
+      "width_mm": 0.2,
+      "length_mm": 5.0343174393357435,
+      "neighbours": [
+        "a8d25886-7ff0-4346-9403-af7035bf772d",
+        "4e1190c5-003f-49a2-8153-33331fed3e79"
+      ]
+    },
+    {
+      "uuid": "bbe28347-a949-4c73-abea-148063fd2ffe",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "In2.Cu"
+      ],
+      "start_native_mm": [
+        146.9115,
+        139.0061
+      ],
+      "end_native_mm": [
+        146.9115,
+        161.1765
+      ],
+      "width_mm": 0.2,
+      "length_mm": 22.1704,
+      "neighbours": [
+        "6c932e98-d2a3-4bc6-b778-6dbe6af0cdfd",
+        "dfd20a1a-db35-4e07-ae7d-d268993294f8"
+      ]
+    },
+    {
+      "uuid": "dfd20a1a-db35-4e07-ae7d-d268993294f8",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "In2.Cu"
+      ],
+      "start_native_mm": [
+        146.9115,
+        161.1765
+      ],
+      "end_native_mm": [
+        141.284,
+        166.804
+      ],
+      "width_mm": 0.2,
+      "length_mm": 7.958486822254592,
+      "neighbours": [
+        "48bb53a3-b4d6-4fc7-8bf7-8b6031e56900",
+        "bbe28347-a949-4c73-abea-148063fd2ffe"
+      ]
+    },
+    {
+      "uuid": "b54f1b76-160c-44ef-8fa8-6c3e2fca143a",
+      "type": "track",
+      "locked": false,
+      "label": null,
+      "layers": [
+        "B.Cu"
+      ],
+      "start_native_mm": [
+        115.625,
+        140.851
+      ],
+      "end_native_mm": [
+        100.176,
+        156.3
+      ],
+      "width_mm": 0.2,
+      "length_mm": 21.848185325101944,
+      "neighbours": [
+        "a8d25886-7ff0-4346-9403-af7035bf772d"
+      ]
+    }
+  ],
+  "protected_source_or_main_critical_records": []
+}

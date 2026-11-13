@@ -1,0 +1,939 @@
+{
+  "schema_version": 1,
+  "status": "implemented native schematic contracts; full dock integration and hardware tests pending",
+  "full_product_order_ready": false,
+  "MCU": {
+    "mpn": "STM32L071CBT6",
+    "package": "LQFP48_7x7mm_P0.5",
+    "physical48pins": {
+      "1": {
+        "name": "VDD",
+        "net": "3V3"
+      },
+      "2": {
+        "name": "PC13",
+        "net": "LOOP_A"
+      },
+      "3": {
+        "name": "PC14",
+        "net": "LOOP_B"
+      },
+      "4": {
+        "name": "PC15",
+        "net": "SOURCE_OK"
+      },
+      "5": {
+        "name": "PH0",
+        "net": null
+      },
+      "6": {
+        "name": "PH1",
+        "net": null
+      },
+      "7": {
+        "name": "NRST",
+        "net": "MCU_NRSTn"
+      },
+      "8": {
+        "name": "VSSA",
+        "net": "GND"
+      },
+      "9": {
+        "name": "VDDA",
+        "net": "3V3_ANALOG"
+      },
+      "10": {
+        "name": "PA0",
+        "net": "LCD_DB0_MCU"
+      },
+      "11": {
+        "name": "PA1",
+        "net": "LCD_DB1_MCU"
+      },
+      "12": {
+        "name": "PA2",
+        "net": "LCD_DB2_MCU"
+      },
+      "13": {
+        "name": "PA3",
+        "net": "LCD_DB3_MCU"
+      },
+      "14": {
+        "name": "PA4",
+        "net": "LCD_DB4_MCU"
+      },
+      "15": {
+        "name": "PA5",
+        "net": "LCD_DB5_MCU"
+      },
+      "16": {
+        "name": "PA6",
+        "net": "LCD_DB6_MCU"
+      },
+      "17": {
+        "name": "PA7",
+        "net": "LCD_DB7_MCU"
+      },
+      "18": {
+        "name": "PB0",
+        "net": "NTC_BASE_ADC"
+      },
+      "19": {
+        "name": "PB1",
+        "net": "NTC_LID_ADC"
+      },
+      "20": {
+        "name": "PB2",
+        "net": "UV_VBUS_MON"
+      },
+      "21": {
+        "name": "PB10",
+        "net": "MON_I2C_SCL"
+      },
+      "22": {
+        "name": "PB11",
+        "net": "MON_I2C_SDA"
+      },
+      "23": {
+        "name": "VSS",
+        "net": "GND"
+      },
+      "24": {
+        "name": "VDD",
+        "net": "3V3"
+      },
+      "25": {
+        "name": "PB12",
+        "net": "BTN_LEFTn"
+      },
+      "26": {
+        "name": "PB13",
+        "net": "BTN_CENTERn_DEBOUNCED"
+      },
+      "27": {
+        "name": "PB14",
+        "net": "BTN_RIGHTn"
+      },
+      "28": {
+        "name": "PB15",
+        "net": "MCU_ARM"
+      },
+      "29": {
+        "name": "PA8",
+        "net": "MCU_STOPn"
+      },
+      "30": {
+        "name": "PA9",
+        "net": "WDI"
+      },
+      "31": {
+        "name": "PA10",
+        "net": "UV_RUN"
+      },
+      "32": {
+        "name": "PA11",
+        "net": "DEVICE_FAULTn"
+      },
+      "33": {
+        "name": "PA12",
+        "net": "UV_LIMIT_FAULTn"
+      },
+      "34": {
+        "name": "PA13",
+        "net": "SWDIO"
+      },
+      "35": {
+        "name": "VSS",
+        "net": "GND"
+      },
+      "36": {
+        "name": "VDDIO2",
+        "net": "3V3"
+      },
+      "37": {
+        "name": "PA14",
+        "net": "SWCLK"
+      },
+      "38": {
+        "name": "PA15",
+        "net": "RELEASE_SEEN"
+      },
+      "39": {
+        "name": "PB3",
+        "net": "CC_OUT1"
+      },
+      "40": {
+        "name": "PB4",
+        "net": "CC_OUT2"
+      },
+      "41": {
+        "name": "PB5",
+        "net": "LCD_A0_MCU"
+      },
+      "42": {
+        "name": "PB6",
+        "net": "LCD_WRn_MCU"
+      },
+      "43": {
+        "name": "PB7",
+        "net": "LCD_CSn_MCU"
+      },
+      "44": {
+        "name": "BOOT0",
+        "net": "BOOT0"
+      },
+      "45": {
+        "name": "PB8",
+        "net": "LCD_RESETn_MCU"
+      },
+      "46": {
+        "name": "PB9",
+        "net": "STATUS_LED"
+      },
+      "47": {
+        "name": "VSS",
+        "net": "GND"
+      },
+      "48": {
+        "name": "VDD",
+        "net": "3V3"
+      }
+    },
+    "functional_GPIO_contract": {
+      "10": {
+        "gpio": "PA0",
+        "net": "LCD_DB0",
+        "direction": "output"
+      },
+      "11": {
+        "gpio": "PA1",
+        "net": "LCD_DB1",
+        "direction": "output"
+      },
+      "12": {
+        "gpio": "PA2",
+        "net": "LCD_DB2",
+        "direction": "output"
+      },
+      "13": {
+        "gpio": "PA3",
+        "net": "LCD_DB3",
+        "direction": "output"
+      },
+      "14": {
+        "gpio": "PA4",
+        "net": "LCD_DB4",
+        "direction": "output"
+      },
+      "15": {
+        "gpio": "PA5",
+        "net": "LCD_DB5",
+        "direction": "output"
+      },
+      "16": {
+        "gpio": "PA6",
+        "net": "LCD_DB6",
+        "direction": "output"
+      },
+      "17": {
+        "gpio": "PA7",
+        "net": "LCD_DB7",
+        "direction": "output"
+      },
+      "2": {
+        "gpio": "PC13",
+        "net": "LOOP_A",
+        "direction": "input"
+      },
+      "3": {
+        "gpio": "PC14",
+        "net": "LOOP_B",
+        "direction": "input"
+      },
+      "4": {
+        "gpio": "PC15",
+        "net": "SOURCE_OK",
+        "direction": "input"
+      },
+      "18": {
+        "gpio": "PB0",
+        "net": "NTC_BASE",
+        "direction": "analoginputADC8"
+      },
+      "19": {
+        "gpio": "PB1",
+        "net": "NTC_LID",
+        "direction": "analoginputADC9"
+      },
+      "20": {
+        "gpio": "PB2",
+        "net": "UV_VBUS_MON",
+        "direction": "input"
+      },
+      "21": {
+        "gpio": "PB10",
+        "net": "MON_I2C_SCL",
+        "direction": "I2C2SCL"
+      },
+      "22": {
+        "gpio": "PB11",
+        "net": "MON_I2C_SDA",
+        "direction": "I2C2SDA"
+      },
+      "25": {
+        "gpio": "PB12",
+        "net": "BTN_LEFTn",
+        "direction": "input"
+      },
+      "26": {
+        "gpio": "PB13",
+        "net": "BTN_CENTERn_DEBOUNCED",
+        "direction": "input"
+      },
+      "27": {
+        "gpio": "PB14",
+        "net": "BTN_RIGHTn",
+        "direction": "input"
+      },
+      "28": {
+        "gpio": "PB15",
+        "net": "MCU_ARM",
+        "direction": "output;external100kpulldown"
+      },
+      "29": {
+        "gpio": "PA8",
+        "net": "MCU_STOPn",
+        "direction": "output;external100kpulldown"
+      },
+      "30": {
+        "gpio": "PA9",
+        "net": "WDI",
+        "direction": "output;mainloopheartbeat"
+      },
+      "31": {
+        "gpio": "PA10",
+        "net": "UV_RUN",
+        "direction": "input"
+      },
+      "32": {
+        "gpio": "PA11",
+        "net": "DEVICE_LIMIT_FAULTn",
+        "direction": "input"
+      },
+      "33": {
+        "gpio": "PA12",
+        "net": "UV_LIMIT_FAULTn",
+        "direction": "input"
+      },
+      "34": {
+        "gpio": "PA13",
+        "net": "SWDIO",
+        "direction": "debug"
+      },
+      "37": {
+        "gpio": "PA14",
+        "net": "SWCLK",
+        "direction": "debug"
+      },
+      "38": {
+        "gpio": "PA15",
+        "net": "RELEASE_SEEN",
+        "direction": "input"
+      },
+      "39": {
+        "gpio": "PB3",
+        "net": "CC_OUT1",
+        "direction": "input"
+      },
+      "40": {
+        "gpio": "PB4",
+        "net": "CC_OUT2",
+        "direction": "input"
+      },
+      "41": {
+        "gpio": "PB5",
+        "net": "LCD_A0",
+        "direction": "output"
+      },
+      "42": {
+        "gpio": "PB6",
+        "net": "LCD_WRn",
+        "direction": "output"
+      },
+      "43": {
+        "gpio": "PB7",
+        "net": "LCD_CSn",
+        "direction": "output"
+      },
+      "45": {
+        "gpio": "PB8",
+        "net": "LCD_RESETn",
+        "direction": "output"
+      },
+      "46": {
+        "gpio": "PB9",
+        "net": "STATUS_LED",
+        "direction": "output;defaultsourceLEDoff"
+      },
+      "1": {
+        "gpio": "VDD",
+        "net": "3V3",
+        "direction": "supplyorcontrol"
+      },
+      "7": {
+        "gpio": "NRST",
+        "net": "SAFE_RESETn",
+        "direction": "supplyorcontrol"
+      },
+      "8": {
+        "gpio": "VSSA",
+        "net": "GND",
+        "direction": "supplyorcontrol"
+      },
+      "9": {
+        "gpio": "VDDA",
+        "net": "3V3_ANALOG",
+        "direction": "supplyorcontrol"
+      },
+      "23": {
+        "gpio": "VSS",
+        "net": "GND",
+        "direction": "supplyorcontrol"
+      },
+      "24": {
+        "gpio": "VDD",
+        "net": "3V3",
+        "direction": "supplyorcontrol"
+      },
+      "35": {
+        "gpio": "VSS",
+        "net": "GND",
+        "direction": "supplyorcontrol"
+      },
+      "36": {
+        "gpio": "VDDIO2",
+        "net": "3V3",
+        "direction": "supplyorcontrol"
+      },
+      "44": {
+        "gpio": "BOOT0",
+        "net": "BOOT0_10kGND_testpad",
+        "direction": "supplyorcontrol"
+      },
+      "47": {
+        "gpio": "VSS",
+        "net": "GND",
+        "direction": "supplyorcontrol"
+      },
+      "48": {
+        "gpio": "VDD",
+        "net": "3V3",
+        "direction": "supplyorcontrol"
+      },
+      "5": {
+        "gpio": "PH0",
+        "net": "NC_spare",
+        "direction": "analoginputwhennotused"
+      },
+      "6": {
+        "gpio": "PH1",
+        "net": "NC_spare",
+        "direction": "analoginputwhennotused"
+      }
+    },
+    "primary_datasheet": "https://www.st.com/resource/en/datasheet/stm32l071cb.pdf",
+    "primary_pin_pages_1_based": [
+      38,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "independent_pin_audit": "All48physicalnames match DS10690Rev7 Figure8/Table15. PB2 has noADC channel.",
+    "MSI_range": 6,
+    "MSI_nominal_Hz": 4200000,
+    "VOS_range": 3,
+    "Flash_wait_states": 0,
+    "I2C2_AF": 6,
+    "SWD_AF": 0,
+    "PH0_PH1": "NC/spare; internal MSI uses neither pin",
+    "VDDIO2": "pin36 tied3V3 and bypassed; suppliesPA11/12",
+    "reset": "MCU_NRSTn physical7,local100nF/SWD; safety provides1k fromSAFE_RESETn andownsresetpullup"
+  },
+  "LCD": {
+    "mpn": "NHD-C12864B2Z-RN-FBW",
+    "controller": "ST7565R",
+    "interface": "8-bit8080 writeonly; /RD tied3V3_UI",
+    "physical27pins": {
+      "1": {
+        "signal": "V0",
+        "net": "LCD_V0"
+      },
+      "2": {
+        "signal": "V1",
+        "net": "LCD_V1"
+      },
+      "3": {
+        "signal": "V2",
+        "net": "LCD_V2"
+      },
+      "4": {
+        "signal": "V3",
+        "net": "LCD_V3"
+      },
+      "5": {
+        "signal": "V4",
+        "net": "LCD_V4"
+      },
+      "6": {
+        "signal": "C4_PLUS_NC",
+        "net": null
+      },
+      "7": {
+        "signal": "C2_MINUS",
+        "net": "LCD_C2M"
+      },
+      "8": {
+        "signal": "C2_PLUS",
+        "net": "LCD_C2P"
+      },
+      "9": {
+        "signal": "C1_PLUS",
+        "net": "LCD_C1P"
+      },
+      "10": {
+        "signal": "C1_MINUS",
+        "net": "LCD_C1M"
+      },
+      "11": {
+        "signal": "C3_PLUS",
+        "net": "LCD_C3P"
+      },
+      "12": {
+        "signal": "VOUT",
+        "net": "LCD_VOUT"
+      },
+      "13": {
+        "signal": "VDD",
+        "net": "3V3_UI"
+      },
+      "14": {
+        "signal": "VSS",
+        "net": "GND"
+      },
+      "15": {
+        "signal": "DB7",
+        "net": "LCD_DB7"
+      },
+      "16": {
+        "signal": "DB6",
+        "net": "LCD_DB6"
+      },
+      "17": {
+        "signal": "DB5",
+        "net": "LCD_DB5"
+      },
+      "18": {
+        "signal": "DB4",
+        "net": "LCD_DB4"
+      },
+      "19": {
+        "signal": "DB3",
+        "net": "LCD_DB3"
+      },
+      "20": {
+        "signal": "DB2",
+        "net": "LCD_DB2"
+      },
+      "21": {
+        "signal": "DB1",
+        "net": "LCD_DB1"
+      },
+      "22": {
+        "signal": "DB0",
+        "net": "LCD_DB0"
+      },
+      "23": {
+        "signal": "RD_N_WRITE_ONLY",
+        "net": "3V3_UI"
+      },
+      "24": {
+        "signal": "WR_N",
+        "net": "LCD_WRn"
+      },
+      "25": {
+        "signal": "A0",
+        "net": "LCD_A0"
+      },
+      "26": {
+        "signal": "RESET_N",
+        "net": "LCD_RESETn"
+      },
+      "27": {
+        "signal": "CS_N",
+        "net": "LCD_CSn"
+      }
+    },
+    "primary_datasheet": "https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf",
+    "pin_and_wiring_PDF_page_1_based": 5,
+    "pump_caps": [
+      {
+        "ref": "C306",
+        "uF": 2.2,
+        "pins": [
+          7,
+          8
+        ]
+      },
+      {
+        "ref": "C307",
+        "uF": 2.2,
+        "pins": [
+          9,
+          10
+        ]
+      },
+      {
+        "ref": "C308",
+        "uF": 2.2,
+        "pins": [
+          11,
+          10
+        ]
+      },
+      {
+        "ref": "C309",
+        "uF": 2.2,
+        "pins": [
+          12,
+          14
+        ]
+      }
+    ],
+    "bypass_caps": [
+      {
+        "ref": "C301",
+        "uF": 1,
+        "pins": [
+          1,
+          14
+        ]
+      },
+      {
+        "ref": "C302",
+        "uF": 1,
+        "pins": [
+          2,
+          14
+        ]
+      },
+      {
+        "ref": "C303",
+        "uF": 1,
+        "pins": [
+          3,
+          14
+        ]
+      },
+      {
+        "ref": "C304",
+        "uF": 1,
+        "pins": [
+          4,
+          14
+        ]
+      },
+      {
+        "ref": "C305",
+        "uF": 1,
+        "pins": [
+          5,
+          14
+        ]
+      }
+    ],
+    "C4_plus_pin6": "NC",
+    "discrete_contrast_pot": false,
+    "initialization_bytes_hex": [
+      "A2",
+      "A0",
+      "C8",
+      "A4",
+      "40",
+      "25",
+      "81",
+      "10",
+      "2F",
+      "AF"
+    ],
+    "voltage_V": [
+      3.0,
+      3.5
+    ],
+    "current_max_mA_at25C": 0.75,
+    "flying_caps_effective_min_uF": 1,
+    "bypass_effective_min_uF": 0.1,
+    "incoming_cap_bias_temp_age_qualification": false
+  },
+  "LCD_socket": {
+    "reference": "J302",
+    "mpn": "52437-2771",
+    "physical_pad_nets": {
+      "1": "LCD_V0",
+      "2": "LCD_V1",
+      "3": "LCD_V2",
+      "4": "LCD_V3",
+      "5": "LCD_V4",
+      "6": null,
+      "7": "LCD_C2M",
+      "8": "LCD_C2P",
+      "9": "LCD_C1P",
+      "10": "LCD_C1M",
+      "11": "LCD_C3P",
+      "12": "LCD_VOUT",
+      "13": "3V3_UI",
+      "14": "GND",
+      "15": "LCD_DB7",
+      "16": "LCD_DB6",
+      "17": "LCD_DB5",
+      "18": "LCD_DB4",
+      "19": "LCD_DB3",
+      "20": "LCD_DB2",
+      "21": "LCD_DB1",
+      "22": "LCD_DB0",
+      "23": "3V3_UI",
+      "24": "LCD_WRn",
+      "25": "LCD_A0",
+      "26": "LCD_RESETn",
+      "27": "LCD_CSn",
+      "MP": "GND"
+    },
+    "mating_equation": "socket pad p mates LCD pin p",
+    "closed_pose": "Manufacturer top view: pin1 left(-X), mouth down-page(native+Y); chosen board frame maps native+X to dock+X, native+Y to dock-Y. Zero socket Z rotation puts mouth dock-Y and pin1 dock-X, matching the installed LCD tail.",
+    "contact_surface_normal": [
+      0,
+      0,
+      -1
+    ],
+    "FFC_tip_global_mm": [
+      0,
+      112.575222039,
+      61.85
+    ],
+    "primary_drawing": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/524/52437/524373071_sd.pdf",
+    "primary_product": "https://www.molex.com/en-us/products/part-detail/524372771?display=pdf",
+    "selection": "EVT matingtrial selection; not supplierqualified",
+    "tail_difference": {
+      "LCD_exposed_land_length_mm": [
+        2.8,
+        3.2
+      ],
+      "socket_recommended_exposed_length_mm": [
+        3.5,
+        4.5
+      ],
+      "LCD_stiffener_length_mm": [
+        4,
+        6
+      ],
+      "socket_recommended_stiffener_length_mm": [
+        5.5,
+        6.5
+      ]
+    },
+    "mating_qualified": false,
+    "native_footprint_pin1_xy_mm": [
+      -6.5,
+      0
+    ],
+    "native_mouth_direction_xy": [
+      0,
+      1
+    ],
+    "dock_mouth_direction_xyz": [
+      0,
+      -1,
+      0
+    ],
+    "dock_pin1_X_mm": -6.5,
+    "independent_audit": "Manufacturer SD-52437-019 RevF p1 top-view and p2 MOUNTING SIDE land-pattern; independently checked by firmware agent 2026-11-12. Physical mating remains open.",
+    "PCB_coordinate_frame": {
+      "native_to_dock_xy_equation": "dock X = native X - 100; dock Y = 200 - native Y",
+      "note": "Native pcbnew Y is down-page. StepUp MCAD Y is negative pcbnew Y; rigid MCAD placement must bind this explicitly."
+    },
+    "FFC_contact_face_global_Z_mm": 61.7,
+    "FFC_contact_copper_bounds_Z_mm": [
+      61.7,
+      61.8
+    ],
+    "FFC_ribbon_bounds_Z_mm": [
+      61.8,
+      61.9
+    ],
+    "FFC_stiffener_bounds_Z_mm": [
+      61.9,
+      62.0
+    ],
+    "socket_contact_height_above_PCB_mm": null,
+    "drawing_section_reference": {
+      "insertion_depth_mm": 3,
+      "tip_to_contact_point_mm": 1.7,
+      "reference_dimensions_only": true,
+      "0.82mm_dimension": "Exterior side-feature datum; NOT established as contact plane. No mating-height inference."
+    }
+  },
+  "UI_hinge": {
+    "controller_reference": "J201",
+    "lid_reference": "J301",
+    "connector_mpn": "FH12-20S-0.5SH(55)",
+    "positions": 20,
+    "pitch_mm": 0.5,
+    "finished_tail_thickness_mm": 0.3,
+    "connector_bottomcontact": true,
+    "conductor_pin_contract": {
+      "1": "GND",
+      "2": "3V3_UI",
+      "3": "LCD_DB0",
+      "4": "LCD_DB1",
+      "5": "LCD_DB2",
+      "6": "LCD_DB3",
+      "7": "LCD_DB4",
+      "8": "LCD_DB5",
+      "9": "LCD_DB6",
+      "10": "LCD_DB7",
+      "11": "LCD_A0",
+      "12": "LCD_WRn",
+      "13": "LCD_CSn",
+      "14": "LCD_RESETn",
+      "15": "BTN_LEFTn",
+      "16": "BTN_CENTERn_RAW",
+      "17": "BTN_RIGHTn",
+      "18": "GND",
+      "19": "GND",
+      "20": "GND"
+    },
+    "cable_mpn": "0151660220",
+    "cable_manufacturer": "Molex",
+    "cable_length_mm": 203,
+    "length_tolerance_plus_minus_mm": 4,
+    "cable_layout_type": "D/oppositecontactsurfaces",
+    "cable_flex_thickness_mm": 0.12,
+    "nominal_conductor_mapping": "J201p\u2192J301p, noXtwist; verify inselectedclosed/open route beforepower",
+    "closed_pose": "Both socket mouths dock+Y toward hinge. Stock footprint mouthnative+Y/pin1native-X requires native180deg rotation under dockY=200-nativeY: both installed pin1 sides are dock+X. Cable p to p, opposite faces, physical route/continuity remains unqualified.",
+    "primary_connector": "https://www.hirose.com/en/product/p/CL0586-0524-9-55",
+    "primary_cable": "https://www.molex.com/en-us/products/part-detail/0151660220",
+    "primary_cable_drawing": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/151/15166/151660097_sd.pdf",
+    "motion_route_verified": false,
+    "dynamic_flex_life_qualified": false
+  },
+  "SWD": {
+    "reference": "J202",
+    "type": "manualPCB6-padTC2030-IDC-NL mechanicalpattern",
+    "workshop_cable": "TC2030-CTX-NL",
+    "pins": {
+      "1": "3V3 reference only",
+      "2": "SWDIO",
+      "3": "MCU_NRSTn",
+      "4": "SWCLK",
+      "5": "GND",
+      "6": "NC; noSWO onM0+"
+    },
+    "primary_pinout": "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf",
+    "BOOT0_testpad": "TP201;R21310kGND; SWDprimaryrecovery"
+  },
+  "NTC": {
+    "sensor_mpn": "NTCLE413E2103F524A",
+    "sensor_R25_ohm": 10000,
+    "sensor_tolerance_fraction": 0.01,
+    "B25_85_K": 3435,
+    "B_tolerance_fraction": 0.01,
+    "sensor_primary": "https://www.vishay.com/docs/29078/ntcle413.pdf",
+    "pullups_R218_R219_ohm": 10000,
+    "pullup_tolerance_fraction": 0.001,
+    "pullup_supply": "3V3_ANALOG",
+    "NTC_other_end": "GND",
+    "ADC_series_R220_R221_ohm": 1000,
+    "ADC_shunt_C208_C209_F": 1e-07,
+    "physical_sensor_and_thermal_interface": "UVmodule/siblingsource; not duplicatedoncontroller"
+  },
+  "ADS1115": {
+    "reference": "U202",
+    "mpn": "ADS1115IDGSR",
+    "I2C_address": "0x48",
+    "SCL": "PB10 AF6",
+    "SDA": "PB11 AF6",
+    "AIN0": "BASE_FB",
+    "AIN1": "LID_FB",
+    "AIN2": "BASE_VOUT_DIV",
+    "AIN3": "LID_VOUT_DIV",
+    "ADDR": "GND",
+    "ALERT_RDY": "NC",
+    "monitor_filters": "UVmodules own10k/100nF FB and1M/68kVOUT+10k/100nF; controllerdoesnotduplicate"
+  },
+  "UV_VBUS_MON": {
+    "MCU": "PB2 physical20 digitalonly",
+    "supply_sensed": "UV_5V_SW afterbothsafetycuts",
+    "divider_ohm": [
+      100000,
+      150000
+    ],
+    "nominal_ratio": 0.6,
+    "meaning": "logicalpost-cutrailpresence, not analogvoltage measurement or4.3Vfloorqualification",
+    "firmware_startup_grace_ms": 300,
+    "input_ramp_and_unpowered_injection_qualified": false
+  },
+  "buttons": {
+    "S301": "LEFT\u2192BTN_LEFTn",
+    "S302": "CENTER\u2192BTN_CENTERn_RAW toindependenthardwareMAX6816",
+    "S303": "RIGHT\u2192BTN_RIGHTn",
+    "MPN": "B3FS-1002P",
+    "footprint_logical_nodes": "duplicatepads1upperrow/2lowerrow, matchingtwointernallyshortedrows",
+    "MCU_CENTER": "PB13 readsBTN_CENTERn_DEBOUNCED; noMCUgeneratedUVstartclock",
+    "LEFT_RIGHT_pullups_ohm": 10000,
+    "LEFT_RIGHT_pressed_mA_each_at3V3": 0.33,
+    "LEFT_RIGHT_RC_ms": 1
+  },
+  "intersheet_context": {
+    "X201": "annotation only, notPCB/purchased connector; remove when real siblingcircuitsjoin",
+    "external_port_nets": [
+      "SOURCE_OK",
+      "CC_OUT1",
+      "CC_OUT2",
+      "DEVICE_FAULTn",
+      "UV_LIMIT_FAULTn",
+      "LOOP_A",
+      "LOOP_B",
+      "MCU_NRSTn",
+      "UV_RUN",
+      "RELEASE_SEEN",
+      "BTN_CENTERn_DEBOUNCED",
+      "BTN_CENTERn_RAW",
+      "MCU_ARM",
+      "MCU_STOPn",
+      "WDI",
+      "UV_5V_SW",
+      "BASE_FB",
+      "LID_FB",
+      "BASE_VOUT_DIV",
+      "LID_VOUT_DIV",
+      "NTC_BASE",
+      "NTC_LID",
+      "3V3",
+      "GND"
+    ],
+    "standalone_power_flags": "3V3/GNDexternalcontext plusderivedrails; fullsystementrysources mustreplaceexternalflags asappropriate"
+  },
+  "remaining": [
+    "fullsystemnativeERC andassemblypin-contractchecks",
+    "LCD/socketmatingtrial/supplieracceptance",
+    "hingeFFCnativeclosed/openrouteandcontinuity",
+    "USBcurrent/suspend/inrush",
+    "nativePCBplacement/routing/DRC",
+    "firmwarecrosscheckandpoweredUI/monitor/UVfault tests"
+  ]
+}

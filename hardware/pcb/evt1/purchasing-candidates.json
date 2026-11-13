@@ -1,0 +1,100 @@
+{
+  "scope": "Open engineering parts research for completing the EVT build package; not the human-owned product BOM or a purchase",
+  "reviewed_date": "2026-11-12",
+  "battery": {
+    "status": "BC-PACK-EVT1-001 RFQ defined in pack-spec.json / PACK-RFQ.md; supplier acceptance and retention/lead process pending",
+    "candidate_cell": "EEMB LP502030HA",
+    "manufacturer_page": "https://www.eemb.com/product-248",
+    "manufacturer_datasheet": "https://eemb.oss-accelerate.aliyuncs.com//uploads/20230902/c75cb3cfcc973ee0b427f096b4dbd894.pdf",
+    "datasheet_id": "ZJQM-RD-SPC-A03220, version 0.0, 2017-08-24",
+    "bare_cell_specification": {
+      "nominal_capacity_mAh": 230,
+      "minimum_capacity_mAh": 200,
+      "nominal_voltage_V": 3.7,
+      "maximum_charge_current_mA": 230,
+      "maximum_discharge_current_mA": 2300,
+      "maximum_body_length_mm": 31,
+      "maximum_length_including_tabs_mm": 32,
+      "maximum_width_mm": 20.5,
+      "maximum_thickness_mm": 5.3,
+      "charge_temperature_C": [
+        0,
+        45
+      ],
+      "note": "This is a bare-cell specification. It does not select a protected pack, certify PCM current limits or bound a finished dual-NTC harness. Never substitute the bare cell for the required protected assembly."
+    },
+    "protected_pack_drawing_to_confirm": {
+      "name": "EEMB LP502030HA-PCM-LD / A25357",
+      "manufacturer_drawing_mirror": "https://www.radiomag.com.de/datasheets/A25357-LP502030HA-PCM-LD.pdf",
+      "drawing_date": "2025-09-11",
+      "reported_pack_maximum_dimensions_mm": [
+        32,
+        20.5,
+        5.3
+      ],
+      "reported_current_A": {
+        "continuous_discharge": 1,
+        "peak_discharge": 2,
+        "charge": 0.2
+      },
+      "required_followup": "Published1A continuous is below the1.5A EVT request; construction reference only. Obtain exact custom protected variant/controlled drawing/PCM thermal and trip data. Requested maximum/two dry NTC/growth geometry is integrated in EVT1Product; no approved pack or swelling guarantee."
+    },
+    "screened_out": [
+      {
+        "part": "LiPol LP602030 protected standard pack",
+        "source": "https://www.lipolbattery.com/LiPo-Battery-Datahseet/LiPo_Battery_LP602030.pdf",
+        "reason": "Manufacturer sheet permits300mA continuous discharge; selected motor listing alone permits450mA, before MCU/converter demand."
+      },
+      {
+        "part": "Adafruit2750 protected350mAh",
+        "source": "https://www.adafruit.com/product/2750",
+        "reason": "Published36mm body length exceeds current33mm pack gauge."
+      }
+    ]
+  },
+  "motor": {
+    "candidate": "NFP-E1015 3.7V",
+    "source": "https://nfpshop.com/product/nfp-e1015-encapsulated-vibration-motor-with-metal-cover-7g-vibration-force",
+    "manufacturer_drawing": "https://nfpshop.com/wp-content/uploads/2022/04/Encapsulated-Vibration-Motor-NFP-E1015-3.7V.pdf",
+    "published_rated_voltage_V": 3.7,
+    "published_rated_current_max_mA": 450,
+    "published_diameter_mm": 11,
+    "published_diameter_tolerance_mm": 0.1,
+    "published_length_mm": 26,
+    "published_length_tolerance_mm": 0.3,
+    "published_lead_length_mm": 100,
+    "required_followup": "Confirm exact capsule/coating/lead exit, received motor fit and startup/stall current. Do not infer full-system battery demand or a qualified press fit from the rated running current."
+  },
+  "sensor_screws": {
+    "prototype_selection": "NBK SPA-M1.4-2.5-MC3 RENY",
+    "quantity": 2,
+    "manufacturer_page": "https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/highintensity/SPA-MC3/SPA-M1.4-MC3/SPA-M1.4-2.5-MC3/",
+    "manufacturer_drawing": "https://www.nbk1560.com/images/en/product/plasticscrew/SPA-MC3/SPA-MC3_1.pdf",
+    "thread": "M1.4x0.3",
+    "length_mm": 2.5,
+    "head_diameter_mm": 2.5,
+    "head_height_mm": 0.8,
+    "bit": "SKCHB-M1.4",
+    "required_followup": "Trial pilot/tap process, strip/assembly torque and received head/bit dimensions. CAD head budget is2.6x0.85mm."
+  },
+  "remaining_selection": [
+    "Rear thin nut and locking method, thread/material/seal machining callouts",
+    "Contact post stock/finish/retention/termination and cavity/button molding barriers",
+    "Actual loom conductors, crimps, cut lengths, strain relief and assembly routing",
+    "Silicone/adhesive/foam and dummy-process qualification recipe"
+  ],
+  "PCB_parts": {
+    "selected_parts": "parts-selection.json",
+    "ordering_worksheet": "pcb-ordering.csv",
+    "validation": "parts-validation.json",
+    "purchased_positions": 114,
+    "unique_order_lines": 53,
+    "scope": "Exact PCB parts and assembly quotes; stock/supplier acceptance and physical qualification pending"
+  },
+  "contact_seal_trial": {
+    "spec": "../../cad/manufacturing-layout/charging-dock/contact-seal-spec.json",
+    "inner_ring": "HANSA-FLEX OR2-0.5,2x0.5NBR70",
+    "status": "Trial gland/ring geometry and single-contact hydrostatic fixture exist; material/cure compatibility, incoming tolerances, preload and real leaks remain unqualified",
+    "post_material_for_inert_trial": "Unplated316L; no finished electrical/body-contact finish selected"
+  }
+}

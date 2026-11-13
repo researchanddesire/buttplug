@@ -1,0 +1,29 @@
+{
+  "status": "pass: independent critical terminals, source clock direction, base/lid identity, ideal events and conservative power-current boundaries",
+  "critical_safety_pin_checks": 86,
+  "truth_table_rows": 64,
+  "UV_modules_identical": true,
+  "power_current_boundaries_verified": true,
+  "driver_DC_floor_V": 4.2325453711844645,
+  "common_PCB_current_mA": 1315.2801626521912,
+  "UV_current_mA": 650.6149054287945,
+  "source_sha256": {
+    "dock-safety/native.xml": "d4448522ad04c7d7356cbc15d4765f94448e00d16a9c622ca4908c7c63a9905c",
+    "dock-safety/native-checks.json": "35b0b045a8dd06eeeb90500fc8d91279a425781ea2614460dab1c73034d42a6f",
+    "dock-safety/build_safety.py": "198c9ddd99b0e07b5bfc6547d8f73289246b2d581451c0ba59a2d386ce593f1a",
+    "dock-safety/native_helpers.py": "8608923d6858e321f88c4c4539d58d70f3a2f156001c0894db1d9d1ab564da0c",
+    "dock-safety/power-budget.json": "aa6b03156f494c8640d7c4f1f622bfdb080d30c9a9c07262faff435cdc9c3d04",
+    "dock-safety/build_power_budget.py": "64ef4613832311ba0a80003773111ead8cf7f620b3f27e25fcad8324f0be5ccc",
+    "dock-safety/DESIGN.md": "4e751b4d63e9bcdfd8338c59a1e0162e10bb85e2b4f3f862eff3ceab09d12a32",
+    "dock-safety/check_interfaces.py": "8885db420046f01197147020c1de885aad5d8371c245675cffbacde29e740881",
+    "dock-uv/base/native.xml": "ed424ba52328d64c2287a98a3f1892fbcc0b0323154b572c5c8f6af684124292",
+    "dock-uv/base/native-checks.json": "8bcf8d2f27750a9856381d037779d3395f7a06cc66109ba92f2f0f5cbe98be72",
+    "dock-uv/lid/native.xml": "cc70d37ddfa9278c39e95229923f6cde779d012ed57097679c9946e10aca1936",
+    "dock-uv/lid/native-checks.json": "55d0838b4cb49d91a5120cde5d3d0f68772e16b64709c694d323c63b6b42d9ea",
+    "dock-uv/DESIGN.md": "11d2f50589ac0512763b39e43ee1b70bad5eff991aa3965356a082763dbb8864"
+  },
+  "limits": [
+    "analog levels/timing and bounce not simulated",
+    "no powered or optical validation"
+  ]
+}

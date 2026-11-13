@@ -1,0 +1,154 @@
+{
+  "scope": "Native external geometry and editable compression only; not a fit or force qualification",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "native_file": "Pogo0906-2.FCStd",
+  "native_sha256": "41ec530c3da411b3e77447b6b61fa8e52ad236cdf2aa7979c2f80522829af903",
+  "builder_sha256": "0ceed22fc08d62296bd4937bacf9e61971736b11ded0f5a92af96143fc425a30",
+  "source_manifest_sha256": "99016f2ba771caa54fdedde2f9995174705eb1f753cda6b19e25a72f4fd7152b",
+  "compression_checks": [
+    {
+      "mpn": "0906-2-15-20-75-14-11-0",
+      "compression_mm": 0.0,
+      "PCB_seating_Z_mm": 0,
+      "contact_Z_mm": 5.0038,
+      "tail_end_Z_mm": -1.7526000000000002,
+      "bounds_method": "Shape.optimalBoundingBox(False, False); analytic BRep extrema",
+      "native_bodies": 2,
+      "body_validity": [
+        true,
+        true
+      ],
+      "nominal_max_stroke_mm": 1.397,
+      "not_physical_qualification": true
+    },
+    {
+      "mpn": "0906-2-15-20-75-14-11-0",
+      "compression_mm": 0.6,
+      "PCB_seating_Z_mm": 0,
+      "contact_Z_mm": 4.4038,
+      "tail_end_Z_mm": -1.7526000000000002,
+      "bounds_method": "Shape.optimalBoundingBox(False, False); analytic BRep extrema",
+      "native_bodies": 2,
+      "body_validity": [
+        true,
+        true
+      ],
+      "nominal_max_stroke_mm": 1.397,
+      "not_physical_qualification": true
+    },
+    {
+      "mpn": "0906-2-15-20-75-14-11-0",
+      "compression_mm": 0.6985,
+      "PCB_seating_Z_mm": 0,
+      "contact_Z_mm": 4.3053,
+      "tail_end_Z_mm": -1.7526000000000002,
+      "bounds_method": "Shape.optimalBoundingBox(False, False); analytic BRep extrema",
+      "native_bodies": 2,
+      "body_validity": [
+        true,
+        true
+      ],
+      "nominal_max_stroke_mm": 1.397,
+      "not_physical_qualification": true
+    },
+    {
+      "mpn": "0906-2-15-20-75-14-11-0",
+      "compression_mm": 1.397,
+      "PCB_seating_Z_mm": 0,
+      "contact_Z_mm": 3.6068,
+      "tail_end_Z_mm": -1.7526000000000002,
+      "bounds_method": "Shape.optimalBoundingBox(False, False); analytic BRep extrema",
+      "native_bodies": 2,
+      "body_validity": [
+        true,
+        true
+      ],
+      "nominal_max_stroke_mm": 1.397,
+      "not_physical_qualification": true
+    }
+  ],
+  "after_display_tessellation": {
+    "deflection_mm": 0.5,
+    "bounds": [
+      {
+        "body": "Pogo0906_2ShellAndTail",
+        "default_bounds_mm": [
+          -0.914058820225891,
+          -0.9143147010779589,
+          -1.7526000000000004,
+          0.9143999999999999,
+          0.914314701077959,
+          2.6924
+        ],
+        "analytic_bounds_mm": [
+          -0.9143999999999999,
+          -0.9143999999999999,
+          -1.7526000000000002,
+          0.9143999999999999,
+          0.9144,
+          2.6924
+        ]
+      },
+      {
+        "body": "Pogo0906_2VisiblePlunger",
+        "default_bounds_mm": [
+          -0.5334,
+          -0.5334,
+          2.6923999999999997,
+          0.5334,
+          0.5334,
+          4.4038
+        ],
+        "analytic_bounds_mm": [
+          -0.5334000000000002,
+          -0.5334,
+          2.6923999999999997,
+          0.5334,
+          0.5334,
+          4.4038
+        ]
+      }
+    ],
+    "check": {
+      "mpn": "0906-2-15-20-75-14-11-0",
+      "compression_mm": 0.6,
+      "PCB_seating_Z_mm": 0,
+      "contact_Z_mm": 4.4038,
+      "tail_end_Z_mm": -1.7526000000000002,
+      "bounds_method": "Shape.optimalBoundingBox(False, False); analytic BRep extrema",
+      "native_bodies": 2,
+      "body_validity": [
+        true,
+        true
+      ],
+      "nominal_max_stroke_mm": 1.397,
+      "not_physical_qualification": true
+    }
+  },
+  "saved_reopened_check": {
+    "mpn": "0906-2-15-20-75-14-11-0",
+    "compression_mm": 0.6,
+    "PCB_seating_Z_mm": 0,
+    "contact_Z_mm": 4.4038,
+    "tail_end_Z_mm": -1.7526000000000002,
+    "bounds_method": "Shape.optimalBoundingBox(False, False); analytic BRep extrema",
+    "native_bodies": 2,
+    "body_validity": [
+      true,
+      true
+    ],
+    "nominal_max_stroke_mm": 1.397,
+    "not_physical_qualification": true
+  },
+  "pass": true,
+  "physical_validation": false
+}

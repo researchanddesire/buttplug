@@ -1,0 +1,3 @@
+#pragma once
+#define CONFIG_IDF_TARGET_ESP32C3 1
+#define CONFIG_R0_PIN_DOCK_N 20

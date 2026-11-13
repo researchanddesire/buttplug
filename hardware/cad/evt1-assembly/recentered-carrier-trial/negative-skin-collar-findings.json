@@ -1,0 +1,76 @@
+{
+  "state": "NEGATIVE actual revised-skin/unchanged-collar test; no fit-clean claim",
+  "overlap_seated_mm3": 5.261696517882095,
+  "overall_bounds_mm": [
+    -41.8278,
+    23.5,
+    13.3,
+    -10,
+    24,
+    14.3
+  ],
+  "solids": [
+    {
+      "mm3": 4.270619671525103,
+      "bounds_mm": [
+        -20,
+        23.5,
+        13.3,
+        -10,
+        24,
+        14.3
+      ]
+    },
+    {
+      "mm3": 0.9910762991963239,
+      "bounds_mm": [
+        -41.8278,
+        23.5,
+        13.3,
+        -38,
+        24,
+        14.3
+      ]
+    }
+  ],
+  "mating_hits": [
+    {
+      "plusY_mm": 0.4,
+      "mm3": 0.6470937552971407
+    },
+    {
+      "plusY_mm": 0.3,
+      "mm3": 1.6017478890095025
+    },
+    {
+      "plusY_mm": 0.2,
+      "mm3": 2.7507459602455775
+    },
+    {
+      "plusY_mm": 0.1,
+      "mm3": 3.9899899330225237
+    },
+    {
+      "plusY_mm": 0,
+      "mm3": 5.261696517882093
+    }
+  ],
+  "sources": [
+    {
+      "path": "tools/build_evt1_dock_recentered_carrier.py",
+      "SHA256": "65a9877af65146bce631e673b0edf3dfd4fb19e99dc46b71e366b806b02395da"
+    },
+    {
+      "path": "hardware/cad/evt1-assembly/recentered-carrier-trial/RecenteredCarrierTrial.FCStd",
+      "SHA256": "6bd3ddf5dfde8230c80b80df13ed5df0e0cecb41c8856b9c846b9480ae6c4e30"
+    },
+    {
+      "path": "/private/tmp/compass-jobs/candidate050/DockAssembly.FCStd",
+      "SHA256": "6271a77b21ac1f03880138435662bdc9fe38453330030ee84cb44265e237f6eb"
+    },
+    {
+      "path": "hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/exterior/SingleFlangeExterior.FCStd",
+      "SHA256": "4b9471fea1af7ace656350d1bc001c665d675ac7fe8014103637b7c204a3b7c5"
+    }
+  ]
+}

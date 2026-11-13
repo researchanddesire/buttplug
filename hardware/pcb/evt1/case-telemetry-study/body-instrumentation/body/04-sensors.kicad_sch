@@ -1,0 +1,477 @@
+(kicad_sch
+  (version 20230121)
+  (generator build_evt1_electrical)
+  (uuid b15d875f-146d-5544-a6ac-9749a7465aa9)
+  (paper "A3")
+  (title_block
+    (title "EVT1 two-wire tip thermistor / pulsed ratiometric ADC")
+    (date "2026-11-12")
+    (rev "EVT1 electrical candidate")
+    (company "Research and Desire")
+    (comment 1 "TELEMETRY STUDY / ORIGINAL ARTWORK UNCHANGED / NO RELEASE"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:ADS1115IDGSR"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "ADS1115IDGSR" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1115.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "0x48, pulsed ratiometric tip thermistor readout" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "ADS1115IDGSR_0_1" (rectangle (start -15.24 15.24) (end 15.24 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "ADS1115IDGSR_1_1"
+        (pin input line (at -20.32 10.16 0) (length 5.08) (name "ADDR" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 5.08 0) (length 5.08) (name "AIN0_NTC" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 0.0 0)
+          (length 5.08)
+          (name "AIN1_EXC_HALF" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -5.08 0) (length 5.08) (name "AIN2" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -10.16 0) (length 5.08) (name "AIN3" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 10.16 180) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 5.08 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 0.0 180)
+          (length 5.08)
+          (name "SDA" (effects (font (size 1.016 1.016))))
+          (number "9" (effects (font (size 1.016 1.016)))))
+        (pin input line (at 20.32 -5.08 180) (length 5.08) (name "SCL" (effects (font (size 1.016 1.016)))) (number "10" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 -10.16 180)
+          (length 5.08)
+          (name "ALERT_RDY" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:Conn2"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn2" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn2_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn2_1_1"
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:Conn4"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn4" (at 0 15.239999999999998 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn4_0_1" (rectangle (start -15.24 12.7) (end 15.24 -12.7) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn4_1_1"
+        (pin passive line (at -20.32 7.62 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "3" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -7.62 0) (length 5.08) (name "4" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:R"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "R_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016))))))))
+  (symbol
+    (lib_id "PrototypeR0:ADS1115IDGSR")
+    (at 88.9 68.58 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 9b7ab773-0d49-5547-9cb5-d9d0f0a61fb1)
+    (property "Reference" "U7" (at 88.9 48.26 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ADS1115IDGSR /0x48" (at 88.9 50.8 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "EVT1:VSSOP-10_3x3mm_P0.5mm" (at 88.9 68.58 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1115.pdf" (at 88.9 68.58 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 88.9 68.58 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 88.9 68.58 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 88.9 68.58 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 71b7aa51-2440-5b76-8d08-9234882b1720))
+    (pin "4" (uuid f7c0c3b1-2928-57d6-b473-4bb1642c4db4))
+    (pin "5" (uuid f9208de2-15f5-5e7c-bfaf-bacb90488778))
+    (pin "6" (uuid e3998869-3ee9-5b21-83d1-50976ea1b10b))
+    (pin "7" (uuid d823ad18-cecd-5f94-a9f7-ec6baa87f0be))
+    (pin "8" (uuid 53449449-7215-5b9b-8a05-afa03582afad))
+    (pin "3" (uuid 467b907b-5fc8-5797-b3de-831c20c7ae48))
+    (pin "9" (uuid 3589d5b7-5dd8-56a4-a59c-de6774d5690c))
+    (pin "10" (uuid d5fc086c-5039-5d2e-8d62-63976591cd14))
+    (pin "2" (uuid 97d1966e-5335-5314-b405-52ac49036ae3))
+    (instances
+      (project "body-evt1" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "U7") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "U7") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "U7") (unit 1)))))
+  (wire (pts (xy 68.58 58.42) (xy 63.5 58.42)) (stroke (width 0) (type default)) (uuid 6d0d89af-2a2d-5564-83d7-45985a62c2ec))
+  (global_label "GND" (shape input) (at 63.5 58.42 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 7f1295b7-ff4a-550d-9018-e63ca366998f))
+  (wire (pts (xy 68.58 63.5) (xy 63.5 63.5)) (stroke (width 0) (type default)) (uuid ac88692a-9ffd-5f5e-8b55-32e571d31b30))
+  (global_label "TIP_NTC" (shape input) (at 63.5 63.5 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid f968f8cf-f02a-582a-88cd-34bb279681a7))
+  (wire (pts (xy 68.58 68.58) (xy 63.5 68.58)) (stroke (width 0) (type default)) (uuid 8787eda9-16e8-59de-8fa3-17f90fba7ae5))
+  (global_label
+    "TIP_EXC_HALF"
+    (shape input)
+    (at 63.5 68.58 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid dc140dea-493b-5f1d-bbe7-b459f504e9b3))
+  (wire (pts (xy 68.58 73.66) (xy 63.5 73.66)) (stroke (width 0) (type default)) (uuid dc7af129-944f-5fc7-a0b6-d88e6afc6b75))
+  (global_label
+    "CHARGE_CURRENT_ADC"
+    (shape input)
+    (at 63.5 73.66 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid ff14873d-cdd1-562e-8712-2a3c44833d55))
+  (wire (pts (xy 68.58 78.74) (xy 63.5 78.74)) (stroke (width 0) (type default)) (uuid 687f3c19-42b2-5297-972a-beb8725ea13f))
+  (global_label
+    "CHARGE_TS_ADC"
+    (shape input)
+    (at 63.5 78.74 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid cc466985-1c8e-5ea2-862d-0d9a624631a2))
+  (wire (pts (xy 109.22 58.42) (xy 114.3 58.42)) (stroke (width 0) (type default)) (uuid cf2159c9-bcff-56f5-b6d1-081cc6165a3a))
+  (global_label "3V3" (shape input) (at 114.3 58.42 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 4bb98695-b4d8-5544-8b15-2ca57282b293))
+  (wire (pts (xy 109.22 63.5) (xy 114.3 63.5)) (stroke (width 0) (type default)) (uuid 4cb98e29-2cc0-5b6b-a768-9bd47055aa86))
+  (global_label "GND" (shape input) (at 114.3 63.5 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 14ab0360-ade8-5a85-96d5-c107f803e92b))
+  (wire (pts (xy 109.22 68.58) (xy 114.3 68.58)) (stroke (width 0) (type default)) (uuid 7ce0d303-4576-5c05-aab0-be39f88b8223))
+  (global_label "I2C_SDA" (shape input) (at 114.3 68.58 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 63d10bac-3c5b-5f1b-8b57-9b77910c218c))
+  (wire (pts (xy 109.22 73.66) (xy 114.3 73.66)) (stroke (width 0) (type default)) (uuid f54bc94e-2eab-559a-90b4-7c57c97120b2))
+  (global_label "I2C_SCL" (shape input) (at 114.3 73.66 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 33f57617-f42a-534a-8f68-786ad38c2634))
+  (no_connect (at 109.22 78.74) (uuid afe6ee16-2759-5827-9a17-f1bcbb2d6013))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 157.48 40.64 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid df2f250b-2401-51e1-a788-b233fc62133c)
+    (property "Reference" "R61" (at 166.37 39.37 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k 0.1%" (at 166.37 41.910000000000004 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "EVT1:R_0402_1005Metric" (at 157.48 40.64 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 157.48 40.64 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 157.48 40.64 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 157.48 40.64 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 157.48 40.64 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid a80e71a8-a3b8-58a5-a1c7-5f02c9e63ce3))
+    (pin "2" (uuid a1b4aae9-2126-5fa6-b5eb-b07f414557f2))
+    (instances
+      (project "body-evt1" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R61") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R61") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R61") (unit 1)))))
+  (wire (pts (xy 157.48 35.56) (xy 157.48 30.48)) (stroke (width 0) (type default)) (uuid 53f0e199-e528-5aad-83fd-06ed76a2f23c))
+  (global_label
+    "TIP_EXC_EN"
+    (shape input)
+    (at 157.48 30.48 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid a7d4d219-aa69-5a7f-b5dd-84bd4538a816))
+  (wire (pts (xy 157.48 45.72) (xy 157.48 50.8)) (stroke (width 0) (type default)) (uuid c1da8e04-397e-5010-ae22-99dd21a98305))
+  (global_label "TIP_NTC" (shape input) (at 157.48 50.8 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 22b87203-adda-56a6-b9ae-fe75ca1f9d4f))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 157.48 78.74 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 82b8742b-fba9-550e-b684-cb5f103888af)
+    (property "Reference" "C61" (at 166.37 77.47 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF" (at 166.37 80.00999999999999 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "EVT1:C_0402_1005Metric" (at 157.48 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 157.48 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 157.48 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 157.48 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 157.48 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid ea1c03da-2854-5e4e-8309-d32e82b5e622))
+    (pin "2" (uuid 35d11651-0f88-5710-bde9-1bfeba9a3af0))
+    (instances
+      (project "body-evt1" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C61") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C61") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C61") (unit 1)))))
+  (wire (pts (xy 157.48 73.66) (xy 157.48 68.58)) (stroke (width 0) (type default)) (uuid 9e28b058-9fe0-5e66-833d-add6ec7a03bf))
+  (global_label "3V3" (shape input) (at 157.48 68.58 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid e8a6b046-1ff9-5241-a19a-06cdb1324a6c))
+  (wire (pts (xy 157.48 83.82) (xy 157.48 88.9)) (stroke (width 0) (type default)) (uuid 0a74d891-18c0-5efa-8ea5-42065d4b7853))
+  (global_label "GND" (shape input) (at 157.48 88.9 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 8d8efc16-dc8f-5e94-88b4-abea3a0530db))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 157.48 116.84 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 6ed956d9-0a2d-53a5-93fe-005266cc15f1)
+    (property "Reference" "C62" (at 166.37 115.57000000000001 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10nF" (at 166.37 118.11 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "EVT1:C_0402_1005Metric" (at 157.48 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 157.48 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 157.48 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 157.48 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 157.48 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid f385e9a3-0eee-5e5c-b18a-c19c69c64b12))
+    (pin "2" (uuid 093eb3eb-805a-5040-8305-b129d502c0a8))
+    (instances
+      (project "body-evt1" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C62") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C62") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C62") (unit 1)))))
+  (wire (pts (xy 157.48 111.76) (xy 157.48 106.68)) (stroke (width 0) (type default)) (uuid 1aa6bbb0-185f-52be-9c03-f4a313d02b0b))
+  (global_label "TIP_NTC" (shape input) (at 157.48 106.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 84e0142b-e9d5-57e3-83b0-4b9493e49e07))
+  (wire (pts (xy 157.48 121.92) (xy 157.48 127.0)) (stroke (width 0) (type default)) (uuid f6640dd7-0635-5153-90df-402107f77a59))
+  (global_label "GND" (shape input) (at 157.48 127.0 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid dd40cf28-d774-5f43-b549-e6d4830fa611))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 218.44 40.64 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 2f542e55-2689-59a0-9fbf-8884b6cc2093)
+    (property "Reference" "R62" (at 227.32999999999998 39.37 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k 0.1%" (at 227.32999999999998 41.910000000000004 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "EVT1:R_0402_1005Metric" (at 218.44 40.64 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 218.44 40.64 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 218.44 40.64 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 218.44 40.64 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 218.44 40.64 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 12640489-a4fd-5d26-8fc7-b5ddb061a308))
+    (pin "2" (uuid dca35f08-a1ca-5cf8-9e4e-db97775e4030))
+    (instances
+      (project "body-evt1" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R62") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R62") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R62") (unit 1)))))
+  (wire (pts (xy 218.44 35.56) (xy 218.44 30.48)) (stroke (width 0) (type default)) (uuid 37ffb665-53b5-5452-b9f7-1085eddb83e1))
+  (global_label
+    "TIP_EXC_EN"
+    (shape input)
+    (at 218.44 30.48 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid b71933a7-0a46-5c64-b7f1-9c5790269774))
+  (wire (pts (xy 218.44 45.72) (xy 218.44 50.8)) (stroke (width 0) (type default)) (uuid 2c8c86cc-bbf5-54cc-8824-11731bc9a293))
+  (global_label
+    "TIP_EXC_HALF"
+    (shape input)
+    (at 218.44 50.8 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid ac46d865-d38f-57ef-a5ca-b9083066fd68))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 218.44 78.74 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 11be07d5-58b3-5c0e-a26e-9d04887d922a)
+    (property "Reference" "R63" (at 227.32999999999998 77.47 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k 0.1%" (at 227.32999999999998 80.00999999999999 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "EVT1:R_0402_1005Metric" (at 218.44 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 218.44 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 218.44 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 218.44 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 218.44 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid d63ac3d9-079f-58ef-8db7-27835bc8bd20))
+    (pin "2" (uuid 3a4555dc-142b-5a47-967a-188099a1a123))
+    (instances
+      (project "body-evt1" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R63") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R63") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R63") (unit 1)))))
+  (wire (pts (xy 218.44 73.66) (xy 218.44 68.58)) (stroke (width 0) (type default)) (uuid cdcc4238-cdbc-56c4-a46b-93989fdad38a))
+  (global_label
+    "TIP_EXC_HALF"
+    (shape input)
+    (at 218.44 68.58 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 739ff764-0b7e-52de-999e-ce9d228ca064))
+  (wire (pts (xy 218.44 83.82) (xy 218.44 88.9)) (stroke (width 0) (type default)) (uuid b3f68917-0ac1-5abf-ada6-ac377b558cba))
+  (global_label "GND" (shape input) (at 218.44 88.9 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 308a0a57-08d6-52c7-bf79-b03e5ec8ebb8))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 218.44 116.84 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 293e4986-1ebb-5948-a6e7-f7551866b922)
+    (property "Reference" "C63" (at 227.32999999999998 115.57000000000001 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10nF" (at 227.32999999999998 118.11 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "EVT1:C_0402_1005Metric" (at 218.44 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 218.44 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 218.44 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 218.44 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 218.44 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 57655915-9117-5609-8c68-b5302bd75f1d))
+    (pin "2" (uuid aba09deb-7f19-59e4-91f0-fd96bf579f01))
+    (instances
+      (project "body-evt1" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C63") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C63") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C63") (unit 1)))))
+  (wire (pts (xy 218.44 111.76) (xy 218.44 106.68)) (stroke (width 0) (type default)) (uuid ea6ebd66-8a2d-5363-a234-1cf7f8e601a1))
+  (global_label
+    "TIP_EXC_HALF"
+    (shape input)
+    (at 218.44 106.68 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid bc28f399-5d43-56bf-9b51-7fa95037064f))
+  (wire (pts (xy 218.44 121.92) (xy 218.44 127.0)) (stroke (width 0) (type default)) (uuid 4734f950-0ee6-54e4-b299-fa05034ec1eb))
+  (global_label "GND" (shape input) (at 218.44 127.0 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid b4321870-9e33-5f8a-93fc-891023dd1211))
+  (symbol
+    (lib_id "PrototypeR0:Conn2")
+    (at 292.1 43.18 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 0b01805a-df79-5e18-8e00-dee44995a74f)
+    (property "Reference" "J5" (at 292.1 30.480000000000004 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TIP NTC / GND" (at 292.1 33.02 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "EVT1:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" (at 292.1 43.18 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 292.1 43.18 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 292.1 43.18 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 292.1 43.18 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 292.1 43.18 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid c096e093-be4c-58f1-aa9d-73e7d821c936))
+    (pin "2" (uuid beef50dd-600b-574d-826f-3154a33039e8))
+    (instances
+      (project "body-evt1" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "J5") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "J5") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "J5") (unit 1)))))
+  (wire (pts (xy 271.78 40.64) (xy 266.7 40.64)) (stroke (width 0) (type default)) (uuid 4d07d8ad-83c7-51cb-b357-2d137f360cd4))
+  (global_label
+    "TIP_NTC"
+    (shape input)
+    (at 266.7 40.64 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 117245ea-440a-5500-a1ac-b6f728dae3c1))
+  (wire (pts (xy 271.78 45.72) (xy 266.7 45.72)) (stroke (width 0) (type default)) (uuid 5291a0b6-a0d0-5601-a721-0b18d689e061))
+  (global_label "GND" (shape input) (at 266.7 45.72 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 38af129e-71d3-59ca-b5c6-1cfeec2fb455))
+  (symbol
+    (lib_id "PrototypeR0:Conn4")
+    (at 292.1 99.06 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 75bbbcfe-09bd-5c9b-8675-e03cbe3cfb02)
+    (property "Reference" "J81" (at 292.1 81.28 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "FIXED FLANGE SENSOR LOOM" (at 292.1 83.82000000000001 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "EVT1:Sensor_Loom_4Land" (at 292.1 99.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 292.1 99.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 292.1 99.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 292.1 99.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 292.1 99.06 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid b3b66d7a-d7f3-5608-b72f-8e713e10adb0))
+    (pin "2" (uuid f8ca4db0-9cd0-5568-bfe7-5b40a5bc17ae))
+    (pin "3" (uuid 6ccaaaa2-bd0a-5225-a5a1-36685d9ae386))
+    (pin "4" (uuid f1a3b36e-9ae9-54a3-8feb-0235e722b55e))
+    (instances
+      (project "body-evt1" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "J81") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "J81") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "J81") (unit 1)))))
+  (wire (pts (xy 271.78 91.44) (xy 266.7 91.44)) (stroke (width 0) (type default)) (uuid b9a1f049-8dec-5135-b895-3b18aa3b54f9))
+  (global_label "3V3" (shape input) (at 266.7 91.44 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid df264403-12cb-5bbd-8266-e62cf22a0ccd))
+  (wire (pts (xy 271.78 96.52) (xy 266.7 96.52)) (stroke (width 0) (type default)) (uuid acd9bdcb-ec78-5fac-a871-f0443d35b414))
+  (global_label "GND" (shape input) (at 266.7 96.52 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 65882180-48dd-5cc3-93e3-8db534fed1ab))
+  (wire (pts (xy 271.78 101.6) (xy 266.7 101.6)) (stroke (width 0) (type default)) (uuid f0894a54-1e43-5a9d-a3f4-a3835ab88c6d))
+  (global_label
+    "I2C_SDA"
+    (shape input)
+    (at 266.7 101.6 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 4ba12194-4060-559b-acfc-c0c071052b13))
+  (wire (pts (xy 271.78 106.68) (xy 266.7 106.68)) (stroke (width 0) (type default)) (uuid 59bfb342-d675-5a01-a93d-937b1de0f1ff))
+  (global_label
+    "I2C_SCL"
+    (shape input)
+    (at 266.7 106.68 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid fc8c671d-07ec-55a6-941b-bcf42dc9bbd6))
+  (text
+    "GPIO10 / interboard pin10 becomes TIP_EXC_EN (not accelerometer interrupt).\nPulse high only for settled ADC conversions; force low on error and sleep.\nR_NTC = 10k * AIN0 / (2*AIN1 - AIN0). PGA +/-4.096 V; 128 SPS single shot.\nExternal fixed sensor daughterboard carries both accel and magnetometer; no body-mounted MC3635."
+    (at 40.64 165.1 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid e43721cd-101b-5169-ab44-60c8f95ab734))
+  (sheet_instances (path "/" (page "1"))))

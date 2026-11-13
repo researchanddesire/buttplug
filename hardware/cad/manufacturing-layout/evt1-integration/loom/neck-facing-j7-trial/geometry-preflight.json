@@ -1,0 +1,58 @@
+{
+  "scope": "Temporary geometry preflight before rerouting the PCB; source native board remains unchanged",
+  "pass": true,
+  "findings": [],
+  "wires": {
+    "IB01": {
+      "length_mm": 63.787873172271254,
+      "minimum_sampled_radius_mm": 4.306445312499946
+    },
+    "IB02": {
+      "length_mm": 63.42289781565698,
+      "minimum_sampled_radius_mm": 4.306445312499946
+    },
+    "IB03": {
+      "length_mm": 63.145476998443954,
+      "minimum_sampled_radius_mm": 4.306445312499946
+    },
+    "IB04": {
+      "length_mm": 62.958699097942414,
+      "minimum_sampled_radius_mm": 4.306445312499946
+    },
+    "IB05": {
+      "length_mm": 62.864745213116436,
+      "minimum_sampled_radius_mm": 4.306445312499946
+    },
+    "IB06": {
+      "length_mm": 62.864745213116436,
+      "minimum_sampled_radius_mm": 4.306445312499946
+    },
+    "IB07": {
+      "length_mm": 62.958699097942414,
+      "minimum_sampled_radius_mm": 4.306445312499946
+    },
+    "IB08": {
+      "length_mm": 63.145476998443954,
+      "minimum_sampled_radius_mm": 4.306445312499946
+    },
+    "IB09": {
+      "length_mm": 63.42289781565698,
+      "minimum_sampled_radius_mm": 4.306445312499946
+    },
+    "IB10": {
+      "length_mm": 63.787873172271254,
+      "minimum_sampled_radius_mm": 4.306445312499946
+    }
+  },
+  "candidate_component_pair_checks": 882,
+  "minimum_wire_surface_gap_mm": 0.04716711905802388,
+  "minimum_wire_to_nearby_part_gaps_mm": {
+    "Flange_D73": 0.3300714011842293,
+    "Flange_J7_Mate": 0.0,
+    "RearNutReference": 1.8124999999999947
+  },
+  "source_snapshot_sha256": "23da939c358720c18d770fece24ef29ed62a571f863a066a75699e10083e4640",
+  "preflight_script_sha256": "5ca32086fea3ceda585451c83526d04a8aaf84c3f733ba4129f00b755f20f82f",
+  "native_sha256": "9cf78f8e9d95c95c186715a925c1e1458d4b3f14abd1762348c1a6ed806e463b",
+  "physical_validation": false
+}

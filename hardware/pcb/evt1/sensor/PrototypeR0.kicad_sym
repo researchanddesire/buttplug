@@ -1,0 +1,414 @@
+(kicad_symbol_lib
+  (version 20220914)
+  (generator build_evt1_electrical)
+  (symbol
+    "R"
+    (pin_names hide)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol
+      "R_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "C"
+    (pin_names hide)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol
+      "C_0_1"
+      (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+      (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+      (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+      (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol
+      "C_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "NTC_TDK"
+    (pin_names hide)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "NTC_TDK" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "NTC_TDK_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol
+      "NTC_TDK_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "Conn2"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "Conn2" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "Logical connector pin numbering; physical connector and footprint not selected"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "Conn2_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "Conn2_1_1"
+      (pin passive line (at -20.32 2.54 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "Conn4"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "Conn4" (at 0 15.239999999999998 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "Logical connector pin numbering; physical connector and footprint not selected"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "Conn4_0_1" (rectangle (start -15.24 12.7) (end 15.24 -12.7) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "Conn4_1_1"
+      (pin passive line (at -20.32 7.62 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 2.54 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "3" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -7.62 0) (length 5.08) (name "4" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "BAT54WS"
+    (pin_names hide)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "D" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "BAT54WS" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol
+      "BAT54WS_0_1"
+      (polyline (pts (xy -2.54 2.54) (xy 2.54 2.54) (xy 0 -2.54) (xy -2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+      (polyline (pts (xy -2.54 -2.54) (xy 2.54 -2.54)) (stroke (width 0.3) (type default)) (fill (type none)))
+      (polyline (pts (xy 0 3.81) (xy 0 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+      (polyline (pts (xy 0 -2.54) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol
+      "BAT54WS_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "TPS3422EGDRYR"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TPS3422EGDRYR" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3422.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Single-button 7.5 s timer, fixed 400 ms reset pulse" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "TPS3422EGDRYR_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "TPS3422EGDRYR_1_1"
+      (pin input line (at -20.32 5.08 0) (length 5.08) (name "PB1_N" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 0.0 0) (length 5.08) (name "TS_7S5_LOW" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 -5.08 0) (length 5.08) (name "TST" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+      (pin
+        open_collector
+        line
+        (at 20.32 5.08 180)
+        (length 5.08)
+        (name "RST_N" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "VCC" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 -5.08 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "ADS1115IDGSR"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ADS1115IDGSR" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1115.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "0x48, pulsed ratiometric tip thermistor readout" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "ADS1115IDGSR_0_1" (rectangle (start -15.24 15.24) (end 15.24 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "ADS1115IDGSR_1_1"
+      (pin input line (at -20.32 10.16 0) (length 5.08) (name "ADDR" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 5.08 0) (length 5.08) (name "AIN0_NTC" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at -20.32 0.0 0)
+        (length 5.08)
+        (name "AIN1_EXC_HALF" (effects (font (size 1.016 1.016))))
+        (number "5" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 -5.08 0) (length 5.08) (name "AIN2" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 -10.16 0) (length 5.08) (name "AIN3" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 10.16 180) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 5.08 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 0.0 180)
+        (length 5.08)
+        (name "SDA" (effects (font (size 1.016 1.016))))
+        (number "9" (effects (font (size 1.016 1.016)))))
+      (pin input line (at 20.32 -5.08 180) (length 5.08) (name "SCL" (effects (font (size 1.016 1.016)))) (number "10" (effects (font (size 1.016 1.016)))))
+      (pin
+        open_collector
+        line
+        (at 20.32 -10.16 180)
+        (length 5.08)
+        (name "ALERT_RDY" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "LSM303AGRTR"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 22.86 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "LSM303AGRTR" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm303agr.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Flange-fixed compass: accel 0x19, magnetometer 0x1e" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "LSM303AGRTR_0_1" (rectangle (start -15.24 17.78) (end 15.24 -17.78) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "LSM303AGRTR_1_1"
+      (pin input line (at -20.32 12.7 0) (length 5.08) (name "SCL" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 7.619999999999999 0)
+        (length 5.08)
+        (name "SDA" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at -20.32 2.539999999999999 0)
+        (length 5.08)
+        (name "CS_XL" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016)))))
+      (pin
+        input
+        line
+        (at -20.32 -2.540000000000001 0)
+        (length 5.08)
+        (name "CS_MAG" (effects (font (size 1.016 1.016))))
+        (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 -7.620000000000001 0)
+        (length 5.08)
+        (name "C1" (effects (font (size 1.016 1.016))))
+        (number "5" (effects (font (size 1.016 1.016)))))
+      (pin output line (at -20.32 -12.7 0) (length 5.08) (name "INT_MAG" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 12.7 180) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "9" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at 20.32 7.619999999999999 180)
+        (length 5.08)
+        (name "VDDIO" (effects (font (size 1.016 1.016))))
+        (number "10" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at 20.32 2.539999999999999 180)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "6" (effects (font (size 1.016 1.016)))))
+      (pin
+        power_in
+        line
+        (at 20.32 -2.540000000000001 180)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "8" (effects (font (size 1.016 1.016)))))
+      (pin
+        output
+        line
+        (at 20.32 -7.620000000000001 180)
+        (length 5.08)
+        (name "INT2_XL" (effects (font (size 1.016 1.016))))
+        (number "11" (effects (font (size 1.016 1.016)))))
+      (pin
+        output
+        line
+        (at 20.32 -12.7 180)
+        (length 5.08)
+        (name "INT1_XL" (effects (font (size 1.016 1.016))))
+        (number "12" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "USBLC6_2SC6"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "USBLC6_2SC6" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "USB data/5V ESD array; short return at contact entry" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "USBLC6_2SC6_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "USBLC6_2SC6_1_1"
+      (pin passive line (at -20.32 5.08 0) (length 5.08) (name "IO1_IN" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at -20.32 0.0 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -5.08 0) (length 5.08) (name "IO2_IN" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 5.08 180) (length 5.08) (name "IO1_OUT" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 0.0 180) (length 5.08) (name "VBUS" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 -5.08 180)
+        (length 5.08)
+        (name "IO2_OUT" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "Conn1"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "Conn1" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ki_description"
+      "Logical connector pin numbering; physical connector and footprint not selected"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (symbol "Conn1_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "Conn1_1_1"
+      (pin passive line (at -20.32 2.54 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "TPS2553DBVR"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TPS2553DBVR" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2553.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Current-limited USB switch; R210k, 110..150mA at exact nominal resistor" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "TPS2553DBVR_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "TPS2553DBVR_1_1"
+      (pin power_in line (at -20.32 5.08 0) (length 5.08) (name "IN" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 0.0 0) (length 5.08) (name "EN" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -5.08 0) (length 5.08) (name "ILIM" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+      (pin power_out line (at 20.32 5.08 180) (length 5.08) (name "OUT" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin
+        open_collector
+        line
+        (at 20.32 -5.08 180)
+        (length 5.08)
+        (name "FAULT_N" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "USB4105"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 30.479999999999997 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "USB4105" (at 0 27.939999999999998 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "USB4105-GF-A-120 USB-C receptacle, USB2, top mount" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "USB4105_0_1" (rectangle (start -15.24 25.4) (end 15.24 -25.4) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "USB4105_1_1"
+      (pin power_out line (at -20.32 20.32 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "A1" (effects (font (size 1.016 1.016)))))
+      (pin power_out line (at -20.32 15.24 0) (length 5.08) (name "VBUS" (effects (font (size 1.016 1.016)))) (number "A4" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 10.16 0) (length 5.08) (name "CC1" (effects (font (size 1.016 1.016)))) (number "A5" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at -20.32 5.08 0)
+        (length 5.08)
+        (name "DP" (effects (font (size 1.016 1.016))))
+        (number "A6" (effects (font (size 1.016 1.016)))))
+      (pin bidirectional line (at -20.32 0.0 0) (length 5.08) (name "DM" (effects (font (size 1.016 1.016)))) (number "A7" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 -5.079999999999998 0)
+        (length 5.08)
+        (name "SBU1" (effects (font (size 1.016 1.016))))
+        (number "A8" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -10.16 0) (length 5.08) (name "VBUS" (effects (font (size 1.016 1.016)))) (number "A9" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at -20.32 -15.240000000000002 0)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "A12" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 20.32 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "B1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 15.24 180) (length 5.08) (name "VBUS" (effects (font (size 1.016 1.016)))) (number "B4" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 10.16 180) (length 5.08) (name "CC2" (effects (font (size 1.016 1.016)))) (number "B5" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 5.08 180)
+        (length 5.08)
+        (name "DP" (effects (font (size 1.016 1.016))))
+        (number "B6" (effects (font (size 1.016 1.016)))))
+      (pin
+        bidirectional
+        line
+        (at 20.32 0.0 180)
+        (length 5.08)
+        (name "DM" (effects (font (size 1.016 1.016))))
+        (number "B7" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 -5.079999999999998 180)
+        (length 5.08)
+        (name "SBU2" (effects (font (size 1.016 1.016))))
+        (number "B8" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 -10.16 180) (length 5.08) (name "VBUS" (effects (font (size 1.016 1.016)))) (number "B9" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 -15.240000000000002 180)
+        (length 5.08)
+        (name "GND" (effects (font (size 1.016 1.016))))
+        (number "B12" (effects (font (size 1.016 1.016)))))
+      (pin
+        passive
+        line
+        (at 20.32 -20.32 180)
+        (length 5.08)
+        (name "SHIELD" (effects (font (size 1.016 1.016))))
+        (number "S1" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "Pogo0906"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "Pogo0906" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.mill-max.com/products/spring-loaded/0906" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "0906-2-15-20-75-14-11-0 spring pin; through-hole solder tail" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "Pogo0906_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "Pogo0906_1_1"
+      (pin passive line (at -20.32 2.54 0) (length 5.08) (name "CONTACT" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016))))))))

@@ -1,0 +1,103 @@
+{
+  "schematic_netlist_sha256": "a82b0541aef0e75204ad5a4d35399123677cfc84da101e5a6cf708ffd214b874",
+  "placement_sha256": "ea050b865249957313ac95c647803b33ae69108b33b5e490b8f3242bc806e3c7",
+  "board_mm": [
+    28,
+    10,
+    1
+  ],
+  "outline_xy_mm": [
+    [
+      0,
+      0
+    ],
+    [
+      28,
+      0
+    ],
+    [
+      28,
+      10
+    ],
+    [
+      0,
+      10
+    ]
+  ],
+  "native_pads": {
+    "P94": [
+      {
+        "number": "1",
+        "net": "DOCK_5V",
+        "xy_mm": [
+          22.0,
+          6.7
+        ]
+      }
+    ],
+    "P92": [
+      {
+        "number": "1",
+        "net": "DOCK_DM",
+        "xy_mm": [
+          10.0,
+          6.7
+        ]
+      }
+    ],
+    "P93": [
+      {
+        "number": "1",
+        "net": "DOCK_DP",
+        "xy_mm": [
+          16.0,
+          6.7
+        ]
+      }
+    ],
+    "P91": [
+      {
+        "number": "1",
+        "net": "GND",
+        "xy_mm": [
+          4.0,
+          6.7
+        ]
+      }
+    ],
+    "J94": [
+      {
+        "number": "1",
+        "net": "GND",
+        "xy_mm": [
+          7.5,
+          8.5
+        ]
+      },
+      {
+        "number": "2",
+        "net": "DOCK_DM",
+        "xy_mm": [
+          10.0,
+          8.5
+        ]
+      },
+      {
+        "number": "3",
+        "net": "DOCK_DP",
+        "xy_mm": [
+          12.5,
+          8.5
+        ]
+      },
+      {
+        "number": "4",
+        "net": "DOCK_5V",
+        "xy_mm": [
+          15.0,
+          8.5
+        ]
+      }
+    ]
+  }
+}

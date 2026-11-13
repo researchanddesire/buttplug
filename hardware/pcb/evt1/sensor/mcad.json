@@ -1,0 +1,517 @@
+{
+  "board_file": "hardware/pcb/evt1/sensor/sensor-evt1.kicad_pcb",
+  "board_sha256": "af9baeb350e0343d6b3ee8a276ed54d8b96792c8363042612a1d7c9f46e7b8b2",
+  "thickness_mm": 1.0,
+  "coordinate_frame": "R35 mechanical XY: native(x,y)=(100+X,130-Y) mm",
+  "outline_xy_mm": [
+    [
+      11.5,
+      10.0
+    ],
+    [
+      0.5,
+      10.0
+    ],
+    [
+      0.0,
+      9.5
+    ],
+    [
+      0.0,
+      0.5
+    ],
+    [
+      0.5,
+      0.0
+    ],
+    [
+      11.5,
+      0.0
+    ],
+    [
+      12.0,
+      0.5
+    ],
+    [
+      12.0,
+      9.5
+    ]
+  ],
+  "components": [
+    {
+      "ref": "C82",
+      "xy_mm": [
+        8.7,
+        4.85
+      ],
+      "back": false,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        8.400000000000006,
+        4.299999999999997,
+        9.0,
+        5.400000000000006
+      ],
+      "courtyard_xy_mm": [
+        8.215000000000003,
+        3.9150000000000063,
+        9.185000000000002,
+        5.784999999999997
+      ],
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "GRM155R71C104KA88D",
+      "fab_outline_bounds_xy_mm": [
+        8.400000000000006,
+        4.299999999999997,
+        9.0,
+        5.400000000000006
+      ],
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ]
+    },
+    {
+      "ref": "C83",
+      "xy_mm": [
+        3.2,
+        4.4
+      ],
+      "back": false,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        2.475,
+        3.3000000000000003,
+        3.9250000000000003,
+        5.5
+      ],
+      "courtyard_xy_mm": [
+        2.194999999999993,
+        2.674999999999997,
+        4.204999999999998,
+        6.125
+      ],
+      "height_budget_mm": 1.45,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "C2012X5R1E226M125AC",
+      "fab_outline_bounds_xy_mm": [
+        2.5250000000000057,
+        3.3499999999999943,
+        3.875,
+        5.450000000000003
+      ],
+      "maximum_body_xy_mm": [
+        2.2,
+        1.45
+      ]
+    },
+    {
+      "ref": "C81",
+      "xy_mm": [
+        6.5,
+        2.6
+      ],
+      "back": false,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        5.950000000000003,
+        2.299999999999997,
+        7.049999999999997,
+        2.9000000000000057
+      ],
+      "courtyard_xy_mm": [
+        5.564999999999998,
+        2.114999999999995,
+        7.435000000000002,
+        3.0849999999999937
+      ],
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "GRM155R71C224KA12D",
+      "fab_outline_bounds_xy_mm": [
+        5.950000000000003,
+        2.299999999999997,
+        7.049999999999997,
+        2.9000000000000057
+      ],
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ]
+    },
+    {
+      "ref": "U81",
+      "xy_mm": [
+        6.5,
+        4.7
+      ],
+      "back": false,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        5.450000000000003,
+        3.6500000000000057,
+        7.549999999999997,
+        5.75
+      ],
+      "courtyard_xy_mm": [
+        5.224999999999994,
+        3.424999999999997,
+        7.775000000000006,
+        5.974999999999994
+      ],
+      "height_budget_mm": 1.1,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "LSM303AGRTR"
+    },
+    {
+      "ref": "C84",
+      "xy_mm": [
+        8.7,
+        6.9
+      ],
+      "back": false,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        8.150000000000006,
+        6.599999999999994,
+        9.25,
+        7.200000000000003
+      ],
+      "courtyard_xy_mm": [
+        7.765000000000001,
+        6.415000000000006,
+        9.635000000000005,
+        7.385000000000005
+      ],
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "GRM155R71C104KA88D",
+      "fab_outline_bounds_xy_mm": [
+        8.150000000000006,
+        6.599999999999994,
+        9.25,
+        7.200000000000003
+      ],
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ]
+    },
+    {
+      "ref": "J82",
+      "xy_mm": [
+        3.5,
+        8.5
+      ],
+      "back": false,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        3.0,
+        8.0,
+        8.5,
+        9.0
+      ],
+      "courtyard_xy_mm": [
+        3.0,
+        8.0,
+        8.5,
+        9.0
+      ],
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": null
+    }
+  ],
+  "pads": [
+    {
+      "ref": "C82",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        8.7,
+        4.37
+      ],
+      "back": false
+    },
+    {
+      "ref": "C82",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.7,
+        5.33
+      ],
+      "back": false
+    },
+    {
+      "ref": "C83",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        3.2,
+        3.45
+      ],
+      "back": false
+    },
+    {
+      "ref": "C83",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        3.2,
+        5.35
+      ],
+      "back": false
+    },
+    {
+      "ref": "C81",
+      "number": "1",
+      "net": "MAG_C1",
+      "xy_mm": [
+        6.02,
+        2.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "C81",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.98,
+        2.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "H1",
+      "number": "",
+      "net": "",
+      "xy_mm": [
+        1.5,
+        1.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "1",
+      "net": "I2C_SCL",
+      "xy_mm": [
+        5.7375,
+        5.45
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "2",
+      "net": "3V3",
+      "xy_mm": [
+        5.7375,
+        4.95
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "3",
+      "net": "3V3",
+      "xy_mm": [
+        5.7375,
+        4.45
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "4",
+      "net": "I2C_SDA",
+      "xy_mm": [
+        5.7375,
+        3.95
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "5",
+      "net": "MAG_C1",
+      "xy_mm": [
+        6.25,
+        3.9375
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "6",
+      "net": "GND",
+      "xy_mm": [
+        6.75,
+        3.9375
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "7",
+      "net": "unconnected-(U81-INT_MAG-Pad7)",
+      "xy_mm": [
+        7.2625,
+        3.95
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "8",
+      "net": "GND",
+      "xy_mm": [
+        7.2625,
+        4.45
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "9",
+      "net": "3V3",
+      "xy_mm": [
+        7.2625,
+        4.95
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "10",
+      "net": "3V3",
+      "xy_mm": [
+        7.2625,
+        5.45
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "11",
+      "net": "unconnected-(U81-INT2_XL-Pad11)",
+      "xy_mm": [
+        6.75,
+        5.4625
+      ],
+      "back": false
+    },
+    {
+      "ref": "U81",
+      "number": "12",
+      "net": "unconnected-(U81-INT1_XL-Pad12)",
+      "xy_mm": [
+        6.25,
+        5.4625
+      ],
+      "back": false
+    },
+    {
+      "ref": "H2",
+      "number": "",
+      "net": "",
+      "xy_mm": [
+        10.5,
+        1.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "C84",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        8.22,
+        6.9
+      ],
+      "back": false
+    },
+    {
+      "ref": "C84",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        9.18,
+        6.9
+      ],
+      "back": false
+    },
+    {
+      "ref": "J82",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        3.5,
+        8.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "J82",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        5.0,
+        8.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "J82",
+      "number": "3",
+      "net": "I2C_SDA",
+      "xy_mm": [
+        6.5,
+        8.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "J82",
+      "number": "4",
+      "net": "I2C_SCL",
+      "xy_mm": [
+        8.0,
+        8.5
+      ],
+      "back": false
+    }
+  ],
+  "holes": [
+    {
+      "ref": "H1",
+      "xy_mm": [
+        1.5,
+        1.5
+      ],
+      "drill_xy_mm": [
+        1.6,
+        1.6
+      ],
+      "angle_deg": 0.0
+    },
+    {
+      "ref": "H2",
+      "xy_mm": [
+        10.5,
+        1.5
+      ],
+      "drill_xy_mm": [
+        1.6,
+        1.6
+      ],
+      "angle_deg": 0.0
+    }
+  ],
+  "mating_allowances": [],
+  "route_objects": 47,
+  "parts_selection_sha256": "41047c4a6a6c5f2a1de48918d1fa903048433dcbaa6c83ddff48a617731d1da2"
+}

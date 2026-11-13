@@ -1,0 +1,37 @@
+{
+  "scope": "Bare board bench quote",
+  "nominal_finished_thickness_mm": 1.0,
+  "copper_layer_order": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "stackup_mm": {
+    "F.Mask": 0.01,
+    "F.Cu": 0.035,
+    "dielectric 1": 0.1,
+    "In1.Cu": 0.035,
+    "dielectric 2": 0.64,
+    "In2.Cu": 0.035,
+    "dielectric 3": 0.1,
+    "B.Cu": 0.035,
+    "B.Mask": 0.01
+  },
+  "material": "FR-4",
+  "finish_requested": "ENIG",
+  "trace_width_clearance_min_mm": [
+    0.15,
+    0.15
+  ],
+  "via_diameter_drill_mm": [
+    0.5,
+    0.2
+  ],
+  "target_hole_native_mm": 0.8636,
+  "target_hole_excellon_mm": 0.864,
+  "target_copper_land_diameter_mm": 3.2,
+  "mechanical_NPTH_mm": 1.6,
+  "absolute_mm_plot_and_drill_origin": true,
+  "supplier_review": "Confirm stackup and finished thickness, hole and annular tolerances, target fit, antenna keepout, outline, mask registration and USB stack suitability."
+}

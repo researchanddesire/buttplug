@@ -1,0 +1,146 @@
+{
+  "thermostat": {
+    "mpn": "67L045",
+    "manufacturer": "Sensata",
+    "primary": "https://www.sensata.com/sites/default/files/a/sensata-6700-series-subminiature-bimetal-disc-thermostats-datasheet.pdf",
+    "manufacturer_PDF_mirror": "https://datasheet.lcsc.com/datasheet/pdf/4c88ade08706f1af20a35c2091fb47f8.pdf",
+    "download_sha256": "9594546e47a02682a491c0b8a2c05b8813faf6692b89db2f9228240dfe06f548",
+    "model_basis": "Manufacturerp3 dimensions; nominal15.24mm top-to-bodybottom derivedfrom29.59totalminus14.35REF leads. No guaranteed body-height tolerance inferred.",
+    "width_mm": [
+      10.16,
+      0.13
+    ],
+    "depth_mm": [
+      4.7,
+      0.25
+    ],
+    "tab_mm": [
+      0.76,
+      0.03
+    ],
+    "tab_extension_mm": [
+      6.35,
+      0.51
+    ],
+    "hole_from_top_mm": [
+      2.79,
+      0.13
+    ],
+    "hole_diameter_mm": [
+      3.64,
+      0.089
+    ],
+    "hole_source_discrepancy": "Inch0.145 equals3.683mm, not printed3.64mm; receivedholegoverns.",
+    "lead_pitch_mm": [
+      5.08,
+      0.25
+    ],
+    "lead_width_mm": [
+      0.76,
+      0.08
+    ],
+    "lead_shoulder_width_mm": [
+      1.27,
+      0.1
+    ],
+    "lead_thickness_mm": [
+      0.33,
+      0.013
+    ],
+    "lead_plane_from_bracket_back_mm": [
+      2.79,
+      0.13
+    ],
+    "low_level4p5to5p25V_qualification": false
+  },
+  "NTC": {
+    "mpn": "NTCLE413E2103F524A",
+    "manufacturer": "Vishay",
+    "primary": "https://www.vishay.com/docs/29078/ntcle413.pdf",
+    "download_sha256": "6606fa831adab4119fb59af4123b9902ce193ee36d193b9da8d85028174f7312",
+    "revision": "15-Oct-2026",
+    "head_max_diameter_mm": 3,
+    "head_max_length_mm": 10,
+    "total_length_mm": [
+      52,
+      5
+    ],
+    "wire_insulation_diameter_for_information_mm": 1,
+    "twin_width_for_information_mm": 2,
+    "stripped_end_mm": [
+      3,
+      1
+    ],
+    "model_basis": "Primarymaximum3x10mm lacquered head reconstructed as a capsule; not OEMCAD or a supplied profile tolerance.",
+    "mounting": "Dry V saddle plus removable soft-backed clip; no potting, overmolding or fluidcontact.",
+    "minimum_body_dielectric_Vrms": 500
+  },
+  "pad": {
+    "manufacturer": "Henkel/Bergquist",
+    "material": "GAP PAD TGP1500",
+    "sheet_order_code_candidate": "GP1500-0.020-02-0404",
+    "primary": "https://dm.henkel-dam.com/is/content/henkel/lt-8116-brochure-thermal-interface-materials-selection-guide-1",
+    "download_sha256": "f9dd0ac838e9e608763c086b0f5d97ff4d0e518b6d62a2f71f63445609185b03",
+    "manufacturer_training_order_code": "https://www.digikey.com/en/ptm/h/bergquist/thermal-interface-materials-tim-gap-pad",
+    "free_thickness_mm": 0.508,
+    "LED_cut_mm": [
+      12,
+      3
+    ],
+    "installed_LED_gap_mm": 0.4,
+    "thermal_conductivity_W_mK_typ": 1.5,
+    "Youngs_modulus_kPa_typ": 310,
+    "dielectric_breakdown_Vac_typ": 6000,
+    "printed_electrical_data_are_test_typicals_not_product_insulation_qualification": true,
+    "received_thickness_tolerance_not_assumed": true,
+    "sheet_identity_thickness_quote_required": true
+  },
+  "metal": {
+    "material": "6061-T6 aluminium",
+    "process": "CNC machine from6mm stock; integral1mm arms/steppedbridge/raisedcontactislands",
+    "finish": "Deburr and roundcontactislandedgesR0.2; targetRa<=1.6um, no burrs. Anodize is not credited as insulation."
+  },
+  "M2x3": {
+    "manufacturer": "NBK",
+    "mpn": "SNSS-M2-3",
+    "primary": "https://www.nbk1560.com/images/en-US/product/miniaturescrew/SNSS/SNSS_1.pdf",
+    "diameter_mm": 2,
+    "length_mm": 3,
+    "head_diameter_mm": 3.8,
+    "head_height_mm": 2,
+    "hex_AF_mm": 1.5
+  },
+  "M2x4CS": {
+    "manufacturer": "Accu",
+    "mpn": "SIK-M2-4-A2",
+    "primary": "https://www.accu.co.uk/phillips-countersunk-screws/65896-SIK-M2-4-A2",
+    "diameter_mm": 2,
+    "length_mm": 4,
+    "head_diameter_mm": 3.8,
+    "head_height_mm": 1.2,
+    "head_angle_deg": 90
+  },
+  "wire_sleeve": {
+    "manufacturer": "TE Connectivity",
+    "mpn": "RNF-100-1/16-0-SP",
+    "primary": "https://www.te.com/content/dam/te-com/documents/energy/global/productdocuments/Miscellaneous%20Locations/energy-epp0500-SoluzioniPerLindustia-italian.pdf",
+    "expanded_ID_mm": 1.6,
+    "recovered_ID_mm": 0.8,
+    "recovered_wall_mm": 0.43,
+    "assembly_outer_diameter_limit_mm": 2.4
+  },
+  "lacing": {
+    "manufacturer": "Panduit",
+    "mpn": "PLT.6SM-C",
+    "primary": "https://www.panduit.com/content/dam/panduit/en/products/media/0/00/200/8200/111598200.pdf",
+    "length_mm": 71,
+    "width_mm": 1.8,
+    "thickness_mm": 0.76,
+    "head_approx_mm": [
+      3.1,
+      2.4,
+      3.2
+    ],
+    "installed_lacing_and_tail_pose_not_yet_modelled": true
+  }
+}

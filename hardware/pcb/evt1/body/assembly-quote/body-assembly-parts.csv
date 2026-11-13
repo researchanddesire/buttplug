@@ -1,0 +1,34 @@
+Manufacturer,MPN,Quantity_per_board,References,Schematic_value,Footprint,Assembly_note,Manufacturer_source
+Alpha and Omega Semiconductor,AO3400A,1,Q1,AO3400A,PrototypeR0:SOT-23,,https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf
+Coilcraft,XFL4020-152MEC,2,L1 L2,1.5uH / Isat>=4A candidate,PrototypeR0:L_Coilcraft_XxL4020,Isat is specified at25C. Check transient/current/thermal behavior on assembled regulators; use manufacturer land pattern.,https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf
+JST,BM02B-SRSS-TB(LF)(SN),1,J5,TIP NTC / GND,EVT1:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+JST,SM02B-SRSS-TB(LF)(SN),1,J3,MOTOR_2PIN,PrototypeR0:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal,Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+JST,SM10B-SRSS-TB(LF)(SN),1,J6,SM10B-SRSS-TB candidate,PrototypeR0:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal,Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.,https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+Murata,GRM155R71C104KA88D,3,C28 C29 C61,100nF,EVT1:C_0402_1005Metric; PrototypeR0:C_0402_1005Metric,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23
+Murata,GRM155R71H103KA88D,2,C62 C63,10nF,EVT1:C_0402_1005Metric,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71H103KA88%23
+Murata,GRM188R71C104KA01D,5,C16 C26 C27 C43 C44,100nF; 100nF 10V,PrototypeR0:Murata_GRM18_0603_Reflow,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23
+Murata,GRM21BR61A106KE19L,5,C11 C12 C21 C22 C3,10uF 10V,PrototypeR0:Murata_GRM21_0805_Reflow,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23
+Murata,GRM21BR71A475KA73L,2,C1 C2,4.7uF 10V; 4.7uF 10V X7R,PrototypeR0:Murata_GRM21_0805_Reflow,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR71A475KA73%23
+Murata,GRM31CR71A226KE15L,6,C13 C14 C15 C23 C24 C25,22uF 10V X7R,PrototypeR0:Murata_GRM31_1206_Reflow,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23
+Murata,GRM32ER61A476KE20L,1,C30,47uF 10V,PrototypeR0:Murata_GRM32_1210_Reflow,,https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM32ER61A476KE20%23
+TDK,C1608X5R1A106K080AC,4,C51 C52 C53 C54,10uF 10V X5R 0603 HF,PrototypeR0:TDK_C1608_0603_Reflow,,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC
+Texas Instruments,ADS1115IDGSR,1,U7,ADS1115IDGSR /0x48,EVT1:VSSOP-10_3x3mm_P0.5mm,,https://www.ti.com/lit/ds/symlink/ads1115.pdf
+Texas Instruments,BQ24074RGTR,1,U1,BQ24074RGT candidate,PrototypeR0:TI_RGT0016C_3x3mm_BQ24074_EP1.68mm,,https://www.ti.com/lit/ds/symlink/bq24074.pdf
+Texas Instruments,DRV8212DSGR,1,U5,DRV8212DSG candidate,PrototypeR0:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,,https://www.ti.com/lit/ds/symlink/drv8212.pdf
+Texas Instruments,SN74LVC1G11DBVR,1,U4,SN74LVC1G11DBV candidate,PrototypeR0:SOT-23-6,,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+Texas Instruments,TPS3700DDCR,1,U8,TPS3700DDCR,PrototypeR0:TSOT-23-6,,https://www.ti.com/lit/ds/symlink/tps3700.pdf
+Texas Instruments,TPS3808G33DBVR,1,U9,TPS3808G33DBVR,PrototypeR0:SOT-23-6,,https://www.ti.com/lit/ds/symlink/tps3808.pdf
+Texas Instruments,TPS63070RNMR,2,U2 U3,TPS63070RNM candidate,PrototypeR0:TI_RNM0015A_2.5x3mm_TPS63070,,https://www.ti.com/lit/ds/symlink/tps63070.pdf
+Vishay,TNPW0402100KBEED,4,R23 R24 R25 R48,100k; 100k 1%,PrototypeR0:R_0402_1005Metric,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW040210K0BEED,7,R3 R4 R42 R5 R61 R62 R63,10.0k 0.1%; 10k; 10k 0.1%,EVT1:R_0402_1005Metric; PrototypeR0:R_0402_1005Metric,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW040211K0BEED,1,R46,11k 1%,PrototypeR0:R_0402_1005Metric,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW04021K00BEED,1,R47,1k 1%,PrototypeR0:R_0402_1005Metric,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW04023K24BEED,1,R2,3.24k 1%,PrototypeR0:R_0402_1005Metric,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW04028K87BEED,1,R1,8.87k 1% / ~100mA,PrototypeR0:R_0402_1005Metric,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW0603100KBEEA,2,R12 R22,100k 0.1%,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW060310K0BEEA,2,R13 R26,10k,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW0603110KBEEA,1,R44,110k 0.1%,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW0603200KBEEA,1,R45,200k 0.1%,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW0603312KBEEA,1,R11,312k 0.1%,PrototypeR0:Vishay_TNPW0603_IEC_Reflow,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW0805362KBEEA,1,R21,362k 0.1%,PrototypeR0:Vishay_TNPW0805_IEC_Reflow,,https://www.vishay.com/docs/28758/tnpw_e3.pdf
+Vishay,TNPW0805715KBEEA,1,R43,715k 0.1%,PrototypeR0:Vishay_TNPW0805_IEC_Reflow,,https://www.vishay.com/docs/28758/tnpw_e3.pdf

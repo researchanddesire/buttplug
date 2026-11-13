@@ -1,0 +1,156 @@
+{
+  "scope": "Inert single-contact hydrostatic fixture; fit prints only until actual counterface finish/material and seals are qualified",
+  "native_sha256": "a30de4c816ecd0468e85f31caea8507049838879b9a032380ff5b077f5ff9205",
+  "builder_sha256": "9960603c2fe6b674da089f91077aacf518f7a438c6fa3af5948912a1aa0025bb",
+  "source_dock_native_sha256": "4b8b58441ac3a528a6e4c5027877a3e59efb0ed4954e772b98f06e608b885f98",
+  "contact_seal_spec_sha256": "9965544c67283fcda91139b66c46321dfb69528ce7e2d02ea19b6ef8f5253a0f",
+  "exports": {
+    "ContactSealPlate": {
+      "STEP_sha256": "1dc2128563e7c8863fbd0a65ccfc3b3d0d850985f670c99452059af518b91906",
+      "view_STL_sha256": "b28f0958488de909acc7719a1f5a23fbd44056185040bdbde942d01b6940c045",
+      "section_view_STL_sha256": "e659ae89d7fbd4263b94af3331d1fad9216435ec70ad3bf942884b0f842d713f",
+      "print_STL_sha256": "3e1ef29c122ea906c4a616614d245db7996aee4666d98bb7903035b379d218d3"
+    },
+    "ContactSealCup": {
+      "STEP_sha256": "6d764f105d9aab1d8bdb854772da4a30fc7b10ab0614d701427fcca6cb28f8f0",
+      "view_STL_sha256": "7d3be900b0cf098340046cbd5731456cae25feab31a3108ed4d7727a166f1e2d",
+      "section_view_STL_sha256": "86b0bbee08bc40c775b73819c4139b99f3595bd0d7c863c15a75d2ecced7d4ab",
+      "print_STL_sha256": "cc5847f74ba5d481993c49a4382134201bc0440c853d70e4d3a6280cc70bbceb"
+    },
+    "ContactPost": {
+      "STEP_sha256": "86c81a5494a2a01143857441f819f118ea2fb74b21ed30cf773a054bb3d36f8b",
+      "view_STL_sha256": "008818e89be81200351c8d1fc184bc3bbd467274b1acefe3eb8dedc43ab0e008",
+      "section_view_STL_sha256": "1df03d9504e5b64e44ea2f31c98505c91876f2f549a4c9efee4a1f91f6b1b555"
+    },
+    "ContactNut": {
+      "STEP_sha256": "0de0a9fbf23572d7ca3e916720531c3343f356b7a9a8b55d00c54551fdcd1227",
+      "view_STL_sha256": "c3237513c694c7081dc371d6eef8708bf3825625c540ee70103aea334b655c59",
+      "section_view_STL_sha256": "bda13838b99ef69e9d85042bfa490912e92550adc81562b88391eb2b14e8b614"
+    },
+    "ContactInnerSeal": {
+      "STEP_sha256": "4f76c5fa104505c856098838259d2eb8d47d110bb9378a8cf1b39184e870bf64",
+      "view_STL_sha256": "cb21f65076c6f8a02ecc1a330ca796332aa34689c865b2cbd932dce2b762261e",
+      "section_view_STL_sha256": "08578e8eaa11962797896a130051924b1bb9bc0004c1e27fca8e6e7669282d29"
+    },
+    "FixtureOuterSeal": {
+      "STEP_sha256": "e74a81f39fd8f7137f7b812c590fc8ee9d83c2d16321fa61dc5319c4ea05f0b8",
+      "view_STL_sha256": "f57ceaa671d944ca3809814c3ee89477b6c6893f226eb19d336819d4dbde716d",
+      "section_view_STL_sha256": "f8beed28de91a0563c7e0b07626c84cbb245403d16029729efbcd62608c7af4c"
+    }
+  },
+  "bounds": {
+    "ContactSealPlate": [
+      -12.0,
+      0.0,
+      -12.0,
+      12.0,
+      1.6,
+      12.0
+    ],
+    "ContactSealCup": [
+      -12.0,
+      -28.0,
+      -12.0,
+      12.0,
+      0.0,
+      12.0
+    ],
+    "ContactPost": [
+      -2.0,
+      -2.3000000000000007,
+      -2.0,
+      2.0,
+      4.199999999999999,
+      2.0
+    ],
+    "ContactNut": [
+      -2.3094010767585047,
+      1.6000000000000014,
+      -2.0,
+      2.3094010767585047,
+      3.2000000000000064,
+      2.0
+    ],
+    "ContactInnerSeal": [
+      -1.693703007518799,
+      -0.3799143519009469,
+      -1.693703007518799,
+      1.693703007518799,
+      -1.818638750705759e-08,
+      1.693703007518799
+    ],
+    "FixtureOuterSeal": [
+      -5.931404958677686,
+      -1.0998795302959605,
+      -5.931404958677686,
+      5.931404958677686,
+      -0.0002689672267021104,
+      5.931404958677686
+    ],
+    "FixtureOuterGland": [
+      -6.0,
+      -1.1,
+      -6.0,
+      6.0,
+      0.010000000000000009,
+      6.0
+    ]
+  },
+  "frame": "Contact centerX/Z0, metal bearing/plate outsideY0; original GND post translated(38,24.5,-11.5). Water cup extends-Y; exposed nut/tail+Y.",
+  "print_parts": [
+    "ContactSealPlate",
+    "ContactSealCup"
+  ],
+  "hardware": {
+    "M3x30_bolt": 4,
+    "M3_nut": 4,
+    "M3_washer": 8,
+    "custom_contact_post": 1,
+    "M2_contact_nut": 1,
+    "HANSA_FLEX_OR2_0_5_trial_inner_seal": 1,
+    "HANSA_FLEX_OR8_1_5_fixture_outer_seal": 1,
+    "4mm_ID_6mm_OD_silicone_hose_1_2m": 1
+  },
+  "fixture_outer_seal_source": "https://shop.hansa-flex.de/en_GB/sealing-equipment/static-seals/o-rings/nbr-o-rings/or-8-1-5/p/OR8-1-5",
+  "test": "Open water-column hydrostatic screen only. No compressed air, electronics, battery or casting in this fixture. Contact tail/nut stay open for dye/witness inspection. Cup perimeter leaks are separately visible and invalidate a run.",
+  "limits": "No physical print/assembly/leak result. Printed plate roughness is not a qualified product sealing face. Fixture outer-ring and hose fits, clamp loads and test duration/head are trial settings, not an IP rating or complete wet/cleaning/material validation.",
+  "geometry_checks": {
+    "valid_parts": 6,
+    "static_pairs": 15,
+    "positive_intersections": [],
+    "water_path_clear": true,
+    "fixture_ring_volume_preserved": true,
+    "scope": "Nominal saved geometry only; no seal force, deformation, tool, pressure capability or physical leak qualification"
+  },
+  "verified_parts": {
+    "ContactSealPlate": {
+      "STEP_symmetric_difference_mm3": 0.0,
+      "print_size_xyz_mm": [
+        24.0,
+        24.0,
+        1.600000023841858
+      ]
+    },
+    "ContactSealCup": {
+      "STEP_symmetric_difference_mm3": 0.0,
+      "print_size_xyz_mm": [
+        24.0,
+        24.0,
+        28.0
+      ]
+    },
+    "ContactPost": {
+      "STEP_symmetric_difference_mm3": 0.0
+    },
+    "ContactNut": {
+      "STEP_symmetric_difference_mm3": 0.0
+    },
+    "ContactInnerSeal": {
+      "STEP_symmetric_difference_mm3": 0.0
+    },
+    "FixtureOuterSeal": {
+      "STEP_symmetric_difference_mm3": 0.0
+    }
+  },
+  "verifier_sha256": "be0b046d943bd0764ee1bd7964e55603b302d42d9f7fbb7d76cc170537f828b8"
+}

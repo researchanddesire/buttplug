@@ -1,0 +1,37 @@
+{
+  "state": "Preserved targeted NEGATIVE test of unchanged inherited collar, not a full-context pass",
+  "physical_sources": [
+    {
+      "path": "/private/tmp/compass-jobs/RootFeaturePreflight.FCStd",
+      "SHA256": "1fd7f112510343753373dc7deca9982b8a3437ae8d9da79bf7ffcc52fd44a983"
+    },
+    {
+      "path": "/private/tmp/compass-jobs/full-shell-prefix/ShellFeaturePreflight.FCStd",
+      "SHA256": "baf8c64b9f422bf33e64f73f6ab47119032e7ed6c43057c4eb758378dd7dd49f"
+    },
+    {
+      "path": "hardware/cad/evt1-assembly/recentered-carrier-trial/RecenteredCarrierTrial.FCStd",
+      "SHA256": "6bd3ddf5dfde8230c80b80df13ed5df0e0cecb41c8856b9c846b9480ae6c4e30"
+    }
+  ],
+  "old_and_new_carrier_overlap_mm3": 0.2813155172324699,
+  "installed_overlap_bounds_mm": [
+    -48,
+    14,
+    13.3,
+    -47.2039,
+    14.8489,
+    14.3
+  ],
+  "Z_lift_20_overlap_bounds_mm": [
+    -48,
+    14,
+    33.3,
+    -47.2039,
+    14.8489,
+    34.3
+  ],
+  "new_bridge_cause": false,
+  "required_corrective_action": "Approved parent-owned inner liner relief RR10.6x10.6 R.8 centre(-43,19),Z13.1..37.1; preserve floor/feet/collars",
+  "prior_stopping_assertion_log": "check.log"
+}

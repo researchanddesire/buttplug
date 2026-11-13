@@ -1,0 +1,20 @@
+{
+  "scope": "Preserve unique uncommitted authoring source before new flange/carrier integration; saved master remains older until full validation succeeds",
+  "guards": {
+    "tools/build_evt1_native_dock.py": {
+      "before": "7eb82305aa7163532abc48d4449d80d0676372f9d8ef02a7d79948ea01282da6",
+      "after": "52ae89637f91123b1e14b5b6ffe21ed22cb68b5e1cd914c5e45bfb62b87a10aa"
+    },
+    "tools/verify_evt1_native_dock.py": {
+      "before": "844e8b4b2ac456342c8a291b7910dd018a5edd3cb9494ac5f33bf6b9154b0b26",
+      "after": "1e3e3cf2b5bd74ef0242f9bc09e7a97ae7c65759f44e3505cc49d9410d498945"
+    },
+    "tools/verify_evt1_dock_loading.py": {
+      "before": "fda9a5d984e682b9534ef8ac9110e8d788d280547191f29f779aec7c3d47a5fc",
+      "after": "59c2cb89164c40c1e630f81fcb59f97c8df997e116e08c4fcf0f4bbd0bcff20c"
+    }
+  },
+  "isolated_input_sha256": "edac03f313745e3cb4e14401edd802cbe4b0d880b5612a79ec138bea01161b42",
+  "old_native_sha256": "688c072ac989355187df894464c211c0e026bd0f2808f03d6ede89bcbbc055cd",
+  "physical_validation": false
+}

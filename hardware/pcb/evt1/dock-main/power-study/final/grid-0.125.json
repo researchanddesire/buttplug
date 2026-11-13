@@ -1,0 +1,299 @@
+{
+  "board_sha256": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+  "mesh_rule": "retain cell only if allfourcorners+centre are in actual fillednativecopper; omitotherparallelcopper",
+  "contact_rule": "equipotential patches fit fully within selected0.5mm via annuli outerdiameter; barrel resistance added separately",
+  "grids": [
+    {
+      "name": "HOST-VIN",
+      "file": "HOST-VIN-0.125.grid",
+      "grid_mm": 0.125,
+      "sha256": "356770b987b3a283da1fb9122e66ca33217c670fa43311e65dd3c0cbf40fdbf9",
+      "net": "HOST_5V",
+      "layer": "In2.Cu",
+      "feed_vias_dock_mm": [
+        [
+          -2.4,
+          3.5
+        ],
+        [
+          2.4,
+          3.5
+        ]
+      ],
+      "sink_vias_dock_mm": [
+        [
+          21.9,
+          23
+        ]
+      ],
+      "feed_cell_groups": [
+        [
+          40892,
+          40893,
+          41580,
+          41581
+        ],
+        [
+          40930,
+          40931,
+          41618,
+          41619
+        ]
+      ],
+      "sink_cell_groups": [
+        [
+          148414,
+          148415,
+          149102,
+          149103
+        ]
+      ],
+      "kept_full_copper_cells": 88394
+    },
+    {
+      "name": "UV-BASE",
+      "file": "UV-BASE-0.125.grid",
+      "grid_mm": 0.125,
+      "sha256": "907a9740804a90c6f511fea9f55ce0e436dd9cecf8fbcdbb47c5027940adea96",
+      "net": "UV_5V_SW",
+      "layer": "In2.Cu",
+      "feed_vias_dock_mm": [
+        [
+          32.7,
+          27.8
+        ],
+        [
+          32.7,
+          28.6
+        ]
+      ],
+      "sink_vias_dock_mm": [
+        [
+          30.375,
+          58
+        ],
+        [
+          30.375,
+          58.6
+        ]
+      ],
+      "feed_cell_groups": [
+        [
+          2117,
+          2118,
+          2276,
+          2277,
+          2278,
+          2437
+        ],
+        [
+          3236,
+          3237,
+          3238,
+          3397,
+          3398
+        ]
+      ],
+      "sink_cell_groups": [
+        [
+          40818,
+          40819,
+          40978,
+          40979
+        ],
+        [
+          41618,
+          41619,
+          41778,
+          41779
+        ]
+      ],
+      "kept_full_copper_cells": 30003
+    },
+    {
+      "name": "UV-LID",
+      "file": "UV-LID-0.125.grid",
+      "grid_mm": 0.125,
+      "sha256": "0de88fb73534c94d6ff04587ab7dfe35ed539feeb288ec5b47d681d2a4f68993",
+      "net": "UV_5V_SW",
+      "layer": "In2.Cu",
+      "feed_vias_dock_mm": [
+        [
+          32.7,
+          27.8
+        ],
+        [
+          32.7,
+          28.6
+        ]
+      ],
+      "sink_vias_dock_mm": [
+        [
+          45.275,
+          61.3
+        ],
+        [
+          45.275,
+          61.9
+        ]
+      ],
+      "feed_cell_groups": [
+        [
+          2117,
+          2118,
+          2276,
+          2277,
+          2278,
+          2437
+        ],
+        [
+          3236,
+          3237,
+          3238,
+          3397,
+          3398
+        ]
+      ],
+      "sink_cell_groups": [
+        [
+          45097,
+          45098,
+          45257,
+          45258,
+          45418
+        ],
+        [
+          45897,
+          45898,
+          46057,
+          46058
+        ]
+      ],
+      "kept_full_copper_cells": 30003
+    },
+    {
+      "name": "GND-BASE",
+      "file": "GND-BASE-0.125.grid",
+      "grid_mm": 0.125,
+      "sha256": "55a5c396b1dd87e44d8bcc649ca7036dee224287a60d12f389a3e48ec14de759",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "feed_vias_dock_mm": [
+        [
+          -3.2,
+          3.5
+        ],
+        [
+          3.2,
+          3.5
+        ]
+      ],
+      "sink_vias_dock_mm": [
+        [
+          29.125,
+          58
+        ],
+        [
+          29.125,
+          58.6
+        ]
+      ],
+      "feed_cell_groups": [
+        [
+          45669,
+          45670,
+          45671,
+          46437,
+          46438,
+          46439
+        ],
+        [
+          45720,
+          45721,
+          45722,
+          46488,
+          46489,
+          46490
+        ]
+      ],
+      "sink_cell_groups": [
+        [
+          380776,
+          380777,
+          381544,
+          381545
+        ],
+        [
+          384616,
+          384617,
+          385384,
+          385385
+        ]
+      ],
+      "kept_full_copper_cells": 358567
+    },
+    {
+      "name": "GND-LID",
+      "file": "GND-LID-0.125.grid",
+      "grid_mm": 0.125,
+      "sha256": "cd63384b9dde23ebe1ff5c3d86f188d1789cf68d0643ef2cf5033ebc7efdfd2a",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "feed_vias_dock_mm": [
+        [
+          -3.2,
+          3.5
+        ],
+        [
+          3.2,
+          3.5
+        ]
+      ],
+      "sink_vias_dock_mm": [
+        [
+          44.025,
+          61.3
+        ],
+        [
+          44.025,
+          61.9
+        ]
+      ],
+      "feed_cell_groups": [
+        [
+          45669,
+          45670,
+          45671,
+          46437,
+          46438,
+          46439
+        ],
+        [
+          45720,
+          45721,
+          45722,
+          46488,
+          46489,
+          46490
+        ]
+      ],
+      "sink_cell_groups": [
+        [
+          400863,
+          400864,
+          401631,
+          401632,
+          402400
+        ],
+        [
+          404703,
+          404704,
+          405471,
+          405472
+        ]
+      ],
+      "kept_full_copper_cells": 358567
+    }
+  ],
+  "physical_validation": false
+}

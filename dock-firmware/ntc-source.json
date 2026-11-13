@@ -1,0 +1,70 @@
+{
+  "mpn": "NTCLE413E2103F524A",
+  "source": "https://www.vishay.com/docs/29078/ntcle413.pdf",
+  "revision": "2026-10-15",
+  "table": 3,
+  "pullup_ohm": 10000,
+  "pullup_tolerance_fraction": 0.001,
+  "ADC_resolution_bits": 12,
+  "temperature_C": [
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60
+  ],
+  "nominal_resistance_ohm": [
+    42636,
+    34038,
+    27348,
+    22108,
+    17979,
+    14706,
+    12094,
+    10000,
+    8310.8,
+    6941.1,
+    5824.9,
+    4910.6,
+    4158.3,
+    3536.2,
+    3019.7
+  ],
+  "computed_ADC_counts": [
+    3317,
+    3165,
+    2999,
+    2820,
+    2631,
+    2438,
+    2242,
+    2048,
+    1859,
+    1678,
+    1507,
+    1349,
+    1203,
+    1070,
+    950
+  ],
+  "firmware_start_range_C": [
+    10,
+    35
+  ],
+  "firmware_stop_at_C": 38,
+  "physical_trip_C": [
+    40,
+    50
+  ],
+  "thermal_qualification": false
+}

@@ -1,0 +1,176 @@
+{
+  "status": "Selected stock and inert-coupon blanks; not a released cable BOM or order",
+  "units": "mm",
+  "human_BOM_edited": false,
+  "parts": [
+    {
+      "manufacturer": "JST",
+      "mpn": "SHR-10V-S",
+      "qty": 2,
+      "role": "J6/J7 mates",
+      "contacts": "SSH-003T-P0.2-H",
+      "contact_qty": 20
+    },
+    {
+      "manufacturer": "JST",
+      "mpn": "ACHTP-02V-S",
+      "qty": 1,
+      "role": "body power disconnect",
+      "contacts": "SACHP-003G-P0.2",
+      "contact_qty": 2
+    },
+    {
+      "manufacturer": "JST",
+      "mpn": "ACHTR-02V-S",
+      "qty": 1,
+      "role": "included with requested pack; do not duplicate loose purchase",
+      "contacts": "SACH-003G-P0.2",
+      "contact_qty": 2
+    },
+    {
+      "manufacturer": "Accu-Glass",
+      "mpn": "100690",
+      "stock": "30 ft spool",
+      "AWG": 28,
+      "construction": "7 x .005 inch Ag-plated Cu / Kapton Type F",
+      "nominal_OD_mm": 0.508,
+      "max_ohm_per_m_20C": 0.244,
+      "catalog_bend_mm": 3.302,
+      "blanks": [
+        {
+          "qty": 10,
+          "length_mm": 120,
+          "role": "SH10 interboard"
+        },
+        {
+          "qty": 2,
+          "length_mm": 130,
+          "role": "body J2 to ACH"
+        }
+      ],
+      "incoming_OD_mm": [
+        0.5,
+        0.6
+      ],
+      "final_cut_lengths_validated": false
+    },
+    {
+      "manufacturer": "Accu-Glass",
+      "mpn": "113094",
+      "stock": "30 ft spool",
+      "AWG": 32,
+      "construction": "7 x .0032 inch Ag-plated Cu / Kapton Type F",
+      "nominal_OD_mm": 0.4953,
+      "max_ohm_per_m_20C": 0.558,
+      "catalog_bend_mm": 1.651,
+      "blanks": [
+        {
+          "qty": 4,
+          "length_mm": 175,
+          "role": "independent NTC extensions"
+        }
+      ],
+      "incoming_OD_max_mm": 0.55,
+      "final_cut_lengths_validated": false
+    },
+    {
+      "manufacturer": "Vishay",
+      "mpn": "NTCLE413E2103F524A",
+      "qty": 2,
+      "head_max_diameter_mm": 3,
+      "head_max_length_mm": 10,
+      "nominal_total_length_mm": 52,
+      "total_length_tolerance_mm": 5,
+      "factory_OD_mm": "1 mm for information; project incoming max1.10",
+      "factory_straight_from_head_min_mm": 4,
+      "factory_min_bend_mm": 5.5,
+      "solder_distance_min_mm": 6,
+      "mounted_head_bounds_X_mm": [
+        12.5,
+        22.5
+      ],
+      "head_axis_Y_mm": -13.7,
+      "head_axes_Z_mm": [
+        -4,
+        4
+      ]
+    },
+    {
+      "manufacturer": "TE Connectivity",
+      "mpn": "RNF-100-1/16-BK-SP",
+      "part_number": "5052894108",
+      "stock": "spool",
+      "cuts": [
+        {
+          "qty": 4,
+          "length_mm": 5,
+          "manual_cut_tolerance_mm": 0.1
+        }
+      ],
+      "expanded_ID_min_mm": 1.6,
+      "recovered_ID_max_mm": 0.79,
+      "recovered_wall_min_max_mm": [
+        0.35,
+        0.5
+      ],
+      "longitudinal_change_fraction": [
+        -0.05,
+        0
+      ],
+      "project_installed_OD_limit_mm": 2.2,
+      "project_solder_lap_mm": [
+        1.9,
+        2.1
+      ],
+      "project_insulation_coverage_each_min_mm": 1.25,
+      "physical_process_validated": false
+    },
+    {
+      "manufacturer": "3M",
+      "mpn": "5413",
+      "part_number": "7000050064",
+      "stock": "1/4 inch x36 yard roll",
+      "nominal_width_mm": 6.35,
+      "typical_total_thickness_mm": 0.069,
+      "trial_blanks": [
+        {
+          "qty": 2,
+          "size_mm": [
+            6.35,
+            20
+          ],
+          "role": "head attachment"
+        },
+        {
+          "qty": 2,
+          "size_mm": [
+            3.175,
+            14
+          ],
+          "role": "factory lead retention"
+        }
+      ],
+      "installed_contours_modeled": false,
+      "adhesion_or_preload_credited": false
+    }
+  ],
+  "pack_factory_power_request_proposal": {
+    "AWG": 28,
+    "insulation_OD_mm": [
+      0.5,
+      0.63
+    ],
+    "minimum_formable_radius_requirement_mm": 4,
+    "coupon_blank_length_mm": 65,
+    "quantity": 2,
+    "terminal_take_up_and_final_length_open": true,
+    "existing_RFQ_unchanged": true
+  },
+  "strain_relief": {
+    "head_preload_credited_N": 0,
+    "body_side_positive_restraint_implemented": false,
+    "connector_crimps_and_J2_solder_not_load_stops": true,
+    "required_trial": "Housing-only handling, received wire OD/joints, wrapper adhesion and thermal response; measure cap-threading and connector service forces before final restraint/load acceptance."
+  },
+  "physical_validation": false
+}

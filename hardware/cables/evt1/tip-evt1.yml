@@ -1,0 +1,100 @@
+metadata:
+  title: EVT1 local two-wire tip thermistor
+  notes: EVT first article. Native numeric pin map; verify mating marks/continuity.
+    Free-span dimensions are between modeled wire-exit datums; stock blanks are longer
+    and are not finished cut lengths. No physical crimp/current/fit acceptance. OEM
+    leads are supplied with the component, not separate wire stock. Solder/insulate
+    the pigtail transition, inspect and strain-relieve. MOTOR_N is not system ground.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J5:
+    type: JST SH2 socket
+    pins:
+    - 1
+    - 2
+    pinlabels: &id001
+    - TIP_NTC
+    - GND
+    ignore_in_bom: false
+    manufacturer: JST
+    mpn: SHR-02V-S
+  TIP_NTC:
+    type: OEM leaded component
+    pins:
+    - 1
+    - 2
+    pinlabels: *id001
+    ignore_in_bom: false
+    manufacturer: TDK
+    mpn: B57540G1103F000
+cables:
+  T1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - TIP_NTC
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.08
+    length_unit: m
+    ignore_in_bom: false
+    notes: '80mm starting stock. Model OD limit0.55mm.
+
+      Centreline bend at least2mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+  T2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - GND
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.08
+    length_unit: m
+    ignore_in_bom: false
+    notes: '80mm starting stock. Model OD limit0.55mm.
+
+      Centreline bend at least2mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+connections:
+- - J5:
+    - 1
+  - T1:
+    - 1
+  - TIP_NTC:
+    - 1
+- - J5:
+    - 2
+  - T2:
+    - 1
+  - TIP_NTC:
+    - 2
+additional_bom_items:
+- description: SH socket crimp contact; crimp ordinary pigtail then solder to OEM
+    lead
+  qty: 2
+  unit: pcs
+  manufacturer: JST
+  mpn: SSH-003T-P0.2-H

@@ -1,0 +1,426 @@
+{
+  "status": "native circuit candidate; PCB and physical validation pending",
+  "schematic": "dock-uv-lid.kicad_sch",
+  "library": "DockUV",
+  "parts": [
+    {
+      "reference": "U501",
+      "value": "TPS61165DBVR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS61165DBVR",
+      "footprint": "DockUV:SOT-23-6",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_SW",
+        "2": "UV_CTRL",
+        "3": "LID_SW",
+        "4": "GND",
+        "5": "LID_COMP",
+        "6": "LID_FB_RAW"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps61165.pdf",
+      "note": ""
+    },
+    {
+      "reference": "L501",
+      "value": "10uH20% shielded",
+      "manufacturer": "Bourns",
+      "mpn": "SRP4020TA-100M",
+      "footprint": "DockUV:Bourns_SRP4020TA_Actual_Lands",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_SW",
+        "2": "LID_SW"
+      },
+      "primary_source": "https://www.bourns.com/docs/Product-Datasheets/SRP4020TA.pdf",
+      "note": ""
+    },
+    {
+      "reference": "D501",
+      "value": "PMEG6010CEH,115",
+      "manufacturer": "Nexperia",
+      "mpn": "PMEG6010CEH,115",
+      "footprint": "DockUV:D_SOD-123F",
+      "offboard": false,
+      "pins": {
+        "1": "LID_VOUT",
+        "2": "LID_SW"
+      },
+      "primary_source": "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH.pdf",
+      "note": "Exact orderable12NC934061056115,SOD123F_115,3000/reel: https://www.nexperia.com/product/PMEG6010CEH"
+    },
+    {
+      "reference": "D502",
+      "value": "VLMU35CB20-275-120",
+      "manufacturer": "Vishay",
+      "mpn": "VLMU35CB20-275-120",
+      "footprint": "DockUV:Vishay_VLMU35CB2_Actual_TwoTerminal",
+      "offboard": false,
+      "pins": {
+        "1": "LID_LED_MID",
+        "2": "LID_VOUT"
+      },
+      "primary_source": "https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf",
+      "note": "Cathode mark must match pad1. Heatspreader/AlMCPCB must be qualified."
+    },
+    {
+      "reference": "D503",
+      "value": "VLMU35CB20-275-120",
+      "manufacturer": "Vishay",
+      "mpn": "VLMU35CB20-275-120",
+      "footprint": "DockUV:Vishay_VLMU35CB2_Actual_TwoTerminal",
+      "offboard": false,
+      "pins": {
+        "1": "LID_LED_K",
+        "2": "LID_LED_MID"
+      },
+      "primary_source": "https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf",
+      "note": ""
+    },
+    {
+      "reference": "Q501",
+      "value": "DMN62D2U-7",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "DMN62D2U-7",
+      "footprint": "DockUV:SOT-23",
+      "offboard": false,
+      "pins": {
+        "1": "LID_CATHODE_GATE",
+        "2": "LID_FB_RAW",
+        "3": "LID_LED_K"
+      },
+      "primary_source": "https://www.diodes.com/datasheet/download/DMN62D2U.pdf",
+      "note": "Cathode disconnect separate from input cuts; source is FB, not GND."
+    },
+    {
+      "reference": "J501",
+      "value": "SM08B-GHS-TB",
+      "manufacturer": "JST",
+      "mpn": "SM08B-GHS-TB(LF)(SN)",
+      "footprint": "DockUV:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_SW",
+        "2": "GND",
+        "3": "UV_CTRL",
+        "4": "LID_FB",
+        "5": "LID_VOUT_DIV",
+        "6": "NTC_LID",
+        "7": "LID_THERM_SEND",
+        "8": "LOOP_B_RAW",
+        "MP": "GND"
+      },
+      "primary_source": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "note": ""
+    },
+    {
+      "reference": "TH501",
+      "value": "NTCLE413E2103F524A remote",
+      "manufacturer": "Vishay",
+      "mpn": "NTCLE413E2103F524A",
+      "footprint": null,
+      "offboard": true,
+      "pins": {
+        "1": "NTC_LID",
+        "2": "GND"
+      },
+      "primary_source": "https://www.vishay.com/docs/29078/ntcle413.pdf",
+      "note": "Offboard dry thermistor on heatspreader; do not pot/overmold/immerse."
+    },
+    {
+      "reference": "S501",
+      "value": "67L045 remote NC45C",
+      "manufacturer": "Sensata",
+      "mpn": "67L045",
+      "footprint": null,
+      "offboard": true,
+      "pins": {
+        "1": "LID_THERM_SEND",
+        "2": "LOOP_B_RAW"
+      },
+      "primary_source": "https://www.sensata.com/sites/default/files/a/sensata-6700-series-subminiature-bimetal-disc-thermostats-datasheet.pdf",
+      "note": "Offboard cutoff;10mA@5V reference only;actual voltage/contact life qualification pending."
+    },
+    {
+      "reference": "R501",
+      "value": "3.65R1%100ppm",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW08053R65FKEA",
+      "footprint": "DockUV:R_0805_2012Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_FB_RAW",
+        "2": "GND"
+      },
+      "primary_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "note": ""
+    },
+    {
+      "reference": "R502",
+      "value": "1k1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071KL",
+      "footprint": "DockUV:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "UV_CTRL",
+        "2": "LID_CATHODE_GATE"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL",
+      "note": ""
+    },
+    {
+      "reference": "R503",
+      "value": "100k1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockUV:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_CATHODE_GATE",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R504",
+      "value": "100k1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0805FR-07100KL",
+      "footprint": "DockUV:R_0805_2012Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_VOUT",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R505",
+      "value": "1M1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0805FR-071ML",
+      "footprint": "DockUV:R_0805_2012Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_VOUT",
+        "2": "LID_VOUT_SENSE"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-071ML",
+      "note": ""
+    },
+    {
+      "reference": "R506",
+      "value": "68k1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0768KL",
+      "footprint": "DockUV:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_VOUT_SENSE",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0768KL",
+      "note": ""
+    },
+    {
+      "reference": "R507",
+      "value": "10k1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockUV:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_VOUT_SENSE",
+        "2": "LID_VOUT_DIV"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+      "note": ""
+    },
+    {
+      "reference": "R508",
+      "value": "10k1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockUV:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_FB_RAW",
+        "2": "LID_FB"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+      "note": ""
+    },
+    {
+      "reference": "C501",
+      "value": "4.7uF50VX7R",
+      "manufacturer": "TDK",
+      "mpn": "C3225X7R1H475K250AB",
+      "footprint": "DockUV:C_1210_3225Metric",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_SW",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7R1H475K250AB",
+      "note": "Require >=1uF effective over VIN4.3..5.25V/input or VOUT0..39V/output,temp,age. TI output recommendation1..10uF."
+    },
+    {
+      "reference": "C502",
+      "value": "4.7uF50VX7R",
+      "manufacturer": "TDK",
+      "mpn": "C3225X7R1H475K250AB",
+      "footprint": "DockUV:C_1210_3225Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_VOUT",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7R1H475K250AB",
+      "note": "Require >=1uF effective over VIN4.3..5.25V/input or VOUT0..39V/output,temp,age. TI output recommendation1..10uF."
+    },
+    {
+      "reference": "C503",
+      "value": "220nF25VX7R",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E224K080AC",
+      "footprint": "DockUV:C_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_COMP",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E224K080AC",
+      "note": ""
+    },
+    {
+      "reference": "C504",
+      "value": "100nF25VX7R",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E104K080AA",
+      "footprint": "DockUV:C_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_FB",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E104K080AA",
+      "note": ""
+    },
+    {
+      "reference": "C505",
+      "value": "100nF25VX7R",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E104K080AA",
+      "footprint": "DockUV:C_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LID_VOUT_DIV",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E104K080AA",
+      "note": ""
+    },
+    {
+      "reference": "TP501",
+      "value": "NTC_LID",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.5mm_solder_land",
+      "footprint": "DockUV:TestPoint_Pad_D1.5mm",
+      "offboard": false,
+      "pins": {
+        "1": "NTC_LID"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Assembly wire termination for remote NTC/cutoff; restraint required."
+    },
+    {
+      "reference": "TP502",
+      "value": "GND",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.5mm_solder_land",
+      "footprint": "DockUV:TestPoint_Pad_D1.5mm",
+      "offboard": false,
+      "pins": {
+        "1": "GND"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Assembly wire termination for remote NTC/cutoff; restraint required."
+    },
+    {
+      "reference": "TP503",
+      "value": "LID_THERM_SEND",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.5mm_solder_land",
+      "footprint": "DockUV:TestPoint_Pad_D1.5mm",
+      "offboard": false,
+      "pins": {
+        "1": "LID_THERM_SEND"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Assembly wire termination for remote NTC/cutoff; restraint required."
+    },
+    {
+      "reference": "TP504",
+      "value": "LOOP_B_RAW",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.5mm_solder_land",
+      "footprint": "DockUV:TestPoint_Pad_D1.5mm",
+      "offboard": false,
+      "pins": {
+        "1": "LOOP_B_RAW"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Assembly wire termination for remote NTC/cutoff; restraint required."
+    }
+  ],
+  "footprint_provenance": {
+    "R_0603_1608Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    "R_0805_2012Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+      "sha256": "c9e065246f39a319f005b381e48e92fe0cf15ef93d474e17a8c210566693cd97"
+    },
+    "C_0603_1608Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+      "sha256": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6"
+    },
+    "C_1210_3225Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_1210_3225Metric.kicad_mod",
+      "sha256": "01a9cf0760a69faa989db0ff756daa38df9941e218e5f8a06ba1a5cd5ec2c37d"
+    },
+    "SOT-23-6": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+      "sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97"
+    },
+    "SOT-23": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+      "sha256": "7840e31dbf5d8c9a047e25e8c69951e6c3792e0d4d316642c2832be29923c42f"
+    },
+    "D_SOD-123F": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Diode_SMD.pretty/D_SOD-123F.kicad_mod",
+      "sha256": "aa24a7d6bbbac5a2c0eb536a1ba5c0f023c3b35272e8a03f914873b48b3b0c07"
+    },
+    "JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Connector_JST.pretty/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.kicad_mod",
+      "sha256": "c23619f2b76e78232c0be750fd6dcb02c41aeb19aa190e6cac1872f2a477c1b2"
+    },
+    "TestPoint_Pad_D1.5mm": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/TestPoint.pretty/TestPoint_Pad_D1.5mm.kicad_mod",
+      "sha256": "15befb4e91182778cd505b79123962fdf11fe396349ca7f788ba430d0d20ca10"
+    },
+    "Bourns_SRP4020TA_Actual_Lands": {
+      "manufacturer_drawing": "https://www.bourns.com/docs/Product-Datasheets/SRP4020TA.pdf#page=1",
+      "sha256": "d31b653bf7b98ee6d76b28fa16a66c86a9452d93018b532e2139fd4fb05916ef"
+    },
+    "Vishay_VLMU35CB2_Actual_TwoTerminal": {
+      "manufacturer_drawing": "https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf#page=4",
+      "sha256": "65134aa28c45da6a03ed39ad9bf6c6312a4f07e9a2ca3a5d789cf6d6055e4565"
+    }
+  },
+  "full_product_order_ready": false
+}

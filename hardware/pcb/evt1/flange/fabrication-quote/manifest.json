@@ -1,0 +1,47 @@
+{
+  "scope": "EVT PCB fabrication quote only; no full-product release or order",
+  "board_sha256": "adafe46de7b49daa22fa35dc287eec4d7b18b601016ea3dcd0380f36db6c6e9e",
+  "quote_zip_sha256": "c242b6aff12378dcebaa9739b46e9bd875ba3d62073d63fdcf6b68c3f3c02269",
+  "native_checks_sha256": "69fba275e78c55f1119f8ed07af6090dfb27dc8ed480d82e0db455c9fa605510",
+  "electrical_validation_sha256": "83a921025f9aead4850c8b2d74a3d9774579cfab3f8d048758b654a897742793",
+  "files": {
+    "fabrication-request.json": "31a451d53336cd3eb198122bf00b7574ea8a8d9140383e90686727d471e5bd29",
+    "flange-evt1-B_Cu.gbl": "01605a4e874913df550a04b233bc699430ea51cc566bb59c4896a9b0d9e69b75",
+    "flange-evt1-B_Mask.gbs": "27c108af043bddaf84c60a720f6068120019067c9e2dd13f0ade43ef9185c1fe",
+    "flange-evt1-B_Paste.gbp": "1c58430e44b13048d55eede5c72a699e0d72227b4c42dc9edc7d55782b094c13",
+    "flange-evt1-B_Silkscreen.gbo": "29b98a8b251822464b0bbc304b3360f924244195f563b113cfbe5421dda4d52b",
+    "flange-evt1-Edge_Cuts.gm1": "dcda7518bcba065f71eee5189ee7bcc90e2f1c7207ee9ee180e157bdb3bb1e0c",
+    "flange-evt1-F_Cu.gtl": "1bf8e52d5177ab74443f3abb240e973241144379ffb3cd8a8c4f87dcdf5142be",
+    "flange-evt1-F_Mask.gts": "9da1734d9a3314adaf154aee5133262e3218ed8deeb64833cca1679117cf5cde",
+    "flange-evt1-F_Paste.gtp": "f6bb1e9809ba874c3eae6030785b3d92946cba592121d682235e930b3b98fa5e",
+    "flange-evt1-F_Silkscreen.gto": "6fe6b0e1fb6aa73f3cef5c4d1b7c4804ea51dfb22230408d409a8cf6c2fbefc4",
+    "flange-evt1-In1_Cu.g1": "b83253896df1832475c61668794bab75cae2ae1baedb6c69d73736f2336e7418",
+    "flange-evt1-In2_Cu.g2": "7685db9195003ca502253fb3e725f649ff4e599097c7f693b8c5d314bdd06269",
+    "flange-evt1-NPTH.drl": "1a2a1504543a645bb0fbb6bec6108b90419d6aa6c366538c11ef09205b166901",
+    "flange-evt1-PTH.drl": "161bd391a2b3a9b9955c380a0792f1922e43208b78300be66067114587c17e9c",
+    "flange-evt1-job.gbrjob": "c049c0202e3bf8cd591b681ec9b9154763358170adeb9ee351d6c8c3a33d5296"
+  },
+  "fabrication_request": {
+    "scope": "EVT prototype fabrication quote; no full-product build release, supplier acceptance or order",
+    "layers": 4,
+    "copper_layer_order": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "thickness_mm": 1.0,
+    "material": "FR4",
+    "finish": "ENIG",
+    "outer_copper_oz": 1,
+    "inner_copper_oz": 0.5,
+    "copper_clearance_min_mm": 0.09999999999999999,
+    "track_width_min_mm": 0.15,
+    "via_drill_min_mm": 0.3,
+    "via_diameter_min_mm": 0.6,
+    "copper_to_board_edge_min_mm": 0.3,
+    "hole_to_copper_min_mm": 0.25,
+    "supplier_review": "Review finished thickness/holes, routed outline, mask webs, paste and the complete actual stackup before accepting a quote. Native stackup is a proposal, not an impedance-qualified fabrication agreement.",
+    "native_stackup_finish": "None"
+  }
+}

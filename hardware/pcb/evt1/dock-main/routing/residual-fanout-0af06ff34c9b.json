@@ -1,0 +1,296 @@
+{
+  "input_board_sha256": "0af06ff34c9b3efe1762fae808265cd043871230b714e28655c40747e4964a77",
+  "input_DRC_sha256": "426359fc1d5de0e383dcbcbc1477118ee87ad0ec16386ca7e16254e58e978eca",
+  "output_board_sha256": "3b5c4398226a5450eaacacd768a60cdd68cf0aabe640ed5a40d557d4543c2be8",
+  "added": [
+    {
+      "ref": "C624",
+      "pad": "1",
+      "net": "CUT_B_CT",
+      "start_native_mm": [
+        131.0,
+        167.275
+      ],
+      "via_native_mm": [
+        131.0,
+        167.975
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "J104",
+      "pad": "10",
+      "net": "CC_OUT3",
+      "start_native_mm": [
+        138.5,
+        188.0
+      ],
+      "via_native_mm": [
+        139.2,
+        188.0
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "J104",
+      "pad": "9",
+      "net": "BTN_CENTER_PRESSED",
+      "start_native_mm": [
+        136.0,
+        188.0
+      ],
+      "via_native_mm": [
+        136.7,
+        188.0
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "R125",
+      "pad": "2",
+      "net": "CC_OUT3",
+      "start_native_mm": [
+        91.0,
+        187.175
+      ],
+      "via_native_mm": [
+        91.0,
+        186.475
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "R130",
+      "pad": "1",
+      "net": "HOST_5V",
+      "start_native_mm": [
+        65.0,
+        189.825
+      ],
+      "via_native_mm": [
+        65.0,
+        190.525
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "R130",
+      "pad": "2",
+      "net": "CC_ENABLE_CT",
+      "start_native_mm": [
+        65.0,
+        188.175
+      ],
+      "via_native_mm": [
+        65.0,
+        187.475
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "R132",
+      "pad": "1",
+      "net": "SOURCE_REQUEST",
+      "start_native_mm": [
+        68.175,
+        193.0
+      ],
+      "via_native_mm": [
+        67.475,
+        193.0
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "R132",
+      "pad": "2",
+      "net": "SOURCE_DRIVE",
+      "start_native_mm": [
+        69.825,
+        193.0
+      ],
+      "via_native_mm": [
+        70.525,
+        193.0
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "R603",
+      "pad": "2",
+      "net": "WDT_CWD",
+      "start_native_mm": [
+        121.825,
+        165.0
+      ],
+      "via_native_mm": [
+        122.525,
+        165.0
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "U103",
+      "pad": "6",
+      "net": "CC_OUT3",
+      "start_native_mm": [
+        85.6,
+        193.825
+      ],
+      "via_native_mm": [
+        85.6,
+        194.525
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "U120",
+      "pad": "4",
+      "net": "CC_ENABLE_CT",
+      "start_native_mm": [
+        69.1375,
+        186.95
+      ],
+      "via_native_mm": [
+        69.8375,
+        186.95
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "U122",
+      "pad": "1",
+      "net": "SOURCE_DRIVE",
+      "start_native_mm": [
+        118.8625,
+        191.05
+      ],
+      "via_native_mm": [
+        118.1625,
+        191.05
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "ref": "U201",
+      "pad": "16",
+      "net": "LCD_DB6_MCU",
+      "start_native_mm": [
+        69.75,
+        161.1625
+      ],
+      "via_native_mm": [
+        69.75,
+        162.0625
+      ],
+      "track_width_mm": 0.2,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    }
+  ],
+  "no_direct_free_escape": [
+    [
+      "J201",
+      "16",
+      "BTN_CENTERn_RAW"
+    ],
+    [
+      "J621",
+      "4",
+      "BASE_FB"
+    ],
+    [
+      "J621",
+      "6",
+      "NTC_BASE"
+    ],
+    [
+      "R207",
+      "1",
+      "LCD_DB6_MCU"
+    ],
+    [
+      "U103",
+      "11",
+      "CC_ENABLE"
+    ],
+    [
+      "U114",
+      "6",
+      "SOURCE_REQUEST"
+    ],
+    [
+      "U201",
+      "2",
+      "LOOP_A"
+    ],
+    [
+      "U201",
+      "26",
+      "BTN_CENTERn_DEBOUNCED"
+    ],
+    [
+      "U606",
+      "2",
+      "WDT_CWD"
+    ],
+    [
+      "U611",
+      "7",
+      "CUT_B_CT"
+    ]
+  ],
+  "physical_DRC_clearance_test_mm": 0.1502,
+  "native_DRC_required": true,
+  "protected_copper_mutated": 0
+}

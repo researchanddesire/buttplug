@@ -1,0 +1,38 @@
+{
+  "input_board_sha256": "bbe66374ff5b19175230e82978363874369aae2a2d08d62104ab2272a7e63bb9",
+  "input_DRC_sha256": "cd254adc017160ce61901e5c39ac4e8e18c634ab2efa573a1087d3cccfe7830b",
+  "applied": true,
+  "changes": [
+    {
+      "uuid": "101c6650-9d1a-4f54-8e0c-02560d691379",
+      "net": "MCU_EN",
+      "native_DRC_type": "track_dangling",
+      "other_copper_neighbours": 5,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "6553b018-44b5-428a-b3df-caed4b94ac50",
+      "net": "PACK_P",
+      "native_DRC_type": "via_dangling",
+      "other_copper_neighbours": 3,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "33e359c9-3bd0-4c45-9fd1-a6fe081eac0f",
+      "net": "VBAT_ADC",
+      "native_DRC_type": "track_dangling",
+      "other_copper_neighbours": 1,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    }
+  ],
+  "output_board_sha256": "a7163f996fcf069284263d6b37ddf950a37532f4879c2585a020b6067e99fe0b",
+  "source_critical_original_protected_items_mutated": 0,
+  "native_full_DRC_required_next": true,
+  "sequential_live_graph_recomputed_after_each_edit": true
+}

@@ -1,0 +1,438 @@
+{
+  "scope": "Controller subset on shared source/controller/safety base",
+  "status": "Unrouted; no physical fit or fabrication release",
+  "native_board": "dock-controller-placement.kicad_pcb",
+  "native_board_sha256": "6302de94f5efdc0ab3cf5270f321480261bc3232e7cad139462f83a8b67f695c",
+  "native_schematic_xml": "dock-controller-native.xml",
+  "native_schematic_xml_sha256": "a67f1ba8e4e945d99a3d8cc76595d201034de1c18b26629563c390414a7beb28",
+  "builder_sha256": "8b9988944a2b92e1fa0c3642ef93394c47fdba9a6c5ad02b053d811bfc389757",
+  "outline_dock_xy_mm": [
+    [
+      -5.5,
+      -4
+    ],
+    [
+      5.5,
+      -4
+    ],
+    [
+      5.5,
+      2
+    ],
+    [
+      25,
+      2
+    ],
+    [
+      47.5,
+      15
+    ],
+    [
+      48,
+      25
+    ],
+    [
+      48,
+      65
+    ],
+    [
+      45,
+      68
+    ],
+    [
+      -45,
+      68
+    ],
+    [
+      -48,
+      65
+    ],
+    [
+      -48,
+      15
+    ],
+    [
+      -25,
+      2
+    ],
+    [
+      -5.5,
+      2
+    ]
+  ],
+  "cutouts_dock_xy_mm": [
+    [
+      [
+        -46.5,
+        15
+      ],
+      [
+        -39.5,
+        15
+      ],
+      [
+        -39,
+        15.5
+      ],
+      [
+        -39,
+        22.5
+      ],
+      [
+        -39.5,
+        23
+      ],
+      [
+        -46.5,
+        23
+      ],
+      [
+        -47,
+        22.5
+      ],
+      [
+        -47,
+        15.5
+      ]
+    ],
+    [
+      [
+        -18.5,
+        15
+      ],
+      [
+        -11.5,
+        15
+      ],
+      [
+        -11,
+        15.5
+      ],
+      [
+        -11,
+        22.5
+      ],
+      [
+        -11.5,
+        23
+      ],
+      [
+        -18.5,
+        23
+      ],
+      [
+        -19,
+        22.5
+      ],
+      [
+        -19,
+        15.5
+      ]
+    ]
+  ],
+  "thickness_mm": 1,
+  "F_Cu_global_Z_mm": 6.4,
+  "pcbnew_native_to_dock_xy": "dockX=nativeX-100; dockY=200-nativeY",
+  "StepUp_import": {
+    "pcb_placement": 2,
+    "F_Cu_local_Z_mm": 0,
+    "B_Cu_local_Z_mm": -1,
+    "local_to_dock_4x4": [
+      [
+        1,
+        0,
+        0,
+        0.0
+      ],
+      [
+        0,
+        1,
+        0,
+        32.0
+      ],
+      [
+        0,
+        0,
+        1,
+        6.4
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "note": "StepUp centres outline bounds and reflects native down-pageY. Identity App::Placement rotation; lid Z translation must be solved from actual socket contact plane. No reflected FreeCAD placement."
+  },
+  "footprint_placements_dock_xy_and_native_angle": {
+    "U201": [
+      -29,
+      43,
+      0
+    ],
+    "U202": [
+      -9,
+      42,
+      0
+    ],
+    "J201": [
+      0,
+      63,
+      180
+    ],
+    "J202": [
+      -32,
+      29,
+      0
+    ],
+    "TP201": [
+      -40,
+      33,
+      0
+    ],
+    "D201": [
+      -43,
+      53,
+      0
+    ],
+    "C201": [
+      -35,
+      49,
+      0
+    ],
+    "C202": [
+      -35,
+      37,
+      0
+    ],
+    "C203": [
+      -23,
+      37,
+      0
+    ],
+    "C204": [
+      -23,
+      49,
+      0
+    ],
+    "C205": [
+      -36,
+      43,
+      90
+    ],
+    "C206": [
+      -40,
+      43,
+      90
+    ],
+    "C207": [
+      -38,
+      38,
+      0
+    ],
+    "C208": [
+      -20,
+      30,
+      0
+    ],
+    "C209": [
+      -16,
+      30,
+      0
+    ],
+    "C210": [
+      -9,
+      47,
+      0
+    ],
+    "C211": [
+      -19,
+      53,
+      0
+    ],
+    "C212": [
+      -15,
+      53,
+      0
+    ],
+    "R213": [
+      -39,
+      30,
+      90
+    ],
+    "R214": [
+      -43,
+      59,
+      0
+    ],
+    "R215": [
+      7,
+      57,
+      90
+    ],
+    "R216": [
+      -16,
+      46,
+      90
+    ],
+    "R217": [
+      -16,
+      42,
+      90
+    ],
+    "R218": [
+      -10,
+      34,
+      90
+    ],
+    "R219": [
+      -5,
+      34,
+      90
+    ],
+    "R220": [
+      -20,
+      34,
+      90
+    ],
+    "R221": [
+      -16,
+      34,
+      90
+    ],
+    "R222": [
+      1,
+      43,
+      90
+    ],
+    "R223": [
+      1,
+      39,
+      90
+    ],
+    "R224": [
+      -43,
+      49,
+      90
+    ],
+    "R225": [
+      -19,
+      50,
+      90
+    ],
+    "R226": [
+      -15,
+      50,
+      90
+    ],
+    "R201": [
+      -37,
+      57,
+      90
+    ],
+    "R202": [
+      -34,
+      57,
+      90
+    ],
+    "R203": [
+      -31,
+      57,
+      90
+    ],
+    "R204": [
+      -28,
+      57,
+      90
+    ],
+    "R205": [
+      -25,
+      57,
+      90
+    ],
+    "R206": [
+      -22,
+      57,
+      90
+    ],
+    "R207": [
+      -19,
+      57,
+      90
+    ],
+    "R208": [
+      -16,
+      57,
+      90
+    ],
+    "R209": [
+      -13,
+      57,
+      90
+    ],
+    "R210": [
+      -10,
+      57,
+      90
+    ],
+    "R211": [
+      -7,
+      57,
+      90
+    ],
+    "R212": [
+      -4,
+      57,
+      90
+    ]
+  },
+  "socket_directions": {
+    "J201": {
+      "native_footprint_angle_deg": 180,
+      "dock_mouth_vector": [
+        0,
+        1,
+        0
+      ],
+      "dock_pin1_side": "+X",
+      "cable_conductor_mapping": "p to p; TypeD opposite-face20way; physical routing/continuity open"
+    }
+  },
+  "reserved_regions": {
+    "source_Y_mm": [
+      0,
+      25
+    ],
+    "safety_XY_mm": [
+      15,
+      30,
+      45,
+      60
+    ]
+  },
+  "mounting_boss_keepouts_dock_xy_R_mm": [
+    [
+      -52,
+      60,
+      3
+    ],
+    [
+      52,
+      60,
+      3
+    ],
+    [
+      -52,
+      115,
+      3
+    ],
+    [
+      52,
+      115,
+      3
+    ]
+  ],
+  "routing_present": false,
+  "full_product_order_ready": false
+}

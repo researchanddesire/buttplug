@@ -1,0 +1,77 @@
+{
+  "status": "pass: independent native endpoint and bounded observer-circuit review; no PCB/mechanical/physical qualification",
+  "retained_components": 111,
+  "new_components": 21,
+  "retained_endpoints_checked": 380,
+  "only_retained_endpoint_delta": [
+    {
+      "ref": "U7",
+      "pin": "6",
+      "before": [
+        "GND",
+        "input",
+        "AIN2_6"
+      ],
+      "after": [
+        "CHARGE_CURRENT_ADC",
+        "input",
+        "AIN2_6"
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "7",
+      "before": [
+        "GND",
+        "input",
+        "AIN3_7"
+      ],
+      "after": [
+        "CHARGE_TS_ADC",
+        "input",
+        "AIN3_7"
+      ]
+    }
+  ],
+  "new_explicit_manual_pin_checks": 57,
+  "original_values_and_footprints_preserved": true,
+  "primary_pin_checks": {
+    "TCA9536DTM": "Table5-1: P0=1,P1=8,P2=2,P3=4,GND=3,SCL=5,SDA=6,VCC=7. 0x41; register0x50 bit6 disables pulls. Correct 0x01=0 then0x03=3 then0x50=.40 beforeVALID.",
+    "OPA391DCK": "Table4-1: +IN1,V-2,-IN3,OUT4,V+5; both buffers have direct3-to4 unity feedback, 1k isolation before100n ADC shunt.",
+    "SN74LVC1G14DCK": "Input2,GND3,OUT4,VCC5,NC1. 5.5V tolerant input and Ioff support CE observation with3V3 supply; not a charge enable driver."
+  },
+  "bounded_analog_review": "Each20M branch plus1nF input is nominal20ms; do not declare fresh ADC data untilsettled. Input bias/leakage, humidity/contamination, resistorfaultloading and poweredoff injection still need physical qualification. Current mirror requires charger state; TS measures pack NTC voltage, not a calibrated independent safety temperature. TCA P2/P3 intentionally isolated, configuredoutputsLOW. Charge cutoff circuitry is unmodified.",
+  "ERC_findings": 0,
+  "ERC_ignored": [],
+  "source_hashes": {
+    "candidate_native_checks": "3c274510e292e43bc026d1810e23537f7a3430d2016a86581d9bfc4c60a1ef53",
+    "native_XML": "a3c7d0d9067a6eb6e8e02a16102a3dfe293dd266e79c9fa92cf730999d5b2945",
+    "ERC": "6bd83758584427e38db5e8759eda8ae6260367144c36d3693cbacf6662fad7b4",
+    "source_bindings": "149522a66da1a863439f798327410411999b39b2411793e655b2ca0856227740",
+    "review_script": "d9e3a0d58c9ed9f7b06e18252508096a2c3224d0a1df647bc93bb465a5231c34"
+  },
+  "primary_sources": {
+    "bq24074": {
+      "URL": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "SHA256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1"
+    },
+    "tca9536": {
+      "URL": "https://www.ti.com/lit/ds/symlink/tca9536.pdf",
+      "SHA256": "96e8633ff5d8b9a43dcbf5062e0f9db3058027a4ce8bf8aa8442e304792afe87"
+    },
+    "opa391": {
+      "URL": "https://www.ti.com/lit/ds/symlink/opa391.pdf",
+      "SHA256": "47047209423c48c4d01b35e8d62b6bcd4e1e0094a84f1eeb654eeff3492c4c91"
+    },
+    "sn74lvc1g14": {
+      "URL": "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf",
+      "SHA256": "3d59568b16a2b7abb63d33ebe6f8ddd37e12dd3ca2616dd803872c509a583283"
+    },
+    "ads1115": {
+      "URL": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+      "SHA256": "eefff4d412ce2dcd7e659f47238edc9b2fa02e5971f2625af730502033701834"
+    }
+  },
+  "source_files_edited": false,
+  "physical_or_fault_loading_acceptance": false
+}

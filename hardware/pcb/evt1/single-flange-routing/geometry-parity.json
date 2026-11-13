@@ -1,0 +1,76 @@
+{
+  "status": "pass: frozen geometry exact except the authorized U75/U71 translations",
+  "frozen_study_board_sha256": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
+  "routed_candidate_board_sha256": "b03c5ad9541e2e10d8a9097ae05d14ded36d2ebb1534d0a0c33b38f99a64f2b1",
+  "preserved_electrical_positions": 37,
+  "authorized_position_exceptions": {
+    "U75": {
+      "old": [
+        -1,
+        4
+      ],
+      "new": [
+        6.3,
+        9
+      ]
+    },
+    "U71": {
+      "old": [
+        -1,
+        -6
+      ],
+      "new": [
+        -1,
+        -7
+      ]
+    }
+  },
+  "authorized_repair_sha256": "1f325e2ece5c1f72b70d53244116f15a91e212e6be561b90036aeec57c00946e",
+  "preserved_mechanical_NPTH": 4,
+  "footprint_and_pad_and_model_tokens_exact_except_schematic_path_and_two_authorized_global_positions": true,
+  "outline_edge_UUIDs_and_geometry_exact": true,
+  "nominal_board_mm": 1,
+  "Cu_layers": 4,
+  "selected_library_and_model_sha256": {
+    "Selected.pretty/SW_SPST_B3U-1000P.kicad_mod": "86886925dd8008c04eb9599e50efad444e3c07813a527ec48de7281d3d73b3d0",
+    "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+    "Selected.pretty/C_0805_2012Metric.kicad_mod": "840765237e65f871e4fe355261b5c25f07f55fb2679f64bb97e07d574fe08fc1",
+    "Selected.pretty/Espressif_ESP32-C3-MINI-1_53Pads.kicad_mod": "5c86b48520e4c45bd275220b81ab26beb120dd09e1cb0f3fe2de82f81c70a6c8",
+    "Selected.pretty/Diodes_B140HW_SOD123_A1_K2.kicad_mod": "bc7ee774059bea3901892208809ea3a9238f37ccd1f22bac73233f436ded2317",
+    "Selected.pretty/MillMax_1946_0_PTH_Study.kicad_mod": "5105d36c3cdf4656e8b87ad9e70407c4de3ced209b7db7cee1be6c3f2643bd5b",
+    "Selected.pretty/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.kicad_mod": "849733b56a0929464f2640134e65a9b6572547af656b1065a9a882eff35190a6",
+    "Selected.pretty/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.kicad_mod": "e48875ebefc87c73ce227138bcc914a31f04d29864789d1d4edf6e9a1195f2ea",
+    "Selected.pretty/LGA-12_2x2mm_P0.5mm.kicad_mod": "951f30297b11a9c5d22361c8e17776a1d531f1c8f79a38a8f1360cadbe7a5173",
+    "Selected.pretty/Fuse_1206_3216Metric.kicad_mod": "a332123fafeaffb6f81980e95a67b72e7beba00513b13b6b67417b74e17ce4bb",
+    "Selected.pretty/TDK_C1608_0603_Reflow.kicad_mod": "b3c8369dd4283e05b694d9a2c58ff5005705ad7d400b51be27d0da9a2b24a848",
+    "Selected.pretty/C_0402_1005Metric.kicad_mod": "9503e39992d920c58579cf9fbd085c607c33be3aa0c658cd13763463501f42dd",
+    "Selected.pretty/SOT-23-6.kicad_mod": "7178355a201bbec3a1dedf60befc174e5dab19788049b8f0edd263ff1e3ebf16",
+    "Selected.pretty/Murata_GRM21_0805_Reflow.kicad_mod": "b82de78de5f415a20a0dd3a4ea9d93c5ea67abafabc9d59d9722b9189ff13194",
+    "Selected.pretty/D_SOD-323.kicad_mod": "cb1eee75c6663271332175636b91d77d586ce9dfe6ed78fa95167ed61b0c60fb",
+    "Selected.pretty/Murata_GRM18_0603_Reflow.kicad_mod": "263d218e7c6adb334d13405eda54883eba52ab7df36f011a48156a3565688c82",
+    "Selected.pretty/R_0402_1005Metric.kicad_mod": "f85e34bd3e55ef26d8c526a7a65f92147b36a674fa02525e6ff3d970d8ce0817",
+    "Selected.pretty/Vishay_TNPW0805_IEC_Reflow.kicad_mod": "9c47013560f2644684802798f95c6cf10db12002d6788e865842bf3051ac2ff8",
+    "Selected.pretty/Texas_USON-6_1x1.45mm_P0.5mm_SMD.kicad_mod": "c8563606a39617522edf6ea855bc2d151ad06da2f6f8acf695e9321758941add",
+    "Selected.3dshapes/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.step": "ff33172378d63a6a8e51e18f421337f1e5972a2c5b026c0f217347e4be9be191",
+    "Selected.3dshapes/USON-6_1x1.45mm_P0.5mm.step": "61bf9ccef024ce8a71b4968776fbfe67acaca641481762d12dab3c0a21a12213",
+    "Selected.3dshapes/R_0402_1005Metric.step": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+    "Selected.3dshapes/C_0805_2012Metric.step": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "Selected.3dshapes/R_0603_1608Metric.step": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "Selected.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step": "470db6ec39ba9d16e8d1dde845be2fd86ecf9e8280643d8e226b3ef821c9716e",
+    "Selected.3dshapes/C_0402_1005Metric.step": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+    "Selected.3dshapes/R_0805_2012Metric.step": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+    "Selected.3dshapes/C_0603_1608Metric.step": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+    "Selected.3dshapes/SOT-23-6.step": "9491de18305b16fe125ee3d603109a29edd837d50d22305b6f929886492ce755",
+    "Selected.3dshapes/LGA-12_2x2mm_P0.5mm.step": "5e6c16287491528f89c09590e0d5dace14debf478226f74b45504eb906119145",
+    "Selected.3dshapes/MillMax1946.step": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+    "Selected.3dshapes/D_SOD-323.step": "6c72b6baeee0baa9075c149ba2e76f711328315273e81580dbd57fb36a86c1e3",
+    "Selected.3dshapes/KiCad-LICENSE.md": "45d2bce75e5a4208f5afb01b8fb2c406e700371c4fe2b5f5cd5c443d46db4d8f",
+    "Selected.3dshapes/Fuse_1206_3216Metric.step": "5e6dcbe286696143d35a8ea37d91eef4b54ff3d1bd7c2c2b4dedda83d3f8e203",
+    "Selected.3dshapes/ESP32-C3-MINI-1-OEM.step": "a4ed075447476cb39cbee4f5889f163ff8abae111efcf27c3559b8dafa1085aa",
+    "Selected.3dshapes/SW_SPST_B3U-1000P.step": "587521eeb9e74a89206aa30ba175b56ce2e6906ce77ce09af076fdddba9bd5d6",
+    "Selected.3dshapes/D_SOD-123.step": "4413b86c5a559a63b29f1f53fd235ffe38dd235d3c16750a8a78e855c9a802ef"
+  },
+  "frozen_study_MCAD_sha256": "8dda2eaf21f807c8db826f6e73ade89361c89d9588d606d94cbf8a227998c84d",
+  "frozen_FreeCAD_sha256": "21ed99819697ef668a5a3e19f48a63fcbc28680c610e4908bac894fefee451f6",
+  "physical_validation": false
+}

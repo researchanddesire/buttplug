@@ -1,0 +1,2720 @@
+{
+  "scope": "Nominal actual-board integration; material/process/physical validation pending",
+  "native_sha256": "fe22bca30660e3cbf7244689a06a6230ae7b93f18c64489593fdc5829d02553f",
+  "builder_sha256": "baa2bd8d904478b6baf5e341dafdfda5da145cdfbcd62f07134507245e222ed9",
+  "parts_selection_sha256": "41047c4a6a6c5f2a1de48918d1fa903048433dcbaa6c83ddff48a617731d1da2",
+  "pack_spec_sha256": "78f4d12fc27ff52bab62059a73facc4f9c80f37784ce44214cce6f976a5d5ad5",
+  "battery_interface": {
+    "part": "BC-PACK-EVT1-001",
+    "status": "Defined for RFQ; supplier acceptance and received-pack validation pending",
+    "growth_role": "PackGrowthAllowance",
+    "thermistor_roles": [
+      "PackNTC0",
+      "PackNTC1"
+    ],
+    "power_connector_role": "BatteryPowerConnector",
+    "scope": "Requested protected-pack/NTC and mated ACH power-disconnect envelopes; no supplied or validated battery assembly"
+  },
+  "source_manufacturing_sha256": "ed256853cd7b79968c2993927d670df206ee3718927df7bde5aabcfefd847ebd",
+  "source_dock_sha256": "4b8b58441ac3a528a6e4c5027877a3e59efb0ed4954e772b98f06e608b885f98",
+  "board_frames": {
+    "body": "(x,y,z)_PCB to product(x,y+5,z-0.5)",
+    "flange": "(x+1.5,-18.8125-z,y+17.5125)",
+    "sensor": "(x+28,-11.3-z,5-y)"
+  },
+  "motor_interface": {
+    "case_maximum_OD_length_mm": [
+      11.1,
+      26.3
+    ],
+    "case_front_stop_Y_mm": 93.3,
+    "lead_exit_allowance_role": "MotorLeadExitAllowance",
+    "lead_exit_allowance_OD_length_mm": [
+      11.1,
+      6
+    ],
+    "source": "https://nfpshop.com/wp-content/uploads/2022/04/Encapsulated-Vibration-Motor-NFP-E1015-3.7V.pdf",
+    "scope": "Case/drawing6MAX lead projection reserved. Lead bundle width/angle/gauge are supplier/received-part acceptance; full-diameter allowance is a proposed conservative bound. Actual bore/retention/fit remains unqualified."
+  },
+  "boards": {
+    "body": {
+      "role": "BodyPCB",
+      "source": "hardware/pcb/evt1/body/body-evt1.kicad_pcb",
+      "sha256": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367"
+    },
+    "flange": {
+      "role": "FlangePCB",
+      "source": "hardware/pcb/evt1/flange/flange-evt1.kicad_pcb",
+      "sha256": "adafe46de7b49daa22fa35dc287eec4d7b18b601016ea3dcd0380f36db6c6e9e"
+    },
+    "sensor": {
+      "role": "SensorPCB",
+      "source": "hardware/pcb/evt1/sensor/sensor-evt1.kicad_pcb",
+      "sha256": "af9baeb350e0343d6b3ee8a276ed54d8b96792c8363042612a1d7c9f46e7b8b2"
+    }
+  },
+  "components": {
+    "Body_U1": {
+      "domain": "body",
+      "ref": "U1",
+      "height_budget_mm": 1.0,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_R44": {
+      "domain": "body",
+      "ref": "R44",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R45": {
+      "domain": "body",
+      "ref": "R45",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_J3": {
+      "domain": "body",
+      "ref": "J3",
+      "height_budget_mm": 2.95,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_R47": {
+      "domain": "body",
+      "ref": "R47",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R25": {
+      "domain": "body",
+      "ref": "R25",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R63": {
+      "domain": "body",
+      "ref": "R63",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R46": {
+      "domain": "body",
+      "ref": "R46",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C29": {
+      "domain": "body",
+      "ref": "C29",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R5": {
+      "domain": "body",
+      "ref": "R5",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C44": {
+      "domain": "body",
+      "ref": "C44",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C3": {
+      "domain": "body",
+      "ref": "C3",
+      "height_budget_mm": 1.35,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R4": {
+      "domain": "body",
+      "ref": "R4",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C63": {
+      "domain": "body",
+      "ref": "C63",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_U7": {
+      "domain": "body",
+      "ref": "U7",
+      "height_budget_mm": 1.1,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_C61": {
+      "domain": "body",
+      "ref": "C61",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R62": {
+      "domain": "body",
+      "ref": "R62",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_U5": {
+      "domain": "body",
+      "ref": "U5",
+      "height_budget_mm": 0.8,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_R1": {
+      "domain": "body",
+      "ref": "R1",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R61": {
+      "domain": "body",
+      "ref": "R61",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R3": {
+      "domain": "body",
+      "ref": "R3",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C28": {
+      "domain": "body",
+      "ref": "C28",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_J6": {
+      "domain": "body",
+      "ref": "J6",
+      "height_budget_mm": 3.2,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_C30": {
+      "domain": "body",
+      "ref": "C30",
+      "height_budget_mm": 2.7,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_Q1": {
+      "domain": "body",
+      "ref": "Q1",
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_R48": {
+      "domain": "body",
+      "ref": "R48",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C1": {
+      "domain": "body",
+      "ref": "C1",
+      "height_budget_mm": 1.4,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_J81": {
+      "domain": "body",
+      "ref": "J81",
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_C62": {
+      "domain": "body",
+      "ref": "C62",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C2": {
+      "domain": "body",
+      "ref": "C2",
+      "height_budget_mm": 1.4,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R2": {
+      "domain": "body",
+      "ref": "R2",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_J5": {
+      "domain": "body",
+      "ref": "J5",
+      "height_budget_mm": 2.9,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_C27": {
+      "domain": "body",
+      "ref": "C27",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C54": {
+      "domain": "body",
+      "ref": "C54",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C26": {
+      "domain": "body",
+      "ref": "C26",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C15": {
+      "domain": "body",
+      "ref": "C15",
+      "height_budget_mm": 2.7,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C53": {
+      "domain": "body",
+      "ref": "C53",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C16": {
+      "domain": "body",
+      "ref": "C16",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C21": {
+      "domain": "body",
+      "ref": "C21",
+      "height_budget_mm": 1.35,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C22": {
+      "domain": "body",
+      "ref": "C22",
+      "height_budget_mm": 1.35,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C52": {
+      "domain": "body",
+      "ref": "C52",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C14": {
+      "domain": "body",
+      "ref": "C14",
+      "height_budget_mm": 2.7,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R22": {
+      "domain": "body",
+      "ref": "R22",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R12": {
+      "domain": "body",
+      "ref": "R12",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_U9": {
+      "domain": "body",
+      "ref": "U9",
+      "height_budget_mm": 1.45,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_U3": {
+      "domain": "body",
+      "ref": "U3",
+      "height_budget_mm": 1.0,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_C11": {
+      "domain": "body",
+      "ref": "C11",
+      "height_budget_mm": 1.35,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_U8": {
+      "domain": "body",
+      "ref": "U8",
+      "height_budget_mm": 1.1,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_C24": {
+      "domain": "body",
+      "ref": "C24",
+      "height_budget_mm": 2.7,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R21": {
+      "domain": "body",
+      "ref": "R21",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_U2": {
+      "domain": "body",
+      "ref": "U2",
+      "height_budget_mm": 1.0,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_L2": {
+      "domain": "body",
+      "ref": "L2",
+      "height_budget_mm": 2.1,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R26": {
+      "domain": "body",
+      "ref": "R26",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R11": {
+      "domain": "body",
+      "ref": "R11",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R24": {
+      "domain": "body",
+      "ref": "R24",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C25": {
+      "domain": "body",
+      "ref": "C25",
+      "height_budget_mm": 2.7,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R23": {
+      "domain": "body",
+      "ref": "R23",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_L1": {
+      "domain": "body",
+      "ref": "L1",
+      "height_budget_mm": 2.1,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R42": {
+      "domain": "body",
+      "ref": "R42",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R13": {
+      "domain": "body",
+      "ref": "R13",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C51": {
+      "domain": "body",
+      "ref": "C51",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C43": {
+      "domain": "body",
+      "ref": "C43",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C12": {
+      "domain": "body",
+      "ref": "C12",
+      "height_budget_mm": 1.35,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_C13": {
+      "domain": "body",
+      "ref": "C13",
+      "height_budget_mm": 2.7,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_R43": {
+      "domain": "body",
+      "ref": "R43",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Body_U4": {
+      "domain": "body",
+      "ref": "U4",
+      "height_budget_mm": 1.45,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Body_C23": {
+      "domain": "body",
+      "ref": "C23",
+      "height_budget_mm": 2.7,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_SW1": {
+      "domain": "flange",
+      "ref": "SW1",
+      "height_budget_mm": 1.75,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_D1": {
+      "domain": "flange",
+      "ref": "D1",
+      "height_budget_mm": 1.35,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_SW2": {
+      "domain": "flange",
+      "ref": "SW2",
+      "height_budget_mm": 1.75,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R76": {
+      "domain": "flange",
+      "ref": "R76",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_J4": {
+      "domain": "flange",
+      "ref": "J4",
+      "height_budget_mm": 2.95,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_U6": {
+      "domain": "flange",
+      "ref": "U6",
+      "height_budget_mm": 2.55,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R75": {
+      "domain": "flange",
+      "ref": "R75",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_F1": {
+      "domain": "flange",
+      "ref": "F1",
+      "height_budget_mm": 0.75,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_U71": {
+      "domain": "flange",
+      "ref": "U71",
+      "height_budget_mm": 0.65,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R37": {
+      "domain": "flange",
+      "ref": "R37",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R71": {
+      "domain": "flange",
+      "ref": "R71",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R35": {
+      "domain": "flange",
+      "ref": "R35",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_C32": {
+      "domain": "flange",
+      "ref": "C32",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R32": {
+      "domain": "flange",
+      "ref": "R32",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_J7": {
+      "domain": "flange",
+      "ref": "J7",
+      "height_budget_mm": 3.2,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_C33": {
+      "domain": "flange",
+      "ref": "C33",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R33": {
+      "domain": "flange",
+      "ref": "R33",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R40": {
+      "domain": "flange",
+      "ref": "R40",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_C31": {
+      "domain": "flange",
+      "ref": "C31",
+      "height_budget_mm": 1.35,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R39": {
+      "domain": "flange",
+      "ref": "R39",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_C71": {
+      "domain": "flange",
+      "ref": "C71",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R38": {
+      "domain": "flange",
+      "ref": "R38",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_D73": {
+      "domain": "flange",
+      "ref": "D73",
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R31": {
+      "domain": "flange",
+      "ref": "R31",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_D71": {
+      "domain": "flange",
+      "ref": "D71",
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R36": {
+      "domain": "flange",
+      "ref": "R36",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_C34": {
+      "domain": "flange",
+      "ref": "C34",
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_R34": {
+      "domain": "flange",
+      "ref": "R34",
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Flange_D72": {
+      "domain": "flange",
+      "ref": "D72",
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_J1": {
+      "domain": "flange",
+      "ref": "J1",
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Flange_U75": {
+      "domain": "flange",
+      "ref": "U75",
+      "height_budget_mm": 1.45,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Sensor_C82": {
+      "domain": "sensor",
+      "ref": "C82",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Sensor_C83": {
+      "domain": "sensor",
+      "ref": "C83",
+      "height_budget_mm": 1.45,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Sensor_C81": {
+      "domain": "sensor",
+      "ref": "C81",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Sensor_U81": {
+      "domain": "sensor",
+      "ref": "U81",
+      "height_budget_mm": 1.1,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    },
+    "Sensor_C84": {
+      "domain": "sensor",
+      "ref": "C84",
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D"
+    },
+    "Sensor_J82": {
+      "domain": "sensor",
+      "ref": "J82",
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D"
+    }
+  },
+  "mating_allowances": {
+    "Body_J3_Mate": {
+      "domain": "body",
+      "ref": "J3",
+      "scope": "2.25mm plug projection from JST6.25mm side-entry mated length minus4mm header length; not OEM whole plug/lead geometry",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+    },
+    "Body_J6_Mate": {
+      "domain": "body",
+      "ref": "J6",
+      "scope": "2.25mm plug projection from JST6.25mm side-entry mated length minus4mm header length; not OEM whole plug/lead geometry",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+    },
+    "Body_J5_Mate": {
+      "domain": "body",
+      "ref": "J5",
+      "scope": "JST eSH top-entry mated assembly reference height6.3mm; wire egress/bends are separate, not included in this housing envelope"
+    },
+    "Flange_J7_Mate": {
+      "domain": "flange",
+      "ref": "J7",
+      "scope": "2.25mm plug projection from JST6.25mm side-entry mated length minus4mm header length; not OEM whole plug/lead geometry",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+    },
+    "Flange_J4_Mate": {
+      "domain": "flange",
+      "ref": "J4",
+      "scope": "2.25mm plug projection from JST6.25mm side-entry mated length minus4mm header length; not OEM whole plug/lead geometry",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+    }
+  },
+  "sensor_screw_refs": {
+    "SensorScrew0": [
+      "SensorScrewShaft0",
+      "SensorScrewHead0"
+    ],
+    "SensorScrew1": [
+      "SensorScrewShaft1",
+      "SensorScrewHead1"
+    ]
+  },
+  "sensor_mount": {
+    "PCB_back_Y_mm": -10.8,
+    "PCB_F_Y_mm": -11.8,
+    "pilot_diameter_mm": 1.1,
+    "pilot_depth_mm": 2.2,
+    "front_web_mm": 0.6,
+    "tap": "M1.4x0.3, full thread >=1.5mm",
+    "screw": "NBK SPA-M1.4-2.5-MC3 RENY; head envelope2.6x0.85mm",
+    "manufacturer_nominal": {
+      "thread": "M1.4x0.3",
+      "length_mm": 2.5,
+      "head_diameter_mm": 2.5,
+      "head_height_mm": 0.8,
+      "bit": "SKCHB-M1.4",
+      "source": "https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/highintensity/SPA-MC3/SPA-M1.4-MC3/SPA-M1.4-2.5-MC3/"
+    },
+    "qualification": "Pilot/tap process, strip/torque and received screw dimensions need trial; manufacturer screw torsional strength is not a boss torque allowance"
+  },
+  "exports": {
+    "MetalBody": {
+      "view_STL_sha256": "c383a39c36619ebc24f5ef6ace890ea21e4df3833f2e842ba1fa9b58a6bf7408",
+      "STEP_sha256": "61c68fd7303c021518bb8077516c4cb3dd7efd0edbb72c177a3b84a21a32d824"
+    },
+    "MotorThermistorCap": {
+      "view_STL_sha256": "c85d0b26847a36fe094655073d2f2072c1aca72418184980a93f40e6a0c1ad68",
+      "STEP_sha256": "6e15e6d53c219efe117ab143bfd197e558f466fca78bee6a884581d2ce4430aa"
+    },
+    "RearHalf": {
+      "view_STL_sha256": "e2b6dca86d249f0f6fda665937112f639741716c6175ef2e6b85efb11b7be6bb",
+      "STEP_sha256": "76b728e22e6a1b80570010dcff7a06e16fde0d4ec9735f0aae5bc4646f92ab2b",
+      "print_STL_sha256": "135a63227e54c315f25e834499c3e905986492e1a3c37be0b7747a59a56b025a"
+    },
+    "FlangeTray": {
+      "view_STL_sha256": "66bbf12a26e3f71b40a33f481b0a60af11d762bef4e8b604e0c90252b2a0c1b0",
+      "STEP_sha256": "39fde147814f57116401f5407a7c891ad9cde4d36bb15612a05c9b127542cdc9",
+      "print_STL_sha256": "abceb56c235807bd2ee421bbd8dfdd49f65791e89fa9d15baccec0df228158ea"
+    },
+    "BodyPCB": {
+      "view_STL_sha256": "e3925a32c8b540115434a39ebb3d34d33b78e3db81c02dc4cb73bb92b69ee490"
+    },
+    "Body_U1": {
+      "view_STL_sha256": "d906164a3b4cb0f8a6aaa1e2c2782b7b80201fa1bda725d3b477a819e434a607"
+    },
+    "Body_R44": {
+      "view_STL_sha256": "0b48f37c514e7fdd87b127b64bec49a1edea3273b95aafe47fa1103d102a6a18"
+    },
+    "Body_R45": {
+      "view_STL_sha256": "67d14f2b35ae70d9a6668735f5b83af9d1d07d266691ef51e7207c549f0f37e8"
+    },
+    "Body_J3": {
+      "view_STL_sha256": "04ecb69199ab9be9712d905d41e109ed5d8b3249ca731d12159da836d7a79e75"
+    },
+    "Body_R47": {
+      "view_STL_sha256": "ee59ea293daea8b88669f8ab9c7bd5a1031e84aa5358e5d4b109261db4f6864b"
+    },
+    "Body_R25": {
+      "view_STL_sha256": "1e0e1005019716a055560486e44633319cc98591aa4220c94f2e44afadd5b1c0"
+    },
+    "Body_R63": {
+      "view_STL_sha256": "f0da3bd8851cb66867230279bd8e580a340b7519970fa2688c00ba4033d4ce1a"
+    },
+    "Body_R46": {
+      "view_STL_sha256": "5b84b368f2c40adf9d1a7fe7f2aa57cda3da9065712bcf6b94c0a2ce9eb06d77"
+    },
+    "Body_C29": {
+      "view_STL_sha256": "d5d4b06b6570b3b7017bb6d68b3c4246372c1f448f5b14074502c53d08c6fef5"
+    },
+    "Body_R5": {
+      "view_STL_sha256": "b2351c37dc0ae9429de41e407d6cfb754cb44b807e6c15219ebd5650504a38e1"
+    },
+    "Body_C44": {
+      "view_STL_sha256": "21fcf3c1c066622626fe5a526b107a56296a31c191a4a294cb7341d3a6f8483d"
+    },
+    "Body_C3": {
+      "view_STL_sha256": "fbec96aed8b648aa2993227811171b876a8e4964300c4d882f0a12d67bfcf6cd"
+    },
+    "Body_R4": {
+      "view_STL_sha256": "6e37aeb1feb74f95ed4984ef0d0487956a214d748f77fa4f00a51be334a071cb"
+    },
+    "Body_C63": {
+      "view_STL_sha256": "282b00ae5625860b92737cebe5acff11f118f39966bdeedf50a6a155e338256e"
+    },
+    "Body_U7": {
+      "view_STL_sha256": "3dbb6f24538ffd5fce8f309027258dca3723df1cbe4947f065f1ec0e2c5efa3f"
+    },
+    "Body_C61": {
+      "view_STL_sha256": "d2fcb0583ae1e18db30ce543327f19c97fe46e1bb9a25c61f6b421f32bdb3e68"
+    },
+    "Body_R62": {
+      "view_STL_sha256": "3c00f3d6e8e93ae8e6860d5dd8273c44e17c6aab3a184683d1377308bd36ceaf"
+    },
+    "Body_U5": {
+      "view_STL_sha256": "bec0b9a168a6765035132a695b0915b500967a47e06df4da3b8814ef6b70e1c9"
+    },
+    "Body_R1": {
+      "view_STL_sha256": "274525a21eaf7a60cadc84ab67176d5ccf5a5298f3db9fcbef430bac6e4af6da"
+    },
+    "Body_R61": {
+      "view_STL_sha256": "c1317b4da6187078390f1ed144271a6e4f466d8f4492992b2e4f5afd6335ad6c"
+    },
+    "Body_R3": {
+      "view_STL_sha256": "ff4668d2b47b6b7b6abef0c5d9f39df90b04af090b5610c8d1f42c5f64b7ff52"
+    },
+    "Body_C28": {
+      "view_STL_sha256": "e7fb6daeec3f91b04948c32295a049ceceac52a4502c29dbb7d4e4282d5838bb"
+    },
+    "Body_J6": {
+      "view_STL_sha256": "f93e6744deb45015ea6dacbc5061998812ef0d4e487397a1b24910a9468885d7"
+    },
+    "Body_C30": {
+      "view_STL_sha256": "24dc0c00beacc71e5be2edd095d56a03db8b17f58af57e15e45cc082fb2e7826"
+    },
+    "Body_Q1": {
+      "view_STL_sha256": "b447bf7f83853d9f779f5f84fb89490fc446fe6e0ad48671abb1713a95165180"
+    },
+    "Body_R48": {
+      "view_STL_sha256": "7fd5ca75e17cc41602a613b06bba0f26dd4178e3dcfef8668f2ac10eb96b686e"
+    },
+    "Body_C1": {
+      "view_STL_sha256": "68dfae02cb76dc03aec3121d010e7b696c4d64a3df76fa7f390f646f276d9756"
+    },
+    "Body_J81": {
+      "view_STL_sha256": "b2bcf3c8be594d88a13c640771378f8e4a64b001ff0b83288f1ac2c003eeba66"
+    },
+    "Body_C62": {
+      "view_STL_sha256": "970a26283ddf168df02a3c93937822cff388330f270b6814f9d3b6a2ab71bd43"
+    },
+    "Body_C2": {
+      "view_STL_sha256": "a1c3cb0dccabb0e1bfb85c873f5855fc7423aaafea266704d4bc7fdf71b8547f"
+    },
+    "Body_R2": {
+      "view_STL_sha256": "331196e91dee41b492f1fd2e7bc628d9c491a723851a0ebc84dbf3fdfcb22f81"
+    },
+    "Body_J5": {
+      "view_STL_sha256": "1fdeb68c34e31d8e9defca8383a2c3995d0336d0842f562d6fdcb8ed1944289f"
+    },
+    "Body_C27": {
+      "view_STL_sha256": "fe7af4a20639ba5cc7984e01d3929a2ff702ff0caf2b3d6a1ca28f0851674918"
+    },
+    "Body_C54": {
+      "view_STL_sha256": "1116d87318d5f5c175808cad45fc128cba8597cea06b5a61fe19898ee2ba5858"
+    },
+    "Body_C26": {
+      "view_STL_sha256": "0ba6d9cc3ac8fdda425154590a5e46ec979c2a0a91c55b331ea09c2e4bd3063b"
+    },
+    "Body_C15": {
+      "view_STL_sha256": "2d350006cafb1daa07198cc4fc7cd4203bdaa4aaa9efa5cc81ce445d564a852f"
+    },
+    "Body_C53": {
+      "view_STL_sha256": "ad75a333e10102e9d29235c61ae7c9219bfd0ba3339aa6e076357e2e8fdeccc0"
+    },
+    "Body_C16": {
+      "view_STL_sha256": "ed4a03e8ce06a690c01f4b3a2824bb371e54deade2994850dc7a0a19b557008e"
+    },
+    "Body_C21": {
+      "view_STL_sha256": "d38698021bcd288c3c1a1e86571d193644a754b6a1454a59d575ebe3d7887d0a"
+    },
+    "Body_C22": {
+      "view_STL_sha256": "81d2e6630a6249b99e0a9b0eca31535aba0b2d573405fbfd077db93dc01088a8"
+    },
+    "Body_C52": {
+      "view_STL_sha256": "aa0ebc2bff92cf1fcb938c09f63c8c801581000aec4d32b79cfc551dfd358ba4"
+    },
+    "Body_C14": {
+      "view_STL_sha256": "b35f0148d0d24c3ad114bd7426343ce49e4654e9a958ea1e2ba502072292f007"
+    },
+    "Body_R22": {
+      "view_STL_sha256": "9e8d58220853df25d9312c624fcff106106b8780f1da3790001ca75b681f98cb"
+    },
+    "Body_R12": {
+      "view_STL_sha256": "ad81014575c4d5d4bc7bf3ccad613c87d013aac834da6ff8e3a0c667af21b3c2"
+    },
+    "Body_U9": {
+      "view_STL_sha256": "635d28aa5e21e08eb82adba850334cecbdd671b921de751618d1fbdea2ed7401"
+    },
+    "Body_U3": {
+      "view_STL_sha256": "12db32aecf3cd1d34789393ba5f5f91055c13d9380c8b7226901f5741fad5c1e"
+    },
+    "Body_C11": {
+      "view_STL_sha256": "be4c1469fa1a787476234cf1253b5d73cb1de371c884471e2610f9d1cf85f969"
+    },
+    "Body_U8": {
+      "view_STL_sha256": "5868258ce7876bda489b7ff2b2e5f9ad187b9d7af0c6faf92c98bba964f45ea3"
+    },
+    "Body_C24": {
+      "view_STL_sha256": "5dc24e82e2b8b211e39ecc555bf7267b4c4cddccd03135793d93e72b3f2a78d7"
+    },
+    "Body_R21": {
+      "view_STL_sha256": "e4600973f9eb1e14c287f75cf75f7e9f6505d5f89cc6db84d34e796a805074d2"
+    },
+    "Body_U2": {
+      "view_STL_sha256": "982536f9c7fce83a09150cda025991be4fda5a0154ac8f50bccebdc2d6e47866"
+    },
+    "Body_L2": {
+      "view_STL_sha256": "67524188eb5d2638fea18f9eca0262715a2dba5eaa833d052979928df840a765"
+    },
+    "Body_R26": {
+      "view_STL_sha256": "03e3a35ff7b747d61cfe92327482657a0edbe0669b52b371623d3a4a9e41b002"
+    },
+    "Body_R11": {
+      "view_STL_sha256": "3cf71f1cb6c7f7adeee258d431900984c7f54729d53c9abfaec9ff25c01a9ac9"
+    },
+    "Body_R24": {
+      "view_STL_sha256": "59c81ec2c8e4199afb29ae4098f4e2e182e4bcdf3838818b016a070590b1df3c"
+    },
+    "Body_C25": {
+      "view_STL_sha256": "ccbf492be5ef4cd5f1dd69fe92a1dfd291c5093a79e436bfbd78c7b7ca245023"
+    },
+    "Body_R23": {
+      "view_STL_sha256": "36b04b5b432df583a089e634ec4cc4f00a3aee45a5ba46ba589607adeecc0e71"
+    },
+    "Body_L1": {
+      "view_STL_sha256": "1c72f2f175f5902525cd269fd5c6b378e5ee9247c0d9b1a8ae0de4b388507fc1"
+    },
+    "Body_R42": {
+      "view_STL_sha256": "5eedeaf8b7c9aac5ed87fa2e32a30ac01756924d7041adb06b92d8d51ce5968e"
+    },
+    "Body_R13": {
+      "view_STL_sha256": "d17d435b08e8ae8a0984e9af63522f80397ae5be73c44dfd1471c9baf2b3aa7f"
+    },
+    "Body_C51": {
+      "view_STL_sha256": "dafcbccaa4359e4bd7d07ac9f91213d61b12932ce4e31344b6ab782121bf354a"
+    },
+    "Body_C43": {
+      "view_STL_sha256": "5e68df33dc46888798e4f978dac58899ecdb1302962b6497d328f7b9f0f870d7"
+    },
+    "Body_C12": {
+      "view_STL_sha256": "0dd3ec092da63a7b4fd65c7c54694ff4fa4504c37592960926cffc85d1132c87"
+    },
+    "Body_C13": {
+      "view_STL_sha256": "488fabc5712e87be73ca6fd4b22df6c4f93092eeedb53b4d3b5829e773512842"
+    },
+    "Body_R43": {
+      "view_STL_sha256": "c46085ffa637b41fd752c61b75ce80a1ad05584ec22c1f821c190abf4ec94c3d"
+    },
+    "Body_U4": {
+      "view_STL_sha256": "63fb0f2479c04a8cc3dbb7dc36a9a3cdd2fe1ce424f21836d87c7c900a27fedd"
+    },
+    "Body_C23": {
+      "view_STL_sha256": "34bc83c3d1ae251073e4657a86a4e3f015c0cbe1783edc2c8ff50808a9bcfd58"
+    },
+    "FlangePCB": {
+      "view_STL_sha256": "b79f026902a3f3abb6e90b0313e0f904237207d8d68cd6d0e12d8e93abd550ba"
+    },
+    "Flange_SW1": {
+      "view_STL_sha256": "f2f1b62391721a7a14028700c92f93b81b7f125a7caf631778f8da7e959e32d1"
+    },
+    "Flange_D1": {
+      "view_STL_sha256": "cbd630756eba04252db1509450a41ee6cccb1845acae04cf132da183e4db0a60"
+    },
+    "Flange_SW2": {
+      "view_STL_sha256": "1704e8fb3922f870b0bf982fa0774786ee3de284d3e30ff70f5c24ca9db61cac"
+    },
+    "Flange_R76": {
+      "view_STL_sha256": "75eddf8d3f8e0b8527845bc516819f761f5a1e10e47b72a6bb7391fde774c114"
+    },
+    "Flange_J4": {
+      "view_STL_sha256": "89a2b0145ac165d75984e1a3225eba3fb16cfcfcac6f2e306ce4d1efdf349d3b"
+    },
+    "Flange_U6": {
+      "view_STL_sha256": "7cc955a32a59f562122e4524c3ff62ec44f0269b777044fc5f6e611050124a4b"
+    },
+    "Flange_R75": {
+      "view_STL_sha256": "5f4a44c65ac9d4536bba754be8f6559f4bb3a6b4bb23748588059175259f6830"
+    },
+    "Flange_F1": {
+      "view_STL_sha256": "0778b5aa9d1a2d4f514516d25a845301b40f8b643a14bd832c4975ddb6ba0f88"
+    },
+    "Flange_U71": {
+      "view_STL_sha256": "bf885447feb12ed7f0b692bb4aecc685a64804380afffd568085a99183d770ea"
+    },
+    "Flange_R37": {
+      "view_STL_sha256": "b62021dd72fc6e0f5337c0fb0313cef2cffbe89d0b1fa011fff2f0cec0831852"
+    },
+    "Flange_R71": {
+      "view_STL_sha256": "b155773b12fd5eec47475eda416b5ee5682bdc78823d24d827ff3c459dd6d5d6"
+    },
+    "Flange_R35": {
+      "view_STL_sha256": "90af3635e832c02fc0c87a712602a6342a5c55e8b6a20becd968c98ad70fc067"
+    },
+    "Flange_C32": {
+      "view_STL_sha256": "e77e24dfc5535cb353d6e18bcb1c39003eaed27fc9c9e2564468ac53b198bf37"
+    },
+    "Flange_R32": {
+      "view_STL_sha256": "21aef4d7743fafaaef4a881ee2e0ea789a75f9d6e6dfc7fc2de15e1481be86de"
+    },
+    "Flange_J7": {
+      "view_STL_sha256": "47864744fb2f5b87b5ab86b79b942c6ef1dcdaa11ba2f4a96fd929e96f31ae89"
+    },
+    "Flange_C33": {
+      "view_STL_sha256": "ad0e35a62947747cf9ee7973a70001aeeb3646b2bdeb9b4a2448b4078989f36c"
+    },
+    "Flange_R33": {
+      "view_STL_sha256": "43db4d63d1ba15942f7ccbc7b60d5e6a7252f25979c28f51fb862377832d76b3"
+    },
+    "Flange_R40": {
+      "view_STL_sha256": "db608ca8d966a2a9b983ffc67c32e2bef98d5e07222c4443b2a7f560a5fcad18"
+    },
+    "Flange_C31": {
+      "view_STL_sha256": "e87dde432dfa3b44c46e257090e5d1fac4280425fbfeed65e7d010abdf0d23f4"
+    },
+    "Flange_R39": {
+      "view_STL_sha256": "c88843ac2b5e6446e1d5daabb64e7d40a1f81f35bdfc3d33a8c44dc310d4f0df"
+    },
+    "Flange_C71": {
+      "view_STL_sha256": "d2055c09aa33b4466ae430efdbf19a588354b772756f2e0014860327e9c3674b"
+    },
+    "Flange_R38": {
+      "view_STL_sha256": "c7ebfc23f8a21d1289f7624f248d83e163b3d92e13563b9bd675b51f8354a364"
+    },
+    "Flange_D73": {
+      "view_STL_sha256": "3c036c5552a6b140db1370064682a62b835c28061a8fe9fc96351626bba57064"
+    },
+    "Flange_R31": {
+      "view_STL_sha256": "67d82f221ea191b4b097d0842c40882885c5fcf9b29c515f89662cfdf0080b3c"
+    },
+    "Flange_D71": {
+      "view_STL_sha256": "51eaffb6fd10a96e81add72f10fd7b48cedd09ccd3c4bc09798582be538827ce"
+    },
+    "Flange_R36": {
+      "view_STL_sha256": "b9e44c29aa3ab550457ddeaf238928940d0f00a3fde6cdc085fd47c9b155c5e8"
+    },
+    "Flange_C34": {
+      "view_STL_sha256": "56bd85eb42ca3cdc2ba0ad0d555be03743b9f7990391c784dbd710f55e10dc51"
+    },
+    "Flange_R34": {
+      "view_STL_sha256": "ef08882b6dd1c5bbd4920d9989dd25c13d0517c2c019f3284db4f672e209237d"
+    },
+    "Flange_D72": {
+      "view_STL_sha256": "1fd0c95f03ab56c2bfcb0035ccc2b068f49f14fe9c036ea038d83735557dd6a2"
+    },
+    "Flange_J1": {
+      "view_STL_sha256": "dd0bd782a902d936259fe6d8c0a986a2f96df4dde4851374a610ab970a8a0369"
+    },
+    "Flange_U75": {
+      "view_STL_sha256": "a2f2687dd4981ed4eab6133090a210d2170ea9df7face848dd0c4fce04f259ca"
+    },
+    "SensorPCB": {
+      "view_STL_sha256": "3a8e9f3e413113d295e344d7fcfe52145f808164c52dda43c987aee1b72feefd"
+    },
+    "Sensor_C82": {
+      "view_STL_sha256": "bd6641afd1dc89e1d96719aac5ea6fd391245221e19c3abbeaa3c210fd6b4d2a"
+    },
+    "Sensor_C83": {
+      "view_STL_sha256": "7634675cce0e28b9d7c9cdf5d8b8008dd496086595f7e2e8bd87dca713d83e81"
+    },
+    "Sensor_C81": {
+      "view_STL_sha256": "9779517a2a1e6f9dcdcc5f3edf27010b2d1eceacab26c7c9101916d5e98784e2"
+    },
+    "Sensor_U81": {
+      "view_STL_sha256": "f5d89c17230029d3095d892f5a85f96c12d171f11364085006f46aadc5b3f3f1"
+    },
+    "Sensor_C84": {
+      "view_STL_sha256": "690a04c43c2e836b6270e3d363770a2788c124abcfb3dd6bf3a274000e27b39c"
+    },
+    "Sensor_J82": {
+      "view_STL_sha256": "ea40d22c31aa616104e5b56d8807b14187ca7d9e54a826c364a15fb0b463020e"
+    },
+    "SteelKeeper0": {
+      "view_STL_sha256": "1cd3eda5106bce87bc223e2a9e197c20b48c963a273625363340a4b29f69488e"
+    },
+    "SteelKeeper1": {
+      "view_STL_sha256": "f8a1fa8159127b65dbf2ad9432ee0013ae9f497268aee269d5bd2c41fac6cf75"
+    },
+    "Contact_GND": {
+      "view_STL_sha256": "ef729893735ebcd4cd5689f6c7f1f823737ba9e1895708586996bbb63657c1fa"
+    },
+    "ContactNut_GND": {
+      "view_STL_sha256": "08de7a5e189bf07df55838857df879d21979f70595e077e034bbeedeaa2dd855"
+    },
+    "Contact_USB_DM": {
+      "view_STL_sha256": "f34688d8f442659db9fa3ebc4d9195b637f1c8ecc45583fe1cabfa6dcd828696"
+    },
+    "ContactNut_USB_DM": {
+      "view_STL_sha256": "4b63a79e869b712ef10be0a1275e19d21b7c1c891f327011d024619a2ccf6984"
+    },
+    "Contact_USB_DP": {
+      "view_STL_sha256": "85e991f118a8fb8888de323bdb886c15f298787a1c6403ab9f061d27940117c0"
+    },
+    "ContactNut_USB_DP": {
+      "view_STL_sha256": "cdb0bbfd89f50986d8163c3c0090e2ed7d198121a1825c6b81f9705ec780dec0"
+    },
+    "Contact_DOCK_5V": {
+      "view_STL_sha256": "333e844c9eac2b2a3369ad5b58e3909b01c6210536fc273098e222a1aa6e8f6f"
+    },
+    "ContactNut_DOCK_5V": {
+      "view_STL_sha256": "66c22b67681420fc8a09c3e56fabc84e0f872a0f18f75408e59e920cab7e009a"
+    },
+    "TipPottingSpace": {
+      "view_STL_sha256": "d43710346f84b85cd3d96b2a8324e53b7129737257b2c3f9cb13e62b7ba3ea67"
+    },
+    "CapFaceSealSpace": {
+      "view_STL_sha256": "473dcdfa248cf8a840cb6dce800d924b93dfefd2d90355fe109e9511db88085b"
+    },
+    "ContinuousSkin": {
+      "view_STL_sha256": "4b432d45d97078823d17cde4755c4094303b1dfa37338f90bae79b67981e786f"
+    },
+    "ContactSeal_GND": {
+      "view_STL_sha256": "10097032c503b7c2534755fa8dcb73c2bce9630ac89d8b06ef753d8b2a727504"
+    },
+    "ContactSeal_USB_DM": {
+      "view_STL_sha256": "b18f1c82e91658e6761c15e5e42123edf084fa232e52b661db37626252822405"
+    },
+    "ContactSeal_USB_DP": {
+      "view_STL_sha256": "452b81f0a053ff51ae5a4408314038a5e36c3b3ab2c40270d8b5cc35252604aa"
+    },
+    "ContactSeal_DOCK_5V": {
+      "view_STL_sha256": "330038e642cc42f5acfab3088cc9d9649c4703b9fc27dccf17a047f1b0ab8670"
+    },
+    "BodyInsulatingSleeve": {
+      "view_STL_sha256": "7db777439cac51138beb4cd991ba98a4dc785aa6ad70b6898052bdb9bab4033b"
+    },
+    "BodyFoamL": {
+      "view_STL_sha256": "ac8357390cd3efbf699396a5312f29926c9bf8ca95456595417cc7600a0db7d5"
+    },
+    "BodyFoamR": {
+      "view_STL_sha256": "5747b1614cafceaab81895b758524ef38f319e2511b699d988c1ee4e37b962a9"
+    },
+    "RearNutReference": {
+      "view_STL_sha256": "e5165f312c279cd3b8f44a82fe76df1197f1721462fb149d31cf92d58a7ed50b"
+    },
+    "PackSizeReference": {
+      "view_STL_sha256": "2fc3e9b11d034cc31630e2a6d26dee0e6d8eeb50585cffe6e122b5012eccecb4"
+    },
+    "BatteryPowerConnector": {
+      "view_STL_sha256": "ce99460710c30efee6cb2b15c3fd4e44ae53e9df945d14b813c1014a074449f3"
+    },
+    "PackNTC0": {
+      "view_STL_sha256": "2c1ac8e50ebdabcd822656f91bbbd42a213c62002aa13e910d3bfc27a2405774"
+    },
+    "PackNTC1": {
+      "view_STL_sha256": "efa60102be7a2fe96a6b9c6f1773b8389a78b3a158a6f2acd9b09f86c8ae9801"
+    },
+    "MotorReference": {
+      "view_STL_sha256": "c36dd7ed035eb6d1103b12ced9b4289c7d40b16fc708a7410310a94f26ed4f5d"
+    },
+    "MotorLeadExitAllowance": {
+      "view_STL_sha256": "80c9029d7a98ab77c03acd7f15cec65c16bb24f982b8d5e38eef8ac6507d81e1"
+    },
+    "TipThermistor": {
+      "view_STL_sha256": "5d3837a2546cacd5ac6a6cf31a9fafa9a20c9c3bb03cfa567f8252111f24d14e"
+    },
+    "SensorScrewShaft0": {
+      "view_STL_sha256": "3137c1c1e1aa7bf26374eda0b9bf66a61075c34d412054a5e589eae0d9c62420"
+    },
+    "SensorScrewHead0": {
+      "view_STL_sha256": "23f693babbb50b0f218465b1dbb6dc326ecb9e9d5f944a4ce99aefd1590626fa"
+    },
+    "SensorScrewShaft1": {
+      "view_STL_sha256": "080aa15fb2ecadf11a22dc5327c89ff2efa0f0ee3fef18044755debce5834c5f"
+    },
+    "SensorScrewHead1": {
+      "view_STL_sha256": "eb5d91c1ae91a28e7a382d1ab571815143168c541e7a4abe7e22a12328bd6944"
+    },
+    "Body_J3_Mate": {
+      "view_STL_sha256": "577778c99db3029651a0a8f7afa6ea93c13171f2f646dced973591ad134bd868"
+    },
+    "Body_J6_Mate": {
+      "view_STL_sha256": "72b95e9ccbb73f20a4a6a673278aae939c5eb9ffbaf2f31e8323bf606b4e5626"
+    },
+    "Body_J5_Mate": {
+      "view_STL_sha256": "3800cdc4573fc17b17423f517c3e6195b16e8fbd8f36bb2853c270cfbb6188de"
+    },
+    "Flange_J7_Mate": {
+      "view_STL_sha256": "c63adca64e3c6b508e6881221b2e48afc4a412075c7113adde81a3e3452cd62f"
+    },
+    "Flange_J4_Mate": {
+      "view_STL_sha256": "6297aa129790843943873e36488b4a931186e173e553cdf0871915deacb89a38"
+    }
+  },
+  "native_roles": {
+    "MetalBody": "MetalBody",
+    "MotorThermistorCap": "MotorThermistorCap",
+    "TraySource": "TraySource",
+    "RearHalf": "RearHalf",
+    "RearNutReference": "RearNutReference",
+    "PriorPackGauge": "PriorPackGauge",
+    "PackSizeReference": "PackSizeReference",
+    "PackGrowthAllowance": "PackGrowthAllowance",
+    "BatteryPowerConnector": "BatteryPowerConnector",
+    "PackNTC0": "PackNTC0",
+    "PackNTC1": "PackNTC1",
+    "PriorMotorGauge": "PriorMotorGauge",
+    "MotorReference": "MotorReference",
+    "MotorLeadExitAllowance": "MotorLeadExitAllowance",
+    "TipThermistor": "TipThermistor",
+    "TipPottingSpace": "TipPottingSpace",
+    "CapFaceSealSpace": "CapFaceSealSpace",
+    "ContinuousSkin": "ContinuousSkin",
+    "SteelKeeper0": "SteelKeeper0",
+    "SteelKeeper1": "SteelKeeper1",
+    "Contact_GND": "Contact_GND",
+    "ContactNut_GND": "ContactNut_GND",
+    "ContactSeal_GND": "ContactSeal_GND",
+    "Contact_USB_DM": "Contact_USB_DM",
+    "ContactNut_USB_DM": "ContactNut_USB_DM",
+    "ContactSeal_USB_DM": "ContactSeal_USB_DM",
+    "Contact_USB_DP": "Contact_USB_DP",
+    "ContactNut_USB_DP": "ContactNut_USB_DP",
+    "ContactSeal_USB_DP": "ContactSeal_USB_DP",
+    "Contact_DOCK_5V": "Contact_DOCK_5V",
+    "ContactNut_DOCK_5V": "ContactNut_DOCK_5V",
+    "ContactSeal_DOCK_5V": "ContactSeal_DOCK_5V",
+    "SensorBoss0": "SensorBoss0",
+    "SensorPilot0": "SensorPilot0",
+    "SensorScrewShaft0": "SensorScrewShaft0",
+    "SensorScrewHead0": "SensorScrewHead0",
+    "SensorBoss1": "SensorBoss1",
+    "SensorPilot1": "SensorPilot1",
+    "SensorScrewShaft1": "SensorScrewShaft1",
+    "SensorScrewHead1": "SensorScrewHead1",
+    "FlangeTray": "FlangeTray",
+    "BodyPCB": "BodyPCB",
+    "Body_U1": "Body_U1",
+    "Body_R44": "Body_R44",
+    "Body_R45": "Body_R45",
+    "Body_J3": "Body_J3",
+    "Body_R47": "Body_R47",
+    "Body_R25": "Body_R25",
+    "Body_R63": "Body_R63",
+    "Body_R46": "Body_R46",
+    "Body_C29": "Body_C29",
+    "Body_R5": "Body_R5",
+    "Body_C44": "Body_C44",
+    "Body_C3": "Body_C3",
+    "Body_R4": "Body_R4",
+    "Body_C63": "Body_C63",
+    "Body_U7": "Body_U7",
+    "Body_C61": "Body_C61",
+    "Body_R62": "Body_R62",
+    "Body_U5": "Body_U5",
+    "Body_R1": "Body_R1",
+    "Body_R61": "Body_R61",
+    "Body_R3": "Body_R3",
+    "Body_C28": "Body_C28",
+    "Body_J6": "Body_J6",
+    "Body_C30": "Body_C30",
+    "Body_Q1": "Body_Q1",
+    "Body_R48": "Body_R48",
+    "Body_C1": "Body_C1",
+    "Body_J81": "Body_J81",
+    "Body_C62": "Body_C62",
+    "Body_C2": "Body_C2",
+    "Body_R2": "Body_R2",
+    "Body_J5": "Body_J5",
+    "Body_C27": "Body_C27",
+    "Body_C54": "Body_C54",
+    "Body_C26": "Body_C26",
+    "Body_C15": "Body_C15",
+    "Body_C53": "Body_C53",
+    "Body_C16": "Body_C16",
+    "Body_C21": "Body_C21",
+    "Body_C22": "Body_C22",
+    "Body_C52": "Body_C52",
+    "Body_C14": "Body_C14",
+    "Body_R22": "Body_R22",
+    "Body_R12": "Body_R12",
+    "Body_U9": "Body_U9",
+    "Body_U3": "Body_U3",
+    "Body_C11": "Body_C11",
+    "Body_U8": "Body_U8",
+    "Body_C24": "Body_C24",
+    "Body_R21": "Body_R21",
+    "Body_U2": "Body_U2",
+    "Body_L2": "Body_L2",
+    "Body_R26": "Body_R26",
+    "Body_R11": "Body_R11",
+    "Body_R24": "Body_R24",
+    "Body_C25": "Body_C25",
+    "Body_R23": "Body_R23",
+    "Body_L1": "Body_L1",
+    "Body_R42": "Body_R42",
+    "Body_R13": "Body_R13",
+    "Body_C51": "Body_C51",
+    "Body_C43": "Body_C43",
+    "Body_C12": "Body_C12",
+    "Body_C13": "Body_C13",
+    "Body_R43": "Body_R43",
+    "Body_U4": "Body_U4",
+    "Body_C23": "Body_C23",
+    "Body_J3_Mate": "Body_J3_Mate",
+    "Body_J6_Mate": "Body_J6_Mate",
+    "Body_J5_Mate": "Body_J5_Mate",
+    "FlangePCB": "FlangePCB",
+    "Flange_SW1": "Flange_SW1",
+    "Flange_D1": "Flange_D1",
+    "Flange_SW2": "Flange_SW2",
+    "Flange_R76": "Flange_R76",
+    "Flange_J4": "Flange_J4",
+    "Flange_U6": "Flange_U6",
+    "Flange_R75": "Flange_R75",
+    "Flange_F1": "Flange_F1",
+    "Flange_U71": "Flange_U71",
+    "Flange_R37": "Flange_R37",
+    "Flange_R71": "Flange_R71",
+    "Flange_R35": "Flange_R35",
+    "Flange_C32": "Flange_C32",
+    "Flange_R32": "Flange_R32",
+    "Flange_J7": "Flange_J7",
+    "Flange_C33": "Flange_C33",
+    "Flange_R33": "Flange_R33",
+    "Flange_R40": "Flange_R40",
+    "Flange_C31": "Flange_C31",
+    "Flange_R39": "Flange_R39",
+    "Flange_C71": "Flange_C71",
+    "Flange_R38": "Flange_R38",
+    "Flange_D73": "Flange_D73",
+    "Flange_R31": "Flange_R31",
+    "Flange_D71": "Flange_D71",
+    "Flange_R36": "Flange_R36",
+    "Flange_C34": "Flange_C34",
+    "Flange_R34": "Flange_R34",
+    "Flange_D72": "Flange_D72",
+    "Flange_J1": "Flange_J1",
+    "Flange_U75": "Flange_U75",
+    "Flange_J7_Mate": "Flange_J7_Mate",
+    "Flange_J4_Mate": "Flange_J4_Mate",
+    "SensorPCB": "SensorPCB",
+    "Sensor_C82": "Sensor_C82",
+    "Sensor_C83": "Sensor_C83",
+    "Sensor_C81": "Sensor_C81",
+    "Sensor_U81": "Sensor_U81",
+    "Sensor_C84": "Sensor_C84",
+    "Sensor_J82": "Sensor_J82",
+    "BodyInsulatingSleeve": "BodyInsulatingSleeve",
+    "BodyFoamL": "BodyFoamL",
+    "BodyFoamR": "BodyFoamR"
+  },
+  "main_custom_rigid_parts": [
+    "MetalBody",
+    "MotorThermistorCap",
+    "RearHalf",
+    "FlangeTray"
+  ],
+  "bounds": {
+    "MetalBody": [
+      -18.645792962236065,
+      -14.25,
+      -18.663197338773237,
+      18.669,
+      64.0,
+      18.663197338773237
+    ],
+    "MotorThermistorCap": [
+      -18.234742657913948,
+      54.75,
+      -18.25176335142479,
+      18.257438091802705,
+      98.1,
+      18.25176335142479
+    ],
+    "TraySource": [
+      -44.0,
+      -22.9,
+      -15.999999999999998,
+      44.0,
+      -8.0,
+      15.999999999999998
+    ],
+    "RearHalf": [
+      -44.0,
+      -25.5,
+      -15.999999999999998,
+      44.0,
+      -19.5125,
+      15.999999999999998
+    ],
+    "RearNutReference": [
+      -12.000000000000014,
+      -14.0,
+      -13.85640646055102,
+      12.000000000000002,
+      -9.999999999999998,
+      13.85640646055102
+    ],
+    "PriorPackGauge": [
+      7.0,
+      -22.5,
+      -10.0,
+      40.0,
+      -14.5,
+      10.0
+    ],
+    "PackSizeReference": [
+      7.0,
+      -21.5,
+      -10.5,
+      40.0,
+      -15.2,
+      10.5
+    ],
+    "PackGrowthAllowance": [
+      6.75,
+      -22.6,
+      -10.75,
+      40.25,
+      -15.2,
+      10.75
+    ],
+    "BatteryPowerConnector": [
+      0.95,
+      -20.3,
+      -4.5,
+      3.05,
+      -16.3,
+      2.5
+    ],
+    "PackNTC0": [
+      17.0,
+      -15.199533773001225,
+      -5.5,
+      27.0,
+      -12.200466226998774,
+      -2.501864618171614
+    ],
+    "PackNTC1": [
+      17.0,
+      -15.199533773001225,
+      2.5,
+      27.0,
+      -12.200466226998774,
+      5.498135381828385
+    ],
+    "PriorMotorGauge": [
+      -5.55,
+      67.0,
+      -5.55,
+      5.55,
+      93.3,
+      5.550000000000006
+    ],
+    "MotorReference": [
+      -5.543100912765019,
+      67.0,
+      -5.54827496010453,
+      5.55,
+      93.3,
+      5.548274960104537
+    ],
+    "MotorLeadExitAllowance": [
+      -5.543100912765019,
+      61.0,
+      -5.54827496010453,
+      5.55,
+      67.0,
+      5.548274960104532
+    ],
+    "TipThermistor": [
+      7.20018649079951,
+      89.1,
+      -0.5992541527313534,
+      8.39981350920049,
+      90.3,
+      0.6
+    ],
+    "TipPottingSpace": [
+      6.550388522498979,
+      88.1,
+      -1.2484461515236531,
+      9.04961147750102,
+      90.5,
+      1.25
+    ],
+    "CapFaceSealSpace": [
+      -17.099683458123963,
+      63.22,
+      -17.08373713744967,
+      17.099683458123963,
+      64.0,
+      17.105
+    ],
+    "ContinuousSkin": [
+      -45.0,
+      -26.849999999999998,
+      -19.0,
+      45.0,
+      -3.0,
+      19.0
+    ],
+    "SteelKeeper0": [
+      -42.49502768487569,
+      -25.100000000000005,
+      -11.998756728003265,
+      -34.5,
+      -24.1,
+      -4.001243271996735
+    ],
+    "SteelKeeper1": [
+      -24.99502768487569,
+      -25.1,
+      -14.498756728003265,
+      -17.0,
+      -24.099999999999998,
+      -6.501243271996735
+    ],
+    "Contact_GND": [
+      -39.99751384243785,
+      -26.8,
+      9.500621635998368,
+      -36.0,
+      -20.3,
+      13.499378364001632
+    ],
+    "ContactNut_GND": [
+      -40.309401076758505,
+      -22.9,
+      9.5,
+      -35.690598923241495,
+      -21.299999999999994,
+      13.5
+    ],
+    "ContactSeal_GND": [
+      -39.6915976012487,
+      -24.87999112542565,
+      9.806823425861209,
+      -36.3062969924812,
+      -24.500126226446483,
+      13.193176574138791
+    ],
+    "Contact_USB_DM": [
+      -33.99751384243785,
+      -26.8,
+      9.500621635998368,
+      -30.0,
+      -20.3,
+      13.499378364001632
+    ],
+    "ContactNut_USB_DM": [
+      -34.309401076758505,
+      -22.9,
+      9.5,
+      -29.690598923241495,
+      -21.299999999999994,
+      13.5
+    ],
+    "ContactSeal_USB_DM": [
+      -33.6915976012487,
+      -24.87999112542565,
+      9.806823425861213,
+      -30.306296992481204,
+      -24.500126226446483,
+      13.193176574138787
+    ],
+    "Contact_USB_DP": [
+      -27.997513842437844,
+      -26.8,
+      9.500621635998368,
+      -24.0,
+      -20.3,
+      13.499378364001632
+    ],
+    "ContactNut_USB_DP": [
+      -28.309401076758505,
+      -22.9,
+      9.5,
+      -23.690598923241495,
+      -21.299999999999994,
+      13.5
+    ],
+    "ContactSeal_USB_DP": [
+      -27.691597601248702,
+      -24.87999112542565,
+      9.806823425861213,
+      -24.306296992481204,
+      -24.500126226446483,
+      13.193176574138787
+    ],
+    "Contact_DOCK_5V": [
+      -21.997513842437844,
+      -26.8,
+      9.500621635998368,
+      -18.0,
+      -20.3,
+      13.499378364001632
+    ],
+    "ContactNut_DOCK_5V": [
+      -22.309401076758505,
+      -22.9,
+      9.5,
+      -17.690598923241495,
+      -21.299999999999994,
+      13.5
+    ],
+    "ContactSeal_DOCK_5V": [
+      -21.691597601248702,
+      -24.87999112542565,
+      9.806823425861213,
+      -18.306296992481204,
+      -24.500126226446483,
+      13.193176574138787
+    ],
+    "SensorBoss0": [
+      27.5,
+      -10.8,
+      1.5,
+      31.5,
+      -9.55,
+      5.5
+    ],
+    "SensorPilot0": [
+      28.95,
+      -10.85,
+      2.95,
+      30.05,
+      -8.599999999999998,
+      4.050000000000001
+    ],
+    "SensorScrewShaft0": [
+      28.800870155146754,
+      -11.8,
+      2.8002175725994287,
+      30.2,
+      -9.299999999999999,
+      4.199782427400572
+    ],
+    "SensorScrewHead0": [
+      28.2016160024154,
+      -12.65,
+      2.200404063398939,
+      30.8,
+      -11.799999999999999,
+      4.799595936601062
+    ],
+    "SensorBoss1": [
+      36.5,
+      -10.8,
+      1.5,
+      40.5,
+      -9.55,
+      5.5
+    ],
+    "SensorPilot1": [
+      37.95,
+      -10.85,
+      2.95,
+      39.05,
+      -8.599999999999998,
+      4.050000000000001
+    ],
+    "SensorScrewShaft1": [
+      37.800870155146754,
+      -11.8,
+      2.8002175725994287,
+      39.2,
+      -9.299999999999999,
+      4.199782427400572
+    ],
+    "SensorScrewHead1": [
+      37.2016160024154,
+      -12.65,
+      2.200404063398939,
+      39.8,
+      -11.799999999999999,
+      4.799595936601062
+    ],
+    "FlangeTray": [
+      -44.0,
+      -22.9,
+      -15.999999999999998,
+      44.0,
+      -8.0,
+      15.999999999999998
+    ],
+    "BodyPCB": [
+      -10.0,
+      31.0,
+      -1.0,
+      10.0,
+      59.0,
+      0.0
+    ],
+    "Body_U1": [
+      3.1500000000000057,
+      42.849999999999994,
+      0.0,
+      6.25,
+      45.95,
+      1.0
+    ],
+    "Body_R44": [
+      -8.400001,
+      37.360001,
+      0.0,
+      -7.450001,
+      39.060001,
+      0.55
+    ],
+    "Body_R45": [
+      7.1850000000000005,
+      37.530001,
+      0.0,
+      8.135,
+      39.230001,
+      0.55
+    ],
+    "Body_J3": [
+      -6.450000000000003,
+      53.625,
+      0.0,
+      -2.3499999999999943,
+      57.974999999999994,
+      2.95
+    ],
+    "Body_R47": [
+      -8.474999999999994,
+      51.894999999999996,
+      0.0,
+      -7.834999999999994,
+      53.045,
+      0.55
+    ],
+    "Body_R25": [
+      7.6299999999999955,
+      40.070001000000005,
+      0.0,
+      8.269999999999996,
+      41.220000999999996,
+      0.55
+    ],
+    "Body_R63": [
+      -6.674999999999997,
+      47.980000000000004,
+      0.0,
+      -5.525000000000006,
+      48.620000000000005,
+      0.6000000000000001
+    ],
+    "Body_R46": [
+      -8.474999999999994,
+      55.735001,
+      0.0,
+      -7.834999999999994,
+      56.885001,
+      0.55
+    ],
+    "Body_C29": [
+      3.0999999999999943,
+      50.239999999999995,
+      0.0,
+      4.200000000000003,
+      50.84,
+      0.8999999999999999
+    ],
+    "Body_R5": [
+      7.114999999999995,
+      46.16,
+      0.0,
+      8.265,
+      46.8,
+      0.55
+    ],
+    "Body_C44": [
+      7.51,
+      51.510000999999995,
+      0.0,
+      8.41,
+      53.210001,
+      0.8999999999999999
+    ],
+    "Body_C3": [
+      7.05,
+      43.35,
+      0.0,
+      8.4,
+      45.449999999999996,
+      1.35
+    ],
+    "Body_R4": [
+      7.180000000000007,
+      35.175,
+      0.0,
+      7.819999999999993,
+      36.325,
+      0.55
+    ],
+    "Body_C63": [
+      -4.450000000000003,
+      48.0,
+      0.0,
+      -3.3499999999999943,
+      48.599999999999994,
+      0.6000000000000001
+    ],
+    "Body_U7": [
+      -7.599999999999994,
+      40.150000000000006,
+      0.0,
+      -4.5,
+      43.25,
+      1.1
+    ],
+    "Body_C61": [
+      -4.25,
+      43.8,
+      0.0,
+      -3.1500000000000057,
+      44.400000000000006,
+      0.6000000000000001
+    ],
+    "Body_R62": [
+      -6.674999999999997,
+      46.78,
+      0.0,
+      -5.525000000000006,
+      47.42,
+      0.6000000000000001
+    ],
+    "Body_U5": [
+      4.950000000000003,
+      49.25,
+      0.0,
+      7.049999999999997,
+      51.349999999999994,
+      0.8
+    ],
+    "Body_R1": [
+      6.924999999999997,
+      47.16,
+      0.0,
+      8.075000000000003,
+      47.8,
+      0.55
+    ],
+    "Body_R61": [
+      -6.674999999999997,
+      44.379999999999995,
+      0.0,
+      -5.525000000000006,
+      45.019999999999996,
+      0.6000000000000001
+    ],
+    "Body_R3": [
+      -8.474999999999994,
+      53.815000999999995,
+      0.0,
+      -7.834999999999994,
+      54.965001,
+      0.55
+    ],
+    "Body_C28": [
+      3.0999999999999943,
+      49.2,
+      0.0,
+      4.200000000000003,
+      49.8,
+      0.8999999999999999
+    ],
+    "Body_J6": [
+      -6.049999999999997,
+      33.375,
+      0.0,
+      6.049999999999997,
+      37.724999999999994,
+      3.2
+    ],
+    "Body_C30": [
+      -0.30000000000000004,
+      46.8,
+      0.0,
+      2.4000000000000004,
+      50.2,
+      2.7
+    ],
+    "Body_Q1": [
+      -0.7000000000000028,
+      40.7,
+      0.0,
+      2.299999999999997,
+      42.099999999999994,
+      1.25
+    ],
+    "Body_R48": [
+      7.114999999999995,
+      42.0,
+      0.0,
+      8.265,
+      42.64,
+      0.55
+    ],
+    "Body_C1": [
+      3.45,
+      46.725,
+      0.0,
+      5.55,
+      48.074999999999996,
+      1.4
+    ],
+    "Body_J81": [
+      -9.200000000000003,
+      44.5,
+      0.0,
+      -8.200000000000003,
+      50.0,
+      1.25
+    ],
+    "Body_C62": [
+      -6.650000000000006,
+      45.599999999999994,
+      0.0,
+      -5.549999999999997,
+      46.2,
+      0.6000000000000001
+    ],
+    "Body_C2": [
+      -0.25,
+      43.775000000000006,
+      0.0,
+      1.85,
+      45.125,
+      1.4
+    ],
+    "Body_R2": [
+      -0.5649999999999977,
+      51.16,
+      0.0,
+      0.5849999999999937,
+      51.8,
+      0.55
+    ],
+    "Body_J5": [
+      1.25,
+      53.400000000000006,
+      0.0,
+      5.349999999999994,
+      56.400000000000006,
+      2.9
+    ],
+    "Body_C27": [
+      4.25,
+      34.650000000000006,
+      -1.9,
+      5.949999999999999,
+      35.55,
+      -1.0
+    ],
+    "Body_C54": [
+      -0.9000000000000001,
+      51.450001,
+      -1.9,
+      0.0,
+      53.150001,
+      -1.0
+    ],
+    "Body_C26": [
+      1.1,
+      48.949999999999996,
+      -1.9,
+      2.8,
+      49.85,
+      -1.0
+    ],
+    "Body_C15": [
+      -5.15,
+      38.6,
+      -3.7,
+      -1.75,
+      40.4,
+      -1.0
+    ],
+    "Body_C53": [
+      4.7,
+      51.450001,
+      -1.9,
+      5.6000000000000005,
+      53.150001,
+      -1.0
+    ],
+    "Body_C16": [
+      1.1,
+      37.949999999999996,
+      -1.9,
+      2.8,
+      38.85,
+      -1.0
+    ],
+    "Body_C21": [
+      5.2,
+      49.175000000000004,
+      -2.35,
+      7.3,
+      50.525,
+      -1.0
+    ],
+    "Body_C22": [
+      6.4750000000000005,
+      52.45,
+      -2.35,
+      7.825,
+      54.55,
+      -1.0
+    ],
+    "Body_C52": [
+      -0.9000000000000001,
+      40.450001,
+      -1.9,
+      0.0,
+      42.150001,
+      -1.0
+    ],
+    "Body_C14": [
+      -7.8500000000000005,
+      39.3,
+      -3.7,
+      -6.05,
+      42.7,
+      -1.0
+    ],
+    "Body_R22": [
+      -4.2375,
+      52.425,
+      -1.55,
+      -2.5375,
+      53.375,
+      -1.0
+    ],
+    "Body_R12": [
+      -4.2375,
+      41.425,
+      -1.55,
+      -2.5375,
+      42.375,
+      -1.0
+    ],
+    "Body_U9": [
+      -3.0649999999999977,
+      32.474999999999994,
+      -2.45,
+      -0.06499999999999773,
+      34.175,
+      -1.0
+    ],
+    "Body_U3": [
+      0.7000000000000028,
+      50.55,
+      -2.0,
+      3.799999999999997,
+      53.150000000000006,
+      -1.0
+    ],
+    "Body_C11": [
+      5.2,
+      38.175000000000004,
+      -2.35,
+      7.3,
+      39.525,
+      -1.0
+    ],
+    "Body_U8": [
+      -6.525000000000006,
+      32.474999999999994,
+      -2.1,
+      -3.5250000000000057,
+      34.175,
+      -1.0
+    ],
+    "Body_C24": [
+      -7.8500000000000005,
+      50.3,
+      -3.7,
+      -6.05,
+      53.7,
+      -1.0
+    ],
+    "Body_R21": [
+      -4.4375,
+      53.949999999999996,
+      -1.55,
+      -2.3375000000000004,
+      55.35,
+      -1.0
+    ],
+    "Body_U2": [
+      0.7000000000000028,
+      39.55,
+      -2.0,
+      3.799999999999997,
+      42.150000000000006,
+      -1.0
+    ],
+    "Body_L2": [
+      0.09999999999999964,
+      53.85,
+      -3.1,
+      4.4,
+      58.15,
+      -1.0
+    ],
+    "Body_R26": [
+      5.4,
+      56.325001,
+      -1.55,
+      7.1,
+      57.275001,
+      -1.0
+    ],
+    "Body_R11": [
+      -4.2375,
+      43.025,
+      -1.55,
+      -2.5375,
+      43.975,
+      -1.0
+    ],
+    "Body_R24": [
+      -8.269999999999996,
+      47.47,
+      -1.55,
+      -7.1200000000000045,
+      48.11,
+      -1.0
+    ],
+    "Body_C25": [
+      -5.15,
+      49.6,
+      -3.7,
+      -1.75,
+      51.4,
+      -1.0
+    ],
+    "Body_R23": [
+      -8.239000000000004,
+      35.790001000000004,
+      -1.55,
+      -7.599000000000004,
+      36.940000999999995,
+      -1.0
+    ],
+    "Body_L1": [
+      0.09999999999999964,
+      42.85,
+      -3.1,
+      4.4,
+      47.15,
+      -1.0
+    ],
+    "Body_R42": [
+      -7.239000000000004,
+      35.790001000000004,
+      -1.55,
+      -6.599000000000004,
+      36.940000999999995,
+      -1.0
+    ],
+    "Body_R13": [
+      5.4,
+      45.325001,
+      -1.55,
+      7.1,
+      46.275001,
+      -1.0
+    ],
+    "Body_C51": [
+      4.7,
+      40.450001,
+      -1.9,
+      5.6000000000000005,
+      42.150001,
+      -1.0
+    ],
+    "Body_C43": [
+      -0.755,
+      35.635001,
+      -1.9,
+      0.945,
+      36.535000999999994,
+      -1.0
+    ],
+    "Body_C12": [
+      6.4750000000000005,
+      41.45,
+      -2.35,
+      7.825,
+      43.55,
+      -1.0
+    ],
+    "Body_C13": [
+      -5.15,
+      44.6,
+      -3.7,
+      -1.75,
+      46.4,
+      -1.0
+    ],
+    "Body_R43": [
+      1.9999999999999998,
+      36.05,
+      -1.55,
+      4.1,
+      37.45,
+      -1.0
+    ],
+    "Body_U4": [
+      0.394999999999996,
+      32.474999999999994,
+      -2.45,
+      3.394999999999996,
+      34.175,
+      -1.0
+    ],
+    "Body_C23": [
+      -5.15,
+      55.9,
+      -3.7,
+      -1.75,
+      57.699999999999996,
+      -1.0
+    ],
+    "Body_J3_Mate": [
+      -5.9,
+      57.974999999999994,
+      0.0,
+      -2.9000000000000004,
+      60.224999999999994,
+      2.95
+    ],
+    "Body_J6_Mate": [
+      -5.5,
+      31.125,
+      0.0,
+      5.5,
+      33.375,
+      3.2
+    ],
+    "Body_J5_Mate": [
+      1.25,
+      53.400000000000006,
+      2.9,
+      5.349999999999994,
+      56.400000000000006,
+      6.3
+    ],
+    "FlangePCB": [
+      -35.8,
+      -19.312500000000004,
+      -12.8,
+      -11.2,
+      -18.3125,
+      10.799999999999999
+    ],
+    "Flange_SW1": [
+      -22.900000000000006,
+      -21.0625,
+      2.212499999999988,
+      -19.799999999999997,
+      -19.3125,
+      4.812500000000011
+    ],
+    "Flange_D1": [
+      -17.129999999999995,
+      -20.6625,
+      -0.6375000000000064,
+      -14.230000000000004,
+      -19.3125,
+      1.2624999999999993
+    ],
+    "Flange_SW2": [
+      -16.900000000000006,
+      -21.0625,
+      2.212499999999988,
+      -13.799999999999997,
+      -19.3125,
+      4.812500000000011
+    ],
+    "Flange_R76": [
+      -12.420000000000002,
+      -19.9125,
+      5.637499999999999,
+      -11.780000000000001,
+      -19.3125,
+      6.787500000000005
+    ],
+    "Flange_J4": [
+      -21.950000000000003,
+      -22.2625,
+      -7.112500000000001,
+      -13.849999999999994,
+      -19.3125,
+      -2.7625000000000064
+    ],
+    "Flange_U6": [
+      -41.25,
+      -21.8625,
+      -7.637500000000006,
+      -24.549999999999997,
+      -19.3125,
+      5.662500000000005
+    ],
+    "Flange_R75": [
+      -16.319999999999993,
+      -19.9125,
+      5.637499999999999,
+      -15.680000000000007,
+      -19.3125,
+      6.787500000000005
+    ],
+    "Flange_F1": [
+      -22.120000000000005,
+      -20.0625,
+      -0.5375000000000121,
+      -18.819999999999993,
+      -19.3125,
+      1.162500000000005
+    ],
+    "Flange_U71": [
+      -14.950000000000003,
+      -18.3125,
+      5.237499999999994,
+      -13.849999999999994,
+      -17.6625,
+      6.787500000000005
+    ],
+    "Flange_R37": [
+      -28.435000000000002,
+      -18.3125,
+      -4.047500000000003,
+      -27.485,
+      -17.7625,
+      -2.3475
+    ],
+    "Flange_R71": [
+      -16.819999999999993,
+      -18.3125,
+      5.637499999999999,
+      -16.180000000000007,
+      -17.7125,
+      6.787500000000005
+    ],
+    "Flange_R35": [
+      -26.975,
+      -18.3125,
+      -4.317500000000003,
+      -26.025,
+      -17.7625,
+      -2.6174999999999997
+    ],
+    "Flange_C32": [
+      -34.95,
+      -18.3125,
+      -7.737500000000001,
+      -34.05,
+      -17.4125,
+      -6.037499999999998
+    ],
+    "Flange_R32": [
+      -29.450000000000003,
+      -18.3125,
+      -5.952500000000001,
+      -27.75,
+      -17.7625,
+      -5.002499999999998
+    ],
+    "Flange_J7": [
+      -24.025000000000006,
+      -18.3125,
+      -4.337499999999995,
+      -19.674999999999997,
+      -15.1125,
+      7.762499999999999
+    ],
+    "Flange_C33": [
+      -29.450000000000003,
+      -18.3125,
+      -7.337499999999999,
+      -27.75,
+      -17.4125,
+      -6.4375
+    ],
+    "Flange_R33": [
+      -32.545,
+      -18.3125,
+      -7.697500000000002,
+      -31.595,
+      -17.7625,
+      -5.997499999999999
+    ],
+    "Flange_R40": [
+      -16.650000000000002,
+      -18.3125,
+      -9.287500000000001,
+      -14.55,
+      -17.7625,
+      -7.887500000000003
+    ],
+    "Flange_C31": [
+      -35.275,
+      -18.3125,
+      -5.037500000000001,
+      -33.925000000000004,
+      -16.9625,
+      -2.9375
+    ],
+    "Flange_R39": [
+      -13.2,
+      -18.3125,
+      -10.2375,
+      -11.8,
+      -17.7625,
+      -8.1375
+    ],
+    "Flange_C71": [
+      -12.900000000000006,
+      -18.3125,
+      6.012499999999999,
+      -11.799999999999997,
+      -17.7125,
+      6.612499999999994
+    ],
+    "Flange_R38": [
+      -31.085,
+      -18.3125,
+      -7.697500000000002,
+      -30.134999999999998,
+      -17.7625,
+      -5.997499999999999
+    ],
+    "Flange_D73": [
+      -15.299999999999997,
+      -18.3125,
+      -0.837499999999995,
+      -13.400000000000006,
+      -17.0625,
+      0.662500000000005
+    ],
+    "Flange_R31": [
+      -26.35,
+      -18.3125,
+      -7.362500000000001,
+      -24.65,
+      -17.7625,
+      -6.412499999999998
+    ],
+    "Flange_D71": [
+      -30.950000000000003,
+      -18.3125,
+      1.7624999999999993,
+      -29.049999999999997,
+      -17.0625,
+      3.2624999999999993
+    ],
+    "Flange_R36": [
+      -30.674999999999997,
+      -18.3125,
+      -4.317500000000003,
+      -29.724999999999998,
+      -17.7625,
+      -2.6174999999999997
+    ],
+    "Flange_C34": [
+      -13.549999999999999,
+      -18.3125,
+      -6.9375000000000036,
+      -12.65,
+      -17.4125,
+      -5.237500000000001
+    ],
+    "Flange_R34": [
+      -13.875,
+      -18.3125,
+      2.5625,
+      -12.925,
+      -17.7625,
+      4.262499999999999
+    ],
+    "Flange_D72": [
+      -14.549999999999997,
+      -18.3125,
+      -3.9374999999999893,
+      -13.049999999999997,
+      -17.0625,
+      -2.037500000000012
+    ],
+    "Flange_J1": [
+      -24.099999999999994,
+      -18.3125,
+      -7.537500000000012,
+      -14.799999999999997,
+      -17.0625,
+      -5.737500000000001
+    ],
+    "Flange_U75": [
+      -22.650000000000006,
+      -18.3125,
+      -11.18749999999999,
+      -20.950000000000003,
+      -16.8625,
+      -8.18749999999999
+    ],
+    "Flange_J7_Mate": [
+      -19.674999999999997,
+      -18.3125,
+      -3.7875000000000014,
+      -17.424999999999997,
+      -15.1125,
+      7.212499999999999
+    ],
+    "Flange_J4_Mate": [
+      -21.400000000000002,
+      -22.2625,
+      -9.3625,
+      -14.400000000000002,
+      -19.3125,
+      -7.112500000000001
+    ],
+    "SensorPCB": [
+      28.0,
+      -11.8,
+      -5.0,
+      40.0,
+      -10.799999999999997,
+      5.0
+    ],
+    "Sensor_C82": [
+      36.400000000000006,
+      -12.4,
+      -0.4000000000000057,
+      37.0,
+      -11.8,
+      0.7000000000000028
+    ],
+    "Sensor_C83": [
+      30.475,
+      -13.25,
+      -0.5,
+      31.925,
+      -11.8,
+      1.6999999999999997
+    ],
+    "Sensor_C81": [
+      33.95,
+      -12.4,
+      2.0999999999999943,
+      35.05,
+      -11.8,
+      2.700000000000003
+    ],
+    "Sensor_U81": [
+      33.45,
+      -12.9,
+      -0.75,
+      35.55,
+      -11.8,
+      1.3499999999999943
+    ],
+    "Sensor_C84": [
+      36.150000000000006,
+      -12.4,
+      -2.200000000000003,
+      37.25,
+      -11.8,
+      -1.5999999999999943
+    ],
+    "Sensor_J82": [
+      31.0,
+      -13.05,
+      -4.0,
+      36.5,
+      -11.8,
+      -3.0
+    ],
+    "BodyInsulatingSleeve": [
+      -10.25,
+      31.0,
+      -3.95,
+      10.25,
+      60.724999999999994,
+      6.55
+    ],
+    "BodyFoamL": [
+      -12.25,
+      54.0,
+      -1.5,
+      -10.25,
+      64.0,
+      1.5
+    ],
+    "BodyFoamR": [
+      10.25,
+      54.0,
+      -1.5,
+      12.25,
+      64.0,
+      1.5
+    ]
+  },
+  "hard_part_intersections": [],
+  "mating_intersections": [],
+  "full_product_order_ready": false,
+  "geometry_checks": {
+    "verifier_sha256": "f1e15a7e7ed541269e505f9046eab9136da2b12dcd34e22c1bb9250c0dc64956",
+    "exports": {
+      "MetalBody": {
+        "STEP_volume_delta_mm3": 8.041671026148833e-05,
+        "STEP_symmetric_difference_mm3": 0.0
+      },
+      "MotorThermistorCap": {
+        "STEP_volume_delta_mm3": -2.615801349747926e-06,
+        "STEP_symmetric_difference_mm3": 0.0
+      },
+      "RearHalf": {
+        "STEP_volume_delta_mm3": -5.638867150992155e-11,
+        "STEP_symmetric_difference_mm3": 0.0
+      },
+      "FlangeTray": {
+        "STEP_volume_delta_mm3": 6.990012479946017e-08,
+        "STEP_symmetric_difference_mm3": 0.0
+      }
+    },
+    "hard_pair_checks": 8256,
+    "hard_intersections": 0,
+    "mating_intersections": 0,
+    "sensor_screws_clear_except_intended_pilot_thread": true,
+    "softgoods_clear": true,
+    "motions": {
+      "flange_board_loading": {
+        "poses": 25,
+        "axis": "Y",
+        "start_offset_mm": -12,
+        "end_offset_mm": 0,
+        "scope": "Open flange; pack and rear half absent"
+      },
+      "sensor_board_loading": {
+        "poses": 25,
+        "axis": "Y",
+        "start_offset_mm": -12,
+        "end_offset_mm": 0,
+        "scope": "Open flange; pack and rear half absent"
+      },
+      "pack_loading": {
+        "poses": 29,
+        "axis": "Y",
+        "start_offset_mm": -14,
+        "end_offset_mm": 0,
+        "scope": "Requested pack maximum and two NTC envelopes; rear half absent, flexible leads/support process need integration"
+      },
+      "cap_module_loading": {
+        "poses": 108,
+        "translation_Y_mm": [
+          0,
+          0.25,
+          0.5,
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "rotation_step_deg": 30,
+        "scope": "Nominal module envelopes in straight bore; thread teeth, flexible tails, connector bends and foam compression not qualified"
+      }
+    },
+    "sensor_tool_reservations": [
+      {
+        "center_XZ_mm": [
+          29.5,
+          3.5
+        ],
+        "OD_mm": 3.2,
+        "axial_length_mm": 15,
+        "scope": "Access reservation; selected bit/shank and torque process require a physical trial before pack loading"
+      },
+      {
+        "center_XZ_mm": [
+          38.5,
+          3.5
+        ],
+        "OD_mm": 3.2,
+        "axial_length_mm": 15,
+        "scope": "Access reservation; selected bit/shank and torque process require a physical trial before pack loading"
+      }
+    ],
+    "nominal_clearances_mm": {
+      "Flange_R39/FlangeTray": 0.2500323982523198,
+      "Sensor_C83/PackSizeReference": 1.9499999999999993,
+      "SensorPCB/PackSizeReference": 3.3999999999999986
+    },
+    "mechanical_sensor_axes": {
+      "frame": "Product right-handed XYZ; +X is molded back/tailbone arrow; +Y is toward tip",
+      "sensor_PCB_X_axis_in_product": [
+        1,
+        0,
+        0
+      ],
+      "sensor_PCB_Y_axis_in_product": [
+        0,
+        0,
+        -1
+      ],
+      "sensor_PCB_F_normal_in_product": [
+        0,
+        -1,
+        0
+      ],
+      "scope": "Mechanical registration only; package accel/mag axes and factory calibration must be derived from LSM303AGR drawing and measured on built assembly"
+    },
+    "physical_validation": false
+  }
+}

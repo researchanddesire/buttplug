@@ -1,0 +1,441 @@
+{
+  "status": "Native packing seed only; not a replacement routedbody or physical-fit acceptance",
+  "builder_sha256": "e07576538fb643c85d57386840aa257f8a60382c9d076d2d83ad60cbbced4855",
+  "source_original_board_sha256": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367",
+  "candidate_board_sha256": "91ffbcddd77f1945802f64a67b23475943304aeae1e98a7246f9f90c2a2c01be",
+  "source_full_native_XML_sha256": "a3c7d0d9067a6eb6e8e02a16102a3dfe293dd266e79c9fa92cf730999d5b2945",
+  "all69_original_poses_preserved": true,
+  "retained_existing_copper_in_candidate": false,
+  "copper_objects_removed_from_placement_derivative": 2369,
+  "source_routed_copper_remains_authority": true,
+  "new_positions": [
+    {
+      "ref": "U802",
+      "body_XY_mm": [
+        7.799999999999997,
+        50.8
+      ],
+      "angle_native_deg": 90,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        106.325,
+        77.35000000000001,
+        109.27499999999999,
+        81.05
+      ],
+      "preferred_XY_mm": [
+        7.8,
+        50.8
+      ],
+      "footprint": "Telemetry:SOT-353_SC-70-5"
+    },
+    {
+      "ref": "U803",
+      "body_XY_mm": [
+        -8.0,
+        40.2
+      ],
+      "angle_native_deg": 90,
+      "back": true,
+      "native_courtyard_bounds_mm": [
+        90.525,
+        87.95,
+        93.475,
+        91.64999999999999
+      ],
+      "preferred_XY_mm": [
+        -8,
+        40.1
+      ],
+      "footprint": "Telemetry:SOT-353_SC-70-5"
+    },
+    {
+      "ref": "U804",
+      "body_XY_mm": [
+        -5.599999999999994,
+        45.400000000000006
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        92.55000000000001,
+        83.125,
+        96.25,
+        86.07499999999999
+      ],
+      "preferred_XY_mm": [
+        -5.6,
+        45.4
+      ],
+      "footprint": "Telemetry:SOT-353_SC-70-5"
+    },
+    {
+      "ref": "U801",
+      "body_XY_mm": [
+        -1.9000000000000057,
+        36.7
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        97.27499999999999,
+        92.37499999999999,
+        98.925,
+        94.22500000000001
+      ],
+      "preferred_XY_mm": [
+        -1.9,
+        36.8
+      ],
+      "footprint": "Telemetry:TI_DTM0008A"
+    },
+    {
+      "ref": "C802",
+      "body_XY_mm": [
+        7.200000000000003,
+        53.2
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        106.265,
+        76.31499999999998,
+        108.135,
+        77.28500000000001
+      ],
+      "preferred_XY_mm": [
+        5.5,
+        53.5
+      ],
+      "footprint": "Telemetry:C_0402_1005Metric"
+    },
+    {
+      "ref": "C803",
+      "body_XY_mm": [
+        -9.200000000000003,
+        43.099999999999994
+      ],
+      "angle_native_deg": 90,
+      "back": true,
+      "native_courtyard_bounds_mm": [
+        90.315,
+        85.965,
+        91.285,
+        87.83500000000001
+      ],
+      "preferred_XY_mm": [
+        -8,
+        42
+      ],
+      "footprint": "Telemetry:C_0402_1005Metric"
+    },
+    {
+      "ref": "C804",
+      "body_XY_mm": [
+        -2.5999999999999943,
+        45.400000000000006
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        96.465,
+        84.11499999999998,
+        98.33500000000001,
+        85.08500000000001
+      ],
+      "preferred_XY_mm": [
+        -2.6,
+        45.4
+      ],
+      "footprint": "Telemetry:C_0402_1005Metric"
+    },
+    {
+      "ref": "C801",
+      "body_XY_mm": [
+        -3.799999999999997,
+        40.099999999999994
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        95.265,
+        89.41499999999999,
+        97.135,
+        90.38500000000002
+      ],
+      "preferred_XY_mm": [
+        -1.8,
+        38.5
+      ],
+      "footprint": "Telemetry:C_0402_1005Metric"
+    },
+    {
+      "ref": "R801",
+      "body_XY_mm": [
+        8.299999999999997,
+        43.5
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        107.345,
+        86.005,
+        109.255,
+        86.995
+      ],
+      "preferred_XY_mm": [
+        7.9,
+        43.5
+      ],
+      "footprint": "Telemetry:R_0402_1005Metric"
+    },
+    {
+      "ref": "R802",
+      "body_XY_mm": [
+        9.200000000000003,
+        47.900000000000006
+      ],
+      "angle_native_deg": 90,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        108.705,
+        81.14499999999998,
+        109.69500000000001,
+        83.055
+      ],
+      "preferred_XY_mm": [
+        8,
+        49.7
+      ],
+      "footprint": "Telemetry:R_0402_1005Metric"
+    },
+    {
+      "ref": "R803",
+      "body_XY_mm": [
+        -3.799999999999997,
+        41.2
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        95.245,
+        88.30499999999999,
+        97.155,
+        89.295
+      ],
+      "preferred_XY_mm": [
+        -3.4,
+        40.5
+      ],
+      "footprint": "Telemetry:R_0402_1005Metric"
+    },
+    {
+      "ref": "R804",
+      "body_XY_mm": [
+        -7.700000000000003,
+        43.900000000000006
+      ],
+      "angle_native_deg": 0,
+      "back": true,
+      "native_courtyard_bounds_mm": [
+        91.345,
+        85.60499999999999,
+        93.255,
+        86.595
+      ],
+      "preferred_XY_mm": [
+        -8,
+        41.9
+      ],
+      "footprint": "Telemetry:R_0402_1005Metric"
+    },
+    {
+      "ref": "C807",
+      "body_XY_mm": [
+        9.200000000000003,
+        45.900000000000006
+      ],
+      "angle_native_deg": 90,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        108.715,
+        83.16499999999999,
+        109.685,
+        85.035
+      ],
+      "preferred_XY_mm": [
+        7.8,
+        49
+      ],
+      "footprint": "Telemetry:C_0402_1005Metric"
+    },
+    {
+      "ref": "C808",
+      "body_XY_mm": [
+        -6.0,
+        42.599999999999994
+      ],
+      "angle_native_deg": 90,
+      "back": true,
+      "native_courtyard_bounds_mm": [
+        93.515,
+        86.465,
+        94.485,
+        88.33500000000001
+      ],
+      "preferred_XY_mm": [
+        -8,
+        42
+      ],
+      "footprint": "Telemetry:C_0402_1005Metric"
+    },
+    {
+      "ref": "R805",
+      "body_XY_mm": [
+        -7.599999999999994,
+        39.5
+      ],
+      "angle_native_deg": 90,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        91.905,
+        89.54499999999999,
+        92.89500000000001,
+        91.45500000000001
+      ],
+      "preferred_XY_mm": [
+        -7.7,
+        38.8
+      ],
+      "footprint": "Telemetry:R_0402_1005Metric"
+    },
+    {
+      "ref": "C805",
+      "body_XY_mm": [
+        -7.599999999999994,
+        41.5
+      ],
+      "angle_native_deg": 90,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        91.915,
+        87.565,
+        92.885,
+        89.435
+      ],
+      "preferred_XY_mm": [
+        -5.2,
+        38.5
+      ],
+      "footprint": "Telemetry:C_0402_1005Metric"
+    },
+    {
+      "ref": "R806",
+      "body_XY_mm": [
+        -1.9000000000000057,
+        43.900000000000006
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        97.145,
+        85.60499999999999,
+        99.05499999999999,
+        86.595
+      ],
+      "preferred_XY_mm": [
+        -3.5,
+        37.5
+      ],
+      "footprint": "Telemetry:R_0402_1005Metric"
+    },
+    {
+      "ref": "C806",
+      "body_XY_mm": [
+        -3.799999999999997,
+        42.3
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        95.265,
+        87.21499999999999,
+        97.135,
+        88.18500000000002
+      ],
+      "preferred_XY_mm": [
+        -2,
+        38.5
+      ],
+      "footprint": "Telemetry:C_0402_1005Metric"
+    },
+    {
+      "ref": "R807",
+      "body_XY_mm": [
+        -2.700000000000003,
+        46.5
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        96.345,
+        83.005,
+        98.255,
+        83.995
+      ],
+      "preferred_XY_mm": [
+        -5.3,
+        46
+      ],
+      "footprint": "Telemetry:R_0402_1005Metric"
+    },
+    {
+      "ref": "R808",
+      "body_XY_mm": [
+        -7.5,
+        30.900000000000006
+      ],
+      "angle_native_deg": 90,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        92.005,
+        98.14499999999998,
+        92.995,
+        100.055
+      ],
+      "preferred_XY_mm": [
+        -2.2,
+        35
+      ],
+      "footprint": "Telemetry:R_0402_1005Metric"
+    },
+    {
+      "ref": "R809",
+      "body_XY_mm": [
+        2.0,
+        46.599999999999994
+      ],
+      "angle_native_deg": 0,
+      "back": false,
+      "native_courtyard_bounds_mm": [
+        101.045,
+        82.905,
+        102.955,
+        83.89500000000001
+      ],
+      "preferred_XY_mm": [
+        -1.8,
+        39.5
+      ],
+      "footprint": "Telemetry:R_0402_1005Metric"
+    }
+  ],
+  "total_positions": 90,
+  "outline_stackup_unchanged": true,
+  "finished_thickness_mm": 1,
+  "layers": 6,
+  "physical_3D_packing_and_tolerance_acceptance": false,
+  "route_requirement": "Carry original source copper into a separate routing derivative with bounded newpart/ADS ripup and nativeDRC; do not route this seed by blindly replacing original artwork.",
+  "J81_non_electrical_metadata_delta": "Added existing source wire-access rectangle as courtyard in candidate/local library; all69retained poses and all original pad geometry/nets preserved.",
+  "manual_courtyard_source_sha256": "52830d9f24a8a5a5a7f12e78980a3e8ed60ac03704f2e190ad55fd8c926f40ef"
+}

@@ -1,0 +1,990 @@
+{
+  "status": "native circuit candidate; PCB and physical validation pending",
+  "schematic": "dock-safety.kicad_sch",
+  "library": "DockSafety",
+  "parts": [
+    {
+      "reference": "U608",
+      "value": "MAX6816EUS+T",
+      "manufacturer": "Analog Devices",
+      "mpn": "MAX6816EUS+T",
+      "footprint": "DockSafety:SOT-143",
+      "offboard": false,
+      "pins": {
+        "1": "GND",
+        "2": "BTN_CENTERn_RAW",
+        "3": "BTN_CENTERn_DEBOUNCED",
+        "4": "3V3"
+      },
+      "primary_source": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6816-MAX6818.pdf",
+      "note": ""
+    },
+    {
+      "reference": "U602",
+      "value": "TPS22919DCKR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22919DCKR",
+      "footprint": "DockSafety:SOT-363_SC-70-6",
+      "offboard": false,
+      "pins": {
+        "1": "HOST_5V",
+        "2": "GND",
+        "3": "SOURCE_OK",
+        "4": null,
+        "5": "LOOP_5V",
+        "6": "LOOP_5V"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps22919.pdf",
+      "note": "Bothloopsrequire10mAminimumreference; disabledwithoutqualifiedRp. QODdirecttoVOUT."
+    },
+    {
+      "reference": "U606",
+      "value": "TPS3431SDRBR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3431SDRBR",
+      "footprint": "DockSafety:Texas_DRB0008A_3x3mm_P0.65_EP_Fingers",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "WDT_CWD",
+        "3": "3V3",
+        "4": "GND",
+        "5": "3V3",
+        "6": "WDI",
+        "7": "SAFE_RESETn",
+        "8": "SAFE_RESETn",
+        "9": "GND"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps3431.pdf",
+      "note": ""
+    },
+    {
+      "reference": "U607",
+      "value": "TPS3808G33DBVR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G33DBVR",
+      "footprint": "DockSafety:SOT-23-6",
+      "offboard": false,
+      "pins": {
+        "1": "SAFE_RESETn",
+        "2": "GND",
+        "3": "3V3",
+        "4": null,
+        "5": "3V3",
+        "6": "3V3"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "note": "CTintentionallyopen selects20msnominal."
+    },
+    {
+      "reference": "U616",
+      "value": "TPS3808G33DBVR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G33DBVR",
+      "footprint": "DockSafety:SOT-23-6",
+      "offboard": false,
+      "pins": {
+        "1": "UV_DELAYn",
+        "2": "GND",
+        "3": "RAW_SAFE",
+        "4": "UV_DELAY_CT",
+        "5": "3V3",
+        "6": "3V3"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "note": "MRincludesSAFE_RESETn so watchdogrecovery also requalifiesUV."
+    },
+    {
+      "reference": "U613",
+      "value": "SN74LVC2G17DCKR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC2G17DCKR",
+      "footprint": "DockSafety:SOT-363_SC-70-6",
+      "offboard": false,
+      "pins": {
+        "1": "LOOP_A_RAW",
+        "2": "GND",
+        "3": "LOOP_B_RAW",
+        "4": "LOOP_B",
+        "5": "3V3",
+        "6": "LOOP_A"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "note": ""
+    },
+    {
+      "reference": "U614",
+      "value": "SN74LVC2G17DCKR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC2G17DCKR",
+      "footprint": "DockSafety:SOT-363_SC-70-6",
+      "offboard": false,
+      "pins": {
+        "1": "BTN_CENTERn_DEBOUNCED",
+        "2": "GND",
+        "3": "BTN_CENTER_PRESSED",
+        "4": "CLOCK_PRESS",
+        "5": "3V3",
+        "6": "CLOCK_RELEASE"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "note": "LocalSchmittclockconditioning keepsLVC74clockedgesfast evenifinterboardclockwireisdisconnected."
+    },
+    {
+      "reference": "U612",
+      "value": "SN74HCS21PWR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74HCS21PWR",
+      "footprint": "DockSafety:TSSOP-14_4.4x5mm_P0.65mm",
+      "offboard": false,
+      "pins": {
+        "1": "LOOP_A",
+        "2": "LOOP_B",
+        "3": null,
+        "4": "SOURCE_OK",
+        "5": "SAFE_RESETn",
+        "6": "RAW_SAFE",
+        "7": "GND",
+        "8": "CLEARn",
+        "9": "RAW_SAFE",
+        "10": "MCU_STOPn",
+        "11": null,
+        "12": "UV_DELAYn",
+        "13": "3V3",
+        "14": "3V3"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/sn74hcs21.pdf",
+      "note": "Pins3/11 are manufacturerNC, not tiedtoanything."
+    },
+    {
+      "reference": "U609",
+      "value": "SN74LVC74APWR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC74APWR",
+      "footprint": "DockSafety:TSSOP-14_4.4x5mm_P0.65mm",
+      "offboard": false,
+      "pins": {
+        "1": "CLEARn",
+        "2": "3V3",
+        "3": "CLOCK_RELEASE",
+        "4": "3V3",
+        "5": "RELEASE_SEEN",
+        "6": null,
+        "7": "GND",
+        "8": null,
+        "9": "UV_RUN",
+        "10": "3V3",
+        "11": "CLOCK_PRESS",
+        "12": "ARM_D",
+        "13": "CLEARn",
+        "14": "3V3"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/sn74lvc74a.pdf",
+      "note": "Complementoutputs6/8 deliberatelyunused; bothPREtiedhigh."
+    },
+    {
+      "reference": "U615",
+      "value": "SN74HCS08PWR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74HCS08PWR",
+      "footprint": "DockSafety:TSSOP-14_4.4x5mm_P0.65mm",
+      "offboard": false,
+      "pins": {
+        "1": "RELEASE_SEEN",
+        "2": "MCU_ARM",
+        "3": "ARM_D",
+        "4": "LOOP_A",
+        "5": "SOURCE_OK",
+        "6": "UV_GATE_A",
+        "7": "GND",
+        "8": "UV_GATE_B",
+        "9": "UV_RUN",
+        "10": "LOOP_B",
+        "11": "UV_CTRL",
+        "12": "UV_RUN",
+        "13": "UV_POWER_GOOD",
+        "14": "3V3"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/sn74hcs08.pdf",
+      "note": "UV_CTRL waitsforpostcutPG; UV_RUN alreadyasynchronouslyclearedbyCLEARn."
+    },
+    {
+      "reference": "U610",
+      "value": "TPS22992RXPR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22992RXPR",
+      "footprint": "DockSafety:Texas_RXP0008A_1.25x1.5mm_Asymmetric",
+      "offboard": false,
+      "pins": {
+        "1": "HOST_5V",
+        "2": "UV_5V_LIMITED",
+        "3": null,
+        "4": "GND",
+        "5": "CUT_A_QOD",
+        "6": "UV_5V_MID",
+        "7": "CUT_A_CT",
+        "8": "UV_GATE_A"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps22992.pdf",
+      "note": "OptionalPGunused. BiasHOST5keepsVIN<=VBIAS innormaloperation."
+    },
+    {
+      "reference": "U611",
+      "value": "TPS22992RXPR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22992RXPR",
+      "footprint": "DockSafety:Texas_RXP0008A_1.25x1.5mm_Asymmetric",
+      "offboard": false,
+      "pins": {
+        "1": "HOST_5V",
+        "2": "UV_5V_MID",
+        "3": "UV_POWER_GOOD",
+        "4": "GND",
+        "5": "CUT_B_QOD",
+        "6": "UV_5V_SW",
+        "7": "CUT_B_CT",
+        "8": "UV_GATE_B"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps22992.pdf",
+      "note": "PGholdsboostCTRLlowuntilfinalrailready; PGdoesnotgateUV_RUN orstartwoulddeadlock."
+    },
+    {
+      "reference": "S601",
+      "value": "D2F-01L remote",
+      "manufacturer": "Omron",
+      "mpn": "D2F-01L",
+      "footprint": null,
+      "offboard": true,
+      "pins": {
+        "C": "LOOP_5V",
+        "NO": "BASE_THERM_SEND",
+        "NC": null
+      },
+      "primary_source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf",
+      "note": "MechanicallymountedoffsafetyPCB; solder/crimpwires viaGH2. TerminalC/NO/NC markingsareauthoritative."
+    },
+    {
+      "reference": "S602",
+      "value": "D2F-01L remote",
+      "manufacturer": "Omron",
+      "mpn": "D2F-01L",
+      "footprint": null,
+      "offboard": true,
+      "pins": {
+        "C": "LOOP_5V",
+        "NO": "LID_THERM_SEND",
+        "NC": null
+      },
+      "primary_source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf",
+      "note": "MechanicallymountedoffsafetyPCB; solder/crimpwires viaGH2. TerminalC/NO/NC markingsareauthoritative."
+    },
+    {
+      "reference": "J601",
+      "value": "SM02B-GHS-TB",
+      "manufacturer": "JST",
+      "mpn": "SM02B-GHS-TB(LF)(SN)",
+      "footprint": "DockSafety:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal",
+      "offboard": false,
+      "pins": {
+        "1": "LOOP_5V",
+        "2": "BASE_THERM_SEND",
+        "MP": "GND"
+      },
+      "primary_source": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "note": ""
+    },
+    {
+      "reference": "J602",
+      "value": "SM02B-GHS-TB",
+      "manufacturer": "JST",
+      "mpn": "SM02B-GHS-TB(LF)(SN)",
+      "footprint": "DockSafety:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal",
+      "offboard": false,
+      "pins": {
+        "1": "LOOP_5V",
+        "2": "LID_THERM_SEND",
+        "MP": "GND"
+      },
+      "primary_source": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "note": ""
+    },
+    {
+      "reference": "J621",
+      "value": "SM08B-GHS-TB",
+      "manufacturer": "JST",
+      "mpn": "SM08B-GHS-TB(LF)(SN)",
+      "footprint": "DockSafety:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_SW",
+        "2": "GND",
+        "3": "UV_CTRL",
+        "4": "BASE_FB",
+        "5": "BASE_VOUT_DIV",
+        "6": "NTC_BASE",
+        "7": "BASE_THERM_SEND",
+        "8": "LOOP_A_RAW",
+        "MP": "GND"
+      },
+      "primary_source": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "note": "Straight1:1toUVmoduleGH8; onlylowvoltage rails andmonitors crosshinge."
+    },
+    {
+      "reference": "J622",
+      "value": "SM08B-GHS-TB",
+      "manufacturer": "JST",
+      "mpn": "SM08B-GHS-TB(LF)(SN)",
+      "footprint": "DockSafety:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_SW",
+        "2": "GND",
+        "3": "UV_CTRL",
+        "4": "LID_FB",
+        "5": "LID_VOUT_DIV",
+        "6": "NTC_LID",
+        "7": "LID_THERM_SEND",
+        "8": "LOOP_B_RAW",
+        "MP": "GND"
+      },
+      "primary_source": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "note": "Straight1:1toUVmoduleGH8; onlylowvoltage rails andmonitors crosshinge."
+    },
+    {
+      "reference": "R601",
+      "value": "10k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "SAFE_RESETn"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+      "note": ""
+    },
+    {
+      "reference": "R602",
+      "value": "100k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "WDI",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R603",
+      "value": "10k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "WDT_CWD"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+      "note": ""
+    },
+    {
+      "reference": "R604",
+      "value": "100k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "MCU_ARM",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R605",
+      "value": "100k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "MCU_STOPn",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R606",
+      "value": "1k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "SAFE_RESETn",
+        "2": "MCU_NRSTn"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL",
+      "note": ""
+    },
+    {
+      "reference": "R607",
+      "value": "10k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "UV_DELAYn"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+      "note": ""
+    },
+    {
+      "reference": "R608",
+      "value": "100k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "UV_DELAY_CT"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R610",
+      "value": "330R 1%",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0805330RFKEA",
+      "footprint": "DockSafety:R_0805_2012Metric",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_MID",
+        "2": "CUT_A_QOD"
+      },
+      "primary_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "note": ""
+    },
+    {
+      "reference": "R611",
+      "value": "330R 1%",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0805330RFKEA",
+      "footprint": "DockSafety:R_0805_2012Metric",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_SW",
+        "2": "CUT_B_QOD"
+      },
+      "primary_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "note": ""
+    },
+    {
+      "reference": "R612",
+      "value": "100k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "UV_GATE_A",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R613",
+      "value": "100k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "UV_GATE_B",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R614",
+      "value": "430R 1%",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0805430RFKEA",
+      "footprint": "DockSafety:R_0805_2012Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LOOP_A_RAW",
+        "2": "GND"
+      },
+      "primary_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "note": ""
+    },
+    {
+      "reference": "R615",
+      "value": "430R 1%",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0805430RFKEA",
+      "footprint": "DockSafety:R_0805_2012Metric",
+      "offboard": false,
+      "pins": {
+        "1": "LOOP_B_RAW",
+        "2": "GND"
+      },
+      "primary_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "note": ""
+    },
+    {
+      "reference": "R616",
+      "value": "10k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "UV_POWER_GOOD"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+      "note": ""
+    },
+    {
+      "reference": "R617",
+      "value": "100k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "BTN_CENTERn_RAW"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R618",
+      "value": "1M 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071ML",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "SOURCE_OK",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071ML",
+      "note": ""
+    },
+    {
+      "reference": "R619",
+      "value": "47k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "BTN_CENTER_PRESSED",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL",
+      "note": ""
+    },
+    {
+      "reference": "C606",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C607",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C608",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C609",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C612",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C613",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C614",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C615",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C616",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C610",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HOST_5V",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C611",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HOST_5V",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C602",
+      "value": "100nF16V",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HOST_5V",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": ""
+    },
+    {
+      "reference": "C620",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_LIMITED",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+      "note": ""
+    },
+    {
+      "reference": "C621",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_MID",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+      "note": ""
+    },
+    {
+      "reference": "C622",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "UV_5V_SW",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+      "note": ""
+    },
+    {
+      "reference": "C623",
+      "value": "1nF50V C0G",
+      "manufacturer": "TDK",
+      "mpn": "C1608C0G1H102J080AA",
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "CUT_A_CT",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H102J080AA",
+      "note": ""
+    },
+    {
+      "reference": "C624",
+      "value": "1nF50V C0G",
+      "manufacturer": "TDK",
+      "mpn": "C1608C0G1H102J080AA",
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "CUT_B_CT",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H102J080AA",
+      "note": ""
+    },
+    {
+      "reference": "TP601",
+      "value": "MCU_NRSTn",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.0mm_test_land",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "offboard": false,
+      "pins": {
+        "1": "MCU_NRSTn"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Realprobeaccessforinterboardreset/ADCsignals; no purchasedconnector."
+    },
+    {
+      "reference": "TP602",
+      "value": "BASE_FB",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.0mm_test_land",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "offboard": false,
+      "pins": {
+        "1": "BASE_FB"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Realprobeaccessforinterboardreset/ADCsignals; no purchasedconnector."
+    },
+    {
+      "reference": "TP603",
+      "value": "LID_FB",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.0mm_test_land",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "offboard": false,
+      "pins": {
+        "1": "LID_FB"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Realprobeaccessforinterboardreset/ADCsignals; no purchasedconnector."
+    },
+    {
+      "reference": "TP604",
+      "value": "BASE_VOUT_DIV",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.0mm_test_land",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "offboard": false,
+      "pins": {
+        "1": "BASE_VOUT_DIV"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Realprobeaccessforinterboardreset/ADCsignals; no purchasedconnector."
+    },
+    {
+      "reference": "TP605",
+      "value": "LID_VOUT_DIV",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.0mm_test_land",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "offboard": false,
+      "pins": {
+        "1": "LID_VOUT_DIV"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Realprobeaccessforinterboardreset/ADCsignals; no purchasedconnector."
+    },
+    {
+      "reference": "TP606",
+      "value": "NTC_BASE",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.0mm_test_land",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "offboard": false,
+      "pins": {
+        "1": "NTC_BASE"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Realprobeaccessforinterboardreset/ADCsignals; no purchasedconnector."
+    },
+    {
+      "reference": "TP607",
+      "value": "NTC_LID",
+      "manufacturer": "manual copper",
+      "mpn": "Cu_D1.0mm_test_land",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "offboard": false,
+      "pins": {
+        "1": "NTC_LID"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": "Realprobeaccessforinterboardreset/ADCsignals; no purchasedconnector."
+    }
+  ],
+  "footprint_provenance": {
+    "SOT-363_SC-70-6": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-363_SC-70-6.kicad_mod",
+      "sha256": "bf06bb9583c40562265e319ac36c73b6150587a3148fd28145b5f1b70f0ce9d7"
+    },
+    "SOT-23-6": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+      "sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97"
+    },
+    "SOT-143": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-143.kicad_mod",
+      "sha256": "f62a48d72540d3c2c45fe74f86fe670368fd2433829c0d209667c813d76d26d3"
+    },
+    "TSSOP-14_4.4x5mm_P0.65mm": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+      "sha256": "af563040f700cb87a33f6947b14e1b4b72fb2c5bf644b070093690e640c58558"
+    },
+    "R_0603_1608Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    "R_0805_2012Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+      "sha256": "c9e065246f39a319f005b381e48e92fe0cf15ef93d474e17a8c210566693cd97"
+    },
+    "C_0402_1005Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod",
+      "sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    "C_0603_1608Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+      "sha256": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6"
+    },
+    "JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Connector_JST.pretty/JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal.kicad_mod",
+      "sha256": "2d0cb032feac45a88bb9b4ddcb2464f92ccbd5810439b4dbd366458932827ec1"
+    },
+    "JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Connector_JST.pretty/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.kicad_mod",
+      "sha256": "c23619f2b76e78232c0be750fd6dcb02c41aeb19aa190e6cac1872f2a477c1b2"
+    },
+    "Texas_DRB0008A_3x3mm_P0.65_EP_Fingers": {
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/tps3431.pdf#page=29",
+      "sha256": "a87015ce3aebc26a4cd369aad8577251bb5ca1d10c133673a17c2db3c44c401a"
+    },
+    "Texas_RXP0008A_1.25x1.5mm_Asymmetric": {
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/tps22992.pdf#page=27",
+      "sha256": "3e80001c67afa1e1148fe89bae2052784deabbb8bc85628f08bfcc368cd1ab11"
+    },
+    "TestPoint_Pad_D1.0mm": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/TestPoint.pretty/TestPoint_Pad_D1.0mm.kicad_mod",
+      "sha256": "f656c9fb1f11e345b0f97d9a7119972e5dcca486fc2ca65bd06c086ce49cc0f7"
+    }
+  },
+  "full_product_order_ready": false
+}

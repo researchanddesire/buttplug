@@ -1,0 +1,16 @@
+(sym_lib_table
+  (version 7)
+  (lib
+    (name "DockControl")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../dock-control/DockControl.kicad_sym")
+    (options "")
+    (descr "Source-owned dock component library"))
+  (lib
+    (name "DockSafety")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../dock-safety/DockSafety.kicad_sym")
+    (options "")
+    (descr "Source-owned dock component library"))
+  (lib (name "DockUI") (type "KiCad") (uri "${KIPRJMOD}/../dock-ui/DockUI.kicad_sym") (options "") (descr "Source-owned dock component library"))
+  (lib (name "DockUV") (type "KiCad") (uri "${KIPRJMOD}/../dock-uv/base/DockUV.kicad_sym") (options "") (descr "Source-owned dock component library")))

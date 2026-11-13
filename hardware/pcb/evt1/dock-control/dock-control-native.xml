@@ -1,0 +1,3558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/dock-control/dock-control.kicad_sch</source>
+    <date>2026-11-12T15:45:07</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EVT dock controller and lid UI</title>
+        <company>Research and Desire</company>
+        <rev>R0 candidate</rev>
+        <date>2026-10-30</date>
+        <source>dock-control.kicad_sch</source>
+        <comment number="1" value="BENCH DEVELOPMENT — NOT FABRICATION OR WEAR RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/">
+      <title_block>
+        <title>EVT dock controller / STM32L071 and monitors</title>
+        <company>Research and Desire</company>
+        <rev>EVT1 controller candidate</rev>
+        <date>2026-11-12</date>
+        <source>dock-controller.kicad_sch</source>
+        <comment number="1" value="NATIVE CIRCUIT CANDIDATE — NOT PCB FABRICATION"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/">
+      <title_block>
+        <title>EVT lid UI / actual LCD charge pump and three switches</title>
+        <company>Research and Desire</company>
+        <rev>EVT1 controller candidate</rev>
+        <date>2026-11-12</date>
+        <source>dock-lid-ui.kicad_sch</source>
+        <comment number="1" value="NATIVE CIRCUIT CANDIDATE — NOT PCB FABRICATION"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C201">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>7dd85b3c-f3bf-5b93-9a7b-828c9f1b0d56</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C202">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>fda3fa4f-463c-5104-9876-cab51252c891</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C203">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>2fc2f851-3687-5d54-8894-546024aa312b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C204">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>2d9f6a56-46d4-5bbd-aabc-6a7dc9c1f79b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C205">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>036d93de-445b-5b3d-8562-26c922ded43b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C206">
+      <value>1uF25V</value>
+      <footprint>DockControl:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C1608X7R1E105K080AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C1608X7R1E105K080AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>3b21b42b-0f87-51a2-b5ef-7d638936877d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C207">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>db4197a9-8657-5370-8900-43db7dc2264d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C208">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>ddabbb1d-6947-536f-bbfd-b4073d6158c2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C209">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>2f7ffdec-cbac-5c27-af5e-434ce16e4d00</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C210">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>6769bd59-e8e3-558f-a67c-c741c62c19c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C211">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>002a5ef0-66ea-5507-83ea-5ceea405e607</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C212">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>1277cb1a-1dcf-55e5-8102-2b2485d320a9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D201">
+      <value>LTST-C190KGKT GREEN</value>
+      <footprint>DockControl:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Low-current status indication; confirm brightness at~0.5mA.</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="MPN">LTST-C190KGKT</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="LED" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Low-current status indication; confirm brightness at~0.5mA."/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="MPN" value="LTST-C190KGKT"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>69f4021d-4e38-5274-bd4f-973786a236f2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J201">
+      <value>FH12-20S-0.5SH(55)</value>
+      <footprint>DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal</footprint>
+      <datasheet>https://www.hirose.com/en/product/p/CL0586-0524-9-55</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Hirose</field>
+        <field name="MPN">FH12-20S-0.5SH(55)</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal</field>
+        <field name="Datasheet">https://www.hirose.com/en/product/p/CL0586-0524-9-55</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="FH12_20_BOTTOM" description="FH12-20S-0.5SH(55), bottomcontact,0.30mm FFC,2.0mm height; both mouths toward rear hinge in closed pose."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Hirose"/>
+      <property name="MPN" value="FH12-20S-0.5SH(55)"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>6469695f-e50c-591a-9b1c-9b625e7a431e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="MP"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J202">
+      <value>TC2030-CTX-NL SWD CONTACT PATTERN</value>
+      <footprint>DockControl:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Use Cortex TC2030-CTX-NL wiring:1VTREF,2SWDIO,3NRST,4SWCLK,5GND,6NC. NoSWO onthisM0+. Workshop tool, not populated connector.</field>
+        <field name="Manufacturer">manual copper</field>
+        <field name="MPN">–</field>
+        <field name="ItemType">manual_copper</field>
+        <field name="Footprint">DockControl:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="Conn6" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Use Cortex TC2030-CTX-NL wiring:1VTREF,2SWDIO,3NRST,4SWCLK,5GND,6NC. NoSWO onthisM0+. Workshop tool, not populated connector."/>
+      <property name="Manufacturer" value="manual copper"/>
+      <property name="MPN" value="–"/>
+      <property name="ItemType" value="manual_copper"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>8a5f7905-1519-5571-9d85-b2fa1eed3570</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R201">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>a879b2ca-c956-5daa-8144-acdb265bb650</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R202">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>24ae1e09-2046-5869-aa91-3581c7f2d008</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R203">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>2c8a942f-e5c5-5068-8253-203739df2a56</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R204">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>085ca8ce-c35b-5a1b-b7fa-f27acff1d109</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R205">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>d96b9b89-2d5d-5dca-a5bd-bfddab095e1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R206">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>2eb7c65f-cc00-5a9c-9d5f-b3b5365c2f97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R207">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>3f92c3d6-360f-5c8f-ab02-885955574e44</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R208">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>bf39d2ec-51fc-5ad2-9ef7-5f3d26ea950a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R209">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>bd6e0805-1df8-51ba-a6da-a77694deb20f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R210">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>d7ba342e-0351-51bd-a8b1-37a2c679f65d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R211">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>60a2ead7-8b57-5f2d-9fdc-f1a2abf4792b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R212">
+      <value>33 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>49d2aed6-1623-5f41-8caf-929d4300c359</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R213">
+      <value>10k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>4486ef27-c59d-5288-8199-133eb94db537</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R214">
+      <value>0 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603JR-070RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>6bd3b7a2-2fcd-5652-892b-9084849f5899</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R215">
+      <value>0 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603JR-070RL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>d2fbad33-9a59-50f8-8fb9-b9700964bce4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R216">
+      <value>4k7 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>f13d7874-a76c-572c-b085-5b24fe29e46d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R217">
+      <value>4k7 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>03cc3794-368e-5a02-aec6-edfa3c4b032d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R218">
+      <value>10k0.1 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RT0603BRD0710KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RT0603BRD0710KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>f30ac912-97cc-59e4-82fa-313f9c9edb6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R219">
+      <value>10k0.1 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RT0603BRD0710KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RT0603BRD0710KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>6973be2c-0b25-5cd9-938e-0cb874049ce5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R220">
+      <value>1k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>92a04c79-fc30-580e-80a2-9c04d016b24e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R221">
+      <value>1k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>d27d0327-bc0d-5428-9291-63c58c1c4e05</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R222">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>c702ed8a-e61c-5038-ae59-c749defe7adf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R223">
+      <value>150k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07150KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07150KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>166cfd9d-561b-5ef3-bc6e-e508c6c48ff8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R224">
+      <value>2k2 ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>55060b67-7b3a-5ab4-bf17-9c7affa0b1db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R225">
+      <value>10k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>e99a6ddd-5cb4-597e-9dc3-91ff3bc03576</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R226">
+      <value>10k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>645107da-6b3d-5d4c-ba2d-370883412020</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP201">
+      <value>BOOT0 WORKSHOP PAD</value>
+      <footprint>DockControl:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">manual copper</field>
+        <field name="MPN">–</field>
+        <field name="ItemType">manual_copper</field>
+        <field name="Footprint">DockControl:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="Conn1" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="manual copper"/>
+      <property name="MPN" value="–"/>
+      <property name="ItemType" value="manual_copper"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>ae9ec941-7e81-5f9c-85ad-e258fa04095c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U201">
+      <value>STM32L071CBT6</value>
+      <footprint>DockControl:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32l071cb.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="MPN">STM32L071CBT6</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:LQFP-48_7x7mm_P0.5mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32l071cb.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="STM32L071CBT6" description="ST DS10690 Rev7 LQFP48 Figure8 and Table15; MSI range6 4.2MHz, VOSRange3,0WS; physical pin36 VDDIO2 must be supplied."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="MPN" value="STM32L071CBT6"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>bad95e2b-15c8-5515-91c0-437899c7fb75</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="42"/>
+            <pin num="43"/>
+            <pin num="44"/>
+            <pin num="45"/>
+            <pin num="46"/>
+            <pin num="47"/>
+            <pin num="48"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U202">
+      <value>ADS1115IDGSR /0x48</value>
+      <footprint>DockControl:VSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ads1115.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">ADS1115IDGSR</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:VSSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads1115.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="ADS1115_DOCK" description="VSSOP10 DGS; 0x48. UV modules own10k/100nF filters; no duplicate filters here."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="ADS1115IDGSR"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>5e009a60-6d58-53df-8f30-659175447e3e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="3"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X201">
+      <value>BASE INTERSHEET CONTRACT / NO PCB</value>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">INTERSHEET_CONTEXT</field>
+        <field name="ReviewNote">Global circuit interface; no invented connector. Real ports resolve in fullsystem.</field>
+        <field name="Manufacturer">annotation</field>
+        <field name="MPN">–</field>
+        <field name="ItemType">annotation</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="BASE_CONTEXT_PORTS" description="Standalone intersheet context only; not purchased/PCBhardware. Remove when combining real sibling circuits."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="INTERSHEET_CONTEXT"/>
+      <property name="ReviewNote" value="Global circuit interface; no invented connector. Real ports resolve in fullsystem."/>
+      <property name="Manufacturer" value="annotation"/>
+      <property name="MPN" value="–"/>
+      <property name="ItemType" value="annotation"/>
+      <property name="Sheetname" value="EVT dock controller / STM32L071 and monitors"/>
+      <property name="Sheetfile" value="dock-controller.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/EVT dock controller / STM32L071 and monitors/" tstamps="/6fc3de02-3d52-5fef-ac2d-add24898010b/"/>
+      <tstamps>e290686f-2fc4-52a2-8b25-aeecb4270a3d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C301">
+      <value>1uF25V</value>
+      <footprint>DockControl:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Datasheet0.1..1uF nominal bypass. Require&gt;=0.1uF effective atintendedVLCD/temp/age.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C1608X7R1E105K080AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Datasheet0.1..1uF nominal bypass. Require&gt;=0.1uF effective atintendedVLCD/temp/age."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C1608X7R1E105K080AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>e744bba2-edfa-595b-ae0b-7d6c31819da4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C302">
+      <value>1uF25V</value>
+      <footprint>DockControl:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Datasheet0.1..1uF nominal bypass. Require&gt;=0.1uF effective atintendedVLCD/temp/age.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C1608X7R1E105K080AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Datasheet0.1..1uF nominal bypass. Require&gt;=0.1uF effective atintendedVLCD/temp/age."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C1608X7R1E105K080AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>e92749a2-caff-5dad-a0ce-95419495aecf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C303">
+      <value>1uF25V</value>
+      <footprint>DockControl:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Datasheet0.1..1uF nominal bypass. Require&gt;=0.1uF effective atintendedVLCD/temp/age.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C1608X7R1E105K080AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Datasheet0.1..1uF nominal bypass. Require&gt;=0.1uF effective atintendedVLCD/temp/age."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C1608X7R1E105K080AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>d26043c7-5dc5-5741-ba56-dc5c39303e7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C304">
+      <value>1uF25V</value>
+      <footprint>DockControl:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Datasheet0.1..1uF nominal bypass. Require&gt;=0.1uF effective atintendedVLCD/temp/age.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C1608X7R1E105K080AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Datasheet0.1..1uF nominal bypass. Require&gt;=0.1uF effective atintendedVLCD/temp/age."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C1608X7R1E105K080AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>0b118a25-aadd-5b90-91c7-4aa364902c1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C305">
+      <value>1uF25V</value>
+      <footprint>DockControl:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Datasheet0.1..1uF nominal bypass. Require&gt;=0.1uF effective atintendedVLCD/temp/age.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C1608X7R1E105K080AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Datasheet0.1..1uF nominal bypass. Require&gt;=0.1uF effective atintendedVLCD/temp/age."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C1608X7R1E105K080AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>27dc6bbe-d693-55f7-8e5f-70ff60c86f32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C306">
+      <value>2.2uF50V</value>
+      <footprint>DockControl:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require&gt;=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C3216X7R1H225K160AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require&gt;=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C3216X7R1H225K160AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>a79e628c-1316-5cd7-8664-fc7bff816399</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C307">
+      <value>2.2uF50V</value>
+      <footprint>DockControl:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require&gt;=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C3216X7R1H225K160AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require&gt;=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C3216X7R1H225K160AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>e66edac6-5cec-5bff-b29f-329e4c6a1226</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C308">
+      <value>2.2uF50V</value>
+      <footprint>DockControl:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require&gt;=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C3216X7R1H225K160AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require&gt;=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C3216X7R1H225K160AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>92ac81b5-07de-533b-bcfb-d32b0d5559df</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C309">
+      <value>2.2uF50V</value>
+      <footprint>DockControl:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require&gt;=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C3216X7R1H225K160AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require&gt;=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C3216X7R1H225K160AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>f15f5e52-957c-5efe-804d-451ff64db6bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C310">
+      <value>1uF25V</value>
+      <footprint>DockControl:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C1608X7R1E105K080AB</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C1608X7R1E105K080AB"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>2bc50e86-250b-5219-9578-fcbcb0110f0c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C311">
+      <value>100nF</value>
+      <footprint>DockControl:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Murata</field>
+        <field name="MPN">GRM155R71C104KA88D</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="MPN" value="GRM155R71C104KA88D"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>d1b95172-bd1a-50e5-9f54-eddd08d3f097</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J301">
+      <value>FH12-20S-0.5SH(55)</value>
+      <footprint>DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal</footprint>
+      <datasheet>https://www.hirose.com/en/product/p/CL0586-0524-9-55</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Hirose</field>
+        <field name="MPN">FH12-20S-0.5SH(55)</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal</field>
+        <field name="Datasheet">https://www.hirose.com/en/product/p/CL0586-0524-9-55</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="FH12_20_BOTTOM" description="FH12-20S-0.5SH(55), bottomcontact,0.30mm FFC,2.0mm height; both mouths toward rear hinge in closed pose."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Hirose"/>
+      <property name="MPN" value="FH12-20S-0.5SH(55)"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>aeeb2d0e-9938-5fe4-bb60-0d8acd631a7a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="MP"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J302">
+      <value>52437-2771 / DIRECT LCD MATE</value>
+      <footprint>DockControl:Molex_52437-2771_1x27-1MP_P0.50mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/524/52437/524373071_sd.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Selected forEVTmatingtrial; LCD3mm exposedland vsrecommended4mm. Pin p mates LCD pin p in installed pose.</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="MPN">52437-2771</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:Molex_52437-2771_1x27-1MP_P0.50mm_Horizontal</field>
+        <field name="Datasheet">https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/524/52437/524373071_sd.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="MOLEX_52437_2771" description="Actual27-way bottomcontact. Installed pose preservesLCD numbering. LCD3mm exposedland differs4mm recommended: received matingtrial required."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Selected forEVTmatingtrial; LCD3mm exposedland vsrecommended4mm. Pin p mates LCD pin p in installed pose."/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="MPN" value="52437-2771"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>47fa984c-be04-5927-9e47-2b3183bd3c7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="MP"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LCD301">
+      <value>NHD-C12864B2Z-RN-FBW</value>
+      <datasheet>https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">OFF_BOARD_LCD</field>
+        <field name="ReviewNote">Purchased COGLCD, linked nativeMCAD inCADassembly. NoPCBfootprint: mates throughJ302.</field>
+        <field name="Manufacturer">Newhaven Display</field>
+        <field name="MPN">NHD-C12864B2Z-RN-FBW</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="NHD_C12864B2Z" description="Purchased offboard reflective LCD; PDFp5 physical27pin contract. Read disabled; no discrete contrastpot/backlight."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="OFF_BOARD_LCD"/>
+      <property name="ReviewNote" value="Purchased COGLCD, linked nativeMCAD inCADassembly. NoPCBfootprint: mates throughJ302."/>
+      <property name="Manufacturer" value="Newhaven Display"/>
+      <property name="MPN" value="NHD-C12864B2Z-RN-FBW"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>67bc4dd0-0f54-582b-93bd-e25fee5fc95b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R301">
+      <value>47k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0747KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0747KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>87402947-a1d4-57ce-9692-6cf7d7985885</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R302">
+      <value>47k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0747KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0747KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>685de78a-701e-55fd-8f2c-6925cc9c913d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R303">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>d3c45151-11fc-5cac-a959-a696aed24c7f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R304">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>77b526ba-05bd-51d4-901d-b105fe46dbd9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R305">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>830bac44-d4de-50f9-b44e-07d59632181c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R306">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>960a30a5-dae2-5969-880d-1dcc424b7eea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R307">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>8511a220-1b19-5b6c-8446-304b05292fa0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R308">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>ad51de99-9d5b-536e-9a11-0f2c1905fd47</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R309">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>690c013a-2311-5914-89f4-3a27a4ad8a3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R310">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>461d044d-831a-5300-a568-fe297f09be92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R311">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>d8a3c3ee-b0a9-5aa5-8a2c-d22c78b0cff7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R312">
+      <value>100k ohm</value>
+      <footprint>DockControl:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>3101e838-69ca-54f9-aaa0-3615fb9bf091</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="S301">
+      <value>B3FS-1002P</value>
+      <footprint>DockControl:SW_SPST_Omron_B3FS-100xP</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.</field>
+        <field name="Manufacturer">Omron / Aratas</field>
+        <field name="MPN">B3FS-1002P</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:SW_SPST_Omron_B3FS-100xP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="SW" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common."/>
+      <property name="Manufacturer" value="Omron / Aratas"/>
+      <property name="MPN" value="B3FS-1002P"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>e5bd6c26-afa2-5832-b34e-eb9a39ac335b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="S302">
+      <value>B3FS-1002P</value>
+      <footprint>DockControl:SW_SPST_Omron_B3FS-100xP</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.</field>
+        <field name="Manufacturer">Omron / Aratas</field>
+        <field name="MPN">B3FS-1002P</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:SW_SPST_Omron_B3FS-100xP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="SW" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common."/>
+      <property name="Manufacturer" value="Omron / Aratas"/>
+      <property name="MPN" value="B3FS-1002P"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>dae47ff6-7bbc-507d-b4a1-c38cb692da11</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="S303">
+      <value>B3FS-1002P</value>
+      <footprint>DockControl:SW_SPST_Omron_B3FS-100xP</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.</field>
+        <field name="Manufacturer">Omron / Aratas</field>
+        <field name="MPN">B3FS-1002P</field>
+        <field name="ItemType">purchased</field>
+        <field name="Footprint">DockControl:SW_SPST_Omron_B3FS-100xP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockControl" part="SW" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common."/>
+      <property name="Manufacturer" value="Omron / Aratas"/>
+      <property name="MPN" value="B3FS-1002P"/>
+      <property name="ItemType" value="purchased"/>
+      <property name="Sheetname" value="EVT lid UI / actual LCD charge pump and three switches"/>
+      <property name="Sheetfile" value="dock-lid-ui.kicad_sch"/>
+      <sheetpath names="/EVT lid UI / actual LCD charge pump and three switches/" tstamps="/92ef91b4-5856-5051-848a-6a12132d067b/"/>
+      <tstamps>66711733-36de-5eb1-82b6-2dee55dfbff1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="DockControl" part="ADS1115_DOCK">
+      <description>VSSOP10 DGS; 0x48. UV modules own10k/100nF filters; no duplicate filters here.</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ads1115.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1115_DOCK</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads1115.pdf</field>
+        <field name="Description">VSSOP10 DGS; 0x48. UV modules own10k/100nF filters; no duplicate filters here.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR_GND" type="input"/>
+        <pin num="2" name="ALERT_RDY" type="open_collector"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0_BASE_FB" type="input"/>
+        <pin num="5" name="AIN1_LID_FB" type="input"/>
+        <pin num="6" name="AIN2_BASE_VOUT_DIV" type="input"/>
+        <pin num="7" name="AIN3_LID_VOUT_DIV" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="bidirectional"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="BASE_CONTEXT_PORTS">
+      <description>Standalone intersheet context only; not purchased/PCBhardware. Remove when combining real sibling circuits.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BASE_CONTEXT_PORTS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Standalone intersheet context only; not purchased/PCBhardware. Remove when combining real sibling circuits.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SOURCE_OK" type="passive"/>
+        <pin num="2" name="CC_OUT1" type="passive"/>
+        <pin num="3" name="CC_OUT2" type="passive"/>
+        <pin num="4" name="DEVICE_FAULTn" type="passive"/>
+        <pin num="5" name="UV_LIMIT_FAULTn" type="passive"/>
+        <pin num="6" name="LOOP_A" type="passive"/>
+        <pin num="7" name="LOOP_B" type="passive"/>
+        <pin num="8" name="MCU_NRSTn" type="passive"/>
+        <pin num="9" name="UV_RUN" type="passive"/>
+        <pin num="10" name="RELEASE_SEEN" type="passive"/>
+        <pin num="11" name="BTN_CENTERn_DEBOUNCED" type="passive"/>
+        <pin num="12" name="BTN_CENTERn_RAW" type="passive"/>
+        <pin num="13" name="MCU_ARM" type="passive"/>
+        <pin num="14" name="MCU_STOPn" type="passive"/>
+        <pin num="15" name="WDI" type="passive"/>
+        <pin num="16" name="UV_5V_SW" type="passive"/>
+        <pin num="17" name="BASE_FB" type="passive"/>
+        <pin num="18" name="LID_FB" type="passive"/>
+        <pin num="19" name="BASE_VOUT_DIV" type="passive"/>
+        <pin num="20" name="LID_VOUT_DIV" type="passive"/>
+        <pin num="21" name="NTC_BASE" type="passive"/>
+        <pin num="22" name="NTC_LID" type="passive"/>
+        <pin num="23" name="3V3" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="Conn1">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Logical connector pin numbering; physical connector and footprint not selected</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="Conn6">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Logical connector pin numbering; physical connector and footprint not selected</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="FH12_20_BOTTOM">
+      <description>FH12-20S-0.5SH(55), bottomcontact,0.30mm FFC,2.0mm height; both mouths toward rear hinge in closed pose.</description>
+      <docs>https://www.hirose.com/en/product/p/CL0586-0524-9-55</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FH12_20_BOTTOM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.hirose.com/en/product/p/CL0586-0524-9-55</field>
+        <field name="Description">FH12-20S-0.5SH(55), bottomcontact,0.30mm FFC,2.0mm height; both mouths toward rear hinge in closed pose.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FFC_1" type="passive"/>
+        <pin num="2" name="FFC_2" type="passive"/>
+        <pin num="3" name="FFC_3" type="passive"/>
+        <pin num="4" name="FFC_4" type="passive"/>
+        <pin num="5" name="FFC_5" type="passive"/>
+        <pin num="6" name="FFC_6" type="passive"/>
+        <pin num="7" name="FFC_7" type="passive"/>
+        <pin num="8" name="FFC_8" type="passive"/>
+        <pin num="9" name="FFC_9" type="passive"/>
+        <pin num="10" name="FFC_10" type="passive"/>
+        <pin num="11" name="FFC_11" type="passive"/>
+        <pin num="12" name="FFC_12" type="passive"/>
+        <pin num="13" name="FFC_13" type="passive"/>
+        <pin num="14" name="FFC_14" type="passive"/>
+        <pin num="15" name="FFC_15" type="passive"/>
+        <pin num="16" name="FFC_16" type="passive"/>
+        <pin num="17" name="FFC_17" type="passive"/>
+        <pin num="18" name="FFC_18" type="passive"/>
+        <pin num="19" name="FFC_19" type="passive"/>
+        <pin num="20" name="FFC_20" type="passive"/>
+        <pin num="MP" name="METAL_HOLDDOWNS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="LED">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="MOLEX_52437_2771">
+      <description>Actual27-way bottomcontact. Installed pose preservesLCD numbering. LCD3mm exposedland differs4mm recommended: received matingtrial required.</description>
+      <docs>https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/524/52437/524373071_sd.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MOLEX_52437_2771</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/524/52437/524373071_sd.pdf</field>
+        <field name="Description">Actual27-way bottomcontact. Installed pose preservesLCD numbering. LCD3mm exposedland differs4mm recommended: received matingtrial required.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MATES_LCD_1" type="passive"/>
+        <pin num="2" name="MATES_LCD_2" type="passive"/>
+        <pin num="3" name="MATES_LCD_3" type="passive"/>
+        <pin num="4" name="MATES_LCD_4" type="passive"/>
+        <pin num="5" name="MATES_LCD_5" type="passive"/>
+        <pin num="6" name="MATES_LCD_6" type="passive"/>
+        <pin num="7" name="MATES_LCD_7" type="passive"/>
+        <pin num="8" name="MATES_LCD_8" type="passive"/>
+        <pin num="9" name="MATES_LCD_9" type="passive"/>
+        <pin num="10" name="MATES_LCD_10" type="passive"/>
+        <pin num="11" name="MATES_LCD_11" type="passive"/>
+        <pin num="12" name="MATES_LCD_12" type="passive"/>
+        <pin num="13" name="MATES_LCD_13" type="passive"/>
+        <pin num="14" name="MATES_LCD_14" type="passive"/>
+        <pin num="15" name="MATES_LCD_15" type="passive"/>
+        <pin num="16" name="MATES_LCD_16" type="passive"/>
+        <pin num="17" name="MATES_LCD_17" type="passive"/>
+        <pin num="18" name="MATES_LCD_18" type="passive"/>
+        <pin num="19" name="MATES_LCD_19" type="passive"/>
+        <pin num="20" name="MATES_LCD_20" type="passive"/>
+        <pin num="21" name="MATES_LCD_21" type="passive"/>
+        <pin num="22" name="MATES_LCD_22" type="passive"/>
+        <pin num="23" name="MATES_LCD_23" type="passive"/>
+        <pin num="24" name="MATES_LCD_24" type="passive"/>
+        <pin num="25" name="MATES_LCD_25" type="passive"/>
+        <pin num="26" name="MATES_LCD_26" type="passive"/>
+        <pin num="27" name="MATES_LCD_27" type="passive"/>
+        <pin num="MP" name="METAL_HOLDDOWNS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="NHD_C12864B2Z">
+      <description>Purchased offboard reflective LCD; PDFp5 physical27pin contract. Read disabled; no discrete contrastpot/backlight.</description>
+      <docs>https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NHD_C12864B2Z</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf</field>
+        <field name="Description">Purchased offboard reflective LCD; PDFp5 physical27pin contract. Read disabled; no discrete contrastpot/backlight.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V0" type="passive"/>
+        <pin num="2" name="V1" type="passive"/>
+        <pin num="3" name="V2" type="passive"/>
+        <pin num="4" name="V3" type="passive"/>
+        <pin num="5" name="V4" type="passive"/>
+        <pin num="6" name="C4_PLUS_NC" type="no_connect"/>
+        <pin num="7" name="C2_MINUS" type="passive"/>
+        <pin num="8" name="C2_PLUS" type="passive"/>
+        <pin num="9" name="C1_PLUS" type="passive"/>
+        <pin num="10" name="C1_MINUS" type="passive"/>
+        <pin num="11" name="C3_PLUS" type="passive"/>
+        <pin num="12" name="VOUT" type="passive"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="DB7" type="input"/>
+        <pin num="16" name="DB6" type="input"/>
+        <pin num="17" name="DB5" type="input"/>
+        <pin num="18" name="DB4" type="input"/>
+        <pin num="19" name="DB3" type="input"/>
+        <pin num="20" name="DB2" type="input"/>
+        <pin num="21" name="DB1" type="input"/>
+        <pin num="22" name="DB0" type="input"/>
+        <pin num="23" name="RD_N_WRITE_ONLY" type="input"/>
+        <pin num="24" name="WR_N" type="input"/>
+        <pin num="25" name="A0" type="input"/>
+        <pin num="26" name="RESET_N" type="input"/>
+        <pin num="27" name="CS_N" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="STM32L071CBT6">
+      <description>ST DS10690 Rev7 LQFP48 Figure8 and Table15; MSI range6 4.2MHz, VOSRange3,0WS; physical pin36 VDDIO2 must be supplied.</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32l071cb.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32L071CBT6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32l071cb.pdf</field>
+        <field name="Description">ST DS10690 Rev7 LQFP48 Figure8 and Table15; MSI range6 4.2MHz, VOSRange3,0WS; physical pin36 VDDIO2 must be supplied.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5" name="PH0" type="bidirectional"/>
+        <pin num="6" name="PH1" type="bidirectional"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="bidirectional"/>
+        <pin num="11" name="PA1" type="bidirectional"/>
+        <pin num="12" name="PA2" type="bidirectional"/>
+        <pin num="13" name="PA3" type="bidirectional"/>
+        <pin num="14" name="PA4" type="bidirectional"/>
+        <pin num="15" name="PA5" type="bidirectional"/>
+        <pin num="16" name="PA6" type="bidirectional"/>
+        <pin num="17" name="PA7" type="bidirectional"/>
+        <pin num="18" name="PB0" type="bidirectional"/>
+        <pin num="19" name="PB1" type="bidirectional"/>
+        <pin num="20" name="PB2" type="bidirectional"/>
+        <pin num="21" name="PB10" type="bidirectional"/>
+        <pin num="22" name="PB11" type="bidirectional"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="bidirectional"/>
+        <pin num="26" name="PB13" type="bidirectional"/>
+        <pin num="27" name="PB14" type="bidirectional"/>
+        <pin num="28" name="PB15" type="bidirectional"/>
+        <pin num="29" name="PA8" type="bidirectional"/>
+        <pin num="30" name="PA9" type="bidirectional"/>
+        <pin num="31" name="PA10" type="bidirectional"/>
+        <pin num="32" name="PA11" type="bidirectional"/>
+        <pin num="33" name="PA12" type="bidirectional"/>
+        <pin num="34" name="PA13" type="bidirectional"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDDIO2" type="power_in"/>
+        <pin num="37" name="PA14" type="bidirectional"/>
+        <pin num="38" name="PA15" type="bidirectional"/>
+        <pin num="39" name="PB3" type="bidirectional"/>
+        <pin num="40" name="PB4" type="bidirectional"/>
+        <pin num="41" name="PB5" type="bidirectional"/>
+        <pin num="42" name="PB6" type="bidirectional"/>
+        <pin num="43" name="PB7" type="bidirectional"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="bidirectional"/>
+        <pin num="46" name="PB9" type="bidirectional"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockControl" part="SW">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="DockControl">
+      <uri>${KIPRJMOD}/DockControl.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3" class="Default">
+      <node ref="C201" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C202" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C203" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C204" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J202" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R214" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R215" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R225" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R226" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U201" pin="24" pinfunction="VDD_24" pintype="power_in"/>
+      <node ref="U201" pin="36" pinfunction="VDDIO2_36" pintype="power_in"/>
+      <node ref="U201" pin="48" pinfunction="VDD_48" pintype="power_in"/>
+      <node ref="X201" pin="23" pinfunction="3V3_23" pintype="passive"/>
+    </net>
+    <net code="2" name="3V3_ANALOG" class="Default">
+      <node ref="C205" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C206" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C210" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R214" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R216" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R217" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R218" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R219" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="9" pinfunction="VDDA_9" pintype="power_in"/>
+      <node ref="U202" pin="8" pinfunction="VDD_8" pintype="power_in"/>
+    </net>
+    <net code="3" name="3V3_UI" class="Default">
+      <node ref="C310" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C311" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J201" pin="2" pinfunction="FFC_2_2" pintype="passive"/>
+      <node ref="J301" pin="2" pinfunction="FFC_2_2" pintype="passive"/>
+      <node ref="J302" pin="13" pinfunction="MATES_LCD_13_13" pintype="passive"/>
+      <node ref="J302" pin="23" pinfunction="MATES_LCD_23_23" pintype="passive"/>
+      <node ref="LCD301" pin="13" pinfunction="VDD_13" pintype="power_in"/>
+      <node ref="LCD301" pin="23" pinfunction="RD_N_WRITE_ONLY_23" pintype="input"/>
+      <node ref="R215" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R301" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R302" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="BASE_FB" class="Default">
+      <node ref="U202" pin="4" pinfunction="AIN0_BASE_FB_4" pintype="input"/>
+      <node ref="X201" pin="17" pinfunction="BASE_FB_17" pintype="passive"/>
+    </net>
+    <net code="5" name="BASE_VOUT_DIV" class="Default">
+      <node ref="U202" pin="6" pinfunction="AIN2_BASE_VOUT_DIV_6" pintype="input"/>
+      <node ref="X201" pin="19" pinfunction="BASE_VOUT_DIV_19" pintype="passive"/>
+    </net>
+    <net code="6" name="BOOT0" class="Default">
+      <node ref="R213" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP201" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="44" pinfunction="BOOT0_44" pintype="input"/>
+    </net>
+    <net code="7" name="BTN_CENTERn_DEBOUNCED" class="Default">
+      <node ref="U201" pin="26" pinfunction="PB13_26" pintype="bidirectional"/>
+      <node ref="X201" pin="11" pinfunction="BTN_CENTERn_DEBOUNCED_11" pintype="passive"/>
+    </net>
+    <net code="8" name="BTN_CENTERn_RAW" class="Default">
+      <node ref="J201" pin="16" pinfunction="FFC_16_16" pintype="passive"/>
+      <node ref="J301" pin="16" pinfunction="FFC_16_16" pintype="passive"/>
+      <node ref="S302" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X201" pin="12" pinfunction="BTN_CENTERn_RAW_12" pintype="passive"/>
+    </net>
+    <net code="9" name="BTN_LEFTn" class="Default">
+      <node ref="C211" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J201" pin="15" pinfunction="FFC_15_15" pintype="passive"/>
+      <node ref="J301" pin="15" pinfunction="FFC_15_15" pintype="passive"/>
+      <node ref="R225" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="S301" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="25" pinfunction="PB12_25" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="BTN_RIGHTn" class="Default">
+      <node ref="C212" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J201" pin="17" pinfunction="FFC_17_17" pintype="passive"/>
+      <node ref="J301" pin="17" pinfunction="FFC_17_17" pintype="passive"/>
+      <node ref="R226" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="S303" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="27" pinfunction="PB14_27" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="CC_OUT1" class="Default">
+      <node ref="U201" pin="39" pinfunction="PB3_39" pintype="bidirectional"/>
+      <node ref="X201" pin="2" pinfunction="CC_OUT1_2" pintype="passive"/>
+    </net>
+    <net code="12" name="CC_OUT2" class="Default">
+      <node ref="U201" pin="40" pinfunction="PB4_40" pintype="bidirectional"/>
+      <node ref="X201" pin="3" pinfunction="CC_OUT2_3" pintype="passive"/>
+    </net>
+    <net code="13" name="DEVICE_FAULTn" class="Default">
+      <node ref="U201" pin="32" pinfunction="PA11_32" pintype="bidirectional"/>
+      <node ref="X201" pin="4" pinfunction="DEVICE_FAULTn_4" pintype="passive"/>
+    </net>
+    <net code="14" name="GND" class="Default">
+      <node ref="C201" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C202" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C203" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C204" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C205" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C206" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C207" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C208" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C209" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C210" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C211" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C212" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C301" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C302" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C303" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C304" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C305" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C309" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C310" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C311" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D201" pin="1" pinfunction="2_1" pintype="passive"/>
+      <node ref="J201" pin="1" pinfunction="FFC_1_1" pintype="passive"/>
+      <node ref="J201" pin="18" pinfunction="FFC_18_18" pintype="passive"/>
+      <node ref="J201" pin="19" pinfunction="FFC_19_19" pintype="passive"/>
+      <node ref="J201" pin="20" pinfunction="FFC_20_20" pintype="passive"/>
+      <node ref="J201" pin="MP" pinfunction="METAL_HOLDDOWNS_MP" pintype="passive"/>
+      <node ref="J202" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="J301" pin="1" pinfunction="FFC_1_1" pintype="passive"/>
+      <node ref="J301" pin="18" pinfunction="FFC_18_18" pintype="passive"/>
+      <node ref="J301" pin="19" pinfunction="FFC_19_19" pintype="passive"/>
+      <node ref="J301" pin="20" pinfunction="FFC_20_20" pintype="passive"/>
+      <node ref="J301" pin="MP" pinfunction="METAL_HOLDDOWNS_MP" pintype="passive"/>
+      <node ref="J302" pin="14" pinfunction="MATES_LCD_14_14" pintype="passive"/>
+      <node ref="J302" pin="MP" pinfunction="METAL_HOLDDOWNS_MP" pintype="passive"/>
+      <node ref="LCD301" pin="14" pinfunction="VSS_14" pintype="power_in"/>
+      <node ref="R213" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R223" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R303" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R304" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R305" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R306" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R307" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R308" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R309" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R310" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R311" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R312" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="S301" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="S302" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="S303" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U201" pin="23" pinfunction="VSS_23" pintype="power_in"/>
+      <node ref="U201" pin="35" pinfunction="VSS_35" pintype="power_in"/>
+      <node ref="U201" pin="47" pinfunction="VSS_47" pintype="power_in"/>
+      <node ref="U201" pin="8" pinfunction="VSSA_8" pintype="power_in"/>
+      <node ref="U202" pin="1" pinfunction="ADDR_GND_1" pintype="input"/>
+      <node ref="U202" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="X201" pin="24" pinfunction="GND_24" pintype="passive"/>
+    </net>
+    <net code="15" name="LCD_A0" class="Default">
+      <node ref="J201" pin="11" pinfunction="FFC_11_11" pintype="passive"/>
+      <node ref="J301" pin="11" pinfunction="FFC_11_11" pintype="passive"/>
+      <node ref="J302" pin="25" pinfunction="MATES_LCD_25_25" pintype="passive"/>
+      <node ref="LCD301" pin="25" pinfunction="A0_25" pintype="input"/>
+      <node ref="R209" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R304" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="16" name="LCD_A0_MCU" class="Default">
+      <node ref="R209" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="41" pinfunction="PB5_41" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="LCD_C1M" class="Default">
+      <node ref="C307" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C308" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J302" pin="10" pinfunction="MATES_LCD_10_10" pintype="passive"/>
+      <node ref="LCD301" pin="10" pinfunction="C1_MINUS_10" pintype="passive"/>
+    </net>
+    <net code="18" name="LCD_C1P" class="Default">
+      <node ref="C307" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J302" pin="9" pinfunction="MATES_LCD_9_9" pintype="passive"/>
+      <node ref="LCD301" pin="9" pinfunction="C1_PLUS_9" pintype="passive"/>
+    </net>
+    <net code="19" name="LCD_C2M" class="Default">
+      <node ref="C306" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J302" pin="7" pinfunction="MATES_LCD_7_7" pintype="passive"/>
+      <node ref="LCD301" pin="7" pinfunction="C2_MINUS_7" pintype="passive"/>
+    </net>
+    <net code="20" name="LCD_C2P" class="Default">
+      <node ref="C306" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J302" pin="8" pinfunction="MATES_LCD_8_8" pintype="passive"/>
+      <node ref="LCD301" pin="8" pinfunction="C2_PLUS_8" pintype="passive"/>
+    </net>
+    <net code="21" name="LCD_C3P" class="Default">
+      <node ref="C308" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J302" pin="11" pinfunction="MATES_LCD_11_11" pintype="passive"/>
+      <node ref="LCD301" pin="11" pinfunction="C3_PLUS_11" pintype="passive"/>
+    </net>
+    <net code="22" name="LCD_CSn" class="Default">
+      <node ref="J201" pin="13" pinfunction="FFC_13_13" pintype="passive"/>
+      <node ref="J301" pin="13" pinfunction="FFC_13_13" pintype="passive"/>
+      <node ref="J302" pin="27" pinfunction="MATES_LCD_27_27" pintype="passive"/>
+      <node ref="LCD301" pin="27" pinfunction="CS_N_27" pintype="input"/>
+      <node ref="R211" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R301" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="23" name="LCD_CSn_MCU" class="Default">
+      <node ref="R211" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="43" pinfunction="PB7_43" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="LCD_DB0" class="Default">
+      <node ref="J201" pin="3" pinfunction="FFC_3_3" pintype="passive"/>
+      <node ref="J301" pin="3" pinfunction="FFC_3_3" pintype="passive"/>
+      <node ref="J302" pin="22" pinfunction="MATES_LCD_22_22" pintype="passive"/>
+      <node ref="LCD301" pin="22" pinfunction="DB0_22" pintype="input"/>
+      <node ref="R201" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R305" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="25" name="LCD_DB0_MCU" class="Default">
+      <node ref="R201" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="10" pinfunction="PA0_10" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="LCD_DB1" class="Default">
+      <node ref="J201" pin="4" pinfunction="FFC_4_4" pintype="passive"/>
+      <node ref="J301" pin="4" pinfunction="FFC_4_4" pintype="passive"/>
+      <node ref="J302" pin="21" pinfunction="MATES_LCD_21_21" pintype="passive"/>
+      <node ref="LCD301" pin="21" pinfunction="DB1_21" pintype="input"/>
+      <node ref="R202" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R306" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="27" name="LCD_DB1_MCU" class="Default">
+      <node ref="R202" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="11" pinfunction="PA1_11" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="LCD_DB2" class="Default">
+      <node ref="J201" pin="5" pinfunction="FFC_5_5" pintype="passive"/>
+      <node ref="J301" pin="5" pinfunction="FFC_5_5" pintype="passive"/>
+      <node ref="J302" pin="20" pinfunction="MATES_LCD_20_20" pintype="passive"/>
+      <node ref="LCD301" pin="20" pinfunction="DB2_20" pintype="input"/>
+      <node ref="R203" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R307" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="29" name="LCD_DB2_MCU" class="Default">
+      <node ref="R203" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="12" pinfunction="PA2_12" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="LCD_DB3" class="Default">
+      <node ref="J201" pin="6" pinfunction="FFC_6_6" pintype="passive"/>
+      <node ref="J301" pin="6" pinfunction="FFC_6_6" pintype="passive"/>
+      <node ref="J302" pin="19" pinfunction="MATES_LCD_19_19" pintype="passive"/>
+      <node ref="LCD301" pin="19" pinfunction="DB3_19" pintype="input"/>
+      <node ref="R204" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R308" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="31" name="LCD_DB3_MCU" class="Default">
+      <node ref="R204" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="13" pinfunction="PA3_13" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="LCD_DB4" class="Default">
+      <node ref="J201" pin="7" pinfunction="FFC_7_7" pintype="passive"/>
+      <node ref="J301" pin="7" pinfunction="FFC_7_7" pintype="passive"/>
+      <node ref="J302" pin="18" pinfunction="MATES_LCD_18_18" pintype="passive"/>
+      <node ref="LCD301" pin="18" pinfunction="DB4_18" pintype="input"/>
+      <node ref="R205" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R309" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="33" name="LCD_DB4_MCU" class="Default">
+      <node ref="R205" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="14" pinfunction="PA4_14" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="LCD_DB5" class="Default">
+      <node ref="J201" pin="8" pinfunction="FFC_8_8" pintype="passive"/>
+      <node ref="J301" pin="8" pinfunction="FFC_8_8" pintype="passive"/>
+      <node ref="J302" pin="17" pinfunction="MATES_LCD_17_17" pintype="passive"/>
+      <node ref="LCD301" pin="17" pinfunction="DB5_17" pintype="input"/>
+      <node ref="R206" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R310" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="35" name="LCD_DB5_MCU" class="Default">
+      <node ref="R206" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="15" pinfunction="PA5_15" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="LCD_DB6" class="Default">
+      <node ref="J201" pin="9" pinfunction="FFC_9_9" pintype="passive"/>
+      <node ref="J301" pin="9" pinfunction="FFC_9_9" pintype="passive"/>
+      <node ref="J302" pin="16" pinfunction="MATES_LCD_16_16" pintype="passive"/>
+      <node ref="LCD301" pin="16" pinfunction="DB6_16" pintype="input"/>
+      <node ref="R207" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R311" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="37" name="LCD_DB6_MCU" class="Default">
+      <node ref="R207" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="16" pinfunction="PA6_16" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="LCD_DB7" class="Default">
+      <node ref="J201" pin="10" pinfunction="FFC_10_10" pintype="passive"/>
+      <node ref="J301" pin="10" pinfunction="FFC_10_10" pintype="passive"/>
+      <node ref="J302" pin="15" pinfunction="MATES_LCD_15_15" pintype="passive"/>
+      <node ref="LCD301" pin="15" pinfunction="DB7_15" pintype="input"/>
+      <node ref="R208" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R312" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="39" name="LCD_DB7_MCU" class="Default">
+      <node ref="R208" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="17" pinfunction="PA7_17" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="LCD_RESETn" class="Default">
+      <node ref="J201" pin="14" pinfunction="FFC_14_14" pintype="passive"/>
+      <node ref="J301" pin="14" pinfunction="FFC_14_14" pintype="passive"/>
+      <node ref="J302" pin="26" pinfunction="MATES_LCD_26_26" pintype="passive"/>
+      <node ref="LCD301" pin="26" pinfunction="RESET_N_26" pintype="input"/>
+      <node ref="R212" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R303" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="41" name="LCD_RESETn_MCU" class="Default">
+      <node ref="R212" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="45" pinfunction="PB8_45" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="LCD_V0" class="Default">
+      <node ref="C301" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J302" pin="1" pinfunction="MATES_LCD_1_1" pintype="passive"/>
+      <node ref="LCD301" pin="1" pinfunction="V0_1" pintype="passive"/>
+    </net>
+    <net code="43" name="LCD_V1" class="Default">
+      <node ref="C302" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J302" pin="2" pinfunction="MATES_LCD_2_2" pintype="passive"/>
+      <node ref="LCD301" pin="2" pinfunction="V1_2" pintype="passive"/>
+    </net>
+    <net code="44" name="LCD_V2" class="Default">
+      <node ref="C303" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J302" pin="3" pinfunction="MATES_LCD_3_3" pintype="passive"/>
+      <node ref="LCD301" pin="3" pinfunction="V2_3" pintype="passive"/>
+    </net>
+    <net code="45" name="LCD_V3" class="Default">
+      <node ref="C304" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J302" pin="4" pinfunction="MATES_LCD_4_4" pintype="passive"/>
+      <node ref="LCD301" pin="4" pinfunction="V3_4" pintype="passive"/>
+    </net>
+    <net code="46" name="LCD_V4" class="Default">
+      <node ref="C305" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J302" pin="5" pinfunction="MATES_LCD_5_5" pintype="passive"/>
+      <node ref="LCD301" pin="5" pinfunction="V4_5" pintype="passive"/>
+    </net>
+    <net code="47" name="LCD_VOUT" class="Default">
+      <node ref="C309" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J302" pin="12" pinfunction="MATES_LCD_12_12" pintype="passive"/>
+      <node ref="LCD301" pin="12" pinfunction="VOUT_12" pintype="passive"/>
+    </net>
+    <net code="48" name="LCD_WRn" class="Default">
+      <node ref="J201" pin="12" pinfunction="FFC_12_12" pintype="passive"/>
+      <node ref="J301" pin="12" pinfunction="FFC_12_12" pintype="passive"/>
+      <node ref="J302" pin="24" pinfunction="MATES_LCD_24_24" pintype="passive"/>
+      <node ref="LCD301" pin="24" pinfunction="WR_N_24" pintype="input"/>
+      <node ref="R210" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R302" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="49" name="LCD_WRn_MCU" class="Default">
+      <node ref="R210" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="42" pinfunction="PB6_42" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="LID_FB" class="Default">
+      <node ref="U202" pin="5" pinfunction="AIN1_LID_FB_5" pintype="input"/>
+      <node ref="X201" pin="18" pinfunction="LID_FB_18" pintype="passive"/>
+    </net>
+    <net code="51" name="LID_VOUT_DIV" class="Default">
+      <node ref="U202" pin="7" pinfunction="AIN3_LID_VOUT_DIV_7" pintype="input"/>
+      <node ref="X201" pin="20" pinfunction="LID_VOUT_DIV_20" pintype="passive"/>
+    </net>
+    <net code="52" name="LOOP_A" class="Default">
+      <node ref="U201" pin="2" pinfunction="PC13_2" pintype="bidirectional"/>
+      <node ref="X201" pin="6" pinfunction="LOOP_A_6" pintype="passive"/>
+    </net>
+    <net code="53" name="LOOP_B" class="Default">
+      <node ref="U201" pin="3" pinfunction="PC14_3" pintype="bidirectional"/>
+      <node ref="X201" pin="7" pinfunction="LOOP_B_7" pintype="passive"/>
+    </net>
+    <net code="54" name="MCU_ARM" class="Default">
+      <node ref="U201" pin="28" pinfunction="PB15_28" pintype="bidirectional"/>
+      <node ref="X201" pin="13" pinfunction="MCU_ARM_13" pintype="passive"/>
+    </net>
+    <net code="55" name="MCU_NRSTn" class="Default">
+      <node ref="C207" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J202" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U201" pin="7" pinfunction="NRST_7" pintype="input"/>
+      <node ref="X201" pin="8" pinfunction="MCU_NRSTn_8" pintype="passive"/>
+    </net>
+    <net code="56" name="MCU_STOPn" class="Default">
+      <node ref="U201" pin="29" pinfunction="PA8_29" pintype="bidirectional"/>
+      <node ref="X201" pin="14" pinfunction="MCU_STOPn_14" pintype="passive"/>
+    </net>
+    <net code="57" name="MON_I2C_SCL" class="Default">
+      <node ref="R216" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U201" pin="21" pinfunction="PB10_21" pintype="bidirectional"/>
+      <node ref="U202" pin="10" pinfunction="SCL_10" pintype="input"/>
+    </net>
+    <net code="58" name="MON_I2C_SDA" class="Default">
+      <node ref="R217" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U201" pin="22" pinfunction="PB11_22" pintype="bidirectional"/>
+      <node ref="U202" pin="9" pinfunction="SDA_9" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="NTC_BASE" class="Default">
+      <node ref="R218" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R220" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X201" pin="21" pinfunction="NTC_BASE_21" pintype="passive"/>
+    </net>
+    <net code="60" name="NTC_BASE_ADC" class="Default">
+      <node ref="C208" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R220" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U201" pin="18" pinfunction="PB0_18" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="NTC_LID" class="Default">
+      <node ref="R219" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R221" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X201" pin="22" pinfunction="NTC_LID_22" pintype="passive"/>
+    </net>
+    <net code="62" name="NTC_LID_ADC" class="Default">
+      <node ref="C209" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R221" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U201" pin="19" pinfunction="PB1_19" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="RELEASE_SEEN" class="Default">
+      <node ref="U201" pin="38" pinfunction="PA15_38" pintype="bidirectional"/>
+      <node ref="X201" pin="10" pinfunction="RELEASE_SEEN_10" pintype="passive"/>
+    </net>
+    <net code="64" name="SOURCE_OK" class="Default">
+      <node ref="U201" pin="4" pinfunction="PC15_4" pintype="bidirectional"/>
+      <node ref="X201" pin="1" pinfunction="SOURCE_OK_1" pintype="passive"/>
+    </net>
+    <net code="65" name="STATUS_LED" class="Default">
+      <node ref="R224" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="46" pinfunction="PB9_46" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="STATUS_LED_A" class="Default">
+      <node ref="D201" pin="2" pinfunction="1_2" pintype="passive"/>
+      <node ref="R224" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="67" name="SWCLK" class="Default">
+      <node ref="J202" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="U201" pin="37" pinfunction="PA14_37" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="SWDIO" class="Default">
+      <node ref="J202" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U201" pin="34" pinfunction="PA13_34" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="UV_5V_SW" class="Default">
+      <node ref="R222" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X201" pin="16" pinfunction="UV_5V_SW_16" pintype="passive"/>
+    </net>
+    <net code="70" name="UV_LIMIT_FAULTn" class="Default">
+      <node ref="U201" pin="33" pinfunction="PA12_33" pintype="bidirectional"/>
+      <node ref="X201" pin="5" pinfunction="UV_LIMIT_FAULTn_5" pintype="passive"/>
+    </net>
+    <net code="71" name="UV_RUN" class="Default">
+      <node ref="U201" pin="31" pinfunction="PA10_31" pintype="bidirectional"/>
+      <node ref="X201" pin="9" pinfunction="UV_RUN_9" pintype="passive"/>
+    </net>
+    <net code="72" name="UV_VBUS_MON" class="Default">
+      <node ref="R222" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R223" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U201" pin="20" pinfunction="PB2_20" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="WDI" class="Default">
+      <node ref="U201" pin="30" pinfunction="PA9_30" pintype="bidirectional"/>
+      <node ref="X201" pin="15" pinfunction="WDI_15" pintype="passive"/>
+    </net>
+    <net code="74" name="unconnected-(J202-Pad6)" class="Default">
+      <node ref="J202" pin="6" pinfunction="6_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(J302-MATES_LCD_6-Pad6)" class="Default">
+      <node ref="J302" pin="6" pinfunction="MATES_LCD_6_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(LCD301-C4_PLUS_NC-Pad6)" class="Default">
+      <node ref="LCD301" pin="6" pinfunction="C4_PLUS_NC_6" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U201-PH0-Pad5)" class="Default">
+      <node ref="U201" pin="5" pinfunction="PH0_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U201-PH1-Pad6)" class="Default">
+      <node ref="U201" pin="6" pinfunction="PH1_6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U202-ALERT_RDY-Pad2)" class="Default">
+      <node ref="U202" pin="2" pinfunction="ALERT_RDY_2" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,50 @@
+{
+  "scope": "EVT contact face-seal trial; not a qualified wet barrier or released contact material/finish",
+  "seal_candidate": {
+    "manufacturer": "HANSA-FLEX",
+    "mpn": "OR2-0.5",
+    "quantity": 4,
+    "source": "https://shop.hansa-flex.nl/en_GB/sealing-equipment/static-seals/o-rings/nbr-o-rings/or-2-0-5/p/OR2-0-5",
+    "material": "NBR70; exact compound/cure system and compatibility require confirmation",
+    "ID_mm": 2.0,
+    "cross_section_mm": 0.5,
+    "incoming_trial_ID_range_mm": [
+      2.0,
+      2.05
+    ],
+    "incoming_trial_CS_range_mm": [
+      0.49,
+      0.51
+    ],
+    "limits": "Incoming dimensions are proposed trial acceptance limits, not a manufacturer tolerance agreement. Coupon-test the actual ring, plastic and casting system for inhibition, swelling and leaks; do not assume NBR compatibility with platinum-cure silicone or finished body-contact suitability."
+  },
+  "gland": {
+    "location": "Annular axial recess in the METAL post bearing face; plastic remains a flat sealing counterface",
+    "ID_mm": 2.1,
+    "OD_mm": 3.6,
+    "depth_mm": 0.38,
+    "diameter_tolerance_mm": 0.02,
+    "depth_tolerance_mm": 0.01,
+    "bearing_face_product_Y_mm": -24.5,
+    "root_radius_max_mm": 0.05,
+    "sealing_finish_Ra_max_um": 0.8,
+    "counterface_local_flatness_max_mm": 0.01,
+    "bore_diameter_mm": 2.1,
+    "bore_plus_tolerance_mm": 0.03,
+    "note": "Maintain the4mm post head, face coordinates, silicone-key groove, M2 thread and dock stop datums. Both machined faces must seat on the rigid bearing land; nut torque must not be used to set an arbitrary gasket compression. Printed rough faces are fit coupons only. Agree tool access and finish with the machinist before ordering."
+  },
+  "CAD_seal": {
+    "scope": "Volume-preserving elliptical section representing the nominal installed space, not an FEA or contact-pressure prediction",
+    "major_ring_radius_mm": 1.4,
+    "axial_half_height_mm": 0.19,
+    "radial_half_width_mm": 0.293703007518797
+  },
+  "process": {
+    "assembly": "Solder the post tail with no O-ring fitted. Clean flux, inspect plating/face and let it cool; fit the ring without dragging it over a sharp thread, then fixture the face and retain with the M2 nut on the removed rear half. Actual torque/locking and strain relief remain to qualify.",
+    "molding": "Keep the seal gland excluded from the external silicone cavity. The outer silicone groove captures the post; the inner face seal is a separate candidate barrier. Leak-test an inert closed cavity and run cure-inhibition coupons before any battery/electronics casting.",
+    "acceptance": "Inspect all four bearing seats, face coplanarity and electrical isolation. Demonstrate no dye entry through individual contacts, seam, buttons or root under the defined wet/cleaning/thermal profile. Ring/finish/preload/material aging and post pullout require physical validation.",
+    "open": "No finished contact stock/plating, nut locking/torque, permanent button barrier, full cavity seal or casting recipe is released. This face-seal trial alone does not make the product waterproof."
+  },
+  "design_reference": "https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf",
+  "reference_limit": "Parker general static face-seal principles inform squeeze/fill checks; its larger standard gland tables do not approve this miniature custom gland."
+}

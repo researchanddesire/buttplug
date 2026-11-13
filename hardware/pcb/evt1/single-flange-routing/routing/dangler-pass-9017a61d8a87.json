@@ -1,0 +1,119 @@
+{
+  "input_board_sha256": "9017a61d8a87b13d5272e3fa41745e6726ddc74d9280739b71a533e5850510b3",
+  "input_DRC_sha256": "0f6b3059f1f0034cb534571ffd9095fd060a3a0a5913be515662683f5c5c808a",
+  "applied": true,
+  "changes": [
+    {
+      "uuid": "028baa5e-76f9-47f5-a1ae-208a7c018072",
+      "net": "3V3",
+      "native_DRC_type": "track_dangling",
+      "other_copper_neighbours": 3,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "44430f9f-e686-4ca7-a835-6ecda80ee0ee",
+      "net": "BOOT_N",
+      "native_DRC_type": "via_dangling",
+      "other_copper_neighbours": 3,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "6eb30e34-0103-4e19-8ea2-e923ae4dc0fa",
+      "net": "DOCK_PRESENT_N",
+      "native_DRC_type": "via_dangling",
+      "other_copper_neighbours": 3,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "7e621e57-8a6b-4285-bfaf-e08fc8d766b9",
+      "net": "MCU_EN",
+      "native_DRC_type": "via_dangling",
+      "other_copper_neighbours": 2,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "66a94601-1d4f-4216-bd1d-1c067b9e40e5",
+      "net": "MCU_EN",
+      "native_DRC_type": "track_dangling",
+      "other_copper_neighbours": 1,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "776ee0be-0629-4a54-9bc9-a2af141ff749",
+      "net": "MODE_N",
+      "native_DRC_type": "via_dangling",
+      "other_copper_neighbours": 2,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "a9be23f7-693d-4607-908a-5ade089894f9",
+      "net": "MODE_N",
+      "native_DRC_type": "via_dangling",
+      "other_copper_neighbours": 2,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "d139b63f-8472-44bd-a414-dfd901cbb292",
+      "net": "MOTOR_PWM",
+      "native_DRC_type": "via_dangling",
+      "other_copper_neighbours": 3,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "130f42b3-61e5-4a96-a44e-4f9a5d96f832",
+      "net": "PACK_P",
+      "native_DRC_type": "track_dangling",
+      "other_copper_neighbours": 1,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "414509c7-7200-43dd-9f9a-d1fd78ed07f1",
+      "net": "POWER_SWITCH_N",
+      "native_DRC_type": "track_dangling",
+      "other_copper_neighbours": 2,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "0a8b8379-c026-4d1a-877a-eb71408cae33",
+      "net": "VBAT_ADC",
+      "native_DRC_type": "track_dangling",
+      "other_copper_neighbours": 1,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    },
+    {
+      "uuid": "d5e09f08-f622-4092-bd7d-393324765cf4",
+      "net": "VBAT_ADC",
+      "native_DRC_type": "track_dangling",
+      "other_copper_neighbours": 1,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    }
+  ],
+  "output_board_sha256": "94d877364e49f16c10c167a394a1b5c8bbe809c7d1e4e2773f0c9cda34378593",
+  "source_critical_original_protected_items_mutated": 0,
+  "native_full_DRC_required_next": true,
+  "sequential_live_graph_recomputed_after_each_edit": true
+}

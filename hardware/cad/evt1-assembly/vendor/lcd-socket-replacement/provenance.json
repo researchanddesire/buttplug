@@ -1,0 +1,141 @@
+{
+  "selected_part": {
+    "manufacturer": "JST",
+    "MPN": "27FLZ-RSM2-TB",
+    "label_suffix": "(LF)(SN)",
+    "type": "right-angle/side-entry ZIF, bottom-contact, 27 circuits, 0.5mm pitch"
+  },
+  "primary_sources": [
+    {
+      "url": "https://www.jst.com/wp-content/uploads/2025/06/eFLZ.pdf",
+      "local_reference_sha256": "3cc55340e561676e14441527ddc4b418eabb2896e8eafd99652ed68c07ef9773",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "redistributed": false
+    },
+    {
+      "url": "https://newhavendisplay.com/27-pin-surface-mount-right-angle-connector-with-0-5-mm-pitch/",
+      "role": "Display-maker exact mating accessory recommendation; not stock or universal tolerance proof"
+    }
+  ],
+  "controlled_dimensions_mm": {
+    "p3_A_contactspan": 13,
+    "p3_B_width_nominal": 19.4,
+    "p3_closed_depth_nominal": 4.6,
+    "p3_open_depth_reference": 6.4,
+    "p3_mounting_height_nominal": 2,
+    "p2_signal_pad_size": [
+      0.35,
+      1.1
+    ],
+    "p2_signal_pad_pitch": 0.5,
+    "p2_signal_pad_span": 13,
+    "p2_signal_pad_width_tolerance": 0.05,
+    "p2_signal_pad_length_tolerance": 0.1,
+    "p2_mounting_pad_size": [
+      2.1,
+      2.1
+    ],
+    "p2_mounting_pad_centres_native_xy": [
+      [
+        -8.75,
+        1.25
+      ],
+      [
+        8.75,
+        1.25
+      ]
+    ],
+    "p2_pattern_reference_notes": "All mounting pattern dimensions are reference; pad pitch \u00b1.03 and no accumulated deviation >\u00b1.05. Rear outline .15 reference gives housing rear nativeY+.4, not a stop datum.",
+    "p4_applicable_FPC_thickness": [
+      0.3,
+      0.03
+    ],
+    "p4_applicable_FPC_conductor_width": [
+      0.35,
+      0.04
+    ],
+    "p4_exposed_land_minimum": 3,
+    "p4_stiffener_length_reference": 5.5
+  },
+  "actual_display_tail": {
+    "source": "hardware/cad/evt1-assembly/vendor/display/source-manifest.json",
+    "source_sha256": "46b92be7852739e17d7f10bd88783e2926b67344b68c28542e20f879f9806886",
+    "width_mm": 14,
+    "contacts": 27,
+    "pitch_mm": 0.5,
+    "length_mm": 65,
+    "finished_thickness_mm": 0.3,
+    "finished_thickness_tolerance_mm": 0.03,
+    "land_width_nominal_mm": 0.3,
+    "exposed_land_mm": 3,
+    "exposed_land_tolerance_mm": 0.2,
+    "all_tolerance_combinations_proved_compatible": false
+  },
+  "native_frame": {
+    "origin": "signal pad-row centre at PCB front",
+    "mouth_native": [
+      0,
+      1,
+      0
+    ],
+    "marked_end_native": [
+      -1,
+      0,
+      0
+    ],
+    "native_to_dock_axes": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "dock_J302_origin_xy": [
+      0,
+      114
+    ],
+    "numbering_evidence": "Triangle-as-pin1 conventional inference; catalog has no explicit numeral1 legend. Independent peer mounting-view audit agrees handedness. Received mapping mandatory."
+  },
+  "unavailable_geometry": [
+    "loaded copper-face height",
+    "actual insertion stop",
+    "terminal/contact spring profiles",
+    "housing/latch cavities and intercontact guides",
+    "overall manufacturing maximum/tolerances beyond published dimensions"
+  ],
+  "native_reconstruction_scope": "Fully constrained solder-pattern and external dimension datum sketches only; no socket solid, box proxy or invented cavity. Real five-Body received fixture plus14 actual LCD-retention component links.",
+  "full_socket_or_case_fit_qualified": false,
+  "physical_continuity_qualified": false,
+  "full_product_order_ready": false,
+  "received_fixture_shims": {
+    "selected_stock": "CS Hyde48-2F-1-100 plain nonadhesive MylarTypeA PET",
+    "primary": "https://cshyde.com/viewitems/films/mylar-polyester-pet-film",
+    "nominal_layer_mm": 0.0508,
+    "ring_OD_ID_mm": [
+      5.2,
+      2.3
+    ],
+    "nominal_layers_2_to_29_span_mm": [
+      0.1016,
+      1.4732
+    ],
+    "measure_total_equal_stack": true,
+    "tolerance_or_creep_guaranteed": false,
+    "thin_rings_printed": false
+  }
+}

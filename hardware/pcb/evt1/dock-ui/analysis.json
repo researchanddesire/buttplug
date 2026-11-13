@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "status": "pass: arithmetic and abstract logical model only",
+  "source_sha256": {
+    "DESIGN.md": "4416a17a49d42f6711ebe0a2f356e86e0217279b5924b68f0f5b58f8e04c17fa",
+    "parts-selection.json": "af7b59a5640ee43f64bde7c5cb7dab134931abfc074355cdb623d4f7a7dc3b79",
+    "power-budget.json": "8b01070698cdf513900b2fcc2ce8afb39eeaa33762fcb6f58bd56a297a3b87fa",
+    "pin-contract.json": "a73770fd9e55eedb3f2f551ab624a1514d669ca4bcd6e901b942df56971a03e0",
+    "analyze.py": "d941aad5488138f00d6611af770e58e2f33bb9ddd1d5abc8e6833038d91496ad"
+  },
+  "calculated": {
+    "resistor_initial_tolerance_plus_TCR_bound_fraction": {
+      "UV_limit": 0.0034999999999999996,
+      "UV_LED_RSET": 0.019999999999999997
+    },
+    "legacy_default_input_allocation_mA": 80,
+    "legacy_margin_to_100mA_mA": 20,
+    "qualified_UV_limiter_min_mA": 682.5446766323497,
+    "qualified_UV_limiter_max_mA": 819.7791533482316,
+    "qualified_sum_of_branch_DC_limit_allocations_mA": 1459.7791533482316,
+    "qualified_margin_to_1p5A_mA": 40.2208466517684,
+    "LED_current_min_nom_max_mA": [
+      57.87857311599338,
+      60.2409638554217,
+      62.699778706663395
+    ],
+    "UV_output_power_design_ceiling_W": 2.0319744283255474,
+    "UV_input_design_ceiling_mA": 664.3319572485544,
+    "margin_to_minimum_UV_limiter_mA": 18.212719383795275,
+    "dock_item_allocations_sum_mA": 9.870000000000001
+  },
+  "source_control_design_bounds": {
+    "PG1_HIGH_min_V": 3.01887,
+    "PG2_HIGH_min_V": 3.22087,
+    "SOURCE_OK_HIGH_min_V": 2.933443100100096,
+    "SOURCE_OK_LOW_max_V": 0.002037,
+    "inverter_static_load_max_uA": 88.0,
+    "TUSB_initial_EN_low_min_ms": 180,
+    "status_guard_after_enable_min_ms": 180,
+    "basis": "datasheet timing/logic limits plus explicit leakage allocations; steady-state bounds only",
+    "measured_ramp_brownout_or_charge_injection": false
+  },
+  "abstract_logic": {
+    "transitions_checked": 64,
+    "fault_pending_debounce_sequences_checked": 4,
+    "minimum_UV_release_delay_ms": 180,
+    "maximum_CENTER_debounce_ms": 80,
+    "no_clock_on_fault_recovery": true,
+    "held_button_or_pending_press_cannot_restart_in_model": true
+  },
+  "verified_full_dock_native_schematic": false,
+  "native_source_sheet_report": "native-checks.json; independently enforced by check_source.py",
+  "verified_native_PCB": false,
+  "verified_firmware": false,
+  "powered_source_or_safety_measurements": false,
+  "UV_optical_or_cleaning_validation": false,
+  "full_product_order_ready": false,
+  "limits": [
+    "Boolean model assumes ideal gates/flipflops and specified debounce/supervisor timings",
+    "No switch/FET single-fault certification or analogue transient simulation",
+    "10mA dock overhead and conversion/Vf assumptions remain measured acceptance gates",
+    "USB suspend and inrush behavior require implementation and testing",
+    "Resistor bounds include initial tolerance and TCR through 100K film-temperature departure, not long-term drift"
+  ]
+}

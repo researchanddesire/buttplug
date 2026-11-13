@@ -1,0 +1,52 @@
+{
+  "status": "FROZEN native source-power/critical-copper block for single shared base PCB",
+  "board_sha256": "169e8ffcf01e1f8fb1d7ca17fe671aa68447dc1f0c316165d1fc63d938ca1038",
+  "files_sha256": {
+    "README.md": "e04ef2625c86a984d836dfa520c614a125ab87f7a0fb210391cd941820994253",
+    "SourceBlock.pretty/C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+    "SourceBlock.pretty/C_0603_1608Metric.kicad_mod": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6",
+    "SourceBlock.pretty/Contact_Loom_4Land.kicad_mod": "a481ef0ee095f7627f623ac9f284f6641ec13cb32d030dece9cbb2621e2f644f",
+    "SourceBlock.pretty/Control_Loom_10Land.kicad_mod": "b0ebe7302e184e6f5e531b61043ffc78e318fba2929863c2d01132136118c0af",
+    "SourceBlock.pretty/Control_Loom_3Land.kicad_mod": "4a5f99473183042ea520a9be12772e12bed3ca9970365e59efed117bf5150fcc",
+    "SourceBlock.pretty/R_0603_1608Metric.kicad_mod": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4",
+    "SourceBlock.pretty/SOT-23-6.kicad_mod": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97",
+    "SourceBlock.pretty/SOT-23.kicad_mod": "7840e31dbf5d8c9a047e25e8c69951e6c3792e0d4d316642c2832be29923c42f",
+    "SourceBlock.pretty/SOT-363_SC-70-6.kicad_mod": "bf06bb9583c40562265e319ac36c73b6150587a3148fd28145b5f1b70f0ce9d7",
+    "SourceBlock.pretty/TSOT-23-5.kicad_mod": "a6ba2bd4b67d10b05fd36c6e6b9885defdf4c9c42f2f7c4842bc94d63cf8a4a3",
+    "SourceBlock.pretty/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.kicad_mod": "2abf2bb4b1110202e15b132c53544bef68c4a56c1fc1b0bdcd5f1fa536190e8d",
+    "SourceBlock.pretty/Texas_YBH0006-C02_DSBGA-6_1.106x0.706mm_P0.4mm.kicad_mod": "6554e73e754ce23b557d44ec444c6da39b5bb428ec96807afc5a2465b652e70f",
+    "SourceBlock.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod": "fd669893a4ca0b98aa41f46bbda39dcc1ba336b4da221e08dddaf2f28937cfe8",
+    "build.py": "d8378e2b86b7152673aab7774da75b58c842cc0ac3df686ad96214549e460a9a",
+    "check.py": "79a33202f42f78a1eb3c07bd7d035994a02f0edcec4eee9cdc72d95b78416488",
+    "checks.json": "8ef3de8a261677e7ed9b0ce9dbc458ce34ae456ad84465e4a692616bfc429f6f",
+    "drc.json": "1c84101733b8d733f12055fedeacea3cc34ad0441613d63113983bfb3fd67bf2",
+    "fill.py": "98ca381bba5863b50b7fdbabf52a93a550a41e76b6dd588e72b125db5b5c14f9",
+    "fp-lib-table": "73f8b0d7fe081d383f721482d9faba0750ec5a930f62422c34c4b72f16d0f070",
+    "placement.json": "dacb1ec032e48724150969ebbde66b100935a381839a38120bbdb50010e4867d",
+    "provenance.json": "2d5f8fe2f6d915068ef9f1aae3b77f418c5a362aa243a953317c2bd3121a39bc",
+    "source-block-review.png": "d52d3392f26d249a4720487bfc9125f64993ebcbc956729d6b4f4666033ea469",
+    "source-block-review.svg": "89b47da44be2fe496b4421c31824f1da424a04af78c9a77a864d609965a6947a",
+    "source-block.kicad_pcb": "169e8ffcf01e1f8fb1d7ca17fe671aa68447dc1f0c316165d1fc63d938ca1038",
+    "source-block.kicad_pro": "e4fc31bd7eff2dfb574ccedf344c29ab1716f0498f310bcf310bf5568c8c04c2"
+  },
+  "review_plot": "source-block-review.png",
+  "native_DRC": {
+    "version": "10.0.8",
+    "violations": 0,
+    "exclusions": 0,
+    "unconnected_groups": 73
+  },
+  "source_circuit_refs": 48,
+  "source_pad_instances": 173,
+  "mechanical_NPTH_refs": [
+    "H101",
+    "H102",
+    "H103",
+    "H104"
+  ],
+  "locked_track_via_count": 192,
+  "physically_connected_native_groups": 12,
+  "routing_complete": false,
+  "fabrication_release": false,
+  "powered_or_physical_result": false
+}

@@ -1,0 +1,628 @@
+{
+  "status": "engineering saved-final-copper study; physical acceptance pending",
+  "native_board_sha256": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+  "grid_metadata_sha256": "cf9cafa6e30fdd3e5a7228cc417f7a07896952bad69f604ee3285350e0174129",
+  "rho20_ohm_mm": 1.7241e-05,
+  "temperature_coefficient_per_K": 0.0039,
+  "rho_at85C_ohm_mm": 2.16115935e-05,
+  "primary_reference": "https://www.ti.com/lit/pdf/slua236 DN71; commercially annealed copper constants and R=rho*L/(w*t)",
+  "reference_is_not_a_fabricator_guarantee": true,
+  "sheet_solver_source_sha256": "bb4aad6bf66e5b2493fedbc55613ae19c85504331e6379072bb45f0d087298d8",
+  "analytic_rectangle_benchmark": "81x40 cell full-edge contacts gives exactly2.0squares, error<1e-8",
+  "fixed_surface_roles_and_squares": {
+    "UV limiter input loop": 2.823589249519129,
+    "UV limiter input access": 2.051845375374188,
+    "UV limited export": 7.497364124251941,
+    "UV cut input trunk": 4.416666666666668,
+    "cut A input neck": 4.312499999999995,
+    "cut A output neck": 2.312499999999993,
+    "two cut local link": 0.20000000000000284,
+    "cut B input neck": 2.312499999999993,
+    "cut B output neck": 3.0625000000000036
+  },
+  "solutions": {
+    "HOST-VIN": {
+      "grid_mm": 0.125,
+      "active_unknown_cells": 80413,
+      "iterations": 2980,
+      "relative_residual": 9.91721577356e-10,
+      "sheet_squares": 4.49253151481,
+      "source_current_fractions": [
+        [
+          40892,
+          0.0584553789951
+        ],
+        [
+          40893,
+          0.0771568950341
+        ],
+        [
+          40930,
+          0.147828711838
+        ],
+        [
+          40931,
+          0.106325652283
+        ],
+        [
+          41580,
+          0.103177757064
+        ],
+        [
+          41581,
+          0.110975281943
+        ],
+        [
+          41618,
+          0.211870103557
+        ],
+        [
+          41619,
+          0.184210219286
+        ]
+      ],
+      "sink_current_fractions": [
+        [
+          148414,
+          0.261338174088
+        ],
+        [
+          148415,
+          0.249681584635
+        ],
+        [
+          149102,
+          0.250433522848
+        ],
+        [
+          149103,
+          0.238546709888
+        ]
+      ],
+      "feed_via_current_fractions": [
+        0.3497653130362,
+        0.650234686964
+      ],
+      "sink_via_current_fractions": [
+        0.999999991459
+      ]
+    },
+    "UV-BASE": {
+      "grid_mm": 0.125,
+      "active_unknown_cells": 29974,
+      "iterations": 1486,
+      "relative_residual": 9.61908259437e-10,
+      "sheet_squares": 6.75449521915,
+      "source_current_fractions": [
+        [
+          2117,
+          -1.56129099052e-11
+        ],
+        [
+          2118,
+          0.071832470154
+        ],
+        [
+          2276,
+          0.0173603678621
+        ],
+        [
+          2277,
+          0
+        ],
+        [
+          2278,
+          0.11759537507
+        ],
+        [
+          2437,
+          0.0849187769803
+        ],
+        [
+          3236,
+          0.105010183522
+        ],
+        [
+          3237,
+          0.031296783539
+        ],
+        [
+          3238,
+          0.159894202232
+        ],
+        [
+          3397,
+          0.161475794189
+        ],
+        [
+          3398,
+          0.250616046466
+        ]
+      ],
+      "sink_current_fractions": [
+        [
+          40818,
+          0.0977746917687
+        ],
+        [
+          40819,
+          0.153893908161
+        ],
+        [
+          40978,
+          0.0680676863364
+        ],
+        [
+          40979,
+          0.122257206182
+        ],
+        [
+          41618,
+          0.0819554076078
+        ],
+        [
+          41619,
+          0.130436988479
+        ],
+        [
+          41778,
+          0.150496492021
+        ],
+        [
+          41779,
+          0.195117630539
+        ]
+      ],
+      "feed_via_current_fractions": [
+        0.2917069900507871,
+        0.7082930099479999
+      ],
+      "sink_via_current_fractions": [
+        0.4419934924481,
+        0.5580065186468
+      ]
+    },
+    "UV-LID": {
+      "grid_mm": 0.125,
+      "active_unknown_cells": 29973,
+      "iterations": 1504,
+      "relative_residual": 9.93400217206e-10,
+      "sheet_squares": 6.81861331901,
+      "source_current_fractions": [
+        [
+          2117,
+          1.59503724264e-11
+        ],
+        [
+          2118,
+          0.0718734021086
+        ],
+        [
+          2276,
+          0.0173652780918
+        ],
+        [
+          2277,
+          0
+        ],
+        [
+          2278,
+          0.117658045361
+        ],
+        [
+          2437,
+          0.084955761756
+        ],
+        [
+          3236,
+          0.104968971731
+        ],
+        [
+          3237,
+          0.031306380222
+        ],
+        [
+          3238,
+          0.159928897156
+        ],
+        [
+          3397,
+          0.161383214581
+        ],
+        [
+          3398,
+          0.250560048976
+        ]
+      ],
+      "sink_current_fractions": [
+        [
+          45097,
+          0.27810261352
+        ],
+        [
+          45098,
+          0.269142579627
+        ],
+        [
+          45257,
+          0.108627885773
+        ],
+        [
+          45258,
+          0.07795664934
+        ],
+        [
+          45418,
+          0.114397465676
+        ],
+        [
+          45897,
+          0.0607868413981
+        ],
+        [
+          45898,
+          0.04373926659
+        ],
+        [
+          46057,
+          0.0472466905853
+        ],
+        [
+          46058,
+          0
+        ]
+      ],
+      "feed_via_current_fractions": [
+        0.2918524873333504,
+        0.708147512666
+      ],
+      "sink_via_current_fractions": [
+        0.848227193936,
+        0.15177279857339998
+      ]
+    },
+    "GND-BASE": {
+      "grid_mm": 0.125,
+      "active_unknown_cells": 358544,
+      "iterations": 3684,
+      "relative_residual": 9.93114763505e-10,
+      "sheet_squares": 2.48093136019,
+      "source_current_fractions": [
+        [
+          45669,
+          0.111723894338
+        ],
+        [
+          45670,
+          0.0402127034475
+        ],
+        [
+          45671,
+          0.0635853760211
+        ],
+        [
+          45720,
+          0.0685841737222
+        ],
+        [
+          45721,
+          0.0436639565
+        ],
+        [
+          45722,
+          0.121400176544
+        ],
+        [
+          46437,
+          0.129452653104
+        ],
+        [
+          46438,
+          0.0544111829231
+        ],
+        [
+          46439,
+          0.0831101416122
+        ],
+        [
+          46488,
+          0.0873987777599
+        ],
+        [
+          46489,
+          0.0575067286609
+        ],
+        [
+          46490,
+          0.138950235366
+        ]
+      ],
+      "sink_current_fractions": [
+        [
+          380776,
+          0.16730940678
+        ],
+        [
+          380777,
+          0.151950348562
+        ],
+        [
+          381544,
+          0.106538980349
+        ],
+        [
+          381545,
+          0.0878678941805
+        ],
+        [
+          384616,
+          0.103815713686
+        ],
+        [
+          384617,
+          0.0854758801232
+        ],
+        [
+          385384,
+          0.155950496139
+        ],
+        [
+          385385,
+          0.141091283531
+        ]
+      ],
+      "feed_via_current_fractions": [
+        0.48249595144589996,
+        0.517504048553
+      ],
+      "sink_via_current_fractions": [
+        0.5136666298715,
+        0.4863333734792
+      ]
+    },
+    "GND-LID": {
+      "grid_mm": 0.125,
+      "active_unknown_cells": 358543,
+      "iterations": 3653,
+      "relative_residual": 9.98783160259e-10,
+      "sheet_squares": 2.98928588501,
+      "source_current_fractions": [
+        [
+          45669,
+          0.111251478055
+        ],
+        [
+          45670,
+          0.0400704486465
+        ],
+        [
+          45671,
+          0.0633755877325
+        ],
+        [
+          45720,
+          0.0688116703038
+        ],
+        [
+          45721,
+          0.0438238567349
+        ],
+        [
+          45722,
+          0.121911134007
+        ],
+        [
+          46437,
+          0.128869880368
+        ],
+        [
+          46438,
+          0.0541815791744
+        ],
+        [
+          46439,
+          0.0827809615596
+        ],
+        [
+          46488,
+          0.0876871468675
+        ],
+        [
+          46489,
+          0.0577130666472
+        ],
+        [
+          46490,
+          0.139523189904
+        ]
+      ],
+      "sink_current_fractions": [
+        [
+          400863,
+          0.169672736143
+        ],
+        [
+          400864,
+          0.145308447761
+        ],
+        [
+          401631,
+          0.0955219110911
+        ],
+        [
+          401632,
+          0.044358701565
+        ],
+        [
+          402400,
+          0.0953114514194
+        ],
+        [
+          404703,
+          0.0996971219918
+        ],
+        [
+          404704,
+          0.0701473167274
+        ],
+        [
+          405471,
+          0.152506210953
+        ],
+        [
+          405472,
+          0.127476107074
+        ]
+      ],
+      "feed_via_current_fractions": [
+        0.48052993553600004,
+        0.5194700644644
+      ],
+      "sink_via_current_fractions": [
+        0.5501732479795,
+        0.4498267567462
+      ]
+    }
+  },
+  "cases": [
+    {
+      "branch": "BASE",
+      "finished_outer_inner_copper_min_mm": [
+        0.035,
+        0.035
+      ],
+      "plated_via_wall_min_mm": 0.025,
+      "full_via_length_mm": 1,
+      "via_finished_bore_mm": 0.2,
+      "temperature_C": 85,
+      "sheet_squares_sum": 13.727958094149999,
+      "native_sheet_resistance_ohm": 0.008476658569022985,
+      "surface_path_squares": 37.932772513951406,
+      "nominal_surface_path_R_ohm": 0.02342250456855688,
+      "surface_width_retention_sensitivity": 0.8,
+      "surface_R_at80pct_width_ohm": 0.0292781307106961,
+      "barrel_trial_flow_sum_f_squared": 3.6396287407725936,
+      "barrel_R_sum_ohm": 0.005007535063249787,
+      "engineering_spreading_model_reserve_ohm": 0.003,
+      "estimated_path_R_with_width_loss_and_reserve_ohm": 0.045762324342968876,
+      "margin_to50mOhm_ohm": 0.004237675657031127,
+      "sensitivity_R_at_0p15mm_finished_bore_ohm": 0.04743150269738547,
+      "sensitivity_R_at_0p15mm_bore_and_0p030mm_inner_Cu_ohm": 0.048844279125555966,
+      "drop_if_entire_path_carries_full_qualified1p484444A_V": 0.0679316265856861
+    },
+    {
+      "branch": "BASE",
+      "finished_outer_inner_copper_min_mm": [
+        0.035,
+        0.035
+      ],
+      "plated_via_wall_min_mm": 0.018,
+      "full_via_length_mm": 1,
+      "via_finished_bore_mm": 0.2,
+      "temperature_C": 85,
+      "sheet_squares_sum": 13.727958094149999,
+      "native_sheet_resistance_ohm": 0.008476658569022985,
+      "surface_path_squares": 37.932772513951406,
+      "nominal_surface_path_R_ohm": 0.02342250456855688,
+      "surface_width_retention_sensitivity": 0.8,
+      "surface_R_at80pct_width_ohm": 0.0292781307106961,
+      "barrel_trial_flow_sum_f_squared": 3.6396287407725936,
+      "barrel_R_sum_ohm": 0.00695490981006915,
+      "engineering_spreading_model_reserve_ohm": 0.003,
+      "estimated_path_R_with_width_loss_and_reserve_ohm": 0.04770969908978824,
+      "margin_to50mOhm_ohm": 0.002290300910211762,
+      "sensitivity_R_at_0p15mm_finished_bore_ohm": 0.050028002359811294,
+      "sensitivity_R_at_0p15mm_bore_and_0p030mm_inner_Cu_ohm": 0.05144077878798179,
+      "drop_if_entire_path_carries_full_qualified1p484444A_V": 0.07082239614389046
+    },
+    {
+      "branch": "LID",
+      "finished_outer_inner_copper_min_mm": [
+        0.035,
+        0.035
+      ],
+      "plated_via_wall_min_mm": 0.025,
+      "full_via_length_mm": 1,
+      "via_finished_bore_mm": 0.2,
+      "temperature_C": 85,
+      "sheet_squares_sum": 14.300430718829999,
+      "native_sheet_resistance_ohm": 0.008830145587721905,
+      "surface_path_squares": 36.3658094366667,
+      "nominal_surface_path_R_ohm": 0.022454945452677278,
+      "surface_width_retention_sensitivity": 0.8,
+      "surface_R_at80pct_width_ohm": 0.028068681815846597,
+      "barrel_trial_flow_sum_f_squared": 3.880108932009528,
+      "barrel_R_sum_ohm": 0.005338396553639145,
+      "engineering_spreading_model_reserve_ohm": 0.003,
+      "estimated_path_R_with_width_loss_and_reserve_ohm": 0.045237223957207646,
+      "margin_to50mOhm_ohm": 0.004762776042792356,
+      "sensitivity_R_at_0p15mm_finished_bore_ohm": 0.047016689475087366,
+      "sensitivity_R_at_0p15mm_bore_and_0p030mm_inner_Cu_ohm": 0.04848838040637435,
+      "drop_if_entire_path_carries_full_qualified1p484444A_V": 0.06715214425305385
+    },
+    {
+      "branch": "LID",
+      "finished_outer_inner_copper_min_mm": [
+        0.035,
+        0.035
+      ],
+      "plated_via_wall_min_mm": 0.018,
+      "full_via_length_mm": 1,
+      "via_finished_bore_mm": 0.2,
+      "temperature_C": 85,
+      "sheet_squares_sum": 14.300430718829999,
+      "native_sheet_resistance_ohm": 0.008830145587721905,
+      "surface_path_squares": 36.3658094366667,
+      "nominal_surface_path_R_ohm": 0.022454945452677278,
+      "surface_width_retention_sensitivity": 0.8,
+      "surface_R_at80pct_width_ohm": 0.028068681815846597,
+      "barrel_trial_flow_sum_f_squared": 3.880108932009528,
+      "barrel_R_sum_ohm": 0.007414439657832147,
+      "engineering_spreading_model_reserve_ohm": 0.003,
+      "estimated_path_R_with_width_loss_and_reserve_ohm": 0.04731326706140065,
+      "margin_to50mOhm_ohm": 0.002686732938599355,
+      "sensitivity_R_at_0p15mm_finished_bore_ohm": 0.0497847469473447,
+      "sensitivity_R_at_0p15mm_bore_and_0p030mm_inner_Cu_ohm": 0.05125643787863168,
+      "drop_if_entire_path_carries_full_qualified1p484444A_V": 0.07023391483517892
+    }
+  ],
+  "requested_fabrication_minimum_corner_cases": [
+    {
+      "branch": "BASE",
+      "outer_Cu_min_mm": 0.035,
+      "inner_Cu_min_mm": 0.03,
+      "via_finished_bore_min_mm": 0.15,
+      "via_wall_min_mm": 0.025,
+      "temperature_C": 85,
+      "surface_width_retention": 0.8,
+      "engineering_model_reserve_ohm": 0.003,
+      "estimated_common_PCB_R_ohm": 0.048844279125555966,
+      "margin_to50mOhm_ohm": 0.001155720874444037
+    },
+    {
+      "branch": "LID",
+      "outer_Cu_min_mm": 0.035,
+      "inner_Cu_min_mm": 0.03,
+      "via_finished_bore_min_mm": 0.15,
+      "via_wall_min_mm": 0.025,
+      "temperature_C": 85,
+      "surface_width_retention": 0.8,
+      "engineering_model_reserve_ohm": 0.003,
+      "estimated_common_PCB_R_ohm": 0.04848838040637435,
+      "margin_to50mOhm_ohm": 0.0015116195936256543
+    }
+  ],
+  "supplier_acceptance": false,
+  "boundary": "J101 VBUS/GND lands to J621/J622 supply+return lands, through U105/U610/U611 copper; excludes semiconductorRON and separately allocated matedGH/crimp/wire/UVboard branches",
+  "conservative_omissions": [
+    "Other parallel copper layers and explicit tracks parallel to filled planes are uncredited",
+    "Every via uses full1mm barrel despite intermediate-layer connection",
+    "Complete PCB R is charged at full qualified source current, including device/UI/contactloops, although downstream UV portions carry less"
+  ],
+  "limitations": [
+    "Native plane retained-cell discretization and clamped via-contact approximations are engineering models, not certified upper bounds",
+    "3mOhm allowance is not a measured annular-spreading/process error bound",
+    "Finished Cu/width/plating and actual hot-aged complete path<=50mOhm require fabricator and physical qualification"
+  ],
+  "physical_validation": false
+}

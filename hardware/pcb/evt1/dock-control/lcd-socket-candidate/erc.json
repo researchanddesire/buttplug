@@ -1,0 +1,503 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T21:40:04",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/0561b069-d9fc-59b0-ae52-5774770aaf10",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol LCD301 Pin 13 [VDD, Power input, Line]",
+                            "pos": {
+                                "x": 63.5,
+                                "y": 142.24
+                            },
+                            "uuid": "5daf89f3-ea23-570a-ad4c-5753fd9427bf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol LCD301 Pin 14 [VSS, Power input, Line]",
+                            "pos": {
+                                "x": 63.5,
+                                "y": 147.32
+                            },
+                            "uuid": "5bf0b3a4-a69e-5851-a44c-beb8956eb29a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C301 [C]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 213.36
+                            },
+                            "uuid": "e744bba2-edfa-595b-ae0b-7d6c31819da4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C306 [C]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 256.54
+                            },
+                            "uuid": "a79e628c-1316-5cd7-8664-fc7bff816399"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R301 [R]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 304.8
+                            },
+                            "uuid": "87402947-a1d4-57ce-9692-6cf7d7985885"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R305 [R]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 350.52
+                            },
+                            "uuid": "830bac44-d4de-50f9-b44e-07d59632181c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R311 [R]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 393.7
+                            },
+                            "uuid": "d8a3c3ee-b0a9-5aa5-8a2c-d22c78b0cff7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol LCD301 [NHD_C12864B2Z]",
+                            "pos": {
+                                "x": 83.82,
+                                "y": 114.3
+                            },
+                            "uuid": "67bc4dd0-0f54-582b-93bd-e25fee5fc95b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C302 [C]",
+                            "pos": {
+                                "x": 129.54,
+                                "y": 213.36
+                            },
+                            "uuid": "e92749a2-caff-5dad-a0ce-95419495aecf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C307 [C]",
+                            "pos": {
+                                "x": 129.54,
+                                "y": 256.54
+                            },
+                            "uuid": "e66edac6-5cec-5bff-b29f-329e4c6a1226"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R302 [R]",
+                            "pos": {
+                                "x": 129.54,
+                                "y": 304.8
+                            },
+                            "uuid": "685de78a-701e-55fd-8f2c-6925cc9c913d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R306 [R]",
+                            "pos": {
+                                "x": 129.54,
+                                "y": 350.52
+                            },
+                            "uuid": "960a30a5-dae2-5969-880d-1dcc424b7eea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R312 [R]",
+                            "pos": {
+                                "x": 129.54,
+                                "y": 393.7
+                            },
+                            "uuid": "3101e838-69ca-54f9-aaa0-3615fb9bf091"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C303 [C]",
+                            "pos": {
+                                "x": 218.44,
+                                "y": 213.36
+                            },
+                            "uuid": "d26043c7-5dc5-5741-ba56-dc5c39303e7d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C308 [C]",
+                            "pos": {
+                                "x": 218.44,
+                                "y": 256.54
+                            },
+                            "uuid": "92ac81b5-07de-533b-bcfb-d32b0d5559df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R303 [R]",
+                            "pos": {
+                                "x": 218.44,
+                                "y": 304.8
+                            },
+                            "uuid": "d3c45151-11fc-5cac-a959-a696aed24c7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R307 [R]",
+                            "pos": {
+                                "x": 218.44,
+                                "y": 350.52
+                            },
+                            "uuid": "8511a220-1b19-5b6c-8446-304b05292fa0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol J302 [JST_27FLZ_RSM2_TB]",
+                            "pos": {
+                                "x": 231.14,
+                                "y": 114.3
+                            },
+                            "uuid": "47fa984c-be04-5927-9e47-2b3183bd3c7d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C304 [C]",
+                            "pos": {
+                                "x": 307.34,
+                                "y": 213.36
+                            },
+                            "uuid": "0b118a25-aadd-5b90-91c7-4aa364902c1f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C309 [C]",
+                            "pos": {
+                                "x": 307.34,
+                                "y": 256.54
+                            },
+                            "uuid": "f15f5e52-957c-5efe-804d-451ff64db6bf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R304 [R]",
+                            "pos": {
+                                "x": 307.34,
+                                "y": 304.8
+                            },
+                            "uuid": "77b526ba-05bd-51d4-901d-b105fe46dbd9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R308 [R]",
+                            "pos": {
+                                "x": 307.34,
+                                "y": 350.52
+                            },
+                            "uuid": "ad51de99-9d5b-536e-9a11-0f2c1905fd47"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol J301 [FH12_20_BOTTOM]",
+                            "pos": {
+                                "x": 383.54,
+                                "y": 114.3
+                            },
+                            "uuid": "aeeb2d0e-9938-5fe4-bb60-0d8acd631a7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C305 [C]",
+                            "pos": {
+                                "x": 396.24,
+                                "y": 213.36
+                            },
+                            "uuid": "27dc6bbe-d693-55f7-8e5f-70ff60c86f32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C310 [C]",
+                            "pos": {
+                                "x": 396.24,
+                                "y": 256.54
+                            },
+                            "uuid": "2bc50e86-250b-5219-9578-fcbcb0110f0c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R309 [R]",
+                            "pos": {
+                                "x": 396.24,
+                                "y": 350.52
+                            },
+                            "uuid": "690c013a-2311-5914-89f4-3a27a4ad8a3c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol S301 [SW]",
+                            "pos": {
+                                "x": 459.74,
+                                "y": 114.3
+                            },
+                            "uuid": "e5bd6c26-afa2-5832-b34e-eb9a39ac335b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol C311 [C]",
+                            "pos": {
+                                "x": 485.14,
+                                "y": 256.54
+                            },
+                            "uuid": "d1b95172-bd1a-50e5-9f54-eddd08d3f097"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol R310 [R]",
+                            "pos": {
+                                "x": 485.14,
+                                "y": 350.52
+                            },
+                            "uuid": "461d044d-831a-5300-a568-fe297f09be92"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol S302 [SW]",
+                            "pos": {
+                                "x": 505.46,
+                                "y": 114.3
+                            },
+                            "uuid": "dae47ff6-7bbc-507d-b4a1-c38cb692da11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'DockControl'",
+                    "items": [
+                        {
+                            "description": "Symbol S303 [SW]",
+                            "pos": {
+                                "x": 551.18,
+                                "y": 114.3
+                            },
+                            "uuid": "66711733-36de-5eb1-82b6-2dee55dfbff1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "dock-lid-ui.kicad_sch"
+}

@@ -1,0 +1,338 @@
+{
+  "status": "Native circuit candidate; original69 footprint poses/artwork preserved; placement/routing pending",
+  "builder_sha256": "8173b6d84126b936a5b5a02cbf120ea836edb4be10a03a43612ea8ff72291250",
+  "source_inputs_sha256": {
+    "hardware/pcb/evt1/single-flange-routing/sheets/01-power.kicad_sch": "3daea1ed1bfce72e6875739597d24d36d157d618dd9aa1f4603d14b667827b94",
+    "hardware/pcb/evt1/single-flange-routing/sheets/03-control.kicad_sch": "f2cb4759a78c7906e7e4b040d8c155a6cc4047656c201e63d7c03f2a8e9cbeb0",
+    "hardware/pcb/evt1/single-flange-routing/sheets/04-targets.kicad_sch": "e7a92930d38da5c58dc1f9fafb23218124a9b0c2e9a3ea6e3553dac5892d4174",
+    "hardware/pcb/evt1/single-flange-routing/sheets/06-interboard.kicad_sch": "bc8812252c87e87ced9fa307a68a4c8d3dd7ba89dea89a0aecfd3c877700772b",
+    "hardware/pcb/evt1/single-flange-routing/sheets/07-recovery.kicad_sch": "3e25a90390f1fc66627790a60db2bff81c3ef534ac34b2c00fc0385ac4edd023",
+    "hardware/pcb/evt1/single-flange-routing/sheets/08-compass.kicad_sch": "49ee7f06c318fc68c36fa48cbb4fc7bf862d6a9aaa354999626232333c8df713",
+    "hardware/pcb/evt1/single-flange-routing/single-flange.kicad_sch": "9d9f7d2ae18ab07fb8fcdb99ec2d7e7ab812e1d4dacb18f81505a07ed8afddf6",
+    "hardware/pcb/evt1/body/01-power.kicad_sch": "7df99f13e91ef7bb0ddcdf6dab2a70ef7afc8f72afce0907b9f634e50ca2be08",
+    "hardware/pcb/evt1/body/02-motor.kicad_sch": "8dafe8579c6dce347d6965269b0c1588911936a51a3ec70db935886872ce96d1",
+    "hardware/pcb/evt1/body/04-sensors.kicad_sch": "562626eb8ea093d1e375a8288ca83005ccb2f4aeb7e0511c1ab5c421d5e9ab48",
+    "hardware/pcb/evt1/body/05-charge-guard.kicad_sch": "399db55afdee82fa7a511fad911bcea51af7b9ce0f809e0c150db03facb4e3c8",
+    "hardware/pcb/evt1/body/06-interboard.kicad_sch": "ef113cc432083bea6d9937cbe17c98d71e785a2c386343d1c4fb7abc85b6d933",
+    "hardware/pcb/evt1/body/body-evt1.kicad_sch": "696df5c18e692976f01d744d257e91fd4d6c3ecc9e190be66953d5a28db5302d",
+    "hardware/pcb/evt1/external-04-sensors.kicad_sch": "acab98582bcf27539a358ee433e09ad2f65f910deb5850534f37bda38dadf373",
+    "hardware/pcb/evt1/external-05-charge-guard.kicad_sch": "ebcf2b4a189c25ee55749a5e6c84d63a4bec7830393e20d663d8815c9107ecac"
+  },
+  "retained_body_positions": 69,
+  "new_positions": 21,
+  "candidate_body_positions": 90,
+  "intended_existing_terminal_delta": {
+    "U7.6": {
+      "from": "GND",
+      "to": "CHARGE_CURRENT_ADC"
+    },
+    "U7.7": {
+      "from": "GND",
+      "to": "CHARGE_TS_ADC"
+    }
+  },
+  "new_tap_branches": [
+    "CHG_ISET",
+    "PACK_NTC",
+    "CHARGE_CE_N",
+    "CHARGE_STATUS_N",
+    "3V3",
+    "GND",
+    "I2C_SCL",
+    "I2C_SDA"
+  ],
+  "original_body_artwork_sha256": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367",
+  "frozen_flange_artwork_sha256": "b03c5ad9541e2e10d8a9097ae05d14ded36d2ebb1534d0a0c33b38f99a64f2b1",
+  "new_parts": [
+    {
+      "ref": "R801",
+      "mpn": "CRCW040210M0FKED",
+      "value": "10M1%100ppm",
+      "footprint": "Telemetry:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "CHG_ISET",
+        "2": "ISET_TAP_MID"
+      }
+    },
+    {
+      "ref": "R802",
+      "mpn": "CRCW040210M0FKED",
+      "value": "10M1%100ppm",
+      "footprint": "Telemetry:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "ISET_TAP_MID",
+        "2": "ISET_FILTER"
+      }
+    },
+    {
+      "ref": "C807",
+      "mpn": "C1005C0G1H102J050BA",
+      "value": "1nF50V C0G5%",
+      "footprint": "Telemetry:C_0402_1005Metric",
+      "manufacturer_source": "https://product.tdk.com/",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "ISET_FILTER",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "U802",
+      "mpn": "OPA391DCKR",
+      "value": "OPA391DCKR",
+      "footprint": "Telemetry:SOT-353_SC-70-5",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/opa391.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "ISET_FILTER",
+        "3": "ISET_BUF",
+        "4": "ISET_BUF",
+        "5": "3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R805",
+      "mpn": "CRCW04021K00FKED",
+      "value": "1k1%",
+      "footprint": "Telemetry:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "ISET_BUF",
+        "2": "CHARGE_CURRENT_ADC"
+      }
+    },
+    {
+      "ref": "C805",
+      "mpn": "C1005X7R1C104K050BC",
+      "value": "100nF16V X7R10%",
+      "footprint": "Telemetry:C_0402_1005Metric",
+      "manufacturer_source": "https://product.tdk.com/",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "CHARGE_CURRENT_ADC",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C802",
+      "mpn": "C1005X7R1C104K050BC",
+      "value": "100nF16V X7R10%",
+      "footprint": "Telemetry:C_0402_1005Metric",
+      "manufacturer_source": "https://product.tdk.com/",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R803",
+      "mpn": "CRCW040210M0FKED",
+      "value": "10M1%100ppm",
+      "footprint": "Telemetry:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "PACK_NTC",
+        "2": "TS_TAP_MID"
+      }
+    },
+    {
+      "ref": "R804",
+      "mpn": "CRCW040210M0FKED",
+      "value": "10M1%100ppm",
+      "footprint": "Telemetry:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "TS_TAP_MID",
+        "2": "TS_FILTER"
+      }
+    },
+    {
+      "ref": "C808",
+      "mpn": "C1005C0G1H102J050BA",
+      "value": "1nF50V C0G5%",
+      "footprint": "Telemetry:C_0402_1005Metric",
+      "manufacturer_source": "https://product.tdk.com/",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "TS_FILTER",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "U803",
+      "mpn": "OPA391DCKR",
+      "value": "OPA391DCKR",
+      "footprint": "Telemetry:SOT-353_SC-70-5",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/opa391.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "TS_FILTER",
+        "3": "TS_BUF",
+        "4": "TS_BUF",
+        "5": "3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R806",
+      "mpn": "CRCW04021K00FKED",
+      "value": "1k1%",
+      "footprint": "Telemetry:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "TS_BUF",
+        "2": "CHARGE_TS_ADC"
+      }
+    },
+    {
+      "ref": "C806",
+      "mpn": "C1005X7R1C104K050BC",
+      "value": "100nF16V X7R10%",
+      "footprint": "Telemetry:C_0402_1005Metric",
+      "manufacturer_source": "https://product.tdk.com/",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "CHARGE_TS_ADC",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C803",
+      "mpn": "C1005X7R1C104K050BC",
+      "value": "100nF16V X7R10%",
+      "footprint": "Telemetry:C_0402_1005Metric",
+      "manufacturer_source": "https://product.tdk.com/",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "U801",
+      "mpn": "TCA9536DTMR",
+      "value": "TCA9536DTMR",
+      "footprint": "Telemetry:TI_DTM0008A",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tca9536.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "CHG_SENSE_N",
+        "8": "CE_ALLOWED_SENSE",
+        "2": null,
+        "4": null,
+        "5": "I2C_SCL",
+        "6": "I2C_SDA",
+        "7": "3V3",
+        "3": "GND"
+      }
+    },
+    {
+      "ref": "U804",
+      "mpn": "SN74LVC1G14DCKR",
+      "value": "SN74LVC1G14DCKR",
+      "footprint": "Telemetry:SOT-353_SC-70-5",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": null,
+        "2": "CE_FILTER_INPUT",
+        "3": "GND",
+        "4": "CE_ALLOWED_RAW",
+        "5": "3V3"
+      }
+    },
+    {
+      "ref": "R807",
+      "mpn": "CRCW040222K0FKED",
+      "value": "22k1%",
+      "footprint": "Telemetry:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "CHARGE_CE_N",
+        "2": "CE_FILTER_INPUT"
+      }
+    },
+    {
+      "ref": "R808",
+      "mpn": "CRCW04024K70FKED",
+      "value": "4.7k1%",
+      "footprint": "Telemetry:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "CE_ALLOWED_RAW",
+        "2": "CE_ALLOWED_SENSE"
+      }
+    },
+    {
+      "ref": "R809",
+      "mpn": "CRCW04024K70FKED",
+      "value": "4.7k1%",
+      "footprint": "Telemetry:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "CHARGE_STATUS_N",
+        "2": "CHG_SENSE_N"
+      }
+    },
+    {
+      "ref": "C801",
+      "mpn": "C1005X7R1C104K050BC",
+      "value": "100nF16V X7R10%",
+      "footprint": "Telemetry:C_0402_1005Metric",
+      "manufacturer_source": "https://product.tdk.com/",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C804",
+      "mpn": "C1005X7R1C104K050BC",
+      "value": "100nF16V X7R10%",
+      "footprint": "Telemetry:C_0402_1005Metric",
+      "manufacturer_source": "https://product.tdk.com/",
+      "candidate_added_position": true,
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      }
+    }
+  ],
+  "new_power_flags": false,
+  "original_source_promotion": false,
+  "outputs_sha256": {
+    "flange/01-power.kicad_sch": "fb33f62f3a537aa2cd5b5d58269ad1818544620cae55594f1fbe7abf7e4d852c",
+    "flange/03-control.kicad_sch": "36683b87e3798d98a19790f8ee0bb13c85bdcf72b4acbd13d10cd3da8adf2a4d",
+    "flange/04-targets.kicad_sch": "383154f0e803527f18318ccc28585bfa610ced16b5167f1466dd6fa05fce03b6",
+    "flange/06-interboard.kicad_sch": "2d93ad58319df4d7ebff89b4d7c93c8b7ffd616e76fa50d1dbd3079eca9fe007",
+    "flange/07-recovery.kicad_sch": "fec2f868d6739489fb1c3aefbf8c72b162eaba6f29a76ef572e07a8e6fbb743e",
+    "flange/08-compass.kicad_sch": "e9f2f4020de1109f83894efee714c7c5da3c9bfc0df40faebe70a44ace363535",
+    "flange/flange.kicad_sch": "73b427c85fe6e8a5918e1e6d9279026c1c82801cf1bb96b8459e15f9dc863e6c",
+    "body/01-power.kicad_sch": "b3931a94cf3b0f5fc34a694a91021043756ccf518a7ecc8fa53cf28c32e8e9ee",
+    "body/02-motor.kicad_sch": "1967ea5851c3e053c17bbd9a06d39cb254c4f48f0d9a9c8f4b638efb01048ef6",
+    "body/04-sensors.kicad_sch": "7e6e74ae2f984b8be2f7c0dd8d057f928b73f5afdc4575a471913b981d6ac8e5",
+    "body/05-charge-guard.kicad_sch": "a47c36ed5c447dfc379ddbc2da1ccf31381fe0404ce72eaea5160219121bfa79",
+    "body/06-interboard.kicad_sch": "d036e7a4d36c84245c5613e3a77722cbb74f80175182943516e71e131cee6239",
+    "body/body-evt1.kicad_sch": "8b88c93270f24ed829b4112fb1951287dcc37a0b93005a09efd858d77a14edcd",
+    "external-04-sensors.kicad_sch": "e2e21c1472ee735357662b8373698ebbf6f21244562258be8c75daa001d8ca9c",
+    "external-05-charge-guard.kicad_sch": "91926aecb71df3aa6f26ac70825ec33d299e48282665014542bff9fd963f83d1",
+    "body/07-current-observer.kicad_sch": "4f2b6265d753261a7ad8b5899d1f13483fc20f909c20981fbe265c4842016c7b",
+    "body/08-TS-observer.kicad_sch": "1b787f5f7974c12487341b6e3fcc2aa716e68bcc804ec644e47870b8852a88ab",
+    "body/09-status-observer.kicad_sch": "cb6e4428691c3c401680a2f4ccd7a8a04103a6bce77f0ed8397b69f7b6f0d38c",
+    "instrumented-device.kicad_sch": "88e830c87dce2873c8e9f9bb7dd6655b1559e32acb7d42a91571c89e2229b811"
+  }
+}

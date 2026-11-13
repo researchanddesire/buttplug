@@ -1,0 +1,2972 @@
+{
+  "scope": "Four-contact flange, removable face mask and printable clamshell dock; mechanical prototype only",
+  "native_sha256": "4b8b58441ac3a528a6e4c5027877a3e59efb0ed4954e772b98f06e608b885f98",
+  "builder_sha256": "111e1e2679034ae06a27cb1dc6009ea9796bb80d37b61976af459a9086920354",
+  "source_native_sha256": "ed256853cd7b79968c2993927d670df206ee3718927df7bde5aabcfefd847ebd",
+  "source_trial_native_sha256": "bfcd28555a96ceb1ad077c3d403a0d44bcef9efba0fb2f553eb315c89c14e152",
+  "contact_seal_spec_sha256": "9965544c67283fcda91139b66c46321dfb69528ce7e2d02ea19b6ef8f5253a0f",
+  "contact_seal": {
+    "scope": "EVT contact face-seal trial; not a qualified wet barrier or released contact material/finish",
+    "seal_candidate": {
+      "manufacturer": "HANSA-FLEX",
+      "mpn": "OR2-0.5",
+      "quantity": 4,
+      "source": "https://shop.hansa-flex.nl/en_GB/sealing-equipment/static-seals/o-rings/nbr-o-rings/or-2-0-5/p/OR2-0-5",
+      "material": "NBR70; exact compound/cure system and compatibility require confirmation",
+      "ID_mm": 2.0,
+      "cross_section_mm": 0.5,
+      "incoming_trial_ID_range_mm": [
+        2.0,
+        2.05
+      ],
+      "incoming_trial_CS_range_mm": [
+        0.49,
+        0.51
+      ],
+      "limits": "Incoming dimensions are proposed trial acceptance limits, not a manufacturer tolerance agreement. Coupon-test the actual ring, plastic and casting system for inhibition, swelling and leaks; do not assume NBR compatibility with platinum-cure silicone or finished body-contact suitability."
+    },
+    "gland": {
+      "location": "Annular axial recess in the METAL post bearing face; plastic remains a flat sealing counterface",
+      "ID_mm": 2.1,
+      "OD_mm": 3.6,
+      "depth_mm": 0.38,
+      "diameter_tolerance_mm": 0.02,
+      "depth_tolerance_mm": 0.01,
+      "bearing_face_product_Y_mm": -24.5,
+      "root_radius_max_mm": 0.05,
+      "sealing_finish_Ra_max_um": 0.8,
+      "counterface_local_flatness_max_mm": 0.01,
+      "bore_diameter_mm": 2.1,
+      "bore_plus_tolerance_mm": 0.03,
+      "note": "Maintain the4mm post head, face coordinates, silicone-key groove, M2 thread and dock stop datums. Both machined faces must seat on the rigid bearing land; nut torque must not be used to set an arbitrary gasket compression. Printed rough faces are fit coupons only. Agree tool access and finish with the machinist before ordering."
+    },
+    "CAD_seal": {
+      "scope": "Volume-preserving elliptical section representing the nominal installed space, not an FEA or contact-pressure prediction",
+      "major_ring_radius_mm": 1.4,
+      "axial_half_height_mm": 0.19,
+      "radial_half_width_mm": 0.293703007518797
+    },
+    "process": {
+      "assembly": "Solder the post tail with no O-ring fitted. Clean flux, inspect plating/face and let it cool; fit the ring without dragging it over a sharp thread, then fixture the face and retain with the M2 nut on the removed rear half. Actual torque/locking and strain relief remain to qualify.",
+      "molding": "Keep the seal gland excluded from the external silicone cavity. The outer silicone groove captures the post; the inner face seal is a separate candidate barrier. Leak-test an inert closed cavity and run cure-inhibition coupons before any battery/electronics casting.",
+      "acceptance": "Inspect all four bearing seats, face coplanarity and electrical isolation. Demonstrate no dye entry through individual contacts, seam, buttons or root under the defined wet/cleaning/thermal profile. Ring/finish/preload/material aging and post pullout require physical validation.",
+      "open": "No finished contact stock/plating, nut locking/torque, permanent button barrier, full cavity seal or casting recipe is released. This face-seal trial alone does not make the product waterproof."
+    },
+    "design_reference": "https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf",
+    "reference_limit": "Parker general static face-seal principles inform squeeze/fill checks; its larger standard gland tables do not approve this miniature custom gland."
+  },
+  "contact_seal_roles": [
+    "TargetSeal_GND",
+    "TargetSeal_USB_DM",
+    "TargetSeal_USB_DP",
+    "TargetSeal_DOCK_5V"
+  ],
+  "native_roles": {
+    "FourContactRearHalf": "TargetStemBore3",
+    "Target_GND": "Target_GND",
+    "TargetNut_GND": "TargetNut_GND",
+    "TargetSeal_GND": "TargetSeal_GND",
+    "Target_USB_DM": "Target_USB_DM",
+    "TargetNut_USB_DM": "TargetNut_USB_DM",
+    "TargetSeal_USB_DM": "TargetSeal_USB_DM",
+    "Target_USB_DP": "Target_USB_DP",
+    "TargetNut_USB_DP": "TargetNut_USB_DP",
+    "TargetSeal_USB_DP": "TargetSeal_USB_DP",
+    "Target_DOCK_5V": "Target_DOCK_5V",
+    "TargetNut_DOCK_5V": "TargetNut_DOCK_5V",
+    "TargetSeal_DOCK_5V": "TargetSeal_DOCK_5V",
+    "BuriedSteelKeeper0": "BuriedSteelKeeper0",
+    "BuriedSteelKeeper1": "BuriedSteelKeeper1",
+    "FourContactSkin": "FourContactSkin",
+    "ContactFaceMask": "MaskScrewPassage1",
+    "ContactMoldHalfA": "ContactMoldHalfA",
+    "ContactMoldHalfB": "MaskScrewPilot1",
+    "DockDeviceGauge": "DockDeviceGauge",
+    "DockBase": "USBMountPilot3",
+    "DockLid": "LatchPassage",
+    "DockUSBPCB": "DockUSBPCB",
+    "DockNest": "NestScrewPassage3",
+    "PogoCarrier": "RetainerPilot1",
+    "PogoRetainer": "RetainerCountersink1",
+    "PinPCBBlank": "PinPCBBlank",
+    "DockMagnet0": "DockMagnet0",
+    "MagnetBackSpacer0": "MagnetBackSpacer0",
+    "DockMagnet1": "DockMagnet1",
+    "MagnetBackSpacer1": "MagnetBackSpacer1",
+    "PogoBarrel_GND": "PogoBarrel_GND",
+    "PogoPlunger_GND": "PogoPlunger_GND",
+    "PogoBarrel_USB_DM": "PogoBarrel_USB_DM",
+    "PogoPlunger_USB_DM": "PogoPlunger_USB_DM",
+    "PogoBarrel_USB_DP": "PogoBarrel_USB_DP",
+    "PogoPlunger_USB_DP": "PogoPlunger_USB_DP",
+    "PogoBarrel_DOCK_5V": "PogoBarrel_DOCK_5V",
+    "PogoPlunger_DOCK_5V": "PogoPlunger_DOCK_5V"
+  },
+  "exports": {
+    "TargetStemBore3": {
+      "label": "FourContactRearHalf",
+      "STEP_sha256": "9c19ac539c6b5fcb31a2bf042aa8cfa721f2772b9f28a65a28bd0d1fedc6908f",
+      "view_STL_sha256": "a3b88b1f849759b7c89aa6cafa86b2cd811dc6a017daac831d2a4e86d996133f",
+      "print_STL_sha256": "21766818eb48a492a4bc36be553416c619d6eb50abe30d06d73edb6e4b2db95f",
+      "section_view_STL_sha256": "7a70ccd31905d4080f9986e29bd8ca63165318187a567956b4a91851b50e4a08",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 126.75032006179572
+    },
+    "Target_GND": {
+      "label": "Target_GND",
+      "STEP_sha256": "c7a20530454f6775ca846c9409b7c746effc70731b4eaf10746b1ac4aafd91c7",
+      "view_STL_sha256": "dca4d34c93dbfc454228c5c3476a704df2c99498f54c0a3da9747919448556cf",
+      "section_view_STL_sha256": "6469b546a8d42ed048a63434474efd98869ff28167f818d5d1edae3be609c2c0",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 13.959942917352869
+    },
+    "TargetNut_GND": {
+      "label": "TargetNut_GND",
+      "STEP_sha256": "a1c55381a5b9b64c58998631fea44b173317e8ff00b7d11538976e3411e79db6",
+      "view_STL_sha256": "401659f920b09c0328c78988f28604377f0e3de79a343239fab77bd3c60ff612",
+      "section_view_STL_sha256": "77324d23f6a7313aa5a3a0dba830dab6f71b958b4cc065f8dccf35b2e3603791",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 4.830083445627226
+    },
+    "TargetSeal_GND": {
+      "label": "TargetSeal_GND",
+      "STEP_sha256": "96fc0e1893a69a1af982fc3c0c33898fdf599e234cb4d6cef8dc90394088c49a",
+      "view_STL_sha256": "87e97c01ca244806a3cfc07c22791aa2a3be7e83780e82fa47d00adbbeeb70d5",
+      "section_view_STL_sha256": "9f9d41b3e5189d68519eaca93a58d084c83b78f8db04c6f3ca2583facece073f",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 0.3506235407234501
+    },
+    "Target_USB_DM": {
+      "label": "Target_USB_DM",
+      "STEP_sha256": "0e84ffcee64897d8b37877c6d96a4ec24c4ae50f0b1c4c751e30b0a975d36fac",
+      "view_STL_sha256": "b03dab1172a9d66530c795aab57c45a80fe6322c0531218df6dd3e20c96b656f",
+      "section_view_STL_sha256": "12f47b027e8814554b0422c27011932bd53524ce8947430900b2e0bc8c5e90f0",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 13.959942917352903
+    },
+    "TargetNut_USB_DM": {
+      "label": "TargetNut_USB_DM",
+      "STEP_sha256": "993d56bd64f98eff1106ed69fee130ca51f84717daf9996f0d3475dbded7c573",
+      "view_STL_sha256": "64f3ca6b98b3c8fbd407081853e8434274c0a65ea3dd128786f319efe1920690",
+      "section_view_STL_sha256": "f20be06c46416ad34e4d273d52f99df2513408128b054152133e9594194ccdc4",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 4.830083445627221
+    },
+    "TargetSeal_USB_DM": {
+      "label": "TargetSeal_USB_DM",
+      "STEP_sha256": "6435da4fc8c5d59e627e1a0cdcb971d426c605977c40b057c9782d8f37cb784e",
+      "view_STL_sha256": "d82fe0fe683c4a9d5f67fbcc08b1a0e048c1c8e50554d53a99d23cd8fac36fee",
+      "section_view_STL_sha256": "df621f0e402f12045ca5d935541ede662dc16bb56437ff13cf54b15d4fd9fea7",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 0.3506235407234084
+    },
+    "Target_USB_DP": {
+      "label": "Target_USB_DP",
+      "STEP_sha256": "cd93c4f1cdb34aeecbc7b7b4ba579917b7c447fcb55cb525516762d0f800f87d",
+      "view_STL_sha256": "36750edd480cf465cf38e46c149bc78c34dd67201f3e585b7f0b313fc0030f97",
+      "section_view_STL_sha256": "70867b910b70563886b952fa5af92c4ddb6f1e5491f6b591075e95185df2b003",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 13.95994291735289
+    },
+    "TargetNut_USB_DP": {
+      "label": "TargetNut_USB_DP",
+      "STEP_sha256": "06d18b51bcc784981480b150cbb94bd76bc542e38e8eb43867e9759d599feade",
+      "view_STL_sha256": "a31895631045a3278fe70106012c192260fbfbd10f3b065c3f71539918e2795a",
+      "section_view_STL_sha256": "350d3b12b34c29709a3c88036b3ed343bc2ae4f30847a668b8a5567e1b9acca6",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 4.830083445627215
+    },
+    "TargetSeal_USB_DP": {
+      "label": "TargetSeal_USB_DP",
+      "STEP_sha256": "5aa86f4664ef7d75300b34280d117070d825f5cb03dbff08bdc23f411ab1aeef",
+      "view_STL_sha256": "d9750aa7a82b5d590859a2046bdaa97ffb11bc6fa654987722c65df117749267",
+      "section_view_STL_sha256": "e3f9205c566e313bdf32944b94b5e26af58a8d95aa2600bae4025ef22f4b1497",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 0.35062284938601873
+    },
+    "Target_DOCK_5V": {
+      "label": "Target_DOCK_5V",
+      "STEP_sha256": "130996516a59e6913aa585ec8042e50371f6ba56826945768761329c370db8c4",
+      "view_STL_sha256": "1948e7222136eb7652c538190122c89e11973b807f54fa9782cc0ba7c96ca06a",
+      "section_view_STL_sha256": "6887eee3492132867ea1282c046e610b7c6faa74e453f1b4f8bb8c02f2784651",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 13.95994291735289
+    },
+    "TargetNut_DOCK_5V": {
+      "label": "TargetNut_DOCK_5V",
+      "STEP_sha256": "b60df4838217377c9f147bb4cdb7b0cb5885279797225fc5066f85cec35deb42",
+      "view_STL_sha256": "dfd3f84df41fcd4f67be70d88798584b9b211c44047d68c3c360ff41335579b6",
+      "section_view_STL_sha256": "81a145f7492d992af30449a8dcfcfb7b6248423e5d923b130dbdc294d395924b",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 4.830083445627215
+    },
+    "TargetSeal_DOCK_5V": {
+      "label": "TargetSeal_DOCK_5V",
+      "STEP_sha256": "abdaf1de07163277b096cd2b0b568fa85a6f24b07256b78fe21f725bd3f51275",
+      "view_STL_sha256": "41cacc408ad1f5186cf8fb19740f9e77f4445fce217117f2daf5f938069a75e6",
+      "section_view_STL_sha256": "f0433b2154da83f400344047e0dbbc4a3f6a79bd1ba39f5826ceaab4d0413219",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 0.35062354072336044
+    },
+    "BuriedSteelKeeper0": {
+      "label": "BuriedSteelKeeper0",
+      "STEP_sha256": "ed9544fca20a5ae6303d673c443e12b367dcc604bc4163c4d257ff2ff8dedcd3",
+      "view_STL_sha256": "1cd3eda5106bce87bc223e2a9e197c20b48c963a273625363340a4b29f69488e"
+    },
+    "BuriedSteelKeeper1": {
+      "label": "BuriedSteelKeeper1",
+      "STEP_sha256": "7a1a570afdef6ce07e87d7f56117be5cb51a8c82dfb27cbf074a9e1bdcd6c482",
+      "view_STL_sha256": "f8a1fa8159127b65dbf2ad9432ee0013ae9f497268aee269d5bd2c41fac6cf75"
+    },
+    "FourContactSkin": {
+      "label": "FourContactSkin",
+      "STEP_sha256": "bd5aba6bb88f7ce773f2e23324a3a7032d210dec3e11b4a742bc149075cff141",
+      "view_STL_sha256": "acc1d7cf25bddcafc62ca6bc5dddad06ba123e997b501abf6986181be9bde8f3",
+      "section_view_STL_sha256": "34dfd248e2c1db71d8b4f4096ecb20ba53fbdeb45e6f4355cf03467a5c8e92b5",
+      "section_plane_Z_mm": 11.5,
+      "section_area_mm2": 398.72937899040346
+    },
+    "MaskScrewPassage1": {
+      "label": "ContactFaceMask",
+      "STEP_sha256": "298c8742a7af7e51d5126cbe2ef7d2950ba9109bfc665fdc4303bde4b99b8776",
+      "view_STL_sha256": "13ee6abf40ebf2bac593bab57b557dcd2f8227bdecb6e06907f4f5d96b3f64ac",
+      "print_STL_sha256": "ac0b3102a13a3bee5e4dc6ed5d75270534b0c699e16a248b320e796e333f2629"
+    },
+    "ContactMoldHalfA": {
+      "label": "ContactMoldHalfA",
+      "STEP_sha256": "cd69ce5983f073c30a5719ded946daee390f6de824aa94c23040b5504544647d",
+      "view_STL_sha256": "65f45a2766d8cd4167375b5d38f1ab87b07500f0225c92d2ef5cd0a98a461f84",
+      "print_STL_sha256": "133d5b6cb327d96823052cf8cd481472121f799899a0e257684b0386e4017197"
+    },
+    "MaskScrewPilot1": {
+      "label": "ContactMoldHalfB",
+      "STEP_sha256": "318c3c8897354e88565c50fb60b0ffd09a3fe78d76cb36f8d2cf939d3dd3babf",
+      "view_STL_sha256": "60b6f9a7c12e830c47f13ee0da8f127bd181d52c6b70f6d0563c762ca9896b25",
+      "print_STL_sha256": "fd93b1b9b50976e13477eeea74456ab447ae610e4c1b74ea97409f8848791271"
+    },
+    "DockDeviceGauge": {
+      "label": "DockDeviceGauge",
+      "STEP_sha256": "8f5598f9a5158f4eed0acff4c8f895b5f90342247f8b1290f10737ab48d83f8b",
+      "view_STL_sha256": "676bb08c26c99d1d1f49abe6a9adde275a53651ebcc9494813a74178d69405ef",
+      "print_STL_sha256": "d7df78dea198a1ed23b7f6f7c2c66cbe407e0195091a2807ae02107eca5121e0"
+    },
+    "USBMountPilot3": {
+      "label": "DockBase",
+      "STEP_sha256": "4f57c97a399e939282b127de8b71d232d8b7ec2a6731e5bc79dc1a5f72a29ae9",
+      "view_STL_sha256": "9a9bb98f852293d5761991c6aa48cc64cb97ae302507337edc65a4dfb36be774",
+      "print_STL_sha256": "e5d97e873980320b6744fbcbffc6550090bdfc73a9103eb196b69f3ea61e136c"
+    },
+    "LatchPassage": {
+      "label": "DockLid",
+      "STEP_sha256": "8b1400f2c7a789e5f06c82fc6d40e9c5e6ad956c0c768a18252a3ac212aa0392",
+      "view_STL_sha256": "131c5e2a00fbd6d61ee9d2359504d86deb47fe0fbebf4e351bab8f223f7b4233",
+      "print_STL_sha256": "f84f3c1f40bbd7f825c3c0a60afcafa8ab152b80ffda116a1798c5dddbaa4f40"
+    },
+    "DockUSBPCB": {
+      "label": "DockUSBPCB",
+      "STEP_sha256": "3ec848181b2e4039910ef98a87c77e882a099e121c40c07e8862108866e6183b",
+      "view_STL_sha256": "8e8444e767d678bbc02cc979debfafc7c970c763c566453d88bcae2addd1c103"
+    },
+    "NestScrewPassage3": {
+      "label": "DockNest",
+      "STEP_sha256": "894bc7c99367ee361fd1ad903968a92cf5dd098636b7fb25af1e26a07d4d5f49",
+      "view_STL_sha256": "4b3aadc2d3b1ddff2428edff4b2d6a00bb2ccf3cc25a8181d90b47b5273871f0",
+      "print_STL_sha256": "0bbc49f00161d3baeb195e78cc614690f00a74e58768ba0c748573ad66dfc92d"
+    },
+    "RetainerPilot1": {
+      "label": "PogoCarrier",
+      "STEP_sha256": "f5c9e54e38a406fceddd7a7c09bfbda1106a740c44e1a81c7d08b59597867351",
+      "view_STL_sha256": "d9cd8780632367e8bde0a3eb67dd47063c8686c2b552830a5d74aed883e2515e",
+      "print_STL_sha256": "72ebe6ca0f9ae9ed31d9a78961c36f35210a7c2d5be4d35f4e01cf9770cff355",
+      "section_view_STL_sha256": "f3ff07b6374b569a656144db61f40ea817254641b2912ec9ba368a04f1405e9f",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 132.66968000000006
+    },
+    "RetainerCountersink1": {
+      "label": "PogoRetainer",
+      "STEP_sha256": "98be7ad088f0623a64dbf4451ecef58c5248bbc9abf99f2afb680cc9ce8e4897",
+      "view_STL_sha256": "363665a03c642091d3911b072f7e3fa348029460634f103ba5183f1be8c37244",
+      "print_STL_sha256": "e446fe1216a0bb62e26eb322093f21d05bea6c825b78ca242cef18bfdb57dd7f",
+      "section_view_STL_sha256": "cfd05d055f659647b8ab6e405d7c8746de5ead78ba68d6d4b8ca6f634b70fa5d",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 92.96096000000001
+    },
+    "PinPCBBlank": {
+      "label": "PinPCBBlank",
+      "STEP_sha256": "7961523635f374ddc2fc2fc5c59522a15dcf5642d4dca9b4351de597bcdb9da4",
+      "view_STL_sha256": "8794f81bc5a010e45c92a0d091ec9330f0d39735ecb2c353af482ca40d1ac3f5",
+      "print_STL_sha256": "afd516400306d0f5513d94dc0f734c0d2f22f3cb8ab4edf7a08d302c6a377ab8",
+      "section_view_STL_sha256": "7dfdf386cd6a2ff67442e9fdd1bf40cf6735bd32d1418535e2336622df451d34",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 25.600000000000005
+    },
+    "DockMagnet0": {
+      "label": "DockMagnet0",
+      "STEP_sha256": "d9a1d8f44165e04f1ee29f60a39aa180af60bf9c8b2b89a5ac5d2a4306897e8f",
+      "view_STL_sha256": "9fd7547dcb81b9ff1000937e5270e972ff33905025d29e00c1a4b9203a30ba9d"
+    },
+    "MagnetBackSpacer0": {
+      "label": "MagnetBackSpacer0",
+      "STEP_sha256": "496606f07d2d5b11ea03e118b888623bf663420636d359c3c5199727dd3fc93a",
+      "view_STL_sha256": "1b5818cf50df232004da6a037ddb57901d7ab225f97fe4cd46a59caeeda86dab",
+      "print_STL_sha256": "6dba9acb65473c0ec8e745b45d4fa8bbb726310b569ed527aadf039ec6d8cf1f"
+    },
+    "DockMagnet1": {
+      "label": "DockMagnet1",
+      "STEP_sha256": "cab1518b36a95e87ce058e3b168a06ed0f8a6a0c9d161bb468128fa67d3b9c20",
+      "view_STL_sha256": "bdd45c9e802547bcbfba015451e7786f2dea7fc1c5068858e542e964cac6cc75"
+    },
+    "MagnetBackSpacer1": {
+      "label": "MagnetBackSpacer1",
+      "STEP_sha256": "f42f9cf26433d33c99831bb1708c8bfc8b21076bd16d7625433a3bc3ba367534",
+      "view_STL_sha256": "6cbfe391af2d349a4dc14edc1011b088b1342af7cd19de1ed1560af37853666c",
+      "print_STL_sha256": "dd0fec2ed97c1562a003268647732774361761b78d47db4bf9c8dec7d906accc"
+    },
+    "PogoBarrel_GND": {
+      "label": "PogoBarrel_GND",
+      "STEP_sha256": "6b0b87f69eb47c70e7044bf5c0c9d353db067680245a9fa541a41e8c9f06e25b",
+      "view_STL_sha256": "ca5d3890931fdc4aa6358abf07c7b7f36e82ea10f99c1f89aeac69bb76f1b250",
+      "section_view_STL_sha256": "6f39b943fad436a1e28ec86be0731f658dbbcccb182fce2e8b69e141631415f4",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 5.680633799999994
+    },
+    "PogoPlunger_GND": {
+      "label": "PogoPlunger_GND",
+      "STEP_sha256": "7675a1a0835df303520eb52c2fa76e49e7ef978bcb247d2138be533e30657a5a",
+      "view_STL_sha256": "162befec48185219136047244955473c455b270ca89107999daae1cadf5c1dc2",
+      "section_view_STL_sha256": "7b3259483ac9b81987e9b83e56aeb471b7acdae0ed34c514b5e65536c6cc80c7",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 1.8257215200000023
+    },
+    "PogoBarrel_USB_DM": {
+      "label": "PogoBarrel_USB_DM",
+      "STEP_sha256": "23d21518a25bd04680e7588181576302445abcb70905d8027289026170e26c7f",
+      "view_STL_sha256": "7cf3338b077575361f6a7b594e99d325be21b29ef19854ebac5b6d19021a56f9",
+      "section_view_STL_sha256": "70685c30e46b743338aed119c5b9d5fdb0d3e6c9cb3acbbc74dc6fbba7ad2678",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 5.6806338
+    },
+    "PogoPlunger_USB_DM": {
+      "label": "PogoPlunger_USB_DM",
+      "STEP_sha256": "02ded2b414f67cb84e5f26e021641fd77eaf6991622e4112fa57f0f9ce2bfbad",
+      "view_STL_sha256": "9b1aef880dabf4fddd3f353ff62adae7c6eb44b8c09bccda7abcb89ccd48a889",
+      "section_view_STL_sha256": "4825d479422b9576b4d935d51f78b9cd3a51b0a04f6047552c14599637433e32",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 1.8257215200000023
+    },
+    "PogoBarrel_USB_DP": {
+      "label": "PogoBarrel_USB_DP",
+      "STEP_sha256": "e0e2d9b993645ea7b4a58590fd687fd99674ad3c34f10d59e6da0a7e142586ed",
+      "view_STL_sha256": "da9a4c6e66639e61af39b20be6f7101c4c2636b9d3aa5da4f35730fad2abbc57",
+      "section_view_STL_sha256": "37c285c2e143cf9cfbb9cb4ae84cbe12b0400208512490bf0193498877bf869a",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 5.680633800000006
+    },
+    "PogoPlunger_USB_DP": {
+      "label": "PogoPlunger_USB_DP",
+      "STEP_sha256": "a887970169095b0a59094a51a59f531e495c2862956a9ec30ee3cc9bdc287a13",
+      "view_STL_sha256": "32a6247b5e88e3e4d5e86f8126fa1dcb474fc2d595f35987cc75ea1362f17f1f",
+      "section_view_STL_sha256": "a6b65b01b1fb3bb915276cb932a33d695492c69e1ed7fd514d2fb0fc247fcb0d",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 1.8257215200000023
+    },
+    "PogoBarrel_DOCK_5V": {
+      "label": "PogoBarrel_DOCK_5V",
+      "STEP_sha256": "99a7fd10c5e527b918cd2dbe49102fc964aeb546f9aaaec1e665e4439e6989ed",
+      "view_STL_sha256": "68614a13db0f70123bac9be0c04a1846e4fd1e689b303dddedc4592adf20ba85",
+      "section_view_STL_sha256": "a1aea67275d1b9dff90bbd40b5fa2f1daf44f1a94427e471e8aa2995c7233e7d",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 5.680633800000006
+    },
+    "PogoPlunger_DOCK_5V": {
+      "label": "PogoPlunger_DOCK_5V",
+      "STEP_sha256": "eeb135bc375c89bfbe1e8dd20475898bfb5a79474e26c502896f8363776aa7e1",
+      "view_STL_sha256": "4ea9648542d1147dad8102762289ba791de9fd6498028bef96bc4e8d846df213",
+      "section_view_STL_sha256": "011ba6db67b1d78607bc967e81379f19258498f3cb1d426d260abd113cea8c95",
+      "section_plane_Z_mm": 43.5,
+      "section_area_mm2": 1.8257215200000023
+    }
+  },
+  "render_meshes": {
+    "SeatedMetalBody-view.stl": "1f9e78f0192a283dada7d53c83d6b2ef15cbd19036fefa6c452f622c813c1ed3",
+    "SeatedMetalCap-view.stl": "a8406c2f4b067dabd77f097627b13d3fa0a954a60eb1850dfc0b9ec88c2aba3c",
+    "SeatedSiliconeSkin-view.stl": "8dc6d70b05a760608feb50599f48d4c93e7be978c874414e550fbb76e2d0345c",
+    "SeatedTarget_GND-view.stl": "2715d76133b90898ceaca0bdf9f6d0f036d3ff1c17c2838eb24a24d2dbe2593b",
+    "SeatedTarget_USB_DM-view.stl": "1c5b3ffe3e3de4f0accab457b63e36803afaaa4e99f0f85aca00722f48ef2caa",
+    "SeatedTarget_USB_DP-view.stl": "7fc3e566c4dbae6e7822f014cbd7d1fa2b766d55bbff2a08894f8bd53a6e895e",
+    "SeatedTarget_DOCK_5V-view.stl": "35735933504caf43576ff7f23894e539069842ad36c1e0198213397760bcd4d6",
+    "USBComponent_R93-view.stl": "1cf107d7eb6a73ced54bdd1d3f4ece2473e0ec3861cdc0f2c02562584841f8b6",
+    "USBComponent_R91-view.stl": "fff85d8422d51c30968559185d2123337f3913656675bdab0693b635265091d7",
+    "USBComponent_C91-view.stl": "89df498a3e141ed29a57661888813549b43b8b2c472a750e101897d65211a3ba",
+    "USBComponent_C92-view.stl": "9585fbf3a59da82493abae3b336883b302c065376662d7e5e3528e68c9cd4268",
+    "USBComponent_R92-view.stl": "ebe9567c6b28f18326e05d887202a1265efeb150da960db800b549fa4741e222",
+    "USBComponent_U91-view.stl": "e375cdceb35a87b4fa651b25513426545b647ee22ce192e9c78c44b19a87d120",
+    "USBComponent_U92-view.stl": "8e2ede5e4d92a690258154d7a4ed3453532db6294a5b9829bb6314b6753790d7",
+    "USBComponent_J91-view.stl": "8b2e98d8e03d2cf4d16681682c7b5c00c5296b5ee778e9e7d48e7244eb9bd2a1",
+    "USBComponent_R94-view.stl": "f5fac5272e9936d49ceaef6e9e619c6f578558134eb37c497dd07b59397a9727",
+    "DockLidOpen-view.stl": "359778086c212cc66a5e77877f6f05277682a5d521ac1c0ddb2afb0eb5d63312"
+  },
+  "pcb_sources": {
+    "dock": {
+      "board_file": "hardware/pcb/evt1/dock/dock-evt1.kicad_pcb",
+      "board_sha256": "9c3a650aaef0999f66966572b4d5fac2bce25a02e54d166a8ab5ef55a3b3996f"
+    },
+    "pins": {
+      "board_file": "hardware/pcb/evt1/pins/pins-evt1.kicad_pcb",
+      "board_sha256": "3faea1fc2400a41d702ec16b7dd0f9865fa4372babbb825ed40c61603e8f49fa"
+    }
+  },
+  "usb_board": {
+    "native_role": "DockUSBPCB",
+    "component_roles": [
+      "USBComponent_R93",
+      "USBComponent_R91",
+      "USBComponent_C91",
+      "USBComponent_C92",
+      "USBComponent_R92",
+      "USBComponent_U91",
+      "USBComponent_U92",
+      "USBComponent_J91",
+      "USBComponent_R94"
+    ],
+    "mount_centers_XY_mm": [
+      [
+        -47.0,
+        61.0
+      ],
+      [
+        -47.0,
+        45.0
+      ],
+      [
+        -29.0,
+        61.0
+      ],
+      [
+        -29.0,
+        45.0
+      ]
+    ],
+    "PCB_bottom_top_Z_mm": [
+      5.4,
+      6.4
+    ],
+    "socket_face_X_mm": -57.5,
+    "port_XYZ_size_mm": [
+      -58,
+      47.5,
+      5.1,
+      5,
+      11,
+      5.9
+    ]
+  },
+  "pin_wire_exit": {
+    "allowance_roles": [
+      "PinWireExitAllowance1",
+      "PinWireExitAllowance2",
+      "PinWireExitAllowance3",
+      "PinWireExitAllowance4"
+    ],
+    "wire_pad_face": "rear / B.Cu",
+    "pad_Z_mm": 41.7,
+    "allowance_OD_mm": 1.1,
+    "retainer_window_XYZ_size_mm": [
+      -39,
+      3.9,
+      34,
+      22,
+      4.1,
+      9.3
+    ]
+  },
+  "print_parts": [
+    "FourContactRearHalf",
+    "ContactFaceMask",
+    "ContactMoldHalfA",
+    "ContactMoldHalfB",
+    "DockDeviceGauge",
+    "DockBase",
+    "DockLid",
+    "DockNest",
+    "PogoCarrier",
+    "PogoRetainer",
+    "PinPCBBlank",
+    "MagnetBackSpacer0",
+    "MagnetBackSpacer1"
+  ],
+  "dock_device_translation_xyz_mm": [
+    0.0,
+    40.0,
+    32.0
+  ],
+  "contacts": [
+    {
+      "net": "GND",
+      "device_xyz_mm": [
+        -38,
+        -26.8,
+        11.5
+      ],
+      "dock_xyz_mm": [
+        -38,
+        13.2,
+        43.5
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "device_xyz_mm": [
+        -32,
+        -26.8,
+        11.5
+      ],
+      "dock_xyz_mm": [
+        -32,
+        13.2,
+        43.5
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "device_xyz_mm": [
+        -26,
+        -26.8,
+        11.5
+      ],
+      "dock_xyz_mm": [
+        -26,
+        13.2,
+        43.5
+      ]
+    },
+    {
+      "net": "DOCK_5V",
+      "device_xyz_mm": [
+        -20,
+        -26.8,
+        11.5
+      ],
+      "dock_xyz_mm": [
+        -20,
+        13.2,
+        43.5
+      ]
+    }
+  ],
+  "contact_head": {
+    "OD_mm": 4,
+    "proud_mm": 0.3,
+    "edge_radius_mm": 0.15,
+    "silicone_key_groove_OD_mm": 3.3,
+    "groove_Y_mm": [
+      -26.4,
+      -25.7
+    ],
+    "bearing_Y_mm": -24.5,
+    "thread": "M2x0.4 root envelope only",
+    "nut_AF_thickness_mm": [
+      4,
+      1.6
+    ]
+  },
+  "keeper_centers_XZ_mm": [
+    [
+      -38.5,
+      -8
+    ],
+    [
+      -21,
+      -10.5
+    ]
+  ],
+  "keeper_size_mm": [
+    8,
+    1
+  ],
+  "dock_magnet_size_mm": [
+    8,
+    3
+  ],
+  "nominal_magnet_to_keeper_gap_mm": 2.7,
+  "pogo": {
+    "candidate": "0906-2-15-20-75-14-11-0",
+    "free_height_mm": 5.0038,
+    "max_travel_mm": 1.397,
+    "nominal_compression_mm": 0.6,
+    "PCB_front_Y_mm": 8.796199999999999,
+    "barrel_height_envelope_mm": 2.6923999999999997,
+    "body_OD_envelope_mm": 1.8287999999999998,
+    "tip_OD_mm": 1.0668,
+    "length_tolerance_mm": 0.1524,
+    "diameter_tolerance_mm": 0.0508,
+    "stop_land_OD_ID_mm": [
+      3,
+      1.8
+    ]
+  },
+  "case_shell_size_xyz_mm": [
+    115,
+    155,
+    65
+  ],
+  "hinge_axis_xyz_mm": [
+    0,
+    155,
+    34.15
+  ],
+  "open_lid_angle_deg": -110,
+  "device_loading_axial_slide_mm": 3,
+  "hardware_trial": {
+    "M3x60_hinge_bolt": 1,
+    "M3_hinge_locknut": 1,
+    "M3x10_latch_screw": 1,
+    "M3x8_nest_and_carrier_screw": 6,
+    "M2x6_countersunk_carrier_retainer_screw": 2,
+    "M3x10_face_mask_screw": 2,
+    "M2_target_nut": 4,
+    "custom_target_post": 4,
+    "HANSA_FLEX_OR2_0_5_trial_seal": 4,
+    "8x1_steel_keeper": 2,
+    "8x3_dock_magnet": 2,
+    "MillMax0906_spring_pin": 4,
+    "pin_PCB_EVT1": 1,
+    "USB_PCB_EVT1": 1,
+    "M2x4_USB_board_screw": 4
+  },
+  "sources": {
+    "pogo_manufacturer_authored_2025_pdf": "https://static6.arrow.com/aropdfconversion/adfa1bc04697174a4358693f99b5c90949307da3/0906-2-15-20-75-14-11-0.pdf",
+    "magnet": "https://www.supermagnete.de/eng/data_sheet_S-08-03-N.pdf",
+    "native_USB": "https://docs.espressif.com/projects/esp-idf/en/v5.5.3/esp32c3/api-guides/usb-serial-jtag-console.html"
+  },
+  "limits": [
+    "Custom target contact material/plating, thread fit/locking, creep, pullout and finished-contact acceptance OPEN.",
+    "Silicone-key groove is mechanical capture geometry, not proof of a liquid-tight metal/silicone bond; button/cavity sealing still OPEN.",
+    "Inner metal face-seal gland and4NBR70 ring envelopes are a trial design only; printed counterfaces, ring tolerances/cure compatibility, preload and actual sealing unqualified.",
+    "Zero nominal mask-face shutoff,0.05mm nominal mask sliding clearance; real finish,flash and contact masking need inert casting trials.",
+    "Pin envelopes simplified from manufacturer dimensions; not OEM CAD, current-part receipt or guaranteed spring force.",
+    "Two dock magnets plus buried steel keepers: installed retention/rocking,removal and compass interference unmeasured.",
+    "Nominal hard-stop compression and flange guide clearances are unqualified manufacturing budgets, not ordinary-print fit guarantees.",
+    "EVT1 cradle boards are routed; component bodies use fab outlines and conservative heights. Native USB, power, screw/thread fit, completed loom and received-part fit remain untested.",
+    "Lower then slide to dock; reverse slide before lifting. No arbitrary drop-in/tilted approach or wrong-way use qualified.",
+    "Opaque lid has no selected display,buttons,UV emitters or interlock. M3 screw latch is a prototype closure.",
+    "No slicer,physical print,assembly,cast,powered charging,programming or human-use result. Source product/trial files unchanged."
+  ],
+  "verified_parts": {
+    "FourContactRearHalf": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 4339.759568930208,
+      "STEP_adaptive_volume_delta_mm3": -5.638867150992155e-11,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -44.0,
+        -25.5,
+        -16.0,
+        44.0,
+        -19.512499899999998,
+        16.0
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        88.0,
+        31.999999999999996,
+        5.987500190734867
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "Target_GND": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 29.99208714991195,
+      "STEP_adaptive_volume_delta_mm3": 2.842170943040401e-14,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -40.0000001,
+        -26.800000100000002,
+        9.5,
+        -35.9999999,
+        -20.3,
+        13.5000001
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "TargetNut_GND": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 18.953259459605704,
+      "STEP_adaptive_volume_delta_mm3": -4.984457291357103e-11,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -40.309401076758505,
+        -22.9,
+        9.5,
+        -35.690598923241495,
+        -21.299999999999994,
+        13.5
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "TargetSeal_GND": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 1.5421256876702367,
+      "STEP_adaptive_volume_delta_mm3": 1.0365042157900461e-12,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -39.69370310751881,
+        -24.880000100000004,
+        9.806296892481202,
+        -36.3062968924812,
+        -24.4999999,
+        13.193703107518798
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "Target_USB_DM": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 29.992087149912006,
+      "STEP_adaptive_volume_delta_mm3": -7.105427357601002e-15,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -34.0000001,
+        -26.800000100000002,
+        9.5,
+        -29.9999999,
+        -20.3,
+        13.5
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "TargetNut_USB_DM": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 18.953259459605704,
+      "STEP_adaptive_volume_delta_mm3": -4.985167834092863e-11,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -34.309401076758505,
+        -22.9,
+        9.5,
+        -29.690598923241495,
+        -21.299999999999994,
+        13.5
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "TargetSeal_USB_DM": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 1.5421256876702185,
+      "STEP_adaptive_volume_delta_mm3": 1.0544898287889737e-12,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -33.69370310751881,
+        -24.880000100000004,
+        9.806296892481202,
+        -30.3062968924812,
+        -24.4999999,
+        13.193703107518798
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "Target_USB_DP": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 29.992087149912006,
+      "STEP_adaptive_volume_delta_mm3": -3.552713678800501e-15,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -28.0,
+        -26.800000100000002,
+        9.5,
+        -23.9999999,
+        -20.3,
+        13.5000001
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "TargetNut_USB_DP": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 18.9532594596057,
+      "STEP_adaptive_volume_delta_mm3": -4.984457291357103e-11,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -28.309401076758505,
+        -22.9,
+        9.5,
+        -23.690598923241495,
+        -21.299999999999994,
+        13.5
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "TargetSeal_USB_DP": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 1.5421256876702194,
+      "STEP_adaptive_volume_delta_mm3": 1.0551559626037488e-12,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -27.6937031075188,
+        -24.880000100000004,
+        9.806296892481202,
+        -24.306296892481203,
+        -24.4999999,
+        13.193703107518798
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "Target_DOCK_5V": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 29.992087149912006,
+      "STEP_adaptive_volume_delta_mm3": -3.552713678800501e-15,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -22.0,
+        -26.800000100000002,
+        9.5,
+        -17.9999999,
+        -20.3,
+        13.5000001
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "TargetNut_DOCK_5V": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 18.9532594596057,
+      "STEP_adaptive_volume_delta_mm3": -4.985167834092863e-11,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -22.309401076758505,
+        -22.9,
+        9.5,
+        -17.690598923241495,
+        -21.299999999999994,
+        13.5
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "TargetSeal_DOCK_5V": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 1.5421256876702203,
+      "STEP_adaptive_volume_delta_mm3": 1.0540457395791236e-12,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -21.6937031075188,
+        -24.880000100000004,
+        9.806296892481202,
+        -18.306296892481203,
+        -24.4999999,
+        13.193703107518795
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "BuriedSteelKeeper0": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 50.26548245743656,
+      "STEP_adaptive_volume_delta_mm3": 0.0,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -42.5,
+        -25.1,
+        -12.0,
+        -34.5,
+        -24.1,
+        -4.0
+      ]
+    },
+    "BuriedSteelKeeper1": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 50.26548245743657,
+      "STEP_adaptive_volume_delta_mm3": -7.105427357601002e-15,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -25.0,
+        -25.1,
+        -14.5,
+        -17.0,
+        -24.1,
+        -6.5
+      ]
+    },
+    "FourContactSkin": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 23761.238490903914,
+      "STEP_adaptive_volume_delta_mm3": 1.0295480024069548e-09,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -45.0000001,
+        -26.849999999999998,
+        -19.0,
+        45.0,
+        -2.9999999999999996,
+        19.0
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "ContactFaceMask": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 5980.839032251552,
+      "STEP_adaptive_volume_delta_mm3": 2.7284841053187847e-12,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -47.0,
+        -40.0,
+        -1.0,
+        -11.0,
+        -26.5,
+        17.2
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        36.0,
+        18.200000762939453,
+        13.5
+      ]
+    },
+    "ContactMoldHalfA": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 123485.86133218599,
+      "STEP_adaptive_volume_delta_mm3": 0.008992624672828242,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -58.0,
+        -37.0,
+        -28.0,
+        58.0,
+        13.0000001,
+        1e-07
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        116.0,
+        50.0,
+        28.0
+      ]
+    },
+    "ContactMoldHalfB": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 119305.07754340263,
+      "STEP_adaptive_volume_delta_mm3": 0.007942123105749488,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -58.0,
+        -37.0,
+        -1.000000009184851e-07,
+        58.0,
+        13.0000001,
+        28.0
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        116.0,
+        50.0,
+        28.0
+      ]
+    },
+    "DockDeviceGauge": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 133727.90100312856,
+      "STEP_adaptive_volume_delta_mm3": -1.6544945538043976e-06,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -45.0,
+        13.150000000000002,
+        13.0,
+        45.0000001,
+        138.10000015649777,
+        51.0
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        89.99999868869781,
+        37.999998688697815,
+        124.94999694824219
+      ]
+    },
+    "DockBase": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 84953.7960400005,
+      "STEP_adaptive_volume_delta_mm3": 8.149072527885437e-10,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -57.5,
+        -7.0,
+        0.0,
+        57.5,
+        159.0,
+        38.15
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        115.0,
+        166.0,
+        38.150001525878906
+      ]
+    },
+    "DockLid": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 72963.2433256577,
+      "STEP_adaptive_volume_delta_mm3": 1.4551915228366852e-10,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -57.5,
+        -7.0,
+        30.15,
+        57.5,
+        159.0,
+        65.0
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        115.0,
+        166.0,
+        34.8499984741211
+      ]
+    },
+    "DockUSBPCB": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 627.4325567532622,
+      "STEP_adaptive_volume_delta_mm3": 0.0,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -56.925,
+        42.0,
+        5.3999999999999995,
+        -26.0,
+        64.0,
+        6.4
+      ]
+    },
+    "DockNest": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 15777.471689976077,
+      "STEP_adaptive_volume_delta_mm3": -7.403286872431636e-10,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -53.2,
+        12.7,
+        5.5,
+        53.2,
+        128.0,
+        51.4
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        106.4000015258789,
+        115.30000305175781,
+        45.900001525878906
+      ]
+    },
+    "PogoCarrier": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 7413.736363398848,
+      "STEP_adaptive_volume_delta_mm3": 4.547473508864641e-12,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -46.5,
+        5.5,
+        5.5,
+        -9.5,
+        13.200000099999999,
+        53.0
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        37.0,
+        47.5,
+        7.699999809265137
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "PogoRetainer": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 1993.3715366355996,
+      "STEP_adaptive_volume_delta_mm3": -1.7348611436318606e-10,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -46.0,
+        3.9999999999999996,
+        17.0,
+        -10.0,
+        7.796199999999999,
+        50.2
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        36.0,
+        33.20000076293945,
+        3.7962000370025635
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "PinPCBBlank": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 278.8690266447077,
+      "STEP_adaptive_volume_delta_mm3": 2.2737367544323206e-13,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -42.0,
+        7.796199999999999,
+        40.2,
+        -14.0,
+        8.796199999999999,
+        50.2
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        28.0,
+        10.0,
+        1.0
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "DockMagnet0": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 150.79644737230973,
+      "STEP_adaptive_volume_delta_mm3": 0.0,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -42.5,
+        9.2,
+        20.0,
+        -34.5,
+        12.2,
+        28.0
+      ]
+    },
+    "MagnetBackSpacer0": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 156.85343800843086,
+      "STEP_adaptive_volume_delta_mm3": -5.684341886080802e-14,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -42.45,
+        6.0,
+        20.05,
+        -34.55,
+        9.2,
+        27.95
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        7.89754450856708,
+        7.895089626312256,
+        3.200000047683716
+      ]
+    },
+    "DockMagnet1": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 150.7964473723097,
+      "STEP_adaptive_volume_delta_mm3": 0.0,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -25.0,
+        9.2,
+        17.5,
+        -17.0,
+        12.2,
+        25.5
+      ]
+    },
+    "MagnetBackSpacer1": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 156.85343800843083,
+      "STEP_adaptive_volume_delta_mm3": -5.684341886080802e-14,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -24.95,
+        6.0,
+        17.55,
+        -17.05,
+        9.2,
+        25.45
+      ],
+      "print_mesh_closed": true,
+      "print_size_xyz_mm": [
+        7.89754450856708,
+        7.895089626312256,
+        3.2000000476837167
+      ]
+    },
+    "PogoBarrel_GND": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 7.328967827040712,
+      "STEP_adaptive_volume_delta_mm3": 1.7763568394002505e-15,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -38.9144,
+        7.043599999999999,
+        42.5856,
+        -37.0856,
+        11.488599999999998,
+        44.4144
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "PogoPlunger_GND": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 1.529704073039234,
+      "STEP_adaptive_volume_delta_mm3": -4.440892098500626e-16,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -38.5334,
+        11.488599999999998,
+        42.9666,
+        -37.4666,
+        13.2,
+        44.0334
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "PogoBarrel_USB_DM": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 7.328967827040712,
+      "STEP_adaptive_volume_delta_mm3": 1.7763568394002505e-15,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -32.9144,
+        7.043599999999999,
+        42.5856,
+        -31.0856,
+        11.488599999999998,
+        44.4144
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "PogoPlunger_USB_DM": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 1.5297040730392335,
+      "STEP_adaptive_volume_delta_mm3": -4.440892098500626e-16,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -32.5334,
+        11.488599999999998,
+        42.9666,
+        -31.4666,
+        13.2,
+        44.0334
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "PogoBarrel_USB_DP": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 7.328967827040712,
+      "STEP_adaptive_volume_delta_mm3": 3.552713678800501e-15,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -26.9144,
+        7.043599999999999,
+        42.5856,
+        -25.0856,
+        11.488599999999998,
+        44.4144
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "PogoPlunger_USB_DP": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 1.5297040730392335,
+      "STEP_adaptive_volume_delta_mm3": -8.881784197001252e-16,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -26.5334,
+        11.488599999999998,
+        42.9666,
+        -25.4666,
+        13.2,
+        44.0334
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "PogoBarrel_DOCK_5V": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 7.328967827040712,
+      "STEP_adaptive_volume_delta_mm3": 3.552713678800501e-15,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -20.9144,
+        7.043599999999999,
+        42.5856,
+        -19.0856,
+        11.488599999999998,
+        44.4144
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    },
+    "PogoPlunger_DOCK_5V": {
+      "valid_single_solid": true,
+      "adaptive_volume_mm3": 1.5297040730392335,
+      "STEP_adaptive_volume_delta_mm3": -8.881784197001252e-16,
+      "STEP_symmetric_difference_mm3": 0.0,
+      "optimal_bounds_xyz_mm": [
+        -20.5334,
+        11.488599999999998,
+        42.9666,
+        -19.4666,
+        13.2,
+        44.0334
+      ],
+      "section_view": "Planar open profile mesh; intentionally not a print solid"
+    }
+  },
+  "geometry_checks": {
+    "dock_static_pair_checks": 406,
+    "dock_static_positive_intersections": [],
+    "device_interface_pair_checks": 210,
+    "device_interface_positive_intersections": [],
+    "thread_major_and_PCB_clearance": [
+      {
+        "net": "GND",
+        "major_to_cover_mm": 0.04999999999999716,
+        "contact_and_nut_to_PCB_mm": 3.737373872716595
+      },
+      {
+        "net": "USB_DM",
+        "major_to_cover_mm": 0.04999999999999923,
+        "contact_and_nut_to_PCB_mm": 3.588218569150994
+      },
+      {
+        "net": "USB_DP",
+        "major_to_cover_mm": 0.04999999999999929,
+        "contact_and_nut_to_PCB_mm": 3.588218569150994
+      },
+      {
+        "net": "DOCK_5V",
+        "major_to_cover_mm": 0.04999999999999929,
+        "contact_and_nut_to_PCB_mm": 2.0765736889235367
+      }
+    ],
+    "contact_face_seal_nominal_checks": [
+      {
+        "net": "GND",
+        "nominal_gland_volume_mm3": 2.5517586328783097,
+        "free_ring_volume_mm3": 1.5421256876702123,
+        "nominal_fill_fraction": 0.6043383836545462,
+        "nominal_raw_CS_squeeze_fraction": 0.24,
+        "scope": "Saved geometry/volume only. Does not predict deformed ring stress, sealing, compatibility or preload."
+      },
+      {
+        "net": "USB_DM",
+        "nominal_gland_volume_mm3": 2.5517586328783097,
+        "free_ring_volume_mm3": 1.5421256876702123,
+        "nominal_fill_fraction": 0.6043383836545462,
+        "nominal_raw_CS_squeeze_fraction": 0.24,
+        "scope": "Saved geometry/volume only. Does not predict deformed ring stress, sealing, compatibility or preload."
+      },
+      {
+        "net": "USB_DP",
+        "nominal_gland_volume_mm3": 2.5517586328783097,
+        "free_ring_volume_mm3": 1.5421256876702123,
+        "nominal_fill_fraction": 0.6043383836545462,
+        "nominal_raw_CS_squeeze_fraction": 0.24,
+        "scope": "Saved geometry/volume only. Does not predict deformed ring stress, sealing, compatibility or preload."
+      },
+      {
+        "net": "DOCK_5V",
+        "nominal_gland_volume_mm3": 2.5517586328783097,
+        "free_ring_volume_mm3": 1.5421256876702123,
+        "nominal_fill_fraction": 0.6043383836545462,
+        "nominal_raw_CS_squeeze_fraction": 0.24,
+        "scope": "Saved geometry/volume only. Does not predict deformed ring stress, sealing, compatibility or preload."
+      }
+    ],
+    "contact_face_seal_conditional_tolerance_arithmetic": {
+      "estimated_squeeze_fraction_range": [
+        0.16590713959159253,
+        0.2903635639513593
+      ],
+      "conservative_fill_fraction_max": 0.6982323686709543,
+      "cases": 32,
+      "scope": "Conditional arithmetic using proposed incoming/machining budgets and constant-volume stretch estimate. Not manufacturer agreement, FEA, force or leak qualification."
+    },
+    "removed_rear_half_target_nut_driver_samples": [
+      {
+        "net": "GND",
+        "Y_translation_mm": 0,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "GND",
+        "Y_translation_mm": 0.5,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "GND",
+        "Y_translation_mm": 1,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "GND",
+        "Y_translation_mm": 2,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "GND",
+        "Y_translation_mm": 4,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "GND",
+        "Y_translation_mm": 8,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DM",
+        "Y_translation_mm": 0,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DM",
+        "Y_translation_mm": 0.5,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DM",
+        "Y_translation_mm": 1,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DM",
+        "Y_translation_mm": 2,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DM",
+        "Y_translation_mm": 4,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DM",
+        "Y_translation_mm": 8,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DP",
+        "Y_translation_mm": 0,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DP",
+        "Y_translation_mm": 0.5,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DP",
+        "Y_translation_mm": 1,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DP",
+        "Y_translation_mm": 2,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DP",
+        "Y_translation_mm": 4,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "USB_DP",
+        "Y_translation_mm": 8,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_DOCK_5V": 0.0
+        }
+      },
+      {
+        "net": "DOCK_5V",
+        "Y_translation_mm": 0,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0
+        }
+      },
+      {
+        "net": "DOCK_5V",
+        "Y_translation_mm": 0.5,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0
+        }
+      },
+      {
+        "net": "DOCK_5V",
+        "Y_translation_mm": 1,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0
+        }
+      },
+      {
+        "net": "DOCK_5V",
+        "Y_translation_mm": 2,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0
+        }
+      },
+      {
+        "net": "DOCK_5V",
+        "Y_translation_mm": 4,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0
+        }
+      },
+      {
+        "net": "DOCK_5V",
+        "Y_translation_mm": 8,
+        "intersections_mm3": {
+          "removed_rear_half": 0.0,
+          "matching_nut": 0.0,
+          "adjacent_nut_sweep_GND": 0.0,
+          "adjacent_nut_sweep_USB_DM": 0.0,
+          "adjacent_nut_sweep_USB_DP": 0.0
+        }
+      }
+    ],
+    "closed_case_overall_xyz_mm": [
+      115.0,
+      166.0,
+      65.0
+    ],
+    "board_keepout_static_checks": {
+      "OptionalDisplayKeepout": {
+        "DockBase": 0.0,
+        "DockLid": 0.0,
+        "DockNest": 0.0,
+        "PogoCarrier": 0.0,
+        "PogoRetainer": 0.0,
+        "DockDeviceGauge": 0.0,
+        "PinPCBBlank": 0.0,
+        "DockMagnet0": 0.0,
+        "DockMagnet1": 0.0,
+        "MagnetBackSpacer0": 0.0,
+        "MagnetBackSpacer1": 0.0,
+        "PogoBarrel_GND": 0.0,
+        "PogoBarrel_USB_DM": 0.0,
+        "PogoBarrel_USB_DP": 0.0,
+        "PogoBarrel_DOCK_5V": 0.0,
+        "PogoPlunger_GND": 0.0,
+        "PogoPlunger_USB_DM": 0.0,
+        "PogoPlunger_USB_DP": 0.0,
+        "PogoPlunger_DOCK_5V": 0.0,
+        "DockUSBPCB": 0.0,
+        "USBComponent_R93": 0.0,
+        "USBComponent_R91": 0.0,
+        "USBComponent_C91": 0.0,
+        "USBComponent_C92": 0.0,
+        "USBComponent_R92": 0.0,
+        "USBComponent_U91": 0.0,
+        "USBComponent_U92": 0.0,
+        "USBComponent_J91": 0.0,
+        "USBComponent_R94": 0.0
+      },
+      "PinWireExitAllowance1": {
+        "DockBase": 0.0,
+        "DockNest": 0.0,
+        "PogoCarrier": 0.0,
+        "PogoRetainer": 0.0
+      },
+      "PinWireExitAllowance2": {
+        "DockBase": 0.0,
+        "DockNest": 0.0,
+        "PogoCarrier": 0.0,
+        "PogoRetainer": 0.0
+      },
+      "PinWireExitAllowance3": {
+        "DockBase": 0.0,
+        "DockNest": 0.0,
+        "PogoCarrier": 0.0,
+        "PogoRetainer": 0.0
+      },
+      "PinWireExitAllowance4": {
+        "DockBase": 0.0,
+        "DockNest": 0.0,
+        "PogoCarrier": 0.0,
+        "PogoRetainer": 0.0
+      }
+    },
+    "lid_rotation_samples": [
+      {
+        "angle_deg": 0,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -1,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -2,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -3,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -4,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -5,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -10,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -15,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -20,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -25,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -30,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -35,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -40,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -45,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -50,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -55,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -60,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -65,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -70,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -75,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -80,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -85,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -90,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -95,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -100,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -105,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      },
+      {
+        "angle_deg": -110,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "DockDeviceGauge": 0.0,
+          "PinPCBBlank": 0.0
+        }
+      }
+    ],
+    "device_lowering_samples": [
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 0,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 0.25,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 0.5,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 1,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 2,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 4,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 8,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 16,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 32,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 64,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 3,
+        "Z_offset_mm": 100,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "DockMagnet0": 0.0,
+          "DockMagnet1": 0.0,
+          "barrel_GND": 0.0,
+          "free_tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "free_tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "free_tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "free_tip_DOCK_5V": 0.0
+        }
+      }
+    ],
+    "device_slide_samples": [
+      {
+        "Y_offset_mm": 3,
+        "compression_mm": 0,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "barrel_GND": 0.0,
+          "tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 2.5,
+        "compression_mm": 0,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "barrel_GND": 0.0,
+          "tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 2,
+        "compression_mm": 0,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "barrel_GND": 0.0,
+          "tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 1.5,
+        "compression_mm": 0,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "barrel_GND": 0.0,
+          "tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 1,
+        "compression_mm": 0,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "barrel_GND": 0.0,
+          "tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 0.6,
+        "compression_mm": 0,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "barrel_GND": 0.0,
+          "tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 0.4,
+        "compression_mm": 0.19999999999999996,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "barrel_GND": 0.0,
+          "tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 0.2,
+        "compression_mm": 0.39999999999999997,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "barrel_GND": 0.0,
+          "tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "tip_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_offset_mm": 0,
+        "compression_mm": 0.6,
+        "intersections_mm3": {
+          "DockBase": 0.0,
+          "DockNest": 0.0,
+          "PogoCarrier": 0.0,
+          "PogoRetainer": 0.0,
+          "PinPCBBlank": 0.0,
+          "barrel_GND": 0.0,
+          "tip_GND": 0.0,
+          "barrel_USB_DM": 0.0,
+          "tip_USB_DM": 0.0,
+          "barrel_USB_DP": 0.0,
+          "tip_USB_DP": 0.0,
+          "barrel_DOCK_5V": 0.0,
+          "tip_DOCK_5V": 0.0
+        }
+      }
+    ],
+    "metal_face_hard_stops": [
+      {
+        "net": "GND",
+        "target_to_land_mm": 0.0,
+        "silicone_to_land_mm": 0.42720018726587616
+      },
+      {
+        "net": "USB_DM",
+        "target_to_land_mm": 0.0,
+        "silicone_to_land_mm": 0.4272001872658765
+      },
+      {
+        "net": "USB_DP",
+        "target_to_land_mm": 0.0,
+        "silicone_to_land_mm": 0.4272001872658762
+      },
+      {
+        "net": "DOCK_5V",
+        "target_to_land_mm": 0.0,
+        "silicone_to_land_mm": 0.4272001872658762
+      }
+    ],
+    "mask_withdrawal_samples": [
+      {
+        "Y_translation_mm": 0,
+        "intersections_mm3": {
+          "ContactMoldHalfA": 0.0,
+          "ContactMoldHalfB": 0.0,
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": -0.1,
+        "intersections_mm3": {
+          "ContactMoldHalfA": 0.0,
+          "ContactMoldHalfB": 0.0,
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": -0.3,
+        "intersections_mm3": {
+          "ContactMoldHalfA": 0.0,
+          "ContactMoldHalfB": 0.0,
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": -0.5,
+        "intersections_mm3": {
+          "ContactMoldHalfA": 0.0,
+          "ContactMoldHalfB": 0.0,
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": -1,
+        "intersections_mm3": {
+          "ContactMoldHalfA": 0.0,
+          "ContactMoldHalfB": 0.0,
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": -2,
+        "intersections_mm3": {
+          "ContactMoldHalfA": 0.0,
+          "ContactMoldHalfB": 0.0,
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": -4,
+        "intersections_mm3": {
+          "ContactMoldHalfA": 0.0,
+          "ContactMoldHalfB": 0.0,
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": -8,
+        "intersections_mm3": {
+          "ContactMoldHalfA": 0.0,
+          "ContactMoldHalfB": 0.0,
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": -12,
+        "intersections_mm3": {
+          "ContactMoldHalfA": 0.0,
+          "ContactMoldHalfB": 0.0,
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": -16,
+        "intersections_mm3": {
+          "ContactMoldHalfA": 0.0,
+          "ContactMoldHalfB": 0.0,
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0
+        }
+      }
+    ],
+    "split_tool_release_samples": [
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": 0,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -0.1,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -0.3,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -0.5,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -1,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -2,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -4,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -8,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -12,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -20,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -30,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfA",
+        "Z_translation_mm": -40,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 0,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 0.1,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 0.3,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 0.5,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 1,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 2,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 4,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 8,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 12,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 20,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 30,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      },
+      {
+        "tool": "ContactMoldHalfB",
+        "Z_translation_mm": 40,
+        "intersections_mm3": {
+          "FourContactSkin": 0.0,
+          "FourContactRearHalf": 0.0,
+          "OriginalTrayReference": 0.0,
+          "BodyReference": 0.0,
+          "CapReference": 0.0,
+          "Target_GND": 0.0,
+          "Target_USB_DM": 0.0,
+          "Target_USB_DP": 0.0,
+          "Target_DOCK_5V": 0.0,
+          "other_tool": 0.0
+        }
+      }
+    ],
+    "reverse_roll_samples": [
+      {
+        "roll_degrees": 180,
+        "minimum_target_to_pin_mm": 43.607945077160615,
+        "scope": "Nominal180degree roll only, not arbitrary reversed/tilted/lateral insertion or a power interlock"
+      }
+    ],
+    "unqualified_tolerance_arithmetic": {
+      "compression_range_mm": [
+        0.2476,
+        0.9523999999999999
+      ],
+      "reduced_travel_mm": 1.2446,
+      "assumed_XZ_location_error_each_mm": 0.15,
+      "assumed_roll_about_contact_normal_deg": 0.5,
+      "worst_radial_position_mm": 0.2906708538413297,
+      "remaining_full_stop_land_on_flat_face_mm": 0.05932914615867041,
+      "remaining_full_pin_tip_on_flat_face_mm": 1.0005291461586705,
+      "limits": "Proposed inspection budgets only, not supplier agreement, printing capability or accepted physical fit."
+    },
+    "limits": "Nominal rigid finite samples. No continuous swept proof, flexible routing, force/strength, actual tolerances, seal, magnetic retention, USB, firmware, UV or physical result."
+  },
+  "verifier_sha256": "cccb71fa155bb798ea6ba4f2a88c59e6f8ba4469cde68d7f96961c03cf2130ea"
+}

@@ -1,0 +1,338 @@
+{
+  "input_board_sha256": "2c9b69ff9e7879e507023eff27e374fbcef0899acf7da658af54e20bf99c5579",
+  "board_sha256": "2cca81bb72ed7383caf1c84eb162e73bcce5cc0fff74abffa02de48cb5720913",
+  "reason": "Three0.0005mm SES quantization fragments belonged to former U75 pads; connecting them after component translation would create dead USB/power branches. Only these scraps and the immediately preceding native-search routes to them are retired.",
+  "former_pad_scraps": {
+    "c2841b25-82f5-41be-aa02-f74b01fa5d2c": "DOCK_5V",
+    "d8f5de07-6675-4d7e-becb-519ce45e88e7": "USB_DM_CONTACT",
+    "9ebec31b-7a72-4cc4-85ad-eea471f30268": "USB_DP_CONTACT"
+  },
+  "removed_copper": [
+    {
+      "uuid": "31b1867f-d9f1-4de3-b207-4dee198f972c",
+      "signature": [
+        "DOCK_5V",
+        31,
+        102250000,
+        93750000,
+        102600000,
+        93300000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "838f23cf-e23b-440e-a2a1-5e80b391b543",
+      "signature": [
+        "DOCK_5V",
+        31,
+        100250000,
+        95750000,
+        102250000,
+        93750000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "c2841b25-82f5-41be-aa02-f74b01fa5d2c",
+      "signature": [
+        "DOCK_5V",
+        31,
+        100138000,
+        96000000,
+        100137500,
+        96000000,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "e38a69c8-17dd-4af2-aae4-c546c6a6a78c",
+      "signature": [
+        "DOCK_5V",
+        31,
+        100138000,
+        96000000,
+        100250000,
+        95750000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "18448d5d-070e-478d-97a6-91518f4860da",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        103500000,
+        92500000,
+        103750000,
+        92250000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "41aba6bd-5a40-486f-bf6c-7e1f63b41631",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        102250000,
+        96500000,
+        102500000,
+        96250000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "4a350476-8ffa-4930-bf80-2c6ada7fb3b9",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        103250000,
+        96250000,
+        103500000,
+        96000000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "7eb90f81-8a58-405a-a648-1ed84e72fa0e",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        103750000,
+        92000000,
+        104050000,
+        91500000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "844f563b-587c-4027-9283-a2f1d53ecffb",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        103750000,
+        92250000,
+        103750000,
+        92000000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "8bcc663c-11ca-47ab-975f-c8b3f91d3ca6",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        103500000,
+        96000000,
+        103500000,
+        92500000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "a350ea7d-a015-4f7b-8dd7-2bca4258a06f",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        100138000,
+        96950000,
+        100500000,
+        96750000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "addba4bd-2f8b-4fc7-8f40-3deda12d3d04",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        100500000,
+        96750000,
+        100750000,
+        96500000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "d8f5de07-6675-4d7e-becb-519ce45e88e7",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        100138000,
+        96950000,
+        100137500,
+        96950000,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "dbbda330-de28-4881-bbac-63c2b5bfd6fd",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        102500000,
+        96250000,
+        103250000,
+        96250000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "feaacfed-e3c0-4c12-b2b3-a51fe27f7349",
+      "signature": [
+        "USB_DM_CONTACT",
+        31,
+        100750000,
+        96500000,
+        102250000,
+        96500000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "02cac6b7-9b05-41cb-a868-fa3ed38443b9",
+      "signature": [
+        "USB_DP_CONTACT",
+        31,
+        101500000,
+        93500000,
+        101500000,
+        93250000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "31aba862-9acd-4159-a45c-27d1d0c889da",
+      "signature": [
+        "USB_DP_CONTACT",
+        31,
+        104250000,
+        90250000,
+        104400000,
+        90050000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "4ae401a4-80aa-4041-8556-e70347a3f41f",
+      "signature": [
+        "USB_DP_CONTACT",
+        31,
+        100250000,
+        94750000,
+        101500000,
+        93500000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "56da0580-f244-4638-a913-359cd98adb38",
+      "signature": [
+        "USB_DP_CONTACT",
+        31,
+        103750000,
+        90750000,
+        104250000,
+        90250000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "8e94c82c-c8e8-4d57-95d9-7fb448168222",
+      "signature": [
+        "USB_DP_CONTACT",
+        31,
+        103750000,
+        91000000,
+        103750000,
+        90750000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "9ebec31b-7a72-4cc4-85ad-eea471f30268",
+      "signature": [
+        "USB_DP_CONTACT",
+        31,
+        100138000,
+        95050000,
+        100137500,
+        95050000,
+        150000,
+        false,
+        null
+      ]
+    },
+    {
+      "uuid": "c415f8ce-31b7-4173-af11-d00981e4ae0a",
+      "signature": [
+        "USB_DP_CONTACT",
+        31,
+        101500000,
+        93250000,
+        103750000,
+        91000000,
+        150000,
+        true,
+        null
+      ]
+    },
+    {
+      "uuid": "d7e4d11d-5688-4f77-9e25-621ed4909f3e",
+      "signature": [
+        "USB_DP_CONTACT",
+        31,
+        100138000,
+        95050000,
+        100250000,
+        94750000,
+        150000,
+        true,
+        null
+      ]
+    }
+  ],
+  "all_other_copper_properties_preserved": true,
+  "retained_pads_removed": 0,
+  "critical_copper_removed": 0,
+  "native_full_DRC_required": true
+}

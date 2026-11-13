@@ -1,0 +1,43 @@
+{
+  "input_board_sha256": "440272a46d9f0d58bb58687891f2c7101d0c1b922dda177fd945badf6f0238df",
+  "input_DRC_sha256": "0cac5cbdfb8136c2739e8750ac9f5aca903b04ee6d4bd72fbacd2daae9a55c4a",
+  "output_board_sha256": "9116b7af0e9c5c77c14291379cbc5c80dca436dbaaa379ff417111ab5adf4b9c",
+  "added": [
+    {
+      "ref": "U103",
+      "pad": "11",
+      "net": "CC_ENABLE",
+      "native_mm_path": [
+        [
+          84.8,
+          192.175
+        ],
+        [
+          84.8,
+          191.15
+        ],
+        [
+          84.2,
+          190.55
+        ]
+      ],
+      "track_width_mm": 0.15,
+      "via_diameter_drill_mm": [
+        0.5,
+        0.2
+      ]
+    }
+  ],
+  "no_direct_free_escape": [],
+  "physical_DRC_clearance_test_mm": 0.1502,
+  "native_DRC_required": true,
+  "protected_copper_mutated": 0,
+  "bounded_unlocked_ripup": [
+    {
+      "uuid": "f6601bc8-c18c-4148-9ad2-7484fe69d4aa",
+      "net": "3V3",
+      "kind": "track"
+    }
+  ],
+  "ripup_option_explicit": true
+}

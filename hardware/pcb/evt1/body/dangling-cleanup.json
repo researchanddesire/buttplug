@@ -1,0 +1,2818 @@
+[
+  {
+    "native_DRC_sha256": "7a933e223f7f9893158a8321fff5c98b9e230c811a9ff9b02b7a6148b9be8cbb",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "0e18b1fc-c471-46b1-a66d-ee5ad085b63c",
+        "net": "3V3"
+      },
+      {
+        "uuid": "18f59412-47be-48ba-b957-f5fa37214eab",
+        "net": "3V3"
+      },
+      {
+        "uuid": "febac5de-5f7e-4163-83d9-1385eab79d68",
+        "net": "3V3"
+      },
+      {
+        "uuid": "7d36902c-c9b4-4caf-abca-1668c3cfd901",
+        "net": "3V3"
+      },
+      {
+        "uuid": "dbe72866-ae0c-4e78-a441-54668dc66b1c",
+        "net": "3V3"
+      },
+      {
+        "uuid": "63f54456-d257-4f1a-a33e-8101d37d7242",
+        "net": "3V3"
+      },
+      {
+        "uuid": "398db07e-4428-4d4e-8a01-186460851ea0",
+        "net": "3V3"
+      },
+      {
+        "uuid": "d12bd1e7-8d8e-469f-b799-eacd7a2d289e",
+        "net": "3V3"
+      },
+      {
+        "uuid": "8bf42668-3884-45f4-8e6b-aa60a644b309",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "5c4e3c7c-ca39-4a82-9de1-78ade7daa7e1",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "3d4d95c9-eb2b-4884-ae09-bfbcd3ae22bc",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "a42c98c3-ca53-4f29-ac78-84a153fb48e6",
+        "net": "DOCK_PRESENT_N"
+      },
+      {
+        "uuid": "754a34d3-8487-45f5-bbff-c4a134de20a6",
+        "net": "DOCK_PRESENT_N"
+      },
+      {
+        "uuid": "6e4cec25-fc7f-476a-a976-9017044b31fd",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "d90e9fd3-daeb-4201-9c8b-98b3ab0a4160",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "6279b516-1876-4cfb-abcd-90e2e9658f61",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "9b7a3a48-d2b0-417a-bcf5-654b9dc3744d",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "c874b6fb-03e6-4681-9055-709a8ef32d4c",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "e14e92b7-45e2-4747-8dc4-f95e22784c3f",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "78b554ac-6e81-49ca-8ca9-e2a400d4622e",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "cc04a5ee-3dfc-4c4a-bf76-d957f5501ad5",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "5a23a6d9-3ca4-40a6-8a19-992c248c5d00",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "364c3b67-ca67-4787-a5a0-2e4d1552238f",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "98ae68e4-7b90-4c93-aa48-2a07f8abf198",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "cb720955-0606-4db9-916e-9016612f68bb",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "4f3a397f-502f-44c2-aa22-2a26d96a0d67",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "96caca2b-4a74-4064-b267-7c2e6c437e6c",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "5ffab596-0bbc-4b90-81cd-d652f700afd8",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "5ade95db-27b9-4ee6-87e6-bc6bfac9e84b",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "1e12e2ad-bb2f-4f03-aed4-df9fe7b8e8da",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "7683ad4d-7664-4f4b-a23a-f0e7ad2a25f9",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "f1685633-66b7-40d0-95d9-4045087c08bd",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "192adc71-a25c-40e8-b82e-443256f3d84d",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "1faca13e-834e-4a4a-b42b-9ae45bd20675",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "7216cbdb-6d0b-44b6-b65a-2cde7bcda746",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "c9b37c44-2590-447d-b5e6-8faec0ae9ef8",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "243a1f8d-8c66-4fa2-9261-8247cad3b565",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "215f5528-9e36-45f9-abd1-c646fc110a66",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "c23270cc-c083-4f6a-bb64-5103ff90a56e",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "f1bea6c7f3907ecc25d4fba2a81539376c050dd78974f062ebfd45921ea94174"
+  },
+  {
+    "native_DRC_sha256": "66c1653262edc2ecc2e9a822b80bb50188d9c8a04663a44f3c92c41b0ff630ed",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "1df5310a-cb03-48b5-a175-3f95b640cc1d",
+        "net": "3V3"
+      },
+      {
+        "uuid": "6d5f83d9-9d5a-42ef-9869-89cca2d466f8",
+        "net": "3V3"
+      },
+      {
+        "uuid": "c9a1d2a2-f064-4f7f-a397-3d532d2eb429",
+        "net": "3V3"
+      },
+      {
+        "uuid": "2a8c3c10-117b-4e88-be06-5300f95bb382",
+        "net": "3V3"
+      },
+      {
+        "uuid": "9d3fa63a-1e51-46b2-ac6e-ee88648b3dc9",
+        "net": "3V3"
+      },
+      {
+        "uuid": "a0d3bedb-751e-4cbe-9915-2b9e39dee33b",
+        "net": "3V3"
+      },
+      {
+        "uuid": "b1cb2917-3c3f-40e2-a921-40c0cf0a7a22",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "94e2fca3-e512-407c-a208-c5dcae3edb9a",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "ad766d09-376c-476e-a911-6b1f11345f60",
+        "net": "CHARGE_TEMP_OK"
+      },
+      {
+        "uuid": "bf00a1a5-1e9e-4b43-b90e-b0fdfed121ed",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "42dcd87a-7d5d-4397-a1a6-5a5a6fa02215",
+        "net": "DOCK_PRESENT_N"
+      },
+      {
+        "uuid": "0920cb88-13a3-4e07-b221-8f0ad4e26a05",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "1cfa5bbb-a23f-4f2d-a624-a7376c1a35ae",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "d194372d-b70e-4adb-8b9b-f3558719ed14",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "00b2b39c-4d6f-49f8-9d7c-fdec0cad1f20",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "05a75e48-a5c6-4721-b9f2-07c04758440f",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "c9dfba48-1e91-4d70-9f6e-352f47012547",
+        "net": "MOTOR_3V7"
+      },
+      {
+        "uuid": "4001fc15-9aa6-4488-8aba-b974c0272828",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "a19ed07d-4249-4a22-9b79-1d41e0fa0164",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "b779c068-463c-4a59-be0e-47c93bcc7434",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "11370617-9370-4597-9e95-68dae47a698d",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "e07c820a-0e1c-4eaf-8c92-2249ccc3a082",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "4d66e58f-39e8-4360-81a5-467d563467da",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "c303b339-a721-4066-a082-753e4f2dcc14",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "296b8ab6-2c62-4ecb-bfa0-6152e493501b",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "f88a2c74-6e22-4b3f-8a07-0dc52ad70d00",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "baeb3fff-e6e8-43d2-aa8d-1a365ebae18c",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "beea2eee-8cca-498c-a746-15f1658aebca",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "d232dc60-2cc9-4c75-bae0-2424c415af0a",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "dfcfe2ba-0b20-4dca-a1b7-9eb6160aa58f",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "c57028e9-aef2-4a92-bacc-4641ff0e7473",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "84b2a4dc-0ca5-4846-a374-5cdafe123342",
+        "net": "SYS"
+      },
+      {
+        "uuid": "4f3acd13-b79e-492b-9855-98030c03f558",
+        "net": "TEMP_COLD_IN"
+      },
+      {
+        "uuid": "343c676f-ee12-4754-80fa-1bdc3384622f",
+        "net": "TEMP_HOT_IN"
+      },
+      {
+        "uuid": "4a65127d-084f-46a1-b20d-966c5c29fb90",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "b88dfa1c-c598-409f-9c3e-63d0c0468330",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "bfdfa51e-4aa6-4dd6-be19-01f26b03eb2b",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "615cfe20-5a51-4240-b4d7-43d690c20560",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "a46e0ee7-ed43-4056-aa7e-9144340e417b",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "afa6056f-026a-4a05-9b54-a36247a27eac",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "faadd6c6cddf40b415535fb1e78c547eadd1213796fae6a6d8852045d7ecb7ee"
+  },
+  {
+    "native_DRC_sha256": "af11369273d987632d78dbb02d561e997de947c62f4be2433d0873aa4b986376",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "d21ce309-254c-45ef-a981-9df903cc7298",
+        "net": "3V3"
+      },
+      {
+        "uuid": "dffec617-960c-4c5f-9baf-5b52d093581e",
+        "net": "3V3"
+      },
+      {
+        "uuid": "16f3ddd7-104b-4014-b3c7-b76cb0c7d40a",
+        "net": "3V3"
+      },
+      {
+        "uuid": "c0d4438f-c358-4083-a8a5-3d982f896829",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "bb543991-cd5c-4c57-9c38-42b1e4a292d5",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "047947de-8b78-4495-963d-f3e49b68bb93",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "229ce0aa-93ed-491a-af37-8278d21a6d20",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "db69c673-0666-4096-8d81-20ae6ed83d63",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "1213fbcb-c743-479c-bb35-6b37b8c1e513",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "a45572f9-7363-468f-b1d0-2caf9e3fa31d",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "f1d5b13f-5bb0-4ab0-a871-6c81693fcbff",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "4bd5bd07-80ac-4a20-ac22-d3a891412da0",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "c2e2f1b0-c0be-4400-ac67-48f17e3cf0c8",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "52ef8257-6752-42ad-86b9-0ac853af47fa",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "445c3151-55ef-4f31-8e1a-bd18669da469",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "97379365-0fbd-42ca-920f-4348adbb543d",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "98d34c50-2bea-4226-a21f-56fef44ea3da",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "a077a475-6876-4745-b329-a69ea1cf5b3e",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "719d5cee-daa1-405a-98b6-75ab25895480",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "a11ea1a1-4da1-4b7d-815c-8659d4cc9195",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "1fd6badd-6f31-46d3-8e48-2eeb551d1880",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "615faba9-c9da-4e53-8d17-37878f5e7e38",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "164d3668-3fea-4746-a6e2-f7dce28ed904",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "28069063-31bd-4ecf-b7f9-52412f5290f6",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "a94ee27bc8c46ddcf20a84292e46c120bf4d25e4065b916feae1196b4e49fcf0"
+  },
+  {
+    "native_DRC_sha256": "a6ec48a3747c068d41c40686f875ac0bf3e5b909efc16c40d809019e79b7a379",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "1bc89c83-3e5e-4d17-bf56-7aa60002985e",
+        "net": "3V3"
+      },
+      {
+        "uuid": "44e2552f-0b16-4dd3-88c2-342ef413a4d4",
+        "net": "3V3"
+      },
+      {
+        "uuid": "ea87cf5d-d55d-4e2f-b653-e78803b3e896",
+        "net": "3V3"
+      },
+      {
+        "uuid": "29d1403a-805b-4035-8bc6-b5bc46f3f740",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "137d7221-8a88-43ee-a199-38c3370801bf",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "f3f0c46f-4fd4-4211-ab20-4c185591f066",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "0d5c418f-d47b-4d7d-8939-f44c833eddab",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "0c1dedda-79a0-46a8-ab14-a36a8c9d9df6",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "f681cf76-6731-423f-a9a4-79a96033a4c9",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "e62d2758-41fb-43eb-99ad-216d942d4d91",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "162b72e6-b342-4f92-a934-05ac81288dd9",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "0165f8b0-ae21-43f6-b4bf-2043ad1a9de6",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "feda4d0a-8c4c-4c2f-82bb-e9eb778e45a4",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "ca0d9394-fd8b-4c98-8a65-b02f4ff2ac89",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "f3874e1e-4d08-4837-87ef-1bccdc6a8556",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "b9bb77a3-df2b-4d96-bc54-596acd7072b9",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "9053f491-070e-4d4d-96a6-9046f02da0de",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "04cbd550-0a4d-4896-b303-9ff2a9648798",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "42f6d38c-1948-49a3-93ad-9464ab7db519",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "a36dd5e4-b4b6-46bf-a386-7e8c24bc10a0",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "051a627103be17b2864b0d08355b49bdfd92a8cf602cbf413c1be262f9170462"
+  },
+  {
+    "native_DRC_sha256": "170f8cc0efd2939cf47d98d390ba6ff1a6f81c47ca1f9e326aa7469441a496d7",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "5592bfd5-2432-48bf-ba2b-5ccb06b85e51",
+        "net": "3V3"
+      },
+      {
+        "uuid": "5da9daec-65ea-4c81-874c-86d5fbe86561",
+        "net": "3V3"
+      },
+      {
+        "uuid": "9cf3f5ee-f5a2-4ea2-bfe2-0d04a6d24d02",
+        "net": "3V3"
+      },
+      {
+        "uuid": "2588d38b-866a-4c4e-87c4-c690cf3eeabf",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "d2c3257d-eeb9-4a77-ad3a-e25581aaef67",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "b96c4b1f-a124-4805-bcc4-a8e3de8bf386",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "0edfe010-0af7-4e59-9dc0-11958778b9f3",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "ec2429f2-07f3-4d27-abc5-197d46ad15b2",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "678d09ad-cd5a-4456-9c8c-79636b4ea2e1",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "02bf8b4a-1678-4e23-a8e3-1bd05ada284a",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "b0613e14-062a-4249-a309-6ea7124eaa36",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "256bc1f8-fd21-4309-a936-f3ea7c5da05b",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "b810a3b5-0782-4305-bbfe-6268b9f3d6fa",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "3e87db33-223b-4284-8c1e-3cf0e6873a99",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "a25a66c1-694d-4f80-8a15-8ed72ee2aa8f",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "c7af37f7-ed83-4154-bd52-3cd6947c67d8",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "baac60b7-11dc-4eff-9406-114442359845",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "4508bfce-1233-4fc1-a66e-598b0d7e8a26",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "e7e967bc-b419-44f0-a691-c68932bdc396",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "b35e612df5e13bfe6e8af3eacdf0d7bd2333960971d10ce68c138c377a651a38"
+  },
+  {
+    "native_DRC_sha256": "ec3af1c3ba8eb344afe0d891def2ff949ba169a6a50c02896c8f9b39af3dedd6",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "22afc78a-7db6-4e38-a590-a7ba92164c98",
+        "net": "3V3"
+      },
+      {
+        "uuid": "518b1c0f-6f73-4d88-a6bb-2facc87f4868",
+        "net": "3V3"
+      },
+      {
+        "uuid": "121a1b06-3657-4455-8864-f1d4fe86b644",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "fe927722-5d1b-444c-a57d-6e2fdfb42a0c",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "13c96502-16f8-4e60-b2a3-11c00b23e980",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "c0d2eaa2-05bc-45ab-a1c7-cc3ec6869f5e",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "561a60f3-ed37-4c32-afc7-9a491244fa83",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "5ca38083-3a7a-418f-a21b-fc863dfc2f68",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "cce18026-1c62-479f-9c54-4bd1ffddfaa1",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "c4dfec3c-b419-4b43-819d-b00414f71bb2",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "98f511fc-db0e-46ce-962e-8ecce35312ad",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "6dcc2a19-ab49-4e3b-ad67-13154597fdd8",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "c3b2e7ea-622e-43f3-8a24-c12b39d435bc",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "2edc97af-7eee-4a70-aff8-d9d9b6650b8d",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "a47f100a-beda-4a1a-9d1f-654505f4150d",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "7be2fdc5-98fa-48e7-8010-5bc957cbe330",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "15f96fab-8cbf-4517-9a4e-8eb713e330a0",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "599c0e51-0ef0-476a-b9eb-ce086ea42b63",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "f59494109d160099ca91a136a3b069b55f0f4c5e7ce28af9336aca7bb2ef7a09"
+  },
+  {
+    "native_DRC_sha256": "8071c9b6e4cefe15357728e6925a013f08a53d4268af05b82b221739242c8273",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "26dfda24-54cf-437c-a8d5-050c6908ee1d",
+        "net": "3V3"
+      },
+      {
+        "uuid": "2b8ab7df-430d-43b5-bc77-90f76d51eea0",
+        "net": "3V3"
+      },
+      {
+        "uuid": "60736af7-be9a-4ee5-bd4e-0a74fbaaa01d",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "787e8337-041e-4399-a8a8-2d7a3419c51e",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "080bc0a2-580f-4d44-ac91-ffde90eab3ad",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "26dc0675-6f30-4f1d-b6a0-5d0ffac789f4",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "743619c4-15aa-4eec-89ad-264e24599efc",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "4c9f91ca-b63e-4ab1-960d-2ecfb7bdcdcc",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "363600a9-e98e-445d-814a-f59b2b4b3167",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "595019f4-fa48-49bb-b018-119dd5033970",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "d97d0c12-8bee-435b-921f-5d675ac4bc2b",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "f04b049b-4584-4585-9e3c-8d9f2cef7305",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "fd0fef02-f0ec-4dc8-9958-4e32d5c4888b",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "6936e34f-04e8-4607-b8e6-3369dd27f4d1",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "5249b475-4348-469d-85a5-96a3089d292b",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "3a84a1e5-84b9-4e27-a553-ba627b97e8d2",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "ef3fe959-5c94-4d43-bb51-73f0b1c6e65a",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "afeb3662254eaa9db0f57e68c3f6907fea5c14d81dbc063188b9682450a4f1e8"
+  },
+  {
+    "native_DRC_sha256": "a803054ed6cac97ae04548b5ab8734b18f37f7d8d9f21f97f028e82c8c336b14",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "a42414e7-bce7-456c-902f-f082ba055086",
+        "net": "3V3"
+      },
+      {
+        "uuid": "48a582e3-1574-4674-a809-628708f16d9c",
+        "net": "3V3"
+      },
+      {
+        "uuid": "b0d9c79f-7d48-42e5-ac21-d2501c93e338",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "a1e527f9-d30d-4fcb-85f1-d581b5ac5598",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "e048fc9e-2612-4c3e-8e00-36a5a56cb953",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "8159e908-06f2-47bf-ab0d-12d1f158a2ab",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "7704fadf-7374-4e9f-b02f-1cdc440a2978",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "d519a069-ea31-45f6-9cbc-2e96c89ef63f",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "32953929-c0bb-45fb-b08f-d51321e5d200",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "2bdc0039-c545-480e-afcb-3b5ad54eaa0f",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "96cd3b08-7ed6-44b5-a449-4a705f7a99e8",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "767a0714-03a8-40af-8703-37d83e234620",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "4efabe04-fb27-4bb1-a6ca-a6efe11efcc5",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "8ec88c3d-fd19-48c3-862a-9e8a97adbc95",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "97039bba-4a10-4d3c-ac4c-b7c42e03ff7b",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "0ca5789c73ea8271530d5f738a6babcf7bd5e3c30a7aa24186498466970d00ca"
+  },
+  {
+    "native_DRC_sha256": "f65aae9fc5cf9c4fada4fd7de000f0cb9e8e34fb84474e2263d1b74f7fae5a4f",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "049acb63-13d4-455f-8701-89cb07da52d2",
+        "net": "3V3"
+      },
+      {
+        "uuid": "1810ec08-d6a4-4526-a443-811262c8836b",
+        "net": "3V3"
+      },
+      {
+        "uuid": "440cdc64-a86e-468f-ba1b-50a487f07728",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "17bc67ad-0e48-4ed0-8ed8-f37189e872b6",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "2deab32c-1858-4f6c-99a8-5b4e2112d734",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "32ba72bc-4cb7-4f9e-ba55-ab4897dce2cd",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "99521f9b-9940-4829-b8af-525663db3f4b",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "2eacd831-d940-4065-a382-66f5a746b3ce",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "b8616d7d-efae-4ccd-a4a5-1cf1665a6c6c",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "cacb143e-e484-4115-a259-0d51c1710555",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "3dd5ac0d-b238-4b60-a5e6-3cb8a3a7dad2",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "e42e6658-fee2-42cb-8c35-4a8c43cfa5d8",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "2af14c30-0730-45b9-9b17-dafb32a31320",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "f1c64b4a-3433-403a-84d0-70de0d3d3ccd",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "973862c12a08581cc1ee17f7084bbcee59c203ff08cce519148930457a48b234"
+  },
+  {
+    "native_DRC_sha256": "1e95a5162003a5d109439ae2b8bb5943c35e7f9af0b4044110c0137fcbf72d93",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "09111b7d-7bc0-4026-b360-66e713949d8a",
+        "net": "3V3"
+      },
+      {
+        "uuid": "075c4a5d-5f0b-4eb5-9f39-36b131106273",
+        "net": "3V3"
+      },
+      {
+        "uuid": "1e945f1c-e219-4016-91c6-d397093c2c39",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "82d370be-5152-4ce4-837b-629b83ca9158",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "972eef7b-724d-47ad-9082-9ef3cb30a326",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "ce0afadc-609b-4633-8746-4c17db71c344",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "fa343b25-de1e-47bd-b6f7-bb9bbb680472",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "6a54cf2d-3c3b-43ad-a51b-822a46e5bc44",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "b1dfbcd1-2cdb-4603-ac1b-e6522b035724",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "523ec869-f11d-4bd8-b6a5-5bce778bea79",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "802d7b40-277b-4305-8f25-9aad2804464b",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "4c4cb87f-45a5-4872-97d4-a9c9b1ce1fb4",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "bb1ab153-1f3d-4145-9a94-f484e7769fb8",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "0e84f04745182d5198efe8cacec12cc4b65ecc588b048d86c32e1d2ba4f5a8c0"
+  },
+  {
+    "native_DRC_sha256": "c5eecaed59a9207fdb4f91b00069e218bfdabb689fbc24976eb789b62e6f750f",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "104b7389-b425-4cdb-adf8-33e9d65bb93b",
+        "net": "3V3"
+      },
+      {
+        "uuid": "557331b7-61e5-43d2-bd80-91f890d382f7",
+        "net": "3V3"
+      },
+      {
+        "uuid": "2e716b21-7a5e-4f31-a447-eb19ad66ff93",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "1361117c-cdb2-411b-99aa-d5a64f7a522b",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "43b5d0e1-7307-4f4a-9c7d-8f4854f67edf",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "7c8c5e4a-5453-4cde-9861-0506b679e8cf",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "d08859bd-a376-4f2c-934f-8fdbe3fdb749",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "5c533127-aa40-41ff-8879-a93ec0a7288b",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "28199dc1-c700-42b6-94d4-24988da1d7e5",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "ae2005d0-a84c-4dd4-b059-7b3df6a771e5",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "3499f22f-8b7a-4fe5-875d-3984bf791c59",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "d520bc77-4530-4230-96d1-0db4e74324fa",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "38f85fdad5a19a6cb83ea014e70df797e319778c519b3d36f7b6873acafc3007"
+  },
+  {
+    "native_DRC_sha256": "dc5b8c7a2205e8a61b722e2752d35d6c11714e8d3e4a66119d6fcd029841ac0b",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "573cde45-4ff0-42a8-b9e9-97d6461f5c6b",
+        "net": "3V3"
+      },
+      {
+        "uuid": "a514019f-c5c7-4401-b297-57041de699ad",
+        "net": "3V3"
+      },
+      {
+        "uuid": "2844fcf7-4136-43ad-80c3-e71ffa548c2a",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "43cc6ff4-49d2-4e00-a72a-cbe55727aaec",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "781c8800-751c-4f20-9362-1b2fed5319e8",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "9e282a9d-64f5-40a2-8ddb-f0732c3b349a",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "460d7dce-8286-4dd7-ac1e-8c391c04c7cd",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "a572a499-482f-4cc3-acc9-9b085938bd59",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "2140669a-253f-4138-8116-86e8392bba50",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "5b2c66d8-055c-4dbf-8008-fbfb85edf0db",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "030beacc-e220-4a63-9d14-737bf76bb049",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "e84bd57c-2dd1-43f0-af22-b6fed25099fc",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "a69ebbbb6509058b2c2c801d51bc351b65ce2b102caa56af3d24bf39c3ded176"
+  },
+  {
+    "native_DRC_sha256": "89bc5b2912aa925d93979c936fc93e0c73ee6613762040d9b28ce0a54a9b4155",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "a2cd9ac2-50f1-41ad-96d3-66d8acb88d16",
+        "net": "3V3"
+      },
+      {
+        "uuid": "d051d4bf-e78f-49bd-9ade-83f6810580e7",
+        "net": "3V3"
+      },
+      {
+        "uuid": "5be359d1-07b5-4b07-bc9b-facf943676b2",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "ea33e4bf-fccc-4455-a64e-f010fe90bebf",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "9fd42724-8fdc-434b-85e3-16b54ce2897d",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "4c55dccc-66b0-408d-b0d7-8d929445db8c",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "0493ae61-36ef-415e-8e6c-e9339d29a811",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "a76310fc-6dc2-4546-b27c-c1a83861a7d3",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "844bbfb8-5d08-4b63-abe7-58eb62b55ce7",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "ba770d3b-1541-451a-9a7c-aa184ded9fd2",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "261f679f-5fc8-41ae-af97-f46c4abef6eb",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "7bc75129-2e0a-44f1-8564-f3bc9c8c2765",
+        "net": "TIP_EXC_EN"
+      }
+    ],
+    "result_board_sha256": "55aaad001109c06483ad880ce0d4361c63bdc5079cc5ca933a0a03ddbdb320a7"
+  },
+  {
+    "native_DRC_sha256": "0ba29dc1f823da2e010623123c88fd04fd03b1eaaf89388580dd643ad27ce818",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "16959e59-933f-4256-8b0a-1cfbbc4fa099",
+        "net": "3V3"
+      },
+      {
+        "uuid": "fb1d8e7b-4aca-4227-b471-d7630bd2f008",
+        "net": "3V3"
+      },
+      {
+        "uuid": "d6b8b5d3-0027-4070-bc8e-3a4c8df87edb",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "39e4f8d6-5896-4105-9242-e9ef21bd5801",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "fede3b52-025b-4d21-846c-3f8bb114619c",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "419d73fb-6ed6-4abd-b449-451e87fe1771",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "1b49e5a0-584d-462b-b50f-93eb61ef3857",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "203bcfc6-7073-4d7d-8e4e-a304e59977a8",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "8ee5ced8-f1ef-491c-9c1f-302c5991dbe7",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "47cf806a-c58b-4f10-9e4f-92d4b767566d",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "52da4efb-3217-4d34-950f-43c5dd80deae",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "e252c8c9-6660-4a88-b4e7-25529c5e159a",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "b40222b9-e677-4af4-969c-644e5b64e5a4",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "be16046e-300a-4c21-b704-17e5e7f1904c",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "d215dd9e-f881-4d7e-bf9a-7c58ee19b4d3",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "d1a731ff-7327-4bf4-872e-6fd988fcb0ab",
+        "net": "3V3"
+      },
+      {
+        "uuid": "616c80f7-8300-4cdf-95a1-98a8f70bab10",
+        "net": "3V3"
+      },
+      {
+        "uuid": "08529123-d1cd-40b9-869b-5c48c69c98bb",
+        "net": "3V3"
+      },
+      {
+        "uuid": "626a266b-1acb-48be-bf85-3e62f96f3cf8",
+        "net": "3V3"
+      },
+      {
+        "uuid": "f3790449-7c23-4888-94f8-9195d14a40af",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "02ff50d9-41f9-4809-bdfb-9d5224f8bc2d",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "ba508787-8c9e-49c2-ad3a-4751032793f2",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "976304e2-cc8b-4882-b3f9-b7e7aeafdc30",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "9e1400b1-5538-4a47-9a2c-dfa374c4f369",
+        "net": "CHARGE_TEMP_OK"
+      },
+      {
+        "uuid": "b3c38604-705c-4d3d-a275-15281c7a2275",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "cf945560-65b8-4bcc-96b4-d722bc038ee9",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "f2e68ede-3fb4-4f09-88ae-a4dbed397629",
+        "net": "DOCK_PRESENT_N"
+      },
+      {
+        "uuid": "71cf7785-5a7c-416f-99dc-e2419ba46571",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "66abc69d-2979-4ebe-8f32-ec10ba825df9",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "376650fb-dea2-47e4-8f99-740b95f28535",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "fb91c112-7436-4222-82b6-a0d81b179fb9",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "a8ec1cea-9ece-47f9-9ab7-eeacff55151d",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "5024d12f-e648-43a7-bcf3-e53864bf7077",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "52f89cf5-de7c-44da-afe3-8635a2cfb326",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "b8dfa661-22d3-4635-be31-50f1509fd3af",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "42bc435c-5804-4c30-8c5d-837cde12629f",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "e63d2328-e23b-406f-84d1-e9a69076e1d4",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "b9cbed85-4189-44f1-b8de-049767ef4df5",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "42c40955-0a91-405c-b091-931ac3f8b69d",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "647437f6-31c0-40a1-b9f4-3362ddb5effd",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "6a78a455-a474-4859-a045-8c8232402faa",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "066d7057-681a-43f3-9f65-99acbb55f2bb",
+        "net": "TEMP_COLD_IN"
+      },
+      {
+        "uuid": "2531990e-d27c-4eeb-ae74-5678c5c3d8ef",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "23f94db8-c271-4c6f-b07b-321a5c66ac5c",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "4e1fa26c-fda0-4e55-8062-ea622a930728",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "78e00b55-217a-43f5-b011-370bc2c4be1e",
+        "net": "3V3"
+      },
+      {
+        "uuid": "2f8c5eef-8f3d-4c72-95af-5a745ab197ca",
+        "net": "3V3"
+      },
+      {
+        "uuid": "d4ba065e-caa7-4a8a-9f47-35f59aaf4c39",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "724996a8-1ac3-4733-94c6-d69fe36eb2b2",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "145f3c3f-e2ae-4b13-8e7d-f7aaf3fbb409",
+        "net": "CHARGE_TEMP_OK"
+      },
+      {
+        "uuid": "81228487-5dc6-4af7-b634-5193003f74ad",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "8bced2f9-2988-4c9f-b854-d9da46e73100",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "d444d298-8a53-493a-be43-2b2ed6093ff2",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "b86e97ed-dff2-4564-bb8b-6a9cf681f590",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "3186d038-5348-4cfe-8063-d0450f3b1a9b",
+        "net": "MOTOR_IN1"
+      },
+      {
+        "uuid": "d035f6c2-11c6-4e5c-89d6-9dba12603f31",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "569e86eb-21dd-422a-b5ca-7feec6259c1f",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "87f5ada1-9128-4e7c-96ae-a126e81c7d85",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "22753b3e-2501-458d-a323-e3c6d4e0507d",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "194868aa-327d-4adf-9aa5-a0c14f22ef2e",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "1d2799ae-7b05-4312-9bcc-ebf8ee166703",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "f864b0f4-e117-4bb7-ac08-3cdd96336d7b",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "d8793821-6573-419c-b3f5-f1783e87b28d",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "1e4b2659-0d49-4dbc-988f-f5555565b330",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "e0592d7b-db74-449b-a598-5634bac0b583",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "2e693a41-157f-498a-b178-31af7fea8eb9",
+        "net": "3V3"
+      },
+      {
+        "uuid": "08fb5330-fe56-43d5-ad78-8f6e0c8f7c12",
+        "net": "3V3"
+      },
+      {
+        "uuid": "12b0973b-b561-45e3-a6c8-2166bac7a3c5",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "4d38ff1a-9bcf-4df8-b781-3bdcf00720af",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "3217fbd0-4c1f-459c-886a-e0800df47acd",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "65659fdb-fb67-4df5-8530-a3476568f0d0",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "71d3d6d2-28a8-406e-a6a1-e1eee7591a32",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "5e3e897c-71d1-4390-a7bd-833fc6badd23",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "ad849e7f-1392-4649-a6e9-a177cb7e84b2",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "29bbecd9-dbff-4b2b-9f0a-7561d3025c82",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "d855809a-3397-46a9-a229-3d53733f5311",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "2a205fe6-fae8-4ecd-9c2c-5c558b955a3b",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "d118892c-927b-48e4-9aeb-76ff33402a0f",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "1e281ce2-fcad-4138-b87d-337312603a38",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "03c78ac5-b336-40e2-a8b8-9d08b300b684",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "30089005-3947-427d-907d-b842b6c29d35",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "914f35b1-b3c7-45b3-9a07-4d2cbd57b87a",
+        "net": "3V3"
+      },
+      {
+        "uuid": "91358497-e4bc-4226-a2e8-f7b0e2f9d6e5",
+        "net": "3V3"
+      },
+      {
+        "uuid": "8cbf3641-7e56-4f9a-b2db-2141fb05ee5f",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "9b8a5086-a14d-44f3-9b54-6b9030bd4884",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "d695b11f-0d30-4a38-bfd7-6752ae692e97",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "7a230134-60db-4af3-8ceb-fda6c2b1db09",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "df7d4c65-6a22-4a88-a7c8-5f7a6e4741b3",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "f3627af3-022f-496f-b129-04794a9b2cfc",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "0856b84f-5d9e-4c3c-8997-50e2cc7f9b05",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "74ce2057-da9e-4002-b2af-775c83824653",
+        "net": "PACK_NTC"
+      },
+      {
+        "uuid": "a17be5fb-d9c1-428d-bc1f-6f41a6288943",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "a8af72c2-2925-47bf-9cfe-eacc44e03d86",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "70e76a42-f39b-45f3-82a2-25939d366a79",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "13b6625b-2d7a-4b68-9855-59884e32f992",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "b43b0e2a-553b-4f36-9a32-5335a0328178",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "eb20927c-8270-47e6-b822-f2cea7d29fa7",
+        "net": "3V3"
+      },
+      {
+        "uuid": "775702d5-0d74-4324-9011-1855a42e6542",
+        "net": "3V3"
+      },
+      {
+        "uuid": "8548bf09-c83b-40f0-96d9-06fe0d5ff521",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "f78e31d1-45b8-496d-a42a-11024b63a1b3",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "20d2875b-93ac-4023-824f-6b30abb76456",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "202c842f-48f3-4282-9f55-e8196639b3d6",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "1fdabee2-4fb7-4ed1-ad66-1993b6e036ab",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "413c2142-77fe-4827-b89c-71c5d143eb12",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "bd7f174a-5127-45d4-84d8-ec708ce54b23",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "e780c530-ffbf-4122-b98f-d8ed945d17f6",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "5ea45a62-dec5-4d6c-b19d-eb06c8c1b728",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "1f5806bb-5a22-4ced-a708-67caf7bed7af",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "6e62eddb-edc1-42d7-9976-bcb400fae209",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "bc4ff65a-57af-40ab-9fa3-ceeea54db73d",
+        "net": "3V3"
+      },
+      {
+        "uuid": "85733da1-8763-4e74-a54b-cc04cd1de31e",
+        "net": "3V3"
+      },
+      {
+        "uuid": "17a3fb55-777f-41af-b64b-749c6a235350",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "870ebbbc-ded4-4c73-bad9-e9c5da2ba7dd",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "e9021507-944d-4195-ac30-64f87d8bf63b",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "76b0f66f-e519-49c1-9c63-ee8c84965a80",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "4599ebf6-45c4-485c-b253-7759a651f3a4",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "7421d3f8-8388-4d46-91a4-7e22b7ec19a7",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "9594f329-ee8f-443d-ae41-e5a94ab4d476",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "c6d2e2af-e6cf-4edb-8f4b-93e8a7158889",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "b9e477db-2874-46f0-8043-787e28c336dd",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "7602b77f-5482-4646-82c4-49885a79609b",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "8a64129f-af77-4db8-a9f1-748117dcbcb8",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "efc8c1b1-38ba-40b1-8eb5-e26082fcfa38",
+        "net": "3V3"
+      },
+      {
+        "uuid": "1422bf6b-17be-4b43-b003-1ee779a27939",
+        "net": "3V3"
+      },
+      {
+        "uuid": "7ab6232d-69cf-45e7-bd70-ca4b28115da8",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "cc1b2483-6aba-4b85-8e7b-bd4d9260c9df",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "a91ec967-5717-4330-aa15-c7c7959ea7f2",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "356e3ba6-c7fa-47d5-88e8-543ad031af18",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "ebfc3998-acfe-45fd-95ce-cf2615561aa2",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "a53e3369-cc0c-4844-951a-d25915fa6724",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "1cf25d5b-b014-4d50-99c0-fc7f0769cdca",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "46e2f859-97df-4d39-9af4-76957f7d3448",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "0ffb542e-c13f-4d0d-9bfc-9e2f1996f559",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "192fb14a-e893-487b-b030-2ddf985e72d7",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "1c17ec0d-f843-4ed6-8365-e44dd1ff8948",
+        "net": "3V3"
+      },
+      {
+        "uuid": "a6a26a24-0ecd-4c3d-955a-dca9cfa74e53",
+        "net": "3V3"
+      },
+      {
+        "uuid": "dbce0bdb-aba4-41ca-8425-b3ac1a2e8694",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "aa75aa62-635b-4749-95a3-e66513ad5b2b",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "7c574b05-ac4d-4a89-9e8a-da07d702706f",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "ea5ff90e-5f8f-48ca-a114-6602f49e8c88",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "8510a8a3-13a5-43e0-8094-5975aede0191",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "6de0190c-68ed-4a92-ad6d-701a19a9614f",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "22702323-bff5-438a-8c68-a743ff6ce742",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "cc87b792-1945-4599-89e1-0bff40f8faa1",
+        "net": "TIP_EXC_EN"
+      },
+      {
+        "uuid": "26f2e496-57c7-4596-914d-0f30c7484c1f",
+        "net": "3V3"
+      },
+      {
+        "uuid": "3596808d-6518-4b49-b88f-848bb827ee5b",
+        "net": "3V3"
+      },
+      {
+        "uuid": "be2b1371-be3f-4f09-8224-55ba935a55d0",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "167839e0-0ce3-4a7b-a539-a1a52cf7422f",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "f192d15e-867a-48ec-bdd8-229462a5d725",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "c013ddfd-0da3-454a-9a64-919ade90b448",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "b2db53a5-eaf7-4407-81d7-93e80f4e629c",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "312a4215-6899-4edd-aba6-1ad25dc630f8",
+        "net": "REG2_PS"
+      },
+      {
+        "uuid": "9fa46259-b69f-4998-aedb-b29cdbbc5fee",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "ce1b03b2-a34a-4663-bb91-a8d05b8caef6",
+        "net": "3V3"
+      },
+      {
+        "uuid": "9bd3be7b-8d3f-4722-8a2b-d93e201a26db",
+        "net": "3V3"
+      },
+      {
+        "uuid": "34ea72b3-7eb3-427b-811c-b5889cb03926",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "5e7b1364-7cfc-4178-91bb-c02135baa43f",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "b2cdff12-7b2c-4a9b-9777-45e7c994e810",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "fefffb6b-85c5-41f3-98c8-7f18012b4ad9",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "95791116-0827-414f-8bd2-ec385068d257",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "8829418f-b3b6-4477-add8-edd1ad66c314",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "d3e86e32-80a5-4ea1-b53b-871f8efaabc1",
+        "net": "3V3"
+      },
+      {
+        "uuid": "6a70efec-691a-4628-80ec-1a09c5287343",
+        "net": "3V3"
+      },
+      {
+        "uuid": "8be43ac2-c88b-4902-b3fe-736a29f30ae2",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "540f210c-3cae-4327-95fb-c61feb4aded9",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "cb66d985-3d1f-4505-bb74-c010e1c3b98d",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "98b4ed85-6bd1-4b3a-850a-096aa4bc099d",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "79e59a37-e44c-48c9-b2b8-6cc0919ac29a",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "c1fa082c-5424-4c6a-92a2-061e4af1b363",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "06b81838-5d5c-4ffd-9d2d-2244c1761642",
+        "net": "3V3"
+      },
+      {
+        "uuid": "27d7b56f-a519-444f-909e-f83961f6cc0e",
+        "net": "3V3"
+      },
+      {
+        "uuid": "87f9747d-383f-40cb-a48b-9044b11a17e9",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "b6e876b2-7d14-4af2-9e28-8ad3dfadc012",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "619e9283-ee66-47f6-a43c-663d6a01a2be",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "87f3e25d-a70c-4e75-9e1b-e81d7a95ca31",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "d0f20b20-cea3-48c6-86ec-fed1b28ab8ad",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "eeaa9dae-6806-4081-a6cc-eb7c7fb6a1aa",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "75583cca-02f3-46f4-a36c-d3d4cf3fa4bf",
+        "net": "3V3"
+      },
+      {
+        "uuid": "89023559-803b-47c3-85a1-a1697d6b2f0f",
+        "net": "3V3"
+      },
+      {
+        "uuid": "2903f4eb-644e-41b7-83e3-24e236ccaccc",
+        "net": "CHARGE_GATE"
+      },
+      {
+        "uuid": "7d5fec1d-a76f-4d76-aa81-bf7b4b108c01",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "c61c0d55-2a2c-4311-adf4-c0737d2aaa3e",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "d3218dd4-57ad-4e8a-b53d-365d9a430fcb",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "f507ed87-8cc6-4c07-9932-78aedca6ae24",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "558a1f76-306e-4af3-8784-69fb1b0bcc88",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "a41102e5-bb42-424e-8cbf-4033b2a1f6f6",
+        "net": "3V3"
+      },
+      {
+        "uuid": "a4160de4-9b9f-42e0-ac9f-a1d75b72f55d",
+        "net": "3V3"
+      },
+      {
+        "uuid": "df31d170-0983-40b6-af0c-92d2bea08d1b",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "cc16ca55-6e4c-41f2-b46b-e9fc161088b4",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "a737df19-d8ea-4aa8-8ffe-5610cb4842d4",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "9b72c8a3-6c30-4cf4-acee-256a1e83d5d5",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "28756277-22ec-4fe0-92c4-fdec33f8b550",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "8fd88034-128b-40a9-8911-9e6f94c75681",
+        "net": "3V3"
+      },
+      {
+        "uuid": "af332de2-d43d-4dd9-ab2a-21ca228463ba",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "a184536f-4b45-4cb5-9199-b475419c483b",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "f3db921a-a4c5-425d-8925-4d35b8d39b09",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "ea7173fd-b7d3-4ab7-94ad-8fea0cca1ac9",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "b16a87d2-9363-4908-b9cf-2a0bc2d15819",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "82e56c9a-04d4-4710-909f-de53fa240af8",
+        "net": "3V3"
+      },
+      {
+        "uuid": "149717a5-b566-4ce6-8b30-002e0885d856",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "2e1e3f55-2016-4e2f-a3ce-cf6c18507096",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "d852c6ba-06dd-4155-a129-c132ef367f78",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "f2416056-c1c6-4404-9a67-1dda6f5ece0e",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "a1ff127d-0509-4c23-8236-59e34c042b60",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "419b2125-4f5f-4211-a225-7d13964ced6b",
+        "net": "3V3"
+      },
+      {
+        "uuid": "acd78cf6-9957-4195-95c1-639589fa18d2",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "90b9d429-16d8-4bbe-9779-cb8562b84075",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "3c0fc551-f711-41db-a628-25d11d643efa",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "0562a8d4-e525-4af8-92fc-24caa3a0eb85",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "3a5c767d-aa56-4909-bd50-65e5480e6dff",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "61be2053-c222-4146-a353-bf214af1ab9b",
+        "net": "3V3"
+      },
+      {
+        "uuid": "7c448467-cdbe-4aa7-aed6-1371497fe07a",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "e7718a04-03fc-4204-93b0-a7bfc5831e53",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "94a08689-2d04-498f-a298-e3f17fb37ad4",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "d1821afb-0c16-46cc-999e-bc4015bf7632",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "fc4361e4-165e-4d2b-9fa9-7e0214455aad",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "204c3cbd-ee16-4242-bec3-d792a00dd26e",
+        "net": "3V3"
+      },
+      {
+        "uuid": "18d7a839-c667-405b-b3b4-ba607a6862d5",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "6919b9c2-a015-4ca9-9532-243f71040cdc",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "239bfc96-d0dd-4091-9feb-a42ba70d31ed",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "79554bb5-8aa4-4417-b376-27f064f54b75",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "4f0bee0f-7524-4f62-b0f9-4bd58438bf3d",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "8bb0e82b-a1be-4d25-96fc-c8cc9c0c4ccf",
+        "net": "3V3"
+      },
+      {
+        "uuid": "a022ca83-dd30-49ca-968b-ae9f982611c4",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "3cabf67a-fe1e-45a4-8eac-eca8a7c166f0",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "17d9325e-af2c-4019-86f0-7e482d01d698",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "83c49a49-99b9-4a51-b2ab-b82bfaab2432",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "dec79b23-b56e-45a5-9f75-36e03f474553",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "2b9dc0cb-d060-4f7b-aeb9-607983f57716",
+        "net": "3V3"
+      },
+      {
+        "uuid": "50168cf6-4f18-49db-98be-c5d06c6cf69e",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "35e0100d-ac61-4299-92cf-c27fd5bdaaef",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "bb90fefb-0248-43f2-94a4-eccfa5ed3f0f",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "6a226ec4-b595-4aa0-a160-47b329d00505",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "198b8785-9d9a-45d1-84e9-e6fd79a274bd",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "fb54498b-9636-4096-b966-4d250efb4111",
+        "net": "3V3"
+      },
+      {
+        "uuid": "df1984c0-8f4a-4f28-8d6e-6c35624e43ab",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "daf12a9f-fee4-48d6-a932-650c46970dec",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "350d23f9-5caf-4556-8b95-2f57cac1e3b7",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "2a646a92-ae81-4939-b4dc-ac21fe118526",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "9f3825ab-4b7c-4c9f-8f7c-8fda22f2f6a7",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "a8d2f56c-9b8e-400e-90f1-6a36f5032325",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "67250dfc-efc4-49da-acb2-70ae45274cb1",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "931b6c85-f9b0-4f01-9d20-af2e941884fc",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "eb6f52c3-96ec-4e5c-9f62-068ba38592f3",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "d50295ec-524b-48f3-986a-c5130304d30b",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "5b198ec6-03da-47c6-809a-99d2a445d178",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "5b881579-c090-4b49-a9b9-baf3e5344e6c",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "4ba2f5db-13d9-4248-8480-1d1090f717d1",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "d09924bd-35e4-4a3e-97b9-fbc0c9579efb",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "e604441a-8886-4623-9eb6-8e1f791263fe",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "757889f6-ae3d-4886-a69a-fe3d67cbc081",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "22765a9b-20e6-424c-badb-9733beddc17d",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "d0540dae-a6a8-4bb6-876f-dc63c7ac173c",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "173ea31b-ab83-4d2c-89c0-1a94f0fd9a5c",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "9cb5cf39-2195-4985-837f-514d72f5c6f3",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "9c9ba83b-547b-41fb-a623-cd70b244b998",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "4474aaf6-a198-4d7f-b219-6f0c85dc7689",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "edc3178c-f426-4631-a3bd-4a73f31dec3d",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "0b564738-4b05-44d5-9678-bc6315d13521",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "66dd2996-61e1-4ec3-8991-8708d50cb86c",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "ac79304a-2ddd-429a-98d4-02a754f39eb1",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "f3bd6213-349c-429b-a88c-08fd8157a34d",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "e2d93486-052b-43af-8a94-391bde29fae4",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "d94babe3-32df-4640-bcb1-3d37266a352c",
+        "net": "CHG_ILIM"
+      },
+      {
+        "uuid": "44f07bb3-ac90-40d5-93f2-abaf897bd0c8",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "0e26e3b8-fe63-44ec-8ba4-bfeed8936e56",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "f147a846-6960-466a-a39e-6d76b0d98d94",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "9d52c000-cb5f-423b-a7b8-44d88617b743",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "08aecc25-00ee-4697-87ec-b36ab81a2806",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "2b8f8d3e-14d0-4a24-a783-2bbb300d3fd3",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "b695ee84-032a-44ae-8b70-5031ea61a6dc",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "cf4c917a-e825-4426-badd-5461cc628e4b",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "0ff303f9-3334-4cdc-9984-36677c4ade11",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "b5d4cb41-a6fc-4399-b3e5-1c033aacfe2c",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "8aaba49e-3916-45a1-8c5e-d4f919c61c3e",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "7314d829-cbc8-492a-905f-89f8f48412a2",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "46ca3c88-c9f6-45ce-b3f4-c5467d8d020a",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "feebe8f4-35f8-4634-b38a-9f01c8b98d30",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "a13e2831-d691-410c-b4ee-cf371421099b",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "84899561-560f-4f55-a008-7d6dc584d139",
+        "net": "VBUS_CHG"
+      },
+      {
+        "uuid": "d5f84e5b-d111-458e-b1e2-9970b5f1cbab",
+        "net": "VBUS_CHG"
+      }
+    ],
+    "result_board_sha256": "7c9b044cf155d80cd7fc729ae7da6096d136e05c38b54f76ec8835b22b54dd60"
+  },
+  {
+    "native_DRC_sha256": "2e4e0a53d52b6eecd46ca4ea2bd807ea8bbc6349e8f3bade902f0f0043ce284b",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "2f295db9-24fd-4172-8957-99cf82e04bef",
+        "net": "3V3"
+      },
+      {
+        "uuid": "9f4785c6-6252-42c8-aa6e-ca992a8736d4",
+        "net": "3V3"
+      },
+      {
+        "uuid": "9944f60e-f3b5-4314-b048-8d34e3050a7b",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "c8e5d759-e25a-40c4-a991-7f239b6d8cce",
+        "net": "CHARGE_TEMP_OK"
+      },
+      {
+        "uuid": "d3b72f47-e660-433f-9924-aa3304034438",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "1a923547-58b9-4b71-b556-36cb7159c4c5",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "7aa8179d-88fa-401f-b3d2-568bb217b158",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "feb68319-11e0-445e-955e-6144495d9866",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "c16129e5-fae4-4830-8a45-3085b15e9ca3",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "5bf049da-2437-4f8c-9b73-66d40fadf086",
+        "net": "PACK_GUARD"
+      },
+      {
+        "uuid": "7d6111bb-9f91-45f7-94ba-4a720ec386ea",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "630bc1fd-a21a-44a0-9c54-434c2bcdb8e7",
+        "net": "SYS"
+      },
+      {
+        "uuid": "2cd430e7-f152-4d1f-9fa5-0ffc627ae775",
+        "net": "TEMP_COLD_IN"
+      },
+      {
+        "uuid": "988b4b1d-500e-4a2b-b87b-5f37b1921bbb",
+        "net": "TEMP_COLD_IN"
+      },
+      {
+        "uuid": "e2e78a3b-53a8-4275-9bc9-93d8724c39cd",
+        "net": "TIP_NTC"
+      },
+      {
+        "uuid": "09e930cc-7ac0-4c12-95d8-8058c956b03f",
+        "net": "3V3"
+      },
+      {
+        "uuid": "1b26874f-21c0-4d55-83c1-b09220f2cd98",
+        "net": "3V3"
+      },
+      {
+        "uuid": "2d34ca06-d28e-4cfa-adac-a44437d0c8ce",
+        "net": "3V3"
+      },
+      {
+        "uuid": "9bd6f770-2248-48e5-b701-23a9e0859325",
+        "net": "3V3"
+      },
+      {
+        "uuid": "f6da3408-0dc9-4705-bbc4-52f8533ca617",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "96998e4e-a306-47b5-8f0b-9687e71f06cb",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "e45edf33-c5c6-4dfb-a876-595d7e10e329",
+        "net": "CHARGE_TEMP_OK"
+      },
+      {
+        "uuid": "83322ca1-34d7-4d5b-b3b2-a6dbeb27c2eb",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "7153820d-359f-4d5b-b9c5-dce4e22a4a5c",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "784de7ba-616b-4608-9adf-803dd6e49f4c",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "510be0ef-96da-4cea-bda9-931fcb123b3a",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "6f11030b-b2df-4c81-94d5-1b84fa8f1b1f",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "472937e4-5e54-438b-a2a3-474eafbe86ae",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "82ed770c-dae8-417c-abdf-6b7c0a02de8e",
+        "net": "TEMP_COLD_IN"
+      },
+      {
+        "uuid": "6f429719-eb5a-44f1-befd-d909b3bd7a08",
+        "net": "TIP_NTC"
+      },
+      {
+        "uuid": "14f9b3b9-b72b-4abf-b17f-c07135cdf16f",
+        "net": "3V3"
+      },
+      {
+        "uuid": "2cad6c31-94ee-41ed-81d9-b8e8dfa24ea3",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "be3272e5-572d-49d4-82d1-3d52f991538f",
+        "net": "CHARGE_TEMP_OK"
+      },
+      {
+        "uuid": "4a31cc9d-fea3-4365-8f75-f55d9b44677f",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "35b8ca96-d3f4-49d3-a36f-adde59812a34",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "ce82f6a1-73ae-4d6e-bbe7-6d9863aaf27f",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "b3965dc3-1a09-44a0-b93c-696c8aeb4453",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "ca69cf23-0c2b-4f1d-8805-fa796e013af3",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "68e97784-47fa-4f57-b1d4-28a8ba7760fc",
+        "net": "TIP_NTC"
+      },
+      {
+        "uuid": "5aa6122e-dfaa-45ef-a49c-04c6eebeb541",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "dfb61526-6b01-43c7-a458-b77eefe0b95c",
+        "net": "I2C_SCL"
+      },
+      {
+        "uuid": "8f0a8fb2-d02a-4842-9391-040b50e492cc",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "0eecef4c-e8a2-4f19-85b6-446eb384344b",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "73c2a833-ba2c-4cdf-bbf4-24f958ae9c30",
+        "net": "TIP_NTC"
+      },
+      {
+        "uuid": "246151e6-7f28-4de7-a1fd-aa9a6dc35c5f",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "ee25d93e-58ff-4232-9a35-a698f1577c3d",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "92c62d60-8498-40f0-9c97-b97c28dabc6e",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "ce5dac74-2991-4473-afd6-1ff831568e18",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "af83c567-b2d4-4aea-98ac-5df35119e4a0",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "1d61ee12-1060-48b8-9833-b96b05d9f1b8",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "cacbd380-5603-4306-a4b9-3040c6565629",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "3c8ba9a1-b5ea-42a7-8b55-f2de2220135b",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "85e37e27-13d3-4a6d-b0a4-503912c2f858",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "eb1ee6dc-e6c7-4161-a5e5-1ee1ab7aac04",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "5bbc8bd5-240d-4bcb-a9cf-04cc01185fb8",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "447f4547-25b5-4473-93aa-892b6e5a96ea",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "43bc294f-65d1-4011-8ade-948b82f4cd62",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "fe64477c-b57c-42e9-84ce-793b8bdf63e8",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "a3e30f65-aa2c-4134-9a4f-6135a0ade940",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "6aa1791c-9684-48f1-8721-45bba88e7410",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "ec04276f-72f7-470d-8627-46b1ab0c1561",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "a3ece283-2fe9-4906-86ac-7725db364b6b",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "fe4208cd-0ca0-41a2-803d-c82cb0630d51",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "38091954-e244-4f8c-add6-4b2e7092fdec",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "0b9e218b-038e-4558-a9c1-5d5d41a7da2c",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "5e95010e-045a-4a12-a58a-d15ab8bc115a",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "b4be8440-9fe9-415b-a920-44c1c02a7fe2",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "5689016f-1262-47d2-a9de-83948b618a5a",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "4cb4b7f7-3534-474f-8767-38c026659e3f",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "01d2b869-c99e-4357-8370-dc498f80dfc4",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "4ee220a9-9716-4190-bd61-b7a0b4ae157d",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "1de8383a-7a56-423b-9fc9-1ab7a2dad604",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "dd751c3e-ff3f-43e4-873f-597ff43db165",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "f99ff76a-dd3b-4598-b2dc-223585fb5e3a",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "58340506-1ece-4e11-8f49-742e52247016",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "5cd6c08d-26db-4d13-b16c-8414955b2f42",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "4a5bab0e-e550-47de-9cc1-46a0fa694b89",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "d5bb053f-d2e7-4d71-92a7-4a9107e6a017",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "8d7651ca-ad8f-4d2d-9753-4b90edac269f",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "0176de21-cdbf-40c4-b93d-b7713797faa8",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "35da235b-abec-4119-8250-dd3934138fa6",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "55cb72b0-77ea-40d3-91cb-0e884e5174de",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "47b89053-1a10-4bdc-892e-fc565699f9b8",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "e09f0321-c62f-45af-a9c8-69593c04c081",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "a723a6ba-9a53-4043-9864-e724978b9575",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "790b4633-426d-44f4-84b7-ca4f02a9bd72",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "uuid": "0af7d6a5-25a8-47ec-8582-01a8637b74e5",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "edda5ea5-448c-43d8-8ecb-2d12dabb5ee2",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "d546bafa-179a-40a6-ad8c-18a6e9724dca",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "3da3b2ef-4c84-4537-b25b-9d652eae4eea",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "e09c20ff-1287-4b57-8bcb-af4c26ec3f2a",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "dff12261-4143-4bbc-bc8c-2d0bd5f165bf",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "904cf54a-0eb8-4b5c-a7ec-2606a7709b2d",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "baa71281-c608-4900-a113-760ba0880857",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "c5ba8e3c-b052-4a98-8a3d-701c38840b3d",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "625ae67f-f391-4b5f-a484-9fa1ae00f694",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "4790a35d-295b-4651-b71c-2b947fa41b67",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "6624281a-9cd9-4315-b55b-d51b92f37dda",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "aa5d2d60-d753-4dbf-a84f-f30e34ff39e9",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "a87576bb-f049-4142-9064-de5503b81e0a",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "b8cffd7d-da92-4131-bd25-60ea6b941c5a",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "dc4bfd84-e5c2-4e91-82ab-904a1695d411",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "2579d865-8b90-45d6-aab0-7faa8d23f135",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "f5248e37-28b5-4334-8dc7-c5ae8fd5b1f4",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "d0bd2056-189a-454e-b31f-8c3df54711e5",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "a020ffd9-9f3f-4205-a572-4c114e5bd0c5",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "c1d07f16-5405-4b54-abd0-39985835c010",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "6a56b7e2-993f-4c3a-825d-1121da34d6e7",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "8f145246-5852-47f9-8222-7a4b7069bf05",
+        "net": "CHARGE_PERMIT"
+      },
+      {
+        "uuid": "b988845a-ba91-4b2a-97f0-352f8cc57199",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "6bf1f5d0-4dba-41a8-85f9-db5c4b93113b",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "c1ebf075-fe89-4872-9ed5-87ddf279e8cf",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "f0033c78-857a-44fe-8f03-b0ebfc645f69",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "407591fe-446c-4a66-a9ba-1bb4dd1090e2",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "89a5293e-5269-4772-b0d6-8ece2e88d69b",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "50472f7b-a08f-417b-8a29-9b7a92cb661f",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "ed7fbc67-75f5-4da3-b835-d943bde94f86",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "d99a8d52-fe5a-4989-81e0-aa7f1f0a1779",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "4e656b4b-da82-4179-b380-e1171d11625a",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "4a6a909e-ea0a-425f-be9e-ed6e7ffd57b4",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "38691492-bd93-474a-9a1a-d4a92eaa7601",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "556b167e-9a94-4cd9-9407-0e924a60f319",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "591b1a84-3128-4ef3-9866-e38f3018d404",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "c5c35c7d-3c3e-483c-82ce-ca5a786b28fc",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "2e17d03a-f77c-45e6-a6ee-d5e9fd2052e3",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "85463252-a388-455b-8e69-1eb5cb9f9bcd",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "50c4a416-ab1d-41b1-8b28-e286d1a3f64a",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "ada302ab-ffcd-48ae-98e1-2c5abd2c5010",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "13f44289-4441-4049-8916-ab734a5dbf53",
+        "net": "I2C_SDA"
+      },
+      {
+        "uuid": "10fcbc26-1476-4ba0-9bc5-41d453d20cc8",
+        "net": "I2C_SDA"
+      }
+    ],
+    "result_board_sha256": "84ba61fe6366ab47cdec446dd97abed37db44fb24876281f4b56c1b1ce37ba7f"
+  },
+  {
+    "native_DRC_sha256": "20d8d1cf38a578cb5ced7f062bc7ff7665a33a6230604db254706b4fd919ec9f",
+    "removed_dangling_tracks": [
+      {
+        "uuid": "aff15b73-bca5-47eb-82bf-5d3d9729b977",
+        "net": "CHARGE_TEMP_OK"
+      },
+      {
+        "uuid": "88eb4150-d8db-471a-951c-be9da2d03043",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "6b5e728d-0769-495e-b34b-105b4ba11c0f",
+        "net": "SYS"
+      },
+      {
+        "uuid": "2384f1ec-b009-460e-9fe5-cd82f67635fd",
+        "net": "TEMP_COLD_IN"
+      },
+      {
+        "uuid": "e3479463-c42a-445f-a637-12b06befb281",
+        "net": "TEMP_COLD_IN"
+      },
+      {
+        "uuid": "d8c01d10-f1f0-4b5a-a278-afa68a644abd",
+        "net": "3V3"
+      },
+      {
+        "uuid": "26f01fda-0219-4843-b833-94154ead884e",
+        "net": "CHARGE_TEMP_OK"
+      },
+      {
+        "uuid": "44ae1b3e-c5e0-4eb1-a281-e17ae2e2f500",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "uuid": "1b66a287-56c4-482b-b99b-074c5411d6eb",
+        "net": "PACK_P"
+      },
+      {
+        "uuid": "541f0c3e-5494-42b5-8e64-5afdd12f219b",
+        "net": "SYS"
+      },
+      {
+        "uuid": "e5358d7b-d82a-4883-bf42-a9cd16a9724b",
+        "net": "TEMP_COLD_IN"
+      },
+      {
+        "uuid": "daec7ade-3267-4090-a972-d36f6787cecb",
+        "net": "TEMP_COLD_IN"
+      },
+      {
+        "uuid": "08469918-add4-4888-9223-ee1732722166",
+        "net": "CHARGE_TEMP_OK"
+      },
+      {
+        "uuid": "23bc322b-6d5f-4fdf-b336-2e9f610b02d0",
+        "net": "MOTOR_PWM"
+      }
+    ],
+    "result_board_sha256": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367"
+  }
+]

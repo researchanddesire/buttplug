@@ -1,0 +1,58 @@
+{
+  "scope": "Cold reopen after relocating all linked native files; no source documents from the original location were left open",
+  "pass": true,
+  "native_sha256": "688c072ac989355187df894464c211c0e026bd0f2808f03d6ede89bcbbc055cd",
+  "external_links": [
+    {
+      "name": "PinBoardAssembly",
+      "file": "pcb/PinPCB.FCStd",
+      "sha256": "b23b12cdc70600ad15efffc73ef2380cc70e242e8e4bf0bce5304f69d88a6a90"
+    },
+    {
+      "name": "USBBoardAssembly",
+      "file": "pcb/DockUSB.FCStd",
+      "sha256": "6aca054f2b7b1a7db8351a3b0ef523e3c7cd592ab04f3b4be8d3dae8a941755a"
+    },
+    {
+      "name": "DeviceMetalBody",
+      "file": "sources/ReadableEVT1Product.FCStd",
+      "sha256": "63da08fb57ef4bd5c0af9bbb872e5ec13d2163aa234433ed3da78c525ebb3833"
+    },
+    {
+      "name": "DeviceMotorThermistorCap",
+      "file": "sources/ReadableEVT1Product.FCStd",
+      "sha256": "63da08fb57ef4bd5c0af9bbb872e5ec13d2163aa234433ed3da78c525ebb3833"
+    },
+    {
+      "name": "DeviceContinuousSkin",
+      "file": "sources/ReadableEVT1Product.FCStd",
+      "sha256": "63da08fb57ef4bd5c0af9bbb872e5ec13d2163aa234433ed3da78c525ebb3833"
+    },
+    {
+      "name": "DeviceContact_GND",
+      "file": "sources/ReadableEVT1Product.FCStd",
+      "sha256": "63da08fb57ef4bd5c0af9bbb872e5ec13d2163aa234433ed3da78c525ebb3833"
+    },
+    {
+      "name": "DeviceContact_USB_DM",
+      "file": "sources/ReadableEVT1Product.FCStd",
+      "sha256": "63da08fb57ef4bd5c0af9bbb872e5ec13d2163aa234433ed3da78c525ebb3833"
+    },
+    {
+      "name": "DeviceContact_USB_DP",
+      "file": "sources/ReadableEVT1Product.FCStd",
+      "sha256": "63da08fb57ef4bd5c0af9bbb872e5ec13d2163aa234433ed3da78c525ebb3833"
+    },
+    {
+      "name": "DeviceContact_DOCK_5V",
+      "file": "sources/ReadableEVT1Product.FCStd",
+      "sha256": "63da08fb57ef4bd5c0af9bbb872e5ec13d2163aa234433ed3da78c525ebb3833"
+    }
+  ],
+  "external_files": {
+    "pcb/DockUSB.FCStd": "6aca054f2b7b1a7db8351a3b0ef523e3c7cd592ab04f3b4be8d3dae8a941755a",
+    "pcb/PinPCB.FCStd": "b23b12cdc70600ad15efffc73ef2380cc70e242e8e4bf0bce5304f69d88a6a90",
+    "sources/ReadableEVT1Product.FCStd": "63da08fb57ef4bd5c0af9bbb872e5ec13d2163aa234433ed3da78c525ebb3833"
+  },
+  "physical_validation": false
+}

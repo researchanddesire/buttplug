@@ -1,0 +1,363 @@
+{
+  "selected_part": "NHD-C12864B2Z-RN-FBW",
+  "manufacturer": "Newhaven Display",
+  "selection_status": "Selected for native dock integration; connector, circuit, received fit and retention not released",
+  "retrieved_utc_date": "2026-11-12",
+  "primary_sources": {
+    "product": "https://newhavendisplay.com/128x64-graphic-cog-lcd-fstn-display-with-no-backlight/",
+    "datasheet": "https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf",
+    "manufacturer_CAD_zip": "https://newhavendisplay.com/content/3D/NHD-C12864B2Z-RN.zip"
+  },
+  "datasheet": {
+    "revision_history_revision": 7,
+    "mechanical_drawing_revision": "1A",
+    "mechanical_drawing_date": "2025-10-19",
+    "PDF_page_1_based": 4,
+    "local_reference_pdf_sha256": "64c04de3da1f8434a5440380dcafd7e079259e8025463420f08f5e2c77cc3cf8",
+    "PDF_not_republished": true
+  },
+  "manufacturer_CAD": {
+    "file": "NHD-C12864B2Z-RN.STEP",
+    "sha256": "6fd8053ab7961345e04773c4d3113529df448efd5a68a5c6cf82d61366dba662",
+    "header_timestamp": "2018-03-08T16:15:42",
+    "header_authoring": "SolidWorks 2018 / STEP AP214",
+    "native_source_solid_count": 5,
+    "source_bounds_mm": [
+      -24,
+      -83,
+      -0.2,
+      24,
+      18,
+      1.6
+    ]
+  },
+  "dimensions_mm": {
+    "LCD_outline": {
+      "width": 48,
+      "height": 36,
+      "tolerance_plus_minus": 0.2
+    },
+    "front_glass_height": {
+      "nominal": 29,
+      "tolerance_plus_minus": 0.2
+    },
+    "maximum_module_thickness": 2.1,
+    "main_glass_dimension_on_side_view": 1.4,
+    "viewing_area": {
+      "width": 44,
+      "height": 24,
+      "left_and_top_inset_from_LCD_outline": 2
+    },
+    "active_area": {
+      "width": 39.64,
+      "height": 19.8,
+      "top_inset": 4.1,
+      "dot_pitch": 0.31,
+      "dot_width": 0.27,
+      "dot_gap": 0.04
+    },
+    "FFC": {
+      "width": 14,
+      "width_tolerance_plus_minus": 0.2,
+      "free_length": 65,
+      "length_tolerance_plus_minus": 0.5,
+      "left_offset_from_LCD_left_edge": 17,
+      "left_offset_tolerance_plus_minus": 0.5,
+      "pin_count": 27,
+      "pitch": 0.5,
+      "end_to_end_pin_centres": 13,
+      "end_to_end_tolerance_plus_minus": 0.05,
+      "land_width": 0.3,
+      "land_exposed_length": 3,
+      "land_length_tolerance_plus_minus": 0.2,
+      "stiffener_length": 5,
+      "stiffener_length_tolerance_plus_minus": 1,
+      "finished_contact_tail_thickness": 0.3,
+      "finished_contact_tail_thickness_tolerance_plus_minus": 0.03
+    },
+    "drawing_unspecified_linear_tolerance_plus_minus": 0.3
+  },
+  "native_component_datum": {
+    "description": "Viewing area centre XY=0, front face Z=0; +Y toward LCD top, FFC toward -Y",
+    "normalization_from_OEM": [
+      0,
+      -4,
+      -1.6
+    ],
+    "current_LCD_nominal_XY_bounds": [
+      -24,
+      -22,
+      24,
+      14
+    ],
+    "source_max_rear_depth": 1.8,
+    "current_allowed_max_rear_depth": 2.1,
+    "factory_flat_FFC_tail_tip_y": -87,
+    "FFC_contact_pin1_x": -6.5,
+    "FFC_contact_pin27_x": 6.5,
+    "FFC_contact_face_normal": [
+      0,
+      0,
+      1
+    ]
+  },
+  "native_conversion": {
+    "builder": "tools/build_evt1_dock_display.py",
+    "body_type": "PartDesign::Body",
+    "feature_types": [
+      "Sketcher::SketchObject",
+      "PartDesign::Pad"
+    ],
+    "fully_constrained_profiles": true,
+    "four_OEM_solids_symmetrical_difference_mm3_max": 1e-06,
+    "active_area_current_drawing_update": {
+      "old_OEM_height": 19.6,
+      "new_drawing_height": 19.8,
+      "old_centre_y": 4.1,
+      "new_centre_y": 4,
+      "symmetric_difference_mm3": 1.5856
+    },
+    "factory_source_internal_lumps_overlap": true,
+    "geometric_lumps_are_not_claimed_to_be_a_physical_material_stack": true
+  },
+  "electrical": {
+    "resolution": [
+      128,
+      64
+    ],
+    "controller": "ST7565R",
+    "interface": "8080 8-bit parallel",
+    "LCD_supply_V": {
+      "min": 3,
+      "typ": 3.3,
+      "max": 3.5
+    },
+    "current_mA_25C": {
+      "min": 0.1,
+      "typ": 0.3,
+      "max": 0.75
+    },
+    "LCD_generated_contrast_supply_V": {
+      "min": 8.3,
+      "typ": 8.6,
+      "max": 8.9
+    },
+    "backlight": null,
+    "operating_temperature_C": [
+      -20,
+      70
+    ],
+    "FFC_connector_required": {
+      "circuits": 27,
+      "pitch_mm": 0.5,
+      "qualified_MPN": null
+    }
+  },
+  "pin_contract": [
+    {
+      "pin": 1,
+      "signal": "V0",
+      "connection": "bypass to VSS using 0.1 to 1uF"
+    },
+    {
+      "pin": 2,
+      "signal": "V1",
+      "connection": "bypass to VSS using 0.1 to 1uF"
+    },
+    {
+      "pin": 3,
+      "signal": "V2",
+      "connection": "bypass to VSS using 0.1 to 1uF"
+    },
+    {
+      "pin": 4,
+      "signal": "V3",
+      "connection": "bypass to VSS using 0.1 to 1uF"
+    },
+    {
+      "pin": 5,
+      "signal": "V4",
+      "connection": "bypass to VSS using 0.1 to 1uF"
+    },
+    {
+      "pin": 6,
+      "signal": "C4+",
+      "connection": "no connection"
+    },
+    {
+      "pin": 7,
+      "signal": "C2-",
+      "connection": "1 to 2.2uF to pin8"
+    },
+    {
+      "pin": 8,
+      "signal": "C2+",
+      "connection": "1 to 2.2uF to pin7"
+    },
+    {
+      "pin": 9,
+      "signal": "C1+",
+      "connection": "1 to 2.2uF to pin10"
+    },
+    {
+      "pin": 10,
+      "signal": "C1-",
+      "connection": "1 to 2.2uF to pin9 and pin11 as shown in manufacturer wiring"
+    },
+    {
+      "pin": 11,
+      "signal": "C3+",
+      "connection": "1 to 2.2uF to pin10"
+    },
+    {
+      "pin": 12,
+      "signal": "VOUT",
+      "connection": "1 to 2.2uF to VSS"
+    },
+    {
+      "pin": 13,
+      "signal": "VDD",
+      "connection": "3.3V logic supply"
+    },
+    {
+      "pin": 14,
+      "signal": "VSS",
+      "connection": "logic ground"
+    },
+    {
+      "pin": 15,
+      "signal": "DB7",
+      "connection": "parallel data"
+    },
+    {
+      "pin": 16,
+      "signal": "DB6",
+      "connection": "parallel data"
+    },
+    {
+      "pin": 17,
+      "signal": "DB5",
+      "connection": "parallel data"
+    },
+    {
+      "pin": 18,
+      "signal": "DB4",
+      "connection": "parallel data"
+    },
+    {
+      "pin": 19,
+      "signal": "DB3",
+      "connection": "parallel data"
+    },
+    {
+      "pin": 20,
+      "signal": "DB2",
+      "connection": "parallel data"
+    },
+    {
+      "pin": 21,
+      "signal": "DB1",
+      "connection": "parallel data"
+    },
+    {
+      "pin": 22,
+      "signal": "DB0",
+      "connection": "parallel data"
+    },
+    {
+      "pin": 23,
+      "signal": "/RD",
+      "connection": "active-low read strobe"
+    },
+    {
+      "pin": 24,
+      "signal": "/WR",
+      "connection": "active-low write strobe"
+    },
+    {
+      "pin": 25,
+      "signal": "A0",
+      "connection": "command/data selection"
+    },
+    {
+      "pin": 26,
+      "signal": "RESTB",
+      "connection": "active-low reset"
+    },
+    {
+      "pin": 27,
+      "signal": "CS1B",
+      "connection": "active-low chip select"
+    }
+  ],
+  "limitations": [
+    "Current drawing and old OEM STEP disagree on allowed thickness and active optical height; current drawing controls mounting/opening design.",
+    "Default FFC mode preserves factory-flat geometry; installed mode is an unqualified constant-length native bend candidate. Minimum bend radius, copper stack, received fold and strain relief remain open.",
+    "Internal OEM visual solids overlap; treat complete LCD as one purchased component for external collision checks.",
+    "Received tolerances and compliant glass support still need physical trial.",
+    "No UV exposure resistance or optical protection is qualified.",
+    "Manufacturer source rights are preserved; public redistribution permission has not been established."
+  ],
+  "physical_validation": false,
+  "complete_display_integration": false,
+  "installed_FFC_candidate": {
+    "API": "build(doc,ffc_pose=\"installed\",bend_radius_mm=3.0,straight_before_bend_mm=4.0)",
+    "body_count": 6,
+    "path_type": "fully constrained Sketcher line-arc-line",
+    "sweep_type": "PartDesign::AdditivePipe",
+    "retained_end_features": [
+      "PartDesign::Pocket two0.3mm corner radii",
+      "PartDesign::Pad 5mm stiffener",
+      "PartDesign::Pad 27contact lands"
+    ],
+    "nominal_centreline_length_mm": 65,
+    "lead_in_mm": 4,
+    "bend_angle_deg": 180,
+    "bend_centreline_radius_mm": 3,
+    "inner_fibre_radius_mm": 2.95,
+    "return_run_mm": 51.575222039230624,
+    "local_entry_mm": [
+      0,
+      -22,
+      -0.95
+    ],
+    "local_connector_tip_mm": [
+      0,
+      25.57522203923062,
+      -6.95
+    ],
+    "local_FFC_bounds_mm": [
+      -7,
+      -29.05,
+      -7.1,
+      7,
+      25.57522203923062,
+      -0.9
+    ],
+    "connector_entry_direction": [
+      0,
+      1,
+      0
+    ],
+    "contact_face_normal": [
+      0,
+      0,
+      -1
+    ],
+    "required_connector": "27-way0.5mm pitch,0.30mm FFC,bottom-contact to match model; exact receptacle not selected",
+    "preserved_FFC_plus_stiffener_and_land_volume_mm3": 100.422274333882,
+    "parameters": "App::FeaturePython root object linked by part.FFCParameters; no geometric proxy",
+    "editable_drivers": [
+      "FFCBendCentrelineRadius",
+      "FFCLeadInLength"
+    ],
+    "validation_API": "validate_installed(part)",
+    "native_BOP_check_passed": true,
+    "saved_native_reopen_passed": true,
+    "radius_edit_3_to_3p2_to_3_mm_with_constant_length_passed": true,
+    "default_flat_OEM_parity_preserved": true,
+    "bend_radius_qualified": false,
+    "installed_assembly_fit_qualified": false,
+    "connector_and_strain_relief_complete": false
+  }
+}

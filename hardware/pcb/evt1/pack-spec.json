@@ -1,0 +1,163 @@
+{
+  "part_number": "BC-PACK-EVT1-001",
+  "description": "Factory-built protected1S high-rate LiPo pack for the EVT1 flange",
+  "status": "Defined for RFQ; supplier acceptance and received-pack validation pending",
+  "reference_cell": "EEMB LP502030HA",
+  "reference_cell_source": "https://www.eemb.com/product-248",
+  "reference_cell_datasheet": "https://eemb.oss-accelerate.aliyuncs.com//uploads/20230902/c75cb3cfcc973ee0b427f096b4dbd894.pdf",
+  "reference_protected_pack_drawing": "EEMB A25357 / LP502030HA-PCM-LD / 2025-09-11",
+  "reference_protected_pack_source": "https://www.radiomag.com.de/datasheets/A25357-LP502030HA-PCM-LD.pdf",
+  "reference_limit": "A25357 lists1A continuous/2A peak. It is a size/construction reference, not an accepted substitute for this1.5A continuous request.",
+  "nominal_voltage_V": 3.7,
+  "nominal_capacity_mAh": 230,
+  "minimum_capacity_mAh": 200,
+  "charge_voltage_V": 4.2,
+  "normal_charge_current_A": 0.1,
+  "charge_current_capability_min_A": 0.2,
+  "continuous_discharge_min_A": 1.5,
+  "pulse_discharge_A": 2.0,
+  "pulse_duration_ms": 100,
+  "pulse_repeat_period_min_ms": 1000,
+  "normal_operation_temperature_C": [
+    0,
+    45
+  ],
+  "protection_requirements": {
+    "factory_integrated": true,
+    "overcharge_detection_V": [
+      4.25,
+      4.33
+    ],
+    "overdischarge_detection_V": [
+      2.8,
+      3.0
+    ],
+    "overcurrent_and_short": "Supplier must provide thresholds, delays, FET loss/temperature, recovery behavior and evidence supporting the requested continuous/pulse load. Do not derive protection-trip values from the cell10C headline.",
+    "charge_recovery": "Recover from permitted undervoltage protection by applying4.2V-limited charger to the two protected output leads; provide the exact recovery conditions."
+  },
+  "finished_pack_maximum_XYZ_mm": [
+    33.0,
+    6.3,
+    21.0
+  ],
+  "product_maximum_body_bounds_mm": [
+    7,
+    -21.5,
+    -10.5,
+    40,
+    -15.2,
+    10.5
+  ],
+  "product_growth_keepout_bounds_mm": [
+    6.75,
+    -22.6,
+    -10.75,
+    40.25,
+    -15.2,
+    10.75
+  ],
+  "growth_note": "CAD reserves1.1mm extra thickness (about20.8percent of the reference5.3mm cell thickness) and0.25mm lateral clearance per side. This is an engineering allowance, not a manufacturer swelling guarantee. Supplier must approve containment/support and end-of-life limits; a larger requirement needs another package review. Pack front moves0.3mm rearward to preserve a0.95mm nominal passage behind the rear stub for thin sensor wiring.",
+  "lead_exit": {
+    "product_end": "NegativeX short end, PCM toward the central neck",
+    "conductors": "Two AWG28 stranded copper leads with insulation OD0.50..0.63mm, factory terminated; supplier must verify1.5A continuous/2A100ms and its thermal/drop budget for the finished pack/lead/connector assembly.",
+    "product_wire_exit_centers_mm": {
+      "P+": [
+        7,
+        -17.7,
+        7.5
+      ],
+      "P-": [
+        7,
+        -18.9,
+        7.5
+      ]
+    },
+    "free_wire_route": "1mm straight toward-X, then4mm centreline bend toward-Z, then1mm straight into the socket housing.8.283mm nominal exposed insulated path from pack case to housing wire-exit plane; supplier to set cut/strip length from actual crimp datum. Do not substitute a12mm cut-wire assumption.",
+    "free_insulated_length_mm": 8.283185307179586,
+    "length_tolerance_mm": 0.5,
+    "connector": {
+      "manufacturer": "JST",
+      "housing": "ACHTR-02V-S",
+      "contacts": "SACH-003G-P0.2",
+      "quantity_contacts": 2,
+      "pin1": "Protected P+",
+      "pin2": "Protected P-",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eACH1.pdf"
+    },
+    "mated_connector_budget_XYZ_mm": [
+      2.1,
+      4.0,
+      7.0
+    ],
+    "product_mated_connector_bounds_mm": [
+      0.95,
+      -20.3,
+      -4.5,
+      3.05,
+      -16.3,
+      2.5
+    ],
+    "connector_frame": "Long mating axisZ, two wire centers alongY. Pack socket wires enter from+Z:pin1 at(2,-17.7,2.5),pin2 at(2,-18.9,2.5). Body plug enters from-Z. Verify marked circuit numbers/continuity; do not mirror a drawing by eye.",
+    "required_drawing": "Supplier to confirm exact pack short-end exit locations, lead strain relief, finished maximum and formed connector/lead envelope. The standard100mm tinned26AWG lead is a construction reference, not the requested EVT termination.",
+    "assembly_reason": "The cap/body-PCB module must thread with free flange tails. The battery is connected afterward inside the open flange; it cannot remain tethered while that module rotates."
+  },
+  "external_thermistors": {
+    "manufacturer": "Vishay",
+    "mpn": "NTCLE413E2103F524A",
+    "quantity": 2,
+    "source": "https://www.vishay.com/docs/29078/ntcle413.pdf",
+    "R25_ohm": 10000,
+    "R25_tolerance_percent": 1,
+    "B25_85_K": 3435,
+    "B_tolerance_percent": 1,
+    "lead_length_mm": 52,
+    "lead_length_tolerance_mm": 5,
+    "mount": "Tape-couple both insulated heads to separate locations on the pack broad face. Keep them dry inside the closed rigid cavity; never directly overmold, immerse or hard-pot them.",
+    "product_head_axis_segments_mm": [
+      [
+        [
+          17,
+          -13.7,
+          -4
+        ],
+        [
+          27,
+          -13.7,
+          -4
+        ]
+      ],
+      [
+        [
+          17,
+          -13.7,
+          4
+        ],
+        [
+          27,
+          -13.7,
+          4
+        ]
+      ]
+    ],
+    "head_transition_OD_budget_mm": 3,
+    "head_transition_length_budget_mm": 10,
+    "return_wiring": "Six physical pack-module conductors: protectedP+/P-, TS1/TS1-return, TS2/TS2-return. Solder both sensor returns to bodyJ2's sensor-return land2S and power return to2P; join returns only on the body PCB.",
+    "lead_exit_orientation": "Orient the free factory leads toward+X at the27mm end of each head/transition envelope. Shorten and extend with separately insulated32AWG pigtails in the open assembly; keep separate returns until bodyJ2."
+  },
+  "assembly_and_service": {
+    "cell_work": "Cell tab welding/PCM assembly and factory ACH socket crimping belong to the battery supplier. Installer solders only insulated external sensor leads and existing protected interconnects; do not crimp the wrong wire range or expose bare cell tabs.",
+    "molding": "Install only after inert closed-cavity/process trials pass. Keep pack and external NTCs isolated from silicone/resin and within their temperature/pressure limits. No pressure-pot process is specified for a battery assembly.",
+    "service": "EVT workshop service consumes the continuous silicone skin: remove/recast the skin to open both plastic halves, unplug the protected power connector and rework four separately insulated sensor-extension joints. No exposed service lid and no battery path through the12mm neck. Practice removal on an inert assembly first."
+  },
+  "load_budget": {
+    "logic_rail_max_V": 3.4,
+    "logic_rail_design_current_A": 0.4,
+    "motor_rail_max_V": 3.82,
+    "motor_published_running_current_max_A": 0.45,
+    "miscellaneous_3V3_current_A": 0.025,
+    "minimum_loaded_pack_V": 3.0,
+    "converter_efficiency_design_floor": 0.8,
+    "calculation": "(3.4*(0.4+0.025)+3.82*0.45)/(3.0*0.8)=1.3183A;1.5A continuous request adds about13.8percent margin. These are design budgets, not measured maxima or a guaranteed efficiency bound.",
+    "required_EVT_tests": "Measure radio+motor running/startup current, rail regulation/droop, pack/FET heat, cutoff/recovery and inrush before enabling motor operation on a pack. Stall/fault loads must not be treated as normal continuous demand.24-hour endurance is a measured duty-profile target, not inferred from capacity."
+  }
+}

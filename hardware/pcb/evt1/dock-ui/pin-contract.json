@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "status": "proposed circuit contracts; no native schematic/netlist parity yet",
+  "MCU": {
+    "mpn": "STM32L071CBT6",
+    "package": "LQFP48",
+    "pins": {
+      "10": {
+        "gpio": "PA0",
+        "net": "LCD_DB0",
+        "direction": "output"
+      },
+      "11": {
+        "gpio": "PA1",
+        "net": "LCD_DB1",
+        "direction": "output"
+      },
+      "12": {
+        "gpio": "PA2",
+        "net": "LCD_DB2",
+        "direction": "output"
+      },
+      "13": {
+        "gpio": "PA3",
+        "net": "LCD_DB3",
+        "direction": "output"
+      },
+      "14": {
+        "gpio": "PA4",
+        "net": "LCD_DB4",
+        "direction": "output"
+      },
+      "15": {
+        "gpio": "PA5",
+        "net": "LCD_DB5",
+        "direction": "output"
+      },
+      "16": {
+        "gpio": "PA6",
+        "net": "LCD_DB6",
+        "direction": "output"
+      },
+      "17": {
+        "gpio": "PA7",
+        "net": "LCD_DB7",
+        "direction": "output"
+      },
+      "2": {
+        "gpio": "PC13",
+        "net": "LOOP_A",
+        "direction": "input"
+      },
+      "3": {
+        "gpio": "PC14",
+        "net": "LOOP_B",
+        "direction": "input"
+      },
+      "4": {
+        "gpio": "PC15",
+        "net": "SOURCE_OK",
+        "direction": "input"
+      },
+      "18": {
+        "gpio": "PB0",
+        "net": "NTC_BASE",
+        "direction": "analoginputADC8"
+      },
+      "19": {
+        "gpio": "PB1",
+        "net": "NTC_LID",
+        "direction": "analoginputADC9"
+      },
+      "20": {
+        "gpio": "PB2",
+        "net": "UV_VBUS_MON",
+        "direction": "input"
+      },
+      "21": {
+        "gpio": "PB10",
+        "net": "MON_I2C_SCL",
+        "direction": "I2C2SCL"
+      },
+      "22": {
+        "gpio": "PB11",
+        "net": "MON_I2C_SDA",
+        "direction": "I2C2SDA"
+      },
+      "25": {
+        "gpio": "PB12",
+        "net": "BTN_LEFTn",
+        "direction": "input"
+      },
+      "26": {
+        "gpio": "PB13",
+        "net": "BTN_CENTERn_DEBOUNCED",
+        "direction": "input"
+      },
+      "27": {
+        "gpio": "PB14",
+        "net": "BTN_RIGHTn",
+        "direction": "input"
+      },
+      "28": {
+        "gpio": "PB15",
+        "net": "MCU_ARM",
+        "direction": "output;external100kpulldown"
+      },
+      "29": {
+        "gpio": "PA8",
+        "net": "MCU_STOPn",
+        "direction": "output;external100kpulldown"
+      },
+      "30": {
+        "gpio": "PA9",
+        "net": "WDI",
+        "direction": "output;mainloopheartbeat"
+      },
+      "31": {
+        "gpio": "PA10",
+        "net": "UV_RUN",
+        "direction": "input"
+      },
+      "32": {
+        "gpio": "PA11",
+        "net": "DEVICE_LIMIT_FAULTn",
+        "direction": "input"
+      },
+      "33": {
+        "gpio": "PA12",
+        "net": "UV_LIMIT_FAULTn",
+        "direction": "input"
+      },
+      "34": {
+        "gpio": "PA13",
+        "net": "SWDIO",
+        "direction": "debug"
+      },
+      "37": {
+        "gpio": "PA14",
+        "net": "SWCLK",
+        "direction": "debug"
+      },
+      "38": {
+        "gpio": "PA15",
+        "net": "RELEASE_SEEN",
+        "direction": "input"
+      },
+      "39": {
+        "gpio": "PB3",
+        "net": "CC_OUT1",
+        "direction": "input"
+      },
+      "40": {
+        "gpio": "PB4",
+        "net": "CC_OUT2",
+        "direction": "input"
+      },
+      "41": {
+        "gpio": "PB5",
+        "net": "LCD_A0",
+        "direction": "output"
+      },
+      "42": {
+        "gpio": "PB6",
+        "net": "LCD_WRn",
+        "direction": "output"
+      },
+      "43": {
+        "gpio": "PB7",
+        "net": "LCD_CSn",
+        "direction": "output"
+      },
+      "45": {
+        "gpio": "PB8",
+        "net": "LCD_RESETn",
+        "direction": "output"
+      },
+      "46": {
+        "gpio": "PB9",
+        "net": "STATUS_LED",
+        "direction": "output;defaultsourceLEDoff"
+      },
+      "1": {
+        "gpio": "VDD",
+        "net": "3V3",
+        "direction": "supplyorcontrol"
+      },
+      "7": {
+        "gpio": "NRST",
+        "net": "SAFE_RESETn",
+        "direction": "supplyorcontrol"
+      },
+      "8": {
+        "gpio": "VSSA",
+        "net": "GND",
+        "direction": "supplyorcontrol"
+      },
+      "9": {
+        "gpio": "VDDA",
+        "net": "3V3_ANALOG",
+        "direction": "supplyorcontrol"
+      },
+      "23": {
+        "gpio": "VSS",
+        "net": "GND",
+        "direction": "supplyorcontrol"
+      },
+      "24": {
+        "gpio": "VDD",
+        "net": "3V3",
+        "direction": "supplyorcontrol"
+      },
+      "35": {
+        "gpio": "VSS",
+        "net": "GND",
+        "direction": "supplyorcontrol"
+      },
+      "36": {
+        "gpio": "VDDIO2",
+        "net": "3V3",
+        "direction": "supplyorcontrol"
+      },
+      "44": {
+        "gpio": "BOOT0",
+        "net": "BOOT0_10kGND_testpad",
+        "direction": "supplyorcontrol"
+      },
+      "47": {
+        "gpio": "VSS",
+        "net": "GND",
+        "direction": "supplyorcontrol"
+      },
+      "48": {
+        "gpio": "VDD",
+        "net": "3V3",
+        "direction": "supplyorcontrol"
+      },
+      "5": {
+        "gpio": "PH0",
+        "net": "NC_spare",
+        "direction": "analoginputwhennotused"
+      },
+      "6": {
+        "gpio": "PH1",
+        "net": "NC_spare",
+        "direction": "analoginputwhennotused"
+      }
+    },
+    "clock": "MSI4.2MHz,VOSRange3",
+    "SWD_workshop_header": [
+      "3V3reference",
+      "SWDIO",
+      "SWCLK",
+      "GND",
+      "NRST"
+    ],
+    "UART_bootloader_pins": "PA9/PA10currentlyused;SWD primary;BOOT0pad retained"
+  },
+  "TPS22950YBHR": {
+    "A1": "DEVICE_ON_sourcepresent_hardware",
+    "A2": "DEVICE_LIMIT_FAULTn",
+    "B1": "USB_VBUS",
+    "B2": "CONTACT_5V",
+    "C1": "GND",
+    "C2": "19k1_plus100R_series_GND_parallelqualified2k52NMOSbranch"
+  },
+  "SN74LVC74APWR": {
+    "1": "CLEARn",
+    "2": "3V3_D_release",
+    "3": "BTN_CENTERn_DEBOUNCED_releaseedge",
+    "4": "3V3_PRE1n",
+    "5": "RELEASE_SEEN",
+    "6": "NC_Q1n",
+    "7": "GND",
+    "8": "NC_Q2n",
+    "9": "UV_RUN",
+    "10": "3V3_PRE2n",
+    "11": "BTN_CENTER_PRESSED_pressedge",
+    "12": "MCU_ARM_AND_RELEASE_SEEN",
+    "13": "CLEARn",
+    "14": "3V3"
+  },
+  "MAX6816EUS+T": {
+    "1": "GND",
+    "2": "BTN_CENTERn_RAW",
+    "3": "BTN_CENTERn_DEBOUNCED",
+    "4": "3V3"
+  },
+  "TPS61165DBVR_local_each_UVmodule": {
+    "1": "UV_5V_IN",
+    "2": "UV_CTRL",
+    "3": "SW_to_inductor_and_diode",
+    "4": "GND",
+    "5": "COMP_220nF_toGND",
+    "6": "FB_3R32_toGND_LEDdisconnectsource"
+  },
+  "ADS1115IDGSR": {
+    "address_hex": "0x48",
+    "AIN0": "BASE_FB",
+    "AIN1": "LID_FB",
+    "AIN2": "BASE_VOUT_DIV",
+    "AIN3": "LID_VOUT_DIV",
+    "VOUT_divider_ohm": [
+      1000000,
+      68000
+    ],
+    "sample_rate_sps": 128,
+    "notes": "10kseries/100nFfilterinputsonmonitorlines; verifyADCsettlingandfaultlimits"
+  },
+  "UI_hinge_link": {
+    "positions": 20,
+    "pitch_mm": 0.5,
+    "connector_mpn": null,
+    "cable_mpn": null,
+    "selection_pending": "exactconnectoranddynamicFFCafterhingerouting",
+    "pins": {
+      "1": "GND",
+      "2": "3V3_UI",
+      "3": "LCD_DB0",
+      "4": "LCD_DB1",
+      "5": "LCD_DB2",
+      "6": "LCD_DB3",
+      "7": "LCD_DB4",
+      "8": "LCD_DB5",
+      "9": "LCD_DB6",
+      "10": "LCD_DB7",
+      "11": "LCD_A0",
+      "12": "LCD_WRn",
+      "13": "LCD_CSn",
+      "14": "LCD_RESETn",
+      "15": "BTN_LEFTn",
+      "16": "BTN_CENTERn_RAW",
+      "17": "BTN_RIGHTn",
+      "18": "GND",
+      "19": "GND",
+      "20": "GND"
+    },
+    "voltage": "3.3Vlogic; noUVboostoutput"
+  },
+  "lid_UV_hinge_loom": {
+    "positions": 8,
+    "connector_mpn": null,
+    "selection_pending": "flexibleconductor/connectorandrestraintafterhingerouting",
+    "pins": {
+      "1": "UV_5V_IN",
+      "2": "GND",
+      "3": "UV_CTRL",
+      "4": "LID_FB_MON",
+      "5": "LID_VOUT_DIV_MON",
+      "6": "NTC_LID",
+      "7": "THERM_LOOP_SEND",
+      "8": "THERM_LOOP_RETURN"
+    },
+    "boost_voltage_crosses_hinge": false
+  },
+  "power_ground": "USB/deviceGNDcommonwithlocalcontrollerandUVdrivers; returnUVswitchcurrentawayfromUSBdataandADCground",
+  "hard_safety_equations": {
+    "CLEARn": "RAW_SAFE & MCU_STOPn & UV_DELAYn",
+    "UV_D": "RELEASE_SEEN & MCU_ARM",
+    "UV_GATE_A": "LOOP_A & SOURCE_OK",
+    "UV_GATE_B": "UV_RUN & LOOP_B",
+    "UV_CTRL": "UV_RUN & CLEARn",
+    "RAW_SAFE": "LOOP_A & LOOP_B & SOURCE_OK & SAFE_RESETn"
+  },
+  "remaining": [
+    "completeelectricalschematicsandpassiveselection",
+    "nativepincontractverification",
+    "USBsuspendmonitor/inhibitimplementation",
+    "connector/cableroutingandnativeCAD"
+  ],
+  "UV_delay_supervisor": {
+    "mpn": "TPS3808G33DBVR",
+    "SENSE": "3V3",
+    "MRn": "LOOP_A_AND_LOOP_B_AND_SOURCE_OK",
+    "CT": "100k_to3V3",
+    "RESETn": "UV_DELAYn",
+    "delay_ms": [
+      180,
+      300,
+      420
+    ],
+    "MCU_reset_connected": false
+  },
+  "TLV70033DDCR": {
+    "1": "HOST_5V",
+    "2": "GND",
+    "3": "HOST_5V_EN",
+    "4": "NC",
+    "5": "3V3"
+  },
+  "SN74LVC2G14DCKR": {
+    "1": "CC_OUT1_100k_pullup3V3_Schmittinput",
+    "2": "GND",
+    "3": "BTN_CENTERn_DEBOUNCED_10k_pullup3V3_releaseddefault",
+    "4": "BTN_CENTER_PRESSED_invertedpin3",
+    "5": "3V3",
+    "6": "SOURCE_REQUEST_invertedCC_OUT1_before_U122_powerqualification",
+    "primary_datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf",
+    "source_page": 3,
+    "absence_UI_harness": "pin3 high viaR12710k; pin4 low; no floating CMOS input",
+    "notes": "Schmitt hysteresis required for slow open-drain CC edges; inversion truth table unchanged"
+  },
+  "TUSB320HAIRWBR": {
+    "1": "CC1",
+    "2": "CC2",
+    "3": "GND_PORT_UFP",
+    "4": "VBUS_DET_887k1percent_to_VBUS",
+    "5": "NC_ADDR_GPIO",
+    "6": "OUT3_accessoryflag",
+    "7": "CC_OUT1_100kpullup3V3",
+    "8": "CC_OUT2_100kpullup3V3",
+    "9": "NC_ID",
+    "10": "GND",
+    "11": "CC_ENABLE_activehigh_from_U120_delayedpowergood",
+    "12": "3V3"
+  },
+  "TPS3808G33DBVR_source_U120": {
+    "1": "CC_ENABLE_10k_pullup3V3",
+    "2": "GND",
+    "3": "HOST_5V_MR",
+    "4": "100k_toHOST5V_CT_180to420ms",
+    "5": "3V3_SENSE",
+    "6": "HOST_5V_VDD"
+  },
+  "TPS3808G33DBVR_source_U123": {
+    "1": "CC_STATUS_READY_10k_pullup3V3",
+    "2": "GND",
+    "3": "CC_STATUS_MRn_fromU124_fullHOST5Vlogic",
+    "4": "100k_toHOST5V_CT_180to420ms",
+    "5": "3V3_SENSE",
+    "6": "HOST_5V_VDD"
+  },
+  "TS5A3159DBVR_source_U122": {
+    "1": "SOURCE_DRIVE_NO_fromSOURCE_REQUEST_throughR132_2k52",
+    "2": "GND",
+    "3": "SOURCE_OFF_RETURN_NC_throughR133_100RtoGND",
+    "4": "SOURCE_OK_COM",
+    "5": "HOST_5V_VDD",
+    "6": "CC_STATUS_READY_IN"
+  },
+  "TS5A3159DBVR_source_U124": {
+    "1": "HOST_5V_NO",
+    "2": "GND",
+    "3": "GND_NC",
+    "4": "CC_STATUS_MRn_COM",
+    "5": "HOST_5V_VDD",
+    "6": "CC_ENABLE_IN"
+  },
+  "source_qualification_sequence": {
+    "powergood_threshold_nominal_V": 3.07,
+    "powergood_threshold_tolerance_fraction": 0.015,
+    "first_delay_ms_min_nom_max": [
+      180,
+      300,
+      420
+    ],
+    "second_delay_after_enable_ms_min_nom_max": [
+      180,
+      300,
+      420
+    ],
+    "SOURCE_OK": "CC_STATUS_READY ? NOT CC_OUT1 : GND",
+    "unqualified_default": "U122 activelygroundsSOURCE_OK; U104 permanentlowcurrentpath remainsenabled",
+    "validation_pending": [
+      "3V3rampwithinTUSB25msrequirement",
+      "startupGPIOsequence",
+      "brownoutdeglitchandpropagation",
+      "SPDTchargeinjectionandloadcapacitance",
+      "defaultUSBsuspend/inrush"
+    ],
+    "SOURCE_OK_filter": {
+      "R132_ohm": 2520,
+      "C114_nominal_F": 1e-07,
+      "R133_ground_discharge_ohm": 100,
+      "nominal_enable_RC_s": 0.000252,
+      "purpose": "suppressSPDTchargeinjection; limitinverterchargecurrentandSPDTdischargecurrent",
+      "logic_consumers": "useSchmittinputs; U112HCS21/U115HCS08 selected; do notattachordinaryslow-intolerantCMOSinputs",
+      "physical_waveform_validation": false
+    }
+  }
+}

@@ -1,0 +1,100 @@
+metadata:
+  title: EVT1 local motor / both bridge outputs
+  notes: EVT first article. Native numeric pin map; verify mating marks/continuity.
+    Free-span dimensions are between modeled wire-exit datums; stock blanks are longer
+    and are not finished cut lengths. No physical crimp/current/fit acceptance. OEM
+    leads are supplied with the component, not separate wire stock. Solder/insulate
+    the pigtail transition, inspect and strain-relieve. MOTOR_N is not system ground.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J3:
+    type: JST SH2 socket
+    pins:
+    - 1
+    - 2
+    pinlabels: &id001
+    - MOTOR_P
+    - MOTOR_N
+    ignore_in_bom: false
+    manufacturer: JST
+    mpn: SHR-02V-S
+  MOTOR:
+    type: OEM leaded component
+    pins:
+    - 1
+    - 2
+    pinlabels: *id001
+    ignore_in_bom: false
+    manufacturer: NFP
+    mpn: NFP-E1015 3.7V
+cables:
+  M1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - MOTOR_P
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.08
+    length_unit: m
+    ignore_in_bom: false
+    notes: '80mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  M2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - MOTOR_N
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.08
+    length_unit: m
+    ignore_in_bom: false
+    notes: '80mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+connections:
+- - J3:
+    - 1
+  - M1:
+    - 1
+  - MOTOR:
+    - 1
+- - J3:
+    - 2
+  - M2:
+    - 1
+  - MOTOR:
+    - 2
+additional_bom_items:
+- description: SH socket crimp contact; crimp ordinary pigtail then solder to OEM
+    lead
+  qty: 2
+  unit: pcs
+  manufacturer: JST
+  mpn: SSH-003T-P0.2-H

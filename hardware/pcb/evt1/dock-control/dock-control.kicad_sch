@@ -1,0 +1,44 @@
+(kicad_sch
+  (version 20230121)
+  (generator electronics_r0_generate)
+  (uuid 77580244-d203-56de-a5d8-6d568c8186fe)
+  (paper "A3")
+  (title_block
+    (title "EVT dock controller and lid UI")
+    (date "2026-10-30")
+    (rev "R0 candidate")
+    (company "Research and Desire")
+    (comment 1 "BENCH DEVELOPMENT — NOT FABRICATION OR WEAR RELEASE"))
+  (lib_symbols)
+  (text
+    "NATIVE CONTROLLER + LID UI CANDIDATE\nSourcepower, hardwareinterlock and UVdriver sheets are siblingprojects pendingfullsystemhierarchy.\nGlobal supplyflags are standalonecontextannotations; no powered/hardwareproof orPCBroutehere."
+    (at 25.4 25.4 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid 56f7fa6e-08f8-55d1-b7ca-ddb0d6a86e05))
+  (sheet_instances (path "/" (page "1")))
+  (sheet
+    (at 25.4 76.2)
+    (size 68.58 15.24)
+    (fields_autoplaced)
+    (stroke (width 0.1524) (type default))
+    (fill (color 0 0 0 0))
+    (uuid 6fc3de02-3d52-5fef-ac2d-add24898010b)
+    (property
+      "Sheetname"
+      "EVT dock controller / STM32L071 and monitors"
+      (at 25.4 75.69200000000001 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property "Sheetfile" "dock-controller.kicad_sch" (at 25.4 91.94800000000001 0) (effects (font (size 1.016 1.016)) (justify left top))))
+  (sheet
+    (at 25.4 116.84)
+    (size 68.58 15.24)
+    (fields_autoplaced)
+    (stroke (width 0.1524) (type default))
+    (fill (color 0 0 0 0))
+    (uuid 92ef91b4-5856-5051-848a-6a12132d067b)
+    (property
+      "Sheetname"
+      "EVT lid UI / actual LCD charge pump and three switches"
+      (at 25.4 116.33200000000001 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property "Sheetfile" "dock-lid-ui.kicad_sch" (at 25.4 132.588 0) (effects (font (size 1.016 1.016)) (justify left top)))))

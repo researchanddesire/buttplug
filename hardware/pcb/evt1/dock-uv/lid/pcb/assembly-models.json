@@ -1,0 +1,187 @@
+{
+  "status": "routed native candidate; supplier stackup and powered/thermal acceptance pending",
+  "before_models_sha256": "cc27d16fa108510a0912dcd74bdac6a516e03727baab1012e9f4629e0363dc38",
+  "native_board_sha256": "8ed2d77df57834d373a5ddd5d83f086be5ee8448584b7f99bf27f68e78c9c145",
+  "models_manifest_sha256": "194de367a06436233722888d5cb3207c032ef23cf328a25cd44f30022252db87",
+  "finalizer_sha256": "ceefeb5359b776cd64ed124ba16ae908deebca5447db2fe6200b0105063c5386",
+  "derived_footprints": {
+    "DockUV.pretty/D_SOD-123F.kicad_mod": "116fa6171c15ad7046477017e623b7622cd96ff09b7250c660a1e2c7b1a7da15",
+    "DockUV.pretty/JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical.kicad_mod": "dd07627c6d05225194bacec725f7013828163d0061dae944b2857ff732256255",
+    "DockUV.pretty/C_0603_1608Metric.kicad_mod": "841280f8ea4a1862dd1fae304e4cae28fe71490b5675c11b6b8206c511023e17",
+    "DockUV.pretty/Bourns_SRP4020TA_Actual_Lands.kicad_mod": "2ed6137a21773e4894a3e0932f165bba92c5a7148093217d38597fd4324758e3",
+    "DockUV.pretty/Vishay_VLMU35CB2_Actual_TwoTerminal.kicad_mod": "f2ef109dda3f0971a95240365a7c38e2e2371c38c5ba3eed3d7dbb64038abe0f",
+    "DockUV.pretty/R_0805_2012Metric.kicad_mod": "5c65aa9a1af6a5328c206747c3518568c404343815576b7ad112cbcf203d0156",
+    "DockUV.pretty/SOT-23.kicad_mod": "6096c5c8a67bde6301229ac8df0d251f7e0554d900d21dbae1e3a8ea7a6fcdf1",
+    "DockUV.pretty/TestPoint_Pad_D1.5mm.kicad_mod": "0e8da3444bd773f9b3575929ceda4a31b6ccd4157d31f3a49ca6e21446c26f44",
+    "DockUV.pretty/C_1210_3225Metric.kicad_mod": "c27eca1017e46ee49bb2c011aa58df9cb3187676e96f61969e6dc3eb709039c4",
+    "DockUV.pretty/R_0603_1608Metric.kicad_mod": "d9dbd6b3e537b14d65451814e6e47b88213faf7d10832e445e982ee436624a30",
+    "DockUV.pretty/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.kicad_mod": "77ac22d0372fe7d14aca587de81af2ddbc9ae196e4668a63149681d3ba0566c7",
+    "DockUV.pretty/SOT-23-6.kicad_mod": "70946d54c3a74f7a783df5613c3a2c08e8c9a7d6726885dd852edf78ba02e398"
+  },
+  "stackup": {
+    "nominal_copper_plus_FR4_mm": 1,
+    "FR4_core_mm": 0.86,
+    "outer_copper_um_each": 70,
+    "mask_um_each": 10,
+    "coatings_not_in_nominal_thickness": true,
+    "finish": "ENIG",
+    "minimum_track_clearance_mm": 0.2,
+    "minimum_drill_mm": 0.3,
+    "minimum_annulus_mm": 0.15,
+    "supplier_acceptance": false
+  },
+  "models": {
+    "D_SOD-123F": {
+      "relative_path": "${KIPRJMOD}/../../models/D_SOD-123F.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C_0603_1608Metric": {
+      "relative_path": "${KIPRJMOD}/../../models/C_0603_1608Metric.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "Bourns_SRP4020TA_Actual_Lands": {
+      "relative_path": "${KIPRJMOD}/../../models/Bourns_SRP4020TA_100M.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "Vishay_VLMU35CB2_Actual_TwoTerminal": {
+      "relative_path": "${KIPRJMOD}/../../models/Vishay_VLMU35CB.stp",
+      "offset_mm": [
+        0,
+        0,
+        0.7
+      ],
+      "rotation_deg": [
+        -90,
+        0,
+        0
+      ]
+    },
+    "R_0805_2012Metric": {
+      "relative_path": "${KIPRJMOD}/../../models/R_0805_2012Metric.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SOT-23": {
+      "relative_path": "${KIPRJMOD}/../../models/SOT-23.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "C_1210_3225Metric": {
+      "relative_path": "${KIPRJMOD}/../../models/C_1210_3225Metric.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "R_0603_1608Metric": {
+      "relative_path": "${KIPRJMOD}/../../models/R_0603_1608Metric.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal": {
+      "relative_path": "${KIPRJMOD}/../../models/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "SOT-23-6": {
+      "relative_path": "${KIPRJMOD}/../../models/SOT-23-6.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "thermal_attachment": {
+    "B_contact_region_near_each_LED_planar_mm": {
+      "left": [
+        -47.8,
+        92.5,
+        -36.2,
+        95.5
+      ],
+      "right": [
+        36.2,
+        92.5,
+        47.8,
+        95.5
+      ]
+    },
+    "electrical_isolation_required": "Each LED terminal copper/via array is a different electrical net. Any common metal backing requires a qualified insulating thermal interface; soldermask is not credited.",
+    "local_sensors": "Remote NTC/67L045 wire solder lands on right arm; place sensors on actual hottest heatspreader/driver region and qualify lag. Mechanical retention and exact backing/pad remain open.",
+    "not_credited": "FR4 thermal path does not inherit Vishay24.4K/W Al-MCPCB rating; no predicted optical output/dose or measured temperature claim"
+  },
+  "physical_fit": false,
+  "thermal_validation": false,
+  "full_product_order_ready": false
+}

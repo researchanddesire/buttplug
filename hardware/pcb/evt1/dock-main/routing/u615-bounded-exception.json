@@ -1,0 +1,592 @@
+{
+  "reason": "Fit R3 new rear support between full selected connector and logic-package courtyards; preserve both connector placements",
+  "authorization": "root explicit2026-11-12",
+  "old_origin": [
+    42,
+    50,
+    0
+  ],
+  "new_origin": [
+    42,
+    49.5,
+    0
+  ],
+  "all_pin_nets_unchanged": true,
+  "before_pin_geometry": {
+    "1": {
+      "net": "RELEASE_SEEN",
+      "position": [
+        39.1375,
+        51.95
+      ]
+    },
+    "2": {
+      "net": "MCU_ARM",
+      "position": [
+        39.1375,
+        51.3
+      ]
+    },
+    "3": {
+      "net": "ARM_D",
+      "position": [
+        39.1375,
+        50.65
+      ]
+    },
+    "4": {
+      "net": "LOOP_A",
+      "position": [
+        39.1375,
+        50.0
+      ]
+    },
+    "5": {
+      "net": "SOURCE_OK",
+      "position": [
+        39.1375,
+        49.35
+      ]
+    },
+    "6": {
+      "net": "UV_GATE_A",
+      "position": [
+        39.1375,
+        48.7
+      ]
+    },
+    "7": {
+      "net": "GND",
+      "position": [
+        39.1375,
+        48.05
+      ]
+    },
+    "8": {
+      "net": "UV_GATE_B",
+      "position": [
+        44.8625,
+        48.05
+      ]
+    },
+    "9": {
+      "net": "UV_RUN",
+      "position": [
+        44.8625,
+        48.7
+      ]
+    },
+    "10": {
+      "net": "LOOP_B",
+      "position": [
+        44.8625,
+        49.35
+      ]
+    },
+    "11": {
+      "net": "UV_CTRL",
+      "position": [
+        44.8625,
+        50.0
+      ]
+    },
+    "12": {
+      "net": "UV_RUN",
+      "position": [
+        44.8625,
+        50.65
+      ]
+    },
+    "13": {
+      "net": "UV_POWER_GOOD",
+      "position": [
+        44.8625,
+        51.3
+      ]
+    },
+    "14": {
+      "net": "3V3",
+      "position": [
+        44.8625,
+        51.95
+      ]
+    }
+  },
+  "after_pin_geometry": {
+    "1": {
+      "net": "RELEASE_SEEN",
+      "position": [
+        39.1375,
+        51.45
+      ]
+    },
+    "2": {
+      "net": "MCU_ARM",
+      "position": [
+        39.1375,
+        50.8
+      ]
+    },
+    "3": {
+      "net": "ARM_D",
+      "position": [
+        39.1375,
+        50.15
+      ]
+    },
+    "4": {
+      "net": "LOOP_A",
+      "position": [
+        39.1375,
+        49.5
+      ]
+    },
+    "5": {
+      "net": "SOURCE_OK",
+      "position": [
+        39.1375,
+        48.85
+      ]
+    },
+    "6": {
+      "net": "UV_GATE_A",
+      "position": [
+        39.1375,
+        48.2
+      ]
+    },
+    "7": {
+      "net": "GND",
+      "position": [
+        39.1375,
+        47.55
+      ]
+    },
+    "8": {
+      "net": "UV_GATE_B",
+      "position": [
+        44.8625,
+        47.55
+      ]
+    },
+    "9": {
+      "net": "UV_RUN",
+      "position": [
+        44.8625,
+        48.2
+      ]
+    },
+    "10": {
+      "net": "LOOP_B",
+      "position": [
+        44.8625,
+        48.85
+      ]
+    },
+    "11": {
+      "net": "UV_CTRL",
+      "position": [
+        44.8625,
+        49.5
+      ]
+    },
+    "12": {
+      "net": "UV_RUN",
+      "position": [
+        44.8625,
+        50.15
+      ]
+    },
+    "13": {
+      "net": "UV_POWER_GOOD",
+      "position": [
+        44.8625,
+        50.8
+      ]
+    },
+    "14": {
+      "net": "3V3",
+      "position": [
+        44.8625,
+        51.45
+      ]
+    }
+  },
+  "source192_copper_unchanged": true,
+  "removed_authored_critical_track": {
+    "kind": "track",
+    "net": "GND",
+    "start": [
+      39.1375,
+      48.05
+    ],
+    "end": [
+      39.587901,
+      47.388835
+    ],
+    "width": 0.2,
+    "layer": "F.Cu",
+    "role": "local bypass/reference"
+  },
+  "replacement_authored_critical_track": {
+    "kind": "track",
+    "net": "GND",
+    "start": [
+      39.1375,
+      47.55
+    ],
+    "end": [
+      39.587901,
+      47.388835
+    ],
+    "width": 0.2,
+    "layer": "F.Cu",
+    "role": "local bypass/reference"
+  },
+  "added_VDD_extension": {
+    "kind": "track",
+    "net": "3V3",
+    "start": [
+      44.8625,
+      51.45
+    ],
+    "end": [
+      44.8625,
+      51.95
+    ],
+    "width": 0.3,
+    "layer": "F.Cu",
+    "role": "approved U615 VDD endpoint extension"
+  },
+  "unchanged_ground_via": [
+    39.587901,
+    47.388835
+  ],
+  "unlocked_general_items_to_reroute": [
+    {
+      "uuid": "3c779f8b-ea38-466b-967f-222ea6b73c3c",
+      "net": "3V3"
+    },
+    {
+      "uuid": "b60a9360-0e0e-46cf-8eb5-17ad8fedfd58",
+      "net": "3V3"
+    },
+    {
+      "uuid": "d4913fbb-6706-4fbc-835d-ecbee8320e46",
+      "net": "3V3"
+    },
+    {
+      "uuid": "8aa3e6b0-20d9-4c19-9a3e-668bacd76563",
+      "net": "ARM_D"
+    },
+    {
+      "uuid": "b71677aa-a853-4f48-ac6e-a447dc425738",
+      "net": "ARM_D"
+    },
+    {
+      "uuid": "5a0cc0fd-c477-4fa0-a006-452af7d84746",
+      "net": "CC_OUT2"
+    },
+    {
+      "uuid": "5e1aa201-b0ff-45c5-8106-7f832a9b64dc",
+      "net": "CC_OUT2"
+    },
+    {
+      "uuid": "d96bb0ad-b798-4b5d-878f-99856b18d733",
+      "net": "CC_OUT2"
+    },
+    {
+      "uuid": "0fa82291-7791-40a2-9f8a-d62ccc3e9a07",
+      "net": "GND"
+    },
+    {
+      "uuid": "e2922b73-8534-40f3-9bdd-1a3c6307b043",
+      "net": "GND"
+    },
+    {
+      "uuid": "08fab84d-4edc-4a6e-958d-70ca9d31bdba",
+      "net": "LOOP_A"
+    },
+    {
+      "uuid": "371e2fbd-ca0a-46ef-9a0b-dfd6a7e96522",
+      "net": "LOOP_A"
+    },
+    {
+      "uuid": "58d586fc-b157-44fa-b193-f7beef8fab28",
+      "net": "LOOP_A"
+    },
+    {
+      "uuid": "6cb25d35-de0f-433d-86b6-27cf53acb1c1",
+      "net": "LOOP_A"
+    },
+    {
+      "uuid": "7b33172d-66f4-4fe4-8a30-59c6e6c6b6b1",
+      "net": "LOOP_A"
+    },
+    {
+      "uuid": "a34caead-aaf3-4b3a-a4ce-6b2074e871f5",
+      "net": "LOOP_A"
+    },
+    {
+      "uuid": "c4bb07fe-75fb-4086-9c3e-c7c63db671e6",
+      "net": "LOOP_A"
+    },
+    {
+      "uuid": "ca60747d-acec-454a-828f-b86175f754e5",
+      "net": "LOOP_A"
+    },
+    {
+      "uuid": "dfaa5cae-85bd-4df6-99e6-56d3d80765cc",
+      "net": "LOOP_A"
+    },
+    {
+      "uuid": "1d39d572-2b42-4e6c-a6b1-1227579e6704",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "6b33a800-ecff-47b4-9c99-3074800b3842",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "89642e57-1f85-42ca-b048-8c14ab49b3e7",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "a9383dfc-7153-463a-83d8-c426852e89af",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "d16622ba-ec85-4393-ab11-0ef6e4e23ae4",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "e8c17699-d458-4f51-8e41-715c4f6299ec",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "75076f0d-402f-4ef9-bf47-5b5c16bcca08",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "774135ce-9502-40d0-aa3e-0aa0154ffa52",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "d956fdff-a466-44c7-b642-906ab30c5773",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "2011e858-4802-48f0-b1b6-ef948c414bdf",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "abe35e7b-5060-4a6b-a91a-ef194f62984b",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "b72a5874-5d19-420e-85a4-9558819ffa10",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "cb2e3969-6f0c-46cf-b8f0-baa9bc9b0776",
+      "net": "LOOP_B"
+    },
+    {
+      "uuid": "05b8cea7-c08f-41f1-b66d-387e82ca91ab",
+      "net": "LOOP_B_RAW"
+    },
+    {
+      "uuid": "9f65870a-55e0-4b0a-8317-a77256484798",
+      "net": "LOOP_B_RAW"
+    },
+    {
+      "uuid": "05694c75-12e0-485c-8367-3277dceefe59",
+      "net": "MCU_ARM"
+    },
+    {
+      "uuid": "07c551b0-bc69-4377-bad2-565ecd1662c6",
+      "net": "MCU_ARM"
+    },
+    {
+      "uuid": "382e9d83-a9e0-47bf-a765-ca1f23e6df7d",
+      "net": "MCU_ARM"
+    },
+    {
+      "uuid": "82eb5b84-de16-41b3-832f-bff1c3563690",
+      "net": "MCU_ARM"
+    },
+    {
+      "uuid": "9d29bbc4-fe80-4603-9698-b55b7c73682f",
+      "net": "MCU_ARM"
+    },
+    {
+      "uuid": "e378352d-f409-47f4-b691-ad749fa70801",
+      "net": "MCU_ARM"
+    },
+    {
+      "uuid": "4aa6fd97-7277-4125-90a7-40036db5c546",
+      "net": "MCU_ARM"
+    },
+    {
+      "uuid": "f6ae8f8b-d8f6-49b7-b68c-6e4847cfcc9a",
+      "net": "MCU_ARM"
+    },
+    {
+      "uuid": "728dc326-6713-402e-b865-2764dbb82d3f",
+      "net": "RELEASE_SEEN"
+    },
+    {
+      "uuid": "ba0220e9-b44f-4447-952f-e6d82a2f7c59",
+      "net": "RELEASE_SEEN"
+    },
+    {
+      "uuid": "dc6f1120-fb6c-473e-99fe-bd159f82a4a1",
+      "net": "RELEASE_SEEN"
+    },
+    {
+      "uuid": "e2db53c3-5475-475f-8052-a1f7f527913f",
+      "net": "RELEASE_SEEN"
+    },
+    {
+      "uuid": "ca737172-8c2b-473d-ae14-8e9f5af72494",
+      "net": "RELEASE_SEEN"
+    },
+    {
+      "uuid": "66a239a4-01c9-44dc-b4d0-7f4b017a29b7",
+      "net": "RELEASE_SEEN"
+    },
+    {
+      "uuid": "2631a7e0-4811-4116-9c00-1e91e45e75f5",
+      "net": "UV_5V_SW"
+    },
+    {
+      "uuid": "96af7041-b10e-453d-b406-9e539bf8275f",
+      "net": "UV_5V_SW"
+    },
+    {
+      "uuid": "ac827dbc-aa34-42dd-9830-3b5d1635e002",
+      "net": "UV_5V_SW"
+    },
+    {
+      "uuid": "3c4d37dc-92f1-4fd0-bda9-d54e42d1234a",
+      "net": "UV_CTRL"
+    },
+    {
+      "uuid": "a340d0f6-a609-4042-bced-c04df310642f",
+      "net": "UV_CTRL"
+    },
+    {
+      "uuid": "b309d18f-a429-4a91-ad9c-c33f26a40d81",
+      "net": "UV_CTRL"
+    },
+    {
+      "uuid": "f6354b64-4be9-4791-9284-e3c1a8207477",
+      "net": "UV_CTRL"
+    },
+    {
+      "uuid": "f93098fd-4d2a-419e-a3a8-c4677847873d",
+      "net": "UV_CTRL"
+    },
+    {
+      "uuid": "4fbc804e-f01a-4b5d-9ce4-ab3f4467d776",
+      "net": "UV_GATE_A"
+    },
+    {
+      "uuid": "a1623442-fde5-474c-8725-c27368cec44b",
+      "net": "UV_GATE_A"
+    },
+    {
+      "uuid": "c1f003dd-9253-4f92-aa09-23c637292f30",
+      "net": "UV_GATE_A"
+    },
+    {
+      "uuid": "c1fa49dc-093a-4388-a0ff-15ca16a55818",
+      "net": "UV_GATE_A"
+    },
+    {
+      "uuid": "222a65e6-4ea6-49ad-9ad8-1750f73e8fbf",
+      "net": "UV_GATE_B"
+    },
+    {
+      "uuid": "551a01ee-2a45-4c5e-b510-1e5fd2deefa8",
+      "net": "UV_GATE_B"
+    },
+    {
+      "uuid": "6bb91529-7d98-4e36-b710-3ae1a2b03d0c",
+      "net": "UV_GATE_B"
+    },
+    {
+      "uuid": "b7098cf8-1fbc-4f61-8eec-267482580f08",
+      "net": "UV_GATE_B"
+    },
+    {
+      "uuid": "e1a064fe-d1d2-40f4-8ce2-b33e4f4c9ef6",
+      "net": "UV_GATE_B"
+    },
+    {
+      "uuid": "205c5161-b755-43fa-a67b-c1d70bdf7b88",
+      "net": "UV_POWER_GOOD"
+    },
+    {
+      "uuid": "822cbd60-25d8-4b50-bf18-bb7b6e4c7b43",
+      "net": "UV_POWER_GOOD"
+    },
+    {
+      "uuid": "99725383-3256-4492-83ae-15db05273b64",
+      "net": "UV_POWER_GOOD"
+    },
+    {
+      "uuid": "02ad1bf5-448a-4735-8337-f607535a0510",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "0307a984-98c9-4472-b673-3508f2183410",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "39430d0c-5a23-4d69-9535-3b1aac43f304",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "48f43b3c-fc7d-483e-a3e1-d32da9c6e274",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "59170ea4-c491-43d2-bf83-9837831d3a24",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "9a9edebb-0d64-4159-a65d-88bc23c5400a",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "9f5b4704-e8e6-4561-8aa0-83bd3971050a",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "ae766499-1db9-48ea-8428-3713f0a220bc",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "e07be361-b40a-402e-8e2a-a169b823c029",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "677278dc-3ae7-468c-b016-acde0a44aef6",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "0104b47e-750f-461a-8566-2791c06ecc7e",
+      "net": "UV_RUN"
+    },
+    {
+      "uuid": "3ffac080-3a0f-4243-b011-9652ef146d6c",
+      "net": "UV_RUN"
+    }
+  ],
+  "rear_support_dock_xy_mm": [
+    44,
+    55.7
+  ],
+  "board_sha256": "1302833f3fccf9d582e9c2ff5efb07e1ad890959aeef70816d13fe3f672cf8f6"
+}

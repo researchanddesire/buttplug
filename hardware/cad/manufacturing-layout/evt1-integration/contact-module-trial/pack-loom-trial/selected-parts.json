@@ -1,0 +1,110 @@
+{
+  "status": "Selected-part public-drawing native reconstruction; no pack/source promotion",
+  "native_sha256": "ccf5e5775cb66476fa3a4841d0bd54e8b644fb51cbbc5f3e8c4f088021f14aad",
+  "builder_sha256": "f2ee36e179d7dbf24d6b77ee616f329bcc377e1c420cf008e16f61819a578393",
+  "source": {
+    "url": "https://www.jst.com/wp-content/uploads/2021/03/eACH1.pdf",
+    "local": "sources/eACH1.pdf",
+    "sha256": "4280ff19632883de05ff52f837a0ba3ebb392cf5d6ba86c93393c6a3a6d642fd",
+    "pages": [
+      1,
+      2
+    ]
+  },
+  "parts": [
+    {
+      "mpn": "ACHTP-02V-S",
+      "qty": 1,
+      "purchase_scope": "body-side plug only"
+    },
+    {
+      "mpn": "SACHP-003G-P0.2",
+      "qty": 2,
+      "purchase_scope": "body-side contacts only"
+    },
+    {
+      "mpn": "ACHTR-02V-S",
+      "qty": 1,
+      "purchase_scope": "included in requested factory pack, not duplicate loose purchase"
+    },
+    {
+      "mpn": "SACH-003G-P0.2",
+      "qty": 2,
+      "purchase_scope": "included in requested factory pack"
+    }
+  ],
+  "manufacturer": "JST",
+  "rated_A": 2,
+  "rating_wire_AWG": 28,
+  "wire_range_AWG": [
+    30,
+    28
+  ],
+  "insulation_OD_mm": [
+    0.5,
+    0.63
+  ],
+  "local_mated_bounds_mm": [
+    0.0,
+    -1.9,
+    0.0,
+    6.8000000000000025,
+    1.9,
+    1.85
+  ],
+  "installed_candidate_matrix4": [
+    [
+      -1,
+      0,
+      0,
+      -4.1
+    ],
+    [
+      0,
+      0,
+      1,
+      -18.4
+    ],
+    [
+      0,
+      1,
+      0,
+      -1.1
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "installed_frame_determinant": 1,
+  "installed_wire_exit_points_mm": {
+    "body_pin1": [
+      -4.1,
+      -17.5,
+      -1.7
+    ],
+    "body_pin2": [
+      -4.1,
+      -17.5,
+      -0.5
+    ],
+    "pack_pin1": [
+      -10.9,
+      -17.5,
+      -1.7
+    ],
+    "pack_pin2": [
+      -10.9,
+      -17.5,
+      -0.5
+    ]
+  },
+  "pose_is_disposable_candidate": true,
+  "whole_geometry_receiver_tolerances_published": false,
+  "physical_validation": false,
+  "component_native_original_builder_sha256": "af4456206e4c83423341e08c23d0b2176135fdef676e88a01d369bc97b0f4893",
+  "installed_pose_source": "LocalTrayReliefLoomTrial.FCStd / ProposedLooseACHAssembly; separate disposable candidate, no pack/master promotion",
+  "component_native_geometry_unchanged_by_pose_metadata_update": true
+}

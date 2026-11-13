@@ -1,0 +1,132 @@
+{
+  "status": "Selected native land patterns; no3D pose/installedRF/receivedtolerance acceptance",
+  "builder_sha256": "834d12620133be72c350349fdb2e2d2985131ccc8948c7b019d2dcb2dbc8449f",
+  "source_footprints_sha256": {
+    "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod": "70ac457d61f801181665148cd036282c1eeb9e00383e132500ca0c21ed6befac",
+    "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+    "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6",
+    "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod": "f9821eb1d391e3d2bc6c77832e3dcb89c12eb239a84b32afe731e7e2e61509bb",
+    "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Connector_JST.pretty/JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal.kicad_mod": "a6b3228239f368383487bcc8335d59f60731189f82b7ed6a09179c68f1596a9f",
+    "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_DFN_QFN.pretty/HVQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm.kicad_mod": "220056cfbe0f7449585d01a8a7b26df747cc34755ca0413ea5f79e0f90496d45",
+    "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Crystal.pretty/Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm.kicad_mod": "02b96cf9aa56fc1ff9a9d5ecadd49981ceced925ab3d5028b7b6d25e5dd35a73",
+    "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/case-telemetry-study/vendor/nina/OEM.pretty/NINA-B112_OEM.kicad_mod": "889626a74db6572a644bdfb97c6faf3b64a3f0c52e06f0eb72d6575ce7804d95"
+  },
+  "selected_family_models": [
+    {
+      "family": "R_0402_1005Metric",
+      "source_path": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+      "scope": "KiCad package-family solid; not OEM exact-MPN or tolerance acceptance"
+    },
+    {
+      "family": "C_0402_1005Metric",
+      "source_path": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "scope": "KiCad package-family solid; not OEM exact-MPN or tolerance acceptance"
+    },
+    {
+      "family": "C_0603_1608Metric",
+      "source_path": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "scope": "KiCad package-family solid; not OEM exact-MPN or tolerance acceptance"
+    },
+    {
+      "family": "C_0805_2012Metric",
+      "source_path": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "scope": "KiCad package-family solid; not OEM exact-MPN or tolerance acceptance"
+    },
+    {
+      "family": "JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+      "source_path": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_JST.3dshapes/JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal.step",
+      "sha256": "34ab88598f0e201dadfc72ee0492aa279ab0d4931a92da70a2536d69804cb5d3",
+      "scope": "KiCad package-family solid; not OEM exact-MPN or tolerance acceptance"
+    },
+    {
+      "family": "Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm",
+      "source_path": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Crystal.3dshapes/Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm.step",
+      "sha256": "9123b0bc558d87e226d70ed8c9033afb2418f41148436a7d0e9655867ab11148",
+      "scope": "KiCad package-family solid; not OEM exact-MPN or tolerance acceptance"
+    }
+  ],
+  "TI_RSV_primary_source": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf RSV0016A4220314C",
+  "TI_RSV_native_pad_centres_mm": {
+    "1": [
+      -0.8,
+      -0.6
+    ],
+    "2": [
+      -0.8,
+      -0.19999999999999996
+    ],
+    "3": [
+      -0.8,
+      0.20000000000000007
+    ],
+    "4": [
+      -0.8,
+      0.6000000000000002
+    ],
+    "5": [
+      -0.6,
+      1.2
+    ],
+    "6": [
+      -0.19999999999999996,
+      1.2
+    ],
+    "7": [
+      0.20000000000000007,
+      1.2
+    ],
+    "8": [
+      0.6000000000000002,
+      1.2
+    ],
+    "9": [
+      0.8,
+      0.6
+    ],
+    "10": [
+      0.8,
+      0.19999999999999996
+    ],
+    "11": [
+      0.8,
+      -0.20000000000000007
+    ],
+    "12": [
+      0.8,
+      -0.6000000000000002
+    ],
+    "13": [
+      0.6,
+      -1.2
+    ],
+    "14": [
+      0.19999999999999996,
+      -1.2
+    ],
+    "15": [
+      -0.20000000000000007,
+      -1.2
+    ],
+    "16": [
+      -0.6000000000000002,
+      -1.2
+    ]
+  },
+  "OEM_NINA_source": "vendor/nina/extraction.json; PIFA B112, not B111",
+  "model_pose_binding_pending": true,
+  "outputs_sha256": {
+    "C_0805_2012Metric.kicad_mod": "f9821eb1d391e3d2bc6c77832e3dcb89c12eb239a84b32afe731e7e2e61509bb",
+    "HVQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm.kicad_mod": "220056cfbe0f7449585d01a8a7b26df747cc34755ca0413ea5f79e0f90496d45",
+    "C_0603_1608Metric.kicad_mod": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6",
+    "JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal.kicad_mod": "a6b3228239f368383487bcc8335d59f60731189f82b7ed6a09179c68f1596a9f",
+    "Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm.kicad_mod": "02b96cf9aa56fc1ff9a9d5ecadd49981ceced925ab3d5028b7b6d25e5dd35a73",
+    "C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+    "TI_RSV0016A.kicad_mod": "e37cb16fb96fa62a780fbab453393e3b017deb86ea86551501ed033548bf6226",
+    "NINA-B112_OEM.kicad_mod": "889626a74db6572a644bdfb97c6faf3b64a3f0c52e06f0eb72d6575ce7804d95",
+    "R_0402_1005Metric.kicad_mod": "70ac457d61f801181665148cd036282c1eeb9e00383e132500ca0c21ed6befac"
+  }
+}

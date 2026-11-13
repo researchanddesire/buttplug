@@ -1,0 +1,264 @@
+{
+  "builder_SHA256": "8a3834a589d5e76bde4c3cebe9cccd4d848a3088ca3cc162c609056a7f6472b8",
+  "frozen_geometry_helper_SHA256": "38c6edf80175b451c9397fa0eccdc38c84e27bdea428fb01fcc5379297b82939",
+  "raw_native_checks_SHA256": "9cd53f31c0b4ebabde2744aaf7e986aab5c5e555486afa6332bf5f6e057972e9",
+  "native_SHA256": "f3f03d831875ac3c9557a880aa823ea1d3bad62276a3982b112c7e92584f747b",
+  "raw_sampled_segments": 129808,
+  "raw_clear_ray_count_retained": 14,
+  "raw_clear_rays_retained": [
+    {
+      "interior_mm": [
+        -10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        471.7255393974858,
+        -190.69021575899433,
+        36.2961956848201
+      ]
+    },
+    {
+      "interior_mm": [
+        -10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        471.7383454426297,
+        -190.69533817705187,
+        40.15
+      ]
+    },
+    {
+      "interior_mm": [
+        -10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        471.7255393974858,
+        -190.69021575899433,
+        44.0038043151799
+      ]
+    },
+    {
+      "interior_mm": [
+        -10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        489.91996191714634,
+        -153.53065481866776,
+        37.03938690362663
+      ]
+    },
+    {
+      "interior_mm": [
+        -10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        489.9283881653922,
+        -153.53327631812203,
+        40.15
+      ]
+    },
+    {
+      "interior_mm": [
+        -10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        489.91996191714634,
+        -153.53065481866776,
+        43.26061309637337
+      ]
+    },
+    {
+      "interior_mm": [
+        0.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        -373.0276341214345,
+        -346.15912518000556,
+        40.15
+      ]
+    },
+    {
+      "interior_mm": [
+        0.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        373.0276341214345,
+        -346.15912518000556,
+        40.15
+      ]
+    },
+    {
+      "interior_mm": [
+        10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        -489.91996191714634,
+        -153.53065481866776,
+        37.03938690362663
+      ]
+    },
+    {
+      "interior_mm": [
+        10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        -489.9283881653922,
+        -153.53327631812203,
+        40.15
+      ]
+    },
+    {
+      "interior_mm": [
+        10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        -489.91996191714634,
+        -153.53065481866776,
+        43.26061309637337
+      ]
+    },
+    {
+      "interior_mm": [
+        10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        -471.7255393974858,
+        -190.69021575899433,
+        36.2961956848201
+      ]
+    },
+    {
+      "interior_mm": [
+        10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        -471.7383454426297,
+        -190.69533817705187,
+        40.15
+      ]
+    },
+    {
+      "interior_mm": [
+        10.0,
+        2,
+        40.15
+      ],
+      "exterior_mm": [
+        -471.7255393974858,
+        -190.69021575899433,
+        44.0038043151799
+      ]
+    }
+  ],
+  "unique_clear_origin_count": 3,
+  "source_region_evidence": [
+    {
+      "raw_clear_ray_origin_mm": [
+        -10.0,
+        2,
+        40.15
+      ],
+      "probe_toward_chamber_mm": [
+        -10.0,
+        20.0,
+        40.15
+      ],
+      "exact_retainer_intersections": [
+        {
+          "body": "UVSeamUpperRetainer",
+          "material_length_mm": 1.2000000000000002,
+          "intersection_exact_bounds_mm": [
+            -10.0,
+            4.5,
+            40.15,
+            -10.0,
+            5.7,
+            40.15
+          ]
+        }
+      ],
+      "geometric_interpretation": "Origin lies ahead of a rear catch baffle along dock+Y, in the front vestibule. This does not remove its clear exterior lines or prove optical containment."
+    },
+    {
+      "raw_clear_ray_origin_mm": [
+        0.0,
+        2,
+        40.15
+      ],
+      "probe_toward_chamber_mm": [
+        0.0,
+        20.0,
+        40.15
+      ],
+      "exact_retainer_intersections": [
+        {
+          "body": "UVSeamUpperRetainer",
+          "material_length_mm": 1.2000000000000002,
+          "intersection_exact_bounds_mm": [
+            0.0,
+            4.5,
+            40.15,
+            0.0,
+            5.7,
+            40.15
+          ]
+        }
+      ],
+      "geometric_interpretation": "Origin lies ahead of a rear catch baffle along dock+Y, in the front vestibule. This does not remove its clear exterior lines or prove optical containment."
+    },
+    {
+      "raw_clear_ray_origin_mm": [
+        10.0,
+        2,
+        40.15
+      ],
+      "probe_toward_chamber_mm": [
+        10.0,
+        20.0,
+        40.15
+      ],
+      "exact_retainer_intersections": [
+        {
+          "body": "UVSeamUpperRetainer",
+          "material_length_mm": 1.2000000000000002,
+          "intersection_exact_bounds_mm": [
+            10.0,
+            4.5,
+            40.15,
+            10.0,
+            5.7,
+            40.15
+          ]
+        }
+      ],
+      "geometric_interpretation": "Origin lies ahead of a rear catch baffle along dock+Y, in the front vestibule. This does not remove its clear exterior lines or prove optical containment."
+    }
+  ],
+  "qualification": "All14 raw clear rays remain findings. Region evidence explains their origins ahead of the rear baffle. It is not an all-rays containment claim; reflection, scattering, material transmission and measured optical leakage remain open.",
+  "optical_containment_qualified": false
+}

@@ -1,0 +1,818 @@
+{
+  "status": "Static formed-wire coupon; do not infer complete installed loom or physical assembly",
+  "source_combined_native_sha256": "dfc2dc4259e04644e73bd546e336e8d87d6070c07d4d4c53d3bcc2cfcee5ed3e",
+  "source_PCB_sha256": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
+  "native_sha256": "a8928d0db56f36396f689e4645355f40dd8579f90e3a0728d1e75bd45835b30c",
+  "builder_sha256": "00fa518235e5e5547e8844eaf158ffcaceb89794cae7ca56a674443ea2c6d23f",
+  "path_builder_sha256": "440d1f4d27252f5e8cd3e10dadc98181ce38191523f482e9d5b4b30230807cf8",
+  "wires": [
+    {
+      "wire": "IB01",
+      "pin": 1,
+      "net": "GND",
+      "free_insulated_path_length_mm": 60.84518794680102,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999999,
+      "curvature_samples_per_edge": 1001,
+      "junctions": [
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.3737714791252564e-15,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.440892098500626e-16,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 6.661338147750939e-16,
+          "tangent_dot": 1.0
+        }
+      ],
+      "bounds_mm": [
+        -4.800000100000001,
+        -24.742000100000002,
+        1.209995823824245,
+        3.0762293844337347,
+        31.525,
+        4.8012799585086725
+      ],
+      "volume_mm3": 17.204467990456845
+    },
+    {
+      "wire": "IB02",
+      "pin": 2,
+      "net": "VBUS_CHG",
+      "free_insulated_path_length_mm": 60.38564739537256,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999999,
+      "curvature_samples_per_edge": 1001,
+      "junctions": [
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 2.220446049250313e-15,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.440892098500626e-16,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 6.661338147750939e-16,
+          "tangent_dot": 1.0
+        }
+      ],
+      "bounds_mm": [
+        -3.800000099999999,
+        -24.7420001,
+        1.209996254593362,
+        3.0762037370331763,
+        31.525,
+        3.8047894719583977
+      ],
+      "volume_mm3": 17.074714427271186
+    },
+    {
+      "wire": "IB03",
+      "pin": 3,
+      "net": "3V3",
+      "free_insulated_path_length_mm": 60.02939983936317,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999999,
+      "curvature_samples_per_edge": 1001,
+      "junctions": [
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 1.7763568394002505e-15,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.440892098500626e-16,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 6.661338147750939e-16,
+          "tangent_dot": 1.0
+        }
+      ],
+      "bounds_mm": [
+        -2.8000001000000014,
+        -24.742000100000002,
+        1.2099959474926785,
+        3.076163277646388,
+        31.525,
+        2.834059097918394
+      ],
+      "volume_mm3": 16.973786264643916
+    },
+    {
+      "wire": "IB04",
+      "pin": 4,
+      "net": "PACK_P",
+      "free_insulated_path_length_mm": 59.78292813863798,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999999,
+      "curvature_samples_per_edge": 1001,
+      "junctions": [
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 1.831026719408895e-15,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.440892098500626e-16,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 6.661338147750939e-16,
+          "tangent_dot": 1.0
+        }
+      ],
+      "bounds_mm": [
+        -2.525,
+        -24.742000100000002,
+        1.1993718210991762,
+        3.075614773549615,
+        31.525,
+        1.950862282050274
+      ],
+      "volume_mm3": 16.903829168248897
+    },
+    {
+      "wire": "IB05",
+      "pin": 5,
+      "net": "MOTOR_ARM",
+      "free_insulated_path_length_mm": 59.65120242946778,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999999,
+      "curvature_samples_per_edge": 1001,
+      "junctions": [
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 1.9173458420030423e-15,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.440892098500626e-16,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 6.661338147750939e-16,
+          "tangent_dot": 1.0
+        }
+      ],
+      "bounds_mm": [
+        -2.525,
+        -24.742000100000002,
+        0.1998999199393625,
+        3.0750959484102207,
+        31.525,
+        1.8100037127444992
+      ],
+      "volume_mm3": 16.866019269267003
+    },
+    {
+      "wire": "IB06",
+      "pin": 6,
+      "net": "MOTOR_PWM",
+      "free_insulated_path_length_mm": 59.637151317813824,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999999,
+      "curvature_samples_per_edge": 1001,
+      "junctions": [
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 1.9173458420030423e-15,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.440892098500626e-16,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 6.661338147750939e-16,
+          "tangent_dot": 1.0
+        }
+      ],
+      "bounds_mm": [
+        -2.525,
+        -24.742000100000002,
+        -0.8000838804031974,
+        3.0750855471849854,
+        31.525,
+        1.8100014424474165
+      ],
+      "volume_mm3": 16.862110000923924
+    },
+    {
+      "wire": "IB07",
+      "pin": 7,
+      "net": "DOCK_PRESENT_N",
+      "free_insulated_path_length_mm": 59.74130948624533,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999999,
+      "curvature_samples_per_edge": 1001,
+      "junctions": [
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 1.831026719408895e-15,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.440892098500626e-16,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 6.661338147750939e-16,
+          "tangent_dot": 1.0
+        }
+      ],
+      "bounds_mm": [
+        -2.525,
+        -24.7420001,
+        -1.8002913501941569,
+        3.0752991625798125,
+        31.525,
+        1.810001175216296
+      ],
+      "volume_mm3": 16.891450066186398
+    },
+    {
+      "wire": "IB08",
+      "pin": 8,
+      "net": "I2C_SDA",
+      "free_insulated_path_length_mm": 59.96173838827492,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999999,
+      "curvature_samples_per_edge": 1001,
+      "junctions": [
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 1.7763568394002505e-15,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.440892098500626e-16,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 6.661338147750939e-16,
+          "tangent_dot": 1.0
+        }
+      ],
+      "bounds_mm": [
+        -2.525,
+        -24.742000100000002,
+        -2.8021988462283227,
+        3.2584756494589815,
+        31.525,
+        1.8100037871571992
+      ],
+      "volume_mm3": 16.95449733597169
+    },
+    {
+      "wire": "IB09",
+      "pin": 9,
+      "net": "I2C_SCL",
+      "free_insulated_path_length_mm": 60.29424513953731,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999999,
+      "curvature_samples_per_edge": 1001,
+      "junctions": [
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 2.220446049250313e-15,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.440892098500626e-16,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 6.661338147750939e-16,
+          "tangent_dot": 1.0
+        }
+      ],
+      "bounds_mm": [
+        -2.525,
+        -24.742000100000002,
+        -3.802046231779726,
+        3.8000001000000005,
+        31.525,
+        1.810003745427032
+      ],
+      "volume_mm3": 17.048422570406768
+    },
+    {
+      "wire": "IB10",
+      "pin": 10,
+      "net": "TIP_EXC_EN",
+      "free_insulated_path_length_mm": 60.73283988747178,
+      "OD_mm": 0.6,
+      "minimum_sampled_radius_mm": 4.499999999999999,
+      "curvature_samples_per_edge": 1001,
+      "junctions": [
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.3737714791252564e-15,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 0.0,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 4.440892098500626e-16,
+          "tangent_dot": 1.0
+        },
+        {
+          "gap_mm": 6.661338147750939e-16,
+          "tangent_dot": 1.0
+        }
+      ],
+      "bounds_mm": [
+        -2.525,
+        -24.7420001,
+        -4.802352629455752,
+        4.800000100000001,
+        31.525,
+        1.8100037454304467
+      ],
+      "volume_mm3": 17.172448564066677
+    }
+  ],
+  "hard_checks": [
+    {
+      "wire": "IB01",
+      "clashes": []
+    },
+    {
+      "wire": "IB02",
+      "clashes": []
+    },
+    {
+      "wire": "IB03",
+      "clashes": [
+        {
+          "part": "RequestedBatteryPowerConnectorReservation",
+          "common_mm3": 0.5576536818225857
+        }
+      ]
+    },
+    {
+      "wire": "IB04",
+      "clashes": [
+        {
+          "part": "RequestedBatteryPowerConnectorReservation",
+          "common_mm3": 1.115307214410258
+        }
+      ]
+    },
+    {
+      "wire": "IB05",
+      "clashes": [
+        {
+          "part": "RequestedBatteryPowerConnectorReservation",
+          "common_mm3": 1.1153073203875377
+        }
+      ]
+    },
+    {
+      "wire": "IB06",
+      "clashes": [
+        {
+          "part": "RequestedBatteryPowerConnectorReservation",
+          "common_mm3": 1.1153071932381213
+        }
+      ]
+    },
+    {
+      "wire": "IB07",
+      "clashes": [
+        {
+          "part": "RequestedBatteryPowerConnectorReservation",
+          "common_mm3": 1.11530726997593
+        }
+      ]
+    },
+    {
+      "wire": "IB08",
+      "clashes": [
+        {
+          "part": "RequestedBatteryPowerConnectorReservation",
+          "common_mm3": 1.1153072501221737
+        }
+      ]
+    },
+    {
+      "wire": "IB09",
+      "clashes": [
+        {
+          "part": "RequestedBatteryPowerConnectorReservation",
+          "common_mm3": 1.11530723294987
+        }
+      ]
+    },
+    {
+      "wire": "IB10",
+      "clashes": [
+        {
+          "part": "RequestedBatteryPowerConnectorReservation",
+          "common_mm3": 0.5576535926703453
+        }
+      ]
+    }
+  ],
+  "wire_pairs": [
+    {
+      "a": "IB01",
+      "b": "IB02",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.05000000000000293
+    },
+    {
+      "a": "IB01",
+      "b": "IB03",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.6999999680779945
+    },
+    {
+      "a": "IB01",
+      "b": "IB04",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.3500000000000014
+    },
+    {
+      "a": "IB01",
+      "b": "IB05",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 2.0000000000000036
+    },
+    {
+      "a": "IB01",
+      "b": "IB06",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 2.6500000000000017
+    },
+    {
+      "a": "IB01",
+      "b": "IB07",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 3.3000000000000034
+    },
+    {
+      "a": "IB01",
+      "b": "IB08",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 3.9499999956294243
+    },
+    {
+      "a": "IB01",
+      "b": "IB09",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 4.600000000000002
+    },
+    {
+      "a": "IB01",
+      "b": "IB10",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 5.250000000000007
+    },
+    {
+      "a": "IB02",
+      "b": "IB03",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.04999984636545341
+    },
+    {
+      "a": "IB02",
+      "b": "IB04",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.6999999999999982
+    },
+    {
+      "a": "IB02",
+      "b": "IB05",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.35
+    },
+    {
+      "a": "IB02",
+      "b": "IB06",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.9999999999999984
+    },
+    {
+      "a": "IB02",
+      "b": "IB07",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 2.65
+    },
+    {
+      "a": "IB02",
+      "b": "IB08",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 3.2999999809774048
+    },
+    {
+      "a": "IB02",
+      "b": "IB09",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 3.9499999999999993
+    },
+    {
+      "a": "IB02",
+      "b": "IB10",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 4.600000000000004
+    },
+    {
+      "a": "IB03",
+      "b": "IB04",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.049999999999998934
+    },
+    {
+      "a": "IB03",
+      "b": "IB05",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.7000000000000008
+    },
+    {
+      "a": "IB03",
+      "b": "IB06",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.3499999999999992
+    },
+    {
+      "a": "IB03",
+      "b": "IB07",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 2.000000000000001
+    },
+    {
+      "a": "IB03",
+      "b": "IB08",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 2.650000000000002
+    },
+    {
+      "a": "IB03",
+      "b": "IB09",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 3.3
+    },
+    {
+      "a": "IB03",
+      "b": "IB10",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 3.9500000000000037
+    },
+    {
+      "a": "IB04",
+      "b": "IB05",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.05000000000000093
+    },
+    {
+      "a": "IB04",
+      "b": "IB06",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.6999999999999993
+    },
+    {
+      "a": "IB04",
+      "b": "IB07",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.350000000000001
+    },
+    {
+      "a": "IB04",
+      "b": "IB08",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.9999999941075468
+    },
+    {
+      "a": "IB04",
+      "b": "IB09",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 2.6499999984150384
+    },
+    {
+      "a": "IB04",
+      "b": "IB10",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 3.2999999984050596
+    },
+    {
+      "a": "IB05",
+      "b": "IB06",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.049999999999998684
+    },
+    {
+      "a": "IB05",
+      "b": "IB07",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.7000000000000002
+    },
+    {
+      "a": "IB05",
+      "b": "IB08",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.349999986527963
+    },
+    {
+      "a": "IB05",
+      "b": "IB09",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.9999999942431732
+    },
+    {
+      "a": "IB05",
+      "b": "IB10",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 2.6499999944545034
+    },
+    {
+      "a": "IB06",
+      "b": "IB07",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.050000000000001266
+    },
+    {
+      "a": "IB06",
+      "b": "IB08",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.6999999877449063
+    },
+    {
+      "a": "IB06",
+      "b": "IB09",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.3499999957213447
+    },
+    {
+      "a": "IB06",
+      "b": "IB10",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.9999999958947319
+    },
+    {
+      "a": "IB07",
+      "b": "IB08",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.04999999640760357
+    },
+    {
+      "a": "IB07",
+      "b": "IB09",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.699999999766655
+    },
+    {
+      "a": "IB07",
+      "b": "IB10",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 1.3499999997059506
+    },
+    {
+      "a": "IB08",
+      "b": "IB09",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.0499999853595657
+    },
+    {
+      "a": "IB08",
+      "b": "IB10",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.7000000000000046
+    },
+    {
+      "a": "IB09",
+      "b": "IB10",
+      "common_mm3": 0.0,
+      "surface_gap_mm": 0.05000000000000515
+    }
+  ],
+  "empty_region_proofs": {
+    "bounds_mm": [
+      -4.800000100000001,
+      -24.742000100000002,
+      -4.802352629455752,
+      4.800000100000001,
+      31.525,
+      4.8012799585086725
+    ],
+    "proofs": [
+      {
+        "part": "ProposedRearHalf",
+        "common_mm3": 0.0
+      },
+      {
+        "part": "ProposedFlangeTray",
+        "common_mm3": 0.0
+      },
+      {
+        "part": "RevisedContinuousSkin",
+        "common_mm3": 0.0
+      },
+      {
+        "part": "BodyInsulatingSleeve",
+        "common_mm3": 1.2600000262500026
+      }
+    ]
+  },
+  "loose_pack_disconnect_alternative": {
+    "translation_mm": [
+      -6,
+      0,
+      0
+    ],
+    "bounds_mm": [
+      -5.05,
+      -20.3,
+      -4.5,
+      -2.95,
+      -16.3,
+      2.5
+    ],
+    "wire_intersections": [],
+    "fixed_intersections": []
+  },
+  "physical_validation": false,
+  "open_gates": [
+    "Final routed candidate MCAD/source refresh",
+    "Actual mating housing exit datum and wire OD received checks",
+    "Pack loose-disconnect actual OEM geometry/installed route",
+    "Other six pack conductors and complete bundle clearance",
+    "Strain relief and service slack during preclosure mating",
+    "Received tool/shank/grip and controlled crimp process"
+  ]
+}

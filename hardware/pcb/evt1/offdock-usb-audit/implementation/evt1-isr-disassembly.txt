@@ -1,0 +1,273 @@
+
+/private/tmp/compass-usb-gate-build/evt1/firmware.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .rtc.text:
+
+Disassembly of section .iram0.text:
+
+403802f8 <dock_detached>:
+403802f8:	1141                	addi	sp,sp,-16
+403802fa:	c606                	sw	ra,12(sp)
+403802fc:	6b80d0ef          	jal	4038d9b4 <vPortEnterCritical>
+40380300:	3ff9                	jal	403802de <pad_off_locked>
+40380302:	3fca3737          	lui	a4,0x3fca3
+40380306:	71072783          	lw	a5,1808(a4) # 3fca3710 <detach_generation>
+4038030a:	0785                	addi	a5,a5,1
+4038030c:	70f72823          	sw	a5,1808(a4)
+40380310:	6d40d0ef          	jal	4038d9e4 <vPortExitCritical>
+40380314:	40b2                	lw	ra,12(sp)
+40380316:	0141                	addi	sp,sp,16
+40380318:	8082                	ret
+
+Disassembly of section .flash.text:
+
+/private/tmp/compass-usb-gate-build/evt1/firmware.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .rtc.text:
+
+Disassembly of section .iram0.text:
+
+403802de <pad_off_locked>:
+403802de:	600437b7          	lui	a5,0x60043
+403802e2:	00078793          	mv	a5,a5
+403802e6:	4f94                	lw	a3,24(a5)
+403802e8:	7771                	lui	a4,0xffffc
+403802ea:	177d                	addi	a4,a4,-1 # ffffbfff <SYSTEM+0x9ff3bfff>
+403802ec:	8f75                	and	a4,a4,a3
+403802ee:	cf98                	sw	a4,24(a5)
+403802f0:	4b98                	lw	a4,16(a5)
+403802f2:	9b6d                	andi	a4,a4,-5
+403802f4:	cb98                	sw	a4,16(a5)
+403802f6:	8082                	ret
+
+Disassembly of section .flash.text:
+
+/private/tmp/compass-usb-gate-build/evt1/firmware.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .rtc.text:
+
+Disassembly of section .iram0.text:
+
+4038d9b4 <vPortEnterCritical>:
+4038d9b4:	1141                	addi	sp,sp,-16
+4038d9b6:	c606                	sw	ra,12(sp)
+4038d9b8:	fd3ff0ef          	jal	4038d98a <xPortSetInterruptMaskFromISR>
+4038d9bc:	3fca47b7          	lui	a5,0x3fca4
+4038d9c0:	9607a703          	lw	a4,-1696(a5) # 3fca3960 <port_uxCriticalNesting>
+4038d9c4:	0705                	addi	a4,a4,1
+4038d9c6:	96e7a023          	sw	a4,-1696(a5)
+4038d9ca:	9607a703          	lw	a4,-1696(a5)
+4038d9ce:	4785                	li	a5,1
+4038d9d0:	00f70563          	beq	a4,a5,4038d9da <vPortEnterCritical+0x26>
+4038d9d4:	40b2                	lw	ra,12(sp)
+4038d9d6:	0141                	addi	sp,sp,16
+4038d9d8:	8082                	ret
+4038d9da:	3fca47b7          	lui	a5,0x3fca4
+4038d9de:	94a7ae23          	sw	a0,-1700(a5) # 3fca395c <port_uxOldInterruptState>
+4038d9e2:	bfcd                	j	4038d9d4 <vPortEnterCritical+0x20>
+
+Disassembly of section .flash.text:
+
+/private/tmp/compass-usb-gate-build/evt1/firmware.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .rtc.text:
+
+Disassembly of section .iram0.text:
+
+4038d9e4 <vPortExitCritical>:
+4038d9e4:	1141                	addi	sp,sp,-16
+4038d9e6:	c606                	sw	ra,12(sp)
+4038d9e8:	3fca47b7          	lui	a5,0x3fca4
+4038d9ec:	9607a783          	lw	a5,-1696(a5) # 3fca3960 <port_uxCriticalNesting>
+4038d9f0:	c39d                	beqz	a5,4038da16 <vPortExitCritical+0x32>
+4038d9f2:	3fca47b7          	lui	a5,0x3fca4
+4038d9f6:	9607a783          	lw	a5,-1696(a5) # 3fca3960 <port_uxCriticalNesting>
+4038d9fa:	cb99                	beqz	a5,4038da10 <vPortExitCritical+0x2c>
+4038d9fc:	3fca47b7          	lui	a5,0x3fca4
+4038da00:	9607a703          	lw	a4,-1696(a5) # 3fca3960 <port_uxCriticalNesting>
+4038da04:	177d                	addi	a4,a4,-1
+4038da06:	96e7a023          	sw	a4,-1696(a5)
+4038da0a:	9607a783          	lw	a5,-1696(a5)
+4038da0e:	c785                	beqz	a5,4038da36 <vPortExitCritical+0x52>
+4038da10:	40b2                	lw	ra,12(sp)
+4038da12:	0141                	addi	sp,sp,16
+4038da14:	8082                	ret
+4038da16:	3c0ed6b7          	lui	a3,0x3c0ed
+4038da1a:	3d868693          	addi	a3,a3,984 # 3c0ed3d8 <_flash_rodata_start+0xd2b8>
+4038da1e:	3c0fa637          	lui	a2,0x3c0fa
+4038da22:	f0c60613          	addi	a2,a2,-244 # 3c0f9f0c <__func__.0>
+4038da26:	26a00593          	li	a1,618
+4038da2a:	3c0ed537          	lui	a0,0x3c0ed
+4038da2e:	3b550513          	addi	a0,a0,949 # 3c0ed3b5 <_flash_rodata_start+0xd295>
+4038da32:	2c0070ef          	jal	40394cf2 <__assert_func>
+4038da36:	3fca47b7          	lui	a5,0x3fca4
+4038da3a:	95c7a503          	lw	a0,-1700(a5) # 3fca395c <port_uxOldInterruptState>
+4038da3e:	f67ff0ef          	jal	4038d9a4 <vPortClearInterruptMaskFromISR>
+4038da42:	b7f9                	j	4038da10 <vPortExitCritical+0x2c>
+
+Disassembly of section .flash.text:
+
+/private/tmp/compass-usb-gate-build/evt1/firmware.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .rtc.text:
+
+Disassembly of section .iram0.text:
+
+4038073c <gpio_intr_service>:
+4038073c:	1141                	addi	sp,sp,-16
+4038073e:	c606                	sw	ra,12(sp)
+40380740:	0b818793          	addi	a5,gp,184 # 3fc9b8b8 <gpio_context>
+40380744:	4b9c                	lw	a5,16(a5)
+40380746:	cb91                	beqz	a5,4038075a <gpio_intr_service+0x1e>
+40380748:	0b81a783          	lw	a5,184(gp) # 3fc9b8b8 <gpio_context>
+4038074c:	439c                	lw	a5,0(a5)
+4038074e:	4fe8                	lw	a0,92(a5)
+40380750:	040007b7          	lui	a5,0x4000
+40380754:	17fd                	addi	a5,a5,-1 # 3ffffff <CSR_UINTSTATUS+0x3fff34e>
+40380756:	8d7d                	and	a0,a0,a5
+40380758:	e501                	bnez	a0,40380760 <gpio_intr_service+0x24>
+4038075a:	40b2                	lw	ra,12(sp)
+4038075c:	0141                	addi	sp,sp,16
+4038075e:	8082                	ret
+40380760:	4581                	li	a1,0
+40380762:	3701                	jal	40380662 <gpio_isr_loop>
+40380764:	bfdd                	j	4038075a <gpio_intr_service+0x1e>
+
+Disassembly of section .flash.text:
+
+/private/tmp/compass-usb-gate-build/evt1/firmware.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .rtc.text:
+
+Disassembly of section .iram0.text:
+
+40380662 <gpio_isr_loop>:
+40380662:	1101                	addi	sp,sp,-32
+40380664:	ce06                	sw	ra,28(sp)
+40380666:	cc22                	sw	s0,24(sp)
+40380668:	ca26                	sw	s1,20(sp)
+4038066a:	c84a                	sw	s2,16(sp)
+4038066c:	c64e                	sw	s3,12(sp)
+4038066e:	c452                	sw	s4,8(sp)
+40380670:	84aa                	mv	s1,a0
+40380672:	892e                	mv	s2,a1
+40380674:	a891                	j	403806c8 <gpio_isr_loop+0x66>
+40380676:	0786                	slli	a5,a5,0x1
+40380678:	477d                	li	a4,31
+4038067a:	8f01                	sub	a4,a4,s0
+4038067c:	00e79733          	sll	a4,a5,a4
+40380680:	0086d7b3          	srl	a5,a3,s0
+40380684:	8fd9                	or	a5,a5,a4
+40380686:	a89d                	j	403806fc <gpio_isr_loop+0x9a>
+40380688:	4a01                	li	s4,0
+4038068a:	0b818793          	addi	a5,gp,184 # 3fc9b8b8 <gpio_context>
+4038068e:	4b9c                	lw	a5,16(a5)
+40380690:	00341713          	slli	a4,s0,0x3
+40380694:	97ba                	add	a5,a5,a4
+40380696:	4398                	lw	a4,0(a5)
+40380698:	c319                	beqz	a4,4038069e <gpio_isr_loop+0x3c>
+4038069a:	43c8                	lw	a0,4(a5)
+4038069c:	9702                	jalr	a4
+4038069e:	020a1563          	bnez	s4,403806c8 <gpio_isr_loop+0x66>
+403806a2:	47fd                	li	a5,31
+403806a4:	0337c263          	blt	a5,s3,403806c8 <gpio_isr_loop+0x66>
+403806a8:	0b81a783          	lw	a5,184(gp) # 3fc9b8b8 <gpio_context>
+403806ac:	4390                	lw	a2,0(a5)
+403806ae:	4705                	li	a4,1
+403806b0:	00871733          	sll	a4,a4,s0
+403806b4:	467c                	lw	a5,76(a2)
+403806b6:	040006b7          	lui	a3,0x4000
+403806ba:	16fd                	addi	a3,a3,-1 # 3ffffff <CSR_UINTSTATUS+0x3fff34e>
+403806bc:	8f75                	and	a4,a4,a3
+403806be:	fc0006b7          	lui	a3,0xfc000
+403806c2:	8ff5                	and	a5,a5,a3
+403806c4:	8fd9                	or	a5,a5,a4
+403806c6:	c67c                	sw	a5,76(a2)
+403806c8:	c0b5                	beqz	s1,4038072c <gpio_isr_loop+0xca>
+403806ca:	8526                	mv	a0,s1
+403806cc:	ffc80097          	auipc	ra,0xffc80
+403806d0:	108080e7          	jalr	264(ra) # 400007d4 <__ffssi2>
+403806d4:	fff50413          	addi	s0,a0,-1
+403806d8:	4785                	li	a5,1
+403806da:	008797b3          	sll	a5,a5,s0
+403806de:	fff7c793          	not	a5,a5
+403806e2:	8cfd                	and	s1,s1,a5
+403806e4:	944a                	add	s0,s0,s2
+403806e6:	89a2                	mv	s3,s0
+403806e8:	0b818793          	addi	a5,gp,184 # 3fc9b8b8 <gpio_context>
+403806ec:	4f94                	lw	a3,24(a5)
+403806ee:	4fdc                	lw	a5,28(a5)
+403806f0:	fe040713          	addi	a4,s0,-32
+403806f4:	f80741e3          	bltz	a4,40380676 <gpio_isr_loop+0x14>
+403806f8:	00e7d7b3          	srl	a5,a5,a4
+403806fc:	8b85                	andi	a5,a5,1
+403806fe:	d7c9                	beqz	a5,40380688 <gpio_isr_loop+0x26>
+40380700:	47fd                	li	a5,31
+40380702:	0337c363          	blt	a5,s3,40380728 <gpio_isr_loop+0xc6>
+40380706:	0b81a783          	lw	a5,184(gp) # 3fc9b8b8 <gpio_context>
+4038070a:	4390                	lw	a2,0(a5)
+4038070c:	4a05                	li	s4,1
+4038070e:	008a1733          	sll	a4,s4,s0
+40380712:	467c                	lw	a5,76(a2)
+40380714:	040006b7          	lui	a3,0x4000
+40380718:	16fd                	addi	a3,a3,-1 # 3ffffff <CSR_UINTSTATUS+0x3fff34e>
+4038071a:	8f75                	and	a4,a4,a3
+4038071c:	fc0006b7          	lui	a3,0xfc000
+40380720:	8ff5                	and	a5,a5,a3
+40380722:	8fd9                	or	a5,a5,a4
+40380724:	c67c                	sw	a5,76(a2)
+40380726:	b795                	j	4038068a <gpio_isr_loop+0x28>
+40380728:	4a05                	li	s4,1
+4038072a:	b785                	j	4038068a <gpio_isr_loop+0x28>
+4038072c:	40f2                	lw	ra,28(sp)
+4038072e:	4462                	lw	s0,24(sp)
+40380730:	44d2                	lw	s1,20(sp)
+40380732:	4942                	lw	s2,16(sp)
+40380734:	49b2                	lw	s3,12(sp)
+40380736:	4a22                	lw	s4,8(sp)
+40380738:	6105                	addi	sp,sp,32
+4038073a:	8082                	ret
+
+Disassembly of section .flash.text:
+
+/private/tmp/compass-usb-gate-build/evt1/firmware.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .rtc.text:
+
+Disassembly of section .iram0.text:
+
+4038d98a <xPortSetInterruptMaskFromISR>:
+4038d98a:	300477f3          	csrrci	a5,mstatus,8
+4038d98e:	600c2737          	lui	a4,0x600c2
+4038d992:	19472503          	lw	a0,404(a4) # 600c2194 <SYSTEM+0x2194>
+4038d996:	4691                	li	a3,4
+4038d998:	18d72a23          	sw	a3,404(a4)
+4038d99c:	8ba1                	andi	a5,a5,8
+4038d99e:	3007a7f3          	csrrs	a5,mstatus,a5
+4038d9a2:	8082                	ret
+
+Disassembly of section .flash.text:
+
+/private/tmp/compass-usb-gate-build/evt1/firmware.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .rtc.text:
+
+Disassembly of section .iram0.text:
+
+4038d9a4 <vPortClearInterruptMaskFromISR>:
+4038d9a4:	600c27b7          	lui	a5,0x600c2
+4038d9a8:	18a7aa23          	sw	a0,404(a5) # 600c2194 <SYSTEM+0x2194>
+4038d9ac:	0001                	nop
+4038d9ae:	0001                	nop
+4038d9b0:	0001                	nop
+4038d9b2:	8082                	ret
+
+Disassembly of section .flash.text:

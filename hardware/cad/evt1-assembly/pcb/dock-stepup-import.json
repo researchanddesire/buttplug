@@ -1,0 +1,1729 @@
+{
+  "source_board_sha256": "9c3a650aaef0999f66966572b4d5fac2bce25a02e54d166a8ab5ef55a3b3996f",
+  "stepup_file": "/home/cad/CompassEVT/workbench/kicadStepUpMod/kicadStepUptools.py",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "objects": [
+    {
+      "name": "PCB_Sketch_draft",
+      "label": "PCB_Sketch_draft",
+      "type": "Sketcher::SketchObject",
+      "visible": true,
+      "parents": [],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        97.075,
+        -122.0,
+        0.0,
+        128.0,
+        -100.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Local_CS_838c",
+      "label": "Local_CS_838c",
+      "type": "PartDesign::CoordinateSystem",
+      "visible": false,
+      "parents": [
+        "Board_838c"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "Pcb_838c",
+      "label": "Pcb_838c",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "Board_Geoms_838c"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -15.462499999999991,
+        -11.0,
+        -1.0,
+        15.462500000000006,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Board_Geoms_838c",
+      "label": "Board_Geoms_838c",
+      "type": "App::Part",
+      "visible": true,
+      "parents": [
+        "Board_838c"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -15.462499999999991,
+        -11.0,
+        -1.0,
+        15.462500000000006,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Origin",
+      "label": "Origin",
+      "type": "App::Origin",
+      "visible": false,
+      "parents": [
+        "Board_Geoms_838c"
+      ]
+    },
+    {
+      "name": "X_Axis",
+      "label": "X-axis",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Y_Axis",
+      "label": "Y-axis",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "Z_Axis",
+      "label": "Z-axis",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane",
+      "label": "XY-plane",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "XZ_Plane",
+      "label": "XZ-plane",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        -1e+100,
+        1e+100,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane",
+      "label": "YZ-plane",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "Origin001",
+      "label": "Origin001",
+      "type": "App::Point",
+      "visible": true,
+      "parents": [
+        "Origin"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Board_838c",
+      "label": "dock-evt1",
+      "type": "App::Part",
+      "visible": true,
+      "parents": [],
+      "solids": 45,
+      "valid": true,
+      "bounds": [
+        -16.037499999999998,
+        -11.0,
+        -1.0,
+        15.462500000000006,
+        11.0,
+        3.31
+      ]
+    },
+    {
+      "name": "Origin002",
+      "label": "Origin004",
+      "type": "App::Origin",
+      "visible": false,
+      "parents": [
+        "Board_838c"
+      ]
+    },
+    {
+      "name": "X_Axis001",
+      "label": "X-axis001",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Y_Axis001",
+      "label": "Y-axis001",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "Z_Axis001",
+      "label": "Z-axis001",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane001",
+      "label": "XY-plane001",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "XZ_Plane001",
+      "label": "XZ-plane001",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        -1e+100,
+        1e+100,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane001",
+      "label": "YZ-plane001",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "Origin003",
+      "label": "Origin003",
+      "type": "App::Point",
+      "visible": true,
+      "parents": [
+        "Origin002"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PCB_Sketch_838c",
+      "label": "PCB_Sketch_838c",
+      "type": "Sketcher::SketchObject",
+      "visible": false,
+      "parents": [
+        "Board_Geoms_838c"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -15.462499999999991,
+        -11.0,
+        0.0,
+        15.462500000000006,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Step_Models_838c",
+      "label": "Step_Models_838c",
+      "type": "App::Part",
+      "visible": true,
+      "parents": [
+        "Board_838c"
+      ],
+      "solids": 44,
+      "valid": true,
+      "bounds": [
+        -16.037499999999998,
+        -4.470000000000001,
+        -0.95,
+        11.712500000000006,
+        5.9,
+        3.31
+      ]
+    },
+    {
+      "name": "Origin004",
+      "label": "Origin007",
+      "type": "App::Origin",
+      "visible": false,
+      "parents": [
+        "Step_Models_838c"
+      ]
+    },
+    {
+      "name": "X_Axis002",
+      "label": "X-axis002",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Y_Axis002",
+      "label": "Y-axis002",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "Z_Axis002",
+      "label": "Z-axis002",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane002",
+      "label": "XY-plane002",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "XZ_Plane002",
+      "label": "XZ-plane002",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        -1e+100,
+        1e+100,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane002",
+      "label": "YZ-plane002",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "Origin005",
+      "label": "Origin006",
+      "type": "App::Point",
+      "visible": true,
+      "parents": [
+        "Origin004"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Top_838c",
+      "label": "Top_838c",
+      "type": "App::Part",
+      "visible": true,
+      "parents": [
+        "Step_Models_838c"
+      ],
+      "solids": 44,
+      "valid": true,
+      "bounds": [
+        -16.037499999999998,
+        -4.470000000000001,
+        -0.95,
+        11.712500000000006,
+        5.9,
+        3.31
+      ]
+    },
+    {
+      "name": "Origin006",
+      "label": "Origin010",
+      "type": "App::Origin",
+      "visible": false,
+      "parents": [
+        "Top_838c"
+      ]
+    },
+    {
+      "name": "X_Axis003",
+      "label": "X-axis003",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin006"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Y_Axis003",
+      "label": "Y-axis003",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin006"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "Z_Axis003",
+      "label": "Z-axis003",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin006"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane003",
+      "label": "XY-plane003",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin006"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "XZ_Plane003",
+      "label": "XZ-plane003",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin006"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        -1e+100,
+        1e+100,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane003",
+      "label": "YZ-plane003",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin006"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "Origin007",
+      "label": "Origin009",
+      "type": "App::Point",
+      "visible": true,
+      "parents": [
+        "Origin006"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Shape",
+      "label": "R93_R_0402_1005Metric_af5230e63374",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "Top_838c"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        8.712500000000006,
+        -2.0,
+        -2.775557561563e-17,
+        9.212500000000006,
+        -1.0,
+        0.35
+      ]
+    },
+    {
+      "name": "Shape001",
+      "label": "R91_R_0402_1005Metric_86dd74673eed",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "Top_838c"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -4.237499999999997,
+        3.25,
+        0.0,
+        -3.237499999999997,
+        3.75,
+        0.35
+      ]
+    },
+    {
+      "name": "Shape002",
+      "label": "C91_C_0603_1608Metric_93b323afbf20",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "Top_838c"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        1.6625000000000056,
+        5.1,
+        0.0,
+        3.2625000000000055,
+        5.9,
+        0.8
+      ]
+    },
+    {
+      "name": "Shape003",
+      "label": "C92_C_0402_1005Metric_c1afaca6baf0",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "Top_838c"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        8.962500000000006,
+        5.25,
+        0.0,
+        9.962500000000006,
+        5.75,
+        0.5
+      ]
+    },
+    {
+      "name": "Shape004",
+      "label": "R92_R_0402_1005Metric_50c091c0b830",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "Top_838c"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -4.237499999999997,
+        -3.75,
+        0.0,
+        -3.237499999999997,
+        -3.25,
+        0.35
+      ]
+    },
+    {
+      "name": "Shape005",
+      "label": "U91_SOT_23_6_e1db68f2283e",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "Top_838c"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -1.4374999999999942,
+        -1.45,
+        0.0,
+        1.3625000000000056,
+        1.45,
+        1.55
+      ]
+    },
+    {
+      "name": "Shape006",
+      "label": "U92_SOT_23_6_91f33dbd69b5",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "Top_838c"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        5.062500000000005,
+        0.55,
+        0.0,
+        7.862500000000006,
+        3.45,
+        1.55
+      ]
+    },
+    {
+      "name": "Part__Feature",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        2.625,
+        -2.875,
+        1.28,
+        2.875,
+        -0.475,
+        1.38
+      ]
+    },
+    {
+      "name": "Part__Feature001",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A001",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        1.125,
+        -2.875,
+        1.28,
+        1.375,
+        -0.475,
+        1.38
+      ]
+    },
+    {
+      "name": "Part__Feature002",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A002",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        0.625,
+        -2.375,
+        1.28,
+        0.875,
+        -0.475,
+        1.38
+      ]
+    },
+    {
+      "name": "Part__Feature003",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A003",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        0.125,
+        -2.375,
+        1.28,
+        0.375,
+        -0.475,
+        1.38
+      ]
+    },
+    {
+      "name": "Part__Feature004",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A004",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        2.625,
+        -2.875,
+        2.08,
+        2.875,
+        -0.475,
+        2.18
+      ]
+    },
+    {
+      "name": "Part__Feature005",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A005",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        1.125,
+        -2.875,
+        2.08,
+        1.375,
+        -0.475,
+        2.18
+      ]
+    },
+    {
+      "name": "Part__Feature006",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A006",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        0.625,
+        -2.375,
+        2.08,
+        0.875,
+        -0.475,
+        2.18
+      ]
+    },
+    {
+      "name": "Part__Feature007",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A007",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        0.125,
+        -2.375,
+        2.08,
+        0.375,
+        -0.475,
+        2.18
+      ]
+    },
+    {
+      "name": "Part__Feature008",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A008",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -3.325,
+        -0.6000000000000001,
+        4.45,
+        3.725,
+        2.99
+      ]
+    },
+    {
+      "name": "Part__Feature009",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A009",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        3.225,
+        3.305,
+        0.0,
+        3.425,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature010",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A010",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        2.975,
+        3.305,
+        0.0,
+        3.175,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature011",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A011",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        2.425,
+        3.305,
+        0.0,
+        2.625,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature012",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A012",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        2.175,
+        3.305,
+        0.0,
+        2.375,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature013",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A013",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        1.6499999999999997,
+        3.305,
+        0.0,
+        1.85,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature014",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A014",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        1.1499999999999997,
+        3.305,
+        0.0,
+        1.35,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature015",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A015",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        0.6499999999999998,
+        3.305,
+        0.0,
+        0.85,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature016",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A016",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        0.14999999999999977,
+        3.305,
+        0.0,
+        0.35,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature017",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A017",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -3.6750000000000003,
+        -0.95,
+        4.47,
+        3.6550000000000002,
+        3.31
+      ]
+    },
+    {
+      "name": "Part__Feature018",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A018",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -2.875,
+        -2.875,
+        1.28,
+        -2.625,
+        -0.475,
+        1.38
+      ]
+    },
+    {
+      "name": "Part__Feature019",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A019",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -1.375,
+        -2.875,
+        1.28,
+        -1.125,
+        -0.475,
+        1.38
+      ]
+    },
+    {
+      "name": "Part__Feature020",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A020",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -0.875,
+        -2.375,
+        1.28,
+        -0.625,
+        -0.475,
+        1.38
+      ]
+    },
+    {
+      "name": "Part__Feature021",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A021",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -0.375,
+        -2.375,
+        1.28,
+        -0.125,
+        -0.475,
+        1.38
+      ]
+    },
+    {
+      "name": "Part__Feature022",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A022",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -2.875,
+        -2.875,
+        2.08,
+        -2.625,
+        -0.475,
+        2.18
+      ]
+    },
+    {
+      "name": "Part__Feature023",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A023",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -1.375,
+        -2.875,
+        2.08,
+        -1.125,
+        -0.475,
+        2.18
+      ]
+    },
+    {
+      "name": "Part__Feature024",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A024",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -0.875,
+        -2.375,
+        2.08,
+        -0.625,
+        -0.475,
+        2.18
+      ]
+    },
+    {
+      "name": "Part__Feature025",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A025",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -0.375,
+        -2.375,
+        2.08,
+        -0.125,
+        -0.475,
+        2.18
+      ]
+    },
+    {
+      "name": "Part__Feature026",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A026",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -4.45,
+        -3.325,
+        -0.6000000000000001,
+        0.0,
+        3.725,
+        2.99
+      ]
+    },
+    {
+      "name": "Part__Feature027",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A027",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -3.425,
+        3.305,
+        0.0,
+        -3.225,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature028",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A028",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -3.175,
+        3.305,
+        0.0,
+        -2.975,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature029",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A029",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -2.625,
+        3.305,
+        0.0,
+        -2.425,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature030",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A030",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -2.375,
+        3.305,
+        0.0,
+        -2.175,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature031",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A031",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -1.85,
+        3.305,
+        0.0,
+        -1.65,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature032",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A032",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -1.35,
+        3.305,
+        0.0,
+        -1.1499999999999997,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature033",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A033",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -0.85,
+        3.305,
+        0.0,
+        -0.6499999999999999,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature034",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A034",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -0.35,
+        3.305,
+        0.0,
+        -0.1499999999999998,
+        4.105,
+        0.12
+      ]
+    },
+    {
+      "name": "Part__Feature035",
+      "label": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A035",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        -4.47,
+        -3.6750000000000003,
+        -0.95,
+        0.0,
+        3.6550000000000002,
+        3.31
+      ]
+    },
+    {
+      "name": "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A",
+      "label": "J91_USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A036_27158c14ec42",
+      "type": "App::Part",
+      "visible": true,
+      "parents": [
+        "Top_838c"
+      ],
+      "solids": 36,
+      "valid": true,
+      "bounds": [
+        -16.037499999999998,
+        -4.470000000000001,
+        -0.95,
+        -8.257499999999997,
+        4.470000000000001,
+        3.31
+      ]
+    },
+    {
+      "name": "Origin016",
+      "label": "Origin023",
+      "type": "App::Origin",
+      "visible": false,
+      "parents": [
+        "USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105_xx_A"
+      ]
+    },
+    {
+      "name": "X_Axis008",
+      "label": "X-axis008",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin016"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Y_Axis008",
+      "label": "Y-axis008",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin016"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "Z_Axis008",
+      "label": "Z-axis008",
+      "type": "App::Line",
+      "visible": true,
+      "parents": [
+        "Origin016"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        -1e+100,
+        0.0,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "XY_Plane008",
+      "label": "XY-plane008",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin016"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100,
+        0.0
+      ]
+    },
+    {
+      "name": "XZ_Plane008",
+      "label": "XZ-plane008",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin016"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        -1e+100,
+        0.0,
+        -1e+100,
+        1e+100,
+        0.0,
+        1e+100
+      ]
+    },
+    {
+      "name": "YZ_Plane008",
+      "label": "YZ-plane008",
+      "type": "App::Plane",
+      "visible": true,
+      "parents": [
+        "Origin016"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        -1e+100,
+        -1e+100,
+        0.0,
+        1e+100,
+        1e+100
+      ]
+    },
+    {
+      "name": "Origin017",
+      "label": "Origin022",
+      "type": "App::Point",
+      "visible": true,
+      "parents": [
+        "Origin016"
+      ],
+      "solids": 0,
+      "valid": true,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Shape007",
+      "label": "R94_R_0402_1005Metric_82dad4778af2",
+      "type": "Part::Feature",
+      "visible": true,
+      "parents": [
+        "Top_838c"
+      ],
+      "solids": 1,
+      "valid": true,
+      "bounds": [
+        11.212500000000006,
+        1.5,
+        0.0,
+        11.712500000000006,
+        2.5,
+        0.35
+      ]
+    }
+  ]
+}

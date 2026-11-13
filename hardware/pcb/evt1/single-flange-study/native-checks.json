@@ -1,0 +1,2790 @@
+{
+  "status": "pass: source/native pad parity and unrouted placement DRC; NOT routed or build release",
+  "board_sha256": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
+  "KiCad_Python_version": "7.0.7",
+  "native_DRC_version": "10.0.8",
+  "source_positions": 35,
+  "new_targets": 4,
+  "models": 39,
+  "physical_source_pad_instances": 159,
+  "new_contact_pad_instances": 4,
+  "unmodified_body_positions": 69,
+  "native_pad_contracts": [
+    {
+      "ref": "D1",
+      "pad": "1",
+      "net": "DOCK_FUSED",
+      "product_XZ_mm": [
+        10.650000000000006,
+        5.0
+      ]
+    },
+    {
+      "ref": "D1",
+      "pad": "2",
+      "net": "VBUS_CHG",
+      "product_XZ_mm": [
+        7.349999999999994,
+        5.0
+      ]
+    },
+    {
+      "ref": "F1",
+      "pad": "1",
+      "net": "DOCK_5V",
+      "product_XZ_mm": [
+        2.5999999999999943,
+        5.0
+      ]
+    },
+    {
+      "ref": "F1",
+      "pad": "2",
+      "net": "DOCK_FUSED",
+      "product_XZ_mm": [
+        5.400000000000006,
+        5.0
+      ]
+    },
+    {
+      "ref": "R75",
+      "pad": "1",
+      "net": "USB_DM_CONTACT",
+      "product_XZ_mm": [
+        -18.290000000000006,
+        3.5
+      ]
+    },
+    {
+      "ref": "R75",
+      "pad": "2",
+      "net": "USB_DM",
+      "product_XZ_mm": [
+        -19.310000000000002,
+        3.5
+      ]
+    },
+    {
+      "ref": "R76",
+      "pad": "1",
+      "net": "USB_DP_CONTACT",
+      "product_XZ_mm": [
+        -18.290000000000006,
+        6.5
+      ]
+    },
+    {
+      "ref": "R76",
+      "pad": "2",
+      "net": "USB_DP",
+      "product_XZ_mm": [
+        -19.310000000000002,
+        6.5
+      ]
+    },
+    {
+      "ref": "U75",
+      "pad": "1",
+      "net": "USB_DM_CONTACT",
+      "product_XZ_mm": [
+        -2.137500000000003,
+        3.049999999999997
+      ]
+    },
+    {
+      "ref": "U75",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        -2.137500000000003,
+        4.0
+      ]
+    },
+    {
+      "ref": "U75",
+      "pad": "3",
+      "net": "USB_DP_CONTACT",
+      "product_XZ_mm": [
+        -2.137500000000003,
+        4.950000000000003
+      ]
+    },
+    {
+      "ref": "U75",
+      "pad": "4",
+      "net": "USB_DP_CONTACT",
+      "product_XZ_mm": [
+        0.13750000000000284,
+        4.950000000000003
+      ]
+    },
+    {
+      "ref": "U75",
+      "pad": "5",
+      "net": "DOCK_5V",
+      "product_XZ_mm": [
+        0.13750000000000284,
+        4.0
+      ]
+    },
+    {
+      "ref": "U75",
+      "pad": "6",
+      "net": "USB_DM_CONTACT",
+      "product_XZ_mm": [
+        0.13750000000000284,
+        3.049999999999997
+      ]
+    },
+    {
+      "ref": "C31",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -32.400000000000006,
+        8.049999999999997
+      ]
+    },
+    {
+      "ref": "C31",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        -32.400000000000006,
+        9.950000000000003
+      ]
+    },
+    {
+      "ref": "C32",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -29.900000000000006,
+        8.325000000000003
+      ]
+    },
+    {
+      "ref": "C32",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        -29.900000000000006,
+        9.674999999999997
+      ]
+    },
+    {
+      "ref": "C33",
+      "pad": "1",
+      "net": "MCU_EN",
+      "product_XZ_mm": [
+        -18.674999999999997,
+        -4.0
+      ]
+    },
+    {
+      "ref": "C33",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        -17.325000000000003,
+        -4.0
+      ]
+    },
+    {
+      "ref": "C34",
+      "pad": "1",
+      "net": "VBAT_ADC",
+      "product_XZ_mm": [
+        12.0,
+        -3.325000000000003
+      ]
+    },
+    {
+      "ref": "C34",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        12.0,
+        -4.674999999999997
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "1",
+      "net": "GND",
+      "product_XZ_mm": [
+        -13.0,
+        -6.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "2",
+      "net": "USB_DM",
+      "product_XZ_mm": [
+        -14.0,
+        -6.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "3",
+      "net": "USB_DP",
+      "product_XZ_mm": [
+        -15.0,
+        -6.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "4",
+      "net": "MCU_EN",
+      "product_XZ_mm": [
+        -16.0,
+        -6.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "5",
+      "net": "BOOT_N",
+      "product_XZ_mm": [
+        -17.0,
+        -6.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "6",
+      "net": "UART_TX",
+      "product_XZ_mm": [
+        -18.0,
+        -6.0
+      ]
+    },
+    {
+      "ref": "R31",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -18.724999999999994,
+        5.0
+      ]
+    },
+    {
+      "ref": "R31",
+      "pad": "2",
+      "net": "MCU_EN",
+      "product_XZ_mm": [
+        -17.275000000000006,
+        5.0
+      ]
+    },
+    {
+      "ref": "R32",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -15.724999999999994,
+        5.0
+      ]
+    },
+    {
+      "ref": "R32",
+      "pad": "2",
+      "net": "STRAP2",
+      "product_XZ_mm": [
+        -14.275000000000006,
+        5.0
+      ]
+    },
+    {
+      "ref": "R33",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -12.724999999999994,
+        5.0
+      ]
+    },
+    {
+      "ref": "R33",
+      "pad": "2",
+      "net": "STRAP8",
+      "product_XZ_mm": [
+        -11.275000000000006,
+        5.0
+      ]
+    },
+    {
+      "ref": "R34",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -18.724999999999994,
+        2.0
+      ]
+    },
+    {
+      "ref": "R34",
+      "pad": "2",
+      "net": "BOOT_N",
+      "product_XZ_mm": [
+        -17.275000000000006,
+        2.0
+      ]
+    },
+    {
+      "ref": "R35",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -15.724999999999994,
+        2.0
+      ]
+    },
+    {
+      "ref": "R35",
+      "pad": "2",
+      "net": "POWER_N",
+      "product_XZ_mm": [
+        -14.275000000000006,
+        2.0
+      ]
+    },
+    {
+      "ref": "R36",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -12.724999999999994,
+        2.0
+      ]
+    },
+    {
+      "ref": "R36",
+      "pad": "2",
+      "net": "MODE_N",
+      "product_XZ_mm": [
+        -11.275000000000006,
+        2.0
+      ]
+    },
+    {
+      "ref": "R37",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -18.724999999999994,
+        -1.0
+      ]
+    },
+    {
+      "ref": "R37",
+      "pad": "2",
+      "net": "I2C_SDA",
+      "product_XZ_mm": [
+        -17.275000000000006,
+        -1.0
+      ]
+    },
+    {
+      "ref": "R38",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -15.724999999999994,
+        -1.0
+      ]
+    },
+    {
+      "ref": "R38",
+      "pad": "2",
+      "net": "I2C_SCL",
+      "product_XZ_mm": [
+        -14.275000000000006,
+        -1.0
+      ]
+    },
+    {
+      "ref": "R39",
+      "pad": "1",
+      "net": "PACK_P",
+      "product_XZ_mm": [
+        12.125,
+        5.0
+      ]
+    },
+    {
+      "ref": "R39",
+      "pad": "2",
+      "net": "VBAT_ADC",
+      "product_XZ_mm": [
+        13.875,
+        5.0
+      ]
+    },
+    {
+      "ref": "R40",
+      "pad": "1",
+      "net": "VBAT_ADC",
+      "product_XZ_mm": [
+        12.125,
+        2.0
+      ]
+    },
+    {
+      "ref": "R40",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        13.875,
+        2.0
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pad": "1",
+      "net": "POWER_SWITCH_N",
+      "product_XZ_mm": [
+        -18.700000000000003,
+        0.0
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        -15.299999999999997,
+        0.0
+      ]
+    },
+    {
+      "ref": "SW2",
+      "pad": "1",
+      "net": "MODE_N",
+      "product_XZ_mm": [
+        -10.700000000000003,
+        0.0
+      ]
+    },
+    {
+      "ref": "SW2",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        -7.299999999999997,
+        0.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "1",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.0,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        -33.2,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "3",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -32.400000000000006,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "4",
+      "net": "unconnected-(U6-NC-Pad4)",
+      "product_XZ_mm": [
+        -31.599999999999994,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "5",
+      "net": "STRAP2",
+      "product_XZ_mm": [
+        -30.799999999999997,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "6",
+      "net": "MODE_N",
+      "product_XZ_mm": [
+        -30.0,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "7",
+      "net": "unconnected-(U6-NC-Pad7)",
+      "product_XZ_mm": [
+        -29.200000000000003,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "8",
+      "net": "MCU_EN",
+      "product_XZ_mm": [
+        -28.400000000000006,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "9",
+      "net": "unconnected-(U6-NC-Pad9)",
+      "product_XZ_mm": [
+        -27.599999999999994,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "10",
+      "net": "unconnected-(U6-NC-Pad10)",
+      "product_XZ_mm": [
+        -26.799999999999997,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "11",
+      "net": "GND",
+      "product_XZ_mm": [
+        -26.0,
+        5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "12",
+      "net": "VBAT_ADC",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        4.799999999999997
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "13",
+      "net": "POWER_N",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        4.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "14",
+      "net": "GND",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        3.200000000000003
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "15",
+      "net": "unconnected-(U6-NC-Pad15)",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        2.4000000000000057
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "16",
+      "net": "TIP_EXC_EN",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        1.5999999999999943
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "17",
+      "net": "unconnected-(U6-NC-Pad17)",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        0.7999999999999972
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "18",
+      "net": "I2C_SDA",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        0.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "19",
+      "net": "I2C_SCL",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        -0.7999999999999972
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "20",
+      "net": "MOTOR_PWM",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        -1.5999999999999943
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "21",
+      "net": "MOTOR_ARM",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        -2.4000000000000057
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "22",
+      "net": "STRAP8",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        -3.200000000000003
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "23",
+      "net": "BOOT_N",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        -4.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "24",
+      "net": "unconnected-(U6-NC-Pad24)",
+      "product_XZ_mm": [
+        -25.099999999999994,
+        -4.799999999999997
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "25",
+      "net": "unconnected-(U6-NC-Pad25)",
+      "product_XZ_mm": [
+        -26.0,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "26",
+      "net": "USB_DM",
+      "product_XZ_mm": [
+        -26.799999999999997,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "27",
+      "net": "USB_DP",
+      "product_XZ_mm": [
+        -27.599999999999994,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "28",
+      "net": "unconnected-(U6-NC-Pad28)",
+      "product_XZ_mm": [
+        -28.400000000000006,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "29",
+      "net": "unconnected-(U6-NC-Pad29)",
+      "product_XZ_mm": [
+        -29.200000000000003,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "30",
+      "net": "DOCK_PRESENT_N",
+      "product_XZ_mm": [
+        -30.0,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "31",
+      "net": "UART_TX",
+      "product_XZ_mm": [
+        -30.799999999999997,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "32",
+      "net": "unconnected-(U6-NC-Pad32)",
+      "product_XZ_mm": [
+        -31.599999999999994,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "33",
+      "net": "unconnected-(U6-NC-Pad33)",
+      "product_XZ_mm": [
+        -32.400000000000006,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "34",
+      "net": "unconnected-(U6-NC-Pad34)",
+      "product_XZ_mm": [
+        -33.2,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "35",
+      "net": "unconnected-(U6-NC-Pad35)",
+      "product_XZ_mm": [
+        -34.0,
+        -5.900000000000006
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "36",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        -4.799999999999997
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "37",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        -4.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "38",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        -3.200000000000003
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "39",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        -2.4000000000000057
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "40",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        -1.5999999999999943
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "41",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        -0.7999999999999972
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "42",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        0.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "43",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        0.7999999999999972
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "44",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        1.5999999999999943
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "45",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        2.4000000000000057
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "46",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        3.200000000000003
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "47",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        4.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "48",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.900000000000006,
+        4.799999999999997
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "product_XZ_mm": [
+        -28.025000000000006,
+        1.9749999999999943
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "product_XZ_mm": [
+        -30.0,
+        1.9749999999999943
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "product_XZ_mm": [
+        -31.974999999999994,
+        1.9749999999999943
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "product_XZ_mm": [
+        -28.025000000000006,
+        0.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "product_XZ_mm": [
+        -30.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "product_XZ_mm": [
+        -31.974999999999994,
+        0.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "product_XZ_mm": [
+        -28.025000000000006,
+        -1.9749999999999943
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "product_XZ_mm": [
+        -30.0,
+        -1.9749999999999943
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "product_XZ_mm": [
+        -31.974999999999994,
+        -1.9749999999999943
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "50",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.95,
+        -5.950000000000003
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "51",
+      "net": "GND",
+      "product_XZ_mm": [
+        -25.049999999999997,
+        -5.950000000000003
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "52",
+      "net": "GND",
+      "product_XZ_mm": [
+        -25.049999999999997,
+        5.950000000000003
+      ]
+    },
+    {
+      "ref": "U6",
+      "pad": "53",
+      "net": "GND",
+      "product_XZ_mm": [
+        -34.95,
+        5.950000000000003
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "1",
+      "net": "GND",
+      "product_XZ_mm": [
+        -9.0,
+        4.5
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "2",
+      "net": "VBUS_CHG",
+      "product_XZ_mm": [
+        -9.0,
+        3.5
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "3",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -9.0,
+        2.5
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "4",
+      "net": "PACK_P",
+      "product_XZ_mm": [
+        -9.0,
+        1.5
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "5",
+      "net": "MOTOR_ARM",
+      "product_XZ_mm": [
+        -9.0,
+        0.5
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "6",
+      "net": "MOTOR_PWM",
+      "product_XZ_mm": [
+        -9.0,
+        -0.5
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "7",
+      "net": "DOCK_PRESENT_N",
+      "product_XZ_mm": [
+        -9.0,
+        -1.5
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "8",
+      "net": "I2C_SDA",
+      "product_XZ_mm": [
+        -9.0,
+        -2.5
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "9",
+      "net": "I2C_SCL",
+      "product_XZ_mm": [
+        -9.0,
+        -3.5
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "10",
+      "net": "TIP_EXC_EN",
+      "product_XZ_mm": [
+        -9.0,
+        -4.5
+      ]
+    },
+    {
+      "ref": "C71",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -1.480000000000004,
+        -9.0
+      ]
+    },
+    {
+      "ref": "C71",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        -0.519999999999996,
+        -9.0
+      ]
+    },
+    {
+      "ref": "D71",
+      "pad": "1",
+      "net": "POWER_SWITCH_N",
+      "product_XZ_mm": [
+        5.950000000000003,
+        -6.0
+      ]
+    },
+    {
+      "ref": "D71",
+      "pad": "2",
+      "net": "POWER_N",
+      "product_XZ_mm": [
+        8.049999999999997,
+        -6.0
+      ]
+    },
+    {
+      "ref": "D72",
+      "pad": "1",
+      "net": "DOCK_PRESENT_N",
+      "product_XZ_mm": [
+        2.950000000000003,
+        0.0
+      ]
+    },
+    {
+      "ref": "D72",
+      "pad": "2",
+      "net": "POWER_N",
+      "product_XZ_mm": [
+        5.049999999999997,
+        0.0
+      ]
+    },
+    {
+      "ref": "D73",
+      "pad": "1",
+      "net": "MODE_N",
+      "product_XZ_mm": [
+        2.950000000000003,
+        -3.0
+      ]
+    },
+    {
+      "ref": "D73",
+      "pad": "2",
+      "net": "BOOT_N",
+      "product_XZ_mm": [
+        5.049999999999997,
+        -3.0
+      ]
+    },
+    {
+      "ref": "R71",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        1.4899999999999949,
+        -7.0
+      ]
+    },
+    {
+      "ref": "R71",
+      "pad": "2",
+      "net": "POWER_SWITCH_N",
+      "product_XZ_mm": [
+        2.510000000000005,
+        -7.0
+      ]
+    },
+    {
+      "ref": "U71",
+      "pad": "1",
+      "net": "MCU_EN",
+      "product_XZ_mm": [
+        -1.2750000000000057,
+        -6.5
+      ]
+    },
+    {
+      "ref": "U71",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        -1.2999999999999972,
+        -6.0
+      ]
+    },
+    {
+      "ref": "U71",
+      "pad": "3",
+      "net": "POWER_SWITCH_N",
+      "product_XZ_mm": [
+        -1.2999999999999972,
+        -5.5
+      ]
+    },
+    {
+      "ref": "U71",
+      "pad": "4",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -0.7000000000000028,
+        -5.5
+      ]
+    },
+    {
+      "ref": "U71",
+      "pad": "5",
+      "net": "GND",
+      "product_XZ_mm": [
+        -0.7000000000000028,
+        -6.0
+      ]
+    },
+    {
+      "ref": "U71",
+      "pad": "6",
+      "net": "GND",
+      "product_XZ_mm": [
+        -0.7000000000000028,
+        -6.5
+      ]
+    },
+    {
+      "ref": "C81",
+      "pad": "1",
+      "net": "MAG_C1",
+      "product_XZ_mm": [
+        32.52000000000001,
+        3.0
+      ]
+    },
+    {
+      "ref": "C81",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        33.47999999999999,
+        3.0
+      ]
+    },
+    {
+      "ref": "C82",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        35.52000000000001,
+        0.0
+      ]
+    },
+    {
+      "ref": "C82",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        36.47999999999999,
+        0.0
+      ]
+    },
+    {
+      "ref": "C83",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        30.0,
+        0.9500000000000028
+      ]
+    },
+    {
+      "ref": "C83",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        30.0,
+        -0.9500000000000028
+      ]
+    },
+    {
+      "ref": "C84",
+      "pad": "1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        35.52000000000001,
+        -3.0
+      ]
+    },
+    {
+      "ref": "C84",
+      "pad": "2",
+      "net": "GND",
+      "product_XZ_mm": [
+        36.47999999999999,
+        -3.0
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "1",
+      "net": "I2C_SCL",
+      "product_XZ_mm": [
+        32.23750000000001,
+        -0.75
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "2",
+      "net": "3V3",
+      "product_XZ_mm": [
+        32.23750000000001,
+        -0.25
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "3",
+      "net": "3V3",
+      "product_XZ_mm": [
+        32.23750000000001,
+        0.25
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "4",
+      "net": "I2C_SDA",
+      "product_XZ_mm": [
+        32.23750000000001,
+        0.75
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "5",
+      "net": "MAG_C1",
+      "product_XZ_mm": [
+        32.75,
+        0.7625000000000028
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "6",
+      "net": "GND",
+      "product_XZ_mm": [
+        33.25,
+        0.7625000000000028
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "7",
+      "net": "unconnected-(U81-INT_MAG-Pad7)",
+      "product_XZ_mm": [
+        33.76249999999999,
+        0.75
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "8",
+      "net": "GND",
+      "product_XZ_mm": [
+        33.76249999999999,
+        0.25
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "9",
+      "net": "3V3",
+      "product_XZ_mm": [
+        33.76249999999999,
+        -0.25
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "10",
+      "net": "3V3",
+      "product_XZ_mm": [
+        33.76249999999999,
+        -0.75
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "11",
+      "net": "unconnected-(U81-INT2_XL-Pad11)",
+      "product_XZ_mm": [
+        33.25,
+        -0.7625000000000028
+      ]
+    },
+    {
+      "ref": "U81",
+      "pad": "12",
+      "net": "unconnected-(U81-INT1_XL-Pad12)",
+      "product_XZ_mm": [
+        32.75,
+        -0.7625000000000028
+      ]
+    },
+    {
+      "ref": "CT1",
+      "pad": "1",
+      "net": "GND",
+      "product_XZ_mm": [
+        -16.0,
+        10.0
+      ]
+    },
+    {
+      "ref": "CT2",
+      "pad": "1",
+      "net": "USB_DM_CONTACT",
+      "product_XZ_mm": [
+        -10.0,
+        10.0
+      ]
+    },
+    {
+      "ref": "CT3",
+      "pad": "1",
+      "net": "USB_DP_CONTACT",
+      "product_XZ_mm": [
+        -4.0,
+        10.0
+      ]
+    },
+    {
+      "ref": "CT4",
+      "pad": "1",
+      "net": "DOCK_5V",
+      "product_XZ_mm": [
+        2.0,
+        10.0
+      ]
+    }
+  ],
+  "model_coverage": [
+    {
+      "ref": "D1",
+      "model": "Selected.3dshapes/D_SOD-123.step",
+      "sha256": "4413b86c5a559a63b29f1f53fd235ffe38dd235d3c16750a8a78e855c9a802ef",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "F1",
+      "model": "Selected.3dshapes/Fuse_1206_3216Metric.step",
+      "sha256": "5e6dcbe286696143d35a8ea37d91eef4b54ff3d1bd7c2c2b4dedda83d3f8e203",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R75",
+      "model": "Selected.3dshapes/R_0402_1005Metric.step",
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R76",
+      "model": "Selected.3dshapes/R_0402_1005Metric.step",
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "U75",
+      "model": "Selected.3dshapes/SOT-23-6.step",
+      "sha256": "9491de18305b16fe125ee3d603109a29edd837d50d22305b6f929886492ce755",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "C31",
+      "model": "Selected.3dshapes/C_0805_2012Metric.step",
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "C32",
+      "model": "Selected.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "C33",
+      "model": "Selected.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "C34",
+      "model": "Selected.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "J4",
+      "model": "Selected.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step",
+      "sha256": "470db6ec39ba9d16e8d1dde845be2fd86ecf9e8280643d8e226b3ef821c9716e",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R31",
+      "model": "Selected.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R32",
+      "model": "Selected.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R33",
+      "model": "Selected.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R34",
+      "model": "Selected.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R35",
+      "model": "Selected.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R36",
+      "model": "Selected.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R37",
+      "model": "Selected.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R38",
+      "model": "Selected.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R39",
+      "model": "Selected.3dshapes/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R40",
+      "model": "Selected.3dshapes/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "SW1",
+      "model": "Selected.3dshapes/SW_SPST_B3U-1000P.step",
+      "sha256": "587521eeb9e74a89206aa30ba175b56ce2e6906ce77ce09af076fdddba9bd5d6",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "SW2",
+      "model": "Selected.3dshapes/SW_SPST_B3U-1000P.step",
+      "sha256": "587521eeb9e74a89206aa30ba175b56ce2e6906ce77ce09af076fdddba9bd5d6",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "U6",
+      "model": "Selected.3dshapes/ESP32-C3-MINI-1-OEM.step",
+      "sha256": "a4ed075447476cb39cbee4f5889f163ff8abae111efcf27c3559b8dafa1085aa",
+      "model_class": "OEM selected module"
+    },
+    {
+      "ref": "J7",
+      "model": "Selected.3dshapes/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.step",
+      "sha256": "ff33172378d63a6a8e51e18f421337f1e5972a2c5b026c0f217347e4be9be191",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "C71",
+      "model": "Selected.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "D71",
+      "model": "Selected.3dshapes/D_SOD-323.step",
+      "sha256": "6c72b6baeee0baa9075c149ba2e76f711328315273e81580dbd57fb36a86c1e3",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "D72",
+      "model": "Selected.3dshapes/D_SOD-323.step",
+      "sha256": "6c72b6baeee0baa9075c149ba2e76f711328315273e81580dbd57fb36a86c1e3",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "D73",
+      "model": "Selected.3dshapes/D_SOD-323.step",
+      "sha256": "6c72b6baeee0baa9075c149ba2e76f711328315273e81580dbd57fb36a86c1e3",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "R71",
+      "model": "Selected.3dshapes/R_0402_1005Metric.step",
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "U71",
+      "model": "Selected.3dshapes/USON-6_1x1.45mm_P0.5mm.step",
+      "sha256": "61bf9ccef024ce8a71b4968776fbfe67acaca641481762d12dab3c0a21a12213",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "C81",
+      "model": "Selected.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "C82",
+      "model": "Selected.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "C83",
+      "model": "Selected.3dshapes/C_0805_2012Metric.step",
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "C84",
+      "model": "Selected.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "U81",
+      "model": "Selected.3dshapes/LGA-12_2x2mm_P0.5mm.step",
+      "sha256": "5e6c16287491528f89c09590e0d5dace14debf478226f74b45504eb906119145",
+      "model_class": "KiCad nominal selected package family; selected maximum dimensions separately retained"
+    },
+    {
+      "ref": "CT1",
+      "model": "Selected.3dshapes/MillMax1946.step",
+      "sha256": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+      "model_class": "primary drawing reconstruction; undimensioned chamfer omitted"
+    },
+    {
+      "ref": "CT2",
+      "model": "Selected.3dshapes/MillMax1946.step",
+      "sha256": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+      "model_class": "primary drawing reconstruction; undimensioned chamfer omitted"
+    },
+    {
+      "ref": "CT3",
+      "model": "Selected.3dshapes/MillMax1946.step",
+      "sha256": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+      "model_class": "primary drawing reconstruction; undimensioned chamfer omitted"
+    },
+    {
+      "ref": "CT4",
+      "model": "Selected.3dshapes/MillMax1946.step",
+      "sha256": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+      "model_class": "primary drawing reconstruction; undimensioned chamfer omitted"
+    }
+  ],
+  "component_pack_growth_checks": [
+    {
+      "ref": "D1",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        7.549999999999997,
+        4.049999999999997,
+        10.450000000000003,
+        5.950000000000003
+      ],
+      "conservative_height_mm": 1.35,
+      "over_requested_pack_growth_projection": true,
+      "gap_to_growth_mm": 2.002
+    },
+    {
+      "ref": "F1",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        2.3499999999999943,
+        4.150000000000006,
+        5.650000000000006,
+        5.849999999999994
+      ],
+      "conservative_height_mm": 0.75,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R75",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -19.375,
+        3.180000000000007,
+        -18.224999999999994,
+        3.819999999999993
+      ],
+      "conservative_height_mm": 0.6,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R76",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -19.375,
+        6.180000000000007,
+        -18.224999999999994,
+        6.819999999999993
+      ],
+      "conservative_height_mm": 0.6,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "U75",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -1.8499999999999943,
+        2.5,
+        -0.15000000000000568,
+        5.5
+      ],
+      "conservative_height_mm": 1.45,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "C31",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -33.05,
+        7.974999999999994,
+        -31.75,
+        10.025000000000006
+      ],
+      "conservative_height_mm": 1.35,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "C32",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -30.325000000000003,
+        8.174999999999997,
+        -29.474999999999994,
+        9.825000000000003
+      ],
+      "conservative_height_mm": 0.9,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "C33",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -18.825000000000003,
+        -4.424999999999997,
+        -17.174999999999997,
+        -3.575000000000003
+      ],
+      "conservative_height_mm": 0.9,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "C34",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        11.575000000000003,
+        -4.825000000000003,
+        12.424999999999997,
+        -3.174999999999997
+      ],
+      "conservative_height_mm": 0.9,
+      "over_requested_pack_growth_projection": true,
+      "gap_to_growth_mm": 2.452
+    },
+    {
+      "ref": "J4",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -19.549999999999997,
+        -10.625,
+        -11.450000000000003,
+        -6.275000000000006
+      ],
+      "conservative_height_mm": 2.95,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R31",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -18.825000000000003,
+        4.549999999999997,
+        -17.174999999999997,
+        5.450000000000003
+      ],
+      "conservative_height_mm": 0.55,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R32",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -15.825000000000003,
+        4.549999999999997,
+        -14.174999999999997,
+        5.450000000000003
+      ],
+      "conservative_height_mm": 0.55,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R33",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -12.825000000000003,
+        4.549999999999997,
+        -11.174999999999997,
+        5.450000000000003
+      ],
+      "conservative_height_mm": 0.55,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R34",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -18.825000000000003,
+        1.5499999999999972,
+        -17.174999999999997,
+        2.450000000000003
+      ],
+      "conservative_height_mm": 0.55,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R35",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -15.825000000000003,
+        1.5499999999999972,
+        -14.174999999999997,
+        2.450000000000003
+      ],
+      "conservative_height_mm": 0.55,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R36",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -12.825000000000003,
+        1.5499999999999972,
+        -11.174999999999997,
+        2.450000000000003
+      ],
+      "conservative_height_mm": 0.55,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R37",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -18.825000000000003,
+        -1.4500000000000028,
+        -17.174999999999997,
+        -0.5499999999999972
+      ],
+      "conservative_height_mm": 0.55,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R38",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -15.825000000000003,
+        -1.4500000000000028,
+        -14.174999999999997,
+        -0.5499999999999972
+      ],
+      "conservative_height_mm": 0.55,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R39",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        11.974999999999994,
+        4.349999999999994,
+        14.025000000000006,
+        5.650000000000006
+      ],
+      "conservative_height_mm": 0.55,
+      "over_requested_pack_growth_projection": true,
+      "gap_to_growth_mm": 2.8019999999999996
+    },
+    {
+      "ref": "R40",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        11.974999999999994,
+        1.3499999999999943,
+        14.025000000000006,
+        2.6500000000000057
+      ],
+      "conservative_height_mm": 0.55,
+      "over_requested_pack_growth_projection": true,
+      "gap_to_growth_mm": 2.8019999999999996
+    },
+    {
+      "ref": "SW1",
+      "side": "F",
+      "Fab_bounds_productXZ_mm": [
+        -18.549999999999997,
+        -1.2999999999999972,
+        -15.450000000000003,
+        1.2999999999999972
+      ],
+      "conservative_height_mm": 1.75,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "SW2",
+      "side": "F",
+      "Fab_bounds_productXZ_mm": [
+        -10.549999999999997,
+        -1.2999999999999972,
+        -7.450000000000003,
+        1.2999999999999972
+      ],
+      "conservative_height_mm": 1.75,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "U6",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -41.05,
+        -6.650000000000006,
+        -24.349999999999994,
+        6.650000000000006
+      ],
+      "conservative_height_mm": 2.55,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "J7",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -8.724999999999994,
+        -6.049999999999997,
+        -4.375,
+        6.049999999999997
+      ],
+      "conservative_height_mm": 3.2,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "C71",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -1.5499999999999972,
+        -9.299999999999997,
+        -0.45000000000000284,
+        -8.700000000000003
+      ],
+      "conservative_height_mm": 0.6,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "D71",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        6.049999999999997,
+        -6.75,
+        7.950000000000003,
+        -5.25
+      ],
+      "conservative_height_mm": 1.25,
+      "over_requested_pack_growth_projection": true,
+      "gap_to_growth_mm": 2.102
+    },
+    {
+      "ref": "D72",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        3.049999999999997,
+        -0.75,
+        4.950000000000003,
+        0.75
+      ],
+      "conservative_height_mm": 1.25,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "D73",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        3.049999999999997,
+        -3.75,
+        4.950000000000003,
+        -2.25
+      ],
+      "conservative_height_mm": 1.25,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "R71",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        1.4249999999999972,
+        -7.319999999999993,
+        2.575000000000003,
+        -6.680000000000007
+      ],
+      "conservative_height_mm": 0.6,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "U71",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        -1.5499999999999972,
+        -6.775000000000006,
+        -0.45000000000000284,
+        -5.224999999999994
+      ],
+      "conservative_height_mm": 0.65,
+      "over_requested_pack_growth_projection": false,
+      "gap_to_growth_mm": null
+    },
+    {
+      "ref": "C81",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        32.44999999999999,
+        2.700000000000003,
+        33.55000000000001,
+        3.299999999999997
+      ],
+      "conservative_height_mm": 0.6,
+      "over_requested_pack_growth_projection": true,
+      "gap_to_growth_mm": 2.752
+    },
+    {
+      "ref": "C82",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        35.44999999999999,
+        -0.29999999999999716,
+        36.55000000000001,
+        0.29999999999999716
+      ],
+      "conservative_height_mm": 0.6,
+      "over_requested_pack_growth_projection": true,
+      "gap_to_growth_mm": 2.752
+    },
+    {
+      "ref": "C83",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        29.32499999999999,
+        -1.0499999999999972,
+        30.67500000000001,
+        1.0499999999999972
+      ],
+      "conservative_height_mm": 1.45,
+      "over_requested_pack_growth_projection": true,
+      "gap_to_growth_mm": 1.902
+    },
+    {
+      "ref": "C84",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        35.44999999999999,
+        -3.299999999999997,
+        36.55000000000001,
+        -2.700000000000003
+      ],
+      "conservative_height_mm": 0.6,
+      "over_requested_pack_growth_projection": true,
+      "gap_to_growth_mm": 2.752
+    },
+    {
+      "ref": "U81",
+      "side": "B",
+      "Fab_bounds_productXZ_mm": [
+        31.94999999999999,
+        -1.0499999999999972,
+        34.05000000000001,
+        1.0499999999999972
+      ],
+      "conservative_height_mm": 1.1,
+      "over_requested_pack_growth_projection": true,
+      "gap_to_growth_mm": 2.252
+    }
+  ],
+  "placement_DRC_violations": 0,
+  "expected_unconnected_items": 120,
+  "source_invariant_sha256": {
+    "parts-selection.json": "41047c4a6a6c5f2a1de48918d1fa903048433dcbaa6c83ddff48a617731d1da2",
+    "system-native.xml": "3c0e8899ac864f9a6f12f18e9f3bce4b03cc2555a41cee5c8c98f17b78b22db5",
+    "body/body-evt1.kicad_pcb": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367",
+    "body/mcad.json": "52830d9f24a8a5a5a7f12e78980a3e8ed60ac03704f2e190ad55fd8c926f40ef",
+    "body/body-native.xml": "c3d8482b08b67be70ab82b612c3b99c2ac6012e765f1fe9419d0106f707c945a",
+    "flange/flange-evt1.kicad_pcb": "adafe46de7b49daa22fa35dc287eec4d7b18b601016ea3dcd0380f36db6c6e9e",
+    "flange/mcad.json": "ebaf1c9ccb64412196025017f66e0d9156ca19644f9d1bb74d15d8da5b2d384e",
+    "flange/flange-native.xml": "9c0d169c366faefc82ea75a587081153268920bf3501967db7871bdeef5ace94",
+    "sensor/sensor-evt1.kicad_pcb": "af9baeb350e0343d6b3ee8a276ed54d8b96792c8363042612a1d7c9f46e7b8b2",
+    "sensor/mcad.json": "1553901e07f2b111fca114540c28d6968ec50a134a221363a197f506fb3612be",
+    "sensor/sensor-native.xml": "3ac68f835b2828d53407a89dad6a772609c62e3e35535b7a43ecfbfc78ffe4d4"
+  },
+  "reports_sha256": {
+    "placement-drc.json": "05e9e6d9bcf06ea970877f15441dcf1eedf664dcdce79a4dd6de38931e3acde5",
+    "placement.json": "6f6da7aa2690d0f742debd251433c22f4b21f9521ebadaa564dd699e50cd97d8",
+    "footprint-provenance.json": "c1c14a9abddf1c8e6b4d44f5e46ca1514b38666d158ff5382f237196a6415a69",
+    "native-step-pose-checks.json": "d47caaaddc6d7132b4459ed5d707bf6b2297644a24cfaf91bfb749c6c65af450",
+    "mcad.json": "8dda2eaf21f807c8db826f6e73ade89361c89d9588d606d94cbf8a227998c84d",
+    "OEM-module-pose-checks.json": "66aa35340937f459624e3c361644de35873900b17dbeffe7e710c5ad91e53321"
+  },
+  "RF_avoidable_native_copper_checks": [
+    {
+      "ref": "CT1",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 18.000000000000007
+    },
+    {
+      "ref": "CT4",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 36.00000000000001
+    },
+    {
+      "ref": "SW2",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 24.449999999999996
+    },
+    {
+      "ref": "SW2",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 27.85
+    },
+    {
+      "ref": "SW1",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 16.449999999999996
+    },
+    {
+      "ref": "SW1",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 19.85
+    },
+    {
+      "ref": "CT3",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 30.000000000000007
+    },
+    {
+      "ref": "CT2",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 24.000000000000007
+    },
+    {
+      "ref": "U71",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 34.1
+    },
+    {
+      "ref": "U71",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 34.1
+    },
+    {
+      "ref": "U71",
+      "pad": "3",
+      "horizontal_gap_from_antenna_edge_mm": 34.1
+    },
+    {
+      "ref": "U71",
+      "pad": "4",
+      "horizontal_gap_from_antenna_edge_mm": 34.699999999999996
+    },
+    {
+      "ref": "U71",
+      "pad": "5",
+      "horizontal_gap_from_antenna_edge_mm": 34.699999999999996
+    },
+    {
+      "ref": "U71",
+      "pad": "6",
+      "horizontal_gap_from_antenna_edge_mm": 34.699999999999996
+    },
+    {
+      "ref": "F1",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 37.574999999999996
+    },
+    {
+      "ref": "F1",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 40.37500000000001
+    },
+    {
+      "ref": "R36",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 22.6
+    },
+    {
+      "ref": "R36",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 24.050000000000004
+    },
+    {
+      "ref": "R75",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 17.04
+    },
+    {
+      "ref": "R75",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 16.020000000000003
+    },
+    {
+      "ref": "D71",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 41.25000000000001
+    },
+    {
+      "ref": "D71",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 43.35
+    },
+    {
+      "ref": "U75",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 32.800000000000004
+    },
+    {
+      "ref": "U75",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 32.800000000000004
+    },
+    {
+      "ref": "U75",
+      "pad": "3",
+      "horizontal_gap_from_antenna_edge_mm": 32.800000000000004
+    },
+    {
+      "ref": "U75",
+      "pad": "4",
+      "horizontal_gap_from_antenna_edge_mm": 35.074999999999996
+    },
+    {
+      "ref": "U75",
+      "pad": "5",
+      "horizontal_gap_from_antenna_edge_mm": 35.074999999999996
+    },
+    {
+      "ref": "U75",
+      "pad": "6",
+      "horizontal_gap_from_antenna_edge_mm": 35.074999999999996
+    },
+    {
+      "ref": "R33",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 22.6
+    },
+    {
+      "ref": "R33",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 24.050000000000004
+    },
+    {
+      "ref": "J4",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 22.300000000000004
+    },
+    {
+      "ref": "J4",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 21.300000000000004
+    },
+    {
+      "ref": "J4",
+      "pad": "3",
+      "horizontal_gap_from_antenna_edge_mm": 20.300000000000004
+    },
+    {
+      "ref": "J4",
+      "pad": "4",
+      "horizontal_gap_from_antenna_edge_mm": 19.300000000000004
+    },
+    {
+      "ref": "J4",
+      "pad": "5",
+      "horizontal_gap_from_antenna_edge_mm": 18.300000000000004
+    },
+    {
+      "ref": "J4",
+      "pad": "6",
+      "horizontal_gap_from_antenna_edge_mm": 17.300000000000004
+    },
+    {
+      "ref": "J4",
+      "pad": "MP",
+      "horizontal_gap_from_antenna_edge_mm": 23.300000000000004
+    },
+    {
+      "ref": "J4",
+      "pad": "MP",
+      "horizontal_gap_from_antenna_edge_mm": 15.699999999999996
+    },
+    {
+      "ref": "C71",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 33.839999999999996
+    },
+    {
+      "ref": "C71",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 34.800000000000004
+    },
+    {
+      "ref": "C84",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 70.84
+    },
+    {
+      "ref": "C84",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 71.79999999999998
+    },
+    {
+      "ref": "C83",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 64.875
+    },
+    {
+      "ref": "C83",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 64.875
+    },
+    {
+      "ref": "U81",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 67.65
+    },
+    {
+      "ref": "U81",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 67.65
+    },
+    {
+      "ref": "U81",
+      "pad": "3",
+      "horizontal_gap_from_antenna_edge_mm": 67.65
+    },
+    {
+      "ref": "U81",
+      "pad": "4",
+      "horizontal_gap_from_antenna_edge_mm": 67.65
+    },
+    {
+      "ref": "U81",
+      "pad": "5",
+      "horizontal_gap_from_antenna_edge_mm": 68.17499999999998
+    },
+    {
+      "ref": "U81",
+      "pad": "6",
+      "horizontal_gap_from_antenna_edge_mm": 68.67499999999998
+    },
+    {
+      "ref": "U81",
+      "pad": "7",
+      "horizontal_gap_from_antenna_edge_mm": 69.17499999999998
+    },
+    {
+      "ref": "U81",
+      "pad": "8",
+      "horizontal_gap_from_antenna_edge_mm": 69.17499999999998
+    },
+    {
+      "ref": "U81",
+      "pad": "9",
+      "horizontal_gap_from_antenna_edge_mm": 69.17499999999998
+    },
+    {
+      "ref": "U81",
+      "pad": "10",
+      "horizontal_gap_from_antenna_edge_mm": 69.17499999999998
+    },
+    {
+      "ref": "U81",
+      "pad": "11",
+      "horizontal_gap_from_antenna_edge_mm": 68.67499999999998
+    },
+    {
+      "ref": "U81",
+      "pad": "12",
+      "horizontal_gap_from_antenna_edge_mm": 68.17499999999998
+    },
+    {
+      "ref": "R31",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 16.6
+    },
+    {
+      "ref": "R31",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 18.050000000000004
+    },
+    {
+      "ref": "C34",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 47.199999999999996
+    },
+    {
+      "ref": "C34",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 47.199999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 25.824999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 25.824999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "3",
+      "horizontal_gap_from_antenna_edge_mm": 25.824999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "4",
+      "horizontal_gap_from_antenna_edge_mm": 25.824999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "5",
+      "horizontal_gap_from_antenna_edge_mm": 25.824999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "6",
+      "horizontal_gap_from_antenna_edge_mm": 25.824999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "7",
+      "horizontal_gap_from_antenna_edge_mm": 25.824999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "8",
+      "horizontal_gap_from_antenna_edge_mm": 25.824999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "9",
+      "horizontal_gap_from_antenna_edge_mm": 25.824999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "10",
+      "horizontal_gap_from_antenna_edge_mm": 25.824999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "MP",
+      "horizontal_gap_from_antenna_edge_mm": 29.574999999999996
+    },
+    {
+      "ref": "J7",
+      "pad": "MP",
+      "horizontal_gap_from_antenna_edge_mm": 29.574999999999996
+    },
+    {
+      "ref": "D1",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 45.800000000000004
+    },
+    {
+      "ref": "D1",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 42.50000000000001
+    },
+    {
+      "ref": "R76",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 17.04
+    },
+    {
+      "ref": "R76",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 16.020000000000003
+    },
+    {
+      "ref": "R71",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 36.82
+    },
+    {
+      "ref": "R71",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 37.839999999999996
+    },
+    {
+      "ref": "D73",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 38.25000000000001
+    },
+    {
+      "ref": "D73",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 40.35
+    },
+    {
+      "ref": "C33",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 16.6
+    },
+    {
+      "ref": "C33",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 17.949999999999996
+    },
+    {
+      "ref": "R37",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 16.6
+    },
+    {
+      "ref": "R37",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 18.050000000000004
+    },
+    {
+      "ref": "R39",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 47.4
+    },
+    {
+      "ref": "R39",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 49.15
+    },
+    {
+      "ref": "D72",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 38.25000000000001
+    },
+    {
+      "ref": "D72",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 40.35
+    },
+    {
+      "ref": "R38",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 19.6
+    },
+    {
+      "ref": "R38",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 21.050000000000004
+    },
+    {
+      "ref": "R40",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 47.4
+    },
+    {
+      "ref": "R40",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 49.15
+    },
+    {
+      "ref": "R32",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 19.6
+    },
+    {
+      "ref": "R32",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 21.050000000000004
+    },
+    {
+      "ref": "R35",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 19.6
+    },
+    {
+      "ref": "R35",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 21.050000000000004
+    },
+    {
+      "ref": "R34",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 16.6
+    },
+    {
+      "ref": "R34",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 18.050000000000004
+    },
+    {
+      "ref": "C82",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 70.84
+    },
+    {
+      "ref": "C82",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 71.79999999999998
+    },
+    {
+      "ref": "C81",
+      "pad": "1",
+      "horizontal_gap_from_antenna_edge_mm": 67.84
+    },
+    {
+      "ref": "C81",
+      "pad": "2",
+      "horizontal_gap_from_antenna_edge_mm": 68.79999999999998
+    }
+  ],
+  "near_pin_RF_exceptions": [
+    "C31",
+    "C32"
+  ],
+  "RF_mounting_hardware_and_housing_acceptance": false,
+  "source_board_or_schematic_modified": false,
+  "RF_magnetic_mechanical_or_process_qualification": false,
+  "fabrication_ready": false,
+  "all_local_source_sha256": {
+    "FinishedPCB_local.step": "a29bc30bc17893723fe0836699fb077f570896cee8fa1a0478d594afe0a51bc2",
+    "NativeKiCadPlacement.step": "fe4d0748f65a3b8a8315af29571fd62619e271de76000dd17ca236719bb44fdc",
+    "OEM-module-inspection.json": "83e0d41bace5d2e9147ec64f1f1be8f9589e3171aa347d89e35780c608328898",
+    "OEM-module-pose-checks.json": "66aa35340937f459624e3c361644de35873900b17dbeffe7e710c5ad91e53321",
+    "README.md": "09dd7958b9c7e6df9fca2533477c1bfc79e8adcf00bd7a688c7fed32fc8ed40e",
+    "Selected.3dshapes/C_0402_1005Metric.step": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+    "Selected.3dshapes/C_0603_1608Metric.step": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+    "Selected.3dshapes/C_0805_2012Metric.step": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "Selected.3dshapes/D_SOD-123.step": "4413b86c5a559a63b29f1f53fd235ffe38dd235d3c16750a8a78e855c9a802ef",
+    "Selected.3dshapes/D_SOD-323.step": "6c72b6baeee0baa9075c149ba2e76f711328315273e81580dbd57fb36a86c1e3",
+    "Selected.3dshapes/ESP32-C3-MINI-1-OEM.step": "a4ed075447476cb39cbee4f5889f163ff8abae111efcf27c3559b8dafa1085aa",
+    "Selected.3dshapes/Fuse_1206_3216Metric.step": "5e6dcbe286696143d35a8ea37d91eef4b54ff3d1bd7c2c2b4dedda83d3f8e203",
+    "Selected.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step": "470db6ec39ba9d16e8d1dde845be2fd86ecf9e8280643d8e226b3ef821c9716e",
+    "Selected.3dshapes/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.step": "ff33172378d63a6a8e51e18f421337f1e5972a2c5b026c0f217347e4be9be191",
+    "Selected.3dshapes/KiCad-LICENSE.md": "45d2bce75e5a4208f5afb01b8fb2c406e700371c4fe2b5f5cd5c443d46db4d8f",
+    "Selected.3dshapes/LGA-12_2x2mm_P0.5mm.step": "5e6c16287491528f89c09590e0d5dace14debf478226f74b45504eb906119145",
+    "Selected.3dshapes/MillMax1946.step": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+    "Selected.3dshapes/R_0402_1005Metric.step": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+    "Selected.3dshapes/R_0603_1608Metric.step": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "Selected.3dshapes/R_0805_2012Metric.step": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+    "Selected.3dshapes/SOT-23-6.step": "9491de18305b16fe125ee3d603109a29edd837d50d22305b6f929886492ce755",
+    "Selected.3dshapes/SW_SPST_B3U-1000P.step": "587521eeb9e74a89206aa30ba175b56ce2e6906ce77ce09af076fdddba9bd5d6",
+    "Selected.3dshapes/USON-6_1x1.45mm_P0.5mm.step": "61bf9ccef024ce8a71b4968776fbfe67acaca641481762d12dab3c0a21a12213",
+    "Selected.pretty/C_0402_1005Metric.kicad_mod": "9503e39992d920c58579cf9fbd085c607c33be3aa0c658cd13763463501f42dd",
+    "Selected.pretty/C_0805_2012Metric.kicad_mod": "840765237e65f871e4fe355261b5c25f07f55fb2679f64bb97e07d574fe08fc1",
+    "Selected.pretty/D_SOD-323.kicad_mod": "cb1eee75c6663271332175636b91d77d586ce9dfe6ed78fa95167ed61b0c60fb",
+    "Selected.pretty/Diodes_B140HW_SOD123_A1_K2.kicad_mod": "bc7ee774059bea3901892208809ea3a9238f37ccd1f22bac73233f436ded2317",
+    "Selected.pretty/Espressif_ESP32-C3-MINI-1_53Pads.kicad_mod": "5c86b48520e4c45bd275220b81ab26beb120dd09e1cb0f3fe2de82f81c70a6c8",
+    "Selected.pretty/Fuse_1206_3216Metric.kicad_mod": "a332123fafeaffb6f81980e95a67b72e7beba00513b13b6b67417b74e17ce4bb",
+    "Selected.pretty/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.kicad_mod": "e48875ebefc87c73ce227138bcc914a31f04d29864789d1d4edf6e9a1195f2ea",
+    "Selected.pretty/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.kicad_mod": "849733b56a0929464f2640134e65a9b6572547af656b1065a9a882eff35190a6",
+    "Selected.pretty/LGA-12_2x2mm_P0.5mm.kicad_mod": "951f30297b11a9c5d22361c8e17776a1d531f1c8f79a38a8f1360cadbe7a5173",
+    "Selected.pretty/MillMax_1946_0_PTH_Study.kicad_mod": "5105d36c3cdf4656e8b87ad9e70407c4de3ced209b7db7cee1be6c3f2643bd5b",
+    "Selected.pretty/Murata_GRM18_0603_Reflow.kicad_mod": "263d218e7c6adb334d13405eda54883eba52ab7df36f011a48156a3565688c82",
+    "Selected.pretty/Murata_GRM21_0805_Reflow.kicad_mod": "b82de78de5f415a20a0dd3a4ea9d93c5ea67abafabc9d59d9722b9189ff13194",
+    "Selected.pretty/R_0402_1005Metric.kicad_mod": "f85e34bd3e55ef26d8c526a7a65f92147b36a674fa02525e6ff3d970d8ce0817",
+    "Selected.pretty/SOT-23-6.kicad_mod": "7178355a201bbec3a1dedf60befc174e5dab19788049b8f0edd263ff1e3ebf16",
+    "Selected.pretty/SW_SPST_B3U-1000P.kicad_mod": "86886925dd8008c04eb9599e50efad444e3c07813a527ec48de7281d3d73b3d0",
+    "Selected.pretty/TDK_C1608_0603_Reflow.kicad_mod": "b3c8369dd4283e05b694d9a2c58ff5005705ad7d400b51be27d0da9a2b24a848",
+    "Selected.pretty/Texas_USON-6_1x1.45mm_P0.5mm_SMD.kicad_mod": "c8563606a39617522edf6ea855bc2d151ad06da2f6f8acf695e9321758941add",
+    "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+    "Selected.pretty/Vishay_TNPW0805_IEC_Reflow.kicad_mod": "9c47013560f2644684802798f95c6cf10db12002d6788e865842bf3051ac2ff8",
+    "SingleFlangePlacement.FCStd": "21ed99819697ef668a5a3e19f48a63fcbc28680c610e4908bac894fefee451f6",
+    "SingleFlangePlacement.step": "abb46a090d30fc73a0c1ec57f3bdc0d2f89774158ff0730b755af2423f2ada02",
+    "build_component_assembly.py": "a90f83712bc801b9f13265a0017df687f81c157c1d917a8ee3e5338174badc90",
+    "build_study.py": "fc009cd54247a39b9b4bc1e783dc2e261206ccbd933a2de5365b4a128cbb2430",
+    "check_native_step.py": "a7a389be15d4951224d85628727fbce4e7b3f1022029ce5322e634617167124f",
+    "check_oem_model.py": "d948753f235e1c063de2540a13e6727dca74b42cc9e3ef06fbdb5567dffb44b5",
+    "check_study.py": "4f80030cb2175380cb366b7bdcfe5761c7ab157bd4820b06e1fd202fa8ed4323",
+    "component-assembly-checks.json": "301456da969c635b8ec85f7517ab66535c7d35c9fe983fb603e0610170217d34",
+    "contacts-buttons.png": "ed0dbdbe42ca54ebc0014962bd675ab69a476265c14cfaaf1e206a335c8af0b2",
+    "downloaded-models.json": "8a4517fd587e92ee4f2a33941b95c043a5698c5f3779d46107edaf32a3015154",
+    "electronics.png": "7fb0c741426d0b8cef335a696538cc6ea461756130cbb49a535132bae3614a04",
+    "export_finished_board.py": "0a66145aff1d50c37b3843106a56ab4ceb39e16d2668d59794efc39d2ea11278",
+    "export_mcad.py": "82c6ff22cfe83502588db3e09d376fcbfa49f2eec2012b2e80a24c2bdfcdd6e2",
+    "finished-board.json": "613f46961638939135f2ae43887d013a271b3d8d24020dccd57fded114a92d5f",
+    "footprint-provenance.json": "c1c14a9abddf1c8e6b4d44f5e46ca1514b38666d158ff5382f237196a6415a69",
+    "inspect_oem_module.py": "4cb0e74127faab97ac4586ca97bf495acd2ebdde2dceeafc1595a0f597f99e45",
+    "interface-contract.json": "4890c3cb2d660ea35d9b5b332c6a819c31062381a7951d118ec3627b7c9da08c",
+    "mcad.json": "8dda2eaf21f807c8db826f6e73ade89361c89d9588d606d94cbf8a227998c84d",
+    "native-step-pose-checks.json": "d47caaaddc6d7132b4459ed5d707bf6b2297644a24cfaf91bfb749c6c65af450",
+    "placement-drc.json": "05e9e6d9bcf06ea970877f15441dcf1eedf664dcdce79a4dd6de38931e3acde5",
+    "placement.json": "6f6da7aa2690d0f742debd251433c22f4b21f9521ebadaa564dd699e50cd97d8",
+    "preflight-drc.json": "e5b44670270c0fd8a7af75fc9ef8e5b064e1f1827c8b168050b2a1968783addf",
+    "refine_rf.py": "93a9b16e938e78352cad0690c59d825744962c2a8de72011c6d1b01eeaeebdc7",
+    "resolve_rf_courtyards.py": "cdf28d596a265a7f4bbccdb6e08b4987054b0f2f0bec71ae4a76f2b05e781c81",
+    "rf-moves-preflight-drc.json": "41c721b591fa86edaa09f8b955912b020b8ab08b35b10c984d2fd7c27c79ebac",
+    "rf-refinement.json": "bbdbaaaa53bdce136c359d6759d24f9ce62460ba1ff588e9476d43544a5ad9a9",
+    "single-flange-placement.kicad_pcb": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
+    "single-flange-placement.kicad_pro": "fd8426c037dc726126ce454fa3825761a9c5d7546f95a07451d75767ad353404",
+    "source-inventory.json": "139e459f304b733bafe9d07d0f3a0c750a661316c63afe4554e3b6e105f87c9e"
+  }
+}

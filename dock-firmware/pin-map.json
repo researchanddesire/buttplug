@@ -1,0 +1,147 @@
+{
+  "mpn": "STM32L071CBT6",
+  "package": "LQFP48",
+  "hardware_source": "hardware/pcb/evt1/dock-control/pin-contract.json",
+  "pins": {
+    "LCD_DB0": {
+      "physical_pin": 10,
+      "gpio": "PA0"
+    },
+    "LCD_DB1": {
+      "physical_pin": 11,
+      "gpio": "PA1"
+    },
+    "LCD_DB2": {
+      "physical_pin": 12,
+      "gpio": "PA2"
+    },
+    "LCD_DB3": {
+      "physical_pin": 13,
+      "gpio": "PA3"
+    },
+    "LCD_DB4": {
+      "physical_pin": 14,
+      "gpio": "PA4"
+    },
+    "LCD_DB5": {
+      "physical_pin": 15,
+      "gpio": "PA5"
+    },
+    "LCD_DB6": {
+      "physical_pin": 16,
+      "gpio": "PA6"
+    },
+    "LCD_DB7": {
+      "physical_pin": 17,
+      "gpio": "PA7"
+    },
+    "LOOP_A": {
+      "physical_pin": 2,
+      "gpio": "PC13"
+    },
+    "LOOP_B": {
+      "physical_pin": 3,
+      "gpio": "PC14"
+    },
+    "SOURCE_OK": {
+      "physical_pin": 4,
+      "gpio": "PC15"
+    },
+    "NTC_BASE": {
+      "physical_pin": 18,
+      "gpio": "PB0"
+    },
+    "NTC_LID": {
+      "physical_pin": 19,
+      "gpio": "PB1"
+    },
+    "UV_VBUS_MON": {
+      "physical_pin": 20,
+      "gpio": "PB2"
+    },
+    "MON_I2C_SCL": {
+      "physical_pin": 21,
+      "gpio": "PB10"
+    },
+    "MON_I2C_SDA": {
+      "physical_pin": 22,
+      "gpio": "PB11"
+    },
+    "BTN_LEFTn": {
+      "physical_pin": 25,
+      "gpio": "PB12"
+    },
+    "BTN_CENTERn_DEBOUNCED": {
+      "physical_pin": 26,
+      "gpio": "PB13"
+    },
+    "BTN_RIGHTn": {
+      "physical_pin": 27,
+      "gpio": "PB14"
+    },
+    "MCU_ARM": {
+      "physical_pin": 28,
+      "gpio": "PB15"
+    },
+    "MCU_STOPn": {
+      "physical_pin": 29,
+      "gpio": "PA8"
+    },
+    "WDI": {
+      "physical_pin": 30,
+      "gpio": "PA9"
+    },
+    "UV_RUN": {
+      "physical_pin": 31,
+      "gpio": "PA10"
+    },
+    "DEVICE_LIMIT_FAULTn": {
+      "physical_pin": 32,
+      "gpio": "PA11"
+    },
+    "UV_LIMIT_FAULTn": {
+      "physical_pin": 33,
+      "gpio": "PA12"
+    },
+    "SWDIO": {
+      "physical_pin": 34,
+      "gpio": "PA13"
+    },
+    "SWCLK": {
+      "physical_pin": 37,
+      "gpio": "PA14"
+    },
+    "RELEASE_SEEN": {
+      "physical_pin": 38,
+      "gpio": "PA15"
+    },
+    "CC_OUT1": {
+      "physical_pin": 39,
+      "gpio": "PB3"
+    },
+    "CC_OUT2": {
+      "physical_pin": 40,
+      "gpio": "PB4"
+    },
+    "LCD_A0": {
+      "physical_pin": 41,
+      "gpio": "PB5"
+    },
+    "LCD_WRn": {
+      "physical_pin": 42,
+      "gpio": "PB6"
+    },
+    "LCD_CSn": {
+      "physical_pin": 43,
+      "gpio": "PB7"
+    },
+    "LCD_RESETn": {
+      "physical_pin": 45,
+      "gpio": "PB8"
+    },
+    "STATUS_LED": {
+      "physical_pin": 46,
+      "gpio": "PB9"
+    }
+  }
+}

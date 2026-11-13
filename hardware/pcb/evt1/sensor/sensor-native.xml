@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/sensor/sensor-evt1.kicad_sch</source>
+    <date>2026-11-12T12:32:07</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Flange-fixed eCompass sensor daughterboard</title>
+        <company>Research and Desire</company>
+        <rev>EVT1 electrical candidate</rev>
+        <date>2026-11-12</date>
+        <source>sensor-evt1.kicad_sch</source>
+        <comment number="1" value="LAYOUT INTEGRATION REQUIRED BEFORE PCB ORDER"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C81">
+      <value>220nF</value>
+      <footprint>EVT1:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="sensor-evt1"/>
+      <property name="Sheetfile" value="sensor-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a7d77ee-40dc-59b4-bcd3-4c63caef83ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C82">
+      <value>100nF</value>
+      <footprint>EVT1:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="sensor-evt1"/>
+      <property name="Sheetfile" value="sensor-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9697131e-d142-53ad-b7df-f01f0ae968d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C83">
+      <value>22uF 10V / Ceff&gt;=10uF at3V3</value>
+      <footprint>EVT1:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">MLCC candidate: qualify &gt;=10uF effective at3V3/temp versus ST p35 bulk recommendation before layout release.</field>
+        <field name="Footprint">EVT1:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="MLCC candidate: qualify &gt;=10uF effective at3V3/temp versus ST p35 bulk recommendation before layout release."/>
+      <property name="Sheetname" value="sensor-evt1"/>
+      <property name="Sheetfile" value="sensor-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3673b694-5ae6-550e-8997-4904c7356c4f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C84">
+      <value>100nF / VDDIO local</value>
+      <footprint>EVT1:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="sensor-evt1"/>
+      <property name="Sheetfile" value="sensor-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b1e489f-13bc-5383-a6c7-83fbb7a6626e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J82">
+      <value>TO BODY J81 / FIXED IN FLANGE</value>
+      <footprint>EVT1:Sensor_Loom_4Land</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:Sensor_Loom_4Land</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn4" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="sensor-evt1"/>
+      <property name="Sheetfile" value="sensor-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd57787f-c0ff-5b5c-8e3c-206e2a08ec77</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U81">
+      <value>LSM303AGRTR</value>
+      <footprint>EVT1:LGA-12_2x2mm_P0.5mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/lsm303agr.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Footprint">EVT1:LGA-12_2x2mm_P0.5mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/lsm303agr.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PrototypeR0" part="LSM303AGRTR" description="Flange-fixed compass: accel 0x19, magnetometer 0x1e"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="sensor-evt1"/>
+      <property name="Sheetfile" value="sensor-evt1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea1183ab-5902-5305-afe3-c4d3595010c0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="PrototypeR0" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="Conn4">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Logical connector pin numbering; physical connector and footprint not selected</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="LSM303AGRTR">
+      <description>Flange-fixed compass: accel 0x19, magnetometer 0x1e</description>
+      <docs>https://www.st.com/resource/en/datasheet/lsm303agr.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LSM303AGRTR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/lsm303agr.pdf</field>
+        <field name="Description">Flange-fixed compass: accel 0x19, magnetometer 0x1e</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="CS_XL" type="input"/>
+        <pin num="3" name="CS_MAG" type="input"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="C1" type="passive"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="INT_MAG" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="VDDIO" type="power_in"/>
+        <pin num="11" name="INT2_XL" type="output"/>
+        <pin num="12" name="INT1_XL" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PrototypeR0">
+      <uri>${KIPRJMOD}/PrototypeR0.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3" class="Default">
+      <node ref="C82" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C83" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C84" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J82" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U81" pin="10" pinfunction="VDDIO_10" pintype="power_in"/>
+      <node ref="U81" pin="2" pinfunction="CS_XL_2" pintype="input"/>
+      <node ref="U81" pin="3" pinfunction="CS_MAG_3" pintype="input"/>
+      <node ref="U81" pin="9" pinfunction="VDD_9" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND" class="Default">
+      <node ref="C81" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C82" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C83" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C84" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J82" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U81" pin="6" pinfunction="GND_6" pintype="power_in"/>
+      <node ref="U81" pin="8" pinfunction="GND_8" pintype="power_in"/>
+    </net>
+    <net code="3" name="I2C_SCL" class="Default">
+      <node ref="J82" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="U81" pin="1" pinfunction="SCL_1" pintype="input"/>
+    </net>
+    <net code="4" name="I2C_SDA" class="Default">
+      <node ref="J82" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U81" pin="4" pinfunction="SDA_4" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="MAG_C1" class="Default">
+      <node ref="C81" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U81" pin="5" pinfunction="C1_5" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(U81-INT1_XL-Pad12)" class="Default">
+      <node ref="U81" pin="12" pinfunction="INT1_XL_12" pintype="output+no_connect"/>
+    </net>
+    <net code="7" name="unconnected-(U81-INT2_XL-Pad11)" class="Default">
+      <node ref="U81" pin="11" pinfunction="INT2_XL_11" pintype="output+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(U81-INT_MAG-Pad7)" class="Default">
+      <node ref="U81" pin="7" pinfunction="INT_MAG_7" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

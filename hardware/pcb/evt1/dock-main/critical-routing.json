@@ -1,0 +1,3312 @@
+{
+  "status": "intentional native critical copper candidate; native DRC pending",
+  "seed_sha256": "a277353b0b4f549f7432c3df7ae1c9ff09d46b761e2374ddefc1e9fbf296c4d6",
+  "board_sha256": "041702470f92a955851470a3a5cad40e81d693ea00567349ebb2272e2154f4ca",
+  "source192_preserved": true,
+  "source_block_sha256": "169e8ffcf01e1f8fb1d7ca17fe671aa68447dc1f0c316165d1fc63d938ca1038",
+  "component_adjustments_dock_xy_native_angle": {
+    "C208": [
+      -30.5,
+      36.1,
+      180
+    ],
+    "C209": [
+      -27.5,
+      36.1,
+      0
+    ],
+    "C210": [
+      -4,
+      42,
+      0
+    ],
+    "C614": [
+      35.8,
+      44.3,
+      0
+    ],
+    "C616": [
+      16.6,
+      46,
+      0
+    ],
+    "R606": [
+      20,
+      46,
+      0
+    ],
+    "C606": [
+      18,
+      39,
+      270
+    ],
+    "C608": [
+      15.6,
+      37.8,
+      0
+    ],
+    "C602": [
+      37,
+      28.95,
+      180
+    ],
+    "R616": [
+      41,
+      24.5,
+      0
+    ],
+    "C620": [
+      25,
+      29.5,
+      0
+    ],
+    "U615": [
+      42,
+      49.5,
+      0
+    ]
+  },
+  "critical_copper": [
+    {
+      "kind": "track",
+      "net": "CLOCK_RELEASE",
+      "start": [
+        33.95,
+        44.95
+      ],
+      "end": [
+        34.7,
+        45.7
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical release clock"
+    },
+    {
+      "kind": "track",
+      "net": "CLOCK_RELEASE",
+      "start": [
+        34.7,
+        45.7
+      ],
+      "end": [
+        34.7,
+        46.6
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical release clock"
+    },
+    {
+      "kind": "track",
+      "net": "CLOCK_RELEASE",
+      "start": [
+        34.7,
+        46.6
+      ],
+      "end": [
+        29,
+        46.6
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical release clock"
+    },
+    {
+      "kind": "track",
+      "net": "CLOCK_RELEASE",
+      "start": [
+        29,
+        46.6
+      ],
+      "end": [
+        28.7,
+        46.9
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical release clock"
+    },
+    {
+      "kind": "track",
+      "net": "CLOCK_RELEASE",
+      "start": [
+        28.7,
+        46.9
+      ],
+      "end": [
+        28.7,
+        50.65
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical release clock"
+    },
+    {
+      "kind": "track",
+      "net": "CLOCK_RELEASE",
+      "start": [
+        28.7,
+        50.65
+      ],
+      "end": [
+        30.1375,
+        50.65
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical release clock"
+    },
+    {
+      "kind": "track",
+      "net": "CLOCK_PRESS",
+      "start": [
+        33.95,
+        43.65
+      ],
+      "end": [
+        34.7,
+        42.9
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical press clock"
+    },
+    {
+      "kind": "track",
+      "net": "CLOCK_PRESS",
+      "start": [
+        34.7,
+        42.9
+      ],
+      "end": [
+        37.3,
+        42.9
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical press clock"
+    },
+    {
+      "kind": "track",
+      "net": "CLOCK_PRESS",
+      "start": [
+        37.3,
+        42.9
+      ],
+      "end": [
+        38,
+        43.6
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical press clock"
+    },
+    {
+      "kind": "track",
+      "net": "CLOCK_PRESS",
+      "start": [
+        38,
+        43.6
+      ],
+      "end": [
+        38,
+        50
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical press clock"
+    },
+    {
+      "kind": "track",
+      "net": "CLOCK_PRESS",
+      "start": [
+        38,
+        50
+      ],
+      "end": [
+        35.8625,
+        50.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical press clock"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -31.75,
+        47.1625
+      ],
+      "end": [
+        -31.75,
+        49.32
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD48 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -31.75,
+        49.32
+      ],
+      "end": [
+        -32.23,
+        49.8
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD48 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -33.1625,
+        45.75
+      ],
+      "end": [
+        -34.4,
+        45.75
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD1 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -34.4,
+        45.75
+      ],
+      "end": [
+        -34.88,
+        45.27
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD1 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -34.88,
+        45.27
+      ],
+      "end": [
+        -35.4,
+        45.27
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD1 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -26.25,
+        38.8375
+      ],
+      "end": [
+        -26.25,
+        37.75
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD24 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -26.25,
+        37.75
+      ],
+      "end": [
+        -25.8,
+        37.3
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD24 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -25.8,
+        37.3
+      ],
+      "end": [
+        -24.78,
+        36.7
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD24 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -24.8375,
+        45.75
+      ],
+      "end": [
+        -23.7,
+        45.75
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD36 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -23.7,
+        45.75
+      ],
+      "end": [
+        -23.22,
+        45.27
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD36 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -23.22,
+        45.27
+      ],
+      "end": [
+        -22.5,
+        45.27
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDD36 bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3_ANALOG",
+      "start": [
+        -33.1625,
+        41.75
+      ],
+      "end": [
+        -34.4,
+        41.75
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDDA bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3_ANALOG",
+      "start": [
+        -34.4,
+        41.75
+      ],
+      "end": [
+        -34.875,
+        42.225
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDDA bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3_ANALOG",
+      "start": [
+        -34.875,
+        42.225
+      ],
+      "end": [
+        -36.0,
+        42.52
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU VDDA bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3_ANALOG",
+      "start": [
+        -36.0,
+        42.52
+      ],
+      "end": [
+        -40.0,
+        42.225
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "analog supply bulk"
+    },
+    {
+      "kind": "track",
+      "net": "3V3_ANALOG",
+      "start": [
+        -6.8,
+        42.0
+      ],
+      "end": [
+        -4.48,
+        42.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "ADS local bypass"
+    },
+    {
+      "kind": "track",
+      "net": "NTC_BASE_ADC",
+      "start": [
+        -29.25,
+        38.8375
+      ],
+      "end": [
+        -29.25,
+        36.87
+      ],
+      "width": 0.15,
+      "layer": "F.Cu",
+      "role": "NTC base filtered ADC"
+    },
+    {
+      "kind": "track",
+      "net": "NTC_BASE_ADC",
+      "start": [
+        -29.25,
+        36.87
+      ],
+      "end": [
+        -30.02,
+        36.1
+      ],
+      "width": 0.15,
+      "layer": "F.Cu",
+      "role": "NTC base filtered ADC"
+    },
+    {
+      "kind": "track",
+      "net": "NTC_LID_ADC",
+      "start": [
+        -28.75,
+        38.8375
+      ],
+      "end": [
+        -28.75,
+        36.87
+      ],
+      "width": 0.15,
+      "layer": "F.Cu",
+      "role": "NTC lid filtered ADC"
+    },
+    {
+      "kind": "track",
+      "net": "NTC_LID_ADC",
+      "start": [
+        -28.75,
+        36.87
+      ],
+      "end": [
+        -27.98,
+        36.1
+      ],
+      "width": 0.15,
+      "layer": "F.Cu",
+      "role": "NTC lid filtered ADC"
+    },
+    {
+      "kind": "track",
+      "net": "NTC_BASE_ADC",
+      "start": [
+        -30.5,
+        34.325
+      ],
+      "end": [
+        -30.02,
+        36.1
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "NTC base filter source"
+    },
+    {
+      "kind": "track",
+      "net": "NTC_LID_ADC",
+      "start": [
+        -27.5,
+        34.325
+      ],
+      "end": [
+        -27.98,
+        36.1
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "NTC lid filter source"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        33.95,
+        44.3
+      ],
+      "end": [
+        35.32,
+        44.3
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "clock buffer bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        35.8625,
+        51.95
+      ],
+      "end": [
+        35.8625,
+        52.8
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "physical latch bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        35.8625,
+        52.8
+      ],
+      "end": [
+        35.22,
+        53.7
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "physical latch bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        25.8625,
+        51.95
+      ],
+      "end": [
+        25.8625,
+        52.8
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "safety AND bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        25.8625,
+        52.8
+      ],
+      "end": [
+        25.22,
+        53.7
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "safety AND bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        44.8625,
+        51.95
+      ],
+      "end": [
+        45.7,
+        51.95
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "permission AND bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        45.7,
+        51.95
+      ],
+      "end": [
+        46.4,
+        51.52
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "permission AND bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        14.1375,
+        46.0
+      ],
+      "end": [
+        16.12,
+        46.0
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "delay supervisor bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        19.6,
+        39.975
+      ],
+      "end": [
+        18.8,
+        39.975
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "watchdog bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        18.8,
+        39.975
+      ],
+      "end": [
+        18.0,
+        39.48
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "watchdog bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        25.8625,
+        38.05
+      ],
+      "end": [
+        24.0,
+        38.52
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "3V3 supervisor bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        14.0,
+        37.95
+      ],
+      "end": [
+        15.12,
+        37.8
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "physical debounce bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        41.95,
+        38.0
+      ],
+      "end": [
+        43,
+        38
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "loop buffer bypass"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        43,
+        38
+      ],
+      "end": [
+        44.0,
+        37.52
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "loop buffer bypass"
+    },
+    {
+      "kind": "track",
+      "net": "HOST_5V",
+      "start": [
+        39.05,
+        28.65
+      ],
+      "end": [
+        37.48,
+        28.95
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "contact loop switch bypass"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_LIMITED",
+      "start": [
+        23.5,
+        25.0
+      ],
+      "end": [
+        23.5,
+        28
+      ],
+      "width": 1.2,
+      "layer": "F.Cu",
+      "role": "UV cut input trunk"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_LIMITED",
+      "start": [
+        23.5,
+        28
+      ],
+      "end": [
+        25.8,
+        28
+      ],
+      "width": 1.2,
+      "layer": "F.Cu",
+      "role": "UV cut input trunk"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_LIMITED",
+      "start": [
+        25.8,
+        28
+      ],
+      "end": [
+        27.525,
+        28.0
+      ],
+      "width": 0.4,
+      "layer": "F.Cu",
+      "role": "cut A input neck"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_LIMITED",
+      "start": [
+        24.52,
+        28
+      ],
+      "end": [
+        24.225,
+        29.5
+      ],
+      "width": 0.4,
+      "layer": "F.Cu",
+      "role": "cut A input capacitor"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_MID",
+      "start": [
+        28.475,
+        28.0
+      ],
+      "end": [
+        29.4,
+        28
+      ],
+      "width": 0.4,
+      "layer": "F.Cu",
+      "role": "cut A output neck"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_MID",
+      "start": [
+        29.4,
+        28
+      ],
+      "end": [
+        29.6,
+        28
+      ],
+      "width": 1.0,
+      "layer": "F.Cu",
+      "role": "two cut local link"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_MID",
+      "start": [
+        29.6,
+        28
+      ],
+      "end": [
+        30.525,
+        28.0
+      ],
+      "width": 0.4,
+      "layer": "F.Cu",
+      "role": "cut B input neck"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_MID",
+      "start": [
+        29.2,
+        28
+      ],
+      "end": [
+        29.2,
+        30.5
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "cut intermediate capacitor"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_MID",
+      "start": [
+        29.2,
+        30.5
+      ],
+      "end": [
+        28.725,
+        31.0
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "cut intermediate capacitor"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_SW",
+      "start": [
+        31.475,
+        28.0
+      ],
+      "end": [
+        32.7,
+        28
+      ],
+      "width": 0.4,
+      "layer": "F.Cu",
+      "role": "cut B output neck"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_SW",
+      "start": [
+        32.7,
+        28
+      ],
+      "end": [
+        32.7,
+        27.8
+      ],
+      "width": 0.5,
+      "layer": "F.Cu",
+      "role": "postcut parallel stitching"
+    },
+    {
+      "kind": "via",
+      "net": "UV_5V_SW",
+      "position": [
+        32.7,
+        27.8
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "postcut parallel stitching"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_SW",
+      "start": [
+        32.7,
+        28
+      ],
+      "end": [
+        32.7,
+        28.6
+      ],
+      "width": 0.5,
+      "layer": "F.Cu",
+      "role": "postcut parallel stitching"
+    },
+    {
+      "kind": "via",
+      "net": "UV_5V_SW",
+      "position": [
+        32.7,
+        28.6
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "postcut parallel stitching"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_SW",
+      "start": [
+        32.7,
+        27.8
+      ],
+      "end": [
+        34.0,
+        27.225
+      ],
+      "width": 0.5,
+      "layer": "F.Cu",
+      "role": "postcut capacitor"
+    },
+    {
+      "kind": "track",
+      "net": "HOST_5V",
+      "start": [
+        27.4,
+        28.5
+      ],
+      "end": [
+        26.8,
+        28.5
+      ],
+      "width": 0.15,
+      "layer": "F.Cu",
+      "role": "cut bias power"
+    },
+    {
+      "kind": "track",
+      "net": "HOST_5V",
+      "start": [
+        26.8,
+        28.5
+      ],
+      "end": [
+        26.8,
+        29
+      ],
+      "width": 0.15,
+      "layer": "F.Cu",
+      "role": "cut bias power"
+    },
+    {
+      "kind": "via",
+      "net": "HOST_5V",
+      "position": [
+        26.8,
+        29
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "cut bias power"
+    },
+    {
+      "kind": "track",
+      "net": "HOST_5V",
+      "start": [
+        30.4,
+        28.5
+      ],
+      "end": [
+        30.4,
+        28.5
+      ],
+      "width": 0.15,
+      "layer": "F.Cu",
+      "role": "cut bias power"
+    },
+    {
+      "kind": "track",
+      "net": "HOST_5V",
+      "start": [
+        30.4,
+        28.5
+      ],
+      "end": [
+        30.4,
+        29.6
+      ],
+      "width": 0.15,
+      "layer": "F.Cu",
+      "role": "cut bias power"
+    },
+    {
+      "kind": "via",
+      "net": "HOST_5V",
+      "position": [
+        30.4,
+        29.6
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "cut bias power"
+    },
+    {
+      "kind": "track",
+      "net": "HOST_5V",
+      "start": [
+        28.02,
+        26.0
+      ],
+      "end": [
+        27.7,
+        25
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "cut A bias bypass"
+    },
+    {
+      "kind": "via",
+      "net": "HOST_5V",
+      "position": [
+        27.7,
+        25
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "cut A bias bypass"
+    },
+    {
+      "kind": "track",
+      "net": "HOST_5V",
+      "start": [
+        30.52,
+        24.8
+      ],
+      "end": [
+        30.1,
+        24
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "cut B bias bypass"
+    },
+    {
+      "kind": "via",
+      "net": "HOST_5V",
+      "position": [
+        30.1,
+        24
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "cut B bias bypass"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        28.0,
+        27.3375
+      ],
+      "end": [
+        28,
+        26.8
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "cut A solid ground"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        28,
+        26.8
+      ],
+      "end": [
+        27,
+        26.8
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "cut A solid ground"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        27,
+        26.8
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "cut A solid ground"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        31.0,
+        27.3375
+      ],
+      "end": [
+        31,
+        26
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "cut B solid ground"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        31,
+        26
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "cut B solid ground"
+    },
+    {
+      "kind": "track",
+      "net": "HOST_5V",
+      "start": [
+        0.0,
+        12.1375
+      ],
+      "end": [
+        0,
+        12.85
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "ESD VBUS inner access"
+    },
+    {
+      "kind": "via",
+      "net": "HOST_5V",
+      "position": [
+        0,
+        12.85
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "ESD VBUS inner access"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -21.0,
+        4.725
+      ],
+      "end": [
+        -21,
+        3.5
+      ],
+      "width": 0.4,
+      "layer": "F.Cu",
+      "role": "LDO3V3 access"
+    },
+    {
+      "kind": "via",
+      "net": "3V3",
+      "position": [
+        -21,
+        3.5
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "LDO3V3 access"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -21,
+        3.5
+      ],
+      "end": [
+        -22.2,
+        5
+      ],
+      "width": 0.5,
+      "layer": "B.Cu",
+      "role": "3V3 trunk"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -22.2,
+        5
+      ],
+      "end": [
+        -22.2,
+        15.5
+      ],
+      "width": 0.5,
+      "layer": "B.Cu",
+      "role": "3V3 trunk"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -22.2,
+        15.5
+      ],
+      "end": [
+        -20.5,
+        17.2
+      ],
+      "width": 0.5,
+      "layer": "B.Cu",
+      "role": "3V3 trunk"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -20.5,
+        17.2
+      ],
+      "end": [
+        -20.5,
+        24.5
+      ],
+      "width": 0.5,
+      "layer": "B.Cu",
+      "role": "3V3 trunk"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -20.5,
+        24.5
+      ],
+      "end": [
+        -22,
+        26
+      ],
+      "width": 0.5,
+      "layer": "B.Cu",
+      "role": "3V3 trunk"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -22,
+        26
+      ],
+      "end": [
+        -24,
+        28
+      ],
+      "width": 0.5,
+      "layer": "B.Cu",
+      "role": "3V3 trunk"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        -24,
+        28
+      ],
+      "end": [
+        -24,
+        32
+      ],
+      "width": 0.5,
+      "layer": "B.Cu",
+      "role": "3V3 trunk"
+    },
+    {
+      "kind": "via",
+      "net": "3V3",
+      "position": [
+        -24,
+        32
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "3V3 plane entry"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_SW",
+      "start": [
+        30.375,
+        60.15
+      ],
+      "end": [
+        30.375,
+        58.0
+      ],
+      "width": 0.6,
+      "layer": "F.Cu",
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_SW",
+      "start": [
+        30.375,
+        58.0
+      ],
+      "end": [
+        30.375,
+        58.6
+      ],
+      "width": 0.6,
+      "layer": "F.Cu",
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "via",
+      "net": "UV_5V_SW",
+      "position": [
+        30.375,
+        58.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "via",
+      "net": "UV_5V_SW",
+      "position": [
+        30.375,
+        58.6
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        29.125,
+        60.15
+      ],
+      "end": [
+        29.125,
+        58.0
+      ],
+      "width": 0.6,
+      "layer": "F.Cu",
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        29.125,
+        58.0
+      ],
+      "end": [
+        29.125,
+        58.6
+      ],
+      "width": 0.6,
+      "layer": "F.Cu",
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        29.125,
+        58.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        29.125,
+        58.6
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_SW",
+      "start": [
+        45.275,
+        60.15
+      ],
+      "end": [
+        45.275,
+        61.3
+      ],
+      "width": 0.6,
+      "layer": "F.Cu",
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "track",
+      "net": "UV_5V_SW",
+      "start": [
+        45.275,
+        61.3
+      ],
+      "end": [
+        45.275,
+        61.9
+      ],
+      "width": 0.6,
+      "layer": "F.Cu",
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "via",
+      "net": "UV_5V_SW",
+      "position": [
+        45.275,
+        61.3
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "via",
+      "net": "UV_5V_SW",
+      "position": [
+        45.275,
+        61.9
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        44.025,
+        60.15
+      ],
+      "end": [
+        44.025,
+        61.3
+      ],
+      "width": 0.6,
+      "layer": "F.Cu",
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        44.025,
+        61.3
+      ],
+      "end": [
+        44.025,
+        61.9
+      ],
+      "width": 0.6,
+      "layer": "F.Cu",
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        44.025,
+        61.3
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        44.025,
+        61.9
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "UV branch parallel stitching"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -33.1625,
+        42.25
+      ],
+      "end": [
+        -31.9,
+        42.25
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU local reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -31.9,
+        42.25
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "MCU local reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -26.75,
+        38.8375
+      ],
+      "end": [
+        -26.75,
+        40.2
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU local reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -26.75,
+        40.2
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "MCU local reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -24.8375,
+        45.25
+      ],
+      "end": [
+        -26.1,
+        45.25
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU local reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -26.1,
+        45.25
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "MCU local reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -31.25,
+        47.1625
+      ],
+      "end": [
+        -31.25,
+        45.8
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "MCU local reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -31.25,
+        45.8
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "MCU local reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -31.27,
+        49.8
+      ],
+      "end": [
+        -30.47,
+        49.8
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -30.47,
+        49.8
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -35.4,
+        46.23
+      ],
+      "end": [
+        -35.4,
+        47.03
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -35.4,
+        47.03
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -23.82,
+        36.7
+      ],
+      "end": [
+        -23.02,
+        36.7
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -23.02,
+        36.7
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -22.5,
+        46.23
+      ],
+      "end": [
+        -22.5,
+        47.03
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -22.5,
+        47.03
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -36.0,
+        43.48
+      ],
+      "end": [
+        -36.0,
+        44.28
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -36.0,
+        44.28
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -40.0,
+        43.775
+      ],
+      "end": [
+        -40.0,
+        44.575
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -40.0,
+        44.575
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -37.52,
+        38.0
+      ],
+      "end": [
+        -36.72,
+        38.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -36.72,
+        38.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -30.98,
+        36.1
+      ],
+      "end": [
+        -31.78,
+        36.1
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -31.78,
+        36.1
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -27.02,
+        36.1
+      ],
+      "end": [
+        -26.22,
+        36.1
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -26.22,
+        36.1
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -3.52,
+        42.0
+      ],
+      "end": [
+        -2.72,
+        42.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -2.72,
+        42.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -18.52,
+        53.0
+      ],
+      "end": [
+        -17.72,
+        53.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -17.72,
+        53.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -14.52,
+        53.0
+      ],
+      "end": [
+        -13.72,
+        53.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -13.72,
+        53.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        36.52,
+        28.95
+      ],
+      "end": [
+        35.72,
+        28.95
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        35.72,
+        28.95
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        18.0,
+        38.52
+      ],
+      "end": [
+        18.0,
+        37.72
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        18.0,
+        37.72
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        24.0,
+        39.48
+      ],
+      "end": [
+        24.0,
+        40.28
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        24.0,
+        40.28
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        16.08,
+        37.8
+      ],
+      "end": [
+        16.88,
+        37.8
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        16.88,
+        37.8
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        36.18,
+        53.7
+      ],
+      "end": [
+        36.98,
+        53.7
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        36.98,
+        53.7
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        28.98,
+        26.0
+      ],
+      "end": [
+        29.78,
+        26.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        29.78,
+        26.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        31.48,
+        24.8
+      ],
+      "end": [
+        32.28,
+        24.8
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        32.28,
+        24.8
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        26.18,
+        53.7
+      ],
+      "end": [
+        26.98,
+        53.7
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        26.98,
+        53.7
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        44.0,
+        38.48
+      ],
+      "end": [
+        44.0,
+        39.28
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        44.0,
+        39.28
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        36.28,
+        44.3
+      ],
+      "end": [
+        37.08,
+        44.3
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        37.08,
+        44.3
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        46.4,
+        52.48
+      ],
+      "end": [
+        46.4,
+        53.28
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        46.4,
+        53.28
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        17.08,
+        46.0
+      ],
+      "end": [
+        17.88,
+        46.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        17.88,
+        46.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        25.775,
+        29.5
+      ],
+      "end": [
+        25.775,
+        30.3
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        25.775,
+        30.3
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        30.275,
+        31.0
+      ],
+      "end": [
+        31.075,
+        31.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        31.075,
+        31.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        34.0,
+        28.775
+      ],
+      "end": [
+        34.0,
+        29.575
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        34.0,
+        29.575
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        28.0,
+        34.275
+      ],
+      "end": [
+        28.0,
+        35.075
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        28.0,
+        35.075
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        31.0,
+        34.275
+      ],
+      "end": [
+        31.0,
+        35.075
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        31.0,
+        35.075
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -11.2,
+        43.0
+      ],
+      "end": [
+        -11.928293,
+        43.331042
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -11.928293,
+        43.331042
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        -11.2,
+        42.0
+      ],
+      "end": [
+        -12.2,
+        42.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        -12.2,
+        42.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        39.05,
+        28.0
+      ],
+      "end": [
+        38.25,
+        28.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        38.25,
+        28.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        19.6,
+        38.025
+      ],
+      "end": [
+        18.943515,
+        37.567805
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        18.943515,
+        37.567805
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        20.675,
+        40.2875
+      ],
+      "end": [
+        20.4792,
+        41.063169
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        20.4792,
+        41.063169
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        20.675,
+        40.2875
+      ],
+      "end": [
+        20.4792,
+        36.936831
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        20.4792,
+        36.936831
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        20.675,
+        40.2875
+      ],
+      "end": [
+        21.0,
+        39.8
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        21.0,
+        39.8
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        20.675,
+        40.2875
+      ],
+      "end": [
+        21.5208,
+        41.063169
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        21.5208,
+        41.063169
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        20.675,
+        40.2875
+      ],
+      "end": [
+        21.5208,
+        36.936831
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        21.5208,
+        36.936831
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        25.8625,
+        39.0
+      ],
+      "end": [
+        25.0625,
+        39.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        25.0625,
+        39.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        12.0,
+        37.75
+      ],
+      "end": [
+        11.36,
+        38.23
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        11.36,
+        38.23
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        30.1375,
+        48.05
+      ],
+      "end": [
+        29.476335,
+        47.599599
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        29.476335,
+        47.599599
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        20.1375,
+        48.05
+      ],
+      "end": [
+        19.476335,
+        47.599599
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        19.476335,
+        47.599599
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        40.05,
+        38.0
+      ],
+      "end": [
+        39.25,
+        38.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        39.25,
+        38.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        32.05,
+        44.3
+      ],
+      "end": [
+        31.25,
+        44.3
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        31.25,
+        44.3
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        39.1375,
+        47.55
+      ],
+      "end": [
+        39.587901,
+        47.388835
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        39.587901,
+        47.388835
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "GND",
+      "start": [
+        11.8625,
+        46.0
+      ],
+      "end": [
+        11.0625,
+        46.0
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "via",
+      "net": "GND",
+      "position": [
+        11.0625,
+        46.0
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "role": "local bypass/reference"
+    },
+    {
+      "kind": "track",
+      "net": "3V3",
+      "start": [
+        44.8625,
+        51.45
+      ],
+      "end": [
+        44.8625,
+        51.95
+      ],
+      "width": 0.3,
+      "layer": "F.Cu",
+      "role": "approved U615 VDD endpoint extension"
+    }
+  ],
+  "local_ground_vias": [
+    [
+      "U201",
+      "8",
+      [
+        -31.9,
+        42.25
+      ]
+    ],
+    [
+      "U201",
+      "23",
+      [
+        -26.75,
+        40.2
+      ]
+    ],
+    [
+      "U201",
+      "35",
+      [
+        -26.1,
+        45.25
+      ]
+    ],
+    [
+      "U201",
+      "47",
+      [
+        -31.25,
+        45.8
+      ]
+    ],
+    [
+      "C201",
+      "2",
+      [
+        -30.47,
+        49.8
+      ]
+    ],
+    [
+      "C202",
+      "2",
+      [
+        -35.4,
+        47.03
+      ]
+    ],
+    [
+      "C203",
+      "2",
+      [
+        -23.02,
+        36.7
+      ]
+    ],
+    [
+      "C204",
+      "2",
+      [
+        -22.5,
+        47.03
+      ]
+    ],
+    [
+      "C205",
+      "2",
+      [
+        -36.0,
+        44.28
+      ]
+    ],
+    [
+      "C206",
+      "2",
+      [
+        -40.0,
+        44.575
+      ]
+    ],
+    [
+      "C207",
+      "2",
+      [
+        -36.72,
+        38.0
+      ]
+    ],
+    [
+      "C208",
+      "2",
+      [
+        -31.78,
+        36.1
+      ]
+    ],
+    [
+      "C209",
+      "2",
+      [
+        -26.22,
+        36.1
+      ]
+    ],
+    [
+      "C210",
+      "2",
+      [
+        -2.72,
+        42.0
+      ]
+    ],
+    [
+      "C211",
+      "2",
+      [
+        -17.72,
+        53.0
+      ]
+    ],
+    [
+      "C212",
+      "2",
+      [
+        -13.72,
+        53.0
+      ]
+    ],
+    [
+      "C602",
+      "2",
+      [
+        35.72,
+        28.95
+      ]
+    ],
+    [
+      "C606",
+      "2",
+      [
+        18.0,
+        37.72
+      ]
+    ],
+    [
+      "C607",
+      "2",
+      [
+        24.0,
+        40.28
+      ]
+    ],
+    [
+      "C608",
+      "2",
+      [
+        16.88,
+        37.8
+      ]
+    ],
+    [
+      "C609",
+      "2",
+      [
+        36.98,
+        53.7
+      ]
+    ],
+    [
+      "C610",
+      "2",
+      [
+        29.78,
+        26.0
+      ]
+    ],
+    [
+      "C611",
+      "2",
+      [
+        32.28,
+        24.8
+      ]
+    ],
+    [
+      "C612",
+      "2",
+      [
+        26.98,
+        53.7
+      ]
+    ],
+    [
+      "C613",
+      "2",
+      [
+        44.0,
+        39.28
+      ]
+    ],
+    [
+      "C614",
+      "2",
+      [
+        37.08,
+        44.3
+      ]
+    ],
+    [
+      "C615",
+      "2",
+      [
+        46.4,
+        53.28
+      ]
+    ],
+    [
+      "C616",
+      "2",
+      [
+        17.88,
+        46.0
+      ]
+    ],
+    [
+      "C620",
+      "2",
+      [
+        25.775,
+        30.3
+      ]
+    ],
+    [
+      "C621",
+      "2",
+      [
+        31.075,
+        31.0
+      ]
+    ],
+    [
+      "C622",
+      "2",
+      [
+        34.0,
+        29.575
+      ]
+    ],
+    [
+      "C623",
+      "2",
+      [
+        28.0,
+        35.075
+      ]
+    ],
+    [
+      "C624",
+      "2",
+      [
+        31.0,
+        35.075
+      ]
+    ],
+    [
+      "U202",
+      "1",
+      [
+        -11.928293,
+        43.331042
+      ]
+    ],
+    [
+      "U202",
+      "3",
+      [
+        -12.2,
+        42.0
+      ]
+    ],
+    [
+      "U602",
+      "2",
+      [
+        38.25,
+        28.0
+      ]
+    ],
+    [
+      "U606",
+      "4",
+      [
+        18.943515,
+        37.567805
+      ]
+    ],
+    [
+      "U606",
+      "9",
+      [
+        20.4792,
+        41.063169
+      ]
+    ],
+    [
+      "U606",
+      "9",
+      [
+        20.4792,
+        36.936831
+      ]
+    ],
+    [
+      "U606",
+      "9",
+      [
+        21.0,
+        39.8
+      ]
+    ],
+    [
+      "U606",
+      "9",
+      [
+        21.5208,
+        41.063169
+      ]
+    ],
+    [
+      "U606",
+      "9",
+      [
+        21.5208,
+        36.936831
+      ]
+    ],
+    [
+      "U607",
+      "2",
+      [
+        25.0625,
+        39.0
+      ]
+    ],
+    [
+      "U608",
+      "1",
+      [
+        11.36,
+        38.23
+      ]
+    ],
+    [
+      "U609",
+      "7",
+      [
+        29.476335,
+        47.599599
+      ]
+    ],
+    [
+      "U612",
+      "7",
+      [
+        19.476335,
+        47.599599
+      ]
+    ],
+    [
+      "U613",
+      "2",
+      [
+        39.25,
+        38.0
+      ]
+    ],
+    [
+      "U614",
+      "2",
+      [
+        31.25,
+        44.3
+      ]
+    ],
+    [
+      "U615",
+      "7",
+      [
+        39.587901,
+        47.388835
+      ]
+    ],
+    [
+      "U616",
+      "2",
+      [
+        11.0625,
+        46.0
+      ]
+    ]
+  ],
+  "new_rear_support_dock_xy_mm": [
+    44,
+    55.7
+  ],
+  "original_header_positions_preserved": true,
+  "reserved_reference": "In1 continuous GND; In2 separated power and low-speed signals; F/B general signals",
+  "power_resistance_qualified": false,
+  "physical_or_powered_result": false,
+  "latest_board_after_exception_sha256": "1302833f3fccf9d582e9c2ff5efb07e1ad890959aeef70816d13fe3f672cf8f6",
+  "approved_bounded_exception_record": "routing/u615-bounded-exception.json"
+}

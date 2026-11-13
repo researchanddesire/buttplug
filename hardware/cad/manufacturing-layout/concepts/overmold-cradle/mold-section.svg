@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#566c7b"/></marker>
+  <style>text{font-family:Arial,sans-serif;fill:#263747}.small{font-size:20px}.label{font-size:23px}.tool{fill:#edf2f6;stroke:#a8b6c2;stroke-width:2}.leader{fill:none;stroke:#566c7b;stroke-width:2}</style>
+</defs>
+<rect width="1400" height="860" fill="white"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="35" y="52" font-size="32" font-weight="bold">Closed flange insert / continuous silicone overmold</text>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="35" y="90" class="small" font-size="20">Schematic section only — not native CAD, mold dimensions, a flow result or a tooling release.</text>
+<!-- Separate tooling jaws move sideways; neither is a closed ring around the neck. -->
+<path class="tool" fill="#edf2f6" stroke="#a8b6c2" stroke-width="2" d="M100 220H628V354L586 395H280Q244 395 244 430V567Q244 610 280 610H690V680H100Z"/>
+<path class="tool" fill="#edf2f6" stroke="#a8b6c2" stroke-width="2" d="M1300 220H772V354L814 395H1120Q1156 395 1156 430V567Q1156 610 1120 610H710V680H1300Z"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="145" y="270" class="label" font-size="23" font-weight="bold">TOOL HALF A</text>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="1034" y="270" class="label" font-size="23" font-weight="bold">TOOL HALF B</text>
+<path class="leader" fill="none" stroke="#566c7b" stroke-width="2" marker-end="url(#arrow)" d="M440 320H165"/>
+<path class="leader" fill="none" stroke="#566c7b" stroke-width="2" marker-end="url(#arrow)" d="M960 320H1235"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="158" y="355" class="small" font-size="20">Open sideways</text>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="1080" y="355" class="small" font-size="20">Open sideways</text>
+<!-- Proposed skin outside a CLOSED rigid housing; its hollow electronics space stays hollow. -->
+<path d="M638 260H762V360L798 409H1110Q1144 409 1144 441V565Q1144 596 1110 596H290Q256 596 256 565V441Q256 409 290 409H602L638 360Z" fill="#e6aebc" stroke="#bb7c8d" stroke-width="2"/>
+<!-- Lower metal body is already fixed in the first plastic half. -->
+<rect x="306" y="451" width="788" height="103" fill="white"/>
+<path d="M650 145H750V352H785V402H750V495H650V402H615V352H650Z" fill="#bac5ce" stroke="#536878" stroke-width="2"/>
+<rect x="678" y="145" width="44" height="355" fill="white" stroke="#536878" stroke-width="1.5"/>
+<path d="M285 430H615V402H650V454H306V554H285Z M1115 430H785V402H750V454H1094V554H1115Z" fill="#78a599" stroke="#3a6d60" stroke-width="2"/>
+<rect x="285" y="556" width="830" height="22" rx="3" fill="#568576" stroke="#3a6d60" stroke-width="2"/>
+<path d="M285 554H1115" stroke="#2c5b4e" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="608" y="455" width="42" height="30" rx="3" fill="#bd9448" stroke="#846323" stroke-width="2"/>
+<rect x="750" y="455" width="42" height="30" rx="3" fill="#bd9448" stroke="#846323" stroke-width="2"/>
+<path d="M700 132V710" stroke="#80929f" stroke-width="1.5" stroke-dasharray="9 7"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="723" y="702" class="small" font-size="20">Tool split through body axis</text>
+<!-- Gate is illustrative; final fill/vent positions require actual skin geometry. -->
+<path d="M100 496H256" stroke="#c88a9c" stroke-width="13"/>
+<path d="M1144 444H1300" stroke="#c88a9c" stroke-width="4"/>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="114" y="478" class="small" font-size="20">Gate concept</text>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="1175" y="426" class="small" font-size="20">Vent concept</text>
+<path class="leader" fill="none" stroke="#566c7b" stroke-width="2" d="M760 181H960"/><text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="972" y="188" class="label" font-size="23">Metal body already installed</text>
+<path class="leader" fill="none" stroke="#566c7b" stroke-width="2" d="M598 394L500 183H165"/><text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="165" y="168" class="label" font-size="23">One continuous silicone skin</text>
+<path class="leader" fill="none" stroke="#566c7b" stroke-width="2" d="M314 438L360 382"/><text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="370" y="381" class="small" font-size="20">Plastic half 1</text>
+<path class="leader" fill="none" stroke="#566c7b" stroke-width="2" d="M940 566L1040 643H1160"/><text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="1060" y="672" class="small" font-size="20">Plastic half 2, closed</text>
+<path class="leader" fill="none" stroke="#566c7b" stroke-width="2" d="M616 476L500 647H250"/><text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="246" y="680" class="small" font-size="20">Rear nut set before closing</text>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="352" y="510" class="small" font-size="20">Closed electronics cavity</text>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="846" y="510" class="small" font-size="20">Not silicone-filled</text>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="35" y="756" class="label" font-size="23" font-weight="bold">Secure lower body → complete internals → close both plastic halves → overmold together</text>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="35" y="795" class="small" font-size="20">Four contact faces and button cavities need mold shutoffs/barriers; they are outside this schematic section.</text>
+<text font-family="Helvetica,Arial,sans-serif" fill="#263747" x="35" y="829" class="small" font-size="20">Cap-last wiring, battery service, mold release/flash, cure, pressure and bonding remain open.</text>
+</svg>

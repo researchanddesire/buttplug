@@ -1,0 +1,365 @@
+metadata:
+  title: EVT1 protected pack / disconnect and two independent NTC pairs
+  notes: EVT first article. Native numeric pin map; verify mating marks/continuity.
+    Free-span dimensions are between modeled wire-exit datums; stock blanks are longer
+    and are not finished cut lengths. No physical crimp/current/fit acceptance. Pack
+    socket, two SACH contacts and short factory power leads belong to BC-PACK-EVT1-001;
+    do not buy/count them again as loose cable parts. Four NTC extension joints remain
+    separately insulated.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J2:
+    type: Body four-net five-land solder interface
+    pins:
+    - 1
+    - 2P
+    - 2S
+    - 3
+    - 4
+    pinlabels:
+    - PACK_P
+    - GND power
+    - GND sensors
+    - PACK_NTC
+    - PACK_GUARD
+    ignore_in_bom: true
+    notes: '2P/2S are separate physical lands on native logical pin2.
+
+      Both32AWG sensor returns join at2S; power return lands only at2P.
+
+      No pack-side shared return.'
+  BODY_PWR:
+    type: JST ACH body plug
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - PACK_P
+    - GND
+    ignore_in_bom: false
+    manufacturer: JST
+    mpn: ACHTP-02V-S
+  PACK_PWR:
+    type: 'Factory pack socket; included in custom
+
+      protected-pack request'
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - PACK_P
+    - GND
+    ignore_in_bom: true
+    manufacturer: JST
+    mpn: ACHTR-02V-S
+  PACK:
+    type: Factory-protected1S pack; no bare cell tabs
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - Protected P+
+    - Protected P-
+    ignore_in_bom: true
+  TH1:
+    type: Factory-leaded external NTC
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - 10k NTC signal
+    - Independent return
+    ignore_in_bom: false
+    manufacturer: Vishay
+    mpn: NTCLE413E2103F524A
+    notes: 'Factory52+/-5mm leads are included. Trim/extend with insulated
+
+      solder laps; do not ordinary-crimp the overall-tinned E2 leads.
+
+      Keep head dry; no direct casting/potting.'
+  TH2:
+    type: Factory-leaded external NTC
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - 10k NTC signal
+    - Independent return
+    ignore_in_bom: false
+    manufacturer: Vishay
+    mpn: NTCLE413E2103F524A
+    notes: 'Factory52+/-5mm leads are included. Trim/extend with insulated
+
+      solder laps; do not ordinary-crimp the overall-tinned E2 leads.
+
+      Keep head dry; no direct casting/potting.'
+cables:
+  PB1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - PACK_P
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  PM1:
+    category: bundle
+    type: Included OEM lead
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - mated contact
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.0
+    length_unit: m
+    ignore_in_bom: true
+    notes: Included with factory assembly; not a separate wire purchase.
+  PF1:
+    category: bundle
+    type: Included OEM lead
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - Protected P+
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.008283185307
+    length_unit: m
+    ignore_in_bom: true
+    notes: Included with factory assembly; not a separate wire purchase.
+  PB2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - GND
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  PM2:
+    category: bundle
+    type: Included OEM lead
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - mated contact
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.0
+    length_unit: m
+    ignore_in_bom: true
+    notes: Included with factory assembly; not a separate wire purchase.
+  PF2:
+    category: bundle
+    type: Included OEM lead
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - Protected P-
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.008283185307
+    length_unit: m
+    ignore_in_bom: true
+    notes: Included with factory assembly; not a separate wire purchase.
+  TH1EXT1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - PACK_NTC
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.55mm.
+
+      Centreline bend at least2mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+  TH1EXT2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - TH1 separate GND
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.55mm.
+
+      Centreline bend at least2mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+  TH2EXT1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - PACK_GUARD
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.55mm.
+
+      Centreline bend at least2mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+  TH2EXT2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - TH2 separate GND
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.55mm.
+
+      Centreline bend at least2mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+connections:
+- - J2:
+    - '1'
+  - PB1:
+    - 1
+  - BODY_PWR:
+    - 1
+- - BODY_PWR:
+    - 1
+  - PM1:
+    - 1
+  - PACK_PWR:
+    - 1
+- - PACK_PWR:
+    - 1
+  - PF1:
+    - 1
+  - PACK:
+    - 1
+- - J2:
+    - 2P
+  - PB2:
+    - 1
+  - BODY_PWR:
+    - 2
+- - BODY_PWR:
+    - 2
+  - PM2:
+    - 1
+  - PACK_PWR:
+    - 2
+- - PACK_PWR:
+    - 2
+  - PF2:
+    - 1
+  - PACK:
+    - 2
+- - J2:
+    - '3'
+  - TH1EXT1:
+    - 1
+  - TH1:
+    - 1
+- - J2:
+    - 2S
+  - TH1EXT2:
+    - 1
+  - TH1:
+    - 2
+- - J2:
+    - '4'
+  - TH2EXT1:
+    - 1
+  - TH2:
+    - 1
+- - J2:
+    - 2S
+  - TH2EXT2:
+    - 1
+  - TH2:
+    - 2
+additional_bom_items:
+- description: ACH body plug crimp contact
+  qty: 2
+  unit: pcs
+  manufacturer: JST
+  mpn: SACHP-003G-P0.2

@@ -1,0 +1,105 @@
+{
+  "scope": "single flange+compass/contacts only; retained body PCB immutable",
+  "source_system_XML_sha256": "3c0e8899ac864f9a6f12f18e9f3bce4b03cc2555a41cee5c8c98f17b78b22db5",
+  "unchanged_body_to_flange": {
+    "body_ref": "J6",
+    "flange_ref": "J7",
+    "numeric_one_to_one": [
+      {
+        "pin": "1",
+        "net": "GND"
+      },
+      {
+        "pin": "2",
+        "net": "VBUS_CHG"
+      },
+      {
+        "pin": "3",
+        "net": "3V3"
+      },
+      {
+        "pin": "4",
+        "net": "PACK_P"
+      },
+      {
+        "pin": "5",
+        "net": "MOTOR_ARM"
+      },
+      {
+        "pin": "6",
+        "net": "MOTOR_PWM"
+      },
+      {
+        "pin": "7",
+        "net": "DOCK_PRESENT_N"
+      },
+      {
+        "pin": "8",
+        "net": "I2C_SDA"
+      },
+      {
+        "pin": "9",
+        "net": "I2C_SCL"
+      },
+      {
+        "pin": "10",
+        "net": "TIP_EXC_EN"
+      }
+    ]
+  },
+  "compass_preserved_pad_nets": {
+    "1": "I2C_SCL",
+    "2": "3V3",
+    "3": "3V3",
+    "4": "I2C_SDA",
+    "5": "MAG_C1",
+    "6": "GND",
+    "7": "unconnected-(U81-INT_MAG-Pad7)",
+    "8": "GND",
+    "9": "3V3",
+    "10": "3V3",
+    "11": "unconnected-(U81-INT2_XL-Pad11)",
+    "12": "unconnected-(U81-INT1_XL-Pad12)"
+  },
+  "contact_lands_replacement": [
+    {
+      "original_ref": "J1",
+      "original_pin": "1",
+      "new_ref": "CT1",
+      "new_pin": "1",
+      "net": "GND"
+    },
+    {
+      "original_ref": "J1",
+      "original_pin": "2",
+      "new_ref": "CT2",
+      "new_pin": "1",
+      "net": "USB_DM_CONTACT"
+    },
+    {
+      "original_ref": "J1",
+      "original_pin": "3",
+      "new_ref": "CT3",
+      "new_pin": "1",
+      "net": "USB_DP_CONTACT"
+    },
+    {
+      "original_ref": "J1",
+      "original_pin": "4",
+      "new_ref": "CT4",
+      "new_pin": "1",
+      "net": "DOCK_5V"
+    }
+  ],
+  "redundant_sensor_lands_removed_from_new_layout": "J82; same nets connect directly on merged flange; existing body J81 remains unchanged",
+  "recovery_preserved": [
+    "SW1 raw POWER_SWITCH_N to TPS3422 U71",
+    "SW2 MODE_N diode to BOOT_N",
+    "J4 MCU_EN/BOOT/data/UART service access",
+    "USB18/19 via original22ohm/USBLC6 network"
+  ],
+  "firmware_gpio_changes": false,
+  "new_compass_package_to_flange_matrix_required": true,
+  "merged_schematic_or_routing_complete": false,
+  "body_source_mutated": false
+}

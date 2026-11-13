@@ -1,0 +1,1098 @@
+{
+  "status": "pass: native routed lid DRC0/unconnected0 and independent XML pad parity",
+  "checked_at_utc": "2026-11-12T21:52:41.439981+00:00",
+  "kicad_DRC_version": "10.0.8",
+  "KiCad_Python_version": "7.0.7",
+  "source_sha256": {
+    "routed-lid/dock-lid-routed.kicad_pcb": "84dfe4b6f85e200505be174f7ff1094e4013d3e5af827888569d872d35819942",
+    "routed-lid/dock-lid-routed.kicad_pro": "4d70b7bb9076c5876483633e114511859b2b843223cd053d13506695dc6e8a36",
+    "routed-lid/dock-lid-routed.dsn": "e5d96f11aea1aeb5630e1856d113a6cd7c792c264f8ffdde4e17e336cc9df1a2",
+    "routed-lid/dock-lid-routed.ses": "77c56a95a866838bbf6a606854e1ae2cb662c5eba1898e3759e776bfcb6a2459",
+    "routed-lid/first-pass.ses": "8a29615d9dfdfb4e2530bc1cf2d4bcebada45f19960aec6ee0edb44e96aca179",
+    "dock-lid-ui-native.xml": "6c5c32475a597fada90be6c697b707fbdca438c96149c9017451786df398cabb",
+    "native-checks.json": "af951491a9e23c3adfe5412b677a7e9dfa29fa5714824c45948b7a90662cc23b",
+    "route_lid.py": "b86db28a744be763800c5d5128bc45f6f7ad882ee1a7f8ff607bed72d250ec2e",
+    "check_routed_lid.py": "553238f74770e9a04fc7d8948f1e1fd0f09cde01209f0f07f2b9e0dad40ca9fb",
+    "routed-lid/fp-lib-table": "954abf7abb0192f5b77b1dd1728225eb562a45bd6ad442c2c577e03012489f13",
+    "routed-lid/local-copper.json": "37646231431dfee68bb8196d72ff1a07921e1bdc742815817d75c54fba3c792f",
+    "routed-lid/route-floorplan.json": "52ea0196d1e61e3fef32491861aa1cfcdf763937503bad6a887d7bb9b3cf409e",
+    "routed-lid/router-exchange.json": "8285dc65e69122303d62f9faa91ec854c08d393bb3ccdebb80ea1d55cf93eefb",
+    "routed-lid/escape-repair.json": "67931a4bd14b3f15c7aaa3f7c36b6372c15adad99ccfc7d41e24a3117dd81324",
+    "routed-lid/native-finalization.json": "244c759bc88a943bccf0e1cc7a79906fd964f5283b0ce681a192fff2038d887a",
+    "routed-lid/lcd-socket-model-binding.json": "27c8b236f550dffb61850726333e4185c62ecd6ab767d644f4a561d3c1309a2f",
+    "routed-lid/lcd-socket-native-pose.json": "08fd4fbfc98e6d4b2708d49df9dc39ac1aa2848f45d3bf3ce7800bcf2675ff8e",
+    "routed-lid/before-socket-model.kicad_pcb": "a7f45608992ae84fcc229e2492af9244682d75f991f0f522f98c2046b7ecad08",
+    "routed-lid/DockControl.pretty/Molex_52437-2771_1x27-1MP_P0.50mm_Horizontal.kicad_mod": "a6253a9caf02b2dafde9707b0e51aa62b951b10b124248ab3c83ac8db7bbb0ac",
+    "routed-lid/DockControl.pretty/Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal.kicad_mod": "48a8f30c02dc194b37c843c793138bbd3d6debb990ab7fe5079e9f87f8fb1bea",
+    "routed-lid/DockControl.pretty/C_0603_1608Metric.kicad_mod": "dbe2f0d6d8faf51fcd1d89928aacc00cacd17ced2aa863104b0da609911f37bf",
+    "routed-lid/DockControl.pretty/R_0603_1608Metric.kicad_mod": "7362d3e43557af0b828dcd3a404c8c7ead0998cbe6ce31dd6ef83613ef6819c5",
+    "routed-lid/DockControl.pretty/MountingHole_2.3mm_M2_R3_Hardware.kicad_mod": "c9eb5bdd88d7aa0d49bdc2f5de9474d62fb0ff357b36391c5336ae7149411ab3",
+    "routed-lid/DockControl.pretty/C_1206_3216Metric.kicad_mod": "2cd0f7edaacab660a74be93185eaf10d632790c3f9c83e50698390f3aa89f52c",
+    "routed-lid/DockControl.pretty/C_0402_1005Metric.kicad_mod": "2e9b983728d722b521d4c1b1b32b891bf4b8d0edfff8a92f6db68b7a2f2d3c81",
+    "routed-lid/DockControl.pretty/SW_SPST_Omron_B3FS-100xP.kicad_mod": "3a3360f829f48fce65739c563c44e44387e7f524168a062312086b627a39a99d",
+    "DockControl.3dshapes/Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal.step": "b394b3277738e505a3b95dadb5f2b1a005a112860fc541f52d1ab5f42b472ae3",
+    "DockControl.3dshapes/R_0603_1608Metric.step": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "DockControl.3dshapes/Molex_52437-2771_ClosedEnvelope.step": "b5683f882c168abf2d52559af091ec2f5a17a05ffb15a26d3cfe61c8e78bc402",
+    "DockControl.3dshapes/SW_SPST_Omron_B3FS-100xP.step": "b329c059bd0fc4def23f1dbf3a8ab42d79451e42368166bfa454033e4741fdc1",
+    "DockControl.3dshapes/C_1206_3216Metric.step": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a",
+    "DockControl.3dshapes/C_0402_1005Metric.step": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+    "DockControl.3dshapes/C_0603_1608Metric.step": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+  },
+  "reports_sha256": {
+    "drc.json": "0470b8027647144f5b59655c5a7495cac6c0d98ff6b625ac89672ac742e7dbf2"
+  },
+  "electrical_references": 28,
+  "mechanical_NPTH_holes": 4,
+  "physical_electrical_pad_instances": 109,
+  "native_pad_net_checks": {
+    "C301": [
+      {
+        "pin": "1",
+        "net": "LCD_V0",
+        "dock_xy_mm": [
+          -11.0,
+          116.525
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          -11.0,
+          118.075
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "C302": [
+      {
+        "pin": "1",
+        "net": "LCD_V1",
+        "dock_xy_mm": [
+          -9.5,
+          116.525
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          -9.5,
+          118.075
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "C303": [
+      {
+        "pin": "1",
+        "net": "LCD_V2",
+        "dock_xy_mm": [
+          -8.0,
+          116.525
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          -8.0,
+          118.075
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "C304": [
+      {
+        "pin": "1",
+        "net": "LCD_V3",
+        "dock_xy_mm": [
+          -6.5,
+          116.525
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          -6.5,
+          118.075
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "C305": [
+      {
+        "pin": "1",
+        "net": "LCD_V4",
+        "dock_xy_mm": [
+          -5.0,
+          116.525
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          -5.0,
+          118.075
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "C306": [
+      {
+        "pin": "1",
+        "net": "LCD_C2M",
+        "dock_xy_mm": [
+          -3.5,
+          109.725
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "LCD_C2P",
+        "dock_xy_mm": [
+          -3.5,
+          112.675
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "C307": [
+      {
+        "pin": "1",
+        "net": "LCD_C1P",
+        "dock_xy_mm": [
+          -1.0,
+          109.725
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "LCD_C1M",
+        "dock_xy_mm": [
+          -1.0,
+          112.675
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "C308": [
+      {
+        "pin": "1",
+        "net": "LCD_C3P",
+        "dock_xy_mm": [
+          1.5,
+          109.725
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "LCD_C1M",
+        "dock_xy_mm": [
+          1.5,
+          112.675
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "C309": [
+      {
+        "pin": "1",
+        "net": "LCD_VOUT",
+        "dock_xy_mm": [
+          4.0,
+          109.725
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          4.0,
+          112.675
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "C310": [
+      {
+        "pin": "1",
+        "net": "3V3_UI",
+        "dock_xy_mm": [
+          8.0,
+          114.825
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          8.0,
+          116.375
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "C311": [
+      {
+        "pin": "1",
+        "net": "3V3_UI",
+        "dock_xy_mm": [
+          0.52,
+          117.4
+        ],
+        "side": "B.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          1.48,
+          117.4
+        ],
+        "side": "B.Cu"
+      }
+    ],
+    "J301": [
+      {
+        "pin": "1",
+        "net": "GND",
+        "dock_xy_mm": [
+          29.75,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "3V3_UI",
+        "dock_xy_mm": [
+          29.25,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "3",
+        "net": "LCD_DB0",
+        "dock_xy_mm": [
+          28.75,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "4",
+        "net": "LCD_DB1",
+        "dock_xy_mm": [
+          28.25,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "5",
+        "net": "LCD_DB2",
+        "dock_xy_mm": [
+          27.75,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "6",
+        "net": "LCD_DB3",
+        "dock_xy_mm": [
+          27.25,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "7",
+        "net": "LCD_DB4",
+        "dock_xy_mm": [
+          26.75,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "8",
+        "net": "LCD_DB5",
+        "dock_xy_mm": [
+          26.25,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "9",
+        "net": "LCD_DB6",
+        "dock_xy_mm": [
+          25.75,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "10",
+        "net": "LCD_DB7",
+        "dock_xy_mm": [
+          25.25,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "11",
+        "net": "LCD_A0",
+        "dock_xy_mm": [
+          24.75,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "12",
+        "net": "LCD_WRn",
+        "dock_xy_mm": [
+          24.25,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "13",
+        "net": "LCD_CSn",
+        "dock_xy_mm": [
+          23.75,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "14",
+        "net": "LCD_RESETn",
+        "dock_xy_mm": [
+          23.25,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "15",
+        "net": "BTN_LEFTn",
+        "dock_xy_mm": [
+          22.75,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "16",
+        "net": "BTN_CENTERn_RAW",
+        "dock_xy_mm": [
+          22.25,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "17",
+        "net": "BTN_RIGHTn",
+        "dock_xy_mm": [
+          21.75,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "18",
+        "net": "GND",
+        "dock_xy_mm": [
+          21.25,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "19",
+        "net": "GND",
+        "dock_xy_mm": [
+          20.75,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "20",
+        "net": "GND",
+        "dock_xy_mm": [
+          20.25,
+          111.15
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "MP",
+        "net": "GND",
+        "dock_xy_mm": [
+          31.65,
+          114.4
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "MP",
+        "net": "GND",
+        "dock_xy_mm": [
+          18.35,
+          114.4
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "J302": [
+      {
+        "pin": "1",
+        "net": "LCD_V0",
+        "dock_xy_mm": [
+          -6.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "LCD_V1",
+        "dock_xy_mm": [
+          -6.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "3",
+        "net": "LCD_V2",
+        "dock_xy_mm": [
+          -5.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "4",
+        "net": "LCD_V3",
+        "dock_xy_mm": [
+          -5.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "5",
+        "net": "LCD_V4",
+        "dock_xy_mm": [
+          -4.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "6",
+        "net": "unconnected-(J302-MATES_LCD_6-Pad6)",
+        "dock_xy_mm": [
+          -4.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "7",
+        "net": "LCD_C2M",
+        "dock_xy_mm": [
+          -3.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "8",
+        "net": "LCD_C2P",
+        "dock_xy_mm": [
+          -3.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "9",
+        "net": "LCD_C1P",
+        "dock_xy_mm": [
+          -2.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "10",
+        "net": "LCD_C1M",
+        "dock_xy_mm": [
+          -2.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "11",
+        "net": "LCD_C3P",
+        "dock_xy_mm": [
+          -1.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "12",
+        "net": "LCD_VOUT",
+        "dock_xy_mm": [
+          -1.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "13",
+        "net": "3V3_UI",
+        "dock_xy_mm": [
+          -0.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "14",
+        "net": "GND",
+        "dock_xy_mm": [
+          0.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "15",
+        "net": "LCD_DB7",
+        "dock_xy_mm": [
+          0.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "16",
+        "net": "LCD_DB6",
+        "dock_xy_mm": [
+          1.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "17",
+        "net": "LCD_DB5",
+        "dock_xy_mm": [
+          1.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "18",
+        "net": "LCD_DB4",
+        "dock_xy_mm": [
+          2.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "19",
+        "net": "LCD_DB3",
+        "dock_xy_mm": [
+          2.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "20",
+        "net": "LCD_DB2",
+        "dock_xy_mm": [
+          3.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "21",
+        "net": "LCD_DB1",
+        "dock_xy_mm": [
+          3.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "22",
+        "net": "LCD_DB0",
+        "dock_xy_mm": [
+          4.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "23",
+        "net": "3V3_UI",
+        "dock_xy_mm": [
+          4.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "24",
+        "net": "LCD_WRn",
+        "dock_xy_mm": [
+          5.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "25",
+        "net": "LCD_A0",
+        "dock_xy_mm": [
+          5.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "26",
+        "net": "LCD_RESETn",
+        "dock_xy_mm": [
+          6.0,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "27",
+        "net": "LCD_CSn",
+        "dock_xy_mm": [
+          6.5,
+          114.0
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "MP",
+        "net": "GND",
+        "dock_xy_mm": [
+          -8.3,
+          112.5
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "MP",
+        "net": "GND",
+        "dock_xy_mm": [
+          8.3,
+          112.5
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R301": [
+      {
+        "pin": "1",
+        "net": "3V3_UI",
+        "dock_xy_mm": [
+          12.0,
+          109.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "LCD_CSn",
+        "dock_xy_mm": [
+          12.0,
+          110.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R302": [
+      {
+        "pin": "1",
+        "net": "3V3_UI",
+        "dock_xy_mm": [
+          15.0,
+          109.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "LCD_WRn",
+        "dock_xy_mm": [
+          15.0,
+          110.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R303": [
+      {
+        "pin": "1",
+        "net": "LCD_RESETn",
+        "dock_xy_mm": [
+          12.0,
+          105.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          12.0,
+          106.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R304": [
+      {
+        "pin": "1",
+        "net": "LCD_A0",
+        "dock_xy_mm": [
+          15.0,
+          105.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          15.0,
+          106.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R305": [
+      {
+        "pin": "1",
+        "net": "LCD_DB0",
+        "dock_xy_mm": [
+          12.0,
+          101.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          12.0,
+          102.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R306": [
+      {
+        "pin": "1",
+        "net": "LCD_DB1",
+        "dock_xy_mm": [
+          15.0,
+          101.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          15.0,
+          102.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R307": [
+      {
+        "pin": "1",
+        "net": "LCD_DB2",
+        "dock_xy_mm": [
+          12.0,
+          98.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          12.0,
+          99.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R308": [
+      {
+        "pin": "1",
+        "net": "LCD_DB3",
+        "dock_xy_mm": [
+          15.0,
+          98.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          15.0,
+          99.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R309": [
+      {
+        "pin": "1",
+        "net": "LCD_DB4",
+        "dock_xy_mm": [
+          12.0,
+          95.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          12.0,
+          96.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R310": [
+      {
+        "pin": "1",
+        "net": "LCD_DB5",
+        "dock_xy_mm": [
+          15.0,
+          95.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          15.0,
+          96.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R311": [
+      {
+        "pin": "1",
+        "net": "LCD_DB6",
+        "dock_xy_mm": [
+          12.0,
+          92.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          12.0,
+          93.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "R312": [
+      {
+        "pin": "1",
+        "net": "LCD_DB7",
+        "dock_xy_mm": [
+          15.0,
+          92.175
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          15.0,
+          93.825
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "S301": [
+      {
+        "pin": "1",
+        "net": "BTN_LEFTn",
+        "dock_xy_mm": [
+          -26.0,
+          56.25
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "1",
+        "net": "BTN_LEFTn",
+        "dock_xy_mm": [
+          -18.0,
+          56.25
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          -26.0,
+          51.75
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          -18.0,
+          51.75
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "S302": [
+      {
+        "pin": "1",
+        "net": "BTN_CENTERn_RAW",
+        "dock_xy_mm": [
+          -4.0,
+          56.25
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "1",
+        "net": "BTN_CENTERn_RAW",
+        "dock_xy_mm": [
+          4.0,
+          56.25
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          -4.0,
+          51.75
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          4.0,
+          51.75
+        ],
+        "side": "F.Cu"
+      }
+    ],
+    "S303": [
+      {
+        "pin": "1",
+        "net": "BTN_RIGHTn",
+        "dock_xy_mm": [
+          18.0,
+          56.25
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "1",
+        "net": "BTN_RIGHTn",
+        "dock_xy_mm": [
+          26.0,
+          56.25
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          18.0,
+          51.75
+        ],
+        "side": "F.Cu"
+      },
+      {
+        "pin": "2",
+        "net": "GND",
+        "dock_xy_mm": [
+          26.0,
+          51.75
+        ],
+        "side": "F.Cu"
+      }
+    ]
+  },
+  "original_control_socket_hinge_XY_preserved": true,
+  "original_FFC_keepout_preserved": true,
+  "manual_source_copper_records_preserved": 109,
+  "tracks": 360,
+  "vias": 81,
+  "stackup": "4copperlayers/1mm; In1 solidGNDreference; actual dielectric/copper/process supplierapproval open",
+  "B_side_max_case_height_mm": 1.8,
+  "B_side_planned_mounted_clearance_mm": 1.95,
+  "socket_contactheight_and_tail_mating_qualified": false,
+  "native_MCAD_fit_qualified": false,
+  "physical_electrical_or_UV_validation": false,
+  "full_product_order_ready": false
+}

@@ -1,0 +1,40 @@
+{
+  "status": "Discussion concept; no full mold/dock CAD, physical fit or UV efficacy result",
+  "reference_native_sha256": "ed256853cd7b79968c2993927d670df206ee3718927df7bde5aabcfefd847ebd",
+  "source_native": "hardware/cad/manufacturing-layout/ManufacturingLayout.FCStd",
+  "required_assembly_order": [
+    "Secure lower metal body and nut to flange half",
+    "Complete required internals and wiring while open",
+    "Close both rigid plastic flange halves",
+    "Mold one continuous silicone skin over the closed assembly/root"
+  ],
+  "cap_after_molding": "Under discussion; current cap loom requires its flange tails connected while flange is open",
+  "battery_service": "Unresolved: reference 33x8x20 pack cannot pass through 12mm neck; no exposed rear service lid",
+  "tool_candidate": "Lateral split through body axis; schematic only, pull/draft/fill not checked",
+  "case_envelope_mm": {
+    "length": 155,
+    "width": 115,
+    "height": 65,
+    "status": "Rough proposal only; not a CAD fit result"
+  },
+  "uv": {
+    "scope": "Optional enclosed UV-C surface-disinfection investigation",
+    "source_power_dose_time": "Unselected and unvalidated",
+    "sterilization_claim": false,
+    "emitters_off_when_lid_open": true
+  },
+  "image_generation": {
+    "mode": "built-in image generation",
+    "image_path": "developer-docs/docs/assets/overmold-cradle-concept.png",
+    "image_sha256": "345f6c5797981c61d8f39d3824fb5d2b4f488481c7b28c6cebf603d423018371",
+    "initial_prompt": "image-prompt.txt",
+    "edit_prompt": "image-edit-prompt.txt",
+    "style_reference": "https://www.ebay.com/itm/394660376468",
+    "note": "Illustrative appearance; colors, screen, emitters and poses are not selected or dimensionally verified"
+  },
+  "schematic": {
+    "file": "mold-section.svg",
+    "sha256": "eba34554a78ad339e4f8ea778ba3f8b60342d176770ff7df94ad050d55083184",
+    "scope": "Editable not-to-scale diagram, not native CAD"
+  }
+}

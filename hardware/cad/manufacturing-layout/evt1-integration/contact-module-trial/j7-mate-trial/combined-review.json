@@ -1,0 +1,840 @@
+{
+  "status": "Disposable combined placement study; no ECAD/source promotion",
+  "source_mate_trial_sha256": "a246f98e8369445459f6fb27f15f76f4fb674586f113ed2a65a5df46ca3e1108",
+  "source_mechanical_sha256": "5c348efe59825bde7b0c91fa99e66e62f69fff4aa421e58338a5896c09de2b4f",
+  "source_PCB_sha256": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
+  "native_sha256": "dfc2dc4259e04644e73bd546e336e8d87d6070c07d4d4c53d3bcc2cfcee5ed3e",
+  "checker_sha256": "b31c35c20341939413711ed81754bffc52c213099650bdfb875cb62022285c5b",
+  "repair_positions_XZ_mm": {
+    "U75": [
+      6.3,
+      9
+    ],
+    "U71": [
+      -1,
+      -7
+    ]
+  },
+  "disengagement": {
+    "nominal_inserted_depth_mm": 3.0,
+    "separation_before_normal_mm": 0.25,
+    "straight_mm": 3.25,
+    "normal_mm": 8.0,
+    "derivation": "Actual selected header socket front local v-2.475/back+.525 and public housing5 / assembly6.25 mm. Receiver tolerances and actual mating marks still need incoming check."
+  },
+  "empty_region_proofs": {
+    "bounds_mm": [
+      -7.525000000000001,
+      -25.842000000000006,
+      -5.500000000000001,
+      0.7250000000000005,
+      -15.041999999999998,
+      5.500000000000002
+    ],
+    "proofs": [
+      {
+        "part": "ProposedRearHalf",
+        "common_mm3": 0.0
+      },
+      {
+        "part": "ProposedFlangeTray",
+        "common_mm3": 0.0
+      },
+      {
+        "part": "RevisedContinuousSkin",
+        "common_mm3": 0.0
+      }
+    ]
+  },
+  "sampled_mating_poses": [
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        0.0,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        0.125,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        0.25,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        0.375,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        0.5,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        0.625,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        0.75,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        0.875,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        1.0,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        1.125,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        1.25,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        1.375,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        1.5,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        1.625,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        1.75,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        1.875,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        2.0,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        2.125,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        2.25,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        2.375,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        2.5,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        2.625,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        2.75,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        2.875,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        3.0,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        3.125,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "axial",
+      "translation_XY_mm": [
+        3.25,
+        0.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        0.25
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        0.5
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        0.75
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        1.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        1.25
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        1.5
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        1.75
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        2.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        2.25
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        2.5
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        2.75
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        3.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        3.25
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        3.5
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        3.75
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        4.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        4.25
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        4.5
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        4.75
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        5.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        5.25
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        5.5
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        5.75
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        6.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        6.25
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        6.5
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        6.75
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        7.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        7.25
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        7.5
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        7.75
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    },
+    {
+      "leg": "board_normal",
+      "translation_XY_mm": [
+        3.25,
+        8.0
+      ],
+      "clashes": [],
+      "tip_section_access_clashes": []
+    }
+  ],
+  "parts": [
+    {
+      "ref": "U71",
+      "product_XZ_mm": [
+        -1,
+        -7
+      ],
+      "model_checks": [
+        {
+          "geometry": "selected_native",
+          "clashes": [],
+          "bounds_mm": [
+            -1.5,
+            -25.952,
+            -7.715,
+            -0.5,
+            -25.322000000000003,
+            -6.285
+          ],
+          "Tray_distance_mm": 7.309368988202601
+        },
+        {
+          "geometry": "manufacturer_max_material",
+          "clashes": [],
+          "bounds_mm": [
+            -1.525,
+            -25.952,
+            -7.75,
+            -0.47499999999999987,
+            -25.302000000000003,
+            -6.25
+          ],
+          "Tray_distance_mm": 7.260690345068773
+        }
+      ],
+      "native_pad_checks": [
+        {
+          "pin": "1",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 7.570992751967041,
+          "bounds_mm": [
+            -1.5,
+            -25.952,
+            -7.65,
+            -1.0499999999999998,
+            -25.852,
+            -7.3500000000000005
+          ]
+        },
+        {
+          "pin": "2",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 8.02545388155603,
+          "bounds_mm": [
+            -1.5000000000000002,
+            -25.952,
+            -7.15,
+            -1.0999999999999999,
+            -25.852,
+            -6.8500000000000005
+          ]
+        },
+        {
+          "pin": "3",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 8.48274985071128,
+          "bounds_mm": [
+            -1.5000000000000002,
+            -25.952,
+            -6.65,
+            -1.0999999999999999,
+            -25.852,
+            -6.3500000000000005
+          ]
+        },
+        {
+          "pin": "4",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 8.575887633980491,
+          "bounds_mm": [
+            -0.8999999999999999,
+            -25.952,
+            -6.65,
+            -0.4999999999999999,
+            -25.852,
+            -6.3500000000000005
+          ]
+        },
+        {
+          "pin": "5",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 8.111464127221689,
+          "bounds_mm": [
+            -0.8999999999999999,
+            -25.952,
+            -7.15,
+            -0.4999999999999999,
+            -25.852,
+            -6.8500000000000005
+          ]
+        },
+        {
+          "pin": "6",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 7.650664180400836,
+          "bounds_mm": [
+            -0.8999999999999999,
+            -25.952,
+            -7.65,
+            -0.4999999999999999,
+            -25.852,
+            -7.3500000000000005
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "U75",
+      "product_XZ_mm": [
+        6.3,
+        9
+      ],
+      "model_checks": [
+        {
+          "geometry": "selected_native",
+          "clashes": [],
+          "bounds_mm": [
+            4.8999999999999995,
+            -25.952,
+            7.5499999,
+            7.7,
+            -24.4019999,
+            10.4500001
+          ],
+          "Tray_distance_mm": 0.9000000000000004
+        },
+        {
+          "geometry": "manufacturer_max_material",
+          "clashes": [],
+          "bounds_mm": [
+            4.8,
+            -25.952,
+            7.475,
+            7.8,
+            -24.502000000000002,
+            10.524999999999999
+          ],
+          "Tray_distance_mm": 0.7999999999999998
+        }
+      ],
+      "native_pad_checks": [
+        {
+          "pin": "1",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 1.053513695928268,
+          "bounds_mm": [
+            4.499999999999999,
+            -25.952,
+            7.75,
+            5.825,
+            -25.852,
+            8.350000000000001
+          ]
+        },
+        {
+          "pin": "2",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 0.6329840100151479,
+          "bounds_mm": [
+            4.499999999999999,
+            -25.952,
+            8.7,
+            5.825,
+            -25.852,
+            9.3
+          ]
+        },
+        {
+          "pin": "3",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 0.5,
+          "bounds_mm": [
+            4.499999999999999,
+            -25.952,
+            9.649999999999999,
+            5.825,
+            -25.852,
+            10.25
+          ]
+        },
+        {
+          "pin": "4",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 2.7750000000000004,
+          "bounds_mm": [
+            6.7749999999999995,
+            -25.952,
+            9.649999999999999,
+            8.1,
+            -25.852,
+            10.25
+          ]
+        },
+        {
+          "pin": "5",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 2.847812021274909,
+          "bounds_mm": [
+            6.7749999999999995,
+            -25.952,
+            8.7,
+            8.1,
+            -25.852,
+            9.3
+          ]
+        },
+        {
+          "pin": "6",
+          "Tray_common_mm3": 0.0,
+          "Tray_distance_mm": 3.093627084375851,
+          "bounds_mm": [
+            6.7749999999999995,
+            -25.952,
+            7.75,
+            8.1,
+            -25.852,
+            8.350000000000001
+          ]
+        }
+      ]
+    }
+  ],
+  "extra_U75_margin_alternative": {
+    "U75_XZ_mm": [
+      6.3,
+      9
+    ],
+    "manufacturer_max_clashes": [],
+    "max_Tray_distance_mm": 0.7999999999999998,
+    "native_pad_min_Tray_distance_mm": 0.5,
+    "native_pad_Tray_common_mm3": 0.0
+  },
+  "tool": {
+    "candidate": "Ideal-Tek2AE.SA.0",
+    "source": "https://www.ideal-tek.com/public/upload/PDS/2AE.SA.0.IT.pdf",
+    "tip_section_mm": [
+      1.5,
+      0.13
+    ],
+    "access_extension_mm": 8.0,
+    "scope": "Tip cross-section/access reservation only. Whole shank, jaw opening, grip force and safe handling require received tool/connector trial; no full-tool qualification."
+  },
+  "pads_scope": "Exact source native roundrect XY outlines with .10 mm outward solder/inspection keepout; not measured solder shape.",
+  "manufacturer_max_sources": {
+    "U75": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf p12, DS4260 Rev7",
+    "U71": "https://www.ti.com/lit/ds/symlink/tps3422.pdf DRY0006A p26:1.05x1.50x.60, plus .05mm solder seating allowance"
+  },
+  "physical_validation": false
+}

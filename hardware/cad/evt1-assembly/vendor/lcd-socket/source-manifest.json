@@ -1,0 +1,148 @@
+{
+  "selected_manufacturer": "Molex",
+  "selected_MPN": "52437-2771",
+  "selection": "27-way0.5mm pitch bottom-contact horizontal slide-lock FFC/FPC socket",
+  "CAD": {
+    "manufacturer_original_URL": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/3dcadmodels/524/52437/524372771_stp.zip",
+    "authorized_distributor_product_URL": "https://www.newark.com/pt-BR/molex/52437-2771/ffc-fpc-conn-rcpt-27pos-1-row/dp/56R1712",
+    "authorized_distributor_CAD_link": "https://www.farnell.com/cad/1984312.zip",
+    "retrieval": "Newark CAD Multiple Formats EN link; Chrome supported downloadMedia downloaded Farnell archive; no account or signup",
+    "retrieved_date": "2026-11-12",
+    "archive_SHA256": "65a2fdc65894b7475883405a356b52feb2830de77bf5dc539e9603a6313d8627",
+    "archive_member": "524372771.stp",
+    "source_STEP_SHA256": "d5672a336735ddad3354496a4e732e10df378164f574a02ad6431cc5a0de58a4",
+    "source_STEP_bytes": 1503541,
+    "STEP_header_date": "2013-08-20",
+    "authoring_system": "PRO/ENGINEER2011490",
+    "schema": "CONFIG_CONTROL_DESIGN/AP203",
+    "actual_geometry": "2 valid solids/1001faces. Housing+27contacts are fused as one OEM solid; separate slide actuator is the second.",
+    "source_pose": "Open",
+    "modified_pose": "Optional rigid1.6mm actuator translation for closed outer envelope; no spring deformation modeled.",
+    "redistribution_license": "Archive contains STEP only, no license text. Project publication/license review remains open."
+  },
+  "drawing": {
+    "title": "SD-52437-019",
+    "revision": "F",
+    "date": "2018-03-14",
+    "manufacturer_URL": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/524/52437/524373071_sd.pdf",
+    "mirror_URL": "https://media.distrelec.com/Web/Downloads/_d/wg/52437-3071_eng_dwg.pdf",
+    "local_reference_outside_repository": "/private/tmp/compass-display/52437-mirror.pdf",
+    "SHA256": "6f146c0e7c2bcedde342736818a236303f0b022c88ee208daa86c789b13e8172",
+    "page1": [
+      "52437-2771 row:27circuits,A13.0/B14.15/C18.1/D20.1mm",
+      "0.5mm pitch,2mm body maximumheight",
+      "Open6.1 vsclosed4.5mm gives1.6mm latch stroke",
+      "Reference insertiondepth(3mm); tip-to-contactpoint(1.7mm)",
+      "Solder-tail/fitting-nail Hdatum upper0.1/lower0.15mm maximum; tailcoplanarity0.1mm maximum"
+    ],
+    "page2": [
+      "27signal lands on0.5mm pitch and0.8mm landlength;0.2mm frontlandedge-to-housingrear reference",
+      "Housingrear0.6mm ahead oflandrowcentre (0.8/2+0.2)",
+      "Recommended0.3\u00b10.05mm finishedFFC/FPC thickness,4\u00b10.5mm exposedland,6\u00b10.5mm stiffener"
+    ],
+    "publication": "PDF kept outside repository; provenance and selected dimensional interpretation only."
+  },
+  "source_to_board": {
+    "origin": "J302 signal-land-row centre in PCBfront(H)referenceplane",
+    "matrix_rows": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1,
+        -0.6
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "pin1_centre_mm": [
+      -6.5,
+      0,
+      0
+    ],
+    "pin27_centre_mm": [
+      6.5,
+      0,
+      0
+    ],
+    "mouth_vector": [
+      0,
+      -1,
+      0
+    ],
+    "component_up_vector": [
+      0,
+      0,
+      1
+    ],
+    "tail_lowest_local_Z_mm": -0.04,
+    "unqualified": "Solder/coplanarity and loaded FPC contact-height registration."
+  },
+  "trial_mount": {
+    "equal_stack_only": true,
+    "mount_dock_XY_mm": [
+      [
+        -30,
+        65
+      ],
+      [
+        30,
+        65
+      ],
+      [
+        -32,
+        115
+      ],
+      [
+        32,
+        105
+      ]
+    ],
+    "shim_OD_mm": 5.2,
+    "shim_ID_mm": 2.3,
+    "proposed_roof_seat_global_Z_mm": 61.5,
+    "shim_stack_range_mm": [
+      0.5,
+      1.5
+    ],
+    "PCBfront_resulting_global_Z_mm": [
+      60.0,
+      61.0
+    ],
+    "initial_fixture_PCBfront_global_Z_mm": 60.5,
+    "initial_equal_shim_stack_mm": 1.0,
+    "bosses_screws_roof_pockets": "Parent assembly owns these. NBK SNSS-M2-6 selected by parent; not modeled by this helper.",
+    "range_collision_status": "Parent must check screws, Bside parts, UVarms, liner and cap mechanics at actual interval endpoints; not yet physically qualified."
+  },
+  "qualification": {
+    "OEM_solid_integrity": true,
+    "contact_height_qualified": false,
+    "loaded_FPC_mating_qualified": false,
+    "longitudinal_overlap_only": true,
+    "CAD_revision_matches_received_part": false,
+    "socket_20cycle_life_mating_trial_pending": true,
+    "full_product_build_release": false
+  },
+  "limitations": [
+    "Manufacturer CAD2013 predates referenced drawing2018. Internal openmodel geometry is not a loadedcontact specification.",
+    "Closed-envelope rigid translation creates0.00407mm3 internal commonvolume; omitted compliance is not credited as clearance.",
+    "Newhaven exposedland3\u00b10.2mm andstiffener5\u00b11mm differ fromMolex recommended4\u00b10.5 and6\u00b10.5. Receivedfit, latchaction and27waycontinuity must be qualified.",
+    "Fixedtail is0.675222mm deeper than drawingreference3mm, although it remains0.324778mm before modeled intercontact rearwalls. No axialstop qualification.",
+    "Neither undersideY0.905 nor any measuredterminalarc is assignedasloadedcopperplane. Checksurfacenormals, geometry-datums.json and receivedparts."
+  ]
+}

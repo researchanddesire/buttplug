@@ -1,7 +1,7 @@
 {
-  "native_sha256": "63a01f9fcf914b916b1394dc012b9321595c5a6dfd283339231015eaabfd14c9",
+  "native_sha256": "ed256853cd7b79968c2993927d670df206ee3718927df7bde5aabcfefd847ebd",
   "source_native_sha256": "6e9a5f3594c5628ba84675f2e3a2ac10b5b7cee52fe410d78996141e90d18571",
-  "builder_sha256": "a1ffebb7ea8f839d5e91ae5198121b2e572e8c490ef862b013965d2c943a3e20",
+  "builder_sha256": "7795104a7861c661b5fef73242b4b33729a5a29aef9ed7d20b57344c91ebf17f",
   "main_rigid_custom_parts": [
     "MetalBody",
     "MotorThermistorCap",
@@ -9,12 +9,12 @@
     "RearCover"
   ],
   "native_object_names": {
-    "MetalBody": "FaceGlandBottomRadii",
+    "MetalBody": "BodyCollarFlat1",
     "MotorThermistorCap": "CapCut2",
     "FlangeTray": "PCBPostFrontCore1",
     "RearCover": "MagnetPocket1"
   },
-  "manufacturing_intent": "Exactly two custom metal parts: CNC-turned body and cap. One offset axial sensor drill on cap, not pure two-axis turning.",
+  "manufacturing_intent": "Two main custom metal parts: turned body with two indexed collar flats and turned cap with one offset sensor drill. Additional catalog-type thin nut is not vendor CAD or selected hardware.",
   "body_bore": "12mm neck through bore, conical transition Y26..33, 28mm straight front bore; no internal bulge undercut",
   "cap_joint": {
     "seam_Y_mm": 64,
@@ -34,24 +34,60 @@
   },
   "rear_joint": {
     "shoulder_OD_mm": 24,
-    "spigot_OD_mm": 18,
+    "shoulder_Y_mm": -8,
     "bore_mm": 12,
-    "tray_socket_ID_mm": 18.2,
-    "socket_bearing_thickness_mm": 2,
-    "ring_groove_diameter_mm": 17,
-    "ring_groove_width_mm": 1.3,
-    "ring_groove_Y_mm": [
-      -11.4,
-      -10.1
+    "stub_end_Y_mm": -14.25,
+    "shoulder_to_stub_tip_mm": 6.25,
+    "collar_OD_mm": 20,
+    "collar_AF_mm": 18.4,
+    "collar_Y_mm": [
+      -9.5,
+      -8
     ],
-    "ring_candidate": "DIN 471 18x1.2 / Rotor Clip DSH18; material/finish/load qualification pending",
-    "ring_geometry": "Approximate installed envelope/lugs; not vendor CAD",
-    "status": "Catalog dimensions matched at nominal only; tolerances, groove edge radius, material/load and installation review pending",
-    "axial_path": "Body shoulder/tray root pad/standard retaining ring; rear cover does not retain metal",
-    "torsion_path": "Bonded spigot/socket; ring is NOT antirotation",
-    "wet_boundary": "Continuous silicone boot bonded over recessed root OD19.5mm bond land Y-7..-3, flush to OD21mm upper shoulder; only cuff section modeled, full boot/contact seals pending",
-    "nominal_geometric_axial_freeplay_mm": 0.2,
-    "groove_rear_edge_margin_mm": 1.6
+    "socket_OD_mm": 20.2,
+    "socket_AF_mm": 18.6,
+    "socket_bearing_thickness_mm": 2,
+    "collar_setback_from_nut_face_mm": 0.5,
+    "rear_thread_callout": "M18x1 proposed6g/6H; pilot/root envelopes only, NO helical teeth",
+    "male_basic_root_diameter_mm": 16.773130000000002,
+    "full_male_thread_Y_mm": [
+      -13.75,
+      -10.25
+    ],
+    "full_male_thread_length_mm": 3.5,
+    "thread_relief": {
+      "OD_mm": 16.4,
+      "Y_mm": [
+        -10.25,
+        -9.5
+      ]
+    },
+    "tip_lead_Y_mm": [
+      -14.25,
+      -13.75
+    ],
+    "nut": {
+      "object_name": "ThinRearNut",
+      "AF_mm": 24,
+      "thickness_mm": 4,
+      "Y_mm": [
+        -14,
+        -10
+      ],
+      "female_pilot_diameter_mm": 17,
+      "source": "Festo SIED mounting-nut dimensions: M18x1,24AF,4mm nominal; generic chamfers, not vendor CAD. ifm E10028 confirms an available stainless M18x1 nut type, not this envelope certification."
+    },
+    "nut_lock": "OPEN: no tab washer, safety wire, rivet, threadlocker or other lock selected/modelled",
+    "axial_path": "Body shoulder/tray2mm root pad/thin nut; collar recessed so nut clamps plastic. No compression limiter. Preload and pull-through unqualified.",
+    "torsion_path": "Opposing collar flats and matching tray socket; no socket adhesive credited",
+    "wet_boundary": "Bonded boot cuff over unchanged recessed OD19.5 land Y-7..-3, flush to OD21 upper shoulder. Full boot/service closure unfinished",
+    "nut_well": {
+      "front_OD_mm": 28.6,
+      "front_Y_mm": -10,
+      "draft_degrees": 2,
+      "approximate_local_wall_mm": 1.25
+    },
+    "status": "User-approved threaded-stub/thin-nut direction; nominal modeled study. Final nut/material/tolerances/torque, nut locking, creep and loads OPEN"
   },
   "cap_motor": {
     "pocket_diameter_mm": 11.1,
@@ -81,7 +117,17 @@
   "plastic_post_coring": "Front-access cores: case posts9.2mm deep, PCB seats9.4mm deep,0.5deg core draft; closed webs remain behind pilots/seats. Screw engagement/strip/creep still unqualified",
   "nominal_plastic_wall_mm": 1.6,
   "shell_draft_degrees": 2,
-  "case_fasteners": "Two M2x6 concept into cored plastic pilots atX6,Z+/-13; final thread form/material/torque/engagement pending. Cover closure only.",
+  "case_fasteners": "Two M2x6 concept into cored plastic pilots atX12,Z+/-13; final thread form/material/torque/engagement pending. Cover closure only.",
+  "flange_repackaging": {
+    "PCB_seat_X_mm": -15.2,
+    "case_screw_X_mm": 12,
+    "unselected_pack_rearward_shift_from_ring_study_mm": 1.5,
+    "pack_bounds_Y_mm": [
+      -22.5,
+      -14.5
+    ],
+    "note": "CAD-only PCB tab/post changes; routed boards and actual pack/loom not qualified"
+  },
   "magnet_axes_XZ_mm": [
     [
       -38.5,
@@ -99,13 +145,13 @@
   "unexpected_hard_part_intersections": [],
   "noncritical_tool_radii_mm": {
     "body_bore_transitions": 0.4,
-    "rear_spigot_root": 0.3,
+    "rear_collar_root_before_flats": 0.3,
     "gland_bottom": 0.1,
     "tray_socket_front_chamfer": 0.5,
-    "limits": "Ring/gland and thread relief corner radii require matched catalog/tool callouts; motor-seat corner awaits actual case edge"
+    "limits": "Collar-flat terminations and thread relief/gland corners need supplier callouts; motor-seat corner awaits actual case edge"
   },
   "metal_volumes_mm3": {
-    "MetalBody": 17902.128403262137,
+    "MetalBody": 18057.035380410314,
     "MotorThermistorCap": 14927.009355141925
   },
   "electrical_changes_required": [
@@ -117,8 +163,9 @@
   "dfm_sources": [
     "https://www.protolabs.com/en-gb/services/cnc-machining/cnc-turning/",
     "https://www.protolabs.com/resources/design-tips/mastering-complex-features-on-machined-parts/",
-    "https://www.smalley.com/engineering-support/ring-design",
-    "https://www.rotorclip.com/product/dsh-18/",
+    "https://www.festo.com/media/catalog/205036_documentation.pdf",
+    "https://www.ifm.com/gb/en/product/E10028",
+    "https://medias.schaeffler.cn/en/plp/Retainers",
     "https://www.applerubber.com/seal-design-guide/seal-types-and-gland-design/o-ring-installation/",
     "https://www.fictiv.com/articles/fictiv-cnc-machining-design-guide",
     "https://hlhrapid.com/wp-content/uploads/2022/07/CNC-Machining-Design-Guide.pdf",
@@ -128,101 +175,376 @@
     "https://guhring.com/Downloads/Item/9064050025000",
     "https://www.haimer.com/shop/catalog/downloads/files/Tool-holders/Tool-holders_US.pdf"
   ],
-  "scope": "DFM review study only. No material/stock supplier selected. Thread/ring fits, seal/boot, root bond qualification, case creep, actual loom, tip drilling, machining tooling, mass/wear and physical tests outstanding. Eight angular/nine axial rigid-module samples and approximate closed plier envelope are finite screens; no full thread/elastic ring/harness motion proof. Eight angular/nine axial rigid-module samples and approximate closed plier envelope are finite screens; no full thread/elastic ring/harness motion proof.",
-  "ring_installation_reservation_samples": {
-    "samples": [
+  "scope": "DFM review study only. No material/stock supplier selected. Rear/nose thread fits and strength, nut lock, seal/boot, keyed-root strength/creep/pull-through, actual loom, tip drilling, machining/tooling, mass/wear and physical tests outstanding. Eight angular/nine axial cap-module poses plus rear nut/loading/driver/key samples are finite screens, not thread/harness/tool-force or physical assembly approval.",
+  "rear_joint_geometry_screen": {
+    "nut_all_angle_reservation_loading_samples": [
       {
-        "radial_scale": 1,
         "Y_translation_mm": 0,
-        "intersection_with_tray_mm3": 0.0
+        "intersections_mm3": {
+          "body_root_envelope": 0.0,
+          "tray": 0.0
+        }
       },
       {
-        "radial_scale": 1,
+        "Y_translation_mm": -0.5,
+        "intersections_mm3": {
+          "body_root_envelope": 0.0,
+          "tray": 0.0
+        }
+      },
+      {
         "Y_translation_mm": -1,
-        "intersection_with_tray_mm3": 0.0
+        "intersections_mm3": {
+          "body_root_envelope": 0.0,
+          "tray": 0.0
+        }
       },
       {
-        "radial_scale": 1,
         "Y_translation_mm": -2,
-        "intersection_with_tray_mm3": 0.0
+        "intersections_mm3": {
+          "body_root_envelope": 0.0,
+          "tray": 0.0
+        }
       },
       {
-        "radial_scale": 1,
         "Y_translation_mm": -4,
-        "intersection_with_tray_mm3": 0.0
+        "intersections_mm3": {
+          "body_root_envelope": 0.0,
+          "tray": 0.0
+        }
       },
       {
-        "radial_scale": 1,
         "Y_translation_mm": -8,
-        "intersection_with_tray_mm3": 0.0
+        "intersections_mm3": {
+          "body_root_envelope": 0.0,
+          "tray": 0.0
+        }
       },
       {
-        "radial_scale": 1,
         "Y_translation_mm": -12,
-        "intersection_with_tray_mm3": 0.0
+        "intersections_mm3": {
+          "body_root_envelope": 0.0,
+          "tray": 0.0
+        }
       },
       {
-        "radial_scale": 1.035,
-        "Y_translation_mm": 0,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.035,
-        "Y_translation_mm": -1,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.035,
-        "Y_translation_mm": -2,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.035,
-        "Y_translation_mm": -4,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.035,
-        "Y_translation_mm": -8,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.035,
-        "Y_translation_mm": -12,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.0705882352941176,
-        "Y_translation_mm": 0,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.0705882352941176,
-        "Y_translation_mm": -1,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.0705882352941176,
-        "Y_translation_mm": -2,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.0705882352941176,
-        "Y_translation_mm": -4,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.0705882352941176,
-        "Y_translation_mm": -8,
-        "intersection_with_tray_mm3": 0.0
-      },
-      {
-        "radial_scale": 1.0705882352941176,
-        "Y_translation_mm": -12,
-        "intersection_with_tray_mm3": 0.0
+        "Y_translation_mm": -20,
+        "intersections_mm3": {
+          "body_root_envelope": 0.0,
+          "tray": 0.0
+        }
       }
     ],
-    "limits": "Conservative scaled approximate catalog outline. Not actual ring strain, plier kinematics, vendor CAD or full continuous-path certification."
+    "body_indexed_axial_loading_samples": [
+      {
+        "Y_translation_mm": 0,
+        "intersections_mm3": {
+          "body": 0.0,
+          "thread_major_diameter": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": 0.25,
+        "intersections_mm3": {
+          "body": 0.0,
+          "thread_major_diameter": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": 0.5,
+        "intersections_mm3": {
+          "body": 0.0,
+          "thread_major_diameter": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": 1,
+        "intersections_mm3": {
+          "body": 0.0,
+          "thread_major_diameter": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": 2,
+        "intersections_mm3": {
+          "body": 0.0,
+          "thread_major_diameter": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": 4,
+        "intersections_mm3": {
+          "body": 0.0,
+          "thread_major_diameter": 0.0
+        }
+      },
+      {
+        "Y_translation_mm": 8,
+        "intersections_mm3": {
+          "body": 0.0,
+          "thread_major_diameter": 0.0
+        }
+      }
+    ],
+    "axial_driver_rotation_samples": [
+      {
+        "angle_deg": 0,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.4031128874149261
+      },
+      {
+        "angle_deg": 15,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.4031128874149261
+      },
+      {
+        "angle_deg": 30,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492635
+      },
+      {
+        "angle_deg": 45,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492607
+      },
+      {
+        "angle_deg": 60,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492607
+      },
+      {
+        "angle_deg": 75,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.4031128874149261
+      },
+      {
+        "angle_deg": 90,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.4031128874149261
+      },
+      {
+        "angle_deg": 105,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.4031128874149261
+      },
+      {
+        "angle_deg": 120,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492607
+      },
+      {
+        "angle_deg": 135,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492607
+      },
+      {
+        "angle_deg": 150,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492624
+      },
+      {
+        "angle_deg": 165,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.4031128874149261
+      },
+      {
+        "angle_deg": 180,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.4031128874149261
+      },
+      {
+        "angle_deg": 195,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492596
+      },
+      {
+        "angle_deg": 210,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492607
+      },
+      {
+        "angle_deg": 225,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492607
+      },
+      {
+        "angle_deg": 240,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492607
+      },
+      {
+        "angle_deg": 255,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.4031128874149262
+      },
+      {
+        "angle_deg": 270,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.4031128874149261
+      },
+      {
+        "angle_deg": 285,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492635
+      },
+      {
+        "angle_deg": 300,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492607
+      },
+      {
+        "angle_deg": 315,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492607
+      },
+      {
+        "angle_deg": 330,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.40311288741492607
+      },
+      {
+        "angle_deg": 345,
+        "intersections_mm3": {
+          "body": 0.0,
+          "tray": 0.0,
+          "nut_with_clearance": 0.0
+        },
+        "tray_clearance_mm": 0.4031128874149261
+      }
+    ],
+    "minimum_driver_to_tray_mm": 0.40311288741492596,
+    "nut_sweep_to_sidewalls_mm": 0.4106951635768047,
+    "key_rotation_blocking_samples": [
+      {
+        "illustrative_axial_float_mm": 0,
+        "angle_deg": -3,
+        "blocking_intersection_mm3": 0.19182460112265148
+      },
+      {
+        "illustrative_axial_float_mm": 0,
+        "angle_deg": 3,
+        "blocking_intersection_mm3": 0.19182456293334316
+      },
+      {
+        "illustrative_axial_float_mm": 0,
+        "angle_deg": 90,
+        "blocking_intersection_mm3": 8.966695142105436
+      },
+      {
+        "illustrative_axial_float_mm": 0.3,
+        "angle_deg": -3,
+        "blocking_intersection_mm3": 0.1359999880907572
+      },
+      {
+        "illustrative_axial_float_mm": 0.3,
+        "angle_deg": 3,
+        "blocking_intersection_mm3": 0.1359999492516376
+      },
+      {
+        "illustrative_axial_float_mm": 0.3,
+        "angle_deg": 90,
+        "blocking_intersection_mm3": 6.693188150097207
+      }
+    ],
+    "two_indexed_installation_orientations_degrees": [
+      0,
+      180
+    ],
+    "nut_to_unselected_pack_mm": 0.5,
+    "body_to_unselected_pack_mm": 0.25,
+    "limits": "Finite rigid screens and smooth thread envelopes. Driver is an unqualified two-jaw reservation, not a selected commercial tool. Boards/pack/loom/cover absent during tightening. No thread helix, strength, installation force, creep or positive nut lock proof. Illustrative axial float is not an accepted creep limit."
   },
   "sensor_tooling_candidate": {
     "drill": "Guhring9064050025000:2.5mm diameter,4mm shank,20mm flute,62mmOAL,140deg; catalogtmax16.25mm",
@@ -259,14 +581,20 @@
       "nominal_simple_area_fill_fraction": 0.629325451440263,
       "limits": "Cross-section approximation; does not include gland corner volumes, diameter/volume tolerances, stretch, pressure direction or swell"
     },
-    "root_bond_radial_gap_mm": [
-      0.0649999999999995,
-      0.1349999999999998
+    "rear_key_diametrical_clearance_mm": [
+      0.129999999999999,
+      0.2699999999999996
     ],
-    "root_axial_capture_clearance_mm": [
-      0.050000000000000044,
-      0.41000000000000036
+    "rear_key_clearance_across_flats_mm": [
+      0.120000000000001,
+      0.2799999999999976
     ],
+    "collar_setback_from_nut_bearing_face_mm": [
+      0.34999999999999987,
+      0.6500000000000001
+    ],
+    "rear_thread_nominal_root_wall_mm": 2.386565000000001,
+    "rear_thread_relief_nominal_wall_mm": 2.1999999999999993,
     "tool_bar_candidates": {
       "large_bore": {
         "diameter_mm": 12,
@@ -282,29 +610,36 @@
       }
     },
     "mass": {
-      "net_metal_cm3": 32.79735449547013,
+      "net_metal_cm3": 32.913757093656194,
       "illustrative_density_g_cm3": 8,
-      "illustrative_metal_only_mass_g": 262.37883596376105,
+      "illustrative_metal_only_mass_g": 263.31005674924955,
       "limits": "Illustrative density only, no alloy selected; excludes electronics/pack/soft goods"
     }
   },
-  "verifier_sha256": "7a122db5923d3aacea76820bdfb45c298fe81f36655e701a540ca2cf2b5595d8",
+  "gland_fillet_partition_check": {
+    "method": "OCCT BRepGProp VolumePropertiesGK, eps1e-10",
+    "added_adaptive_mm3": 0.44766319140285304,
+    "removed_mm3": 0.0,
+    "partition_residual_mm3": -3.706688858073903e-07,
+    "limits": "Default Volume on spline surfaces drifts; use adaptive masses for weight estimates. Geometry/STEP acceptance still separate from physical production."
+  },
+  "verifier_sha256": "808dc320763a8f6adecac092fdb97550c627d45174de73ae3be7b69d90009b59",
   "verified_parts": {
     "MetalBody": {
-      "native_adaptive_volume_mm3": 17870.34222812343,
-      "STEP_adaptive_volume_delta_mm3": 2.264554495923221e-05,
+      "native_adaptive_volume_mm3": 17986.7448263095,
+      "STEP_adaptive_volume_delta_mm3": 8.041444016271271e-05,
       "optimal_bounds_xyz_mm": [
         -18.669085398110735,
-        -13.0000001,
+        -14.2500001,
         -18.669085398110735,
         18.669085398110735,
         64.0000001,
         18.669085398110735
       ],
       "valid_single_solid": true,
-      "native_default_volume_mm3": 17902.128403262133,
-      "STEP_volume_delta_mm3": 2.353831587242894e-05,
-      "STEP_sha256": "17791152a014f5133537aa80646399557d2752985828926b105396c491751fb5"
+      "native_default_volume_mm3": 18057.035380410318,
+      "STEP_volume_delta_mm3": 5.195625271880999e-05,
+      "STEP_sha256": "67082a073f4df2aa6c0fd00be584a7c9c3a0d63805c480b26ab769b0af33b2da"
     },
     "MotorThermistorCap": {
       "native_adaptive_volume_mm3": 14927.0122673467,
@@ -320,25 +655,25 @@
       "valid_single_solid": true,
       "native_default_volume_mm3": 14927.009355141925,
       "STEP_volume_delta_mm3": 0.0029062613139103632,
-      "STEP_sha256": "827e5f7ad4463fac6f9eb3884124e2773261102e501cef3697c94b11ed74c9ba"
+      "STEP_sha256": "85d1ed65131e144f911907fdd296d569567a265ba7d4b693c232ed86fe6c0fb7"
     },
     "FlangeTray": {
-      "native_adaptive_volume_mm3": 9210.414927941256,
-      "STEP_adaptive_volume_delta_mm3": 7.71524355513975e-08,
+      "native_adaptive_volume_mm3": 9104.635417952837,
+      "STEP_adaptive_volume_delta_mm3": 7.635026122443378e-08,
       "optimal_bounds_xyz_mm": [
         -44.0000001,
-        -22.9000001,
+        -22.900000100000035,
         -16.0000001,
         44.0000001,
         -7.9999999,
         16.0000001
       ],
       "valid_single_solid": true,
-      "native_default_volume_mm3": 9210.41492794128,
-      "STEP_volume_delta_mm3": 8.163442544173449e-08,
-      "STEP_sha256": "932dd3d8e0eedc8cc405874ee55184ed3b57297ddb4c845df3658434cb6ed5dc",
+      "native_default_volume_mm3": 9104.635417952855,
+      "STEP_volume_delta_mm3": 7.960625225678086e-08,
+      "STEP_sha256": "608a9b2293ee8eb5f2079a6111308a99058f2319637ee47b749e6dfcd1110da6",
       "STL_closed": true,
-      "STL_sha256": "f432d409dbb4c84ddee50bd1c920e26e2d921c38283a7c8572b18b6f028d6085"
+      "STL_sha256": "6d219f93fc6ee2f8b8432dfd521345c5147ad76398b0688f39ad32715a62b9ec"
     },
     "RearCover": {
       "native_adaptive_volume_mm3": 4457.439649736814,
@@ -353,10 +688,26 @@
       ],
       "valid_single_solid": true,
       "native_default_volume_mm3": 4457.439649736819,
-      "STEP_volume_delta_mm3": 6.366462912410498e-12,
-      "STEP_sha256": "f514c9ee4a43add145d6f32dce39cf6ea04a7769cd5d44dae4e85efc9456bb83",
+      "STEP_volume_delta_mm3": 7.275957614183426e-12,
+      "STEP_sha256": "99212de40c7474de85612d6442b189745682d5f67354ea97b15f68eef2346e75",
       "STL_closed": true,
-      "STL_sha256": "497a467dae4157519aec1400d8397eb190551391c2f578c11fc445d86a6965c0"
+      "STL_sha256": "f9759d7205115568ed7b9e8993302b1f68243aadcefea180007e6ed948378699"
+    },
+    "ThinRearNut": {
+      "native_adaptive_volume_mm3": 1068.2307450930687,
+      "STEP_adaptive_volume_delta_mm3": -8.489459332849947e-06,
+      "optimal_bounds_xyz_mm": [
+        -12.000000000000007,
+        -14.0,
+        -13.856406460551021,
+        12.000000000000002,
+        -9.999999999999998,
+        13.856406460551023
+      ],
+      "valid_single_solid": true,
+      "native_default_volume_mm3": 1068.2307450819585,
+      "STEP_volume_delta_mm3": -1.7630723050388042e-05,
+      "STEP_sha256": "0286ed6a2c461945c3b4f16592837320752df050e50ce08006a1cea8e3dd9c4b"
     }
   },
   "rigid_module_rotation_samples": [
@@ -431,26 +782,24 @@
       "intersection_with_body_mm3": 0.0
     }
   ],
-  "body_rotational_invariance_symmetric_difference_mm3": 0.0,
-  "approximate_ring_plier_access": {
-    "geometry": "X10..27,Y-22..-12,Z+/-4.5 plus0.75radius pins; closed tool clearance only before board/pack installation",
-    "intersections_mm3": {
-      "body": 0.0,
-      "tray": 0.0
-    },
-    "limits": "Not vendor tool geometry, not ring expansion, not physical access acceptance"
+  "front_body_rotational_invariance_symmetric_difference_mm3": 0.0,
+  "baseline_geometry_comparison": {
+    "baseline_native_sha256": "63a01f9fcf914b916b1394dc012b9321595c5a6dfd283339231015eaabfd14c9",
+    "body_above_Y_minus7_symmetric_difference_mm3": 0.0,
+    "cap_symmetric_difference_mm3": 0.0,
+    "scope": "Checks preserved neck/body front and cap geometry, not physical acceptance"
   },
-  "geometry_checked_native_sha256_before_view": "eff41678ae1c5d37f14439bc93cebcfafd1c55c2bb47c79d0cb5f7b8abc3cbf2",
+  "geometry_checked_native_sha256_before_view": "be51368ef1da91ba774f0bea6b1bedde2bee794ef1e05d845ba65cbd00a2b632",
   "view_configuration": {
     "configurator_sha256": "d0384c57a8e7770e68b559ab7f7a065e9f63707795e39d9c91ae815ed13b9a78",
     "all_non_GUI_archive_entries_unchanged": true,
     "visible_objects": [
+      "BodyCollarFlat1",
       "BodyElectronicsReference",
       "BootCuffBlank",
       "CapCut2",
       "CapFaceSealProcessSpace",
       "ComponentReferences",
-      "FaceGlandBottomRadii",
       "FlangeElectronicsMechanicalProposal",
       "GroundTargetReference",
       "MagnetPocket1",
@@ -463,22 +812,14 @@
       "PackNTCReference2",
       "PositiveTargetReference",
       "ProductParts",
-      "RootSocketBondProcessSpace",
       "StandardFoamSpacerLeft",
       "StandardFoamSpacerRight",
-      "StandardRetainingRingEnvelope",
       "StandardSoftGoods",
+      "ThinRearNut",
       "TipPottingProcessSpace",
       "TipThermistorHeadReference",
       "UnselectedPackReference"
     ],
     "construction_stock_and_cutters_hidden": true
-  },
-  "gland_fillet_partition_check": {
-    "method": "OCCT BRepGProp VolumePropertiesGK, eps1e-10",
-    "added_adaptive_mm3": 0.44766319140285304,
-    "removed_mm3": 0.0,
-    "partition_residual_mm3": -6.626312369917287e-07,
-    "limits": "Default Volume on spline surfaces drifts; use adaptive masses for weight estimates. Geometry/STEP acceptance still separate from physical production."
   }
 }

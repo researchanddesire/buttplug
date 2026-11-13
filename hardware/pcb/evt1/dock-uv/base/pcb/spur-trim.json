@@ -1,0 +1,49 @@
+{
+  "before_sha256": "40336e38762cbde9920bebab2d8b4889b3b17176de74f654708411c8d6bd7cd4",
+  "after_sha256": "fa7c5f4dfa40297a74c9d4eca56042c5ed2738433fcbfe6c08a6e9928abd9835",
+  "script_sha256": "692e2051018596588f47d234d88629a5332d48a8ca0c9afd619d8a2acbeb94fd",
+  "native_findings_only": [
+    {
+      "uuid": "597c7616-dec7-49d0-b737-14d60fa33dc2",
+      "net": "LOOP_A_RAW",
+      "action": "trim to surviving anchors",
+      "anchors": [
+        [
+          0,
+          [
+            4.375,
+            129.65
+          ]
+        ],
+        [
+          0.5,
+          [
+            4.375,
+            130.375
+          ]
+        ]
+      ]
+    },
+    {
+      "uuid": "9636d7cf-fdde-4307-8b8a-0053b2deb2aa",
+      "net": "Track [UV_CTRL] on B.Cu, length 1.4500 mm",
+      "action": "delete free spur",
+      "anchors": [
+        [
+          0,
+          [
+            -1.875,
+            129.65
+          ]
+        ],
+        [
+          0,
+          [
+            -1.875,
+            129.65
+          ]
+        ]
+      ]
+    }
+  ]
+}

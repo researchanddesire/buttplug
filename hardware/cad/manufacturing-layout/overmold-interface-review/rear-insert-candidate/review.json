@@ -1,0 +1,415 @@
+{
+  "scope": "Inert casting-tool review, with native product references and sampled removal",
+  "legacy_geometry_copy_sha256": "f2c49a2e0268411cd4b85ecbb1514f293111f3a95367355b5f0ca97c79554455",
+  "flange_geometry_copy_sha256": "e4a12eddb57295cae13dd1ed91d96a920b778bcbd9f6b2beee7bce8675ce6b61",
+  "builder_sha256": "fe21762d6216644fa16d575a927787e14a02c9f8d65027d39ec1d271ed200588",
+  "native_sha256": "5cdb4b7fab4a4784287e25bb4a3cc48fdf27a07dfa24c2383bc6c37c12ba9c2b",
+  "STEP_sha256": {
+    "MoldHalfA.step": "b897e3dd3510efffc117003a5bb20e368fb760b6f7a2a1a6fdbb48e6c66b6533",
+    "MoldHalfB.step": "dcc6e91f82802906aceb36a1b7889421e885067bfecfe3c87b738c432f0bfa89",
+    "RearContactInsert.step": "cb51c47e94b499eb5fe500d074a2b667da08b0137d7c5b6487283f118fe7b0ff"
+  },
+  "static_overlaps_mm3": {
+    "MoldHalfA": {
+      "RigidTray": 0.0,
+      "RearCover": 0.0,
+      "Silicone": 0.0,
+      "Diaphragm": 0.0,
+      "TargetGND": 0.0,
+      "TargetDM": 0.0,
+      "TargetDP": 0.0,
+      "Target5V": 0.0,
+      "MetalBody": 0.0,
+      "MetalCap": 0.0
+    },
+    "MoldHalfB": {
+      "RigidTray": 0.0,
+      "RearCover": 0.0,
+      "Silicone": 0.0,
+      "Diaphragm": 0.0,
+      "TargetGND": 0.0,
+      "TargetDM": 0.0,
+      "TargetDP": 0.0,
+      "Target5V": 0.0,
+      "MetalBody": 0.0,
+      "MetalCap": 0.0
+    },
+    "RearContactInsert": {
+      "RigidTray": 0.0,
+      "RearCover": 0.0,
+      "Silicone": 0.0,
+      "Diaphragm": 0.0,
+      "TargetGND": 0.0,
+      "TargetDM": 0.0,
+      "TargetDP": 0.0,
+      "Target5V": 0.0,
+      "MetalBody": 0.0,
+      "MetalCap": 0.0
+    }
+  },
+  "rear_insert_poses_mm_and_overlap_mm3": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.25,
+      0.0
+    ],
+    [
+      0.5,
+      0.0
+    ],
+    [
+      0.75,
+      0.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      1.25,
+      0.0
+    ],
+    [
+      1.5,
+      0.0
+    ],
+    [
+      1.75,
+      0.0
+    ],
+    [
+      2.0,
+      0.0
+    ],
+    [
+      2.25,
+      0.0
+    ],
+    [
+      2.5,
+      0.0
+    ],
+    [
+      2.75,
+      0.0
+    ],
+    [
+      3.0,
+      0.0
+    ],
+    [
+      3.25,
+      0.0
+    ],
+    [
+      3.5,
+      0.0
+    ],
+    [
+      3.75,
+      0.0
+    ],
+    [
+      4.0,
+      0.0
+    ],
+    [
+      4.25,
+      0.0
+    ],
+    [
+      4.5,
+      0.0
+    ],
+    [
+      4.75,
+      0.0
+    ],
+    [
+      5.0,
+      0.0
+    ],
+    [
+      5.25,
+      0.0
+    ],
+    [
+      5.5,
+      0.0
+    ],
+    [
+      5.75,
+      0.0
+    ],
+    [
+      6.0,
+      0.0
+    ],
+    [
+      6.25,
+      0.0
+    ],
+    [
+      6.5,
+      0.0
+    ],
+    [
+      6.75,
+      0.0
+    ],
+    [
+      7.0,
+      0.0
+    ],
+    [
+      7.25,
+      0.0
+    ],
+    [
+      7.5,
+      0.0
+    ],
+    [
+      7.75,
+      0.0
+    ],
+    [
+      8.0,
+      0.0
+    ],
+    [
+      8.25,
+      0.0
+    ],
+    [
+      8.5,
+      0.0
+    ],
+    [
+      8.75,
+      0.0
+    ],
+    [
+      9.0,
+      0.0
+    ]
+  ],
+  "lateral_mold_poses_mm_and_overlap_mm3": [
+    [
+      "MoldHalfA",
+      0.0,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      0.5,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      1.0,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      1.5,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      2.0,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      2.5,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      3.0,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      3.5,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      4.0,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      4.5,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      5.0,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      5.5,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      6.0,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      6.5,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      7.0,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      9,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      12,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      16,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      20,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      28,
+      0.0
+    ],
+    [
+      "MoldHalfA",
+      40,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      0.0,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      0.5,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      1.0,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      1.5,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      2.0,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      2.5,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      3.0,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      3.5,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      4.0,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      4.5,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      5.0,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      5.5,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      6.0,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      6.5,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      7.0,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      9,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      12,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      16,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      20,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      28,
+      0.0
+    ],
+    [
+      "MoldHalfB",
+      40,
+      0.0
+    ]
+  ],
+  "connected_skin_runner_vents_mL": 23.21742706503975,
+  "physical_validation": false,
+  "geometry_pass": true
+}

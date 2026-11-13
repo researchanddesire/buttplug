@@ -1,0 +1,20 @@
+{
+  "input_board_sha256": "f75177a5340db7e17589bce1981ff9fde9a5a0c542f92c1c1cb56d45f7e0ef2d",
+  "input_DRC_sha256": "c2d1e8ce4708490f38590a01afa6663ba469fc5866bf2f1bba03a73eccfda43f",
+  "applied": true,
+  "changes": [
+    {
+      "uuid": "e5b6bc2f-316c-4b91-94df-eedd218a4f0d",
+      "net": "VBAT_ADC",
+      "native_DRC_type": "track_dangling",
+      "other_copper_neighbours": 1,
+      "components_after_excluding_item": 1,
+      "owned_new_locked": false,
+      "action": "delete_graph_redundant_reported_stub"
+    }
+  ],
+  "output_board_sha256": "23e37725334d7e83e3bad36e04f20bc2a7b4de489fa707ea3e905487a2a41aa1",
+  "source_critical_original_protected_items_mutated": 0,
+  "native_full_DRC_required_next": true,
+  "sequential_live_graph_recomputed_after_each_edit": true
+}

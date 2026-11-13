@@ -1,0 +1,1769 @@
+{
+  "status": "Separate two-rib/two-wire local successor; no source or master promotion",
+  "native_sha256": "93f79a0a3c46d9976f756f89f3c6d730208946d13c89078248d9545dc0e254be",
+  "source_negative_native_sha256": "6d4dfb5d884b956d56dca9ce4a20691ed05cd49ddce985b85bf5822c038d628a",
+  "source_negative_report_sha256": "ace80d162e7f784b7d6e02ae04c9cdc61127bfbb503de9258668b11eb4dedefb",
+  "script_sha256": "30d8fc5caa04c25c03ea3fdc1208436888e3904209cdf7d4e2c3a3b0c744d197",
+  "path_source_sha256": "d369a17b0465e0c1253d4c83ebbfbcb4a09fb812aa23b46acc34843d6ccdf85d",
+  "native_relief_API_sha256": "8fae8ef60dbb29e646aaa5a22d814f782c938c2d2b64849b60f6b0b3d03af88d",
+  "curve_utilities_sha256": "1881c23392c0219f389bd54b46d511990dcd87ff2b452e1abb2ca5ae97e3efef",
+  "changed_physical_components": [
+    "Tray",
+    "NTC1_RETURN",
+    "NTC2_RETURN"
+  ],
+  "original_product_and_PCB_changed": false,
+  "changed_endpoint_factory_head_joint_sleeve_or_pack_geometry": false,
+  "unchanged_shape_count": 831,
+  "unchanged_shape_names": [
+    "X_Axis",
+    "Y_Axis",
+    "Z_Axis",
+    "XY_Plane",
+    "XZ_Plane",
+    "YZ_Plane",
+    "Origin001",
+    "Context_ProposedRearHalf",
+    "Context_RevisedContinuousSkin",
+    "Context_PermanentSixOpeningDiaphragm",
+    "Context_MovedSteelKeeper0",
+    "Context_MovedSteelKeeper1",
+    "Context_BoardScrew0",
+    "Context_BoardScrew1",
+    "Context_BoardScrew2",
+    "Context_BoardScrew3",
+    "Context_ActualNativeFlangePCB",
+    "Context_Actual_CT1_Solid0",
+    "Context_Actual_CT4_Solid0",
+    "Context_Actual_SW2_Solid0",
+    "Context_Actual_SW1_Solid0",
+    "Context_Actual_CT3_Solid0",
+    "Context_Actual_CT2_Solid0",
+    "Context_Actual_U71_Solid0",
+    "Context_Actual_F1_Solid0",
+    "Context_Actual_R36_Solid0",
+    "Context_Actual_R75_Solid0",
+    "Context_Actual_D71_Solid0",
+    "Context_Actual_U75_Solid0",
+    "Context_Actual_R33_Solid0",
+    "Context_Actual_C31_Solid0",
+    "Context_Actual_J4_Solid0",
+    "Context_Actual_C71_Solid0",
+    "Context_Actual_C84_Solid0",
+    "Context_Actual_C83_Solid0",
+    "Context_Actual_U81_Solid0",
+    "Context_Actual_R31_Solid0",
+    "Context_Actual_C34_Solid0",
+    "Context_Actual_J7_Solid0",
+    "Context_Actual_D1_Solid0",
+    "Context_Actual_R76_Solid0",
+    "Context_Actual_R71_Solid0",
+    "Context_Actual_D73_Solid0",
+    "Context_Actual_C33_Solid0",
+    "Context_Actual_R37_Solid0",
+    "Context_Actual_C32_Solid0",
+    "Context_Actual_R39_Solid0",
+    "Context_Actual_D72_Solid0",
+    "Context_Actual_R38_Solid0",
+    "Context_Actual_R40_Solid0",
+    "Context_Actual_R32_Solid0",
+    "Context_Actual_U6_Solid0",
+    "Context_Actual_U6_Solid1",
+    "Context_Actual_U6_Solid2",
+    "Context_Actual_U6_Solid3",
+    "Context_Actual_U6_Solid4",
+    "Context_Actual_U6_Solid5",
+    "Context_Actual_U6_Solid6",
+    "Context_Actual_U6_Solid7",
+    "Context_Actual_U6_Solid8",
+    "Context_Actual_U6_Solid9",
+    "Context_Actual_U6_Solid10",
+    "Context_Actual_U6_Solid11",
+    "Context_Actual_U6_Solid12",
+    "Context_Actual_U6_Solid13",
+    "Context_Actual_U6_Solid14",
+    "Context_Actual_U6_Solid15",
+    "Context_Actual_U6_Solid16",
+    "Context_Actual_U6_Solid17",
+    "Context_Actual_U6_Solid18",
+    "Context_Actual_U6_Solid19",
+    "Context_Actual_U6_Solid20",
+    "Context_Actual_U6_Solid21",
+    "Context_Actual_U6_Solid22",
+    "Context_Actual_U6_Solid23",
+    "Context_Actual_U6_Solid24",
+    "Context_Actual_U6_Solid25",
+    "Context_Actual_U6_Solid26",
+    "Context_Actual_U6_Solid27",
+    "Context_Actual_U6_Solid28",
+    "Context_Actual_U6_Solid29",
+    "Context_Actual_U6_Solid30",
+    "Context_Actual_U6_Solid31",
+    "Context_Actual_U6_Solid32",
+    "Context_Actual_U6_Solid33",
+    "Context_Actual_U6_Solid34",
+    "Context_Actual_U6_Solid35",
+    "Context_Actual_U6_Solid36",
+    "Context_Actual_U6_Solid37",
+    "Context_Actual_U6_Solid38",
+    "Context_Actual_U6_Solid39",
+    "Context_Actual_U6_Solid40",
+    "Context_Actual_U6_Solid41",
+    "Context_Actual_U6_Solid42",
+    "Context_Actual_U6_Solid43",
+    "Context_Actual_U6_Solid44",
+    "Context_Actual_U6_Solid45",
+    "Context_Actual_U6_Solid46",
+    "Context_Actual_U6_Solid47",
+    "Context_Actual_U6_Solid48",
+    "Context_Actual_U6_Solid49",
+    "Context_Actual_U6_Solid50",
+    "Context_Actual_U6_Solid51",
+    "Context_Actual_U6_Solid52",
+    "Context_Actual_U6_Solid53",
+    "Context_Actual_U6_Solid54",
+    "Context_Actual_U6_Solid55",
+    "Context_Actual_U6_Solid56",
+    "Context_Actual_U6_Solid57",
+    "Context_Actual_U6_Solid58",
+    "Context_Actual_U6_Solid59",
+    "Context_Actual_U6_Solid60",
+    "Context_Actual_U6_Solid61",
+    "Context_Actual_U6_Solid62",
+    "Context_Actual_U6_Solid63",
+    "Context_Actual_U6_Solid64",
+    "Context_Actual_U6_Solid65",
+    "Context_Actual_U6_Solid66",
+    "Context_Actual_U6_Solid67",
+    "Context_Actual_U6_Solid68",
+    "Context_Actual_U6_Solid69",
+    "Context_Actual_U6_Solid70",
+    "Context_Actual_U6_Solid71",
+    "Context_Actual_U6_Solid72",
+    "Context_Actual_U6_Solid73",
+    "Context_Actual_U6_Solid74",
+    "Context_Actual_U6_Solid75",
+    "Context_Actual_U6_Solid76",
+    "Context_Actual_U6_Solid77",
+    "Context_Actual_U6_Solid78",
+    "Context_Actual_U6_Solid79",
+    "Context_Actual_U6_Solid80",
+    "Context_Actual_U6_Solid81",
+    "Context_Actual_U6_Solid82",
+    "Context_Actual_U6_Solid83",
+    "Context_Actual_U6_Solid84",
+    "Context_Actual_U6_Solid85",
+    "Context_Actual_U6_Solid86",
+    "Context_Actual_U6_Solid87",
+    "Context_Actual_U6_Solid88",
+    "Context_Actual_U6_Solid89",
+    "Context_Actual_U6_Solid90",
+    "Context_Actual_U6_Solid91",
+    "Context_Actual_U6_Solid92",
+    "Context_Actual_U6_Solid93",
+    "Context_Actual_U6_Solid94",
+    "Context_Actual_U6_Solid95",
+    "Context_Actual_U6_Solid96",
+    "Context_Actual_U6_Solid97",
+    "Context_Actual_U6_Solid98",
+    "Context_Actual_U6_Solid99",
+    "Context_Actual_U6_Solid100",
+    "Context_Actual_U6_Solid101",
+    "Context_Actual_U6_Solid102",
+    "Context_Actual_R35_Solid0",
+    "Context_Actual_R34_Solid0",
+    "Context_Actual_C82_Solid0",
+    "Context_Actual_C81_Solid0",
+    "Context_PackGrowthAllowance",
+    "Context_PackSizeReference",
+    "Context_BodyPCB",
+    "Context_MetalBody",
+    "Context_MotorThermistorCap",
+    "Context_RearNutReference",
+    "Context_BodyInsulatingSleeve",
+    "Context_Body_U1",
+    "Context_Body_R44",
+    "Context_Body_R45",
+    "Context_Body_J3",
+    "Context_Body_R47",
+    "Context_Body_R25",
+    "Context_Body_R63",
+    "Context_Body_R46",
+    "Context_Body_C29",
+    "Context_Body_R5",
+    "Context_Body_C44",
+    "Context_Body_C3",
+    "Context_Body_R4",
+    "Context_Body_C63",
+    "Context_Body_U7",
+    "Context_Body_C61",
+    "Context_Body_R62",
+    "Context_Body_U5",
+    "Context_Body_R1",
+    "Context_Body_R61",
+    "Context_Body_R3",
+    "Context_Body_C28",
+    "Context_Body_C30",
+    "Context_Body_Q1",
+    "Context_Body_R48",
+    "Context_Body_C1",
+    "Context_Body_J81",
+    "Context_Body_C62",
+    "Context_Body_C2",
+    "Context_Body_R2",
+    "Context_Body_J5",
+    "Context_Body_C27",
+    "Context_Body_C54",
+    "Context_Body_C26",
+    "Context_Body_C15",
+    "Context_Body_C53",
+    "Context_Body_C16",
+    "Context_Body_C21",
+    "Context_Body_C22",
+    "Context_Body_C52",
+    "Context_Body_C14",
+    "Context_Body_R22",
+    "Context_Body_R12",
+    "Context_Body_U9",
+    "Context_Body_U3",
+    "Context_Body_C11",
+    "Context_Body_U8",
+    "Context_Body_C24",
+    "Context_Body_R21",
+    "Context_Body_U2",
+    "Context_Body_L2",
+    "Context_Body_R26",
+    "Context_Body_R11",
+    "Context_Body_R24",
+    "Context_Body_C25",
+    "Context_Body_R23",
+    "Context_Body_L1",
+    "Context_Body_R42",
+    "Context_Body_R13",
+    "Context_Body_C51",
+    "Context_Body_C43",
+    "Context_Body_C12",
+    "Context_Body_C13",
+    "Context_Body_R43",
+    "Context_Body_U4",
+    "Context_Body_C23",
+    "Context_SelectedBodyJ6Solid0",
+    "X_Axis001",
+    "Y_Axis001",
+    "Z_Axis001",
+    "XY_Plane001",
+    "XZ_Plane001",
+    "YZ_Plane001",
+    "Origin003",
+    "J7SHR10Housing",
+    "X_Axis002",
+    "Y_Axis002",
+    "Z_Axis002",
+    "XY_Plane002",
+    "XZ_Plane002",
+    "YZ_Plane002",
+    "Origin005",
+    "SteppedHousingOutline",
+    "InsertedBody",
+    "WireEndLipProfile",
+    "WireEndLip",
+    "TenContactChannelsProfile",
+    "TenContactChannels",
+    "J7Terminal1",
+    "X_Axis003",
+    "Y_Axis003",
+    "Z_Axis003",
+    "XY_Plane003",
+    "XZ_Plane003",
+    "YZ_Plane003",
+    "Origin007",
+    "FormedUSection",
+    "StampedContactLength",
+    "TwoBarrelOpeningsProfile",
+    "TwoBarrelOpenings",
+    "J7Terminal2",
+    "X_Axis004",
+    "Y_Axis004",
+    "Z_Axis004",
+    "XY_Plane004",
+    "XZ_Plane004",
+    "YZ_Plane004",
+    "Origin009",
+    "FormedUSection001",
+    "StampedContactLength001",
+    "TwoBarrelOpeningsProfile001",
+    "TwoBarrelOpenings001",
+    "J7Terminal3",
+    "X_Axis005",
+    "Y_Axis005",
+    "Z_Axis005",
+    "XY_Plane005",
+    "XZ_Plane005",
+    "YZ_Plane005",
+    "Origin011",
+    "FormedUSection002",
+    "StampedContactLength002",
+    "TwoBarrelOpeningsProfile002",
+    "TwoBarrelOpenings002",
+    "J7Terminal4",
+    "X_Axis006",
+    "Y_Axis006",
+    "Z_Axis006",
+    "XY_Plane006",
+    "XZ_Plane006",
+    "YZ_Plane006",
+    "Origin013",
+    "FormedUSection003",
+    "StampedContactLength003",
+    "TwoBarrelOpeningsProfile003",
+    "TwoBarrelOpenings003",
+    "J7Terminal5",
+    "X_Axis007",
+    "Y_Axis007",
+    "Z_Axis007",
+    "XY_Plane007",
+    "XZ_Plane007",
+    "YZ_Plane007",
+    "Origin015",
+    "FormedUSection004",
+    "StampedContactLength004",
+    "TwoBarrelOpeningsProfile004",
+    "TwoBarrelOpenings004",
+    "J7Terminal6",
+    "X_Axis008",
+    "Y_Axis008",
+    "Z_Axis008",
+    "XY_Plane008",
+    "XZ_Plane008",
+    "YZ_Plane008",
+    "Origin017",
+    "FormedUSection005",
+    "StampedContactLength005",
+    "TwoBarrelOpeningsProfile005",
+    "TwoBarrelOpenings005",
+    "J7Terminal7",
+    "X_Axis009",
+    "Y_Axis009",
+    "Z_Axis009",
+    "XY_Plane009",
+    "XZ_Plane009",
+    "YZ_Plane009",
+    "Origin019",
+    "FormedUSection006",
+    "StampedContactLength006",
+    "TwoBarrelOpeningsProfile006",
+    "TwoBarrelOpenings006",
+    "J7Terminal8",
+    "X_Axis010",
+    "Y_Axis010",
+    "Z_Axis010",
+    "XY_Plane010",
+    "XZ_Plane010",
+    "YZ_Plane010",
+    "Origin021",
+    "FormedUSection007",
+    "StampedContactLength007",
+    "TwoBarrelOpeningsProfile007",
+    "TwoBarrelOpenings007",
+    "J7Terminal9",
+    "X_Axis011",
+    "Y_Axis011",
+    "Z_Axis011",
+    "XY_Plane011",
+    "XZ_Plane011",
+    "YZ_Plane011",
+    "Origin023",
+    "FormedUSection008",
+    "StampedContactLength008",
+    "TwoBarrelOpeningsProfile008",
+    "TwoBarrelOpenings008",
+    "J7Terminal10",
+    "X_Axis012",
+    "Y_Axis012",
+    "Z_Axis012",
+    "XY_Plane012",
+    "XZ_Plane012",
+    "YZ_Plane012",
+    "Origin025",
+    "FormedUSection009",
+    "StampedContactLength009",
+    "TwoBarrelOpeningsProfile009",
+    "TwoBarrelOpenings009",
+    "X_Axis013",
+    "Y_Axis013",
+    "Z_Axis013",
+    "XY_Plane013",
+    "XZ_Plane013",
+    "YZ_Plane013",
+    "Origin027",
+    "J6SHR10Housing",
+    "X_Axis014",
+    "Y_Axis014",
+    "Z_Axis014",
+    "XY_Plane014",
+    "XZ_Plane014",
+    "YZ_Plane014",
+    "Origin029",
+    "SteppedHousingOutline001",
+    "InsertedBody001",
+    "WireEndLipProfile001",
+    "WireEndLip001",
+    "TenContactChannelsProfile001",
+    "TenContactChannels001",
+    "J6Terminal1",
+    "X_Axis015",
+    "Y_Axis015",
+    "Z_Axis015",
+    "XY_Plane015",
+    "XZ_Plane015",
+    "YZ_Plane015",
+    "Origin031",
+    "FormedUSection010",
+    "StampedContactLength010",
+    "TwoBarrelOpeningsProfile010",
+    "TwoBarrelOpenings010",
+    "J6Terminal2",
+    "X_Axis016",
+    "Y_Axis016",
+    "Z_Axis016",
+    "XY_Plane016",
+    "XZ_Plane016",
+    "YZ_Plane016",
+    "Origin033",
+    "FormedUSection011",
+    "StampedContactLength011",
+    "TwoBarrelOpeningsProfile011",
+    "TwoBarrelOpenings011",
+    "J6Terminal3",
+    "X_Axis017",
+    "Y_Axis017",
+    "Z_Axis017",
+    "XY_Plane017",
+    "XZ_Plane017",
+    "YZ_Plane017",
+    "Origin035",
+    "FormedUSection012",
+    "StampedContactLength012",
+    "TwoBarrelOpeningsProfile012",
+    "TwoBarrelOpenings012",
+    "J6Terminal4",
+    "X_Axis018",
+    "Y_Axis018",
+    "Z_Axis018",
+    "XY_Plane018",
+    "XZ_Plane018",
+    "YZ_Plane018",
+    "Origin037",
+    "FormedUSection013",
+    "StampedContactLength013",
+    "TwoBarrelOpeningsProfile013",
+    "TwoBarrelOpenings013",
+    "J6Terminal5",
+    "X_Axis019",
+    "Y_Axis019",
+    "Z_Axis019",
+    "XY_Plane019",
+    "XZ_Plane019",
+    "YZ_Plane019",
+    "Origin039",
+    "FormedUSection014",
+    "StampedContactLength014",
+    "TwoBarrelOpeningsProfile014",
+    "TwoBarrelOpenings014",
+    "J6Terminal6",
+    "X_Axis020",
+    "Y_Axis020",
+    "Z_Axis020",
+    "XY_Plane020",
+    "XZ_Plane020",
+    "YZ_Plane020",
+    "Origin041",
+    "FormedUSection015",
+    "StampedContactLength015",
+    "TwoBarrelOpeningsProfile015",
+    "TwoBarrelOpenings015",
+    "J6Terminal7",
+    "X_Axis021",
+    "Y_Axis021",
+    "Z_Axis021",
+    "XY_Plane021",
+    "XZ_Plane021",
+    "YZ_Plane021",
+    "Origin043",
+    "FormedUSection016",
+    "StampedContactLength016",
+    "TwoBarrelOpeningsProfile016",
+    "TwoBarrelOpenings016",
+    "J6Terminal8",
+    "X_Axis022",
+    "Y_Axis022",
+    "Z_Axis022",
+    "XY_Plane022",
+    "XZ_Plane022",
+    "YZ_Plane022",
+    "Origin045",
+    "FormedUSection017",
+    "StampedContactLength017",
+    "TwoBarrelOpeningsProfile017",
+    "TwoBarrelOpenings017",
+    "J6Terminal9",
+    "X_Axis023",
+    "Y_Axis023",
+    "Z_Axis023",
+    "XY_Plane023",
+    "XZ_Plane023",
+    "YZ_Plane023",
+    "Origin047",
+    "FormedUSection018",
+    "StampedContactLength018",
+    "TwoBarrelOpeningsProfile018",
+    "TwoBarrelOpenings018",
+    "J6Terminal10",
+    "X_Axis024",
+    "Y_Axis024",
+    "Z_Axis024",
+    "XY_Plane024",
+    "XZ_Plane024",
+    "YZ_Plane024",
+    "Origin049",
+    "FormedUSection019",
+    "StampedContactLength019",
+    "TwoBarrelOpeningsProfile019",
+    "TwoBarrelOpenings019",
+    "X_Axis025",
+    "Y_Axis025",
+    "Z_Axis025",
+    "XY_Plane025",
+    "XZ_Plane025",
+    "YZ_Plane025",
+    "Origin051",
+    "ACHTP02VS",
+    "X_Axis026",
+    "Y_Axis026",
+    "Z_Axis026",
+    "XY_Plane026",
+    "XZ_Plane026",
+    "YZ_Plane026",
+    "Origin053",
+    "ACHTP02VSOutline",
+    "ACHTP02VSBase",
+    "OpenMatingWellProfile",
+    "OpenMatingWell",
+    "TwoPlugContactChannelsProfile",
+    "TwoPlugContactChannels",
+    "ACHTR02VS",
+    "X_Axis027",
+    "Y_Axis027",
+    "Z_Axis027",
+    "XY_Plane027",
+    "XZ_Plane027",
+    "YZ_Plane027",
+    "Origin055",
+    "ACHTR02VSOutline",
+    "ACHTR02VSBase",
+    "SocketWireEndProfile",
+    "SocketWireEnd",
+    "TwoSocketContactChannelsProfile",
+    "TwoSocketContactChannels",
+    "SACHPPin1",
+    "X_Axis028",
+    "Y_Axis028",
+    "Z_Axis028",
+    "XY_Plane028",
+    "XZ_Plane028",
+    "YZ_Plane028",
+    "Origin057",
+    "FormedContactSection",
+    "StampedLength",
+    "SACHPPin2",
+    "X_Axis029",
+    "Y_Axis029",
+    "Z_Axis029",
+    "XY_Plane029",
+    "XZ_Plane029",
+    "YZ_Plane029",
+    "Origin059",
+    "FormedContactSection001",
+    "StampedLength001",
+    "SACHPin1",
+    "X_Axis030",
+    "Y_Axis030",
+    "Z_Axis030",
+    "XY_Plane030",
+    "XZ_Plane030",
+    "YZ_Plane030",
+    "Origin061",
+    "FormedContactSection002",
+    "StampedLength002",
+    "SACHPin2",
+    "X_Axis031",
+    "Y_Axis031",
+    "Z_Axis031",
+    "XY_Plane031",
+    "XZ_Plane031",
+    "YZ_Plane031",
+    "Origin063",
+    "FormedContactSection003",
+    "StampedLength003",
+    "X_Axis032",
+    "Y_Axis032",
+    "Z_Axis032",
+    "XY_Plane032",
+    "XZ_Plane032",
+    "YZ_Plane032",
+    "Origin065",
+    "PackNTC1",
+    "X_Axis033",
+    "Y_Axis033",
+    "Z_Axis033",
+    "XY_Plane033",
+    "XZ_Plane033",
+    "YZ_Plane033",
+    "Origin067",
+    "PackNTC1Geometry",
+    "PackNTC2",
+    "X_Axis034",
+    "Y_Axis034",
+    "Z_Axis034",
+    "XY_Plane034",
+    "XZ_Plane034",
+    "YZ_Plane034",
+    "Origin069",
+    "PackNTC2Geometry",
+    "X_Axis035",
+    "Y_Axis035",
+    "Z_Axis035",
+    "XY_Plane035",
+    "XZ_Plane035",
+    "YZ_Plane035",
+    "Origin071",
+    "IB01",
+    "X_Axis036",
+    "Y_Axis036",
+    "Z_Axis036",
+    "XY_Plane036",
+    "XZ_Plane036",
+    "YZ_Plane036",
+    "Origin073",
+    "IB01FormedWire",
+    "IB01Centerline",
+    "IB02",
+    "X_Axis037",
+    "Y_Axis037",
+    "Z_Axis037",
+    "XY_Plane037",
+    "XZ_Plane037",
+    "YZ_Plane037",
+    "Origin075",
+    "IB02FormedWire",
+    "IB02Centerline",
+    "IB03",
+    "X_Axis038",
+    "Y_Axis038",
+    "Z_Axis038",
+    "XY_Plane038",
+    "XZ_Plane038",
+    "YZ_Plane038",
+    "Origin077",
+    "IB03FormedWire",
+    "IB03Centerline",
+    "IB04",
+    "X_Axis039",
+    "Y_Axis039",
+    "Z_Axis039",
+    "XY_Plane039",
+    "XZ_Plane039",
+    "YZ_Plane039",
+    "Origin079",
+    "IB04FormedWire",
+    "IB04Centerline",
+    "IB05",
+    "X_Axis040",
+    "Y_Axis040",
+    "Z_Axis040",
+    "XY_Plane040",
+    "XZ_Plane040",
+    "YZ_Plane040",
+    "Origin081",
+    "IB05FormedWire",
+    "IB05Centerline",
+    "IB06",
+    "X_Axis041",
+    "Y_Axis041",
+    "Z_Axis041",
+    "XY_Plane041",
+    "XZ_Plane041",
+    "YZ_Plane041",
+    "Origin083",
+    "IB06FormedWire",
+    "IB06Centerline",
+    "IB07",
+    "X_Axis042",
+    "Y_Axis042",
+    "Z_Axis042",
+    "XY_Plane042",
+    "XZ_Plane042",
+    "YZ_Plane042",
+    "Origin085",
+    "IB07FormedWire",
+    "IB07Centerline",
+    "IB08",
+    "X_Axis043",
+    "Y_Axis043",
+    "Z_Axis043",
+    "XY_Plane043",
+    "XZ_Plane043",
+    "YZ_Plane043",
+    "Origin087",
+    "IB08FormedWire",
+    "IB08Centerline",
+    "IB09",
+    "X_Axis044",
+    "Y_Axis044",
+    "Z_Axis044",
+    "XY_Plane044",
+    "XZ_Plane044",
+    "YZ_Plane044",
+    "Origin089",
+    "IB09FormedWire",
+    "IB09Centerline",
+    "IB10",
+    "X_Axis045",
+    "Y_Axis045",
+    "Z_Axis045",
+    "XY_Plane045",
+    "XZ_Plane045",
+    "YZ_Plane045",
+    "Origin091",
+    "IB10FormedWire",
+    "IB10Centerline",
+    "PACK_FACTORY_POWER1",
+    "X_Axis046",
+    "Y_Axis046",
+    "Z_Axis046",
+    "XY_Plane046",
+    "XZ_Plane046",
+    "YZ_Plane046",
+    "Origin093",
+    "PACK_FACTORY_POWER1FormedWire",
+    "PACK_FACTORY_POWER1Centerline",
+    "BODY_POWER1",
+    "X_Axis047",
+    "Y_Axis047",
+    "Z_Axis047",
+    "XY_Plane047",
+    "XZ_Plane047",
+    "YZ_Plane047",
+    "Origin095",
+    "BODY_POWER1FormedWire",
+    "BODY_POWER1Centerline",
+    "PACK_FACTORY_POWER2",
+    "X_Axis048",
+    "Y_Axis048",
+    "Z_Axis048",
+    "XY_Plane048",
+    "XZ_Plane048",
+    "YZ_Plane048",
+    "Origin097",
+    "PACK_FACTORY_POWER2FormedWire",
+    "PACK_FACTORY_POWER2Centerline",
+    "BODY_POWER2",
+    "X_Axis049",
+    "Y_Axis049",
+    "Z_Axis049",
+    "XY_Plane049",
+    "XZ_Plane049",
+    "YZ_Plane049",
+    "Origin099",
+    "BODY_POWER2FormedWire",
+    "BODY_POWER2Centerline",
+    "NTC1_SIGNALJointSleeve",
+    "X_Axis050",
+    "Y_Axis050",
+    "Z_Axis050",
+    "XY_Plane050",
+    "XZ_Plane050",
+    "YZ_Plane050",
+    "Origin101",
+    "NTC1_SIGNALJointSleeveGeometry",
+    "NTC1_SIGNAL",
+    "X_Axis051",
+    "Y_Axis051",
+    "Z_Axis051",
+    "XY_Plane051",
+    "XZ_Plane051",
+    "YZ_Plane051",
+    "Origin103",
+    "NTC1_SIGNALFormedWire",
+    "NTC1_SIGNALCenterline",
+    "NTC1_RETURNJointSleeve",
+    "X_Axis052",
+    "Y_Axis052",
+    "Z_Axis052",
+    "XY_Plane052",
+    "XZ_Plane052",
+    "YZ_Plane052",
+    "Origin105",
+    "NTC1_RETURNJointSleeveGeometry",
+    "X_Axis053",
+    "Y_Axis053",
+    "Z_Axis053",
+    "XY_Plane053",
+    "XZ_Plane053",
+    "YZ_Plane053",
+    "Origin107",
+    "NTC2_SIGNALJointSleeve",
+    "X_Axis054",
+    "Y_Axis054",
+    "Z_Axis054",
+    "XY_Plane054",
+    "XZ_Plane054",
+    "YZ_Plane054",
+    "Origin109",
+    "NTC2_SIGNALJointSleeveGeometry",
+    "NTC2_SIGNAL",
+    "X_Axis055",
+    "Y_Axis055",
+    "Z_Axis055",
+    "XY_Plane055",
+    "XZ_Plane055",
+    "YZ_Plane055",
+    "Origin111",
+    "NTC2_SIGNALFormedWire",
+    "NTC2_SIGNALCenterline",
+    "NTC2_RETURNJointSleeve",
+    "X_Axis056",
+    "Y_Axis056",
+    "Z_Axis056",
+    "XY_Plane056",
+    "XZ_Plane056",
+    "YZ_Plane056",
+    "Origin113",
+    "NTC2_RETURNJointSleeveGeometry",
+    "X_Axis057",
+    "Y_Axis057",
+    "Z_Axis057",
+    "XY_Plane057",
+    "XZ_Plane057",
+    "YZ_Plane057",
+    "Origin115"
+  ],
+  "Tray_delta": {
+    "bounds_unchanged": true,
+    "removed_volume_mm3": 4.225346938775898,
+    "removed_outside_original_rib_lofts_mm3": 0.0,
+    "geometry": {
+      "X_mm": [
+        29.0,
+        32.0
+      ],
+      "Z_centres_mm": [
+        -9.3,
+        9.3
+      ],
+      "Z_width_mm": 2.3,
+      "corner_radius_mm": 0.65,
+      "tool_start_Y_mm": -14.6,
+      "pocket_depth_mm": 1.2,
+      "new_rear_rib_face_Y_mm": -13.4,
+      "original_rib_rear_Y_mm": -14.5,
+      "original_rib_front_Y_mm": -9.6,
+      "original_rib_rear_width_mm": 0.62
+    },
+    "protected_features": [
+      {
+        "feature": "root_clamp_pad",
+        "common_mm3": 0.0,
+        "native_distance_mm": 18.638844070933587
+      },
+      {
+        "feature": "actual_metal_body",
+        "common_mm3": 0.0,
+        "native_distance_mm": 19.105143503794366
+      },
+      {
+        "feature": "actual_nut",
+        "common_mm3": 0.0,
+        "native_distance_mm": 17.11051671243308
+      },
+      {
+        "feature": "cover_post_-13",
+        "common_mm3": 0.0,
+        "native_distance_mm": 15.267002850500509
+      },
+      {
+        "feature": "cover_post_13",
+        "common_mm3": 0.0,
+        "native_distance_mm": 15.267002850500509
+      },
+      {
+        "feature": "target_reaction_post_-16",
+        "common_mm3": 0.0,
+        "native_distance_mm": 43.75887829007027
+      },
+      {
+        "feature": "target_reaction_post_-10",
+        "common_mm3": 0.0,
+        "native_distance_mm": 37.87925273372436
+      },
+      {
+        "feature": "target_reaction_post_-4",
+        "common_mm3": 0.0,
+        "native_distance_mm": 32.044274828537326
+      },
+      {
+        "feature": "target_reaction_post_2",
+        "common_mm3": 0.0,
+        "native_distance_mm": 26.28368916797992
+      },
+      {
+        "feature": "old_sensor_boss_29.5",
+        "common_mm3": 0.0,
+        "native_distance_mm": 4.256233608655101
+      },
+      {
+        "feature": "old_sensor_boss_38.5",
+        "common_mm3": 0.0,
+        "native_distance_mm": 6.936858732657581
+      }
+    ],
+    "remaining_rib_geometry": [
+      {
+        "rib": 0,
+        "actual_before_volume_mm3": 98.85162000000014,
+        "actual_remaining_volume_mm3": 96.73894653061224,
+        "actual_volume_removed_mm3": 2.1126734693879,
+        "section_Y_mm": -14.49,
+        "rear_section_before_mm2": 17.569031155352004,
+        "rear_section_after_mm2": 15.707929114535668,
+        "rear_section_remaining_fraction": 0.8940691706696989,
+        "cut_region_remaining_projection_mm": 3.8,
+        "nominal_rib_to_requested_pack_front_gap_mm": 0.7,
+        "current_pack_bearing_or_retention_credited": false
+      },
+      {
+        "rib": 1,
+        "actual_before_volume_mm3": 98.85162000000014,
+        "actual_remaining_volume_mm3": 96.73894653061225,
+        "actual_volume_removed_mm3": 2.112673469387886,
+        "section_Y_mm": -14.49,
+        "rear_section_before_mm2": 17.569031155352004,
+        "rear_section_after_mm2": 15.707929114535668,
+        "rear_section_remaining_fraction": 0.8940691706696989,
+        "cut_region_remaining_projection_mm": 3.8,
+        "nominal_rib_to_requested_pack_front_gap_mm": 0.7,
+        "current_pack_bearing_or_retention_credited": false
+      }
+    ],
+    "four_main_parts_preserved": true,
+    "pack_support_force_and_retention_qualified": false
+  },
+  "returned_wire_checks": [
+    {
+      "wire": "NTC1_RETURN",
+      "checks": {
+        "minimum_sampled_radius_mm": 1.7000000000000006,
+        "samples_per_edge": 1001,
+        "maximum_join_gap_mm": 3.972054645195637e-15,
+        "minimum_join_tangent_dot": 0.9999999999999999
+      },
+      "extension_free_path_mm": 127.30111970309083,
+      "factory_path_mm": 13.633229858215795,
+      "volume_mm3": 42.923931372233554,
+      "bounds_mm": [
+        -9.660000100000001,
+        -16.175000100000002,
+        -1.0000000118484433e-07,
+        39.575000100000004,
+        46.5250001,
+        10.4250001
+      ],
+      "fixed_intersections": [],
+      "wire_pairs": [
+        {
+          "other": "IB01",
+          "native_profile_gap_lower_bound_mm": 0.1465654143725011
+        },
+        {
+          "other": "IB02",
+          "native_profile_gap_lower_bound_mm": 0.9322195388337626
+        },
+        {
+          "other": "IB03",
+          "native_profile_gap_lower_bound_mm": 1.860695509469316
+        },
+        {
+          "other": "IB04",
+          "native_profile_gap_lower_bound_mm": 2.8160757291880065
+        },
+        {
+          "other": "IB05",
+          "native_profile_gap_lower_bound_mm": 3.4992922670445323
+        },
+        {
+          "other": "IB06",
+          "native_profile_gap_lower_bound_mm": 4.225919288276907
+        },
+        {
+          "other": "IB07",
+          "native_profile_gap_lower_bound_mm": 5.001536546726786
+        },
+        {
+          "other": "IB08",
+          "native_profile_gap_lower_bound_mm": 5.81522568205176
+        },
+        {
+          "other": "IB09",
+          "native_profile_gap_lower_bound_mm": 6.658761553094765
+        },
+        {
+          "other": "IB10",
+          "native_profile_gap_lower_bound_mm": 7.52594229847955
+        },
+        {
+          "other": "PACK_FACTORY_POWER1",
+          "native_profile_gap_lower_bound_mm": 2.1528099890073893
+        },
+        {
+          "other": "BODY_POWER1",
+          "native_profile_gap_lower_bound_mm": 0.46813268420420945
+        },
+        {
+          "other": "PACK_FACTORY_POWER2",
+          "native_profile_gap_lower_bound_mm": 3.3454748243450916
+        },
+        {
+          "other": "BODY_POWER2",
+          "native_profile_gap_lower_bound_mm": 0.07500000000086154
+        },
+        {
+          "other": "NTC1_SIGNAL",
+          "native_profile_gap_lower_bound_mm": 0.06615685357182866
+        },
+        {
+          "other": "NTC2_SIGNAL",
+          "native_profile_gap_lower_bound_mm": 1.1415358723984803
+        },
+        {
+          "other": "NTC2_RETURN",
+          "native_profile_gap_lower_bound_mm": 0.05000000000000049
+        }
+      ],
+      "native_surface_gaps_mm": {
+        "ProposedFlangeTray": 0.2700832519342804,
+        "PackSizeReference": 0.34999999999999787,
+        "PackGrowthAllowance": 0.34999999999999787,
+        "MetalBody": 0.45442272918014076,
+        "RearNutReference": 0.222899977049578
+      }
+    },
+    {
+      "wire": "NTC2_RETURN",
+      "checks": {
+        "minimum_sampled_radius_mm": 1.7000000000000006,
+        "samples_per_edge": 1001,
+        "maximum_join_gap_mm": 3.972054645195637e-15,
+        "minimum_join_tangent_dot": 0.9999999999999999
+      },
+      "extension_free_path_mm": 122.74186058729506,
+      "factory_path_mm": 13.633229858215795,
+      "volume_mm3": 41.840729167093855,
+      "bounds_mm": [
+        -7.5600001000000026,
+        -16.175000100000002,
+        -10.4250001,
+        39.575000100000004,
+        46.5250001,
+        2.2750000999999997
+      ],
+      "fixed_intersections": [],
+      "wire_pairs": [
+        {
+          "other": "IB01",
+          "native_profile_gap_lower_bound_mm": 1.5527077809119432
+        },
+        {
+          "other": "IB02",
+          "native_profile_gap_lower_bound_mm": 2.4078916039991336
+        },
+        {
+          "other": "IB03",
+          "native_profile_gap_lower_bound_mm": 3.2630754270863225
+        },
+        {
+          "other": "IB04",
+          "native_profile_gap_lower_bound_mm": 4.118259250173512
+        },
+        {
+          "other": "IB05",
+          "native_profile_gap_lower_bound_mm": 4.225919288276907
+        },
+        {
+          "other": "IB06",
+          "native_profile_gap_lower_bound_mm": 3.4992922670445323
+        },
+        {
+          "other": "IB07",
+          "native_profile_gap_lower_bound_mm": 2.8360305545008244
+        },
+        {
+          "other": "IB08",
+          "native_profile_gap_lower_bound_mm": 2.2546145486878792
+        },
+        {
+          "other": "IB09",
+          "native_profile_gap_lower_bound_mm": 1.7776412771306125
+        },
+        {
+          "other": "IB10",
+          "native_profile_gap_lower_bound_mm": 1.430262670171522
+        },
+        {
+          "other": "PACK_FACTORY_POWER1",
+          "native_profile_gap_lower_bound_mm": 6.191164192413722
+        },
+        {
+          "other": "BODY_POWER1",
+          "native_profile_gap_lower_bound_mm": 0.06531242374328422
+        },
+        {
+          "other": "PACK_FACTORY_POWER2",
+          "native_profile_gap_lower_bound_mm": 6.365874337886938
+        },
+        {
+          "other": "BODY_POWER2",
+          "native_profile_gap_lower_bound_mm": 0.08053413335996323
+        },
+        {
+          "other": "NTC1_SIGNAL",
+          "native_profile_gap_lower_bound_mm": 0.9797058540778355
+        },
+        {
+          "other": "NTC1_RETURN",
+          "native_profile_gap_lower_bound_mm": 0.05000000000000049
+        },
+        {
+          "other": "NTC2_SIGNAL",
+          "native_profile_gap_lower_bound_mm": 0.06615685357182866
+        }
+      ],
+      "native_surface_gaps_mm": {
+        "ProposedFlangeTray": 0.27008325193428084,
+        "PackSizeReference": 0.34999999999999787,
+        "PackGrowthAllowance": 0.34999999999999787,
+        "MetalBody": 0.45642908945375926,
+        "RearNutReference": 0.22629433099966162
+      }
+    }
+  ],
+  "cold_valid_single_solid_bodies": 53,
+  "cold_body_geometry": {
+    "J7SHR10Housing": {
+      "volume_mm3": 71.39099999999999,
+      "bounds_mm": [
+        -5.5,
+        -4.475,
+        0.10999999999999999,
+        5.5,
+        0.5250000000000012,
+        2.9099999999999997
+      ]
+    },
+    "J7Terminal1": {
+      "volume_mm3": 1.0952000000000028,
+      "bounds_mm": [
+        -4.9,
+        -4.275,
+        0.8349999999999973,
+        -4.1,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J7Terminal2": {
+      "volume_mm3": 1.0952000000000015,
+      "bounds_mm": [
+        -3.9000000000000004,
+        -4.275,
+        0.8349999999999973,
+        -3.0999999999999996,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J7Terminal3": {
+      "volume_mm3": 1.0952000000000015,
+      "bounds_mm": [
+        -2.9000000000000004,
+        -4.275,
+        0.8349999999999973,
+        -2.0999999999999996,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J7Terminal4": {
+      "volume_mm3": 1.0952000000000008,
+      "bounds_mm": [
+        -1.9000000000000001,
+        -4.275,
+        0.8349999999999973,
+        -1.0999999999999999,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J7Terminal5": {
+      "volume_mm3": 1.0952000000000015,
+      "bounds_mm": [
+        -0.9000000000000001,
+        -4.275,
+        0.8349999999999973,
+        -0.09999999999999998,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J7Terminal6": {
+      "volume_mm3": 1.0952000000000015,
+      "bounds_mm": [
+        0.09999999999999998,
+        -4.275,
+        0.8349999999999973,
+        0.9000000000000001,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J7Terminal7": {
+      "volume_mm3": 1.095200000000001,
+      "bounds_mm": [
+        1.0999999999999999,
+        -4.275,
+        0.8349999999999973,
+        1.9000000000000001,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J7Terminal8": {
+      "volume_mm3": 1.0952000000000015,
+      "bounds_mm": [
+        2.0999999999999996,
+        -4.275,
+        0.8349999999999973,
+        2.9000000000000004,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J7Terminal9": {
+      "volume_mm3": 1.0952000000000013,
+      "bounds_mm": [
+        3.0999999999999996,
+        -4.275,
+        0.8349999999999973,
+        3.9000000000000004,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J7Terminal10": {
+      "volume_mm3": 1.0952000000000028,
+      "bounds_mm": [
+        4.1,
+        -4.275,
+        0.8349999999999973,
+        4.9,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J6SHR10Housing": {
+      "volume_mm3": 71.39099999999999,
+      "bounds_mm": [
+        -5.5,
+        -4.475,
+        0.10999999999999999,
+        5.5,
+        0.5250000000000012,
+        2.9099999999999997
+      ]
+    },
+    "J6Terminal1": {
+      "volume_mm3": 1.0952000000000028,
+      "bounds_mm": [
+        -4.9,
+        -4.275,
+        0.8349999999999973,
+        -4.1,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J6Terminal2": {
+      "volume_mm3": 1.0952000000000015,
+      "bounds_mm": [
+        -3.9000000000000004,
+        -4.275,
+        0.8349999999999973,
+        -3.0999999999999996,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J6Terminal3": {
+      "volume_mm3": 1.0952000000000015,
+      "bounds_mm": [
+        -2.9000000000000004,
+        -4.275,
+        0.8349999999999973,
+        -2.0999999999999996,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J6Terminal4": {
+      "volume_mm3": 1.0952000000000008,
+      "bounds_mm": [
+        -1.9000000000000001,
+        -4.275,
+        0.8349999999999973,
+        -1.0999999999999999,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J6Terminal5": {
+      "volume_mm3": 1.0952000000000015,
+      "bounds_mm": [
+        -0.9000000000000001,
+        -4.275,
+        0.8349999999999973,
+        -0.09999999999999998,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J6Terminal6": {
+      "volume_mm3": 1.0952000000000015,
+      "bounds_mm": [
+        0.09999999999999998,
+        -4.275,
+        0.8349999999999973,
+        0.9000000000000001,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J6Terminal7": {
+      "volume_mm3": 1.095200000000001,
+      "bounds_mm": [
+        1.0999999999999999,
+        -4.275,
+        0.8349999999999973,
+        1.9000000000000001,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J6Terminal8": {
+      "volume_mm3": 1.0952000000000015,
+      "bounds_mm": [
+        2.0999999999999996,
+        -4.275,
+        0.8349999999999973,
+        2.9000000000000004,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J6Terminal9": {
+      "volume_mm3": 1.0952000000000013,
+      "bounds_mm": [
+        3.0999999999999996,
+        -4.275,
+        0.8349999999999973,
+        3.9000000000000004,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "J6Terminal10": {
+      "volume_mm3": 1.0952000000000028,
+      "bounds_mm": [
+        4.1,
+        -4.275,
+        0.8349999999999973,
+        4.9,
+        -0.37499999999999956,
+        2.185
+      ]
+    },
+    "ACHTP02VS": {
+      "volume_mm3": 16.3075,
+      "bounds_mm": [
+        0.0,
+        -1.9000000000000001,
+        0.0,
+        5.25,
+        1.9,
+        1.85
+      ]
+    },
+    "ACHTR02VS": {
+      "volume_mm3": 9.660000000000004,
+      "bounds_mm": [
+        3.2999999999999994,
+        -1.6,
+        0.0,
+        6.8000000000000025,
+        1.6,
+        1.85
+      ]
+    },
+    "SACHPPin1": {
+      "volume_mm3": 1.0125000000000002,
+      "bounds_mm": [
+        0.29999999999999927,
+        -1.0000000000000013,
+        0.399999999999999,
+        4.350000000000001,
+        -0.19999999999999957,
+        1.3500000000000014
+      ]
+    },
+    "SACHPPin2": {
+      "volume_mm3": 1.0125000000000002,
+      "bounds_mm": [
+        0.29999999999999927,
+        0.19999999999999862,
+        0.399999999999999,
+        4.350000000000001,
+        1.0000000000000004,
+        1.3500000000000014
+      ]
+    },
+    "SACHPin1": {
+      "volume_mm3": 0.7375000000000003,
+      "bounds_mm": [
+        3.5499999999999994,
+        -1.0000000000000009,
+        0.39999999999999813,
+        6.500000000000002,
+        -0.19999999999999946,
+        1.3500000000000012
+      ]
+    },
+    "SACHPin2": {
+      "volume_mm3": 0.7374999999999999,
+      "bounds_mm": [
+        3.5499999999999994,
+        0.19999999999999898,
+        0.39999999999999813,
+        6.500000000000002,
+        1.0000000000000004,
+        1.3500000000000012
+      ]
+    },
+    "PackNTC1": {
+      "volume_mm3": 63.61725123519331,
+      "bounds_mm": [
+        12.5,
+        -15.2,
+        2.5,
+        22.5,
+        -12.2,
+        5.5
+      ]
+    },
+    "PackNTC2": {
+      "volume_mm3": 63.61725123519331,
+      "bounds_mm": [
+        12.5,
+        -15.2,
+        -5.5,
+        22.5,
+        -12.2,
+        -2.5
+      ]
+    },
+    "IB01": {
+      "volume_mm3": 17.229715288276527,
+      "bounds_mm": [
+        -4.800000100000001,
+        -24.7420001,
+        1.2099962201983705,
+        3.076647493556928,
+        31.525,
+        4.80677934126846
+      ]
+    },
+    "IB02": {
+      "volume_mm3": 17.0943220012325,
+      "bounds_mm": [
+        -3.800000100000001,
+        -24.7420001,
+        1.2099960845750146,
+        3.076499965723996,
+        31.525,
+        3.8238424500224566
+      ]
+    },
+    "IB03": {
+      "volume_mm3": 16.987383990828462,
+      "bounds_mm": [
+        -2.800000100000001,
+        -24.7420001,
+        1.209996193206878,
+        3.0760898145332396,
+        31.525,
+        2.8663055526308314
+      ]
+    },
+    "IB04": {
+      "volume_mm3": 16.911673978329933,
+      "bounds_mm": [
+        -2.5250000000000004,
+        -24.7420001,
+        1.1993541420088578,
+        3.075631216056183,
+        31.525,
+        1.9965592123223794
+      ]
+    },
+    "IB05": {
+      "volume_mm3": 16.868576616192296,
+      "bounds_mm": [
+        -2.5250000000000004,
+        -24.7420001,
+        0.19989359301854268,
+        3.075100635676253,
+        31.525,
+        1.8100027727093997
+      ]
+    },
+    "IB06": {
+      "volume_mm3": 16.859827108600367,
+      "bounds_mm": [
+        -2.5250000000000004,
+        -24.7420001,
+        -0.8001213526175103,
+        3.075123083364557,
+        31.525,
+        1.8100012609412077
+      ]
+    },
+    "IB07": {
+      "volume_mm3": 16.88454658300319,
+      "bounds_mm": [
+        -2.5250000000000004,
+        -24.7420001,
+        -1.8000547778747344,
+        3.0750617577412944,
+        31.525,
+        1.810001057846689
+      ]
+    },
+    "IB08": {
+      "volume_mm3": 16.94383761094225,
+      "bounds_mm": [
+        -2.5250000000000004,
+        -24.7420001,
+        -2.8023191818773387,
+        3.295943477638224,
+        31.525,
+        1.8100037854241708
+      ]
+    },
+    "IB09": {
+      "volume_mm3": 17.034407166285412,
+      "bounds_mm": [
+        -2.5250000000000004,
+        -24.7420001,
+        -3.8022189875007526,
+        3.853019203499668,
+        31.525,
+        1.810003802429686
+      ]
+    },
+    "IB10": {
+      "volume_mm3": 17.15730181297035,
+      "bounds_mm": [
+        -2.5250000000000004,
+        -24.7420001,
+        -4.802640831415695,
+        4.8000001,
+        31.525,
+        1.8100037454298485
+      ]
+    },
+    "PACK_FACTORY_POWER1": {
+      "volume_mm3": 13.027893965220564,
+      "bounds_mm": [
+        -20.38002957471932,
+        -20.615000100000028,
+        -2.0150001000000013,
+        7.0,
+        -17.184999899999998,
+        7.815000100000003
+      ]
+    },
+    "BODY_POWER1": {
+      "volume_mm3": 24.0088198445714,
+      "bounds_mm": [
+        -4.600000100000002,
+        -17.800000100000002,
+        -2.0000001000000025,
+        8.3000001,
+        48.0500001,
+        5.3000001
+      ]
+    },
+    "PACK_FACTORY_POWER2": {
+      "volume_mm3": 13.101165720730354,
+      "bounds_mm": [
+        -20.38002957471932,
+        -21.815000100000017,
+        -0.8150001000000021,
+        7.0,
+        -17.184999899999994,
+        8.715000100000003
+      ]
+    },
+    "BODY_POWER2": {
+      "volume_mm3": 24.274647152673953,
+      "bounds_mm": [
+        -4.600000100000002,
+        -17.800000100000002,
+        -0.8000001000000007,
+        9.0000001,
+        47.2000001,
+        6.100000100000002
+      ]
+    },
+    "NTC1_SIGNALJointSleeve": {
+      "volume_mm3": 14.080618273389458,
+      "bounds_mm": [
+        28.190112985957526,
+        -13.907640579657292,
+        2.8999999,
+        33.97607795778172,
+        -11.599999899999998,
+        5.28352468130585
+      ]
+    },
+    "NTC1_SIGNAL": {
+      "volume_mm3": 35.39244762525231,
+      "bounds_mm": [
+        -9.060000100000002,
+        -15.000000100000014,
+        -9.99999885909181e-08,
+        34.3750001,
+        45.0250001,
+        8.675000100000005
+      ]
+    },
+    "NTC1_RETURNJointSleeve": {
+      "volume_mm3": 14.08061827338944,
+      "bounds_mm": [
+        33.6,
+        -15.0000001,
+        2.8999999,
+        39.17607795778172,
+        -12.799999900000001,
+        5.28352468130585
+      ]
+    },
+    "NTC1_RETURN": {
+      "volume_mm3": 42.923931372233554,
+      "bounds_mm": [
+        -9.660000100000001,
+        -16.175000100000002,
+        -1.0000000118484433e-07,
+        39.575000100000004,
+        46.5250001,
+        10.4250001
+      ]
+    },
+    "NTC2_SIGNALJointSleeve": {
+      "volume_mm3": 14.080618273389444,
+      "bounds_mm": [
+        28.190112985957526,
+        -13.907640579657292,
+        -5.28352468130585,
+        33.97607795778172,
+        -11.599999899999998,
+        -2.8999999
+      ]
+    },
+    "NTC2_SIGNAL": {
+      "volume_mm3": 34.76188311737779,
+      "bounds_mm": [
+        -8.160000100000001,
+        -15.000000100000028,
+        -8.675000100000009,
+        34.3750001,
+        43.5250001,
+        3.1750001000000037
+      ]
+    },
+    "NTC2_RETURNJointSleeve": {
+      "volume_mm3": 14.08061827338943,
+      "bounds_mm": [
+        33.6,
+        -15.0000001,
+        -5.28352468130585,
+        39.17607795778172,
+        -12.799999900000001,
+        -2.8999999
+      ]
+    },
+    "NTC2_RETURN": {
+      "volume_mm3": 41.840729167093855,
+      "bounds_mm": [
+        -7.5600001000000026,
+        -16.175000100000002,
+        -10.4250001,
+        39.575000100000004,
+        46.5250001,
+        2.2750000999999997
+      ]
+    },
+    "Context_ProposedFlangeTray": {
+      "volume_mm3": 9299.795459831206,
+      "bounds_mm": [
+        -44.0000001,
+        -25.952,
+        -16.0000001,
+        44.0000001,
+        -7.9999999,
+        16.0000001
+      ]
+    }
+  },
+  "cold_external_links": 0,
+  "tray_STEP_sha256": "2514984727deaf40a6e5d555139b119b1ac51a5fe7560efa08fdf016b9b0ef92",
+  "tray_STEP_cold_read_solids": 1,
+  "physical_validation": false,
+  "service_motion_validated": false,
+  "unchanged_growth_port_findings": [
+    {
+      "wire": "PACK_FACTORY_POWER1",
+      "common_mm3": 0.07793113276311187
+    },
+    {
+      "wire": "PACK_FACTORY_POWER2",
+      "common_mm3": 0.07793113276311187
+    }
+  ],
+  "open_gates": [
+    "Received pack/PCB/print and wire tolerances, abrasion and assembled load checks",
+    "Actual pack support/retention and no-preload NTC attachment",
+    "Crimp/solder/heat-shrink process and positive strain relief",
+    "Attached-wire mating and cap-threading/service sequence",
+    "Power, thermal, RF, magnetic, molding and complete product qualification"
+  ],
+  "native_relief_API_before_portability_sha256": "31f845ac4f0af8cd09a73c81b42ec6032e73d69427b76f1ebc5b72a5362c021f",
+  "import_only_portability_rebind_sha256": "b7dfdf44ef23663ea5d103a4a5283fc97cf357b7a659c612a7a8aa9209c11af6"
+}

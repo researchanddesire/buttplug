@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-12",
+  "status": "source-bound arithmetic and design allocations; not powered qualification",
+  "steady_state_only": true,
+  "qualified_source_requirement": {
+    "minimum_advertised_current_mA": 1500,
+    "voltage_V": [
+      4.5,
+      5.25
+    ],
+    "detection": "TUSB320HAI hardUFP GPIOmode; SOURCE_OK=CC_STATUS_READY ? NOT OUT1 : GND",
+    "PD_negotiation": false,
+    "BC12_detection": false,
+    "default_or_unattached_UV_disabled_in_hardware": true
+  },
+  "device_path": {
+    "part": "TPS22950YBHR",
+    "default_resistor_ohm": 19200,
+    "resistor_tolerance_fraction": 0.001,
+    "resistor_temperature_coefficient_ppm_per_K": 25,
+    "documented_default_current_mA": [
+      34,
+      50,
+      66
+    ],
+    "documented_default_conditions": "RILIM19.2k; Vin-Vout0.5V;\u221240..125C; datasheetrecommendedinputrange",
+    "default_allocation_mA": 70,
+    "hardware_parallel_resistor_ohm": 2520,
+    "parallel_resistor_tolerance_fraction": 0.001,
+    "parallel_switch": "normallyoffNMOS,gateSOURCE_OK,100kpulldown;noMCUcontrol",
+    "effective_qualified_resistor_ohm": 2227.624309392265,
+    "nearby_documented_high_setting_ohm": 2210,
+    "documented_high_current_mA": [
+      380,
+      500,
+      620
+    ],
+    "qualified_allocation_mA": 630,
+    "maximum_normal_device_input_mA": 100,
+    "device_charger": "BQ24074USB100 unchanged; Vin-DPM and battery supplement",
+    "qualification_pending": [
+      "currentsetting/drift bounds inactualassembledboard",
+      "limitinteractionwithBQ24074Vin-DPM",
+      "programmingandchargingwithdepletedpack",
+      "reversecurrentandinputcurrentunderfault"
+    ],
+    "default_resistor_series_ohm": [
+      19100,
+      100
+    ],
+    "default_resistor_implementation": "two0.1percent25ppmresistorsinseries; exact19.2kfromdocumentedcatalogvalues"
+  },
+  "dock_overhead": {
+    "allocation_mA": 10,
+    "allocated_items": [
+      {
+        "name": "STM32 core plus active peripherals at4.2MHzMSI",
+        "mA": 2.0,
+        "basis": "core Flash-workload max0.770mA at4.2MHz; additional peripheral and firmware allocation; higher clocks prohibited indefaultsource mode"
+      },
+      {
+        "name": "reflective LCD and contrast pump",
+        "mA": 1.5,
+        "basis": "manufacturer max0.75mA at25C; 1.5mA isprojectallocation, overtemperature/current transient notguaranteed"
+      },
+      {
+        "name": "two closed lid/thermal contact loops",
+        "mA": 2.47,
+        "basis": "2*5.25V/(4.3k*0.99); ~1mA wetting per closed loop even at minimumUSBvoltage"
+      },
+      {
+        "name": "three pressed buttons and UI pullups",
+        "mA": 1.2,
+        "basis": "two10k1% rawbuttonpullups plusR12710k1% debouncedCENTERreleasedpullup at3.4V, plusMAX6816internal32kminimum pullup; calculated<1.14mA"
+      },
+      {
+        "name": "Type-C controller, regulators, load switches, safetylogic and monitorADC",
+        "mA": 1.5,
+        "basis": "aggregateallocation; TUSB32070uAistypical, ADS1115max300uA; fullselectedcircuitmustmeasure"
+      },
+      {
+        "name": "remaining PCB leakage and dynamic allowance",
+        "mA": 1.2,
+        "basis": "allocation forGPIOcapacitivecharging, CC/fault/sourcepulls, twoPG10k pullups duringreset, externalwatchdog/supervisors and boardcontamination; aggregate mustmeasure"
+      }
+    ],
+    "unprovided_vendor_maxima": [
+      "LCDcurrentoutside25C",
+      "TUSB320UFPsupplycurrent(maxnotpublished)"
+    ],
+    "must_measure_before_current_qualification": true
+  },
+  "UV_branch_limiter": {
+    "part": "TPS2553DBVR",
+    "RILIM_ohm": 34800,
+    "resistor_tolerance_fraction": 0.001,
+    "enable": "SOURCE_OKhardwareonly",
+    "equation_units": "Rinkohm; currentinmA",
+    "IOS_min_formula": "25230 / R_kohm**1.016",
+    "IOS_nom_formula": "23950 / R_kohm**0.977",
+    "IOS_max_formula": "22980 / R_kohm**0.94",
+    "primary_source": "https://www.ti.com/lit/ds/symlink/tps2553.pdf#page=16",
+    "resistor_temperature_coefficient_ppm_per_K": 25
+  },
+  "UV_modules": {
+    "count": 2,
+    "LEDs_per_series_string": 2,
+    "LED_mpn": "VLMU35CB20-275-120",
+    "driver_mpn": "TPS61165DBVR",
+    "RSET_ohm": 3.32,
+    "RSET_tolerance_fraction": 0.01,
+    "feedback_voltage_V": [
+      0.196,
+      0.2,
+      0.204
+    ],
+    "forward_voltage_design_ceiling_per_LED_V": 7.5,
+    "cathode_FET_drop_design_allowance_V": 1.0,
+    "minimum_driver_input_V": 4.4,
+    "efficiency_design_floor": 0.7,
+    "driver_quiescent_total_allocation_mA": 4.6,
+    "efficiency_and_Vf_ceiling_are_design_assumptions_to_measure": true,
+    "radiant_power_at_selected_current_mW": null,
+    "validated_cycle_seconds": null,
+    "temperature_trip_mpn": "67L045",
+    "trip_C_nominal": 45,
+    "trip_C_tolerance": 5,
+    "cleaning_validated": false,
+    "RSET_mpn": "CRCW08053R32FKEA",
+    "RSET_temperature_coefficient_ppm_per_K": 100,
+    "RSET_primary_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+  },
+  "release_gates": [
+    "actualschematic/ERC/boardDRC",
+    "nativeFP/modelpinparity",
+    "USBdefault/suspend/inrushqualification",
+    "sourceadvertisementchangesandcables",
+    "UVcurrentandthermal/opticalshutdownmeasurements",
+    "opticaldose/leakage/efficacy/aging"
+  ],
+  "source_pages": {
+    "TPS22950": "https://www.ti.com/lit/ds/symlink/tps22950.pdf#page=6",
+    "TPS2553": "https://www.ti.com/lit/ds/symlink/tps2553.pdf#page=16",
+    "TPS61165": "https://www.ti.com/lit/ds/symlink/tps61165.pdf#page=5",
+    "STM32L071": "https://www.st.com/resource/en/datasheet/stm32l071cb.pdf#page=65",
+    "LCD": "https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf#page=6",
+    "TUSB320": "https://www.ti.com/lit/ds/symlink/tusb320lai.pdf#page=12"
+  },
+  "resistor_bound_method": {
+    "reference_temperature_C": 25,
+    "maximum_abs_film_temperature_departure_K": 100,
+    "method": "initial tolerance plus absolute TCR * 100K, linear additive bound; includes self-heating within this film temperature departure",
+    "limits": "long-term resistance drift is not included; incoming and aged-current acceptance remain required"
+  },
+  "source_sequencing": {
+    "supervisors": "U120/U123 TPS3808G33DBVR, HOST5V supplied, SENSE3V3",
+    "TUSB_enable": "U120RESET10k pullup3V3; activehigh HAI EN after180..420ms",
+    "second_reset": "U124 TS5A3159 switchesU123MR betweenGND/HOST5V basedonCC_ENABLE",
+    "source_gate": "U122 TS5A3159 switchesSOURCE_OK betweenGND/SOURCE_REQUEST basedonsecond180..420msdelay",
+    "HOST5V_direct_capacitance_nominal_uF": 4.4,
+    "physical_sequence_validation": false,
+    "first_delay_ms_min_nom_max": [
+      180,
+      300,
+      420
+    ],
+    "second_delay_ms_min_nom_max": [
+      180,
+      300,
+      420
+    ],
+    "TUSB_initial_EN_low_minimum_ms": 50,
+    "TUSB_enable_to_I2C_available_maximum_ms": 100,
+    "supervisor_threshold_nominal_V": 3.07,
+    "supervisor_threshold_tolerance_fraction": 0.015,
+    "TUSB_minimum_VDD_V": 2.7,
+    "supervisor_asserted_maximum_VOL_V": 0.4,
+    "SPDT_VIL_maximum_V": 0.8,
+    "SPDT_VIH_minimum_V": 2.4,
+    "SPDT_Ron_maximum_ohm": 1.5,
+    "pullup_ohm": 10000,
+    "pullup_tolerance_fraction": 0.01,
+    "pg1_input_current_allocation_A": 2.13e-05,
+    "pg2_input_current_allocation_A": 1.3e-06,
+    "LDO_nominal_V": 3.3,
+    "LDO_accuracy_fraction": 0.02,
+    "inverter_VOH_drop_at_100uA_V": 0.1,
+    "SOURCE_OK_filter": {
+      "R_charge_ohm": 2520,
+      "R_charge_error_fraction": 0.0035,
+      "C_nominal_F": 1e-07,
+      "R_ground_ohm": 100,
+      "R_ground_error_fraction": 0.0035,
+      "pulldowns_parallel_ohm": 50000,
+      "pulldown_error_fraction": 0.01,
+      "load_leakage_allocation_A": 2e-05
+    },
+    "logic_interface": "SN74HCS21/SN74HCS08 Schmitt logic forfilteredSOURCE_OK; noordinaryCMOSinputs"
+  }
+}

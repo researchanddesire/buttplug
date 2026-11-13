@@ -1,0 +1,46 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T15:45:08",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/77580244-d203-56de-a5d8-6d568c8186fe",
+            "violations": []
+        },
+        {
+            "path": "/EVT dock controller / STM32L071 and monitors/",
+            "uuid_path": "/77580244-d203-56de-a5d8-6d568c8186fe/6fc3de02-3d52-5fef-ac2d-add24898010b",
+            "violations": []
+        },
+        {
+            "path": "/EVT lid UI / actual LCD charge pump and three switches/",
+            "uuid_path": "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b",
+            "violations": []
+        }
+    ],
+    "source": "dock-control.kicad_sch"
+}

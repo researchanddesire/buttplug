@@ -1,0 +1,1957 @@
+{
+  "scope": "Exact PCB component selections for EVT assembly quoting; human-owned product BOM unchanged",
+  "source_netlist_sha256": {
+    "hardware/pcb/evt1/body/body-native.xml": "c3d8482b08b67be70ab82b612c3b99c2ac6012e765f1fe9419d0106f707c945a",
+    "hardware/pcb/evt1/flange/flange-native.xml": "9c0d169c366faefc82ea75a587081153268920bf3501967db7871bdeef5ace94",
+    "hardware/pcb/evt1/sensor/sensor-native.xml": "3ac68f835b2828d53407a89dad6a772609c62e3e35535b7a43ecfbfc78ffe4d4",
+    "hardware/pcb/evt1/dock/dock-native.xml": "2ec129f7cc999db397cbebb4d3731b8227310a2b7a202d41de8f2992b56fca9a",
+    "hardware/pcb/evt1/pins/pins-native.xml": "0b79c9d8ee6c55b8e3bca0699bb4624734d2b7b03987fe3cd9f01639f7410228"
+  },
+  "builder_sha256": "410df4edae31a0b1c91dc995f59fa015859a2de76d17a4861755ad1be9c6be61",
+  "components": [
+    {
+      "mpn": "GRM21BR71A475KA73L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR71A475KA73%23",
+      "maximum_height_mm": 1.4,
+      "capacitance_F": 4.7e-06,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C1",
+      "schematic_value": "4.7uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM21BR71A475KA73L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR71A475KA73%23",
+      "maximum_height_mm": 1.4,
+      "capacitance_F": 4.7e-06,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C2",
+      "schematic_value": "4.7uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C3",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C11",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C12",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C13",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C14",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C15",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C16",
+      "schematic_value": "100nF 10V",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C51",
+      "schematic_value": "10uF 10V X5R 0603 HF",
+      "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C52",
+      "schematic_value": "10uF 10V X5R 0603 HF",
+      "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Five copper lands; solder protected-pack power and two independently returned NTC channels.",
+      "maximum_height_mm": 0,
+      "domain": "body",
+      "ref": "J2",
+      "schematic_value": "PACK_PIGTAIL_4NET_5LAND",
+      "footprint": "PackPigtailR35:Pack_Pigtail_4Net_5Land"
+    },
+    {
+      "mpn": "XFL4020-152MEC",
+      "manufacturer": "Coilcraft",
+      "manufacturer_source": "https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf",
+      "maximum_height_mm": 2.1,
+      "inductance_H": 1.5e-06,
+      "tolerance_percent": 20,
+      "maximum_body_xy_mm": [
+        4.3,
+        4.3
+      ],
+      "DCR_max_ohm": 0.0158,
+      "Isat_10percent_drop_A": 4.1,
+      "assembly_note": "Isat is specified at25C. Check transient/current/thermal behavior on assembled regulators; use manufacturer land pattern.",
+      "domain": "body",
+      "ref": "L1",
+      "schematic_value": "1.5uH / Isat>=4A candidate",
+      "footprint": "PrototypeR0:L_Coilcraft_XxL4020",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW04028K87BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 8870.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R1",
+      "schematic_value": "8.87k 1% / ~100mA",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW04023K24BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 3240.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R2",
+      "schematic_value": "3.24k 1%",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R3",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R4",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R5",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0603312KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 312000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R11",
+      "schematic_value": "312k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0603100KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R12",
+      "schematic_value": "100k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R13",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "BQ24074RGTR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "maximum_height_mm": 1,
+      "domain": "body",
+      "ref": "U1",
+      "schematic_value": "BQ24074RGT candidate",
+      "footprint": "PrototypeR0:TI_RGT0016C_3x3mm_BQ24074_EP1.68mm",
+      "purchase": true
+    },
+    {
+      "mpn": "TPS63070RNMR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps63070.pdf",
+      "maximum_height_mm": 1,
+      "domain": "body",
+      "ref": "U2",
+      "schematic_value": "TPS63070RNM candidate",
+      "footprint": "PrototypeR0:TI_RNM0015A_2.5x3mm_TPS63070",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C21",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C22",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C23",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C24",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C25",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C26",
+      "schematic_value": "100nF 10V",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C27",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "body",
+      "ref": "C28",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:C_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "body",
+      "ref": "C29",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:C_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM32ER61A476KE20L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM32ER61A476KE20%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 4.7e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        3.4,
+        2.7
+      ],
+      "domain": "body",
+      "ref": "C30",
+      "schematic_value": "47uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM32_1210_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C53",
+      "schematic_value": "10uF 10V X5R 0603 HF",
+      "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C54",
+      "schematic_value": "10uF 10V X5R 0603 HF",
+      "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "SM02B-SRSS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "maximum_height_mm": 2.95,
+      "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+      "domain": "body",
+      "ref": "J3",
+      "schematic_value": "MOTOR_2PIN",
+      "footprint": "PrototypeR0:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal",
+      "purchase": true
+    },
+    {
+      "mpn": "XFL4020-152MEC",
+      "manufacturer": "Coilcraft",
+      "manufacturer_source": "https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf",
+      "maximum_height_mm": 2.1,
+      "inductance_H": 1.5e-06,
+      "tolerance_percent": 20,
+      "maximum_body_xy_mm": [
+        4.3,
+        4.3
+      ],
+      "DCR_max_ohm": 0.0158,
+      "Isat_10percent_drop_A": 4.1,
+      "assembly_note": "Isat is specified at25C. Check transient/current/thermal behavior on assembled regulators; use manufacturer land pattern.",
+      "domain": "body",
+      "ref": "L2",
+      "schematic_value": "1.5uH / Isat>=4A candidate",
+      "footprint": "PrototypeR0:L_Coilcraft_XxL4020",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0805362KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 362000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        2.1,
+        1.4
+      ],
+      "domain": "body",
+      "ref": "R21",
+      "schematic_value": "362k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0805_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0603100KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R22",
+      "schematic_value": "100k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0402100KBEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R23",
+      "schematic_value": "100k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0402100KBEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R24",
+      "schematic_value": "100k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0402100KBEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R25",
+      "schematic_value": "100k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R26",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TPS63070RNMR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps63070.pdf",
+      "maximum_height_mm": 1,
+      "domain": "body",
+      "ref": "U3",
+      "schematic_value": "TPS63070RNM candidate",
+      "footprint": "PrototypeR0:TI_RNM0015A_2.5x3mm_TPS63070",
+      "purchase": true
+    },
+    {
+      "mpn": "SN74LVC1G11DBVR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf",
+      "maximum_height_mm": 1.45,
+      "domain": "body",
+      "ref": "U4",
+      "schematic_value": "SN74LVC1G11DBV candidate",
+      "footprint": "PrototypeR0:SOT-23-6",
+      "purchase": true
+    },
+    {
+      "mpn": "DRV8212DSGR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/drv8212.pdf",
+      "maximum_height_mm": 0.8,
+      "domain": "body",
+      "ref": "U5",
+      "schematic_value": "DRV8212DSG candidate",
+      "footprint": "PrototypeR0:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "body",
+      "ref": "C61",
+      "schematic_value": "100nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM155R71H103KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71H103KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-08,
+      "rated_voltage_V": 50,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "body",
+      "ref": "C62",
+      "schematic_value": "10nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM155R71H103KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71H103KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-08,
+      "rated_voltage_V": 50,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "body",
+      "ref": "C63",
+      "schematic_value": "10nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "BM02B-SRSS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "maximum_height_mm": 2.9,
+      "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+      "domain": "body",
+      "ref": "J5",
+      "schematic_value": "TIP NTC / GND",
+      "footprint": "EVT1:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical",
+      "purchase": true
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Four hand-solder sensor-loom lands; ground land intentionally includes a plated via.",
+      "maximum_height_mm": 0,
+      "domain": "body",
+      "ref": "J81",
+      "schematic_value": "FIXED FLANGE SENSOR LOOM",
+      "footprint": "EVT1:Sensor_Loom_4Land"
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R61",
+      "schematic_value": "10k 0.1%",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R62",
+      "schematic_value": "10k 0.1%",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R63",
+      "schematic_value": "10k 0.1%",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "ADS1115IDGSR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+      "maximum_height_mm": 1.1,
+      "domain": "body",
+      "ref": "U7",
+      "schematic_value": "ADS1115IDGSR /0x48",
+      "footprint": "EVT1:VSSOP-10_3x3mm_P0.5mm",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C43",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C44",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Leave copper solder jumper OPEN until charge-guard commissioning passes.",
+      "maximum_height_mm": 0,
+      "domain": "body",
+      "ref": "JP1",
+      "schematic_value": "CHARGE_PERMISSION / OPEN",
+      "footprint": "PrototypeR0:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+    },
+    {
+      "mpn": "AO3400A",
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "manufacturer_source": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf",
+      "maximum_height_mm": 1.25,
+      "domain": "body",
+      "ref": "Q1",
+      "schematic_value": "AO3400A",
+      "footprint": "PrototypeR0:SOT-23",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R42",
+      "schematic_value": "10.0k 0.1%",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0805715KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 715000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        2.1,
+        1.4
+      ],
+      "domain": "body",
+      "ref": "R43",
+      "schematic_value": "715k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0805_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0603110KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 110000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R44",
+      "schematic_value": "110k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0603200KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 200000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R45",
+      "schematic_value": "200k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW040211K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 11000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R46",
+      "schematic_value": "11k 1%",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW04021K00BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 1000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R47",
+      "schematic_value": "1k 1%",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0402100KBEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R48",
+      "schematic_value": "100k 1%",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TPS3700DDCR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+      "maximum_height_mm": 1.1,
+      "domain": "body",
+      "ref": "U8",
+      "schematic_value": "TPS3700DDCR",
+      "footprint": "PrototypeR0:TSOT-23-6",
+      "purchase": true
+    },
+    {
+      "mpn": "TPS3808G33DBVR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "maximum_height_mm": 1.45,
+      "domain": "body",
+      "ref": "U9",
+      "schematic_value": "TPS3808G33DBVR",
+      "footprint": "PrototypeR0:SOT-23-6",
+      "purchase": true
+    },
+    {
+      "mpn": "SM10B-SRSS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "maximum_height_mm": 2.95,
+      "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+      "domain": "body",
+      "ref": "J6",
+      "schematic_value": "SM10B-SRSS-TB candidate",
+      "footprint": "PrototypeR0:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal",
+      "purchase": true
+    },
+    {
+      "mpn": "B140HW-7",
+      "manufacturer": "Diodes Incorporated",
+      "manufacturer_source": "https://www.diodes.com/datasheet/download/B140HW.pdf",
+      "maximum_height_mm": 1.35,
+      "assembly_note": "Custom footprint uses logical pad1 ANODE /pad2 CATHODE. Physical cathode stripe goes at the CAD cathode bar/pad2; do not assume generic diode pad1 numbering.",
+      "domain": "flange",
+      "ref": "D1",
+      "schematic_value": "Schottky 1A/20V candidate",
+      "footprint": "PrototypeR0:Diodes_B140HW_SOD123_A1_K2",
+      "purchase": true
+    },
+    {
+      "mpn": "1206L050YR",
+      "manufacturer": "Littelfuse",
+      "manufacturer_source": "https://www.littelfuse.com/assetdocs/resettable-ptcs-1206l-datasheet?assetguid=2b6a1515-d4ee-4c83-8bd4-152b4901b8f5",
+      "maximum_height_mm": 0.75,
+      "assembly_note": "500mA hold PTC, not a precise current limiter. Use6V variant matching this exact part/height, not a taller alternate.",
+      "domain": "flange",
+      "ref": "F1",
+      "schematic_value": "PTC 500mA candidate",
+      "footprint": "PrototypeR0:Fuse_1206_3216Metric",
+      "purchase": true
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Four hand-solder fixed-contact loom lands.",
+      "maximum_height_mm": 0,
+      "domain": "flange",
+      "ref": "J1",
+      "schematic_value": "FIXED CONTACT TARGETS GND DM DP 5V",
+      "footprint": "EVT1:Contact_Loom_4Land"
+    },
+    {
+      "mpn": "TNPW040222R0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 22.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "flange",
+      "ref": "R75",
+      "schematic_value": "22R",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW040222R0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 22.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "flange",
+      "ref": "R76",
+      "schematic_value": "22R",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "USBLC6-2SC6",
+      "manufacturer": "STMicroelectronics",
+      "manufacturer_source": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "maximum_height_mm": 1.45,
+      "domain": "flange",
+      "ref": "U75",
+      "schematic_value": "USBLC6-2SC6",
+      "footprint": "EVT1:SOT-23-6",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "flange",
+      "ref": "C31",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "flange",
+      "ref": "C32",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "C1608X7R1E105K080AB",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-06,
+      "rated_voltage_V": 25,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "flange",
+      "ref": "C33",
+      "schematic_value": "1uF",
+      "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "flange",
+      "ref": "C34",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "SM06B-SRSS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "maximum_height_mm": 2.95,
+      "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+      "domain": "flange",
+      "ref": "J4",
+      "schematic_value": "SERVICE_USB_BOOT",
+      "footprint": "PrototypeR0:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R31",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R32",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R33",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R34",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R35",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R36",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW06034K70BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 4700.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R37",
+      "schematic_value": "4.7k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW06034K70BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 4700.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R38",
+      "schematic_value": "4.7k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW08051M00BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 1000000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        2.1,
+        1.4
+      ],
+      "domain": "flange",
+      "ref": "R39",
+      "schematic_value": "1.00M 1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0805_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW08051M00BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 1000000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        2.1,
+        1.4
+      ],
+      "domain": "flange",
+      "ref": "R40",
+      "schematic_value": "1.00M 1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0805_IEC_Reflow",
+      "purchase": true
+    },
+    {
+      "mpn": "B3U-1000P",
+      "manufacturer": "Omron",
+      "manufacturer_source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+      "maximum_height_mm": 1.75,
+      "domain": "flange",
+      "ref": "SW1",
+      "schematic_value": "POWER / momentary",
+      "footprint": "PrototypeR0:SW_SPST_B3U-1000P",
+      "purchase": true
+    },
+    {
+      "mpn": "B3U-1000P",
+      "manufacturer": "Omron",
+      "manufacturer_source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+      "maximum_height_mm": 1.75,
+      "domain": "flange",
+      "ref": "SW2",
+      "schematic_value": "MODE / momentary",
+      "footprint": "PrototypeR0:SW_SPST_B3U-1000P",
+      "purchase": true
+    },
+    {
+      "mpn": "ESP32-C3-MINI-1-N4X",
+      "manufacturer": "Espressif",
+      "manufacturer_source": "https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html",
+      "maximum_height_mm": 2.55,
+      "assembly_note": "Preserve four-layer copper/antenna keepout. Quote stencil/ground-pad process using the native custom53-pad footprint.",
+      "domain": "flange",
+      "ref": "U6",
+      "schematic_value": "ESP32-C3-MINI-1-N4X candidate",
+      "footprint": "PrototypeR0:Espressif_ESP32-C3-MINI-1_53Pads",
+      "purchase": true
+    },
+    {
+      "mpn": "SM10B-SRSS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "maximum_height_mm": 2.95,
+      "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+      "domain": "flange",
+      "ref": "J7",
+      "schematic_value": "SM10B-SRSS-TB candidate",
+      "footprint": "PrototypeR0:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "flange",
+      "ref": "C71",
+      "schematic_value": "100nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "BAT54WS-E3-08",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+      "maximum_height_mm": 1.25,
+      "domain": "flange",
+      "ref": "D71",
+      "schematic_value": "BAT54WS-E3-08",
+      "footprint": "EVT1:D_SOD-323",
+      "purchase": true
+    },
+    {
+      "mpn": "BAT54WS-E3-08",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+      "maximum_height_mm": 1.25,
+      "domain": "flange",
+      "ref": "D72",
+      "schematic_value": "BAT54WS-E3-08",
+      "footprint": "EVT1:D_SOD-323",
+      "purchase": true
+    },
+    {
+      "mpn": "BAT54WS-E3-08",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+      "maximum_height_mm": 1.25,
+      "domain": "flange",
+      "ref": "D73",
+      "schematic_value": "BAT54WS-E3-08",
+      "footprint": "EVT1:D_SOD-323",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "flange",
+      "ref": "R71",
+      "schematic_value": "10k",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TPS3422EGDRYR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps3422.pdf",
+      "maximum_height_mm": 0.65,
+      "domain": "flange",
+      "ref": "U71",
+      "schematic_value": "TPS3422EGDRYR",
+      "footprint": "EVT1:Texas_USON-6_1x1.45mm_P0.5mm_SMD",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM155R71C224KA12D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C224KA12%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 2.2e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "sensor",
+      "ref": "C81",
+      "schematic_value": "220nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "sensor",
+      "ref": "C82",
+      "schematic_value": "100nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "C2012X5R1E226M125AC",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1E226M125AC",
+      "maximum_height_mm": 1.45,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 25,
+      "tolerance_percent": 20,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.2,
+        1.45
+      ],
+      "assembly_note": "C83 incoming/process acceptance: >=10uF effective at3.3V over intended temperature/age. Nominal22uF and voltage rating alone are not acceptance; manufacturer curves are reference data.",
+      "domain": "sensor",
+      "ref": "C83",
+      "schematic_value": "22uF 10V / Ceff>=10uF at3V3",
+      "footprint": "EVT1:C_0805_2012Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "sensor",
+      "ref": "C84",
+      "schematic_value": "100nF / VDDIO local",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Four hand-solder sensor-loom lands; no plug/header.",
+      "maximum_height_mm": 0,
+      "domain": "sensor",
+      "ref": "J82",
+      "schematic_value": "TO BODY J81 / FIXED IN FLANGE",
+      "footprint": "EVT1:Sensor_Loom_4Land"
+    },
+    {
+      "mpn": "LSM303AGRTR",
+      "manufacturer": "STMicroelectronics",
+      "manufacturer_source": "https://www.st.com/resource/en/datasheet/lsm303agr.pdf",
+      "maximum_height_mm": 1.1,
+      "assembly_note": "Pin1 and fixed package orientation must match the native footprint. Do not rotate for convenience; board registers to the molded back arrow.",
+      "domain": "sensor",
+      "ref": "U81",
+      "schematic_value": "LSM303AGRTR",
+      "footprint": "EVT1:LGA-12_2x2mm_P0.5mm",
+      "purchase": true
+    },
+    {
+      "mpn": "C1608X7R1E105K080AB",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-06,
+      "rated_voltage_V": 25,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "dock",
+      "ref": "C91",
+      "schematic_value": "1uF 10V",
+      "footprint": "EVT1:C_0603_1608Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "dock",
+      "ref": "C92",
+      "schematic_value": "100nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "USB4105-GF-A-120",
+      "manufacturer": "GCT",
+      "manufacturer_source": "https://gct.co/files/drawings/usb4105.pdf",
+      "maximum_height_mm": 3.41,
+      "domain": "dock",
+      "ref": "J91",
+      "schematic_value": "USB4105-GF-A-120",
+      "footprint": "EVT1:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "purchase": true
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Four hand-solder pin-board loom lands.",
+      "maximum_height_mm": 0,
+      "domain": "dock",
+      "ref": "J93",
+      "schematic_value": "TO PIN BOARD J94",
+      "footprint": "EVT1:Contact_Loom_4Land"
+    },
+    {
+      "mpn": "TNPW04025K10BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 5100.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "dock",
+      "ref": "R91",
+      "schematic_value": "5.1k 1%",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW04025K10BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 5100.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "dock",
+      "ref": "R92",
+      "schematic_value": "5.1k 1%",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "CRCW0402210KFKED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "maximum_height_mm": 0.4,
+      "resistance_ohm": 210000,
+      "tolerance_percent": 1,
+      "maximum_body_xy_mm": [
+        1.05,
+        0.6
+      ],
+      "domain": "dock",
+      "ref": "R93",
+      "schematic_value": "210k 1%",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": "TNPW0402100KBEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "dock",
+      "ref": "R94",
+      "schematic_value": "100k",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Copper fault test pad; no purchased test pin.",
+      "maximum_height_mm": 0,
+      "domain": "dock",
+      "ref": "TP91",
+      "schematic_value": "FAULT TEST",
+      "footprint": "EVT1:TestPoint_Pad_D1.0mm"
+    },
+    {
+      "mpn": "USBLC6-2SC6",
+      "manufacturer": "STMicroelectronics",
+      "manufacturer_source": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "maximum_height_mm": 1.45,
+      "domain": "dock",
+      "ref": "U91",
+      "schematic_value": "USBLC6-2SC6",
+      "footprint": "EVT1:SOT-23-6",
+      "purchase": true
+    },
+    {
+      "mpn": "TPS2553DBVR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+      "maximum_height_mm": 1.45,
+      "domain": "dock",
+      "ref": "U92",
+      "schematic_value": "TPS2553DBVR",
+      "footprint": "EVT1:SOT-23-6",
+      "purchase": true
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Four B.Cu hand-solder loom lands; solder before fitting the rear retainer.",
+      "maximum_height_mm": 0,
+      "domain": "pins",
+      "ref": "J94",
+      "schematic_value": "TO USB BOARD J93",
+      "footprint": "EVT1:Contact_Loom_4Land"
+    },
+    {
+      "mpn": "0906-2-15-20-75-14-11-0",
+      "manufacturer": "Mill-Max",
+      "manufacturer_source": "https://www.mill-max.com/products/spring-loaded/0906",
+      "maximum_height_mm": null,
+      "assembly_note": "Spring pin through1mm board; height/stroke are set by the carrier/retainer, not a generic component-height box.",
+      "domain": "pins",
+      "ref": "P91",
+      "schematic_value": "0906-2-15-20-75-14-11-0",
+      "footprint": "EVT1:MillMax_0906_2",
+      "purchase": true
+    },
+    {
+      "mpn": "0906-2-15-20-75-14-11-0",
+      "manufacturer": "Mill-Max",
+      "manufacturer_source": "https://www.mill-max.com/products/spring-loaded/0906",
+      "maximum_height_mm": null,
+      "assembly_note": "Spring pin through1mm board; height/stroke are set by the carrier/retainer, not a generic component-height box.",
+      "domain": "pins",
+      "ref": "P92",
+      "schematic_value": "0906-2-15-20-75-14-11-0",
+      "footprint": "EVT1:MillMax_0906_2",
+      "purchase": true
+    },
+    {
+      "mpn": "0906-2-15-20-75-14-11-0",
+      "manufacturer": "Mill-Max",
+      "manufacturer_source": "https://www.mill-max.com/products/spring-loaded/0906",
+      "maximum_height_mm": null,
+      "assembly_note": "Spring pin through1mm board; height/stroke are set by the carrier/retainer, not a generic component-height box.",
+      "domain": "pins",
+      "ref": "P93",
+      "schematic_value": "0906-2-15-20-75-14-11-0",
+      "footprint": "EVT1:MillMax_0906_2",
+      "purchase": true
+    },
+    {
+      "mpn": "0906-2-15-20-75-14-11-0",
+      "manufacturer": "Mill-Max",
+      "manufacturer_source": "https://www.mill-max.com/products/spring-loaded/0906",
+      "maximum_height_mm": null,
+      "assembly_note": "Spring pin through1mm board; height/stroke are set by the carrier/retainer, not a generic component-height box.",
+      "domain": "pins",
+      "ref": "P94",
+      "schematic_value": "0906-2-15-20-75-14-11-0",
+      "footprint": "EVT1:MillMax_0906_2",
+      "purchase": true
+    }
+  ],
+  "purchased_positions": 114,
+  "PCB_features_not_purchased": 8,
+  "unique_purchase_lines": 53,
+  "stock_or_supplier_acceptance": false,
+  "physical_validation": false,
+  "full_product_order_ready": false,
+  "process_acceptance_after_purchase": [
+    "C83 effective capacitance >=10uF at3.3V over intended temperature/age",
+    "Regulator effective capacitance, startup/transient/thermal behavior",
+    "Paste/reflow and polarized-part orientation",
+    "Incoming dimensions/received parts, soldering and actual fit"
+  ]
+}

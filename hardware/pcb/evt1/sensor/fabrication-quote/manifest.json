@@ -1,0 +1,43 @@
+{
+  "scope": "EVT PCB fabrication quote only; no full-product release or order",
+  "board_sha256": "af9baeb350e0343d6b3ee8a276ed54d8b96792c8363042612a1d7c9f46e7b8b2",
+  "quote_zip_sha256": "07e10d829e918839d7c9f374bedca5049b164974b41781f492bf94e9d3287e59",
+  "native_checks_sha256": "69fba275e78c55f1119f8ed07af6090dfb27dc8ed480d82e0db455c9fa605510",
+  "electrical_validation_sha256": "83a921025f9aead4850c8b2d74a3d9774579cfab3f8d048758b654a897742793",
+  "files": {
+    "fabrication-request.json": "90aab1e4d6d8d2a0ab514019b2d84d4e7db547357f2d3e710e3c4e7a5a1d0395",
+    "sensor-evt1-B_Cu.gbl": "3428ec27079cba5db51392b5c082b324e5b6d3ead62ff47e436d71ea5fcd7f10",
+    "sensor-evt1-B_Mask.gbs": "3a33f66abf7b7334b28468beb3a5863928cedc686a6c1b8f5b4f5811da7ae055",
+    "sensor-evt1-B_Paste.gbp": "5675b0e814dd0ff030270ecef11de0cdd0e233524c3a2aca9dca55e69f5f2ae2",
+    "sensor-evt1-B_Silkscreen.gbo": "3579562317c7a1d2f0187798eef0c703508adea745d523d244a1f07850a7bec8",
+    "sensor-evt1-Edge_Cuts.gm1": "59e719af66e1c351332d415a674611679e90ee167fb558cf0afa8540217430b3",
+    "sensor-evt1-F_Cu.gtl": "9123a800610abc85ce5deac3ec2e9b997dcc48430d2d3e3c4be915fb3f3435c8",
+    "sensor-evt1-F_Mask.gts": "560cfd5db34edab783096381f6df74b2913e3f8c00df7ecf09ea38f3dcecc82b",
+    "sensor-evt1-F_Paste.gtp": "b06713ec731eccbfb53140f6ab0604da8f89e7653ff572a54d072d3bf982ceee",
+    "sensor-evt1-F_Silkscreen.gto": "9311226b667154deab65d5c5d76a81e6963994a01e05e0809b839183a2735c10",
+    "sensor-evt1-NPTH.drl": "7aa2c2bc30ed4519c845f5e4b7b37357cde5672868b6b25a3cd6ea459c7918c2",
+    "sensor-evt1-PTH.drl": "def3fbeef62381460de680de72a14972d3e198f408fcaae54a025b38d23c0af6",
+    "sensor-evt1-job.gbrjob": "dee3f127b6f78bde762f42cc17ce119ca6b786fc912e61f4273ed6769184b3b9"
+  },
+  "fabrication_request": {
+    "scope": "EVT prototype fabrication quote; no full-product build release, supplier acceptance or order",
+    "layers": 2,
+    "copper_layer_order": [
+      "F.Cu",
+      "B.Cu"
+    ],
+    "thickness_mm": 1.0,
+    "material": "FR4",
+    "finish": "ENIG",
+    "outer_copper_oz": 1,
+    "inner_copper_oz": null,
+    "copper_clearance_min_mm": 0.09999999999999999,
+    "track_width_min_mm": 0.15,
+    "via_drill_min_mm": 0.19999999999999998,
+    "via_diameter_min_mm": 0.5,
+    "copper_to_board_edge_min_mm": 0.3,
+    "hole_to_copper_min_mm": 0.25,
+    "supplier_review": "Review finished thickness/holes, routed outline, mask webs, paste and the complete actual stackup before accepting a quote. Native stackup is a proposal, not an impedance-qualified fabrication agreement.",
+    "native_stackup_finish": "None"
+  }
+}

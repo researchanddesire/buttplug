@@ -1,0 +1,197 @@
+{
+  "status": "Candidate hardware contract; original body69, dockMain150 and routed flange artwork remain unchanged",
+  "protocol_v1_sha256": "4678caf5112116f93fc80a013288c87fad0e0572ccb57d29b35e8bd2dbe971a5",
+  "plug_instrumentation": {
+    "body_positions_retained": 69,
+    "candidate_added_positions": 21,
+    "ADS1115": {
+      "ref": "U7",
+      "address_7bit": 72,
+      "original_tip_measurement": "AIN0/AIN1 differential measurement and GPIO10 pulsed excitation remain unchanged",
+      "ISET_input": {
+        "physical_pin": 6,
+        "channel": "AIN2/GND",
+        "net": "CHARGE_CURRENT_ADC"
+      },
+      "TS_input": {
+        "physical_pin": 7,
+        "channel": "AIN3/GND",
+        "net": "CHARGE_TS_ADC"
+      },
+      "candidate_PGA_full_scale_V": 4.096,
+      "actual_input_operating_range": "0..VDD regardless of PGA; rail saturation or overload is invalid",
+      "current_scale_mA_per_V": 45.095828635851184,
+      "current_equation": "Icharge_mA = V_ISET * 400 / 8870 * 1000",
+      "current_scope": "Positive BQ charger current only; not net pack discharge current or SOC",
+      "mirror_uncertainty_percent": 10,
+      "original_R1": "TNPW04028K87BEED,8.87k0.1%; no substitution",
+      "input_filters": "Two independent10M1%100ppm series resistors and1nF5%C0G per buffer input",
+      "input_settling_min_ms": 175,
+      "output_filters": "1k plus100nF per ADC input, driven by unity OPA391DCKR",
+      "serialization": "One existing C3 I2C owner serializes tip, current and TS configuration/conversion. Wait a complete conversion after each MUX/PGA change; do not run concurrent ADC tasks."
+    },
+    "TCA9536": {
+      "ref": "U801",
+      "mpn": "TCA9536DTMR",
+      "address_7bit": 65,
+      "physical_pins": {
+        "1": "P0/CHG_SENSE_N",
+        "8": "P1/CE_ALLOWED_SENSE",
+        "2": "P2/unused",
+        "4": "P3/unused",
+        "5": "I2C_SCL",
+        "6": "I2C_SDA",
+        "7": "3V3",
+        "3": "GND"
+      },
+      "initialization_writes": [
+        {
+          "register": 1,
+          "value": 0
+        },
+        {
+          "register": 3,
+          "value": 3
+        },
+        {
+          "register": 80,
+          "value": 64
+        }
+      ],
+      "readback_masks": {
+        "output_0x01": 15,
+        "configuration_0x03": 15,
+        "special_0x50": 192
+      },
+      "polarity_register": "Require defined polarity bits0..3=0; verify or write0 before accepting observations",
+      "CHG": "P0 LOW means BQ CHG pin LOW; poll at25ms or faster and preserve fault edge history",
+      "CE": "P1 HIGH means observed actualCE LOW through the inverting buffer; this is permission observation, not proof of charging",
+      "default_state": "All ports input with internal pulls enabled; current-bounded but invalid until configuration/readback succeeds",
+      "never": "No GPIO output drives chargerCE, TS, ISET, EN1 or EN2"
+    },
+    "CE_validity_guard": "The conservative buffer corner uses chargerVIN>=3.8V. PGOOD alone does not establish this with a low battery. Require an independently qualified source bound or validPGOOD plus a calibratedVBAT lower-confidence bound>=3.8V, because BQPGOOD requiresVIN>VBAT+positiveVIN_DT. Otherwise CE_valid=false; positive ISET can still establish observed charging. No bareCHGhigh/zeroISET Done.",
+    "TS_validity": "TS voltage observes the charger's pack NTC node, not an independent calibrated temperature or a software safety override. Open/high saturation and stale/configuration faults are invalid.",
+    "USB100_default_termination": "Comparator0.027..0.040 of programmed charge current, typical0.033;8.87k gives nominal3.311mA. This is not a software Done threshold.",
+    "source_status": "Existing PGOOD and numeric J6/J7 interface remain unchanged. Source loss does not confirm physical removal."
+  },
+  "case_radio": {
+    "selected_module": "NINA-B112-05B-00",
+    "selected_module_firmware": "u-connectXpress7.0/hardware02; mass production per manufacturer R19 lifecycle table",
+    "module_model": "vendor/nina/NINA-B112-OEM.stp; actual B112 PIFA model, cold geometry and installed pose pending",
+    "bridge": "SC16IS750IBS,128/HVQFN24/SOT616-3;3.3V",
+    "bridge_address_7bit": 77,
+    "bridge_address_straps": "A1=A0=GND gives table8-bit0x9A =>7-bit0x4D",
+    "bridge_physical_pins": {
+      "1": "RESETn",
+      "2": "XTAL1",
+      "3": "XTAL2",
+      "4": "RADIO_3V3",
+      "5": "I2C/SPI=RADIO_3V3",
+      "6": "A0=GND",
+      "7": "A1=GND",
+      "8": "NC",
+      "9": "SCL",
+      "10": "SDA",
+      "11": "IRQn",
+      "12": "GPIO0/NINA_DSR_control",
+      "13": "GPIO1/NINA_DTR_status",
+      "14": "GPIO2/unused",
+      "15": "GPIO3/unused",
+      "16": "GND",
+      "17": "GPIO4/unused",
+      "18": "GPIO5/unused",
+      "19": "GPIO6/unused",
+      "20": "GPIO7/unused",
+      "21": "RTSn",
+      "22": "CTSn",
+      "23": "TX",
+      "24": "RX",
+      "EP": "GND; solder and thermal vias required"
+    },
+    "UART_wires": [
+      "SC16TX23\u2192NINARX23",
+      "SC16RX24\u2190NINATX22",
+      "SC16RTS21\u2192NINACTS21",
+      "SC16CTS22\u2190NINARTS20"
+    ],
+    "UART_default": "1152008N1, actual CTS/RTS. u-connect UMRS factory default flow_control=1; query/qualify persistent configuration.",
+    "clock_candidate": {
+      "mpn": "ABM8G-14.7456MHZ-B4Y-T",
+      "frequency_Hz": 14745600,
+      "load_pF": 10,
+      "ESR_max_ohm": 80,
+      "temperature_C": [
+        -20,
+        70
+      ],
+      "initial_tolerance_ppm": 30,
+      "stability_ppm": 30,
+      "active_primary_part_page": "https://abracon.com/parametric/crystals/ABM8G-14.7456MHZ-B4Y-T",
+      "starting_load_caps_pF": [
+        12,
+        12
+      ],
+      "qualification": "Actual pin/PCB capacitance, negative-resistance/startup margin, drive<=100uW and baud error<1% over operating conditions remain to measure."
+    },
+    "bridge_subaddress": "(register_index &0x0f)<<3; channelbits2..1=0, unusedbits7/0=0",
+    "bridge_initialization": [
+      "Keep NINA CTS deasserted until receiver FIFO and flow thresholds are ready; SC16 RTS defaults HIGH after reset.",
+      "Wait local supply/reset and actual crystal startup; verify scratchpad/configuration readback.",
+      "LCR=0xBF, EFR=0x10 to enable enhanced functions without autoflow.",
+      "LCR=0x03, MCR=0x04, TCR=0x6C (halt48/resume24), then clear MCR bit2. TCR must be valid BEFORE autoRTS is enabled.",
+      "LCR=0x83, DLL=8, DLH=0, then LCR=0x03; explicitly initialize divisor because these registers are not reset by the top-level reset.",
+      "FCR=0x07 enables and resets both FIFOs; wait at least2 stableXTAL clocks before FIFO accesses.",
+      "LCR=0xBF, EFR=0xD0 enables autoRTS and autoCTS, then restoreLCR=0x03. Software XON/XOFF remains disabled.",
+      "Initialize unused GPIO directions/latches intentionally; GPIO0 controls NINA DSR, GPIO1 observes NINA DTR. Do not confuse their RS232 host/module names.",
+      "Enable RX-data and RX-line-status interrupts, handle RX-timeout and overruns, and bound each I2C work slice. FIFO64 bytes can fill in5.56ms at continuous line rate."
+    ],
+    "Main_header_candidate": {
+      "1": "RADIO_5V/limited",
+      "2": "GND",
+      "3": "MON_I2C_SDA",
+      "4": "MON_I2C_SCL",
+      "5": "RADIO_IRQn/PH0physical5",
+      "6": "RADIO_ACTIVE_EN = PH1physical6 request AND SOURCE_OK"
+    },
+    "clock_and_recovery": "Main MSI4.2MHz and PA13/14 SWD remain unchanged; HSE is not selected. Native plugUSB/Power/Mode ROM recovery stay physically independent.",
+    "power": "SOURCE_OK-gated LOOP_5V\u2192new Main-sideTPS22950YBHR branch limiter before added harness\u2192local TLV70033DDCR. Its ON and header6 use hardware-gated RADIO_ACTIVE_EN, not rawPH1. No new radio power on legacy100mA source.",
+    "isolation": "TMUX1511RSVR powered fromRADIO_3V3 isolates SDA/SCL/IRQ. Three SEL pins follow hardware-gatedRADIO_ACTIVE_EN, so source loss opens them before local3V3decay. Powered-offI/O<=3.6V and Main3V3max must be qualified.",
+    "reset": "Local TPS3808G33DBVR open-drain reset supervisesRADIO_3V3 and resets SC16/NINA. NINA's55ms is a maximum pin-reset-release time, not a guaranteed complete firmware startup time; wait startupURC and AT handshake.",
+    "IRQ_pullups": "LocalSC16IRQ needs manufacturer1k; proposed hostPH0pull10k. Include both currents and bus pullups in added radio allocation.",
+    "radio_allocation_mA": 70,
+    "normal_load_target_max_mA": 30,
+    "hard_allocation_scope": "Limiteroutput max plus inputIq and newly added host-side pulls; not merely local radio load. Short-response overshoot/inrush and passive input faults require separate qualification.",
+    "coupled_UV_candidate": "R10739.2k and both UVRSET4.22ohm; no frozen budget/board mutation",
+    "case_antenna_clearance": "Manufacturer guidance:>=5mm to casing and>=10mm to metal around/below antenna. Actual installed geometry and radio qualification remain open.",
+    "Main_enable_gate": {
+      "candidate_MPN": "SN74LVC1G97DCKR",
+      "why": "Schmitt inputs accept the existing filteredSOURCE_OK edge. A plain non-Schmitt AND is inappropriate for that slow input.",
+      "physical_pins": {
+        "1": "In1=GND",
+        "2": "GND",
+        "3": "In0=PH1_RADIO_REQUEST",
+        "4": "Y=RADIO_ACTIVE_EN",
+        "5": "3V3_UI",
+        "6": "In2=SOURCE_OK"
+      },
+      "function": "WithIn1LOW, Table1 givesY=In2 AND In0. Default-low request and gated-output pulldowns remain required.",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf",
+      "normal_Icc_max_uA": 10
+    },
+    "preserved_Main_I2C_clock": "Existing target firmware runs I2C2 approximately50kHz; no unreviewed clock increase is assumed. Bound each UART drain slice and use true RTS/CTS backpressure.",
+    "body_new_Main_parts": 11,
+    "new_radio_addon_positions": 23,
+    "module_nominal_mm": [
+      10,
+      14,
+      3.8
+    ],
+    "module_model_scope": "Manufacturer PIFA model is nominal; R19 mechanical table permits thickness+0.40/\u22120.20, length/width+0.20/\u22120.10mm. Do not use nominal3.8mm as maximumheight. Table22 also permits0.60mm antennaoverhang outside the moduleoutline onanyside; include it separately in5mm/10mmclearances.",
+    "module_PCB_and_height_maximum_mm": [
+      10.2,
+      14.2,
+      4.2
+    ],
+    "module_antenna_overhang_max_mm_per_side": 0.6
+  }
+}

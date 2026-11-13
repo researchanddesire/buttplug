@@ -1,0 +1,48 @@
+{
+  "status": "pass: native ERC and complete declared pin/pad parity",
+  "scope": "dock-safety",
+  "kicad_version": "10.0.8",
+  "checked_at_utc": "2026-11-12T21:21:18.431841+00:00",
+  "source_sha256": {
+    "DockSafety.kicad_sym": "ea64daa0653e1aa0fea3e448f7ecf62389ccc1ae66b2c609701eff032ee470ba",
+    "DockSafety.pretty/C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+    "DockSafety.pretty/C_0603_1608Metric.kicad_mod": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6",
+    "DockSafety.pretty/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.kicad_mod": "e2b276b9abd51080ee70ed1584af9983db17bcc0b8991b1cad48ab839ea0855d",
+    "DockSafety.pretty/JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical.kicad_mod": "2b565abce08bb9136e99664642e529dc796ab82a901985ce1e8165406442cb61",
+    "DockSafety.pretty/JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal.kicad_mod": "2d0cb032feac45a88bb9b4ddcb2464f92ccbd5810439b4dbd366458932827ec1",
+    "DockSafety.pretty/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.kicad_mod": "c23619f2b76e78232c0be750fd6dcb02c41aeb19aa190e6cac1872f2a477c1b2",
+    "DockSafety.pretty/R_0603_1608Metric.kicad_mod": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4",
+    "DockSafety.pretty/R_0805_2012Metric.kicad_mod": "c9e065246f39a319f005b381e48e92fe0cf15ef93d474e17a8c210566693cd97",
+    "DockSafety.pretty/SOT-143.kicad_mod": "f62a48d72540d3c2c45fe74f86fe670368fd2433829c0d209667c813d76d26d3",
+    "DockSafety.pretty/SOT-23-6.kicad_mod": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97",
+    "DockSafety.pretty/SOT-363_SC-70-6.kicad_mod": "bf06bb9583c40562265e319ac36c73b6150587a3148fd28145b5f1b70f0ce9d7",
+    "DockSafety.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": "af563040f700cb87a33f6947b14e1b4b72fb2c5bf644b070093690e640c58558",
+    "DockSafety.pretty/TestPoint_Pad_D1.0mm.kicad_mod": "f656c9fb1f11e345b0f97d9a7119972e5dcca486fc2ca65bd06c086ce49cc0f7",
+    "DockSafety.pretty/Texas_DRB0008A_3x3mm_P0.65_EP_Fingers.kicad_mod": "a87015ce3aebc26a4cd369aad8577251bb5ca1d10c133673a17c2db3c44c401a",
+    "DockSafety.pretty/Texas_RXP0008A_1.25x1.5mm_Asymmetric.kicad_mod": "3e80001c67afa1e1148fe89bae2052784deabbb8bc85628f08bfcc368cd1ab11",
+    "dock-safety.kicad_pro": "5100032468cd47d5ce92fb0830ff1eee2ca13e9ec21d5650abe4ad7c040db679",
+    "dock-safety.kicad_sch": "9307f20f07d1336f2412a5365ea032b7bdbe81786c87e1a5e26bc481419a9ce7",
+    "fp-lib-table": "cbac5faf2ff7ef497da85a17fecd243b732aee79c2b456b76bbb3606f452ce21",
+    "parts-selection.json": "c77f9fcee9349fd42d004a06ce52e2e9a1362034cabc350213223c1e35edf953",
+    "sym-lib-table": "b4b484b4cdf7b71e94f983dfe15b1a4b13ee113e5b06a36656b8cf707f7c9396"
+  },
+  "shared_source_sha256": {
+    "hardware/pcb/evt1/dock-safety/native_helpers.py": "8608923d6858e321f88c4c4539d58d70f3a2f156001c0894db1d9d1ab564da0c",
+    "hardware/pcb/evt1/dock-safety/check_native.py": "f98dd6cb4f880be7b15252204fd3baf5b522dca8675f3485186b09a492a11a38",
+    "hardware/pcb/evt1/dock-safety/build_safety.py": "198c9ddd99b0e07b5bfc6547d8f73289246b2d581451c0ba59a2d386ce593f1a"
+  },
+  "reports_sha256": {
+    "native.xml": "d4448522ad04c7d7356cbc15d4765f94448e00d16a9c622ca4908c7c63a9905c",
+    "erc.json": "28ed2967494238af5f898221bfc8125ab3dd1d186417013484e0495232058e1a"
+  },
+  "component_count": 60,
+  "pin_checks": 208,
+  "footprint_checks": 58,
+  "offboard_components": 2,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "ERC_exclusions": [],
+  "PCB_created_or_routed": false,
+  "powered_validation": false,
+  "full_product_order_ready": false
+}

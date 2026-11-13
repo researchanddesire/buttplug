@@ -1,0 +1,52 @@
+{
+  "status": "Unrouted case radio candidate verified in KiCad",
+  "tool_version": "10.0.8",
+  "erc_violations": 0,
+  "erc_ignored": 0,
+  "retained_dock_component_count": 234,
+  "retained_terminal_count": 812,
+  "case_component_count": 268,
+  "case_terminal_count": 986,
+  "existing_pin_changes": {
+    "U201.5": "previousNC\u2192RADIO_IRQn",
+    "U201.6": "previousNC\u2192PH1_RADIO_REQUEST"
+  },
+  "existing_value_changes": {
+    "R107": [
+      "39.2k0.1%25ppm",
+      "RT0603BRD0739K2L",
+      "Yageo"
+    ],
+    "R401": [
+      "4.22ohm1%100ppm",
+      "CRCW08054R22FKEA",
+      "Vishay"
+    ],
+    "R501": [
+      "4.22ohm1%100ppm",
+      "CRCW08054R22FKEA",
+      "Vishay"
+    ]
+  },
+  "irq_domains": {
+    "RADIO_IRQn": [
+      "J150.5",
+      "J901.5",
+      "R153.2",
+      "U201.5",
+      "U903.9"
+    ],
+    "SC16_IRQn": [
+      "R905.2",
+      "U902.11",
+      "U903.10"
+    ]
+  },
+  "all_three_switches_use_gated_enable": true,
+  "original_Main_board_sha256": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+  "source_bindings_sha256": "0a2e600183d8b785362cd30b87d0ca9c6530a30804089a6c45910dd41d12f3db",
+  "native_netlist_sha256": "66f0e13daea9dd34e6cb4891113760f65af9b7b612425ac45bcc707d8896121e",
+  "erc_sha256": "8f5fe834221ccc2765d98cd3ac6f789a8b6e9be1913a60301d656383a930d821",
+  "physical_validation": false,
+  "new_position_pin_contract_checks": 174
+}

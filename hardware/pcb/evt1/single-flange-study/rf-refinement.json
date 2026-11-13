@@ -1,0 +1,117 @@
+{
+  "before_sha256": "2fb80d3a8396e52e0cf803d7fc3310dcb7451fa89e745e8af303a663ca98c2fd",
+  "after_sha256": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
+  "bounded_positions": {
+    "R75": {
+      "before": [
+        -22.0,
+        3.0,
+        -90.0
+      ],
+      "after": [
+        -18.8,
+        3.5,
+        180
+      ]
+    },
+    "R76": {
+      "before": [
+        -22.0,
+        5.5,
+        -90.0
+      ],
+      "after": [
+        -18.8,
+        6.5,
+        180
+      ]
+    },
+    "D71": {
+      "before": [
+        -21.0,
+        -2.0,
+        0.0
+      ],
+      "after": [
+        7,
+        -6,
+        0
+      ]
+    },
+    "C31": {
+      "before": [
+        -22.0,
+        -5.0,
+        -90.0
+      ],
+      "after": [
+        -32.4,
+        9,
+        90
+      ]
+    },
+    "C32": {
+      "before": [
+        -22.0,
+        -8.0,
+        0.0
+      ],
+      "after": [
+        -29.9,
+        9,
+        90
+      ]
+    }
+  },
+  "all_other_positions_exact": true,
+  "source_circuit_changed": false,
+  "actual_U6_VDD_pad3_productXZ": [
+    -32.400000000000006,
+    5.900000000000006
+  ],
+  "near_VDD_decoupling_lands": [
+    {
+      "ref": "C31",
+      "VDD_pad_productXZ": [
+        -32.400000000000006,
+        8.049999999999997
+      ],
+      "straight_distance_to_U6_3_mm": 2.1499999999999915,
+      "GND_pad_productXZ": [
+        -32.400000000000006,
+        9.950000000000003
+      ]
+    },
+    {
+      "ref": "C32",
+      "VDD_pad_productXZ": [
+        -29.900000000000006,
+        8.325000000000003
+      ],
+      "straight_distance_to_U6_3_mm": 3.4829046785693096,
+      "GND_pad_productXZ": [
+        -29.900000000000006,
+        9.674999999999997
+      ]
+    }
+  ],
+  "remaining_routing_requirements": "short3V3 neck fromU6pad3 throughC31/C32, adjacentGNDvias/directreturn to moduleground; no routed loop is implied",
+  "RF_tradeoff": "C31/C32 remain near the module VDD edge and inside15mm general antenna guidance; other avoidable small-signal/metal positions moved beyond15mm. Keep actual housing/RF qualification open.",
+  "courtyard_resolution": {
+    "intermediate_board_sha256": "98abc09d3093d83784f05320408d50109c6dcd81a6fa7b2d3453bedad1fa5c37",
+    "native_preflight": "rf-moves-preflight-drc.json",
+    "final_two_resistor_poses": {
+      "R75": [
+        -18.8,
+        3.5,
+        180
+      ],
+      "R76": [
+        -18.8,
+        6.5,
+        180
+      ]
+    },
+    "source_geometry_or_net_change": false
+  }
+}

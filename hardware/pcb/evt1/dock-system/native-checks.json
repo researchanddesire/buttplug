@@ -1,0 +1,6008 @@
+{
+  "status": "pass",
+  "scope": "Combined dock schematic; preserved leaf terminals and explicit cross-sheet interfaces",
+  "checked_at_utc": "2026-11-12T21:39:15.053522+00:00",
+  "kicad_version": "10.0.8",
+  "runs": [
+    {
+      "phase": "xml",
+      "returncode": 0
+    },
+    {
+      "phase": "erc",
+      "returncode": 0
+    }
+  ],
+  "ERC_findings": [],
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "ERC_exclusions": [],
+  "native_component_count": 234,
+  "native_terminal_count": 812,
+  "terminal_checks": [
+    {
+      "ref": "C105",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C108",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C109",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J104",
+      "pin": "2",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R120",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R121",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R123",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R124",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R125",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R127",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R128",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R129",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U102",
+      "pin": "5",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_out"
+    },
+    {
+      "ref": "U103",
+      "pin": "12",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U114",
+      "pin": "5",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U120",
+      "pin": "5",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "U123",
+      "pin": "5",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "J104",
+      "pin": "9",
+      "leaf_net": "BTN_CENTER_PRESSED",
+      "system_net": "BTN_CENTER_PRESSED",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U114",
+      "pin": "4",
+      "leaf_net": "BTN_CENTER_PRESSED",
+      "system_net": "BTN_CENTER_PRESSED",
+      "pintype": "output"
+    },
+    {
+      "ref": "J104",
+      "pin": "8",
+      "leaf_net": "BTN_CENTERn_DEBOUNCED",
+      "system_net": "BTN_CENTERn_DEBOUNCED",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R127",
+      "pin": "2",
+      "leaf_net": "BTN_CENTERn_DEBOUNCED",
+      "system_net": "BTN_CENTERn_DEBOUNCED",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U114",
+      "pin": "3",
+      "leaf_net": "BTN_CENTERn_DEBOUNCED",
+      "system_net": "BTN_CENTERn_DEBOUNCED",
+      "pintype": "input"
+    },
+    {
+      "ref": "J101",
+      "pin": "A5",
+      "leaf_net": "CC1",
+      "system_net": "CC1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U103",
+      "pin": "1",
+      "leaf_net": "CC1",
+      "system_net": "CC1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J101",
+      "pin": "B5",
+      "leaf_net": "CC2",
+      "system_net": "CC2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U103",
+      "pin": "2",
+      "leaf_net": "CC2",
+      "system_net": "CC2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R128",
+      "pin": "2",
+      "leaf_net": "CC_ENABLE",
+      "system_net": "CC_ENABLE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U103",
+      "pin": "11",
+      "leaf_net": "CC_ENABLE",
+      "system_net": "CC_ENABLE",
+      "pintype": "input"
+    },
+    {
+      "ref": "U120",
+      "pin": "1",
+      "leaf_net": "CC_ENABLE",
+      "system_net": "CC_ENABLE",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "U124",
+      "pin": "6",
+      "leaf_net": "CC_ENABLE",
+      "system_net": "CC_ENABLE",
+      "pintype": "input"
+    },
+    {
+      "ref": "R130",
+      "pin": "2",
+      "leaf_net": "CC_ENABLE_CT",
+      "system_net": "CC_ENABLE_CT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U120",
+      "pin": "4",
+      "leaf_net": "CC_ENABLE_CT",
+      "system_net": "CC_ENABLE_CT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J104",
+      "pin": "4",
+      "leaf_net": "CC_OUT1",
+      "system_net": "CC_OUT1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R120",
+      "pin": "2",
+      "leaf_net": "CC_OUT1",
+      "system_net": "CC_OUT1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U103",
+      "pin": "7",
+      "leaf_net": "CC_OUT1",
+      "system_net": "CC_OUT1",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "U114",
+      "pin": "1",
+      "leaf_net": "CC_OUT1",
+      "system_net": "CC_OUT1",
+      "pintype": "input"
+    },
+    {
+      "ref": "J104",
+      "pin": "5",
+      "leaf_net": "CC_OUT2",
+      "system_net": "CC_OUT2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R121",
+      "pin": "2",
+      "leaf_net": "CC_OUT2",
+      "system_net": "CC_OUT2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U103",
+      "pin": "8",
+      "leaf_net": "CC_OUT2",
+      "system_net": "CC_OUT2",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "J104",
+      "pin": "10",
+      "leaf_net": "CC_OUT3",
+      "system_net": "CC_OUT3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R125",
+      "pin": "2",
+      "leaf_net": "CC_OUT3",
+      "system_net": "CC_OUT3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U103",
+      "pin": "6",
+      "leaf_net": "CC_OUT3",
+      "system_net": "CC_OUT3",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "R131",
+      "pin": "2",
+      "leaf_net": "CC_STATUS_CT",
+      "system_net": "CC_STATUS_CT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U123",
+      "pin": "4",
+      "leaf_net": "CC_STATUS_CT",
+      "system_net": "CC_STATUS_CT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U123",
+      "pin": "3",
+      "leaf_net": "CC_STATUS_MRn",
+      "system_net": "CC_STATUS_MRn",
+      "pintype": "input"
+    },
+    {
+      "ref": "U124",
+      "pin": "4",
+      "leaf_net": "CC_STATUS_MRn",
+      "system_net": "CC_STATUS_MRn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R129",
+      "pin": "2",
+      "leaf_net": "CC_STATUS_READY",
+      "system_net": "CC_STATUS_READY",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U122",
+      "pin": "6",
+      "leaf_net": "CC_STATUS_READY",
+      "system_net": "CC_STATUS_READY",
+      "pintype": "input"
+    },
+    {
+      "ref": "U123",
+      "pin": "1",
+      "leaf_net": "CC_STATUS_READY",
+      "system_net": "CC_STATUS_READY",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "C106",
+      "pin": "1",
+      "leaf_net": "CONTACT_5V",
+      "system_net": "CONTACT_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J102",
+      "pin": "4",
+      "leaf_net": "CONTACT_5V",
+      "system_net": "CONTACT_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U104",
+      "pin": "B2",
+      "leaf_net": "CONTACT_5V",
+      "system_net": "CONTACT_5V",
+      "pintype": "power_out"
+    },
+    {
+      "ref": "J104",
+      "pin": "6",
+      "leaf_net": "DEVICE_FAULTn",
+      "system_net": "DEVICE_FAULTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R123",
+      "pin": "2",
+      "leaf_net": "DEVICE_FAULTn",
+      "system_net": "DEVICE_FAULTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U104",
+      "pin": "A2",
+      "leaf_net": "DEVICE_FAULTn",
+      "system_net": "DEVICE_FAULTn",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "R105",
+      "pin": "1",
+      "leaf_net": "DEVICE_ILIM",
+      "system_net": "DEVICE_ILIM",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R106",
+      "pin": "1",
+      "leaf_net": "DEVICE_ILIM",
+      "system_net": "DEVICE_ILIM",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U104",
+      "pin": "C2",
+      "leaf_net": "DEVICE_ILIM",
+      "system_net": "DEVICE_ILIM",
+      "pintype": "passive"
+    },
+    {
+      "ref": "Q103",
+      "pin": "3",
+      "leaf_net": "DEVICE_ILIM_HIGH_RETURN",
+      "system_net": "DEVICE_ILIM_HIGH_RETURN",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R106",
+      "pin": "2",
+      "leaf_net": "DEVICE_ILIM_HIGH_RETURN",
+      "system_net": "DEVICE_ILIM_HIGH_RETURN",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R105",
+      "pin": "2",
+      "leaf_net": "DEVICE_ILIM_LOW_RETURN",
+      "system_net": "DEVICE_ILIM_LOW_RETURN",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R108",
+      "pin": "1",
+      "leaf_net": "DEVICE_ILIM_LOW_RETURN",
+      "system_net": "DEVICE_ILIM_LOW_RETURN",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C101",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C102",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C103",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C104",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C105",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C106",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C107",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C108",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C109",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C110",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C111",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C112",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C113",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C114",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J101",
+      "pin": "A1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_out"
+    },
+    {
+      "ref": "J101",
+      "pin": "A12",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J101",
+      "pin": "B1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J101",
+      "pin": "B12",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J101",
+      "pin": "S1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J102",
+      "pin": "1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J103",
+      "pin": "1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J104",
+      "pin": "1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "Q103",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R107",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R108",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R122",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R126",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R133",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U102",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U103",
+      "pin": "10",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U103",
+      "pin": "3",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "input"
+    },
+    {
+      "ref": "U104",
+      "pin": "C1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U105",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U114",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U120",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U121",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U122",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U123",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U124",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U124",
+      "pin": "3",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C101",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C102",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C103",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C104",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C110",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C111",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C112",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C113",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J101",
+      "pin": "A4",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_out"
+    },
+    {
+      "ref": "J101",
+      "pin": "A9",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J101",
+      "pin": "B4",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J101",
+      "pin": "B9",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R101",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R130",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R131",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U102",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U102",
+      "pin": "3",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "input"
+    },
+    {
+      "ref": "U104",
+      "pin": "A1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "input"
+    },
+    {
+      "ref": "U104",
+      "pin": "B1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U105",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U120",
+      "pin": "3",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "input"
+    },
+    {
+      "ref": "U120",
+      "pin": "6",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U121",
+      "pin": "5",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U122",
+      "pin": "5",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U123",
+      "pin": "6",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U124",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U124",
+      "pin": "5",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "R132",
+      "pin": "2",
+      "leaf_net": "SOURCE_DRIVE",
+      "system_net": "SOURCE_DRIVE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U122",
+      "pin": "1",
+      "leaf_net": "SOURCE_DRIVE",
+      "system_net": "SOURCE_DRIVE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R133",
+      "pin": "1",
+      "leaf_net": "SOURCE_OFF_RETURN",
+      "system_net": "SOURCE_OFF_RETURN",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U122",
+      "pin": "3",
+      "leaf_net": "SOURCE_OFF_RETURN",
+      "system_net": "SOURCE_OFF_RETURN",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C114",
+      "pin": "1",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J103",
+      "pin": "3",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J104",
+      "pin": "3",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "passive"
+    },
+    {
+      "ref": "Q103",
+      "pin": "1",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "input"
+    },
+    {
+      "ref": "R122",
+      "pin": "1",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R126",
+      "pin": "1",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U105",
+      "pin": "3",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "input"
+    },
+    {
+      "ref": "U122",
+      "pin": "4",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R132",
+      "pin": "1",
+      "leaf_net": "SOURCE_REQUEST",
+      "system_net": "SOURCE_REQUEST",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U114",
+      "pin": "6",
+      "leaf_net": "SOURCE_REQUEST",
+      "system_net": "SOURCE_REQUEST",
+      "pintype": "output"
+    },
+    {
+      "ref": "J101",
+      "pin": "A7",
+      "leaf_net": "USB_DM",
+      "system_net": "USB_DM",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J101",
+      "pin": "B7",
+      "leaf_net": "USB_DM",
+      "system_net": "USB_DM",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J102",
+      "pin": "2",
+      "leaf_net": "USB_DM",
+      "system_net": "USB_DM",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U121",
+      "pin": "1",
+      "leaf_net": "USB_DM",
+      "system_net": "USB_DM",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U121",
+      "pin": "6",
+      "leaf_net": "USB_DM",
+      "system_net": "USB_DM",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J101",
+      "pin": "A6",
+      "leaf_net": "USB_DP",
+      "system_net": "USB_DP",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J101",
+      "pin": "B6",
+      "leaf_net": "USB_DP",
+      "system_net": "USB_DP",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J102",
+      "pin": "3",
+      "leaf_net": "USB_DP",
+      "system_net": "USB_DP",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U121",
+      "pin": "3",
+      "leaf_net": "USB_DP",
+      "system_net": "USB_DP",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U121",
+      "pin": "4",
+      "leaf_net": "USB_DP",
+      "system_net": "USB_DP",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C107",
+      "pin": "1",
+      "leaf_net": "UV_5V_LIMITED",
+      "system_net": "UV_5V_LIMITED",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J103",
+      "pin": "2",
+      "leaf_net": "UV_5V_LIMITED",
+      "system_net": "UV_5V_LIMITED",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U105",
+      "pin": "6",
+      "leaf_net": "UV_5V_LIMITED",
+      "system_net": "UV_5V_LIMITED",
+      "pintype": "power_out"
+    },
+    {
+      "ref": "R107",
+      "pin": "1",
+      "leaf_net": "UV_ILIM",
+      "system_net": "UV_ILIM",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U105",
+      "pin": "5",
+      "leaf_net": "UV_ILIM",
+      "system_net": "UV_ILIM",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J104",
+      "pin": "7",
+      "leaf_net": "UV_LIMIT_FAULTn",
+      "system_net": "UV_LIMIT_FAULTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R124",
+      "pin": "2",
+      "leaf_net": "UV_LIMIT_FAULTn",
+      "system_net": "UV_LIMIT_FAULTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U105",
+      "pin": "4",
+      "leaf_net": "UV_LIMIT_FAULTn",
+      "system_net": "UV_LIMIT_FAULTn",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "R101",
+      "pin": "2",
+      "leaf_net": "VBUS_DET",
+      "system_net": "VBUS_DET",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U103",
+      "pin": "4",
+      "leaf_net": "VBUS_DET",
+      "system_net": "VBUS_DET",
+      "pintype": "input"
+    },
+    {
+      "ref": "J101",
+      "pin": "A8",
+      "leaf_net": "unconnected-(J101-SBU1-PadA8)",
+      "system_net": "unconnected-(J101-SBU1-PadA8)",
+      "pintype": "passive+no_connect"
+    },
+    {
+      "ref": "J101",
+      "pin": "B8",
+      "leaf_net": "unconnected-(J101-SBU2-PadB8)",
+      "system_net": "unconnected-(J101-SBU2-PadB8)",
+      "pintype": "passive+no_connect"
+    },
+    {
+      "ref": "U102",
+      "pin": "4",
+      "leaf_net": "unconnected-(U102-NC-Pad4)",
+      "system_net": "unconnected-(U102-NC-Pad4)",
+      "pintype": "no_connect"
+    },
+    {
+      "ref": "U103",
+      "pin": "5",
+      "leaf_net": "unconnected-(U103-ADDR_GPIO_FLOAT-Pad5)",
+      "system_net": "unconnected-(U103-ADDR_GPIO_FLOAT-Pad5)",
+      "pintype": "input+no_connect"
+    },
+    {
+      "ref": "U103",
+      "pin": "9",
+      "leaf_net": "unconnected-(U103-ID-Pad9)",
+      "system_net": "unconnected-(U103-ID-Pad9)",
+      "pintype": "open_collector+no_connect"
+    },
+    {
+      "ref": "C201",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C202",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C203",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C204",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J202",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R214",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R215",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R225",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R226",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U201",
+      "pin": "24",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U201",
+      "pin": "36",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U201",
+      "pin": "48",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "X201",
+      "pin": "23",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C205",
+      "pin": "1",
+      "leaf_net": "3V3_ANALOG",
+      "system_net": "3V3_ANALOG",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C206",
+      "pin": "1",
+      "leaf_net": "3V3_ANALOG",
+      "system_net": "3V3_ANALOG",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C210",
+      "pin": "1",
+      "leaf_net": "3V3_ANALOG",
+      "system_net": "3V3_ANALOG",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R214",
+      "pin": "2",
+      "leaf_net": "3V3_ANALOG",
+      "system_net": "3V3_ANALOG",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R216",
+      "pin": "1",
+      "leaf_net": "3V3_ANALOG",
+      "system_net": "3V3_ANALOG",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R217",
+      "pin": "1",
+      "leaf_net": "3V3_ANALOG",
+      "system_net": "3V3_ANALOG",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R218",
+      "pin": "1",
+      "leaf_net": "3V3_ANALOG",
+      "system_net": "3V3_ANALOG",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R219",
+      "pin": "1",
+      "leaf_net": "3V3_ANALOG",
+      "system_net": "3V3_ANALOG",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "9",
+      "leaf_net": "3V3_ANALOG",
+      "system_net": "3V3_ANALOG",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U202",
+      "pin": "8",
+      "leaf_net": "3V3_ANALOG",
+      "system_net": "3V3_ANALOG",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "J201",
+      "pin": "2",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R215",
+      "pin": "2",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U202",
+      "pin": "4",
+      "leaf_net": "BASE_FB",
+      "system_net": "BASE_FB",
+      "pintype": "input"
+    },
+    {
+      "ref": "X201",
+      "pin": "17",
+      "leaf_net": "BASE_FB",
+      "system_net": "BASE_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U202",
+      "pin": "6",
+      "leaf_net": "BASE_VOUT_DIV",
+      "system_net": "BASE_VOUT_DIV",
+      "pintype": "input"
+    },
+    {
+      "ref": "X201",
+      "pin": "19",
+      "leaf_net": "BASE_VOUT_DIV",
+      "system_net": "BASE_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R213",
+      "pin": "1",
+      "leaf_net": "BOOT0",
+      "system_net": "BOOT0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP201",
+      "pin": "1",
+      "leaf_net": "BOOT0",
+      "system_net": "BOOT0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "44",
+      "leaf_net": "BOOT0",
+      "system_net": "BOOT0",
+      "pintype": "input"
+    },
+    {
+      "ref": "U201",
+      "pin": "26",
+      "leaf_net": "BTN_CENTERn_DEBOUNCED",
+      "system_net": "BTN_CENTERn_DEBOUNCED",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "11",
+      "leaf_net": "BTN_CENTERn_DEBOUNCED",
+      "system_net": "BTN_CENTERn_DEBOUNCED",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J201",
+      "pin": "16",
+      "leaf_net": "BTN_CENTERn_RAW",
+      "system_net": "BTN_CENTERn_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "X201",
+      "pin": "12",
+      "leaf_net": "BTN_CENTERn_RAW",
+      "system_net": "BTN_CENTERn_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C211",
+      "pin": "1",
+      "leaf_net": "BTN_LEFTn",
+      "system_net": "BTN_LEFTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J201",
+      "pin": "15",
+      "leaf_net": "BTN_LEFTn",
+      "system_net": "BTN_LEFTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R225",
+      "pin": "2",
+      "leaf_net": "BTN_LEFTn",
+      "system_net": "BTN_LEFTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "25",
+      "leaf_net": "BTN_LEFTn",
+      "system_net": "BTN_LEFTn",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "C212",
+      "pin": "1",
+      "leaf_net": "BTN_RIGHTn",
+      "system_net": "BTN_RIGHTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J201",
+      "pin": "17",
+      "leaf_net": "BTN_RIGHTn",
+      "system_net": "BTN_RIGHTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R226",
+      "pin": "2",
+      "leaf_net": "BTN_RIGHTn",
+      "system_net": "BTN_RIGHTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "27",
+      "leaf_net": "BTN_RIGHTn",
+      "system_net": "BTN_RIGHTn",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "U201",
+      "pin": "39",
+      "leaf_net": "CC_OUT1",
+      "system_net": "CC_OUT1",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "2",
+      "leaf_net": "CC_OUT1",
+      "system_net": "CC_OUT1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "40",
+      "leaf_net": "CC_OUT2",
+      "system_net": "CC_OUT2",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "3",
+      "leaf_net": "CC_OUT2",
+      "system_net": "CC_OUT2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "32",
+      "leaf_net": "DEVICE_FAULTn",
+      "system_net": "DEVICE_FAULTn",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "4",
+      "leaf_net": "DEVICE_FAULTn",
+      "system_net": "DEVICE_FAULTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C201",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C202",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C203",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C204",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C205",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C206",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C207",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C208",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C209",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C210",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C211",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C212",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D201",
+      "pin": "1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J201",
+      "pin": "1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J201",
+      "pin": "18",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J201",
+      "pin": "19",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J201",
+      "pin": "20",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J201",
+      "pin": "MP",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J202",
+      "pin": "5",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R213",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R223",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "23",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U201",
+      "pin": "35",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U201",
+      "pin": "47",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U201",
+      "pin": "8",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U202",
+      "pin": "1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "input"
+    },
+    {
+      "ref": "U202",
+      "pin": "3",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "X201",
+      "pin": "24",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J201",
+      "pin": "11",
+      "leaf_net": "LCD_A0",
+      "system_net": "LCD_A0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R209",
+      "pin": "2",
+      "leaf_net": "LCD_A0",
+      "system_net": "LCD_A0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R209",
+      "pin": "1",
+      "leaf_net": "LCD_A0_MCU",
+      "system_net": "LCD_A0_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "41",
+      "leaf_net": "LCD_A0_MCU",
+      "system_net": "LCD_A0_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "13",
+      "leaf_net": "LCD_CSn",
+      "system_net": "LCD_CSn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R211",
+      "pin": "2",
+      "leaf_net": "LCD_CSn",
+      "system_net": "LCD_CSn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R211",
+      "pin": "1",
+      "leaf_net": "LCD_CSn_MCU",
+      "system_net": "LCD_CSn_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "43",
+      "leaf_net": "LCD_CSn_MCU",
+      "system_net": "LCD_CSn_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "3",
+      "leaf_net": "LCD_DB0",
+      "system_net": "LCD_DB0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R201",
+      "pin": "2",
+      "leaf_net": "LCD_DB0",
+      "system_net": "LCD_DB0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R201",
+      "pin": "1",
+      "leaf_net": "LCD_DB0_MCU",
+      "system_net": "LCD_DB0_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "10",
+      "leaf_net": "LCD_DB0_MCU",
+      "system_net": "LCD_DB0_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "4",
+      "leaf_net": "LCD_DB1",
+      "system_net": "LCD_DB1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R202",
+      "pin": "2",
+      "leaf_net": "LCD_DB1",
+      "system_net": "LCD_DB1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R202",
+      "pin": "1",
+      "leaf_net": "LCD_DB1_MCU",
+      "system_net": "LCD_DB1_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "11",
+      "leaf_net": "LCD_DB1_MCU",
+      "system_net": "LCD_DB1_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "5",
+      "leaf_net": "LCD_DB2",
+      "system_net": "LCD_DB2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R203",
+      "pin": "2",
+      "leaf_net": "LCD_DB2",
+      "system_net": "LCD_DB2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R203",
+      "pin": "1",
+      "leaf_net": "LCD_DB2_MCU",
+      "system_net": "LCD_DB2_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "12",
+      "leaf_net": "LCD_DB2_MCU",
+      "system_net": "LCD_DB2_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "6",
+      "leaf_net": "LCD_DB3",
+      "system_net": "LCD_DB3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R204",
+      "pin": "2",
+      "leaf_net": "LCD_DB3",
+      "system_net": "LCD_DB3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R204",
+      "pin": "1",
+      "leaf_net": "LCD_DB3_MCU",
+      "system_net": "LCD_DB3_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "13",
+      "leaf_net": "LCD_DB3_MCU",
+      "system_net": "LCD_DB3_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "7",
+      "leaf_net": "LCD_DB4",
+      "system_net": "LCD_DB4",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R205",
+      "pin": "2",
+      "leaf_net": "LCD_DB4",
+      "system_net": "LCD_DB4",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R205",
+      "pin": "1",
+      "leaf_net": "LCD_DB4_MCU",
+      "system_net": "LCD_DB4_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "14",
+      "leaf_net": "LCD_DB4_MCU",
+      "system_net": "LCD_DB4_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "8",
+      "leaf_net": "LCD_DB5",
+      "system_net": "LCD_DB5",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R206",
+      "pin": "2",
+      "leaf_net": "LCD_DB5",
+      "system_net": "LCD_DB5",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R206",
+      "pin": "1",
+      "leaf_net": "LCD_DB5_MCU",
+      "system_net": "LCD_DB5_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "15",
+      "leaf_net": "LCD_DB5_MCU",
+      "system_net": "LCD_DB5_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "9",
+      "leaf_net": "LCD_DB6",
+      "system_net": "LCD_DB6",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R207",
+      "pin": "2",
+      "leaf_net": "LCD_DB6",
+      "system_net": "LCD_DB6",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R207",
+      "pin": "1",
+      "leaf_net": "LCD_DB6_MCU",
+      "system_net": "LCD_DB6_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "16",
+      "leaf_net": "LCD_DB6_MCU",
+      "system_net": "LCD_DB6_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "10",
+      "leaf_net": "LCD_DB7",
+      "system_net": "LCD_DB7",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R208",
+      "pin": "2",
+      "leaf_net": "LCD_DB7",
+      "system_net": "LCD_DB7",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R208",
+      "pin": "1",
+      "leaf_net": "LCD_DB7_MCU",
+      "system_net": "LCD_DB7_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "17",
+      "leaf_net": "LCD_DB7_MCU",
+      "system_net": "LCD_DB7_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "14",
+      "leaf_net": "LCD_RESETn",
+      "system_net": "LCD_RESETn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R212",
+      "pin": "2",
+      "leaf_net": "LCD_RESETn",
+      "system_net": "LCD_RESETn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R212",
+      "pin": "1",
+      "leaf_net": "LCD_RESETn_MCU",
+      "system_net": "LCD_RESETn_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "45",
+      "leaf_net": "LCD_RESETn_MCU",
+      "system_net": "LCD_RESETn_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J201",
+      "pin": "12",
+      "leaf_net": "LCD_WRn",
+      "system_net": "LCD_WRn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R210",
+      "pin": "2",
+      "leaf_net": "LCD_WRn",
+      "system_net": "LCD_WRn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R210",
+      "pin": "1",
+      "leaf_net": "LCD_WRn_MCU",
+      "system_net": "LCD_WRn_MCU",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "42",
+      "leaf_net": "LCD_WRn_MCU",
+      "system_net": "LCD_WRn_MCU",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "U202",
+      "pin": "5",
+      "leaf_net": "LID_FB",
+      "system_net": "LID_FB",
+      "pintype": "input"
+    },
+    {
+      "ref": "X201",
+      "pin": "18",
+      "leaf_net": "LID_FB",
+      "system_net": "LID_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U202",
+      "pin": "7",
+      "leaf_net": "LID_VOUT_DIV",
+      "system_net": "LID_VOUT_DIV",
+      "pintype": "input"
+    },
+    {
+      "ref": "X201",
+      "pin": "20",
+      "leaf_net": "LID_VOUT_DIV",
+      "system_net": "LID_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "2",
+      "leaf_net": "LOOP_A",
+      "system_net": "LOOP_A",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "6",
+      "leaf_net": "LOOP_A",
+      "system_net": "LOOP_A",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "3",
+      "leaf_net": "LOOP_B",
+      "system_net": "LOOP_B",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "7",
+      "leaf_net": "LOOP_B",
+      "system_net": "LOOP_B",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "28",
+      "leaf_net": "MCU_ARM",
+      "system_net": "MCU_ARM",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "13",
+      "leaf_net": "MCU_ARM",
+      "system_net": "MCU_ARM",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C207",
+      "pin": "1",
+      "leaf_net": "MCU_NRSTn",
+      "system_net": "MCU_NRSTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J202",
+      "pin": "3",
+      "leaf_net": "MCU_NRSTn",
+      "system_net": "MCU_NRSTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "7",
+      "leaf_net": "MCU_NRSTn",
+      "system_net": "MCU_NRSTn",
+      "pintype": "input"
+    },
+    {
+      "ref": "X201",
+      "pin": "8",
+      "leaf_net": "MCU_NRSTn",
+      "system_net": "MCU_NRSTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "29",
+      "leaf_net": "MCU_STOPn",
+      "system_net": "MCU_STOPn",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "14",
+      "leaf_net": "MCU_STOPn",
+      "system_net": "MCU_STOPn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R216",
+      "pin": "2",
+      "leaf_net": "MON_I2C_SCL",
+      "system_net": "MON_I2C_SCL",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "21",
+      "leaf_net": "MON_I2C_SCL",
+      "system_net": "MON_I2C_SCL",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "U202",
+      "pin": "10",
+      "leaf_net": "MON_I2C_SCL",
+      "system_net": "MON_I2C_SCL",
+      "pintype": "input"
+    },
+    {
+      "ref": "R217",
+      "pin": "2",
+      "leaf_net": "MON_I2C_SDA",
+      "system_net": "MON_I2C_SDA",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "22",
+      "leaf_net": "MON_I2C_SDA",
+      "system_net": "MON_I2C_SDA",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "U202",
+      "pin": "9",
+      "leaf_net": "MON_I2C_SDA",
+      "system_net": "MON_I2C_SDA",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "R218",
+      "pin": "2",
+      "leaf_net": "NTC_BASE",
+      "system_net": "NTC_BASE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R220",
+      "pin": "1",
+      "leaf_net": "NTC_BASE",
+      "system_net": "NTC_BASE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "X201",
+      "pin": "21",
+      "leaf_net": "NTC_BASE",
+      "system_net": "NTC_BASE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C208",
+      "pin": "1",
+      "leaf_net": "NTC_BASE_ADC",
+      "system_net": "NTC_BASE_ADC",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R220",
+      "pin": "2",
+      "leaf_net": "NTC_BASE_ADC",
+      "system_net": "NTC_BASE_ADC",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "18",
+      "leaf_net": "NTC_BASE_ADC",
+      "system_net": "NTC_BASE_ADC",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "R219",
+      "pin": "2",
+      "leaf_net": "NTC_LID",
+      "system_net": "NTC_LID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R221",
+      "pin": "1",
+      "leaf_net": "NTC_LID",
+      "system_net": "NTC_LID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "X201",
+      "pin": "22",
+      "leaf_net": "NTC_LID",
+      "system_net": "NTC_LID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C209",
+      "pin": "1",
+      "leaf_net": "NTC_LID_ADC",
+      "system_net": "NTC_LID_ADC",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R221",
+      "pin": "2",
+      "leaf_net": "NTC_LID_ADC",
+      "system_net": "NTC_LID_ADC",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "19",
+      "leaf_net": "NTC_LID_ADC",
+      "system_net": "NTC_LID_ADC",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "U201",
+      "pin": "38",
+      "leaf_net": "RELEASE_SEEN",
+      "system_net": "RELEASE_SEEN",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "10",
+      "leaf_net": "RELEASE_SEEN",
+      "system_net": "RELEASE_SEEN",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "4",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "1",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R224",
+      "pin": "1",
+      "leaf_net": "STATUS_LED",
+      "system_net": "STATUS_LED",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "46",
+      "leaf_net": "STATUS_LED",
+      "system_net": "STATUS_LED",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "D201",
+      "pin": "2",
+      "leaf_net": "STATUS_LED_A",
+      "system_net": "STATUS_LED_A",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R224",
+      "pin": "2",
+      "leaf_net": "STATUS_LED_A",
+      "system_net": "STATUS_LED_A",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J202",
+      "pin": "4",
+      "leaf_net": "SWCLK",
+      "system_net": "SWCLK",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "37",
+      "leaf_net": "SWCLK",
+      "system_net": "SWCLK",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "J202",
+      "pin": "2",
+      "leaf_net": "SWDIO",
+      "system_net": "SWDIO",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "34",
+      "leaf_net": "SWDIO",
+      "system_net": "SWDIO",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "R222",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "X201",
+      "pin": "16",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "33",
+      "leaf_net": "UV_LIMIT_FAULTn",
+      "system_net": "UV_LIMIT_FAULTn",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "5",
+      "leaf_net": "UV_LIMIT_FAULTn",
+      "system_net": "UV_LIMIT_FAULTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "31",
+      "leaf_net": "UV_RUN",
+      "system_net": "UV_RUN",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "9",
+      "leaf_net": "UV_RUN",
+      "system_net": "UV_RUN",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R222",
+      "pin": "2",
+      "leaf_net": "UV_VBUS_MON",
+      "system_net": "UV_VBUS_MON",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R223",
+      "pin": "1",
+      "leaf_net": "UV_VBUS_MON",
+      "system_net": "UV_VBUS_MON",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "20",
+      "leaf_net": "UV_VBUS_MON",
+      "system_net": "UV_VBUS_MON",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "U201",
+      "pin": "30",
+      "leaf_net": "WDI",
+      "system_net": "WDI",
+      "pintype": "bidirectional"
+    },
+    {
+      "ref": "X201",
+      "pin": "15",
+      "leaf_net": "WDI",
+      "system_net": "WDI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J202",
+      "pin": "6",
+      "leaf_net": "unconnected-(J202-Pad6)",
+      "system_net": "unconnected-(J202-Pad6)",
+      "pintype": "passive+no_connect"
+    },
+    {
+      "ref": "U201",
+      "pin": "5",
+      "leaf_net": "unconnected-(U201-PH0-Pad5)",
+      "system_net": "unconnected-(U201-PH0-Pad5)",
+      "pintype": "bidirectional+no_connect"
+    },
+    {
+      "ref": "U201",
+      "pin": "6",
+      "leaf_net": "unconnected-(U201-PH1-Pad6)",
+      "system_net": "unconnected-(U201-PH1-Pad6)",
+      "pintype": "bidirectional+no_connect"
+    },
+    {
+      "ref": "U202",
+      "pin": "2",
+      "leaf_net": "unconnected-(U202-ALERT_RDY-Pad2)",
+      "system_net": "unconnected-(U202-ALERT_RDY-Pad2)",
+      "pintype": "open_collector+no_connect"
+    },
+    {
+      "ref": "C310",
+      "pin": "1",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C311",
+      "pin": "1",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "2",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "13",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "23",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "13",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "23",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "input"
+    },
+    {
+      "ref": "R301",
+      "pin": "1",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R302",
+      "pin": "1",
+      "leaf_net": "3V3_UI",
+      "system_net": "3V3_UI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "16",
+      "leaf_net": "BTN_CENTERn_RAW",
+      "system_net": "BTN_CENTERn_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S302",
+      "pin": "1",
+      "leaf_net": "BTN_CENTERn_RAW",
+      "system_net": "BTN_CENTERn_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "15",
+      "leaf_net": "BTN_LEFTn",
+      "system_net": "BTN_LEFTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S301",
+      "pin": "1",
+      "leaf_net": "BTN_LEFTn",
+      "system_net": "BTN_LEFTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "17",
+      "leaf_net": "BTN_RIGHTn",
+      "system_net": "BTN_RIGHTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S303",
+      "pin": "1",
+      "leaf_net": "BTN_RIGHTn",
+      "system_net": "BTN_RIGHTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C301",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C302",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C303",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C304",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C305",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C309",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C310",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C311",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "18",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "19",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "20",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "MP",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "14",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "MP",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "14",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "R303",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R304",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R305",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R306",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R307",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R308",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R309",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R310",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R311",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R312",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S301",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S302",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S303",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "11",
+      "leaf_net": "LCD_A0",
+      "system_net": "LCD_A0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "25",
+      "leaf_net": "LCD_A0",
+      "system_net": "LCD_A0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "25",
+      "leaf_net": "LCD_A0",
+      "system_net": "LCD_A0",
+      "pintype": "input"
+    },
+    {
+      "ref": "R304",
+      "pin": "1",
+      "leaf_net": "LCD_A0",
+      "system_net": "LCD_A0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C307",
+      "pin": "2",
+      "leaf_net": "LCD_C1M",
+      "system_net": "LCD_C1M",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C308",
+      "pin": "2",
+      "leaf_net": "LCD_C1M",
+      "system_net": "LCD_C1M",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "10",
+      "leaf_net": "LCD_C1M",
+      "system_net": "LCD_C1M",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "10",
+      "leaf_net": "LCD_C1M",
+      "system_net": "LCD_C1M",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C307",
+      "pin": "1",
+      "leaf_net": "LCD_C1P",
+      "system_net": "LCD_C1P",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "9",
+      "leaf_net": "LCD_C1P",
+      "system_net": "LCD_C1P",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "9",
+      "leaf_net": "LCD_C1P",
+      "system_net": "LCD_C1P",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C306",
+      "pin": "1",
+      "leaf_net": "LCD_C2M",
+      "system_net": "LCD_C2M",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "7",
+      "leaf_net": "LCD_C2M",
+      "system_net": "LCD_C2M",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "7",
+      "leaf_net": "LCD_C2M",
+      "system_net": "LCD_C2M",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C306",
+      "pin": "2",
+      "leaf_net": "LCD_C2P",
+      "system_net": "LCD_C2P",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "8",
+      "leaf_net": "LCD_C2P",
+      "system_net": "LCD_C2P",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "8",
+      "leaf_net": "LCD_C2P",
+      "system_net": "LCD_C2P",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C308",
+      "pin": "1",
+      "leaf_net": "LCD_C3P",
+      "system_net": "LCD_C3P",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "11",
+      "leaf_net": "LCD_C3P",
+      "system_net": "LCD_C3P",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "11",
+      "leaf_net": "LCD_C3P",
+      "system_net": "LCD_C3P",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "13",
+      "leaf_net": "LCD_CSn",
+      "system_net": "LCD_CSn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "27",
+      "leaf_net": "LCD_CSn",
+      "system_net": "LCD_CSn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "27",
+      "leaf_net": "LCD_CSn",
+      "system_net": "LCD_CSn",
+      "pintype": "input"
+    },
+    {
+      "ref": "R301",
+      "pin": "2",
+      "leaf_net": "LCD_CSn",
+      "system_net": "LCD_CSn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "3",
+      "leaf_net": "LCD_DB0",
+      "system_net": "LCD_DB0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "22",
+      "leaf_net": "LCD_DB0",
+      "system_net": "LCD_DB0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "22",
+      "leaf_net": "LCD_DB0",
+      "system_net": "LCD_DB0",
+      "pintype": "input"
+    },
+    {
+      "ref": "R305",
+      "pin": "1",
+      "leaf_net": "LCD_DB0",
+      "system_net": "LCD_DB0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "4",
+      "leaf_net": "LCD_DB1",
+      "system_net": "LCD_DB1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "21",
+      "leaf_net": "LCD_DB1",
+      "system_net": "LCD_DB1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "21",
+      "leaf_net": "LCD_DB1",
+      "system_net": "LCD_DB1",
+      "pintype": "input"
+    },
+    {
+      "ref": "R306",
+      "pin": "1",
+      "leaf_net": "LCD_DB1",
+      "system_net": "LCD_DB1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "5",
+      "leaf_net": "LCD_DB2",
+      "system_net": "LCD_DB2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "20",
+      "leaf_net": "LCD_DB2",
+      "system_net": "LCD_DB2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "20",
+      "leaf_net": "LCD_DB2",
+      "system_net": "LCD_DB2",
+      "pintype": "input"
+    },
+    {
+      "ref": "R307",
+      "pin": "1",
+      "leaf_net": "LCD_DB2",
+      "system_net": "LCD_DB2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "6",
+      "leaf_net": "LCD_DB3",
+      "system_net": "LCD_DB3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "19",
+      "leaf_net": "LCD_DB3",
+      "system_net": "LCD_DB3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "19",
+      "leaf_net": "LCD_DB3",
+      "system_net": "LCD_DB3",
+      "pintype": "input"
+    },
+    {
+      "ref": "R308",
+      "pin": "1",
+      "leaf_net": "LCD_DB3",
+      "system_net": "LCD_DB3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "7",
+      "leaf_net": "LCD_DB4",
+      "system_net": "LCD_DB4",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "18",
+      "leaf_net": "LCD_DB4",
+      "system_net": "LCD_DB4",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "18",
+      "leaf_net": "LCD_DB4",
+      "system_net": "LCD_DB4",
+      "pintype": "input"
+    },
+    {
+      "ref": "R309",
+      "pin": "1",
+      "leaf_net": "LCD_DB4",
+      "system_net": "LCD_DB4",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "8",
+      "leaf_net": "LCD_DB5",
+      "system_net": "LCD_DB5",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "17",
+      "leaf_net": "LCD_DB5",
+      "system_net": "LCD_DB5",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "17",
+      "leaf_net": "LCD_DB5",
+      "system_net": "LCD_DB5",
+      "pintype": "input"
+    },
+    {
+      "ref": "R310",
+      "pin": "1",
+      "leaf_net": "LCD_DB5",
+      "system_net": "LCD_DB5",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "9",
+      "leaf_net": "LCD_DB6",
+      "system_net": "LCD_DB6",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "16",
+      "leaf_net": "LCD_DB6",
+      "system_net": "LCD_DB6",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "16",
+      "leaf_net": "LCD_DB6",
+      "system_net": "LCD_DB6",
+      "pintype": "input"
+    },
+    {
+      "ref": "R311",
+      "pin": "1",
+      "leaf_net": "LCD_DB6",
+      "system_net": "LCD_DB6",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "10",
+      "leaf_net": "LCD_DB7",
+      "system_net": "LCD_DB7",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "15",
+      "leaf_net": "LCD_DB7",
+      "system_net": "LCD_DB7",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "15",
+      "leaf_net": "LCD_DB7",
+      "system_net": "LCD_DB7",
+      "pintype": "input"
+    },
+    {
+      "ref": "R312",
+      "pin": "1",
+      "leaf_net": "LCD_DB7",
+      "system_net": "LCD_DB7",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "14",
+      "leaf_net": "LCD_RESETn",
+      "system_net": "LCD_RESETn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "26",
+      "leaf_net": "LCD_RESETn",
+      "system_net": "LCD_RESETn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "26",
+      "leaf_net": "LCD_RESETn",
+      "system_net": "LCD_RESETn",
+      "pintype": "input"
+    },
+    {
+      "ref": "R303",
+      "pin": "1",
+      "leaf_net": "LCD_RESETn",
+      "system_net": "LCD_RESETn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C301",
+      "pin": "1",
+      "leaf_net": "LCD_V0",
+      "system_net": "LCD_V0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "1",
+      "leaf_net": "LCD_V0",
+      "system_net": "LCD_V0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "1",
+      "leaf_net": "LCD_V0",
+      "system_net": "LCD_V0",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C302",
+      "pin": "1",
+      "leaf_net": "LCD_V1",
+      "system_net": "LCD_V1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "2",
+      "leaf_net": "LCD_V1",
+      "system_net": "LCD_V1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "2",
+      "leaf_net": "LCD_V1",
+      "system_net": "LCD_V1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C303",
+      "pin": "1",
+      "leaf_net": "LCD_V2",
+      "system_net": "LCD_V2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "3",
+      "leaf_net": "LCD_V2",
+      "system_net": "LCD_V2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "3",
+      "leaf_net": "LCD_V2",
+      "system_net": "LCD_V2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C304",
+      "pin": "1",
+      "leaf_net": "LCD_V3",
+      "system_net": "LCD_V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "4",
+      "leaf_net": "LCD_V3",
+      "system_net": "LCD_V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "4",
+      "leaf_net": "LCD_V3",
+      "system_net": "LCD_V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C305",
+      "pin": "1",
+      "leaf_net": "LCD_V4",
+      "system_net": "LCD_V4",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "5",
+      "leaf_net": "LCD_V4",
+      "system_net": "LCD_V4",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "5",
+      "leaf_net": "LCD_V4",
+      "system_net": "LCD_V4",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C309",
+      "pin": "1",
+      "leaf_net": "LCD_VOUT",
+      "system_net": "LCD_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "12",
+      "leaf_net": "LCD_VOUT",
+      "system_net": "LCD_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "12",
+      "leaf_net": "LCD_VOUT",
+      "system_net": "LCD_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J301",
+      "pin": "12",
+      "leaf_net": "LCD_WRn",
+      "system_net": "LCD_WRn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "24",
+      "leaf_net": "LCD_WRn",
+      "system_net": "LCD_WRn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "24",
+      "leaf_net": "LCD_WRn",
+      "system_net": "LCD_WRn",
+      "pintype": "input"
+    },
+    {
+      "ref": "R302",
+      "pin": "2",
+      "leaf_net": "LCD_WRn",
+      "system_net": "LCD_WRn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J302",
+      "pin": "6",
+      "leaf_net": "unconnected-(J302-MATES_LCD_6-Pad6)",
+      "system_net": "unconnected-(J302-MATES_LCD_6-Pad6)",
+      "pintype": "passive+no_connect"
+    },
+    {
+      "ref": "LCD301",
+      "pin": "6",
+      "leaf_net": "unconnected-(LCD301-C4_PLUS_NC-Pad6)",
+      "system_net": "unconnected-(LCD301-C4_PLUS_NC-Pad6)",
+      "pintype": "no_connect"
+    },
+    {
+      "ref": "C606",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C607",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C608",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C609",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C612",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C613",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C614",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C615",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C616",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R601",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R603",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R607",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R608",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R616",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R617",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U606",
+      "pin": "1",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U606",
+      "pin": "3",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "U606",
+      "pin": "5",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "U607",
+      "pin": "3",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "U607",
+      "pin": "5",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "U607",
+      "pin": "6",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U608",
+      "pin": "4",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U609",
+      "pin": "10",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "U609",
+      "pin": "14",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U609",
+      "pin": "2",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "U609",
+      "pin": "4",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "U612",
+      "pin": "13",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "U612",
+      "pin": "14",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U613",
+      "pin": "5",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U614",
+      "pin": "5",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U615",
+      "pin": "14",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U616",
+      "pin": "5",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "input"
+    },
+    {
+      "ref": "U616",
+      "pin": "6",
+      "leaf_net": "3V3",
+      "system_net": "3V3",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U609",
+      "pin": "12",
+      "leaf_net": "ARM_D",
+      "system_net": "ARM_D",
+      "pintype": "input"
+    },
+    {
+      "ref": "U615",
+      "pin": "3",
+      "leaf_net": "ARM_D",
+      "system_net": "ARM_D",
+      "pintype": "output"
+    },
+    {
+      "ref": "J621",
+      "pin": "4",
+      "leaf_net": "BASE_FB",
+      "system_net": "BASE_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP602",
+      "pin": "1",
+      "leaf_net": "BASE_FB",
+      "system_net": "BASE_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J601",
+      "pin": "2",
+      "leaf_net": "BASE_THERM_SEND",
+      "system_net": "BASE_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J621",
+      "pin": "7",
+      "leaf_net": "BASE_THERM_SEND",
+      "system_net": "BASE_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S601",
+      "pin": "NO",
+      "leaf_net": "BASE_THERM_SEND",
+      "system_net": "BASE_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J621",
+      "pin": "5",
+      "leaf_net": "BASE_VOUT_DIV",
+      "system_net": "BASE_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP604",
+      "pin": "1",
+      "leaf_net": "BASE_VOUT_DIV",
+      "system_net": "BASE_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R619",
+      "pin": "1",
+      "leaf_net": "BTN_CENTER_PRESSED",
+      "system_net": "BTN_CENTER_PRESSED",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U614",
+      "pin": "3",
+      "leaf_net": "BTN_CENTER_PRESSED",
+      "system_net": "BTN_CENTER_PRESSED",
+      "pintype": "input"
+    },
+    {
+      "ref": "U608",
+      "pin": "3",
+      "leaf_net": "BTN_CENTERn_DEBOUNCED",
+      "system_net": "BTN_CENTERn_DEBOUNCED",
+      "pintype": "output"
+    },
+    {
+      "ref": "U614",
+      "pin": "1",
+      "leaf_net": "BTN_CENTERn_DEBOUNCED",
+      "system_net": "BTN_CENTERn_DEBOUNCED",
+      "pintype": "input"
+    },
+    {
+      "ref": "R617",
+      "pin": "2",
+      "leaf_net": "BTN_CENTERn_RAW",
+      "system_net": "BTN_CENTERn_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U608",
+      "pin": "2",
+      "leaf_net": "BTN_CENTERn_RAW",
+      "system_net": "BTN_CENTERn_RAW",
+      "pintype": "input"
+    },
+    {
+      "ref": "U609",
+      "pin": "1",
+      "leaf_net": "CLEARn",
+      "system_net": "CLEARn",
+      "pintype": "input"
+    },
+    {
+      "ref": "U609",
+      "pin": "13",
+      "leaf_net": "CLEARn",
+      "system_net": "CLEARn",
+      "pintype": "input"
+    },
+    {
+      "ref": "U612",
+      "pin": "8",
+      "leaf_net": "CLEARn",
+      "system_net": "CLEARn",
+      "pintype": "output"
+    },
+    {
+      "ref": "U609",
+      "pin": "11",
+      "leaf_net": "CLOCK_PRESS",
+      "system_net": "CLOCK_PRESS",
+      "pintype": "input"
+    },
+    {
+      "ref": "U614",
+      "pin": "4",
+      "leaf_net": "CLOCK_PRESS",
+      "system_net": "CLOCK_PRESS",
+      "pintype": "output"
+    },
+    {
+      "ref": "U609",
+      "pin": "3",
+      "leaf_net": "CLOCK_RELEASE",
+      "system_net": "CLOCK_RELEASE",
+      "pintype": "input"
+    },
+    {
+      "ref": "U614",
+      "pin": "6",
+      "leaf_net": "CLOCK_RELEASE",
+      "system_net": "CLOCK_RELEASE",
+      "pintype": "output"
+    },
+    {
+      "ref": "C623",
+      "pin": "1",
+      "leaf_net": "CUT_A_CT",
+      "system_net": "CUT_A_CT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U610",
+      "pin": "7",
+      "leaf_net": "CUT_A_CT",
+      "system_net": "CUT_A_CT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R610",
+      "pin": "2",
+      "leaf_net": "CUT_A_QOD",
+      "system_net": "CUT_A_QOD",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U610",
+      "pin": "5",
+      "leaf_net": "CUT_A_QOD",
+      "system_net": "CUT_A_QOD",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C624",
+      "pin": "1",
+      "leaf_net": "CUT_B_CT",
+      "system_net": "CUT_B_CT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U611",
+      "pin": "7",
+      "leaf_net": "CUT_B_CT",
+      "system_net": "CUT_B_CT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R611",
+      "pin": "2",
+      "leaf_net": "CUT_B_QOD",
+      "system_net": "CUT_B_QOD",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U611",
+      "pin": "5",
+      "leaf_net": "CUT_B_QOD",
+      "system_net": "CUT_B_QOD",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C602",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C606",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C607",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C608",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C609",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C610",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C611",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C612",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C613",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C614",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C615",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C616",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C620",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C621",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C622",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C623",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C624",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J601",
+      "pin": "MP",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J602",
+      "pin": "MP",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J621",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J621",
+      "pin": "MP",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J622",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J622",
+      "pin": "MP",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R602",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R604",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R605",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R612",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R613",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R614",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R615",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R618",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R619",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U602",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U606",
+      "pin": "4",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U606",
+      "pin": "9",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U607",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U608",
+      "pin": "1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U609",
+      "pin": "7",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U610",
+      "pin": "4",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U611",
+      "pin": "4",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U612",
+      "pin": "7",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U613",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U614",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U615",
+      "pin": "7",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U616",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "C602",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C610",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C611",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U602",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U610",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U611",
+      "pin": "1",
+      "leaf_net": "HOST_5V",
+      "system_net": "HOST_5V",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "J622",
+      "pin": "4",
+      "leaf_net": "LID_FB",
+      "system_net": "LID_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP603",
+      "pin": "1",
+      "leaf_net": "LID_FB",
+      "system_net": "LID_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J602",
+      "pin": "2",
+      "leaf_net": "LID_THERM_SEND",
+      "system_net": "LID_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J622",
+      "pin": "7",
+      "leaf_net": "LID_THERM_SEND",
+      "system_net": "LID_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S602",
+      "pin": "NO",
+      "leaf_net": "LID_THERM_SEND",
+      "system_net": "LID_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J622",
+      "pin": "5",
+      "leaf_net": "LID_VOUT_DIV",
+      "system_net": "LID_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP605",
+      "pin": "1",
+      "leaf_net": "LID_VOUT_DIV",
+      "system_net": "LID_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J601",
+      "pin": "1",
+      "leaf_net": "LOOP_5V",
+      "system_net": "LOOP_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J602",
+      "pin": "1",
+      "leaf_net": "LOOP_5V",
+      "system_net": "LOOP_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S601",
+      "pin": "C",
+      "leaf_net": "LOOP_5V",
+      "system_net": "LOOP_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S602",
+      "pin": "C",
+      "leaf_net": "LOOP_5V",
+      "system_net": "LOOP_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U602",
+      "pin": "5",
+      "leaf_net": "LOOP_5V",
+      "system_net": "LOOP_5V",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U602",
+      "pin": "6",
+      "leaf_net": "LOOP_5V",
+      "system_net": "LOOP_5V",
+      "pintype": "power_out"
+    },
+    {
+      "ref": "U612",
+      "pin": "1",
+      "leaf_net": "LOOP_A",
+      "system_net": "LOOP_A",
+      "pintype": "input"
+    },
+    {
+      "ref": "U613",
+      "pin": "6",
+      "leaf_net": "LOOP_A",
+      "system_net": "LOOP_A",
+      "pintype": "output"
+    },
+    {
+      "ref": "U615",
+      "pin": "4",
+      "leaf_net": "LOOP_A",
+      "system_net": "LOOP_A",
+      "pintype": "input"
+    },
+    {
+      "ref": "J621",
+      "pin": "8",
+      "leaf_net": "LOOP_A_RAW",
+      "system_net": "LOOP_A_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R614",
+      "pin": "1",
+      "leaf_net": "LOOP_A_RAW",
+      "system_net": "LOOP_A_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U613",
+      "pin": "1",
+      "leaf_net": "LOOP_A_RAW",
+      "system_net": "LOOP_A_RAW",
+      "pintype": "input"
+    },
+    {
+      "ref": "U612",
+      "pin": "2",
+      "leaf_net": "LOOP_B",
+      "system_net": "LOOP_B",
+      "pintype": "input"
+    },
+    {
+      "ref": "U613",
+      "pin": "4",
+      "leaf_net": "LOOP_B",
+      "system_net": "LOOP_B",
+      "pintype": "output"
+    },
+    {
+      "ref": "U615",
+      "pin": "10",
+      "leaf_net": "LOOP_B",
+      "system_net": "LOOP_B",
+      "pintype": "input"
+    },
+    {
+      "ref": "J622",
+      "pin": "8",
+      "leaf_net": "LOOP_B_RAW",
+      "system_net": "LOOP_B_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R615",
+      "pin": "1",
+      "leaf_net": "LOOP_B_RAW",
+      "system_net": "LOOP_B_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U613",
+      "pin": "3",
+      "leaf_net": "LOOP_B_RAW",
+      "system_net": "LOOP_B_RAW",
+      "pintype": "input"
+    },
+    {
+      "ref": "R604",
+      "pin": "1",
+      "leaf_net": "MCU_ARM",
+      "system_net": "MCU_ARM",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U615",
+      "pin": "2",
+      "leaf_net": "MCU_ARM",
+      "system_net": "MCU_ARM",
+      "pintype": "input"
+    },
+    {
+      "ref": "R606",
+      "pin": "2",
+      "leaf_net": "MCU_NRSTn",
+      "system_net": "MCU_NRSTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP601",
+      "pin": "1",
+      "leaf_net": "MCU_NRSTn",
+      "system_net": "MCU_NRSTn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R605",
+      "pin": "1",
+      "leaf_net": "MCU_STOPn",
+      "system_net": "MCU_STOPn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U612",
+      "pin": "10",
+      "leaf_net": "MCU_STOPn",
+      "system_net": "MCU_STOPn",
+      "pintype": "input"
+    },
+    {
+      "ref": "J621",
+      "pin": "6",
+      "leaf_net": "NTC_BASE",
+      "system_net": "NTC_BASE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP606",
+      "pin": "1",
+      "leaf_net": "NTC_BASE",
+      "system_net": "NTC_BASE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J622",
+      "pin": "6",
+      "leaf_net": "NTC_LID",
+      "system_net": "NTC_LID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP607",
+      "pin": "1",
+      "leaf_net": "NTC_LID",
+      "system_net": "NTC_LID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U612",
+      "pin": "6",
+      "leaf_net": "RAW_SAFE",
+      "system_net": "RAW_SAFE",
+      "pintype": "output"
+    },
+    {
+      "ref": "U612",
+      "pin": "9",
+      "leaf_net": "RAW_SAFE",
+      "system_net": "RAW_SAFE",
+      "pintype": "input"
+    },
+    {
+      "ref": "U616",
+      "pin": "3",
+      "leaf_net": "RAW_SAFE",
+      "system_net": "RAW_SAFE",
+      "pintype": "input"
+    },
+    {
+      "ref": "U609",
+      "pin": "5",
+      "leaf_net": "RELEASE_SEEN",
+      "system_net": "RELEASE_SEEN",
+      "pintype": "output"
+    },
+    {
+      "ref": "U615",
+      "pin": "1",
+      "leaf_net": "RELEASE_SEEN",
+      "system_net": "RELEASE_SEEN",
+      "pintype": "input"
+    },
+    {
+      "ref": "R601",
+      "pin": "2",
+      "leaf_net": "SAFE_RESETn",
+      "system_net": "SAFE_RESETn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R606",
+      "pin": "1",
+      "leaf_net": "SAFE_RESETn",
+      "system_net": "SAFE_RESETn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U606",
+      "pin": "7",
+      "leaf_net": "SAFE_RESETn",
+      "system_net": "SAFE_RESETn",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "U606",
+      "pin": "8",
+      "leaf_net": "SAFE_RESETn",
+      "system_net": "SAFE_RESETn",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "U607",
+      "pin": "1",
+      "leaf_net": "SAFE_RESETn",
+      "system_net": "SAFE_RESETn",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "U612",
+      "pin": "5",
+      "leaf_net": "SAFE_RESETn",
+      "system_net": "SAFE_RESETn",
+      "pintype": "input"
+    },
+    {
+      "ref": "R618",
+      "pin": "1",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U602",
+      "pin": "3",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "input"
+    },
+    {
+      "ref": "U612",
+      "pin": "4",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "input"
+    },
+    {
+      "ref": "U615",
+      "pin": "5",
+      "leaf_net": "SOURCE_OK",
+      "system_net": "SOURCE_OK",
+      "pintype": "input"
+    },
+    {
+      "ref": "C620",
+      "pin": "1",
+      "leaf_net": "UV_5V_LIMITED",
+      "system_net": "UV_5V_LIMITED",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U610",
+      "pin": "2",
+      "leaf_net": "UV_5V_LIMITED",
+      "system_net": "UV_5V_LIMITED",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "C621",
+      "pin": "1",
+      "leaf_net": "UV_5V_MID",
+      "system_net": "UV_5V_MID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R610",
+      "pin": "1",
+      "leaf_net": "UV_5V_MID",
+      "system_net": "UV_5V_MID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U610",
+      "pin": "6",
+      "leaf_net": "UV_5V_MID",
+      "system_net": "UV_5V_MID",
+      "pintype": "power_out"
+    },
+    {
+      "ref": "U611",
+      "pin": "2",
+      "leaf_net": "UV_5V_MID",
+      "system_net": "UV_5V_MID",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "C622",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J621",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J622",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R611",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U611",
+      "pin": "6",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "power_out"
+    },
+    {
+      "ref": "J621",
+      "pin": "3",
+      "leaf_net": "UV_CTRL",
+      "system_net": "UV_CTRL",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J622",
+      "pin": "3",
+      "leaf_net": "UV_CTRL",
+      "system_net": "UV_CTRL",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U615",
+      "pin": "11",
+      "leaf_net": "UV_CTRL",
+      "system_net": "UV_CTRL",
+      "pintype": "output"
+    },
+    {
+      "ref": "R608",
+      "pin": "2",
+      "leaf_net": "UV_DELAY_CT",
+      "system_net": "UV_DELAY_CT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U616",
+      "pin": "4",
+      "leaf_net": "UV_DELAY_CT",
+      "system_net": "UV_DELAY_CT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R607",
+      "pin": "2",
+      "leaf_net": "UV_DELAYn",
+      "system_net": "UV_DELAYn",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U612",
+      "pin": "12",
+      "leaf_net": "UV_DELAYn",
+      "system_net": "UV_DELAYn",
+      "pintype": "input"
+    },
+    {
+      "ref": "U616",
+      "pin": "1",
+      "leaf_net": "UV_DELAYn",
+      "system_net": "UV_DELAYn",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "R612",
+      "pin": "1",
+      "leaf_net": "UV_GATE_A",
+      "system_net": "UV_GATE_A",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U610",
+      "pin": "8",
+      "leaf_net": "UV_GATE_A",
+      "system_net": "UV_GATE_A",
+      "pintype": "input"
+    },
+    {
+      "ref": "U615",
+      "pin": "6",
+      "leaf_net": "UV_GATE_A",
+      "system_net": "UV_GATE_A",
+      "pintype": "output"
+    },
+    {
+      "ref": "R613",
+      "pin": "1",
+      "leaf_net": "UV_GATE_B",
+      "system_net": "UV_GATE_B",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U611",
+      "pin": "8",
+      "leaf_net": "UV_GATE_B",
+      "system_net": "UV_GATE_B",
+      "pintype": "input"
+    },
+    {
+      "ref": "U615",
+      "pin": "8",
+      "leaf_net": "UV_GATE_B",
+      "system_net": "UV_GATE_B",
+      "pintype": "output"
+    },
+    {
+      "ref": "R616",
+      "pin": "2",
+      "leaf_net": "UV_POWER_GOOD",
+      "system_net": "UV_POWER_GOOD",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U611",
+      "pin": "3",
+      "leaf_net": "UV_POWER_GOOD",
+      "system_net": "UV_POWER_GOOD",
+      "pintype": "open_collector"
+    },
+    {
+      "ref": "U615",
+      "pin": "13",
+      "leaf_net": "UV_POWER_GOOD",
+      "system_net": "UV_POWER_GOOD",
+      "pintype": "input"
+    },
+    {
+      "ref": "U609",
+      "pin": "9",
+      "leaf_net": "UV_RUN",
+      "system_net": "UV_RUN",
+      "pintype": "output"
+    },
+    {
+      "ref": "U615",
+      "pin": "12",
+      "leaf_net": "UV_RUN",
+      "system_net": "UV_RUN",
+      "pintype": "input"
+    },
+    {
+      "ref": "U615",
+      "pin": "9",
+      "leaf_net": "UV_RUN",
+      "system_net": "UV_RUN",
+      "pintype": "input"
+    },
+    {
+      "ref": "R602",
+      "pin": "1",
+      "leaf_net": "WDI",
+      "system_net": "WDI",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U606",
+      "pin": "6",
+      "leaf_net": "WDI",
+      "system_net": "WDI",
+      "pintype": "input"
+    },
+    {
+      "ref": "R603",
+      "pin": "2",
+      "leaf_net": "WDT_CWD",
+      "system_net": "WDT_CWD",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U606",
+      "pin": "2",
+      "leaf_net": "WDT_CWD",
+      "system_net": "WDT_CWD",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S601",
+      "pin": "NC",
+      "leaf_net": "unconnected-(S601-NC_UNUSED-PadNC)",
+      "system_net": "unconnected-(S601-NC_UNUSED-PadNC)",
+      "pintype": "passive+no_connect"
+    },
+    {
+      "ref": "S602",
+      "pin": "NC",
+      "leaf_net": "unconnected-(S602-NC_UNUSED-PadNC)",
+      "system_net": "unconnected-(S602-NC_UNUSED-PadNC)",
+      "pintype": "passive+no_connect"
+    },
+    {
+      "ref": "U602",
+      "pin": "4",
+      "leaf_net": "unconnected-(U602-NC-Pad4)",
+      "system_net": "unconnected-(U602-NC-Pad4)",
+      "pintype": "no_connect"
+    },
+    {
+      "ref": "U607",
+      "pin": "4",
+      "leaf_net": "unconnected-(U607-CT-Pad4)",
+      "system_net": "unconnected-(U607-CT-Pad4)",
+      "pintype": "passive+no_connect"
+    },
+    {
+      "ref": "U609",
+      "pin": "6",
+      "leaf_net": "unconnected-(U609-1Q_N-Pad6)",
+      "system_net": "unconnected-(U609-1Q_N-Pad6)",
+      "pintype": "output+no_connect"
+    },
+    {
+      "ref": "U609",
+      "pin": "8",
+      "leaf_net": "unconnected-(U609-2Q_N-Pad8)",
+      "system_net": "unconnected-(U609-2Q_N-Pad8)",
+      "pintype": "output+no_connect"
+    },
+    {
+      "ref": "U610",
+      "pin": "3",
+      "leaf_net": "unconnected-(U610-PG-Pad3)",
+      "system_net": "unconnected-(U610-PG-Pad3)",
+      "pintype": "open_collector+no_connect"
+    },
+    {
+      "ref": "U612",
+      "pin": "3",
+      "leaf_net": "unconnected-(U612-NC-Pad3)",
+      "system_net": "unconnected-(U612-NC-Pad3)",
+      "pintype": "no_connect"
+    },
+    {
+      "ref": "U612",
+      "pin": "11",
+      "leaf_net": "unconnected-(U612-NC-Pad11)",
+      "system_net": "unconnected-(U612-NC-Pad11)",
+      "pintype": "no_connect"
+    },
+    {
+      "ref": "Q401",
+      "pin": "1",
+      "leaf_net": "BASE_CATHODE_GATE",
+      "system_net": "BASE_CATHODE_GATE",
+      "pintype": "input"
+    },
+    {
+      "ref": "R402",
+      "pin": "2",
+      "leaf_net": "BASE_CATHODE_GATE",
+      "system_net": "BASE_CATHODE_GATE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R403",
+      "pin": "1",
+      "leaf_net": "BASE_CATHODE_GATE",
+      "system_net": "BASE_CATHODE_GATE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C403",
+      "pin": "1",
+      "leaf_net": "BASE_COMP",
+      "system_net": "BASE_COMP",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U401",
+      "pin": "5",
+      "leaf_net": "BASE_COMP",
+      "system_net": "BASE_COMP",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C404",
+      "pin": "1",
+      "leaf_net": "BASE_FB",
+      "system_net": "BASE_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J401",
+      "pin": "4",
+      "leaf_net": "BASE_FB",
+      "system_net": "BASE_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R408",
+      "pin": "2",
+      "leaf_net": "BASE_FB",
+      "system_net": "BASE_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "Q401",
+      "pin": "2",
+      "leaf_net": "BASE_FB_RAW",
+      "system_net": "BASE_FB_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R401",
+      "pin": "1",
+      "leaf_net": "BASE_FB_RAW",
+      "system_net": "BASE_FB_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R408",
+      "pin": "1",
+      "leaf_net": "BASE_FB_RAW",
+      "system_net": "BASE_FB_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U401",
+      "pin": "6",
+      "leaf_net": "BASE_FB_RAW",
+      "system_net": "BASE_FB_RAW",
+      "pintype": "input"
+    },
+    {
+      "ref": "D403",
+      "pin": "1",
+      "leaf_net": "BASE_LED_K",
+      "system_net": "BASE_LED_K",
+      "pintype": "passive"
+    },
+    {
+      "ref": "Q401",
+      "pin": "3",
+      "leaf_net": "BASE_LED_K",
+      "system_net": "BASE_LED_K",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D402",
+      "pin": "1",
+      "leaf_net": "BASE_LED_MID",
+      "system_net": "BASE_LED_MID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D403",
+      "pin": "2",
+      "leaf_net": "BASE_LED_MID",
+      "system_net": "BASE_LED_MID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D401",
+      "pin": "2",
+      "leaf_net": "BASE_SW",
+      "system_net": "BASE_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "L401",
+      "pin": "2",
+      "leaf_net": "BASE_SW",
+      "system_net": "BASE_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U401",
+      "pin": "3",
+      "leaf_net": "BASE_SW",
+      "system_net": "BASE_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J401",
+      "pin": "7",
+      "leaf_net": "BASE_THERM_SEND",
+      "system_net": "BASE_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S401",
+      "pin": "1",
+      "leaf_net": "BASE_THERM_SEND",
+      "system_net": "BASE_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP403",
+      "pin": "1",
+      "leaf_net": "BASE_THERM_SEND",
+      "system_net": "BASE_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C402",
+      "pin": "1",
+      "leaf_net": "BASE_VOUT",
+      "system_net": "BASE_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D401",
+      "pin": "1",
+      "leaf_net": "BASE_VOUT",
+      "system_net": "BASE_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D402",
+      "pin": "2",
+      "leaf_net": "BASE_VOUT",
+      "system_net": "BASE_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R404",
+      "pin": "1",
+      "leaf_net": "BASE_VOUT",
+      "system_net": "BASE_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R405",
+      "pin": "1",
+      "leaf_net": "BASE_VOUT",
+      "system_net": "BASE_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C405",
+      "pin": "1",
+      "leaf_net": "BASE_VOUT_DIV",
+      "system_net": "BASE_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J401",
+      "pin": "5",
+      "leaf_net": "BASE_VOUT_DIV",
+      "system_net": "BASE_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R407",
+      "pin": "2",
+      "leaf_net": "BASE_VOUT_DIV",
+      "system_net": "BASE_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R405",
+      "pin": "2",
+      "leaf_net": "BASE_VOUT_SENSE",
+      "system_net": "BASE_VOUT_SENSE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R406",
+      "pin": "1",
+      "leaf_net": "BASE_VOUT_SENSE",
+      "system_net": "BASE_VOUT_SENSE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R407",
+      "pin": "1",
+      "leaf_net": "BASE_VOUT_SENSE",
+      "system_net": "BASE_VOUT_SENSE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C401",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C402",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C403",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C404",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C405",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J401",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J401",
+      "pin": "MP",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R401",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R403",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R404",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R406",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TH401",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP402",
+      "pin": "1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U401",
+      "pin": "4",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "J401",
+      "pin": "8",
+      "leaf_net": "LOOP_A_RAW",
+      "system_net": "LOOP_A_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S401",
+      "pin": "2",
+      "leaf_net": "LOOP_A_RAW",
+      "system_net": "LOOP_A_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP404",
+      "pin": "1",
+      "leaf_net": "LOOP_A_RAW",
+      "system_net": "LOOP_A_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J401",
+      "pin": "6",
+      "leaf_net": "NTC_BASE",
+      "system_net": "NTC_BASE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TH401",
+      "pin": "1",
+      "leaf_net": "NTC_BASE",
+      "system_net": "NTC_BASE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP401",
+      "pin": "1",
+      "leaf_net": "NTC_BASE",
+      "system_net": "NTC_BASE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C401",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J401",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "L401",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U401",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "J401",
+      "pin": "3",
+      "leaf_net": "UV_CTRL",
+      "system_net": "UV_CTRL",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R402",
+      "pin": "1",
+      "leaf_net": "UV_CTRL",
+      "system_net": "UV_CTRL",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U401",
+      "pin": "2",
+      "leaf_net": "UV_CTRL",
+      "system_net": "UV_CTRL",
+      "pintype": "input"
+    },
+    {
+      "ref": "C501",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C502",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C503",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C504",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C505",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J501",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J501",
+      "pin": "MP",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R501",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R503",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R504",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R506",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TH501",
+      "pin": "2",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP502",
+      "pin": "1",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U501",
+      "pin": "4",
+      "leaf_net": "GND",
+      "system_net": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "Q501",
+      "pin": "1",
+      "leaf_net": "LID_CATHODE_GATE",
+      "system_net": "LID_CATHODE_GATE",
+      "pintype": "input"
+    },
+    {
+      "ref": "R502",
+      "pin": "2",
+      "leaf_net": "LID_CATHODE_GATE",
+      "system_net": "LID_CATHODE_GATE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R503",
+      "pin": "1",
+      "leaf_net": "LID_CATHODE_GATE",
+      "system_net": "LID_CATHODE_GATE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C503",
+      "pin": "1",
+      "leaf_net": "LID_COMP",
+      "system_net": "LID_COMP",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U501",
+      "pin": "5",
+      "leaf_net": "LID_COMP",
+      "system_net": "LID_COMP",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C504",
+      "pin": "1",
+      "leaf_net": "LID_FB",
+      "system_net": "LID_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J501",
+      "pin": "4",
+      "leaf_net": "LID_FB",
+      "system_net": "LID_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R508",
+      "pin": "2",
+      "leaf_net": "LID_FB",
+      "system_net": "LID_FB",
+      "pintype": "passive"
+    },
+    {
+      "ref": "Q501",
+      "pin": "2",
+      "leaf_net": "LID_FB_RAW",
+      "system_net": "LID_FB_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R501",
+      "pin": "1",
+      "leaf_net": "LID_FB_RAW",
+      "system_net": "LID_FB_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R508",
+      "pin": "1",
+      "leaf_net": "LID_FB_RAW",
+      "system_net": "LID_FB_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U501",
+      "pin": "6",
+      "leaf_net": "LID_FB_RAW",
+      "system_net": "LID_FB_RAW",
+      "pintype": "input"
+    },
+    {
+      "ref": "D503",
+      "pin": "1",
+      "leaf_net": "LID_LED_K",
+      "system_net": "LID_LED_K",
+      "pintype": "passive"
+    },
+    {
+      "ref": "Q501",
+      "pin": "3",
+      "leaf_net": "LID_LED_K",
+      "system_net": "LID_LED_K",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D502",
+      "pin": "1",
+      "leaf_net": "LID_LED_MID",
+      "system_net": "LID_LED_MID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D503",
+      "pin": "2",
+      "leaf_net": "LID_LED_MID",
+      "system_net": "LID_LED_MID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D501",
+      "pin": "2",
+      "leaf_net": "LID_SW",
+      "system_net": "LID_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "L501",
+      "pin": "2",
+      "leaf_net": "LID_SW",
+      "system_net": "LID_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U501",
+      "pin": "3",
+      "leaf_net": "LID_SW",
+      "system_net": "LID_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J501",
+      "pin": "7",
+      "leaf_net": "LID_THERM_SEND",
+      "system_net": "LID_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S501",
+      "pin": "1",
+      "leaf_net": "LID_THERM_SEND",
+      "system_net": "LID_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP503",
+      "pin": "1",
+      "leaf_net": "LID_THERM_SEND",
+      "system_net": "LID_THERM_SEND",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C502",
+      "pin": "1",
+      "leaf_net": "LID_VOUT",
+      "system_net": "LID_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D501",
+      "pin": "1",
+      "leaf_net": "LID_VOUT",
+      "system_net": "LID_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "D502",
+      "pin": "2",
+      "leaf_net": "LID_VOUT",
+      "system_net": "LID_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R504",
+      "pin": "1",
+      "leaf_net": "LID_VOUT",
+      "system_net": "LID_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R505",
+      "pin": "1",
+      "leaf_net": "LID_VOUT",
+      "system_net": "LID_VOUT",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C505",
+      "pin": "1",
+      "leaf_net": "LID_VOUT_DIV",
+      "system_net": "LID_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J501",
+      "pin": "5",
+      "leaf_net": "LID_VOUT_DIV",
+      "system_net": "LID_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R507",
+      "pin": "2",
+      "leaf_net": "LID_VOUT_DIV",
+      "system_net": "LID_VOUT_DIV",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R505",
+      "pin": "2",
+      "leaf_net": "LID_VOUT_SENSE",
+      "system_net": "LID_VOUT_SENSE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R506",
+      "pin": "1",
+      "leaf_net": "LID_VOUT_SENSE",
+      "system_net": "LID_VOUT_SENSE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R507",
+      "pin": "1",
+      "leaf_net": "LID_VOUT_SENSE",
+      "system_net": "LID_VOUT_SENSE",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J501",
+      "pin": "8",
+      "leaf_net": "LOOP_B_RAW",
+      "system_net": "LOOP_B_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "S501",
+      "pin": "2",
+      "leaf_net": "LOOP_B_RAW",
+      "system_net": "LOOP_B_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP504",
+      "pin": "1",
+      "leaf_net": "LOOP_B_RAW",
+      "system_net": "LOOP_B_RAW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J501",
+      "pin": "6",
+      "leaf_net": "NTC_LID",
+      "system_net": "NTC_LID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TH501",
+      "pin": "1",
+      "leaf_net": "NTC_LID",
+      "system_net": "NTC_LID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "TP501",
+      "pin": "1",
+      "leaf_net": "NTC_LID",
+      "system_net": "NTC_LID",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C501",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J501",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "L501",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U501",
+      "pin": "1",
+      "leaf_net": "UV_5V_SW",
+      "system_net": "UV_5V_SW",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "J501",
+      "pin": "3",
+      "leaf_net": "UV_CTRL",
+      "system_net": "UV_CTRL",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R502",
+      "pin": "1",
+      "leaf_net": "UV_CTRL",
+      "system_net": "UV_CTRL",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U501",
+      "pin": "2",
+      "leaf_net": "UV_CTRL",
+      "system_net": "UV_CTRL",
+      "pintype": "input"
+    }
+  ],
+  "cross_sheet_interfaces": [
+    {
+      "net": "BTN_CENTERn_RAW",
+      "required_terminals": [
+        [
+          "S302",
+          "1"
+        ],
+        [
+          "U608",
+          "2"
+        ]
+      ]
+    },
+    {
+      "net": "BTN_CENTERn_DEBOUNCED",
+      "required_terminals": [
+        [
+          "U608",
+          "3"
+        ],
+        [
+          "U114",
+          "3"
+        ],
+        [
+          "U201",
+          "26"
+        ]
+      ]
+    },
+    {
+      "net": "BTN_CENTER_PRESSED",
+      "required_terminals": [
+        [
+          "U114",
+          "4"
+        ],
+        [
+          "U614",
+          "3"
+        ]
+      ]
+    },
+    {
+      "net": "SOURCE_OK",
+      "required_terminals": [
+        [
+          "U122",
+          "4"
+        ],
+        [
+          "U201",
+          "4"
+        ],
+        [
+          "U612",
+          "4"
+        ]
+      ]
+    },
+    {
+      "net": "UV_RUN",
+      "required_terminals": [
+        [
+          "U609",
+          "9"
+        ],
+        [
+          "U201",
+          "31"
+        ]
+      ]
+    },
+    {
+      "net": "MCU_NRSTn",
+      "required_terminals": [
+        [
+          "R606",
+          "2"
+        ],
+        [
+          "U201",
+          "7"
+        ],
+        [
+          "J202",
+          "3"
+        ]
+      ]
+    },
+    {
+      "net": "BASE_FB",
+      "required_terminals": [
+        [
+          "U202",
+          "4"
+        ],
+        [
+          "J621",
+          "4"
+        ]
+      ]
+    },
+    {
+      "net": "LID_FB",
+      "required_terminals": [
+        [
+          "U202",
+          "5"
+        ],
+        [
+          "J622",
+          "4"
+        ]
+      ]
+    },
+    {
+      "net": "NTC_BASE",
+      "required_terminals": [
+        [
+          "R218",
+          "2"
+        ],
+        [
+          "R220",
+          "1"
+        ],
+        [
+          "J621",
+          "6"
+        ]
+      ]
+    },
+    {
+      "net": "NTC_LID",
+      "required_terminals": [
+        [
+          "R219",
+          "2"
+        ],
+        [
+          "R221",
+          "1"
+        ],
+        [
+          "J622",
+          "6"
+        ]
+      ]
+    }
+  ],
+  "leaf_native_reports_sha256": {
+    "hardware/pcb/evt1/dock-ui/source-native.xml": "e830041b21a15ca00e1809b44a40095723d81362f4f04625a9ed4dfde1af521e",
+    "hardware/pcb/evt1/dock-ui/native-checks.json": "1abfa15e3a60f1eaf2fb23a10356c4fd17f23b7a205cd8308eec487a992d23a5",
+    "hardware/pcb/evt1/dock-control/dock-controller-native.xml": "a67f1ba8e4e945d99a3d8cc76595d201034de1c18b26629563c390414a7beb28",
+    "hardware/pcb/evt1/dock-control/native-checks.json": "af951491a9e23c3adfe5412b677a7e9dfa29fa5714824c45948b7a90662cc23b",
+    "hardware/pcb/evt1/dock-control/dock-lid-ui-native.xml": "6c5c32475a597fada90be6c697b707fbdca438c96149c9017451786df398cabb",
+    "hardware/pcb/evt1/dock-safety/native.xml": "d4448522ad04c7d7356cbc15d4765f94448e00d16a9c622ca4908c7c63a9905c",
+    "hardware/pcb/evt1/dock-safety/native-checks.json": "35b0b045a8dd06eeeb90500fc8d91279a425781ea2614460dab1c73034d42a6f",
+    "hardware/pcb/evt1/dock-uv/base/native.xml": "ed424ba52328d64c2287a98a3f1892fbcc0b0323154b572c5c8f6af684124292",
+    "hardware/pcb/evt1/dock-uv/base/native-checks.json": "8bcf8d2f27750a9856381d037779d3395f7a06cc66109ba92f2f0f5cbe98be72",
+    "hardware/pcb/evt1/dock-uv/lid/native.xml": "cc70d37ddfa9278c39e95229923f6cde779d012ed57097679c9946e10aca1936",
+    "hardware/pcb/evt1/dock-uv/lid/native-checks.json": "55d0838b4cb49d91a5120cde5d3d0f68772e16b64709c694d323c63b6b42d9ea"
+  },
+  "source_sha256": {
+    "build_source.py": "6c3d21cd22390b432c45f15e54e4b28f2c784809c9fcc3e17f6c34c309f53b95",
+    "check_native.py": "8421f4dd4fca9fcd0f23d738e6ad74fff916e8b2e2136c1a7353ee46c8fc5b4b",
+    "dock-system.kicad_pro": "917574ea556461ca9302a2b59ee910f243a62c1b3b62833008e965a7b6383655",
+    "dock-system.kicad_sch": "7b745520603cb960a70d61eafcf635005e3cc9a0fb3557ff71acd2bea1430e7e",
+    "fp-lib-table": "338f33dcd45ada81d59d10617dcdd3d680040a7d04af4731fe14237a319dd472",
+    "sheets/dock-controller.kicad_sch": "2ea64034c047ce5d5d0a87a5a34a0fd2116ee015c2be218d85e3e2be634293f4",
+    "sheets/dock-lid-ui.kicad_sch": "f981ce4b102ce00b3544d37557b0e61fe972ce839db580ecdf283159edd6b42c",
+    "sheets/dock-safety.kicad_sch": "9b4769f1aca3122ad514d4dd624e3a6c2d7662c367f00f5e5bbac4abdc31383f",
+    "sheets/dock-ui-source.kicad_sch": "655306c3703c52e3dc8143286a9288be307cbbfe31ddfea653a85e713279181d",
+    "sheets/dock-uv-base.kicad_sch": "6f248ad200b0c087c78b8945a523f9f9d3c9acf28a3ceb74ab609348885152b2",
+    "sheets/dock-uv-lid.kicad_sch": "56b25970e502c3375241f33d8af9afe4bce57af237963e969ce8363152505361",
+    "source-manifest.json": "9357077b6672f22133a2e5db758b7a387ccc84b89c0e661923d0788799646a16",
+    "sym-lib-table": "f0a88ccb36a633e3017339a0834eb513ec5cbae3533c9d7ceb77b94984651707"
+  },
+  "inputs_sha256": {
+    "hardware/pcb/evt1/dock-ui/dock-ui-source.kicad_sch": "d0a0ad8ba49be1c1ad237f1e7467d33ea4598a49dab84190b4596324fab25038",
+    "hardware/pcb/evt1/dock-control/dock-controller.kicad_sch": "ac4b988c829dc2b40dbc5ce5703621010a0fe1b97c6ba4fb9517e9d50513800f",
+    "hardware/pcb/evt1/dock-control/dock-lid-ui.kicad_sch": "b3e163edd8a260297ecf40f868ea223118d2bfeb055e94144f39f7606c536874",
+    "hardware/pcb/evt1/dock-safety/dock-safety.kicad_sch": "9307f20f07d1336f2412a5365ea032b7bdbe81786c87e1a5e26bc481419a9ce7",
+    "hardware/pcb/evt1/dock-uv/base/dock-uv-base.kicad_sch": "96e8345098265485014e6b540db6b3626d1f62a4e2e9ec416bd18e057a17efa4",
+    "hardware/pcb/evt1/dock-uv/lid/dock-uv-lid.kicad_sch": "f37d03dfa12f88bca9cadb65116a2b0f026f029e6337cd782a2e54cb5590ccd4",
+    "hardware/pcb/evt1/dock-control/sym-lib-table": "bd2c38274230ad989c9a525ab54eff0dbb6995169bed968e63db67ca6f872947",
+    "hardware/pcb/evt1/dock-control/DockControl.kicad_sym": "34c78530c6098c0a814dedcc8af768cf3cc0cd1b4be58e0fc71365becdf94ce2",
+    "hardware/pcb/evt1/dock-control/fp-lib-table": "78ee0ecb2a0e5a3dd70b6d4d9f78befbae8da090587c9efe44f4e150abfa3728",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/C_0402_1005Metric.kicad_mod": "263aa65cd74212786195b83649fdb9d83620aaeb7c54209c691151acdaa09824",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/C_0603_1608Metric.kicad_mod": "6728f8290cc4796d2761d09455781aea5fac5132c8c12877d3934fc03cc82c44",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/C_1206_3216Metric.kicad_mod": "fcd740fde75af3e21c746ba0ea7c756be85940a218535525267f84e9ea91e160",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal.kicad_mod": "5bbb66b76aebc3ce80c8686128fc0073829046db371e780850c4eceaddcc1b1b",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/LED_0603_1608Metric.kicad_mod": "3a265330bf04ad7bcc8326903855038911b1c9f22dea5ef86792e44e0c00b764",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/LQFP-48_7x7mm_P0.5mm.kicad_mod": "944fb45fd4a4fa3d063ae98a7bd582ac1e522a6e1e71c7c63b4aafa157151513",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/Molex_52437-2771_1x27-1MP_P0.50mm_Horizontal.kicad_mod": "29d36c51cfead5f3eb274cc0ab07604d3d1607862dc52fd90b949dd91e44533c",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/R_0603_1608Metric.kicad_mod": "be8360e180e6fc2e1347116d681de425f349efcfe37169ae30a5c7d617edea83",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/SW_SPST_Omron_B3FS-100xP.kicad_mod": "b6fff52069ceac5ab2d53f2a75d17142bc0f36d67ef84170bc97b548dcb63ce8",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical.kicad_mod": "57c6d35b43e1b88a36581eba48f1ea77345677124233631fb1b3fce3abab76c3",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/TestPoint_Pad_D1.0mm.kicad_mod": "f656c9fb1f11e345b0f97d9a7119972e5dcca486fc2ca65bd06c086ce49cc0f7",
+    "hardware/pcb/evt1/dock-control/DockControl.pretty/VSSOP-10_3x3mm_P0.5mm.kicad_mod": "4325ad835cc207f7c1f5e2f01bcd1c247a022dd6adfafcdd709b0de42718ee40",
+    "hardware/pcb/evt1/dock-safety/sym-lib-table": "b4b484b4cdf7b71e94f983dfe15b1a4b13ee113e5b06a36656b8cf707f7c9396",
+    "hardware/pcb/evt1/dock-safety/DockSafety.kicad_sym": "ea64daa0653e1aa0fea3e448f7ecf62389ccc1ae66b2c609701eff032ee470ba",
+    "hardware/pcb/evt1/dock-safety/fp-lib-table": "cbac5faf2ff7ef497da85a17fecd243b732aee79c2b456b76bbb3606f452ce21",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/C_0603_1608Metric.kicad_mod": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.kicad_mod": "e2b276b9abd51080ee70ed1584af9983db17bcc0b8991b1cad48ab839ea0855d",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical.kicad_mod": "2b565abce08bb9136e99664642e529dc796ab82a901985ce1e8165406442cb61",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal.kicad_mod": "2d0cb032feac45a88bb9b4ddcb2464f92ccbd5810439b4dbd366458932827ec1",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.kicad_mod": "c23619f2b76e78232c0be750fd6dcb02c41aeb19aa190e6cac1872f2a477c1b2",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/R_0603_1608Metric.kicad_mod": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/R_0805_2012Metric.kicad_mod": "c9e065246f39a319f005b381e48e92fe0cf15ef93d474e17a8c210566693cd97",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/SOT-143.kicad_mod": "f62a48d72540d3c2c45fe74f86fe670368fd2433829c0d209667c813d76d26d3",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/SOT-23-6.kicad_mod": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/SOT-363_SC-70-6.kicad_mod": "bf06bb9583c40562265e319ac36c73b6150587a3148fd28145b5f1b70f0ce9d7",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": "af563040f700cb87a33f6947b14e1b4b72fb2c5bf644b070093690e640c58558",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/TestPoint_Pad_D1.0mm.kicad_mod": "f656c9fb1f11e345b0f97d9a7119972e5dcca486fc2ca65bd06c086ce49cc0f7",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/Texas_DRB0008A_3x3mm_P0.65_EP_Fingers.kicad_mod": "a87015ce3aebc26a4cd369aad8577251bb5ca1d10c133673a17c2db3c44c401a",
+    "hardware/pcb/evt1/dock-safety/DockSafety.pretty/Texas_RXP0008A_1.25x1.5mm_Asymmetric.kicad_mod": "3e80001c67afa1e1148fe89bae2052784deabbb8bc85628f08bfcc368cd1ab11",
+    "hardware/pcb/evt1/dock-ui/sym-lib-table": "c43d170e40b096519c17073332752ae89b2f71ea0ce5fd0d534e8dc888b9e6fa",
+    "hardware/pcb/evt1/dock-ui/DockUI.kicad_sym": "8b3a221fbc296f0ca3cd40c5fc205ccd98fb79ac8509f8907813dc5f6af5040f",
+    "hardware/pcb/evt1/dock-ui/fp-lib-table": "fb14e2e01b19347ecb44cc074d268f7250bcc577d32b78f2c834863d53e22499",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/C_0603_1608Metric.kicad_mod": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/Contact_Loom_4Land.kicad_mod": "46a4cc69f80e92c69a5654277f0ee1ff5e0ca38f68037ac4adbd7237e26037f9",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/Control_Loom_10Land.kicad_mod": "b0ebe7302e184e6f5e531b61043ffc78e318fba2929863c2d01132136118c0af",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/Control_Loom_3Land.kicad_mod": "4a5f99473183042ea520a9be12772e12bed3ca9970365e59efed117bf5150fcc",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/R_0603_1608Metric.kicad_mod": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/SOT-23-6.kicad_mod": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/SOT-23.kicad_mod": "7840e31dbf5d8c9a047e25e8c69951e6c3792e0d4d316642c2832be29923c42f",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/SOT-363_SC-70-6.kicad_mod": "bf06bb9583c40562265e319ac36c73b6150587a3148fd28145b5f1b70f0ce9d7",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/TSOT-23-5.kicad_mod": "a6ba2bd4b67d10b05fd36c6e6b9885defdf4c9c42f2f7c4842bc94d63cf8a4a3",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.kicad_mod": "2abf2bb4b1110202e15b132c53544bef68c4a56c1fc1b0bdcd5f1fa536190e8d",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/Texas_YBH0006-C02_DSBGA-6_1.106x0.706mm_P0.4mm.kicad_mod": "6554e73e754ce23b557d44ec444c6da39b5bb428ec96807afc5a2465b652e70f",
+    "hardware/pcb/evt1/dock-ui/DockUI.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod": "ea73e710b0546db3482557a8b89e7a9b2ef5d3fce6cce00f84b97914c4405ada",
+    "hardware/pcb/evt1/dock-uv/base/sym-lib-table": "daac7d0e3622ab2183eef15ba8009b013dfdf52e8d0ed10aba7c8c73cf450f47",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.kicad_sym": "f504364bdc27cfe0f887f7f56265864d34aea57fff2f0bebde3648ccf753316f",
+    "hardware/pcb/evt1/dock-uv/base/fp-lib-table": "b5d6f355c51a3dd1515eff5f866fc1645f1907063f94fe8ac553fc5ef5ce5e50",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/Bourns_SRP4020TA_Actual_Lands.kicad_mod": "d31b653bf7b98ee6d76b28fa16a66c86a9452d93018b532e2139fd4fb05916ef",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/C_0603_1608Metric.kicad_mod": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/C_1210_3225Metric.kicad_mod": "01a9cf0760a69faa989db0ff756daa38df9941e218e5f8a06ba1a5cd5ec2c37d",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/D_SOD-123F.kicad_mod": "aa24a7d6bbbac5a2c0eb536a1ba5c0f023c3b35272e8a03f914873b48b3b0c07",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical.kicad_mod": "2b565abce08bb9136e99664642e529dc796ab82a901985ce1e8165406442cb61",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.kicad_mod": "c23619f2b76e78232c0be750fd6dcb02c41aeb19aa190e6cac1872f2a477c1b2",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/R_0603_1608Metric.kicad_mod": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/R_0805_2012Metric.kicad_mod": "c9e065246f39a319f005b381e48e92fe0cf15ef93d474e17a8c210566693cd97",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/SOT-23-6.kicad_mod": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/SOT-23.kicad_mod": "7840e31dbf5d8c9a047e25e8c69951e6c3792e0d4d316642c2832be29923c42f",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/TestPoint_Pad_D1.5mm.kicad_mod": "15befb4e91182778cd505b79123962fdf11fe396349ca7f788ba430d0d20ca10",
+    "hardware/pcb/evt1/dock-uv/base/DockUV.pretty/Vishay_VLMU35CB2_Actual_TwoTerminal.kicad_mod": "65134aa28c45da6a03ed39ad9bf6c6312a4f07e9a2ca3a5d789cf6d6055e4565",
+    "hardware/pcb/evt1/dock-uv/lid/sym-lib-table": "daac7d0e3622ab2183eef15ba8009b013dfdf52e8d0ed10aba7c8c73cf450f47",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.kicad_sym": "f504364bdc27cfe0f887f7f56265864d34aea57fff2f0bebde3648ccf753316f",
+    "hardware/pcb/evt1/dock-uv/lid/fp-lib-table": "b5d6f355c51a3dd1515eff5f866fc1645f1907063f94fe8ac553fc5ef5ce5e50",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/Bourns_SRP4020TA_Actual_Lands.kicad_mod": "d31b653bf7b98ee6d76b28fa16a66c86a9452d93018b532e2139fd4fb05916ef",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/C_0603_1608Metric.kicad_mod": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/C_1210_3225Metric.kicad_mod": "01a9cf0760a69faa989db0ff756daa38df9941e218e5f8a06ba1a5cd5ec2c37d",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/D_SOD-123F.kicad_mod": "aa24a7d6bbbac5a2c0eb536a1ba5c0f023c3b35272e8a03f914873b48b3b0c07",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical.kicad_mod": "2b565abce08bb9136e99664642e529dc796ab82a901985ce1e8165406442cb61",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.kicad_mod": "c23619f2b76e78232c0be750fd6dcb02c41aeb19aa190e6cac1872f2a477c1b2",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/R_0603_1608Metric.kicad_mod": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/R_0805_2012Metric.kicad_mod": "c9e065246f39a319f005b381e48e92fe0cf15ef93d474e17a8c210566693cd97",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/SOT-23-6.kicad_mod": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/SOT-23.kicad_mod": "7840e31dbf5d8c9a047e25e8c69951e6c3792e0d4d316642c2832be29923c42f",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/TestPoint_Pad_D1.5mm.kicad_mod": "15befb4e91182778cd505b79123962fdf11fe396349ca7f788ba430d0d20ca10",
+    "hardware/pcb/evt1/dock-uv/lid/DockUV.pretty/Vishay_VLMU35CB2_Actual_TwoTerminal.kicad_mod": "65134aa28c45da6a03ed39ad9bf6c6312a4f07e9a2ca3a5d789cf6d6055e4565"
+  },
+  "reports_sha256": {
+    "native.xml": "51266fd7d71651ff813d76d9298a986301f619e6f8eed8ed9af64ca797a1630c",
+    "erc.json": "160e6e29c3e488b6b216c517e93a04f44564c426111ddf3db98a48100a0ada8a"
+  },
+  "functional_terminal_conservation": true,
+  "standalone_context_flags_removed": {
+    "hardware/pcb/evt1/dock-ui/dock-ui-source.kicad_sch": [],
+    "hardware/pcb/evt1/dock-control/dock-controller.kicad_sch": [
+      "#FLG201",
+      "#FLG202"
+    ],
+    "hardware/pcb/evt1/dock-control/dock-lid-ui.kicad_sch": [],
+    "hardware/pcb/evt1/dock-safety/dock-safety.kicad_sch": [
+      "#FLG601",
+      "#FLG602",
+      "#FLG603",
+      "#FLG604"
+    ],
+    "hardware/pcb/evt1/dock-uv/base/dock-uv-base.kicad_sch": [
+      "#FLG400",
+      "#FLG401",
+      "#FLG402"
+    ],
+    "hardware/pcb/evt1/dock-uv/lid/dock-uv-lid.kicad_sch": [
+      "#FLG500",
+      "#FLG501",
+      "#FLG502"
+    ]
+  },
+  "PCB_routed": false,
+  "powered_validation": false,
+  "optical_validation": false,
+  "full_product_order_ready": false
+}

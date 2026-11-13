@@ -1,0 +1,52 @@
+{
+  "scope": "EVT PCB fabrication quote only; no full-product release or order",
+  "board_sha256": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367",
+  "quote_zip_sha256": "4efea409b3d6f770fd9100cd65290ab703591d2f1ff3090c3851f53171639a7a",
+  "native_checks_sha256": "69fba275e78c55f1119f8ed07af6090dfb27dc8ed480d82e0db455c9fa605510",
+  "electrical_validation_sha256": "83a921025f9aead4850c8b2d74a3d9774579cfab3f8d048758b654a897742793",
+  "files": {
+    "body-evt1-B_Cu.gbl": "340ec69716c4114f783d79b7bc70eee09b086194ec89e53620385d8ff8e75d9d",
+    "body-evt1-B_Mask.gbs": "fdc918e4c746d0c915f20538e5cb13fd15c6fa202b9fd49c926430143bbf2cdf",
+    "body-evt1-B_Paste.gbp": "5c498cbf913774930b2da7804fed62fa70526c3b18a1c778bd4fcfc19b82ce5a",
+    "body-evt1-B_Silkscreen.gbo": "2a547c7b630a57c659af11743d7172a4ba3ee31b8e52e62e678aeb824651ed39",
+    "body-evt1-Edge_Cuts.gm1": "b8690f403ab3540e93e33fa656ff0bc75555b598e1dc945f80ae5b050380e9a6",
+    "body-evt1-F_Cu.gtl": "6e08f66f7784836e1283b3eb2aab04c3c9334adee92b2674f9c60d477b200ed9",
+    "body-evt1-F_Mask.gts": "400bdc35336aa7c1987fca26bb13649b10b2a182f7569cb5525b5a187ddaaf73",
+    "body-evt1-F_Paste.gtp": "5863b2c3b02cdfa33cf85df3c32195296b247773fedbd88c089b796a92b6d541",
+    "body-evt1-F_Silkscreen.gto": "cef358412af85290e3e6baaae05e9c25ae66c2e582051d00cfe72956a06921ca",
+    "body-evt1-In1_Cu.g1": "b4d98f4a429f6ab9e8e7bb5692577f4297451e4dcf3fe9e187da8ea63114ade8",
+    "body-evt1-In2_Cu.g2": "69ca8e08c28dcb7f751e2123d56065d274868a68d59c30c388b200e5787173de",
+    "body-evt1-In3_Cu.g3": "256ed3128cbcc4bddd360ab3dd4a17f9f63d9723f87abcb46327ed5a6c4f47df",
+    "body-evt1-In4_Cu.g4": "d9bcdd039b3ff275d9b353f8f7ce314f6bfb985f13514042e5ae58318995776f",
+    "body-evt1-NPTH.drl": "67b08bd944d7bf1a834b92f51121b8c81c70ead7cabb8ea87c0957f90a561bce",
+    "body-evt1-PTH.drl": "33dc1f656e4e6f2fba143e3d759b4096b44d03d5af8a1202b8b9f7cb93528365",
+    "body-evt1-job.gbrjob": "43f0393572247741c605a4a68a14f21823c35e1ba29ce5ae236de547d26eb976",
+    "fabrication-request.json": "859697b34936e6b27c4510b0a8f4908f3f53d9037d63cf1a431c4596d8ee4977"
+  },
+  "fabrication_request": {
+    "scope": "EVT prototype fabrication quote; no full-product build release, supplier acceptance or order",
+    "layers": 6,
+    "copper_layer_order": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "In4.Cu",
+      "B.Cu"
+    ],
+    "thickness_mm": 1.0,
+    "material": "FR4",
+    "finish": "ENIG",
+    "outer_copper_oz": 1,
+    "inner_copper_oz": 0.5,
+    "copper_clearance_min_mm": 0.09999999999999999,
+    "track_width_min_mm": 0.15,
+    "via_drill_min_mm": 0.19999999999999998,
+    "via_diameter_min_mm": 0.5,
+    "copper_to_board_edge_min_mm": 0.3,
+    "hole_to_copper_min_mm": 0.25,
+    "supplier_review": "Review finished thickness/holes, routed outline, mask webs, paste and the complete actual stackup before accepting a quote. Native stackup is a proposal, not an impedance-qualified fabrication agreement.",
+    "assembly_note": "J81 sensor-loom ground hand-solder land intentionally includes a through via; it is not a paste-reflow package land.",
+    "native_stackup_finish": "None"
+  }
+}

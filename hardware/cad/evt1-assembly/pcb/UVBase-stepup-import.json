@@ -1,0 +1,997 @@
+{
+  "scope": "Actual source-bound StepUp board/model import; nominal assembly fit not yet established",
+  "board": "hardware/pcb/evt1/dock-uv/base/pcb/dock-uv-base.kicad_pcb",
+  "board_sha256": "2869e1102f18f18faf50fb3c7566a9f70aed2cd1d5c648f97af3ad59ab63ff70",
+  "native": "hardware/cad/evt1-assembly/pcb/UVBase.FCStd",
+  "native_sha256": "2d93dc03e2b6a93a487bbb2492b17baf33971b34579c55764e94534548b75b1e",
+  "root_object": "Board_957f",
+  "selected_models": {
+    "D402": {
+      "path": "hardware/pcb/evt1/dock-uv/models/Vishay_VLMU35CB.stp",
+      "sha256": "55315e01f4507e4050430069c1bdaaeb0bea85f9101e1e858ab47dc147a45b90"
+    },
+    "D403": {
+      "path": "hardware/pcb/evt1/dock-uv/models/Vishay_VLMU35CB.stp",
+      "sha256": "55315e01f4507e4050430069c1bdaaeb0bea85f9101e1e858ab47dc147a45b90"
+    },
+    "R406": {
+      "path": "hardware/pcb/evt1/dock-uv/models/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R404": {
+      "path": "hardware/pcb/evt1/dock-uv/models/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    "C405": {
+      "path": "hardware/pcb/evt1/dock-uv/models/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "J401": {
+      "path": "hardware/pcb/evt1/dock-uv/models/JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal.step",
+      "sha256": "38ec5ea738ca3ac47fea2b125a9725bf6c56b3e8ed942df666378dc55b43e322"
+    },
+    "C403": {
+      "path": "hardware/pcb/evt1/dock-uv/models/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "R408": {
+      "path": "hardware/pcb/evt1/dock-uv/models/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C402": {
+      "path": "hardware/pcb/evt1/dock-uv/models/C_1210_3225Metric.step",
+      "sha256": "f8510481c5044113cf49b0fa6dd54ddab9224508bd6808e1afab8ef0cefdefc9"
+    },
+    "R403": {
+      "path": "hardware/pcb/evt1/dock-uv/models/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R401": {
+      "path": "hardware/pcb/evt1/dock-uv/models/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    "C404": {
+      "path": "hardware/pcb/evt1/dock-uv/models/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "C401": {
+      "path": "hardware/pcb/evt1/dock-uv/models/C_1210_3225Metric.step",
+      "sha256": "f8510481c5044113cf49b0fa6dd54ddab9224508bd6808e1afab8ef0cefdefc9"
+    },
+    "U401": {
+      "path": "hardware/pcb/evt1/dock-uv/models/SOT-23-6.step",
+      "sha256": "9491de18305b16fe125ee3d603109a29edd837d50d22305b6f929886492ce755"
+    },
+    "R407": {
+      "path": "hardware/pcb/evt1/dock-uv/models/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "D401": {
+      "path": "hardware/pcb/evt1/dock-uv/models/D_SOD-123F.step",
+      "sha256": "132323445e3d1f9231e81c083cd88a33cd204dd8b96063bb2ed1f3ab4470c7e7"
+    },
+    "R402": {
+      "path": "hardware/pcb/evt1/dock-uv/models/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R405": {
+      "path": "hardware/pcb/evt1/dock-uv/models/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    "L401": {
+      "path": "hardware/pcb/evt1/dock-uv/models/Bourns_SRP4020TA_100M.step",
+      "sha256": "ae6490830a9efaf586a1f569cc95be851762eb81acead2575fa9fbcfcf97ecd8"
+    },
+    "Q401": {
+      "path": "hardware/pcb/evt1/dock-uv/models/SOT-23.step",
+      "sha256": "9fe9af3cc6cf3d3bc3bd3da71731af2037c67f690245102a20e1e39a33e9ade4"
+    }
+  },
+  "imported_model_objects": {
+    "D402": [
+      {
+        "name": "VLMU35CB20_275_120",
+        "label": "D402_VLMU35CB20-275-120_7c4c410ae416"
+      }
+    ],
+    "D403": [
+      {
+        "name": "VLMU35CB20_275_121",
+        "label": "D403_VLMU35CB20-275-120_962a759b7dd6"
+      }
+    ],
+    "R406": [
+      {
+        "name": "Shape",
+        "label": "R406_R_0603_1608Metric_e33ca8069a5f"
+      }
+    ],
+    "R404": [
+      {
+        "name": "Shape001",
+        "label": "R404_R_0805_2012Metric_439023aa76eb"
+      }
+    ],
+    "C405": [
+      {
+        "name": "Shape002",
+        "label": "C405_C_0603_1608Metric_68988f501715"
+      }
+    ],
+    "J401": [
+      {
+        "name": "Shape003",
+        "label": "J401_JST_SM08B_GHS_TB_24e3de021646"
+      }
+    ],
+    "C403": [
+      {
+        "name": "Shape004",
+        "label": "C403_C_0603_1608Metric_8171595fa67c"
+      }
+    ],
+    "R408": [
+      {
+        "name": "Shape005",
+        "label": "R408_R_0603_1608Metric_bacf5abfadc8"
+      }
+    ],
+    "C402": [
+      {
+        "name": "Shape006",
+        "label": "C402_C_1210_3225Metric_d07813e401d7"
+      }
+    ],
+    "R403": [
+      {
+        "name": "Shape007",
+        "label": "R403_R_0603_1608Metric_838b4f265bb8"
+      }
+    ],
+    "R401": [
+      {
+        "name": "Shape008",
+        "label": "R401_R_0805_2012Metric_d027e9b6d575"
+      }
+    ],
+    "C404": [
+      {
+        "name": "Shape009",
+        "label": "C404_C_0603_1608Metric_7f871b460737"
+      }
+    ],
+    "C401": [
+      {
+        "name": "Shape010",
+        "label": "C401_C_1210_3225Metric_d5b244f98687"
+      }
+    ],
+    "U401": [
+      {
+        "name": "Shape011",
+        "label": "U401_SOT_23_6_804e0f281771"
+      }
+    ],
+    "R407": [
+      {
+        "name": "Shape012",
+        "label": "R407_R_0603_1608Metric_e3f499efd05d"
+      }
+    ],
+    "D401": [
+      {
+        "name": "Shape013",
+        "label": "D401_D_SOD_123F_c1f4daea8f70"
+      }
+    ],
+    "R402": [
+      {
+        "name": "Shape014",
+        "label": "R402_R_0603_1608Metric_6573d83acc3c"
+      }
+    ],
+    "R405": [
+      {
+        "name": "Shape015",
+        "label": "R405_R_0805_2012Metric_4c9e3da3ff9e"
+      }
+    ],
+    "L401": [
+      {
+        "name": "Open_CASCADE_STEP_translator_7_8_1",
+        "label": "L401_Open CASCADE STEP translator 7.8 003_f89d3024f1cd"
+      }
+    ],
+    "Q401": [
+      {
+        "name": "Shape016",
+        "label": "Q401_SOT_23_9db1259ce49e"
+      }
+    ]
+  },
+  "missing_component_models": [],
+  "solid_count": 41,
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "pcb_placement": 2,
+  "root_exact_bounds_mm": [
+    -49.0,
+    -24.5,
+    -5.245000000000001,
+    49.0,
+    24.5,
+    1.7750000000000004
+  ],
+  "objects": [
+    {
+      "name": "PCB_Sketch_draft",
+      "label": "PCB_Sketch_draft",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Local_CS_957f",
+      "label": "Local_CS_957f",
+      "type": "PartDesign::CoordinateSystem"
+    },
+    {
+      "name": "Pcb_957f",
+      "label": "Pcb_957f",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Board_Geoms_957f",
+      "label": "Board_Geoms_957f",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin",
+      "label": "Origin",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis",
+      "label": "X-axis",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis",
+      "label": "Y-axis",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis",
+      "label": "Z-axis",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane",
+      "label": "XY-plane",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane",
+      "label": "XZ-plane",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane",
+      "label": "YZ-plane",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin001",
+      "label": "Origin001",
+      "type": "App::Point"
+    },
+    {
+      "name": "Board_957f",
+      "label": "dock-uv-base",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin002",
+      "label": "Origin004",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis001",
+      "label": "X-axis001",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis001",
+      "label": "Y-axis001",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis001",
+      "label": "Z-axis001",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane001",
+      "label": "XY-plane001",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane001",
+      "label": "XZ-plane001",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane001",
+      "label": "YZ-plane001",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin003",
+      "label": "Origin003",
+      "type": "App::Point"
+    },
+    {
+      "name": "PCB_Sketch_957f",
+      "label": "PCB_Sketch_957f",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Step_Models_957f",
+      "label": "Step_Models_957f",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin004",
+      "label": "Origin007",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis002",
+      "label": "X-axis002",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis002",
+      "label": "Y-axis002",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis002",
+      "label": "Z-axis002",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane002",
+      "label": "XY-plane002",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane002",
+      "label": "XZ-plane002",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane002",
+      "label": "YZ-plane002",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin005",
+      "label": "Origin006",
+      "type": "App::Point"
+    },
+    {
+      "name": "Top_957f",
+      "label": "Top_957f",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin006",
+      "label": "Origin010",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis003",
+      "label": "X-axis003",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis003",
+      "label": "Y-axis003",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis003",
+      "label": "Z-axis003",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane003",
+      "label": "XY-plane003",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane003",
+      "label": "XZ-plane003",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane003",
+      "label": "YZ-plane003",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin007",
+      "label": "Origin009",
+      "type": "App::Point"
+    },
+    {
+      "name": "Bot_957f",
+      "label": "Bot_957f",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin008",
+      "label": "Origin012",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis004",
+      "label": "X-axis004",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis004",
+      "label": "Y-axis004",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis004",
+      "label": "Z-axis004",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane004",
+      "label": "XY-plane004",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane004",
+      "label": "XZ-plane004",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane004",
+      "label": "YZ-plane004",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin009",
+      "label": "Origin011",
+      "type": "App::Point"
+    },
+    {
+      "name": "Part__Feature",
+      "label": "G35UVC280SL SUB",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature001",
+      "label": "G35UVC280SL CHIP PAD",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature002",
+      "label": "G35UVC280SL CHIP PAD001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature003",
+      "label": "G35UVC280SL CHIP PAD002",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "G35UVC280SL_CHIP_PAD",
+      "label": "G35UVC280SL CHIP PAD003",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin016",
+      "label": "Origin023",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis008",
+      "label": "X-axis008",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis008",
+      "label": "Y-axis008",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis008",
+      "label": "Z-axis008",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane008",
+      "label": "XY-plane008",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane008",
+      "label": "XZ-plane008",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane008",
+      "label": "YZ-plane008",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin017",
+      "label": "Origin022",
+      "type": "App::Point"
+    },
+    {
+      "name": "Part__Feature004",
+      "label": "G35UVC280SL SOLDER PAD",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature005",
+      "label": "G35UVC280SL SOLDER PAD001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "G35UVC280SL_SOLDER_PAD",
+      "label": "G35UVC280SL SOLDER PAD002",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin018",
+      "label": "Origin026",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis009",
+      "label": "X-axis009",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis009",
+      "label": "Y-axis009",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis009",
+      "label": "Z-axis009",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane009",
+      "label": "XY-plane009",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane009",
+      "label": "XZ-plane009",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane009",
+      "label": "YZ-plane009",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin019",
+      "label": "Origin025",
+      "type": "App::Point"
+    },
+    {
+      "name": "Part__Feature006",
+      "label": "G35UVC280SL CAVITY",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature007",
+      "label": "G35UVC280SL DAM",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature008",
+      "label": "G35UVC280SL GLASS",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature009",
+      "label": "G35UVCGP_chip",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "VLMU35CB20_275_120",
+      "label": "D402_VLMU35CB20-275-120_7c4c410ae416",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin020",
+      "label": "Origin029",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis010",
+      "label": "X-axis010",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis010",
+      "label": "Y-axis010",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis010",
+      "label": "Z-axis010",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane010",
+      "label": "XY-plane010",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane010",
+      "label": "XZ-plane010",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane010",
+      "label": "YZ-plane010",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin021",
+      "label": "Origin028",
+      "type": "App::Point"
+    },
+    {
+      "name": "X_Axis011",
+      "label": "X-axis011",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis011",
+      "label": "Y-axis011",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis011",
+      "label": "Z-axis011",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane011",
+      "label": "XY-plane011",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane011",
+      "label": "XZ-plane011",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane011",
+      "label": "YZ-plane011",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin022",
+      "label": "Origin030",
+      "type": "App::Point"
+    },
+    {
+      "name": "Origin023",
+      "label": "Origin031",
+      "type": "App::Origin"
+    },
+    {
+      "name": "Part__Feature010",
+      "label": "G35UVC280SL SUB001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "X_Axis012",
+      "label": "X-axis012",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis012",
+      "label": "Y-axis012",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis012",
+      "label": "Z-axis012",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane012",
+      "label": "XY-plane012",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane012",
+      "label": "XZ-plane012",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane012",
+      "label": "YZ-plane012",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin024",
+      "label": "Origin024",
+      "type": "App::Point"
+    },
+    {
+      "name": "Origin025",
+      "label": "Origin032",
+      "type": "App::Origin"
+    },
+    {
+      "name": "Part__Feature011",
+      "label": "G35UVC280SL CHIP PAD004",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature012",
+      "label": "G35UVC280SL CHIP PAD005",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature013",
+      "label": "G35UVC280SL CHIP PAD006",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "G35UVC280SL_CHIP_PAD001",
+      "label": "G35UVC280SL CHIP PAD007",
+      "type": "App::Part"
+    },
+    {
+      "name": "X_Axis013",
+      "label": "X-axis013",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis013",
+      "label": "Y-axis013",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis013",
+      "label": "Z-axis013",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane013",
+      "label": "XY-plane013",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane013",
+      "label": "XZ-plane013",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane013",
+      "label": "YZ-plane013",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin026",
+      "label": "Origin033",
+      "type": "App::Point"
+    },
+    {
+      "name": "Origin027",
+      "label": "Origin027",
+      "type": "App::Origin"
+    },
+    {
+      "name": "Part__Feature014",
+      "label": "G35UVC280SL SOLDER PAD003",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature015",
+      "label": "G35UVC280SL SOLDER PAD004",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "G35UVC280SL_SOLDER_PAD001",
+      "label": "G35UVC280SL SOLDER PAD005",
+      "type": "App::Part"
+    },
+    {
+      "name": "Part__Feature016",
+      "label": "G35UVC280SL CAVITY001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature017",
+      "label": "G35UVC280SL DAM001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature018",
+      "label": "G35UVC280SL GLASS001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature019",
+      "label": "G35UVCGP_chip001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "VLMU35CB20_275_121",
+      "label": "D403_VLMU35CB20-275-120_962a759b7dd6",
+      "type": "App::Part"
+    },
+    {
+      "name": "Shape",
+      "label": "R406_R_0603_1608Metric_e33ca8069a5f",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape001",
+      "label": "R404_R_0805_2012Metric_439023aa76eb",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape002",
+      "label": "C405_C_0603_1608Metric_68988f501715",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape003",
+      "label": "J401_JST_SM08B_GHS_TB_24e3de021646",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape004",
+      "label": "C403_C_0603_1608Metric_8171595fa67c",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape005",
+      "label": "R408_R_0603_1608Metric_bacf5abfadc8",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape006",
+      "label": "C402_C_1210_3225Metric_d07813e401d7",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape007",
+      "label": "R403_R_0603_1608Metric_838b4f265bb8",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape008",
+      "label": "R401_R_0805_2012Metric_d027e9b6d575",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape009",
+      "label": "C404_C_0603_1608Metric_7f871b460737",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape010",
+      "label": "C401_C_1210_3225Metric_d5b244f98687",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape011",
+      "label": "U401_SOT_23_6_804e0f281771",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape012",
+      "label": "R407_R_0603_1608Metric_e3f499efd05d",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape013",
+      "label": "D401_D_SOD_123F_c1f4daea8f70",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape014",
+      "label": "R402_R_0603_1608Metric_6573d83acc3c",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape015",
+      "label": "R405_R_0805_2012Metric_4c9e3da3ff9e",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature020",
+      "label": "Open CASCADE STEP translator 7.8 1",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature021",
+      "label": "Open CASCADE STEP translator 7.8 001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature022",
+      "label": "Open CASCADE STEP translator 7.8 002",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Open_CASCADE_STEP_translator_7_8_1",
+      "label": "L401_Open CASCADE STEP translator 7.8 003_f89d3024f1cd",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin028",
+      "label": "Origin036",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis014",
+      "label": "X-axis014",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis014",
+      "label": "Y-axis014",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis014",
+      "label": "Z-axis014",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane014",
+      "label": "XY-plane014",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane014",
+      "label": "XZ-plane014",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane014",
+      "label": "YZ-plane014",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin029",
+      "label": "Origin035",
+      "type": "App::Point"
+    },
+    {
+      "name": "Shape016",
+      "label": "Q401_SOT_23_9db1259ce49e",
+      "type": "Part::Feature"
+    }
+  ],
+  "importer_sha256": "d9210a3123716c65f6700f30a4f5a306c624203e08660083436553eaec45f516",
+  "physical_fit": false
+}

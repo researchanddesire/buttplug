@@ -1,0 +1,898 @@
+{
+  "selected_source_footprints": {
+    "D1": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Diodes_B140HW_SOD123_A1_K2.kicad_mod",
+      "source_sha256": "6546062afa1ff4721fdf2eef31ae556ba3a03a8e5f95428eeee55142a4300d83",
+      "local": "Selected.pretty/Diodes_B140HW_SOD123_A1_K2.kicad_mod",
+      "local_sha256": "bc7ee774059bea3901892208809ea3a9238f37ccd1f22bac73233f436ded2317",
+      "part": {
+        "mpn": "B140HW-7",
+        "manufacturer": "Diodes Incorporated",
+        "manufacturer_source": "https://www.diodes.com/datasheet/download/B140HW.pdf",
+        "maximum_height_mm": 1.35,
+        "assembly_note": "Custom footprint uses logical pad1 ANODE /pad2 CATHODE. Physical cathode stripe goes at the CAD cathode bar/pad2; do not assume generic diode pad1 numbering.",
+        "domain": "flange",
+        "ref": "D1",
+        "schematic_value": "Schottky 1A/20V candidate",
+        "footprint": "PrototypeR0:Diodes_B140HW_SOD123_A1_K2",
+        "purchase": true
+      }
+    },
+    "F1": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Fuse_1206_3216Metric.kicad_mod",
+      "source_sha256": "1146eee0fa83d5d56ea05f52f44992431b8c4f3fa2c405819e4aed6ba58ffcf2",
+      "local": "Selected.pretty/Fuse_1206_3216Metric.kicad_mod",
+      "local_sha256": "a332123fafeaffb6f81980e95a67b72e7beba00513b13b6b67417b74e17ce4bb",
+      "part": {
+        "mpn": "1206L050YR",
+        "manufacturer": "Littelfuse",
+        "manufacturer_source": "https://www.littelfuse.com/assetdocs/resettable-ptcs-1206l-datasheet?assetguid=2b6a1515-d4ee-4c83-8bd4-152b4901b8f5",
+        "maximum_height_mm": 0.75,
+        "assembly_note": "500mA hold PTC, not a precise current limiter. Use6V variant matching this exact part/height, not a taller alternate.",
+        "domain": "flange",
+        "ref": "F1",
+        "schematic_value": "PTC 500mA candidate",
+        "footprint": "PrototypeR0:Fuse_1206_3216Metric",
+        "purchase": true
+      }
+    },
+    "R75": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/R_0402_1005Metric.kicad_mod",
+      "source_sha256": "70ac457d61f801181665148cd036282c1eeb9e00383e132500ca0c21ed6befac",
+      "local": "Selected.pretty/R_0402_1005Metric.kicad_mod",
+      "local_sha256": "f85e34bd3e55ef26d8c526a7a65f92147b36a674fa02525e6ff3d970d8ce0817",
+      "part": {
+        "mpn": "TNPW040222R0BEED",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 22.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ],
+        "domain": "flange",
+        "ref": "R75",
+        "schematic_value": "22R",
+        "footprint": "EVT1:R_0402_1005Metric",
+        "purchase": true
+      }
+    },
+    "R76": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/R_0402_1005Metric.kicad_mod",
+      "source_sha256": "70ac457d61f801181665148cd036282c1eeb9e00383e132500ca0c21ed6befac",
+      "local": "Selected.pretty/R_0402_1005Metric.kicad_mod",
+      "local_sha256": "f85e34bd3e55ef26d8c526a7a65f92147b36a674fa02525e6ff3d970d8ce0817",
+      "part": {
+        "mpn": "TNPW040222R0BEED",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 22.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ],
+        "domain": "flange",
+        "ref": "R76",
+        "schematic_value": "22R",
+        "footprint": "EVT1:R_0402_1005Metric",
+        "purchase": true
+      }
+    },
+    "U75": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/SOT-23-6.kicad_mod",
+      "source_sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97",
+      "local": "Selected.pretty/SOT-23-6.kicad_mod",
+      "local_sha256": "7178355a201bbec3a1dedf60befc174e5dab19788049b8f0edd263ff1e3ebf16",
+      "part": {
+        "mpn": "USBLC6-2SC6",
+        "manufacturer": "STMicroelectronics",
+        "manufacturer_source": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+        "maximum_height_mm": 1.45,
+        "domain": "flange",
+        "ref": "U75",
+        "schematic_value": "USBLC6-2SC6",
+        "footprint": "EVT1:SOT-23-6",
+        "purchase": true
+      }
+    },
+    "C31": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Murata_GRM21_0805_Reflow.kicad_mod",
+      "source_sha256": "14a153e4351966779520212e42e49e6cb16162809e38a6da953698210fe0bc66",
+      "local": "Selected.pretty/Murata_GRM21_0805_Reflow.kicad_mod",
+      "local_sha256": "b82de78de5f415a20a0dd3a4ea9d93c5ea67abafabc9d59d9722b9189ff13194",
+      "part": {
+        "mpn": "GRM21BR61A106KE19L",
+        "manufacturer": "Murata",
+        "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+        "maximum_height_mm": 1.35,
+        "capacitance_F": 1e-05,
+        "rated_voltage_V": 10,
+        "tolerance_percent": 10,
+        "dielectric": "X5R",
+        "maximum_body_xy_mm": [
+          2.1,
+          1.35
+        ],
+        "domain": "flange",
+        "ref": "C31",
+        "schematic_value": "10uF 10V",
+        "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+        "purchase": true
+      }
+    },
+    "C32": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Murata_GRM18_0603_Reflow.kicad_mod",
+      "source_sha256": "d5d7ee46b38a3fb165aa16798dae1cd83e89234c7dc379c37c5544f78d43ead1",
+      "local": "Selected.pretty/Murata_GRM18_0603_Reflow.kicad_mod",
+      "local_sha256": "263d218e7c6adb334d13405eda54883eba52ab7df36f011a48156a3565688c82",
+      "part": {
+        "mpn": "GRM188R71C104KA01D",
+        "manufacturer": "Murata",
+        "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+        "maximum_height_mm": 0.9,
+        "capacitance_F": 1e-07,
+        "rated_voltage_V": 16,
+        "tolerance_percent": 10,
+        "dielectric": "X7R",
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ],
+        "domain": "flange",
+        "ref": "C32",
+        "schematic_value": "100nF",
+        "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+        "purchase": true
+      }
+    },
+    "C33": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/TDK_C1608_0603_Reflow.kicad_mod",
+      "source_sha256": "71e8830d58f065ff5c1389a4a97b33e38c658caa0c7c8c3f3cb92b4016d7aa91",
+      "local": "Selected.pretty/TDK_C1608_0603_Reflow.kicad_mod",
+      "local_sha256": "b3c8369dd4283e05b694d9a2c58ff5005705ad7d400b51be27d0da9a2b24a848",
+      "part": {
+        "mpn": "C1608X7R1E105K080AB",
+        "manufacturer": "TDK",
+        "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+        "maximum_height_mm": 0.9,
+        "capacitance_F": 1e-06,
+        "rated_voltage_V": 25,
+        "tolerance_percent": 10,
+        "dielectric": "X7R",
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ],
+        "domain": "flange",
+        "ref": "C33",
+        "schematic_value": "1uF",
+        "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+        "purchase": true
+      }
+    },
+    "C34": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Murata_GRM18_0603_Reflow.kicad_mod",
+      "source_sha256": "d5d7ee46b38a3fb165aa16798dae1cd83e89234c7dc379c37c5544f78d43ead1",
+      "local": "Selected.pretty/Murata_GRM18_0603_Reflow.kicad_mod",
+      "local_sha256": "263d218e7c6adb334d13405eda54883eba52ab7df36f011a48156a3565688c82",
+      "part": {
+        "mpn": "GRM188R71C104KA01D",
+        "manufacturer": "Murata",
+        "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+        "maximum_height_mm": 0.9,
+        "capacitance_F": 1e-07,
+        "rated_voltage_V": 16,
+        "tolerance_percent": 10,
+        "dielectric": "X7R",
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ],
+        "domain": "flange",
+        "ref": "C34",
+        "schematic_value": "100nF",
+        "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+        "purchase": true
+      }
+    },
+    "J4": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.kicad_mod",
+      "source_sha256": "2152992f93d9b6b3ee7740637a8fd2327b410251723c37e636114bbf2ae185d6",
+      "local": "Selected.pretty/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.kicad_mod",
+      "local_sha256": "e48875ebefc87c73ce227138bcc914a31f04d29864789d1d4edf6e9a1195f2ea",
+      "part": {
+        "mpn": "SM06B-SRSS-TB(LF)(SN)",
+        "manufacturer": "JST",
+        "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+        "maximum_height_mm": 2.95,
+        "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+        "domain": "flange",
+        "ref": "J4",
+        "schematic_value": "SERVICE_USB_BOOT",
+        "footprint": "PrototypeR0:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal",
+        "purchase": true
+      }
+    },
+    "R31": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "source_sha256": "4f7d110d0ce200223679391401ae06ce2784253f3ec8fc7f91e548432bddb805",
+      "local": "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "local_sha256": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+      "part": {
+        "mpn": "TNPW060310K0BEEA",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 10000.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ],
+        "domain": "flange",
+        "ref": "R31",
+        "schematic_value": "10k",
+        "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+        "purchase": true
+      }
+    },
+    "R32": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "source_sha256": "4f7d110d0ce200223679391401ae06ce2784253f3ec8fc7f91e548432bddb805",
+      "local": "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "local_sha256": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+      "part": {
+        "mpn": "TNPW060310K0BEEA",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 10000.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ],
+        "domain": "flange",
+        "ref": "R32",
+        "schematic_value": "10k",
+        "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+        "purchase": true
+      }
+    },
+    "R33": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "source_sha256": "4f7d110d0ce200223679391401ae06ce2784253f3ec8fc7f91e548432bddb805",
+      "local": "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "local_sha256": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+      "part": {
+        "mpn": "TNPW060310K0BEEA",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 10000.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ],
+        "domain": "flange",
+        "ref": "R33",
+        "schematic_value": "10k",
+        "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+        "purchase": true
+      }
+    },
+    "R34": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "source_sha256": "4f7d110d0ce200223679391401ae06ce2784253f3ec8fc7f91e548432bddb805",
+      "local": "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "local_sha256": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+      "part": {
+        "mpn": "TNPW060310K0BEEA",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 10000.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ],
+        "domain": "flange",
+        "ref": "R34",
+        "schematic_value": "10k",
+        "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+        "purchase": true
+      }
+    },
+    "R35": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "source_sha256": "4f7d110d0ce200223679391401ae06ce2784253f3ec8fc7f91e548432bddb805",
+      "local": "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "local_sha256": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+      "part": {
+        "mpn": "TNPW060310K0BEEA",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 10000.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ],
+        "domain": "flange",
+        "ref": "R35",
+        "schematic_value": "10k",
+        "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+        "purchase": true
+      }
+    },
+    "R36": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "source_sha256": "4f7d110d0ce200223679391401ae06ce2784253f3ec8fc7f91e548432bddb805",
+      "local": "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "local_sha256": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+      "part": {
+        "mpn": "TNPW060310K0BEEA",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 10000.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ],
+        "domain": "flange",
+        "ref": "R36",
+        "schematic_value": "10k",
+        "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+        "purchase": true
+      }
+    },
+    "R37": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "source_sha256": "4f7d110d0ce200223679391401ae06ce2784253f3ec8fc7f91e548432bddb805",
+      "local": "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "local_sha256": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+      "part": {
+        "mpn": "TNPW06034K70BEEA",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 4700.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ],
+        "domain": "flange",
+        "ref": "R37",
+        "schematic_value": "4.7k",
+        "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+        "purchase": true
+      }
+    },
+    "R38": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "source_sha256": "4f7d110d0ce200223679391401ae06ce2784253f3ec8fc7f91e548432bddb805",
+      "local": "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod",
+      "local_sha256": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+      "part": {
+        "mpn": "TNPW06034K70BEEA",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 4700.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ],
+        "domain": "flange",
+        "ref": "R38",
+        "schematic_value": "4.7k",
+        "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+        "purchase": true
+      }
+    },
+    "R39": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Vishay_TNPW0805_IEC_Reflow.kicad_mod",
+      "source_sha256": "3cfbef5351c6348fd51625863ff5043b7bab3735e5be5c23efc965ed910dddd3",
+      "local": "Selected.pretty/Vishay_TNPW0805_IEC_Reflow.kicad_mod",
+      "local_sha256": "9c47013560f2644684802798f95c6cf10db12002d6788e865842bf3051ac2ff8",
+      "part": {
+        "mpn": "TNPW08051M00BEEA",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 1000000.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          2.1,
+          1.4
+        ],
+        "domain": "flange",
+        "ref": "R39",
+        "schematic_value": "1.00M 1%",
+        "footprint": "PrototypeR0:Vishay_TNPW0805_IEC_Reflow",
+        "purchase": true
+      }
+    },
+    "R40": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Vishay_TNPW0805_IEC_Reflow.kicad_mod",
+      "source_sha256": "3cfbef5351c6348fd51625863ff5043b7bab3735e5be5c23efc965ed910dddd3",
+      "local": "Selected.pretty/Vishay_TNPW0805_IEC_Reflow.kicad_mod",
+      "local_sha256": "9c47013560f2644684802798f95c6cf10db12002d6788e865842bf3051ac2ff8",
+      "part": {
+        "mpn": "TNPW08051M00BEEA",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 1000000.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          2.1,
+          1.4
+        ],
+        "domain": "flange",
+        "ref": "R40",
+        "schematic_value": "1.00M 1%",
+        "footprint": "PrototypeR0:Vishay_TNPW0805_IEC_Reflow",
+        "purchase": true
+      }
+    },
+    "SW1": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/SW_SPST_B3U-1000P.kicad_mod",
+      "source_sha256": "d188c425a346f67070dfa078c0396e9b35b5d2764c20111195f8b98c3cef71a8",
+      "local": "Selected.pretty/SW_SPST_B3U-1000P.kicad_mod",
+      "local_sha256": "86886925dd8008c04eb9599e50efad444e3c07813a527ec48de7281d3d73b3d0",
+      "part": {
+        "mpn": "B3U-1000P",
+        "manufacturer": "Omron",
+        "manufacturer_source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+        "maximum_height_mm": 1.75,
+        "domain": "flange",
+        "ref": "SW1",
+        "schematic_value": "POWER / momentary",
+        "footprint": "PrototypeR0:SW_SPST_B3U-1000P",
+        "purchase": true
+      }
+    },
+    "SW2": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/SW_SPST_B3U-1000P.kicad_mod",
+      "source_sha256": "d188c425a346f67070dfa078c0396e9b35b5d2764c20111195f8b98c3cef71a8",
+      "local": "Selected.pretty/SW_SPST_B3U-1000P.kicad_mod",
+      "local_sha256": "86886925dd8008c04eb9599e50efad444e3c07813a527ec48de7281d3d73b3d0",
+      "part": {
+        "mpn": "B3U-1000P",
+        "manufacturer": "Omron",
+        "manufacturer_source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+        "maximum_height_mm": 1.75,
+        "domain": "flange",
+        "ref": "SW2",
+        "schematic_value": "MODE / momentary",
+        "footprint": "PrototypeR0:SW_SPST_B3U-1000P",
+        "purchase": true
+      }
+    },
+    "U6": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/Espressif_ESP32-C3-MINI-1_53Pads.kicad_mod",
+      "source_sha256": "af77a9160db4d149306878ef70004af8d4a70f262e0eeebb08b0142a88a6c6cc",
+      "local": "Selected.pretty/Espressif_ESP32-C3-MINI-1_53Pads.kicad_mod",
+      "local_sha256": "5c86b48520e4c45bd275220b81ab26beb120dd09e1cb0f3fe2de82f81c70a6c8",
+      "part": {
+        "mpn": "ESP32-C3-MINI-1-N4X",
+        "manufacturer": "Espressif",
+        "manufacturer_source": "https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html",
+        "maximum_height_mm": 2.55,
+        "assembly_note": "Preserve four-layer copper/antenna keepout. Quote stencil/ground-pad process using the native custom53-pad footprint.",
+        "domain": "flange",
+        "ref": "U6",
+        "schematic_value": "ESP32-C3-MINI-1-N4X candidate",
+        "footprint": "PrototypeR0:Espressif_ESP32-C3-MINI-1_53Pads",
+        "purchase": true
+      }
+    },
+    "J7": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/flange/PrototypeR0.pretty/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.kicad_mod",
+      "source_sha256": "b818ad5437f35a078ad0cd8a2d256e47b01c8a24add644e2701f0e55d1946ed4",
+      "local": "Selected.pretty/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.kicad_mod",
+      "local_sha256": "849733b56a0929464f2640134e65a9b6572547af656b1065a9a882eff35190a6",
+      "part": {
+        "mpn": "SM10B-SRSS-TB(LF)(SN)",
+        "manufacturer": "JST",
+        "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+        "maximum_height_mm": 2.95,
+        "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+        "domain": "flange",
+        "ref": "J7",
+        "schematic_value": "SM10B-SRSS-TB candidate",
+        "footprint": "PrototypeR0:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal",
+        "purchase": true
+      }
+    },
+    "C71": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/C_0402_1005Metric.kicad_mod",
+      "source_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+      "local": "Selected.pretty/C_0402_1005Metric.kicad_mod",
+      "local_sha256": "9503e39992d920c58579cf9fbd085c607c33be3aa0c658cd13763463501f42dd",
+      "part": {
+        "mpn": "GRM155R71C104KA88D",
+        "manufacturer": "Murata",
+        "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+        "maximum_height_mm": 0.55,
+        "capacitance_F": 1e-07,
+        "rated_voltage_V": 16,
+        "tolerance_percent": 10,
+        "dielectric": "X7R",
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ],
+        "domain": "flange",
+        "ref": "C71",
+        "schematic_value": "100nF",
+        "footprint": "EVT1:C_0402_1005Metric",
+        "purchase": true
+      }
+    },
+    "D71": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/D_SOD-323.kicad_mod",
+      "source_sha256": "6bf85735559484a964ff7c8b81cc916b29c8f5fe064c56f2901d54741bf0e9c7",
+      "local": "Selected.pretty/D_SOD-323.kicad_mod",
+      "local_sha256": "cb1eee75c6663271332175636b91d77d586ce9dfe6ed78fa95167ed61b0c60fb",
+      "part": {
+        "mpn": "BAT54WS-E3-08",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+        "maximum_height_mm": 1.25,
+        "domain": "flange",
+        "ref": "D71",
+        "schematic_value": "BAT54WS-E3-08",
+        "footprint": "EVT1:D_SOD-323",
+        "purchase": true
+      }
+    },
+    "D72": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/D_SOD-323.kicad_mod",
+      "source_sha256": "6bf85735559484a964ff7c8b81cc916b29c8f5fe064c56f2901d54741bf0e9c7",
+      "local": "Selected.pretty/D_SOD-323.kicad_mod",
+      "local_sha256": "cb1eee75c6663271332175636b91d77d586ce9dfe6ed78fa95167ed61b0c60fb",
+      "part": {
+        "mpn": "BAT54WS-E3-08",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+        "maximum_height_mm": 1.25,
+        "domain": "flange",
+        "ref": "D72",
+        "schematic_value": "BAT54WS-E3-08",
+        "footprint": "EVT1:D_SOD-323",
+        "purchase": true
+      }
+    },
+    "D73": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/D_SOD-323.kicad_mod",
+      "source_sha256": "6bf85735559484a964ff7c8b81cc916b29c8f5fe064c56f2901d54741bf0e9c7",
+      "local": "Selected.pretty/D_SOD-323.kicad_mod",
+      "local_sha256": "cb1eee75c6663271332175636b91d77d586ce9dfe6ed78fa95167ed61b0c60fb",
+      "part": {
+        "mpn": "BAT54WS-E3-08",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+        "maximum_height_mm": 1.25,
+        "domain": "flange",
+        "ref": "D73",
+        "schematic_value": "BAT54WS-E3-08",
+        "footprint": "EVT1:D_SOD-323",
+        "purchase": true
+      }
+    },
+    "R71": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/R_0402_1005Metric.kicad_mod",
+      "source_sha256": "70ac457d61f801181665148cd036282c1eeb9e00383e132500ca0c21ed6befac",
+      "local": "Selected.pretty/R_0402_1005Metric.kicad_mod",
+      "local_sha256": "f85e34bd3e55ef26d8c526a7a65f92147b36a674fa02525e6ff3d970d8ce0817",
+      "part": {
+        "mpn": "TNPW040210K0BEED",
+        "manufacturer": "Vishay",
+        "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "maximum_height_mm": 0.55,
+        "resistance_ohm": 10000.0,
+        "tolerance_percent": 0.1,
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ],
+        "domain": "flange",
+        "ref": "R71",
+        "schematic_value": "10k",
+        "footprint": "EVT1:R_0402_1005Metric",
+        "purchase": true
+      }
+    },
+    "U71": {
+      "domain": "flange",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/Texas_USON-6_1x1.45mm_P0.5mm_SMD.kicad_mod",
+      "source_sha256": "826f683cd81d19814e0806ab3deb69ddfe598fd86a574f3a6378a3cecbd2c3cc",
+      "local": "Selected.pretty/Texas_USON-6_1x1.45mm_P0.5mm_SMD.kicad_mod",
+      "local_sha256": "c8563606a39617522edf6ea855bc2d151ad06da2f6f8acf695e9321758941add",
+      "part": {
+        "mpn": "TPS3422EGDRYR",
+        "manufacturer": "Texas Instruments",
+        "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps3422.pdf",
+        "maximum_height_mm": 0.65,
+        "domain": "flange",
+        "ref": "U71",
+        "schematic_value": "TPS3422EGDRYR",
+        "footprint": "EVT1:Texas_USON-6_1x1.45mm_P0.5mm_SMD",
+        "purchase": true
+      }
+    },
+    "C81": {
+      "domain": "sensor",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/C_0402_1005Metric.kicad_mod",
+      "source_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+      "local": "Selected.pretty/C_0402_1005Metric.kicad_mod",
+      "local_sha256": "9503e39992d920c58579cf9fbd085c607c33be3aa0c658cd13763463501f42dd",
+      "part": {
+        "mpn": "GRM155R71C224KA12D",
+        "manufacturer": "Murata",
+        "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C224KA12%23",
+        "maximum_height_mm": 0.55,
+        "capacitance_F": 2.2e-07,
+        "rated_voltage_V": 16,
+        "tolerance_percent": 10,
+        "dielectric": "X7R",
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ],
+        "domain": "sensor",
+        "ref": "C81",
+        "schematic_value": "220nF",
+        "footprint": "EVT1:C_0402_1005Metric",
+        "purchase": true
+      }
+    },
+    "C82": {
+      "domain": "sensor",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/C_0402_1005Metric.kicad_mod",
+      "source_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+      "local": "Selected.pretty/C_0402_1005Metric.kicad_mod",
+      "local_sha256": "9503e39992d920c58579cf9fbd085c607c33be3aa0c658cd13763463501f42dd",
+      "part": {
+        "mpn": "GRM155R71C104KA88D",
+        "manufacturer": "Murata",
+        "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+        "maximum_height_mm": 0.55,
+        "capacitance_F": 1e-07,
+        "rated_voltage_V": 16,
+        "tolerance_percent": 10,
+        "dielectric": "X7R",
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ],
+        "domain": "sensor",
+        "ref": "C82",
+        "schematic_value": "100nF",
+        "footprint": "EVT1:C_0402_1005Metric",
+        "purchase": true
+      }
+    },
+    "C83": {
+      "domain": "sensor",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/C_0805_2012Metric.kicad_mod",
+      "source_sha256": "f9821eb1d391e3d2bc6c77832e3dcb89c12eb239a84b32afe731e7e2e61509bb",
+      "local": "Selected.pretty/C_0805_2012Metric.kicad_mod",
+      "local_sha256": "840765237e65f871e4fe355261b5c25f07f55fb2679f64bb97e07d574fe08fc1",
+      "part": {
+        "mpn": "C2012X5R1E226M125AC",
+        "manufacturer": "TDK",
+        "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1E226M125AC",
+        "maximum_height_mm": 1.45,
+        "capacitance_F": 2.2e-05,
+        "rated_voltage_V": 25,
+        "tolerance_percent": 20,
+        "dielectric": "X5R",
+        "maximum_body_xy_mm": [
+          2.2,
+          1.45
+        ],
+        "assembly_note": "C83 incoming/process acceptance: >=10uF effective at3.3V over intended temperature/age. Nominal22uF and voltage rating alone are not acceptance; manufacturer curves are reference data.",
+        "domain": "sensor",
+        "ref": "C83",
+        "schematic_value": "22uF 10V / Ceff>=10uF at3V3",
+        "footprint": "EVT1:C_0805_2012Metric",
+        "purchase": true
+      }
+    },
+    "C84": {
+      "domain": "sensor",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/C_0402_1005Metric.kicad_mod",
+      "source_sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+      "local": "Selected.pretty/C_0402_1005Metric.kicad_mod",
+      "local_sha256": "9503e39992d920c58579cf9fbd085c607c33be3aa0c658cd13763463501f42dd",
+      "part": {
+        "mpn": "GRM155R71C104KA88D",
+        "manufacturer": "Murata",
+        "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+        "maximum_height_mm": 0.55,
+        "capacitance_F": 1e-07,
+        "rated_voltage_V": 16,
+        "tolerance_percent": 10,
+        "dielectric": "X7R",
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ],
+        "domain": "sensor",
+        "ref": "C84",
+        "schematic_value": "100nF / VDDIO local",
+        "footprint": "EVT1:C_0402_1005Metric",
+        "purchase": true
+      }
+    },
+    "U81": {
+      "domain": "sensor",
+      "source_footprint": "hardware/pcb/evt1/EVT1.pretty/LGA-12_2x2mm_P0.5mm.kicad_mod",
+      "source_sha256": "693f0fe1eab49489c7d71935e02ff6a56789c18b04d51bb9e8f3807e2d53ec78",
+      "local": "Selected.pretty/LGA-12_2x2mm_P0.5mm.kicad_mod",
+      "local_sha256": "951f30297b11a9c5d22361c8e17776a1d531f1c8f79a38a8f1360cadbe7a5173",
+      "part": {
+        "mpn": "LSM303AGRTR",
+        "manufacturer": "STMicroelectronics",
+        "manufacturer_source": "https://www.st.com/resource/en/datasheet/lsm303agr.pdf",
+        "maximum_height_mm": 1.1,
+        "assembly_note": "Pin1 and fixed package orientation must match the native footprint. Do not rotate for convenience; board registers to the molded back arrow.",
+        "domain": "sensor",
+        "ref": "U81",
+        "schematic_value": "LSM303AGRTR",
+        "footprint": "EVT1:LGA-12_2x2mm_P0.5mm",
+        "purchase": true
+      }
+    }
+  },
+  "local_nominal_models": {
+    "D_SOD-123.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step",
+      "sha256": "4413b86c5a559a63b29f1f53fd235ffe38dd235d3c16750a8a78e855c9a802ef",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "Fuse_1206_3216Metric.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Fuse.3dshapes/Fuse_1206_3216Metric.step",
+      "sha256": "5e6dcbe286696143d35a8ea37d91eef4b54ff3d1bd7c2c2b4dedda83d3f8e203",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "R_0402_1005Metric.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "SOT-23-6.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "sha256": "9491de18305b16fe125ee3d603109a29edd837d50d22305b6f929886492ce755",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "C_0805_2012Metric.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "C_0603_1608Metric.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step": {
+      "source": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Connector_JST.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step",
+      "sha256": "470db6ec39ba9d16e8d1dde845be2fd86ecf9e8280643d8e226b3ef821c9716e",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "R_0603_1608Metric.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "R_0805_2012Metric.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "SW_SPST_B3U-1000P.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.step",
+      "sha256": "587521eeb9e74a89206aa30ba175b56ce2e6906ce77ce09af076fdddba9bd5d6",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "ESP32-C3-MINI-1-OEM.step": {
+      "source": "https://www.espressif.com/sites/default/files/3dmodel/ESP32-C3-MINI-1%203D%20Model.STEP",
+      "primary_landing_page": "https://www.espressif.com/en/module/esp32-c3-mini-1-en",
+      "sha256": "a4ed075447476cb39cbee4f5889f163ff8abae111efcf27c3559b8dafa1085aa",
+      "classification": "manufacturer OEM selected MINI-1 geometry; received N4X tolerance verification remains open",
+      "footprint_model_offset_xyz_mm": [
+        -6.6,
+        -5.6,
+        0
+      ]
+    },
+    "JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.step": {
+      "source": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Connector_JST.3dshapes/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.step",
+      "sha256": "ff33172378d63a6a8e51e18f421337f1e5972a2c5b026c0f217347e4be9be191",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "C_0402_1005Metric.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "D_SOD-323.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_SMD.3dshapes/D_SOD-323.step",
+      "sha256": "6c72b6baeee0baa9075c149ba2e76f711328315273e81580dbd57fb36a86c1e3",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "USON-6_1x1.45mm_P0.5mm.step": {
+      "source": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Package_SON.3dshapes/USON-6_1x1.45mm_P0.5mm.step",
+      "sha256": "61bf9ccef024ce8a71b4968776fbfe67acaca641481762d12dab3c0a21a12213",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    },
+    "LGA-12_2x2mm_P0.5mm.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.step",
+      "sha256": "5e6c16287491528f89c09590e0d5dace14debf478226f74b45504eb906119145",
+      "classification": "KiCad selected package-family nominal STEP; not OEM exact-MPN or received-part qualification"
+    }
+  },
+  "no_source_board_changes": true,
+  "new_fixed_target": {
+    "MPN": "1946-0-00-15-00-00-03-0",
+    "manufacturer": "Mill-Max",
+    "primary_catalog": "https://www.mill-max.com/sites/default/files/external/catalog/2020-01/202-246_3.pdf",
+    "catalog_printed_page": "223.1",
+    "local_primary_catalog_sha256": "5ad66d275f130650f22fd86a6afb956497788cb4ce24207a80cfb3ee22e8e9f7",
+    "actual_model_source": "hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/models/MillMax1946.step",
+    "model_sha256": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+    "model_class": "primary-dimensioned turned profile; undimensioned tip rounding/chamfers omitted",
+    "native_cold_readback": "hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/cold-readback.json",
+    "contact_drill_mm": 0.8636,
+    "contact_copper_pad_diameter_mm": 3.2,
+    "annulus_and_received_finished_hole_acceptance": false,
+    "nominal_face_height_mm": 3.048,
+    "nominal_tail_below_seat_mm": 2.794,
+    "length_tolerance_mm": 0.127,
+    "diameter_tolerance_mm": 0.0508
+  }
+}

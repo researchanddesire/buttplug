@@ -1,0 +1,1949 @@
+{
+  "status": "pass: native full-device ERC0 and terminal conservation",
+  "source_body_board_sha256": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367",
+  "frozen_study_board_sha256": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
+  "merged_positions": 39,
+  "standalone_logical_terminals": 155,
+  "full_context_components": 111,
+  "full_context_logical_terminals": 380,
+  "unchanged_original_terminal_checks": [
+    {
+      "ref": "C13",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C14",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C15",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C27",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C29",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C31",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C32",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C43",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C52",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C61",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C71",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C82",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C83",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C84",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "J6",
+      "pin": "3",
+      "net": "3V3"
+    },
+    {
+      "ref": "J7",
+      "pin": "3",
+      "net": "3V3"
+    },
+    {
+      "ref": "J81",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R11",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R31",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R32",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R33",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R34",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R35",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R36",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R37",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R38",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R4",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R42",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R5",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "R71",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "U2",
+      "pin": "7",
+      "net": "3V3"
+    },
+    {
+      "ref": "U2",
+      "pin": "8",
+      "net": "3V3"
+    },
+    {
+      "ref": "U4",
+      "pin": "5",
+      "net": "3V3"
+    },
+    {
+      "ref": "U5",
+      "pin": "8",
+      "net": "3V3"
+    },
+    {
+      "ref": "U6",
+      "pin": "3",
+      "net": "3V3"
+    },
+    {
+      "ref": "U7",
+      "pin": "8",
+      "net": "3V3"
+    },
+    {
+      "ref": "U71",
+      "pin": "4",
+      "net": "3V3"
+    },
+    {
+      "ref": "U8",
+      "pin": "5",
+      "net": "3V3"
+    },
+    {
+      "ref": "U81",
+      "pin": "10",
+      "net": "3V3"
+    },
+    {
+      "ref": "U81",
+      "pin": "2",
+      "net": "3V3"
+    },
+    {
+      "ref": "U81",
+      "pin": "3",
+      "net": "3V3"
+    },
+    {
+      "ref": "U81",
+      "pin": "9",
+      "net": "3V3"
+    },
+    {
+      "ref": "U9",
+      "pin": "5",
+      "net": "3V3"
+    },
+    {
+      "ref": "D73",
+      "pin": "2",
+      "net": "BOOT_N"
+    },
+    {
+      "ref": "J4",
+      "pin": "5",
+      "net": "BOOT_N"
+    },
+    {
+      "ref": "R34",
+      "pin": "2",
+      "net": "BOOT_N"
+    },
+    {
+      "ref": "U6",
+      "pin": "23",
+      "net": "BOOT_N"
+    },
+    {
+      "ref": "Q1",
+      "pin": "3",
+      "net": "CHARGE_CE_N"
+    },
+    {
+      "ref": "R3",
+      "pin": "2",
+      "net": "CHARGE_CE_N"
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "net": "CHARGE_CE_N"
+    },
+    {
+      "ref": "Q1",
+      "pin": "1",
+      "net": "CHARGE_GATE"
+    },
+    {
+      "ref": "R47",
+      "pin": "2",
+      "net": "CHARGE_GATE"
+    },
+    {
+      "ref": "R48",
+      "pin": "1",
+      "net": "CHARGE_GATE"
+    },
+    {
+      "ref": "JP1",
+      "pin": "2",
+      "net": "CHARGE_PERMIT"
+    },
+    {
+      "ref": "R47",
+      "pin": "1",
+      "net": "CHARGE_PERMIT"
+    },
+    {
+      "ref": "R5",
+      "pin": "2",
+      "net": "CHARGE_STATUS_N"
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "net": "CHARGE_STATUS_N"
+    },
+    {
+      "ref": "JP1",
+      "pin": "1",
+      "net": "CHARGE_TEMP_OK"
+    },
+    {
+      "ref": "R46",
+      "pin": "2",
+      "net": "CHARGE_TEMP_OK"
+    },
+    {
+      "ref": "U8",
+      "pin": "1",
+      "net": "CHARGE_TEMP_OK"
+    },
+    {
+      "ref": "U8",
+      "pin": "6",
+      "net": "CHARGE_TEMP_OK"
+    },
+    {
+      "ref": "U9",
+      "pin": "1",
+      "net": "CHARGE_TEMP_OK"
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "net": "CHG_ILIM"
+    },
+    {
+      "ref": "U1",
+      "pin": "12",
+      "net": "CHG_ILIM"
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "net": "CHG_ISET"
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "net": "CHG_ISET"
+    },
+    {
+      "ref": "F1",
+      "pin": "1",
+      "net": "DOCK_5V"
+    },
+    {
+      "ref": "U75",
+      "pin": "5",
+      "net": "DOCK_5V"
+    },
+    {
+      "ref": "D1",
+      "pin": "1",
+      "net": "DOCK_FUSED"
+    },
+    {
+      "ref": "F1",
+      "pin": "2",
+      "net": "DOCK_FUSED"
+    },
+    {
+      "ref": "D72",
+      "pin": "1",
+      "net": "DOCK_PRESENT_N"
+    },
+    {
+      "ref": "J6",
+      "pin": "7",
+      "net": "DOCK_PRESENT_N"
+    },
+    {
+      "ref": "J7",
+      "pin": "7",
+      "net": "DOCK_PRESENT_N"
+    },
+    {
+      "ref": "R4",
+      "pin": "2",
+      "net": "DOCK_PRESENT_N"
+    },
+    {
+      "ref": "U1",
+      "pin": "7",
+      "net": "DOCK_PRESENT_N"
+    },
+    {
+      "ref": "U4",
+      "pin": "6",
+      "net": "DOCK_PRESENT_N"
+    },
+    {
+      "ref": "U6",
+      "pin": "30",
+      "net": "DOCK_PRESENT_N"
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C11",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C12",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C13",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C14",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C15",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C16",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C21",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C22",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C23",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C24",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C25",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C26",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C27",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C28",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C29",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C3",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C30",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C31",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C32",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C33",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C34",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C43",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C44",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C51",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C52",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C53",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C54",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C61",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C62",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C63",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C71",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C81",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C82",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C83",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C84",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "J4",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J5",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "J6",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J7",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "J81",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "Q1",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R12",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R2",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R22",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R23",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R24",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R25",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R40",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R45",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R48",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "R63",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "SW1",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "SW2",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "TH1",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "TH101",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "TH2",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "U1",
+      "pin": "17",
+      "net": "GND"
+    },
+    {
+      "ref": "U1",
+      "pin": "5",
+      "net": "GND"
+    },
+    {
+      "ref": "U1",
+      "pin": "6",
+      "net": "GND"
+    },
+    {
+      "ref": "U1",
+      "pin": "8",
+      "net": "GND"
+    },
+    {
+      "ref": "U2",
+      "pin": "10",
+      "net": "GND"
+    },
+    {
+      "ref": "U2",
+      "pin": "15",
+      "net": "GND"
+    },
+    {
+      "ref": "U2",
+      "pin": "4",
+      "net": "GND"
+    },
+    {
+      "ref": "U3",
+      "pin": "10",
+      "net": "GND"
+    },
+    {
+      "ref": "U3",
+      "pin": "15",
+      "net": "GND"
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "net": "GND"
+    },
+    {
+      "ref": "U4",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "U5",
+      "pin": "4",
+      "net": "GND"
+    },
+    {
+      "ref": "U5",
+      "pin": "5",
+      "net": "GND"
+    },
+    {
+      "ref": "U5",
+      "pin": "7",
+      "net": "GND"
+    },
+    {
+      "ref": "U5",
+      "pin": "9",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "11",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "14",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "36",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "37",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "38",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "39",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "40",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "41",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "42",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "43",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "44",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "45",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "46",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "47",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "48",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "49",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "50",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "51",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "52",
+      "net": "GND"
+    },
+    {
+      "ref": "U6",
+      "pin": "53",
+      "net": "GND"
+    },
+    {
+      "ref": "U7",
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "ref": "U7",
+      "pin": "3",
+      "net": "GND"
+    },
+    {
+      "ref": "U7",
+      "pin": "6",
+      "net": "GND"
+    },
+    {
+      "ref": "U7",
+      "pin": "7",
+      "net": "GND"
+    },
+    {
+      "ref": "U71",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "U71",
+      "pin": "5",
+      "net": "GND"
+    },
+    {
+      "ref": "U71",
+      "pin": "6",
+      "net": "GND"
+    },
+    {
+      "ref": "U75",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "U8",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "U81",
+      "pin": "6",
+      "net": "GND"
+    },
+    {
+      "ref": "U81",
+      "pin": "8",
+      "net": "GND"
+    },
+    {
+      "ref": "U9",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "J6",
+      "pin": "9",
+      "net": "I2C_SCL"
+    },
+    {
+      "ref": "J7",
+      "pin": "9",
+      "net": "I2C_SCL"
+    },
+    {
+      "ref": "J81",
+      "pin": "4",
+      "net": "I2C_SCL"
+    },
+    {
+      "ref": "R38",
+      "pin": "2",
+      "net": "I2C_SCL"
+    },
+    {
+      "ref": "U6",
+      "pin": "19",
+      "net": "I2C_SCL"
+    },
+    {
+      "ref": "U7",
+      "pin": "10",
+      "net": "I2C_SCL"
+    },
+    {
+      "ref": "U81",
+      "pin": "1",
+      "net": "I2C_SCL"
+    },
+    {
+      "ref": "J6",
+      "pin": "8",
+      "net": "I2C_SDA"
+    },
+    {
+      "ref": "J7",
+      "pin": "8",
+      "net": "I2C_SDA"
+    },
+    {
+      "ref": "J81",
+      "pin": "3",
+      "net": "I2C_SDA"
+    },
+    {
+      "ref": "R37",
+      "pin": "2",
+      "net": "I2C_SDA"
+    },
+    {
+      "ref": "U6",
+      "pin": "18",
+      "net": "I2C_SDA"
+    },
+    {
+      "ref": "U7",
+      "pin": "9",
+      "net": "I2C_SDA"
+    },
+    {
+      "ref": "U81",
+      "pin": "4",
+      "net": "I2C_SDA"
+    },
+    {
+      "ref": "C81",
+      "pin": "1",
+      "net": "MAG_C1"
+    },
+    {
+      "ref": "U81",
+      "pin": "5",
+      "net": "MAG_C1"
+    },
+    {
+      "ref": "C33",
+      "pin": "1",
+      "net": "MCU_EN"
+    },
+    {
+      "ref": "J4",
+      "pin": "4",
+      "net": "MCU_EN"
+    },
+    {
+      "ref": "R31",
+      "pin": "2",
+      "net": "MCU_EN"
+    },
+    {
+      "ref": "U6",
+      "pin": "8",
+      "net": "MCU_EN"
+    },
+    {
+      "ref": "U71",
+      "pin": "1",
+      "net": "MCU_EN"
+    },
+    {
+      "ref": "D73",
+      "pin": "1",
+      "net": "MODE_N"
+    },
+    {
+      "ref": "R36",
+      "pin": "2",
+      "net": "MODE_N"
+    },
+    {
+      "ref": "SW2",
+      "pin": "1",
+      "net": "MODE_N"
+    },
+    {
+      "ref": "U6",
+      "pin": "6",
+      "net": "MODE_N"
+    },
+    {
+      "ref": "C23",
+      "pin": "1",
+      "net": "MOTOR_3V7"
+    },
+    {
+      "ref": "C24",
+      "pin": "1",
+      "net": "MOTOR_3V7"
+    },
+    {
+      "ref": "C25",
+      "pin": "1",
+      "net": "MOTOR_3V7"
+    },
+    {
+      "ref": "C28",
+      "pin": "1",
+      "net": "MOTOR_3V7"
+    },
+    {
+      "ref": "C30",
+      "pin": "1",
+      "net": "MOTOR_3V7"
+    },
+    {
+      "ref": "C54",
+      "pin": "1",
+      "net": "MOTOR_3V7"
+    },
+    {
+      "ref": "R21",
+      "pin": "1",
+      "net": "MOTOR_3V7"
+    },
+    {
+      "ref": "U3",
+      "pin": "7",
+      "net": "MOTOR_3V7"
+    },
+    {
+      "ref": "U3",
+      "pin": "8",
+      "net": "MOTOR_3V7"
+    },
+    {
+      "ref": "U5",
+      "pin": "1",
+      "net": "MOTOR_3V7"
+    },
+    {
+      "ref": "J6",
+      "pin": "5",
+      "net": "MOTOR_ARM"
+    },
+    {
+      "ref": "J7",
+      "pin": "5",
+      "net": "MOTOR_ARM"
+    },
+    {
+      "ref": "R23",
+      "pin": "1",
+      "net": "MOTOR_ARM"
+    },
+    {
+      "ref": "U3",
+      "pin": "14",
+      "net": "MOTOR_ARM"
+    },
+    {
+      "ref": "U4",
+      "pin": "3",
+      "net": "MOTOR_ARM"
+    },
+    {
+      "ref": "U6",
+      "pin": "21",
+      "net": "MOTOR_ARM"
+    },
+    {
+      "ref": "R25",
+      "pin": "1",
+      "net": "MOTOR_IN1"
+    },
+    {
+      "ref": "U4",
+      "pin": "4",
+      "net": "MOTOR_IN1"
+    },
+    {
+      "ref": "U5",
+      "pin": "6",
+      "net": "MOTOR_IN1"
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "net": "MOTOR_N"
+    },
+    {
+      "ref": "U5",
+      "pin": "3",
+      "net": "MOTOR_N"
+    },
+    {
+      "ref": "J3",
+      "pin": "1",
+      "net": "MOTOR_P"
+    },
+    {
+      "ref": "U5",
+      "pin": "2",
+      "net": "MOTOR_P"
+    },
+    {
+      "ref": "J6",
+      "pin": "6",
+      "net": "MOTOR_PWM"
+    },
+    {
+      "ref": "J7",
+      "pin": "6",
+      "net": "MOTOR_PWM"
+    },
+    {
+      "ref": "R24",
+      "pin": "1",
+      "net": "MOTOR_PWM"
+    },
+    {
+      "ref": "U4",
+      "pin": "1",
+      "net": "MOTOR_PWM"
+    },
+    {
+      "ref": "U6",
+      "pin": "20",
+      "net": "MOTOR_PWM"
+    },
+    {
+      "ref": "J2",
+      "pin": "4",
+      "net": "PACK_GUARD"
+    },
+    {
+      "ref": "R42",
+      "pin": "2",
+      "net": "PACK_GUARD"
+    },
+    {
+      "ref": "R43",
+      "pin": "1",
+      "net": "PACK_GUARD"
+    },
+    {
+      "ref": "TH2",
+      "pin": "1",
+      "net": "PACK_GUARD"
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "net": "PACK_NTC"
+    },
+    {
+      "ref": "TH1",
+      "pin": "1",
+      "net": "PACK_NTC"
+    },
+    {
+      "ref": "U1",
+      "pin": "1",
+      "net": "PACK_NTC"
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "net": "PACK_P"
+    },
+    {
+      "ref": "J2",
+      "pin": "1",
+      "net": "PACK_P"
+    },
+    {
+      "ref": "J6",
+      "pin": "4",
+      "net": "PACK_P"
+    },
+    {
+      "ref": "J7",
+      "pin": "4",
+      "net": "PACK_P"
+    },
+    {
+      "ref": "R39",
+      "pin": "1",
+      "net": "PACK_P"
+    },
+    {
+      "ref": "U1",
+      "pin": "2",
+      "net": "PACK_P"
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "net": "PACK_P"
+    },
+    {
+      "ref": "D71",
+      "pin": "2",
+      "net": "POWER_N"
+    },
+    {
+      "ref": "D72",
+      "pin": "2",
+      "net": "POWER_N"
+    },
+    {
+      "ref": "R35",
+      "pin": "2",
+      "net": "POWER_N"
+    },
+    {
+      "ref": "U6",
+      "pin": "13",
+      "net": "POWER_N"
+    },
+    {
+      "ref": "D71",
+      "pin": "1",
+      "net": "POWER_SWITCH_N"
+    },
+    {
+      "ref": "R71",
+      "pin": "2",
+      "net": "POWER_SWITCH_N"
+    },
+    {
+      "ref": "SW1",
+      "pin": "1",
+      "net": "POWER_SWITCH_N"
+    },
+    {
+      "ref": "U71",
+      "pin": "3",
+      "net": "POWER_SWITCH_N"
+    },
+    {
+      "ref": "C16",
+      "pin": "1",
+      "net": "REG1_AUX"
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "net": "REG1_AUX"
+    },
+    {
+      "ref": "R11",
+      "pin": "2",
+      "net": "REG1_FB"
+    },
+    {
+      "ref": "R12",
+      "pin": "1",
+      "net": "REG1_FB"
+    },
+    {
+      "ref": "U2",
+      "pin": "5",
+      "net": "REG1_FB"
+    },
+    {
+      "ref": "L1",
+      "pin": "1",
+      "net": "REG1_L1"
+    },
+    {
+      "ref": "U2",
+      "pin": "11",
+      "net": "REG1_L1"
+    },
+    {
+      "ref": "L1",
+      "pin": "2",
+      "net": "REG1_L2"
+    },
+    {
+      "ref": "U2",
+      "pin": "9",
+      "net": "REG1_L2"
+    },
+    {
+      "ref": "R13",
+      "pin": "2",
+      "net": "REG1_PS"
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "net": "REG1_PS"
+    },
+    {
+      "ref": "U2",
+      "pin": "14",
+      "net": "REG1_PS"
+    },
+    {
+      "ref": "C26",
+      "pin": "1",
+      "net": "REG2_AUX"
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "net": "REG2_AUX"
+    },
+    {
+      "ref": "R21",
+      "pin": "2",
+      "net": "REG2_FB"
+    },
+    {
+      "ref": "R22",
+      "pin": "1",
+      "net": "REG2_FB"
+    },
+    {
+      "ref": "U3",
+      "pin": "5",
+      "net": "REG2_FB"
+    },
+    {
+      "ref": "L2",
+      "pin": "1",
+      "net": "REG2_L1"
+    },
+    {
+      "ref": "U3",
+      "pin": "11",
+      "net": "REG2_L1"
+    },
+    {
+      "ref": "L2",
+      "pin": "2",
+      "net": "REG2_L2"
+    },
+    {
+      "ref": "U3",
+      "pin": "9",
+      "net": "REG2_L2"
+    },
+    {
+      "ref": "R26",
+      "pin": "2",
+      "net": "REG2_PS"
+    },
+    {
+      "ref": "U3",
+      "pin": "1",
+      "net": "REG2_PS"
+    },
+    {
+      "ref": "R32",
+      "pin": "2",
+      "net": "STRAP2"
+    },
+    {
+      "ref": "U6",
+      "pin": "5",
+      "net": "STRAP2"
+    },
+    {
+      "ref": "R33",
+      "pin": "2",
+      "net": "STRAP8"
+    },
+    {
+      "ref": "U6",
+      "pin": "22",
+      "net": "STRAP8"
+    },
+    {
+      "ref": "C11",
+      "pin": "1",
+      "net": "SYS"
+    },
+    {
+      "ref": "C12",
+      "pin": "1",
+      "net": "SYS"
+    },
+    {
+      "ref": "C21",
+      "pin": "1",
+      "net": "SYS"
+    },
+    {
+      "ref": "C22",
+      "pin": "1",
+      "net": "SYS"
+    },
+    {
+      "ref": "C3",
+      "pin": "1",
+      "net": "SYS"
+    },
+    {
+      "ref": "C51",
+      "pin": "1",
+      "net": "SYS"
+    },
+    {
+      "ref": "C53",
+      "pin": "1",
+      "net": "SYS"
+    },
+    {
+      "ref": "R13",
+      "pin": "1",
+      "net": "SYS"
+    },
+    {
+      "ref": "R26",
+      "pin": "1",
+      "net": "SYS"
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "net": "SYS"
+    },
+    {
+      "ref": "U1",
+      "pin": "11",
+      "net": "SYS"
+    },
+    {
+      "ref": "U2",
+      "pin": "12",
+      "net": "SYS"
+    },
+    {
+      "ref": "U2",
+      "pin": "13",
+      "net": "SYS"
+    },
+    {
+      "ref": "U3",
+      "pin": "12",
+      "net": "SYS"
+    },
+    {
+      "ref": "U3",
+      "pin": "13",
+      "net": "SYS"
+    },
+    {
+      "ref": "R44",
+      "pin": "2",
+      "net": "TEMP_COLD_IN"
+    },
+    {
+      "ref": "R45",
+      "pin": "1",
+      "net": "TEMP_COLD_IN"
+    },
+    {
+      "ref": "U8",
+      "pin": "4",
+      "net": "TEMP_COLD_IN"
+    },
+    {
+      "ref": "R43",
+      "pin": "2",
+      "net": "TEMP_HOT_IN"
+    },
+    {
+      "ref": "R44",
+      "pin": "1",
+      "net": "TEMP_HOT_IN"
+    },
+    {
+      "ref": "U8",
+      "pin": "3",
+      "net": "TEMP_HOT_IN"
+    },
+    {
+      "ref": "J6",
+      "pin": "10",
+      "net": "TIP_EXC_EN"
+    },
+    {
+      "ref": "J7",
+      "pin": "10",
+      "net": "TIP_EXC_EN"
+    },
+    {
+      "ref": "R61",
+      "pin": "1",
+      "net": "TIP_EXC_EN"
+    },
+    {
+      "ref": "R62",
+      "pin": "1",
+      "net": "TIP_EXC_EN"
+    },
+    {
+      "ref": "U6",
+      "pin": "16",
+      "net": "TIP_EXC_EN"
+    },
+    {
+      "ref": "C63",
+      "pin": "1",
+      "net": "TIP_EXC_HALF"
+    },
+    {
+      "ref": "R62",
+      "pin": "2",
+      "net": "TIP_EXC_HALF"
+    },
+    {
+      "ref": "R63",
+      "pin": "1",
+      "net": "TIP_EXC_HALF"
+    },
+    {
+      "ref": "U7",
+      "pin": "5",
+      "net": "TIP_EXC_HALF"
+    },
+    {
+      "ref": "C62",
+      "pin": "1",
+      "net": "TIP_NTC"
+    },
+    {
+      "ref": "J5",
+      "pin": "1",
+      "net": "TIP_NTC"
+    },
+    {
+      "ref": "R61",
+      "pin": "2",
+      "net": "TIP_NTC"
+    },
+    {
+      "ref": "TH101",
+      "pin": "1",
+      "net": "TIP_NTC"
+    },
+    {
+      "ref": "U7",
+      "pin": "4",
+      "net": "TIP_NTC"
+    },
+    {
+      "ref": "J4",
+      "pin": "6",
+      "net": "UART_TX"
+    },
+    {
+      "ref": "U6",
+      "pin": "31",
+      "net": "UART_TX"
+    },
+    {
+      "ref": "J4",
+      "pin": "2",
+      "net": "USB_DM"
+    },
+    {
+      "ref": "R75",
+      "pin": "2",
+      "net": "USB_DM"
+    },
+    {
+      "ref": "U6",
+      "pin": "26",
+      "net": "USB_DM"
+    },
+    {
+      "ref": "R75",
+      "pin": "1",
+      "net": "USB_DM_CONTACT"
+    },
+    {
+      "ref": "U75",
+      "pin": "1",
+      "net": "USB_DM_CONTACT"
+    },
+    {
+      "ref": "U75",
+      "pin": "6",
+      "net": "USB_DM_CONTACT"
+    },
+    {
+      "ref": "J4",
+      "pin": "3",
+      "net": "USB_DP"
+    },
+    {
+      "ref": "R76",
+      "pin": "2",
+      "net": "USB_DP"
+    },
+    {
+      "ref": "U6",
+      "pin": "27",
+      "net": "USB_DP"
+    },
+    {
+      "ref": "R76",
+      "pin": "1",
+      "net": "USB_DP_CONTACT"
+    },
+    {
+      "ref": "U75",
+      "pin": "3",
+      "net": "USB_DP_CONTACT"
+    },
+    {
+      "ref": "U75",
+      "pin": "4",
+      "net": "USB_DP_CONTACT"
+    },
+    {
+      "ref": "C34",
+      "pin": "1",
+      "net": "VBAT_ADC"
+    },
+    {
+      "ref": "R39",
+      "pin": "2",
+      "net": "VBAT_ADC"
+    },
+    {
+      "ref": "R40",
+      "pin": "1",
+      "net": "VBAT_ADC"
+    },
+    {
+      "ref": "U6",
+      "pin": "12",
+      "net": "VBAT_ADC"
+    },
+    {
+      "ref": "C1",
+      "pin": "1",
+      "net": "VBUS_CHG"
+    },
+    {
+      "ref": "C44",
+      "pin": "1",
+      "net": "VBUS_CHG"
+    },
+    {
+      "ref": "D1",
+      "pin": "2",
+      "net": "VBUS_CHG"
+    },
+    {
+      "ref": "J6",
+      "pin": "2",
+      "net": "VBUS_CHG"
+    },
+    {
+      "ref": "J7",
+      "pin": "2",
+      "net": "VBUS_CHG"
+    },
+    {
+      "ref": "R3",
+      "pin": "1",
+      "net": "VBUS_CHG"
+    },
+    {
+      "ref": "R46",
+      "pin": "1",
+      "net": "VBUS_CHG"
+    },
+    {
+      "ref": "U1",
+      "pin": "13",
+      "net": "VBUS_CHG"
+    },
+    {
+      "ref": "U9",
+      "pin": "3",
+      "net": "VBUS_CHG"
+    },
+    {
+      "ref": "U9",
+      "pin": "6",
+      "net": "VBUS_CHG"
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "net": "unconnected-(U1-ITERM-Pad15)"
+    },
+    {
+      "ref": "U1",
+      "pin": "14",
+      "net": "unconnected-(U1-TMR-Pad14)"
+    },
+    {
+      "ref": "U2",
+      "pin": "6",
+      "net": "unconnected-(U2-FB2-Pad6)"
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "net": "unconnected-(U2-PG-Pad2)"
+    },
+    {
+      "ref": "U3",
+      "pin": "6",
+      "net": "unconnected-(U3-FB2-Pad6)"
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "net": "unconnected-(U3-PG-Pad2)"
+    },
+    {
+      "ref": "U6",
+      "pin": "4",
+      "net": "unconnected-(U6-NC-Pad4)"
+    },
+    {
+      "ref": "U6",
+      "pin": "7",
+      "net": "unconnected-(U6-NC-Pad7)"
+    },
+    {
+      "ref": "U6",
+      "pin": "9",
+      "net": "unconnected-(U6-NC-Pad9)"
+    },
+    {
+      "ref": "U6",
+      "pin": "10",
+      "net": "unconnected-(U6-NC-Pad10)"
+    },
+    {
+      "ref": "U6",
+      "pin": "15",
+      "net": "unconnected-(U6-NC-Pad15)"
+    },
+    {
+      "ref": "U6",
+      "pin": "17",
+      "net": "unconnected-(U6-NC-Pad17)"
+    },
+    {
+      "ref": "U6",
+      "pin": "24",
+      "net": "unconnected-(U6-NC-Pad24)"
+    },
+    {
+      "ref": "U6",
+      "pin": "25",
+      "net": "unconnected-(U6-NC-Pad25)"
+    },
+    {
+      "ref": "U6",
+      "pin": "28",
+      "net": "unconnected-(U6-NC-Pad28)"
+    },
+    {
+      "ref": "U6",
+      "pin": "29",
+      "net": "unconnected-(U6-NC-Pad29)"
+    },
+    {
+      "ref": "U6",
+      "pin": "32",
+      "net": "unconnected-(U6-NC-Pad32)"
+    },
+    {
+      "ref": "U6",
+      "pin": "33",
+      "net": "unconnected-(U6-NC-Pad33)"
+    },
+    {
+      "ref": "U6",
+      "pin": "34",
+      "net": "unconnected-(U6-NC-Pad34)"
+    },
+    {
+      "ref": "U6",
+      "pin": "35",
+      "net": "unconnected-(U6-NC-Pad35)"
+    },
+    {
+      "ref": "U7",
+      "pin": "2",
+      "net": "unconnected-(U7-ALERT_RDY-Pad2)"
+    },
+    {
+      "ref": "U9",
+      "pin": "4",
+      "net": "unconnected-(U9-CT-Pad4)"
+    },
+    {
+      "ref": "U81",
+      "pin": "12",
+      "net": "unconnected-(U81-INT1_XL-Pad12)"
+    },
+    {
+      "ref": "U81",
+      "pin": "11",
+      "net": "unconnected-(U81-INT2_XL-Pad11)"
+    },
+    {
+      "ref": "U81",
+      "pin": "7",
+      "net": "unconnected-(U81-INT_MAG-Pad7)"
+    }
+  ],
+  "preserved_J7_numeric_interface": [
+    {
+      "pin": "1",
+      "net": "GND"
+    },
+    {
+      "pin": "2",
+      "net": "VBUS_CHG"
+    },
+    {
+      "pin": "3",
+      "net": "3V3"
+    },
+    {
+      "pin": "4",
+      "net": "PACK_P"
+    },
+    {
+      "pin": "5",
+      "net": "MOTOR_ARM"
+    },
+    {
+      "pin": "6",
+      "net": "MOTOR_PWM"
+    },
+    {
+      "pin": "7",
+      "net": "DOCK_PRESENT_N"
+    },
+    {
+      "pin": "8",
+      "net": "I2C_SDA"
+    },
+    {
+      "pin": "9",
+      "net": "I2C_SCL"
+    },
+    {
+      "pin": "10",
+      "net": "TIP_EXC_EN"
+    }
+  ],
+  "new_target_nets": {
+    "CT1": "GND",
+    "CT2": "USB_DM_CONTACT",
+    "CT3": "USB_DP_CONTACT",
+    "CT4": "DOCK_5V"
+  },
+  "native_ERC_violations": 0,
+  "native_ERC_ignored_checks": [],
+  "native_KiCad_version": "10.0.8",
+  "no_new_power_flags": true,
+  "new_full_context_XML_sha256": "ff45834490030e434ebc3209d34376de735c03c3ace2755d129a7e2ddceecc7a",
+  "merged_XML_sha256": "de2de9a802803220936c480708eb5ca2f547e75cdc6d7fdbb01940eae759c5a2",
+  "ERC_sha256": "6a9345bad08673729c88901791d93051baad0cf156ad81007946471dc1d47336",
+  "schematic_source_binding_sha256": "a68e25086cc78c90a69cc01e9f1202e1102adc99e44dfcdd7bf855e341508423",
+  "source_authoring_or_body_artwork_changed": false,
+  "routing_or_build_release": false
+}

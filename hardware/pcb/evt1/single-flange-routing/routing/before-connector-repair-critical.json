@@ -1,0 +1,1945 @@
+{
+  "input_board_sha256": "5cf45d13f85f2f9c507e5fa808f3f14a58385c4821ae12c863f216e6a48f4626",
+  "board_sha256": "f18d8716db8a6b0046c05ca9f5290719534ef410bba696247a23e1995fd412ec",
+  "objects": [
+    {
+      "kind": "via",
+      "uuid": "4e010a33-7855-4101-bbcf-e7b2c9b71baf",
+      "net": "USB_DM_CONTACT",
+      "product_XZ_mm": [
+        -3.25,
+        3.05
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB ESD fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "85389611-36bd-40a6-9074-fa1cc580e34b",
+      "net": "USB_DM_CONTACT",
+      "layer": "B.Cu",
+      "start": [
+        -2.1375,
+        3.05
+      ],
+      "end": [
+        -3.25,
+        3.05
+      ],
+      "width_mm": 0.15,
+      "role": "USB ESD fanout"
+    },
+    {
+      "kind": "via",
+      "uuid": "d34093c7-3779-44e1-be77-61fa15fa58fe",
+      "net": "USB_DP_CONTACT",
+      "product_XZ_mm": [
+        -3.25,
+        4.95
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB ESD fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "0643e78f-f5bb-4a34-ab56-5313e6563d77",
+      "net": "USB_DP_CONTACT",
+      "layer": "B.Cu",
+      "start": [
+        -2.1375,
+        4.95
+      ],
+      "end": [
+        -3.25,
+        4.95
+      ],
+      "width_mm": 0.15,
+      "role": "USB ESD fanout"
+    },
+    {
+      "kind": "via",
+      "uuid": "e2978179-ec5d-4904-9203-5bf8222faf53",
+      "net": "USB_DM_CONTACT",
+      "product_XZ_mm": [
+        1.25,
+        3.05
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB ESD fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "51bb6cd7-4e8c-4483-b196-867cb6d85bc2",
+      "net": "USB_DM_CONTACT",
+      "layer": "B.Cu",
+      "start": [
+        0.1375,
+        3.05
+      ],
+      "end": [
+        1.25,
+        3.05
+      ],
+      "width_mm": 0.15,
+      "role": "USB ESD fanout"
+    },
+    {
+      "kind": "via",
+      "uuid": "805fb2ac-4693-4a94-b08d-6072892a3093",
+      "net": "USB_DP_CONTACT",
+      "product_XZ_mm": [
+        1.25,
+        4.95
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB ESD fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "8be5114a-c217-42c0-9514-440492501ec4",
+      "net": "USB_DP_CONTACT",
+      "layer": "B.Cu",
+      "start": [
+        0.1375,
+        4.95
+      ],
+      "end": [
+        1.25,
+        4.95
+      ],
+      "width_mm": 0.15,
+      "role": "USB ESD fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "59029c02-3c07-46d3-a0a0-2cf2ad513c30",
+      "net": "USB_DM_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        -10.0,
+        10.0
+      ],
+      "end": [
+        -3.25,
+        3.25
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "2cc49645-15ce-4e81-b45b-ae815668d676",
+      "net": "USB_DM_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        -3.25,
+        3.25
+      ],
+      "end": [
+        -3.25,
+        3.05
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "c82df3f4-1582-4b1b-a630-1fbbb1e7595a",
+      "net": "USB_DP_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        -4.0,
+        10.0
+      ],
+      "end": [
+        -3.25,
+        9.25
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "b9ded93c-2e97-40d1-a281-eac878b461c3",
+      "net": "USB_DP_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        -3.25,
+        9.25
+      ],
+      "end": [
+        -3.25,
+        4.95
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "98db9683-7a0e-4df0-adaa-2b9697f52435",
+      "net": "USB_DM_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        -3.25,
+        3.05
+      ],
+      "end": [
+        1.25,
+        3.05
+      ],
+      "width_mm": 0.15,
+      "role": "USB ESD channel landing"
+    },
+    {
+      "kind": "track",
+      "uuid": "68bd03a4-01f3-4a3b-b751-0c8cfc469153",
+      "net": "USB_DP_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        -3.25,
+        4.95
+      ],
+      "end": [
+        1.25,
+        4.95
+      ],
+      "width_mm": 0.15,
+      "role": "USB ESD channel landing"
+    },
+    {
+      "kind": "via",
+      "uuid": "805e0d67-41b0-45a4-9823-aec8248c9609",
+      "net": "USB_DM_CONTACT",
+      "product_XZ_mm": [
+        -17.5,
+        3.5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB22R fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "72b93311-3731-4f15-a7a4-47200ca43cf9",
+      "net": "USB_DM_CONTACT",
+      "layer": "B.Cu",
+      "start": [
+        -18.29,
+        3.5
+      ],
+      "end": [
+        -17.5,
+        3.5
+      ],
+      "width_mm": 0.15,
+      "role": "USB22R fanout"
+    },
+    {
+      "kind": "via",
+      "uuid": "c200549b-e7c8-4e91-8641-119a431a3ab9",
+      "net": "USB_DP_CONTACT",
+      "product_XZ_mm": [
+        -17.5,
+        6.5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB22R fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "a913c9db-a632-4ac5-ae42-8d09777038f1",
+      "net": "USB_DP_CONTACT",
+      "layer": "B.Cu",
+      "start": [
+        -18.29,
+        6.5
+      ],
+      "end": [
+        -17.5,
+        6.5
+      ],
+      "width_mm": 0.15,
+      "role": "USB22R fanout"
+    },
+    {
+      "kind": "via",
+      "uuid": "a2dc1f1d-8c95-456d-88c7-2e9d756e4869",
+      "net": "USB_DM",
+      "product_XZ_mm": [
+        -20.1,
+        3.5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB22R fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "0e7c980d-f3b6-431f-b437-cad2378ae723",
+      "net": "USB_DM",
+      "layer": "B.Cu",
+      "start": [
+        -19.31,
+        3.5
+      ],
+      "end": [
+        -20.1,
+        3.5
+      ],
+      "width_mm": 0.15,
+      "role": "USB22R fanout"
+    },
+    {
+      "kind": "via",
+      "uuid": "9742c538-6483-47f5-9535-117a8db7ee3f",
+      "net": "USB_DP",
+      "product_XZ_mm": [
+        -20.1,
+        6.5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB22R fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "be8a50e9-ba34-4f07-940b-537f61edcf3e",
+      "net": "USB_DP",
+      "layer": "B.Cu",
+      "start": [
+        -19.31,
+        6.5
+      ],
+      "end": [
+        -20.1,
+        6.5
+      ],
+      "width_mm": 0.15,
+      "role": "USB22R fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "ba2a259c-80f9-4c8b-8d7a-ae54d32f2482",
+      "net": "USB_DM_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        1.25,
+        3.05
+      ],
+      "end": [
+        2.25,
+        2.05
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact-to-series paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "ef61cf9e-c3e3-4312-a372-1b94fbb9d831",
+      "net": "USB_DM_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        2.25,
+        2.05
+      ],
+      "end": [
+        1.8,
+        1.6
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact-to-series paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "2c06d020-9a40-4601-9fdc-01da9e9411a9",
+      "net": "USB_DM_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        1.8,
+        1.6
+      ],
+      "end": [
+        -15.6,
+        1.6
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact-to-series paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "1f136a32-2915-4ac7-aa9b-3eb121c6ec57",
+      "net": "USB_DM_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        -15.6,
+        1.6
+      ],
+      "end": [
+        -17.5,
+        3.5
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact-to-series paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "a31c43c2-19b8-47af-9479-10b98d69cd19",
+      "net": "USB_DP_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        1.25,
+        4.95
+      ],
+      "end": [
+        3.5,
+        2.7
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact-to-series paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "dc330645-6d9d-4d4f-8e55-ae079e4f3322",
+      "net": "USB_DP_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        3.5,
+        2.7
+      ],
+      "end": [
+        3.5,
+        1.25
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact-to-series paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "1a536cff-19d2-4ac0-a3fd-0e9c64685e32",
+      "net": "USB_DP_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        3.5,
+        1.25
+      ],
+      "end": [
+        -16,
+        1.25
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact-to-series paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "efb8ace5-d70c-49d5-95c1-bb5b4b845629",
+      "net": "USB_DP_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        -16,
+        1.25
+      ],
+      "end": [
+        -18.2,
+        3.45
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact-to-series paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "b477cb51-5d62-4876-ac37-d7e4e4dbb67e",
+      "net": "USB_DP_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        -18.2,
+        3.45
+      ],
+      "end": [
+        -18.2,
+        5.8
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact-to-series paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "c3000f98-4ad5-4a85-99c3-d14e979f31fb",
+      "net": "USB_DP_CONTACT",
+      "layer": "F.Cu",
+      "start": [
+        -18.2,
+        5.8
+      ],
+      "end": [
+        -17.5,
+        6.5
+      ],
+      "width_mm": 0.15,
+      "role": "USB contact-to-series paired section"
+    },
+    {
+      "kind": "via",
+      "uuid": "a8e97f02-4749-45b0-b286-86aab49a6c37",
+      "net": "USB_DM",
+      "product_XZ_mm": [
+        -26.8,
+        -7.1
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB module fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "e7b905db-1d51-446b-9dd4-56e63e3b767a",
+      "net": "USB_DM",
+      "layer": "B.Cu",
+      "start": [
+        -26.8,
+        -5.9
+      ],
+      "end": [
+        -26.8,
+        -7.1
+      ],
+      "width_mm": 0.15,
+      "role": "USB module fanout"
+    },
+    {
+      "kind": "via",
+      "uuid": "e3362edc-0c6d-47a4-af91-ec254daa8a4a",
+      "net": "USB_DP",
+      "product_XZ_mm": [
+        -27.6,
+        -7.1
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB module fanout"
+    },
+    {
+      "kind": "track",
+      "uuid": "524c6af6-9a24-48e9-a289-0023c0a67c72",
+      "net": "USB_DP",
+      "layer": "B.Cu",
+      "start": [
+        -27.6,
+        -5.9
+      ],
+      "end": [
+        -27.6,
+        -7.1
+      ],
+      "width_mm": 0.15,
+      "role": "USB module fanout"
+    },
+    {
+      "kind": "via",
+      "uuid": "a6bf166c-23ef-491c-bbec-b0e28f769c32",
+      "net": "GND",
+      "product_XZ_mm": [
+        -3.1,
+        4
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB reference return"
+    },
+    {
+      "kind": "via",
+      "uuid": "b15b2f8a-668d-4425-920e-a7808d90712c",
+      "net": "GND",
+      "product_XZ_mm": [
+        -19.7,
+        5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB reference return"
+    },
+    {
+      "kind": "via",
+      "uuid": "3229a46d-9a54-4ef7-b180-fa8bcd2cf5f1",
+      "net": "GND",
+      "product_XZ_mm": [
+        -25.5,
+        -7.1
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB reference return"
+    },
+    {
+      "kind": "track",
+      "uuid": "639fa2ef-ce05-435c-994c-3229694c4777",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -2.1375,
+        4.0
+      ],
+      "end": [
+        -3.1,
+        4
+      ],
+      "width_mm": 0.35,
+      "role": "ESD short ground return"
+    },
+    {
+      "kind": "via",
+      "uuid": "a4f1da81-29c0-46e3-bcf7-c2635af866e2",
+      "net": "DOCK_5V",
+      "product_XZ_mm": [
+        2.6,
+        6.7
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "contact power"
+    },
+    {
+      "kind": "track",
+      "uuid": "15f42893-09c8-4fab-8d89-c621cea43d4c",
+      "net": "DOCK_5V",
+      "layer": "F.Cu",
+      "start": [
+        2.0,
+        10.0
+      ],
+      "end": [
+        2.6,
+        9.4
+      ],
+      "width_mm": 0.8,
+      "role": "contact power trunk"
+    },
+    {
+      "kind": "track",
+      "uuid": "bea7edc9-8a08-47f2-b70f-895dd3c5408c",
+      "net": "DOCK_5V",
+      "layer": "F.Cu",
+      "start": [
+        2.6,
+        9.4
+      ],
+      "end": [
+        2.6,
+        6.7
+      ],
+      "width_mm": 0.8,
+      "role": "contact power trunk"
+    },
+    {
+      "kind": "track",
+      "uuid": "b57f84cf-3e1f-4b71-9713-961699273551",
+      "net": "DOCK_5V",
+      "layer": "B.Cu",
+      "start": [
+        2.6,
+        6.7
+      ],
+      "end": [
+        2.6,
+        5.0
+      ],
+      "width_mm": 0.6,
+      "role": "PTC input"
+    },
+    {
+      "kind": "track",
+      "uuid": "f9a95944-a772-483d-84c5-3a91a62d8355",
+      "net": "DOCK_5V",
+      "layer": "B.Cu",
+      "start": [
+        0.1375,
+        4.0
+      ],
+      "end": [
+        1.6,
+        4
+      ],
+      "width_mm": 0.4,
+      "role": "ESD VBUS bias"
+    },
+    {
+      "kind": "track",
+      "uuid": "83dc96df-e365-4e0f-9edf-56e379014b24",
+      "net": "DOCK_5V",
+      "layer": "B.Cu",
+      "start": [
+        1.6,
+        4
+      ],
+      "end": [
+        2.6,
+        5.0
+      ],
+      "width_mm": 0.4,
+      "role": "ESD VBUS bias"
+    },
+    {
+      "kind": "track",
+      "uuid": "fbf9fc6f-8ac9-4846-add6-c0d800591af3",
+      "net": "DOCK_FUSED",
+      "layer": "B.Cu",
+      "start": [
+        5.4,
+        5.0
+      ],
+      "end": [
+        5.4,
+        6.5
+      ],
+      "width_mm": 0.6,
+      "role": "PTC to diode anode"
+    },
+    {
+      "kind": "track",
+      "uuid": "e89f355e-5ff0-4f53-a001-f2054ed34fb6",
+      "net": "DOCK_FUSED",
+      "layer": "B.Cu",
+      "start": [
+        5.4,
+        6.5
+      ],
+      "end": [
+        6.6,
+        7.7
+      ],
+      "width_mm": 0.6,
+      "role": "PTC to diode anode"
+    },
+    {
+      "kind": "track",
+      "uuid": "a4d9592c-1857-45f8-a9f9-4e923b8f0f34",
+      "net": "DOCK_FUSED",
+      "layer": "B.Cu",
+      "start": [
+        6.6,
+        7.7
+      ],
+      "end": [
+        9.95,
+        7.7
+      ],
+      "width_mm": 0.6,
+      "role": "PTC to diode anode"
+    },
+    {
+      "kind": "track",
+      "uuid": "da9b8eb0-2b1d-4061-b324-4227089193eb",
+      "net": "DOCK_FUSED",
+      "layer": "B.Cu",
+      "start": [
+        9.95,
+        7.7
+      ],
+      "end": [
+        10.65,
+        7
+      ],
+      "width_mm": 0.6,
+      "role": "PTC to diode anode"
+    },
+    {
+      "kind": "track",
+      "uuid": "b568e2db-f476-4f1b-b0a1-498cdbf06c4e",
+      "net": "DOCK_FUSED",
+      "layer": "B.Cu",
+      "start": [
+        10.65,
+        7
+      ],
+      "end": [
+        10.65,
+        5.0
+      ],
+      "width_mm": 0.6,
+      "role": "PTC to diode anode"
+    },
+    {
+      "kind": "via",
+      "uuid": "084c9c78-cdc9-4ddc-be49-09b749e110fa",
+      "net": "VBUS_CHG",
+      "product_XZ_mm": [
+        7.35,
+        3.3
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "protected power stitching"
+    },
+    {
+      "kind": "via",
+      "uuid": "4ed7ff2b-fab3-4932-98a4-69d229ba12dc",
+      "net": "VBUS_CHG",
+      "product_XZ_mm": [
+        8.15,
+        3.3
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "protected power stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "f8be9798-f973-457b-a70f-131c28b5668d",
+      "net": "VBUS_CHG",
+      "layer": "B.Cu",
+      "start": [
+        7.35,
+        5.0
+      ],
+      "end": [
+        7.35,
+        3.3
+      ],
+      "width_mm": 0.6,
+      "role": "diode output"
+    },
+    {
+      "kind": "track",
+      "uuid": "aa916619-1bd8-486d-9daf-5cb5356f5780",
+      "net": "VBUS_CHG",
+      "layer": "B.Cu",
+      "start": [
+        7.35,
+        3.3
+      ],
+      "end": [
+        8.15,
+        3.3
+      ],
+      "width_mm": 0.6,
+      "role": "diode output"
+    },
+    {
+      "kind": "via",
+      "uuid": "f5905f6c-ef9f-46de-aeab-cdff8ffe1d5f",
+      "net": "GND",
+      "product_XZ_mm": [
+        -7.2,
+        4.5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "body interface power"
+    },
+    {
+      "kind": "track",
+      "uuid": "22acd8fc-dfbb-439c-883e-ba00a93bdc8b",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -9.0,
+        4.5
+      ],
+      "end": [
+        -7.2,
+        4.5
+      ],
+      "width_mm": 0.5,
+      "role": "body interface power"
+    },
+    {
+      "kind": "via",
+      "uuid": "3ca8c8d2-20ec-44a5-ba6c-4f7a8561adb8",
+      "net": "VBUS_CHG",
+      "product_XZ_mm": [
+        -7.2,
+        3.5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "body interface power"
+    },
+    {
+      "kind": "track",
+      "uuid": "b65ec05e-575b-457f-98cf-3c458934cf1a",
+      "net": "VBUS_CHG",
+      "layer": "B.Cu",
+      "start": [
+        -9.0,
+        3.5
+      ],
+      "end": [
+        -7.2,
+        3.5
+      ],
+      "width_mm": 0.5,
+      "role": "body interface power"
+    },
+    {
+      "kind": "via",
+      "uuid": "3fe6877c-6618-4eff-bd41-74a86e2e3138",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -7.2,
+        2.5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "body interface power"
+    },
+    {
+      "kind": "track",
+      "uuid": "08027c8e-d47d-4ab0-9d12-5d1d1de728d8",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -9.0,
+        2.5
+      ],
+      "end": [
+        -7.2,
+        2.5
+      ],
+      "width_mm": 0.5,
+      "role": "body interface power"
+    },
+    {
+      "kind": "via",
+      "uuid": "7d6bde19-2c02-4c2f-ba70-6fde578a20b5",
+      "net": "VBUS_CHG",
+      "product_XZ_mm": [
+        -6.4,
+        3.5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "protected power stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "b04e0dce-7e23-4f35-94f2-12505e7eac26",
+      "net": "VBUS_CHG",
+      "layer": "B.Cu",
+      "start": [
+        -7.2,
+        3.5
+      ],
+      "end": [
+        -6.4,
+        3.5
+      ],
+      "width_mm": 0.6,
+      "role": "protected power stitching"
+    },
+    {
+      "kind": "via",
+      "uuid": "cc018dd4-b2fd-410a-abc1-3125f37a4fd1",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -32.4,
+        7
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "module supply stitching"
+    },
+    {
+      "kind": "via",
+      "uuid": "38bb278e-11e5-4c1f-b67b-ffc993ac044f",
+      "net": "3V3",
+      "product_XZ_mm": [
+        -31.6,
+        7
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "module supply stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "fc0c0d42-9fc3-469e-a737-b959d3108bdb",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -32.4,
+        5.9
+      ],
+      "end": [
+        -32.4,
+        7
+      ],
+      "width_mm": 0.4,
+      "role": "module supply decoupling"
+    },
+    {
+      "kind": "track",
+      "uuid": "567b8f3d-a5fe-4ac5-a00e-ac793949126b",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -32.4,
+        7
+      ],
+      "end": [
+        -32.4,
+        8.05
+      ],
+      "width_mm": 0.4,
+      "role": "module supply decoupling"
+    },
+    {
+      "kind": "track",
+      "uuid": "781917d2-1888-4267-acb7-8a2f8d6e35df",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -32.4,
+        7
+      ],
+      "end": [
+        -31.6,
+        7
+      ],
+      "width_mm": 0.4,
+      "role": "module supply stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "ac2b5948-bf68-4d5e-93ca-d6a606257e36",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -32.4,
+        8.05
+      ],
+      "end": [
+        -32,
+        8.45
+      ],
+      "width_mm": 0.4,
+      "role": "parallel local bypass"
+    },
+    {
+      "kind": "track",
+      "uuid": "5447a1b3-8b2e-4ff0-ad71-e0b271ffdee5",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -32,
+        8.45
+      ],
+      "end": [
+        -30.025,
+        8.45
+      ],
+      "width_mm": 0.4,
+      "role": "parallel local bypass"
+    },
+    {
+      "kind": "track",
+      "uuid": "ea01065b-eb0d-48b5-9497-89a84692bdb2",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start": [
+        -30.025,
+        8.45
+      ],
+      "end": [
+        -29.9,
+        8.325
+      ],
+      "width_mm": 0.4,
+      "role": "parallel local bypass"
+    },
+    {
+      "kind": "track",
+      "uuid": "4da39917-f4c2-4fe2-9cbe-d4a4604a5156",
+      "net": "3V3",
+      "layer": "In2.Cu",
+      "start": [
+        -7.2,
+        2.5
+      ],
+      "end": [
+        -22,
+        2.5
+      ],
+      "width_mm": 0.8,
+      "role": "body-to-radio supply trunk"
+    },
+    {
+      "kind": "track",
+      "uuid": "8043589d-5714-4856-a693-0e9d63abff9a",
+      "net": "3V3",
+      "layer": "In2.Cu",
+      "start": [
+        -22,
+        2.5
+      ],
+      "end": [
+        -26.5,
+        7
+      ],
+      "width_mm": 0.8,
+      "role": "body-to-radio supply trunk"
+    },
+    {
+      "kind": "track",
+      "uuid": "4e99e0c2-38ba-4e54-b2c0-cf4d3894f15f",
+      "net": "3V3",
+      "layer": "In2.Cu",
+      "start": [
+        -26.5,
+        7
+      ],
+      "end": [
+        -32.4,
+        7
+      ],
+      "width_mm": 0.8,
+      "role": "body-to-radio supply trunk"
+    },
+    {
+      "kind": "via",
+      "uuid": "b55664f3-22dd-4f54-8db9-62a9dd467e03",
+      "net": "GND",
+      "product_XZ_mm": [
+        -33.6,
+        7
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "module bypass return"
+    },
+    {
+      "kind": "track",
+      "uuid": "f55c6b80-9822-4cf6-acde-f9daac4b4138",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -32.4,
+        9.95
+      ],
+      "end": [
+        -33.6,
+        8.75
+      ],
+      "width_mm": 0.35,
+      "role": "module bypass short return"
+    },
+    {
+      "kind": "track",
+      "uuid": "2edee272-f373-40e0-afb8-c913d15d17ae",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -33.6,
+        8.75
+      ],
+      "end": [
+        -33.6,
+        6.7
+      ],
+      "width_mm": 0.35,
+      "role": "module bypass short return"
+    },
+    {
+      "kind": "track",
+      "uuid": "395632fe-62ca-4efa-b585-aaa2b5991fdd",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -33.6,
+        6.7
+      ],
+      "end": [
+        -34,
+        6.3
+      ],
+      "width_mm": 0.35,
+      "role": "module bypass short return"
+    },
+    {
+      "kind": "track",
+      "uuid": "e6a06033-4d72-4e95-aacf-2d287d328450",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -34,
+        6.3
+      ],
+      "end": [
+        -34.0,
+        5.9
+      ],
+      "width_mm": 0.35,
+      "role": "module bypass short return"
+    },
+    {
+      "kind": "via",
+      "uuid": "e269e39c-97f6-435f-9237-38a9d4ce173a",
+      "net": "GND",
+      "product_XZ_mm": [
+        -30.9,
+        9.95
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "module bypass return"
+    },
+    {
+      "kind": "track",
+      "uuid": "4c53cfa2-363f-4d5c-8de8-3f61b6516432",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -29.9,
+        9.675
+      ],
+      "end": [
+        -30.175,
+        9.95
+      ],
+      "width_mm": 0.35,
+      "role": "shared bypass return"
+    },
+    {
+      "kind": "track",
+      "uuid": "68696cd6-c9b7-45ce-9aaa-37ccb5d34c7c",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -30.175,
+        9.95
+      ],
+      "end": [
+        -32.4,
+        9.95
+      ],
+      "width_mm": 0.35,
+      "role": "shared bypass return"
+    },
+    {
+      "kind": "via",
+      "uuid": "da5703aa-61d8-4d5e-b945-41ead9015cf5",
+      "net": "GND",
+      "product_XZ_mm": [
+        -30.9875,
+        -0.9875
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "via",
+      "uuid": "4d7422b2-e591-4d39-bce2-724926623a56",
+      "net": "GND",
+      "product_XZ_mm": [
+        -30.9875,
+        0.9875
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "via",
+      "uuid": "2a019b2e-1127-4e99-a0c1-08ba492d8c62",
+      "net": "GND",
+      "product_XZ_mm": [
+        -29.0125,
+        -0.9875
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "via",
+      "uuid": "b4dee325-ae3b-4d3c-959c-49ef5cfadf84",
+      "net": "GND",
+      "product_XZ_mm": [
+        -29.0125,
+        0.9875
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "ccfa53fc-4e92-4d20-804b-b71f30d937a3",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -28.025,
+        1.975
+      ],
+      "end": [
+        -29.0125,
+        0.9875
+      ],
+      "width_mm": 0.3,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "6a1e76f7-2b33-45f6-a0f6-595b1d6a9195",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -30.0,
+        1.975
+      ],
+      "end": [
+        -30.9875,
+        0.9875
+      ],
+      "width_mm": 0.3,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "4243c1a6-5bb9-45a8-bace-cde4b89a3326",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -31.975,
+        1.975
+      ],
+      "end": [
+        -30.9875,
+        0.9875
+      ],
+      "width_mm": 0.3,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "55f7894f-1b62-449e-8467-95e5a29e11f5",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -28.025,
+        0.0
+      ],
+      "end": [
+        -29.0125,
+        -0.9875
+      ],
+      "width_mm": 0.3,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "a724f9ec-ed90-4210-81b0-6443e6d546ff",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -30.0,
+        0.0
+      ],
+      "end": [
+        -30.9875,
+        -0.9875
+      ],
+      "width_mm": 0.3,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "956b6558-68a8-47fc-adb2-96224b1290ee",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -31.975,
+        0.0
+      ],
+      "end": [
+        -30.9875,
+        -0.9875
+      ],
+      "width_mm": 0.3,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "597beb6c-c77e-484a-a833-6d6933f291d9",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -28.025,
+        -1.975
+      ],
+      "end": [
+        -29.0125,
+        -0.9875
+      ],
+      "width_mm": 0.3,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "1ed0eb90-8d85-480d-87d1-16d9907dc5be",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -30.0,
+        -1.975
+      ],
+      "end": [
+        -30.9875,
+        -0.9875
+      ],
+      "width_mm": 0.3,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "0d34b8b2-f44b-492b-a2d8-d8a46bd2c5df",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -31.975,
+        -1.975
+      ],
+      "end": [
+        -30.9875,
+        -0.9875
+      ],
+      "width_mm": 0.3,
+      "role": "module EP plane stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "80fed3ac-50c4-413e-8bb1-2e035dd0ed0d",
+      "net": "VBUS_CHG",
+      "layer": "In2.Cu",
+      "start": [
+        7.35,
+        3.3
+      ],
+      "end": [
+        6,
+        4.65
+      ],
+      "width_mm": 0.8,
+      "role": "protected supply trunk"
+    },
+    {
+      "kind": "track",
+      "uuid": "654532ef-efbe-4bd2-9a62-531a655743da",
+      "net": "VBUS_CHG",
+      "layer": "In2.Cu",
+      "start": [
+        6,
+        4.65
+      ],
+      "end": [
+        6,
+        7.6
+      ],
+      "width_mm": 0.8,
+      "role": "protected supply trunk"
+    },
+    {
+      "kind": "track",
+      "uuid": "2e4e5d5a-dc8c-4df6-a105-9b777cc0fa17",
+      "net": "VBUS_CHG",
+      "layer": "In2.Cu",
+      "start": [
+        6,
+        7.6
+      ],
+      "end": [
+        -5.5,
+        7.6
+      ],
+      "width_mm": 0.8,
+      "role": "protected supply trunk"
+    },
+    {
+      "kind": "track",
+      "uuid": "d422e4ec-9c3a-4ce8-9174-fbc16f20551d",
+      "net": "VBUS_CHG",
+      "layer": "In2.Cu",
+      "start": [
+        -5.5,
+        7.6
+      ],
+      "end": [
+        -5.5,
+        3.5
+      ],
+      "width_mm": 0.8,
+      "role": "protected supply trunk"
+    },
+    {
+      "kind": "track",
+      "uuid": "2937d0a4-3715-4c9e-b7d2-e593bb2109c6",
+      "net": "VBUS_CHG",
+      "layer": "In2.Cu",
+      "start": [
+        -5.5,
+        3.5
+      ],
+      "end": [
+        -7.2,
+        3.5
+      ],
+      "width_mm": 0.8,
+      "role": "protected supply trunk"
+    },
+    {
+      "kind": "track",
+      "uuid": "bd505aa9-51ae-4dcc-a76a-2543c169f48d",
+      "net": "VBUS_CHG",
+      "layer": "In2.Cu",
+      "start": [
+        7.35,
+        3.3
+      ],
+      "end": [
+        8.15,
+        3.3
+      ],
+      "width_mm": 0.6,
+      "role": "protected power stitching"
+    },
+    {
+      "kind": "track",
+      "uuid": "7256a0b9-767f-463c-82c7-0983260d1890",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "start": [
+        -20.1,
+        3.5
+      ],
+      "end": [
+        -22,
+        1.6
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "2cd59e10-697a-49d7-b63c-457ca41b9e0e",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "start": [
+        -22,
+        1.6
+      ],
+      "end": [
+        -22,
+        -2
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "c8ca23db-4eed-4f7d-a276-b115d52a440b",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "start": [
+        -22,
+        -2
+      ],
+      "end": [
+        -23.5,
+        -3.5
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "3f03e850-d999-4465-921b-45bc52955810",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "start": [
+        -23.5,
+        -3.5
+      ],
+      "end": [
+        -25.5,
+        -3.5
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "4af73313-580f-4875-a2d5-23459a532752",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "start": [
+        -25.5,
+        -3.5
+      ],
+      "end": [
+        -26.8,
+        -4.8
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "42384b31-44ce-4bc9-b64f-03a1347081af",
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "start": [
+        -26.8,
+        -4.8
+      ],
+      "end": [
+        -26.8,
+        -7.1
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "b4191766-0fe0-4fd3-8d19-c069c7d59691",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "start": [
+        -20.1,
+        6.5
+      ],
+      "end": [
+        -22.5,
+        4.1
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "49609d31-f189-4516-9b8f-930b8a4279f1",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "start": [
+        -22.5,
+        4.1
+      ],
+      "end": [
+        -22.5,
+        -1.8
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "e7693193-b42c-4f3d-8d12-8ecfb05b1999",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "start": [
+        -22.5,
+        -1.8
+      ],
+      "end": [
+        -23.8,
+        -3.1
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "aaca8528-5f79-4399-a2b5-25be33b3f28a",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "start": [
+        -23.8,
+        -3.1
+      ],
+      "end": [
+        -26,
+        -3.1
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "83138f8f-93e1-456c-bf69-c55134a97714",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "start": [
+        -26,
+        -3.1
+      ],
+      "end": [
+        -27.6,
+        -4.7
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "track",
+      "uuid": "bbc49434-410a-4a05-82cf-df739760764f",
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "start": [
+        -27.6,
+        -4.7
+      ],
+      "end": [
+        -27.6,
+        -7.1
+      ],
+      "width_mm": 0.15,
+      "role": "USB series-to-module paired section"
+    },
+    {
+      "kind": "via",
+      "uuid": "21880e6a-a84a-4191-b506-ac34bb7a7c64",
+      "net": "USB_DM",
+      "product_XZ_mm": [
+        -14,
+        -4.7
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "via",
+      "uuid": "2df51ba1-fb02-49d5-aa5e-6bf426223908",
+      "net": "USB_DM",
+      "product_XZ_mm": [
+        -26.8,
+        -5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "track",
+      "uuid": "159cd555-40bc-4edf-a246-eda140e94bf5",
+      "net": "USB_DM",
+      "layer": "B.Cu",
+      "start": [
+        -14.0,
+        -6.0
+      ],
+      "end": [
+        -14,
+        -4.7
+      ],
+      "width_mm": 0.15,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "via",
+      "uuid": "dc23cf73-d64f-439a-bab2-57d3cd1e1089",
+      "net": "USB_DP",
+      "product_XZ_mm": [
+        -15,
+        -4.7
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "via",
+      "uuid": "b5861d6a-b32b-4b2e-a169-cc14d1191dee",
+      "net": "USB_DP",
+      "product_XZ_mm": [
+        -27.6,
+        -4.9
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "track",
+      "uuid": "10141752-1b3f-4e89-80d6-a64592cec87a",
+      "net": "USB_DP",
+      "layer": "B.Cu",
+      "start": [
+        -15.0,
+        -6.0
+      ],
+      "end": [
+        -15,
+        -4.7
+      ],
+      "width_mm": 0.15,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "track",
+      "uuid": "e3703999-47ef-473e-8b30-4d6e2563fb91",
+      "net": "USB_DM",
+      "layer": "In2.Cu",
+      "start": [
+        -14,
+        -4.7
+      ],
+      "end": [
+        -15,
+        -5.7
+      ],
+      "width_mm": 0.15,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "track",
+      "uuid": "181ad1dc-2a3a-4ed7-8e44-9c3631ac3b55",
+      "net": "USB_DM",
+      "layer": "In2.Cu",
+      "start": [
+        -15,
+        -5.7
+      ],
+      "end": [
+        -26.1,
+        -5.7
+      ],
+      "width_mm": 0.15,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "track",
+      "uuid": "c0468436-c4d5-4952-b430-cc96d6f4da19",
+      "net": "USB_DM",
+      "layer": "In2.Cu",
+      "start": [
+        -26.1,
+        -5.7
+      ],
+      "end": [
+        -26.8,
+        -5
+      ],
+      "width_mm": 0.15,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "track",
+      "uuid": "d8a548e9-3a30-4a7a-823f-3c4a08068f42",
+      "net": "USB_DP",
+      "layer": "In2.Cu",
+      "start": [
+        -15,
+        -4.7
+      ],
+      "end": [
+        -16,
+        -3.7
+      ],
+      "width_mm": 0.15,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "track",
+      "uuid": "30cfba89-fa1f-4289-afa1-2a4b9441596b",
+      "net": "USB_DP",
+      "layer": "In2.Cu",
+      "start": [
+        -16,
+        -3.7
+      ],
+      "end": [
+        -26.4,
+        -3.7
+      ],
+      "width_mm": 0.15,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "track",
+      "uuid": "9977c25d-cde3-48ab-a330-0b54b1785d8b",
+      "net": "USB_DP",
+      "layer": "In2.Cu",
+      "start": [
+        -26.4,
+        -3.7
+      ],
+      "end": [
+        -27.6,
+        -4.9
+      ],
+      "width_mm": 0.15,
+      "role": "retained USB service branch"
+    },
+    {
+      "kind": "via",
+      "uuid": "024fca17-283b-4489-9a81-d3d159c65b5b",
+      "net": "GND",
+      "product_XZ_mm": [
+        -13,
+        -4.7
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB service plane return"
+    },
+    {
+      "kind": "via",
+      "uuid": "95af7f2a-48af-4772-87d8-3f8b65ef1ac8",
+      "net": "GND",
+      "product_XZ_mm": [
+        -28.8,
+        -4.5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "role": "USB service plane return"
+    },
+    {
+      "kind": "track",
+      "uuid": "6ff19bac-df13-4ba0-8294-a2f3de3e3046",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        -13.0,
+        -6.0
+      ],
+      "end": [
+        -13,
+        -4.7
+      ],
+      "width_mm": 0.35,
+      "role": "USB service plane return"
+    }
+  ],
+  "locked": true,
+  "source_placement_unchanged": true,
+  "USB_impedance_or_physical_acceptance": false,
+  "nominal_signal_width_mm": 0.15,
+  "reference_plane": "In1GND; FUSB tracks, adjacentreturn vias at layer changes",
+  "manufacturing_note": "Tent/qualify0.2mm through vias and module EP gaps; no unsupported sealing or solder-process credit",
+  "refinement": {
+    "input_board_sha256": "9935c292fc2b65b8f918a1ca7093bbddc690b6bfdb3e9fc61785d21ebcf5c501",
+    "native_report_sha256": "ceffa51fcb11a0a0ff3c82ac201477c8219c7b44e988b780858a5794d32fffc8",
+    "removed_only_authored_UUIDs": [
+      "12d6aef1-594f-49aa-af5c-ab7fde767867",
+      "0edc146f-e8e9-466d-a533-d5784b151107",
+      "bcbab873-73b6-4687-a6d1-79064bfd2e07",
+      "9f36363b-8458-4d84-924b-88ee54acf2ad",
+      "adefc2da-f91f-427d-ba28-4cd2d33a8f8a",
+      "f939c569-46c9-4fc8-810c-33c8d8810712",
+      "6b3dc32a-e63d-4910-8c0f-868e16283fe8",
+      "f05dc6d1-6a30-402e-8414-03419504dde3",
+      "c5f7ea5a-36f8-493c-a527-caff13cfded3",
+      "f29eb389-cbd2-4e39-a369-955f0092322c",
+      "98ba5910-bf7b-43dd-9503-5b715049f46d",
+      "88920394-2401-4a16-b906-cfad02f0d4b3",
+      "db7d5ad6-ba48-4189-93e4-ac18b0c6cf63"
+    ],
+    "unchanged_other_copper_UUIDs_preserved": true,
+    "retained_J4_USB_branches": true
+  }
+}

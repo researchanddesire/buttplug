@@ -1,0 +1,807 @@
+{
+  "scope": "Actual source-bound StepUp board/model import; nominal assembly fit not yet established",
+  "board": "hardware/pcb/evt1/dock-control/routed-lid/dock-lid-routed.kicad_pcb",
+  "board_sha256": "84dfe4b6f85e200505be174f7ff1094e4013d3e5af827888569d872d35819942",
+  "native": "hardware/cad/evt1-assembly/pcb/LidUI.FCStd",
+  "native_sha256": "7fcdcd8b23c0f0bcdb182775fe4686363033f1589fb85882a2bb0e41dad4e858",
+  "root_object": "Board_95c7",
+  "selected_models": {
+    "J301": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal.step",
+      "sha256": "b394b3277738e505a3b95dadb5f2b1a005a112860fc541f52d1ab5f42b472ae3"
+    },
+    "R311": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "J302": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/Molex_52437-2771_ClosedEnvelope.step",
+      "sha256": "b5683f882c168abf2d52559af091ec2f5a17a05ffb15a26d3cfe61c8e78bc402"
+    },
+    "R303": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "S302": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/SW_SPST_Omron_B3FS-100xP.step",
+      "sha256": "b329c059bd0fc4def23f1dbf3a8ab42d79451e42368166bfa454033e4741fdc1"
+    },
+    "R309": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R301": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R312": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R306": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R307": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "S303": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/SW_SPST_Omron_B3FS-100xP.step",
+      "sha256": "b329c059bd0fc4def23f1dbf3a8ab42d79451e42368166bfa454033e4741fdc1"
+    },
+    "R308": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R310": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "S301": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/SW_SPST_Omron_B3FS-100xP.step",
+      "sha256": "b329c059bd0fc4def23f1dbf3a8ab42d79451e42368166bfa454033e4741fdc1"
+    },
+    "R305": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R302": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "R304": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    "C309": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_1206_3216Metric.step",
+      "sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a"
+    },
+    "C308": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_1206_3216Metric.step",
+      "sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a"
+    },
+    "C311": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    "C310": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "C305": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "C306": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_1206_3216Metric.step",
+      "sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a"
+    },
+    "C302": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "C304": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "C303": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "C301": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    "C307": {
+      "path": "hardware/pcb/evt1/dock-control/DockControl.3dshapes/C_1206_3216Metric.step",
+      "sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a"
+    }
+  },
+  "imported_model_objects": {
+    "J301": [
+      {
+        "name": "Hirose_FH12_xxS_0_5SH_Parametric_v0_1",
+        "label": "J301_Hirose_FH12_xxS_0_5SH_Parametric_v0_1_58f55d62c0b7"
+      }
+    ],
+    "R311": [
+      {
+        "name": "Shape",
+        "label": "R311_R_0603_1608Metric_e7bebd036883"
+      }
+    ],
+    "J302": [
+      {
+        "name": "Open_CASCADE_STEP_translator_7_8_1",
+        "label": "J302_Open CASCADE STEP translator 7.8 002_331411ebead9"
+      }
+    ],
+    "R303": [
+      {
+        "name": "Shape001",
+        "label": "R303_R_0603_1608Metric_e91398a5349e"
+      }
+    ],
+    "S302": [
+      {
+        "name": "Shape002",
+        "label": "S302_SW_SPST_Omron_B3FS-100xP_5d3f767738c4"
+      }
+    ],
+    "R309": [
+      {
+        "name": "Shape003",
+        "label": "R309_R_0603_1608Metric_e76937fd74af"
+      }
+    ],
+    "R301": [
+      {
+        "name": "Shape004",
+        "label": "R301_R_0603_1608Metric_c23f721dac97"
+      }
+    ],
+    "R312": [
+      {
+        "name": "Shape005",
+        "label": "R312_R_0603_1608Metric_d78d3f7867a8"
+      }
+    ],
+    "R306": [
+      {
+        "name": "Shape006",
+        "label": "R306_R_0603_1608Metric_46f6c87fb348"
+      }
+    ],
+    "R307": [
+      {
+        "name": "Shape007",
+        "label": "R307_R_0603_1608Metric_26a1c9b51351"
+      }
+    ],
+    "S303": [
+      {
+        "name": "Shape008",
+        "label": "S303_SW_SPST_Omron_B3FS-100xP_e6b6efc4779a"
+      }
+    ],
+    "R308": [
+      {
+        "name": "Shape009",
+        "label": "R308_R_0603_1608Metric_78c38908f440"
+      }
+    ],
+    "R310": [
+      {
+        "name": "Shape010",
+        "label": "R310_R_0603_1608Metric_be87bfbb99a7"
+      }
+    ],
+    "S301": [
+      {
+        "name": "Shape011",
+        "label": "S301_SW_SPST_Omron_B3FS-100xP_8ae6bb406bac"
+      }
+    ],
+    "R305": [
+      {
+        "name": "Shape012",
+        "label": "R305_R_0603_1608Metric_15cdc9b94335"
+      }
+    ],
+    "R302": [
+      {
+        "name": "Shape013",
+        "label": "R302_R_0603_1608Metric_7e06033e6fd2"
+      }
+    ],
+    "R304": [
+      {
+        "name": "Shape014",
+        "label": "R304_R_0603_1608Metric_782909e58a6c"
+      }
+    ],
+    "C309": [
+      {
+        "name": "Shape015",
+        "label": "C309_C_1206_3216Metric_e80ae77e499c"
+      }
+    ],
+    "C308": [
+      {
+        "name": "Shape016",
+        "label": "C308_C_1206_3216Metric_97b35e972f75"
+      }
+    ],
+    "C311": [
+      {
+        "name": "Shape017",
+        "label": "C311_C_0402_1005Metric_1ff738d28815"
+      }
+    ],
+    "C310": [
+      {
+        "name": "Shape018",
+        "label": "C310_C_0603_1608Metric_bcdd82fc97d6"
+      }
+    ],
+    "C305": [
+      {
+        "name": "Shape019",
+        "label": "C305_C_0603_1608Metric_c5b85f011a79"
+      }
+    ],
+    "C306": [
+      {
+        "name": "Shape020",
+        "label": "C306_C_1206_3216Metric_2643292e4626"
+      }
+    ],
+    "C302": [
+      {
+        "name": "Shape021",
+        "label": "C302_C_0603_1608Metric_2f42c0c39e63"
+      }
+    ],
+    "C304": [
+      {
+        "name": "Shape022",
+        "label": "C304_C_0603_1608Metric_353e162782f7"
+      }
+    ],
+    "C303": [
+      {
+        "name": "Shape023",
+        "label": "C303_C_0603_1608Metric_25fd46579934"
+      }
+    ],
+    "C301": [
+      {
+        "name": "Shape024",
+        "label": "C301_C_0603_1608Metric_377fb9ca7015"
+      }
+    ],
+    "C307": [
+      {
+        "name": "Shape025",
+        "label": "C307_C_1206_3216Metric_d71147d5dacf"
+      }
+    ]
+  },
+  "missing_component_models": [],
+  "solid_count": 32,
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "pcb_placement": 2,
+  "root_exact_bounds_mm": [
+    -36.0,
+    -35.5,
+    -2.6,
+    36.0,
+    35.5,
+    3.1
+  ],
+  "objects": [
+    {
+      "name": "PCB_Sketch_draft",
+      "label": "PCB_Sketch_draft",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Local_CS_95c7",
+      "label": "Local_CS_95c7",
+      "type": "PartDesign::CoordinateSystem"
+    },
+    {
+      "name": "Pcb_95c7",
+      "label": "Pcb_95c7",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Board_Geoms_95c7",
+      "label": "Board_Geoms_95c7",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin",
+      "label": "Origin",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis",
+      "label": "X-axis",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis",
+      "label": "Y-axis",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis",
+      "label": "Z-axis",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane",
+      "label": "XY-plane",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane",
+      "label": "XZ-plane",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane",
+      "label": "YZ-plane",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin001",
+      "label": "Origin001",
+      "type": "App::Point"
+    },
+    {
+      "name": "Board_95c7",
+      "label": "dock-lid-routed",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin002",
+      "label": "Origin004",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis001",
+      "label": "X-axis001",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis001",
+      "label": "Y-axis001",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis001",
+      "label": "Z-axis001",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane001",
+      "label": "XY-plane001",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane001",
+      "label": "XZ-plane001",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane001",
+      "label": "YZ-plane001",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin003",
+      "label": "Origin003",
+      "type": "App::Point"
+    },
+    {
+      "name": "PCB_Sketch_95c7",
+      "label": "PCB_Sketch_95c7",
+      "type": "Sketcher::SketchObject"
+    },
+    {
+      "name": "Step_Models_95c7",
+      "label": "Step_Models_95c7",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin004",
+      "label": "Origin007",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis002",
+      "label": "X-axis002",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis002",
+      "label": "Y-axis002",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis002",
+      "label": "Z-axis002",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane002",
+      "label": "XY-plane002",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane002",
+      "label": "XZ-plane002",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane002",
+      "label": "YZ-plane002",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin005",
+      "label": "Origin006",
+      "type": "App::Point"
+    },
+    {
+      "name": "Top_95c7",
+      "label": "Top_95c7",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin006",
+      "label": "Origin010",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis003",
+      "label": "X-axis003",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis003",
+      "label": "Y-axis003",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis003",
+      "label": "Z-axis003",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane003",
+      "label": "XY-plane003",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane003",
+      "label": "XZ-plane003",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane003",
+      "label": "YZ-plane003",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin007",
+      "label": "Origin009",
+      "type": "App::Point"
+    },
+    {
+      "name": "Bot_95c7",
+      "label": "Bot_95c7",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin008",
+      "label": "Origin012",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis004",
+      "label": "X-axis004",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis004",
+      "label": "Y-axis004",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis004",
+      "label": "Z-axis004",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane004",
+      "label": "XY-plane004",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane004",
+      "label": "XZ-plane004",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane004",
+      "label": "YZ-plane004",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin009",
+      "label": "Origin011",
+      "type": "App::Point"
+    },
+    {
+      "name": "Part__Feature",
+      "label": "body",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature001",
+      "label": "lock",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature002",
+      "label": "pins",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Hirose_FH12_xxS_0_5SH_Parametric_v0_1",
+      "label": "J301_Hirose_FH12_xxS_0_5SH_Parametric_v0_1_58f55d62c0b7",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin016",
+      "label": "Origin023",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis008",
+      "label": "X-axis008",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis008",
+      "label": "Y-axis008",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis008",
+      "label": "Z-axis008",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane008",
+      "label": "XY-plane008",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane008",
+      "label": "XZ-plane008",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane008",
+      "label": "YZ-plane008",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin017",
+      "label": "Origin022",
+      "type": "App::Point"
+    },
+    {
+      "name": "Shape",
+      "label": "R311_R_0603_1608Metric_e7bebd036883",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature003",
+      "label": "Open CASCADE STEP translator 7.8 1",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Part__Feature004",
+      "label": "Open CASCADE STEP translator 7.8 001",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Open_CASCADE_STEP_translator_7_8_1",
+      "label": "J302_Open CASCADE STEP translator 7.8 002_331411ebead9",
+      "type": "App::Part"
+    },
+    {
+      "name": "Origin018",
+      "label": "Origin026",
+      "type": "App::Origin"
+    },
+    {
+      "name": "X_Axis009",
+      "label": "X-axis009",
+      "type": "App::Line"
+    },
+    {
+      "name": "Y_Axis009",
+      "label": "Y-axis009",
+      "type": "App::Line"
+    },
+    {
+      "name": "Z_Axis009",
+      "label": "Z-axis009",
+      "type": "App::Line"
+    },
+    {
+      "name": "XY_Plane009",
+      "label": "XY-plane009",
+      "type": "App::Plane"
+    },
+    {
+      "name": "XZ_Plane009",
+      "label": "XZ-plane009",
+      "type": "App::Plane"
+    },
+    {
+      "name": "YZ_Plane009",
+      "label": "YZ-plane009",
+      "type": "App::Plane"
+    },
+    {
+      "name": "Origin019",
+      "label": "Origin025",
+      "type": "App::Point"
+    },
+    {
+      "name": "Shape001",
+      "label": "R303_R_0603_1608Metric_e91398a5349e",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape002",
+      "label": "S302_SW_SPST_Omron_B3FS-100xP_5d3f767738c4",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape003",
+      "label": "R309_R_0603_1608Metric_e76937fd74af",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape004",
+      "label": "R301_R_0603_1608Metric_c23f721dac97",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape005",
+      "label": "R312_R_0603_1608Metric_d78d3f7867a8",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape006",
+      "label": "R306_R_0603_1608Metric_46f6c87fb348",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape007",
+      "label": "R307_R_0603_1608Metric_26a1c9b51351",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape008",
+      "label": "S303_SW_SPST_Omron_B3FS-100xP_e6b6efc4779a",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape009",
+      "label": "R308_R_0603_1608Metric_78c38908f440",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape010",
+      "label": "R310_R_0603_1608Metric_be87bfbb99a7",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape011",
+      "label": "S301_SW_SPST_Omron_B3FS-100xP_8ae6bb406bac",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape012",
+      "label": "R305_R_0603_1608Metric_15cdc9b94335",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape013",
+      "label": "R302_R_0603_1608Metric_7e06033e6fd2",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape014",
+      "label": "R304_R_0603_1608Metric_782909e58a6c",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape015",
+      "label": "C309_C_1206_3216Metric_e80ae77e499c",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape016",
+      "label": "C308_C_1206_3216Metric_97b35e972f75",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape017",
+      "label": "C311_C_0402_1005Metric_1ff738d28815",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape018",
+      "label": "C310_C_0603_1608Metric_bcdd82fc97d6",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape019",
+      "label": "C305_C_0603_1608Metric_c5b85f011a79",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape020",
+      "label": "C306_C_1206_3216Metric_2643292e4626",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape021",
+      "label": "C302_C_0603_1608Metric_2f42c0c39e63",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape022",
+      "label": "C304_C_0603_1608Metric_353e162782f7",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape023",
+      "label": "C303_C_0603_1608Metric_25fd46579934",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape024",
+      "label": "C301_C_0603_1608Metric_377fb9ca7015",
+      "type": "Part::Feature"
+    },
+    {
+      "name": "Shape025",
+      "label": "C307_C_1206_3216Metric_d71147d5dacf",
+      "type": "Part::Feature"
+    }
+  ],
+  "importer_sha256": "db950e77eff28ac9021bf60faa8fe73b424a47683dd404b08112010b61b3f811",
+  "physical_fit": false
+}

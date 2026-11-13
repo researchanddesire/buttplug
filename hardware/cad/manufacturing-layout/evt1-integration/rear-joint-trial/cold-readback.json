@@ -1,0 +1,36 @@
+{
+  "pass": true,
+  "native_sha256": "dbebb213274baf9f01c09d8872216dcf616d34c300cf7d732359ac7c747d68c0",
+  "review_sha256": "932f827a71cafd037616c7f2b432a77f7b285afc400cb9b7d418f1511bc9d0f0",
+  "checker_sha256": "5bb42a37d6a7aa90be1207f39216d23c248a37c3f7d3270fb52c2d20fa0c5c9c",
+  "bodies": [
+    {
+      "body": "SourceMetalBody",
+      "volume_mm3": 18057.035380410318,
+      "BOP_errors": null
+    },
+    {
+      "body": "SourceTray",
+      "volume_mm3": 9304.020806772482,
+      "BOP_errors": null
+    },
+    {
+      "body": "SourcePackGrowth",
+      "volume_mm3": 5329.85,
+      "BOP_errors": null
+    },
+    {
+      "body": "IFME10028",
+      "volume_mm3": 1087.4022534318965,
+      "BOP_errors": null
+    },
+    {
+      "body": "TwoJawDriver",
+      "volume_mm3": 5304.855504841725,
+      "BOP_errors": null
+    }
+  ],
+  "all_native_sketches_fully_constrained": true,
+  "STEP_parity": true,
+  "physical_validation": false
+}

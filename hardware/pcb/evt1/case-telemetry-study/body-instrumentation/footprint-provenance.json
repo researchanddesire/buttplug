@@ -1,0 +1,81 @@
+{
+  "status": "Native 2D land patterns only; no3D/package/tolerance acceptance",
+  "builder_sha256": "9707f32f0a4a210b3ef5457f3dd19216610c7b8517371c30afcd69954e9381b0",
+  "copied_passive_library_inputs_sha256": {
+    "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod": "70ac457d61f801181665148cd036282c1eeb9e00383e132500ca0c21ed6befac",
+    "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+  },
+  "primary_sources": {
+    "DCK": "https://www.ti.com/lit/ds/symlink/opa391.pdf DCK0005A board layout4214834G",
+    "DTM": "https://www.ti.com/lit/ds/symlink/tca9536.pdf DTM0008A board layout4224755B"
+  },
+  "DCK_pad_centres_mm": {
+    "1": [
+      -1.1,
+      -0.65
+    ],
+    "2": [
+      -1.1,
+      0
+    ],
+    "3": [
+      -1.1,
+      0.65
+    ],
+    "4": [
+      1.1,
+      0.65
+    ],
+    "5": [
+      1.1,
+      -0.65
+    ]
+  },
+  "DTM_pad_centres_mm": {
+    "1": [
+      -0.39,
+      -0.5
+    ],
+    "2": [
+      -0.39,
+      0
+    ],
+    "3": [
+      -0.39,
+      0.5
+    ],
+    "4": [
+      0,
+      0.27
+    ],
+    "5": [
+      0.39,
+      0.5
+    ],
+    "6": [
+      0.39,
+      0
+    ],
+    "7": [
+      0.39,
+      -0.5
+    ],
+    "8": [
+      0,
+      -0.27
+    ]
+  },
+  "not_claimed": [
+    "OEM3D",
+    "paste release",
+    "solder-mask registration",
+    "fabricator DFM",
+    "native3D/mechanical packing"
+  ],
+  "outputs_sha256": {
+    "C_0402_1005Metric.kicad_mod": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc",
+    "R_0402_1005Metric.kicad_mod": "70ac457d61f801181665148cd036282c1eeb9e00383e132500ca0c21ed6befac",
+    "SOT-353_SC-70-5.kicad_mod": "cc5ee1c918dbaa99b16baa8594edab018d13f222e90942da9ef0706549ffdb56",
+    "TI_DTM0008A.kicad_mod": "6fa9f4fd2bf05f887647fa95bd13056d9c5746a6659522f939fe0c8a1057787d"
+  }
+}

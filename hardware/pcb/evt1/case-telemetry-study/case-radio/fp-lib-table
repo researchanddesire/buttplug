@@ -1,0 +1,17 @@
+(fp_lib_table
+  (version 7)
+  (lib
+    (name "DockControl")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../dock-control/DockControl.pretty")
+    (options "")
+    (descr "Source-owned dock component library"))
+  (lib
+    (name "DockSafety")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../dock-safety/DockSafety.pretty")
+    (options "")
+    (descr "Source-owned dock component library"))
+  (lib (name "DockUI") (type "KiCad") (uri "${KIPRJMOD}/../../dock-ui/DockUI.pretty") (options "") (descr "Source-owned dock component library"))
+  (lib (name "DockUV") (type "KiCad") (uri "${KIPRJMOD}/../../dock-uv/base/DockUV.pretty") (options "") (descr "Source-owned dock component library"))
+  (lib (name "Radio") (type "KiCad") (uri "${KIPRJMOD}/Radio.pretty") (options "") (descr "Selected source-bound radio candidate")))

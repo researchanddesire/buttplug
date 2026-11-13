@@ -1,0 +1,87 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T12:32:07",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/c5f43682-38d7-5030-b699-32aa1712a79c",
+            "violations": []
+        },
+        {
+            "path": "/Flange / dock and power interfaces/",
+            "uuid_path": "/c5f43682-38d7-5030-b699-32aa1712a79c/da544d5a-8b4e-53d9-80a3-b45e226fb089",
+            "violations": []
+        },
+        {
+            "path": "/Flange / radio, local controls and service/",
+            "uuid_path": "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 3 [3V3, Power input, Line]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 68.58
+                            },
+                            "uuid": "26aff72b-a337-5b7b-8ff6-0dc2a33f2341"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 109.22
+                            },
+                            "uuid": "4db820fe-2115-5fb3-ab06-bf9a6dd656df"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Interboard connection/",
+            "uuid_path": "/c5f43682-38d7-5030-b699-32aa1712a79c/dc32a3fb-37c9-5a8a-965e-060f668f25a1",
+            "violations": []
+        },
+        {
+            "path": "/Hardware wake and USB recovery/",
+            "uuid_path": "/c5f43682-38d7-5030-b699-32aa1712a79c/d1a9806d-8d63-56e8-80db-d32f9aa994fb",
+            "violations": []
+        }
+    ],
+    "source": "flange-evt1.kicad_sch"
+}

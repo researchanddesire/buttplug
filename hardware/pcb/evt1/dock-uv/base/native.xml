@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/dock-uv/base/dock-uv-base.kicad_sch</source>
+    <date>2026-11-12T16:21:19</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EVT BASE UV driver</title>
+        <company>Research and Desire</company>
+        <rev>EVT1</rev>
+        <date>2026-11-12</date>
+        <source>dock-uv-base.kicad_sch</source>
+        <comment number="1" value="NATIVE CIRCUIT CANDIDATE - NO PCB OR PHYSICAL VALIDATION"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C401">
+      <value>4.7uF50VX7R</value>
+      <footprint>DockUV:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Require &gt;=1uF effective over VIN4.3..5.25V/input or VOUT0..39V/output,temp,age. TI output recommendation1..10uF.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C3225X7R1H475K250AB</field>
+        <field name="Footprint">DockUV:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Require &gt;=1uF effective over VIN4.3..5.25V/input or VOUT0..39V/output,temp,age. TI output recommendation1..10uF."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C3225X7R1H475K250AB"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ee613ed-15fa-5173-91d8-8ccdc05a2332</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C402">
+      <value>4.7uF50VX7R</value>
+      <footprint>DockUV:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Require &gt;=1uF effective over VIN4.3..5.25V/input or VOUT0..39V/output,temp,age. TI output recommendation1..10uF.</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C3225X7R1H475K250AB</field>
+        <field name="Footprint">DockUV:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Require &gt;=1uF effective over VIN4.3..5.25V/input or VOUT0..39V/output,temp,age. TI output recommendation1..10uF."/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C3225X7R1H475K250AB"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b9e178b-3754-5c69-a212-50351d96f7e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C403">
+      <value>220nF25VX7R</value>
+      <footprint>DockUV:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C1608X7R1E224K080AC</field>
+        <field name="Footprint">DockUV:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C1608X7R1E224K080AC"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58b4a3d0-1873-5490-8a63-bc1211f6575f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C404">
+      <value>100nF25VX7R</value>
+      <footprint>DockUV:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C1608X7R1E104K080AA</field>
+        <field name="Footprint">DockUV:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C1608X7R1E104K080AA"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01ddf42c-50cd-559f-8c49-fe009550a7bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C405">
+      <value>100nF25VX7R</value>
+      <footprint>DockUV:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">C1608X7R1E104K080AA</field>
+        <field name="Footprint">DockUV:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="C1608X7R1E104K080AA"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c71d8cf-f648-54fb-8d8d-11bd5584eff5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D401">
+      <value>PMEG6010CEH,115</value>
+      <footprint>DockUV:D_SOD-123F</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Exact orderable12NC934061056115,SOD123F_115,3000/reel: https://www.nexperia.com/product/PMEG6010CEH</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="MPN">PMEG6010CEH,115</field>
+        <field name="Footprint">DockUV:D_SOD-123F</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="PMEG6010CEH" description="60V1A Schottky; physical bar identifies K pin1."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Exact orderable12NC934061056115,SOD123F_115,3000/reel: https://www.nexperia.com/product/PMEG6010CEH"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="MPN" value="PMEG6010CEH,115"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e1cb05e-d3e7-5408-8923-cfa146f78b3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D402">
+      <value>VLMU35CB20-275-120</value>
+      <footprint>DockUV:Vishay_VLMU35CB2_Actual_TwoTerminal</footprint>
+      <datasheet>https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Cathode mark must match pad1. Heatspreader/AlMCPCB must be qualified.</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="MPN">VLMU35CB20-275-120</field>
+        <field name="Footprint">DockUV:Vishay_VLMU35CB2_Actual_TwoTerminal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="VLMU35CB20" description="Two electrical terminals only; cathode mark identifies1. Both large pads carry LED current and heat."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Cathode mark must match pad1. Heatspreader/AlMCPCB must be qualified."/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="MPN" value="VLMU35CB20-275-120"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07ac889c-b1fc-5a29-9c09-9f1b97f763c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D403">
+      <value>VLMU35CB20-275-120</value>
+      <footprint>DockUV:Vishay_VLMU35CB2_Actual_TwoTerminal</footprint>
+      <datasheet>https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Vishay</field>
+        <field name="MPN">VLMU35CB20-275-120</field>
+        <field name="Footprint">DockUV:Vishay_VLMU35CB2_Actual_TwoTerminal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="VLMU35CB20" description="Two electrical terminals only; cathode mark identifies1. Both large pads carry LED current and heat."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="MPN" value="VLMU35CB20-275-120"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bec8e6c-4dca-5696-9241-292f7e06cc37</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J401">
+      <value>SM08B-GHS-TB</value>
+      <footprint>DockUV:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">JST</field>
+        <field name="MPN">SM08B-GHS-TB(LF)(SN)</field>
+        <field name="Footprint">DockUV:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="GH8" description="Straight1:1toJ621/J622; no highvoltage across hinge."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="JST"/>
+      <property name="MPN" value="SM08B-GHS-TB(LF)(SN)"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37c71e5f-5ad7-53dd-bb18-48c705dfe11b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="MP"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L401">
+      <value>10uH20% shielded</value>
+      <footprint>DockUV:Bourns_SRP4020TA_Actual_Lands</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRP4020TA.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Bourns</field>
+        <field name="MPN">SRP4020TA-100M</field>
+        <field name="Footprint">DockUV:Bourns_SRP4020TA_Actual_Lands</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/SRP4020TA.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="PowerInductor" description="10uH20%;DCR243mOhmmax;Isat2.3A; actual recommended lands."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Bourns"/>
+      <property name="MPN" value="SRP4020TA-100M"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>386b77e9-ada1-5af6-ae55-8a377d0fe19c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q401">
+      <value>DMN62D2U-7</value>
+      <footprint>DockUV:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/datasheet/download/DMN62D2U.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Cathode disconnect separate from input cuts; source is FB, not GND.</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">DMN62D2U-7</field>
+        <field name="Footprint">DockUV:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/datasheet/download/DMN62D2U.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="DMN62D2U" description="60V NMOS, gateUVCTRL, sourceFB, drainLEDcathode."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Cathode disconnect separate from input cuts; source is FB, not GND."/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="DMN62D2U-7"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>316bff0d-cd26-5c79-9f36-0eaf3b5d9c2b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R401">
+      <value>3.65R1%100ppm</value>
+      <footprint>DockUV:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Vishay</field>
+        <field name="MPN">CRCW08053R65FKEA</field>
+        <field name="Footprint">DockUV:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="MPN" value="CRCW08053R65FKEA"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bec5c54-2479-5ca7-9add-54ef02df9260</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R402">
+      <value>1k1%</value>
+      <footprint>DockUV:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">DockUV:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adbf68e1-abb1-5396-aa0d-6b9f09f44224</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R403">
+      <value>100k1%</value>
+      <footprint>DockUV:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">DockUV:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f051e50a-a51a-5ff5-9d6e-6cba891af86f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R404">
+      <value>100k1%</value>
+      <footprint>DockUV:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0805FR-07100KL</field>
+        <field name="Footprint">DockUV:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-07100KL"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f2eeb2a-76b9-593f-89bf-e8145f78bd61</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R405">
+      <value>1M1%</value>
+      <footprint>DockUV:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0805FR-071ML</field>
+        <field name="Footprint">DockUV:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-071ML"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cdcc444-67be-5736-8f9d-693773188510</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R406">
+      <value>68k1%</value>
+      <footprint>DockUV:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0768KL</field>
+        <field name="Footprint">DockUV:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0768KL"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ae7bf1d-0c8b-5537-822e-9f0581c3fb4e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R407">
+      <value>10k1%</value>
+      <footprint>DockUV:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">DockUV:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>151db4e2-f548-5b8a-a5a7-efc9c612f21c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R408">
+      <value>10k1%</value>
+      <footprint>DockUV:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">DockUV:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93b9dd9d-ece5-54bb-9232-afa3c545de8d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="S401">
+      <value>67L045 remote NC45C</value>
+      <datasheet>https://www.sensata.com/sites/default/files/a/sensata-6700-series-subminiature-bimetal-disc-thermostats-datasheet.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">REMOTE_SAFETY</field>
+        <field name="ReviewNote">Offboard cutoff;10mA@5V reference only;actual voltage/contact life qualification pending.</field>
+        <field name="Manufacturer">Sensata</field>
+        <field name="MPN">67L045</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.sensata.com/sites/default/files/a/sensata-6700-series-subminiature-bimetal-disc-thermostats-datasheet.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="THERM67L" description="67L045 opens45+/-5C. Published lowlevel reference10mA@5V;4.5..5.25V use NOT vendor qualified."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="REMOTE_SAFETY"/>
+      <property name="ReviewNote" value="Offboard cutoff;10mA@5V reference only;actual voltage/contact life qualification pending."/>
+      <property name="Manufacturer" value="Sensata"/>
+      <property name="MPN" value="67L045"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d82e4c6-1753-5705-9b6d-6498569f8ad2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TH401">
+      <value>NTCLE413E2103F524A remote</value>
+      <datasheet>https://www.vishay.com/docs/29078/ntcle413.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">REMOTE_SAFETY</field>
+        <field name="ReviewNote">Offboard dry thermistor on heatspreader; do not pot/overmold/immerse.</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="MPN">NTCLE413E2103F524A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.vishay.com/docs/29078/ntcle413.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="NTC413" description="Remote10k1%B25/85 3435K1%; controller owns pullup/filter."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="REMOTE_SAFETY"/>
+      <property name="ReviewNote" value="Offboard dry thermistor on heatspreader; do not pot/overmold/immerse."/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="MPN" value="NTCLE413E2103F524A"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>583681ad-bc1d-55c7-9cf8-b959061551f2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP401">
+      <value>NTC_BASE</value>
+      <footprint>DockUV:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Assembly wire termination for remote NTC/cutoff; restraint required.</field>
+        <field name="Manufacturer">manual copper</field>
+        <field name="MPN">Cu_D1.5mm_solder_land</field>
+        <field name="Footprint">DockUV:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="SolderLand" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Assembly wire termination for remote NTC/cutoff; restraint required."/>
+      <property name="Manufacturer" value="manual copper"/>
+      <property name="MPN" value="Cu_D1.5mm_solder_land"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e84a4f3-2392-54ac-9aec-9ead747f9bdd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP402">
+      <value>GND</value>
+      <footprint>DockUV:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Assembly wire termination for remote NTC/cutoff; restraint required.</field>
+        <field name="Manufacturer">manual copper</field>
+        <field name="MPN">Cu_D1.5mm_solder_land</field>
+        <field name="Footprint">DockUV:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="SolderLand" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Assembly wire termination for remote NTC/cutoff; restraint required."/>
+      <property name="Manufacturer" value="manual copper"/>
+      <property name="MPN" value="Cu_D1.5mm_solder_land"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a3ec5d7-d9a4-54e0-82b0-026e2893b331</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP403">
+      <value>BASE_THERM_SEND</value>
+      <footprint>DockUV:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Assembly wire termination for remote NTC/cutoff; restraint required.</field>
+        <field name="Manufacturer">manual copper</field>
+        <field name="MPN">Cu_D1.5mm_solder_land</field>
+        <field name="Footprint">DockUV:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="SolderLand" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Assembly wire termination for remote NTC/cutoff; restraint required."/>
+      <property name="Manufacturer" value="manual copper"/>
+      <property name="MPN" value="Cu_D1.5mm_solder_land"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5c535b2-1187-59c6-8d44-99c3cc983721</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP404">
+      <value>LOOP_A_RAW</value>
+      <footprint>DockUV:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote">Assembly wire termination for remote NTC/cutoff; restraint required.</field>
+        <field name="Manufacturer">manual copper</field>
+        <field name="MPN">Cu_D1.5mm_solder_land</field>
+        <field name="Footprint">DockUV:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="SolderLand" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Assembly wire termination for remote NTC/cutoff; restraint required."/>
+      <property name="Manufacturer" value="manual copper"/>
+      <property name="MPN" value="Cu_D1.5mm_solder_land"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdaffbb2-2e4e-5c95-97ae-bf79375e56ad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U401">
+      <value>TPS61165DBVR</value>
+      <footprint>DockUV:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps61165.pdf</datasheet>
+      <fields>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="ReviewNote"/>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">TPS61165DBVR</field>
+        <field name="Footprint">DockUV:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps61165.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DockUV" part="TPS61165DBVR" description="Static CTRL; 200mV feedback; 37..39V openLED OVP. CTRL low2.5ms shutdown; cathodeFET separate interrupt."/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="TPS61165DBVR"/>
+      <property name="Sheetname" value="dock-uv-base"/>
+      <property name="Sheetfile" value="dock-uv-base.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a4468e3-51ea-5846-974f-9a2a2b5b490d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="DockUV" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockUV" part="DMN62D2U">
+      <description>60V NMOS, gateUVCTRL, sourceFB, drainLEDcathode.</description>
+      <docs>https://www.diodes.com/datasheet/download/DMN62D2U.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DMN62D2U</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.diodes.com/datasheet/download/DMN62D2U.pdf</field>
+        <field name="Description">60V NMOS, gateUVCTRL, sourceFB, drainLEDcathode.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockUV" part="GH8">
+      <description>Straight1:1toJ621/J622; no highvoltage across hinge.</description>
+      <docs>https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GH8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eGH.pdf</field>
+        <field name="Description">Straight1:1toJ621/J622; no highvoltage across hinge.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="MP" name="MOUNT_GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockUV" part="NTC413">
+      <description>Remote10k1%B25/85 3435K1%; controller owns pullup/filter.</description>
+      <docs>https://www.vishay.com/docs/29078/ntcle413.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NTC413</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.vishay.com/docs/29078/ntcle413.pdf</field>
+        <field name="Description">Remote10k1%B25/85 3435K1%; controller owns pullup/filter.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NTC" type="passive"/>
+        <pin num="2" name="RETURN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockUV" part="PMEG6010CEH">
+      <description>60V1A Schottky; physical bar identifies K pin1.</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PMEG6010CEH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH.pdf</field>
+        <field name="Description">60V1A Schottky; physical bar identifies K pin1.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockUV" part="PowerInductor">
+      <description>10uH20%;DCR243mOhmmax;Isat2.3A; actual recommended lands.</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/SRP4020TA.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PowerInductor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/SRP4020TA.pdf</field>
+        <field name="Description">10uH20%;DCR243mOhmmax;Isat2.3A; actual recommended lands.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockUV" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockUV" part="SolderLand">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SolderLand</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Logical connector pin numbering; physical connector and footprint not selected</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockUV" part="THERM67L">
+      <description>67L045 opens45+/-5C. Published lowlevel reference10mA@5V;4.5..5.25V use NOT vendor qualified.</description>
+      <docs>https://www.sensata.com/sites/default/files/a/sensata-6700-series-subminiature-bimetal-disc-thermostats-datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">THERM67L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.sensata.com/sites/default/files/a/sensata-6700-series-subminiature-bimetal-disc-thermostats-datasheet.pdf</field>
+        <field name="Description">67L045 opens45+/-5C. Published lowlevel reference10mA@5V;4.5..5.25V use NOT vendor qualified.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC_CONTACT" type="passive"/>
+        <pin num="2" name="NC_CONTACT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockUV" part="TPS61165DBVR">
+      <description>Static CTRL; 200mV feedback; 37..39V openLED OVP. CTRL low2.5ms shutdown; cathodeFET separate interrupt.</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps61165.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS61165DBVR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps61165.pdf</field>
+        <field name="Description">Static CTRL; 200mV feedback; 37..39V openLED OVP. CTRL low2.5ms shutdown; cathodeFET separate interrupt.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="CTRL_STATIC" type="input"/>
+        <pin num="3" name="SW" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="COMP" type="passive"/>
+        <pin num="6" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DockUV" part="VLMU35CB20">
+      <description>Two electrical terminals only; cathode mark identifies1. Both large pads carry LED current and heat.</description>
+      <docs>https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VLMU35CB20</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf</field>
+        <field name="Description">Two electrical terminals only; cathode mark identifies1. Both large pads carry LED current and heat.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K_MARKED" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="DockUV">
+      <uri>${KIPRJMOD}/DockUV.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="BASE_CATHODE_GATE" class="Default">
+      <node ref="Q401" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R402" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R403" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="2" name="BASE_COMP" class="Default">
+      <node ref="C403" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U401" pin="5" pinfunction="COMP_5" pintype="passive"/>
+    </net>
+    <net code="3" name="BASE_FB" class="Default">
+      <node ref="C404" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J401" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="R408" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="4" name="BASE_FB_RAW" class="Default">
+      <node ref="Q401" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R401" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R408" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U401" pin="6" pinfunction="FB_6" pintype="input"/>
+    </net>
+    <net code="5" name="BASE_LED_K" class="Default">
+      <node ref="D403" pin="1" pinfunction="K_MARKED_1" pintype="passive"/>
+      <node ref="Q401" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="6" name="BASE_LED_MID" class="Default">
+      <node ref="D402" pin="1" pinfunction="K_MARKED_1" pintype="passive"/>
+      <node ref="D403" pin="2" pinfunction="A_2" pintype="passive"/>
+    </net>
+    <net code="7" name="BASE_SW" class="Default">
+      <node ref="D401" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="L401" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U401" pin="3" pinfunction="SW_3" pintype="passive"/>
+    </net>
+    <net code="8" name="BASE_THERM_SEND" class="Default">
+      <node ref="J401" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="S401" pin="1" pinfunction="NC_CONTACT_1" pintype="passive"/>
+      <node ref="TP403" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="9" name="BASE_VOUT" class="Default">
+      <node ref="C402" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D401" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D402" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R404" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R405" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="10" name="BASE_VOUT_DIV" class="Default">
+      <node ref="C405" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J401" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R407" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="11" name="BASE_VOUT_SENSE" class="Default">
+      <node ref="R405" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R406" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R407" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="12" name="GND" class="Default">
+      <node ref="C401" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C402" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C403" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C404" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C405" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J401" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J401" pin="MP" pinfunction="MOUNT_GND_MP" pintype="passive"/>
+      <node ref="R401" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R403" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R404" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R406" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TH401" pin="2" pinfunction="RETURN_2" pintype="passive"/>
+      <node ref="TP402" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U401" pin="4" pinfunction="GND_4" pintype="power_in"/>
+    </net>
+    <net code="13" name="LOOP_A_RAW" class="Default">
+      <node ref="J401" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="S401" pin="2" pinfunction="NC_CONTACT_2" pintype="passive"/>
+      <node ref="TP404" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="14" name="NTC_BASE" class="Default">
+      <node ref="J401" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="TH401" pin="1" pinfunction="NTC_1" pintype="passive"/>
+      <node ref="TP401" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="15" name="UV_5V_SW" class="Default">
+      <node ref="C401" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J401" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L401" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U401" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+    </net>
+    <net code="16" name="UV_CTRL" class="Default">
+      <node ref="J401" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R402" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U401" pin="2" pinfunction="CTRL_STATIC_2" pintype="input"/>
+    </net>
+  </nets>
+</export>

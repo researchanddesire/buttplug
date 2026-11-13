@@ -1,0 +1,819 @@
+{
+  "schema_version": 1,
+  "status": "exact native circuit selected positions; no full-product order release",
+  "full_product_order_ready": false,
+  "parts": [
+    {
+      "reference": "U201",
+      "value": "STM32L071CBT6",
+      "manufacturer": "STMicroelectronics",
+      "mpn": "STM32L071CBT6",
+      "footprint": "DockControl:LQFP-48_7x7mm_P0.5mm",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "J201",
+      "value": "FH12-20S-0.5SH(55)",
+      "manufacturer": "Hirose",
+      "mpn": "FH12-20S-0.5SH(55)",
+      "footprint": "DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "U202",
+      "value": "ADS1115IDGSR /0x48",
+      "manufacturer": "Texas Instruments",
+      "mpn": "ADS1115IDGSR",
+      "footprint": "DockControl:VSSOP-10_3x3mm_P0.5mm",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "J202",
+      "value": "TC2030-CTX-NL SWD CONTACT PATTERN",
+      "manufacturer": "manual copper",
+      "mpn": "\u2013",
+      "footprint": "DockControl:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical",
+      "note": "Use Cortex TC2030-CTX-NL wiring:1VTREF,2SWDIO,3NRST,4SWCLK,5GND,6NC. NoSWO onthisM0+. Workshop tool, not populated connector.",
+      "item_type": "manual_copper",
+      "board": "controller"
+    },
+    {
+      "reference": "X201",
+      "value": "BASE INTERSHEET CONTRACT / NO PCB",
+      "manufacturer": "annotation",
+      "mpn": "\u2013",
+      "footprint": "",
+      "note": "Global circuit interface; no invented connector. Real ports resolve in fullsystem.",
+      "item_type": "annotation",
+      "board": "controller"
+    },
+    {
+      "reference": "R201",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R202",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R203",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R204",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R205",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R206",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R207",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R208",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R209",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R210",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R211",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R212",
+      "value": "33 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R213",
+      "value": "10k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R214",
+      "value": "0 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603JR-070RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R215",
+      "value": "0 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603JR-070RL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R216",
+      "value": "4k7 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-074K7L",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R217",
+      "value": "4k7 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-074K7L",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R218",
+      "value": "10k0.1 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R219",
+      "value": "10k0.1 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R220",
+      "value": "1k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R221",
+      "value": "1k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R222",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R223",
+      "value": "150k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07150KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R224",
+      "value": "2k2 ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-072K2L",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R225",
+      "value": "10k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "R226",
+      "value": "10k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C201",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C202",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C203",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C204",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C205",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C207",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C208",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C209",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C210",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C211",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C212",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "C206",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "D201",
+      "value": "LTST-C190KGKT GREEN",
+      "manufacturer": "Lite-On",
+      "mpn": "LTST-C190KGKT",
+      "footprint": "DockControl:LED_0603_1608Metric",
+      "note": "Low-current status indication; confirm brightness at~0.5mA.",
+      "item_type": "purchased",
+      "board": "controller"
+    },
+    {
+      "reference": "TP201",
+      "value": "BOOT0 WORKSHOP PAD",
+      "manufacturer": "manual copper",
+      "mpn": "\u2013",
+      "footprint": "DockControl:TestPoint_Pad_D1.0mm",
+      "note": "",
+      "item_type": "manual_copper",
+      "board": "controller"
+    },
+    {
+      "reference": "#FLG201",
+      "value": "PWR_FLAG",
+      "manufacturer": "annotation",
+      "mpn": "\u2013",
+      "footprint": "",
+      "note": "Standalone supply context; not proof of external source.",
+      "item_type": "annotation",
+      "board": "controller"
+    },
+    {
+      "reference": "#FLG202",
+      "value": "PWR_FLAG",
+      "manufacturer": "annotation",
+      "mpn": "\u2013",
+      "footprint": "",
+      "note": "Standalone supply context; not proof of external source.",
+      "item_type": "annotation",
+      "board": "controller"
+    },
+    {
+      "reference": "#FLG203",
+      "value": "PWR_FLAG",
+      "manufacturer": "annotation",
+      "mpn": "\u2013",
+      "footprint": "",
+      "note": "Standalone supply context; not proof of external source.",
+      "item_type": "annotation",
+      "board": "controller"
+    },
+    {
+      "reference": "#FLG204",
+      "value": "PWR_FLAG",
+      "manufacturer": "annotation",
+      "mpn": "\u2013",
+      "footprint": "",
+      "note": "Standalone supply context; not proof of external source.",
+      "item_type": "annotation",
+      "board": "controller"
+    },
+    {
+      "reference": "LCD301",
+      "value": "NHD-C12864B2Z-RN-FBW",
+      "manufacturer": "Newhaven Display",
+      "mpn": "NHD-C12864B2Z-RN-FBW",
+      "footprint": "",
+      "note": "Purchased COGLCD, linked nativeMCAD inCADassembly. NoPCBfootprint: mates throughJ302.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "J302",
+      "value": "52437-2771 / DIRECT LCD MATE",
+      "manufacturer": "Molex",
+      "mpn": "52437-2771",
+      "footprint": "DockControl:Molex_52437-2771_1x27-1MP_P0.50mm_Horizontal",
+      "note": "Selected forEVTmatingtrial; LCD3mm exposedland vsrecommended4mm. Pin p mates LCD pin p in installed pose.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "J301",
+      "value": "FH12-20S-0.5SH(55)",
+      "manufacturer": "Hirose",
+      "mpn": "FH12-20S-0.5SH(55)",
+      "footprint": "DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "S301",
+      "value": "B3FS-1002P",
+      "manufacturer": "Omron / Aratas",
+      "mpn": "B3FS-1002P",
+      "footprint": "DockControl:SW_SPST_Omron_B3FS-100xP",
+      "note": "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "S302",
+      "value": "B3FS-1002P",
+      "manufacturer": "Omron / Aratas",
+      "mpn": "B3FS-1002P",
+      "footprint": "DockControl:SW_SPST_Omron_B3FS-100xP",
+      "note": "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "S303",
+      "value": "B3FS-1002P",
+      "manufacturer": "Omron / Aratas",
+      "mpn": "B3FS-1002P",
+      "footprint": "DockControl:SW_SPST_Omron_B3FS-100xP",
+      "note": "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C301",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C302",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C303",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C304",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C305",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C306",
+      "value": "2.2uF50V",
+      "manufacturer": "TDK",
+      "mpn": "C3216X7R1H225K160AB",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C307",
+      "value": "2.2uF50V",
+      "manufacturer": "TDK",
+      "mpn": "C3216X7R1H225K160AB",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C308",
+      "value": "2.2uF50V",
+      "manufacturer": "TDK",
+      "mpn": "C3216X7R1H225K160AB",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C309",
+      "value": "2.2uF50V",
+      "manufacturer": "TDK",
+      "mpn": "C3216X7R1H225K160AB",
+      "footprint": "DockControl:C_1206_3216Metric",
+      "note": "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed.",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C310",
+      "value": "1uF25V",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "C311",
+      "value": "100nF",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R301",
+      "value": "47k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R302",
+      "value": "47k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R303",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R304",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R305",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R306",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R307",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R308",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R309",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R310",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R311",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    },
+    {
+      "reference": "R312",
+      "value": "100k ohm",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "note": "",
+      "item_type": "purchased",
+      "board": "lid"
+    }
+  ],
+  "separate_cable": [
+    {
+      "manufacturer": "Molex",
+      "mpn": "0151660220",
+      "quantity": 1,
+      "function": "20-way0.5pitch203mmultraflexibleoppositecontacthingeFFC",
+      "installed_motion_qualified": false
+    }
+  ],
+  "workshop_tool": [
+    {
+      "manufacturer": "Tag-Connect",
+      "mpn": "TC2030-CTX-NL",
+      "function": "CortexSWDprobe;notfittedproductpart"
+    }
+  ],
+  "primary_sources": {
+    "MCU": "https://www.st.com/resource/en/datasheet/stm32l071cb.pdf",
+    "LCD": "https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf",
+    "ADS1115": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+    "C1U": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+    "CPUMP": "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3216x7r1h225k160ab.pdf",
+    "C100": "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71C104KA88%23",
+    "YageoRC": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf",
+    "YageoRT": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1_to_0p01_RoHS_L.pdf",
+    "B3FS": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+  },
+  "capacitor_requirements": {
+    "C301_C305": "1uF25Vnominal; require>=0.1uF effective atintendedVLCD/temp/age",
+    "C306_C309": "2.2uF50VX7R;require>=1uF effective atintendedvoltage/temp/age. Publishedtypcurve isnotguaranteedcombinedconditionbound"
+  },
+  "mating_and_lifecycle": "Molex52437-2771 selectedformatingtrial only; recommendedtaildetails differLCD. Currentavailability/supplieracceptance required beforefullproductorder."
+}

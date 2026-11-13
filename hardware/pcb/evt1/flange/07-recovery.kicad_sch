@@ -1,0 +1,288 @@
+(kicad_sch
+  (version 20230121)
+  (generator build_evt1_electrical)
+  (uuid d1a9806d-8d63-56e8-80db-d32f9aa994fb)
+  (paper "A3")
+  (title_block
+    (title "EVT1 four-contact wake and independent USB recovery")
+    (date "2026-11-12")
+    (rev "EVT1 electrical candidate")
+    (company "Research and Desire")
+    (comment 1 "LAYOUT INTEGRATION REQUIRED BEFORE PCB ORDER"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:BAT54WS"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "D" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "BAT54WS" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "BAT54WS_0_1"
+        (polyline (pts (xy -2.54 2.54) (xy 2.54 2.54) (xy 0 -2.54) (xy -2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -2.54) (xy 2.54 -2.54)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -2.54) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "BAT54WS_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:R"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "R_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:TPS3422EGDRYR"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "TPS3422EGDRYR" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3422.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "Single-button 7.5 s timer, fixed 400 ms reset pulse" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "TPS3422EGDRYR_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "TPS3422EGDRYR_1_1"
+        (pin input line (at -20.32 5.08 0) (length 5.08) (name "PB1_N" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 0.0 0) (length 5.08) (name "TS_7S5_LOW" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -5.08 0) (length 5.08) (name "TST" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 5.08 180)
+          (length 5.08)
+          (name "RST_N" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "VCC" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 -5.08 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016))))))))
+  (symbol
+    (lib_id "PrototypeR0:TPS3422EGDRYR")
+    (at 76.2 63.5 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid e3c77299-a3d2-593c-8b7b-3ee9aa2bcc2b)
+    (property "Reference" "U71" (at 76.2 48.260000000000005 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TPS3422EGDRYR" (at 76.2 50.800000000000004 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "EVT1:Texas_USON-6_1x1.45mm_P0.5mm_SMD" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3422.pdf" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "3" (uuid e51f3e0e-0f28-5cb3-96f0-596d091e7602))
+    (pin "5" (uuid 06faf8d9-1907-5cd5-817d-7dca700056e6))
+    (pin "6" (uuid 9f092b11-b280-5efa-a9b2-41f67c210edd))
+    (pin "1" (uuid a56d1168-8bc2-58c4-9b2f-7163dd450abc))
+    (pin "4" (uuid 16aba781-2d5c-5ed6-a747-eda1bdeb93f6))
+    (pin "2" (uuid 986fc8b4-488a-557f-a9d2-9fe801e669a3))
+    (instances
+      (project "flange-evt1" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "U71") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "U71") (unit 1)))))
+  (wire (pts (xy 55.88 58.42) (xy 50.8 58.42)) (stroke (width 0) (type default)) (uuid cd9079d5-99a2-5798-844d-1247f2f85582))
+  (global_label
+    "POWER_SWITCH_N"
+    (shape input)
+    (at 50.8 58.42 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 408dde89-7024-5a89-85b0-7b2f33149215))
+  (wire (pts (xy 55.88 63.5) (xy 50.8 63.5)) (stroke (width 0) (type default)) (uuid 678b106a-8357-5e04-930a-8c6ced373ceb))
+  (global_label "GND" (shape input) (at 50.8 63.5 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 2e836bba-081c-5f85-b027-ab85b4ce7665))
+  (wire (pts (xy 55.88 68.58) (xy 50.8 68.58)) (stroke (width 0) (type default)) (uuid d6d1426c-8f51-5f59-8f9b-84e95bc9e4ec))
+  (global_label "GND" (shape input) (at 50.8 68.58 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 0e34ef06-5c85-530c-9b57-32141228a313))
+  (wire (pts (xy 96.52 58.42) (xy 101.6 58.42)) (stroke (width 0) (type default)) (uuid 9f74d422-338e-560c-9677-e3f492ed328d))
+  (global_label "MCU_EN" (shape input) (at 101.6 58.42 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid f98c167b-0589-56ac-886b-476c68be9895))
+  (wire (pts (xy 96.52 63.5) (xy 101.6 63.5)) (stroke (width 0) (type default)) (uuid 84d909ee-36a0-562d-9b16-1a32a59d2f96))
+  (global_label "3V3" (shape input) (at 101.6 63.5 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 78e1a575-6807-5932-b593-a63120f091e1))
+  (wire (pts (xy 96.52 68.58) (xy 101.6 68.58)) (stroke (width 0) (type default)) (uuid c43212d2-b5b7-5a43-8d80-1de81921ad88))
+  (global_label "GND" (shape input) (at 101.6 68.58 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 1b97bab5-956b-59f7-ba44-2a5a0d8ace4a))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 132.08 58.42 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 317675d3-7a0d-54f3-9ac7-bfa6fbffe679)
+    (property "Reference" "C71" (at 140.97000000000003 57.15 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF" (at 140.97000000000003 59.690000000000005 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "EVT1:C_0402_1005Metric" (at 132.08 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 132.08 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 132.08 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 132.08 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 132.08 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 49a14b13-bc8c-561f-982a-6011df1ef701))
+    (pin "2" (uuid 68a56942-038b-5fdd-b3c6-d828609848ec))
+    (instances
+      (project "flange-evt1" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "C71") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "C71") (unit 1)))))
+  (wire (pts (xy 132.08 53.34) (xy 132.08 48.26)) (stroke (width 0) (type default)) (uuid 328bea05-c30a-5d19-b224-e6bf1f0a66db))
+  (global_label "3V3" (shape input) (at 132.08 48.26 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 066c12d7-e9c3-5b12-80fa-f438839f9e80))
+  (wire (pts (xy 132.08 63.5) (xy 132.08 68.58)) (stroke (width 0) (type default)) (uuid 9698a166-72b8-59f1-b589-30d3dc220657))
+  (global_label "GND" (shape input) (at 132.08 68.58 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 2c5c7647-930f-55f9-9bc5-f876b041de5c))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 132.08 96.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid c2ac488e-776b-523a-a591-ea3fd5a749cb)
+    (property "Reference" "R71" (at 140.97000000000003 95.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k" (at 140.97000000000003 97.78999999999999 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "EVT1:R_0402_1005Metric" (at 132.08 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 132.08 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 132.08 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 132.08 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 132.08 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 2ffe01db-f03f-52c7-a8db-2e938bf792e9))
+    (pin "2" (uuid d5655ee8-c007-566c-b828-8111cef60b79))
+    (instances
+      (project "flange-evt1" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "R71") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "R71") (unit 1)))))
+  (wire (pts (xy 132.08 91.44) (xy 132.08 86.36)) (stroke (width 0) (type default)) (uuid 5dca877e-c28d-5bdd-8187-ca1a130a8092))
+  (global_label "3V3" (shape input) (at 132.08 86.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 71cc32b8-6d93-5c31-aaf3-1afbdfb797a0))
+  (wire (pts (xy 132.08 101.6) (xy 132.08 106.68)) (stroke (width 0) (type default)) (uuid d43a33fc-384e-5a91-870d-5938cf5d0ea8))
+  (global_label
+    "POWER_SWITCH_N"
+    (shape input)
+    (at 132.08 106.68 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 3b0c046b-bef9-58ef-962d-525f13986743))
+  (symbol
+    (lib_id "PrototypeR0:BAT54WS")
+    (at 187.96 58.42 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid f6e19522-8572-5978-a5eb-6410251dde26)
+    (property "Reference" "D71" (at 187.96 48.260000000000005 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "BAT54WS-E3-08" (at 187.96 50.800000000000004 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "EVT1:D_SOD-323" (at 187.96 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.vishay.com/docs/86465/bat54ws.pdf" (at 187.96 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 187.96 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 187.96 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 187.96 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "2" (uuid 610c2430-d467-58e9-a822-8f5a08a6d573))
+    (pin "1" (uuid 07af1711-53d7-5e53-99c6-e80523c5187f))
+    (instances
+      (project "flange-evt1" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "D71") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "D71") (unit 1)))))
+  (wire (pts (xy 187.96 53.34) (xy 187.96 48.26)) (stroke (width 0) (type default)) (uuid 3d15b9b0-6ba1-537b-aa82-36b8fbf4bd55))
+  (global_label "POWER_N" (shape input) (at 187.96 48.26 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid d28696d8-22a8-5e77-b570-130907413cb0))
+  (wire (pts (xy 187.96 63.5) (xy 187.96 68.58)) (stroke (width 0) (type default)) (uuid 83ac8847-7f14-5fbf-ad26-2f05c1cbe749))
+  (global_label
+    "POWER_SWITCH_N"
+    (shape input)
+    (at 187.96 68.58 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 30710a95-0c12-59ba-a8a5-cb629eb7be9a))
+  (symbol
+    (lib_id "PrototypeR0:BAT54WS")
+    (at 251.46 58.42 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 241f9541-d633-5001-959d-d5940f754cc9)
+    (property "Reference" "D72" (at 251.46 48.260000000000005 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "BAT54WS-E3-08" (at 251.46 50.800000000000004 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "EVT1:D_SOD-323" (at 251.46 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.vishay.com/docs/86465/bat54ws.pdf" (at 251.46 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 251.46 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 251.46 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 251.46 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "2" (uuid c88d5729-f7de-5225-ae6a-0397cf970969))
+    (pin "1" (uuid cb9e73b9-1767-5305-96f9-425cef928be2))
+    (instances
+      (project "flange-evt1" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "D72") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "D72") (unit 1)))))
+  (wire (pts (xy 251.46 53.34) (xy 251.46 48.26)) (stroke (width 0) (type default)) (uuid 1c42d125-4e5f-5f1a-8110-d5b821bc0fc2))
+  (global_label "POWER_N" (shape input) (at 251.46 48.26 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid addbfa11-34b9-586f-8cd4-014d07239aab))
+  (wire (pts (xy 251.46 63.5) (xy 251.46 68.58)) (stroke (width 0) (type default)) (uuid 4ef901ac-a245-5383-aaa2-5bded5711704))
+  (global_label
+    "DOCK_PRESENT_N"
+    (shape input)
+    (at 251.46 68.58 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid cf9dd7ea-0dec-51b6-b02a-5a1a6308b3fc))
+  (symbol
+    (lib_id "PrototypeR0:BAT54WS")
+    (at 314.96 58.42 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid c6cce526-4446-5c6b-9c9f-5dc51d45757c)
+    (property "Reference" "D73" (at 314.96 48.260000000000005 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "BAT54WS-E3-08" (at 314.96 50.800000000000004 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "EVT1:D_SOD-323" (at 314.96 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.vishay.com/docs/86465/bat54ws.pdf" (at 314.96 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 314.96 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 314.96 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 314.96 58.42 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "2" (uuid 7196b7a5-d5e6-5f0d-be91-6784d1517698))
+    (pin "1" (uuid c9cdbb59-71ec-55e7-ac48-949b093e99eb))
+    (instances
+      (project "flange-evt1" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "D73") (unit 1)))
+      (project
+        "system-evt1"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/d1a9806d-8d63-56e8-80db-d32f9aa994fb" (reference "D73") (unit 1)))))
+  (wire (pts (xy 314.96 53.34) (xy 314.96 48.26)) (stroke (width 0) (type default)) (uuid c5a409e1-57af-5cbf-9750-0ea815837e50))
+  (global_label "BOOT_N" (shape input) (at 314.96 48.26 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 6c077bbf-3da4-5abd-9dd5-3b89c1e2f08e))
+  (wire (pts (xy 314.96 63.5) (xy 314.96 68.58)) (stroke (width 0) (type default)) (uuid e3361cb4-0ded-52ef-971c-8461174c2b3c))
+  (global_label "MODE_N" (shape input) (at 314.96 68.58 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 76b919da-f872-5af8-9df7-691156c22de1))
+  (text
+    "GPIO1 POWER_N is a diode-OR of the physical switch and active-low dock presence.\nWhile docked, firmware must suppress GPIO1 button gestures and deep sleep.\nU71 watches the separate raw physical switch, so docking never starts its timer."
+    (at 40.64 132.08 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid 900164b3-8ba4-5a38-9c9f-504ee5d3a90e))
+  (text
+    "Hold Power >=7.5 s for an independent 400 ms EN reset. Release before retry.\nHold Mode low during that reset for ROM USB download through the four contacts.\nInternal EN/BOOT service pads remain available before molding. No dock reset pin required."
+    (at 40.64 165.1 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid 0cf59463-8112-5ff3-b6bf-79ee4abc52c7))
+  (sheet_instances (path "/" (page "1"))))

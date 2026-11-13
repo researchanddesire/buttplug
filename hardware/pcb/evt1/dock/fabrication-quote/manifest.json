@@ -1,0 +1,43 @@
+{
+  "scope": "EVT PCB fabrication quote only; no full-product release or order",
+  "board_sha256": "9c3a650aaef0999f66966572b4d5fac2bce25a02e54d166a8ab5ef55a3b3996f",
+  "quote_zip_sha256": "e48366377436e9ba70ca50399a3b6876d97ff9e89674b7355c3c58a6c466892e",
+  "native_checks_sha256": "69fba275e78c55f1119f8ed07af6090dfb27dc8ed480d82e0db455c9fa605510",
+  "electrical_validation_sha256": "83a921025f9aead4850c8b2d74a3d9774579cfab3f8d048758b654a897742793",
+  "files": {
+    "dock-evt1-B_Cu.gbl": "684479df4300856c9a0fabb650b6fdadfd09da8fc4840effa52cc66e7f4972ec",
+    "dock-evt1-B_Mask.gbs": "5ed853017036b00831538e656260fbbc51458cca52caa6e719e7eb94ff1a98e3",
+    "dock-evt1-B_Paste.gbp": "f8908062a0e7f3bc66c0442f8afdbde89ab375e5775e10c1070456ee0558627f",
+    "dock-evt1-B_Silkscreen.gbo": "0c8cba8a3c3d69f11b291981e4004b5317f5991c342364b217950abf5f66d2a5",
+    "dock-evt1-Edge_Cuts.gm1": "a36c63b1a65d5fbbf5b4f0eb125446f5538e1ee604870f34ddd183afb3db311e",
+    "dock-evt1-F_Cu.gtl": "88937221774367d895b0542ca8173966bad5f5e5d139e1cd0231aebee917c471",
+    "dock-evt1-F_Mask.gts": "fda845e66aa9cd6a530581b6871bcc6988aa017a7d40106d33331cef853679da",
+    "dock-evt1-F_Paste.gtp": "55c68dfe33cf0354a62bc0798542b95bb4ef6d9d23dbf1fd4cb7ba1a4f83c8af",
+    "dock-evt1-F_Silkscreen.gto": "8ceaf91cc96d6a67682444d071e095374fb4c3e5eeaff0c8a88a0946a5a78503",
+    "dock-evt1-NPTH.drl": "6ca076733c640f611c22f8e7fe4924f4911a4e22d0c83056fbdd56fb031b71e2",
+    "dock-evt1-PTH.drl": "dfeffd63f5805da17f653981231d4f83aa06542688147614bf76999db0e0ca73",
+    "dock-evt1-job.gbrjob": "f67b3205548ea01bdd354e084326711737505afb2cecd686652af6d01a49522c",
+    "fabrication-request.json": "7d7acac22d735362831b95ed33ae94878afdd5499fdc63a53df63ac841d4bf61"
+  },
+  "fabrication_request": {
+    "scope": "EVT prototype fabrication quote; no full-product build release, supplier acceptance or order",
+    "layers": 2,
+    "copper_layer_order": [
+      "F.Cu",
+      "B.Cu"
+    ],
+    "thickness_mm": 1.0,
+    "material": "FR4",
+    "finish": "ENIG",
+    "outer_copper_oz": 1,
+    "inner_copper_oz": null,
+    "copper_clearance_min_mm": 0.19999999999999998,
+    "track_width_min_mm": 0.15,
+    "via_drill_min_mm": 0.3,
+    "via_diameter_min_mm": 0.5,
+    "copper_to_board_edge_min_mm": 0.3,
+    "hole_to_copper_min_mm": 0.15,
+    "supplier_review": "USB4105 locating-peg land pattern requires acceptance of0.15mm hole-to-copper clearance on dock board; review routed slots, finished thickness/holes and paste. Pin-board thickness sets spring compression.",
+    "native_stackup_finish": "None"
+  }
+}

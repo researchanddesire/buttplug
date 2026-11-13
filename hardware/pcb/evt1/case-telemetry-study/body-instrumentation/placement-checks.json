@@ -1,0 +1,2574 @@
+{
+  "status": "Native 2D packing and pad contract pass; explicitly unrouted and not mechanically qualified",
+  "checker_sha256": "0098151a2dee67cf134373462db61f82a5da24a818024e18c4a55c9a5855ee8c",
+  "native_read_version": "7.0.7",
+  "native_DRC_version": "10.0.8",
+  "original_body_board_sha256": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367",
+  "packing_board_sha256": "91ffbcddd77f1945802f64a67b23475943304aeae1e98a7246f9f90c2a2c01be",
+  "native_XML_sha256": "a3c7d0d9067a6eb6e8e02a16102a3dfe293dd266e79c9fa92cf730999d5b2945",
+  "placement_DRC_sha256": "89280aecd6d149cb3bf0fb6a9abee1c81ca4cede1cd675f41a6e38efb162cfd5",
+  "original_poses_and_layers_preserved": 69,
+  "original_pad_geometry_instances_preserved": 255,
+  "total_footprints": 90,
+  "added_positions": 21,
+  "pad_netlist_instances_checked": 283,
+  "DRC_geometry_violations": 0,
+  "DRC_unconnected_expected": 212,
+  "DRC_ignored": [],
+  "DRC_exclusions": [],
+  "original_outline_and_6layer1mm_stackup": true,
+  "manual_J81_courtyard_sha256": "a6821255f81ed98d6963dd0673b889c9d9170316fdbf9b669fe476ec15e61464",
+  "pad_netlist_checks": [
+    {
+      "ref": "U1",
+      "pin": "1",
+      "net": "PACK_NTC",
+      "native_xy_mm": [
+        103.3,
+        89.85
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "2",
+      "net": "PACK_P",
+      "native_xy_mm": [
+        103.3,
+        90.35
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "net": "PACK_P",
+      "native_xy_mm": [
+        103.3,
+        90.85
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "net": "CHARGE_CE_N",
+      "native_xy_mm": [
+        103.3,
+        91.35
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "5",
+      "net": "GND",
+      "native_xy_mm": [
+        103.95,
+        92.0
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "6",
+      "net": "GND",
+      "native_xy_mm": [
+        104.45,
+        92.0
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "7",
+      "net": "DOCK_PRESENT_N",
+      "native_xy_mm": [
+        104.95,
+        92.0
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "8",
+      "net": "GND",
+      "native_xy_mm": [
+        105.45,
+        92.0
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "net": "CHARGE_STATUS_N",
+      "native_xy_mm": [
+        106.1,
+        91.35
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "net": "SYS",
+      "native_xy_mm": [
+        106.1,
+        90.85
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "11",
+      "net": "SYS",
+      "native_xy_mm": [
+        106.1,
+        90.35
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "12",
+      "net": "CHG_ILIM",
+      "native_xy_mm": [
+        106.1,
+        89.85
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "13",
+      "net": "VBUS_CHG",
+      "native_xy_mm": [
+        105.45,
+        89.2
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "14",
+      "net": "unconnected-(U1-TMR-Pad14)",
+      "native_xy_mm": [
+        104.95,
+        89.2
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "net": "unconnected-(U1-ITERM-Pad15)",
+      "native_xy_mm": [
+        104.45,
+        89.2
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "net": "CHG_ISET",
+      "native_xy_mm": [
+        103.95,
+        89.2
+      ]
+    },
+    {
+      "ref": "U1",
+      "pin": "17",
+      "net": "GND",
+      "native_xy_mm": [
+        104.7,
+        90.6
+      ]
+    },
+    {
+      "ref": "R802",
+      "pin": "1",
+      "net": "ISET_TAP_MID",
+      "native_xy_mm": [
+        109.2,
+        82.61
+      ]
+    },
+    {
+      "ref": "R802",
+      "pin": "2",
+      "net": "ISET_FILTER",
+      "native_xy_mm": [
+        109.2,
+        81.59
+      ]
+    },
+    {
+      "ref": "R44",
+      "pin": "1",
+      "net": "TEMP_HOT_IN",
+      "native_xy_mm": [
+        92.074999,
+        97.514999
+      ]
+    },
+    {
+      "ref": "R44",
+      "pin": "2",
+      "net": "TEMP_COLD_IN",
+      "native_xy_mm": [
+        92.074999,
+        96.064999
+      ]
+    },
+    {
+      "ref": "R45",
+      "pin": "1",
+      "net": "TEMP_COLD_IN",
+      "native_xy_mm": [
+        107.66,
+        97.344999
+      ]
+    },
+    {
+      "ref": "R45",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        107.66,
+        95.894999
+      ]
+    },
+    {
+      "ref": "J3",
+      "pin": "1",
+      "net": "MOTOR_P",
+      "native_xy_mm": [
+        96.1,
+        81.65
+      ]
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "net": "MOTOR_N",
+      "native_xy_mm": [
+        95.1,
+        81.65
+      ]
+    },
+    {
+      "ref": "J3",
+      "pin": "MP",
+      "net": "",
+      "native_xy_mm": [
+        97.4,
+        77.775
+      ]
+    },
+    {
+      "ref": "J3",
+      "pin": "MP",
+      "net": "",
+      "native_xy_mm": [
+        93.8,
+        77.775
+      ]
+    },
+    {
+      "ref": "R47",
+      "pin": "1",
+      "net": "CHARGE_PERMIT",
+      "native_xy_mm": [
+        91.845,
+        83.04
+      ]
+    },
+    {
+      "ref": "R47",
+      "pin": "2",
+      "net": "CHARGE_GATE",
+      "native_xy_mm": [
+        91.845,
+        82.02
+      ]
+    },
+    {
+      "ref": "R25",
+      "pin": "1",
+      "net": "MOTOR_IN1",
+      "native_xy_mm": [
+        107.95,
+        94.864999
+      ]
+    },
+    {
+      "ref": "R25",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        107.95,
+        93.844999
+      ]
+    },
+    {
+      "ref": "R63",
+      "pin": "1",
+      "net": "TIP_EXC_HALF",
+      "native_xy_mm": [
+        93.39,
+        86.7
+      ]
+    },
+    {
+      "ref": "R63",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        94.41,
+        86.7
+      ]
+    },
+    {
+      "ref": "R46",
+      "pin": "1",
+      "net": "VBUS_CHG",
+      "native_xy_mm": [
+        91.845,
+        79.199999
+      ]
+    },
+    {
+      "ref": "R46",
+      "pin": "2",
+      "net": "CHARGE_TEMP_OK",
+      "native_xy_mm": [
+        91.845,
+        78.179999
+      ]
+    },
+    {
+      "ref": "R803",
+      "pin": "1",
+      "net": "PACK_NTC",
+      "native_xy_mm": [
+        95.69,
+        88.8
+      ]
+    },
+    {
+      "ref": "R803",
+      "pin": "2",
+      "net": "TS_TAP_MID",
+      "native_xy_mm": [
+        96.71,
+        88.8
+      ]
+    },
+    {
+      "ref": "R801",
+      "pin": "1",
+      "net": "CHG_ISET",
+      "native_xy_mm": [
+        107.79,
+        86.5
+      ]
+    },
+    {
+      "ref": "R801",
+      "pin": "2",
+      "net": "ISET_TAP_MID",
+      "native_xy_mm": [
+        108.81,
+        86.5
+      ]
+    },
+    {
+      "ref": "R808",
+      "pin": "1",
+      "net": "CE_ALLOWED_RAW",
+      "native_xy_mm": [
+        92.5,
+        99.61
+      ]
+    },
+    {
+      "ref": "R808",
+      "pin": "2",
+      "net": "CE_ALLOWED_SENSE",
+      "native_xy_mm": [
+        92.5,
+        98.59
+      ]
+    },
+    {
+      "ref": "C801",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        95.72,
+        89.9
+      ]
+    },
+    {
+      "ref": "C801",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        96.68,
+        89.9
+      ]
+    },
+    {
+      "ref": "C29",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        104.13,
+        84.46
+      ]
+    },
+    {
+      "ref": "C29",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        103.17,
+        84.46
+      ]
+    },
+    {
+      "ref": "C804",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        96.92,
+        84.6
+      ]
+    },
+    {
+      "ref": "C804",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        97.88,
+        84.6
+      ]
+    },
+    {
+      "ref": "J2",
+      "pin": "1",
+      "net": "PACK_P",
+      "native_xy_mm": [
+        98.015,
+        87.25
+      ]
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        97.8,
+        88.1
+      ]
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        98.015,
+        88.75
+      ]
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "net": "PACK_NTC",
+      "native_xy_mm": [
+        98.015,
+        90.25
+      ]
+    },
+    {
+      "ref": "J2",
+      "pin": "4",
+      "net": "PACK_GUARD",
+      "native_xy_mm": [
+        98.015,
+        91.75
+      ]
+    },
+    {
+      "ref": "R806",
+      "pin": "1",
+      "net": "TS_BUF",
+      "native_xy_mm": [
+        97.59,
+        86.1
+      ]
+    },
+    {
+      "ref": "R806",
+      "pin": "2",
+      "net": "CHARGE_TS_ADC",
+      "native_xy_mm": [
+        98.61,
+        86.1
+      ]
+    },
+    {
+      "ref": "R5",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        107.18,
+        88.52
+      ]
+    },
+    {
+      "ref": "R5",
+      "pin": "2",
+      "net": "CHARGE_STATUS_N",
+      "native_xy_mm": [
+        108.2,
+        88.52
+      ]
+    },
+    {
+      "ref": "C805",
+      "pin": "1",
+      "net": "CHARGE_CURRENT_ADC",
+      "native_xy_mm": [
+        92.4,
+        88.98
+      ]
+    },
+    {
+      "ref": "C805",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        92.4,
+        88.02
+      ]
+    },
+    {
+      "ref": "C44",
+      "pin": "1",
+      "net": "VBUS_CHG",
+      "native_xy_mm": [
+        107.96,
+        83.314999
+      ]
+    },
+    {
+      "ref": "C44",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        107.96,
+        81.964999
+      ]
+    },
+    {
+      "ref": "C3",
+      "pin": "1",
+      "net": "SYS",
+      "native_xy_mm": [
+        107.725,
+        91.55
+      ]
+    },
+    {
+      "ref": "C3",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        107.725,
+        89.65
+      ]
+    },
+    {
+      "ref": "R4",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        107.5,
+        99.76
+      ]
+    },
+    {
+      "ref": "R4",
+      "pin": "2",
+      "net": "DOCK_PRESENT_N",
+      "native_xy_mm": [
+        107.5,
+        98.74
+      ]
+    },
+    {
+      "ref": "C63",
+      "pin": "1",
+      "net": "TIP_EXC_HALF",
+      "native_xy_mm": [
+        95.62,
+        86.7
+      ]
+    },
+    {
+      "ref": "C63",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        96.58,
+        86.7
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "1",
+      "net": "GND",
+      "native_xy_mm": [
+        91.75,
+        92.3
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "2",
+      "net": "unconnected-(U7-ALERT_RDY-Pad2)",
+      "native_xy_mm": [
+        91.75,
+        92.8
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "3",
+      "net": "GND",
+      "native_xy_mm": [
+        91.75,
+        93.3
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "4",
+      "net": "TIP_NTC",
+      "native_xy_mm": [
+        91.75,
+        93.8
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "5",
+      "net": "TIP_EXC_HALF",
+      "native_xy_mm": [
+        91.75,
+        94.3
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "6",
+      "net": "CHARGE_CURRENT_ADC",
+      "native_xy_mm": [
+        96.15,
+        94.3
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "7",
+      "net": "CHARGE_TS_ADC",
+      "native_xy_mm": [
+        96.15,
+        93.8
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "8",
+      "net": "3V3",
+      "native_xy_mm": [
+        96.15,
+        93.3
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "9",
+      "net": "I2C_SDA",
+      "native_xy_mm": [
+        96.15,
+        92.8
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "10",
+      "net": "I2C_SCL",
+      "native_xy_mm": [
+        96.15,
+        92.3
+      ]
+    },
+    {
+      "ref": "C61",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        95.82,
+        90.9
+      ]
+    },
+    {
+      "ref": "C61",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        96.78,
+        90.9
+      ]
+    },
+    {
+      "ref": "R62",
+      "pin": "1",
+      "net": "TIP_EXC_EN",
+      "native_xy_mm": [
+        93.39,
+        87.9
+      ]
+    },
+    {
+      "ref": "R62",
+      "pin": "2",
+      "net": "TIP_EXC_HALF",
+      "native_xy_mm": [
+        94.41,
+        87.9
+      ]
+    },
+    {
+      "ref": "C806",
+      "pin": "1",
+      "net": "CHARGE_TS_ADC",
+      "native_xy_mm": [
+        95.72,
+        87.7
+      ]
+    },
+    {
+      "ref": "C806",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        96.68,
+        87.7
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "1",
+      "net": "MOTOR_3V7",
+      "native_xy_mm": [
+        105.25,
+        85.65
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "2",
+      "net": "MOTOR_P",
+      "native_xy_mm": [
+        105.75,
+        85.65
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "3",
+      "net": "MOTOR_N",
+      "native_xy_mm": [
+        106.25,
+        85.65
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "4",
+      "net": "GND",
+      "native_xy_mm": [
+        106.75,
+        85.65
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "5",
+      "net": "GND",
+      "native_xy_mm": [
+        106.75,
+        83.75
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "6",
+      "net": "MOTOR_IN1",
+      "native_xy_mm": [
+        106.25,
+        83.75
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "7",
+      "net": "GND",
+      "native_xy_mm": [
+        105.75,
+        83.75
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "8",
+      "net": "3V3",
+      "native_xy_mm": [
+        105.25,
+        83.75
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "9",
+      "net": "GND",
+      "native_xy_mm": [
+        106.0,
+        84.7
+      ]
+    },
+    {
+      "ref": "C807",
+      "pin": "1",
+      "net": "ISET_FILTER",
+      "native_xy_mm": [
+        109.2,
+        84.58
+      ]
+    },
+    {
+      "ref": "C807",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        109.2,
+        83.62
+      ]
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "net": "CHG_ISET",
+      "native_xy_mm": [
+        106.99,
+        87.52
+      ]
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        108.01,
+        87.52
+      ]
+    },
+    {
+      "ref": "U802",
+      "pin": "1",
+      "net": "ISET_FILTER",
+      "native_xy_mm": [
+        107.15,
+        80.3
+      ]
+    },
+    {
+      "ref": "U802",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        107.8,
+        80.3
+      ]
+    },
+    {
+      "ref": "U802",
+      "pin": "3",
+      "net": "ISET_BUF",
+      "native_xy_mm": [
+        108.45,
+        80.3
+      ]
+    },
+    {
+      "ref": "U802",
+      "pin": "4",
+      "net": "ISET_BUF",
+      "native_xy_mm": [
+        108.45,
+        78.1
+      ]
+    },
+    {
+      "ref": "U802",
+      "pin": "5",
+      "net": "3V3",
+      "native_xy_mm": [
+        107.15,
+        78.1
+      ]
+    },
+    {
+      "ref": "R61",
+      "pin": "1",
+      "net": "TIP_EXC_EN",
+      "native_xy_mm": [
+        93.39,
+        90.3
+      ]
+    },
+    {
+      "ref": "R61",
+      "pin": "2",
+      "net": "TIP_NTC",
+      "native_xy_mm": [
+        94.41,
+        90.3
+      ]
+    },
+    {
+      "ref": "R805",
+      "pin": "1",
+      "net": "ISET_BUF",
+      "native_xy_mm": [
+        92.4,
+        91.01
+      ]
+    },
+    {
+      "ref": "R805",
+      "pin": "2",
+      "net": "CHARGE_CURRENT_ADC",
+      "native_xy_mm": [
+        92.4,
+        89.99
+      ]
+    },
+    {
+      "ref": "R3",
+      "pin": "1",
+      "net": "VBUS_CHG",
+      "native_xy_mm": [
+        91.845,
+        81.119999
+      ]
+    },
+    {
+      "ref": "R3",
+      "pin": "2",
+      "net": "CHARGE_CE_N",
+      "native_xy_mm": [
+        91.845,
+        80.099999
+      ]
+    },
+    {
+      "ref": "C28",
+      "pin": "1",
+      "net": "MOTOR_3V7",
+      "native_xy_mm": [
+        104.13,
+        85.5
+      ]
+    },
+    {
+      "ref": "C28",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        103.17,
+        85.5
+      ]
+    },
+    {
+      "ref": "U804",
+      "pin": "1",
+      "net": "unconnected-(U804-NC-Pad1)",
+      "native_xy_mm": [
+        93.3,
+        83.95
+      ]
+    },
+    {
+      "ref": "U804",
+      "pin": "2",
+      "net": "CE_FILTER_INPUT",
+      "native_xy_mm": [
+        93.3,
+        84.6
+      ]
+    },
+    {
+      "ref": "U804",
+      "pin": "3",
+      "net": "GND",
+      "native_xy_mm": [
+        93.3,
+        85.25
+      ]
+    },
+    {
+      "ref": "U804",
+      "pin": "4",
+      "net": "CE_ALLOWED_RAW",
+      "native_xy_mm": [
+        95.5,
+        85.25
+      ]
+    },
+    {
+      "ref": "U804",
+      "pin": "5",
+      "net": "3V3",
+      "native_xy_mm": [
+        95.5,
+        83.95
+      ]
+    },
+    {
+      "ref": "R809",
+      "pin": "1",
+      "net": "CHARGE_STATUS_N",
+      "native_xy_mm": [
+        101.49,
+        83.4
+      ]
+    },
+    {
+      "ref": "R809",
+      "pin": "2",
+      "net": "CHG_SENSE_N",
+      "native_xy_mm": [
+        102.51,
+        83.4
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "1",
+      "net": "GND",
+      "native_xy_mm": [
+        95.5,
+        97.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "2",
+      "net": "VBUS_CHG",
+      "native_xy_mm": [
+        96.5,
+        97.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "3",
+      "net": "3V3",
+      "native_xy_mm": [
+        97.5,
+        97.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "4",
+      "net": "PACK_P",
+      "native_xy_mm": [
+        98.5,
+        97.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "5",
+      "net": "MOTOR_ARM",
+      "native_xy_mm": [
+        99.5,
+        97.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "6",
+      "net": "MOTOR_PWM",
+      "native_xy_mm": [
+        100.5,
+        97.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "7",
+      "net": "DOCK_PRESENT_N",
+      "native_xy_mm": [
+        101.5,
+        97.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "8",
+      "net": "I2C_SDA",
+      "native_xy_mm": [
+        102.5,
+        97.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "9",
+      "net": "I2C_SCL",
+      "native_xy_mm": [
+        103.5,
+        97.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "10",
+      "net": "TIP_EXC_EN",
+      "native_xy_mm": [
+        104.5,
+        97.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "MP",
+      "net": "",
+      "native_xy_mm": [
+        94.2,
+        100.875
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "MP",
+      "net": "",
+      "native_xy_mm": [
+        105.8,
+        100.875
+      ]
+    },
+    {
+      "ref": "C30",
+      "pin": "1",
+      "net": "MOTOR_3V7",
+      "native_xy_mm": [
+        101.05,
+        88.15
+      ]
+    },
+    {
+      "ref": "C30",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        101.05,
+        84.85
+      ]
+    },
+    {
+      "ref": "C802",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        106.72,
+        76.8
+      ]
+    },
+    {
+      "ref": "C802",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        107.68,
+        76.8
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "1",
+      "net": "CHARGE_GATE",
+      "native_xy_mm": [
+        99.85,
+        94.5375
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        101.75,
+        94.5375
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "3",
+      "net": "CHARGE_CE_N",
+      "native_xy_mm": [
+        100.8,
+        92.6625
+      ]
+    },
+    {
+      "ref": "U801",
+      "pin": "1",
+      "net": "CHG_SENSE_N",
+      "native_xy_mm": [
+        97.71,
+        92.8
+      ]
+    },
+    {
+      "ref": "U801",
+      "pin": "2",
+      "net": "unconnected-(U801-P2-Pad2)",
+      "native_xy_mm": [
+        97.71,
+        93.3
+      ]
+    },
+    {
+      "ref": "U801",
+      "pin": "3",
+      "net": "GND",
+      "native_xy_mm": [
+        97.71,
+        93.8
+      ]
+    },
+    {
+      "ref": "U801",
+      "pin": "4",
+      "net": "unconnected-(U801-P3/INT-Pad4)",
+      "native_xy_mm": [
+        98.1,
+        93.57
+      ]
+    },
+    {
+      "ref": "U801",
+      "pin": "5",
+      "net": "I2C_SCL",
+      "native_xy_mm": [
+        98.49,
+        93.8
+      ]
+    },
+    {
+      "ref": "U801",
+      "pin": "6",
+      "net": "I2C_SDA",
+      "native_xy_mm": [
+        98.49,
+        93.3
+      ]
+    },
+    {
+      "ref": "U801",
+      "pin": "7",
+      "net": "3V3",
+      "native_xy_mm": [
+        98.49,
+        92.8
+      ]
+    },
+    {
+      "ref": "U801",
+      "pin": "8",
+      "net": "CE_ALLOWED_SENSE",
+      "native_xy_mm": [
+        98.1,
+        93.03
+      ]
+    },
+    {
+      "ref": "R48",
+      "pin": "1",
+      "net": "CHARGE_GATE",
+      "native_xy_mm": [
+        107.18,
+        92.68
+      ]
+    },
+    {
+      "ref": "R48",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        108.2,
+        92.68
+      ]
+    },
+    {
+      "ref": "JP1",
+      "pin": "1",
+      "net": "CHARGE_TEMP_OK",
+      "native_xy_mm": [
+        103.56,
+        94.41
+      ]
+    },
+    {
+      "ref": "JP1",
+      "pin": "2",
+      "net": "CHARGE_PERMIT",
+      "native_xy_mm": [
+        104.86,
+        94.41
+      ]
+    },
+    {
+      "ref": "C1",
+      "pin": "1",
+      "net": "VBUS_CHG",
+      "native_xy_mm": [
+        105.45,
+        87.6
+      ]
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        103.55,
+        87.6
+      ]
+    },
+    {
+      "ref": "J81",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        91.3,
+        90.0
+      ]
+    },
+    {
+      "ref": "J81",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        91.3,
+        88.5
+      ]
+    },
+    {
+      "ref": "J81",
+      "pin": "3",
+      "net": "I2C_SDA",
+      "native_xy_mm": [
+        91.3,
+        87.0
+      ]
+    },
+    {
+      "ref": "J81",
+      "pin": "4",
+      "net": "I2C_SCL",
+      "native_xy_mm": [
+        91.3,
+        85.5
+      ]
+    },
+    {
+      "ref": "C62",
+      "pin": "1",
+      "net": "TIP_NTC",
+      "native_xy_mm": [
+        93.42,
+        89.1
+      ]
+    },
+    {
+      "ref": "C62",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        94.38,
+        89.1
+      ]
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "net": "PACK_P",
+      "native_xy_mm": [
+        101.75,
+        90.55
+      ]
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        99.85,
+        90.55
+      ]
+    },
+    {
+      "ref": "R807",
+      "pin": "1",
+      "net": "CHARGE_CE_N",
+      "native_xy_mm": [
+        96.79,
+        83.5
+      ]
+    },
+    {
+      "ref": "R807",
+      "pin": "2",
+      "net": "CE_FILTER_INPUT",
+      "native_xy_mm": [
+        97.81,
+        83.5
+      ]
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "net": "CHG_ILIM",
+      "native_xy_mm": [
+        99.5,
+        83.52
+      ]
+    },
+    {
+      "ref": "R2",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        100.52,
+        83.52
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "1",
+      "net": "TIP_NTC",
+      "native_xy_mm": [
+        103.8,
+        78.325
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        102.8,
+        78.325
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "MP",
+      "net": "",
+      "native_xy_mm": [
+        105.1,
+        80.85
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "MP",
+      "net": "",
+      "native_xy_mm": [
+        101.5,
+        80.85
+      ]
+    },
+    {
+      "ref": "C27",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        104.425,
+        99.9
+      ]
+    },
+    {
+      "ref": "C27",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        105.775,
+        99.9
+      ]
+    },
+    {
+      "ref": "C54",
+      "pin": "1",
+      "net": "MOTOR_3V7",
+      "native_xy_mm": [
+        99.55,
+        83.374999
+      ]
+    },
+    {
+      "ref": "C54",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        99.55,
+        82.024999
+      ]
+    },
+    {
+      "ref": "C26",
+      "pin": "1",
+      "net": "REG2_AUX",
+      "native_xy_mm": [
+        101.275,
+        85.6
+      ]
+    },
+    {
+      "ref": "C26",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        102.625,
+        85.6
+      ]
+    },
+    {
+      "ref": "C15",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        98.025,
+        95.5
+      ]
+    },
+    {
+      "ref": "C15",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        95.075,
+        95.5
+      ]
+    },
+    {
+      "ref": "C53",
+      "pin": "1",
+      "net": "SYS",
+      "native_xy_mm": [
+        105.15,
+        83.374999
+      ]
+    },
+    {
+      "ref": "C53",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        105.15,
+        82.024999
+      ]
+    },
+    {
+      "ref": "C16",
+      "pin": "1",
+      "net": "REG1_AUX",
+      "native_xy_mm": [
+        101.275,
+        96.6
+      ]
+    },
+    {
+      "ref": "C16",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        102.625,
+        96.6
+      ]
+    },
+    {
+      "ref": "C21",
+      "pin": "1",
+      "net": "SYS",
+      "native_xy_mm": [
+        105.3,
+        85.15
+      ]
+    },
+    {
+      "ref": "C21",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        107.2,
+        85.15
+      ]
+    },
+    {
+      "ref": "C22",
+      "pin": "1",
+      "net": "SYS",
+      "native_xy_mm": [
+        107.15,
+        82.45
+      ]
+    },
+    {
+      "ref": "C22",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        107.15,
+        80.55
+      ]
+    },
+    {
+      "ref": "C52",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        99.55,
+        94.374999
+      ]
+    },
+    {
+      "ref": "C52",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        99.55,
+        93.024999
+      ]
+    },
+    {
+      "ref": "C14",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        93.05,
+        95.475
+      ]
+    },
+    {
+      "ref": "C14",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        93.05,
+        92.525
+      ]
+    },
+    {
+      "ref": "U803",
+      "pin": "1",
+      "net": "TS_FILTER",
+      "native_xy_mm": [
+        92.65,
+        90.9
+      ]
+    },
+    {
+      "ref": "U803",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        92.0,
+        90.9
+      ]
+    },
+    {
+      "ref": "U803",
+      "pin": "3",
+      "net": "TS_BUF",
+      "native_xy_mm": [
+        91.35,
+        90.9
+      ]
+    },
+    {
+      "ref": "U803",
+      "pin": "4",
+      "net": "TS_BUF",
+      "native_xy_mm": [
+        91.35,
+        88.7
+      ]
+    },
+    {
+      "ref": "U803",
+      "pin": "5",
+      "net": "3V3",
+      "native_xy_mm": [
+        92.65,
+        88.7
+      ]
+    },
+    {
+      "ref": "C803",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        90.8,
+        87.38
+      ]
+    },
+    {
+      "ref": "C803",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        90.8,
+        86.42
+      ]
+    },
+    {
+      "ref": "R22",
+      "pin": "1",
+      "net": "REG2_FB",
+      "native_xy_mm": [
+        95.8875,
+        82.1
+      ]
+    },
+    {
+      "ref": "R22",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        97.3375,
+        82.1
+      ]
+    },
+    {
+      "ref": "R12",
+      "pin": "1",
+      "net": "REG1_FB",
+      "native_xy_mm": [
+        95.8875,
+        93.1
+      ]
+    },
+    {
+      "ref": "R12",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        97.3375,
+        93.1
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "1",
+      "net": "CHARGE_TEMP_OK",
+      "native_xy_mm": [
+        99.385,
+        102.8125
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        98.435,
+        102.8125
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "3",
+      "net": "VBUS_CHG",
+      "native_xy_mm": [
+        97.485,
+        102.8125
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "4",
+      "net": "unconnected-(U9-CT-Pad4)",
+      "native_xy_mm": [
+        97.485,
+        100.5375
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "5",
+      "net": "3V3",
+      "native_xy_mm": [
+        98.435,
+        100.5375
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "6",
+      "net": "VBUS_CHG",
+      "native_xy_mm": [
+        99.385,
+        100.5375
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "1",
+      "net": "REG2_PS",
+      "native_xy_mm": [
+        103.0,
+        84.3
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "net": "unconnected-(U3-PG-Pad2)",
+      "native_xy_mm": [
+        102.5,
+        84.3
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "net": "REG2_AUX",
+      "native_xy_mm": [
+        102.0,
+        84.3
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "net": "GND",
+      "native_xy_mm": [
+        101.5,
+        84.3
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "5",
+      "net": "REG2_FB",
+      "native_xy_mm": [
+        100.85,
+        83.875
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "6",
+      "net": "unconnected-(U3-FB2-Pad6)",
+      "native_xy_mm": [
+        100.85,
+        83.375
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "7",
+      "net": "MOTOR_3V7",
+      "native_xy_mm": [
+        100.85,
+        82.875
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "8",
+      "net": "MOTOR_3V7",
+      "native_xy_mm": [
+        100.85,
+        82.375
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "9",
+      "net": "REG2_L2",
+      "native_xy_mm": [
+        101.75,
+        82.375
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "10",
+      "net": "GND",
+      "native_xy_mm": [
+        102.25,
+        82.55
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "11",
+      "net": "REG2_L1",
+      "native_xy_mm": [
+        102.75,
+        82.375
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "12",
+      "net": "SYS",
+      "native_xy_mm": [
+        103.65,
+        82.375
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "13",
+      "net": "SYS",
+      "native_xy_mm": [
+        103.65,
+        82.875
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "14",
+      "net": "MOTOR_ARM",
+      "native_xy_mm": [
+        103.65,
+        83.375
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "15",
+      "net": "GND",
+      "native_xy_mm": [
+        103.65,
+        83.875
+      ]
+    },
+    {
+      "ref": "C11",
+      "pin": "1",
+      "net": "SYS",
+      "native_xy_mm": [
+        105.3,
+        96.15
+      ]
+    },
+    {
+      "ref": "C11",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        107.2,
+        96.15
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "1",
+      "net": "CHARGE_TEMP_OK",
+      "native_xy_mm": [
+        95.925,
+        102.8125
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        94.975,
+        102.8125
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "3",
+      "net": "TEMP_HOT_IN",
+      "native_xy_mm": [
+        94.025,
+        102.8125
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "4",
+      "net": "TEMP_COLD_IN",
+      "native_xy_mm": [
+        94.025,
+        100.5375
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "5",
+      "net": "3V3",
+      "native_xy_mm": [
+        94.975,
+        100.5375
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "6",
+      "net": "CHARGE_TEMP_OK",
+      "native_xy_mm": [
+        95.925,
+        100.5375
+      ]
+    },
+    {
+      "ref": "C24",
+      "pin": "1",
+      "net": "MOTOR_3V7",
+      "native_xy_mm": [
+        93.05,
+        84.475
+      ]
+    },
+    {
+      "ref": "C24",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        93.05,
+        81.525
+      ]
+    },
+    {
+      "ref": "R21",
+      "pin": "1",
+      "net": "MOTOR_3V7",
+      "native_xy_mm": [
+        95.7375,
+        80.35
+      ]
+    },
+    {
+      "ref": "R21",
+      "pin": "2",
+      "net": "REG2_FB",
+      "native_xy_mm": [
+        97.4875,
+        80.35
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "net": "REG1_PS",
+      "native_xy_mm": [
+        103.0,
+        95.3
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "net": "unconnected-(U2-PG-Pad2)",
+      "native_xy_mm": [
+        102.5,
+        95.3
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "net": "REG1_AUX",
+      "native_xy_mm": [
+        102.0,
+        95.3
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "4",
+      "net": "GND",
+      "native_xy_mm": [
+        101.5,
+        95.3
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "5",
+      "net": "REG1_FB",
+      "native_xy_mm": [
+        100.85,
+        94.875
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "6",
+      "net": "unconnected-(U2-FB2-Pad6)",
+      "native_xy_mm": [
+        100.85,
+        94.375
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "7",
+      "net": "3V3",
+      "native_xy_mm": [
+        100.85,
+        93.875
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "8",
+      "net": "3V3",
+      "native_xy_mm": [
+        100.85,
+        93.375
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "9",
+      "net": "REG1_L2",
+      "native_xy_mm": [
+        101.75,
+        93.375
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "10",
+      "net": "GND",
+      "native_xy_mm": [
+        102.25,
+        93.55
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "11",
+      "net": "REG1_L1",
+      "native_xy_mm": [
+        102.75,
+        93.375
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "12",
+      "net": "SYS",
+      "native_xy_mm": [
+        103.65,
+        93.375
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "13",
+      "net": "SYS",
+      "native_xy_mm": [
+        103.65,
+        93.875
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "14",
+      "net": "REG1_PS",
+      "native_xy_mm": [
+        103.65,
+        94.375
+      ]
+    },
+    {
+      "ref": "U2",
+      "pin": "15",
+      "net": "GND",
+      "native_xy_mm": [
+        103.65,
+        94.875
+      ]
+    },
+    {
+      "ref": "L2",
+      "pin": "1",
+      "net": "REG2_L1",
+      "native_xy_mm": [
+        103.435,
+        79.0
+      ]
+    },
+    {
+      "ref": "L2",
+      "pin": "2",
+      "net": "REG2_L2",
+      "native_xy_mm": [
+        101.065,
+        79.0
+      ]
+    },
+    {
+      "ref": "R26",
+      "pin": "1",
+      "net": "SYS",
+      "native_xy_mm": [
+        105.525,
+        78.199999
+      ]
+    },
+    {
+      "ref": "R26",
+      "pin": "2",
+      "net": "REG2_PS",
+      "native_xy_mm": [
+        106.975,
+        78.199999
+      ]
+    },
+    {
+      "ref": "R11",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        95.8875,
+        91.5
+      ]
+    },
+    {
+      "ref": "R11",
+      "pin": "2",
+      "net": "REG1_FB",
+      "native_xy_mm": [
+        97.3375,
+        91.5
+      ]
+    },
+    {
+      "ref": "R24",
+      "pin": "1",
+      "net": "MOTOR_PWM",
+      "native_xy_mm": [
+        91.795,
+        87.21
+      ]
+    },
+    {
+      "ref": "R24",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        92.815,
+        87.21
+      ]
+    },
+    {
+      "ref": "C25",
+      "pin": "1",
+      "net": "MOTOR_3V7",
+      "native_xy_mm": [
+        98.025,
+        84.5
+      ]
+    },
+    {
+      "ref": "C25",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        95.075,
+        84.5
+      ]
+    },
+    {
+      "ref": "R23",
+      "pin": "1",
+      "net": "MOTOR_ARM",
+      "native_xy_mm": [
+        92.081,
+        99.144999
+      ]
+    },
+    {
+      "ref": "R23",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        92.081,
+        98.124999
+      ]
+    },
+    {
+      "ref": "L1",
+      "pin": "1",
+      "net": "REG1_L1",
+      "native_xy_mm": [
+        103.435,
+        90.0
+      ]
+    },
+    {
+      "ref": "L1",
+      "pin": "2",
+      "net": "REG1_L2",
+      "native_xy_mm": [
+        101.065,
+        90.0
+      ]
+    },
+    {
+      "ref": "R42",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        93.081,
+        99.144999
+      ]
+    },
+    {
+      "ref": "R42",
+      "pin": "2",
+      "net": "PACK_GUARD",
+      "native_xy_mm": [
+        93.081,
+        98.124999
+      ]
+    },
+    {
+      "ref": "R804",
+      "pin": "1",
+      "net": "TS_TAP_MID",
+      "native_xy_mm": [
+        91.79,
+        86.1
+      ]
+    },
+    {
+      "ref": "R804",
+      "pin": "2",
+      "net": "TS_FILTER",
+      "native_xy_mm": [
+        92.81,
+        86.1
+      ]
+    },
+    {
+      "ref": "R13",
+      "pin": "1",
+      "net": "SYS",
+      "native_xy_mm": [
+        105.525,
+        89.199999
+      ]
+    },
+    {
+      "ref": "R13",
+      "pin": "2",
+      "net": "REG1_PS",
+      "native_xy_mm": [
+        106.975,
+        89.199999
+      ]
+    },
+    {
+      "ref": "C51",
+      "pin": "1",
+      "net": "SYS",
+      "native_xy_mm": [
+        105.15,
+        94.374999
+      ]
+    },
+    {
+      "ref": "C51",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        105.15,
+        93.024999
+      ]
+    },
+    {
+      "ref": "C43",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        99.42,
+        98.914999
+      ]
+    },
+    {
+      "ref": "C43",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        100.77,
+        98.914999
+      ]
+    },
+    {
+      "ref": "C12",
+      "pin": "1",
+      "net": "SYS",
+      "native_xy_mm": [
+        107.15,
+        93.45
+      ]
+    },
+    {
+      "ref": "C12",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        107.15,
+        91.55
+      ]
+    },
+    {
+      "ref": "C13",
+      "pin": "1",
+      "net": "3V3",
+      "native_xy_mm": [
+        98.025,
+        89.5
+      ]
+    },
+    {
+      "ref": "C13",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        95.075,
+        89.5
+      ]
+    },
+    {
+      "ref": "R43",
+      "pin": "1",
+      "net": "PACK_GUARD",
+      "native_xy_mm": [
+        102.175,
+        98.25
+      ]
+    },
+    {
+      "ref": "R43",
+      "pin": "2",
+      "net": "TEMP_HOT_IN",
+      "native_xy_mm": [
+        103.925,
+        98.25
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "1",
+      "net": "MOTOR_PWM",
+      "native_xy_mm": [
+        102.845,
+        102.8125
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        101.895,
+        102.8125
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "3",
+      "net": "MOTOR_ARM",
+      "native_xy_mm": [
+        100.945,
+        102.8125
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "4",
+      "net": "MOTOR_IN1",
+      "native_xy_mm": [
+        100.945,
+        100.5375
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "5",
+      "net": "3V3",
+      "native_xy_mm": [
+        101.895,
+        100.5375
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "6",
+      "net": "DOCK_PRESENT_N",
+      "native_xy_mm": [
+        102.845,
+        100.5375
+      ]
+    },
+    {
+      "ref": "C808",
+      "pin": "1",
+      "net": "TS_FILTER",
+      "native_xy_mm": [
+        94.0,
+        87.88
+      ]
+    },
+    {
+      "ref": "C808",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        94.0,
+        86.92
+      ]
+    },
+    {
+      "ref": "C23",
+      "pin": "1",
+      "net": "MOTOR_3V7",
+      "native_xy_mm": [
+        98.025,
+        78.2
+      ]
+    },
+    {
+      "ref": "C23",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        95.075,
+        78.2
+      ]
+    }
+  ],
+  "all_selected_3D_models_bound": false,
+  "mechanical_3D_and_height_acceptance": false,
+  "routing_complete": false,
+  "original_artwork_promoted_or_modified": false
+}

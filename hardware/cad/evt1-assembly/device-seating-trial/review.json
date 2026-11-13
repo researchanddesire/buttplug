@@ -1,0 +1,100 @@
+{
+  "native_sha256": "5a21a55c4d34b6177e5bc86c2087b59e86b86bede63cb2a7b708fd60b5ded2c7",
+  "builder_sha256": "f2f9a8f285478d03dfc666bfbb2691df4723939e9a746506194e5b5a249dbf1e",
+  "source_host_sha256": "688c072ac989355187df894464c211c0e026bd0f2808f03d6ede89bcbbc055cd",
+  "source_device_sha256": "63da08fb57ef4bd5c0af9bbb872e5ec13d2163aa234433ed3da78c525ebb3833",
+  "received_stack": {
+    "flange_pad_top_Z_mm": [
+      13.0,
+      13.0,
+      13.0
+    ],
+    "flange_loaded_sheet_mm": 0.2484,
+    "flange_PET_layers": [
+      2,
+      2,
+      2
+    ],
+    "body_loaded_sheet_mm": 0.2484,
+    "body_PET_layers": 2,
+    "sheet_free_nominal_mm": 0.254,
+    "load_deflection_measured": false
+  },
+  "shadow_limits": {
+    "flange_face_contact_max_mm2": 72,
+    "body_band_contact_envelope_max_mm2": 28,
+    "total_contact_envelope_max_mm2": 100,
+    "tails_catches_and_geometry_also_block_rays": true,
+    "275nm_transmission_credited": false,
+    "contact_surface_cleaning_claim": false
+  },
+  "fixed_feature_dimensions": {
+    "flange_relief_Z_mm": 12.6,
+    "flange_relief_X_mm": [
+      -46,
+      46
+    ],
+    "flange_relief_Y_mm": [
+      23,
+      51.5
+    ],
+    "shimland_top_Z_mm": 12.65,
+    "flange_pad_centres_mm": [
+      [
+        -28,
+        30
+      ],
+      [
+        28,
+        30
+      ],
+      [
+        0,
+        40
+      ]
+    ],
+    "flange_pad_face_mm": [
+      6,
+      4
+    ],
+    "saddle_X_mm": [
+      -3.5,
+      3.5
+    ],
+    "saddle_Y_mm": [
+      104.5,
+      108.5
+    ],
+    "saddle_floor_Z_mm": 12.5,
+    "catch_centres_mm": [
+      [
+        -28,
+        54
+      ],
+      [
+        28,
+        54
+      ],
+      [
+        0,
+        54
+      ],
+      [
+        -24,
+        106.5
+      ],
+      [
+        24,
+        106.5
+      ]
+    ],
+    "catch_stem_diameter_mm": 2,
+    "catch_head_diameter_mm": 3.4,
+    "catch_underhead_Z_mm": 13.9,
+    "catch_top_Z_mm": 14.5,
+    "liner_min_floor_mm": 1.5
+  },
+  "physical_validation": false,
+  "silicone_modulus_assumed": false,
+  "full_product_release": false
+}

@@ -1,0 +1,2519 @@
+{
+  "board_file": "hardware/pcb/evt1/flange/flange-evt1.kicad_pcb",
+  "board_sha256": "adafe46de7b49daa22fa35dc287eec4d7b18b601016ea3dcd0380f36db6c6e9e",
+  "thickness_mm": 1.0,
+  "coordinate_frame": "R35 mechanical XY: native(x,y)=(100+X,130-Y) mm",
+  "outline_xy_mm": [
+    [
+      -12.7,
+      -24.5125
+    ],
+    [
+      -13.8,
+      -24.5125
+    ],
+    [
+      -13.8,
+      -12.5125
+    ],
+    [
+      -12.7,
+      -12.5125
+    ],
+    [
+      -12.7,
+      -6.7125
+    ],
+    [
+      -18.9,
+      -6.7125
+    ],
+    [
+      -18.9,
+      -11.0
+    ],
+    [
+      -20.0,
+      -11.0
+    ],
+    [
+      -20.0,
+      -9.0
+    ],
+    [
+      -37.3,
+      -9.0
+    ],
+    [
+      -37.3,
+      -29.0
+    ],
+    [
+      -20.0,
+      -29.0
+    ],
+    [
+      -20.0,
+      -26.0
+    ],
+    [
+      -18.9,
+      -26.0
+    ],
+    [
+      -18.9,
+      -30.3125
+    ],
+    [
+      -12.7,
+      -30.3125
+    ]
+  ],
+  "components": [
+    {
+      "ref": "SW1",
+      "xy_mm": [
+        -22.85,
+        -14.0
+      ],
+      "back": false,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -24.400000000000006,
+        -15.300000000000011,
+        -21.299999999999997,
+        -12.699999999999989
+      ],
+      "courtyard_xy_mm": [
+        -25.275000000000006,
+        -15.675000000000011,
+        -20.424999999999997,
+        -12.324999999999989
+      ],
+      "height_budget_mm": 1.75,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "B3U-1000P"
+    },
+    {
+      "ref": "D1",
+      "xy_mm": [
+        -17.18,
+        -17.2
+      ],
+      "back": false,
+      "angle_deg": 180.0,
+      "fab_bounds_xy_mm": [
+        -18.629999999999995,
+        -18.150000000000006,
+        -15.730000000000004,
+        -16.25
+      ],
+      "courtyard_xy_mm": [
+        -19.555000000000007,
+        -18.375,
+        -14.805000000000007,
+        -16.025000000000006
+      ],
+      "height_budget_mm": 1.35,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "B140HW-7"
+    },
+    {
+      "ref": "SW2",
+      "xy_mm": [
+        -16.85,
+        -14.0
+      ],
+      "back": false,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -18.400000000000006,
+        -15.300000000000011,
+        -15.299999999999997,
+        -12.699999999999989
+      ],
+      "courtyard_xy_mm": [
+        -19.275000000000006,
+        -15.675000000000011,
+        -14.424999999999997,
+        -12.324999999999989
+      ],
+      "height_budget_mm": 1.75,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "B3U-1000P"
+    },
+    {
+      "ref": "R76",
+      "xy_mm": [
+        -13.6,
+        -11.3
+      ],
+      "back": false,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -13.920000000000002,
+        -11.875,
+        -13.280000000000001,
+        -10.724999999999994
+      ],
+      "courtyard_xy_mm": [
+        -14.094999999999999,
+        -12.254999999999995,
+        -13.105000000000004,
+        -10.344999999999999
+      ],
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW040222R0BEED",
+      "fab_outline_bounds_xy_mm": [
+        -13.920000000000002,
+        -11.875,
+        -13.280000000000001,
+        -10.724999999999994
+      ],
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ]
+    },
+    {
+      "ref": "J4",
+      "xy_mm": [
+        -19.4,
+        -22.0
+      ],
+      "back": false,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -23.450000000000003,
+        -24.625,
+        -15.349999999999994,
+        -20.275000000000006
+      ],
+      "courtyard_xy_mm": [
+        -24.325000000000003,
+        -25.305000000000007,
+        -14.474999999999994,
+        -18.694999999999993
+      ],
+      "height_budget_mm": 2.95,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "SM06B-SRSS-TB(LF)(SN)"
+    },
+    {
+      "ref": "U6",
+      "xy_mm": [
+        -31.7,
+        -18.5
+      ],
+      "back": false,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -42.75,
+        -25.150000000000006,
+        -26.049999999999997,
+        -11.849999999999994
+      ],
+      "courtyard_xy_mm": [
+        -43.125,
+        -25.525000000000006,
+        -25.674999999999997,
+        -11.474999999999994
+      ],
+      "height_budget_mm": 2.55,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "ESP32-C3-MINI-1-N4X"
+    },
+    {
+      "ref": "R75",
+      "xy_mm": [
+        -17.5,
+        -11.3
+      ],
+      "back": false,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -17.819999999999993,
+        -11.875,
+        -17.180000000000007,
+        -10.724999999999994
+      ],
+      "courtyard_xy_mm": [
+        -17.995000000000005,
+        -12.254999999999995,
+        -17.004999999999995,
+        -10.344999999999999
+      ],
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW040222R0BEED",
+      "fab_outline_bounds_xy_mm": [
+        -17.819999999999993,
+        -11.875,
+        -17.180000000000007,
+        -10.724999999999994
+      ],
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ]
+    },
+    {
+      "ref": "F1",
+      "xy_mm": [
+        -21.97,
+        -17.2
+      ],
+      "back": false,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -23.620000000000005,
+        -18.05000000000001,
+        -20.319999999999993,
+        -16.349999999999994
+      ],
+      "courtyard_xy_mm": [
+        -24.275000000000006,
+        -18.345,
+        -19.665000000000006,
+        -16.055000000000007
+      ],
+      "height_budget_mm": 0.75,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "1206L050YR"
+    },
+    {
+      "ref": "U71",
+      "xy_mm": [
+        -15.9,
+        -11.5
+      ],
+      "back": true,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -16.450000000000003,
+        -12.275000000000006,
+        -15.349999999999994,
+        -10.724999999999994
+      ],
+      "courtyard_xy_mm": [
+        -16.674999999999997,
+        -12.504999999999995,
+        -15.125,
+        -10.495000000000005
+      ],
+      "height_budget_mm": 0.65,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TPS3422EGDRYR"
+    },
+    {
+      "ref": "R37",
+      "xy_mm": [
+        -29.46,
+        -20.71
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -29.935000000000002,
+        -21.560000000000002,
+        -28.985,
+        -19.86
+      ],
+      "courtyard_xy_mm": [
+        -30.185000000000002,
+        -21.985000000000014,
+        -28.735,
+        -19.435000000000002
+      ],
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW06034K70BEEA",
+      "fab_outline_bounds_xy_mm": [
+        -29.909999999999997,
+        -21.534999999999997,
+        -29.010000000000005,
+        -19.88499999999999
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ]
+    },
+    {
+      "ref": "R71",
+      "xy_mm": [
+        -18.0,
+        -11.3
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -18.319999999999993,
+        -11.875,
+        -17.680000000000007,
+        -10.724999999999994
+      ],
+      "courtyard_xy_mm": [
+        -18.495000000000005,
+        -12.254999999999995,
+        -17.504999999999995,
+        -10.344999999999999
+      ],
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW040210K0BEED",
+      "fab_outline_bounds_xy_mm": [
+        -18.319999999999993,
+        -11.875,
+        -17.680000000000007,
+        -10.724999999999994
+      ],
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ]
+    },
+    {
+      "ref": "R35",
+      "xy_mm": [
+        -28.0,
+        -20.98
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -28.475,
+        -21.830000000000002,
+        -27.525,
+        -20.13
+      ],
+      "courtyard_xy_mm": [
+        -28.724999999999994,
+        -22.254999999999995,
+        -27.275000000000006,
+        -19.705000000000013
+      ],
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW060310K0BEEA",
+      "fab_outline_bounds_xy_mm": [
+        -28.450000000000003,
+        -21.805000000000007,
+        -27.549999999999997,
+        -20.155
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ]
+    },
+    {
+      "ref": "C32",
+      "xy_mm": [
+        -36.0,
+        -24.4
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -36.45,
+        -25.25,
+        -35.55,
+        -23.549999999999997
+      ],
+      "courtyard_xy_mm": [
+        -36.675,
+        -25.67500000000001,
+        -35.325,
+        -23.125
+      ],
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "GRM188R71C104KA01D",
+      "fab_outline_bounds_xy_mm": [
+        -36.425,
+        -25.224999999999994,
+        -35.575,
+        -23.57499999999999
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ]
+    },
+    {
+      "ref": "R32",
+      "xy_mm": [
+        -30.1,
+        -22.99
+      ],
+      "back": true,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -30.950000000000003,
+        -23.465,
+        -29.25,
+        -22.514999999999997
+      ],
+      "courtyard_xy_mm": [
+        -31.375,
+        -23.715000000000003,
+        -28.825000000000003,
+        -22.264999999999986
+      ],
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW060310K0BEEA",
+      "fab_outline_bounds_xy_mm": [
+        -30.924999999999997,
+        -23.439999999999998,
+        -29.275000000000006,
+        -22.539999999999992
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ]
+    },
+    {
+      "ref": "J7",
+      "xy_mm": [
+        -23.8,
+        -15.8
+      ],
+      "back": true,
+      "angle_deg": -90.0,
+      "fab_bounds_xy_mm": [
+        -25.525000000000006,
+        -21.849999999999994,
+        -21.174999999999997,
+        -9.75
+      ],
+      "courtyard_xy_mm": [
+        -27.105000000000004,
+        -22.724999999999994,
+        -20.495000000000005,
+        -8.875
+      ],
+      "height_budget_mm": 3.2,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "SM10B-SRSS-TB(LF)(SN)"
+    },
+    {
+      "ref": "C33",
+      "xy_mm": [
+        -30.1,
+        -24.4
+      ],
+      "back": true,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -30.950000000000003,
+        -24.849999999999998,
+        -29.25,
+        -23.95
+      ],
+      "courtyard_xy_mm": [
+        -31.375,
+        -25.07499999999999,
+        -28.825000000000003,
+        -23.724999999999994
+      ],
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "C1608X7R1E105K080AB",
+      "fab_outline_bounds_xy_mm": [
+        -30.924999999999997,
+        -24.82499999999999,
+        -29.275000000000006,
+        -23.974999999999994
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ]
+    },
+    {
+      "ref": "R33",
+      "xy_mm": [
+        -33.57,
+        -24.36
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -34.045,
+        -25.21,
+        -33.095,
+        -23.509999999999998
+      ],
+      "courtyard_xy_mm": [
+        -34.295,
+        -25.63499999999999,
+        -32.845,
+        -23.085000000000008
+      ],
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW060310K0BEEA",
+      "fab_outline_bounds_xy_mm": [
+        -34.019999999999996,
+        -25.185000000000002,
+        -33.120000000000005,
+        -23.534999999999997
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ]
+    },
+    {
+      "ref": "R40",
+      "xy_mm": [
+        -17.1,
+        -26.1
+      ],
+      "back": true,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -18.150000000000002,
+        -26.8,
+        -16.05,
+        -25.400000000000002
+      ],
+      "courtyard_xy_mm": [
+        -18.575000000000003,
+        -27.025000000000006,
+        -15.625,
+        -25.17500000000001
+      ],
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW08051M00BEEA",
+      "fab_outline_bounds_xy_mm": [
+        -18.125,
+        -26.75,
+        -16.075000000000003,
+        -25.44999999999999
+      ],
+      "maximum_body_xy_mm": [
+        2.1,
+        1.4
+      ]
+    },
+    {
+      "ref": "C31",
+      "xy_mm": [
+        -36.1,
+        -21.5
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -36.775,
+        -22.55,
+        -35.425000000000004,
+        -20.45
+      ],
+      "courtyard_xy_mm": [
+        -37.025,
+        -23.07499999999999,
+        -35.175,
+        -19.92500000000001
+      ],
+      "height_budget_mm": 1.35,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "GRM21BR61A106KE19L",
+      "fab_outline_bounds_xy_mm": [
+        -36.75,
+        -22.525000000000006,
+        -35.45,
+        -20.474999999999994
+      ],
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ]
+    },
+    {
+      "ref": "R39",
+      "xy_mm": [
+        -14.0,
+        -26.7
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -14.7,
+        -27.75,
+        -13.3,
+        -25.65
+      ],
+      "courtyard_xy_mm": [
+        -14.924999999999997,
+        -28.17500000000001,
+        -13.075000000000003,
+        -25.224999999999994
+      ],
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW08051M00BEEA",
+      "fab_outline_bounds_xy_mm": [
+        -14.650000000000006,
+        -27.724999999999994,
+        -13.349999999999994,
+        -25.67500000000001
+      ],
+      "maximum_body_xy_mm": [
+        2.1,
+        1.4
+      ]
+    },
+    {
+      "ref": "C71",
+      "xy_mm": [
+        -13.85,
+        -11.2
+      ],
+      "back": true,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -14.400000000000006,
+        -11.5,
+        -13.299999999999997,
+        -10.900000000000006
+      ],
+      "courtyard_xy_mm": [
+        -14.784999999999997,
+        -11.685000000000002,
+        -12.915000000000006,
+        -10.715000000000003
+      ],
+      "height_budget_mm": 0.6,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "GRM155R71C104KA88D",
+      "fab_outline_bounds_xy_mm": [
+        -14.400000000000006,
+        -11.5,
+        -13.299999999999997,
+        -10.900000000000006
+      ],
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ]
+    },
+    {
+      "ref": "R38",
+      "xy_mm": [
+        -32.11,
+        -24.36
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -32.585,
+        -25.21,
+        -31.634999999999998,
+        -23.509999999999998
+      ],
+      "courtyard_xy_mm": [
+        -32.834999999999994,
+        -25.63499999999999,
+        -31.385000000000005,
+        -23.085000000000008
+      ],
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW06034K70BEEA",
+      "fab_outline_bounds_xy_mm": [
+        -32.56,
+        -25.185000000000002,
+        -31.659999999999997,
+        -23.534999999999997
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ]
+    },
+    {
+      "ref": "D73",
+      "xy_mm": [
+        -15.85,
+        -17.6
+      ],
+      "back": true,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -16.799999999999997,
+        -18.349999999999994,
+        -14.900000000000006,
+        -16.849999999999994
+      ],
+      "courtyard_xy_mm": [
+        -17.474999999999994,
+        -18.57499999999999,
+        -14.224999999999994,
+        -16.625
+      ],
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "BAT54WS-E3-08"
+    },
+    {
+      "ref": "R31",
+      "xy_mm": [
+        -27.0,
+        -24.4
+      ],
+      "back": true,
+      "angle_deg": 180.0,
+      "fab_bounds_xy_mm": [
+        -27.85,
+        -24.875,
+        -26.15,
+        -23.924999999999997
+      ],
+      "courtyard_xy_mm": [
+        -28.275000000000006,
+        -25.125,
+        -25.724999999999994,
+        -23.67500000000001
+      ],
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW060310K0BEEA",
+      "fab_outline_bounds_xy_mm": [
+        -27.825000000000003,
+        -24.849999999999994,
+        -26.174999999999997,
+        -23.94999999999999
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ]
+    },
+    {
+      "ref": "D71",
+      "xy_mm": [
+        -31.5,
+        -15.0
+      ],
+      "back": true,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -32.45,
+        -15.75,
+        -30.549999999999997,
+        -14.25
+      ],
+      "courtyard_xy_mm": [
+        -33.125,
+        -15.974999999999994,
+        -29.875,
+        -14.025000000000006
+      ],
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "BAT54WS-E3-08"
+    },
+    {
+      "ref": "R36",
+      "xy_mm": [
+        -31.7,
+        -20.98
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -32.175,
+        -21.830000000000002,
+        -31.224999999999998,
+        -20.13
+      ],
+      "courtyard_xy_mm": [
+        -32.425,
+        -22.254999999999995,
+        -30.974999999999994,
+        -19.705000000000013
+      ],
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW060310K0BEEA",
+      "fab_outline_bounds_xy_mm": [
+        -32.150000000000006,
+        -21.805000000000007,
+        -31.25,
+        -20.155
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ]
+    },
+    {
+      "ref": "C34",
+      "xy_mm": [
+        -14.6,
+        -23.6
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -15.049999999999999,
+        -24.450000000000003,
+        -14.15,
+        -22.75
+      ],
+      "courtyard_xy_mm": [
+        -15.275000000000006,
+        -24.875,
+        -13.924999999999997,
+        -22.32499999999999
+      ],
+      "height_budget_mm": 0.9,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "GRM188R71C104KA01D",
+      "fab_outline_bounds_xy_mm": [
+        -15.025000000000006,
+        -24.42500000000001,
+        -14.174999999999997,
+        -22.775000000000006
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ]
+    },
+    {
+      "ref": "R34",
+      "xy_mm": [
+        -14.9,
+        -14.1
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -15.375,
+        -14.95,
+        -14.425,
+        -13.25
+      ],
+      "courtyard_xy_mm": [
+        -15.625,
+        -15.375,
+        -14.174999999999997,
+        -12.824999999999989
+      ],
+      "height_budget_mm": 0.55,
+      "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+      "selected_mpn": "TNPW060310K0BEEA",
+      "fab_outline_bounds_xy_mm": [
+        -15.349999999999994,
+        -14.925000000000011,
+        -14.450000000000003,
+        -13.275000000000006
+      ],
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ]
+    },
+    {
+      "ref": "D72",
+      "xy_mm": [
+        -15.3,
+        -20.5
+      ],
+      "back": true,
+      "angle_deg": 90.0,
+      "fab_bounds_xy_mm": [
+        -16.049999999999997,
+        -21.44999999999999,
+        -14.549999999999997,
+        -19.55000000000001
+      ],
+      "courtyard_xy_mm": [
+        -16.275000000000006,
+        -22.125,
+        -14.325000000000003,
+        -18.875
+      ],
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "BAT54WS-E3-08"
+    },
+    {
+      "ref": "J1",
+      "xy_mm": [
+        -24.7,
+        -24.15
+      ],
+      "back": true,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -25.599999999999994,
+        -25.05000000000001,
+        -16.299999999999997,
+        -23.25
+      ],
+      "courtyard_xy_mm": [
+        -25.599999999999994,
+        -25.05000000000001,
+        -16.299999999999997,
+        -23.25
+      ],
+      "height_budget_mm": 1.25,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": null
+    },
+    {
+      "ref": "U75",
+      "xy_mm": [
+        -23.3,
+        -27.2
+      ],
+      "back": true,
+      "angle_deg": 0.0,
+      "fab_bounds_xy_mm": [
+        -24.150000000000006,
+        -28.69999999999999,
+        -22.450000000000003,
+        -25.69999999999999
+      ],
+      "courtyard_xy_mm": [
+        -25.375,
+        -28.92500000000001,
+        -21.224999999999994,
+        -25.474999999999994
+      ],
+      "height_budget_mm": 1.45,
+      "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+      "selected_mpn": "USBLC6-2SC6"
+    }
+  ],
+  "pads": [
+    {
+      "ref": "SW1",
+      "number": "1",
+      "net": "POWER_SWITCH_N",
+      "xy_mm": [
+        -24.55,
+        -14.0
+      ],
+      "back": false
+    },
+    {
+      "ref": "SW1",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -21.15,
+        -14.0
+      ],
+      "back": false
+    },
+    {
+      "ref": "D1",
+      "number": "1",
+      "net": "DOCK_FUSED",
+      "xy_mm": [
+        -18.83,
+        -17.2
+      ],
+      "back": false
+    },
+    {
+      "ref": "D1",
+      "number": "2",
+      "net": "VBUS_CHG",
+      "xy_mm": [
+        -15.53,
+        -17.2
+      ],
+      "back": false
+    },
+    {
+      "ref": "SW2",
+      "number": "1",
+      "net": "MODE_N",
+      "xy_mm": [
+        -18.55,
+        -14.0
+      ],
+      "back": false
+    },
+    {
+      "ref": "SW2",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -15.15,
+        -14.0
+      ],
+      "back": false
+    },
+    {
+      "ref": "R76",
+      "number": "1",
+      "net": "USB_DP_CONTACT",
+      "xy_mm": [
+        -13.6,
+        -11.81
+      ],
+      "back": false
+    },
+    {
+      "ref": "R76",
+      "number": "2",
+      "net": "USB_DP",
+      "xy_mm": [
+        -13.6,
+        -10.79
+      ],
+      "back": false
+    },
+    {
+      "ref": "J4",
+      "number": "1",
+      "net": "GND",
+      "xy_mm": [
+        -21.9,
+        -20.0
+      ],
+      "back": false
+    },
+    {
+      "ref": "J4",
+      "number": "2",
+      "net": "USB_DM",
+      "xy_mm": [
+        -20.9,
+        -20.0
+      ],
+      "back": false
+    },
+    {
+      "ref": "J4",
+      "number": "3",
+      "net": "USB_DP",
+      "xy_mm": [
+        -19.9,
+        -20.0
+      ],
+      "back": false
+    },
+    {
+      "ref": "J4",
+      "number": "4",
+      "net": "MCU_EN",
+      "xy_mm": [
+        -18.9,
+        -20.0
+      ],
+      "back": false
+    },
+    {
+      "ref": "J4",
+      "number": "5",
+      "net": "BOOT_N",
+      "xy_mm": [
+        -17.9,
+        -20.0
+      ],
+      "back": false
+    },
+    {
+      "ref": "J4",
+      "number": "6",
+      "net": "UART_TX",
+      "xy_mm": [
+        -16.9,
+        -20.0
+      ],
+      "back": false
+    },
+    {
+      "ref": "J4",
+      "number": "MP",
+      "net": "",
+      "xy_mm": [
+        -23.2,
+        -23.875
+      ],
+      "back": false
+    },
+    {
+      "ref": "J4",
+      "number": "MP",
+      "net": "",
+      "xy_mm": [
+        -15.6,
+        -23.875
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "1",
+      "net": "GND",
+      "xy_mm": [
+        -35.7,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -34.9,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "3",
+      "net": "3V3",
+      "xy_mm": [
+        -34.1,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "4",
+      "net": "unconnected-(U6-NC-Pad4)",
+      "xy_mm": [
+        -33.3,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "5",
+      "net": "STRAP2",
+      "xy_mm": [
+        -32.5,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "6",
+      "net": "MODE_N",
+      "xy_mm": [
+        -31.7,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "7",
+      "net": "unconnected-(U6-NC-Pad7)",
+      "xy_mm": [
+        -30.9,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "8",
+      "net": "MCU_EN",
+      "xy_mm": [
+        -30.1,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "9",
+      "net": "unconnected-(U6-NC-Pad9)",
+      "xy_mm": [
+        -29.3,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "10",
+      "net": "unconnected-(U6-NC-Pad10)",
+      "xy_mm": [
+        -28.5,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "11",
+      "net": "GND",
+      "xy_mm": [
+        -27.7,
+        -24.4
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "12",
+      "net": "VBAT_ADC",
+      "xy_mm": [
+        -26.8,
+        -23.3
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "13",
+      "net": "POWER_N",
+      "xy_mm": [
+        -26.8,
+        -22.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "14",
+      "net": "GND",
+      "xy_mm": [
+        -26.8,
+        -21.7
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "15",
+      "net": "unconnected-(U6-NC-Pad15)",
+      "xy_mm": [
+        -26.8,
+        -20.9
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "16",
+      "net": "TIP_EXC_EN",
+      "xy_mm": [
+        -26.8,
+        -20.1
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "17",
+      "net": "unconnected-(U6-NC-Pad17)",
+      "xy_mm": [
+        -26.8,
+        -19.3
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "18",
+      "net": "I2C_SDA",
+      "xy_mm": [
+        -26.8,
+        -18.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "19",
+      "net": "I2C_SCL",
+      "xy_mm": [
+        -26.8,
+        -17.7
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "20",
+      "net": "MOTOR_PWM",
+      "xy_mm": [
+        -26.8,
+        -16.9
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "21",
+      "net": "MOTOR_ARM",
+      "xy_mm": [
+        -26.8,
+        -16.1
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "22",
+      "net": "STRAP8",
+      "xy_mm": [
+        -26.8,
+        -15.3
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "23",
+      "net": "BOOT_N",
+      "xy_mm": [
+        -26.8,
+        -14.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "24",
+      "net": "unconnected-(U6-NC-Pad24)",
+      "xy_mm": [
+        -26.8,
+        -13.7
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "25",
+      "net": "unconnected-(U6-NC-Pad25)",
+      "xy_mm": [
+        -27.7,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "26",
+      "net": "USB_DM",
+      "xy_mm": [
+        -28.5,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "27",
+      "net": "USB_DP",
+      "xy_mm": [
+        -29.3,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "28",
+      "net": "unconnected-(U6-NC-Pad28)",
+      "xy_mm": [
+        -30.1,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "29",
+      "net": "unconnected-(U6-NC-Pad29)",
+      "xy_mm": [
+        -30.9,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "30",
+      "net": "DOCK_PRESENT_N",
+      "xy_mm": [
+        -31.7,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "31",
+      "net": "UART_TX",
+      "xy_mm": [
+        -32.5,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "32",
+      "net": "unconnected-(U6-NC-Pad32)",
+      "xy_mm": [
+        -33.3,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "33",
+      "net": "unconnected-(U6-NC-Pad33)",
+      "xy_mm": [
+        -34.1,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "34",
+      "net": "unconnected-(U6-NC-Pad34)",
+      "xy_mm": [
+        -34.9,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "35",
+      "net": "unconnected-(U6-NC-Pad35)",
+      "xy_mm": [
+        -35.7,
+        -12.6
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "36",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -13.7
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "37",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -14.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "38",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -15.3
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "39",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -16.1
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "40",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -16.9
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "41",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -17.7
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "42",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -18.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "43",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -19.3
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "44",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -20.1
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "45",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -20.9
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "46",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -21.7
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "47",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -22.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "48",
+      "net": "GND",
+      "xy_mm": [
+        -36.6,
+        -23.3
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "49",
+      "net": "GND",
+      "xy_mm": [
+        -33.675,
+        -20.475
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "49",
+      "net": "GND",
+      "xy_mm": [
+        -31.7,
+        -20.475
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "49",
+      "net": "GND",
+      "xy_mm": [
+        -29.725,
+        -20.475
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "49",
+      "net": "GND",
+      "xy_mm": [
+        -33.675,
+        -18.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "49",
+      "net": "GND",
+      "xy_mm": [
+        -31.7,
+        -18.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "49",
+      "net": "GND",
+      "xy_mm": [
+        -29.725,
+        -18.5
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "49",
+      "net": "GND",
+      "xy_mm": [
+        -33.675,
+        -16.525
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "49",
+      "net": "GND",
+      "xy_mm": [
+        -31.7,
+        -16.525
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "49",
+      "net": "GND",
+      "xy_mm": [
+        -29.725,
+        -16.525
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "50",
+      "net": "GND",
+      "xy_mm": [
+        -36.65,
+        -12.55
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "51",
+      "net": "GND",
+      "xy_mm": [
+        -26.75,
+        -12.55
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "52",
+      "net": "GND",
+      "xy_mm": [
+        -26.75,
+        -24.45
+      ],
+      "back": false
+    },
+    {
+      "ref": "U6",
+      "number": "53",
+      "net": "GND",
+      "xy_mm": [
+        -36.65,
+        -24.45
+      ],
+      "back": false
+    },
+    {
+      "ref": "H2",
+      "number": "",
+      "net": "",
+      "xy_mm": [
+        -16.7,
+        -8.0125
+      ],
+      "back": false
+    },
+    {
+      "ref": "H1",
+      "number": "",
+      "net": "",
+      "xy_mm": [
+        -16.7,
+        -29.0125
+      ],
+      "back": false
+    },
+    {
+      "ref": "R75",
+      "number": "1",
+      "net": "USB_DM_CONTACT",
+      "xy_mm": [
+        -17.5,
+        -11.81
+      ],
+      "back": false
+    },
+    {
+      "ref": "R75",
+      "number": "2",
+      "net": "USB_DM",
+      "xy_mm": [
+        -17.5,
+        -10.79
+      ],
+      "back": false
+    },
+    {
+      "ref": "F1",
+      "number": "1",
+      "net": "DOCK_5V",
+      "xy_mm": [
+        -23.37,
+        -17.2
+      ],
+      "back": false
+    },
+    {
+      "ref": "F1",
+      "number": "2",
+      "net": "DOCK_FUSED",
+      "xy_mm": [
+        -20.57,
+        -17.2
+      ],
+      "back": false
+    },
+    {
+      "ref": "U71",
+      "number": "1",
+      "net": "MCU_EN",
+      "xy_mm": [
+        -16.175,
+        -12.0
+      ],
+      "back": true
+    },
+    {
+      "ref": "U71",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -16.2,
+        -11.5
+      ],
+      "back": true
+    },
+    {
+      "ref": "U71",
+      "number": "3",
+      "net": "POWER_SWITCH_N",
+      "xy_mm": [
+        -16.2,
+        -11.0
+      ],
+      "back": true
+    },
+    {
+      "ref": "U71",
+      "number": "4",
+      "net": "3V3",
+      "xy_mm": [
+        -15.6,
+        -11.0
+      ],
+      "back": true
+    },
+    {
+      "ref": "U71",
+      "number": "5",
+      "net": "GND",
+      "xy_mm": [
+        -15.6,
+        -11.5
+      ],
+      "back": true
+    },
+    {
+      "ref": "U71",
+      "number": "6",
+      "net": "GND",
+      "xy_mm": [
+        -15.6,
+        -12.0
+      ],
+      "back": true
+    },
+    {
+      "ref": "R37",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -29.46,
+        -21.435
+      ],
+      "back": true
+    },
+    {
+      "ref": "R37",
+      "number": "2",
+      "net": "I2C_SDA",
+      "xy_mm": [
+        -29.46,
+        -19.985
+      ],
+      "back": true
+    },
+    {
+      "ref": "R71",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -18.0,
+        -11.81
+      ],
+      "back": true
+    },
+    {
+      "ref": "R71",
+      "number": "2",
+      "net": "POWER_SWITCH_N",
+      "xy_mm": [
+        -18.0,
+        -10.79
+      ],
+      "back": true
+    },
+    {
+      "ref": "R35",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -28.0,
+        -21.705
+      ],
+      "back": true
+    },
+    {
+      "ref": "R35",
+      "number": "2",
+      "net": "POWER_N",
+      "xy_mm": [
+        -28.0,
+        -20.255
+      ],
+      "back": true
+    },
+    {
+      "ref": "C32",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -36.0,
+        -25.075
+      ],
+      "back": true
+    },
+    {
+      "ref": "C32",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -36.0,
+        -23.725
+      ],
+      "back": true
+    },
+    {
+      "ref": "R32",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -30.825,
+        -22.99
+      ],
+      "back": true
+    },
+    {
+      "ref": "R32",
+      "number": "2",
+      "net": "STRAP2",
+      "xy_mm": [
+        -29.375,
+        -22.99
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "1",
+      "net": "GND",
+      "xy_mm": [
+        -25.8,
+        -11.3
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "2",
+      "net": "VBUS_CHG",
+      "xy_mm": [
+        -25.8,
+        -12.3
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "3",
+      "net": "3V3",
+      "xy_mm": [
+        -25.8,
+        -13.3
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "4",
+      "net": "PACK_P",
+      "xy_mm": [
+        -25.8,
+        -14.3
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "5",
+      "net": "MOTOR_ARM",
+      "xy_mm": [
+        -25.8,
+        -15.3
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "6",
+      "net": "MOTOR_PWM",
+      "xy_mm": [
+        -25.8,
+        -16.3
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "7",
+      "net": "DOCK_PRESENT_N",
+      "xy_mm": [
+        -25.8,
+        -17.3
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "8",
+      "net": "I2C_SDA",
+      "xy_mm": [
+        -25.8,
+        -18.3
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "9",
+      "net": "I2C_SCL",
+      "xy_mm": [
+        -25.8,
+        -19.3
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "10",
+      "net": "TIP_EXC_EN",
+      "xy_mm": [
+        -25.8,
+        -20.3
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "MP",
+      "net": "",
+      "xy_mm": [
+        -21.925,
+        -10.0
+      ],
+      "back": true
+    },
+    {
+      "ref": "J7",
+      "number": "MP",
+      "net": "",
+      "xy_mm": [
+        -21.925,
+        -21.6
+      ],
+      "back": true
+    },
+    {
+      "ref": "C33",
+      "number": "1",
+      "net": "MCU_EN",
+      "xy_mm": [
+        -30.775,
+        -24.4
+      ],
+      "back": true
+    },
+    {
+      "ref": "C33",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -29.425,
+        -24.4
+      ],
+      "back": true
+    },
+    {
+      "ref": "R33",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -33.57,
+        -25.085
+      ],
+      "back": true
+    },
+    {
+      "ref": "R33",
+      "number": "2",
+      "net": "STRAP8",
+      "xy_mm": [
+        -33.57,
+        -23.635
+      ],
+      "back": true
+    },
+    {
+      "ref": "R40",
+      "number": "1",
+      "net": "VBAT_ADC",
+      "xy_mm": [
+        -17.975,
+        -26.1
+      ],
+      "back": true
+    },
+    {
+      "ref": "R40",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -16.225,
+        -26.1
+      ],
+      "back": true
+    },
+    {
+      "ref": "C31",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -36.1,
+        -22.45
+      ],
+      "back": true
+    },
+    {
+      "ref": "C31",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -36.1,
+        -20.55
+      ],
+      "back": true
+    },
+    {
+      "ref": "R39",
+      "number": "1",
+      "net": "PACK_P",
+      "xy_mm": [
+        -14.0,
+        -27.575
+      ],
+      "back": true
+    },
+    {
+      "ref": "R39",
+      "number": "2",
+      "net": "VBAT_ADC",
+      "xy_mm": [
+        -14.0,
+        -25.825
+      ],
+      "back": true
+    },
+    {
+      "ref": "C71",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -14.33,
+        -11.2
+      ],
+      "back": true
+    },
+    {
+      "ref": "C71",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -13.37,
+        -11.2
+      ],
+      "back": true
+    },
+    {
+      "ref": "R38",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -32.11,
+        -25.085
+      ],
+      "back": true
+    },
+    {
+      "ref": "R38",
+      "number": "2",
+      "net": "I2C_SCL",
+      "xy_mm": [
+        -32.11,
+        -23.635
+      ],
+      "back": true
+    },
+    {
+      "ref": "D73",
+      "number": "1",
+      "net": "MODE_N",
+      "xy_mm": [
+        -16.9,
+        -17.6
+      ],
+      "back": true
+    },
+    {
+      "ref": "D73",
+      "number": "2",
+      "net": "BOOT_N",
+      "xy_mm": [
+        -14.8,
+        -17.6
+      ],
+      "back": true
+    },
+    {
+      "ref": "R31",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -26.275,
+        -24.4
+      ],
+      "back": true
+    },
+    {
+      "ref": "R31",
+      "number": "2",
+      "net": "MCU_EN",
+      "xy_mm": [
+        -27.725,
+        -24.4
+      ],
+      "back": true
+    },
+    {
+      "ref": "D71",
+      "number": "1",
+      "net": "POWER_SWITCH_N",
+      "xy_mm": [
+        -32.55,
+        -15.0
+      ],
+      "back": true
+    },
+    {
+      "ref": "D71",
+      "number": "2",
+      "net": "POWER_N",
+      "xy_mm": [
+        -30.45,
+        -15.0
+      ],
+      "back": true
+    },
+    {
+      "ref": "R36",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -31.7,
+        -21.705
+      ],
+      "back": true
+    },
+    {
+      "ref": "R36",
+      "number": "2",
+      "net": "MODE_N",
+      "xy_mm": [
+        -31.7,
+        -20.255
+      ],
+      "back": true
+    },
+    {
+      "ref": "C34",
+      "number": "1",
+      "net": "VBAT_ADC",
+      "xy_mm": [
+        -14.6,
+        -24.275
+      ],
+      "back": true
+    },
+    {
+      "ref": "C34",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -14.6,
+        -22.925
+      ],
+      "back": true
+    },
+    {
+      "ref": "R34",
+      "number": "1",
+      "net": "3V3",
+      "xy_mm": [
+        -14.9,
+        -14.825
+      ],
+      "back": true
+    },
+    {
+      "ref": "R34",
+      "number": "2",
+      "net": "BOOT_N",
+      "xy_mm": [
+        -14.9,
+        -13.375
+      ],
+      "back": true
+    },
+    {
+      "ref": "D72",
+      "number": "1",
+      "net": "DOCK_PRESENT_N",
+      "xy_mm": [
+        -15.3,
+        -21.55
+      ],
+      "back": true
+    },
+    {
+      "ref": "D72",
+      "number": "2",
+      "net": "POWER_N",
+      "xy_mm": [
+        -15.3,
+        -19.45
+      ],
+      "back": true
+    },
+    {
+      "ref": "J1",
+      "number": "1",
+      "net": "GND",
+      "xy_mm": [
+        -24.7,
+        -24.15
+      ],
+      "back": true
+    },
+    {
+      "ref": "J1",
+      "number": "2",
+      "net": "USB_DM_CONTACT",
+      "xy_mm": [
+        -22.2,
+        -24.15
+      ],
+      "back": true
+    },
+    {
+      "ref": "J1",
+      "number": "3",
+      "net": "USB_DP_CONTACT",
+      "xy_mm": [
+        -19.7,
+        -24.15
+      ],
+      "back": true
+    },
+    {
+      "ref": "J1",
+      "number": "4",
+      "net": "DOCK_5V",
+      "xy_mm": [
+        -17.2,
+        -24.15
+      ],
+      "back": true
+    },
+    {
+      "ref": "U75",
+      "number": "1",
+      "net": "USB_DM_CONTACT",
+      "xy_mm": [
+        -24.4375,
+        -28.15
+      ],
+      "back": true
+    },
+    {
+      "ref": "U75",
+      "number": "2",
+      "net": "GND",
+      "xy_mm": [
+        -24.4375,
+        -27.2
+      ],
+      "back": true
+    },
+    {
+      "ref": "U75",
+      "number": "3",
+      "net": "USB_DP_CONTACT",
+      "xy_mm": [
+        -24.4375,
+        -26.25
+      ],
+      "back": true
+    },
+    {
+      "ref": "U75",
+      "number": "4",
+      "net": "USB_DP_CONTACT",
+      "xy_mm": [
+        -22.1625,
+        -26.25
+      ],
+      "back": true
+    },
+    {
+      "ref": "U75",
+      "number": "5",
+      "net": "DOCK_5V",
+      "xy_mm": [
+        -22.1625,
+        -27.2
+      ],
+      "back": true
+    },
+    {
+      "ref": "U75",
+      "number": "6",
+      "net": "USB_DM_CONTACT",
+      "xy_mm": [
+        -22.1625,
+        -28.15
+      ],
+      "back": true
+    }
+  ],
+  "holes": [
+    {
+      "ref": "H2",
+      "xy_mm": [
+        -16.7,
+        -8.0125
+      ],
+      "drill_xy_mm": [
+        1.8,
+        1.8
+      ],
+      "angle_deg": 0.0
+    },
+    {
+      "ref": "H1",
+      "xy_mm": [
+        -16.7,
+        -29.0125
+      ],
+      "drill_xy_mm": [
+        1.8,
+        1.8
+      ],
+      "angle_deg": 0.0
+    }
+  ],
+  "mating_allowances": [],
+  "route_objects": 528,
+  "parts_selection_sha256": "41047c4a6a6c5f2a1de48918d1fa903048433dcbaa6c83ddff48a617731d1da2"
+}

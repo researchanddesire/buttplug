@@ -1,0 +1,1931 @@
+(kicad_sch
+  (version 20230121)
+  (generator build_dock_control)
+  (uuid 0561b069-d9fc-59b0-ae52-5774770aaf10)
+  (paper "A2")
+  (title_block
+    (title "EVT lid UI / actual LCD charge pump and three switches")
+    (date "2026-11-12")
+    (rev "EVT1 controller candidate")
+    (company "Research and Desire")
+    (comment 1 "NATIVE CIRCUIT CANDIDATE — NOT PCB FABRICATION"))
+  (lib_symbols
+    (symbol
+      "DockControl:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "DockControl:FH12_20_BOTTOM"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 35.56 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "FH12_20_BOTTOM" (at 0 33.02 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.hirose.com/en/product/p/CL0586-0524-9-55" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "FH12-20S-0.5SH(55), bottomcontact,0.30mm FFC,2.0mm height; both mouths toward rear hinge in closed pose."
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "FH12_20_BOTTOM_0_1" (rectangle (start -15.24 30.48) (end 15.24 -30.48) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "FH12_20_BOTTOM_1_1"
+        (pin passive line (at -20.32 25.4 0) (length 5.08) (name "FFC_1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 20.32 0) (length 5.08) (name "FFC_2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 15.239999999999998 0)
+          (length 5.08)
+          (name "FFC_3" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 10.159999999999998 0)
+          (length 5.08)
+          (name "FFC_4" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 5.079999999999998 0)
+          (length 5.08)
+          (name "FFC_5" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 0.0 0) (length 5.08) (name "FFC_6" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -5.080000000000002 0)
+          (length 5.08)
+          (name "FFC_7" (effects (font (size 1.016 1.016))))
+          (number "7" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -10.160000000000004 0)
+          (length 5.08)
+          (name "FFC_8" (effects (font (size 1.016 1.016))))
+          (number "8" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -15.240000000000002 0)
+          (length 5.08)
+          (name "FFC_9" (effects (font (size 1.016 1.016))))
+          (number "9" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -20.32 0)
+          (length 5.08)
+          (name "FFC_10" (effects (font (size 1.016 1.016))))
+          (number "10" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 20.32 25.4 180) (length 5.08) (name "FFC_11" (effects (font (size 1.016 1.016)))) (number "11" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 20.32 180)
+          (length 5.08)
+          (name "FFC_12" (effects (font (size 1.016 1.016))))
+          (number "12" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 15.239999999999998 180)
+          (length 5.08)
+          (name "FFC_13" (effects (font (size 1.016 1.016))))
+          (number "13" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 10.159999999999998 180)
+          (length 5.08)
+          (name "FFC_14" (effects (font (size 1.016 1.016))))
+          (number "14" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 5.079999999999998 180)
+          (length 5.08)
+          (name "FFC_15" (effects (font (size 1.016 1.016))))
+          (number "15" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 20.32 0.0 180) (length 5.08) (name "FFC_16" (effects (font (size 1.016 1.016)))) (number "16" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -5.080000000000002 180)
+          (length 5.08)
+          (name "FFC_17" (effects (font (size 1.016 1.016))))
+          (number "17" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -10.160000000000004 180)
+          (length 5.08)
+          (name "FFC_18" (effects (font (size 1.016 1.016))))
+          (number "18" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -15.240000000000002 180)
+          (length 5.08)
+          (name "FFC_19" (effects (font (size 1.016 1.016))))
+          (number "19" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          (name "FFC_20" (effects (font (size 1.016 1.016))))
+          (number "20" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -25.4 180)
+          (length 5.08)
+          (name "METAL_HOLDDOWNS" (effects (font (size 1.016 1.016))))
+          (number "MP" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "DockControl:MOLEX_52437_2771"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 43.18 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "MOLEX_52437_2771" (at 0 40.64 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "Datasheet"
+        "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/524/52437/524373071_sd.pdf"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Actual27-way bottomcontact. Installed pose preservesLCD numbering. LCD3mm exposedland differs4mm recommended: received matingtrial required."
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "MOLEX_52437_2771_0_1" (rectangle (start -15.24 38.1) (end 15.24 -38.1) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "MOLEX_52437_2771_1_1"
+        (pin
+          passive
+          line
+          (at -20.32 33.02 0)
+          (length 5.08)
+          (name "MATES_LCD_1" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 27.940000000000005 0)
+          (length 5.08)
+          (name "MATES_LCD_2" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 22.860000000000003 0)
+          (length 5.08)
+          (name "MATES_LCD_3" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 17.78 0)
+          (length 5.08)
+          (name "MATES_LCD_4" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 12.700000000000003 0)
+          (length 5.08)
+          (name "MATES_LCD_5" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 7.6200000000000045 0)
+          (length 5.08)
+          (name "MATES_LCD_6" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 2.5400000000000027 0)
+          (length 5.08)
+          (name "MATES_LCD_7" (effects (font (size 1.016 1.016))))
+          (number "7" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -2.539999999999999 0)
+          (length 5.08)
+          (name "MATES_LCD_8" (effects (font (size 1.016 1.016))))
+          (number "8" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -7.619999999999997 0)
+          (length 5.08)
+          (name "MATES_LCD_9" (effects (font (size 1.016 1.016))))
+          (number "9" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -12.699999999999996 0)
+          (length 5.08)
+          (name "MATES_LCD_10" (effects (font (size 1.016 1.016))))
+          (number "10" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -17.779999999999994 0)
+          (length 5.08)
+          (name "MATES_LCD_11" (effects (font (size 1.016 1.016))))
+          (number "11" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -22.86 0)
+          (length 5.08)
+          (name "MATES_LCD_12" (effects (font (size 1.016 1.016))))
+          (number "12" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -27.939999999999998 0)
+          (length 5.08)
+          (name "MATES_LCD_13" (effects (font (size 1.016 1.016))))
+          (number "13" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -33.02 0)
+          (length 5.08)
+          (name "MATES_LCD_14" (effects (font (size 1.016 1.016))))
+          (number "14" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 33.02 180)
+          (length 5.08)
+          (name "MATES_LCD_15" (effects (font (size 1.016 1.016))))
+          (number "15" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 27.940000000000005 180)
+          (length 5.08)
+          (name "MATES_LCD_16" (effects (font (size 1.016 1.016))))
+          (number "16" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 22.860000000000003 180)
+          (length 5.08)
+          (name "MATES_LCD_17" (effects (font (size 1.016 1.016))))
+          (number "17" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 17.78 180)
+          (length 5.08)
+          (name "MATES_LCD_18" (effects (font (size 1.016 1.016))))
+          (number "18" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 12.700000000000003 180)
+          (length 5.08)
+          (name "MATES_LCD_19" (effects (font (size 1.016 1.016))))
+          (number "19" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 7.6200000000000045 180)
+          (length 5.08)
+          (name "MATES_LCD_20" (effects (font (size 1.016 1.016))))
+          (number "20" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 2.5400000000000027 180)
+          (length 5.08)
+          (name "MATES_LCD_21" (effects (font (size 1.016 1.016))))
+          (number "21" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -2.539999999999999 180)
+          (length 5.08)
+          (name "MATES_LCD_22" (effects (font (size 1.016 1.016))))
+          (number "22" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -7.619999999999997 180)
+          (length 5.08)
+          (name "MATES_LCD_23" (effects (font (size 1.016 1.016))))
+          (number "23" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -12.699999999999996 180)
+          (length 5.08)
+          (name "MATES_LCD_24" (effects (font (size 1.016 1.016))))
+          (number "24" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -17.779999999999994 180)
+          (length 5.08)
+          (name "MATES_LCD_25" (effects (font (size 1.016 1.016))))
+          (number "25" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -22.86 180)
+          (length 5.08)
+          (name "MATES_LCD_26" (effects (font (size 1.016 1.016))))
+          (number "26" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -27.939999999999998 180)
+          (length 5.08)
+          (name "MATES_LCD_27" (effects (font (size 1.016 1.016))))
+          (number "27" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -33.02 180)
+          (length 5.08)
+          (name "METAL_HOLDDOWNS" (effects (font (size 1.016 1.016))))
+          (number "MP" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "DockControl:NHD_C12864B2Z"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 43.18 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "NHD_C12864B2Z" (at 0 40.64 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Purchased offboard reflective LCD; PDFp5 physical27pin contract. Read disabled; no discrete contrastpot/backlight."
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "NHD_C12864B2Z_0_1" (rectangle (start -15.24 38.1) (end 15.24 -38.1) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "NHD_C12864B2Z_1_1"
+        (pin passive line (at -20.32 33.02 0) (length 5.08) (name "V0" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 27.940000000000005 0)
+          (length 5.08)
+          (name "V1" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 22.860000000000003 0)
+          (length 5.08)
+          (name "V2" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 17.78 0) (length 5.08) (name "V3" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 12.700000000000003 0)
+          (length 5.08)
+          (name "V4" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin
+          no_connect
+          line
+          (at -20.32 7.6200000000000045 0)
+          (length 5.08)
+          (name "C4_PLUS_NC" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 2.5400000000000027 0)
+          (length 5.08)
+          (name "C2_MINUS" (effects (font (size 1.016 1.016))))
+          (number "7" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -2.539999999999999 0)
+          (length 5.08)
+          (name "C2_PLUS" (effects (font (size 1.016 1.016))))
+          (number "8" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -7.619999999999997 0)
+          (length 5.08)
+          (name "C1_PLUS" (effects (font (size 1.016 1.016))))
+          (number "9" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -12.699999999999996 0)
+          (length 5.08)
+          (name "C1_MINUS" (effects (font (size 1.016 1.016))))
+          (number "10" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -17.779999999999994 0)
+          (length 5.08)
+          (name "C3_PLUS" (effects (font (size 1.016 1.016))))
+          (number "11" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -22.86 0) (length 5.08) (name "VOUT" (effects (font (size 1.016 1.016)))) (number "12" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 -27.939999999999998 0)
+          (length 5.08)
+          (name "VDD" (effects (font (size 1.016 1.016))))
+          (number "13" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at -20.32 -33.02 0) (length 5.08) (name "VSS" (effects (font (size 1.016 1.016)))) (number "14" (effects (font (size 1.016 1.016)))))
+        (pin input line (at 20.32 33.02 180) (length 5.08) (name "DB7" (effects (font (size 1.016 1.016)))) (number "15" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 27.940000000000005 180)
+          (length 5.08)
+          (name "DB6" (effects (font (size 1.016 1.016))))
+          (number "16" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 22.860000000000003 180)
+          (length 5.08)
+          (name "DB5" (effects (font (size 1.016 1.016))))
+          (number "17" (effects (font (size 1.016 1.016)))))
+        (pin input line (at 20.32 17.78 180) (length 5.08) (name "DB4" (effects (font (size 1.016 1.016)))) (number "18" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 12.700000000000003 180)
+          (length 5.08)
+          (name "DB3" (effects (font (size 1.016 1.016))))
+          (number "19" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 7.6200000000000045 180)
+          (length 5.08)
+          (name "DB2" (effects (font (size 1.016 1.016))))
+          (number "20" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 2.5400000000000027 180)
+          (length 5.08)
+          (name "DB1" (effects (font (size 1.016 1.016))))
+          (number "21" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 -2.539999999999999 180)
+          (length 5.08)
+          (name "DB0" (effects (font (size 1.016 1.016))))
+          (number "22" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 -7.619999999999997 180)
+          (length 5.08)
+          (name "RD_N_WRITE_ONLY" (effects (font (size 1.016 1.016))))
+          (number "23" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 -12.699999999999996 180)
+          (length 5.08)
+          (name "WR_N" (effects (font (size 1.016 1.016))))
+          (number "24" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 -17.779999999999994 180)
+          (length 5.08)
+          (name "A0" (effects (font (size 1.016 1.016))))
+          (number "25" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 -22.86 180)
+          (length 5.08)
+          (name "RESET_N" (effects (font (size 1.016 1.016))))
+          (number "26" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 -27.939999999999998 180)
+          (length 5.08)
+          (name "CS_N" (effects (font (size 1.016 1.016))))
+          (number "27" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "DockControl:R"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "R_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "DockControl:SW"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "SW" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "SW" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "SW_0_1"
+        (polyline (pts (xy 0 3.81) (xy 1.27 -2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (circle (center 0 -3.81) (radius 0.4) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "SW_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016))))))))
+  (symbol
+    (lib_id "DockControl:NHD_C12864B2Z")
+    (at 83.82 114.3 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid 67bc4dd0-0f54-582b-93bd-e25fee5fc95b)
+    (property "Reference" "LCD301" (at 83.82 71.11999999999999 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "NHD-C12864B2Z-RN-FBW" (at 83.82 73.66 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "" (at 83.82 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf" (at 83.82 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 83.82 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "OFF_BOARD_LCD" (at 83.82 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Purchased COGLCD, linked nativeMCAD inCADassembly. NoPCBfootprint: mates throughJ302."
+      (at 83.82 114.3 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid b1715392-ad70-5bc9-a330-30772c7ac819))
+    (pin "2" (uuid def109f2-b0c7-5461-a554-638154e521bf))
+    (pin "3" (uuid 5554c5e7-9908-5f78-8ff0-593ce56ebdd3))
+    (pin "4" (uuid 9e4d4756-6c2e-54b5-88e0-ebe1f25e500b))
+    (pin "5" (uuid 4f50d613-7c68-5a35-be9b-33af24adb364))
+    (pin "6" (uuid a6ea8a71-6909-571e-ba42-48b637693a3d))
+    (pin "7" (uuid de6c3182-567b-58f4-b42b-e3e7501881e4))
+    (pin "8" (uuid 7e51bf37-13ac-552c-bb11-51438dcefd24))
+    (pin "9" (uuid 6036db21-e476-57f6-83c9-813a07f97dca))
+    (pin "10" (uuid ed67e33f-2f4f-527e-a876-2b34b75574a4))
+    (pin "11" (uuid 415df1ef-1b6a-52fd-bfa0-da93dc27f2ba))
+    (pin "12" (uuid 89c59c21-8404-522a-8613-577609c6023e))
+    (pin "13" (uuid 5daf89f3-ea23-570a-ad4c-5753fd9427bf))
+    (pin "14" (uuid 5bf0b3a4-a69e-5851-a44c-beb8956eb29a))
+    (pin "15" (uuid 58b94c43-f38b-5d5f-aa71-6aa9c9b8dce7))
+    (pin "16" (uuid 4ed9f618-a9e6-55fa-9742-7e2d3235cb48))
+    (pin "17" (uuid ffefcb3f-e97d-5284-88dc-67bd15fb5db9))
+    (pin "18" (uuid a8aa2d06-ee3f-53ff-a1c1-7775dec96108))
+    (pin "19" (uuid 7db3a60b-6655-5e4e-8970-6932044c2476))
+    (pin "20" (uuid da2abc30-0c98-5aa2-839d-40f2a6c1d63c))
+    (pin "21" (uuid 02d09fde-92f8-516a-b969-8c6b12dafc86))
+    (pin "22" (uuid 36f7ce0d-6b34-550b-9271-e593b8a0789f))
+    (pin "23" (uuid 757eefc0-4e47-5680-a6ea-185887a208b1))
+    (pin "24" (uuid 6278ae0d-344e-5ab7-8b3a-9b00759f6c5f))
+    (pin "25" (uuid b5bdc2e0-98e1-5ffe-ae5d-103577d1a92a))
+    (pin "26" (uuid ba8e1da7-fde1-51cd-a7cb-6478dccba133))
+    (pin "27" (uuid 912882be-e8d3-58b7-ae04-ce3552c975df))
+    (property "Manufacturer" "Newhaven Display" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "NHD-C12864B2Z-RN-FBW" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "LCD301") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "LCD301") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "LCD301") (unit 1)))))
+  (wire (pts (xy 63.5 81.28) (xy 58.42 81.28)) (stroke (width 0) (type default)) (uuid e83aa3e7-1fae-5413-9aba-40f69d368ae0))
+  (global_label "LCD_V0" (shape input) (at 58.42 81.28 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 473967b8-86ad-5b7b-864b-d5628ab6978f))
+  (wire (pts (xy 63.5 86.36) (xy 58.42 86.36)) (stroke (width 0) (type default)) (uuid a1a8a1ef-33ea-5718-b015-c50cc86581b5))
+  (global_label "LCD_V1" (shape input) (at 58.42 86.36 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 5b9a9b00-3c8b-50e2-baf1-40d0fbe64886))
+  (wire (pts (xy 63.5 91.44) (xy 58.42 91.44)) (stroke (width 0) (type default)) (uuid 02a698ea-85f7-5373-91cb-dbb3bf2065ac))
+  (global_label "LCD_V2" (shape input) (at 58.42 91.44 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 12435f1a-3a9e-5c68-be67-9101e3ec67ba))
+  (wire (pts (xy 63.5 96.52) (xy 58.42 96.52)) (stroke (width 0) (type default)) (uuid 46d0e90c-f1cf-5afc-8243-4d09fc2238d4))
+  (global_label "LCD_V3" (shape input) (at 58.42 96.52 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid e704557f-646a-592f-9b24-8f2ec75e99bc))
+  (wire (pts (xy 63.5 101.6) (xy 58.42 101.6)) (stroke (width 0) (type default)) (uuid a1d98944-c4d0-537c-8c9d-4edd62c618f6))
+  (global_label "LCD_V4" (shape input) (at 58.42 101.6 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 4905bca0-3451-528b-afc7-13c04a287e7f))
+  (wire (pts (xy 63.5 111.76) (xy 58.42 111.76)) (stroke (width 0) (type default)) (uuid ef166db1-e3a3-5408-b3d5-28071fe278c0))
+  (global_label
+    "LCD_C2M"
+    (shape input)
+    (at 58.42 111.76 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 4fed28a2-cb62-5202-96fe-3fe635391523))
+  (wire (pts (xy 63.5 116.84) (xy 58.42 116.84)) (stroke (width 0) (type default)) (uuid a252d7ac-0c71-55df-a83d-6b7630dbba67))
+  (global_label
+    "LCD_C2P"
+    (shape input)
+    (at 58.42 116.84 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid cb0fb7b9-549d-5fc8-a6fe-1f4b7ea29398))
+  (wire (pts (xy 63.5 121.92) (xy 58.42 121.92)) (stroke (width 0) (type default)) (uuid 9ffbeefe-c66b-51d4-8b3b-11491282573d))
+  (global_label
+    "LCD_C1P"
+    (shape input)
+    (at 58.42 121.92 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 379cb186-1db5-544a-b3c8-0f7f833bb10a))
+  (wire (pts (xy 63.5 127.0) (xy 58.42 127.0)) (stroke (width 0) (type default)) (uuid 6f80a39d-8927-5192-8ce6-cf7187759225))
+  (global_label
+    "LCD_C1M"
+    (shape input)
+    (at 58.42 127.0 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 99768f7e-4a9d-558d-88f8-93c7b35faf75))
+  (wire (pts (xy 63.5 132.08) (xy 58.42 132.08)) (stroke (width 0) (type default)) (uuid aefd89ea-7454-5b2e-96fe-2cfd2111de0c))
+  (global_label
+    "LCD_C3P"
+    (shape input)
+    (at 58.42 132.08 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid afc9a528-7d44-5cd5-8713-7d7c6209bff9))
+  (wire (pts (xy 63.5 137.16) (xy 58.42 137.16)) (stroke (width 0) (type default)) (uuid 71693b0c-224c-59c3-9421-a0a12ddcca95))
+  (global_label
+    "LCD_VOUT"
+    (shape input)
+    (at 58.42 137.16 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 9eed02b6-9d2e-58c8-a443-30f87e9e2ebc))
+  (wire (pts (xy 63.5 142.24) (xy 58.42 142.24)) (stroke (width 0) (type default)) (uuid 0d58d6d5-0907-575e-9951-8ffe1f30a208))
+  (global_label
+    "3V3_UI"
+    (shape input)
+    (at 58.42 142.24 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 7e58d129-6a6e-5c12-886d-46de15c3cad3))
+  (wire (pts (xy 63.5 147.32) (xy 58.42 147.32)) (stroke (width 0) (type default)) (uuid a9ad0692-6427-5e45-8a3b-9bf532c768c9))
+  (global_label "GND" (shape input) (at 58.42 147.32 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 032edd4e-d84c-5fa0-91c1-d3511d1a1fb0))
+  (wire (pts (xy 104.14 81.28) (xy 109.22 81.28)) (stroke (width 0) (type default)) (uuid cf574bcd-277e-5dba-af84-e2f76852c697))
+  (global_label "LCD_DB7" (shape input) (at 109.22 81.28 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 439edc1b-2a19-5a4c-ba98-249248d88584))
+  (wire (pts (xy 104.14 86.36) (xy 109.22 86.36)) (stroke (width 0) (type default)) (uuid 543a3f6d-560d-5363-b9e1-794932ba4f65))
+  (global_label "LCD_DB6" (shape input) (at 109.22 86.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid d337849a-1188-5495-8ab1-9362a07ecde9))
+  (wire (pts (xy 104.14 91.44) (xy 109.22 91.44)) (stroke (width 0) (type default)) (uuid ad86375e-2942-5fb4-a20c-6ee12e41a72d))
+  (global_label "LCD_DB5" (shape input) (at 109.22 91.44 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 8acc8dc8-a2c3-58d5-86bd-178e1b0bb664))
+  (wire (pts (xy 104.14 96.52) (xy 109.22 96.52)) (stroke (width 0) (type default)) (uuid eb444f8e-ecc9-5ab8-b306-54884e4e5d3d))
+  (global_label "LCD_DB4" (shape input) (at 109.22 96.52 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid fb9383d1-b606-52f1-8e9d-f4f74f5161dd))
+  (wire (pts (xy 104.14 101.6) (xy 109.22 101.6)) (stroke (width 0) (type default)) (uuid e6f643ca-7b43-58db-8a82-0dad2a140df1))
+  (global_label "LCD_DB3" (shape input) (at 109.22 101.6 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid d82c08ea-fd5a-5e9d-8f76-41895a69d91e))
+  (wire (pts (xy 104.14 106.68) (xy 109.22 106.68)) (stroke (width 0) (type default)) (uuid ec8e2ff4-84d4-5275-8ebd-f12991102fca))
+  (global_label "LCD_DB2" (shape input) (at 109.22 106.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid ed328a0a-aeb7-5f1b-9e7f-4bfcf03e7418))
+  (wire (pts (xy 104.14 111.76) (xy 109.22 111.76)) (stroke (width 0) (type default)) (uuid d01926b4-fa27-5f2c-aaab-4321d711bad7))
+  (global_label "LCD_DB1" (shape input) (at 109.22 111.76 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 6414f53b-01e0-574f-967f-04f15c6c81e5))
+  (wire (pts (xy 104.14 116.84) (xy 109.22 116.84)) (stroke (width 0) (type default)) (uuid 22d481a9-2b35-5085-bddf-4ecd4beffceb))
+  (global_label "LCD_DB0" (shape input) (at 109.22 116.84 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 051e83d1-0494-5059-95f9-4abbfaeb885c))
+  (wire (pts (xy 104.14 121.92) (xy 109.22 121.92)) (stroke (width 0) (type default)) (uuid c741be49-b552-5096-9d17-8fe39d13614d))
+  (global_label "3V3_UI" (shape input) (at 109.22 121.92 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c679f380-5439-5287-97ef-6f5eaa74d132))
+  (wire (pts (xy 104.14 127.0) (xy 109.22 127.0)) (stroke (width 0) (type default)) (uuid 300852d9-9a21-5832-bcd1-67d3468f1fdf))
+  (global_label "LCD_WRn" (shape input) (at 109.22 127.0 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid ca85cb2e-d401-564b-bc81-85a57c13d672))
+  (wire (pts (xy 104.14 132.08) (xy 109.22 132.08)) (stroke (width 0) (type default)) (uuid 90e1867e-f15b-54e7-97b5-1eb084221afd))
+  (global_label "LCD_A0" (shape input) (at 109.22 132.08 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 77717926-63fa-59c3-98a3-8d9d1a5129d4))
+  (wire (pts (xy 104.14 137.16) (xy 109.22 137.16)) (stroke (width 0) (type default)) (uuid 4aca5c94-5f6f-55c6-a71c-47214c715054))
+  (global_label
+    "LCD_RESETn"
+    (shape input)
+    (at 109.22 137.16 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid d1d2743b-43eb-5989-87c1-bc3f4659c3a5))
+  (wire (pts (xy 104.14 142.24) (xy 109.22 142.24)) (stroke (width 0) (type default)) (uuid 6c2b8c23-fd65-5fcc-9c84-ec8db7e60903))
+  (global_label "LCD_CSn" (shape input) (at 109.22 142.24 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 6480d8f5-9298-5e56-9293-c09dd7b1ed01))
+  (symbol
+    (lib_id "DockControl:MOLEX_52437_2771")
+    (at 231.14 114.3 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 47fa984c-be04-5927-9e47-2b3183bd3c7d)
+    (property "Reference" "J302" (at 231.14 71.11999999999999 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "52437-2771 / DIRECT LCD MATE" (at 231.14 73.66 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "DockControl:Molex_52437-2771_1x27-1MP_P0.50mm_Horizontal" (at 231.14 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "Datasheet"
+      "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/524/52437/524373071_sd.pdf"
+      (at 231.14 114.3 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 231.14 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 231.14 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Selected forEVTmatingtrial; LCD3mm exposedland vsrecommended4mm. Pin p mates LCD pin p in installed pose."
+      (at 231.14 114.3 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 015073e6-2e19-584a-b070-301932a2a6ff))
+    (pin "2" (uuid cb7f682a-8d4f-51e1-ae94-b48b297c907a))
+    (pin "3" (uuid e2069ca3-76db-5ee2-b0f3-d5df5cf3f5d8))
+    (pin "4" (uuid ce36cb1f-7eb1-5b56-9954-b6a8c41e689a))
+    (pin "5" (uuid a670c660-80dd-506b-abe1-4318235888cd))
+    (pin "6" (uuid d0f5f878-94aa-5017-b26e-d561cf13bb10))
+    (pin "7" (uuid 2ec91d2f-530d-5c81-a365-fcaa83cc44c4))
+    (pin "8" (uuid 12b855b3-bf0e-5bf4-a220-945784aa6c40))
+    (pin "9" (uuid faa7a328-812f-5447-9549-f2f87a06b93b))
+    (pin "10" (uuid 72886d19-9753-5c96-ad67-310e7a8f57e3))
+    (pin "11" (uuid f3b9890f-fe22-53b8-89c6-509ed7f26c1f))
+    (pin "12" (uuid 3660684e-9e4c-527d-9419-f9017459b565))
+    (pin "13" (uuid 81a68079-399e-527a-b2b6-aea38db1ce45))
+    (pin "14" (uuid f77bc81a-1a4b-529a-8e01-8976b7a9bdc8))
+    (pin "15" (uuid 07e855cd-ef34-56cd-bdec-7df73de309b2))
+    (pin "16" (uuid 5b6f94c1-8703-5fc3-af23-8eafc6689254))
+    (pin "17" (uuid b85623b4-3afe-52c9-96b4-2c8842e3207b))
+    (pin "18" (uuid c3dff662-b363-5edb-a353-6efa6d997489))
+    (pin "19" (uuid 31dd08a5-9bab-5cc2-81e8-ded85d1be1ab))
+    (pin "20" (uuid b9a668e4-e387-5409-8e48-b7fce13d91ea))
+    (pin "21" (uuid 552cef9a-af0c-5957-8237-bbce3f791a08))
+    (pin "22" (uuid 4b080edb-9e86-5e82-9db3-e44db46afad0))
+    (pin "23" (uuid f731a72b-064a-5424-a786-a2117c338213))
+    (pin "24" (uuid dfcd0a5f-c7e6-54a0-9980-40c7ac4e947e))
+    (pin "25" (uuid 3033c965-2b98-5f70-be7a-2861b43d1a9f))
+    (pin "26" (uuid 25e59473-eb04-58a6-8131-92c43486884e))
+    (pin "27" (uuid 91f2c4a3-7c06-58a7-a378-39f2ea07c7ac))
+    (pin "MP" (uuid 7a95fbc2-874f-5116-b798-4700d43f5a57))
+    (property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "52437-2771" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "J302") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "J302") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "J302") (unit 1)))))
+  (wire (pts (xy 210.82 81.28) (xy 205.74 81.28)) (stroke (width 0) (type default)) (uuid 194f46a3-ff88-51bc-a494-32e9200cae33))
+  (global_label
+    "LCD_V0"
+    (shape input)
+    (at 205.74 81.28 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid bcfa17a8-c104-5f7c-8330-3d10b5c62ff4))
+  (wire (pts (xy 210.82 86.36) (xy 205.74 86.36)) (stroke (width 0) (type default)) (uuid 9abaa094-94a4-5532-b33d-e62357b914a0))
+  (global_label
+    "LCD_V1"
+    (shape input)
+    (at 205.74 86.36 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 4ce30e8c-7e53-5ba4-9edd-e4f27142042b))
+  (wire (pts (xy 210.82 91.44) (xy 205.74 91.44)) (stroke (width 0) (type default)) (uuid 1c78c531-905a-566d-85c9-c7b675af9b2a))
+  (global_label
+    "LCD_V2"
+    (shape input)
+    (at 205.74 91.44 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 1ab03920-0b87-5053-9101-c59dc3729a45))
+  (wire (pts (xy 210.82 96.52) (xy 205.74 96.52)) (stroke (width 0) (type default)) (uuid 66627548-93a5-5027-b65c-cc135f912cba))
+  (global_label
+    "LCD_V3"
+    (shape input)
+    (at 205.74 96.52 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 2fc41245-11ae-51cc-90f8-3c2d8876a3fa))
+  (wire (pts (xy 210.82 101.6) (xy 205.74 101.6)) (stroke (width 0) (type default)) (uuid dd4c8533-bdc8-5bba-85db-5d5996b46220))
+  (global_label
+    "LCD_V4"
+    (shape input)
+    (at 205.74 101.6 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 34ed61f7-ae98-5861-9812-676000735874))
+  (no_connect (at 210.82 106.68) (uuid ae4da91b-8ec5-58b2-ba8e-ad5e87c57d7c))
+  (wire (pts (xy 210.82 111.76) (xy 205.74 111.76)) (stroke (width 0) (type default)) (uuid 67747f02-3256-5ffc-a07e-c263cf66ff0d))
+  (global_label
+    "LCD_C2M"
+    (shape input)
+    (at 205.74 111.76 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 71bfd18a-620e-5720-8174-31ed5beabb59))
+  (wire (pts (xy 210.82 116.84) (xy 205.74 116.84)) (stroke (width 0) (type default)) (uuid e3a9a005-330f-5917-9cde-f29a830b927a))
+  (global_label
+    "LCD_C2P"
+    (shape input)
+    (at 205.74 116.84 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid b9236029-e3cf-5b68-bb35-f41fc23bd2f7))
+  (wire (pts (xy 210.82 121.92) (xy 205.74 121.92)) (stroke (width 0) (type default)) (uuid b518a8f8-a6b5-530f-999b-888e4c042862))
+  (global_label
+    "LCD_C1P"
+    (shape input)
+    (at 205.74 121.92 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 5d2df32a-d669-554a-8c9d-310a012244cd))
+  (wire (pts (xy 210.82 127.0) (xy 205.74 127.0)) (stroke (width 0) (type default)) (uuid 80d5adb9-9c3a-5325-80c1-cc04376dee1c))
+  (global_label
+    "LCD_C1M"
+    (shape input)
+    (at 205.74 127.0 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid e4aaf4b6-d5e5-5b93-8b93-f5b2dcc4b86d))
+  (wire (pts (xy 210.82 132.08) (xy 205.74 132.08)) (stroke (width 0) (type default)) (uuid 51b59ab9-d25e-52c1-8ebd-29182535f150))
+  (global_label
+    "LCD_C3P"
+    (shape input)
+    (at 205.74 132.08 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid b0f13b66-b767-59c7-a508-e8a652688d3a))
+  (wire (pts (xy 210.82 137.16) (xy 205.74 137.16)) (stroke (width 0) (type default)) (uuid 46db2154-ef3e-5161-8a04-5dd10819d37b))
+  (global_label
+    "LCD_VOUT"
+    (shape input)
+    (at 205.74 137.16 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid f951ccbd-9ed1-54a0-bad2-c8526ddb2c97))
+  (wire (pts (xy 210.82 142.24) (xy 205.74 142.24)) (stroke (width 0) (type default)) (uuid c71af41a-be56-5136-9b28-a173893a4e5c))
+  (global_label
+    "3V3_UI"
+    (shape input)
+    (at 205.74 142.24 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid fab07ef6-131d-5153-827d-4d5827ccc252))
+  (wire (pts (xy 210.82 147.32) (xy 205.74 147.32)) (stroke (width 0) (type default)) (uuid c74423af-7427-52a7-b5fa-d535f43b6d65))
+  (global_label "GND" (shape input) (at 205.74 147.32 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 8294c12b-2e42-5389-ac80-64211c03c3e0))
+  (wire (pts (xy 251.46 81.28) (xy 256.54 81.28)) (stroke (width 0) (type default)) (uuid eb345904-578c-5540-8a7a-dd1d1d02e133))
+  (global_label "LCD_DB7" (shape input) (at 256.54 81.28 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 7a146ef7-6ee8-5633-98ed-8e65e7798c15))
+  (wire (pts (xy 251.46 86.36) (xy 256.54 86.36)) (stroke (width 0) (type default)) (uuid 1c104c72-9aea-5f4a-9b6d-bfb1df566b9c))
+  (global_label "LCD_DB6" (shape input) (at 256.54 86.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid f6c0971d-4c8e-5c8a-8be4-7e554a504ed5))
+  (wire (pts (xy 251.46 91.44) (xy 256.54 91.44)) (stroke (width 0) (type default)) (uuid 3067e0e5-2a99-51b2-9148-15957220fde9))
+  (global_label "LCD_DB5" (shape input) (at 256.54 91.44 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 966729d9-b23f-5d28-8df2-0894ba028ee8))
+  (wire (pts (xy 251.46 96.52) (xy 256.54 96.52)) (stroke (width 0) (type default)) (uuid 7651b3f9-c223-5c8d-b584-6fbf77131af7))
+  (global_label "LCD_DB4" (shape input) (at 256.54 96.52 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 822eeb94-8b36-59a4-89bf-62e19acc2d05))
+  (wire (pts (xy 251.46 101.6) (xy 256.54 101.6)) (stroke (width 0) (type default)) (uuid a49e05bb-26f4-5949-94d7-2060db5d5370))
+  (global_label "LCD_DB3" (shape input) (at 256.54 101.6 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid e72987b7-491b-5650-83df-a8ab0f70c8f4))
+  (wire (pts (xy 251.46 106.68) (xy 256.54 106.68)) (stroke (width 0) (type default)) (uuid 58edf43c-40c8-54f4-84b2-4f4111ca45dd))
+  (global_label "LCD_DB2" (shape input) (at 256.54 106.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 6ddca99d-de69-5a00-88d4-fcfedb7e8126))
+  (wire (pts (xy 251.46 111.76) (xy 256.54 111.76)) (stroke (width 0) (type default)) (uuid 0a763656-9cf5-5d4b-bfe5-3ff805ea6bc0))
+  (global_label "LCD_DB1" (shape input) (at 256.54 111.76 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a5ec11c2-58d4-543e-8587-b454546d4e4b))
+  (wire (pts (xy 251.46 116.84) (xy 256.54 116.84)) (stroke (width 0) (type default)) (uuid ef891869-58f0-5e17-a2b4-1b6b0e729959))
+  (global_label "LCD_DB0" (shape input) (at 256.54 116.84 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 20c31701-439a-5255-9c03-c1a0e4c75894))
+  (wire (pts (xy 251.46 121.92) (xy 256.54 121.92)) (stroke (width 0) (type default)) (uuid b6334dd2-2567-5a6f-b051-e1e5904f93ef))
+  (global_label "3V3_UI" (shape input) (at 256.54 121.92 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 0ebe2f58-1814-5984-9d4b-b2754f53d63a))
+  (wire (pts (xy 251.46 127.0) (xy 256.54 127.0)) (stroke (width 0) (type default)) (uuid a752869e-e3c8-5800-861c-1d31f3b4759a))
+  (global_label "LCD_WRn" (shape input) (at 256.54 127.0 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 77a2c83f-5df2-5d82-9bd6-9795e29a74a4))
+  (wire (pts (xy 251.46 132.08) (xy 256.54 132.08)) (stroke (width 0) (type default)) (uuid 15bbc761-cceb-56ad-b05c-a58a5522fa6a))
+  (global_label "LCD_A0" (shape input) (at 256.54 132.08 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid be02b0fa-1ae0-5abe-8725-08e3ed070b3c))
+  (wire (pts (xy 251.46 137.16) (xy 256.54 137.16)) (stroke (width 0) (type default)) (uuid f9696325-3f70-5ffe-9257-0ca92ba370ec))
+  (global_label
+    "LCD_RESETn"
+    (shape input)
+    (at 256.54 137.16 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 2ed7d451-6d7b-58ed-a3d7-d497e10e5922))
+  (wire (pts (xy 251.46 142.24) (xy 256.54 142.24)) (stroke (width 0) (type default)) (uuid 114b149b-5255-5643-8312-c6db8747ebd8))
+  (global_label "LCD_CSn" (shape input) (at 256.54 142.24 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 827e35ce-b8a9-500a-b72b-bd2304961227))
+  (wire (pts (xy 251.46 147.32) (xy 256.54 147.32)) (stroke (width 0) (type default)) (uuid be29deba-84a3-559e-bbf1-699a5236f1f5))
+  (global_label "GND" (shape input) (at 256.54 147.32 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 41872353-ba50-519e-858f-84020dd29504))
+  (symbol
+    (lib_id "DockControl:FH12_20_BOTTOM")
+    (at 383.54 114.3 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid aeeb2d0e-9938-5fe4-bb60-0d8acd631a7a)
+    (property "Reference" "J301" (at 383.54 78.74 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "FH12-20S-0.5SH(55)" (at 383.54 81.28 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal" (at 383.54 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.hirose.com/en/product/p/CL0586-0524-9-55" (at 383.54 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 383.54 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 383.54 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 383.54 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid b26e4259-3d4c-560b-bc8b-de7f1ed33ccb))
+    (pin "2" (uuid 29481126-395a-5053-bd01-5c0a4f3cbfe3))
+    (pin "3" (uuid 2b97cead-2504-5e30-8ba2-e65f01277a91))
+    (pin "4" (uuid 7a4d692f-bef3-574b-ac8c-8d49ea7cb59d))
+    (pin "5" (uuid 4a62afad-48e5-5a5d-8fc0-508948b493bf))
+    (pin "6" (uuid 86550861-4d4f-5065-a5c3-b5a61e20fdba))
+    (pin "7" (uuid 1ea633cb-019c-5ebd-8487-f4021c1ca381))
+    (pin "8" (uuid ccb80af1-6312-59c8-9265-cc9fedd83319))
+    (pin "9" (uuid cd38909b-4392-539d-84ba-8fd4416bbc5c))
+    (pin "10" (uuid 60732b13-beb8-55db-88f1-3773252a5d86))
+    (pin "11" (uuid 41703adb-5f5d-59c3-9820-2dfa789c4524))
+    (pin "12" (uuid 24dc2530-54cb-5b11-805e-342014436e93))
+    (pin "13" (uuid 663467af-16a3-53bf-85ed-cfa2186fa014))
+    (pin "14" (uuid 1901497a-a305-5b46-b064-3004fbbc1bb8))
+    (pin "15" (uuid 9b56a661-2834-511e-b08b-eb6142141ffc))
+    (pin "16" (uuid 2b9b8a6e-0635-5ccc-8b33-c02b15c72b6a))
+    (pin "17" (uuid 4cd0d657-f8d0-5341-8128-e59780437b3a))
+    (pin "18" (uuid ca6f2c80-4bb3-52a8-9de4-f387464c4d7d))
+    (pin "19" (uuid 47a2d43f-7a61-5045-b98b-7bc1615bb8da))
+    (pin "20" (uuid 119b9227-646a-5852-82e5-17e1e86fb252))
+    (pin "MP" (uuid dbb3f050-5240-505e-8eed-a5664e538c1b))
+    (property "Manufacturer" "Hirose" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "FH12-20S-0.5SH(55)" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "J301") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "J301") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "J301") (unit 1)))))
+  (wire (pts (xy 363.22 88.9) (xy 358.14 88.9)) (stroke (width 0) (type default)) (uuid ae44d63c-7041-5eda-aa41-dbcdb1c7883c))
+  (global_label "GND" (shape input) (at 358.14 88.9 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid cbd500fe-5884-5c37-8c2f-10c4a6975155))
+  (wire (pts (xy 363.22 93.98) (xy 358.14 93.98)) (stroke (width 0) (type default)) (uuid e8514568-23fb-5bc4-869a-f8f570512cff))
+  (global_label
+    "3V3_UI"
+    (shape input)
+    (at 358.14 93.98 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 11d6c45c-f1c9-5fab-9363-2c17a431789d))
+  (wire (pts (xy 363.22 99.06) (xy 358.14 99.06)) (stroke (width 0) (type default)) (uuid 23457fc8-6000-57ee-9d87-4109f6710de5))
+  (global_label
+    "LCD_DB0"
+    (shape input)
+    (at 358.14 99.06 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 33fe7f20-7313-59c6-9cd2-70a6292279c9))
+  (wire (pts (xy 363.22 104.14) (xy 358.14 104.14)) (stroke (width 0) (type default)) (uuid 5aa98289-c414-5fb9-a909-e57756ef1945))
+  (global_label
+    "LCD_DB1"
+    (shape input)
+    (at 358.14 104.14 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid b275301c-c324-5c2d-bbf2-05e7b5efc893))
+  (wire (pts (xy 363.22 109.22) (xy 358.14 109.22)) (stroke (width 0) (type default)) (uuid fb350473-400e-5661-a62b-29e21c28680c))
+  (global_label
+    "LCD_DB2"
+    (shape input)
+    (at 358.14 109.22 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid e0b9be21-0baf-501c-a301-7dd76184eb70))
+  (wire (pts (xy 363.22 114.3) (xy 358.14 114.3)) (stroke (width 0) (type default)) (uuid 664a2b50-382b-5ef1-8ef1-b20998df90b5))
+  (global_label
+    "LCD_DB3"
+    (shape input)
+    (at 358.14 114.3 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid cf60e8d0-2ab4-5190-b094-3b3299996f23))
+  (wire (pts (xy 363.22 119.38) (xy 358.14 119.38)) (stroke (width 0) (type default)) (uuid c9257dd0-6296-5056-b4f4-bfca8958743f))
+  (global_label
+    "LCD_DB4"
+    (shape input)
+    (at 358.14 119.38 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid ea25c803-9986-5ab7-8838-e399bdcc5805))
+  (wire (pts (xy 363.22 124.46) (xy 358.14 124.46)) (stroke (width 0) (type default)) (uuid 7f8ade43-12b6-541c-97a4-9eea8890e6c3))
+  (global_label
+    "LCD_DB5"
+    (shape input)
+    (at 358.14 124.46 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 4d4a77f2-295b-582c-97eb-0ac22b6d3a11))
+  (wire (pts (xy 363.22 129.54) (xy 358.14 129.54)) (stroke (width 0) (type default)) (uuid e059333c-736b-53b3-b6d6-93d8d615e715))
+  (global_label
+    "LCD_DB6"
+    (shape input)
+    (at 358.14 129.54 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid b0f8d7c6-2012-53b8-b0c6-598f07ea1f62))
+  (wire (pts (xy 363.22 134.62) (xy 358.14 134.62)) (stroke (width 0) (type default)) (uuid 42e071a4-4ff0-5d34-9c73-3db38ba0415f))
+  (global_label
+    "LCD_DB7"
+    (shape input)
+    (at 358.14 134.62 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid b83c0315-8bb2-52e6-81a6-acd5c4a1e45f))
+  (wire (pts (xy 403.86 88.9) (xy 408.94 88.9)) (stroke (width 0) (type default)) (uuid 30873a21-ea78-5b78-a174-1f36dd5612c9))
+  (global_label "LCD_A0" (shape input) (at 408.94 88.9 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 1eab9bd8-a13a-55bc-ad3d-a43cc4c96bd0))
+  (wire (pts (xy 403.86 93.98) (xy 408.94 93.98)) (stroke (width 0) (type default)) (uuid 58a17834-5b39-5499-8772-4490ff557522))
+  (global_label "LCD_WRn" (shape input) (at 408.94 93.98 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid aedd34c9-da4e-5336-80f4-34d688c4d8e0))
+  (wire (pts (xy 403.86 99.06) (xy 408.94 99.06)) (stroke (width 0) (type default)) (uuid 6a93ee30-9848-5375-b52e-1453cbbbcdff))
+  (global_label "LCD_CSn" (shape input) (at 408.94 99.06 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 41866655-922d-5d43-864c-44c69fce7e1c))
+  (wire (pts (xy 403.86 104.14) (xy 408.94 104.14)) (stroke (width 0) (type default)) (uuid c80185e5-83db-57df-8dee-405cee7a7837))
+  (global_label
+    "LCD_RESETn"
+    (shape input)
+    (at 408.94 104.14 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 81f4a513-aafe-530d-a39d-6f416e51b38e))
+  (wire (pts (xy 403.86 109.22) (xy 408.94 109.22)) (stroke (width 0) (type default)) (uuid e1c3bea2-c88c-5150-a3bc-05b7c618aadd))
+  (global_label
+    "BTN_LEFTn"
+    (shape input)
+    (at 408.94 109.22 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid b9e0d408-e3a8-58d0-8664-35ea8f722d0a))
+  (wire (pts (xy 403.86 114.3) (xy 408.94 114.3)) (stroke (width 0) (type default)) (uuid d28666b0-6e1d-5af6-932a-5ba046f25f85))
+  (global_label
+    "BTN_CENTERn_RAW"
+    (shape input)
+    (at 408.94 114.3 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 03d7f218-7ede-57d6-8d18-79ee70d5ae91))
+  (wire (pts (xy 403.86 119.38) (xy 408.94 119.38)) (stroke (width 0) (type default)) (uuid 487445f7-ffb0-5b99-b7ce-df192f044ed7))
+  (global_label
+    "BTN_RIGHTn"
+    (shape input)
+    (at 408.94 119.38 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 82bd7714-754c-5e08-8d8e-30f2cb12f8ca))
+  (wire (pts (xy 403.86 124.46) (xy 408.94 124.46)) (stroke (width 0) (type default)) (uuid 0d1b2687-ac65-5475-aa81-6360abca9c22))
+  (global_label "GND" (shape input) (at 408.94 124.46 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 0014a7fa-41d8-593c-ba0a-450c9f8c1591))
+  (wire (pts (xy 403.86 129.54) (xy 408.94 129.54)) (stroke (width 0) (type default)) (uuid 325a95f2-7201-5009-9c84-e87b3f0cce53))
+  (global_label "GND" (shape input) (at 408.94 129.54 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a82e9269-548b-55a9-86a9-a1af0edbd18f))
+  (wire (pts (xy 403.86 134.62) (xy 408.94 134.62)) (stroke (width 0) (type default)) (uuid 7eddd90b-2a64-5dfb-84fb-f9811da45ebb))
+  (global_label "GND" (shape input) (at 408.94 134.62 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c9c44bdb-429f-5402-9150-5e80d619967d))
+  (wire (pts (xy 403.86 139.7) (xy 408.94 139.7)) (stroke (width 0) (type default)) (uuid 2dde7bd6-5c72-580a-9353-41507c5d799e))
+  (global_label "GND" (shape input) (at 408.94 139.7 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 2621c11f-2cdb-58df-ae30-1398c9f2a48a))
+  (symbol
+    (lib_id "DockControl:SW")
+    (at 459.74 114.3 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid e5bd6c26-afa2-5832-b34e-eb9a39ac335b)
+    (property "Reference" "S301" (at 468.63 113.03 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "B3FS-1002P" (at 468.63 115.57 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:SW_SPST_Omron_B3FS-100xP" (at 459.74 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 459.74 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 459.74 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 459.74 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common."
+      (at 459.74 114.3 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 2b21b36f-281f-52d5-8c9b-b44fe5aac883))
+    (pin "2" (uuid 04dd6f57-777e-5e52-bc10-46653f31db9b))
+    (property "Manufacturer" "Omron / Aratas" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "B3FS-1002P" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "S301") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "S301") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "S301") (unit 1)))))
+  (wire (pts (xy 459.74 109.22) (xy 459.74 104.14)) (stroke (width 0) (type default)) (uuid 2538c582-6b84-5e10-b511-1240edd5e6c8))
+  (global_label
+    "BTN_LEFTn"
+    (shape input)
+    (at 459.74 104.14 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 8069ebe0-79e1-549e-a464-88f1a559a0e7))
+  (wire (pts (xy 459.74 119.38) (xy 459.74 124.46)) (stroke (width 0) (type default)) (uuid 578e62c9-c552-5e01-94bc-283a500a0214))
+  (global_label "GND" (shape input) (at 459.74 124.46 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 2c26c83c-14e2-5304-92f5-f9ffdce46770))
+  (symbol
+    (lib_id "DockControl:SW")
+    (at 505.46 114.3 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid dae47ff6-7bbc-507d-b4a1-c38cb692da11)
+    (property "Reference" "S302" (at 514.35 113.03 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "B3FS-1002P" (at 514.35 115.57 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:SW_SPST_Omron_B3FS-100xP" (at 505.46 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 505.46 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 505.46 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 505.46 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common."
+      (at 505.46 114.3 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 3aa86dc8-503e-594a-9ca2-54a7ee853f29))
+    (pin "2" (uuid 29895208-6a91-546b-8bec-670ec2275336))
+    (property "Manufacturer" "Omron / Aratas" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "B3FS-1002P" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "S302") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "S302") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "S302") (unit 1)))))
+  (wire (pts (xy 505.46 109.22) (xy 505.46 104.14)) (stroke (width 0) (type default)) (uuid 2fedc157-24c3-5303-8ead-157f2fe7dd02))
+  (global_label
+    "BTN_CENTERn_RAW"
+    (shape input)
+    (at 505.46 104.14 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 6d103acb-1734-56e7-af50-227a8f507042))
+  (wire (pts (xy 505.46 119.38) (xy 505.46 124.46)) (stroke (width 0) (type default)) (uuid 1518cae9-d58b-5dd4-83bd-242c4709bb3c))
+  (global_label "GND" (shape input) (at 505.46 124.46 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid f62b0e25-f1fb-5003-aafc-38f11a0c5729))
+  (symbol
+    (lib_id "DockControl:SW")
+    (at 551.18 114.3 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 66711733-36de-5eb1-82b6-2dee55dfbff1)
+    (property "Reference" "S303" (at 560.0699999999999 113.03 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "B3FS-1002P" (at 560.0699999999999 115.57 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:SW_SPST_Omron_B3FS-100xP" (at 551.18 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 551.18 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 551.18 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 551.18 114.3 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Stock footprint usesduplicatepads1upperrow and2lowerrow; eachrow is internally common."
+      (at 551.18 114.3 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 4330f309-bdc2-55ea-bf59-f9e5db43eb8f))
+    (pin "2" (uuid e73ff700-f802-515f-8cda-3bc7babd2fb2))
+    (property "Manufacturer" "Omron / Aratas" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "B3FS-1002P" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "S303") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "S303") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "S303") (unit 1)))))
+  (wire (pts (xy 551.18 109.22) (xy 551.18 104.14)) (stroke (width 0) (type default)) (uuid 46cdce52-435c-5635-9f6c-ae6a0c8a6b02))
+  (global_label
+    "BTN_RIGHTn"
+    (shape input)
+    (at 551.18 104.14 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 021817bf-e8a4-5bc4-b157-6e24707f9e0e))
+  (wire (pts (xy 551.18 119.38) (xy 551.18 124.46)) (stroke (width 0) (type default)) (uuid 103ed870-ee55-5915-8916-223ce70df60c))
+  (global_label "GND" (shape input) (at 551.18 124.46 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c8b7066c-f83c-5e4b-9303-5128770e01a4))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 40.64 213.36 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid e744bba2-edfa-595b-ae0b-7d6c31819da4)
+    (property "Reference" "C301" (at 49.53 212.09 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1uF25V" (at 49.53 214.63000000000002 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_0603_1608Metric" (at 40.64 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 40.64 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 40.64 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 40.64 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age."
+      (at 40.64 213.36 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid fae3763a-93eb-5f0f-9f0f-766a6e9d4a07))
+    (pin "2" (uuid 8eb27107-a9d3-5d62-a309-1a1494781188))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C1608X7R1E105K080AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C301") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C301") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C301") (unit 1)))))
+  (wire (pts (xy 40.64 208.28) (xy 40.64 203.2)) (stroke (width 0) (type default)) (uuid 613999e1-f42f-5930-9f94-360b51fad763))
+  (global_label "LCD_V0" (shape input) (at 40.64 203.2 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 4e8bbc6c-09b0-54fd-9d26-9d1758e6a1ac))
+  (wire (pts (xy 40.64 218.44) (xy 40.64 223.52)) (stroke (width 0) (type default)) (uuid 03a92e61-dcfd-5648-80d5-0aeaea09dddd))
+  (global_label "GND" (shape input) (at 40.64 223.52 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 133d14e0-fc07-5020-b5f9-5a84d9032087))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 129.54000000000002 213.36 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid e92749a2-caff-5dad-a0ce-95419495aecf)
+    (property "Reference" "C302" (at 138.43 212.09 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1uF25V" (at 138.43 214.63000000000002 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_0603_1608Metric" (at 129.54000000000002 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 129.54000000000002 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 129.54000000000002 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 129.54000000000002 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age."
+      (at 129.54000000000002 213.36 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 27450150-dc9e-5441-ad8d-446f19345275))
+    (pin "2" (uuid 879be152-ac05-5e91-82cc-f405dcc4eede))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C1608X7R1E105K080AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C302") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C302") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C302") (unit 1)))))
+  (wire (pts (xy 129.54 208.28) (xy 129.54 203.2)) (stroke (width 0) (type default)) (uuid 7fc4a670-7546-5b9c-8140-0428ada27d05))
+  (global_label "LCD_V1" (shape input) (at 129.54 203.2 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 00c6b888-cef1-5c8a-8651-aedd1406bcc5))
+  (wire (pts (xy 129.54 218.44) (xy 129.54 223.52)) (stroke (width 0) (type default)) (uuid 6c184a06-1b3c-52c7-9a9c-49a4d6bf1f64))
+  (global_label "GND" (shape input) (at 129.54 223.52 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c9a3ac60-b97d-5ef1-ade9-35a175a4e58a))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 218.44 213.36 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid d26043c7-5dc5-5741-ba56-dc5c39303e7d)
+    (property "Reference" "C303" (at 227.32999999999998 212.09 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1uF25V" (at 227.32999999999998 214.63000000000002 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_0603_1608Metric" (at 218.44 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 218.44 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 218.44 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 218.44 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age."
+      (at 218.44 213.36 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid bb5b18a3-4744-5959-befb-ba0278dfccd7))
+    (pin "2" (uuid 0459bd64-fbd6-5b86-adb5-e9b2e7863596))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C1608X7R1E105K080AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C303") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C303") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C303") (unit 1)))))
+  (wire (pts (xy 218.44 208.28) (xy 218.44 203.2)) (stroke (width 0) (type default)) (uuid 59f090f4-3909-52e7-ae37-198472c60448))
+  (global_label "LCD_V2" (shape input) (at 218.44 203.2 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 925a1061-f369-5483-b66d-f71f7cf627ab))
+  (wire (pts (xy 218.44 218.44) (xy 218.44 223.52)) (stroke (width 0) (type default)) (uuid b0ed04fe-cc2a-593a-9574-858212ae7c3a))
+  (global_label "GND" (shape input) (at 218.44 223.52 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid fa15ffa0-beb1-5340-a0a2-603181abd909))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 307.34000000000003 213.36 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 0b118a25-aadd-5b90-91c7-4aa364902c1f)
+    (property "Reference" "C304" (at 316.23 212.09 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1uF25V" (at 316.23 214.63000000000002 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_0603_1608Metric" (at 307.34000000000003 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 307.34000000000003 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 307.34000000000003 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 307.34000000000003 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age."
+      (at 307.34000000000003 213.36 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 08149764-9fb8-5b3f-839d-d0d8daee00db))
+    (pin "2" (uuid 0d810c2a-49c5-535d-a6c2-bbc8d3354117))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C1608X7R1E105K080AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C304") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C304") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C304") (unit 1)))))
+  (wire (pts (xy 307.34 208.28) (xy 307.34 203.2)) (stroke (width 0) (type default)) (uuid abaa05c5-ce17-5090-9940-e0c9cb6a5b65))
+  (global_label "LCD_V3" (shape input) (at 307.34 203.2 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid bddf1d2c-e631-59b7-872c-0a3aebfb3449))
+  (wire (pts (xy 307.34 218.44) (xy 307.34 223.52)) (stroke (width 0) (type default)) (uuid b610a69c-5a91-5143-9264-d9753c4f6917))
+  (global_label "GND" (shape input) (at 307.34 223.52 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 8c1a4b1c-1dff-51d0-a2ad-b33d176feacf))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 396.24 213.36 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 27dc6bbe-d693-55f7-8e5f-70ff60c86f32)
+    (property "Reference" "C305" (at 405.13 212.09 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1uF25V" (at 405.13 214.63000000000002 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_0603_1608Metric" (at 396.24 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 396.24 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 396.24 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 396.24 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Datasheet0.1..1uF nominal bypass. Require>=0.1uF effective atintendedVLCD/temp/age."
+      (at 396.24 213.36 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid c2bbf3e1-d9ab-51aa-8fdb-15fc27b67d62))
+    (pin "2" (uuid c28ef706-9bf6-5c17-83c9-206c193ca3f1))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C1608X7R1E105K080AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C305") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C305") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C305") (unit 1)))))
+  (wire (pts (xy 396.24 208.28) (xy 396.24 203.2)) (stroke (width 0) (type default)) (uuid 98f17946-9b18-50be-b0b5-81d2184f23b6))
+  (global_label "LCD_V4" (shape input) (at 396.24 203.2 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 7a5c79aa-c02c-5957-9b91-8ebaf3639243))
+  (wire (pts (xy 396.24 218.44) (xy 396.24 223.52)) (stroke (width 0) (type default)) (uuid fbeb0f97-114b-56ae-9834-95b0f368e5bb))
+  (global_label "GND" (shape input) (at 396.24 223.52 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid beb30749-e08e-59d5-a8c2-e9304a117be6))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 40.64 256.54 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid a79e628c-1316-5cd7-8664-fc7bff816399)
+    (property "Reference" "C306" (at 49.53 255.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "2.2uF50V" (at 49.53 257.81 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_1206_3216Metric" (at 40.64 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 40.64 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 40.64 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 40.64 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed."
+      (at 40.64 256.54 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 06c9716c-daca-54aa-a5d0-48b21933e0c4))
+    (pin "2" (uuid de120ab0-7e51-53d1-8584-6b9c4ca4d3c0))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C3216X7R1H225K160AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C306") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C306") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C306") (unit 1)))))
+  (wire (pts (xy 40.64 251.46) (xy 40.64 246.38)) (stroke (width 0) (type default)) (uuid 695c26f8-7bfe-5f05-896d-2fe61a23a0cc))
+  (global_label "LCD_C2M" (shape input) (at 40.64 246.38 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 2170471c-732c-579a-a4b8-c10504fba6b7))
+  (wire (pts (xy 40.64 261.62) (xy 40.64 266.7)) (stroke (width 0) (type default)) (uuid 2c049aaa-27b1-52ac-8207-72ec49e918f1))
+  (global_label "LCD_C2P" (shape input) (at 40.64 266.7 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 61e3713b-6f08-5f0e-915b-dbbdc369e198))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 129.54 256.54 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid e66edac6-5cec-5bff-b29f-329e4c6a1226)
+    (property "Reference" "C307" (at 138.43 255.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "2.2uF50V" (at 138.43 257.81 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_1206_3216Metric" (at 129.54 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 129.54 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 129.54 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 129.54 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed."
+      (at 129.54 256.54 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid ea686744-0511-5a46-a7d5-979dd0b1e6a0))
+    (pin "2" (uuid 5188c185-c535-5261-9e0b-bd0981ddb93d))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C3216X7R1H225K160AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C307") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C307") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C307") (unit 1)))))
+  (wire (pts (xy 129.54 251.46) (xy 129.54 246.38)) (stroke (width 0) (type default)) (uuid 14466203-d7f1-5c80-a6e8-198e86818625))
+  (global_label "LCD_C1P" (shape input) (at 129.54 246.38 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 9a53355b-664e-5b23-a274-13c58548c1f4))
+  (wire (pts (xy 129.54 261.62) (xy 129.54 266.7)) (stroke (width 0) (type default)) (uuid c07c39cd-62fc-58f0-a3d4-0ab1ea46ad9e))
+  (global_label "LCD_C1M" (shape input) (at 129.54 266.7 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid cb08dbf0-4279-565a-9649-ff8c6f6b5953))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 218.44 256.54 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 92ac81b5-07de-533b-bcfb-d32b0d5559df)
+    (property "Reference" "C308" (at 227.32999999999998 255.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "2.2uF50V" (at 227.32999999999998 257.81 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_1206_3216Metric" (at 218.44 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 218.44 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 218.44 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 218.44 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed."
+      (at 218.44 256.54 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid fa9c4671-23d4-5de0-bcbb-642afeb3c909))
+    (pin "2" (uuid 950f66ff-dd38-574f-9321-894257c960a5))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C3216X7R1H225K160AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C308") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C308") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C308") (unit 1)))))
+  (wire (pts (xy 218.44 251.46) (xy 218.44 246.38)) (stroke (width 0) (type default)) (uuid f91143d7-b185-523b-9c67-2d7462375a88))
+  (global_label "LCD_C3P" (shape input) (at 218.44 246.38 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 818db624-0895-5b7a-b0e2-467e7da129b2))
+  (wire (pts (xy 218.44 261.62) (xy 218.44 266.7)) (stroke (width 0) (type default)) (uuid cef3c4af-0817-5aca-8a98-beeb82332962))
+  (global_label "LCD_C1M" (shape input) (at 218.44 266.7 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid eff20b73-6d6d-5228-b755-40c029e3399b))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 307.34 256.54 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid f15f5e52-957c-5efe-804d-451ff64db6bf)
+    (property "Reference" "C309" (at 316.22999999999996 255.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "2.2uF50V" (at 316.22999999999996 257.81 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_1206_3216Metric" (at 307.34 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 307.34 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 307.34 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 307.34 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "TDK2.2uF50VX7R1206; publishedDCbiascurve about-8% at10Vtyp. Require>=1uF effective atintendedvoltage/temp/age; no guaranteedbiascurveclaimed."
+      (at 307.34 256.54 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 37d6d3a1-4dfc-51c4-a6c5-07637c87786e))
+    (pin "2" (uuid 36005e14-9e7b-5bc3-9054-4600540bba95))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C3216X7R1H225K160AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C309") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C309") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C309") (unit 1)))))
+  (wire (pts (xy 307.34 251.46) (xy 307.34 246.38)) (stroke (width 0) (type default)) (uuid 56d746c3-8538-5029-88e7-7440844c6882))
+  (global_label
+    "LCD_VOUT"
+    (shape input)
+    (at 307.34 246.38 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid a8a4956e-a832-5930-b448-f06fe6654e64))
+  (wire (pts (xy 307.34 261.62) (xy 307.34 266.7)) (stroke (width 0) (type default)) (uuid 38b5343b-2c1b-5a0a-865d-02f067802546))
+  (global_label "GND" (shape input) (at 307.34 266.7 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 8f8205fb-52c7-56a9-9c0f-2dc059567af0))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 396.24 256.54 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 2bc50e86-250b-5219-9578-fcbcb0110f0c)
+    (property "Reference" "C310" (at 405.13 255.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1uF25V" (at 405.13 257.81 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_0603_1608Metric" (at 396.24 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 396.24 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 396.24 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 396.24 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 396.24 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 567c79ba-275a-5380-993d-a2374c02279d))
+    (pin "2" (uuid cd311074-8818-5a5b-9f08-ae7c4c54c3ff))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C1608X7R1E105K080AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C310") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C310") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C310") (unit 1)))))
+  (wire (pts (xy 396.24 251.46) (xy 396.24 246.38)) (stroke (width 0) (type default)) (uuid 20d18b38-aeaa-5cf8-9510-8ade3a7882d9))
+  (global_label "3V3_UI" (shape input) (at 396.24 246.38 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 2081d768-c6cf-5551-a464-a1432627e460))
+  (wire (pts (xy 396.24 261.62) (xy 396.24 266.7)) (stroke (width 0) (type default)) (uuid d5b6634f-9cfa-50f7-b1b7-581b1c956f15))
+  (global_label "GND" (shape input) (at 396.24 266.7 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 357cb04b-127f-5d3a-92a7-294ca5f2f9c0))
+  (symbol
+    (lib_id "DockControl:C")
+    (at 485.14 256.54 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid d1b95172-bd1a-50e5-9f54-eddd08d3f097)
+    (property "Reference" "C311" (at 494.03 255.27 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF" (at 494.03 257.81 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:C_0402_1005Metric" (at 485.14 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 485.14 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 485.14 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 485.14 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 485.14 256.54 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 74599d5c-09b2-5b9c-8dd9-b1ec3350cc84))
+    (pin "2" (uuid 39ba73f5-0bfd-5664-a1d2-76280950281c))
+    (property "Manufacturer" "Murata" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "GRM155R71C104KA88D" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C311") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "C311") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "C311") (unit 1)))))
+  (wire (pts (xy 485.14 251.46) (xy 485.14 246.38)) (stroke (width 0) (type default)) (uuid 75743b35-4932-580e-b041-6f818277dffd))
+  (global_label "3V3_UI" (shape input) (at 485.14 246.38 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid e33dc041-f619-5677-b272-918b23beebeb))
+  (wire (pts (xy 485.14 261.62) (xy 485.14 266.7)) (stroke (width 0) (type default)) (uuid 2085ae6d-a8da-5b25-9191-07d69c3f86c7))
+  (global_label "GND" (shape input) (at 485.14 266.7 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 790e3d21-4464-5b7b-9e7c-1223d5a64782))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 40.64 304.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 87402947-a1d4-57ce-9692-6cf7d7985885)
+    (property "Reference" "R301" (at 49.53 303.53000000000003 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "47k ohm" (at 49.53 306.07 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 40.64 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 40.64 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 40.64 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 40.64 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 40.64 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid fa0313c2-3c85-59e1-b9d8-778e284075a9))
+    (pin "2" (uuid e58e4dcc-613a-56e7-b8bf-23c7d400a99b))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-0747KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R301") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R301") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R301") (unit 1)))))
+  (wire (pts (xy 40.64 299.72) (xy 40.64 294.64)) (stroke (width 0) (type default)) (uuid 2c80106c-222d-581e-b91a-2f922a8257c2))
+  (global_label "3V3_UI" (shape input) (at 40.64 294.64 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 5ddc58e8-4fd9-5591-9cc5-c9c918fec8cc))
+  (wire (pts (xy 40.64 309.88) (xy 40.64 314.96)) (stroke (width 0) (type default)) (uuid e431d294-600a-536a-9dbe-1ec25004e233))
+  (global_label "LCD_CSn" (shape input) (at 40.64 314.96 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 54bdefdf-f216-5f62-8f35-79781396c197))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 129.54 304.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 685de78a-701e-55fd-8f2c-6925cc9c913d)
+    (property "Reference" "R302" (at 138.43 303.53000000000003 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "47k ohm" (at 138.43 306.07 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 129.54 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 129.54 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 129.54 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 129.54 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 129.54 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 045eec1c-3f4a-502b-807a-45c836590997))
+    (pin "2" (uuid 1657a5fa-ec26-5cbc-b1c2-5e01a9f6620c))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-0747KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R302") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R302") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R302") (unit 1)))))
+  (wire (pts (xy 129.54 299.72) (xy 129.54 294.64)) (stroke (width 0) (type default)) (uuid 8583f4ba-a703-5b31-91cd-ed0cd14cb863))
+  (global_label "3V3_UI" (shape input) (at 129.54 294.64 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 30fc5398-4939-5d65-9d18-e436d3e9349b))
+  (wire (pts (xy 129.54 309.88) (xy 129.54 314.96)) (stroke (width 0) (type default)) (uuid 548cf0d3-a341-5ae0-9cee-359b2786414e))
+  (global_label "LCD_WRn" (shape input) (at 129.54 314.96 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 71f606b4-43bb-5526-a431-c8041cf42da9))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 218.44 304.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid d3c45151-11fc-5cac-a959-a696aed24c7f)
+    (property "Reference" "R303" (at 227.32999999999998 303.53000000000003 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k ohm" (at 227.32999999999998 306.07 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 218.44 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 218.44 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 218.44 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 218.44 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 218.44 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid a8da678b-e395-539a-8237-88d555214633))
+    (pin "2" (uuid f453ed39-f59e-5640-b9c6-900e422c980f))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R303") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R303") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R303") (unit 1)))))
+  (wire (pts (xy 218.44 299.72) (xy 218.44 294.64)) (stroke (width 0) (type default)) (uuid e281ffc0-4a3d-5743-b921-66571eb48961))
+  (global_label
+    "LCD_RESETn"
+    (shape input)
+    (at 218.44 294.64 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 891e2c58-d494-5138-9cbf-324dd39e1fa8))
+  (wire (pts (xy 218.44 309.88) (xy 218.44 314.96)) (stroke (width 0) (type default)) (uuid 6e20a4dd-dad1-510d-b165-7b8ccfa9dace))
+  (global_label "GND" (shape input) (at 218.44 314.96 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 3529c97f-44ee-59b3-8beb-75f470ec8aa1))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 307.34 304.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 77b526ba-05bd-51d4-901d-b105fe46dbd9)
+    (property "Reference" "R304" (at 316.22999999999996 303.53000000000003 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k ohm" (at 316.22999999999996 306.07 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 307.34 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 307.34 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 307.34 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 307.34 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 307.34 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 94cce81a-3aae-5733-85f1-e59d621db10c))
+    (pin "2" (uuid 9d054f57-5799-5ff2-bf34-e98bc6056fdc))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R304") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R304") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R304") (unit 1)))))
+  (wire (pts (xy 307.34 299.72) (xy 307.34 294.64)) (stroke (width 0) (type default)) (uuid e6d6dcf1-3160-5d91-889e-1d93d2a702d5))
+  (global_label "LCD_A0" (shape input) (at 307.34 294.64 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 82a694bd-a2c0-56ed-8dc6-8a4c914e268d))
+  (wire (pts (xy 307.34 309.88) (xy 307.34 314.96)) (stroke (width 0) (type default)) (uuid 38c9894d-151e-549c-84ea-9f1a7d9e9d83))
+  (global_label "GND" (shape input) (at 307.34 314.96 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid d2207528-0dcf-58ae-9ff5-3b6a3b7f368a))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 40.64 350.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 830bac44-d4de-50f9-b44e-07d59632181c)
+    (property "Reference" "R305" (at 49.53 349.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k ohm" (at 49.53 351.78999999999996 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 40.64 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 40.64 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 40.64 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 40.64 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 40.64 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid c9972004-189e-548d-9940-5a033102d78c))
+    (pin "2" (uuid 793e2dcc-c8ee-5e88-81e7-bd9d0fa8d873))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R305") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R305") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R305") (unit 1)))))
+  (wire (pts (xy 40.64 345.44) (xy 40.64 340.36)) (stroke (width 0) (type default)) (uuid 34f87684-8606-517c-8902-1df2116607c0))
+  (global_label "LCD_DB0" (shape input) (at 40.64 340.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 54a69e02-8fb9-592c-ab4b-8c562e5f2aca))
+  (wire (pts (xy 40.64 355.6) (xy 40.64 360.68)) (stroke (width 0) (type default)) (uuid 55b6b6a5-cd0f-5213-80ce-495837ae9feb))
+  (global_label "GND" (shape input) (at 40.64 360.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 4d5f2aea-9add-5789-9228-e590377e7d93))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 129.54000000000002 350.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 960a30a5-dae2-5969-880d-1dcc424b7eea)
+    (property "Reference" "R306" (at 138.43 349.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k ohm" (at 138.43 351.78999999999996 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 129.54000000000002 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 129.54000000000002 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 129.54000000000002 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 129.54000000000002 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 129.54000000000002 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 38dd3c51-a439-521e-8a03-95a5ed1513f7))
+    (pin "2" (uuid 38f995bf-441d-5ff5-9af0-3609ba90969b))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R306") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R306") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R306") (unit 1)))))
+  (wire (pts (xy 129.54 345.44) (xy 129.54 340.36)) (stroke (width 0) (type default)) (uuid 054636e5-2c1e-5a12-9241-2b7f7e002939))
+  (global_label "LCD_DB1" (shape input) (at 129.54 340.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 45feb5ca-4bb2-5949-b454-e0176cecf135))
+  (wire (pts (xy 129.54 355.6) (xy 129.54 360.68)) (stroke (width 0) (type default)) (uuid 64633397-0634-51ad-8be9-15a512de3018))
+  (global_label "GND" (shape input) (at 129.54 360.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 37ddd759-8934-597a-979b-2ef97c88b06f))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 218.44 350.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 8511a220-1b19-5b6c-8446-304b05292fa0)
+    (property "Reference" "R307" (at 227.32999999999998 349.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k ohm" (at 227.32999999999998 351.78999999999996 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 218.44 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 218.44 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 218.44 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 218.44 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 218.44 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 13ee1bc9-f4c1-5274-bf70-2973237b6f79))
+    (pin "2" (uuid 2def3938-3194-53a1-97fb-aa34df71e0f0))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R307") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R307") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R307") (unit 1)))))
+  (wire (pts (xy 218.44 345.44) (xy 218.44 340.36)) (stroke (width 0) (type default)) (uuid acf6606f-d37d-50e4-8f28-425a0932d481))
+  (global_label "LCD_DB2" (shape input) (at 218.44 340.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 0073dad5-f009-562a-9a5f-cffa9ac8aa2f))
+  (wire (pts (xy 218.44 355.6) (xy 218.44 360.68)) (stroke (width 0) (type default)) (uuid 74966dce-f8b4-564f-a208-3f38b5b63398))
+  (global_label "GND" (shape input) (at 218.44 360.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 62a6f1ce-7331-58bf-b330-b64b11287d3e))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 307.34000000000003 350.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid ad51de99-9d5b-536e-9a11-0f2c1905fd47)
+    (property "Reference" "R308" (at 316.23 349.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k ohm" (at 316.23 351.78999999999996 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 307.34000000000003 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 307.34000000000003 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 307.34000000000003 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 307.34000000000003 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 307.34000000000003 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 97db82ff-48ae-5f40-b601-6b1b5439fd4a))
+    (pin "2" (uuid c01fe76a-1a98-5bf6-850b-26c5285a737a))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R308") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R308") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R308") (unit 1)))))
+  (wire (pts (xy 307.34 345.44) (xy 307.34 340.36)) (stroke (width 0) (type default)) (uuid 48ee8c31-41bf-59da-b0d3-af4a8b26f995))
+  (global_label "LCD_DB3" (shape input) (at 307.34 340.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 34c1626a-aec6-5cda-b8a8-4d9b4cad9d23))
+  (wire (pts (xy 307.34 355.6) (xy 307.34 360.68)) (stroke (width 0) (type default)) (uuid d62db3f0-1df3-5c28-8ba1-b6a833210462))
+  (global_label "GND" (shape input) (at 307.34 360.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 96b429df-5d54-5d68-8b25-2179202888fe))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 396.24 350.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 690c013a-2311-5914-89f4-3a27a4ad8a3c)
+    (property "Reference" "R309" (at 405.13 349.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k ohm" (at 405.13 351.78999999999996 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 396.24 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 396.24 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 396.24 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 396.24 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 396.24 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 42b0d625-20c4-570d-81cd-08a31cd7c8e4))
+    (pin "2" (uuid dd6dd305-049b-56f6-8ff8-778711228b2a))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R309") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R309") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R309") (unit 1)))))
+  (wire (pts (xy 396.24 345.44) (xy 396.24 340.36)) (stroke (width 0) (type default)) (uuid e77e7097-1f10-54f6-9676-e651d89636e0))
+  (global_label "LCD_DB4" (shape input) (at 396.24 340.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 63785db4-ac4c-5ee9-809d-d5de18b89287))
+  (wire (pts (xy 396.24 355.6) (xy 396.24 360.68)) (stroke (width 0) (type default)) (uuid 121d4f38-97ef-5d81-a1cb-80481ae37557))
+  (global_label "GND" (shape input) (at 396.24 360.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 3c5f8842-e102-59cb-a6c7-a14f8b897eba))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 485.14 350.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 461d044d-831a-5300-a568-fe297f09be92)
+    (property "Reference" "R310" (at 494.03 349.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k ohm" (at 494.03 351.78999999999996 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 485.14 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 485.14 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 485.14 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 485.14 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 485.14 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 93f6b63e-8fda-5062-9472-f224e750d049))
+    (pin "2" (uuid 58921f9e-d577-5fe2-8627-ce34c68669fb))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R310") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R310") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R310") (unit 1)))))
+  (wire (pts (xy 485.14 345.44) (xy 485.14 340.36)) (stroke (width 0) (type default)) (uuid badb87fe-e786-5ad3-a9bf-a812d972b741))
+  (global_label "LCD_DB5" (shape input) (at 485.14 340.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 3fb27a87-7ef9-57fe-9315-06d4f10a769b))
+  (wire (pts (xy 485.14 355.6) (xy 485.14 360.68)) (stroke (width 0) (type default)) (uuid cf1f6b00-94dc-52b9-8502-b7dcb54235b0))
+  (global_label "GND" (shape input) (at 485.14 360.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 487bebb6-f198-524b-ae8e-b0016e224037))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 40.64 393.7 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid d8a3c3ee-b0a9-5aa5-8a2c-d22c78b0cff7)
+    (property "Reference" "R311" (at 49.53 392.43 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k ohm" (at 49.53 394.96999999999997 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 40.64 393.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 40.64 393.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 40.64 393.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 40.64 393.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 40.64 393.7 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 695e1988-5645-5684-ba28-0b3db6c18ca5))
+    (pin "2" (uuid d29fb1d1-e516-5d37-971e-a66e2dc42231))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R311") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R311") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R311") (unit 1)))))
+  (wire (pts (xy 40.64 388.62) (xy 40.64 383.54)) (stroke (width 0) (type default)) (uuid 3611dc8c-a1c3-55de-b70c-c23cf5eb56e7))
+  (global_label "LCD_DB6" (shape input) (at 40.64 383.54 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 5d9e7f2d-dc71-5799-80ea-5f4d649f24c5))
+  (wire (pts (xy 40.64 398.78) (xy 40.64 403.86)) (stroke (width 0) (type default)) (uuid 81006601-bd23-5649-b770-a594fe9833ae))
+  (global_label "GND" (shape input) (at 40.64 403.86 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a8987c79-cc30-544b-ae75-ea499e693334))
+  (symbol
+    (lib_id "DockControl:R")
+    (at 129.54000000000002 393.7 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 3101e838-69ca-54f9-aaa0-3615fb9bf091)
+    (property "Reference" "R312" (at 138.43 392.43 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k ohm" (at 138.43 394.96999999999997 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "DockControl:R_0603_1608Metric" (at 129.54000000000002 393.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 129.54000000000002 393.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 129.54000000000002 393.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 129.54000000000002 393.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 129.54000000000002 393.7 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 4092433f-224a-5ec5-b327-91c8e914e178))
+    (pin "2" (uuid ae3d08ae-3d5d-5d59-b5a3-f6874584cdaa))
+    (property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "RC0603FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ItemType" "purchased" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "dock-lid-ui" (path "/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R312") (unit 1)))
+      (project
+        "dock-control"
+        (path "/77580244-d203-56de-a5d8-6d568c8186fe/92ef91b4-5856-5051-848a-6a12132d067b/0561b069-d9fc-59b0-ae52-5774770aaf10" (reference "R312") (unit 1)))
+      (project "dock-system" (path "/c2f01ee4-ba69-5989-8320-4f654535c885/9e9b1784-09b4-582c-88b0-752e143521fd" (reference "R312") (unit 1)))))
+  (wire (pts (xy 129.54 388.62) (xy 129.54 383.54)) (stroke (width 0) (type default)) (uuid 893b938d-f031-5b82-9953-b69daa46931d))
+  (global_label "LCD_DB7" (shape input) (at 129.54 383.54 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid d57a5783-8f5f-575a-bdb7-42510189896c))
+  (wire (pts (xy 129.54 398.78) (xy 129.54 403.86)) (stroke (width 0) (type default)) (uuid 4e98bdf2-4bae-5601-91aa-7de7afba8993))
+  (global_label "GND" (shape input) (at 129.54 403.86 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 5ace0ba9-c7f4-557b-a2ac-53b2ac1289ee))
+  (text
+    "ACTUAL 8080LCD / NO BACKLIGHT\n/RD tied3V3_UI. C4+(LCD6)NC. C1- is commonreturnfor bothC1+andC3+ flyingcaps.\nV0..4 eachbypass toGND. VOUT2.2uFtoGND. No invented externalcontrastpot;\nST7565R internalresistor/e-volumecommands25h/81h10h perNewhaven example."
+    (at 35.56 25.4 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 7ef6b34d-7f71-5ff3-a2db-f5f999bb6259))
+  (text
+    "DIRECT 1:1 MATE: installedFFC returns+Y with contactsface-Z.\nManufacturer topview pin1-X/mouthnative+Y; boardnativeY mapsdock-Y.\nJ302pin1-X matches LCDpin1-X; 13=VDD,14=GND,22=DB0,27=CSn.\nNo180deg Z rotation. Physical continuity/mating trial required.\nLCDtailbare/stiffenerlengthdifferssocketrecommendation; noproductioncompatibilityclaim."
+    (at 165.1 165.1 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 4616e61c-a34c-506d-998e-3f73716e78e2))
+  (text
+    "S301/S302/S303 areLEFT/CENTER/RIGHT. CENTERgoestoindependentMAX6816 onsafetysheet;\nneverclockUVpermissionfrom MCU/softwaredebounce. LidUIboardhasnoUVLEDcurrentpath.\nOpaqueUVbarrier, caprest/overtravel and completeconnector/cablefit remainmechanicalgates."
+    (at 35.56 410 0)
+    (effects (font (size 1.016 1.016)) (justify left top))
+    (uuid 1ec0cb2b-0640-5dda-b5af-d8468677f96e))
+  (sheet_instances (path "/" (page "1"))))

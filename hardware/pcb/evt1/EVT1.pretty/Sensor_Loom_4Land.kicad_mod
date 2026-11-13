@@ -1,0 +1,8 @@
+(footprint "Sensor_Loom_4Land" (version 20221018) (generator build_evt1_electrical)
+          (layer "F.Cu") (attr smd)
+          (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+          (fp_text value "Sensor_Loom_4Land" (at 0 2) (layer "F.Fab") (effects (font (size 0.8 0.8) (thickness 0.12))))
+          (pad "1" smd circle (at 0.0 0) (size 1.0 1.0) (layers "F.Cu" "F.Paste" "F.Mask"))
+(pad "2" smd circle (at 1.5 0) (size 1.0 1.0) (layers "F.Cu" "F.Paste" "F.Mask"))
+(pad "3" smd circle (at 3.0 0) (size 1.0 1.0) (layers "F.Cu" "F.Paste" "F.Mask"))
+(pad "4" smd circle (at 4.5 0) (size 1.0 1.0) (layers "F.Cu" "F.Paste" "F.Mask")))

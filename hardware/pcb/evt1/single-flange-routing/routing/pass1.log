@@ -1,0 +1,36 @@
+2026-11-12 20:31:49.844 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-11-12 20:31:50.270 INFO   Hardware: 10 CPU cores, 38 CPU score, 4096 MB RAM
+2026-11-12 20:31:50.273 WARN   Deprecated settings path '-mp / --router.max_passes'; use '--router.autorouter.max_passes' instead. The old path will be removed in a future release.
+2026-11-12 20:31:50.275 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-11-12 20:31:55.137 WARN   Deprecated settings path 'router.max_passes'; use 'router.autorouter.max_passes' instead. The old path will be removed in a future release.
+2026-11-12 20:31:59.349 INFO   [9EFC4C\61F301] Loading board file 'pass1.dsn'...
+2026-11-12 20:32:03.508 INFO   Applied drill-hole clearance override: 250.0 um (2500 board units), 16 hole keepouts reclassified.
+2026-11-12 20:32:04.158 INFO   [9EFC4C\61F301] Job '9EFC4C\61F301' started at 2026-11-13T01:32:04.157865Z.
+2026-11-12 20:32:08.609 WARN   Design Warning: Board has 17 pre-existing clearance violation(s) in the loaded design (before routing):
+  - 17 unfixable violation(s) (cannot be resolved by Freerouting):
+      * 17 fixed trace/via clearance violations (first 5 shown):
+          - U6.49@8 [net GND] <-> FixedVia#559 [net GND]
+          - U6.49@7 [net GND] <-> FixedVia#559 [net GND]
+          - U6.49@7 [net GND] <-> FixedVia#551 [net GND]
+          - U6.49@6 [net GND] <-> FixedVia#551 [net GND]
+          - U6.49@5 [net GND] <-> FixedVia#559 [net GND]
+          ... and 12 more
+  - 0 potentially fixable violations
+Notice: Freerouting does not modify component placement, board outlines, or fixed items.
+Resolving these 17 unfixable violation(s) is the responsibility of the board author in their EDA tool (e.g. KiCad).
+2026-11-12 20:32:08.933 INFO   [9EFC4C\61F301] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=9.
+2026-11-12 20:32:10.697 INFO   [9EFC4C\61F301] Fanout stage started on board '216327502e4d4724ed8853fa2861b523' with 138 of 163 SMD pins needing fanout (21 already connected, 4 netless).
+2026-11-12 20:32:17.625 INFO   [9EFC4C\61F301] Fanout pass #1 on board 'f8c86a23988aad18e3db1b20f10c5679' completed in 6.65 seconds with 64 SMD pins fanouted, 46 not routed, 0 insert errors, +15 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-11-12 20:32:21.483 INFO   [9EFC4C\61F301] Fanout pass #2 on board 'ff2b8586090d386af0926ccf11e2cc60' completed in 3.83 seconds with 11 SMD pins fanouted, 34 not routed, 0 insert errors, +7 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-11-12 20:32:23.555 INFO   [9EFC4C\61F301] Fanout pass #3 on board 'b496eb6cdc08d10f872278a3df4f4c52' completed in 2.04 seconds with 5 SMD pins fanouted, 12 not routed, 0 insert errors, +1 extra via (0 SMD pins still to check in pass, ripup costs=300).
+2026-11-12 20:32:25.021 INFO   [9EFC4C\61F301] Fanout pass #4 on board 'b496eb6cdc08d10f872278a3df4f4c52' completed in 1.45 seconds with 4 SMD pins fanouted, 10 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-11-12 20:32:25.273 INFO   [9EFC4C\61F301] Fanout stage completed: started with 159 total SMD pins, completed in 14.32 seconds, escaped pins: 106/159 (66.7%), using 6.12 total CPU seconds, 1.60 GB total allocated, and 136.4 MB peak heap usage.
+2026-11-12 20:32:26.561 INFO   [9EFC4C\61F301] Auto-routing stage started on board 'b496eb6cdc08d10f872278a3df4f4c52' with baseline score 447.85 for 50 unrouted items.
+2026-11-12 20:33:07.625 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net '3V3' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-11-12 20:33:08.306 INFO   [9EFC4C\61F301] Auto-routing pass #1 on board 'b496eb6cdc08d10f872278a3df4f4c52' was completed in 41.27 seconds with score 767.41 (21 unrouted and 17 violations), using 34.27 CPU seconds and the job allocated 15.37 GB of memory so far.
+2026-11-12 20:33:10.466 INFO   [9EFC4C\61F301] Auto-routing pass #2 on board '02cb515bb8a6d2f9478ff90768494601' was completed in 2.02 seconds with score 569.06 (39 unrouted and 17 violations), using 36.21 CPU seconds and the job allocated 16.55 GB of memory so far.
+2026-11-12 20:33:12.409 INFO   [9EFC4C\61F301] Auto-routing pass #3 on board '834423797f0caaa66f54b4f56c8c95f4' was completed in 1.85 seconds with score 569.06 (39 unrouted and 17 violations), using 37.88 CPU seconds and the job allocated 17.28 GB of memory so far.
+2026-11-12 20:33:14.267 INFO   [9EFC4C\61F301] Auto-routing stage completed: started with 94 unrouted nets, completed in 65.08 seconds, final score: 767.41 (21 unrouted and 17 violations), using 39.10 total CPU seconds, 17.61 GB total allocated, and 180.6 MB peak heap usage.
+2026-11-12 20:33:14.304 INFO   [9EFC4C\61F301] Job '9EFC4C\61F301' finished with state: COMPLETED (elapsed: 1 minute 10.14 seconds, finished at UTC: 2026-11-13T01:33:14.303206Z).
+2026-11-12 20:33:14.314 INFO   Saving output file '/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/single-flange-routing/routing/pass1.ses' (SES)...
+2026-11-12 20:33:14.324 INFO   Successfully saved output file '/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/single-flange-routing/routing/pass1.ses' (30441 bytes).

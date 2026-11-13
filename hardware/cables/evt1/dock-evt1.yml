@@ -1,0 +1,157 @@
+metadata:
+  title: EVT1 cradle USB board J93 to spring-pin board J94
+  notes: EVT first article. Native numeric pin map; verify mating marks/continuity.
+    Free-span dimensions are between modeled wire-exit datums; stock blanks are longer
+    and are not finished cut lengths. No physical crimp/current/fit acceptance. Keep
+    D-/D+ paired. Route rear J94 joints through the open retainer window/downward
+    channel. Pin-board thickness remains1mm; verify USB/power/strain relief in the
+    real cradle.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J93:
+    type: USB board hand-solder lands, F.Cu
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    pinlabels: &id001
+    - GND
+    - DOCK_DM
+    - DOCK_DP
+    - DOCK_5V
+    ignore_in_bom: true
+  J94:
+    type: Pin board rear hand-solder lands, B.Cu
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    pinlabels: *id001
+    ignore_in_bom: true
+cables:
+  DK1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - GND
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  DK2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - DOCK_DM
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  DK3:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - DOCK_DP
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  DK4:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - DOCK_5V
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150mm starting stock. Model OD limit0.6mm.
+
+      Centreline bend at least4mm.
+
+      Installed route/free length not yet fixed.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+connections:
+- - J93:
+    - 1
+  - DK1:
+    - 1
+  - J94:
+    - 1
+- - J93:
+    - 2
+  - DK2:
+    - 1
+  - J94:
+    - 2
+- - J93:
+    - 3
+  - DK3:
+    - 1
+  - J94:
+    - 3
+- - J93:
+    - 4
+  - DK4:
+    - 1
+  - J94:
+    - 4
+additional_bom_items: []

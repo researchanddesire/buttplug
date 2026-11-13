@@ -1,0 +1,91 @@
+{
+  "scope": "J302 OEM model identity attachment and 0.25mm closed-front courtyard margin only",
+  "previous_electrical_routing_board_SHA256": "a7f45608992ae84fcc229e2492af9244682d75f991f0f522f98c2046b7ecad08",
+  "board_after_model_binding_SHA256": "84dfe4b6f85e200505be174f7ff1094e4013d3e5af827888569d872d35819942",
+  "previous_routed_native_snapshot": "before-socket-model.kicad_pcb",
+  "library": "routed-lid/DockControl.pretty/Molex_52437-2771_1x27-1MP_P0.50mm_Horizontal.kicad_mod",
+  "library_before_SHA256": "29d36c51cfead5f3eb274cc0ab07604d3d1607862dc52fd90b949dd91e44533c",
+  "library_after_SHA256": "a6253a9caf02b2dafde9707b0e51aa62b951b10b124248ab3c83ac8db7bbb0ac",
+  "model": "DockControl.3dshapes/Molex_52437-2771_ClosedEnvelope.step",
+  "model_SHA256": "b5683f882c168abf2d52559af091ec2f5a17a05ffb15a26d3cfe61c8e78bc402",
+  "model_source": "hardware/cad/evt1-assembly/vendor/lcd-socket/Molex524372771ClosedBoardFrame.step",
+  "model_source_SHA256": "b5683f882c168abf2d52559af091ec2f5a17a05ffb15a26d3cfe61c8e78bc402",
+  "CAD_native_checks": "hardware/cad/evt1-assembly/vendor/lcd-socket/native-checks.json",
+  "CAD_native_checks_SHA256": "ff8413cd8e789954ca8e30c9fca04b0a8c72832d233cef20c296333e6eeb6a52",
+  "source_manifest_SHA256": "1e42aa7bd71c4f3a6e7e79472eb7590a813d59f020abf590f280686ebed2caaa",
+  "binder_SHA256": "5aa5d1437cd6922767b68d9982916d84694bf1058c601d4391d70ed75469c5e0",
+  "OEM_transform_to_physical_board_XYZ": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      -0.6
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "OEM_actuator_translation_before_transform_mm": [
+    0,
+    0,
+    -1.6
+  ],
+  "KiCad_model_offset_mm": [
+    0,
+    0,
+    0
+  ],
+  "KiCad_model_rotation_deg": [
+    0,
+    0,
+    0
+  ],
+  "KiCad_model_scale": [
+    1,
+    1,
+    1
+  ],
+  "model_frame": "Physical board X right/Y up/Z component height; model mouth-Y maps native footprint+Y",
+  "model_pin1_solder_tail_top_centre_mm": [
+    -6.5,
+    -0.15,
+    0.14
+  ],
+  "expected_closed_model_bounds_mm": [
+    -10.05,
+    -5.1,
+    -0.04,
+    10.05,
+    0.1,
+    2
+  ],
+  "J302_land_row_dock_XY_mm": [
+    0,
+    114
+  ],
+  "closed_front_dock_Y_mm": 108.9,
+  "courtyard_front_native_Y_mm": 5.35,
+  "courtyard_front_dock_Y_mm": 108.65,
+  "closed_front_courtyard_margin_mm": 0.25,
+  "open_actuator_front_dock_Y_mm": 107.3,
+  "unmodeled_opening_access": "Assembly-only slide-lock access must extend beyond the closed courtyard.",
+  "pads_tracks_vias_fills_zones_other_footprints_unchanged": true,
+  "frozen_circuit_and_placement_sources_modified": false,
+  "native_KiCad_STEP_import_check": "Pending separate actual exporter check",
+  "loaded_contact_height_and_received_mating_qualified": false
+}

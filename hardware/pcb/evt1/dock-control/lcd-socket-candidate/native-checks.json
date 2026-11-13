@@ -1,0 +1,1074 @@
+{
+  "status": "pass: separate JST board electrical candidate; physical socket fit OPEN",
+  "checked_at_utc": "2026-11-13T02:55:09.184021+00:00",
+  "KiCad_DRC_version": "10.0.8",
+  "KiCad_ERC_version": "10.0.8",
+  "native_board_sha256": "fbb712251fee3de42941a4081863d6af38ff0cb1c16a4a6933a278c477f43a7a",
+  "physical_electrical_pad_instances": 109,
+  "lid_unchanged_logical_terminal_checks": 128,
+  "whole_system_unchanged_terminal_checks": 812,
+  "whole_system_components": 234,
+  "native_DRC_violations": 0,
+  "native_DRC_unconnected": 0,
+  "native_DRC_ignored": [],
+  "complete_system_ERC_violations": 0,
+  "complete_system_ERC_ignored": [],
+  "fixed_placements_outline_keepouts_preserved": true,
+  "changed_copper_objects": [
+    "94063f5d-b1ab-439e-9878-204a4e9c055b",
+    "c579575c-de70-4e7e-b833-2e307e16cc06",
+    "e1ba571c-732a-4be4-9411-a6fd759352f0",
+    "1a6a4e5e-68bd-4ab3-ab08-64771234c5d1",
+    "e1a02f7b-70f6-492e-99da-757e02740835",
+    "1ba520f4-cd7f-42eb-8169-870e69114458"
+  ],
+  "local_copper_delta": "Only supply via(6.8,114.825)\u2192(6.9,114.825) dockXY and its five incident endpoints; all other tracks/vias unchanged; zones refilled",
+  "J302_loaded_3D_model_bound": false,
+  "native_pin_net_checks": [
+    {
+      "ref": "C301",
+      "pin": "1",
+      "net": "LCD_V0",
+      "native_xy_mm": [
+        89.0,
+        83.475
+      ]
+    },
+    {
+      "ref": "C301",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        89.0,
+        81.925
+      ]
+    },
+    {
+      "ref": "C302",
+      "pin": "1",
+      "net": "LCD_V1",
+      "native_xy_mm": [
+        90.5,
+        83.475
+      ]
+    },
+    {
+      "ref": "C302",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        90.5,
+        81.925
+      ]
+    },
+    {
+      "ref": "C303",
+      "pin": "1",
+      "net": "LCD_V2",
+      "native_xy_mm": [
+        92.0,
+        83.475
+      ]
+    },
+    {
+      "ref": "C303",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        92.0,
+        81.925
+      ]
+    },
+    {
+      "ref": "C304",
+      "pin": "1",
+      "net": "LCD_V3",
+      "native_xy_mm": [
+        93.5,
+        83.475
+      ]
+    },
+    {
+      "ref": "C304",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        93.5,
+        81.925
+      ]
+    },
+    {
+      "ref": "C305",
+      "pin": "1",
+      "net": "LCD_V4",
+      "native_xy_mm": [
+        95.0,
+        83.475
+      ]
+    },
+    {
+      "ref": "C305",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        95.0,
+        81.925
+      ]
+    },
+    {
+      "ref": "C306",
+      "pin": "1",
+      "net": "LCD_C2M",
+      "native_xy_mm": [
+        96.5,
+        90.275
+      ]
+    },
+    {
+      "ref": "C306",
+      "pin": "2",
+      "net": "LCD_C2P",
+      "native_xy_mm": [
+        96.5,
+        87.325
+      ]
+    },
+    {
+      "ref": "C307",
+      "pin": "1",
+      "net": "LCD_C1P",
+      "native_xy_mm": [
+        99.0,
+        90.275
+      ]
+    },
+    {
+      "ref": "C307",
+      "pin": "2",
+      "net": "LCD_C1M",
+      "native_xy_mm": [
+        99.0,
+        87.325
+      ]
+    },
+    {
+      "ref": "C308",
+      "pin": "1",
+      "net": "LCD_C3P",
+      "native_xy_mm": [
+        101.5,
+        90.275
+      ]
+    },
+    {
+      "ref": "C308",
+      "pin": "2",
+      "net": "LCD_C1M",
+      "native_xy_mm": [
+        101.5,
+        87.325
+      ]
+    },
+    {
+      "ref": "C309",
+      "pin": "1",
+      "net": "LCD_VOUT",
+      "native_xy_mm": [
+        104.0,
+        90.275
+      ]
+    },
+    {
+      "ref": "C309",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        104.0,
+        87.325
+      ]
+    },
+    {
+      "ref": "C310",
+      "pin": "1",
+      "net": "3V3_UI",
+      "native_xy_mm": [
+        108.0,
+        85.175
+      ]
+    },
+    {
+      "ref": "C310",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        108.0,
+        83.625
+      ]
+    },
+    {
+      "ref": "C311",
+      "pin": "1",
+      "net": "3V3_UI",
+      "native_xy_mm": [
+        100.52,
+        82.6
+      ]
+    },
+    {
+      "ref": "C311",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        101.48,
+        82.6
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "1",
+      "net": "GND",
+      "native_xy_mm": [
+        129.75,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "2",
+      "net": "3V3_UI",
+      "native_xy_mm": [
+        129.25,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "3",
+      "net": "LCD_DB0",
+      "native_xy_mm": [
+        128.75,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "4",
+      "net": "LCD_DB1",
+      "native_xy_mm": [
+        128.25,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "5",
+      "net": "LCD_DB2",
+      "native_xy_mm": [
+        127.75,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "6",
+      "net": "LCD_DB3",
+      "native_xy_mm": [
+        127.25,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "7",
+      "net": "LCD_DB4",
+      "native_xy_mm": [
+        126.75,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "8",
+      "net": "LCD_DB5",
+      "native_xy_mm": [
+        126.25,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "9",
+      "net": "LCD_DB6",
+      "native_xy_mm": [
+        125.75,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "10",
+      "net": "LCD_DB7",
+      "native_xy_mm": [
+        125.25,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "11",
+      "net": "LCD_A0",
+      "native_xy_mm": [
+        124.75,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "12",
+      "net": "LCD_WRn",
+      "native_xy_mm": [
+        124.25,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "13",
+      "net": "LCD_CSn",
+      "native_xy_mm": [
+        123.75,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "14",
+      "net": "LCD_RESETn",
+      "native_xy_mm": [
+        123.25,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "15",
+      "net": "BTN_LEFTn",
+      "native_xy_mm": [
+        122.75,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "16",
+      "net": "BTN_CENTERn_RAW",
+      "native_xy_mm": [
+        122.25,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "17",
+      "net": "BTN_RIGHTn",
+      "native_xy_mm": [
+        121.75,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "18",
+      "net": "GND",
+      "native_xy_mm": [
+        121.25,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "19",
+      "net": "GND",
+      "native_xy_mm": [
+        120.75,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "20",
+      "net": "GND",
+      "native_xy_mm": [
+        120.25,
+        88.85
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "MP",
+      "net": "GND",
+      "native_xy_mm": [
+        131.65,
+        85.6
+      ]
+    },
+    {
+      "ref": "J301",
+      "pin": "MP",
+      "net": "GND",
+      "native_xy_mm": [
+        118.35,
+        85.6
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "1",
+      "net": "LCD_V0",
+      "native_xy_mm": [
+        93.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "2",
+      "net": "LCD_V1",
+      "native_xy_mm": [
+        94.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "3",
+      "net": "LCD_V2",
+      "native_xy_mm": [
+        94.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "4",
+      "net": "LCD_V3",
+      "native_xy_mm": [
+        95.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "5",
+      "net": "LCD_V4",
+      "native_xy_mm": [
+        95.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "6",
+      "net": "unconnected-(J302-MATES_LCD_6-Pad6)",
+      "native_xy_mm": [
+        96.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "7",
+      "net": "LCD_C2M",
+      "native_xy_mm": [
+        96.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "8",
+      "net": "LCD_C2P",
+      "native_xy_mm": [
+        97.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "9",
+      "net": "LCD_C1P",
+      "native_xy_mm": [
+        97.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "10",
+      "net": "LCD_C1M",
+      "native_xy_mm": [
+        98.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "11",
+      "net": "LCD_C3P",
+      "native_xy_mm": [
+        98.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "12",
+      "net": "LCD_VOUT",
+      "native_xy_mm": [
+        99.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "13",
+      "net": "3V3_UI",
+      "native_xy_mm": [
+        99.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "14",
+      "net": "GND",
+      "native_xy_mm": [
+        100.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "15",
+      "net": "LCD_DB7",
+      "native_xy_mm": [
+        100.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "16",
+      "net": "LCD_DB6",
+      "native_xy_mm": [
+        101.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "17",
+      "net": "LCD_DB5",
+      "native_xy_mm": [
+        101.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "18",
+      "net": "LCD_DB4",
+      "native_xy_mm": [
+        102.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "19",
+      "net": "LCD_DB3",
+      "native_xy_mm": [
+        102.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "20",
+      "net": "LCD_DB2",
+      "native_xy_mm": [
+        103.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "21",
+      "net": "LCD_DB1",
+      "native_xy_mm": [
+        103.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "22",
+      "net": "LCD_DB0",
+      "native_xy_mm": [
+        104.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "23",
+      "net": "3V3_UI",
+      "native_xy_mm": [
+        104.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "24",
+      "net": "LCD_WRn",
+      "native_xy_mm": [
+        105.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "25",
+      "net": "LCD_A0",
+      "native_xy_mm": [
+        105.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "26",
+      "net": "LCD_RESETn",
+      "native_xy_mm": [
+        106.0,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "27",
+      "net": "LCD_CSn",
+      "native_xy_mm": [
+        106.5,
+        86.0
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "MP",
+      "net": "GND",
+      "native_xy_mm": [
+        91.25,
+        87.25
+      ]
+    },
+    {
+      "ref": "J302",
+      "pin": "MP",
+      "net": "GND",
+      "native_xy_mm": [
+        108.75,
+        87.25
+      ]
+    },
+    {
+      "ref": "R301",
+      "pin": "1",
+      "net": "3V3_UI",
+      "native_xy_mm": [
+        112.0,
+        90.825
+      ]
+    },
+    {
+      "ref": "R301",
+      "pin": "2",
+      "net": "LCD_CSn",
+      "native_xy_mm": [
+        112.0,
+        89.175
+      ]
+    },
+    {
+      "ref": "R302",
+      "pin": "1",
+      "net": "3V3_UI",
+      "native_xy_mm": [
+        115.0,
+        90.825
+      ]
+    },
+    {
+      "ref": "R302",
+      "pin": "2",
+      "net": "LCD_WRn",
+      "native_xy_mm": [
+        115.0,
+        89.175
+      ]
+    },
+    {
+      "ref": "R303",
+      "pin": "1",
+      "net": "LCD_RESETn",
+      "native_xy_mm": [
+        112.0,
+        94.825
+      ]
+    },
+    {
+      "ref": "R303",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        112.0,
+        93.175
+      ]
+    },
+    {
+      "ref": "R304",
+      "pin": "1",
+      "net": "LCD_A0",
+      "native_xy_mm": [
+        115.0,
+        94.825
+      ]
+    },
+    {
+      "ref": "R304",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        115.0,
+        93.175
+      ]
+    },
+    {
+      "ref": "R305",
+      "pin": "1",
+      "net": "LCD_DB0",
+      "native_xy_mm": [
+        112.0,
+        98.825
+      ]
+    },
+    {
+      "ref": "R305",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        112.0,
+        97.175
+      ]
+    },
+    {
+      "ref": "R306",
+      "pin": "1",
+      "net": "LCD_DB1",
+      "native_xy_mm": [
+        115.0,
+        98.825
+      ]
+    },
+    {
+      "ref": "R306",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        115.0,
+        97.175
+      ]
+    },
+    {
+      "ref": "R307",
+      "pin": "1",
+      "net": "LCD_DB2",
+      "native_xy_mm": [
+        112.0,
+        101.825
+      ]
+    },
+    {
+      "ref": "R307",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        112.0,
+        100.175
+      ]
+    },
+    {
+      "ref": "R308",
+      "pin": "1",
+      "net": "LCD_DB3",
+      "native_xy_mm": [
+        115.0,
+        101.825
+      ]
+    },
+    {
+      "ref": "R308",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        115.0,
+        100.175
+      ]
+    },
+    {
+      "ref": "R309",
+      "pin": "1",
+      "net": "LCD_DB4",
+      "native_xy_mm": [
+        112.0,
+        104.825
+      ]
+    },
+    {
+      "ref": "R309",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        112.0,
+        103.175
+      ]
+    },
+    {
+      "ref": "R310",
+      "pin": "1",
+      "net": "LCD_DB5",
+      "native_xy_mm": [
+        115.0,
+        104.825
+      ]
+    },
+    {
+      "ref": "R310",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        115.0,
+        103.175
+      ]
+    },
+    {
+      "ref": "R311",
+      "pin": "1",
+      "net": "LCD_DB6",
+      "native_xy_mm": [
+        112.0,
+        107.825
+      ]
+    },
+    {
+      "ref": "R311",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        112.0,
+        106.175
+      ]
+    },
+    {
+      "ref": "R312",
+      "pin": "1",
+      "net": "LCD_DB7",
+      "native_xy_mm": [
+        115.0,
+        107.825
+      ]
+    },
+    {
+      "ref": "R312",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        115.0,
+        106.175
+      ]
+    },
+    {
+      "ref": "S301",
+      "pin": "1",
+      "net": "BTN_LEFTn",
+      "native_xy_mm": [
+        74.0,
+        143.75
+      ]
+    },
+    {
+      "ref": "S301",
+      "pin": "1",
+      "net": "BTN_LEFTn",
+      "native_xy_mm": [
+        82.0,
+        143.75
+      ]
+    },
+    {
+      "ref": "S301",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        74.0,
+        148.25
+      ]
+    },
+    {
+      "ref": "S301",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        82.0,
+        148.25
+      ]
+    },
+    {
+      "ref": "S302",
+      "pin": "1",
+      "net": "BTN_CENTERn_RAW",
+      "native_xy_mm": [
+        96.0,
+        143.75
+      ]
+    },
+    {
+      "ref": "S302",
+      "pin": "1",
+      "net": "BTN_CENTERn_RAW",
+      "native_xy_mm": [
+        104.0,
+        143.75
+      ]
+    },
+    {
+      "ref": "S302",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        96.0,
+        148.25
+      ]
+    },
+    {
+      "ref": "S302",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        104.0,
+        148.25
+      ]
+    },
+    {
+      "ref": "S303",
+      "pin": "1",
+      "net": "BTN_RIGHTn",
+      "native_xy_mm": [
+        118.0,
+        143.75
+      ]
+    },
+    {
+      "ref": "S303",
+      "pin": "1",
+      "net": "BTN_RIGHTn",
+      "native_xy_mm": [
+        126.0,
+        143.75
+      ]
+    },
+    {
+      "ref": "S303",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        118.0,
+        148.25
+      ]
+    },
+    {
+      "ref": "S303",
+      "pin": "2",
+      "net": "GND",
+      "native_xy_mm": [
+        126.0,
+        148.25
+      ]
+    }
+  ],
+  "source_sha256": {
+    "dock-lid-ui.kicad_sch": "634137a1c1c2a7927a1679cf8c7063a7ffe3486fb25633989314f28d88e7297f",
+    "erc.json": "5313275f22d0bd4429da726a3256591be98e191c9b4e8af567ef91216c1b9305",
+    "fp-lib-table": "954abf7abb0192f5b77b1dd1728225eb562a45bd6ad442c2c577e03012489f13",
+    "dock-lid-ui-native.xml": "bbc6c35be8b7a105eea13cb85b7805dc4b4adfc7d1a992799ffa0d958d1afd28",
+    "dock-lid-ui.kicad_pro": "2ff862467aca818757edc619e5e9f9670a7ae2e18ddf86eaa47b32f674b5cd78",
+    "DockControl.kicad_sym": "43fddd97694f9b2dfc6fbd9b58719f6c291923a7610a4ac4c5ea7cb3331ea76d",
+    "build_system_snapshot.py": "854c20ebe03a6db6409e94a2c8f0e63d357b27e20545ade195dfd7b6929b99d2",
+    "dock-lid-jst-candidate.kicad_pro": "9517f4e174e50162cd1d68e9b2137977d09456679863887fbeaea3245a8d6d6e",
+    "drc.json": "3790a5124e5ee601b3e2d752ce4709920c6f6495d1165795f43b2eff11fab106",
+    "README.md": "fe9d493805ffe86f9092c66afa2e832492bcb3d1c9223801e4090a78b51c6f5e",
+    "local-repair.json": "89abd2e680365098a9896204632c09dd12f4d200279f1cec72b5b3023982b824",
+    "local-repair-initial.json": "6c6d3b93c1d9b1e34be3e7a03e460db37c6a7e28a020a6cb4f030b7e4f78f26b",
+    "sym-lib-table": "bd2c38274230ad989c9a525ab54eff0dbb6995169bed968e63db67ca6f872947",
+    "build_candidate.py": "c6b23b7173df457929065f3a77078f0364467e7e509ae96a44b8f9de36d85b73",
+    "refill_candidate.py": "c3bde064a7ec2eb9aea525c47fdfdcaa95d2b1093c66713d9fb38a6ba5b349e0",
+    "dock-lid-jst-candidate.kicad_pcb": "fbb712251fee3de42941a4081863d6af38ff0cb1c16a4a6933a278c477f43a7a",
+    "check_candidate.py": "62f989ff0a66de524aaaa6c999765ae20a23f14ab325586091caf1b68accb4a7",
+    "candidate-source-bindings.json": "88cffaef6dd6dd688ce18da397039e7c73724457943b8ba9cf056c486d354ff4",
+    "drc-initial.json": "6957ea84508d116203be4f11a2a61ea9a10dcddd863984938a20f5b37ad7d1a5",
+    "system-snapshot/DockUV.kicad_sym": "f504364bdc27cfe0f887f7f56265864d34aea57fff2f0bebde3648ccf753316f",
+    "system-snapshot/erc.json": "d4db1911bcbe1cb29bdff5b405fef738d9d62b71970dacccd12374d7d3a42dd4",
+    "system-snapshot/erc.log": "ac0a0baa4a14b76fbb27f111ce51861c8246d1c54a8a13616cfa384b5c6f8e99",
+    "system-snapshot/dock-system.kicad_sch": "7b745520603cb960a70d61eafcf635005e3cc9a0fb3557ff71acd2bea1430e7e",
+    "system-snapshot/DockSafety.kicad_sym": "ea64daa0653e1aa0fea3e448f7ecf62389ccc1ae66b2c609701eff032ee470ba",
+    "system-snapshot/dock-system.kicad_pro": "56db1f350dc35fe642d98517e32bdc4d5975fbfb6b50ee5b51016e677c7e8807",
+    "system-snapshot/fp-lib-table": "7b4e9fd6a3fddd49f12daa85e589d86afaf4bfaa52aeba0ee1ce3bad983e7e1e",
+    "system-snapshot/native.xml": "5c4e27e19adbde5b7d32d655c6256f858d866f8576bdfd7399668fd464fa11b3",
+    "system-snapshot/DockControl.kicad_sym": "43fddd97694f9b2dfc6fbd9b58719f6c291923a7610a4ac4c5ea7cb3331ea76d",
+    "system-snapshot/DockUI.kicad_sym": "8b3a221fbc296f0ca3cd40c5fc205ccd98fb79ac8509f8907813dc5f6af5040f",
+    "system-snapshot/source-bindings.json": "93faf3345ce0978faa1a472f7499638480ffc3f2f01df1635507a35e6d877205",
+    "system-snapshot/sym-lib-table": "988e8607f9358cfcdbf94cd5a8b5651ff1a189d3ac34a423cdf6dc02d22ea416",
+    "system-snapshot/sheets/dock-lid-ui.kicad_sch": "18779fcc1119ae76788b154b37570ee76e558619149ce7c9d252224a0c0392bb",
+    "system-snapshot/sheets/dock-controller.kicad_sch": "2ea64034c047ce5d5d0a87a5a34a0fd2116ee015c2be218d85e3e2be634293f4",
+    "system-snapshot/sheets/dock-ui-source.kicad_sch": "655306c3703c52e3dc8143286a9288be307cbbfe31ddfea653a85e713279181d",
+    "system-snapshot/sheets/dock-uv-base.kicad_sch": "6f248ad200b0c087c78b8945a523f9f9d3c9acf28a3ceb74ab609348885152b2",
+    "system-snapshot/sheets/dock-uv-lid.kicad_sch": "56b25970e502c3375241f33d8af9afe4bce57af237963e969ce8363152505361",
+    "system-snapshot/sheets/dock-safety.kicad_sch": "9b4769f1aca3122ad514d4dd624e3a6c2d7662c367f00f5e5bbac4abdc31383f",
+    "system-snapshot/DockControl.pretty/Molex_52437-2771_1x27-1MP_P0.50mm_Horizontal.kicad_mod": "29d36c51cfead5f3eb274cc0ab07604d3d1607862dc52fd90b949dd91e44533c",
+    "system-snapshot/DockControl.pretty/Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal.kicad_mod": "5bbb66b76aebc3ce80c8686128fc0073829046db371e780850c4eceaddcc1b1b",
+    "system-snapshot/DockControl.pretty/VSSOP-10_3x3mm_P0.5mm.kicad_mod": "4325ad835cc207f7c1f5e2f01bcd1c247a022dd6adfafcdd709b0de42718ee40",
+    "system-snapshot/DockControl.pretty/C_0603_1608Metric.kicad_mod": "6728f8290cc4796d2761d09455781aea5fac5132c8c12877d3934fc03cc82c44",
+    "system-snapshot/DockControl.pretty/TestPoint_Pad_D1.0mm.kicad_mod": "f656c9fb1f11e345b0f97d9a7119972e5dcca486fc2ca65bd06c086ce49cc0f7",
+    "system-snapshot/DockControl.pretty/LED_0603_1608Metric.kicad_mod": "3a265330bf04ad7bcc8326903855038911b1c9f22dea5ef86792e44e0c00b764",
+    "system-snapshot/DockControl.pretty/R_0603_1608Metric.kicad_mod": "be8360e180e6fc2e1347116d681de425f349efcfe37169ae30a5c7d617edea83",
+    "system-snapshot/DockControl.pretty/C_1206_3216Metric.kicad_mod": "fcd740fde75af3e21c746ba0ea7c756be85940a218535525267f84e9ea91e160",
+    "system-snapshot/DockControl.pretty/JST_27FLZ-RSM2-TB_1x27_P0.50mm_BottomContact.kicad_mod": "a2f0581992ea972a62daac0a8e673a44451e31a8e900ebdd96fe25d9ef7f682b",
+    "system-snapshot/DockControl.pretty/Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical.kicad_mod": "57c6d35b43e1b88a36581eba48f1ea77345677124233631fb1b3fce3abab76c3",
+    "system-snapshot/DockControl.pretty/C_0402_1005Metric.kicad_mod": "263aa65cd74212786195b83649fdb9d83620aaeb7c54209c691151acdaa09824",
+    "system-snapshot/DockControl.pretty/SW_SPST_Omron_B3FS-100xP.kicad_mod": "b6fff52069ceac5ab2d53f2a75d17142bc0f36d67ef84170bc97b548dcb63ce8",
+    "system-snapshot/DockControl.pretty/LQFP-48_7x7mm_P0.5mm.kicad_mod": "944fb45fd4a4fa3d063ae98a7bd582ac1e522a6e1e71c7c63b4aafa157151513",
+    "DockControl.pretty/Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal.kicad_mod": "48a8f30c02dc194b37c843c793138bbd3d6debb990ab7fe5079e9f87f8fb1bea",
+    "DockControl.pretty/C_0603_1608Metric.kicad_mod": "dbe2f0d6d8faf51fcd1d89928aacc00cacd17ced2aa863104b0da609911f37bf",
+    "DockControl.pretty/R_0603_1608Metric.kicad_mod": "7362d3e43557af0b828dcd3a404c8c7ead0998cbe6ce31dd6ef83613ef6819c5",
+    "DockControl.pretty/MountingHole_2.3mm_M2_R3_Hardware.kicad_mod": "c9eb5bdd88d7aa0d49bdc2f5de9474d62fb0ff357b36391c5336ae7149411ab3",
+    "DockControl.pretty/C_1206_3216Metric.kicad_mod": "2cd0f7edaacab660a74be93185eaf10d632790c3f9c83e50698390f3aa89f52c",
+    "DockControl.pretty/JST_27FLZ-RSM2-TB_1x27_P0.50mm_BottomContact.kicad_mod": "a2f0581992ea972a62daac0a8e673a44451e31a8e900ebdd96fe25d9ef7f682b",
+    "DockControl.pretty/C_0402_1005Metric.kicad_mod": "2e9b983728d722b521d4c1b1b32b891bf4b8d0edfff8a92f6db68b7a2f2d3c81",
+    "DockControl.pretty/SW_SPST_Omron_B3FS-100xP.kicad_mod": "3a3360f829f48fce65739c563c44e44387e7f524168a062312086b627a39a99d"
+  },
+  "manufacturer_number1_legend_available": false,
+  "received_continuity_tail_and_height_required": true,
+  "complete_MCAD_or_physical_fit_qualified": false,
+  "full_product_order_ready": false
+}

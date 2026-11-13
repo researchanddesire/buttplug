@@ -1,0 +1,570 @@
+{
+  "status": "Native complete-context case-radio circuit candidate; no sourcepromotion or routedPCBclaim",
+  "builder_sha256": "a39f733e561c25eda841534ca196f92988198d9cc63874737c6818cbcdbb33b9",
+  "source_inputs_sha256": {
+    "hardware/pcb/evt1/dock-system/sheets/dock-controller.kicad_sch": "2ea64034c047ce5d5d0a87a5a34a0fd2116ee015c2be218d85e3e2be634293f4",
+    "hardware/pcb/evt1/dock-system/sheets/dock-lid-ui.kicad_sch": "f981ce4b102ce00b3544d37557b0e61fe972ce839db580ecdf283159edd6b42c",
+    "hardware/pcb/evt1/dock-system/sheets/dock-safety.kicad_sch": "9b4769f1aca3122ad514d4dd624e3a6c2d7662c367f00f5e5bbac4abdc31383f",
+    "hardware/pcb/evt1/dock-system/sheets/dock-ui-source.kicad_sch": "655306c3703c52e3dc8143286a9288be307cbbfe31ddfea653a85e713279181d",
+    "hardware/pcb/evt1/dock-system/sheets/dock-uv-base.kicad_sch": "6f248ad200b0c087c78b8945a523f9f9d3c9acf28a3ceb74ab609348885152b2",
+    "hardware/pcb/evt1/dock-system/sheets/dock-uv-lid.kicad_sch": "56b25970e502c3375241f33d8af9afe4bce57af237963e969ce8363152505361",
+    "hardware/pcb/evt1/dock-system/sym-lib-table": "f0a88ccb36a633e3017339a0834eb513ec5cbae3533c9d7ceb77b94984651707",
+    "hardware/pcb/evt1/dock-system/fp-lib-table": "338f33dcd45ada81d59d10617dcdd3d680040a7d04af4731fe14237a319dd472"
+  },
+  "retained_context_refs": 234,
+  "retained_Main_poses": 150,
+  "new_parts": [
+    {
+      "ref": "U151",
+      "mpn": "SN74LVC1G97DCKR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "DockUI:SOT-363_SC-70-6",
+      "partition": "Main additions",
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "PH1_RADIO_REQUEST",
+        "4": "RADIO_ACTIVE_EN",
+        "5": "3V3",
+        "6": "SOURCE_OK"
+      },
+      "note": ""
+    },
+    {
+      "ref": "U150",
+      "mpn": "TPS22950YBHR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "DockUI:Texas_YBH0006-C02_DSBGA-6_1.106x0.706mm_P0.4mm",
+      "partition": "Main additions",
+      "pins": {
+        "B1": "LOOP_5V",
+        "A1": "RADIO_ACTIVE_EN",
+        "C2": "RADIO_ILIM",
+        "B2": "RADIO_5V",
+        "C1": "GND",
+        "A2": null
+      },
+      "note": ""
+    },
+    {
+      "ref": "J150",
+      "mpn": "SM06B-GHS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "footprint": "Radio:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+      "partition": "Main additions",
+      "pins": {
+        "1": "RADIO_5V",
+        "2": "GND",
+        "3": "MON_I2C_SDA",
+        "4": "MON_I2C_SCL",
+        "5": "RADIO_IRQn",
+        "6": "RADIO_ACTIVE_EN"
+      },
+      "note": "Limiter sitsbefore addedharness; connectorphysicalposeunqualified"
+    },
+    {
+      "ref": "R150",
+      "mpn": "TNPW040219K1BEED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Main additions",
+      "pins": {
+        "1": "RADIO_ILIM",
+        "2": "RADIO_ILIM_RETURN"
+      },
+      "note": "TNPW040219K1BEED"
+    },
+    {
+      "ref": "R151",
+      "mpn": "TNPW0402100RBEED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Main additions",
+      "pins": {
+        "1": "RADIO_ILIM_RETURN",
+        "2": "GND"
+      },
+      "note": "TNPW0402100RBEED"
+    },
+    {
+      "ref": "R152",
+      "mpn": "CRCW0402100KFKED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Main additions",
+      "pins": {
+        "1": "PH1_RADIO_REQUEST",
+        "2": "GND"
+      },
+      "note": "CRCW0402100KFKED"
+    },
+    {
+      "ref": "R153",
+      "mpn": "CRCW040210K0FKED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Main additions",
+      "pins": {
+        "1": "3V3",
+        "2": "RADIO_IRQn"
+      },
+      "note": "CRCW040210K0FKED"
+    },
+    {
+      "ref": "R154",
+      "mpn": "CRCW0402100KFKED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Main additions",
+      "pins": {
+        "1": "RADIO_ACTIVE_EN",
+        "2": "GND"
+      },
+      "note": "CRCW0402100KFKED"
+    },
+    {
+      "ref": "C150",
+      "mpn": "C1608X5R1C225K080AB",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0603_1608Metric",
+      "partition": "Main additions",
+      "pins": {
+        "1": "LOOP_5V",
+        "2": "GND"
+      },
+      "note": "C1608X5R1C225K080AB"
+    },
+    {
+      "ref": "C151",
+      "mpn": "C1005X7R1C104K050BC",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0402_1005Metric",
+      "partition": "Main additions",
+      "pins": {
+        "1": "RADIO_5V",
+        "2": "GND"
+      },
+      "note": "C1005X7R1C104K050BC"
+    },
+    {
+      "ref": "C152",
+      "mpn": "C1005X7R1C104K050BC",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0402_1005Metric",
+      "partition": "Main additions",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "note": "C1005X7R1C104K050BC"
+    },
+    {
+      "ref": "J901",
+      "mpn": "SM06B-GHS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "footprint": "Radio:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_5V",
+        "2": "GND",
+        "3": "MON_I2C_SDA",
+        "4": "MON_I2C_SCL",
+        "5": "RADIO_IRQn",
+        "6": "RADIO_ACTIVE_EN"
+      },
+      "note": ""
+    },
+    {
+      "ref": "U904",
+      "mpn": "TLV70033DDCR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "DockUI:TSOT-23-5",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_5V",
+        "3": "RADIO_5V",
+        "5": "RADIO_3V3",
+        "2": "GND",
+        "4": null
+      },
+      "note": ""
+    },
+    {
+      "ref": "U905",
+      "mpn": "TPS3808G33DBVR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "DockUI:SOT-23-6",
+      "partition": "Radio addon",
+      "pins": {
+        "6": "RADIO_3V3",
+        "5": "RADIO_3V3",
+        "3": "RADIO_3V3",
+        "1": "RADIO_RESETn",
+        "4": null,
+        "2": "GND"
+      },
+      "note": ""
+    },
+    {
+      "ref": "U903",
+      "mpn": "TMUX1511RSVR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Radio:TI_RSV0016A",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_ACTIVE_EN",
+        "2": "MON_I2C_SDA",
+        "3": "RADIO_I2C_SDA",
+        "4": "RADIO_ACTIVE_EN",
+        "5": "MON_I2C_SCL",
+        "6": "RADIO_I2C_SCL",
+        "7": null,
+        "8": "GND",
+        "9": "RADIO_IRQn",
+        "10": "SC16_IRQn",
+        "11": "RADIO_ACTIVE_EN",
+        "12": null,
+        "13": "GND",
+        "14": "GND",
+        "15": "GND",
+        "16": "RADIO_3V3"
+      },
+      "note": ""
+    },
+    {
+      "ref": "R901",
+      "mpn": "CRCW040210K0FKED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "RADIO_RESETn"
+      },
+      "note": "CRCW040210K0FKED"
+    },
+    {
+      "ref": "R905",
+      "mpn": "CRCW04021K00FKED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "SC16_IRQn"
+      },
+      "note": "CRCW04021K00FKED"
+    },
+    {
+      "ref": "R906",
+      "mpn": "CRCW04024K70FKED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "RADIO_I2C_SDA"
+      },
+      "note": "CRCW04024K70FKED"
+    },
+    {
+      "ref": "R907",
+      "mpn": "CRCW04024K70FKED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "RADIO_I2C_SCL"
+      },
+      "note": "CRCW04024K70FKED"
+    },
+    {
+      "ref": "C901",
+      "mpn": "C1608X5R1C225K080AB",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0603_1608Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_5V",
+        "2": "GND"
+      },
+      "note": "C1608X5R1C225K080AB"
+    },
+    {
+      "ref": "C902",
+      "mpn": "C2012X5R1E226M125AC",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0805_2012Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "GND"
+      },
+      "note": "C2012X5R1E226M125AC"
+    },
+    {
+      "ref": "C905",
+      "mpn": "C1005X7R1C104K050BC",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "GND"
+      },
+      "note": "C1005X7R1C104K050BC"
+    },
+    {
+      "ref": "C906",
+      "mpn": "C1005X7R1C104K050BC",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "GND"
+      },
+      "note": "C1005X7R1C104K050BC"
+    },
+    {
+      "ref": "U901",
+      "mpn": "NINA-B112-05B-00",
+      "manufacturer": "u-blox",
+      "footprint": "Radio:NINA-B112_OEM",
+      "partition": "Radio addon",
+      "pins": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": "GND",
+        "7": "NINA_SWITCH1",
+        "8": null,
+        "9": "RADIO_3V3",
+        "10": "RADIO_3V3",
+        "11": "NINA_SWDCLK",
+        "12": "GND",
+        "13": null,
+        "14": "GND",
+        "15": "NINA_SWDIO",
+        "16": "NINA_DTR",
+        "17": "NINA_DSR",
+        "18": "NINA_SWITCH2",
+        "19": "RADIO_RESETn",
+        "20": "NINA_RTSn",
+        "21": "NINA_CTSn",
+        "22": "NINA_TX",
+        "23": "NINA_RX",
+        "24": null,
+        "25": null,
+        "26": "GND",
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": "GND",
+        "31": "GND",
+        "32": "GND",
+        "33": "GND",
+        "34": "GND",
+        "35": "GND",
+        "36": "GND",
+        "37": "GND",
+        "38": "GND",
+        "39": "GND",
+        "40": "GND",
+        "41": "GND",
+        "42": "GND"
+      },
+      "note": ""
+    },
+    {
+      "ref": "U902",
+      "mpn": "SC16IS750IBS,128",
+      "manufacturer": "NXP",
+      "footprint": "Radio:HVQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_RESETn",
+        "2": "SC16_XTAL1",
+        "3": "SC16_XTAL2",
+        "4": "RADIO_3V3",
+        "5": "RADIO_3V3",
+        "6": "GND",
+        "7": "GND",
+        "8": null,
+        "9": "RADIO_I2C_SCL",
+        "10": "RADIO_I2C_SDA",
+        "11": "SC16_IRQn",
+        "12": "NINA_DSR",
+        "13": "NINA_DTR",
+        "14": null,
+        "15": null,
+        "16": "GND",
+        "17": null,
+        "18": null,
+        "19": null,
+        "20": null,
+        "21": "NINA_CTSn",
+        "22": "NINA_RTSn",
+        "23": "NINA_RX",
+        "24": "NINA_TX",
+        "25": "GND"
+      },
+      "note": ""
+    },
+    {
+      "ref": "Y901",
+      "mpn": "ABM8G-14.7456MHZ-B4Y-T",
+      "manufacturer": "Abracon",
+      "footprint": "Radio:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "SC16_XTAL1",
+        "3": "SC16_XTAL2",
+        "2": "GND",
+        "4": "GND"
+      },
+      "note": "CL10pF,ESR80ohm,\u221220..70C;12pFstartingcapsrequireoscillatorqualification"
+    },
+    {
+      "ref": "C907",
+      "mpn": "C1005C0G1H120J050BA",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "SC16_XTAL1",
+        "2": "GND"
+      },
+      "note": "C1005C0G1H120J050BA"
+    },
+    {
+      "ref": "C908",
+      "mpn": "C1005C0G1H120J050BA",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "SC16_XTAL2",
+        "2": "GND"
+      },
+      "note": "C1005C0G1H120J050BA"
+    },
+    {
+      "ref": "R902",
+      "mpn": "CRCW040210K0FKED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "NINA_SWITCH1"
+      },
+      "note": "CRCW040210K0FKED"
+    },
+    {
+      "ref": "R903",
+      "mpn": "CRCW040210K0FKED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "NINA_SWITCH2"
+      },
+      "note": "CRCW040210K0FKED"
+    },
+    {
+      "ref": "R904",
+      "mpn": "CRCW040247K0FKED",
+      "manufacturer": "Vishay",
+      "footprint": "Radio:R_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "NINA_DSR"
+      },
+      "note": "CRCW040247K0FKED"
+    },
+    {
+      "ref": "C903",
+      "mpn": "C1005X7R1C104K050BC",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "GND"
+      },
+      "note": "C1005X7R1C104K050BC"
+    },
+    {
+      "ref": "C904",
+      "mpn": "C1005X7R1C104K050BC",
+      "manufacturer": "TDK",
+      "footprint": "Radio:C_0402_1005Metric",
+      "partition": "Radio addon",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "GND"
+      },
+      "note": "C1005X7R1C104K050BC"
+    },
+    {
+      "ref": "J902",
+      "mpn": "TC2030-CTX-NL SWD CONTACT PATTERN",
+      "manufacturer": "manual copper",
+      "footprint": "DockControl:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical",
+      "partition": "Radio manual copper",
+      "pins": {
+        "1": "RADIO_3V3",
+        "2": "NINA_SWDIO",
+        "3": "RADIO_RESETn",
+        "4": "NINA_SWDCLK",
+        "5": "GND",
+        "6": null
+      },
+      "note": "NINAserviceonly; accessibleboot-switchpadsandSWD; notasecondUSBcontroller"
+    }
+  ],
+  "intended_existing_pin_delta": {
+    "U201.5": "previousNC\u2192RADIO_IRQn",
+    "U201.6": "previousNC\u2192PH1_RADIO_REQUEST"
+  },
+  "intended_existing_value_changes": {
+    "R107": [
+      "39.2k0.1%25ppm",
+      "RT0603BRD0739K2L",
+      "Yageo"
+    ],
+    "R401": [
+      "4.22ohm1%100ppm",
+      "CRCW08054R22FKEA",
+      "Vishay"
+    ],
+    "R501": [
+      "4.22ohm1%100ppm",
+      "CRCW08054R22FKEA",
+      "Vishay"
+    ]
+  },
+  "new_supply_flags": false,
+  "original_Main_board_sha256": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+  "frozen_protocol_sha256": "4678caf5112116f93fc80a013288c87fad0e0572ccb57d29b35e8bd2dbe971a5",
+  "outputs_sha256": {
+    "context/dock-controller.kicad_sch": "6af25b397a261540180835322402ac27a29ee877b21ff5c00d98a39e46cfac4a",
+    "context/dock-lid-ui.kicad_sch": "540b2c96b80341e0986124fad0267541e909d0c4c6de106d14badf2c5a76a429",
+    "context/dock-safety.kicad_sch": "6781f488d13dd96aaa627df678ff3f4ffb59211cc691ad24a21101bef55c54dc",
+    "context/dock-ui-source.kicad_sch": "7a57a382d84370436cedf46936aa4bfdd0d93d41db5eb91777e4dbaa7f1a4121",
+    "context/dock-uv-base.kicad_sch": "da9f0664e626a541d4372ef1a40f20ee9f3e995042fc190fbe336761f19bac6e",
+    "context/dock-uv-lid.kicad_sch": "6ae6f355c5791510bd06c41633976f32dc56501e2e3cf1da9358e0efcefefbea",
+    "new/10-radio-main-feed.kicad_sch": "5a789b8e43bebf71ebc80c483bc0b7d8378e62f5d94d02da510907e5a64493df",
+    "new/11-radio-power-isolation.kicad_sch": "bcb00c393c1cc443a7571a6a452339b8ce74ad83eb7e1c794fa56e98da10f456",
+    "new/12-radio-UART-GATT.kicad_sch": "eab583b1ec3f512ca80aee9a0604320ce468acf588fee09bfb5806476fe824ad",
+    "case-radio-system.kicad_sch": "e334095a86ce3a407c11a57943acf210d36a788c8001563a45f53b2c79802907"
+  },
+  "standalone_radio_RF_and_clock_qualification": false,
+  "physical_validation": false
+}

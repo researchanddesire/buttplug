@@ -1,0 +1,280 @@
+(kicad_sch
+  (version 20230121)
+  (generator electronics_r0_generate)
+  (uuid ede2b7b0-7c4c-5eee-b33e-5c400d39dfca)
+  (paper "A3")
+  (title_block
+    (title "Read-only TS charger observation / retained hardware protection")
+    (date "2026-10-30")
+    (rev "R0 candidate")
+    (company "Research and Desire")
+    (comment 1 "TELEMETRY STUDY / ORIGINAL ARTWORK UNCHANGED / NO RELEASE"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:OPA391_DCK"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "OPA391_DCK" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa391.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "Selected production SC70DCK pinout; DBV pinout/preview not used" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "OPA391_DCK_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "OPA391_DCK_1_1"
+        (pin input line (at -20.32 5.08 0) (length 5.08) (name "IN+" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 0.0 0) (length 5.08) (name "IN-" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin output line (at 20.32 5.08 180) (length 5.08) (name "OUT" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "V+" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 -5.08 180) (length 5.08) (name "V-" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:R"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "R_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016))))))))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 63.5 63.5 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 4d4514b9-bc94-5ee0-9436-b7f0f5c585d3)
+    (property "Reference" "R803" (at 72.39 62.23 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10M1%100ppm" (at 72.39 64.77 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Telemetry:R_0402_1005Metric" (at 63.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 63.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 63.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 63.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "First of two independent series tap resistors; no direct ADC loading" (at 63.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 3ad515e5-6b50-5074-b38f-2be204932f6f))
+    (pin "2" (uuid 052cedb9-9243-5e6b-af44-39414f12bda2))
+    (instances
+      (project "instrumented-device" (path "/d441c453-3e8e-52c7-bf50-633919cdfddd/feaf606c-21f4-5488-baea-8d360e4ac0a8" (reference "R803") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/ee2e8ee8-93c2-5a0e-8c8c-1adc42838bc4" (reference "R803") (unit 1)))))
+  (wire (pts (xy 63.5 58.42) (xy 63.5 53.34)) (stroke (width 0) (type default)) (uuid 04482300-a36c-531f-b903-497f0767cbb8))
+  (global_label "PACK_NTC" (shape input) (at 63.5 53.34 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a8c9e285-bf02-549e-b49a-53f7aef11647))
+  (wire (pts (xy 63.5 68.58) (xy 63.5 73.66)) (stroke (width 0) (type default)) (uuid c4864800-5b09-5557-a665-59d1ba9bd937))
+  (global_label "TS_TAP_MID" (shape input) (at 63.5 73.66 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 53595096-be7e-5de0-abfa-52382600b71f))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 190.5 63.5 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid d150ae40-12e9-5d2b-95e1-90c8ad06b35d)
+    (property "Reference" "R804" (at 199.39 62.23 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10M1%100ppm" (at 199.39 64.77 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Telemetry:R_0402_1005Metric" (at 190.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 190.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 190.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 190.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 190.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 3bde05b4-6d08-56f1-a974-79bc62251656))
+    (pin "2" (uuid be1cdc18-9b12-546d-b891-b9b06f662294))
+    (instances
+      (project "instrumented-device" (path "/d441c453-3e8e-52c7-bf50-633919cdfddd/feaf606c-21f4-5488-baea-8d360e4ac0a8" (reference "R804") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/ee2e8ee8-93c2-5a0e-8c8c-1adc42838bc4" (reference "R804") (unit 1)))))
+  (wire (pts (xy 190.5 58.42) (xy 190.5 53.34)) (stroke (width 0) (type default)) (uuid 19fb4f09-6646-5db7-ad06-e1104186b4b7))
+  (global_label
+    "TS_TAP_MID"
+    (shape input)
+    (at 190.5 53.34 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 37557cd9-a6e1-561f-8606-a58fc3fac4da))
+  (wire (pts (xy 190.5 68.58) (xy 190.5 73.66)) (stroke (width 0) (type default)) (uuid 43dab946-afb0-51d9-b1cd-ba682895a731))
+  (global_label "TS_FILTER" (shape input) (at 190.5 73.66 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a0800051-0e90-5b85-ab26-489fce77e385))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 317.5 63.5 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 6af4fdc3-2a53-5195-b628-e3e90d1cd166)
+    (property "Reference" "C808" (at 326.39 62.23 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1nF50V C0G5%" (at 326.39 64.77 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Telemetry:C_0402_1005Metric" (at 317.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 317.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 317.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 317.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 317.5 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 3b0857a6-0327-5509-bb27-a299e7c48a2e))
+    (pin "2" (uuid a9cc171a-b4de-568d-9c73-d5fbd4a49b1e))
+    (instances
+      (project "instrumented-device" (path "/d441c453-3e8e-52c7-bf50-633919cdfddd/feaf606c-21f4-5488-baea-8d360e4ac0a8" (reference "C808") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/ee2e8ee8-93c2-5a0e-8c8c-1adc42838bc4" (reference "C808") (unit 1)))))
+  (wire (pts (xy 317.5 58.42) (xy 317.5 53.34)) (stroke (width 0) (type default)) (uuid 1abfd30a-106f-5939-9a39-2d7846143ae3))
+  (global_label "TS_FILTER" (shape input) (at 317.5 53.34 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid ab6b1e44-06cd-596f-a951-abf9d9a325c8))
+  (wire (pts (xy 317.5 68.58) (xy 317.5 73.66)) (stroke (width 0) (type default)) (uuid c92f41fe-cea8-5855-a9ca-cddcc29f52cd))
+  (global_label "GND" (shape input) (at 317.5 73.66 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 6ba5ab23-d1cd-5732-85f4-b3cbf31efa8b))
+  (symbol
+    (lib_id "PrototypeR0:OPA391_DCK")
+    (at 63.5 142.24 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 7b05b8ae-a147-5dec-b759-b48eb110ae7c)
+    (property "Reference" "U803" (at 63.5 127.00000000000001 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "OPA391DCKR" (at 63.5 129.54000000000002 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "Telemetry:SOT-353_SC-70-5" (at 63.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa391.pdf" (at 63.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 63.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 63.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 63.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid e9427073-3665-5b0b-9f57-1fd4c619728f))
+    (pin "3" (uuid e6b9d25b-93f7-5e0e-b346-9304eeda1483))
+    (pin "4" (uuid c255a7f2-315b-5c1e-a1a0-d90d80444e03))
+    (pin "5" (uuid 12dca56b-7824-5235-93ad-6dec17998f87))
+    (pin "2" (uuid d8ba640c-55be-58b2-b785-6bda0c58cbcf))
+    (instances
+      (project "instrumented-device" (path "/d441c453-3e8e-52c7-bf50-633919cdfddd/feaf606c-21f4-5488-baea-8d360e4ac0a8" (reference "U803") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/ee2e8ee8-93c2-5a0e-8c8c-1adc42838bc4" (reference "U803") (unit 1)))))
+  (wire (pts (xy 43.18 137.16) (xy 38.1 137.16)) (stroke (width 0) (type default)) (uuid d53f5210-bda6-5755-a31b-687e2d9d3d6d))
+  (global_label
+    "TS_FILTER"
+    (shape input)
+    (at 38.1 137.16 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid d854a40d-8455-513f-8b0e-f34ce2e85bfa))
+  (wire (pts (xy 43.18 142.24) (xy 38.1 142.24)) (stroke (width 0) (type default)) (uuid 5220c241-0179-5cf4-98cc-f3ed1d1404a1))
+  (global_label "TS_BUF" (shape input) (at 38.1 142.24 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid bdeb8051-bea4-5d18-a7fd-692719c98cd2))
+  (wire (pts (xy 83.82 137.16) (xy 88.9 137.16)) (stroke (width 0) (type default)) (uuid 423d7798-03f7-51e5-80e6-e1b3a0ecc9ae))
+  (global_label "TS_BUF" (shape input) (at 88.9 137.16 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid e82b8a1b-90e4-57e4-a978-86e2420e19ed))
+  (wire (pts (xy 83.82 142.24) (xy 88.9 142.24)) (stroke (width 0) (type default)) (uuid 974b9cbd-6d25-5145-97d8-2d7e1a146310))
+  (global_label "3V3" (shape input) (at 88.9 142.24 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 83bb685d-58eb-52ca-a435-f32ca2fe985e))
+  (wire (pts (xy 83.82 147.32) (xy 88.9 147.32)) (stroke (width 0) (type default)) (uuid 40383c80-50dd-5173-b969-79c34f68acae))
+  (global_label "GND" (shape input) (at 88.9 147.32 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 4caf5564-d404-580e-b999-e4dff395cb42))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 190.5 142.24 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid ef0bd11c-8df9-57de-b99c-4f303695df84)
+    (property "Reference" "R806" (at 199.39 140.97 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1k1%" (at 199.39 143.51000000000002 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Telemetry:R_0402_1005Metric" (at 190.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 190.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 190.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 190.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 190.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 7607da7f-3765-52d3-b149-58521cb58342))
+    (pin "2" (uuid 29eea83c-e1a8-57b0-ae4d-910667253c0b))
+    (instances
+      (project "instrumented-device" (path "/d441c453-3e8e-52c7-bf50-633919cdfddd/feaf606c-21f4-5488-baea-8d360e4ac0a8" (reference "R806") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/ee2e8ee8-93c2-5a0e-8c8c-1adc42838bc4" (reference "R806") (unit 1)))))
+  (wire (pts (xy 190.5 137.16) (xy 190.5 132.08)) (stroke (width 0) (type default)) (uuid e25eccd5-dc39-50ec-a3a4-c270470d0cff))
+  (global_label "TS_BUF" (shape input) (at 190.5 132.08 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 7cde57a0-e570-5e1a-8a44-7a1c6769f53c))
+  (wire (pts (xy 190.5 147.32) (xy 190.5 152.4)) (stroke (width 0) (type default)) (uuid 8f30e73c-d26f-5ac3-ac7c-197f85ff46b5))
+  (global_label
+    "CHARGE_TS_ADC"
+    (shape input)
+    (at 190.5 152.4 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid be0321a3-b1c9-5131-b24f-60ca3f96c319))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 317.5 142.24 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 27b1dadd-c184-5000-9a50-55057e1b9663)
+    (property "Reference" "C806" (at 326.39 140.97 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF16V X7R10%" (at 326.39 143.51000000000002 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Telemetry:C_0402_1005Metric" (at 317.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 317.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 317.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 317.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 317.5 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid ed42e24d-7b12-580d-b3ab-1306b3fc8321))
+    (pin "2" (uuid 5cda33b9-dadc-52d6-b45d-6893b75ab131))
+    (instances
+      (project "instrumented-device" (path "/d441c453-3e8e-52c7-bf50-633919cdfddd/feaf606c-21f4-5488-baea-8d360e4ac0a8" (reference "C806") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/ee2e8ee8-93c2-5a0e-8c8c-1adc42838bc4" (reference "C806") (unit 1)))))
+  (wire (pts (xy 317.5 137.16) (xy 317.5 132.08)) (stroke (width 0) (type default)) (uuid b9691100-9c59-5650-b586-8dff5a729cce))
+  (global_label
+    "CHARGE_TS_ADC"
+    (shape input)
+    (at 317.5 132.08 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 81bd12d2-d6ed-5f23-ba7d-97f5fb45a8e1))
+  (wire (pts (xy 317.5 147.32) (xy 317.5 152.4)) (stroke (width 0) (type default)) (uuid f4a41121-ae3a-500a-affa-45ceb9aaa49e))
+  (global_label "GND" (shape input) (at 317.5 152.4 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid f1cd0b7c-5a2f-5ff8-a692-0ecbca16a5fd))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 63.5 223.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid af94310e-42f7-57f1-8a62-340b6b46b31d)
+    (property "Reference" "C803" (at 72.39 222.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF16V X7R10%" (at 72.39 224.79000000000002 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Telemetry:C_0402_1005Metric" (at 63.5 223.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 63.5 223.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 63.5 223.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 63.5 223.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 63.5 223.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid a68fc449-b7cf-5ff1-90dc-ad1e491f942d))
+    (pin "2" (uuid 7e3279db-daa9-542a-bc9d-412e89561570))
+    (instances
+      (project "instrumented-device" (path "/d441c453-3e8e-52c7-bf50-633919cdfddd/feaf606c-21f4-5488-baea-8d360e4ac0a8" (reference "C803") (unit 1)))
+      (project
+        "instrumented-device"
+        (path "/ae96ac9f-befc-5c33-a39b-6d9410f442cd/58f500e3-81d5-580f-a5f5-e353538d9d68/ee2e8ee8-93c2-5a0e-8c8c-1adc42838bc4" (reference "C803") (unit 1)))))
+  (wire (pts (xy 63.5 218.44) (xy 63.5 213.36)) (stroke (width 0) (type default)) (uuid 8add208d-b9bc-5009-b110-8fa42e209806))
+  (global_label "3V3" (shape input) (at 63.5 213.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid fe55efb2-af1e-50e2-a0d7-af9d3043fec1))
+  (wire (pts (xy 63.5 228.6) (xy 63.5 233.68)) (stroke (width 0) (type default)) (uuid d02f1bea-da79-5c75-aaf0-c642302ee610))
+  (global_label "GND" (shape input) (at 63.5 233.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 3803c3e6-92fb-5532-8c9f-cddc7d94e143))
+  (text
+    "Original RISET/NTC/independent guard unchanged. Two10M taps bound downstream loading/faults.\nInput RC>=175ms settling before valid; serialize ADS single-shot/MUX with original tip acquisition.\nAn openTS can saturate this3V3 buffer: report INVALID; never interpret rail saturation as a valid temperature.\nNew candidate positions require native packing, contamination/leakage and trip-margin qualification."
+    (at 25.4 15.24 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid f147f198-f416-518d-bb66-86f323c96b60))
+  (sheet_instances (path "/" (page "1"))))

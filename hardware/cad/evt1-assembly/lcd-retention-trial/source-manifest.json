@@ -1,0 +1,66 @@
+{
+  "LCD": {
+    "manufacturer": "Newhaven",
+    "mpn": "NHD-C12864B2Z-RN-FBW",
+    "primary": "https://newhavendisplay.com/content/specs/NHD-C12864B2Z-RN-FBW.pdf",
+    "OEM_STEP": "hardware/cad/evt1-assembly/vendor/display/NHD-C12864B2Z-RN.STEP",
+    "OEM_STEP_sha256": "6fd8053ab7961345e04773c4d3113529df448efd5a68a5c6cf82d61366dba662",
+    "handling": "https://newhavendisplay.com/lcd-displays/cog-lcd-displays/",
+    "handling_basis": "Support glass evenly, pressure off glass edges and exposed controller. No numeric allowable mounting load is published here.",
+    "front_datum_mm": [
+      0,
+      87,
+      68.8
+    ],
+    "maximum_published_depth_mm": 2.1,
+    "OEM_internal_visual_solids_are_not_a_material_stack": true
+  },
+  "foam": {
+    "manufacturer": "Rogers",
+    "mpn": "4790-92-09030-04 P",
+    "product_identifier": "3036884",
+    "primary": "https://www.rogerscorp.com/-/media/project/rogerscorp/documents/elastomeric-material-solutions/poron/english/product-availability/17-082-poron-polyurethanes-product-availability-brochure.pdf",
+    "family_primary": "https://www.rogerscorp.com/elastomeric-material-solutions/poron-industrial-polyurethanes/poron-4790-92",
+    "nominal_thickness_mm": 0.75,
+    "family_thickness_tolerance_fraction": 0.1,
+    "density_kg_m3": 144,
+    "carrier": "2mil PET support; whether nominal0.75includesPET is not explicit in retrieved primarytext. Measure total stack.",
+    "CFD_at25percent_kPa_typ": 1.7,
+    "CFD_is_not_a_guaranteed_load": true,
+    "cut_dimensions_mm": [
+      1.2,
+      22
+    ],
+    "cut_quantity": 4,
+    "adhesive_credited": false,
+    "availability_or_supplier_quote_verified": false
+  },
+  "shim": {
+    "manufacturer": "CS Hyde",
+    "mpn": "48-2F-1-100",
+    "material": "Mylar TypeA PET, plain nonadhesive film",
+    "primary": "https://cshyde.com/viewitems/films/mylar-polyester-pet-film",
+    "nominal_thickness_in": 0.002,
+    "nominal_thickness_mm": 0.0508,
+    "stock_width_in": 1,
+    "stock_length_ft": 100,
+    "thickness_tolerance_not_assumed": true,
+    "shape": "One-piece pad shim with tail and rear screw registration hole, die cut from plainfilm. No loose rectangular shims."
+  },
+  "fasteners": {
+    "reuse": "ExistingfourNBK SNSS-M2-6 bezel screws",
+    "primary": "https://www.nbk1560.com/images/en-US/product/miniaturescrew/SNSS/SNSS_1.pdf",
+    "underhead_Z_mm": 64,
+    "shaft_tip_Z_mm": 70,
+    "bezel_pilot_top_Z_mm": 70.1,
+    "nominal_bezel_engagement_mm": 2.3,
+    "front_heads": false
+  },
+  "printed": {
+    "material": "MJFPA12 or toughSLA",
+    "frame_min_main_thickness_mm": 1.7,
+    "shim_channel_roof_mm": 0.7,
+    "rear_platform_mm": 1.6,
+    "material_torque_creep_and_drop_qualification": false
+  }
+}

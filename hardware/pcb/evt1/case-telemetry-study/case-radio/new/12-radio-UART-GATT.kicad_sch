@@ -1,0 +1,1185 @@
+(kicad_sch
+  (version 20230121)
+  (generator electronics_r0_generate)
+  (uuid 7a73db7d-6e18-5689-a6a4-74dac0dfa758)
+  (paper "A2")
+  (title_block
+    (title "NINA-B11205B / hardware-flow-controlled SC16 bridge")
+    (date "2026-10-30")
+    (rev "R0 candidate")
+    (company "Research and Desire")
+    (comment 1 "BENCH DEVELOPMENT — NOT FABRICATION OR WEAR RELEASE"))
+  (lib_symbols
+    (symbol
+      "CaseRadio:ABM8G"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "ABM8G" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://abracon.com/Resonators/ABM8G.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "ABM8G14.7456MHz,CL10pF,80ohmESR; oscillatorqualificationpending" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "ABM8G_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "ABM8G_1_1"
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "XTAL1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "XTAL2" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 2.54 180)
+          (length 5.08)
+          (name "CASE_GND2" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -2.54 180)
+          (length 5.08)
+          (name "CASE_GND4" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "CaseRadio:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "CaseRadio:Conn6"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 22.86 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn6" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn6_0_1" (rectangle (start -15.24 17.78) (end 15.24 -17.78) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn6_1_1"
+        (pin passive line (at -20.32 12.7 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 7.619999999999999 0)
+          (length 5.08)
+          (name "2" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 2.539999999999999 0)
+          (length 5.08)
+          (name "3" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -2.540000000000001 0)
+          (length 5.08)
+          (name "4" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -7.620000000000001 0)
+          (length 5.08)
+          (name "5" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -12.7 0) (length 5.08) (name "6" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "CaseRadio:NINA_B112_05B"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 45.72 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "NINA_B112_05B" (at 0 43.18 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "Datasheet"
+        "https://content.u-blox.com/sites/default/files/NINA-B1_DataSheet_UBX-15019243.pdf"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "B112integratedPIFA/hardware02/u-connectXpress7.0; B111/1Uantenna variants not substituted"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "NINA_B112_05B_0_1" (rectangle (start -15.24 40.64) (end 15.24 -40.64) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "NINA_B112_05B_1_1"
+        (pin output line (at -20.32 35.56 0) (length 5.08) (name "RED" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 30.480000000000004 0)
+          (length 5.08)
+          (name "IO2" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 25.400000000000002 0)
+          (length 5.08)
+          (name "IO3" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 20.32 0)
+          (length 5.08)
+          (name "IO4" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 15.240000000000002 0)
+          (length 5.08)
+          (name "IO5" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          (name "GND6" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 5.080000000000002 0)
+          (length 5.08)
+          (name "GREEN_SWITCH1" (effects (font (size 1.016 1.016))))
+          (number "7" (effects (font (size 1.016 1.016)))))
+        (pin output line (at -20.32 0.0 0) (length 5.08) (name "BLUE" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 -5.079999999999998 0)
+          (length 5.08)
+          (name "VCC_IO" (effects (font (size 1.016 1.016))))
+          (number "9" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 -10.159999999999997 0)
+          (length 5.08)
+          (name "VCC" (effects (font (size 1.016 1.016))))
+          (number "10" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 -15.239999999999995 0)
+          (length 5.08)
+          (name "SWDCLK" (effects (font (size 1.016 1.016))))
+          (number "11" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 -20.32 0)
+          (length 5.08)
+          (name "GND12" (effects (font (size 1.016 1.016))))
+          (number "12" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -25.4 0)
+          (length 5.08)
+          (name "ANT_B111_ONLY_NC" (effects (font (size 1.016 1.016))))
+          (number "13" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 -30.480000000000004 0)
+          (length 5.08)
+          (name "GND14" (effects (font (size 1.016 1.016))))
+          (number "14" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -35.56 0)
+          (length 5.08)
+          (name "SWDIO" (effects (font (size 1.016 1.016))))
+          (number "15" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at 20.32 35.56 180)
+          (length 5.08)
+          (name "UART_DTR" (effects (font (size 1.016 1.016))))
+          (number "16" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 30.480000000000004 180)
+          (length 5.08)
+          (name "UART_DSR" (effects (font (size 1.016 1.016))))
+          (number "17" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 25.400000000000002 180)
+          (length 5.08)
+          (name "SWITCH2" (effects (font (size 1.016 1.016))))
+          (number "18" (effects (font (size 1.016 1.016)))))
+        (pin input line (at 20.32 20.32 180) (length 5.08) (name "RESETn" (effects (font (size 1.016 1.016)))) (number "19" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at 20.32 15.240000000000002 180)
+          (length 5.08)
+          (name "UART_RTSn" (effects (font (size 1.016 1.016))))
+          (number "20" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 10.160000000000004 180)
+          (length 5.08)
+          (name "UART_CTSn" (effects (font (size 1.016 1.016))))
+          (number "21" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at 20.32 5.080000000000002 180)
+          (length 5.08)
+          (name "UART_TX" (effects (font (size 1.016 1.016))))
+          (number "22" (effects (font (size 1.016 1.016)))))
+        (pin input line (at 20.32 0.0 180) (length 5.08) (name "UART_RX" (effects (font (size 1.016 1.016)))) (number "23" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -5.079999999999998 180)
+          (length 5.08)
+          (name "IO24" (effects (font (size 1.016 1.016))))
+          (number "24" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -10.159999999999997 180)
+          (length 5.08)
+          (name "IO25" (effects (font (size 1.016 1.016))))
+          (number "25" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -15.239999999999995 180)
+          (length 5.08)
+          (name "GND26" (effects (font (size 1.016 1.016))))
+          (number "26" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          (name "IO27" (effects (font (size 1.016 1.016))))
+          (number "27" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -25.4 180)
+          (length 5.08)
+          (name "NFC1" (effects (font (size 1.016 1.016))))
+          (number "28" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -30.480000000000004 180)
+          (length 5.08)
+          (name "NFC2" (effects (font (size 1.016 1.016))))
+          (number "29" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -35.56 180)
+          (length 5.08)
+          (name "GND30" (effects (font (size 1.016 1.016))))
+          (number "30" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "31" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "32" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "33" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "34" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "35" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "36" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "37" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "38" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "39" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "40" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "41" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "42" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "CaseRadio:R"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "R_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "CaseRadio:SC16IS750_IBS"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 40.64 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "SC16IS750_IBS" (at 0 38.1 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "HVQFN24SOT616-3,notTSSOPpinmap; exposedpad25isphysicalGNDland" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "SC16IS750_IBS_0_1" (rectangle (start -15.24 35.56) (end 15.24 -35.56) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "SC16IS750_IBS_1_1"
+        (pin input line (at -20.32 30.48 0) (length 5.08) (name "RESETn" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 25.4 0) (length 5.08) (name "XTAL1" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin output line (at -20.32 20.32 0) (length 5.08) (name "XTAL2" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at -20.32 15.24 0) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 10.16 0) (length 5.08) (name "I2C_SPI" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 5.080000000000002 0)
+          (length 5.08)
+          (name "A0" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 0.0 0) (length 5.08) (name "A1" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+        (pin
+          no_connect
+          line
+          (at -20.32 -5.080000000000002 0)
+          (length 5.08)
+          (name "NC" (effects (font (size 1.016 1.016))))
+          (number "8" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -10.16 0) (length 5.08) (name "SCL" (effects (font (size 1.016 1.016)))) (number "9" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -15.239999999999998 0)
+          (length 5.08)
+          (name "SDA" (effects (font (size 1.016 1.016))))
+          (number "10" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at -20.32 -20.319999999999997 0)
+          (length 5.08)
+          (name "IRQn" (effects (font (size 1.016 1.016))))
+          (number "11" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -25.400000000000002 0)
+          (length 5.08)
+          (name "GPIO0" (effects (font (size 1.016 1.016))))
+          (number "12" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -30.48 0)
+          (length 5.08)
+          (name "GPIO1" (effects (font (size 1.016 1.016))))
+          (number "13" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 30.48 180)
+          (length 5.08)
+          (name "GPIO2" (effects (font (size 1.016 1.016))))
+          (number "14" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 25.4 180)
+          (length 5.08)
+          (name "GPIO3" (effects (font (size 1.016 1.016))))
+          (number "15" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 20.32 180) (length 5.08) (name "VSS" (effects (font (size 1.016 1.016)))) (number "16" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 15.24 180)
+          (length 5.08)
+          (name "GPIO4" (effects (font (size 1.016 1.016))))
+          (number "17" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 10.16 180)
+          (length 5.08)
+          (name "GPIO5" (effects (font (size 1.016 1.016))))
+          (number "18" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 5.080000000000002 180)
+          (length 5.08)
+          (name "GPIO6" (effects (font (size 1.016 1.016))))
+          (number "19" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 0.0 180)
+          (length 5.08)
+          (name "GPIO7" (effects (font (size 1.016 1.016))))
+          (number "20" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at 20.32 -5.080000000000002 180)
+          (length 5.08)
+          (name "RTSn" (effects (font (size 1.016 1.016))))
+          (number "21" (effects (font (size 1.016 1.016)))))
+        (pin input line (at 20.32 -10.16 180) (length 5.08) (name "CTSn" (effects (font (size 1.016 1.016)))) (number "22" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at 20.32 -15.239999999999998 180)
+          (length 5.08)
+          (name "TX" (effects (font (size 1.016 1.016))))
+          (number "23" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 -20.319999999999997 180)
+          (length 5.08)
+          (name "RX" (effects (font (size 1.016 1.016))))
+          (number "24" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -25.400000000000002 180)
+          (length 5.08)
+          (name "EP_GND" (effects (font (size 1.016 1.016))))
+          (number "25" (effects (font (size 1.016 1.016))))))))
+  (symbol
+    (lib_id "CaseRadio:NINA_B112_05B")
+    (at 101.6 111.76 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 63b196eb-5417-5ffa-a115-7438492ed357)
+    (property "Reference" "U901" (at 101.6 66.04 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "NINA-B112-05B-00" (at 101.6 68.58000000000001 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "Radio:NINA-B112_OEM" (at 101.6 111.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "Datasheet"
+      "https://content.u-blox.com/sites/default/files/NINA-B1_DataSheet_UBX-15019243.pdf"
+      (at 101.6 111.76 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 101.6 111.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 101.6 111.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 101.6 111.76 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 7eaad72a-0e14-5c5e-b0a2-af2495ae62ac))
+    (pin "2" (uuid fb339ae9-3804-57bc-9223-8c2a246ba491))
+    (pin "3" (uuid 5864fa41-8fd8-55c7-bad9-1fb72f3a0415))
+    (pin "4" (uuid d5fbdd1c-08a7-5c14-96af-19313f1b7a09))
+    (pin "5" (uuid 4b2ad02d-a7db-5353-ad29-d37d60a9987b))
+    (pin "6" (uuid 3dc99ffa-a26a-5d13-b3a5-dafe4c9bc682))
+    (pin "7" (uuid c4d258b2-7737-5869-bfd4-50fbdbaf5a29))
+    (pin "8" (uuid cd222227-18c4-57c0-8469-7e075eb6e582))
+    (pin "9" (uuid 3bcdf965-a730-577d-8ce9-6a45d20dea59))
+    (pin "10" (uuid cdf1874b-fd5e-5b16-bc41-7b95e0bd70c7))
+    (pin "11" (uuid c0053422-cb09-5153-a188-bc7e60f6cc9f))
+    (pin "12" (uuid 8502a2a1-e0ed-5f73-9069-2b67100a0f23))
+    (pin "13" (uuid 2218a281-9888-55df-9d81-b3843f7ead19))
+    (pin "14" (uuid a7413698-aaec-5edc-900f-942dcbf15aa3))
+    (pin "15" (uuid 45be82a6-b6ca-5afb-abed-f5f95aaf44e0))
+    (pin "16" (uuid dde32af2-8deb-566a-9c2c-a78f9030760c))
+    (pin "17" (uuid c9181c85-88b7-50d1-a512-28ee6ac30e1f))
+    (pin "18" (uuid 6941b664-ef98-5480-83e6-7972cd3d0b7f))
+    (pin "19" (uuid 31db1119-309b-5747-bfd1-e5380df2f88c))
+    (pin "20" (uuid 12a2d71e-4d52-5647-aeb5-ed145c74a744))
+    (pin "21" (uuid 21b72a14-7505-5d22-bd87-26bfbe3c1358))
+    (pin "22" (uuid 0d34ee21-b156-5c25-9e4b-841c921b3d80))
+    (pin "23" (uuid 8f3ed73c-2ae0-56af-9030-82ac2b72ff8b))
+    (pin "24" (uuid 7ef27fbf-1405-5c5d-99d4-69f7f149ed6d))
+    (pin "25" (uuid 3c6b5739-7557-548a-8c34-38c6bcacb5e7))
+    (pin "26" (uuid 1bf120ea-b56b-5b8c-a119-c70b2018bc2e))
+    (pin "27" (uuid 9f3fcabb-0776-5705-81e8-75d9653a76e5))
+    (pin "28" (uuid 1444654f-19b6-5d75-aee9-2eebad10ae7a))
+    (pin "29" (uuid 2ebb7a20-ecbd-55ed-a501-edd956b0c90a))
+    (pin "30" (uuid e4dd2a67-e486-5989-a707-e93b77732af0))
+    (pin "31" (uuid be49196c-7bbf-5238-821d-bf79db7ee889))
+    (pin "32" (uuid 53470824-7407-5d0e-8acd-07779d38458a))
+    (pin "33" (uuid 6cef2763-8579-5048-ab2d-fbd0e4e03bad))
+    (pin "34" (uuid 307c73d5-5c5b-5e6e-a3fe-c95458263dc0))
+    (pin "35" (uuid 6eb1626d-a5a9-5723-be81-78ab6a4add64))
+    (pin "36" (uuid 521362a4-ca87-5ba6-816a-ce476f990682))
+    (pin "37" (uuid 0f6ab073-793f-50e2-86bf-56f06279bd05))
+    (pin "38" (uuid dfb2d6ac-91b0-567c-b8ba-f33f8975bf30))
+    (pin "39" (uuid 3cf0a77f-dbed-5bbe-b3aa-80b8bf26253c))
+    (pin "40" (uuid 55ff7cfb-5295-54a8-a8b3-220cac6115f6))
+    (pin "41" (uuid dc92d5ad-d5b4-593a-9e8d-955a86d0c16b))
+    (pin "42" (uuid 789f1d0c-4f58-584f-ae55-4d16c7606504))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "U901") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "U901") (unit 1))))
+    (property "Manufacturer" "u-blox" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "NINA-B112-05B-00" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio addon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (no_connect (at 81.28 76.2) (uuid 93ccc504-e41d-5887-8299-4f5079f01171))
+  (no_connect (at 81.28 81.28) (uuid d08ea9a2-5b7c-57dd-a23a-620be3ef636c))
+  (no_connect (at 81.28 86.36) (uuid 24bc18d7-6a80-5929-92e9-03cae1bad157))
+  (no_connect (at 81.28 91.44) (uuid a97e5bd7-3765-5943-adcd-09d16622fb96))
+  (no_connect (at 81.28 96.52) (uuid 18295eba-c735-5701-a1c1-822d493fbb60))
+  (wire (pts (xy 81.28 101.6) (xy 76.2 101.6)) (stroke (width 0) (type default)) (uuid 57b77377-18d2-5193-ad09-58693896d499))
+  (global_label "GND" (shape input) (at 76.2 101.6 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid ac61e134-94c3-589c-a96b-92b0d2aea568))
+  (wire (pts (xy 81.28 106.68) (xy 76.2 106.68)) (stroke (width 0) (type default)) (uuid f6fd1bad-332a-534a-972c-313d0c5f372b))
+  (global_label
+    "NINA_SWITCH1"
+    (shape input)
+    (at 76.2 106.68 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid fc13fbea-3f5e-5a93-a0c9-d83e9e825ac8))
+  (no_connect (at 81.28 111.76) (uuid fbc5d51f-fd62-5bbf-a140-cb4e322ba1cd))
+  (wire (pts (xy 81.28 116.84) (xy 76.2 116.84)) (stroke (width 0) (type default)) (uuid 7dae6815-ab35-56f7-bc2f-afbfaafab9fe))
+  (global_label
+    "RADIO_3V3"
+    (shape input)
+    (at 76.2 116.84 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 2755f167-0991-5a4c-a3b0-c68771d159fe))
+  (wire (pts (xy 81.28 121.92) (xy 76.2 121.92)) (stroke (width 0) (type default)) (uuid 9c3b420b-ff03-52f0-954d-e121f38cf832))
+  (global_label
+    "RADIO_3V3"
+    (shape input)
+    (at 76.2 121.92 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 228e6cd0-bb76-5f70-a3db-c702cdcd9d99))
+  (wire (pts (xy 81.28 127.0) (xy 76.2 127.0)) (stroke (width 0) (type default)) (uuid 8b929ad5-8ecb-54a3-8e42-fa3ab2297ac0))
+  (global_label
+    "NINA_SWDCLK"
+    (shape input)
+    (at 76.2 127.0 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 7145b7cf-1353-59f1-9642-974cee5c4ee8))
+  (wire (pts (xy 81.28 132.08) (xy 76.2 132.08)) (stroke (width 0) (type default)) (uuid af16eaf6-0d6a-581b-ab2f-13b870b8e39b))
+  (global_label "GND" (shape input) (at 76.2 132.08 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 77498e1f-1d40-57e8-8fe9-856bfb49375b))
+  (no_connect (at 81.28 137.16) (uuid a91ebb1f-0481-5b31-8e35-6ebf25885446))
+  (wire (pts (xy 81.28 142.24) (xy 76.2 142.24)) (stroke (width 0) (type default)) (uuid 92c6b109-d540-5bf9-aee2-0f824498cd10))
+  (global_label "GND" (shape input) (at 76.2 142.24 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 6f7252a9-8194-5a52-81be-e6d32b160722))
+  (wire (pts (xy 81.28 147.32) (xy 76.2 147.32)) (stroke (width 0) (type default)) (uuid 087df9ec-b647-5623-aed5-68def0f91150))
+  (global_label
+    "NINA_SWDIO"
+    (shape input)
+    (at 76.2 147.32 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 05c5acd7-0b7b-5495-a75e-a76c7976c4d8))
+  (wire (pts (xy 121.92 76.2) (xy 127.0 76.2)) (stroke (width 0) (type default)) (uuid 047311bd-ca9e-5f7d-b82b-c0346abfb79a))
+  (global_label "NINA_DTR" (shape input) (at 127.0 76.2 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c6157093-0c5f-5379-b704-079ced95453c))
+  (wire (pts (xy 121.92 81.28) (xy 127.0 81.28)) (stroke (width 0) (type default)) (uuid edecf028-6278-58dc-878f-63d36e601237))
+  (global_label "NINA_DSR" (shape input) (at 127.0 81.28 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid da888f17-b1ae-5487-84a4-c9a0595fe529))
+  (wire (pts (xy 121.92 86.36) (xy 127.0 86.36)) (stroke (width 0) (type default)) (uuid 889f0ef9-0726-5032-a359-77f8d537dd1c))
+  (global_label
+    "NINA_SWITCH2"
+    (shape input)
+    (at 127.0 86.36 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 1e2f1fdb-37fc-50f9-b61a-df4b7cf5450b))
+  (wire (pts (xy 121.92 91.44) (xy 127.0 91.44)) (stroke (width 0) (type default)) (uuid 3261ca8f-8075-57a4-9156-28193f18f53b))
+  (global_label
+    "RADIO_RESETn"
+    (shape input)
+    (at 127.0 91.44 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid b425e19e-88bf-5448-bc21-3c5b98a6cd57))
+  (wire (pts (xy 121.92 96.52) (xy 127.0 96.52)) (stroke (width 0) (type default)) (uuid 4b3f9e95-393b-51e4-91e0-4b016edc017e))
+  (global_label "NINA_RTSn" (shape input) (at 127.0 96.52 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 53cb7e68-555c-58ef-9fe0-6236eec4c2f5))
+  (wire (pts (xy 121.92 101.6) (xy 127.0 101.6)) (stroke (width 0) (type default)) (uuid d01bf0e4-ba09-5dab-abec-fa05428ba82b))
+  (global_label "NINA_CTSn" (shape input) (at 127.0 101.6 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid ab6af066-8a6c-59ab-8800-6d1d06ea09d0))
+  (wire (pts (xy 121.92 106.68) (xy 127.0 106.68)) (stroke (width 0) (type default)) (uuid 7b6edec4-eaf1-59f9-96d0-e2231f4052e7))
+  (global_label "NINA_TX" (shape input) (at 127.0 106.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a694f129-6e24-538e-85fb-b5c85c3509d0))
+  (wire (pts (xy 121.92 111.76) (xy 127.0 111.76)) (stroke (width 0) (type default)) (uuid ea3c824c-c06f-59a2-9fa5-66b9bddaa91c))
+  (global_label "NINA_RX" (shape input) (at 127.0 111.76 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 80763db6-2d7f-5d69-ad4a-efaafef1d8ee))
+  (no_connect (at 121.92 116.84) (uuid e6caeee1-f19d-54e6-8ec5-05986236d516))
+  (no_connect (at 121.92 121.92) (uuid 2cc62939-e5d8-5c86-bb1f-7758e51ca5d8))
+  (wire (pts (xy 121.92 127.0) (xy 127.0 127.0)) (stroke (width 0) (type default)) (uuid 67062faa-11eb-5b33-b58d-6ed79f874c86))
+  (global_label "GND" (shape input) (at 127.0 127.0 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 68047a26-0e47-550c-a095-594820801652))
+  (no_connect (at 121.92 132.08) (uuid 71a9b51d-593a-5d37-bc51-0e2edef6f3cc))
+  (no_connect (at 121.92 137.16) (uuid 4fc711a6-e7cb-5187-9221-512bf9d1d034))
+  (no_connect (at 121.92 142.24) (uuid 4fd3ed1b-603a-5608-ad3b-38cc1bea81a7))
+  (wire (pts (xy 121.92 147.32) (xy 127.0 147.32)) (stroke (width 0) (type default)) (uuid 695f5fb0-f333-553f-b66c-92bea24705ec))
+  (global_label "GND" (shape input) (at 127.0 147.32 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 48bcc4c5-74fc-5287-9209-70f37f616816))
+  (symbol
+    (lib_id "CaseRadio:SC16IS750_IBS")
+    (at 304.8 111.76 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 8378a628-4880-5944-a4ac-d0ae9bd59d31)
+    (property "Reference" "U902" (at 304.8 71.12 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SC16IS750IBS,128" (at 304.8 73.66000000000001 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "Radio:HVQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" (at 304.8 111.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf" (at 304.8 111.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 304.8 111.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 304.8 111.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 304.8 111.76 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 3463e2be-3cf8-59a9-9a16-84f7af4e8537))
+    (pin "2" (uuid ddccc1ab-725e-5292-a2fa-ca19213add4c))
+    (pin "3" (uuid 91a27cf3-ff7d-56ce-9b91-f6ad5a48f8f5))
+    (pin "4" (uuid a92799c7-a331-5a22-b8eb-c8c9ab30a1d2))
+    (pin "5" (uuid b5c530ad-c85e-5f94-b57d-cc2849311e9a))
+    (pin "6" (uuid f0320ad7-3704-5583-b180-dfd1106cd36d))
+    (pin "7" (uuid 3ca1caa4-658f-59bf-981f-18a727b012d7))
+    (pin "8" (uuid b2201438-8aab-51b5-8c87-992ce605ee54))
+    (pin "9" (uuid e6a21d12-11f7-52a5-adf5-3bfc5dc2d1c9))
+    (pin "10" (uuid b3c1829c-66fa-564f-95c2-3da49eb2d5b6))
+    (pin "11" (uuid d8b0a886-98f6-50da-95d4-b5acfe28ab16))
+    (pin "12" (uuid a677f59a-b6b9-5111-b93d-4103e5d89ebf))
+    (pin "13" (uuid f6a1b372-54b3-5062-987e-ff3e3360227d))
+    (pin "14" (uuid c522e56d-5de5-5f66-aa2a-c2216b0fb2d5))
+    (pin "15" (uuid 0b867273-d4e1-55b7-8b27-c595458206e7))
+    (pin "16" (uuid 82104324-7eb1-5368-88ec-cc80fd9b6c33))
+    (pin "17" (uuid 58ad7713-e783-5745-913a-d746d84c7404))
+    (pin "18" (uuid acf8a9aa-9caa-5951-9e9b-cb4c4bc135a2))
+    (pin "19" (uuid 076aa30a-461a-53a0-911e-8e9ad38308c9))
+    (pin "20" (uuid 7f79627f-6820-545c-afcc-ac2ff61431d4))
+    (pin "21" (uuid 4553138b-f9eb-5464-a8ee-daddb1a092e3))
+    (pin "22" (uuid 13d79edc-ba6b-5977-a28c-62345988894d))
+    (pin "23" (uuid 4f1a9658-fed5-58f2-b635-5c7a6ea58f75))
+    (pin "24" (uuid e5103ed6-74df-562c-8435-e23292269b9d))
+    (pin "25" (uuid 15456fe3-983e-51b8-85cf-07e0cf30e51b))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "U902") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "U902") (unit 1))))
+    (property "Manufacturer" "NXP" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "SC16IS750IBS,128" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio addon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 284.48 81.28) (xy 279.4 81.28)) (stroke (width 0) (type default)) (uuid 6f1d5564-9274-5199-8c0a-fed8de33fd80))
+  (global_label
+    "RADIO_RESETn"
+    (shape input)
+    (at 279.4 81.28 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 2669eb55-2673-5a27-92f4-c1692ad22b3a))
+  (wire (pts (xy 284.48 86.36) (xy 279.4 86.36)) (stroke (width 0) (type default)) (uuid 8304c1b9-8510-5dd9-961f-99c0eb037cc2))
+  (global_label
+    "SC16_XTAL1"
+    (shape input)
+    (at 279.4 86.36 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 6ecf95e4-71ac-5b10-ab3d-6a0af318eae9))
+  (wire (pts (xy 284.48 91.44) (xy 279.4 91.44)) (stroke (width 0) (type default)) (uuid 249fd12d-fa2b-5e54-ab3d-5851cd9b3f91))
+  (global_label
+    "SC16_XTAL2"
+    (shape input)
+    (at 279.4 91.44 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 84cb05cc-959b-5ac4-bdf2-3eb873c303bd))
+  (wire (pts (xy 284.48 96.52) (xy 279.4 96.52)) (stroke (width 0) (type default)) (uuid 2ff1d99b-c368-581d-8a7d-256c858ae3f3))
+  (global_label
+    "RADIO_3V3"
+    (shape input)
+    (at 279.4 96.52 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid ea247d84-294e-5b43-b254-778025f8f2d3))
+  (wire (pts (xy 284.48 101.6) (xy 279.4 101.6)) (stroke (width 0) (type default)) (uuid fd75c54d-6fba-5e83-b469-831a63a6e1f7))
+  (global_label
+    "RADIO_3V3"
+    (shape input)
+    (at 279.4 101.6 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid cad662ad-dc69-5f17-b98a-40ec34e994fc))
+  (wire (pts (xy 284.48 106.68) (xy 279.4 106.68)) (stroke (width 0) (type default)) (uuid de46d54f-6f56-5108-a02a-3bd575d4bf28))
+  (global_label "GND" (shape input) (at 279.4 106.68 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 71c2ae73-82ca-5ec3-99f0-227ea9e0ffdd))
+  (wire (pts (xy 284.48 111.76) (xy 279.4 111.76)) (stroke (width 0) (type default)) (uuid 6dc63126-a233-58f5-be91-c9ca1bb256ad))
+  (global_label "GND" (shape input) (at 279.4 111.76 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid ae328642-88b0-5079-a8b2-998e6a4e0665))
+  (wire (pts (xy 284.48 121.92) (xy 279.4 121.92)) (stroke (width 0) (type default)) (uuid e0c03574-bffb-5f80-8e3d-4144a6b7753d))
+  (global_label
+    "RADIO_I2C_SCL"
+    (shape input)
+    (at 279.4 121.92 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 49a63158-b74e-50d1-8e7f-3071c487b364))
+  (wire (pts (xy 284.48 127.0) (xy 279.4 127.0)) (stroke (width 0) (type default)) (uuid 50bb0faf-f072-5021-9942-9bbae61abb52))
+  (global_label
+    "RADIO_I2C_SDA"
+    (shape input)
+    (at 279.4 127.0 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 4d042e73-7a80-5b67-a859-8e13e3c0c2c5))
+  (wire (pts (xy 284.48 132.08) (xy 279.4 132.08)) (stroke (width 0) (type default)) (uuid b55d5e98-fae0-5ec1-90aa-8fdeef826e3d))
+  (global_label
+    "SC16_IRQn"
+    (shape input)
+    (at 279.4 132.08 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 9381643b-e880-5301-9453-4796b0d1a452))
+  (wire (pts (xy 284.48 137.16) (xy 279.4 137.16)) (stroke (width 0) (type default)) (uuid 54b0c4b1-4f71-537a-871f-4d9e86328f96))
+  (global_label
+    "NINA_DSR"
+    (shape input)
+    (at 279.4 137.16 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 55afe263-4f90-582d-b7b4-600e5a1cd673))
+  (wire (pts (xy 284.48 142.24) (xy 279.4 142.24)) (stroke (width 0) (type default)) (uuid 065ee65b-5413-5d21-97bb-ed6537ed57de))
+  (global_label
+    "NINA_DTR"
+    (shape input)
+    (at 279.4 142.24 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 4ddbbcc6-09e8-5ec7-9364-560d4c0cbfd1))
+  (no_connect (at 325.12 81.28) (uuid 683d0c40-b6ee-5f52-b2da-9500f0180de3))
+  (no_connect (at 325.12 86.36) (uuid 7ccc3d6d-b0dd-5a55-a716-b774e1079017))
+  (wire (pts (xy 325.12 91.44) (xy 330.2 91.44)) (stroke (width 0) (type default)) (uuid 2269112e-7763-5522-a4e4-ee5af15106a2))
+  (global_label "GND" (shape input) (at 330.2 91.44 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 0272f6df-b73e-5c6f-a005-e86523d0ddbc))
+  (no_connect (at 325.12 96.52) (uuid 7d297c10-38bb-58ca-a2e9-3a9de90b9828))
+  (no_connect (at 325.12 101.6) (uuid 857dfb44-23bb-5c61-aba3-f93a56696654))
+  (no_connect (at 325.12 106.68) (uuid 0f7d69a3-1184-5e30-805b-86251ee15e73))
+  (no_connect (at 325.12 111.76) (uuid 9a5192de-2dfc-5847-99e1-ca3c921b28af))
+  (wire (pts (xy 325.12 116.84) (xy 330.2 116.84)) (stroke (width 0) (type default)) (uuid 2aafee1e-913f-56e5-b683-0197fb35826b))
+  (global_label
+    "NINA_CTSn"
+    (shape input)
+    (at 330.2 116.84 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 4eae2521-8b16-556a-8d0f-05a4ea66cf88))
+  (wire (pts (xy 325.12 121.92) (xy 330.2 121.92)) (stroke (width 0) (type default)) (uuid 1f18eaee-8948-56b2-ac96-db0421ac598a))
+  (global_label
+    "NINA_RTSn"
+    (shape input)
+    (at 330.2 121.92 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid f2cea705-f8b0-5b58-8c5b-fc01c7dd87b7))
+  (wire (pts (xy 325.12 127.0) (xy 330.2 127.0)) (stroke (width 0) (type default)) (uuid 8b36f6b8-52b2-5dd2-902f-3ba29ca76d40))
+  (global_label "NINA_RX" (shape input) (at 330.2 127.0 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 1fddf5df-0767-5c8c-9d5e-8d1374789e5a))
+  (wire (pts (xy 325.12 132.08) (xy 330.2 132.08)) (stroke (width 0) (type default)) (uuid 8f2cf2e5-4853-5c82-83cc-09f9daa5c68c))
+  (global_label "NINA_TX" (shape input) (at 330.2 132.08 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 10980c65-33bd-505f-a538-56fddc1c82fe))
+  (wire (pts (xy 325.12 137.16) (xy 330.2 137.16)) (stroke (width 0) (type default)) (uuid 87261cd4-b410-58d5-9f40-21355c56c62b))
+  (global_label "GND" (shape input) (at 330.2 137.16 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 9ddf0ef8-3412-5559-b066-0790b2bf6c1d))
+  (symbol
+    (lib_id "CaseRadio:ABM8G")
+    (at 482.6 73.66 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid ca773b37-5dc2-53aa-8f7f-b0bb9f190ee5)
+    (property "Reference" "Y901" (at 482.6 60.959999999999994 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ABM8G-14.7456MHZ-B4Y-T" (at 482.6 63.49999999999999 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "Radio:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" (at 482.6 73.66 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://abracon.com/Resonators/ABM8G.pdf" (at 482.6 73.66 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 482.6 73.66 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 482.6 73.66 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "CL10pF,ESR80ohm,−20..70C;12pFstartingcapsrequireoscillatorqualification"
+      (at 482.6 73.66 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 8f1e3b34-1b48-52fd-8e24-c26be30fc05a))
+    (pin "3" (uuid 0c60c896-7238-5337-b2b4-8496d10a97b1))
+    (pin "2" (uuid 30f2984a-ac8a-56b2-ae0f-afe7e23efa40))
+    (pin "4" (uuid 132144bf-2e70-52a4-af7a-019530234eb4))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "Y901") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "Y901") (unit 1))))
+    (property "Manufacturer" "Abracon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "ABM8G-14.7456MHZ-B4Y-T" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio addon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 462.28 71.12) (xy 457.2 71.12)) (stroke (width 0) (type default)) (uuid 259d3804-ad69-5e2f-8ec8-9a73e598b18f))
+  (global_label
+    "SC16_XTAL1"
+    (shape input)
+    (at 457.2 71.12 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid a9a4bd6a-f7d9-58f0-9d62-a7f35ac323da))
+  (wire (pts (xy 462.28 76.2) (xy 457.2 76.2)) (stroke (width 0) (type default)) (uuid f789e11f-8219-587f-a8bc-524c33f63c39))
+  (global_label
+    "SC16_XTAL2"
+    (shape input)
+    (at 457.2 76.2 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid ffcef2b6-55c7-5edb-83c7-5c7d04504c74))
+  (wire (pts (xy 502.92 71.12) (xy 508.0 71.12)) (stroke (width 0) (type default)) (uuid 0ad8dd19-cf84-5c66-b2a9-cb9166d02903))
+  (global_label "GND" (shape input) (at 508.0 71.12 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 36572221-952d-51fa-b02e-758c3a41a6b5))
+  (wire (pts (xy 502.92 76.2) (xy 508.0 76.2)) (stroke (width 0) (type default)) (uuid 1bb3a89e-247f-5006-9565-870815a6a704))
+  (global_label "GND" (shape input) (at 508.0 76.2 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 5c10ecd9-d905-5966-bd78-5b2a7251a556))
+  (symbol
+    (lib_id "CaseRadio:C")
+    (at 431.8 152.4 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid a1094af3-65ee-57a8-a328-3dde1c7db3f1)
+    (property "Reference" "C907" (at 440.69 151.13 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "12pF50V C0G" (at 440.69 153.67000000000002 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Radio:C_0402_1005Metric" (at 431.8 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 431.8 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 431.8 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 431.8 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "C1005C0G1H120J050BA" (at 431.8 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid e2f3d1c0-7e58-5d28-bb0f-74a6a4a4ae56))
+    (pin "2" (uuid 44c27dfa-4118-52ca-851e-ccab0edbd296))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "C907") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "C907") (unit 1))))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C1005C0G1H120J050BA" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio addon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 431.8 147.32) (xy 431.8 142.24)) (stroke (width 0) (type default)) (uuid dae41fba-76ec-59a4-b8d3-96260000fe46))
+  (global_label
+    "SC16_XTAL1"
+    (shape input)
+    (at 431.8 142.24 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid d2c7cb34-7ef0-5296-b5ec-dac6f6e8adf7))
+  (wire (pts (xy 431.8 157.48) (xy 431.8 162.56)) (stroke (width 0) (type default)) (uuid 2ec98755-86e0-5bee-86b0-466fade1cf11))
+  (global_label "GND" (shape input) (at 431.8 162.56 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid f1775f32-493c-5e8e-b756-f16340845378))
+  (symbol
+    (lib_id "CaseRadio:C")
+    (at 533.4 152.4 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid da39c60f-beac-5c05-94d8-304b3e2a7b75)
+    (property "Reference" "C908" (at 542.29 151.13 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "12pF50V C0G" (at 542.29 153.67000000000002 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Radio:C_0402_1005Metric" (at 533.4 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 533.4 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 533.4 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 533.4 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "C1005C0G1H120J050BA" (at 533.4 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 67aae5ac-be20-5d0b-be0a-52a389a1b9bf))
+    (pin "2" (uuid d6dba800-dd49-591f-b363-71ed83436930))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "C908") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "C908") (unit 1))))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C1005C0G1H120J050BA" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio addon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 533.4 147.32) (xy 533.4 142.24)) (stroke (width 0) (type default)) (uuid 6f59c037-1c85-5986-a4cf-dba6d514643f))
+  (global_label
+    "SC16_XTAL2"
+    (shape input)
+    (at 533.4 142.24 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 7a4e5d52-70b2-53f3-8b45-1d5a37b85d37))
+  (wire (pts (xy 533.4 157.48) (xy 533.4 162.56)) (stroke (width 0) (type default)) (uuid 27a04951-30b7-5a5e-bc86-832d6f9c784b))
+  (global_label "GND" (shape input) (at 533.4 162.56 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a6d32021-8e5a-55d7-9d90-4db370069463))
+  (symbol
+    (lib_id "CaseRadio:R")
+    (at 63.5 238.76 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 34e19c21-0a2e-5a76-b937-8b36812fa72c)
+    (property "Reference" "R902" (at 72.39 237.48999999999998 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k" (at 72.39 240.03 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Radio:R_0402_1005Metric" (at 63.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 63.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 63.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 63.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "CRCW040210K0FKED" (at 63.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid febe026e-a3e7-5c2f-a6dd-bdde9530b237))
+    (pin "2" (uuid 56b72627-90d1-5ada-a8c4-bb263f7dfe74))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "R902") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "R902") (unit 1))))
+    (property "Manufacturer" "Vishay" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "CRCW040210K0FKED" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio addon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 63.5 233.68) (xy 63.5 228.6)) (stroke (width 0) (type default)) (uuid df800a1f-0dd3-5c92-9d1f-e272c2294d9b))
+  (global_label "RADIO_3V3" (shape input) (at 63.5 228.6 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 302fcc2b-fe76-5903-b804-903ac5b9b0f5))
+  (wire (pts (xy 63.5 243.84) (xy 63.5 248.92)) (stroke (width 0) (type default)) (uuid d0d820ea-2110-5d7a-81c5-11acbfd9a487))
+  (global_label
+    "NINA_SWITCH1"
+    (shape input)
+    (at 63.5 248.92 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 08b2b3a9-210b-5288-a5a5-d3a14e0fa2d9))
+  (symbol
+    (lib_id "CaseRadio:R")
+    (at 190.5 238.76 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 47bd6a33-8dbd-59e8-8638-2358b2f4b274)
+    (property "Reference" "R903" (at 199.39 237.48999999999998 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k" (at 199.39 240.03 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Radio:R_0402_1005Metric" (at 190.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 190.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 190.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 190.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "CRCW040210K0FKED" (at 190.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid b0f0ef66-1646-5eaa-8cda-59c6c8a3fc4d))
+    (pin "2" (uuid 19f89fb0-3eb3-538e-8ade-152c74f38b55))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "R903") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "R903") (unit 1))))
+    (property "Manufacturer" "Vishay" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "CRCW040210K0FKED" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio addon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 190.5 233.68) (xy 190.5 228.6)) (stroke (width 0) (type default)) (uuid 55ba8458-81d7-5a74-bd05-6cd5e3b334b8))
+  (global_label "RADIO_3V3" (shape input) (at 190.5 228.6 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid d43c43db-884d-5cb2-87fe-f32b22cb100c))
+  (wire (pts (xy 190.5 243.84) (xy 190.5 248.92)) (stroke (width 0) (type default)) (uuid e865520e-93df-5e8c-90ff-d6821315ac79))
+  (global_label
+    "NINA_SWITCH2"
+    (shape input)
+    (at 190.5 248.92 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid a04dce57-23de-5251-923f-bbf4f0792f3f))
+  (symbol
+    (lib_id "CaseRadio:R")
+    (at 317.5 238.76 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 408e6afc-edeb-5e2f-91c0-ac74e500c633)
+    (property "Reference" "R904" (at 326.39 237.48999999999998 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "47k" (at 326.39 240.03 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Radio:R_0402_1005Metric" (at 317.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 317.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 317.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 317.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "CRCW040247K0FKED" (at 317.5 238.76 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 8c5c4f3b-f7ea-5a27-a459-531e951d92c0))
+    (pin "2" (uuid 3f4f9b42-55c8-564a-85db-9ebaf99f8adf))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "R904") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "R904") (unit 1))))
+    (property "Manufacturer" "Vishay" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "CRCW040247K0FKED" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio addon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 317.5 233.68) (xy 317.5 228.6)) (stroke (width 0) (type default)) (uuid 59d7d776-7420-5061-b039-e2f613005831))
+  (global_label "RADIO_3V3" (shape input) (at 317.5 228.6 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a2ad2345-508e-508f-9487-e2060e11ca26))
+  (wire (pts (xy 317.5 243.84) (xy 317.5 248.92)) (stroke (width 0) (type default)) (uuid b83a1508-5494-506c-a936-9725dfcad373))
+  (global_label "NINA_DSR" (shape input) (at 317.5 248.92 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c93c37a4-26d8-5da5-9dab-073bfc9d865f))
+  (symbol
+    (lib_id "CaseRadio:C")
+    (at 63.5 304.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 1a33716b-36b7-5076-a34c-45aa41fc9c8e)
+    (property "Reference" "C903" (at 72.39 303.53000000000003 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF16V" (at 72.39 306.07 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Radio:C_0402_1005Metric" (at 63.5 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 63.5 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 63.5 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 63.5 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "C1005X7R1C104K050BC" (at 63.5 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 1154a53d-7ad0-587f-afdf-07773deadcc6))
+    (pin "2" (uuid dd25ac7e-df4b-516b-bf35-ab34670afe98))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "C903") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "C903") (unit 1))))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C1005X7R1C104K050BC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio addon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 63.5 299.72) (xy 63.5 294.64)) (stroke (width 0) (type default)) (uuid e19e0b04-a8f6-57c8-b9ad-cda62b10105c))
+  (global_label "RADIO_3V3" (shape input) (at 63.5 294.64 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 45ef0eda-1681-56bb-ac26-2fb33b32ac1b))
+  (wire (pts (xy 63.5 309.88) (xy 63.5 314.96)) (stroke (width 0) (type default)) (uuid 1fd4125b-2476-5fb3-a52f-8295b1d517bc))
+  (global_label "GND" (shape input) (at 63.5 314.96 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 213470a7-46a5-5a71-bd9a-e1691a1c711b))
+  (symbol
+    (lib_id "CaseRadio:C")
+    (at 190.5 304.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 39c07acb-fd67-55d1-9aa5-85d50b01d54c)
+    (property "Reference" "C904" (at 199.39 303.53000000000003 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF16V" (at 199.39 306.07 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "Radio:C_0402_1005Metric" (at 190.5 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 190.5 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 190.5 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 190.5 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "C1005X7R1C104K050BC" (at 190.5 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid bfafb4cb-29fc-5bd1-a617-ec936d39a6ff))
+    (pin "2" (uuid 42a0b19a-c77f-5aa9-90d6-6481781ee8a5))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "C904") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "C904") (unit 1))))
+    (property "Manufacturer" "TDK" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "C1005X7R1C104K050BC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio addon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 190.5 299.72) (xy 190.5 294.64)) (stroke (width 0) (type default)) (uuid da1ebb15-ed6e-5166-a45b-537b03512712))
+  (global_label
+    "RADIO_3V3"
+    (shape input)
+    (at 190.5 294.64 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid e9a6f56e-d260-58bc-a17c-7afcf5ce08ae))
+  (wire (pts (xy 190.5 309.88) (xy 190.5 314.96)) (stroke (width 0) (type default)) (uuid 26507c9a-8cc2-53b9-8859-d0c9fa03b63e))
+  (global_label "GND" (shape input) (at 190.5 314.96 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid ec7fd56b-ff35-5805-a79a-b3a82bdae556))
+  (symbol
+    (lib_id "CaseRadio:Conn6")
+    (at 406.4 304.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid edaf832b-0006-5ddf-a6a0-fc014753d30a)
+    (property "Reference" "J902" (at 406.4 281.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TC2030-CTX-NL SWD CONTACT PATTERN" (at 406.4 284.48 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "DockControl:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" (at 406.4 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 406.4 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 406.4 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 406.4 304.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "NINAserviceonly; accessibleboot-switchpadsandSWD; notasecondUSBcontroller"
+      (at 406.4 304.8 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 032a819c-29ac-5e55-a7d3-9b74d3cab7e7))
+    (pin "2" (uuid d98858b4-890e-549b-bbb4-f263ed17e1d2))
+    (pin "3" (uuid ecd55a78-546a-58d4-a9be-db9e0e1d7fd4))
+    (pin "4" (uuid b0ee7e2b-b505-5f6b-bfbc-a5cffcc5079f))
+    (pin "5" (uuid 9d1132cd-c9cd-5005-a580-f7b126c638dc))
+    (pin "6" (uuid 18743c89-16cc-519b-a8b5-59067e8fe25c))
+    (instances
+      (project "case-radio-system" (path "/43dece76-d5c4-5b14-b9a6-3911ec6c513f/034b8751-1440-5e11-af39-576f2c21e0ff" (reference "J902") (unit 1)))
+      (project "case-radio-system" (path "/c56a91ea-5b6f-5a0d-9445-1e0f786c84ee/444adb17-00ca-5c20-80cc-557ce2ec52f5" (reference "J902") (unit 1))))
+    (property "Manufacturer" "manual copper" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "TC2030-CTX-NL SWD CONTACT PATTERN" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "BoardPartition" "Radio manual copper" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 386.08 292.1) (xy 381.0 292.1)) (stroke (width 0) (type default)) (uuid 0fcdbbe2-4c3a-5259-b6ba-55aa84af85a4))
+  (global_label
+    "RADIO_3V3"
+    (shape input)
+    (at 381.0 292.1 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 0a0bda9b-a99e-517d-910e-0e11178f49d8))
+  (wire (pts (xy 386.08 297.18) (xy 381.0 297.18)) (stroke (width 0) (type default)) (uuid e7ef8ade-ac7d-5213-9824-5ccd5158f9a1))
+  (global_label
+    "NINA_SWDIO"
+    (shape input)
+    (at 381.0 297.18 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid bb368a2c-8f28-5e5e-b48c-cb255fb4309b))
+  (wire (pts (xy 386.08 302.26) (xy 381.0 302.26)) (stroke (width 0) (type default)) (uuid 7bc78a4b-b9cd-56f5-bcbb-7560bb6f605b))
+  (global_label
+    "RADIO_RESETn"
+    (shape input)
+    (at 381.0 302.26 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 2d2b407e-ac8f-50d0-9da3-fd874ca78893))
+  (wire (pts (xy 386.08 307.34) (xy 381.0 307.34)) (stroke (width 0) (type default)) (uuid e4b80507-84c4-57e5-b63f-5fed6aeb0214))
+  (global_label
+    "NINA_SWDCLK"
+    (shape input)
+    (at 381.0 307.34 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 9b64b2d2-4934-5683-8048-ae71788f4e17))
+  (wire (pts (xy 386.08 312.42) (xy 381.0 312.42)) (stroke (width 0) (type default)) (uuid 82da6c61-3296-5ff0-9514-5782d7e55d23))
+  (global_label "GND" (shape input) (at 381.0 312.42 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid becd4dda-21be-5b9e-8a65-540672c69054))
+  (no_connect (at 386.08 317.5) (uuid ac08a03d-b5de-5034-880b-c78f3aaa606f))
+  (text
+    "Sevenbit0x4D(A1/A0GND),actualHVQFNpinmap. FourUARTwiresincludeRTS/CTS.\nConfigureTCRhalt48/resume24BEFOREautoRTS;initializeDLL8/DLH0for14.7456MHz/115200.\nFactoryUMRSusesRTS/CTS;verifyreceivedpersistentsettings. DSRiscontrolledGPIO,notleftfloating.\nNoSPSassumption: NINAcentralGATTclientusesfrozen20Bservice; plugC3remainsnativeUSBendpoint."
+    (at 25.4 15.24 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 23186b60-b367-52e8-8fd5-f50f13c8f6e1))
+  (sheet_instances (path "/" (page "1"))))

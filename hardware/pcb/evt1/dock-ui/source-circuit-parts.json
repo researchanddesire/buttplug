@@ -1,0 +1,1680 @@
+{
+  "status": "native schematic candidate; not routedPCB",
+  "parts": [
+    {
+      "reference": "J101",
+      "manufacturer": "GCT",
+      "mpn": "USB4105-GF-A-120",
+      "footprint": "DockUI:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "note": ""
+    },
+    {
+      "reference": "U103",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TUSB320HAIRWBR",
+      "footprint": "DockUI:Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+      "note": ""
+    },
+    {
+      "reference": "U114",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC2G14DCKR",
+      "footprint": "DockUI:SOT-363_SC-70-6",
+      "note": ""
+    },
+    {
+      "reference": "U121",
+      "manufacturer": "STMicroelectronics",
+      "mpn": "USBLC6-2SC6",
+      "footprint": "DockUI:SOT-23-6",
+      "note": ""
+    },
+    {
+      "reference": "U102",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TLV70033DDCR",
+      "footprint": "DockUI:TSOT-23-5",
+      "note": ""
+    },
+    {
+      "reference": "U104",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22950YBHR",
+      "footprint": "DockUI:Texas_YBH0006-C02_DSBGA-6_1.106x0.706mm_P0.4mm",
+      "note": ""
+    },
+    {
+      "reference": "U105",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS2553DBVR",
+      "footprint": "DockUI:SOT-23-6",
+      "note": ""
+    },
+    {
+      "reference": "Q103",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "DMN62D2U-7",
+      "footprint": "DockUI:SOT-23",
+      "note": ""
+    },
+    {
+      "reference": "U120",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G33DBVR",
+      "footprint": "DockUI:SOT-23-6",
+      "note": "First delay; enablesHAI onlyafter3V3valid180..420ms."
+    },
+    {
+      "reference": "U123",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G33DBVR",
+      "footprint": "DockUI:SOT-23-6",
+      "note": "Second delay starts afterU124 translatesCC_ENABLE tofullHOST5V MRhigh."
+    },
+    {
+      "reference": "U122",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TS5A3159DBVR",
+      "footprint": "DockUI:SOT-23-6",
+      "note": "NC activelygroundsSOURCE_OK throughout startup/brownout; not a weak gateclamp."
+    },
+    {
+      "reference": "U124",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TS5A3159DBVR",
+      "footprint": "DockUI:SOT-23-6",
+      "note": "3V3CC_ENABLE selects0orHOST5V forU123MR; respects0.7VDD MRhigh requirement."
+    },
+    {
+      "reference": "R101",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07887KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-07887KL"
+    },
+    {
+      "reference": "R105",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0719K1L",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RT0603BRD0719K1L"
+    },
+    {
+      "reference": "R108",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD07100RL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RT0603BRD07100RL"
+    },
+    {
+      "reference": "R106",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD072K52L",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RT0603BRD072K52L"
+    },
+    {
+      "reference": "R107",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0734K8L",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RT0603BRD0734K8L"
+    },
+    {
+      "reference": "R120",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-07100KL"
+    },
+    {
+      "reference": "R121",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-07100KL"
+    },
+    {
+      "reference": "R122",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-07100KL"
+    },
+    {
+      "reference": "R123",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-07100KL"
+    },
+    {
+      "reference": "R124",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-07100KL"
+    },
+    {
+      "reference": "R125",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-07100KL"
+    },
+    {
+      "reference": "R126",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-07100KL"
+    },
+    {
+      "reference": "R127",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-0710KL"
+    },
+    {
+      "reference": "R128",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-0710KL"
+    },
+    {
+      "reference": "R129",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-0710KL"
+    },
+    {
+      "reference": "R130",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-07100KL"
+    },
+    {
+      "reference": "R131",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RC0603FR-07100KL"
+    },
+    {
+      "reference": "R132",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD072K52L",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RT0603BRD072K52L"
+    },
+    {
+      "reference": "R133",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD07100RL",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "note": "RT0603BRD07100RL"
+    },
+    {
+      "reference": "C101",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "note": "C1608X7R1E105K080AB"
+    },
+    {
+      "reference": "C102",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "note": "C1608X7R1E105K080AB"
+    },
+    {
+      "reference": "C103",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "note": "C1608X7R1E105K080AB"
+    },
+    {
+      "reference": "C104",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "note": "C1608X7R1E105K080AB"
+    },
+    {
+      "reference": "C105",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "note": "C1608X7R1E105K080AB"
+    },
+    {
+      "reference": "C106",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "note": "GRM155R71C104KA88D"
+    },
+    {
+      "reference": "C107",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "note": "GRM155R71C104KA88D"
+    },
+    {
+      "reference": "C108",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "note": "GRM155R71C104KA88D"
+    },
+    {
+      "reference": "C109",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "note": "GRM155R71C104KA88D"
+    },
+    {
+      "reference": "C110",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "note": "GRM155R71C104KA88D"
+    },
+    {
+      "reference": "C111",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "note": "GRM155R71C104KA88D"
+    },
+    {
+      "reference": "C112",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "note": "GRM155R71C104KA88D"
+    },
+    {
+      "reference": "C113",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "note": "GRM155R71C104KA88D"
+    },
+    {
+      "reference": "C114",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "note": "GRM155R71C104KA88D"
+    },
+    {
+      "reference": "J102",
+      "manufacturer": "manual copper",
+      "mpn": "DEVICE CONTACT LOOM / GND DM DP 5V",
+      "footprint": "DockUI:Contact_Loom_4Land",
+      "note": ""
+    },
+    {
+      "reference": "J103",
+      "manufacturer": "manual copper",
+      "mpn": "TO UV HARDWARE SAFETY / GND 5V SOURCE",
+      "footprint": "DockUI:Control_Loom_3Land",
+      "note": "UV_5V_LIMITED is before both serial safety switches. Never connect LEDs directly."
+    },
+    {
+      "reference": "J104",
+      "manufacturer": "manual copper",
+      "mpn": "TO UI AND SAFETY / MANUAL CONTRACT PADS",
+      "footprint": "DockUI:Control_Loom_10Land",
+      "note": "Contract connector for candidate sheet; final fullboard intersheet wiring can remove these pads."
+    }
+  ],
+  "generated_pin_manifest": [
+    {
+      "ref": "J101",
+      "value": "USB4105-GF-A-120",
+      "symbol": "USB4105",
+      "sheet": "dock-ui-source",
+      "source": "https://gct.co/files/drawings/usb4105.pdf",
+      "footprint": "DockUI:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "A1": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "A4": {
+          "name": "VBUS",
+          "net": "HOST_5V"
+        },
+        "A5": {
+          "name": "CC1",
+          "net": "CC1"
+        },
+        "A6": {
+          "name": "DP",
+          "net": "USB_DP"
+        },
+        "A7": {
+          "name": "DM",
+          "net": "USB_DM"
+        },
+        "A8": {
+          "name": "SBU1",
+          "net": null
+        },
+        "A9": {
+          "name": "VBUS",
+          "net": "HOST_5V"
+        },
+        "A12": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "B1": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "B4": {
+          "name": "VBUS",
+          "net": "HOST_5V"
+        },
+        "B5": {
+          "name": "CC2",
+          "net": "CC2"
+        },
+        "B6": {
+          "name": "DP",
+          "net": "USB_DP"
+        },
+        "B7": {
+          "name": "DM",
+          "net": "USB_DM"
+        },
+        "B8": {
+          "name": "SBU2",
+          "net": null
+        },
+        "B9": {
+          "name": "VBUS",
+          "net": "HOST_5V"
+        },
+        "B12": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "S1": {
+          "name": "SHIELD",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "U103",
+      "value": "TUSB320HAIRWBR",
+      "symbol": "TUSB320HAIRWBR",
+      "sheet": "dock-ui-source",
+      "source": "https://www.ti.com/lit/ds/symlink/tusb320lai.pdf",
+      "footprint": "DockUI:Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "CC1",
+          "net": "CC1"
+        },
+        "2": {
+          "name": "CC2",
+          "net": "CC2"
+        },
+        "3": {
+          "name": "PORT_UFP_LOW",
+          "net": "GND"
+        },
+        "4": {
+          "name": "VBUS_DET",
+          "net": "VBUS_DET"
+        },
+        "5": {
+          "name": "ADDR_GPIO_FLOAT",
+          "net": null
+        },
+        "11": {
+          "name": "EN_PG",
+          "net": "CC_ENABLE"
+        },
+        "12": {
+          "name": "VDD",
+          "net": "3V3"
+        },
+        "10": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "7": {
+          "name": "OUT1",
+          "net": "CC_OUT1"
+        },
+        "8": {
+          "name": "OUT2",
+          "net": "CC_OUT2"
+        },
+        "6": {
+          "name": "OUT3",
+          "net": "CC_OUT3"
+        },
+        "9": {
+          "name": "ID",
+          "net": null
+        }
+      }
+    },
+    {
+      "ref": "U114",
+      "value": "SN74LVC2G14DCKR",
+      "symbol": "SN74LVC2G14DCKR",
+      "sheet": "dock-ui-source",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf",
+      "footprint": "DockUI:SOT-363_SC-70-6",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1A_CC_OUT1",
+          "net": "CC_OUT1"
+        },
+        "3": {
+          "name": "2A_CENTER_RELEASE",
+          "net": "BTN_CENTERn_DEBOUNCED"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "6": {
+          "name": "1Y_SOURCE_OK",
+          "net": "SOURCE_REQUEST"
+        },
+        "4": {
+          "name": "2Y_CENTER_PRESS",
+          "net": "BTN_CENTER_PRESSED"
+        },
+        "5": {
+          "name": "VCC",
+          "net": "3V3"
+        }
+      }
+    },
+    {
+      "ref": "U121",
+      "value": "USBLC6-2SC6",
+      "symbol": "USBLC6_2SC6",
+      "sheet": "dock-ui-source",
+      "source": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "footprint": "DockUI:SOT-23-6",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "IO1_IN",
+          "net": "USB_DM"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "3": {
+          "name": "IO2_IN",
+          "net": "USB_DP"
+        },
+        "6": {
+          "name": "IO1_OUT",
+          "net": "USB_DM"
+        },
+        "5": {
+          "name": "VBUS",
+          "net": "HOST_5V"
+        },
+        "4": {
+          "name": "IO2_OUT",
+          "net": "USB_DP"
+        }
+      }
+    },
+    {
+      "ref": "U102",
+      "value": "TLV70033DDCR",
+      "symbol": "TLV70033DDCR",
+      "sheet": "dock-ui-source",
+      "source": "https://www.ti.com/lit/ds/symlink/tlv700.pdf",
+      "footprint": "DockUI:TSOT-23-5",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "IN",
+          "net": "HOST_5V"
+        },
+        "3": {
+          "name": "EN",
+          "net": "HOST_5V"
+        },
+        "5": {
+          "name": "OUT_3V3",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "4": {
+          "name": "NC",
+          "net": null
+        }
+      }
+    },
+    {
+      "ref": "U104",
+      "value": "TPS22950YBHR",
+      "symbol": "TPS22950YBHR",
+      "sheet": "dock-ui-source",
+      "source": "https://www.ti.com/lit/ds/symlink/tps22950.pdf",
+      "footprint": "DockUI:Texas_YBH0006-C02_DSBGA-6_1.106x0.706mm_P0.4mm",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "B1": {
+          "name": "VIN",
+          "net": "HOST_5V"
+        },
+        "A1": {
+          "name": "ON",
+          "net": "HOST_5V"
+        },
+        "C2": {
+          "name": "ILIM",
+          "net": "DEVICE_ILIM"
+        },
+        "B2": {
+          "name": "VOUT",
+          "net": "CONTACT_5V"
+        },
+        "C1": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "A2": {
+          "name": "FLT_N",
+          "net": "DEVICE_FAULTn"
+        }
+      }
+    },
+    {
+      "ref": "U105",
+      "value": "TPS2553DBVR",
+      "symbol": "TPS2553DBVR",
+      "sheet": "dock-ui-source",
+      "source": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+      "footprint": "DockUI:SOT-23-6",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "IN",
+          "net": "HOST_5V"
+        },
+        "3": {
+          "name": "EN",
+          "net": "SOURCE_OK"
+        },
+        "5": {
+          "name": "ILIM",
+          "net": "UV_ILIM"
+        },
+        "6": {
+          "name": "OUT",
+          "net": "UV_5V_LIMITED"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        },
+        "4": {
+          "name": "FAULT_N",
+          "net": "UV_LIMIT_FAULTn"
+        }
+      }
+    },
+    {
+      "ref": "Q103",
+      "value": "DMN62D2U-7",
+      "symbol": "DMN62D2U_7",
+      "sheet": "dock-ui-source",
+      "source": "https://www.diodes.com/datasheet/download/DMN62D2U.pdf",
+      "footprint": "DockUI:SOT-23",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "G",
+          "net": "SOURCE_OK"
+        },
+        "3": {
+          "name": "D",
+          "net": "DEVICE_ILIM_HIGH_RETURN"
+        },
+        "2": {
+          "name": "S",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "U120",
+      "value": "TPS3808G33DBVR",
+      "symbol": "TPS3808G33DBVR",
+      "sheet": "dock-ui-source",
+      "source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "footprint": "DockUI:SOT-23-6",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "First delay; enablesHAI onlyafter3V3valid180..420ms.",
+      "pins": {
+        "6": {
+          "name": "VDD",
+          "net": "HOST_5V"
+        },
+        "5": {
+          "name": "SENSE_3V3",
+          "net": "3V3"
+        },
+        "3": {
+          "name": "MR_N",
+          "net": "HOST_5V"
+        },
+        "1": {
+          "name": "RESET_N",
+          "net": "CC_ENABLE"
+        },
+        "4": {
+          "name": "CT",
+          "net": "CC_ENABLE_CT"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "U123",
+      "value": "TPS3808G33DBVR",
+      "symbol": "TPS3808G33DBVR",
+      "sheet": "dock-ui-source",
+      "source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "footprint": "DockUI:SOT-23-6",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Second delay starts afterU124 translatesCC_ENABLE tofullHOST5V MRhigh.",
+      "pins": {
+        "6": {
+          "name": "VDD",
+          "net": "HOST_5V"
+        },
+        "5": {
+          "name": "SENSE_3V3",
+          "net": "3V3"
+        },
+        "3": {
+          "name": "MR_N",
+          "net": "CC_STATUS_MRn"
+        },
+        "1": {
+          "name": "RESET_N",
+          "net": "CC_STATUS_READY"
+        },
+        "4": {
+          "name": "CT",
+          "net": "CC_STATUS_CT"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "U122",
+      "value": "TS5A3159DBVR",
+      "symbol": "TS5A3159DBVR",
+      "sheet": "dock-ui-source",
+      "source": "https://www.ti.com/lit/ds/symlink/ts5a3159.pdf",
+      "footprint": "DockUI:SOT-23-6",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "NC activelygroundsSOURCE_OK throughout startup/brownout; not a weak gateclamp.",
+      "pins": {
+        "1": {
+          "name": "NO",
+          "net": "SOURCE_DRIVE"
+        },
+        "3": {
+          "name": "NC_GND",
+          "net": "SOURCE_OFF_RETURN"
+        },
+        "6": {
+          "name": "IN",
+          "net": "CC_STATUS_READY"
+        },
+        "4": {
+          "name": "COM",
+          "net": "SOURCE_OK"
+        },
+        "5": {
+          "name": "VCC",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "U124",
+      "value": "TS5A3159DBVR",
+      "symbol": "TS5A3159DBVR",
+      "sheet": "dock-ui-source",
+      "source": "https://www.ti.com/lit/ds/symlink/ts5a3159.pdf",
+      "footprint": "DockUI:SOT-23-6",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "3V3CC_ENABLE selects0orHOST5V forU123MR; respects0.7VDD MRhigh requirement.",
+      "pins": {
+        "1": {
+          "name": "NO",
+          "net": "HOST_5V"
+        },
+        "3": {
+          "name": "NC_GND",
+          "net": "GND"
+        },
+        "6": {
+          "name": "IN",
+          "net": "CC_ENABLE"
+        },
+        "4": {
+          "name": "COM",
+          "net": "CC_STATUS_MRn"
+        },
+        "5": {
+          "name": "VCC",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "GND",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R101",
+      "value": "887k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-07887KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "VBUS_DET"
+        }
+      }
+    },
+    {
+      "ref": "R105",
+      "value": "19.1k 0.1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RT0603BRD0719K1L",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "DEVICE_ILIM"
+        },
+        "2": {
+          "name": "2",
+          "net": "DEVICE_ILIM_LOW_RETURN"
+        }
+      }
+    },
+    {
+      "ref": "R108",
+      "value": "100R 0.1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RT0603BRD07100RL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "DEVICE_ILIM_LOW_RETURN"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R106",
+      "value": "2.52k 0.1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RT0603BRD072K52L",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "DEVICE_ILIM"
+        },
+        "2": {
+          "name": "2",
+          "net": "DEVICE_ILIM_HIGH_RETURN"
+        }
+      }
+    },
+    {
+      "ref": "R107",
+      "value": "34.8k 0.1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RT0603BRD0734K8L",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "UV_ILIM"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R120",
+      "value": "100k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-07100KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "CC_OUT1"
+        }
+      }
+    },
+    {
+      "ref": "R121",
+      "value": "100k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-07100KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "CC_OUT2"
+        }
+      }
+    },
+    {
+      "ref": "R122",
+      "value": "100k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-07100KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SOURCE_OK"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R123",
+      "value": "100k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-07100KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "DEVICE_FAULTn"
+        }
+      }
+    },
+    {
+      "ref": "R124",
+      "value": "100k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-07100KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "UV_LIMIT_FAULTn"
+        }
+      }
+    },
+    {
+      "ref": "R125",
+      "value": "100k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-07100KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "CC_OUT3"
+        }
+      }
+    },
+    {
+      "ref": "R126",
+      "value": "100k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-07100KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SOURCE_OK"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "R127",
+      "value": "10k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-0710KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "BTN_CENTERn_DEBOUNCED"
+        }
+      }
+    },
+    {
+      "ref": "R128",
+      "value": "10k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-0710KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "CC_ENABLE"
+        }
+      }
+    },
+    {
+      "ref": "R129",
+      "value": "10k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-0710KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "CC_STATUS_READY"
+        }
+      }
+    },
+    {
+      "ref": "R130",
+      "value": "100k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-07100KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "CC_ENABLE_CT"
+        }
+      }
+    },
+    {
+      "ref": "R131",
+      "value": "100k 1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RC0603FR-07100KL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "CC_STATUS_CT"
+        }
+      }
+    },
+    {
+      "ref": "R132",
+      "value": "2.52k 0.1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RT0603BRD072K52L",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SOURCE_REQUEST"
+        },
+        "2": {
+          "name": "2",
+          "net": "SOURCE_DRIVE"
+        }
+      }
+    },
+    {
+      "ref": "R133",
+      "value": "100R 0.1%",
+      "symbol": "R",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "RT0603BRD07100RL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SOURCE_OFF_RETURN"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C101",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "C1608X7R1E105K080AB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C102",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "C1608X7R1E105K080AB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C103",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "C1608X7R1E105K080AB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C104",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "C1608X7R1E105K080AB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C105",
+      "value": "1uF25V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "C1608X7R1E105K080AB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C106",
+      "value": "100nF16V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "GRM155R71C104KA88D",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "CONTACT_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C107",
+      "value": "100nF16V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "GRM155R71C104KA88D",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "UV_5V_LIMITED"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C108",
+      "value": "100nF16V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "GRM155R71C104KA88D",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C109",
+      "value": "100nF16V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "GRM155R71C104KA88D",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C110",
+      "value": "100nF16V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "GRM155R71C104KA88D",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C111",
+      "value": "100nF16V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "GRM155R71C104KA88D",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C112",
+      "value": "100nF16V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "GRM155R71C104KA88D",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C113",
+      "value": "100nF16V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "GRM155R71C104KA88D",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "HOST_5V"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "C114",
+      "value": "100nF16V",
+      "symbol": "C",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "GRM155R71C104KA88D",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "SOURCE_OK"
+        },
+        "2": {
+          "name": "2",
+          "net": "GND"
+        }
+      }
+    },
+    {
+      "ref": "J102",
+      "value": "DEVICE CONTACT LOOM / GND DM DP 5V",
+      "symbol": "Conn4",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:Contact_Loom_4Land",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "2",
+          "net": "USB_DM"
+        },
+        "3": {
+          "name": "3",
+          "net": "USB_DP"
+        },
+        "4": {
+          "name": "4",
+          "net": "CONTACT_5V"
+        }
+      }
+    },
+    {
+      "ref": "J103",
+      "value": "TO UV HARDWARE SAFETY / GND 5V SOURCE",
+      "symbol": "Conn3",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:Control_Loom_3Land",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "UV_5V_LIMITED is before both serial safety switches. Never connect LEDs directly.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "2",
+          "net": "UV_5V_LIMITED"
+        },
+        "3": {
+          "name": "3",
+          "net": "SOURCE_OK"
+        }
+      }
+    },
+    {
+      "ref": "J104",
+      "value": "TO UI AND SAFETY / MANUAL CONTRACT PADS",
+      "symbol": "Conn10",
+      "sheet": "dock-ui-source",
+      "source": "",
+      "footprint": "DockUI:Control_Loom_10Land",
+      "assembly_domain": "MAIN_T",
+      "on_main_board": true,
+      "note": "Contract connector for candidate sheet; final fullboard intersheet wiring can remove these pads.",
+      "pins": {
+        "1": {
+          "name": "1",
+          "net": "GND"
+        },
+        "2": {
+          "name": "2",
+          "net": "3V3"
+        },
+        "3": {
+          "name": "3",
+          "net": "SOURCE_OK"
+        },
+        "4": {
+          "name": "4",
+          "net": "CC_OUT1"
+        },
+        "5": {
+          "name": "5",
+          "net": "CC_OUT2"
+        },
+        "6": {
+          "name": "6",
+          "net": "DEVICE_FAULTn"
+        },
+        "7": {
+          "name": "7",
+          "net": "UV_LIMIT_FAULTn"
+        },
+        "8": {
+          "name": "8",
+          "net": "BTN_CENTERn_DEBOUNCED"
+        },
+        "9": {
+          "name": "9",
+          "net": "BTN_CENTER_PRESSED"
+        },
+        "10": {
+          "name": "10",
+          "net": "CC_OUT3"
+        }
+      }
+    }
+  ],
+  "stock_footprint_snapshots": {
+    "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Connector_USB.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod",
+      "sha256": "ea73e710b0546db3482557a8b89e7a9b2ef5d3fce6cce00f84b97914c4405ada"
+    },
+    "SOT-363_SC-70-6": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-363_SC-70-6.kicad_mod",
+      "sha256": "bf06bb9583c40562265e319ac36c73b6150587a3148fd28145b5f1b70f0ce9d7"
+    },
+    "SOT-23-6": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+      "sha256": "26e36e85e30a72c2cee7f66897d82a0eed1ef729f54ea9f2b5d13f09122b2a97"
+    },
+    "SOT-23": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+      "sha256": "7840e31dbf5d8c9a047e25e8c69951e6c3792e0d4d316642c2832be29923c42f"
+    },
+    "TSOT-23-5": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/TSOT-23-5.kicad_mod",
+      "sha256": "a6ba2bd4b67d10b05fd36c6e6b9885defdf4c9c42f2f7c4842bc94d63cf8a4a3"
+    },
+    "R_0603_1608Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "sha256": "c9cacb54994c0aa1d42dfe9c3fb385868f53f5a8d826a51a7f08056f34d871b4"
+    },
+    "C_0603_1608Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+      "sha256": "608e18fb80450783fac25cc58c9252747b9ea2194cf45d152599bf23170afeb6"
+    },
+    "C_0402_1005Metric": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod",
+      "sha256": "1aec3acfe8de50f53c01fa2f4735284e5027424485d0cf154a868f441e4436bc"
+    },
+    "Texas_X2QFN-12_1.6x1.6mm_P0.4mm": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_DFN_QFN.pretty/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.kicad_mod",
+      "sha256": "2abf2bb4b1110202e15b132c53544bef68c4a56c1fc1b0bdcd5f1fa536190e8d"
+    }
+  },
+  "custom_package_drawing": "https://www.ti.com/lit/ds/symlink/tps22950.pdf#page=21",
+  "full_product_order_ready": false,
+  "builder_sha256": "0087c3fe21b886511bb857fd78dd9fda31f4bdaedf95d81bf7be09498506f66a"
+}

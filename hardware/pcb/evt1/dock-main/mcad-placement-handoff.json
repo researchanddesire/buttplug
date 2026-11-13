@@ -1,0 +1,136 @@
+{
+  "status": "frozen actual placement/model geometry snapshot; routing incomplete, NOT fabrication board",
+  "snapshot_board_sha256": "fe4e33675675ad068e8b8b114f9128b161d94eb7afd8538dcab9db65b91fe43a",
+  "model_coverage_sha256": "68607ba50ffe899e563c4e0d1c53c670024e42ca093f80183ae45514662e28ea",
+  "model_checks_sha256": "4f00ec8faf691c07aa4d431cd9df7688c3e6afe68dad1bfd6190379358a178ca",
+  "electrical_positions": 150,
+  "package_models": 138,
+  "copper_only_positions": 12,
+  "native_frame_to_dock": {
+    "X": "pcbX-100",
+    "Y": "200-pcbY",
+    "Z_bottom_top_mm": [
+      5.4,
+      6.4
+    ],
+    "bbox_centre_native_mm": [
+      100,
+      168
+    ],
+    "bbox_centre_dock_mm": [
+      0,
+      32
+    ],
+    "bounds_dock_mm": [
+      -48,
+      -4,
+      48,
+      68
+    ]
+  },
+  "mounts_dock_xy_d_mm": [
+    [
+      -8,
+      5.5,
+      2.3
+    ],
+    [
+      8,
+      5.5,
+      2.3
+    ],
+    [
+      -8,
+      23.5,
+      2.3
+    ],
+    [
+      8,
+      23.5,
+      2.3
+    ],
+    [
+      -44,
+      64,
+      2.3
+    ],
+    [
+      44,
+      55.7,
+      2.3
+    ]
+  ],
+  "last_component_pose_exception": "U615(42,49.5,0deg), H706(44,55.7), all selected GH headers unchanged",
+  "USB_face_dock_xyz_mm": [
+    0,
+    -5,
+    6.4
+  ],
+  "USB_stake_nominal_bottom_Z_mm": 5.2,
+  "MCAD_mating_or_physical_fit_qualified": false,
+  "final_routed_board_will_need_geometry_parity_check_to_snapshot": true,
+  "model_coverage_file": "mcad-model-coverage.json",
+  "model_checks_file": "mcad-model-checks.json",
+  "manual_copper_only_positions": [
+    {
+      "reference": "TP606",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "classification": "test-point copper pad; no fitted purchased body"
+    },
+    {
+      "reference": "J102",
+      "footprint": "DockUI:Contact_Loom_4Land",
+      "classification": "unpopulated integration/solder lands on the shared PCB; no fitted connector body"
+    },
+    {
+      "reference": "TP601",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "classification": "test-point copper pad; no fitted purchased body"
+    },
+    {
+      "reference": "J202",
+      "footprint": "DockControl:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical",
+      "classification": "SWD spring-cable contact pads and locating holes; no permanently fitted header body"
+    },
+    {
+      "reference": "TP201",
+      "footprint": "DockControl:TestPoint_Pad_D1.0mm",
+      "classification": "test-point copper pad; no fitted purchased body"
+    },
+    {
+      "reference": "TP604",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "classification": "test-point copper pad; no fitted purchased body"
+    },
+    {
+      "reference": "TP602",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "classification": "test-point copper pad; no fitted purchased body"
+    },
+    {
+      "reference": "J104",
+      "footprint": "DockUI:Control_Loom_10Land",
+      "classification": "unpopulated integration/solder lands on the shared PCB; no fitted connector body"
+    },
+    {
+      "reference": "TP603",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "classification": "test-point copper pad; no fitted purchased body"
+    },
+    {
+      "reference": "TP605",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "classification": "test-point copper pad; no fitted purchased body"
+    },
+    {
+      "reference": "TP607",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "classification": "test-point copper pad; no fitted purchased body"
+    },
+    {
+      "reference": "J103",
+      "footprint": "DockUI:Control_Loom_3Land",
+      "classification": "unpopulated integration/solder lands on the shared PCB; no fitted connector body"
+    }
+  ]
+}

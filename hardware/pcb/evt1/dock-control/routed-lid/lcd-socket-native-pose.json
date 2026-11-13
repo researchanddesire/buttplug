@@ -1,0 +1,107 @@
+{
+  "board_SHA256": "84dfe4b6f85e200505be174f7ff1094e4013d3e5af827888569d872d35819942",
+  "model_SHA256": "b5683f882c168abf2d52559af091ec2f5a17a05ffb15a26d3cfe61c8e78bc402",
+  "actual_KiCad_exported_pose_valid": true,
+  "native_exporter": "KiCad10.0.8 pcb export step,component-filterJ302/no-board-body/user-origin100x86mm/no-extra-pad-thickness",
+  "actual_export_file": "hardware/cad/evt1-assembly/vendor/lcd-socket/KiCad10J302Pose.step",
+  "actual_export_SHA256": "c2f89b0496def8ca889e56712b6c4e6f11b607eb13383866ab6a64aa9bb694c3",
+  "board_datum_export_file": "hardware/cad/evt1-assembly/vendor/lcd-socket/KiCad10BoardDatum.step",
+  "board_datum_export_SHA256": "1998f24b39582a28dd32e28a948fa2e7af59313eda59a94b2361f749ede56b61",
+  "actual_exported_board_body_bounds_mm": [
+    -36.0,
+    -65.0,
+    0.0,
+    36.0,
+    6.000000000000001,
+    0.91
+  ],
+  "checker_file": "hardware/cad/evt1-assembly/vendor/lcd-socket/check_kicad_pose.py",
+  "checker_SHA256": "0ea0a07b98e283407c15af076713b7266131c6449b4604d0a2aeb2c74cc04a63",
+  "actual_export_solids": 2,
+  "actual_export_faces": 1001,
+  "actual_full_BRep_pose_checks": [
+    {
+      "faces": 896,
+      "volume_mm3": 74.76168204585554,
+      "exact_bounds_mm": [
+        -9.75,
+        -4.8500000000000405,
+        0.955,
+        9.75,
+        0.1,
+        2.995
+      ],
+      "full_BRep_common_with_expected_pose_mm3": 74.76168204585554
+    },
+    {
+      "faces": 105,
+      "volume_mm3": 40.41534421234551,
+      "exact_bounds_mm": [
+        -10.05,
+        -5.1,
+        1.0449999999997803,
+        10.05,
+        -0.95,
+        2.9450000000000003
+      ],
+      "full_BRep_common_with_expected_pose_mm3": 40.41534421234551
+    }
+  ],
+  "actual_export_pin1_tail_top_centre_mm": [
+    -6.5,
+    -0.15000000000000002,
+    1.1350000000000002
+  ],
+  "actual_export_pin27_tail_top_centre_mm": [
+    6.5,
+    -0.15000000000000002,
+    1.1350000000000002
+  ],
+  "actual_tail_pitch_mm": 0.5,
+  "actual_tail_count": 27,
+  "exported_software_model_H_datum_Z_mm": 0.9950000000000001,
+  "KiCad_software_BOARD_OFFSET_mm": 0.05,
+  "KiCad_export_F_Cu_thickness_mm": 0.035,
+  "software_offset_is_physical_solder_or_contact_datum": false,
+  "primary_exporter_source": "https://gitlab.com/kicad/code/kicad/-/raw/10.0.8/pcbnew/exporters/step/step_pcb_model.cpp",
+  "primary_code_functions": [
+    "getBoardBodyZPlacement",
+    "getModelLocation; BOARD_OFFSET0.05 + outercopperthickness"
+  ],
+  "board_frame_normalized_pin1_tail_top_centre_mm": [
+    -6.5,
+    -0.15,
+    0.14
+  ],
+  "physical_board_mouth_vector": [
+    0,
+    -1,
+    0
+  ],
+  "native_footprint_mouth_vector": [
+    0,
+    1
+  ],
+  "model_to_board_front_offset_mm": [
+    0,
+    0,
+    0
+  ],
+  "model_rotation_deg": [
+    0,
+    0,
+    0
+  ],
+  "loaded_contact_plane_and_received_mating_qualified": false,
+  "StepUp_assembly_import_checked": false,
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ]
+}

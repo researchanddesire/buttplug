@@ -1,0 +1,92 @@
+{
+  "status": "Native nominal keyed-tabwasher study; assembly, material and load gates open",
+  "native_sha256": "ee60095ab5d683d48cf08b9ad8257cddd27677b824b093593b05479e7ff44b16",
+  "builder_sha256": "cb7d1dbd4601b3f3dcf2d4b572a16b80378b8686775f3f1e1878f2b7219069eb",
+  "source_native_sha256": "93f79a0a3c46d9976f756f89f3c6d730208946d13c89078248d9545dc0e254be",
+  "stock": {
+    "manufacturer": "Goodfellow",
+    "part": "334-806-15",
+    "supplier_SKU": "GF33480615",
+    "material": "annealed316L foil",
+    "size_mm": [
+      50,
+      50,
+      0.25
+    ],
+    "primary_URL": "https://www.sigmaaldrich.com/US/en/product/aldrich/gf33480615",
+    "availability_and_received_COA_thickness_bend_properties_qualified": false
+  },
+  "dimensions": {
+    "thickness_mm": 0.25,
+    "ring_ID_mm": 18.4,
+    "ring_OD_mm": 23.6,
+    "ear_count": 12,
+    "ear_width_mm": 1.5,
+    "flat_ear_end_radial_coordinate_mm": 13.663006949601346,
+    "flat_pattern_max_radius_mm": 13.683576246904707,
+    "inner_key_width_mm": 2.2,
+    "inner_key_inner_outer_absZ_mm": [
+      9.25,
+      9.5
+    ],
+    "inner_key_leg_Y_mm": [
+      -9.75,
+      -8.9
+    ],
+    "inner_key_bend_inner_outer_R_mm": [
+      0.25,
+      0.5
+    ],
+    "outer_selected_bend_start_X_mm": 12.0,
+    "outer_selected_overbend_deg": 11.3,
+    "outer_selected_straight_leg_mm": 1.0,
+    "neutral_K_is_unqualified_geometric_assumption": 0.5,
+    "inner_blank_tongue_min_absZ_mm": 8.310951377451914,
+    "formed_before_thread_installation_required": true,
+    "nut_source_Y_mm": [
+      -14,
+      -10
+    ],
+    "selected_nut_Y_mm": [
+      -14.25,
+      -10.25
+    ],
+    "unselected_locking_stack_mm": 0.25
+  },
+  "nominal_part_checks": {
+    "suggested_outer_tab_nut_common_mm3": 0.009033036656174559,
+    "selected_outer_tab_nut_common_mm3": 0.0,
+    "selected_washer_body_common_mm3": 0.0,
+    "selected_washer_Tray_common_mm3": 0.0,
+    "suggested_9p6_Tray_common_mm3": 0.010518597540943975,
+    "selected_Tray_relief_max_absZ_mm": 9.8,
+    "actual_nut_body_common_mm3": 0.0,
+    "actual_nut_Tray_common_mm3": 0.0
+  },
+  "flat_volume_mm3": 52.11943123611999,
+  "prelock_volume_mm3": 52.11943123612035,
+  "locked_volume_mm3": 52.11943123612034,
+  "flat_to_prelock_volume_delta_mm3": 3.552713678800501e-13,
+  "selected_nut_bounds_mm": [
+    -12.000000000000002,
+    -14.250000000000007,
+    -13.856406460551021,
+    12.000000000000002,
+    -10.249999999999993,
+    13.856406460551021
+  ],
+  "selected_washer_bounds_mm": [
+    -13.663006949601346,
+    -11.578587730667874,
+    -13.663006949601346,
+    12.5,
+    -8.899999999999999,
+    13.663006949601346
+  ],
+  "source_body_fixed": true,
+  "master_or_product_source_edited": false,
+  "physical_validation": false,
+  "nut_lock_strength_or_preload_credited": false,
+  "assembly_loading_checked": false,
+  "actual_angular_forming_checked": false
+}

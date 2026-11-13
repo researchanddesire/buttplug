@@ -1,0 +1,52 @@
+{
+  "status": "pass: native parametric finished1mmPCB, independent coldSTEP readback",
+  "board_sha256": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
+  "native_source": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/single-flange-study/SingleFlangePlacement.FCStd",
+  "native_source_sha256": "21ed99819697ef668a5a3e19f48a63fcbc28680c610e4908bac894fefee451f6",
+  "Body": "PCB",
+  "Tip": "FinishedPCB",
+  "profile": "BoardOutlineAndHoles",
+  "fully_constrained_profile": true,
+  "Pad_Length_mm": 1,
+  "STEP": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/single-flange-study/FinishedPCB_local.step",
+  "STEP_sha256": "a29bc30bc17893723fe0836699fb077f570896cee8fa1a0478d594afe0a51bc2",
+  "STEP_bounds_local_mm": [
+    -41.0,
+    -13.0,
+    -2.886579864025407e-15,
+    41.0,
+    13.0,
+    1.0000000000000029
+  ],
+  "solid_count": 1,
+  "volume_mm3": 2023.5425357823742,
+  "proper_local_to_product_matrix4": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      -25.952
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "native_outline_and_8drills": true,
+  "copper_mask_or_process_qualification": false,
+  "note": "This is the actual PCB finished envelope from its native outline/drills, not the raw KiCad material-only0.91mm FR4 export. Do not substitute component box proxies."
+}

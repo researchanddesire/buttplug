@@ -1,0 +1,42 @@
+{
+  "length_unit": "mm",
+  "sources": {
+    "hardware/cad/manufacturing-layout/MetalBody.step": "67082a073f4df2aa6c0fd00be584a7c9c3a0d63805c480b26ab769b0af33b2da",
+    "hardware/cad/manufacturing-layout/MotorThermistorCap.step": "85d1ed65131e144f911907fdd296d569567a265ba7d4b693c232ed86fe6c0fb7",
+    "hardware/cad/manufacturing-layout/review.json": "e229e90adaa933ba9c509b47ce75d6989d1c3e1c7cb8bfb58da64b8a229c8d91",
+    "hardware/cad/manufacturing-layout/ManufacturingLayout.FCStd": "ed256853cd7b79968c2993927d670df206ee3718927df7bde5aabcfefd847ebd",
+    "tools/build_manufacturing_layout.py": "7795104a7861c661b5fef73242b4b33729a5a29aef9ed7d20b57344c91ebf17f"
+  },
+  "parts": {
+    "MetalBody": {
+      "volume_mm3": 17986.74490672394
+    },
+    "MotorThermistorCap": {
+      "volume_mm3": 14927.012267098
+    }
+  },
+  "dome_area_mm2": 3194.5139678626297,
+  "sensor_drill": {
+    "drill_diameter_mm": 2.5,
+    "axis_XZ_mm": [
+      7.8,
+      0
+    ],
+    "entry_Y_mm": 78,
+    "cylindrical_end_Y_mm": 90.5,
+    "drill_tip_Y_mm": 90.95496279283276,
+    "cylindrical_depth_mm": 12.5,
+    "depth_to_diameter": 5,
+    "web_to_motor_bore_mm": 1,
+    "radial_wall_at_cylinder_end_mm": 1.536730428217596,
+    "status": "140deg drill point modeled; agree remaining wall/tool wander and offset sensor thermal response",
+    "minimum_distance_drill_to_outer_dome_mm": 1.2886999134196322
+  },
+  "sensor_head_reference": {
+    "r_mm": 7.8,
+    "y_center_mm": 89.7,
+    "diameter_mm": 1.2,
+    "length_mm": 1.2,
+    "source": "tools/build_manufacturing_layout.py, TipThermistorHeadReference"
+  }
+}

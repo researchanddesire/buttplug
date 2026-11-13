@@ -1,0 +1,15 @@
+{
+  "before_board_sha256": "e7e35059fb9e3682964e4d07ae36c14744c56cc4a8e68178b207b87fe86b7027",
+  "after_board_sha256": "fbb712251fee3de42941a4081863d6af38ff0cb1c16a4a6933a278c477f43a7a",
+  "reason": "JST signal land length grows .8 to 1.1 mm; move one local supply via 0.10 mm in dockX away from pin27 and refill existing zones",
+  "changes": [
+    "connected supply track end",
+    "connected supply track end",
+    "supply via +0.100 mm dockX, restore original dockY",
+    "connected supply track end",
+    "connected supply track start",
+    "connected supply track start"
+  ],
+  "all_other_tracks_pads_placements_preserved": true,
+  "tool_sha256": "290a0219bbe62d536a2d2ce5401ef72a70b7e8a32bcd8883444ee0f925475257"
+}

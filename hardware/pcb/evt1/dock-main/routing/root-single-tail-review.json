@@ -1,0 +1,88 @@
+{
+  "input_sha256": "8a00e40491fff508f95fb872acfc6eaad7cb6cc74bbd274359a80264cfb93dc7",
+  "reported": {
+    "uuid": "b54f1b76-160c-44ef-8fa8-6c3e2fca143a",
+    "class": "PCB_TRACK",
+    "net": "LOOP_A_RAW",
+    "start_mm": [
+      115.625,
+      140.851
+    ],
+    "end_mm": [
+      100.176,
+      156.3
+    ],
+    "width_mm": 0.2,
+    "layers": [
+      "B.Cu"
+    ]
+  },
+  "all_same_net_pads": [
+    {
+      "uuid": "cdc042dc-a85e-4627-9573-e7e0f3d6d0f0",
+      "class": "PAD",
+      "net": "LOOP_A_RAW",
+      "ref": "R614",
+      "pad": "1",
+      "at_mm": [
+        140.0,
+        166.9125
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "uuid": "f6466710-ae2d-4ed9-9f6c-127b82a227b6",
+      "class": "PAD",
+      "net": "LOOP_A_RAW",
+      "ref": "U613",
+      "pad": "1",
+      "at_mm": [
+        140.05,
+        161.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "uuid": "6aad19c4-4dd4-4303-8b1d-cb6286e7e1e7",
+      "class": "PAD",
+      "net": "LOOP_A_RAW",
+      "ref": "J621",
+      "pad": "8",
+      "at_mm": [
+        121.625,
+        139.85
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    }
+  ],
+  "same_net_B_copper_touching_reported": [
+    {
+      "uuid": "a8d25886-7ff0-4346-9403-af7035bf772d",
+      "class": "PCB_VIA",
+      "net": "LOOP_A_RAW",
+      "start_mm": [
+        115.625,
+        140.851
+      ],
+      "end_mm": [
+        115.625,
+        140.851
+      ],
+      "width_mm": 0.5,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    }
+  ],
+  "same_net_zone_count": 0,
+  "source_file_unchanged": true
+}

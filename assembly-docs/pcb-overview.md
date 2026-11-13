@@ -1,8 +1,26 @@
 # PCB Overview
 
-> The current cap uses a two-wire NTC and revised board support; R35F below is the prior TMP117/I²C reference. The new circuit, PCB tabs and integration checks are not implemented.
+The current electrical source is [`hardware/pcb/evt1/`](../hardware/pcb/evt1/README.md).
+Five routed PCBs pass source-bound native DRC and pad/netlist parity; system
+and body ERC pass. The body uses ADS1115/two-wire NTC, the flange has native
+USB/wake/recovery, and the fixed LSM303AGR daughterboard mounts to integral tray
+bosses. Use matching EVT1 firmware. R35F and the routing records below are prior
+references, not EVT1 fabrication files.
 
-**Current review source: R28S**, under
+Actual device-board/component/mate envelopes fit
+`hardware/cad/manufacturing-layout/evt1-integration/EVT1Product.FCStd`; nominal
+loading and screw access reservations pass. Five Gerber/drill quote archives
+include layer/thickness requests:6-layer body,4-layer flange,2-layer sensor,
+dock and pins, all1mm. Quotes are not supplier acceptance or a complete product
+build release. Exact PCB parts cover114 purchased positions/53 order lines;
+each board's assembly quote includes native positions and matching fabrication.
+The protected-pack RFQ is defined separately in `pack-spec.json` / `PACK-RFQ.md`.
+Supplier pack approval/retention, non-PCB hardware/loom, factory compass axes, nut lock and final
+button/contact/cavity sealing remain open. No physical or powered test exists.
+
+## Preserved R28 review
+
+**Preserved review source: R28S**, under
 `hardware/pcb/flange-access-r28/candidate-s/`. Open `system-r28.kicad_sch` for
 the complete circuit. The six-layer body is unchanged from R23D; the four-layer
 flange repairs J1/J7's edge-facing poses. Both native DRC reports are0/0/0.
@@ -20,7 +38,7 @@ and the human-owned BOM is unchanged. See the
 
 ## Preserved routing and placement checkpoints
 
-**Current routing, 1 November:** R23D under
+**Preserved routing, 1 November:** R23D under
 `hardware/pcb/stackup-r23/candidate-d/` completes the six-layer body with zero
 native DRC, unconnected and footprint findings. The flange remains the routed
 four-layer R16U source. Semi-flex and rotated flange packaging are allowed
@@ -69,7 +87,7 @@ R0 now has a new connected native KiCad schematic informed by Lucy and Gaby's re
 
 | Asset | Location | State |
 | --- | --- | --- |
-| Current routed body and flange | `hardware/pcb/stackup-r23/candidate-d/` | Body six-layer0/0/0; flange unchanged R16Ufour-layer. Current CAM, supplier/electrical/physical checks open. |
+| Preserved R23 body and flange | `hardware/pcb/stackup-r23/candidate-d/` | Body six-layer0/0/0; flange unchanged R16Ufour-layer. Historical reference, not current EVT1 sources. |
 | Preserved R15 flange routing | `hardware/pcb/route-r15/candidate-t/` | Native flange0/0/0; body165open. Saved-copper, all-via and read-only CAD-context records; no assembly/fabrication release. |
 | Preserved R14 split circuits and PCBs | `hardware/pcb/split-r14/candidate-b/` | Native body/flange projects and full-device ERC; both layouts unrouted. |
 | Reference schematic screenshot | [`hardware/pcb/reference/`](../hardware/pcb/reference/) | Supplied by Lucy; reviewed as a draft. |

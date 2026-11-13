@@ -1,0 +1,51 @@
+{
+  "pass": false,
+  "pid": 26977,
+  "scope": "Isolated full dock integration. Prior LCD/socket remains a known negative. No master overwrite or release.",
+  "physical_validation": false,
+  "input_sha256": "edac03f313745e3cb4e14401edd802cbe4b0d880b5612a79ec138bea01161b42",
+  "stages": {
+    "build_evt1_native_dock.py": {
+      "completed": true,
+      "seconds": 954.7868235669994
+    },
+    "verify_evt1_native_dock.py": {
+      "completed": true,
+      "seconds": 1766.760389058003
+    },
+    "verify_evt1_dock_loading.py": {
+      "completed": true,
+      "seconds": 721.0988232410018
+    }
+  },
+  "native_geometry_pass": false,
+  "loading_pass": true,
+  "intersections": [
+    {
+      "group": "lid",
+      "first": "DockLCDInstance",
+      "second": "UIBoardAssembly",
+      "common_volume_mm3": 8.33848060328856
+    },
+    {
+      "UI_equal_stack_mm": 0.5,
+      "first": "DockLCDInstance",
+      "second": "UIBoardAssembly",
+      "common_volume_mm3": 3.19441374382567
+    },
+    {
+      "UI_equal_stack_mm": 1.5,
+      "first": "DockLCDInstance",
+      "second": "UIBoardAssembly",
+      "common_volume_mm3": 12.01289604372893
+    },
+    {
+      "UI_equal_stack_mm": 1.0,
+      "first": "DockLCDInstance",
+      "second": "UIBoardAssembly",
+      "common_volume_mm3": 8.33848060328856
+    }
+  ],
+  "native_sha256": "c83acc657e282f813b6a56e413edd1cb0c5554a84659b639ea0faee254d0e94d",
+  "seconds": 3451.776069210002
+}

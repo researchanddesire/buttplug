@@ -1,0 +1,65 @@
+{
+  "status": "engineering DC tradeoff only; no budget, circuit or board edits",
+  "input_budget_sha256": "aa6b03156f494c8640d7c4f1f622bfdb080d30c9a9c07262faff435cdc9c3d04",
+  "Pout_two_modules_W": 1.8540627785806398,
+  "driver_Iq_total_A": 0.0046,
+  "source_minimum_V": 4.5,
+  "other_qualified_source_current_A": 0.6646652572233968,
+  "branch_symmetry": true,
+  "cases": [
+    {
+      "proposed_min_driver_V": 4.25,
+      "PCB_common_supply_return_budget_ohm": 0.025,
+      "efficiency_assumption": 0.7,
+      "UV_input_at_floor_mA": 627.8143793548371,
+      "normal_source_total_at_floor_mA": 1292.4796365782338,
+      "limiter_minimum_margin_at_floor_mA": 54.73029727751266,
+      "PCB_drop_at_full_qualified_fault_source_allocation_V": 0.03711111026429071,
+      "normal_UV_floor_load_with_full_qualified_source_PCB_drop_bound_V": 4.26826643213571,
+      "DC_drop_at_floor_V": {
+        "PCB_all_at_full_source_current": 0.03231199091445585,
+        "UV_semiconductor_path": 0.10358937259354813,
+        "each_symmetric_branch": 0.09103308500645137,
+        "sum": 0.22693444851445532
+      },
+      "conservative_driver_V_at_floor_load": 4.273065551485544,
+      "headroom_above_proposed_floor_V": 0.023065551485544233,
+      "self_consistent_normal_V": 4.274250051332419,
+      "self_consistent_UV_mA": 624.2785589164083,
+      "self_consistent_source_mA": 1288.943816139805,
+      "self_consistent_limiter_minimum_margin_mA": 58.266117715941476,
+      "minimum_efficiency_to_stay_below_limiter_at_floor": 0.6434891822079529
+    },
+    {
+      "proposed_min_driver_V": 4.1,
+      "PCB_common_supply_return_budget_ohm": 0.05,
+      "efficiency_assumption": 0.7,
+      "UV_input_at_floor_mA": 650.6149054287945,
+      "normal_source_total_at_floor_mA": 1315.2801626521912,
+      "limiter_minimum_margin_at_floor_mA": 31.929771203555223,
+      "PCB_drop_at_full_qualified_fault_source_allocation_V": 0.07422222052858142,
+      "normal_UV_floor_load_with_full_qualified_source_PCB_drop_bound_V": 4.224087158788492,
+      "DC_drop_at_floor_V": {
+        "PCB_all_at_full_source_current": 0.06576400813260956,
+        "UV_semiconductor_path": 0.1073514593957511,
+        "each_symmetric_branch": 0.0943391612871752,
+        "sum": 0.26745462881553583
+      },
+      "conservative_driver_V_at_floor_load": 4.232545371184464,
+      "headroom_above_proposed_floor_V": 0.13254537118446397,
+      "self_consistent_normal_V": 4.240236985090126,
+      "self_consistent_UV_mA": 629.2493112463997,
+      "self_consistent_source_mA": 1293.9145684697964,
+      "self_consistent_limiter_minimum_margin_mA": 53.29536538595014,
+      "minimum_efficiency_to_stay_below_limiter_at_floor": 0.6670314693619025
+    }
+  ],
+  "fault_limit_source_allocation_unchanged_mA": 1484.4444105716284,
+  "important_shared_path_correction": "Upstream HOST/GND PCB copper carries qualified device+UI+contact loops as well as UV current. Conservatively applying the whole PCB budget at full source current avoids the earlier UV-current-only underestimate. Final resistance split can refine it.",
+  "not_guaranteed": [
+    "70% boost efficiency over voltage/load/temp, LED Vf ceiling, Iq and source allocations require hardware qualification",
+    "Current limiter threshold/dynamic response, simultaneous boost startup, output-cap charging, input-cap droop, Rp/source changes, USB suspend and hot/aged contact paths",
+    "DC headroom cannot be credited as measured ripple/transient margin; require both driver VIN>=proposed floor throughout validated operating transients"
+  ],
+  "physical_validation": false
+}

@@ -1,0 +1,280 @@
+{
+  "status": "Analytical candidate corners; no bench, supplier or fabrication acceptance",
+  "builder_sha256": "c05fe0002ee049b8b56583091a44579cc0d2478a60e1c42ce1a56d7475857a8e",
+  "source_inputs_sha256": {
+    "hardware/pcb/evt1/body/body-native.xml": "c3d8482b08b67be70ab82b612c3b99c2ac6012e765f1fe9419d0106f707c945a",
+    "hardware/pcb/evt1/parts-selection.json": "41047c4a6a6c5f2a1de48918d1fa903048433dcbaa6c83ddff48a617731d1da2",
+    "hardware/pcb/evt1/dock-safety/power-budget.json": "aa6b03156f494c8640d7c4f1f622bfdb080d30c9a9c07262faff435cdc9c3d04"
+  },
+  "TS": {
+    "two_series_tap_resistors_ohm": [
+      10000000.0,
+      10000000.0
+    ],
+    "fault_tap_min_ohm": 9700000.0,
+    "fault_corners": [
+      {
+        "bias_A": 7.2e-05,
+        "threshold_V": 0.27,
+        "ntc_ohm": 3750.0,
+        "fault_rail_V": 0.0,
+        "disturbed_V": 0.2698956588947572,
+        "perturbation_mV": -0.10434110524282225
+      },
+      {
+        "bias_A": 7.2e-05,
+        "threshold_V": 0.27,
+        "ntc_ohm": 3750.0,
+        "fault_rail_V": 5.5,
+        "disturbed_V": 0.2720211258534072,
+        "perturbation_mV": 2.0211258534071908
+      },
+      {
+        "bias_A": 7.2e-05,
+        "threshold_V": 0.33,
+        "ntc_ohm": 4583.333333333333,
+        "fault_rail_V": 0.0,
+        "disturbed_V": 0.3298441458073934,
+        "perturbation_mV": -0.15585419260660816
+      },
+      {
+        "bias_A": 7.2e-05,
+        "threshold_V": 0.33,
+        "ntc_ohm": 4583.333333333333,
+        "fault_rail_V": 5.5,
+        "disturbed_V": 0.33244171568416986,
+        "perturbation_mV": 2.441715684169843
+      },
+      {
+        "bias_A": 7.2e-05,
+        "threshold_V": 2.0,
+        "ntc_ohm": 27777.777777777777,
+        "fault_rail_V": 0.0,
+        "disturbed_V": 1.9942889777270134,
+        "perturbation_mV": -5.711022272986588
+      },
+      {
+        "bias_A": 7.2e-05,
+        "threshold_V": 2.0,
+        "ntc_ohm": 27777.777777777777,
+        "fault_rail_V": 5.5,
+        "disturbed_V": 2.0099942889777274,
+        "perturbation_mV": 9.994288977727361
+      },
+      {
+        "bias_A": 7.2e-05,
+        "threshold_V": 2.2,
+        "ntc_ohm": 30555.55555555556,
+        "fault_rail_V": 0.0,
+        "disturbed_V": 2.193091635740794,
+        "perturbation_mV": -6.908364259206046
+      },
+      {
+        "bias_A": 7.2e-05,
+        "threshold_V": 2.2,
+        "ntc_ohm": 30555.55555555556,
+        "fault_rail_V": 5.5,
+        "disturbed_V": 2.21036254638881,
+        "perturbation_mV": 10.362546388809957
+      },
+      {
+        "bias_A": 7.8e-05,
+        "threshold_V": 0.27,
+        "ntc_ohm": 3461.538461538462,
+        "fault_rail_V": 0.0,
+        "disturbed_V": 0.2699036822704031,
+        "perturbation_mV": -0.09631772959689533
+      },
+      {
+        "bias_A": 7.8e-05,
+        "threshold_V": 0.27,
+        "ntc_ohm": 3461.538461538462,
+        "fault_rail_V": 5.5,
+        "disturbed_V": 0.271865710095525,
+        "perturbation_mV": 1.8657100955249972
+      },
+      {
+        "bias_A": 7.8e-05,
+        "threshold_V": 0.33,
+        "ntc_ohm": 4230.769230769231,
+        "fault_rail_V": 0.0,
+        "disturbed_V": 0.32985612936467046,
+        "perturbation_mV": -0.14387063532955713
+      },
+      {
+        "bias_A": 7.8e-05,
+        "threshold_V": 0.33,
+        "ntc_ohm": 4230.769230769231,
+        "fault_rail_V": 5.5,
+        "disturbed_V": 0.33225397328682976,
+        "perturbation_mV": 2.253973286829747
+      },
+      {
+        "bias_A": 7.8e-05,
+        "threshold_V": 2.0,
+        "ntc_ohm": 25641.02564102564,
+        "fault_rail_V": 0.0,
+        "disturbed_V": 1.9947271289216981,
+        "perturbation_mV": -5.272871078301877
+      },
+      {
+        "bias_A": 7.8e-05,
+        "threshold_V": 2.0,
+        "ntc_ohm": 25641.02564102564,
+        "fault_rail_V": 5.5,
+        "disturbed_V": 2.009227524387029,
+        "perturbation_mV": 9.227524387029007
+      },
+      {
+        "bias_A": 7.8e-05,
+        "threshold_V": 2.2,
+        "ntc_ohm": 28205.128205128207,
+        "fault_rail_V": 0.0,
+        "disturbed_V": 2.1936215076436483,
+        "perturbation_mV": -6.378492356351906
+      },
+      {
+        "bias_A": 7.8e-05,
+        "threshold_V": 2.2,
+        "ntc_ohm": 28205.128205128207,
+        "fault_rail_V": 5.5,
+        "disturbed_V": 2.2095677385345285,
+        "perturbation_mV": 9.567738534528303
+      }
+    ],
+    "max_threshold_perturbation_mV": 10.362546388809957,
+    "open_NTC_fault_sink_A_at2p2V": 2.2680412371134022e-07,
+    "minimum_TS_bias_A": 7.2e-05,
+    "short_NTC_V": 0.0,
+    "conclusion": "Open/short cannot be hidden by this bounded resistive fault; near-boundary trip shifts remain and require qualification. Independent guard remains unchanged."
+  },
+  "ISET": {
+    "selected_original_R1_ohm": 8870.0,
+    "selected_R1_initial_tolerance_percent": 0.1,
+    "minimum_fault_parallel_R_ohm": 8861.896389590138,
+    "resistance_reduction_percent": 0.09135975659371187,
+    "max_fault_injection_A": 5.670103092783505e-07,
+    "mirror_accuracy_percent": 10.0,
+    "buffer_voltage_error_envelope_mV": 1.9680000000000002,
+    "buffer_only_current_error_mA": 0.08874859075535513,
+    "RISET_unchanged": true,
+    "EN1_EN2_USB100_unchanged": true
+  },
+  "CE": {
+    "candidate_input_isolator": "SN74LVC1G14DCKR",
+    "tap_ohm": 22000.0,
+    "assumed_observation_input_min_V": 3.8,
+    "input_Imax_A": 5e-06,
+    "off_Imax_A": 1e-05,
+    "disabled_CE_min_with_monitor_input_short_GND_V": 2.527108531994981,
+    "BQ_CE_VIH_V": 1.4,
+    "buffer_VTplus_conservative_max_V": 3.33,
+    "buffer_VTminus_conservative_min_V": 0.58,
+    "buffer_high_input_min_V": 3.5374,
+    "buffer_low_input_max_V": 0.5111,
+    "meaning": "Inverting read-only path; monitoring faults cannot pull CE into enable under stated bounds. No firmware CE control."
+  },
+  "CHG": {
+    "tap_ohm": 4700.0,
+    "initial_TCA_pullup_max_A": 0.0001,
+    "TCA_low_input_max_V": 0.8747,
+    "TCA_VIL_min_supply_V": 0.9702,
+    "max_BQ_sink_A_with_wrong_TCA_high_output": 0.001163404255319149,
+    "BQ_VOL_test_current_A": 0.005
+  },
+  "ADC": {
+    "input_filter_C_F": 1e-09,
+    "input_tau_max_s": 0.02163,
+    "input_valid_delay_min_s": 0.17304,
+    "output_filter": {
+      "R_ohm": 1000.0,
+      "C_F": 1e-07
+    },
+    "input_bias_error_max_mV": 0.618,
+    "TS_above_buffer_supply": "Saturation/invalid, not valid temperature; bounded injection through two taps still requires power-sequence/leakage acceptance.",
+    "ADC_rails_unchanged": true,
+    "tip_pulsed_excitation_and_differential_MUX_preserved": true
+  },
+  "termination": {
+    "ISET_factor_Aohm_min": 797.0,
+    "ISET_factor_Aohm_max": 975.0,
+    "USB100_fraction_min": 0.027,
+    "USB100_fraction_typ": 0.033,
+    "USB100_fraction_max": 0.04,
+    "programmed_current_nominal_mA": 100.33821871476889,
+    "termination_nominal_mA": 3.3111612175873733,
+    "meaning": "Comparator threshold, not a software Done threshold; actual input/thermal/DPPM and battery detection matter."
+  },
+  "source_budget_candidates": [
+    {
+      "name": "frozen_no_radio",
+      "U105_Rlim_kohm": 34.8,
+      "UV_Rset_ohm": 3.65,
+      "radio_allocation_mA": 0.0,
+      "UV_limit_min_mA": 682.5446766323497,
+      "UV_limit_max_mA": 819.7791533482316,
+      "UV_normal_mA": 650.6149054287945,
+      "UV_min_limit_margin_mA": 31.92977120355522,
+      "hard_source_total_mA": 1484.4444105716284,
+      "hard_source_margin_mA": 15.555589428371604,
+      "full_normal_source_mA": 1315.2801626521914,
+      "driver_voltage_DC_V": 4.232545371184464,
+      "LED_nominal_mA": 54.79452054794521,
+      "passes_DC_candidate": true
+    },
+    {
+      "name": "radio_only_unsafe",
+      "U105_Rlim_kohm": 34.8,
+      "UV_Rset_ohm": 3.65,
+      "radio_allocation_mA": 70.0,
+      "UV_limit_min_mA": 682.5446766323497,
+      "UV_limit_max_mA": 819.7791533482316,
+      "UV_normal_mA": 650.6149054287945,
+      "UV_min_limit_margin_mA": 31.92977120355522,
+      "hard_source_total_mA": 1554.4444105716284,
+      "hard_source_margin_mA": -54.444410571628396,
+      "full_normal_source_mA": 1385.2801626521914,
+      "driver_voltage_DC_V": 4.229045371184464,
+      "LED_nominal_mA": 54.79452054794521,
+      "passes_DC_candidate": false
+    },
+    {
+      "name": "coupled_candidate",
+      "U105_Rlim_kohm": 39.2,
+      "UV_Rset_ohm": 4.22,
+      "radio_allocation_mA": 70.0,
+      "UV_limit_min_mA": 604.7793467606315,
+      "UV_limit_max_mA": 732.9805599960868,
+      "UV_normal_mA": 563.6299860205146,
+      "UV_min_limit_margin_mA": 41.14936074011689,
+      "hard_source_total_mA": 1467.6458172194834,
+      "hard_source_margin_mA": 32.35418278051657,
+      "full_normal_source_mA": 1298.2952432439115,
+      "driver_voltage_DC_V": 4.260359942171445,
+      "LED_nominal_mA": 47.39336492890995,
+      "passes_DC_candidate": true
+    }
+  ],
+  "radio_branch": {
+    "limiter_setting_ohm": 19200.0,
+    "drift_bound": 0.0035,
+    "minimum_limit_mA": 33.88141504733433,
+    "maximum_limit_mA": 66.2318113396889,
+    "hard_allocation_mA": 70.0,
+    "normal_target_max_mA": 30.0,
+    "response_max_us": 5.0,
+    "FLT_not_current_limit_indicator": true
+  },
+  "unqualified": [
+    "resistor leakage/PCB contamination and isolation spacing",
+    "buffer overload/recovery and unpowered injection",
+    "actual trip shifts over received NTC and guard tolerances",
+    "ADC filter/MUX settling and estimator error",
+    "3.8V CE observation bound and all power sequences",
+    "radio startup/branch inrush/currentlimit transient",
+    "70% UV efficiency, maxIq and hot drops",
+    "changed UV optical/thermal dose"
+  ],
+  "original_circuit_or_artwork_mutation": false,
+  "physical_validation": false
+}

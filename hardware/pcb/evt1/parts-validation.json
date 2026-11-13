@@ -1,0 +1,22 @@
+{
+  "scope": "Native component/order worksheet parity and passive MPN decoding; no stock or physical validation",
+  "parts_selection_sha256": "41047c4a6a6c5f2a1de48918d1fa903048433dcbaa6c83ddff48a617731d1da2",
+  "pcb_ordering_sha256": "692d33e0ab927ffbb45dccb08261e427abdde96ede0c5a93a8a3dd5efe9239ee",
+  "source_native_netlist_sha256": {
+    "hardware/pcb/evt1/body/body-native.xml": "c3d8482b08b67be70ab82b612c3b99c2ac6012e765f1fe9419d0106f707c945a",
+    "hardware/pcb/evt1/flange/flange-native.xml": "9c0d169c366faefc82ea75a587081153268920bf3501967db7871bdeef5ace94",
+    "hardware/pcb/evt1/sensor/sensor-native.xml": "3ac68f835b2828d53407a89dad6a772609c62e3e35535b7a43ecfbfc78ffe4d4",
+    "hardware/pcb/evt1/dock/dock-native.xml": "2ec129f7cc999db397cbebb4d3731b8227310a2b7a202d41de8f2992b56fca9a",
+    "hardware/pcb/evt1/pins/pins-native.xml": "0b79c9d8ee6c55b8e3bca0699bb4624734d2b7b03987fe3cd9f01639f7410228"
+  },
+  "native_positions": 122,
+  "purchased_positions": 114,
+  "nonpurchased_features": 8,
+  "passive_MPN_case_value_rating_tolerance_checks": 80,
+  "unique_order_lines": 53,
+  "verifier_sha256": "4323ee0fbb2b8ec2fe4d21c29c71a68eb141cd5adfb03be7f43cbf80dfe791ba",
+  "C83_effective_capacitance": "Incoming/process acceptance required; nominal MPN decoding does not verify installed capacitance",
+  "stock_and_supplier_acceptance": false,
+  "physical_validation": false,
+  "full_product_order_ready": false
+}

@@ -5,6 +5,13 @@ prototype, not a released product controller. No hardware has been flashed or
 validated. The default build reads sensors and exposes telemetry; **motor output
 is locked off** until explicit engineering bench limits are configured.
 
+The `evt1` profile also keeps a bounded per-boot thermal history. `thermal-status`
+over qualified docked USB reports the current reading and latest source-loss
+candidate with original measurement times, sample age/trend and first fresh
+post-loss conversion. PGOOD is a power observation, not physical removal;
+charging/UV state remain unknown. The 64-attempt/16-event RAM rings reset at boot,
+perform no per-sample flash writes and do not establish thermal readiness.
+
 See [the firmware prototype record](../developer-docs/docs/firmware.md)
 for wiring, controls, protocol, limits and outstanding checks.
 

@@ -1,0 +1,18 @@
+{
+  "board_sha256": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+  "DRC_sha256": "8d39105c884759789c952b399b02caf605ae9cca8764bc78d372efb0873e1a62",
+  "KiCad_version": "10.0.8",
+  "command": [
+    "kicad-cli",
+    "pcb",
+    "drc",
+    "--format",
+    "json",
+    "--output",
+    "drc.json",
+    "dock-main.kicad_pcb"
+  ],
+  "observed_violations": 0,
+  "observed_unconnected": 0,
+  "input_frozen_after_exact_reviewed_repair": true
+}

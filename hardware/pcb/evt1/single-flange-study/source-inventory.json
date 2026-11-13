@@ -1,0 +1,5041 @@
+{
+  "scope": "Read-only source inventory; latest user scope retains body PCB unchanged and merges flange plus compass only",
+  "source_sha256": {
+    "parts-selection.json": "41047c4a6a6c5f2a1de48918d1fa903048433dcbaa6c83ddff48a617731d1da2",
+    "system-native.xml": "3c0e8899ac864f9a6f12f18e9f3bce4b03cc2555a41cee5c8c98f17b78b22db5",
+    "body/body-evt1.kicad_pcb": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367",
+    "body/mcad.json": "52830d9f24a8a5a5a7f12e78980a3e8ed60ac03704f2e190ad55fd8c926f40ef",
+    "body/body-native.xml": "c3d8482b08b67be70ab82b612c3b99c2ac6012e765f1fe9419d0106f707c945a",
+    "flange/flange-evt1.kicad_pcb": "adafe46de7b49daa22fa35dc287eec4d7b18b601016ea3dcd0380f36db6c6e9e",
+    "flange/mcad.json": "ebaf1c9ccb64412196025017f66e0d9156ca19644f9d1bb74d15d8da5b2d384e",
+    "flange/flange-native.xml": "9c0d169c366faefc82ea75a587081153268920bf3501967db7871bdeef5ace94",
+    "sensor/sensor-evt1.kicad_pcb": "af9baeb350e0343d6b3ee8a276ed54d8b96792c8363042612a1d7c9f46e7b8b2",
+    "sensor/mcad.json": "1553901e07f2b111fca114540c28d6968ec50a134a221363a197f506fb3612be",
+    "sensor/sensor-native.xml": "3ac68f835b2828d53407a89dad6a772609c62e3e35535b7a43ecfbfc78ffe4d4"
+  },
+  "positions_per_domain": {
+    "body": 69,
+    "flange": 31,
+    "sensor": 6
+  },
+  "selected_positions": [
+    {
+      "mpn": "GRM21BR71A475KA73L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR71A475KA73%23",
+      "maximum_height_mm": 1.4,
+      "capacitance_F": 4.7e-06,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C1",
+      "schematic_value": "4.7uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C1",
+        "xy_mm": [
+          4.5,
+          42.4
+        ],
+        "back": false,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          3.45,
+          41.725,
+          5.55,
+          43.074999999999996
+        ],
+        "courtyard_xy_mm": [
+          2.924999999999997,
+          41.474999999999994,
+          6.075000000000003,
+          43.325
+        ],
+        "height_budget_mm": 1.4,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM21BR71A475KA73L",
+        "fab_outline_bounds_xy_mm": [
+          3.4749999999999943,
+          41.75,
+          5.525000000000006,
+          43.05
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.35
+        ]
+      }
+    },
+    {
+      "mpn": "GRM21BR71A475KA73L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR71A475KA73%23",
+      "maximum_height_mm": 1.4,
+      "capacitance_F": 4.7e-06,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C2",
+      "schematic_value": "4.7uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C2",
+        "xy_mm": [
+          0.8,
+          39.45
+        ],
+        "back": false,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          -0.25,
+          38.775000000000006,
+          1.85,
+          40.125
+        ],
+        "courtyard_xy_mm": [
+          -0.7750000000000057,
+          38.525000000000006,
+          2.375,
+          40.375
+        ],
+        "height_budget_mm": 1.4,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM21BR71A475KA73L",
+        "fab_outline_bounds_xy_mm": [
+          -0.22499999999999432,
+          38.8,
+          1.8250000000000028,
+          40.099999999999994
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.35
+        ]
+      }
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C3",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C3",
+        "xy_mm": [
+          7.725,
+          39.4
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          7.05,
+          38.35,
+          8.4,
+          40.449999999999996
+        ],
+        "courtyard_xy_mm": [
+          6.799999999999997,
+          37.825,
+          8.650000000000006,
+          40.974999999999994
+        ],
+        "height_budget_mm": 1.35,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM21BR61A106KE19L",
+        "fab_outline_bounds_xy_mm": [
+          7.075000000000003,
+          38.375,
+          8.375,
+          40.425
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.35
+        ]
+      }
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C11",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C11",
+        "xy_mm": [
+          6.25,
+          33.85
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          5.2,
+          33.175000000000004,
+          7.3,
+          34.525
+        ],
+        "courtyard_xy_mm": [
+          4.674999999999997,
+          32.925,
+          7.825000000000003,
+          34.775000000000006
+        ],
+        "height_budget_mm": 1.35,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM21BR61A106KE19L",
+        "fab_outline_bounds_xy_mm": [
+          5.224999999999994,
+          33.2,
+          7.275000000000006,
+          34.5
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.35
+        ]
+      }
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C12",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C12",
+        "xy_mm": [
+          7.15,
+          37.5
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          6.4750000000000005,
+          36.45,
+          7.825,
+          38.55
+        ],
+        "courtyard_xy_mm": [
+          6.224999999999994,
+          35.925,
+          8.075000000000003,
+          39.075
+        ],
+        "height_budget_mm": 1.35,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM21BR61A106KE19L",
+        "fab_outline_bounds_xy_mm": [
+          6.5,
+          36.474999999999994,
+          7.799999999999997,
+          38.525000000000006
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.35
+        ]
+      }
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C13",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C13",
+        "xy_mm": [
+          -3.45,
+          40.5
+        ],
+        "back": true,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          -5.15,
+          39.6,
+          -1.7500000000000002,
+          41.4
+        ],
+        "courtyard_xy_mm": [
+          -5.724999999999994,
+          39.375,
+          -1.1749999999999972,
+          41.625
+        ],
+        "height_budget_mm": 2.7,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM31CR71A226KE15L",
+        "fab_outline_bounds_xy_mm": [
+          -5.075000000000003,
+          39.675,
+          -1.8250000000000028,
+          41.325
+        ],
+        "maximum_body_xy_mm": [
+          3.4,
+          1.8
+        ]
+      }
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C14",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C14",
+        "xy_mm": [
+          -6.95,
+          36.0
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -7.8500000000000005,
+          34.3,
+          -6.05,
+          37.7
+        ],
+        "courtyard_xy_mm": [
+          -8.075000000000003,
+          33.724999999999994,
+          -5.825000000000003,
+          38.275000000000006
+        ],
+        "height_budget_mm": 2.7,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM31CR71A226KE15L",
+        "fab_outline_bounds_xy_mm": [
+          -7.775000000000006,
+          34.375,
+          -6.125,
+          37.625
+        ],
+        "maximum_body_xy_mm": [
+          3.4,
+          1.8
+        ]
+      }
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C15",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C15",
+        "xy_mm": [
+          -3.45,
+          34.5
+        ],
+        "back": true,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          -5.15,
+          33.6,
+          -1.7500000000000002,
+          35.4
+        ],
+        "courtyard_xy_mm": [
+          -5.724999999999994,
+          33.375,
+          -1.1749999999999972,
+          35.625
+        ],
+        "height_budget_mm": 2.7,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM31CR71A226KE15L",
+        "fab_outline_bounds_xy_mm": [
+          -5.075000000000003,
+          33.675,
+          -1.8250000000000028,
+          35.325
+        ],
+        "maximum_body_xy_mm": [
+          3.4,
+          1.8
+        ]
+      }
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C16",
+      "schematic_value": "100nF 10V",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C16",
+        "xy_mm": [
+          1.95,
+          33.4
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          1.1,
+          32.949999999999996,
+          2.8,
+          33.85
+        ],
+        "courtyard_xy_mm": [
+          0.6749999999999972,
+          32.724999999999994,
+          3.2249999999999943,
+          34.075
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM188R71C104KA01D",
+        "fab_outline_bounds_xy_mm": [
+          1.125,
+          32.974999999999994,
+          2.7750000000000057,
+          33.825
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C51",
+      "schematic_value": "10uF 10V X5R 0603 HF",
+      "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C51",
+        "xy_mm": [
+          5.15,
+          36.300001
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          4.7,
+          35.450001,
+          5.6000000000000005,
+          37.150001
+        ],
+        "courtyard_xy_mm": [
+          4.474999999999994,
+          35.025001,
+          5.825000000000003,
+          37.575001
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "C1608X5R1A106K080AC",
+        "fab_outline_bounds_xy_mm": [
+          4.724999999999994,
+          35.475001000000006,
+          5.575000000000003,
+          37.125001
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C52",
+      "schematic_value": "10uF 10V X5R 0603 HF",
+      "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C52",
+        "xy_mm": [
+          -0.45,
+          36.300001
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -0.9000000000000001,
+          35.450001,
+          5.551115123125783e-17,
+          37.150001
+        ],
+        "courtyard_xy_mm": [
+          -1.125,
+          35.025001,
+          0.22499999999999432,
+          37.575001
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "C1608X5R1A106K080AC",
+        "fab_outline_bounds_xy_mm": [
+          -0.875,
+          35.475001000000006,
+          -0.025000000000005684,
+          37.125001
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Five copper lands; solder protected-pack power and two independently returned NTC channels.",
+      "maximum_height_mm": 0,
+      "domain": "body",
+      "ref": "J2",
+      "schematic_value": "PACK_PIGTAIL_4NET_5LAND",
+      "footprint": "PackPigtailR35:Pack_Pigtail_4Net_5Land",
+      "native_geometry": {
+        "ref": "J2",
+        "xy_mm": [
+          -4.78,
+          40.5
+        ],
+        "back": false,
+        "angle_deg": -90.0,
+        "fab_bounds_xy_mm": [
+          -2.4849999999999994,
+          37.95,
+          -1.4849999999999994,
+          43.05
+        ],
+        "courtyard_xy_mm": [
+          -2.760000000000005,
+          37.675,
+          -1.2099999999999937,
+          43.325
+        ],
+        "height_budget_mm": 0,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": null
+      }
+    },
+    {
+      "mpn": "XFL4020-152MEC",
+      "manufacturer": "Coilcraft",
+      "manufacturer_source": "https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf",
+      "maximum_height_mm": 2.1,
+      "inductance_H": 1.5e-06,
+      "tolerance_percent": 20,
+      "maximum_body_xy_mm": [
+        4.3,
+        4.3
+      ],
+      "DCR_max_ohm": 0.0158,
+      "Isat_10percent_drop_A": 4.1,
+      "assembly_note": "Isat is specified at25C. Check transient/current/thermal behavior on assembled regulators; use manufacturer land pattern.",
+      "domain": "body",
+      "ref": "L1",
+      "schematic_value": "1.5uH / Isat>=4A candidate",
+      "footprint": "PrototypeR0:L_Coilcraft_XxL4020",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "L1",
+        "xy_mm": [
+          2.25,
+          40.0
+        ],
+        "back": true,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          0.09999999999999964,
+          37.85,
+          4.4,
+          42.15
+        ],
+        "courtyard_xy_mm": [
+          -0.03499999999999659,
+          37.715,
+          4.534999999999997,
+          42.285
+        ],
+        "height_budget_mm": 2.1,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "XFL4020-152MEC",
+        "fab_outline_bounds_xy_mm": [
+          0.20000000000000284,
+          37.95,
+          4.299999999999997,
+          42.05
+        ],
+        "maximum_body_xy_mm": [
+          4.3,
+          4.3
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW04028K87BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 8870.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R1",
+      "schematic_value": "8.87k 1% / ~100mA",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R1",
+        "xy_mm": [
+          7.5,
+          42.48
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          6.924999999999997,
+          42.16,
+          8.075000000000003,
+          42.8
+        ],
+        "courtyard_xy_mm": [
+          6.545000000000002,
+          41.985,
+          8.454999999999998,
+          42.974999999999994
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW04028K87BEED",
+        "fab_outline_bounds_xy_mm": [
+          6.924999999999997,
+          42.16,
+          8.075000000000003,
+          42.8
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW04023K24BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 3240.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R2",
+      "schematic_value": "3.24k 1%",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R2",
+        "xy_mm": [
+          0.01,
+          46.48
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -0.5649999999999977,
+          46.16,
+          0.5849999999999937,
+          46.8
+        ],
+        "courtyard_xy_mm": [
+          -0.9449999999999932,
+          45.985,
+          0.9650000000000034,
+          46.974999999999994
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW04023K24BEED",
+        "fab_outline_bounds_xy_mm": [
+          -0.5649999999999977,
+          46.16,
+          0.5849999999999937,
+          46.8
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R3",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R3",
+        "xy_mm": [
+          -8.155,
+          49.390001
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -8.474999999999994,
+          48.815000999999995,
+          -7.834999999999994,
+          49.965001
+        ],
+        "courtyard_xy_mm": [
+          -8.650000000000006,
+          48.435001,
+          -7.659999999999997,
+          50.345000999999996
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040210K0BEED",
+        "fab_outline_bounds_xy_mm": [
+          -8.474999999999994,
+          48.815000999999995,
+          -7.834999999999994,
+          49.965001
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R4",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R4",
+        "xy_mm": [
+          7.5,
+          30.75
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          7.180000000000007,
+          30.174999999999997,
+          7.819999999999993,
+          31.325000000000003
+        ],
+        "courtyard_xy_mm": [
+          7.0049999999999955,
+          29.795,
+          7.9950000000000045,
+          31.705
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040210K0BEED",
+        "fab_outline_bounds_xy_mm": [
+          7.180000000000007,
+          30.174999999999997,
+          7.819999999999993,
+          31.325000000000003
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R5",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R5",
+        "xy_mm": [
+          7.69,
+          41.48
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          7.114999999999995,
+          41.16,
+          8.265,
+          41.8
+        ],
+        "courtyard_xy_mm": [
+          6.734999999999999,
+          40.985,
+          8.644999999999996,
+          41.974999999999994
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040210K0BEED",
+        "fab_outline_bounds_xy_mm": [
+          7.114999999999995,
+          41.16,
+          8.265,
+          41.8
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0603312KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 312000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R11",
+      "schematic_value": "312k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R11",
+        "xy_mm": [
+          -3.3875,
+          38.5
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -4.2375,
+          38.025,
+          -2.5375,
+          38.975
+        ],
+        "courtyard_xy_mm": [
+          -4.662499999999994,
+          37.775000000000006,
+          -2.112499999999997,
+          39.224999999999994
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0603312KBEEA",
+        "fab_outline_bounds_xy_mm": [
+          -4.212500000000006,
+          38.05,
+          -2.5625,
+          38.95
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0603100KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R12",
+      "schematic_value": "100k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R12",
+        "xy_mm": [
+          -3.3875,
+          36.9
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -4.2375,
+          36.425,
+          -2.5375,
+          37.375
+        ],
+        "courtyard_xy_mm": [
+          -4.662499999999994,
+          36.175,
+          -2.112499999999997,
+          37.625
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0603100KBEEA",
+        "fab_outline_bounds_xy_mm": [
+          -4.212500000000006,
+          36.45,
+          -2.5625,
+          37.349999999999994
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R13",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R13",
+        "xy_mm": [
+          6.25,
+          40.800001
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          5.4,
+          40.325001,
+          7.1,
+          41.275001
+        ],
+        "courtyard_xy_mm": [
+          4.974999999999994,
+          40.075001,
+          7.525000000000006,
+          41.525001
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW060310K0BEEA",
+        "fab_outline_bounds_xy_mm": [
+          5.424999999999997,
+          40.350001000000006,
+          7.075000000000003,
+          41.250001
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "BQ24074RGTR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "maximum_height_mm": 1,
+      "domain": "body",
+      "ref": "U1",
+      "schematic_value": "BQ24074RGT candidate",
+      "footprint": "PrototypeR0:TI_RGT0016C_3x3mm_BQ24074_EP1.68mm",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U1",
+        "xy_mm": [
+          4.7,
+          39.4
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          3.1500000000000057,
+          37.849999999999994,
+          6.25,
+          40.95
+        ],
+        "courtyard_xy_mm": [
+          2.674999999999997,
+          37.375,
+          6.724999999999994,
+          41.425
+        ],
+        "height_budget_mm": 1.0,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "BQ24074RGTR"
+      }
+    },
+    {
+      "mpn": "TPS63070RNMR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps63070.pdf",
+      "maximum_height_mm": 1,
+      "domain": "body",
+      "ref": "U2",
+      "schematic_value": "TPS63070RNM candidate",
+      "footprint": "PrototypeR0:TI_RNM0015A_2.5x3mm_TPS63070",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U2",
+        "xy_mm": [
+          2.25,
+          35.85
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          0.7000000000000028,
+          34.55,
+          3.799999999999997,
+          37.150000000000006
+        ],
+        "courtyard_xy_mm": [
+          0.22499999999999432,
+          34.075,
+          4.275000000000006,
+          37.675
+        ],
+        "height_budget_mm": 1.0,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TPS63070RNMR"
+      }
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C21",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C21",
+        "xy_mm": [
+          6.25,
+          44.85
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          5.2,
+          44.175000000000004,
+          7.3,
+          45.525
+        ],
+        "courtyard_xy_mm": [
+          4.674999999999997,
+          43.925,
+          7.825000000000003,
+          45.775000000000006
+        ],
+        "height_budget_mm": 1.35,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM21BR61A106KE19L",
+        "fab_outline_bounds_xy_mm": [
+          5.224999999999994,
+          44.2,
+          7.275000000000006,
+          45.5
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.35
+        ]
+      }
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "body",
+      "ref": "C22",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C22",
+        "xy_mm": [
+          7.15,
+          48.5
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          6.4750000000000005,
+          47.45,
+          7.825,
+          49.55
+        ],
+        "courtyard_xy_mm": [
+          6.224999999999994,
+          46.925,
+          8.075000000000003,
+          50.075
+        ],
+        "height_budget_mm": 1.35,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM21BR61A106KE19L",
+        "fab_outline_bounds_xy_mm": [
+          6.5,
+          47.474999999999994,
+          7.799999999999997,
+          49.525000000000006
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.35
+        ]
+      }
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C23",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C23",
+        "xy_mm": [
+          -3.45,
+          51.8
+        ],
+        "back": true,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          -5.15,
+          50.9,
+          -1.7500000000000002,
+          52.699999999999996
+        ],
+        "courtyard_xy_mm": [
+          -5.724999999999994,
+          50.675,
+          -1.1749999999999972,
+          52.925
+        ],
+        "height_budget_mm": 2.7,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM31CR71A226KE15L",
+        "fab_outline_bounds_xy_mm": [
+          -5.075000000000003,
+          50.974999999999994,
+          -1.8250000000000028,
+          52.625
+        ],
+        "maximum_body_xy_mm": [
+          3.4,
+          1.8
+        ]
+      }
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C24",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C24",
+        "xy_mm": [
+          -6.95,
+          47.0
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -7.8500000000000005,
+          45.3,
+          -6.05,
+          48.7
+        ],
+        "courtyard_xy_mm": [
+          -8.075000000000003,
+          44.724999999999994,
+          -5.825000000000003,
+          49.275000000000006
+        ],
+        "height_budget_mm": 2.7,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM31CR71A226KE15L",
+        "fab_outline_bounds_xy_mm": [
+          -7.775000000000006,
+          45.375,
+          -6.125,
+          48.625
+        ],
+        "maximum_body_xy_mm": [
+          3.4,
+          1.8
+        ]
+      }
+    },
+    {
+      "mpn": "GRM31CR71A226KE15L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71A226KE15%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        3.4,
+        1.8
+      ],
+      "domain": "body",
+      "ref": "C25",
+      "schematic_value": "22uF 10V X7R",
+      "footprint": "PrototypeR0:Murata_GRM31_1206_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C25",
+        "xy_mm": [
+          -3.45,
+          45.5
+        ],
+        "back": true,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          -5.15,
+          44.6,
+          -1.7500000000000002,
+          46.4
+        ],
+        "courtyard_xy_mm": [
+          -5.724999999999994,
+          44.375,
+          -1.1749999999999972,
+          46.625
+        ],
+        "height_budget_mm": 2.7,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM31CR71A226KE15L",
+        "fab_outline_bounds_xy_mm": [
+          -5.075000000000003,
+          44.675,
+          -1.8250000000000028,
+          46.325
+        ],
+        "maximum_body_xy_mm": [
+          3.4,
+          1.8
+        ]
+      }
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C26",
+      "schematic_value": "100nF 10V",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C26",
+        "xy_mm": [
+          1.95,
+          44.4
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          1.1,
+          43.949999999999996,
+          2.8,
+          44.85
+        ],
+        "courtyard_xy_mm": [
+          0.6749999999999972,
+          43.724999999999994,
+          3.2249999999999943,
+          45.075
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM188R71C104KA01D",
+        "fab_outline_bounds_xy_mm": [
+          1.125,
+          43.974999999999994,
+          2.7750000000000057,
+          44.825
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C27",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C27",
+        "xy_mm": [
+          5.1,
+          30.1
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          4.25,
+          29.650000000000002,
+          5.949999999999999,
+          30.55
+        ],
+        "courtyard_xy_mm": [
+          3.825000000000003,
+          29.424999999999997,
+          6.375,
+          30.775000000000006
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM188R71C104KA01D",
+        "fab_outline_bounds_xy_mm": [
+          4.275000000000006,
+          29.674999999999997,
+          5.924999999999997,
+          30.525000000000006
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "body",
+      "ref": "C28",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:C_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C28",
+        "xy_mm": [
+          3.65,
+          44.5
+        ],
+        "back": false,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          3.0999999999999943,
+          44.2,
+          4.200000000000003,
+          44.8
+        ],
+        "courtyard_xy_mm": [
+          2.7150000000000034,
+          44.015,
+          4.584999999999994,
+          44.985
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM155R71C104KA88D",
+        "fab_outline_bounds_xy_mm": [
+          3.0999999999999943,
+          44.2,
+          4.200000000000003,
+          44.8
+        ],
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ]
+      }
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "body",
+      "ref": "C29",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:C_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C29",
+        "xy_mm": [
+          3.65,
+          45.54
+        ],
+        "back": false,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          3.0999999999999943,
+          45.239999999999995,
+          4.200000000000003,
+          45.84
+        ],
+        "courtyard_xy_mm": [
+          2.7150000000000034,
+          45.05500000000001,
+          4.584999999999994,
+          46.025000000000006
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM155R71C104KA88D",
+        "fab_outline_bounds_xy_mm": [
+          3.0999999999999943,
+          45.239999999999995,
+          4.200000000000003,
+          45.84
+        ],
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ]
+      }
+    },
+    {
+      "mpn": "GRM32ER61A476KE20L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM32ER61A476KE20%23",
+      "maximum_height_mm": 2.7,
+      "capacitance_F": 4.7e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        3.4,
+        2.7
+      ],
+      "domain": "body",
+      "ref": "C30",
+      "schematic_value": "47uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM32_1210_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C30",
+        "xy_mm": [
+          1.05,
+          43.5
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -0.30000000000000004,
+          41.8,
+          2.4000000000000004,
+          45.2
+        ],
+        "courtyard_xy_mm": [
+          -0.4749999999999943,
+          41.025000000000006,
+          2.575000000000003,
+          45.974999999999994
+        ],
+        "height_budget_mm": 2.7,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM32ER61A476KE20L",
+        "fab_outline_bounds_xy_mm": [
+          -0.22499999999999432,
+          41.875,
+          2.325000000000003,
+          45.125
+        ],
+        "maximum_body_xy_mm": [
+          3.4,
+          2.7
+        ]
+      }
+    },
+    {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C53",
+      "schematic_value": "10uF 10V X5R 0603 HF",
+      "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C53",
+        "xy_mm": [
+          5.15,
+          47.300001
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          4.7,
+          46.450001,
+          5.6000000000000005,
+          48.150001
+        ],
+        "courtyard_xy_mm": [
+          4.474999999999994,
+          46.025001,
+          5.825000000000003,
+          48.575001
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "C1608X5R1A106K080AC",
+        "fab_outline_bounds_xy_mm": [
+          4.724999999999994,
+          46.475001000000006,
+          5.575000000000003,
+          48.125001
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": "C1608X5R1A106K080AC",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A106K080AC",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C54",
+      "schematic_value": "10uF 10V X5R 0603 HF",
+      "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C54",
+        "xy_mm": [
+          -0.45,
+          47.300001
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -0.9000000000000001,
+          46.450001,
+          5.551115123125783e-17,
+          48.150001
+        ],
+        "courtyard_xy_mm": [
+          -1.125,
+          46.025001,
+          0.22499999999999432,
+          48.575001
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "C1608X5R1A106K080AC",
+        "fab_outline_bounds_xy_mm": [
+          -0.875,
+          46.475001000000006,
+          -0.025000000000005684,
+          48.125001
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": "SM02B-SRSS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "maximum_height_mm": 2.95,
+      "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+      "domain": "body",
+      "ref": "J3",
+      "schematic_value": "MOTOR_2PIN",
+      "footprint": "PrototypeR0:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "J3",
+        "xy_mm": [
+          -4.4,
+          50.35
+        ],
+        "back": false,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          -6.450000000000003,
+          48.625,
+          -2.3499999999999943,
+          52.974999999999994
+        ],
+        "courtyard_xy_mm": [
+          -7.325000000000003,
+          47.045,
+          -1.4749999999999943,
+          53.655
+        ],
+        "height_budget_mm": 2.95,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "SM02B-SRSS-TB(LF)(SN)"
+      }
+    },
+    {
+      "mpn": "XFL4020-152MEC",
+      "manufacturer": "Coilcraft",
+      "manufacturer_source": "https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf",
+      "maximum_height_mm": 2.1,
+      "inductance_H": 1.5e-06,
+      "tolerance_percent": 20,
+      "maximum_body_xy_mm": [
+        4.3,
+        4.3
+      ],
+      "DCR_max_ohm": 0.0158,
+      "Isat_10percent_drop_A": 4.1,
+      "assembly_note": "Isat is specified at25C. Check transient/current/thermal behavior on assembled regulators; use manufacturer land pattern.",
+      "domain": "body",
+      "ref": "L2",
+      "schematic_value": "1.5uH / Isat>=4A candidate",
+      "footprint": "PrototypeR0:L_Coilcraft_XxL4020",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "L2",
+        "xy_mm": [
+          2.25,
+          51.0
+        ],
+        "back": true,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          0.09999999999999964,
+          48.85,
+          4.4,
+          53.15
+        ],
+        "courtyard_xy_mm": [
+          -0.03499999999999659,
+          48.715,
+          4.534999999999997,
+          53.285
+        ],
+        "height_budget_mm": 2.1,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "XFL4020-152MEC",
+        "fab_outline_bounds_xy_mm": [
+          0.20000000000000284,
+          48.95,
+          4.299999999999997,
+          53.05
+        ],
+        "maximum_body_xy_mm": [
+          4.3,
+          4.3
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0805362KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 362000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        2.1,
+        1.4
+      ],
+      "domain": "body",
+      "ref": "R21",
+      "schematic_value": "362k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0805_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R21",
+        "xy_mm": [
+          -3.3875,
+          49.65
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -4.4375,
+          48.949999999999996,
+          -2.3375000000000004,
+          50.35
+        ],
+        "courtyard_xy_mm": [
+          -4.862499999999997,
+          48.724999999999994,
+          -1.9124999999999943,
+          50.575
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0805362KBEEA",
+        "fab_outline_bounds_xy_mm": [
+          -4.412499999999994,
+          49.0,
+          -2.362499999999997,
+          50.3
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.4
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0603100KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R22",
+      "schematic_value": "100k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R22",
+        "xy_mm": [
+          -3.3875,
+          47.9
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -4.2375,
+          47.425,
+          -2.5375,
+          48.375
+        ],
+        "courtyard_xy_mm": [
+          -4.662499999999994,
+          47.175,
+          -2.112499999999997,
+          48.625
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0603100KBEEA",
+        "fab_outline_bounds_xy_mm": [
+          -4.212500000000006,
+          47.45,
+          -2.5625,
+          48.349999999999994
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0402100KBEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R23",
+      "schematic_value": "100k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R23",
+        "xy_mm": [
+          -7.919,
+          31.365001
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -8.239000000000004,
+          30.790001000000004,
+          -7.599000000000004,
+          31.940000999999995
+        ],
+        "courtyard_xy_mm": [
+          -8.414000000000001,
+          30.410000999999994,
+          -7.424000000000007,
+          32.320001000000005
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0402100KBEED",
+        "fab_outline_bounds_xy_mm": [
+          -8.239000000000004,
+          30.790001000000004,
+          -7.599000000000004,
+          31.940000999999995
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0402100KBEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R24",
+      "schematic_value": "100k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R24",
+        "xy_mm": [
+          -7.695,
+          42.79
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -8.269999999999996,
+          42.47,
+          -7.1200000000000045,
+          43.11
+        ],
+        "courtyard_xy_mm": [
+          -8.650000000000006,
+          42.295,
+          -6.739999999999995,
+          43.285
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0402100KBEED",
+        "fab_outline_bounds_xy_mm": [
+          -8.269999999999996,
+          42.47,
+          -7.1200000000000045,
+          43.11
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0402100KBEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R25",
+      "schematic_value": "100k",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R25",
+        "xy_mm": [
+          7.95,
+          35.645001
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          7.6299999999999955,
+          35.070001000000005,
+          8.269999999999996,
+          36.220000999999996
+        ],
+        "courtyard_xy_mm": [
+          7.454999999999998,
+          34.690000999999995,
+          8.444999999999993,
+          36.600001000000006
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0402100KBEED",
+        "fab_outline_bounds_xy_mm": [
+          7.6299999999999955,
+          35.070001000000005,
+          8.269999999999996,
+          36.220000999999996
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R26",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R26",
+        "xy_mm": [
+          6.25,
+          51.800001
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          5.4,
+          51.325001,
+          7.1,
+          52.275001
+        ],
+        "courtyard_xy_mm": [
+          4.974999999999994,
+          51.075001,
+          7.525000000000006,
+          52.525001
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW060310K0BEEA",
+        "fab_outline_bounds_xy_mm": [
+          5.424999999999997,
+          51.350001000000006,
+          7.075000000000003,
+          52.250001
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TPS63070RNMR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps63070.pdf",
+      "maximum_height_mm": 1,
+      "domain": "body",
+      "ref": "U3",
+      "schematic_value": "TPS63070RNM candidate",
+      "footprint": "PrototypeR0:TI_RNM0015A_2.5x3mm_TPS63070",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U3",
+        "xy_mm": [
+          2.25,
+          46.85
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          0.7000000000000028,
+          45.55,
+          3.799999999999997,
+          48.150000000000006
+        ],
+        "courtyard_xy_mm": [
+          0.22499999999999432,
+          45.075,
+          4.275000000000006,
+          48.675
+        ],
+        "height_budget_mm": 1.0,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TPS63070RNMR"
+      }
+    },
+    {
+      "mpn": "SN74LVC1G11DBVR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf",
+      "maximum_height_mm": 1.45,
+      "domain": "body",
+      "ref": "U4",
+      "schematic_value": "SN74LVC1G11DBV candidate",
+      "footprint": "PrototypeR0:SOT-23-6",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U4",
+        "xy_mm": [
+          1.895,
+          28.325
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          0.394999999999996,
+          27.474999999999994,
+          3.394999999999996,
+          29.174999999999997
+        ],
+        "courtyard_xy_mm": [
+          0.1700000000000017,
+          26.25,
+          3.6200000000000045,
+          30.400000000000006
+        ],
+        "height_budget_mm": 1.45,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "SN74LVC1G11DBVR"
+      }
+    },
+    {
+      "mpn": "DRV8212DSGR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/drv8212.pdf",
+      "maximum_height_mm": 0.8,
+      "domain": "body",
+      "ref": "U5",
+      "schematic_value": "DRV8212DSG candidate",
+      "footprint": "PrototypeR0:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U5",
+        "xy_mm": [
+          6.0,
+          45.3
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          4.950000000000003,
+          44.25,
+          7.049999999999997,
+          46.349999999999994
+        ],
+        "courtyard_xy_mm": [
+          4.724999999999994,
+          43.675,
+          7.275000000000006,
+          46.925
+        ],
+        "height_budget_mm": 0.8,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "DRV8212DSGR"
+      }
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "body",
+      "ref": "C61",
+      "schematic_value": "100nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C61",
+        "xy_mm": [
+          -3.7,
+          39.1
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -4.25,
+          38.8,
+          -3.1500000000000057,
+          39.400000000000006
+        ],
+        "courtyard_xy_mm": [
+          -4.635000000000005,
+          38.614999999999995,
+          -2.7650000000000006,
+          39.584999999999994
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM155R71C104KA88D",
+        "fab_outline_bounds_xy_mm": [
+          -4.25,
+          38.8,
+          -3.1500000000000057,
+          39.400000000000006
+        ],
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ]
+      }
+    },
+    {
+      "mpn": "GRM155R71H103KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71H103KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-08,
+      "rated_voltage_V": 50,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "body",
+      "ref": "C62",
+      "schematic_value": "10nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C62",
+        "xy_mm": [
+          -6.1,
+          40.9
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -6.650000000000006,
+          40.599999999999994,
+          -5.549999999999997,
+          41.2
+        ],
+        "courtyard_xy_mm": [
+          -7.034999999999997,
+          40.415000000000006,
+          -5.165000000000006,
+          41.385000000000005
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM155R71H103KA88D",
+        "fab_outline_bounds_xy_mm": [
+          -6.650000000000006,
+          40.599999999999994,
+          -5.549999999999997,
+          41.2
+        ],
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ]
+      }
+    },
+    {
+      "mpn": "GRM155R71H103KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71H103KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-08,
+      "rated_voltage_V": 50,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "body",
+      "ref": "C63",
+      "schematic_value": "10nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C63",
+        "xy_mm": [
+          -3.9,
+          43.3
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -4.450000000000003,
+          43.0,
+          -3.3499999999999943,
+          43.599999999999994
+        ],
+        "courtyard_xy_mm": [
+          -4.834999999999994,
+          42.815,
+          -2.9650000000000034,
+          43.785
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM155R71H103KA88D",
+        "fab_outline_bounds_xy_mm": [
+          -4.450000000000003,
+          43.0,
+          -3.3499999999999943,
+          43.599999999999994
+        ],
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ]
+      }
+    },
+    {
+      "mpn": "BM02B-SRSS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "maximum_height_mm": 2.9,
+      "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+      "domain": "body",
+      "ref": "J5",
+      "schematic_value": "TIP NTC / GND",
+      "footprint": "EVT1:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "J5",
+        "xy_mm": [
+          3.3,
+          50.35
+        ],
+        "back": false,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          1.25,
+          48.400000000000006,
+          5.349999999999994,
+          51.400000000000006
+        ],
+        "courtyard_xy_mm": [
+          0.375,
+          47.724999999999994,
+          6.224999999999994,
+          52.974999999999994
+        ],
+        "height_budget_mm": 2.9,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "BM02B-SRSS-TB(LF)(SN)"
+      }
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Four hand-solder sensor-loom lands; ground land intentionally includes a plated via.",
+      "maximum_height_mm": 0,
+      "domain": "body",
+      "ref": "J81",
+      "schematic_value": "FIXED FLANGE SENSOR LOOM",
+      "footprint": "EVT1:Sensor_Loom_4Land",
+      "native_geometry": {
+        "ref": "J81",
+        "xy_mm": [
+          -8.7,
+          40.0
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -9.200000000000003,
+          39.5,
+          -8.200000000000003,
+          45.0
+        ],
+        "courtyard_xy_mm": [
+          -9.200000000000003,
+          39.5,
+          -8.200000000000003,
+          45.0
+        ],
+        "height_budget_mm": 1.25,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": null
+      }
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R61",
+      "schematic_value": "10k 0.1%",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R61",
+        "xy_mm": [
+          -6.1,
+          39.7
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -6.674999999999997,
+          39.379999999999995,
+          -5.525000000000006,
+          40.019999999999996
+        ],
+        "courtyard_xy_mm": [
+          -7.055000000000007,
+          39.205,
+          -5.144999999999996,
+          40.19499999999999
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040210K0BEED",
+        "fab_outline_bounds_xy_mm": [
+          -6.674999999999997,
+          39.379999999999995,
+          -5.525000000000006,
+          40.019999999999996
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R62",
+      "schematic_value": "10k 0.1%",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R62",
+        "xy_mm": [
+          -6.1,
+          42.1
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -6.674999999999997,
+          41.78,
+          -5.525000000000006,
+          42.42
+        ],
+        "courtyard_xy_mm": [
+          -7.055000000000007,
+          41.605000000000004,
+          -5.144999999999996,
+          42.595
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040210K0BEED",
+        "fab_outline_bounds_xy_mm": [
+          -6.674999999999997,
+          41.78,
+          -5.525000000000006,
+          42.42
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R63",
+      "schematic_value": "10k 0.1%",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R63",
+        "xy_mm": [
+          -6.1,
+          43.3
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -6.674999999999997,
+          42.980000000000004,
+          -5.525000000000006,
+          43.620000000000005
+        ],
+        "courtyard_xy_mm": [
+          -7.055000000000007,
+          42.80500000000001,
+          -5.144999999999996,
+          43.795
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040210K0BEED",
+        "fab_outline_bounds_xy_mm": [
+          -6.674999999999997,
+          42.980000000000004,
+          -5.525000000000006,
+          43.620000000000005
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "ADS1115IDGSR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/ads1115.pdf",
+      "maximum_height_mm": 1.1,
+      "domain": "body",
+      "ref": "U7",
+      "schematic_value": "ADS1115IDGSR /0x48",
+      "footprint": "EVT1:VSSOP-10_3x3mm_P0.5mm",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U7",
+        "xy_mm": [
+          -6.05,
+          36.7
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -7.599999999999994,
+          35.150000000000006,
+          -4.5,
+          38.25
+        ],
+        "courtyard_xy_mm": [
+          -9.254999999999995,
+          34.925,
+          -2.844999999999999,
+          38.474999999999994
+        ],
+        "height_budget_mm": 1.1,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "ADS1115IDGSR"
+      }
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C43",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C43",
+        "xy_mm": [
+          0.095,
+          31.085001
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -0.755,
+          30.635001,
+          0.945,
+          31.535000999999998
+        ],
+        "courtyard_xy_mm": [
+          -1.1800000000000068,
+          30.410000999999994,
+          1.3700000000000045,
+          31.760001000000003
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM188R71C104KA01D",
+        "fab_outline_bounds_xy_mm": [
+          -0.730000000000004,
+          30.660000999999994,
+          0.9200000000000017,
+          31.510001000000003
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "body",
+      "ref": "C44",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C44",
+        "xy_mm": [
+          7.96,
+          47.360001
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          7.51,
+          46.510000999999995,
+          8.41,
+          48.210001
+        ],
+        "courtyard_xy_mm": [
+          7.284999999999997,
+          46.085001000000005,
+          8.635000000000005,
+          48.635001
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM188R71C104KA01D",
+        "fab_outline_bounds_xy_mm": [
+          7.534999999999997,
+          46.535000999999994,
+          8.385000000000005,
+          48.185001
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Leave copper solder jumper OPEN until charge-guard commissioning passes.",
+      "maximum_height_mm": 0,
+      "domain": "body",
+      "ref": "JP1",
+      "schematic_value": "CHARGE_PERMISSION / OPEN",
+      "footprint": "PrototypeR0:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+      "native_geometry": {
+        "ref": "JP1",
+        "xy_mm": [
+          4.21,
+          35.59
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          3.0600000000000023,
+          34.84,
+          5.359999999999999,
+          36.34
+        ],
+        "courtyard_xy_mm": [
+          2.5349999999999966,
+          34.315,
+          5.885000000000005,
+          36.864999999999995
+        ],
+        "height_budget_mm": 0.0,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": null
+      }
+    },
+    {
+      "mpn": "AO3400A",
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "manufacturer_source": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf",
+      "maximum_height_mm": 1.25,
+      "domain": "body",
+      "ref": "Q1",
+      "schematic_value": "AO3400A",
+      "footprint": "PrototypeR0:SOT-23",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "Q1",
+        "xy_mm": [
+          0.8,
+          36.4
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -0.7000000000000028,
+          35.7,
+          2.299999999999997,
+          37.099999999999994
+        ],
+        "courtyard_xy_mm": [
+          -0.9249999999999972,
+          34.455,
+          2.5250000000000057,
+          38.345
+        ],
+        "height_budget_mm": 1.25,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "AO3400A"
+      }
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R42",
+      "schematic_value": "10.0k 0.1%",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R42",
+        "xy_mm": [
+          -6.919,
+          31.365001
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -7.239000000000004,
+          30.790001000000004,
+          -6.599000000000004,
+          31.940000999999995
+        ],
+        "courtyard_xy_mm": [
+          -7.4140000000000015,
+          30.410000999999994,
+          -6.424000000000007,
+          32.320001000000005
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040210K0BEED",
+        "fab_outline_bounds_xy_mm": [
+          -7.239000000000004,
+          30.790001000000004,
+          -6.599000000000004,
+          31.940000999999995
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0805715KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 715000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        2.1,
+        1.4
+      ],
+      "domain": "body",
+      "ref": "R43",
+      "schematic_value": "715k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0805_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R43",
+        "xy_mm": [
+          3.05,
+          31.75
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          1.9999999999999998,
+          31.05,
+          4.1,
+          32.45
+        ],
+        "courtyard_xy_mm": [
+          1.5750000000000028,
+          30.825000000000003,
+          4.525000000000006,
+          32.675
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0805715KBEEA",
+        "fab_outline_bounds_xy_mm": [
+          2.0250000000000057,
+          31.099999999999994,
+          4.075000000000003,
+          32.400000000000006
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.4
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0603110KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 110000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R44",
+      "schematic_value": "110k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R44",
+        "xy_mm": [
+          -7.925001,
+          33.210001
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -8.400001,
+          32.360001,
+          -7.450001,
+          34.060001
+        ],
+        "courtyard_xy_mm": [
+          -8.650001000000003,
+          31.935001,
+          -7.200001,
+          34.485001
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0603110KBEEA",
+        "fab_outline_bounds_xy_mm": [
+          -8.375000999999997,
+          32.385001,
+          -7.475001000000006,
+          34.035000999999994
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0603200KBEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 200000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "body",
+      "ref": "R45",
+      "schematic_value": "200k 0.1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R45",
+        "xy_mm": [
+          7.66,
+          33.380001
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          7.1850000000000005,
+          32.530001,
+          8.135,
+          34.230001
+        ],
+        "courtyard_xy_mm": [
+          6.935000000000002,
+          32.105001,
+          8.385000000000005,
+          34.655001
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0603200KBEEA",
+        "fab_outline_bounds_xy_mm": [
+          7.209999999999994,
+          32.555001000000004,
+          8.11,
+          34.205000999999996
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW040211K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 11000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R46",
+      "schematic_value": "11k 1%",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R46",
+        "xy_mm": [
+          -8.155,
+          51.310001
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -8.474999999999994,
+          50.735001,
+          -7.834999999999994,
+          51.885001
+        ],
+        "courtyard_xy_mm": [
+          -8.650000000000006,
+          50.355001,
+          -7.659999999999997,
+          52.265001
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040211K0BEED",
+        "fab_outline_bounds_xy_mm": [
+          -8.474999999999994,
+          50.735001,
+          -7.834999999999994,
+          51.885001
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW04021K00BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 1000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R47",
+      "schematic_value": "1k 1%",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R47",
+        "xy_mm": [
+          -8.155,
+          47.47
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -8.474999999999994,
+          46.894999999999996,
+          -7.834999999999994,
+          48.045
+        ],
+        "courtyard_xy_mm": [
+          -8.650000000000006,
+          46.515,
+          -7.659999999999997,
+          48.425
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW04021K00BEED",
+        "fab_outline_bounds_xy_mm": [
+          -8.474999999999994,
+          46.894999999999996,
+          -7.834999999999994,
+          48.045
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW0402100KBEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 100000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "body",
+      "ref": "R48",
+      "schematic_value": "100k 1%",
+      "footprint": "PrototypeR0:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R48",
+        "xy_mm": [
+          7.69,
+          37.32
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          7.114999999999995,
+          37.0,
+          8.265,
+          37.64
+        ],
+        "courtyard_xy_mm": [
+          6.734999999999999,
+          36.825,
+          8.644999999999996,
+          37.815
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW0402100KBEED",
+        "fab_outline_bounds_xy_mm": [
+          7.114999999999995,
+          37.0,
+          8.265,
+          37.64
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TPS3700DDCR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+      "maximum_height_mm": 1.1,
+      "domain": "body",
+      "ref": "U8",
+      "schematic_value": "TPS3700DDCR",
+      "footprint": "PrototypeR0:TSOT-23-6",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U8",
+        "xy_mm": [
+          -5.025,
+          28.325
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -6.525000000000006,
+          27.474999999999994,
+          -3.5250000000000057,
+          29.174999999999997
+        ],
+        "courtyard_xy_mm": [
+          -6.75,
+          26.25,
+          -3.299999999999997,
+          30.400000000000006
+        ],
+        "height_budget_mm": 1.1,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TPS3700DDCR"
+      }
+    },
+    {
+      "mpn": "TPS3808G33DBVR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "maximum_height_mm": 1.45,
+      "domain": "body",
+      "ref": "U9",
+      "schematic_value": "TPS3808G33DBVR",
+      "footprint": "PrototypeR0:SOT-23-6",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U9",
+        "xy_mm": [
+          -1.565,
+          28.325
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -3.0649999999999977,
+          27.474999999999994,
+          -0.06499999999999773,
+          29.174999999999997
+        ],
+        "courtyard_xy_mm": [
+          -3.2900000000000063,
+          26.25,
+          0.1599999999999966,
+          30.400000000000006
+        ],
+        "height_budget_mm": 1.45,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TPS3808G33DBVR"
+      }
+    },
+    {
+      "mpn": "SM10B-SRSS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "maximum_height_mm": 2.95,
+      "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+      "domain": "body",
+      "ref": "J6",
+      "schematic_value": "SM10B-SRSS-TB candidate",
+      "footprint": "PrototypeR0:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "J6",
+        "xy_mm": [
+          0.0,
+          31.0
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -6.049999999999997,
+          28.375,
+          6.049999999999997,
+          32.724999999999994
+        ],
+        "courtyard_xy_mm": [
+          -6.924999999999997,
+          27.694999999999993,
+          6.924999999999997,
+          34.30500000000001
+        ],
+        "height_budget_mm": 3.2,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "SM10B-SRSS-TB(LF)(SN)"
+      }
+    },
+    {
+      "mpn": "B140HW-7",
+      "manufacturer": "Diodes Incorporated",
+      "manufacturer_source": "https://www.diodes.com/datasheet/download/B140HW.pdf",
+      "maximum_height_mm": 1.35,
+      "assembly_note": "Custom footprint uses logical pad1 ANODE /pad2 CATHODE. Physical cathode stripe goes at the CAD cathode bar/pad2; do not assume generic diode pad1 numbering.",
+      "domain": "flange",
+      "ref": "D1",
+      "schematic_value": "Schottky 1A/20V candidate",
+      "footprint": "PrototypeR0:Diodes_B140HW_SOD123_A1_K2",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "D1",
+        "xy_mm": [
+          -17.18,
+          -17.2
+        ],
+        "back": false,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          -18.629999999999995,
+          -18.150000000000006,
+          -15.730000000000004,
+          -16.25
+        ],
+        "courtyard_xy_mm": [
+          -19.555000000000007,
+          -18.375,
+          -14.805000000000007,
+          -16.025000000000006
+        ],
+        "height_budget_mm": 1.35,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "B140HW-7"
+      }
+    },
+    {
+      "mpn": "1206L050YR",
+      "manufacturer": "Littelfuse",
+      "manufacturer_source": "https://www.littelfuse.com/assetdocs/resettable-ptcs-1206l-datasheet?assetguid=2b6a1515-d4ee-4c83-8bd4-152b4901b8f5",
+      "maximum_height_mm": 0.75,
+      "assembly_note": "500mA hold PTC, not a precise current limiter. Use6V variant matching this exact part/height, not a taller alternate.",
+      "domain": "flange",
+      "ref": "F1",
+      "schematic_value": "PTC 500mA candidate",
+      "footprint": "PrototypeR0:Fuse_1206_3216Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "F1",
+        "xy_mm": [
+          -21.97,
+          -17.2
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -23.620000000000005,
+          -18.05000000000001,
+          -20.319999999999993,
+          -16.349999999999994
+        ],
+        "courtyard_xy_mm": [
+          -24.275000000000006,
+          -18.345,
+          -19.665000000000006,
+          -16.055000000000007
+        ],
+        "height_budget_mm": 0.75,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "1206L050YR"
+      }
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Four hand-solder fixed-contact loom lands.",
+      "maximum_height_mm": 0,
+      "domain": "flange",
+      "ref": "J1",
+      "schematic_value": "FIXED CONTACT TARGETS GND DM DP 5V",
+      "footprint": "EVT1:Contact_Loom_4Land",
+      "native_geometry": {
+        "ref": "J1",
+        "xy_mm": [
+          -24.7,
+          -24.15
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -25.599999999999994,
+          -25.05000000000001,
+          -16.299999999999997,
+          -23.25
+        ],
+        "courtyard_xy_mm": [
+          -25.599999999999994,
+          -25.05000000000001,
+          -16.299999999999997,
+          -23.25
+        ],
+        "height_budget_mm": 1.25,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": null
+      }
+    },
+    {
+      "mpn": "TNPW040222R0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 22.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "flange",
+      "ref": "R75",
+      "schematic_value": "22R",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R75",
+        "xy_mm": [
+          -17.5,
+          -11.3
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -17.819999999999993,
+          -11.875,
+          -17.180000000000007,
+          -10.724999999999994
+        ],
+        "courtyard_xy_mm": [
+          -17.995000000000005,
+          -12.254999999999995,
+          -17.004999999999995,
+          -10.344999999999999
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040222R0BEED",
+        "fab_outline_bounds_xy_mm": [
+          -17.819999999999993,
+          -11.875,
+          -17.180000000000007,
+          -10.724999999999994
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW040222R0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 22.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "flange",
+      "ref": "R76",
+      "schematic_value": "22R",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R76",
+        "xy_mm": [
+          -13.6,
+          -11.3
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -13.920000000000002,
+          -11.875,
+          -13.280000000000001,
+          -10.724999999999994
+        ],
+        "courtyard_xy_mm": [
+          -14.094999999999999,
+          -12.254999999999995,
+          -13.105000000000004,
+          -10.344999999999999
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040222R0BEED",
+        "fab_outline_bounds_xy_mm": [
+          -13.920000000000002,
+          -11.875,
+          -13.280000000000001,
+          -10.724999999999994
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "USBLC6-2SC6",
+      "manufacturer": "STMicroelectronics",
+      "manufacturer_source": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "maximum_height_mm": 1.45,
+      "domain": "flange",
+      "ref": "U75",
+      "schematic_value": "USBLC6-2SC6",
+      "footprint": "EVT1:SOT-23-6",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U75",
+        "xy_mm": [
+          -23.3,
+          -27.2
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -24.150000000000006,
+          -28.69999999999999,
+          -22.450000000000003,
+          -25.69999999999999
+        ],
+        "courtyard_xy_mm": [
+          -25.375,
+          -28.92500000000001,
+          -21.224999999999994,
+          -25.474999999999994
+        ],
+        "height_budget_mm": 1.45,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "USBLC6-2SC6"
+      }
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23",
+      "maximum_height_mm": 1.35,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 10,
+      "tolerance_percent": 10,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.1,
+        1.35
+      ],
+      "domain": "flange",
+      "ref": "C31",
+      "schematic_value": "10uF 10V",
+      "footprint": "PrototypeR0:Murata_GRM21_0805_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C31",
+        "xy_mm": [
+          -36.1,
+          -21.5
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -36.775,
+          -22.55,
+          -35.425000000000004,
+          -20.45
+        ],
+        "courtyard_xy_mm": [
+          -37.025,
+          -23.07499999999999,
+          -35.175,
+          -19.92500000000001
+        ],
+        "height_budget_mm": 1.35,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM21BR61A106KE19L",
+        "fab_outline_bounds_xy_mm": [
+          -36.75,
+          -22.525000000000006,
+          -35.45,
+          -20.474999999999994
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.35
+        ]
+      }
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "flange",
+      "ref": "C32",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C32",
+        "xy_mm": [
+          -36.0,
+          -24.4
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -36.45,
+          -25.25,
+          -35.55,
+          -23.549999999999997
+        ],
+        "courtyard_xy_mm": [
+          -36.675,
+          -25.67500000000001,
+          -35.325,
+          -23.125
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM188R71C104KA01D",
+        "fab_outline_bounds_xy_mm": [
+          -36.425,
+          -25.224999999999994,
+          -35.575,
+          -23.57499999999999
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": "C1608X7R1E105K080AB",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-06,
+      "rated_voltage_V": 25,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "flange",
+      "ref": "C33",
+      "schematic_value": "1uF",
+      "footprint": "PrototypeR0:TDK_C1608_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C33",
+        "xy_mm": [
+          -30.1,
+          -24.4
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -30.950000000000003,
+          -24.849999999999998,
+          -29.25,
+          -23.95
+        ],
+        "courtyard_xy_mm": [
+          -31.375,
+          -25.07499999999999,
+          -28.825000000000003,
+          -23.724999999999994
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "C1608X7R1E105K080AB",
+        "fab_outline_bounds_xy_mm": [
+          -30.924999999999997,
+          -24.82499999999999,
+          -29.275000000000006,
+          -23.974999999999994
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23",
+      "maximum_height_mm": 0.9,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.7,
+        0.9
+      ],
+      "domain": "flange",
+      "ref": "C34",
+      "schematic_value": "100nF",
+      "footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C34",
+        "xy_mm": [
+          -14.6,
+          -23.6
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -15.049999999999999,
+          -24.450000000000003,
+          -14.15,
+          -22.75
+        ],
+        "courtyard_xy_mm": [
+          -15.275000000000006,
+          -24.875,
+          -13.924999999999997,
+          -22.32499999999999
+        ],
+        "height_budget_mm": 0.9,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM188R71C104KA01D",
+        "fab_outline_bounds_xy_mm": [
+          -15.025000000000006,
+          -24.42500000000001,
+          -14.174999999999997,
+          -22.775000000000006
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.9
+        ]
+      }
+    },
+    {
+      "mpn": "SM06B-SRSS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "maximum_height_mm": 2.95,
+      "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+      "domain": "flange",
+      "ref": "J4",
+      "schematic_value": "SERVICE_USB_BOOT",
+      "footprint": "PrototypeR0:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "J4",
+        "xy_mm": [
+          -19.4,
+          -22.0
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -23.450000000000003,
+          -24.625,
+          -15.349999999999994,
+          -20.275000000000006
+        ],
+        "courtyard_xy_mm": [
+          -24.325000000000003,
+          -25.305000000000007,
+          -14.474999999999994,
+          -18.694999999999993
+        ],
+        "height_budget_mm": 2.95,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "SM06B-SRSS-TB(LF)(SN)"
+      }
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R31",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R31",
+        "xy_mm": [
+          -27.0,
+          -24.4
+        ],
+        "back": true,
+        "angle_deg": 180.0,
+        "fab_bounds_xy_mm": [
+          -27.85,
+          -24.875,
+          -26.15,
+          -23.924999999999997
+        ],
+        "courtyard_xy_mm": [
+          -28.275000000000006,
+          -25.125,
+          -25.724999999999994,
+          -23.67500000000001
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW060310K0BEEA",
+        "fab_outline_bounds_xy_mm": [
+          -27.825000000000003,
+          -24.849999999999994,
+          -26.174999999999997,
+          -23.94999999999999
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R32",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R32",
+        "xy_mm": [
+          -30.1,
+          -22.99
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -30.950000000000003,
+          -23.465,
+          -29.25,
+          -22.514999999999997
+        ],
+        "courtyard_xy_mm": [
+          -31.375,
+          -23.715000000000003,
+          -28.825000000000003,
+          -22.264999999999986
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW060310K0BEEA",
+        "fab_outline_bounds_xy_mm": [
+          -30.924999999999997,
+          -23.439999999999998,
+          -29.275000000000006,
+          -22.539999999999992
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R33",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R33",
+        "xy_mm": [
+          -33.57,
+          -24.36
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -34.045,
+          -25.21,
+          -33.095,
+          -23.509999999999998
+        ],
+        "courtyard_xy_mm": [
+          -34.295,
+          -25.63499999999999,
+          -32.845,
+          -23.085000000000008
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW060310K0BEEA",
+        "fab_outline_bounds_xy_mm": [
+          -34.019999999999996,
+          -25.185000000000002,
+          -33.120000000000005,
+          -23.534999999999997
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R34",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R34",
+        "xy_mm": [
+          -14.9,
+          -14.1
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -15.375,
+          -14.95,
+          -14.425,
+          -13.25
+        ],
+        "courtyard_xy_mm": [
+          -15.625,
+          -15.375,
+          -14.174999999999997,
+          -12.824999999999989
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW060310K0BEEA",
+        "fab_outline_bounds_xy_mm": [
+          -15.349999999999994,
+          -14.925000000000011,
+          -14.450000000000003,
+          -13.275000000000006
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R35",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R35",
+        "xy_mm": [
+          -28.0,
+          -20.98
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -28.475,
+          -21.830000000000002,
+          -27.525,
+          -20.13
+        ],
+        "courtyard_xy_mm": [
+          -28.724999999999994,
+          -22.254999999999995,
+          -27.275000000000006,
+          -19.705000000000013
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW060310K0BEEA",
+        "fab_outline_bounds_xy_mm": [
+          -28.450000000000003,
+          -21.805000000000007,
+          -27.549999999999997,
+          -20.155
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW060310K0BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R36",
+      "schematic_value": "10k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R36",
+        "xy_mm": [
+          -31.7,
+          -20.98
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -32.175,
+          -21.830000000000002,
+          -31.224999999999998,
+          -20.13
+        ],
+        "courtyard_xy_mm": [
+          -32.425,
+          -22.254999999999995,
+          -30.974999999999994,
+          -19.705000000000013
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW060310K0BEEA",
+        "fab_outline_bounds_xy_mm": [
+          -32.150000000000006,
+          -21.805000000000007,
+          -31.25,
+          -20.155
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW06034K70BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 4700.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R37",
+      "schematic_value": "4.7k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R37",
+        "xy_mm": [
+          -29.46,
+          -20.71
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -29.935000000000002,
+          -21.560000000000002,
+          -28.985,
+          -19.86
+        ],
+        "courtyard_xy_mm": [
+          -30.185000000000002,
+          -21.985000000000014,
+          -28.735,
+          -19.435000000000002
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW06034K70BEEA",
+        "fab_outline_bounds_xy_mm": [
+          -29.909999999999997,
+          -21.534999999999997,
+          -29.010000000000005,
+          -19.88499999999999
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW06034K70BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 4700.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.7,
+        0.95
+      ],
+      "domain": "flange",
+      "ref": "R38",
+      "schematic_value": "4.7k",
+      "footprint": "PrototypeR0:Vishay_TNPW0603_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R38",
+        "xy_mm": [
+          -32.11,
+          -24.36
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -32.585,
+          -25.21,
+          -31.634999999999998,
+          -23.509999999999998
+        ],
+        "courtyard_xy_mm": [
+          -32.834999999999994,
+          -25.63499999999999,
+          -31.385000000000005,
+          -23.085000000000008
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW06034K70BEEA",
+        "fab_outline_bounds_xy_mm": [
+          -32.56,
+          -25.185000000000002,
+          -31.659999999999997,
+          -23.534999999999997
+        ],
+        "maximum_body_xy_mm": [
+          1.7,
+          0.95
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW08051M00BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 1000000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        2.1,
+        1.4
+      ],
+      "domain": "flange",
+      "ref": "R39",
+      "schematic_value": "1.00M 1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0805_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R39",
+        "xy_mm": [
+          -14.0,
+          -26.7
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -14.7,
+          -27.75,
+          -13.3,
+          -25.65
+        ],
+        "courtyard_xy_mm": [
+          -14.924999999999997,
+          -28.17500000000001,
+          -13.075000000000003,
+          -25.224999999999994
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW08051M00BEEA",
+        "fab_outline_bounds_xy_mm": [
+          -14.650000000000006,
+          -27.724999999999994,
+          -13.349999999999994,
+          -25.67500000000001
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.4
+        ]
+      }
+    },
+    {
+      "mpn": "TNPW08051M00BEEA",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 1000000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        2.1,
+        1.4
+      ],
+      "domain": "flange",
+      "ref": "R40",
+      "schematic_value": "1.00M 1%",
+      "footprint": "PrototypeR0:Vishay_TNPW0805_IEC_Reflow",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R40",
+        "xy_mm": [
+          -17.1,
+          -26.1
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -18.150000000000002,
+          -26.8,
+          -16.05,
+          -25.400000000000002
+        ],
+        "courtyard_xy_mm": [
+          -18.575000000000003,
+          -27.025000000000006,
+          -15.625,
+          -25.17500000000001
+        ],
+        "height_budget_mm": 0.55,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW08051M00BEEA",
+        "fab_outline_bounds_xy_mm": [
+          -18.125,
+          -26.75,
+          -16.075000000000003,
+          -25.44999999999999
+        ],
+        "maximum_body_xy_mm": [
+          2.1,
+          1.4
+        ]
+      }
+    },
+    {
+      "mpn": "B3U-1000P",
+      "manufacturer": "Omron",
+      "manufacturer_source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+      "maximum_height_mm": 1.75,
+      "domain": "flange",
+      "ref": "SW1",
+      "schematic_value": "POWER / momentary",
+      "footprint": "PrototypeR0:SW_SPST_B3U-1000P",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "SW1",
+        "xy_mm": [
+          -22.85,
+          -14.0
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -24.400000000000006,
+          -15.300000000000011,
+          -21.299999999999997,
+          -12.699999999999989
+        ],
+        "courtyard_xy_mm": [
+          -25.275000000000006,
+          -15.675000000000011,
+          -20.424999999999997,
+          -12.324999999999989
+        ],
+        "height_budget_mm": 1.75,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "B3U-1000P"
+      }
+    },
+    {
+      "mpn": "B3U-1000P",
+      "manufacturer": "Omron",
+      "manufacturer_source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf",
+      "maximum_height_mm": 1.75,
+      "domain": "flange",
+      "ref": "SW2",
+      "schematic_value": "MODE / momentary",
+      "footprint": "PrototypeR0:SW_SPST_B3U-1000P",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "SW2",
+        "xy_mm": [
+          -16.85,
+          -14.0
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -18.400000000000006,
+          -15.300000000000011,
+          -15.299999999999997,
+          -12.699999999999989
+        ],
+        "courtyard_xy_mm": [
+          -19.275000000000006,
+          -15.675000000000011,
+          -14.424999999999997,
+          -12.324999999999989
+        ],
+        "height_budget_mm": 1.75,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "B3U-1000P"
+      }
+    },
+    {
+      "mpn": "ESP32-C3-MINI-1-N4X",
+      "manufacturer": "Espressif",
+      "manufacturer_source": "https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html",
+      "maximum_height_mm": 2.55,
+      "assembly_note": "Preserve four-layer copper/antenna keepout. Quote stencil/ground-pad process using the native custom53-pad footprint.",
+      "domain": "flange",
+      "ref": "U6",
+      "schematic_value": "ESP32-C3-MINI-1-N4X candidate",
+      "footprint": "PrototypeR0:Espressif_ESP32-C3-MINI-1_53Pads",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U6",
+        "xy_mm": [
+          -31.7,
+          -18.5
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -42.75,
+          -25.150000000000006,
+          -26.049999999999997,
+          -11.849999999999994
+        ],
+        "courtyard_xy_mm": [
+          -43.125,
+          -25.525000000000006,
+          -25.674999999999997,
+          -11.474999999999994
+        ],
+        "height_budget_mm": 2.55,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "ESP32-C3-MINI-1-N4X"
+      }
+    },
+    {
+      "mpn": "SM10B-SRSS-TB(LF)(SN)",
+      "manufacturer": "JST",
+      "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "maximum_height_mm": 2.95,
+      "assembly_note": "Board header only. Order matching SHR housings/SSH terminals or qualified precrimp leads separately; flange ends are housed only after feeding free terminals through the neck.",
+      "domain": "flange",
+      "ref": "J7",
+      "schematic_value": "SM10B-SRSS-TB candidate",
+      "footprint": "PrototypeR0:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "J7",
+        "xy_mm": [
+          -23.8,
+          -15.8
+        ],
+        "back": true,
+        "angle_deg": -90.0,
+        "fab_bounds_xy_mm": [
+          -25.525000000000006,
+          -21.849999999999994,
+          -21.174999999999997,
+          -9.75
+        ],
+        "courtyard_xy_mm": [
+          -27.105000000000004,
+          -22.724999999999994,
+          -20.495000000000005,
+          -8.875
+        ],
+        "height_budget_mm": 3.2,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "SM10B-SRSS-TB(LF)(SN)"
+      }
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "flange",
+      "ref": "C71",
+      "schematic_value": "100nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C71",
+        "xy_mm": [
+          -13.85,
+          -11.2
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -14.400000000000006,
+          -11.5,
+          -13.299999999999997,
+          -10.900000000000006
+        ],
+        "courtyard_xy_mm": [
+          -14.784999999999997,
+          -11.685000000000002,
+          -12.915000000000006,
+          -10.715000000000003
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM155R71C104KA88D",
+        "fab_outline_bounds_xy_mm": [
+          -14.400000000000006,
+          -11.5,
+          -13.299999999999997,
+          -10.900000000000006
+        ],
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ]
+      }
+    },
+    {
+      "mpn": "BAT54WS-E3-08",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+      "maximum_height_mm": 1.25,
+      "domain": "flange",
+      "ref": "D71",
+      "schematic_value": "BAT54WS-E3-08",
+      "footprint": "EVT1:D_SOD-323",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "D71",
+        "xy_mm": [
+          -31.5,
+          -15.0
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -32.45,
+          -15.75,
+          -30.549999999999997,
+          -14.25
+        ],
+        "courtyard_xy_mm": [
+          -33.125,
+          -15.974999999999994,
+          -29.875,
+          -14.025000000000006
+        ],
+        "height_budget_mm": 1.25,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "BAT54WS-E3-08"
+      }
+    },
+    {
+      "mpn": "BAT54WS-E3-08",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+      "maximum_height_mm": 1.25,
+      "domain": "flange",
+      "ref": "D72",
+      "schematic_value": "BAT54WS-E3-08",
+      "footprint": "EVT1:D_SOD-323",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "D72",
+        "xy_mm": [
+          -15.3,
+          -20.5
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -16.049999999999997,
+          -21.44999999999999,
+          -14.549999999999997,
+          -19.55000000000001
+        ],
+        "courtyard_xy_mm": [
+          -16.275000000000006,
+          -22.125,
+          -14.325000000000003,
+          -18.875
+        ],
+        "height_budget_mm": 1.25,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "BAT54WS-E3-08"
+      }
+    },
+    {
+      "mpn": "BAT54WS-E3-08",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/86465/bat54ws.pdf",
+      "maximum_height_mm": 1.25,
+      "domain": "flange",
+      "ref": "D73",
+      "schematic_value": "BAT54WS-E3-08",
+      "footprint": "EVT1:D_SOD-323",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "D73",
+        "xy_mm": [
+          -15.85,
+          -17.6
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -16.799999999999997,
+          -18.349999999999994,
+          -14.900000000000006,
+          -16.849999999999994
+        ],
+        "courtyard_xy_mm": [
+          -17.474999999999994,
+          -18.57499999999999,
+          -14.224999999999994,
+          -16.625
+        ],
+        "height_budget_mm": 1.25,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "BAT54WS-E3-08"
+      }
+    },
+    {
+      "mpn": "TNPW040210K0BEED",
+      "manufacturer": "Vishay",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_height_mm": 0.55,
+      "resistance_ohm": 10000.0,
+      "tolerance_percent": 0.1,
+      "maximum_body_xy_mm": [
+        1.1,
+        0.6
+      ],
+      "domain": "flange",
+      "ref": "R71",
+      "schematic_value": "10k",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "R71",
+        "xy_mm": [
+          -18.0,
+          -11.3
+        ],
+        "back": true,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          -18.319999999999993,
+          -11.875,
+          -17.680000000000007,
+          -10.724999999999994
+        ],
+        "courtyard_xy_mm": [
+          -18.495000000000005,
+          -12.254999999999995,
+          -17.504999999999995,
+          -10.344999999999999
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TNPW040210K0BEED",
+        "fab_outline_bounds_xy_mm": [
+          -18.319999999999993,
+          -11.875,
+          -17.680000000000007,
+          -10.724999999999994
+        ],
+        "maximum_body_xy_mm": [
+          1.1,
+          0.6
+        ]
+      }
+    },
+    {
+      "mpn": "TPS3422EGDRYR",
+      "manufacturer": "Texas Instruments",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps3422.pdf",
+      "maximum_height_mm": 0.65,
+      "domain": "flange",
+      "ref": "U71",
+      "schematic_value": "TPS3422EGDRYR",
+      "footprint": "EVT1:Texas_USON-6_1x1.45mm_P0.5mm_SMD",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U71",
+        "xy_mm": [
+          -15.9,
+          -11.5
+        ],
+        "back": true,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          -16.450000000000003,
+          -12.275000000000006,
+          -15.349999999999994,
+          -10.724999999999994
+        ],
+        "courtyard_xy_mm": [
+          -16.674999999999997,
+          -12.504999999999995,
+          -15.125,
+          -10.495000000000005
+        ],
+        "height_budget_mm": 0.65,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "TPS3422EGDRYR"
+      }
+    },
+    {
+      "mpn": "GRM155R71C224KA12D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C224KA12%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 2.2e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "sensor",
+      "ref": "C81",
+      "schematic_value": "220nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C81",
+        "xy_mm": [
+          6.5,
+          2.6
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          5.950000000000003,
+          2.299999999999997,
+          7.049999999999997,
+          2.9000000000000057
+        ],
+        "courtyard_xy_mm": [
+          5.564999999999998,
+          2.114999999999995,
+          7.435000000000002,
+          3.0849999999999937
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM155R71C224KA12D",
+        "fab_outline_bounds_xy_mm": [
+          5.950000000000003,
+          2.299999999999997,
+          7.049999999999997,
+          2.9000000000000057
+        ],
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ]
+      }
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "sensor",
+      "ref": "C82",
+      "schematic_value": "100nF",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C82",
+        "xy_mm": [
+          8.7,
+          4.85
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          8.400000000000006,
+          4.299999999999997,
+          9.0,
+          5.400000000000006
+        ],
+        "courtyard_xy_mm": [
+          8.215000000000003,
+          3.9150000000000063,
+          9.185000000000002,
+          5.784999999999997
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM155R71C104KA88D",
+        "fab_outline_bounds_xy_mm": [
+          8.400000000000006,
+          4.299999999999997,
+          9.0,
+          5.400000000000006
+        ],
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ]
+      }
+    },
+    {
+      "mpn": "C2012X5R1E226M125AC",
+      "manufacturer": "TDK",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1E226M125AC",
+      "maximum_height_mm": 1.45,
+      "capacitance_F": 2.2e-05,
+      "rated_voltage_V": 25,
+      "tolerance_percent": 20,
+      "dielectric": "X5R",
+      "maximum_body_xy_mm": [
+        2.2,
+        1.45
+      ],
+      "assembly_note": "C83 incoming/process acceptance: >=10uF effective at3.3V over intended temperature/age. Nominal22uF and voltage rating alone are not acceptance; manufacturer curves are reference data.",
+      "domain": "sensor",
+      "ref": "C83",
+      "schematic_value": "22uF 10V / Ceff>=10uF at3V3",
+      "footprint": "EVT1:C_0805_2012Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C83",
+        "xy_mm": [
+          3.2,
+          4.4
+        ],
+        "back": false,
+        "angle_deg": 90.0,
+        "fab_bounds_xy_mm": [
+          2.475,
+          3.3000000000000003,
+          3.9250000000000003,
+          5.5
+        ],
+        "courtyard_xy_mm": [
+          2.194999999999993,
+          2.674999999999997,
+          4.204999999999998,
+          6.125
+        ],
+        "height_budget_mm": 1.45,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "C2012X5R1E226M125AC",
+        "fab_outline_bounds_xy_mm": [
+          2.5250000000000057,
+          3.3499999999999943,
+          3.875,
+          5.450000000000003
+        ],
+        "maximum_body_xy_mm": [
+          2.2,
+          1.45
+        ]
+      }
+    },
+    {
+      "mpn": "GRM155R71C104KA88D",
+      "manufacturer": "Murata",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_height_mm": 0.55,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "tolerance_percent": 10,
+      "dielectric": "X7R",
+      "maximum_body_xy_mm": [
+        1.05,
+        0.55
+      ],
+      "domain": "sensor",
+      "ref": "C84",
+      "schematic_value": "100nF / VDDIO local",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "C84",
+        "xy_mm": [
+          8.7,
+          6.9
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          8.150000000000006,
+          6.599999999999994,
+          9.25,
+          7.200000000000003
+        ],
+        "courtyard_xy_mm": [
+          7.765000000000001,
+          6.415000000000006,
+          9.635000000000005,
+          7.385000000000005
+        ],
+        "height_budget_mm": 0.6,
+        "scope": "Union of native Fab outline and selected centered part maximum XY; conservative height/hand-wire allowance, not OEM 3D",
+        "selected_mpn": "GRM155R71C104KA88D",
+        "fab_outline_bounds_xy_mm": [
+          8.150000000000006,
+          6.599999999999994,
+          9.25,
+          7.200000000000003
+        ],
+        "maximum_body_xy_mm": [
+          1.05,
+          0.55
+        ]
+      }
+    },
+    {
+      "mpn": null,
+      "manufacturer": null,
+      "purchase": false,
+      "assembly_note": "Four hand-solder sensor-loom lands; no plug/header.",
+      "maximum_height_mm": 0,
+      "domain": "sensor",
+      "ref": "J82",
+      "schematic_value": "TO BODY J81 / FIXED IN FLANGE",
+      "footprint": "EVT1:Sensor_Loom_4Land",
+      "native_geometry": {
+        "ref": "J82",
+        "xy_mm": [
+          3.5,
+          8.5
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          3.0,
+          8.0,
+          8.5,
+          9.0
+        ],
+        "courtyard_xy_mm": [
+          3.0,
+          8.0,
+          8.5,
+          9.0
+        ],
+        "height_budget_mm": 1.25,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": null
+      }
+    },
+    {
+      "mpn": "LSM303AGRTR",
+      "manufacturer": "STMicroelectronics",
+      "manufacturer_source": "https://www.st.com/resource/en/datasheet/lsm303agr.pdf",
+      "maximum_height_mm": 1.1,
+      "assembly_note": "Pin1 and fixed package orientation must match the native footprint. Do not rotate for convenience; board registers to the molded back arrow.",
+      "domain": "sensor",
+      "ref": "U81",
+      "schematic_value": "LSM303AGRTR",
+      "footprint": "EVT1:LGA-12_2x2mm_P0.5mm",
+      "purchase": true,
+      "native_geometry": {
+        "ref": "U81",
+        "xy_mm": [
+          6.5,
+          4.7
+        ],
+        "back": false,
+        "angle_deg": 0.0,
+        "fab_bounds_xy_mm": [
+          5.450000000000003,
+          3.6500000000000057,
+          7.549999999999997,
+          5.75
+        ],
+        "courtyard_xy_mm": [
+          5.224999999999994,
+          3.424999999999997,
+          7.775000000000006,
+          5.974999999999994
+        ],
+        "height_budget_mm": 1.1,
+        "scope": "Fab outline / conservative height or hand-wire allowance, not OEM 3D",
+        "selected_mpn": "LSM303AGRTR"
+      }
+    }
+  ],
+  "body_board_mutation": false,
+  "new_production_artwork": false
+}

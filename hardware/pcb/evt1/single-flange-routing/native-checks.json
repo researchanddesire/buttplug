@@ -1,0 +1,2665 @@
+{
+  "status": "pass: native merged39-part routed candidate, not a fabrication or powered release",
+  "board_sha256": "b03c5ad9541e2e10d8a9097ae05d14ded36d2ebb1534d0a0c33b38f99a64f2b1",
+  "native_KiCad_DRC_version": "10.0.8",
+  "DRC_violations": 0,
+  "unconnected_items": 0,
+  "ignored_checks": [],
+  "DRC_exclusions": [],
+  "native_refs": 39,
+  "mechanical_NPTH": 4,
+  "logical_terminal_contracts": 155,
+  "physical_pad_instances": 163,
+  "mechanical_hold_down_pads": 4,
+  "native_pad_contracts": [
+    {
+      "ref": "CT1",
+      "pad": "1",
+      "net": "GND",
+      "native_XY_mm": [
+        84.0,
+        90.0
+      ],
+      "product_XZ_mm": [
+        -16.0,
+        10.0
+      ],
+      "side": "F.Cu",
+      "uuid": "c43378fd-923c-4c77-bdff-1096f7668f71"
+    },
+    {
+      "ref": "CT4",
+      "pad": "1",
+      "net": "DOCK_5V",
+      "native_XY_mm": [
+        102.0,
+        90.0
+      ],
+      "product_XZ_mm": [
+        2.0,
+        10.0
+      ],
+      "side": "F.Cu",
+      "uuid": "b9c9e94d-7142-4cfe-ad67-18b9cecdb98f"
+    },
+    {
+      "ref": "SW2",
+      "pad": "1",
+      "net": "MODE_N",
+      "native_XY_mm": [
+        89.3,
+        100.0
+      ],
+      "product_XZ_mm": [
+        -10.7,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "58695d3a-ca4b-4073-a42b-ec71d34fc577"
+    },
+    {
+      "ref": "SW2",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        92.7,
+        100.0
+      ],
+      "product_XZ_mm": [
+        -7.3,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "af967c6f-74aa-4328-a59a-d2647fa7641a"
+    },
+    {
+      "ref": "SW1",
+      "pad": "1",
+      "net": "POWER_SWITCH_N",
+      "native_XY_mm": [
+        81.3,
+        100.0
+      ],
+      "product_XZ_mm": [
+        -18.7,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "78352f8d-ed55-4445-afc5-c8379776ee69"
+    },
+    {
+      "ref": "SW1",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        84.7,
+        100.0
+      ],
+      "product_XZ_mm": [
+        -15.3,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "c4cc1f07-6570-4ad4-b7cf-4dae71939925"
+    },
+    {
+      "ref": "CT3",
+      "pad": "1",
+      "net": "USB_DP_CONTACT",
+      "native_XY_mm": [
+        96.0,
+        90.0
+      ],
+      "product_XZ_mm": [
+        -4.0,
+        10.0
+      ],
+      "side": "F.Cu",
+      "uuid": "ccf6b3df-ba79-429c-aca9-b99a6fb422f1"
+    },
+    {
+      "ref": "CT2",
+      "pad": "1",
+      "net": "USB_DM_CONTACT",
+      "native_XY_mm": [
+        90.0,
+        90.0
+      ],
+      "product_XZ_mm": [
+        -10.0,
+        10.0
+      ],
+      "side": "F.Cu",
+      "uuid": "19be00e2-6a15-4095-9cf3-9513747322e3"
+    },
+    {
+      "ref": "U71",
+      "pad": "1",
+      "net": "MCU_EN",
+      "native_XY_mm": [
+        98.725,
+        107.5
+      ],
+      "product_XZ_mm": [
+        -1.275,
+        -7.5
+      ],
+      "side": "F.Cu",
+      "uuid": "641533eb-cd8a-4ec4-9bb7-bf1b68229e16"
+    },
+    {
+      "ref": "U71",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        98.7,
+        107.0
+      ],
+      "product_XZ_mm": [
+        -1.3,
+        -7.0
+      ],
+      "side": "F.Cu",
+      "uuid": "8dc368ab-7018-4e82-8e5d-44d3e66fa3b7"
+    },
+    {
+      "ref": "U71",
+      "pad": "3",
+      "net": "POWER_SWITCH_N",
+      "native_XY_mm": [
+        98.7,
+        106.5
+      ],
+      "product_XZ_mm": [
+        -1.3,
+        -6.5
+      ],
+      "side": "F.Cu",
+      "uuid": "832dfa9c-dd0c-416f-b800-31bc944fa3a8"
+    },
+    {
+      "ref": "U71",
+      "pad": "4",
+      "net": "3V3",
+      "native_XY_mm": [
+        99.3,
+        106.5
+      ],
+      "product_XZ_mm": [
+        -0.7,
+        -6.5
+      ],
+      "side": "F.Cu",
+      "uuid": "5226ccf8-2c99-4979-9027-b00e9d176902"
+    },
+    {
+      "ref": "U71",
+      "pad": "5",
+      "net": "GND",
+      "native_XY_mm": [
+        99.3,
+        107.0
+      ],
+      "product_XZ_mm": [
+        -0.7,
+        -7.0
+      ],
+      "side": "F.Cu",
+      "uuid": "bc6482d6-17d8-450f-9f5a-995b1840c3ec"
+    },
+    {
+      "ref": "U71",
+      "pad": "6",
+      "net": "GND",
+      "native_XY_mm": [
+        99.3,
+        107.5
+      ],
+      "product_XZ_mm": [
+        -0.7,
+        -7.5
+      ],
+      "side": "F.Cu",
+      "uuid": "76fbdd4b-12ea-4fe9-9e5e-7cd63dc6b69b"
+    },
+    {
+      "ref": "F1",
+      "pad": "1",
+      "net": "DOCK_5V",
+      "native_XY_mm": [
+        102.6,
+        95.0
+      ],
+      "product_XZ_mm": [
+        2.6,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "81383207-f3c5-4a9c-88d8-f93bae6ce08f"
+    },
+    {
+      "ref": "F1",
+      "pad": "2",
+      "net": "DOCK_FUSED",
+      "native_XY_mm": [
+        105.4,
+        95.0
+      ],
+      "product_XZ_mm": [
+        5.4,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "dee2a289-7963-4b58-a5da-9431707735f9"
+    },
+    {
+      "ref": "R36",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        87.275,
+        98.0
+      ],
+      "product_XZ_mm": [
+        -12.725,
+        2.0
+      ],
+      "side": "F.Cu",
+      "uuid": "8b6c09db-1ef4-4c25-b03b-50e28874028f"
+    },
+    {
+      "ref": "R36",
+      "pad": "2",
+      "net": "MODE_N",
+      "native_XY_mm": [
+        88.725,
+        98.0
+      ],
+      "product_XZ_mm": [
+        -11.275,
+        2.0
+      ],
+      "side": "F.Cu",
+      "uuid": "abce6045-d952-4480-bb5c-5e4cc0a0be7a"
+    },
+    {
+      "ref": "R75",
+      "pad": "1",
+      "net": "USB_DM_CONTACT",
+      "native_XY_mm": [
+        81.71,
+        96.5
+      ],
+      "product_XZ_mm": [
+        -18.29,
+        3.5
+      ],
+      "side": "F.Cu",
+      "uuid": "78d7c5d5-f7f9-457f-a88d-e67964502cad"
+    },
+    {
+      "ref": "R75",
+      "pad": "2",
+      "net": "USB_DM",
+      "native_XY_mm": [
+        80.69,
+        96.5
+      ],
+      "product_XZ_mm": [
+        -19.31,
+        3.5
+      ],
+      "side": "F.Cu",
+      "uuid": "1e6605b3-5d70-4cf7-8ff1-e2cf9d888b4f"
+    },
+    {
+      "ref": "D71",
+      "pad": "1",
+      "net": "POWER_SWITCH_N",
+      "native_XY_mm": [
+        105.95,
+        106.0
+      ],
+      "product_XZ_mm": [
+        5.95,
+        -6.0
+      ],
+      "side": "F.Cu",
+      "uuid": "ace173d4-edef-42b0-a2a2-4782a0f39432"
+    },
+    {
+      "ref": "D71",
+      "pad": "2",
+      "net": "POWER_N",
+      "native_XY_mm": [
+        108.05,
+        106.0
+      ],
+      "product_XZ_mm": [
+        8.05,
+        -6.0
+      ],
+      "side": "F.Cu",
+      "uuid": "56d4d6f7-fe97-4e21-8ef8-1ad6da109ba3"
+    },
+    {
+      "ref": "U75",
+      "pad": "1",
+      "net": "USB_DM_CONTACT",
+      "native_XY_mm": [
+        105.1625,
+        91.95
+      ],
+      "product_XZ_mm": [
+        5.1625,
+        8.05
+      ],
+      "side": "F.Cu",
+      "uuid": "632008f0-3cf3-4656-a269-ed87a139ce16"
+    },
+    {
+      "ref": "U75",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        105.1625,
+        91.0
+      ],
+      "product_XZ_mm": [
+        5.1625,
+        9.0
+      ],
+      "side": "F.Cu",
+      "uuid": "10efd294-38f3-4e5b-bc92-d867f88216fb"
+    },
+    {
+      "ref": "U75",
+      "pad": "3",
+      "net": "USB_DP_CONTACT",
+      "native_XY_mm": [
+        105.1625,
+        90.05
+      ],
+      "product_XZ_mm": [
+        5.1625,
+        9.95
+      ],
+      "side": "F.Cu",
+      "uuid": "6a67a510-1701-4533-b158-6d915d3695e0"
+    },
+    {
+      "ref": "U75",
+      "pad": "4",
+      "net": "USB_DP_CONTACT",
+      "native_XY_mm": [
+        107.4375,
+        90.05
+      ],
+      "product_XZ_mm": [
+        7.4375,
+        9.95
+      ],
+      "side": "F.Cu",
+      "uuid": "3e9124a0-d604-4fcd-9b2b-36200be3d1ac"
+    },
+    {
+      "ref": "U75",
+      "pad": "5",
+      "net": "DOCK_5V",
+      "native_XY_mm": [
+        107.4375,
+        91.0
+      ],
+      "product_XZ_mm": [
+        7.4375,
+        9.0
+      ],
+      "side": "F.Cu",
+      "uuid": "b3dafbcd-be7d-434e-aa73-9b402e9f5f26"
+    },
+    {
+      "ref": "U75",
+      "pad": "6",
+      "net": "USB_DM_CONTACT",
+      "native_XY_mm": [
+        107.4375,
+        91.95
+      ],
+      "product_XZ_mm": [
+        7.4375,
+        8.05
+      ],
+      "side": "F.Cu",
+      "uuid": "e5de5b13-5d58-4fe5-9298-a373e4ac38d6"
+    },
+    {
+      "ref": "R33",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        87.275,
+        95.0
+      ],
+      "product_XZ_mm": [
+        -12.725,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "3ebac2fc-1c4d-4519-8a51-df36126241d3"
+    },
+    {
+      "ref": "R33",
+      "pad": "2",
+      "net": "STRAP8",
+      "native_XY_mm": [
+        88.725,
+        95.0
+      ],
+      "product_XZ_mm": [
+        -11.275,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "8129d736-56cf-4180-b58a-39195166e4ba"
+    },
+    {
+      "ref": "C31",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        67.6,
+        91.95
+      ],
+      "product_XZ_mm": [
+        -32.4,
+        8.05
+      ],
+      "side": "F.Cu",
+      "uuid": "9db3e19d-5126-4484-a1dc-0e848337d72d"
+    },
+    {
+      "ref": "C31",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        67.6,
+        90.05
+      ],
+      "product_XZ_mm": [
+        -32.4,
+        9.95
+      ],
+      "side": "F.Cu",
+      "uuid": "67551173-fdc9-422d-b911-a9c016188e39"
+    },
+    {
+      "ref": "J4",
+      "pad": "1",
+      "net": "GND",
+      "native_XY_mm": [
+        87.0,
+        106.0
+      ],
+      "product_XZ_mm": [
+        -13.0,
+        -6.0
+      ],
+      "side": "F.Cu",
+      "uuid": "97e91a6f-0402-4e7f-9558-64a3e51b8966"
+    },
+    {
+      "ref": "J4",
+      "pad": "2",
+      "net": "USB_DM",
+      "native_XY_mm": [
+        86.0,
+        106.0
+      ],
+      "product_XZ_mm": [
+        -14.0,
+        -6.0
+      ],
+      "side": "F.Cu",
+      "uuid": "7ccbadce-7836-4844-9a0f-f9d1cdab96c8"
+    },
+    {
+      "ref": "J4",
+      "pad": "3",
+      "net": "USB_DP",
+      "native_XY_mm": [
+        85.0,
+        106.0
+      ],
+      "product_XZ_mm": [
+        -15.0,
+        -6.0
+      ],
+      "side": "F.Cu",
+      "uuid": "fca990a0-11b1-4cfe-beae-91786face2c6"
+    },
+    {
+      "ref": "J4",
+      "pad": "4",
+      "net": "MCU_EN",
+      "native_XY_mm": [
+        84.0,
+        106.0
+      ],
+      "product_XZ_mm": [
+        -16.0,
+        -6.0
+      ],
+      "side": "F.Cu",
+      "uuid": "f4081df9-e51d-4d37-875d-2f3be89a77cc"
+    },
+    {
+      "ref": "J4",
+      "pad": "5",
+      "net": "BOOT_N",
+      "native_XY_mm": [
+        83.0,
+        106.0
+      ],
+      "product_XZ_mm": [
+        -17.0,
+        -6.0
+      ],
+      "side": "F.Cu",
+      "uuid": "7760c3bc-479b-420d-8e80-71f9fb681231"
+    },
+    {
+      "ref": "J4",
+      "pad": "6",
+      "net": "UART_TX",
+      "native_XY_mm": [
+        82.0,
+        106.0
+      ],
+      "product_XZ_mm": [
+        -18.0,
+        -6.0
+      ],
+      "side": "F.Cu",
+      "uuid": "6019b258-0b4e-4b1f-a99b-c35c5a5c411f"
+    },
+    {
+      "ref": "C71",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        98.52,
+        109.0
+      ],
+      "product_XZ_mm": [
+        -1.48,
+        -9.0
+      ],
+      "side": "F.Cu",
+      "uuid": "62528c3d-1d44-42bf-a7f7-6d2c1f7b1479"
+    },
+    {
+      "ref": "C71",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        99.48,
+        109.0
+      ],
+      "product_XZ_mm": [
+        -0.52,
+        -9.0
+      ],
+      "side": "F.Cu",
+      "uuid": "4a954928-a362-41e1-9692-28c532c1c7f0"
+    },
+    {
+      "ref": "C84",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        135.52,
+        103.0
+      ],
+      "product_XZ_mm": [
+        35.52,
+        -3.0
+      ],
+      "side": "F.Cu",
+      "uuid": "d5416588-b161-4b1a-93cc-193faa1d0177"
+    },
+    {
+      "ref": "C84",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        136.48,
+        103.0
+      ],
+      "product_XZ_mm": [
+        36.48,
+        -3.0
+      ],
+      "side": "F.Cu",
+      "uuid": "cfedff48-b20f-4040-9ab5-d8883a73e720"
+    },
+    {
+      "ref": "C83",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        130.0,
+        99.05
+      ],
+      "product_XZ_mm": [
+        30.0,
+        0.95
+      ],
+      "side": "F.Cu",
+      "uuid": "a81cfa94-d18f-4b53-b271-1f1c660403dd"
+    },
+    {
+      "ref": "C83",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        130.0,
+        100.95
+      ],
+      "product_XZ_mm": [
+        30.0,
+        -0.95
+      ],
+      "side": "F.Cu",
+      "uuid": "9c73dda0-0309-4c1e-a957-d766866a5b34"
+    },
+    {
+      "ref": "U81",
+      "pad": "1",
+      "net": "I2C_SCL",
+      "native_XY_mm": [
+        132.2375,
+        100.75
+      ],
+      "product_XZ_mm": [
+        32.2375,
+        -0.75
+      ],
+      "side": "F.Cu",
+      "uuid": "039e742a-cd1e-4909-aca3-e2d7c0961bd9"
+    },
+    {
+      "ref": "U81",
+      "pad": "2",
+      "net": "3V3",
+      "native_XY_mm": [
+        132.2375,
+        100.25
+      ],
+      "product_XZ_mm": [
+        32.2375,
+        -0.25
+      ],
+      "side": "F.Cu",
+      "uuid": "e63a33a7-f52b-4b4b-8d50-a7667578f026"
+    },
+    {
+      "ref": "U81",
+      "pad": "3",
+      "net": "3V3",
+      "native_XY_mm": [
+        132.2375,
+        99.75
+      ],
+      "product_XZ_mm": [
+        32.2375,
+        0.25
+      ],
+      "side": "F.Cu",
+      "uuid": "9b1ee53b-cddb-4e4a-a981-e7604cbf17aa"
+    },
+    {
+      "ref": "U81",
+      "pad": "4",
+      "net": "I2C_SDA",
+      "native_XY_mm": [
+        132.2375,
+        99.25
+      ],
+      "product_XZ_mm": [
+        32.2375,
+        0.75
+      ],
+      "side": "F.Cu",
+      "uuid": "da6eb878-aa71-44eb-8fbc-fdaae1876d9b"
+    },
+    {
+      "ref": "U81",
+      "pad": "5",
+      "net": "MAG_C1",
+      "native_XY_mm": [
+        132.75,
+        99.2375
+      ],
+      "product_XZ_mm": [
+        32.75,
+        0.7625
+      ],
+      "side": "F.Cu",
+      "uuid": "dd53f2eb-afac-4a01-85e4-1e43f86705b3"
+    },
+    {
+      "ref": "U81",
+      "pad": "6",
+      "net": "GND",
+      "native_XY_mm": [
+        133.25,
+        99.2375
+      ],
+      "product_XZ_mm": [
+        33.25,
+        0.7625
+      ],
+      "side": "F.Cu",
+      "uuid": "e611b013-2c56-43bd-a84e-0e52b5367482"
+    },
+    {
+      "ref": "U81",
+      "pad": "7",
+      "net": "unconnected-(U81-INT_MAG-Pad7)",
+      "native_XY_mm": [
+        133.7625,
+        99.25
+      ],
+      "product_XZ_mm": [
+        33.7625,
+        0.75
+      ],
+      "side": "F.Cu",
+      "uuid": "85792b74-61b5-4925-a069-0b73f848cc37"
+    },
+    {
+      "ref": "U81",
+      "pad": "8",
+      "net": "GND",
+      "native_XY_mm": [
+        133.7625,
+        99.75
+      ],
+      "product_XZ_mm": [
+        33.7625,
+        0.25
+      ],
+      "side": "F.Cu",
+      "uuid": "405c78f7-58fd-484c-bf5d-8f579c07f4b3"
+    },
+    {
+      "ref": "U81",
+      "pad": "9",
+      "net": "3V3",
+      "native_XY_mm": [
+        133.7625,
+        100.25
+      ],
+      "product_XZ_mm": [
+        33.7625,
+        -0.25
+      ],
+      "side": "F.Cu",
+      "uuid": "b4d8fcc7-9403-4809-8747-e43cbd086f82"
+    },
+    {
+      "ref": "U81",
+      "pad": "10",
+      "net": "3V3",
+      "native_XY_mm": [
+        133.7625,
+        100.75
+      ],
+      "product_XZ_mm": [
+        33.7625,
+        -0.75
+      ],
+      "side": "F.Cu",
+      "uuid": "9b663b5d-0cd6-4de6-8d49-d3b63dc71c9f"
+    },
+    {
+      "ref": "U81",
+      "pad": "11",
+      "net": "unconnected-(U81-INT2_XL-Pad11)",
+      "native_XY_mm": [
+        133.25,
+        100.7625
+      ],
+      "product_XZ_mm": [
+        33.25,
+        -0.7625
+      ],
+      "side": "F.Cu",
+      "uuid": "8d996767-f895-490c-899b-cea3b52037b4"
+    },
+    {
+      "ref": "U81",
+      "pad": "12",
+      "net": "unconnected-(U81-INT1_XL-Pad12)",
+      "native_XY_mm": [
+        132.75,
+        100.7625
+      ],
+      "product_XZ_mm": [
+        32.75,
+        -0.7625
+      ],
+      "side": "F.Cu",
+      "uuid": "03309284-0a9d-429f-85b5-32cb305b2db6"
+    },
+    {
+      "ref": "R31",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        81.275,
+        95.0
+      ],
+      "product_XZ_mm": [
+        -18.725,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "851deef9-2aec-4ea4-8524-df7862841729"
+    },
+    {
+      "ref": "R31",
+      "pad": "2",
+      "net": "MCU_EN",
+      "native_XY_mm": [
+        82.725,
+        95.0
+      ],
+      "product_XZ_mm": [
+        -17.275,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "31dcd9c6-2c32-41b3-978e-0d87f2416efe"
+    },
+    {
+      "ref": "C34",
+      "pad": "1",
+      "net": "VBAT_ADC",
+      "native_XY_mm": [
+        112.0,
+        103.325
+      ],
+      "product_XZ_mm": [
+        12.0,
+        -3.325
+      ],
+      "side": "F.Cu",
+      "uuid": "88c6c4b5-39da-4a2d-8d80-d5fd563a9d3f"
+    },
+    {
+      "ref": "C34",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        112.0,
+        104.675
+      ],
+      "product_XZ_mm": [
+        12.0,
+        -4.675
+      ],
+      "side": "F.Cu",
+      "uuid": "31609acc-d5c2-45d3-a723-77b62aec979f"
+    },
+    {
+      "ref": "J7",
+      "pad": "1",
+      "net": "GND",
+      "native_XY_mm": [
+        91.0,
+        95.5
+      ],
+      "product_XZ_mm": [
+        -9.0,
+        4.5
+      ],
+      "side": "F.Cu",
+      "uuid": "6c786ca8-3ba5-46f7-b866-c98764a0c6e9"
+    },
+    {
+      "ref": "J7",
+      "pad": "2",
+      "net": "VBUS_CHG",
+      "native_XY_mm": [
+        91.0,
+        96.5
+      ],
+      "product_XZ_mm": [
+        -9.0,
+        3.5
+      ],
+      "side": "F.Cu",
+      "uuid": "ea97676e-749a-43c7-a49c-835c4ad75598"
+    },
+    {
+      "ref": "J7",
+      "pad": "3",
+      "net": "3V3",
+      "native_XY_mm": [
+        91.0,
+        97.5
+      ],
+      "product_XZ_mm": [
+        -9.0,
+        2.5
+      ],
+      "side": "F.Cu",
+      "uuid": "1b12cb95-af52-48b5-a536-fc3131dc934d"
+    },
+    {
+      "ref": "J7",
+      "pad": "4",
+      "net": "PACK_P",
+      "native_XY_mm": [
+        91.0,
+        98.5
+      ],
+      "product_XZ_mm": [
+        -9.0,
+        1.5
+      ],
+      "side": "F.Cu",
+      "uuid": "6bf99a23-14d1-4cce-b983-4ca7a94bfafb"
+    },
+    {
+      "ref": "J7",
+      "pad": "5",
+      "net": "MOTOR_ARM",
+      "native_XY_mm": [
+        91.0,
+        99.5
+      ],
+      "product_XZ_mm": [
+        -9.0,
+        0.5
+      ],
+      "side": "F.Cu",
+      "uuid": "c314dc63-3638-46a8-bea6-f671f3b008ba"
+    },
+    {
+      "ref": "J7",
+      "pad": "6",
+      "net": "MOTOR_PWM",
+      "native_XY_mm": [
+        91.0,
+        100.5
+      ],
+      "product_XZ_mm": [
+        -9.0,
+        -0.5
+      ],
+      "side": "F.Cu",
+      "uuid": "b0631952-8d0b-411f-afeb-a5837a08bc00"
+    },
+    {
+      "ref": "J7",
+      "pad": "7",
+      "net": "DOCK_PRESENT_N",
+      "native_XY_mm": [
+        91.0,
+        101.5
+      ],
+      "product_XZ_mm": [
+        -9.0,
+        -1.5
+      ],
+      "side": "F.Cu",
+      "uuid": "f492dfe3-cfa5-49cf-b4ed-86c256cde36c"
+    },
+    {
+      "ref": "J7",
+      "pad": "8",
+      "net": "I2C_SDA",
+      "native_XY_mm": [
+        91.0,
+        102.5
+      ],
+      "product_XZ_mm": [
+        -9.0,
+        -2.5
+      ],
+      "side": "F.Cu",
+      "uuid": "27c85fa2-09c4-4ff1-9ff7-47ce29684e3d"
+    },
+    {
+      "ref": "J7",
+      "pad": "9",
+      "net": "I2C_SCL",
+      "native_XY_mm": [
+        91.0,
+        103.5
+      ],
+      "product_XZ_mm": [
+        -9.0,
+        -3.5
+      ],
+      "side": "F.Cu",
+      "uuid": "7e8909ac-3024-413b-b04b-58a0be074834"
+    },
+    {
+      "ref": "J7",
+      "pad": "10",
+      "net": "TIP_EXC_EN",
+      "native_XY_mm": [
+        91.0,
+        104.5
+      ],
+      "product_XZ_mm": [
+        -9.0,
+        -4.5
+      ],
+      "side": "F.Cu",
+      "uuid": "f7a39cfb-e7c4-4e38-9761-91f6b9175314"
+    },
+    {
+      "ref": "D1",
+      "pad": "1",
+      "net": "DOCK_FUSED",
+      "native_XY_mm": [
+        110.65,
+        95.0
+      ],
+      "product_XZ_mm": [
+        10.65,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "0bbf6acb-363b-42a2-a05e-5e1691bb98d8"
+    },
+    {
+      "ref": "D1",
+      "pad": "2",
+      "net": "VBUS_CHG",
+      "native_XY_mm": [
+        107.35,
+        95.0
+      ],
+      "product_XZ_mm": [
+        7.35,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "5d028743-bab1-492e-b749-d0d2d1c432d0"
+    },
+    {
+      "ref": "R76",
+      "pad": "1",
+      "net": "USB_DP_CONTACT",
+      "native_XY_mm": [
+        81.71,
+        93.5
+      ],
+      "product_XZ_mm": [
+        -18.29,
+        6.5
+      ],
+      "side": "F.Cu",
+      "uuid": "1b89d543-ada6-4b57-bd92-fdcd0eb02ab0"
+    },
+    {
+      "ref": "R76",
+      "pad": "2",
+      "net": "USB_DP",
+      "native_XY_mm": [
+        80.69,
+        93.5
+      ],
+      "product_XZ_mm": [
+        -19.31,
+        6.5
+      ],
+      "side": "F.Cu",
+      "uuid": "451ea286-0a92-47d0-8a51-c3acfa2b96d2"
+    },
+    {
+      "ref": "R71",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        101.49,
+        107.0
+      ],
+      "product_XZ_mm": [
+        1.49,
+        -7.0
+      ],
+      "side": "F.Cu",
+      "uuid": "61c5540b-a4b5-4cd1-bb1f-e920b3a386fc"
+    },
+    {
+      "ref": "R71",
+      "pad": "2",
+      "net": "POWER_SWITCH_N",
+      "native_XY_mm": [
+        102.51,
+        107.0
+      ],
+      "product_XZ_mm": [
+        2.51,
+        -7.0
+      ],
+      "side": "F.Cu",
+      "uuid": "54bb456c-3bf0-48f4-a12d-c63b33a2b6a3"
+    },
+    {
+      "ref": "D73",
+      "pad": "1",
+      "net": "MODE_N",
+      "native_XY_mm": [
+        102.95,
+        103.0
+      ],
+      "product_XZ_mm": [
+        2.95,
+        -3.0
+      ],
+      "side": "F.Cu",
+      "uuid": "42421a65-6221-4914-9c4d-3578a3c3fc84"
+    },
+    {
+      "ref": "D73",
+      "pad": "2",
+      "net": "BOOT_N",
+      "native_XY_mm": [
+        105.05,
+        103.0
+      ],
+      "product_XZ_mm": [
+        5.05,
+        -3.0
+      ],
+      "side": "F.Cu",
+      "uuid": "7d9ba4aa-3962-477a-9e46-1d5f88753d28"
+    },
+    {
+      "ref": "C33",
+      "pad": "1",
+      "net": "MCU_EN",
+      "native_XY_mm": [
+        81.325,
+        104.0
+      ],
+      "product_XZ_mm": [
+        -18.675,
+        -4.0
+      ],
+      "side": "F.Cu",
+      "uuid": "d95e1196-ec06-49cd-8fa2-5b69fcdc6bed"
+    },
+    {
+      "ref": "C33",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        82.675,
+        104.0
+      ],
+      "product_XZ_mm": [
+        -17.325,
+        -4.0
+      ],
+      "side": "F.Cu",
+      "uuid": "3117a7db-7e7a-475c-8652-5af967dc4680"
+    },
+    {
+      "ref": "R37",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        81.275,
+        101.0
+      ],
+      "product_XZ_mm": [
+        -18.725,
+        -1.0
+      ],
+      "side": "F.Cu",
+      "uuid": "8b4b5bee-ad4a-481e-bcf3-1a130afc2ed1"
+    },
+    {
+      "ref": "R37",
+      "pad": "2",
+      "net": "I2C_SDA",
+      "native_XY_mm": [
+        82.725,
+        101.0
+      ],
+      "product_XZ_mm": [
+        -17.275,
+        -1.0
+      ],
+      "side": "F.Cu",
+      "uuid": "550122fa-1c7e-4717-802b-85185aa8577a"
+    },
+    {
+      "ref": "C32",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        70.1,
+        91.675
+      ],
+      "product_XZ_mm": [
+        -29.9,
+        8.325
+      ],
+      "side": "F.Cu",
+      "uuid": "f1ace7a8-ede2-406c-92a0-d4e74e8c3326"
+    },
+    {
+      "ref": "C32",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        70.1,
+        90.325
+      ],
+      "product_XZ_mm": [
+        -29.9,
+        9.675
+      ],
+      "side": "F.Cu",
+      "uuid": "ef7ed9fb-d357-47e6-a7ea-531504e05245"
+    },
+    {
+      "ref": "R39",
+      "pad": "1",
+      "net": "PACK_P",
+      "native_XY_mm": [
+        112.125,
+        95.0
+      ],
+      "product_XZ_mm": [
+        12.125,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "2d279c39-d747-44b1-88d7-9b48c46c2326"
+    },
+    {
+      "ref": "R39",
+      "pad": "2",
+      "net": "VBAT_ADC",
+      "native_XY_mm": [
+        113.875,
+        95.0
+      ],
+      "product_XZ_mm": [
+        13.875,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "0ae685fb-00b2-4a78-b224-d993e9628967"
+    },
+    {
+      "ref": "D72",
+      "pad": "1",
+      "net": "DOCK_PRESENT_N",
+      "native_XY_mm": [
+        102.95,
+        100.0
+      ],
+      "product_XZ_mm": [
+        2.95,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "1b9dcc83-a395-46a3-b78f-28b9db66cb72"
+    },
+    {
+      "ref": "D72",
+      "pad": "2",
+      "net": "POWER_N",
+      "native_XY_mm": [
+        105.05,
+        100.0
+      ],
+      "product_XZ_mm": [
+        5.05,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "dc4a739c-5c43-456b-919b-28b0af7ee49c"
+    },
+    {
+      "ref": "R38",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        84.275,
+        101.0
+      ],
+      "product_XZ_mm": [
+        -15.725,
+        -1.0
+      ],
+      "side": "F.Cu",
+      "uuid": "28592a87-1776-4570-a5b6-34cbbe109017"
+    },
+    {
+      "ref": "R38",
+      "pad": "2",
+      "net": "I2C_SCL",
+      "native_XY_mm": [
+        85.725,
+        101.0
+      ],
+      "product_XZ_mm": [
+        -14.275,
+        -1.0
+      ],
+      "side": "F.Cu",
+      "uuid": "fd595987-cd60-4a0e-8789-dd72cdff8640"
+    },
+    {
+      "ref": "R40",
+      "pad": "1",
+      "net": "VBAT_ADC",
+      "native_XY_mm": [
+        112.125,
+        98.0
+      ],
+      "product_XZ_mm": [
+        12.125,
+        2.0
+      ],
+      "side": "F.Cu",
+      "uuid": "e56c4670-c4a8-46c4-8abd-eccebca13d4c"
+    },
+    {
+      "ref": "R40",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        113.875,
+        98.0
+      ],
+      "product_XZ_mm": [
+        13.875,
+        2.0
+      ],
+      "side": "F.Cu",
+      "uuid": "2af8d5f9-4139-4c18-97ab-2db4a2aa466c"
+    },
+    {
+      "ref": "R32",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        84.275,
+        95.0
+      ],
+      "product_XZ_mm": [
+        -15.725,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "1714bab0-2205-4791-9d21-54795d00b201"
+    },
+    {
+      "ref": "R32",
+      "pad": "2",
+      "net": "STRAP2",
+      "native_XY_mm": [
+        85.725,
+        95.0
+      ],
+      "product_XZ_mm": [
+        -14.275,
+        5.0
+      ],
+      "side": "F.Cu",
+      "uuid": "2281e22a-0be3-41d0-905e-463e65cdc2f8"
+    },
+    {
+      "ref": "U6",
+      "pad": "1",
+      "net": "GND",
+      "native_XY_mm": [
+        66.0,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -34.0,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "e22cedde-4035-445d-9044-080e60805dae"
+    },
+    {
+      "ref": "U6",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        66.8,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -33.2,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "d3dc8ae6-50a7-4cd4-9c90-adc652487190"
+    },
+    {
+      "ref": "U6",
+      "pad": "3",
+      "net": "3V3",
+      "native_XY_mm": [
+        67.6,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -32.4,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "1573c137-887a-4b6d-b361-c216744fcd88"
+    },
+    {
+      "ref": "U6",
+      "pad": "4",
+      "net": "unconnected-(U6-NC-Pad4)",
+      "native_XY_mm": [
+        68.4,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -31.6,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "55df9ee6-feec-4dcf-97de-2660d1343cb1"
+    },
+    {
+      "ref": "U6",
+      "pad": "5",
+      "net": "STRAP2",
+      "native_XY_mm": [
+        69.2,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -30.8,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "b76bf7fa-6c86-4355-8479-c8d5dff9cd44"
+    },
+    {
+      "ref": "U6",
+      "pad": "6",
+      "net": "MODE_N",
+      "native_XY_mm": [
+        70.0,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -30.0,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "eaab0a38-7aff-430e-ab8e-a858d35a0603"
+    },
+    {
+      "ref": "U6",
+      "pad": "7",
+      "net": "unconnected-(U6-NC-Pad7)",
+      "native_XY_mm": [
+        70.8,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -29.2,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "90124c0b-e5b9-4298-9c37-05ee2b8143c9"
+    },
+    {
+      "ref": "U6",
+      "pad": "8",
+      "net": "MCU_EN",
+      "native_XY_mm": [
+        71.6,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -28.4,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "b1ad8c76-762a-41b4-bb86-d806e4fa35fe"
+    },
+    {
+      "ref": "U6",
+      "pad": "9",
+      "net": "unconnected-(U6-NC-Pad9)",
+      "native_XY_mm": [
+        72.4,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -27.6,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "601fd6bb-4a24-4d34-8c6a-d4c9dece56a5"
+    },
+    {
+      "ref": "U6",
+      "pad": "10",
+      "net": "unconnected-(U6-NC-Pad10)",
+      "native_XY_mm": [
+        73.2,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -26.8,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "480cf010-5cfc-4112-af47-9c87e33bcf9b"
+    },
+    {
+      "ref": "U6",
+      "pad": "11",
+      "net": "GND",
+      "native_XY_mm": [
+        74.0,
+        94.1
+      ],
+      "product_XZ_mm": [
+        -26.0,
+        5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "293be8a8-4858-470f-8e7e-12814e21d1b9"
+    },
+    {
+      "ref": "U6",
+      "pad": "12",
+      "net": "VBAT_ADC",
+      "native_XY_mm": [
+        74.9,
+        95.2
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        4.8
+      ],
+      "side": "F.Cu",
+      "uuid": "c66dbd50-7d81-48ea-aa72-ab37f40a52bb"
+    },
+    {
+      "ref": "U6",
+      "pad": "13",
+      "net": "POWER_N",
+      "native_XY_mm": [
+        74.9,
+        96.0
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        4.0
+      ],
+      "side": "F.Cu",
+      "uuid": "1b1accb7-0699-4806-8cd5-c48ed36866cc"
+    },
+    {
+      "ref": "U6",
+      "pad": "14",
+      "net": "GND",
+      "native_XY_mm": [
+        74.9,
+        96.8
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        3.2
+      ],
+      "side": "F.Cu",
+      "uuid": "8ca5c9f2-4fa4-4908-b2ca-4b805cfe87de"
+    },
+    {
+      "ref": "U6",
+      "pad": "15",
+      "net": "unconnected-(U6-NC-Pad15)",
+      "native_XY_mm": [
+        74.9,
+        97.6
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        2.4
+      ],
+      "side": "F.Cu",
+      "uuid": "2614d887-8f19-4cfb-a5f3-66bf95d8e3a9"
+    },
+    {
+      "ref": "U6",
+      "pad": "16",
+      "net": "TIP_EXC_EN",
+      "native_XY_mm": [
+        74.9,
+        98.4
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        1.6
+      ],
+      "side": "F.Cu",
+      "uuid": "1316a04e-6550-49e2-b94c-509bd15538f0"
+    },
+    {
+      "ref": "U6",
+      "pad": "17",
+      "net": "unconnected-(U6-NC-Pad17)",
+      "native_XY_mm": [
+        74.9,
+        99.2
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        0.8
+      ],
+      "side": "F.Cu",
+      "uuid": "e7db3b2d-b6b3-484a-91d2-e75a1ab24948"
+    },
+    {
+      "ref": "U6",
+      "pad": "18",
+      "net": "I2C_SDA",
+      "native_XY_mm": [
+        74.9,
+        100.0
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "e8d1c00e-e67a-4407-8bdd-a7e16c5d1d31"
+    },
+    {
+      "ref": "U6",
+      "pad": "19",
+      "net": "I2C_SCL",
+      "native_XY_mm": [
+        74.9,
+        100.8
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        -0.8
+      ],
+      "side": "F.Cu",
+      "uuid": "e1f8db03-89ea-4920-9b5e-4d91f56d8194"
+    },
+    {
+      "ref": "U6",
+      "pad": "20",
+      "net": "MOTOR_PWM",
+      "native_XY_mm": [
+        74.9,
+        101.6
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        -1.6
+      ],
+      "side": "F.Cu",
+      "uuid": "934a06b1-fc70-4a0b-90bb-2cf7b5bc9fa1"
+    },
+    {
+      "ref": "U6",
+      "pad": "21",
+      "net": "MOTOR_ARM",
+      "native_XY_mm": [
+        74.9,
+        102.4
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        -2.4
+      ],
+      "side": "F.Cu",
+      "uuid": "068bce9d-2807-4e34-bdf0-b78b50e836de"
+    },
+    {
+      "ref": "U6",
+      "pad": "22",
+      "net": "STRAP8",
+      "native_XY_mm": [
+        74.9,
+        103.2
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        -3.2
+      ],
+      "side": "F.Cu",
+      "uuid": "c4c997ec-47aa-41b2-a0b3-91723a048cb6"
+    },
+    {
+      "ref": "U6",
+      "pad": "23",
+      "net": "BOOT_N",
+      "native_XY_mm": [
+        74.9,
+        104.0
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        -4.0
+      ],
+      "side": "F.Cu",
+      "uuid": "586ddd2a-9512-4d1a-bd9a-c12e7438b474"
+    },
+    {
+      "ref": "U6",
+      "pad": "24",
+      "net": "unconnected-(U6-NC-Pad24)",
+      "native_XY_mm": [
+        74.9,
+        104.8
+      ],
+      "product_XZ_mm": [
+        -25.1,
+        -4.8
+      ],
+      "side": "F.Cu",
+      "uuid": "3243021c-3d5a-4709-8f73-3608d9e6f292"
+    },
+    {
+      "ref": "U6",
+      "pad": "25",
+      "net": "unconnected-(U6-NC-Pad25)",
+      "native_XY_mm": [
+        74.0,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -26.0,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "df827a1b-3cd3-4b95-80ca-31fbe30d7a55"
+    },
+    {
+      "ref": "U6",
+      "pad": "26",
+      "net": "USB_DM",
+      "native_XY_mm": [
+        73.2,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -26.8,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "316d0cba-dda6-461a-b994-b5019207a06d"
+    },
+    {
+      "ref": "U6",
+      "pad": "27",
+      "net": "USB_DP",
+      "native_XY_mm": [
+        72.4,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -27.6,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "5b9be644-4f2f-413e-b7d6-b476317900e1"
+    },
+    {
+      "ref": "U6",
+      "pad": "28",
+      "net": "unconnected-(U6-NC-Pad28)",
+      "native_XY_mm": [
+        71.6,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -28.4,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "fc24b371-4fd2-42a4-8c6b-0f8ea29b299e"
+    },
+    {
+      "ref": "U6",
+      "pad": "29",
+      "net": "unconnected-(U6-NC-Pad29)",
+      "native_XY_mm": [
+        70.8,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -29.2,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "21a97dbb-3894-4bbf-8cc5-fa1bd68996ce"
+    },
+    {
+      "ref": "U6",
+      "pad": "30",
+      "net": "DOCK_PRESENT_N",
+      "native_XY_mm": [
+        70.0,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -30.0,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "afd6fb42-f1a1-4027-8365-3d95a78c6ca4"
+    },
+    {
+      "ref": "U6",
+      "pad": "31",
+      "net": "UART_TX",
+      "native_XY_mm": [
+        69.2,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -30.8,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "b2b4b7e9-aa45-4233-b8c3-cb65f2389d11"
+    },
+    {
+      "ref": "U6",
+      "pad": "32",
+      "net": "unconnected-(U6-NC-Pad32)",
+      "native_XY_mm": [
+        68.4,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -31.6,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "3e96c0bf-4ca2-403e-9de7-df85d1c2ed2b"
+    },
+    {
+      "ref": "U6",
+      "pad": "33",
+      "net": "unconnected-(U6-NC-Pad33)",
+      "native_XY_mm": [
+        67.6,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -32.4,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "98ba92a3-5550-4eac-afa5-563789a811d9"
+    },
+    {
+      "ref": "U6",
+      "pad": "34",
+      "net": "unconnected-(U6-NC-Pad34)",
+      "native_XY_mm": [
+        66.8,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -33.2,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "a75acec4-319e-4152-86e4-cc0c5ae4eaa6"
+    },
+    {
+      "ref": "U6",
+      "pad": "35",
+      "net": "unconnected-(U6-NC-Pad35)",
+      "native_XY_mm": [
+        66.0,
+        105.9
+      ],
+      "product_XZ_mm": [
+        -34.0,
+        -5.9
+      ],
+      "side": "F.Cu",
+      "uuid": "a64875a3-e14b-4b40-8e91-474bebb53923"
+    },
+    {
+      "ref": "U6",
+      "pad": "36",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        104.8
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        -4.8
+      ],
+      "side": "F.Cu",
+      "uuid": "6b90e5d1-b867-45ac-9d05-cd60c8b0c9d3"
+    },
+    {
+      "ref": "U6",
+      "pad": "37",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        104.0
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        -4.0
+      ],
+      "side": "F.Cu",
+      "uuid": "173a1a6a-0940-4b9e-9ff3-a7bf937994fd"
+    },
+    {
+      "ref": "U6",
+      "pad": "38",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        103.2
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        -3.2
+      ],
+      "side": "F.Cu",
+      "uuid": "3b9fb36e-b5f0-4703-826a-89460e6a7212"
+    },
+    {
+      "ref": "U6",
+      "pad": "39",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        102.4
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        -2.4
+      ],
+      "side": "F.Cu",
+      "uuid": "9eaea349-ffb2-4852-9ad6-8cf4bf4861bf"
+    },
+    {
+      "ref": "U6",
+      "pad": "40",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        101.6
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        -1.6
+      ],
+      "side": "F.Cu",
+      "uuid": "c894b8e8-362b-4473-9b7e-816a9ebd434c"
+    },
+    {
+      "ref": "U6",
+      "pad": "41",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        100.8
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        -0.8
+      ],
+      "side": "F.Cu",
+      "uuid": "d50afb28-dcfe-4b2b-aabd-be075cd52c07"
+    },
+    {
+      "ref": "U6",
+      "pad": "42",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        100.0
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "f162ad93-bf31-494e-8d99-f4f9f1e9b0f6"
+    },
+    {
+      "ref": "U6",
+      "pad": "43",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        99.2
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        0.8
+      ],
+      "side": "F.Cu",
+      "uuid": "e78df21a-f86c-4ce0-bb5d-5cd156b98d29"
+    },
+    {
+      "ref": "U6",
+      "pad": "44",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        98.4
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        1.6
+      ],
+      "side": "F.Cu",
+      "uuid": "a3f14ca5-3223-43b1-97d3-a14e5e91673f"
+    },
+    {
+      "ref": "U6",
+      "pad": "45",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        97.6
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        2.4
+      ],
+      "side": "F.Cu",
+      "uuid": "04d94e39-4745-4b5f-9cea-1f49d724de50"
+    },
+    {
+      "ref": "U6",
+      "pad": "46",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        96.8
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        3.2
+      ],
+      "side": "F.Cu",
+      "uuid": "5e1b631a-535b-4c28-aebf-6991bfc9f93f"
+    },
+    {
+      "ref": "U6",
+      "pad": "47",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        96.0
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        4.0
+      ],
+      "side": "F.Cu",
+      "uuid": "6705bb80-edef-4ced-b7b5-01738148c773"
+    },
+    {
+      "ref": "U6",
+      "pad": "48",
+      "net": "GND",
+      "native_XY_mm": [
+        65.1,
+        95.2
+      ],
+      "product_XZ_mm": [
+        -34.9,
+        4.8
+      ],
+      "side": "F.Cu",
+      "uuid": "97be5321-935e-405b-80dd-970353fb1efa"
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "native_XY_mm": [
+        71.975,
+        98.025
+      ],
+      "product_XZ_mm": [
+        -28.025,
+        1.975
+      ],
+      "side": "F.Cu",
+      "uuid": "09d66518-e29f-4471-919a-9711c35230d3"
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "native_XY_mm": [
+        70.0,
+        98.025
+      ],
+      "product_XZ_mm": [
+        -30.0,
+        1.975
+      ],
+      "side": "F.Cu",
+      "uuid": "83ddde3e-540b-4eb5-9677-1c37bf5d200a"
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "native_XY_mm": [
+        68.025,
+        98.025
+      ],
+      "product_XZ_mm": [
+        -31.975,
+        1.975
+      ],
+      "side": "F.Cu",
+      "uuid": "cde2f557-16c5-4f69-bf7b-7c50dcfeb87a"
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "native_XY_mm": [
+        71.975,
+        100.0
+      ],
+      "product_XZ_mm": [
+        -28.025,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "c8bee718-23c0-4e12-be48-9182dedd7f50"
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "native_XY_mm": [
+        70.0,
+        100.0
+      ],
+      "product_XZ_mm": [
+        -30.0,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "ee77e0ac-0f99-435f-bfa7-036b6a1c62bf"
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "native_XY_mm": [
+        68.025,
+        100.0
+      ],
+      "product_XZ_mm": [
+        -31.975,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "a7edc393-f6e2-41ad-bd6d-127eedf266dc"
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "native_XY_mm": [
+        71.975,
+        101.975
+      ],
+      "product_XZ_mm": [
+        -28.025,
+        -1.975
+      ],
+      "side": "F.Cu",
+      "uuid": "c04977f6-e2f1-4e7e-ab29-ebaf1b958476"
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "native_XY_mm": [
+        70.0,
+        101.975
+      ],
+      "product_XZ_mm": [
+        -30.0,
+        -1.975
+      ],
+      "side": "F.Cu",
+      "uuid": "8641e0f8-3f02-4e0c-98dc-e7dacdd24f59"
+    },
+    {
+      "ref": "U6",
+      "pad": "49",
+      "net": "GND",
+      "native_XY_mm": [
+        68.025,
+        101.975
+      ],
+      "product_XZ_mm": [
+        -31.975,
+        -1.975
+      ],
+      "side": "F.Cu",
+      "uuid": "af0ef569-06eb-4fe4-aee1-a19e107d0d27"
+    },
+    {
+      "ref": "U6",
+      "pad": "50",
+      "net": "GND",
+      "native_XY_mm": [
+        65.05,
+        105.95
+      ],
+      "product_XZ_mm": [
+        -34.95,
+        -5.95
+      ],
+      "side": "F.Cu",
+      "uuid": "a4d0465b-b76b-48af-87fb-fdc0b782fd1d"
+    },
+    {
+      "ref": "U6",
+      "pad": "51",
+      "net": "GND",
+      "native_XY_mm": [
+        74.95,
+        105.95
+      ],
+      "product_XZ_mm": [
+        -25.05,
+        -5.95
+      ],
+      "side": "F.Cu",
+      "uuid": "6b555ed3-c47f-4956-add8-b521a2355e5e"
+    },
+    {
+      "ref": "U6",
+      "pad": "52",
+      "net": "GND",
+      "native_XY_mm": [
+        74.95,
+        94.05
+      ],
+      "product_XZ_mm": [
+        -25.05,
+        5.95
+      ],
+      "side": "F.Cu",
+      "uuid": "18cf3076-3eb6-45a3-9b34-4e1321dafd79"
+    },
+    {
+      "ref": "U6",
+      "pad": "53",
+      "net": "GND",
+      "native_XY_mm": [
+        65.05,
+        94.05
+      ],
+      "product_XZ_mm": [
+        -34.95,
+        5.95
+      ],
+      "side": "F.Cu",
+      "uuid": "6438d08a-2286-461b-9670-fb4675ad2e9e"
+    },
+    {
+      "ref": "R35",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        84.275,
+        98.0
+      ],
+      "product_XZ_mm": [
+        -15.725,
+        2.0
+      ],
+      "side": "F.Cu",
+      "uuid": "967977a6-b4c7-48ef-abcb-108b49bd66f5"
+    },
+    {
+      "ref": "R35",
+      "pad": "2",
+      "net": "POWER_N",
+      "native_XY_mm": [
+        85.725,
+        98.0
+      ],
+      "product_XZ_mm": [
+        -14.275,
+        2.0
+      ],
+      "side": "F.Cu",
+      "uuid": "c625898c-0976-4252-84af-618e5693e1d0"
+    },
+    {
+      "ref": "R34",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        81.275,
+        98.0
+      ],
+      "product_XZ_mm": [
+        -18.725,
+        2.0
+      ],
+      "side": "F.Cu",
+      "uuid": "e8e28103-16ae-41e1-98ef-c38d6ad2199d"
+    },
+    {
+      "ref": "R34",
+      "pad": "2",
+      "net": "BOOT_N",
+      "native_XY_mm": [
+        82.725,
+        98.0
+      ],
+      "product_XZ_mm": [
+        -17.275,
+        2.0
+      ],
+      "side": "F.Cu",
+      "uuid": "50d94f54-3053-4140-aff5-c1abeb427aeb"
+    },
+    {
+      "ref": "C82",
+      "pad": "1",
+      "net": "3V3",
+      "native_XY_mm": [
+        135.52,
+        100.0
+      ],
+      "product_XZ_mm": [
+        35.52,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "c4d3d460-d789-42a0-b7e9-4747ff769380"
+    },
+    {
+      "ref": "C82",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        136.48,
+        100.0
+      ],
+      "product_XZ_mm": [
+        36.48,
+        0.0
+      ],
+      "side": "F.Cu",
+      "uuid": "51878f72-d672-46c3-be99-64366a3d362a"
+    },
+    {
+      "ref": "C81",
+      "pad": "1",
+      "net": "MAG_C1",
+      "native_XY_mm": [
+        132.52,
+        97.0
+      ],
+      "product_XZ_mm": [
+        32.52,
+        3.0
+      ],
+      "side": "F.Cu",
+      "uuid": "8a62850c-33fc-4fbc-a928-5f88e7e710d8"
+    },
+    {
+      "ref": "C81",
+      "pad": "2",
+      "net": "GND",
+      "native_XY_mm": [
+        133.48,
+        97.0
+      ],
+      "product_XZ_mm": [
+        33.48,
+        3.0
+      ],
+      "side": "F.Cu",
+      "uuid": "042ed71a-5e43-4303-985d-07bcbb4642df"
+    }
+  ],
+  "tracks": 592,
+  "vias": 91,
+  "locked_critical_objects": 157,
+  "PCB_layers": 4,
+  "nominal_finished_mm": 1,
+  "In1_signal_tracks": 0,
+  "nominal_minimum_trace_clearance_mm": [
+    0.15,
+    0.15
+  ],
+  "minimum_via_diameter_drill_mm": [
+    0.5,
+    0.2
+  ],
+  "geometry_exceptions": {
+    "U75": {
+      "old": [
+        -1,
+        4
+      ],
+      "new": [
+        6.3,
+        9
+      ]
+    },
+    "U71": {
+      "old": [
+        -1,
+        -6
+      ],
+      "new": [
+        -1,
+        -7
+      ]
+    }
+  },
+  "frozen_geometry_parity_sha256": "7b423b925a3efcae8e220ec83f3fe79ceef2657f76ad9121b8b36a980a0d6294",
+  "original_body69_source_and_artwork_unchanged": true,
+  "frozen_study_unchanged": true,
+  "J7_numeric_interface_preserved": true,
+  "independent_retained_endpoint_net_type_function_checks": 376,
+  "full_device_ERC_errors": 0,
+  "full_device_ERC_warnings": 0,
+  "body_PCBA_or_factory_artwork_replacement": false,
+  "fabrication_supplier_acceptance": false,
+  "USB_RF_magnetic_thermal_molding_physical_qualification": false,
+  "reports_sha256": {
+    "drc.json": "10cefd7d00b23663f13cf883b074b0c6a45a24bd7cbb6b9ba542f7fe39868bed",
+    "schematic-checks.json": "a05a60f5abb4b335de0a9624de6650486f780e12c0b83223c6380790bc364da9",
+    "geometry-parity.json": "7b423b925a3efcae8e220ec83f3fe79ceef2657f76ad9121b8b36a980a0d6294",
+    "system-native.xml": "ff45834490030e434ebc3209d34376de735c03c3ace2755d129a7e2ddceecc7a",
+    "single-flange-native.xml": "de2de9a802803220936c480708eb5ca2f547e75cdc6d7fdbb01940eae759c5a2",
+    "system-erc.json": "6a9345bad08673729c88901791d93051baad0cf156ad81007946471dc1d47336",
+    "connector-clearance-repair.json": "1f325e2ece5c1f72b70d53244116f15a91e212e6be561b90036aeec57c00946e",
+    "critical-copper.json": "c33d5acc2fa5277ed9a070d46b3cb90b1cf6b7c4c7216fb7056f4ff85a006d31",
+    "mcad.json": "9fdaaa0e70aba5a95e8aef0648da7428b468d3b7d4eb236217032a7e7d1ee240",
+    "native-step-pose-checks.json": "ce7b496e8fc37868b47dce773bb79c6388acdaeba1243d7d0530d3b527cfdb7c",
+    "single-flange-independent-terminal-review.json": "726589d521c42da768fe7ed653abd3b6e55547901f2114c269db521f745c78cb"
+  },
+  "source_invariant_sha256": {
+    "parts-selection.json": "41047c4a6a6c5f2a1de48918d1fa903048433dcbaa6c83ddff48a617731d1da2",
+    "system-native.xml": "3c0e8899ac864f9a6f12f18e9f3bce4b03cc2555a41cee5c8c98f17b78b22db5",
+    "body/body-evt1.kicad_pcb": "5311b5972d4cf3498d28ccf949fa0b3ed64fbdc67b3c227156abd72d736ea367",
+    "body/mcad.json": "52830d9f24a8a5a5a7f12e78980a3e8ed60ac03704f2e190ad55fd8c926f40ef",
+    "body/body-native.xml": "c3d8482b08b67be70ab82b612c3b99c2ac6012e765f1fe9419d0106f707c945a",
+    "flange/flange-evt1.kicad_pcb": "adafe46de7b49daa22fa35dc287eec4d7b18b601016ea3dcd0380f36db6c6e9e",
+    "flange/mcad.json": "ebaf1c9ccb64412196025017f66e0d9156ca19644f9d1bb74d15d8da5b2d384e",
+    "flange/flange-native.xml": "9c0d169c366faefc82ea75a587081153268920bf3501967db7871bdeef5ace94",
+    "sensor/sensor-evt1.kicad_pcb": "af9baeb350e0343d6b3ee8a276ed54d8b96792c8363042612a1d7c9f46e7b8b2",
+    "sensor/mcad.json": "1553901e07f2b111fca114540c28d6968ec50a134a221363a197f506fb3612be",
+    "sensor/sensor-native.xml": "3ac68f835b2828d53407a89dad6a772609c62e3e35535b7a43ecfbfc78ffe4d4"
+  },
+  "all_local_source_sha256": {
+    "NativeKiCadRouted.step": "d905f670c1a639ab778a1afa1400cfb44d172e078f3ccfdf470f3d69487bce57",
+    "PrototypeR0.kicad_sym": "15dff2f4dcc4039978d2a955b5c9940a7768fbdb59451e47bf59e15cead5c38f",
+    "README.md": "b4bba18b4eefd73fc5181da0da2bafd5fa0c0323921fa4db391a4475ca8c9352",
+    "Selected.3dshapes/C_0402_1005Metric.step": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+    "Selected.3dshapes/C_0603_1608Metric.step": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+    "Selected.3dshapes/C_0805_2012Metric.step": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "Selected.3dshapes/D_SOD-123.step": "4413b86c5a559a63b29f1f53fd235ffe38dd235d3c16750a8a78e855c9a802ef",
+    "Selected.3dshapes/D_SOD-323.step": "6c72b6baeee0baa9075c149ba2e76f711328315273e81580dbd57fb36a86c1e3",
+    "Selected.3dshapes/ESP32-C3-MINI-1-OEM.step": "a4ed075447476cb39cbee4f5889f163ff8abae111efcf27c3559b8dafa1085aa",
+    "Selected.3dshapes/Fuse_1206_3216Metric.step": "5e6dcbe286696143d35a8ea37d91eef4b54ff3d1bd7c2c2b4dedda83d3f8e203",
+    "Selected.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step": "470db6ec39ba9d16e8d1dde845be2fd86ecf9e8280643d8e226b3ef821c9716e",
+    "Selected.3dshapes/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.step": "ff33172378d63a6a8e51e18f421337f1e5972a2c5b026c0f217347e4be9be191",
+    "Selected.3dshapes/KiCad-LICENSE.md": "45d2bce75e5a4208f5afb01b8fb2c406e700371c4fe2b5f5cd5c443d46db4d8f",
+    "Selected.3dshapes/LGA-12_2x2mm_P0.5mm.step": "5e6c16287491528f89c09590e0d5dace14debf478226f74b45504eb906119145",
+    "Selected.3dshapes/MillMax1946.step": "f5fd0bac157346b937ba0e408945dffc4b5c7ba9d160ed27a018b7758d7964bb",
+    "Selected.3dshapes/R_0402_1005Metric.step": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+    "Selected.3dshapes/R_0603_1608Metric.step": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "Selected.3dshapes/R_0805_2012Metric.step": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+    "Selected.3dshapes/SOT-23-6.step": "9491de18305b16fe125ee3d603109a29edd837d50d22305b6f929886492ce755",
+    "Selected.3dshapes/SW_SPST_B3U-1000P.step": "587521eeb9e74a89206aa30ba175b56ce2e6906ce77ce09af076fdddba9bd5d6",
+    "Selected.3dshapes/USON-6_1x1.45mm_P0.5mm.step": "61bf9ccef024ce8a71b4968776fbfe67acaca641481762d12dab3c0a21a12213",
+    "Selected.pretty/C_0402_1005Metric.kicad_mod": "9503e39992d920c58579cf9fbd085c607c33be3aa0c658cd13763463501f42dd",
+    "Selected.pretty/C_0805_2012Metric.kicad_mod": "840765237e65f871e4fe355261b5c25f07f55fb2679f64bb97e07d574fe08fc1",
+    "Selected.pretty/D_SOD-323.kicad_mod": "cb1eee75c6663271332175636b91d77d586ce9dfe6ed78fa95167ed61b0c60fb",
+    "Selected.pretty/Diodes_B140HW_SOD123_A1_K2.kicad_mod": "bc7ee774059bea3901892208809ea3a9238f37ccd1f22bac73233f436ded2317",
+    "Selected.pretty/Espressif_ESP32-C3-MINI-1_53Pads.kicad_mod": "5c86b48520e4c45bd275220b81ab26beb120dd09e1cb0f3fe2de82f81c70a6c8",
+    "Selected.pretty/Fuse_1206_3216Metric.kicad_mod": "a332123fafeaffb6f81980e95a67b72e7beba00513b13b6b67417b74e17ce4bb",
+    "Selected.pretty/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.kicad_mod": "e48875ebefc87c73ce227138bcc914a31f04d29864789d1d4edf6e9a1195f2ea",
+    "Selected.pretty/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.kicad_mod": "849733b56a0929464f2640134e65a9b6572547af656b1065a9a882eff35190a6",
+    "Selected.pretty/LGA-12_2x2mm_P0.5mm.kicad_mod": "951f30297b11a9c5d22361c8e17776a1d531f1c8f79a38a8f1360cadbe7a5173",
+    "Selected.pretty/MillMax_1946_0_PTH_Study.kicad_mod": "5105d36c3cdf4656e8b87ad9e70407c4de3ced209b7db7cee1be6c3f2643bd5b",
+    "Selected.pretty/Murata_GRM18_0603_Reflow.kicad_mod": "263d218e7c6adb334d13405eda54883eba52ab7df36f011a48156a3565688c82",
+    "Selected.pretty/Murata_GRM21_0805_Reflow.kicad_mod": "b82de78de5f415a20a0dd3a4ea9d93c5ea67abafabc9d59d9722b9189ff13194",
+    "Selected.pretty/R_0402_1005Metric.kicad_mod": "f85e34bd3e55ef26d8c526a7a65f92147b36a674fa02525e6ff3d970d8ce0817",
+    "Selected.pretty/SOT-23-6.kicad_mod": "7178355a201bbec3a1dedf60befc174e5dab19788049b8f0edd263ff1e3ebf16",
+    "Selected.pretty/SW_SPST_B3U-1000P.kicad_mod": "86886925dd8008c04eb9599e50efad444e3c07813a527ec48de7281d3d73b3d0",
+    "Selected.pretty/TDK_C1608_0603_Reflow.kicad_mod": "b3c8369dd4283e05b694d9a2c58ff5005705ad7d400b51be27d0da9a2b24a848",
+    "Selected.pretty/Texas_USON-6_1x1.45mm_P0.5mm_SMD.kicad_mod": "c8563606a39617522edf6ea855bc2d151ad06da2f6f8acf695e9321758941add",
+    "Selected.pretty/Vishay_TNPW0603_IEC_Reflow.kicad_mod": "90c3f96aa0db303ba55ede189b6e7f809a04d50d5cf8f67f1e31e9744deb7665",
+    "Selected.pretty/Vishay_TNPW0805_IEC_Reflow.kicad_mod": "9c47013560f2644684802798f95c6cf10db12002d6788e865842bf3051ac2ff8",
+    "SingleFlangeRouting.20261112-210148.FCBak": "21ed99819697ef668a5a3e19f48a63fcbc28680c610e4908bac894fefee451f6",
+    "SingleFlangeRouting.FCStd": "43c1f8f625d1f53558c30ae5f21890313030d588ac70546fb2554a4f9125f704",
+    "SingleFlangeRouting.step": "bf74a6ba7e7e05833d2bc32d1e5d5858446ee502893c635c8efe28c274c5bf3d",
+    "build_component_assembly.py": "c0f21def802ced58c820c5cde5c6b173d64b7eb9299a020c1fa186932cfc66a9",
+    "build_pcb.py": "5675a19ecfb27d0a25612d7dee5af7bcbae21ad4e2e84e1e3fe3f1c318a3dd99",
+    "build_schematic.py": "b1bae6c8724c60108950638c26227f88bdbe084cbd2d55d082bbc8bb76c06921",
+    "center_usb_service_junction.py": "66137322cd9e971fa70e179a6a3aa283820668fbb80cbe9f2988030cccf9f755",
+    "check_geometry.py": "8f8c6512d2c1fded43a53e479965d0a42aa5baf5529bcca8c8c9637b2bf83200",
+    "check_native.py": "15c187335b2aa44e7f18e39589f10778ce0faa6e902f5352d0c0928c0ec42266",
+    "check_native_step.py": "70f4900d9a6ea48f68787f85bc5cc0e16c039b62ea2d52c9e577ed837ef3afb4",
+    "check_schematic.py": "6e8232e3d7499d1ab64352556b3f6688306f4022cd20af35cde1b1893d134510",
+    "component-assembly-checks.json": "b8da4b72945de4eddf99219dd699f4b4bf2157c5c8affe5910663cfa5ab8409e",
+    "component-assembly.log": "632bd57f1d6e156cc203aafe4ec7a3d647463ef9e8dee3b1044eab1596681ef7",
+    "connector-clearance-repair.json": "1f325e2ece5c1f72b70d53244116f15a91e212e6be561b90036aeec57c00946e",
+    "critical-copper.json": "c33d5acc2fa5277ed9a070d46b3cb90b1cf6b7c4c7216fb7056f4ff85a006d31",
+    "critical-drc.json": "c10f7775872ba2bee8b28147c27cdc4026792a9fef80373da9bd737df08623e9",
+    "critical-preflight-drc.json": "ceffa51fcb11a0a0ff3c82ac201477c8219c7b44e988b780858a5794d32fffc8",
+    "drc.json": "10cefd7d00b23663f13cf883b074b0c6a45a24bd7cbb6b9ba542f7fe39868bed",
+    "erc.log": "e61860ee391b984aefdfeb918b589f3c07320aaec7d5333f566966a2f7202817",
+    "export_mcad.py": "3180a5bcbd4385c76e213d2946574a34df26bbb65e2e705a53ac70ef31c2736a",
+    "fill_planes.py": "a06ab3bc167bc39b2c1e5698db0840a55ada29cf28ecaacf95b83552a6bfc35d",
+    "fp-lib-table": "9951bf4871b5ba6bc8a25315160c559f4f9f6de68f46cecaf00a04c3975725d2",
+    "geometry-parity.json": "7b423b925a3efcae8e220ec83f3fe79ceef2657f76ad9121b8b36a980a0d6294",
+    "mcad.json": "9fdaaa0e70aba5a95e8aef0648da7428b468d3b7d4eb236217032a7e7d1ee240",
+    "native-step-check.log": "5cf2e1e160751f8429c8d92634754edf063e758e9bc94c1838bd76a3fd135310",
+    "native-step-pose-checks.json": "ce7b496e8fc37868b47dce773bb79c6388acdaeba1243d7d0530d3b527cfdb7c",
+    "pcb-state.json": "8e64ceb6a5d04e5c3945068cf14b7b00392b5df1bd2453f3d0beab3ff8401e38",
+    "placement-mcad.json": "16af2a7be4de54981b8a8412ce09bca8497fd9f3a19dcaf6bd1a7a65f2b98764",
+    "refine_critical.py": "a560c447cb878e55559126ec564d6adbeb8603f0dffbf6d76cd3a3ec53211f6e",
+    "repair_connector_clearance.py": "643b1f8d55f6948a55bc5b993fe286edcb4278efffd0ce9e0146789a9e0a18ad",
+    "restore_native_widths.py": "672c1d17f33bf0b46e3c23993b39119fe5a1a0582d6fc049b581f90546a21377",
+    "retire_former_pad_scraps.py": "dae4b417cfa8b611999000b3707d0cacbf32036ff5d9d134a8b0934d61655460",
+    "route_critical.py": "112d7afa80b18f6967196f90278a349fdf27ea1de68317e1259c46a67c1cfda5",
+    "route_exchange.py": "53bdea01efa904996c9c85937b6a2e77b330c33ee8e834fe3371130c4cc4bef5",
+    "route_reset_bypass.py": "2cf6fd27e6531aebae2c0533095e58734419c3487d047293ac3cf6555b12aaba",
+    "route_residual_native.py": "cbce0e2d94bb1352b4f6efd219775b606ea970df7d46a2cb73b83bd38f3c67e4",
+    "router-toolchain.json": "2df70405a300409113ce7402b71cd1bc1cdc8a3a1a4c05a5e4753e23cafa8263",
+    "routing/before-connector-repair-critical.json": "2d5ff0f5d21d29dc88bc901f4747750ecbe3e7f6b36cfacbf767b8be1a3ba082",
+    "routing/before-connector-repair.kicad_pcb": "c7fa8519054089a71cad11b55d2593b30dd79a87b650c82507b3cde8f903b769",
+    "routing/button-ground-drc.json": "d7e1f30410322dc19413c693bdc472e9d98d281e1f8fae67e58bd999f0d13067",
+    "routing/connector-repair-preflight.json": "a6db7eca4a4d4968de1944246ce2f8d9fa91b2f5e733c9f7dad3e1c55420180d",
+    "routing/connector-repaired-drc.json": "e4d33b7205b8eb99f2a00c24a8658dffac8a3b044391647fb94840b451ea8cf7",
+    "routing/dangler-pass-786e529c3f94.json": "91ed7c1372cf42677e0ffa529a0256015770707440b9b8580c58606a05cd251b",
+    "routing/dangler-pass-9017a61d8a87.json": "62c505753d7c4531a11c96c48416e8f82db3a2831af97f08c125e0497b881ce2",
+    "routing/dangler-pass-bbe66374ff5b.json": "c3ada136a0a9e0d4b86965f3e41a1636ae55d4e2feed6aea1dce72805e2ebad7",
+    "routing/dangler-pass-f75177a5340d.json": "8be0750cc94c1b8983a44502fd2e7babcbc43c34fd528f9581e841d95c55c6c7",
+    "routing/former-pad-scrap-retirement.json": "9f4b60dea1cc0cd05094787932af80c71fe579c52d37d48bc5864eb60c46db8f",
+    "routing/native-residual-c141ef6db3c9.json": "56e1d996116081de13cde921685d994110b5d746bbbb8db6f30f7d1f0820f7df",
+    "routing/native-residual-d62ae9d04c02.json": "630fbaf89aa113b88d9c90ec4b665157025d3aa00f9ec56a3cf6c0a2cefa0ce1",
+    "routing/native-width-restoration.json": "9edc3e2241ad9e676b050f23d6f86ec6811cb359459c7e1f2f05e5370a85675e",
+    "routing/pass1-drc.json": "3f709c0bfe48c26c296edfa1ff93b572eddeaa402dd98f401bb8926ece60a21a",
+    "routing/pass1-exchange.json": "6a14f82747537bb25719ad655335828344de4fb59e8f3fcbcf94ad22d8419cd9",
+    "routing/pass1-seed.kicad_pcb": "8b33c8b78c7fa215452a8367fc4ea2a7263231b8aeaad1608c5834c045113566",
+    "routing/pass1.dsn": "43fe17ea64a3d2642330ae2c15918b0119b6d4b5414d7f470cd47f4ceaf6fe42",
+    "routing/pass1.log": "d0934ba9d42c2f9a928a44fda9c605efe6f2592b72a7515e65b04b1d405661b8",
+    "routing/pass1.ses": "b501ef6c2a0c6f55a41f81fbb76f543fb691e5f2db57a7c5638cbfb1f42a5496",
+    "routing/reset-bypass-preflight.json": "6ff6d50a2c1a74f98f2027a8f4bb0ae5897380c6f4de21d5e507c0638fb58d96",
+    "routing/reset-bypass.json": "f852d5e08366fbf78868d5ec1f46a7481b4949c2732347b52cb05086081ae152",
+    "routing/usb-service-via-centering.json": "2a1b273faf95c8feebe00bc4566cdfafb473544b344650e59b6d7e4683ca31d9",
+    "routing/width-restored-drc.json": "c8cb0689b6c1b4ec6c7d648bea3923c89019f16fd757aa521f379357f7d9c6ef",
+    "schematic-checks.json": "a05a60f5abb4b335de0a9624de6650486f780e12c0b83223c6380790bc364da9",
+    "schematic-source-bindings.json": "a68e25086cc78c90a69cc01e9f1202e1102adc99e44dfcdd7bf855e341508423",
+    "seed-drc.json": "c4432732e9fa7dcfef669d0344df6df5bf91ee6c9bceaa65514d5546f807c514",
+    "sheets/01-power.kicad_sch": "3daea1ed1bfce72e6875739597d24d36d157d618dd9aa1f4603d14b667827b94",
+    "sheets/03-control.kicad_sch": "f2cb4759a78c7906e7e4b040d8c155a6cc4047656c201e63d7c03f2a8e9cbeb0",
+    "sheets/04-targets.kicad_sch": "e7a92930d38da5c58dc1f9fafb23218124a9b0c2e9a3ea6e3553dac5892d4174",
+    "sheets/06-interboard.kicad_sch": "bc8812252c87e87ced9fa307a68a4c8d3dd7ba89dea89a0aecfd3c877700772b",
+    "sheets/07-recovery.kicad_sch": "3e25a90390f1fc66627790a60db2bff81c3ef534ac34b2c00fc0385ac4edd023",
+    "sheets/08-compass.kicad_sch": "49ee7f06c318fc68c36fa48cbb4fc7bf862d6a9aaa354999626232333c8df713",
+    "single-flange-independent-terminal-review.json": "726589d521c42da768fe7ed653abd3b6e55547901f2114c269db521f745c78cb",
+    "single-flange-native.xml": "de2de9a802803220936c480708eb5ca2f547e75cdc6d7fdbb01940eae759c5a2",
+    "single-flange-system.kicad_prl": "283cf68ce33e7801531a47d014fa21477e7c8f36aa9cfefea593910aa6d3b1aa",
+    "single-flange-system.kicad_pro": "928b45220d59e36142324faacbf3a756be6852120cd4209f97be9e649caf3f16",
+    "single-flange-system.kicad_sch": "4b2133389a1d3d97ea0e45658822b4b27f9202f553ab459fc1af7bf58cc1abee",
+    "single-flange.kicad_pcb": "b03c5ad9541e2e10d8a9097ae05d14ded36d2ebb1534d0a0c33b38f99a64f2b1",
+    "single-flange.kicad_prl": "8cd441616ebb7cafed66b4eb12f35b4c55d22c10072d3f9f4c65d3d9d59be683",
+    "single-flange.kicad_pro": "15def5abd445344354446ab3d905a35760c0248ba72df6cdeab7e3905d21f114",
+    "single-flange.kicad_sch": "9d9f7d2ae18ab07fb8fcdb99ec2d7e7ab812e1d4dacb18f81505a07ed8afddf6",
+    "sym-lib-table": "70982a3be5ebde884704398dc3744ce43b3eb7cf6f91eed131e50ad415d80790",
+    "system-erc.json": "6a9345bad08673729c88901791d93051baad0cf156ad81007946471dc1d47336",
+    "system-native.xml": "ff45834490030e434ebc3209d34376de735c03c3ace2755d129a7e2ddceecc7a",
+    "trim_reported_danglers.py": "dfef273a92b23b3d683631a41673882eee03323b7ee1b809cd9f5a016a8db208",
+    "validation-context/body/01-power.kicad_sch": "56e630259471c7c99bb497ad953375b38eb5237807b99d5c8ae39d8b59663b8d",
+    "validation-context/body/02-motor.kicad_sch": "5e9aa807bc5a754e64d5c027cc3ae03eeb25ebdb8a3d10e42a64fe3ab6b14265",
+    "validation-context/body/04-sensors.kicad_sch": "c4f1a86d349d7cc5d2a95c6944283cf8a62466a449e7e2e1d42ef04ee6471c0f",
+    "validation-context/body/05-charge-guard.kicad_sch": "101e0f512bc798d10789b714171c072b1c699bd3fb0311ce30d660d8699b87d9",
+    "validation-context/body/06-interboard.kicad_sch": "62e1dee40a1dfeca299b2ab94282a371e0012b715c83e8c27e98364bb4f08263",
+    "validation-context/body/body-evt1.kicad_sch": "696df5c18e692976f01d744d257e91fd4d6c3ecc9e190be66953d5a28db5302d",
+    "validation-context/external-04-sensors.kicad_sch": "dc73c4b211af8b2622f8ba7cd964eb2235ef6c3a249d4ce2d9bc8a1671c54cb7",
+    "validation-context/external-05-charge-guard.kicad_sch": "5fdac1c3e65bb4349e5fabd4ee90eb907f27e16829889809ee3787b6a5175ef6"
+  }
+}

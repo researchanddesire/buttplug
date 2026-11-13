@@ -1,0 +1,37 @@
+{
+  "selected_part": "VLMU35CB20-275-120",
+  "manufacturer": "Vishay",
+  "source_page": "https://www.vishay.com/en/product/80232/tab/designtools-ppg/",
+  "source_zip": "https://www.vishay.com/docs/80469/led_smd_ceramic_vlmu35cb.zip",
+  "source_member": "80469LED_SMD_ceramic_VLMU35CB.stp",
+  "source_member_date": "2023-11-20",
+  "sha256": "55315e01f4507e4050430069c1bdaaeb0bea85f9101e1e858ab47dc147a45b90",
+  "model_basis": "Manufacturer family STEP, 10 material/optical solids. Imported as linked multi-body package, not a fit box.",
+  "source_axes": {
+    "mounting_plane_Y_mm": -0.7,
+    "optical_direction": [
+      0,
+      1,
+      0
+    ],
+    "package_bounds_XYZ_mm": [
+      -1.725,
+      -0.7,
+      -1.725,
+      1.725,
+      1.075,
+      1.725
+    ]
+  },
+  "discrepancies": [
+    "OEM family STEP total Y span1.775mm; selected part current datasheet nominal height1.68mm. Received package and PCB thermal joint control final placement.",
+    "Internal material/optical solids overlap; treat the purchased package as one component for external interference checks."
+  ],
+  "licensing": "Manufacturer geometry and rights retained. Source archive disclaimer not republished. No public publication permission asserted.",
+  "validation": {
+    "physical_fit": false,
+    "thermal": false,
+    "optical_dose": false,
+    "cleaning_efficacy": false
+  }
+}

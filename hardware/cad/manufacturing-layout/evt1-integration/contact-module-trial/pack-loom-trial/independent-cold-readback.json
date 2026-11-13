@@ -1,0 +1,441 @@
+{
+  "status": "Independent cold native/STEP/terminal checks pass; nut-lock budget conflicts remain",
+  "native": {
+    "path": "hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/pack-loom-trial/LocalTrayReliefLoomTrial.FCStd",
+    "sha256": "93f79a0a3c46d9976f756f89f3c6d730208946d13c89078248d9545dc0e254be",
+    "valid_single_solid_bodies": 53,
+    "external_links": 0,
+    "fully_constrained_relief_profile": true
+  },
+  "checker_sha256": "572a884c2b4fbcee99f864f4c8187bd5e70f4e0c9a12a2a03ad1c9291df14af7",
+  "rib_report_sha256": "be4c664aabe6f16ff618528691a4edcde18a992a550da4d0c1362e6e90402d13",
+  "terminal_source_sha256": {
+    "flange": "768b40e4a6144081421d85ed8a420f2110bc9c20f86b4833bd83edeb000de55b",
+    "body": "52830d9f24a8a5a5a7f12e78980a3e8ed60ac03704f2e190ad55fd8c926f40ef",
+    "J2_pads": "b3dbc35ddd1367cb4cbb129586c2ac3563016b73ff9f97e0b597e7fb5a2435d2"
+  },
+  "SH_numeric_contract_checks": [
+    {
+      "wire": "IB01",
+      "pin": 1,
+      "net": "GND",
+      "first_mm": [
+        -4.5,
+        31.525,
+        1.51
+      ],
+      "last_mm": [
+        -2.525,
+        -24.442,
+        4.5
+      ],
+      "native_length_mm": 60.93247657396142
+    },
+    {
+      "wire": "IB02",
+      "pin": 2,
+      "net": "VBUS_CHG",
+      "first_mm": [
+        -3.5,
+        31.525,
+        1.51
+      ],
+      "last_mm": [
+        -2.525,
+        -24.442,
+        3.5
+      ],
+      "native_length_mm": 60.45383724434115
+    },
+    {
+      "wire": "IB03",
+      "pin": 3,
+      "net": "3V3",
+      "first_mm": [
+        -2.5,
+        31.525,
+        1.51
+      ],
+      "last_mm": [
+        -2.525,
+        -24.442,
+        2.5
+      ],
+      "native_length_mm": 60.077601437306974
+    },
+    {
+      "wire": "IB04",
+      "pin": 4,
+      "net": "PACK_P",
+      "first_mm": [
+        -1.5,
+        31.525,
+        1.51
+      ],
+      "last_mm": [
+        -2.525,
+        -24.442,
+        1.5
+      ],
+      "native_length_mm": 59.81113367294707
+    },
+    {
+      "wire": "IB05",
+      "pin": 5,
+      "net": "MOTOR_ARM",
+      "first_mm": [
+        -0.5,
+        31.525,
+        1.51
+      ],
+      "last_mm": [
+        -2.525,
+        -24.442,
+        0.5
+      ],
+      "native_length_mm": 59.66024681987276
+    },
+    {
+      "wire": "IB06",
+      "pin": 6,
+      "net": "MOTOR_PWM",
+      "first_mm": [
+        0.5,
+        31.525,
+        1.51
+      ],
+      "last_mm": [
+        -2.525,
+        -24.442,
+        -0.5
+      ],
+      "native_length_mm": 59.62855339795593
+    },
+    {
+      "wire": "IB07",
+      "pin": 7,
+      "net": "DOCK_PRESENT_N",
+      "first_mm": [
+        1.5,
+        31.525,
+        1.51
+      ],
+      "last_mm": [
+        -2.525,
+        -24.442,
+        -1.5
+      ],
+      "native_length_mm": 59.71700703081954
+    },
+    {
+      "wire": "IB08",
+      "pin": 8,
+      "net": "I2C_SDA",
+      "first_mm": [
+        2.5,
+        31.525,
+        1.51
+      ],
+      "last_mm": [
+        -2.525,
+        -24.442,
+        -2.5
+      ],
+      "native_length_mm": 59.923765104689885
+    },
+    {
+      "wire": "IB09",
+      "pin": 9,
+      "net": "I2C_SCL",
+      "first_mm": [
+        3.5,
+        31.525,
+        1.51
+      ],
+      "last_mm": [
+        -2.525,
+        -24.442,
+        -3.5
+      ],
+      "native_length_mm": 60.24441666241554
+    },
+    {
+      "wire": "IB10",
+      "pin": 10,
+      "net": "TIP_EXC_EN",
+      "first_mm": [
+        4.5,
+        31.525,
+        1.51
+      ],
+      "last_mm": [
+        -2.525,
+        -24.442,
+        -4.5
+      ],
+      "native_length_mm": 60.67250867359001
+    }
+  ],
+  "J2_bare_land_checks": [
+    {
+      "wire": "BODY_POWER1",
+      "net": "PACK_P",
+      "pad_source_index": 0,
+      "bare_end_diameter_mm": 0.4,
+      "endpoint_mm": [
+        -1.9850000000000003,
+        47.75,
+        8.881784197001252e-16
+      ],
+      "pad_product_XY_bounds_mm": [
+        -2.4849999999999994,
+        47.45,
+        -1.4849999999999994,
+        48.05
+      ]
+    },
+    {
+      "wire": "BODY_POWER2",
+      "net": "GND",
+      "pad_source_index": 1,
+      "bare_end_diameter_mm": 0.4,
+      "endpoint_mm": [
+        -2.2,
+        46.9,
+        8.881784197001252e-16
+      ],
+      "pad_product_XY_bounds_mm": [
+        -2.450000000000003,
+        46.650000000000006,
+        -1.9500000000000028,
+        47.150000000000006
+      ]
+    },
+    {
+      "wire": "NTC1_RETURN",
+      "net": "GND",
+      "pad_source_index": 2,
+      "bare_end_diameter_mm": 0.26,
+      "endpoint_mm": [
+        -1.6849999999999996,
+        46.25,
+        8.881784197001252e-16
+      ],
+      "pad_product_XY_bounds_mm": [
+        -2.4849999999999994,
+        45.95,
+        -1.4849999999999994,
+        46.55
+      ]
+    },
+    {
+      "wire": "NTC2_RETURN",
+      "net": "GND",
+      "pad_source_index": 2,
+      "bare_end_diameter_mm": 0.26,
+      "endpoint_mm": [
+        -2.285,
+        46.25,
+        2.220446049250313e-16
+      ],
+      "pad_product_XY_bounds_mm": [
+        -2.4849999999999994,
+        45.95,
+        -1.4849999999999994,
+        46.55
+      ]
+    },
+    {
+      "wire": "NTC1_SIGNAL",
+      "net": "PACK_NTC",
+      "pad_source_index": 3,
+      "bare_end_diameter_mm": 0.26,
+      "endpoint_mm": [
+        -1.9850000000000003,
+        44.75,
+        4.440892098500626e-16
+      ],
+      "pad_product_XY_bounds_mm": [
+        -2.4849999999999994,
+        44.45,
+        -1.4849999999999994,
+        45.05
+      ]
+    },
+    {
+      "wire": "NTC2_SIGNAL",
+      "net": "PACK_GUARD",
+      "pad_source_index": 4,
+      "bare_end_diameter_mm": 0.26,
+      "endpoint_mm": [
+        -1.9849999999999999,
+        43.25,
+        4.440892098500626e-16
+      ],
+      "pad_product_XY_bounds_mm": [
+        -2.4849999999999994,
+        42.95,
+        -1.4849999999999994,
+        43.55
+      ]
+    }
+  ],
+  "tray_STEP_matches_cold_native": true,
+  "STEP_parity": {
+    "absolute_volume_difference_mm3": 2.8572885639732704e-06,
+    "relative_volume_difference": 3.072420868087706e-10,
+    "bidirectional_nearest_vertex_residual_mm": 7.705836788293272e-12,
+    "volume_numeric_limit_mm3": 1e-05,
+    "vertex_numeric_limit_mm": 1e-06
+  },
+  "nut_budget_native_sha256": "84251bdf6ae58946689ac8f60ac6aec1bea52da2a30772a2d8fbc006a446318e",
+  "nut_budget_report_sha256": "7a992684bf7204b4217050420e4862d69a2e0b94bcbb03787a4a8ada287b0490",
+  "nut_budget_cold_valid_bodies": 4,
+  "shifted_saved_pilot_intersection_regions": [
+    {
+      "part": "NTC1_SIGNAL",
+      "common_mm3": 0.2194182725851893,
+      "conservative_intersection_region_mm": [
+        3.144575064581062,
+        -14.500000000000007,
+        7.741634693419255,
+        11.249380733793554,
+        -14.273914336433148,
+        8.635693626506399
+      ],
+      "curve_sections": [
+        {
+          "section_index": 3,
+          "kind": "arc",
+          "native_centerline_distance_mm": 0.04963958505476678
+        },
+        {
+          "section_index": 4,
+          "kind": "arc",
+          "native_centerline_distance_mm": 0.2250000000000032
+        }
+      ]
+    },
+    {
+      "part": "NTC1_RETURN",
+      "common_mm3": 0.6233034169454515,
+      "conservative_intersection_region_mm": [
+        3.4758941158056116,
+        -14.500000000000007,
+        8.971325130023079,
+        9.720307451112292,
+        -14.024999900000001,
+        10.4250001
+      ],
+      "curve_sections": [
+        {
+          "section_index": 6,
+          "kind": "line",
+          "native_centerline_distance_mm": 0.0
+        },
+        {
+          "section_index": 7,
+          "kind": "arc",
+          "native_centerline_distance_mm": 0.0
+        },
+        {
+          "section_index": 8,
+          "kind": "arc",
+          "native_centerline_distance_mm": 0.012500000000006395
+        },
+        {
+          "section_index": 9,
+          "kind": "arc",
+          "native_centerline_distance_mm": 0.22500000000000675
+        }
+      ]
+    },
+    {
+      "part": "NTC2_SIGNAL",
+      "common_mm3": 0.21941822665963048,
+      "conservative_intersection_region_mm": [
+        3.1445750645810513,
+        -14.500000000000007,
+        -8.6356936265064,
+        11.249380733793554,
+        -14.273914336441281,
+        -7.741634693419248
+      ],
+      "curve_sections": [
+        {
+          "section_index": 3,
+          "kind": "arc",
+          "native_centerline_distance_mm": 0.04963958505475621
+        },
+        {
+          "section_index": 4,
+          "kind": "arc",
+          "native_centerline_distance_mm": 0.2249999999999961
+        }
+      ]
+    },
+    {
+      "part": "NTC2_RETURN",
+      "common_mm3": 0.6233028816857477,
+      "conservative_intersection_region_mm": [
+        3.4758941158054197,
+        -14.500000000000007,
+        -10.4250001,
+        9.720307451107784,
+        -14.024999900000001,
+        -8.9713251294727
+      ],
+      "curve_sections": [
+        {
+          "section_index": 6,
+          "kind": "line",
+          "native_centerline_distance_mm": 0.0
+        },
+        {
+          "section_index": 7,
+          "kind": "arc",
+          "native_centerline_distance_mm": 0.0
+        },
+        {
+          "section_index": 8,
+          "kind": "arc",
+          "native_centerline_distance_mm": 0.012499999999995737
+        },
+        {
+          "section_index": 9,
+          "kind": "arc",
+          "native_centerline_distance_mm": 0.2249999999999961
+        }
+      ]
+    },
+    {
+      "part": "PackNTC1",
+      "common_mm3": 2.1737673708269587,
+      "conservative_intersection_region_mm": [
+        12.5,
+        -14.500000000000007,
+        2.548946002070328,
+        13.61994407083705,
+        -12.375369079048266,
+        5.031242666124593
+      ],
+      "curve_sections": []
+    },
+    {
+      "part": "PackNTC2",
+      "common_mm3": 2.17375897791055,
+      "conservative_intersection_region_mm": [
+        12.5,
+        -14.500000000000007,
+        -5.031242677174969,
+        13.619944070835931,
+        -12.37536907904827,
+        -2.5489460057646585
+      ],
+      "curve_sections": []
+    }
+  ],
+  "physical_validation": false,
+  "service_motion_validated": false,
+  "nut_lock_compatible": false
+}

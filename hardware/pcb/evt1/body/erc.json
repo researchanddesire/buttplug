@@ -1,0 +1,61 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T12:32:05",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/18c56c33-1353-55c8-b980-d4e657b3577d",
+            "violations": []
+        },
+        {
+            "path": "/Body / dock and power interfaces/",
+            "uuid_path": "/18c56c33-1353-55c8-b980-d4e657b3577d/da544d5a-8b4e-53d9-80a3-b45e226fb089",
+            "violations": []
+        },
+        {
+            "path": "/Body / regulated motor and inhibit/",
+            "uuid_path": "/18c56c33-1353-55c8-b980-d4e657b3577d/b8c43e72-8c22-5c36-9d80-3221cde0c8a3",
+            "violations": []
+        },
+        {
+            "path": "/Body / motion and tip connector/",
+            "uuid_path": "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9",
+            "violations": []
+        },
+        {
+            "path": "/Body / independent charge permission/",
+            "uuid_path": "/18c56c33-1353-55c8-b980-d4e657b3577d/73bb72e9-ad73-5626-8514-271b13769d6c",
+            "violations": []
+        },
+        {
+            "path": "/Interboard connection/",
+            "uuid_path": "/18c56c33-1353-55c8-b980-d4e657b3577d/85304e0d-e789-5146-ac79-f7c2ec838d2a",
+            "violations": []
+        }
+    ],
+    "source": "body-evt1.kicad_sch"
+}

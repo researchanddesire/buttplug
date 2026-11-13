@@ -1,3 +1,4 @@
+#ifndef BOARD_EVT1
 #include "r0_sensors.h"
 #include <string.h>
 #include "sdkconfig.h"
@@ -144,3 +145,4 @@ void r0_sensors_sample(r0_sample_t *s) {
     if (s->battery_valid) s->battery_mv = mv * CONFIG_R0_VBAT_DIVIDER_NUMERATOR /
                                                      CONFIG_R0_VBAT_DIVIDER_DENOMINATOR;
 }
+#endif

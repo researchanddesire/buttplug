@@ -1,0 +1,31 @@
+{
+  "status": "pass: independent bounded decoder/cache patch recheck; transport/hardware integration not qualified",
+  "core_sha256": "1a021b8585f37c9802d26cff0f55689446c3761934ac1190c191ef1c7e02972c",
+  "header_sha256": "518dd86df138bd8cb5ef9ce84c745594d0889915a0c7f2d7d8df701e2474688e",
+  "frozen_protocol_sha256": "4678caf5112116f93fc80a013288c87fad0e0572ccb57d29b35e8bd2dbe971a5",
+  "review_scope": [
+    "bytewise20Bdecode and sentinel/validity checks",
+    "nonce-echo and nonreusedrequestID rules",
+    "boundedtimeanchorinterval and drift uncertainty",
+    "sequence/tickwrap and timinggeneration invalidation",
+    "olderunfinishedattempt completion chronology",
+    "causalpostloss matching distinctfromtemperaturevalidity"
+  ],
+  "original_finding": "Late completion ofolderseq10 bypassedchronology and displacednewerseq11 asFRESH; publicAPI repro withvalidsnapshot/anchor",
+  "resolved_repro_stdout": "unfinished=1\nnewer=1\nolder_completion=3\nlatest_value=0,newest_sequence=0,resync=1,quality=0\nequal_loss_start=1\nequal_loss_attempt_matches=1\n",
+  "repro_source_path": "/private/tmp/compass-case-telemetry/review_case_link.c",
+  "repro_source_sha256": "f893aa00299512f168b687d6f36b9744b683dddc0a19371c3493de0c39a39cf6",
+  "host_behavior_suite_stdout": "20 behavior scenarios passed; sizeof(case_link)=6280 bytes\n",
+  "host_behavior_suite_sha256": "4eb94f02b0925d5b7803bf5bf3b8e0a17715c3c7ea5fad048367063b4a32c8d0",
+  "host_build": "Clang C11WallWextraWerrorpedantic+UBSan; output inprivate/tmp, noagent-ownedsourcewrites",
+  "same_ms_rule": "Producer causalbit6 +stableabsent start/end +no source-change; equality alone cannotcreatebaselinematch",
+  "existing_runtime_files_edited": false,
+  "Ready_or_Done_inference_added": false,
+  "remaining_integration": [
+    "qualifiedcasesessionnoncegeneration",
+    "actualBLE/SC16transport and callbacks",
+    "MSIdrift/freshnesspolicy qualification",
+    "mergedSTM32targetmemory/loopbudget",
+    "realchargesensing and thermalreadiness criteria"
+  ]
+}

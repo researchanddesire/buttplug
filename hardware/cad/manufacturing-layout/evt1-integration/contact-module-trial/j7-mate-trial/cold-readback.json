@@ -1,0 +1,192 @@
+{
+  "status": "pass: independently cold-opened native mates/wires and source numeric pin order",
+  "native_sha256": "a8928d0db56f36396f689e4645355f40dd8579f90e3a0728d1e75bd45835b30c",
+  "valid_single_solid_bodies": 32,
+  "external_links": [],
+  "wires": [
+    {
+      "wire": "IB01",
+      "pin": "1",
+      "net": "GND",
+      "first_point_mm": [
+        -4.5,
+        31.525,
+        1.51
+      ],
+      "last_point_mm": [
+        -2.5250000000000004,
+        -24.442,
+        4.5
+      ],
+      "volume_mm3": 17.204467990458166,
+      "length_mm": 60.845187946801026,
+      "analytical_tube_volume_relative_error": 5.210540479778822e-05
+    },
+    {
+      "wire": "IB02",
+      "pin": "2",
+      "net": "VBUS_CHG",
+      "first_point_mm": [
+        -3.5,
+        31.525,
+        1.51
+      ],
+      "last_point_mm": [
+        -2.5250000000000004,
+        -24.442,
+        3.5
+      ],
+      "volume_mm3": 17.074714427265572,
+      "length_mm": 60.385647395372565,
+      "analytical_tube_volume_relative_error": 6.295469110426113e-05
+    },
+    {
+      "wire": "IB03",
+      "pin": "3",
+      "net": "3V3",
+      "first_point_mm": [
+        -2.5,
+        31.525,
+        1.51
+      ],
+      "last_point_mm": [
+        -2.5250000000000004,
+        -24.442,
+        2.5
+      ],
+      "volume_mm3": 16.97378626464392,
+      "length_mm": 60.02939983936318,
+      "analytical_tube_volume_relative_error": 5.1454132818143716e-05
+    },
+    {
+      "wire": "IB04",
+      "pin": "4",
+      "net": "PACK_P",
+      "first_point_mm": [
+        -1.5,
+        31.525,
+        1.51
+      ],
+      "last_point_mm": [
+        -2.5250000000000004,
+        -24.442,
+        1.5
+      ],
+      "volume_mm3": 16.90382916824829,
+      "length_mm": 59.782928138637985,
+      "analytical_tube_volume_relative_error": 3.576014162607336e-05
+    },
+    {
+      "wire": "IB05",
+      "pin": "5",
+      "net": "MOTOR_ARM",
+      "first_point_mm": [
+        -0.5,
+        31.525,
+        1.51
+      ],
+      "last_point_mm": [
+        -2.5250000000000004,
+        -24.442,
+        0.5
+      ],
+      "volume_mm3": 16.866019269262022,
+      "length_mm": 59.65120242946779,
+      "analytical_tube_volume_relative_error": 2.3200277998152086e-06
+    },
+    {
+      "wire": "IB06",
+      "pin": "6",
+      "net": "MOTOR_PWM",
+      "first_point_mm": [
+        0.5,
+        31.525,
+        1.51
+      ],
+      "last_point_mm": [
+        -2.5250000000000004,
+        -24.442,
+        -0.5
+      ],
+      "volume_mm3": 16.86211000139122,
+      "length_mm": 59.63715131781383,
+      "analytical_tube_volume_relative_error": 6.0917952110794605e-06
+    },
+    {
+      "wire": "IB07",
+      "pin": "7",
+      "net": "DOCK_PRESENT_N",
+      "first_point_mm": [
+        1.5,
+        31.525,
+        1.51
+      ],
+      "last_point_mm": [
+        -2.5250000000000004,
+        -24.442,
+        -1.5
+      ],
+      "volume_mm3": 16.89145006617281,
+      "length_mm": 59.741309486245335,
+      "analytical_tube_volume_relative_error": 4.288340011684936e-07
+    },
+    {
+      "wire": "IB08",
+      "pin": "8",
+      "net": "I2C_SDA",
+      "first_point_mm": [
+        2.5,
+        31.525,
+        1.51
+      ],
+      "last_point_mm": [
+        -2.5250000000000004,
+        -24.442,
+        -2.5
+      ],
+      "volume_mm3": 16.954497335963786,
+      "length_mm": 59.961738388274924,
+      "analytical_tube_volume_relative_error": 4.2186600135129e-05
+    },
+    {
+      "wire": "IB09",
+      "pin": "9",
+      "net": "I2C_SCL",
+      "first_point_mm": [
+        3.5,
+        31.525,
+        1.51
+      ],
+      "last_point_mm": [
+        -2.5250000000000004,
+        -24.442,
+        -3.5
+      ],
+      "volume_mm3": 17.048422570338282,
+      "length_mm": 60.29424513953732,
+      "analytical_tube_volume_relative_error": 3.6743034785603126e-05
+    },
+    {
+      "wire": "IB10",
+      "pin": "10",
+      "net": "TIP_EXC_EN",
+      "first_point_mm": [
+        4.5,
+        31.525,
+        1.51
+      ],
+      "last_point_mm": [
+        -2.5250000000000004,
+        -24.442,
+        -4.5
+      ],
+      "volume_mm3": 17.1724485641242,
+      "length_mm": 60.73283988747179,
+      "analytical_tube_volume_relative_error": 3.742402724439332e-05
+    }
+  ],
+  "source_contract_sha256": "7a054b6ea70cdc45c69fb8ba791e3c0d4afeee817acdfc64e5b8810aa07549be",
+  "source_body_MCAD_sha256": "52830d9f24a8a5a5a7f12e78980a3e8ed60ac03704f2e190ad55fd8c926f40ef",
+  "checker_sha256": "8f4de32f5393f9fa5836d8e2f58fd513519b8f839a337aa254b79e5d10d660f0",
+  "physical_validation": false
+}

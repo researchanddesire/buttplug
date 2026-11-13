@@ -1,0 +1,44 @@
+{
+  "reviewed_date": "2026-11-12",
+  "scope": "Primary-source dimensional review for EVT loom design; no purchase, stock, received-part, crimp or powered qualification",
+  "sources": {
+    "JST_SH": {
+      "url": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "pages_inspected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "facts": "SHR without protrusions; SSH-003T-P0.2-H AWG32..28/OD0.4..0.8. Side-entry6.25mm mated length/4mm header, top-entry6.3mm mated height. Reference dimensions, not received tolerances.",
+      "sha256": "ea3071ca5ee5a6069eba534fa39a10f34c9fb742ee42135a69ab4156bfa0f5de"
+    },
+    "JST_ACH_wire_to_wire": {
+      "url": "https://www.jst-mfg.com/product/pdf/eng/eACH1.pdf",
+      "pages_inspected": [
+        1,
+        2
+      ],
+      "facts": "2A, AWG30..28/OD0.5..0.63; ACHTP-02V-S/SACHP-003G-P0.2 and ACHTR-02V-S/SACH-003G-P0.2. Mated6.8x3.8x1.85mm reference; use7x4x2.1mm CAD budget.",
+      "sha256": "4280ff19632883de05ff52f837a0ba3ebb392cf5d6ba86c93393c6a3a6d642fd"
+    },
+    "wire": {
+      "url": "https://www.accuglassproducts.com/sites/default/files/catalog/kapton_insulated_uhv_wire.pdf",
+      "pages_inspected": [
+        2
+      ],
+      "facts": "100690:28AWG7x.005inch, OD.020inch,244ohm/km20C, bend.13inch.113094:32AWG7x.0032inch, OD.0195inch,558ohm/km20C,bend.065inch. OD tolerance/radius basis not stated; separate incoming maxima/centreline budgets are design requirements. Current headlines are not sealed-device ampacity proof.",
+      "sha256": "68d000f99cea64455e69b4989651d65f52c79982e8f3aee01b0b0f89f96b1a64"
+    },
+    "motor": {
+      "url": "https://nfpshop.com/wp-content/uploads/2022/04/Encapsulated-Vibration-Motor-NFP-E1015-3.7V.pdf",
+      "pages_inspected": [
+        1,
+        2,
+        3
+      ],
+      "facts": "Case26+/-0.3x11+/-0.1mm,100+/-1mm leads,6MAX rear lead-exit projection.2020-06-11 sample curve660.7mA stall at3.7V is reference data, not guaranteed worst case. Lead gauge/exit boot width not controlled in this drawing.",
+      "sha256": "cfb6f042dbe6dba848eb35a5dbc258a4ed3031525ea0b3dd8443552b143ddf68"
+    }
+  }
+}
