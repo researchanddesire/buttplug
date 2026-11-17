@@ -38,6 +38,25 @@ static void thermistor(void) {
         }
     }
 }
+static void pack_thermistor(void) {
+    /* Independent Vishay table 3 resistance points for resistor injection. */
+    const double ohms[] = {27348., 10000., 5824.9, 4910.6, 2228.};
+    const int expected[] = {0, 25000, 40000, 45000, 70000};
+    for (int reference = 11600; reference <= 14000; reference += 1200) {
+        for (unsigned i = 0; i < sizeof(ohms) / sizeof(ohms[0]); i++) {
+            int16_t reading = (int16_t)lround(2 * reference * ohms[i] / (10000. + ohms[i]));
+            int result = 0;
+            assert(evt_pack_ntc_temperature(reading, reference - 8, reference + 8, &result));
+            assert(abs(result - expected[i]) <= 20);
+        }
+    }
+    int result = -1;
+    assert(!evt_pack_ntc_temperature(0, 13200, 13200, &result));
+    assert(!evt_pack_ntc_temperature(26400, 13200, 13200, &result));
+    assert(!evt_pack_ntc_temperature(13200, 13200, 13400, &result));
+    assert(!evt_pack_ntc_temperature(13200, 0, 13200, &result));
+    assert(result == -1);
+}
 static double rad(int degrees) { return degrees * 3.14159265358979323846 / 180.; }
 static int angular_error(int a, int b) {
     int d = abs(a - b) % 360000;
@@ -86,7 +105,7 @@ static void compass(void) {
     printf("EVT compass: %u known tilted poses and calibrations passed\n",count);
 }
 int main(void) {
-    thermistor(); compass();
+    thermistor(); pack_thermistor(); compass();
     puts("EVT thermistor fixtures, rail/open/short/drift and compass rejection tests passed");
     return 0;
 }

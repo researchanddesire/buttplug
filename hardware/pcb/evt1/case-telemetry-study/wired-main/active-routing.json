@@ -1,0 +1,222 @@
+{
+  "board_sha256": "8900558ca63405ebd44074789897a87331e04c49b1205dbca6e6dea583d8e708",
+  "checkpoint_board_sha256": "f17860bcfe5507389021178bad8f1dfb7dc7525ce51f871031c92d322d2a828d",
+  "checkpoint": "layout-candidate/host-rail-continuations",
+  "native_KiCad": "10.0.8",
+  "native_xml_sha256": "02013ae89f6103bbd447f3074c458a8d644645d8f7b9cdeb3c7ad420f5d5a081",
+  "drc_sha256": "0953d86dd1706a174bee0df7df258d3aa60a554e32cf1a1ca90a0b4f08decbc8",
+  "violations": 0,
+  "remaining_opens": 13,
+  "open_counts_by_net": {
+    "RP_BREAK_AON": 1,
+    "RP_CONTACT_OK": 2,
+    "RP_LOCAL_READY": 1,
+    "RP_RUN": 1,
+    "RP_SCL": 1,
+    "RP_SDA": 1,
+    "RP_SWCLK": 1,
+    "RP_USB_BREAK": 2,
+    "USB_HOST_1V1": 2,
+    "USB_HOST_3V3": 1
+  },
+  "unchanged_copper_objects": 3235,
+  "added_copper_objects": 259,
+  "removed_copper_objects": 25,
+  "native_terminal_net_checks": 799,
+  "native_physical_numbered_pads": 811,
+  "resolved_relative_models": 200,
+  "In1_GND_fill_sha256": "8a86dbe3a2ef7faa0d25c672d1f23df33a1d8f9dfd36a3bb1b089c15ae57ed73",
+  "fabrication_ready": false,
+  "route_overlay_sha256": "781b9d0d86ca157a8be7d3f0a3b5a601b9345de4da83d5fc0e2ba8d78a986f03",
+  "schematic_ERC_sha256": "2a9b6e20423578312b8db7bec2fb35760faf0ddfec35aca4e9654314953c8983",
+  "project_sha256": "5612d7911b3027f2f7c847eb13bbfbdd494edc87b757563743de251670d9ff38",
+  "rules_sha256": "7bc46bd6e75485beafa8a251b1216b4811cfdeec6d9466e52c12485a6f27bebd",
+  "oscillator_reference_plane_comparison": {
+    "source_board_sha256": "2b734d29dc673d15c258cfd1c8a8f8803d6520f94151d0a8f535a11754d1f761",
+    "comparison_board_sha256": "8900558ca63405ebd44074789897a87331e04c49b1205dbca6e6dea583d8e708",
+    "source_zone_export_sha256": "73feb1fa101ccfd8aa5abe2dcec899ea3de42de51fe7df3686b8bc57812284db",
+    "comparison_zone_export_sha256": "bbc2a84e7ab11527e117058ce877f04a81c5c0c21fc983b1c9bea2d2553caf2e",
+    "In1_GND_outline_count": 1,
+    "In1_ground_removed_mm2": 4.639235524355736,
+    "In1_ground_added_mm2": 0.4172836055057502,
+    "oscillator_copper_centerline_total_delta_area_mm2": {
+      "0.25": 3.8793283094627466e-08,
+      "0.5": 3.8793283094627466e-08,
+      "1": 3.8793283094627466e-08
+    }
+  },
+  "modeled_UV_common_PCB_resistance": {
+    "status": "Wired Main saved copper model; supplier and physical qualification pending",
+    "native_board_sha256": "8900558ca63405ebd44074789897a87331e04c49b1205dbca6e6dea583d8e708",
+    "rho20_ohm_mm": 1.7241e-05,
+    "temperature_coefficient_per_K": 0.0039,
+    "rho_at85C_ohm_mm": 2.16115935e-05,
+    "primary_reference": "https://www.ti.com/lit/pdf/slua236 DN71; commercially annealed copper constants and R=rho*L/(w*t)",
+    "reference_is_not_a_fabricator_guarantee": true,
+    "sheet_solver_source_sha256": "bb4aad6bf66e5b2493fedbc55613ae19c85504331e6379072bb45f0d087298d8",
+    "analytic_rectangle_benchmark": "81x40 cell full-edge contacts gives exactly2.0squares, error<1e-8",
+    "fixed_surface_roles_and_squares": {
+      "UV limiter input loop": 2.823589249519129,
+      "UV limiter input access": 2.051845375374188,
+      "UV limited export": 7.497364124251941,
+      "UV cut input trunk": 4.416666666666668,
+      "cut A input neck": 4.312499999999995,
+      "cut A output neck": 2.312499999999993,
+      "two cut local link": 0.20000000000000284,
+      "cut B input neck": 2.312499999999993,
+      "cut B output neck": 3.0625000000000036
+    },
+    "requested_fabrication_minimum_corner_cases": [
+      {
+        "branch": "BASE",
+        "outer_Cu_min_mm": 0.035,
+        "inner_Cu_min_mm": 0.03,
+        "via_finished_bore_min_mm": 0.15,
+        "via_wall_min_mm": 0.025,
+        "temperature_C": 85,
+        "surface_width_retention": 0.8,
+        "engineering_model_reserve_ohm": 0.003,
+        "estimated_common_PCB_R_ohm": 0.04931710145435635,
+        "margin_to50mOhm_ohm": 0.0006828985456436495,
+        "frozen_direct_R_ohm": 0.048844279125555966,
+        "change_from_frozen_direct_R_ohm": 0.00047282232880038744,
+        "change_from_previous_product_R_ohm": -1.141028938000943e-11
+      },
+      {
+        "branch": "LID",
+        "outer_Cu_min_mm": 0.035,
+        "inner_Cu_min_mm": 0.03,
+        "via_finished_bore_min_mm": 0.15,
+        "via_wall_min_mm": 0.025,
+        "temperature_C": 85,
+        "surface_width_retention": 0.8,
+        "engineering_model_reserve_ohm": 0.003,
+        "estimated_common_PCB_R_ohm": 0.048951655902945236,
+        "margin_to50mOhm_ohm": 0.0010483440970547667,
+        "frozen_direct_R_ohm": 0.04848838040637435,
+        "change_from_frozen_direct_R_ohm": 0.0004632754965708877,
+        "change_from_previous_product_R_ohm": 4.0402167722497495e-11
+      }
+    ],
+    "supplier_acceptance": false,
+    "boundary": "J101 VBUS/GND lands to J621/J622 supply+return lands, through U105/U610/U611 copper; excludes semiconductorRON and separately allocated matedGH/crimp/wire/UVboard branches",
+    "conservative_omissions": [
+      "Other parallel copper layers and explicit tracks parallel to filled planes are uncredited",
+      "Every via uses full1mm barrel despite intermediate-layer connection",
+      "Complete PCB R is charged at full qualified source current, including device/UI/contactloops, although downstream UV portions carry less"
+    ],
+    "limitations": [
+      "Native plane retained-cell discretization and clamped via-contact approximations are engineering models, not certified upper bounds",
+      "3mOhm allowance is not a measured annular-spreading/process error bound",
+      "Finished Cu/width/plating and actual hot-aged complete path<=50mOhm require fabricator and physical qualification"
+    ],
+    "physical_validation": false,
+    "runner_sha256": "3a5cff5c58a46429d523a1b7d6b6e41bba4be188369afd9dd1e4bfbca7e73f1c",
+    "pcbnew_version": "10.0.8",
+    "frozen_direct_board_sha256": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+    "frozen_direct_resistance_sha256": "55826162b83e763d512cabf71aa8273571f680b590c49dae02bb01b96f3c858c",
+    "model_source_sha256": {
+      "export_power_grid.py": "a828ded6bbd2500e5693ace7bfe3f4484b00d78ef4bba145e5d556c4b10551a0",
+      "power_resistance.py": "2088bcdaf1ac602f44a8d729bf5909b615b3a2a0fc15c0feb8cc24906f0abb20",
+      "sheet_solver.cpp": "bb4aad6bf66e5b2493fedbc55613ae19c85504331e6379072bb45f0d087298d8",
+      "source-block/placement.json": "dacb1ec032e48724150969ebbde66b100935a381839a38120bbdb50010e4867d",
+      "critical-routing.json": "ad996aa337d4aa4dedbadcc231a52ad9b1923f2a29772de8e934a5d1041378c7"
+    },
+    "required_exact_tracks": 27,
+    "required_exact_vias": 15,
+    "verified_sheet_contact_vias": 15,
+    "verified_power_endpoint_footprints": [
+      "J101",
+      "J103",
+      "J621",
+      "J622",
+      "U105",
+      "U610",
+      "U611"
+    ],
+    "analytic_rectangle_solved_squares": 2,
+    "native_In2_filled_copper": {
+      "HOST_5V": {
+        "count": 3,
+        "hash": "954621655cfe47f0d36c769dc040be7fd6fc228e538fa078cc9244a960caff33"
+      },
+      "UV_5V_SW": {
+        "count": 1,
+        "hash": "7f6f98827a296722d019eaea737764a37db45d32f658002d35bb0af8969c2e19"
+      }
+    },
+    "raw_native_5V_fills_unchanged": true,
+    "exact_solver_input_sha256": "8900558ca63405ebd44074789897a87331e04c49b1205dbca6e6dea583d8e708",
+    "reference_solver_result_sha256": "500a73b834f797b081c1df460ccf160954cf9eaa39d6f380082cabd23359fc4d",
+    "method": "Native filled-zone geometry comparison and fresh five-point 0.125 mm In1 ground-mask solve. The previous official model retains the unchanged 5 V copper meshes and verified critical copper objects and endpoints.",
+    "all_native_filled_polygons_unchanged": false,
+    "baseline_grid_metadata_sha256": "70b907588f373814f27307b124cb338a6f4a76a2672505c4f1cfe1f82bb73efb",
+    "ground_grid_sha256": {
+      "BASE": "58a8ea094404f9e961ee5ff72a81ee953d497b12da6ffab5e10e71c447e788da",
+      "LID": "f339f48968b8f7618a36238178ae9e5fc621c7731ace9e09cbd26dd416d24632"
+    },
+    "ground_solve_sha256": {
+      "BASE": "55878b783901623f7e2ff8e44f876fc091471617ca4e6c44567e886975af2afa",
+      "LID": "da881785b4c82b87d9e9b7f09aa79034f2945ae39c75d9235a24daf7cc510e5c"
+    },
+    "raw_native_In1_GND_fill_unchanged_from_previous_product": false,
+    "ground_solve_reused_after_exact_grid_identity": false
+  },
+  "schematic_parity": {
+    "project": "dock-wired-system.kicad_sch",
+    "schematic_sha256": "7f4d24bd13ddf21a3561affe682d57a474090fb604a085d8fb0cd629455fabf8",
+    "transport_schematic": "dock-wired-transport.kicad_sch",
+    "transport_schematic_sha256": "ad474e451984f45ec354db476bc0375b41c444bcbb62569a97a57dd029389fe2",
+    "transport_native_check_sha256": "b242d32027db657d324ff96e66ac44180b14a94914c84e59d579ce1fd2ff5f7c",
+    "findings": 0,
+    "board_before_metadata_sha256": "d8bb82d2fdd45fc70217a9a84481b4ebbd9cc29a5fe11dcbbc890074a5c19e25",
+    "pcb_geometry_copper_zones_and_pad_nets_unchanged": true,
+    "mechanical_board_only_holes": [
+      "H701",
+      "H702",
+      "H703",
+      "H704",
+      "H705",
+      "H706"
+    ],
+    "manual_copper_bom_flags": [
+      "TP151",
+      "TP152",
+      "TP153",
+      "TP154",
+      "TP155",
+      "TP156",
+      "TP157",
+      "TP601",
+      "TP602",
+      "TP603",
+      "TP604",
+      "TP605",
+      "TP606",
+      "TP607"
+    ],
+    "transport_component_count": 303,
+    "transport_terminal_count": 1077,
+    "main_schematic_terminal_count": 829
+  },
+  "latest_route": {
+    "summary": "Connected RP2040 U160.26 to the existing RP_RUN supervisor network through a 13.754 mm route. Rejoined the existing monitoring SCL front track and In1 transition locally with a 0.324 mm front track, removing six redundant B.Cu segments and their now-unused via. One RP_RUN open remains at the translator.",
+    "predecessor_board_sha256": "2b734d29dc673d15c258cfd1c8a8f8803d6520f94151d0a8f535a11754d1f761",
+    "length_by_layer_mm": {
+      "B.Cu": 2.1040166866451835,
+      "F.Cu": 0.32399999999999807,
+      "In1.Cu": 8.169602005282265,
+      "In2.Cu": 3.479931239286159
+    },
+    "added_vias": 3,
+    "footprints_and_pad_nets_equal_to_predecessor": true,
+    "removed_copper_objects": 7,
+    "retained_control_route_length_change_mm": {
+      "MON_I2C_SCL": -8.286358208239921
+    },
+    "minimum_zone_thermal_spokes_preserved": true,
+    "new_RP_RUN_track_length_mm": 13.753549931213609,
+    "replacement_MON_I2C_SCL_F_Cu_track_length_mm": 0.324,
+    "obsolete_MON_I2C_SCL_via_removed": true
+  }
+}

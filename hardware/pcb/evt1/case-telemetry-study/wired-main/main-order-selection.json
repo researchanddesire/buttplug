@@ -1,0 +1,3230 @@
+{
+  "scope": "Wired Main component selection for procurement review. Quantities are fitted units before assembler attrition or reel minimums.",
+  "frozen_quote_board_sha256": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+  "input_sha256": {
+    "dock-main/assembly-quote/dock-main-assembly-quote.zip": "450b4bd140a1117962860e3b269943ae2ed94fc4ca0d547dd6f8502c4d867b27",
+    "dock-main/dock-main.kicad_pcb": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b",
+    "dock-system/native.xml": "51266fd7d71651ff813d76d9298a986301f619e6f8eed8ed9af64ca797a1630c",
+    "case-telemetry-study/wired-main/passive-parts-selection.json": "236646ed7f298f1622858a17657c875818a9cfe2a5673bbf8c7e14011fe748d6",
+    "case-telemetry-study/wired-main/circuit-contract.json": "bd6fac097c73a2724aaa3d3d402695281610460638fdeaeca45f03b98c076aa9",
+    "case-telemetry-study/wired-main/package-models.json": "74d35779d6aa555d351d2d4dbf4ce06ddec7a659d87175f54111e40b52685411",
+    "case-telemetry-study/wired-main/source-manifest.json": "868ef2a60ab1105bff46df6585847e92ebe65d498d5b864aa59717e54126cc23",
+    "case-telemetry-study/wired-main/native-checks.json": "b242d32027db657d324ff96e66ac44180b14a94914c84e59d579ce1fd2ff5f7c"
+  },
+  "wired_native_netlist_parity": "Native XML and all schematic source hashes checked against KiCad 10.0.8 ERC/netlist audit.",
+  "counts": {
+    "frozen_purchased": 138,
+    "added_passives": 48,
+    "added_active_or_crystal": 14,
+    "purchased_positions": 200,
+    "manual_copper_positions": 19,
+    "unique_purchase_lines": 70,
+    "manufacturers": 16,
+    "main_native_references": 219,
+    "purchased_DNP": 0
+  },
+  "manufacturer_totals": {
+    "Abracon": {
+      "placements": 1,
+      "manufacturer_part_lines": 1
+    },
+    "Analog Devices": {
+      "placements": 1,
+      "manufacturer_part_lines": 1
+    },
+    "Diodes Incorporated": {
+      "placements": 1,
+      "manufacturer_part_lines": 1
+    },
+    "GCT": {
+      "placements": 1,
+      "manufacturer_part_lines": 1
+    },
+    "Hirose": {
+      "placements": 1,
+      "manufacturer_part_lines": 1
+    },
+    "JST": {
+      "placements": 4,
+      "manufacturer_part_lines": 2
+    },
+    "Lite-On": {
+      "placements": 1,
+      "manufacturer_part_lines": 1
+    },
+    "Murata": {
+      "placements": 53,
+      "manufacturer_part_lines": 2
+    },
+    "onsemi": {
+      "placements": 1,
+      "manufacturer_part_lines": 1
+    },
+    "Raspberry Pi": {
+      "placements": 1,
+      "manufacturer_part_lines": 1
+    },
+    "STMicroelectronics": {
+      "placements": 2,
+      "manufacturer_part_lines": 2
+    },
+    "TDK": {
+      "placements": 18,
+      "manufacturer_part_lines": 7
+    },
+    "Texas Instruments": {
+      "placements": 31,
+      "manufacturer_part_lines": 22
+    },
+    "Vishay": {
+      "placements": 22,
+      "manufacturer_part_lines": 8
+    },
+    "Winbond": {
+      "placements": 1,
+      "manufacturer_part_lines": 1
+    },
+    "Yageo": {
+      "placements": 61,
+      "manufacturer_part_lines": 18
+    }
+  },
+  "purchase_lines": [
+    {
+      "manufacturer": "Abracon",
+      "mpn": "ABM8-272-T3",
+      "quantity_per_main": 1,
+      "references": [
+        "Y151"
+      ]
+    },
+    {
+      "manufacturer": "Analog Devices",
+      "mpn": "MAX6816EUS+T",
+      "quantity_per_main": 1,
+      "references": [
+        "U608"
+      ]
+    },
+    {
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "DMN62D2U-7",
+      "quantity_per_main": 1,
+      "references": [
+        "Q103"
+      ]
+    },
+    {
+      "manufacturer": "GCT",
+      "mpn": "USB4105-GF-A-120",
+      "quantity_per_main": 1,
+      "references": [
+        "J101"
+      ]
+    },
+    {
+      "manufacturer": "Hirose",
+      "mpn": "FH12-20S-0.5SH(55)",
+      "quantity_per_main": 1,
+      "references": [
+        "J201"
+      ]
+    },
+    {
+      "manufacturer": "JST",
+      "mpn": "SM02B-GHS-TB(LF)(SN)",
+      "quantity_per_main": 2,
+      "references": [
+        "J601",
+        "J602"
+      ]
+    },
+    {
+      "manufacturer": "JST",
+      "mpn": "SM08B-GHS-TB(LF)(SN)",
+      "quantity_per_main": 2,
+      "references": [
+        "J621",
+        "J622"
+      ]
+    },
+    {
+      "manufacturer": "Lite-On",
+      "mpn": "LTST-C190KGKT",
+      "quantity_per_main": 1,
+      "references": [
+        "D201"
+      ]
+    },
+    {
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "quantity_per_main": 52,
+      "references": [
+        "C106",
+        "C107",
+        "C108",
+        "C109",
+        "C110",
+        "C111",
+        "C112",
+        "C113",
+        "C114",
+        "C151",
+        "C152",
+        "C155",
+        "C157",
+        "C159",
+        "C160",
+        "C161",
+        "C162",
+        "C163",
+        "C164",
+        "C169",
+        "C170",
+        "C171",
+        "C172",
+        "C173",
+        "C174",
+        "C175",
+        "C176",
+        "C177",
+        "C178",
+        "C201",
+        "C202",
+        "C203",
+        "C204",
+        "C205",
+        "C207",
+        "C208",
+        "C209",
+        "C210",
+        "C211",
+        "C212",
+        "C602",
+        "C606",
+        "C607",
+        "C608",
+        "C609",
+        "C610",
+        "C611",
+        "C612",
+        "C613",
+        "C614",
+        "C615",
+        "C616"
+      ]
+    },
+    {
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71H103KA88D",
+      "quantity_per_main": 1,
+      "references": [
+        "C156"
+      ]
+    },
+    {
+      "manufacturer": "onsemi",
+      "mpn": "FSUSB42MUX",
+      "quantity_per_main": 1,
+      "references": [
+        "U151"
+      ]
+    },
+    {
+      "manufacturer": "Raspberry Pi",
+      "mpn": "RP2040",
+      "quantity_per_main": 1,
+      "references": [
+        "U160"
+      ]
+    },
+    {
+      "manufacturer": "STMicroelectronics",
+      "mpn": "STM32L071CBT6",
+      "quantity_per_main": 1,
+      "references": [
+        "U201"
+      ]
+    },
+    {
+      "manufacturer": "STMicroelectronics",
+      "mpn": "USBLC6-2SC6",
+      "quantity_per_main": 1,
+      "references": [
+        "U121"
+      ]
+    },
+    {
+      "manufacturer": "TDK",
+      "mpn": "C1608C0G1H102J080AA",
+      "quantity_per_main": 2,
+      "references": [
+        "C623",
+        "C624"
+      ]
+    },
+    {
+      "manufacturer": "TDK",
+      "mpn": "C1608X5R1C105K080AA",
+      "quantity_per_main": 2,
+      "references": [
+        "C165",
+        "C166"
+      ]
+    },
+    {
+      "manufacturer": "TDK",
+      "mpn": "C1608X5R1C225K080AB",
+      "quantity_per_main": 1,
+      "references": [
+        "C153"
+      ]
+    },
+    {
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "quantity_per_main": 9,
+      "references": [
+        "C101",
+        "C102",
+        "C103",
+        "C104",
+        "C105",
+        "C206",
+        "C620",
+        "C621",
+        "C622"
+      ]
+    },
+    {
+      "manufacturer": "TDK",
+      "mpn": "CGA2B2C0G1H102J050BA",
+      "quantity_per_main": 1,
+      "references": [
+        "C158"
+      ]
+    },
+    {
+      "manufacturer": "TDK",
+      "mpn": "CGA2B2C0G1H150J050BA",
+      "quantity_per_main": 2,
+      "references": [
+        "C167",
+        "C168"
+      ]
+    },
+    {
+      "manufacturer": "TDK",
+      "mpn": "CGA4J1X5R1C106K125AC",
+      "quantity_per_main": 1,
+      "references": [
+        "C154"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "ADS1115IDGSR",
+      "quantity_per_main": 1,
+      "references": [
+        "U202"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74HCS00PWR",
+      "quantity_per_main": 1,
+      "references": [
+        "U158"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74HCS08PWR",
+      "quantity_per_main": 1,
+      "references": [
+        "U615"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74HCS21PWR",
+      "quantity_per_main": 2,
+      "references": [
+        "U157",
+        "U612"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC2G14DCKR",
+      "quantity_per_main": 1,
+      "references": [
+        "U114"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC2G17DCKR",
+      "quantity_per_main": 4,
+      "references": [
+        "U159",
+        "U163",
+        "U613",
+        "U614"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC74APWR",
+      "quantity_per_main": 1,
+      "references": [
+        "U609"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TLV70033DDCR",
+      "quantity_per_main": 1,
+      "references": [
+        "U102"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TMUX1511RSVR",
+      "quantity_per_main": 1,
+      "references": [
+        "U162"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPD2EUSB30DRTR",
+      "quantity_per_main": 1,
+      "references": [
+        "U152"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22919DCKR",
+      "quantity_per_main": 1,
+      "references": [
+        "U602"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22950YBHR",
+      "quantity_per_main": 1,
+      "references": [
+        "U104"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22992RXPR",
+      "quantity_per_main": 2,
+      "references": [
+        "U610",
+        "U611"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS2553DBVR",
+      "quantity_per_main": 1,
+      "references": [
+        "U105"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS2553QDBVRQ1",
+      "quantity_per_main": 1,
+      "references": [
+        "U153"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3431SDRBR",
+      "quantity_per_main": 1,
+      "references": [
+        "U606"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G01DBVR",
+      "quantity_per_main": 1,
+      "references": [
+        "U156"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G33DBVR",
+      "quantity_per_main": 4,
+      "references": [
+        "U120",
+        "U123",
+        "U607",
+        "U616"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS389033DSER",
+      "quantity_per_main": 1,
+      "references": [
+        "U155"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS7A2033PDBVR",
+      "quantity_per_main": 1,
+      "references": [
+        "U154"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TS5A3159DBVR",
+      "quantity_per_main": 2,
+      "references": [
+        "U122",
+        "U124"
+      ]
+    },
+    {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TUSB320HAIRWBR",
+      "quantity_per_main": 1,
+      "references": [
+        "U103"
+      ]
+    },
+    {
+      "manufacturer": "Vishay",
+      "mpn": "CRCW040227R0FKED",
+      "quantity_per_main": 2,
+      "references": [
+        "R151",
+        "R152"
+      ]
+    },
+    {
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0805330RFKEA",
+      "quantity_per_main": 2,
+      "references": [
+        "R610",
+        "R611"
+      ]
+    },
+    {
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0805430RFKEA",
+      "quantity_per_main": 2,
+      "references": [
+        "R614",
+        "R615"
+      ]
+    },
+    {
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0402100KBEED",
+      "quantity_per_main": 8,
+      "references": [
+        "R156",
+        "R158",
+        "R159",
+        "R160",
+        "R161",
+        "R162",
+        "R163",
+        "R169"
+      ]
+    },
+    {
+      "manufacturer": "Vishay",
+      "mpn": "TNPW040210K0BEED",
+      "quantity_per_main": 2,
+      "references": [
+        "R157",
+        "R170"
+      ]
+    },
+    {
+      "manufacturer": "Vishay",
+      "mpn": "TNPW04021K00BEED",
+      "quantity_per_main": 2,
+      "references": [
+        "R167",
+        "R168"
+      ]
+    },
+    {
+      "manufacturer": "Vishay",
+      "mpn": "TNPW040247K0BEED",
+      "quantity_per_main": 2,
+      "references": [
+        "R155",
+        "R166"
+      ]
+    },
+    {
+      "manufacturer": "Vishay",
+      "mpn": "TNPW04024K70BEED",
+      "quantity_per_main": 2,
+      "references": [
+        "R164",
+        "R165"
+      ]
+    },
+    {
+      "manufacturer": "Winbond",
+      "mpn": "W25Q16JVUXIQ",
+      "quantity_per_main": 1,
+      "references": [
+        "U161"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "quantity_per_main": 17,
+      "references": [
+        "R120",
+        "R121",
+        "R122",
+        "R123",
+        "R124",
+        "R125",
+        "R126",
+        "R130",
+        "R131",
+        "R222",
+        "R602",
+        "R604",
+        "R605",
+        "R608",
+        "R612",
+        "R613",
+        "R617"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "quantity_per_main": 10,
+      "references": [
+        "R127",
+        "R128",
+        "R129",
+        "R213",
+        "R225",
+        "R226",
+        "R601",
+        "R603",
+        "R607",
+        "R616"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07150KL",
+      "quantity_per_main": 1,
+      "references": [
+        "R223"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071KL",
+      "quantity_per_main": 3,
+      "references": [
+        "R220",
+        "R221",
+        "R606"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071ML",
+      "quantity_per_main": 1,
+      "references": [
+        "R618"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-072K2L",
+      "quantity_per_main": 1,
+      "references": [
+        "R224"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "quantity_per_main": 12,
+      "references": [
+        "R201",
+        "R202",
+        "R203",
+        "R204",
+        "R205",
+        "R206",
+        "R207",
+        "R208",
+        "R209",
+        "R210",
+        "R211",
+        "R212"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0747KL",
+      "quantity_per_main": 1,
+      "references": [
+        "R619"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-074K7L",
+      "quantity_per_main": 2,
+      "references": [
+        "R216",
+        "R217"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07887KL",
+      "quantity_per_main": 1,
+      "references": [
+        "R101"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RC0603JR-070RL",
+      "quantity_per_main": 2,
+      "references": [
+        "R214",
+        "R215"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD07100RL",
+      "quantity_per_main": 2,
+      "references": [
+        "R108",
+        "R133"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710K5L",
+      "quantity_per_main": 1,
+      "references": [
+        "R154"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710KL",
+      "quantity_per_main": 2,
+      "references": [
+        "R218",
+        "R219"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0719K1L",
+      "quantity_per_main": 1,
+      "references": [
+        "R105"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD072K52L",
+      "quantity_per_main": 2,
+      "references": [
+        "R106",
+        "R132"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0740K2L",
+      "quantity_per_main": 1,
+      "references": [
+        "R107"
+      ]
+    },
+    {
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0797K6L",
+      "quantity_per_main": 1,
+      "references": [
+        "R153"
+      ]
+    }
+  ],
+  "purchased_positions": [
+    {
+      "reference": "C101",
+      "schematic_value": "1uF25V",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C102",
+      "schematic_value": "1uF25V",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C103",
+      "schematic_value": "1uF25V",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C104",
+      "schematic_value": "1uF25V",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C105",
+      "schematic_value": "1uF25V",
+      "footprint": "DockUI:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C106",
+      "schematic_value": "100nF16V",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C107",
+      "schematic_value": "100nF16V",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C108",
+      "schematic_value": "100nF16V",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C109",
+      "schematic_value": "100nF16V",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C110",
+      "schematic_value": "100nF16V",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C111",
+      "schematic_value": "100nF16V",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C112",
+      "schematic_value": "100nF16V",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C113",
+      "schematic_value": "100nF16V",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C114",
+      "schematic_value": "100nF16V",
+      "footprint": "DockUI:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C151",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C152",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C153",
+      "schematic_value": "2.2uF 16V X5R",
+      "footprint": "WiredMain:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X5R1C225K080AB",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1C225K080AB"
+    },
+    {
+      "reference": "C154",
+      "schematic_value": "10uF 16V X5R",
+      "footprint": "WiredMain:C_0805_2012Metric",
+      "manufacturer": "TDK",
+      "mpn": "CGA4J1X5R1C106K125AC",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA4J1X5R1C106K125AC"
+    },
+    {
+      "reference": "C155",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C156",
+      "schematic_value": "10nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71H103KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.farnell.com/datasheets/1747449.pdf"
+    },
+    {
+      "reference": "C157",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C158",
+      "schematic_value": "1nF 16V C0G",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "TDK",
+      "mpn": "CGA2B2C0G1H102J050BA",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B2C0G1H102J050BA"
+    },
+    {
+      "reference": "C159",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C160",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C161",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C162",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C163",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C164",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C165",
+      "schematic_value": "1uF 16V X5R",
+      "footprint": "WiredMain:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X5R1C105K080AA",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1C105K080AA"
+    },
+    {
+      "reference": "C166",
+      "schematic_value": "1uF 16V X5R",
+      "footprint": "WiredMain:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X5R1C105K080AA",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1C105K080AA"
+    },
+    {
+      "reference": "C167",
+      "schematic_value": "15pF 50V C0G 5%",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "TDK",
+      "mpn": "CGA2B2C0G1H150J050BA",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B2C0G1H150J050BA"
+    },
+    {
+      "reference": "C168",
+      "schematic_value": "15pF 50V C0G 5%",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "TDK",
+      "mpn": "CGA2B2C0G1H150J050BA",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B2C0G1H150J050BA"
+    },
+    {
+      "reference": "C169",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C170",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C171",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C172",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C173",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C174",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C175",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C176",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C177",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C178",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23"
+    },
+    {
+      "reference": "C201",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C202",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C203",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C204",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C205",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C206",
+      "schematic_value": "1uF25V",
+      "footprint": "DockControl:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C207",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C208",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C209",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C210",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C211",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C212",
+      "schematic_value": "100nF",
+      "footprint": "DockControl:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C602",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C606",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C607",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C608",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C609",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C610",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C611",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C612",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C613",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C614",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C615",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C616",
+      "schematic_value": "100nF16V",
+      "footprint": "DockSafety:C_0402_1005Metric",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C620",
+      "schematic_value": "1uF25V",
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C621",
+      "schematic_value": "1uF25V",
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C622",
+      "schematic_value": "1uF25V",
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1E105K080AB",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C623",
+      "schematic_value": "1nF50V C0G",
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608C0G1H102J080AA",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "C624",
+      "schematic_value": "1nF50V C0G",
+      "footprint": "DockSafety:C_0603_1608Metric",
+      "manufacturer": "TDK",
+      "mpn": "C1608C0G1H102J080AA",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "D201",
+      "schematic_value": "LTST-C190KGKT GREEN",
+      "footprint": "DockControl:LED_0603_1608Metric",
+      "manufacturer": "Lite-On",
+      "mpn": "LTST-C190KGKT",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "J101",
+      "schematic_value": "USB4105-GF-A-120",
+      "footprint": "DockUI:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "manufacturer": "GCT",
+      "mpn": "USB4105-GF-A-120",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT with plated shell stakes"
+    },
+    {
+      "reference": "J201",
+      "schematic_value": "FH12-20S-0.5SH(55)",
+      "footprint": "DockControl:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "manufacturer": "Hirose",
+      "mpn": "FH12-20S-0.5SH(55)",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "J601",
+      "schematic_value": "SM02B-GHS-TB",
+      "footprint": "DockSafety:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal",
+      "manufacturer": "JST",
+      "mpn": "SM02B-GHS-TB(LF)(SN)",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "J602",
+      "schematic_value": "SM02B-GHS-TB",
+      "footprint": "DockSafety:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal",
+      "manufacturer": "JST",
+      "mpn": "SM02B-GHS-TB(LF)(SN)",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "J621",
+      "schematic_value": "SM08B-GHS-TB",
+      "footprint": "DockSafety:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",
+      "manufacturer": "JST",
+      "mpn": "SM08B-GHS-TB(LF)(SN)",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "J622",
+      "schematic_value": "SM08B-GHS-TB",
+      "footprint": "DockSafety:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",
+      "manufacturer": "JST",
+      "mpn": "SM08B-GHS-TB(LF)(SN)",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "Q103",
+      "schematic_value": "DMN62D2U-7",
+      "footprint": "DockUI:SOT-23",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "DMN62D2U-7",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R101",
+      "schematic_value": "887k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07887KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R105",
+      "schematic_value": "19.1k 0.1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0719K1L",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R106",
+      "schematic_value": "2.52k 0.1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD072K52L",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R107",
+      "schematic_value": "40.2k 0.1% 25ppm/K",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0740K2L",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "wired power population",
+      "manufacturer_source": "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RT_Series_Rev3.pdf",
+      "replaces_frozen_mpn": "RT0603BRD0734K8L",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R108",
+      "schematic_value": "100R 0.1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD07100RL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R120",
+      "schematic_value": "100k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R121",
+      "schematic_value": "100k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R122",
+      "schematic_value": "100k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R123",
+      "schematic_value": "100k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R124",
+      "schematic_value": "100k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R125",
+      "schematic_value": "100k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R126",
+      "schematic_value": "100k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R127",
+      "schematic_value": "10k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R128",
+      "schematic_value": "10k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R129",
+      "schematic_value": "10k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R130",
+      "schematic_value": "100k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R131",
+      "schematic_value": "100k 1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R132",
+      "schematic_value": "2.52k 0.1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD072K52L",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R133",
+      "schematic_value": "100R 0.1%",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD07100RL",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R151",
+      "schematic_value": "27 ohm 1%, 0402",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW040227R0FKED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    },
+    {
+      "reference": "R152",
+      "schematic_value": "27 ohm 1%, 0402",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW040227R0FKED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    },
+    {
+      "reference": "R153",
+      "schematic_value": "97.6k 0.1% 25ppm/K, 0603",
+      "footprint": "WiredMain:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0797K6L",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RT_Series_Rev3.pdf"
+    },
+    {
+      "reference": "R154",
+      "schematic_value": "10.5k 0.1% 25ppm/K, 0603",
+      "footprint": "WiredMain:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710K5L",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RT_Series_Rev3.pdf"
+    },
+    {
+      "reference": "R155",
+      "schematic_value": "47k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW040247K0BEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R156",
+      "schematic_value": "100k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0402100KBEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R157",
+      "schematic_value": "10k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW040210K0BEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R158",
+      "schematic_value": "100k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0402100KBEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R159",
+      "schematic_value": "100k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0402100KBEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R160",
+      "schematic_value": "100k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0402100KBEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R161",
+      "schematic_value": "100k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0402100KBEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R162",
+      "schematic_value": "100k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0402100KBEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R163",
+      "schematic_value": "100k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0402100KBEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R164",
+      "schematic_value": "4.7k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW04024K70BEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R165",
+      "schematic_value": "4.7k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW04024K70BEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R166",
+      "schematic_value": "47k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW040247K0BEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R167",
+      "schematic_value": "1k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW04021K00BEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R168",
+      "schematic_value": "1k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW04021K00BEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R169",
+      "schematic_value": "100k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0402100KBEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R170",
+      "schematic_value": "10k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW040210K0BEED",
+      "sheet": "wired-usb-passives",
+      "dnp": false,
+      "selection": "wired passive supplement",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "reference": "R201",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R202",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R203",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R204",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R205",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R206",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R207",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R208",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R209",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R210",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R211",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R212",
+      "schematic_value": "33 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0733RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R213",
+      "schematic_value": "10k ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R214",
+      "schematic_value": "0 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603JR-070RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R215",
+      "schematic_value": "0 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603JR-070RL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R216",
+      "schematic_value": "4k7 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-074K7L",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R217",
+      "schematic_value": "4k7 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-074K7L",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R218",
+      "schematic_value": "10k0.1 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710KL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R219",
+      "schematic_value": "10k0.1 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710KL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R220",
+      "schematic_value": "1k ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071KL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R221",
+      "schematic_value": "1k ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071KL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R222",
+      "schematic_value": "100k ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R223",
+      "schematic_value": "150k ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07150KL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R224",
+      "schematic_value": "2k2 ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-072K2L",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R225",
+      "schematic_value": "10k ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R226",
+      "schematic_value": "10k ohm",
+      "footprint": "DockControl:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R601",
+      "schematic_value": "10k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R602",
+      "schematic_value": "100k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R603",
+      "schematic_value": "10k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R604",
+      "schematic_value": "100k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R605",
+      "schematic_value": "100k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R606",
+      "schematic_value": "1k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R607",
+      "schematic_value": "10k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R608",
+      "schematic_value": "100k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R610",
+      "schematic_value": "330R 1%",
+      "footprint": "DockSafety:R_0805_2012Metric",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0805330RFKEA",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R611",
+      "schematic_value": "330R 1%",
+      "footprint": "DockSafety:R_0805_2012Metric",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0805330RFKEA",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R612",
+      "schematic_value": "100k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R613",
+      "schematic_value": "100k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R614",
+      "schematic_value": "430R 1%",
+      "footprint": "DockSafety:R_0805_2012Metric",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0805430RFKEA",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R615",
+      "schematic_value": "430R 1%",
+      "footprint": "DockSafety:R_0805_2012Metric",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0805430RFKEA",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R616",
+      "schematic_value": "10k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0710KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R617",
+      "schematic_value": "100k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R618",
+      "schematic_value": "1M 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-071ML",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "R619",
+      "schematic_value": "47k 1%",
+      "footprint": "DockSafety:R_0603_1608Metric",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-0747KL",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U102",
+      "schematic_value": "TLV70033DDCR",
+      "footprint": "DockUI:TSOT-23-5",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TLV70033DDCR",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U103",
+      "schematic_value": "TUSB320HAIRWBR",
+      "footprint": "DockUI:Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TUSB320HAIRWBR",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U104",
+      "schematic_value": "TPS22950YBHR",
+      "footprint": "DockUI:Texas_YBH0006-C02_DSBGA-6_1.106x0.706mm_P0.4mm",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22950YBHR",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U105",
+      "schematic_value": "TPS2553DBVR",
+      "footprint": "DockUI:SOT-23-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS2553DBVR",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U114",
+      "schematic_value": "SN74LVC2G14DCKR",
+      "footprint": "DockUI:SOT-363_SC-70-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC2G14DCKR",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U120",
+      "schematic_value": "TPS3808G33DBVR",
+      "footprint": "DockUI:SOT-23-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G33DBVR",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U121",
+      "schematic_value": "USBLC6-2SC6",
+      "footprint": "DockUI:SOT-23-6",
+      "manufacturer": "STMicroelectronics",
+      "mpn": "USBLC6-2SC6",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U122",
+      "schematic_value": "TS5A3159DBVR",
+      "footprint": "DockUI:SOT-23-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TS5A3159DBVR",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U123",
+      "schematic_value": "TPS3808G33DBVR",
+      "footprint": "DockUI:SOT-23-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G33DBVR",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U124",
+      "schematic_value": "TS5A3159DBVR",
+      "footprint": "DockUI:SOT-23-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TS5A3159DBVR",
+      "sheet": "dock-ui-source",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U151",
+      "schematic_value": "FSUSB42MUX",
+      "footprint": "WiredMain:Onsemi_846AP_MSOP10",
+      "manufacturer": "onsemi",
+      "mpn": "FSUSB42MUX",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.onsemi.com/pdf/datasheet/fsusb42-d.pdf",
+      "manufacturer_package_drawing": "https://www.onsemi.com/download/package-drawing/pdf/846ap.pdf"
+    },
+    {
+      "reference": "U152",
+      "schematic_value": "TPD2EUSB30DRTR",
+      "footprint": "WiredMain:Texas_DRT-3",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPD2EUSB30DRTR",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf",
+      "manufacturer_package_drawing": "https://www.ti.com/packaging/docs/searchtipackages.tsp?packageName=SO"
+    },
+    {
+      "reference": "U153",
+      "schematic_value": "TPS2553QDBVRQ1",
+      "footprint": "WiredMain:SOT-23-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS2553QDBVRQ1",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps2553-q1.pdf",
+      "manufacturer_package_drawing": "https://www.ti.com/lit/ds/symlink/tps2553-q1.pdf"
+    },
+    {
+      "reference": "U154",
+      "schematic_value": "TPS7A2033PDBVR",
+      "footprint": "WiredMain:SOT-23-5",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS7A2033PDBVR",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+      "manufacturer_package_drawing": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+    },
+    {
+      "reference": "U155",
+      "schematic_value": "TPS389033DSER",
+      "footprint": "WiredMain:TI_DSE0006A",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS389033DSER",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps3890.pdf",
+      "manufacturer_package_drawing": "https://www.ti.com/lit/ds/symlink/tps3890.pdf"
+    },
+    {
+      "reference": "U156",
+      "schematic_value": "TPS3808G01DBVR",
+      "footprint": "WiredMain:SOT-23-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G01DBVR",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "manufacturer_package_drawing": "https://www.ti.com/lit/ds/symlink/tps3808.pdf"
+    },
+    {
+      "reference": "U157",
+      "schematic_value": "SN74HCS21PWR",
+      "footprint": "WiredMain:TSSOP-14_4.4x5mm_P0.65mm",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74HCS21PWR",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/sn74hcs21.pdf",
+      "manufacturer_package_drawing": "https://www.ti.com/lit/ds/symlink/sn74hcs21.pdf"
+    },
+    {
+      "reference": "U158",
+      "schematic_value": "SN74HCS00PWR",
+      "footprint": "WiredMain:TSSOP-14_4.4x5mm_P0.65mm",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74HCS00PWR",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/sn74hcs00.pdf",
+      "manufacturer_package_drawing": "https://www.ti.com/lit/ds/symlink/sn74hcs00.pdf"
+    },
+    {
+      "reference": "U159",
+      "schematic_value": "SN74LVC2G17DCKR",
+      "footprint": "WiredMain:SOT-363_SC-70-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC2G17DCKR",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "manufacturer_package_drawing": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf"
+    },
+    {
+      "reference": "U160",
+      "schematic_value": "RP2040",
+      "footprint": "WiredMain:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm",
+      "manufacturer": "Raspberry Pi",
+      "mpn": "RP2040",
+      "sheet": "wired-usb-host",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf",
+      "manufacturer_package_drawing": "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=608"
+    },
+    {
+      "reference": "U161",
+      "schematic_value": "W25Q16JVUXIQ",
+      "footprint": "WiredMain:Winbond_USON-8_2x3mm_P0.5mm_UX",
+      "manufacturer": "Winbond",
+      "mpn": "W25Q16JVUXIQ",
+      "sheet": "wired-usb-host",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.winbond.com/export/sites/winbond/product-selection-guide/file/2025-Product-Selection-Guide-Winbond-Code-Storage-Flash-Memory.pdf",
+      "manufacturer_package_drawing": "https://static.datasheets.com/doc/3906047-winbond-w25q16jvssiq-ds.pdf#page=67"
+    },
+    {
+      "reference": "U162",
+      "schematic_value": "TMUX1511RSVR",
+      "footprint": "WiredMain:TI_RSV0016A",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TMUX1511RSVR",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf",
+      "manufacturer_package_drawing": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf"
+    },
+    {
+      "reference": "U163",
+      "schematic_value": "SN74LVC2G17DCKR",
+      "footprint": "WiredMain:SOT-363_SC-70-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC2G17DCKR",
+      "sheet": "wired-usb-data",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "manufacturer_package_drawing": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf"
+    },
+    {
+      "reference": "U201",
+      "schematic_value": "STM32L071CBT6",
+      "footprint": "DockControl:LQFP-48_7x7mm_P0.5mm",
+      "manufacturer": "STMicroelectronics",
+      "mpn": "STM32L071CBT6",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U202",
+      "schematic_value": "ADS1115IDGSR /0x48",
+      "footprint": "DockControl:VSSOP-10_3x3mm_P0.5mm",
+      "manufacturer": "Texas Instruments",
+      "mpn": "ADS1115IDGSR",
+      "sheet": "dock-controller",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U602",
+      "schematic_value": "TPS22919DCKR",
+      "footprint": "DockSafety:SOT-363_SC-70-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22919DCKR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U606",
+      "schematic_value": "TPS3431SDRBR",
+      "footprint": "DockSafety:Texas_DRB0008A_3x3mm_P0.65_EP_Fingers",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3431SDRBR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U607",
+      "schematic_value": "TPS3808G33DBVR",
+      "footprint": "DockSafety:SOT-23-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G33DBVR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U608",
+      "schematic_value": "MAX6816EUS+T",
+      "footprint": "DockSafety:SOT-143",
+      "manufacturer": "Analog Devices",
+      "mpn": "MAX6816EUS+T",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U609",
+      "schematic_value": "SN74LVC74APWR",
+      "footprint": "DockSafety:TSSOP-14_4.4x5mm_P0.65mm",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC74APWR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U610",
+      "schematic_value": "TPS22992RXPR",
+      "footprint": "DockSafety:Texas_RXP0008A_1.25x1.5mm_Asymmetric",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22992RXPR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U611",
+      "schematic_value": "TPS22992RXPR",
+      "footprint": "DockSafety:Texas_RXP0008A_1.25x1.5mm_Asymmetric",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22992RXPR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U612",
+      "schematic_value": "SN74HCS21PWR",
+      "footprint": "DockSafety:TSSOP-14_4.4x5mm_P0.65mm",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74HCS21PWR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U613",
+      "schematic_value": "SN74LVC2G17DCKR",
+      "footprint": "DockSafety:SOT-363_SC-70-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC2G17DCKR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U614",
+      "schematic_value": "SN74LVC2G17DCKR",
+      "footprint": "DockSafety:SOT-363_SC-70-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC2G17DCKR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U615",
+      "schematic_value": "SN74HCS08PWR",
+      "footprint": "DockSafety:TSSOP-14_4.4x5mm_P0.65mm",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74HCS08PWR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "U616",
+      "schematic_value": "TPS3808G33DBVR",
+      "footprint": "DockSafety:SOT-23-6",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G33DBVR",
+      "sheet": "dock-safety",
+      "dnp": false,
+      "selection": "frozen Main quote",
+      "assembly_process": "SMT"
+    },
+    {
+      "reference": "Y151",
+      "schematic_value": "ABM8-272-T3",
+      "footprint": "WiredMain:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "manufacturer": "Abracon",
+      "mpn": "ABM8-272-T3",
+      "sheet": "wired-usb-host",
+      "dnp": false,
+      "selection": "wired circuit contract",
+      "assembly_process": "SMT",
+      "manufacturer_source": "https://abracon.com/datasheets/ABM8-272-T3.pdf",
+      "manufacturer_package_drawing": "https://abracon.com/datasheets/ABM8-272-T3.pdf"
+    }
+  ],
+  "manual_copper_positions": [
+    {
+      "reference": "J102",
+      "function": "DEVICE CONTACT LOOM / GND DM DP 5V",
+      "footprint": "DockUI:Contact_Loom_4Land",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "J103",
+      "function": "TO UV HARDWARE SAFETY / GND 5V SOURCE",
+      "footprint": "DockUI:Control_Loom_3Land",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "J104",
+      "function": "TO UI AND SAFETY / MANUAL CONTRACT PADS",
+      "footprint": "DockUI:Control_Loom_10Land",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "J202",
+      "function": "TC2030-CTX-NL SWD CONTACT PATTERN",
+      "footprint": "DockControl:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "TP151",
+      "function": "PC_LOCKn",
+      "footprint": "WiredMain:TestPoint_Pad_D1.5mm",
+      "quantity_purchased": 0,
+      "selection": "wired service pad"
+    },
+    {
+      "reference": "TP152",
+      "function": "GND",
+      "footprint": "WiredMain:TestPoint_Pad_D1.5mm",
+      "quantity_purchased": 0,
+      "selection": "wired service pad"
+    },
+    {
+      "reference": "TP153",
+      "function": "RP_SWDIO",
+      "footprint": "WiredMain:TestPoint_Pad_D1.5mm",
+      "quantity_purchased": 0,
+      "selection": "wired service pad"
+    },
+    {
+      "reference": "TP154",
+      "function": "RP_SWCLK",
+      "footprint": "WiredMain:TestPoint_Pad_D1.5mm",
+      "quantity_purchased": 0,
+      "selection": "wired service pad"
+    },
+    {
+      "reference": "TP155",
+      "function": "RP_RUN",
+      "footprint": "WiredMain:TestPoint_Pad_D1.5mm",
+      "quantity_purchased": 0,
+      "selection": "wired service pad"
+    },
+    {
+      "reference": "TP156",
+      "function": "USB_HOST_3V3",
+      "footprint": "WiredMain:TestPoint_Pad_D1.5mm",
+      "quantity_purchased": 0,
+      "selection": "wired service pad"
+    },
+    {
+      "reference": "TP157",
+      "function": "RP_BOOTSEL_PAD",
+      "footprint": "WiredMain:TestPoint_Pad_D1.5mm",
+      "quantity_purchased": 0,
+      "selection": "wired service pad"
+    },
+    {
+      "reference": "TP201",
+      "function": "BOOT0 WORKSHOP PAD",
+      "footprint": "DockControl:TestPoint_Pad_D1.0mm",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "TP601",
+      "function": "MCU_NRSTn",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "TP602",
+      "function": "BASE_FB",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "TP603",
+      "function": "LID_FB",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "TP604",
+      "function": "BASE_VOUT_DIV",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "TP605",
+      "function": "LID_VOUT_DIV",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "TP606",
+      "function": "NTC_BASE",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    },
+    {
+      "reference": "TP607",
+      "function": "NTC_LID",
+      "footprint": "DockSafety:TestPoint_Pad_D1.0mm",
+      "quantity_purchased": 0,
+      "selection": "frozen Main quote"
+    }
+  ],
+  "separate_matched_UV_population": [
+    {
+      "reference": "R401",
+      "board": "UV Base",
+      "quantity_per_board": 1,
+      "manufacturer": "Vishay",
+      "mpn": "CRCW08054R22FKEA",
+      "schematic_value": "4.22ohm 1% 100ppm/K",
+      "footprint": "DockUV:R_0805_2012Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    },
+    {
+      "reference": "R501",
+      "board": "UV Lid",
+      "quantity_per_board": 1,
+      "manufacturer": "Vishay",
+      "mpn": "CRCW08054R22FKEA",
+      "schematic_value": "4.22ohm 1% 100ppm/K",
+      "footprint": "DockUV:R_0805_2012Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    }
+  ],
+  "quantity_and_release_notes": [
+    "Counts apply to one wired Main PCB. The UV boards, lid controller, harnesses and programming fixtures are separate.",
+    "Keep the specified wired Main R107 and matching UV R401/R501 values together.",
+    "Confirm supplier price, stock, small-quantity packaging, assembly attrition and any substitutes separately.",
+    "Placement, complete PCB routing, assembler acceptance and powered tests are outside this selection."
+  ],
+  "fabrication_release": false,
+  "stock_or_price_verified": false,
+  "powered_validation": false
+}

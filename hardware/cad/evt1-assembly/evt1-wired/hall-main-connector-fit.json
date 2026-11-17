@@ -1,0 +1,363 @@
+{
+  "scope": "Approved Hall header locations on the fixed product Main outline. Exact KiCad header STEP, JST drawing-trace for the exposed plug, and reservation volumes for mating, latch and straight lead exit. Receiver routing and the complete installed harness remain open.",
+  "source_sha256": {
+    "hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd": "c8748a4365db26d9c6bd5b4ffc736ba1ad4af0cf9c9d9226e4d0b2f88e372313",
+    "hardware/cad/evt1-assembly/evt1-wired/pcb/MainPCB-Wired.FCStd": "1956be83465e1a8cc22856be587ffb00582fe910b0a44245aeb0996dbb129c0a",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/dock-wired-system.kicad_pcb": "8900558ca63405ebd44074789897a87331e04c49b1205dbca6e6dea583d8e708",
+    "hardware/cad/evt1-assembly/dock-harness-trial/gh-package-review/build_gh_package_review.py": "e523c58b4cc84fd9a273ae17053c9f44ceb5bea9bb1ee4afe7d47544c79c52c6",
+    "hardware/pcb/evt1/dock-safety/wired-hall-head/main-integration/hall-endpoints.json": "d13299173b84a11bb4c795cf685cb13cf707cfeab042a18ef99de006624adff9"
+  },
+  "header_model": {
+    "filename": "JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal.step",
+    "sha256": "c02685bf34438acc08c7d8a43f3da26bb5c288e7078b4632446b5be81f15feaf",
+    "model_source": "KiCad stock Connector_JST 3D package"
+  },
+  "housing_source": "https://www.jst.com/wp-content/uploads/2025/06/eGH.pdf",
+  "housing_scope": "5.00 mm wide GHR-03V-S catalog profile, clipped to the 3.10 mm exposed from same header mouth",
+  "matched_pins_per_connector": 3,
+  "obstacle_screen_count_without_liner": 311,
+  "bounded_check_reports_distances_below_mm": 0.36,
+  "wire_exit_probe_mm": [
+    4,
+    3.3382,
+    0.8382
+  ],
+  "latch_tool_probe_cross_section_mm": [
+    2,
+    2
+  ],
+  "boxed_insertion_stroke_mm": 5,
+  "positions_deg_are_kicad": true,
+  "active_geometry_modified": false,
+  "received_fit_checked": false,
+  "candidates": {
+    "J630": {
+      "center_XY_mm": [
+        -44.5,
+        39
+      ],
+      "kicad_deg": 270,
+      "mating_direction_XY": [
+        -1,
+        0
+      ],
+      "mouth_XYZ_mm": [
+        -46.97,
+        39.0,
+        7.825
+      ],
+      "wire_exit_XYZ_mm": [
+        -50.07,
+        39.0,
+        7.825
+      ],
+      "header": [],
+      "mated_housing": [],
+      "liner_header": [
+        [
+          "Lower liner",
+          0.3550000000000004,
+          0.0
+        ]
+      ],
+      "liner_mated_housing": [
+        [
+          "Lower liner",
+          0.2999999999999954,
+          0.0
+        ]
+      ],
+      "straight_4mm_exit_zone": [],
+      "boxed_5mm_insertion": [],
+      "vertical_latch_tool_reservation": [
+        [
+          "Lower liner",
+          0.0,
+          7.999999999999999
+        ]
+      ]
+    },
+    "J650": {
+      "center_XY_mm": [
+        40.5,
+        19
+      ],
+      "kicad_deg": 90,
+      "mating_direction_XY": [
+        1,
+        0
+      ],
+      "mouth_XYZ_mm": [
+        42.97,
+        19.0,
+        7.825
+      ],
+      "wire_exit_XYZ_mm": [
+        46.07,
+        19.0,
+        7.825
+      ],
+      "header": [],
+      "mated_housing": [],
+      "liner_header": [
+        [
+          "Lower liner",
+          0.3550000000000004,
+          0.0
+        ]
+      ],
+      "liner_mated_housing": [
+        [
+          "Lower liner",
+          0.29999999999999716,
+          0.0
+        ]
+      ],
+      "straight_4mm_exit_zone": [],
+      "boxed_5mm_insertion": [],
+      "vertical_latch_tool_reservation": [
+        [
+          "Lower liner",
+          0.0,
+          7.999999999999999
+        ]
+      ]
+    }
+  },
+  "right_insertion_rejections": [
+    {
+      "center_XY_mm": [
+        43,
+        19
+      ],
+      "rigid_overlap": [
+        [
+          "Lower shell",
+          0.0,
+          4.016085096359625
+        ],
+        [
+          "LowerShellInstance",
+          0.0,
+          4.016085096359625
+        ]
+      ]
+    },
+    {
+      "center_XY_mm": [
+        42,
+        19
+      ],
+      "rigid_overlap": [
+        [
+          "Lower shell",
+          0.0,
+          0.1059802294071925
+        ],
+        [
+          "LowerShellInstance",
+          0.0,
+          0.1059802294071925
+        ]
+      ]
+    },
+    {
+      "center_XY_mm": [
+        41.5,
+        18
+      ],
+      "rigid_overlap": [
+        [
+          "Lower shell",
+          0.0,
+          0.6023324828496787
+        ],
+        [
+          "LowerShellInstance",
+          0.0,
+          0.6023324828496787
+        ]
+      ]
+    },
+    {
+      "center_XY_mm": [
+        42.5,
+        18.5
+      ],
+      "rigid_overlap": [
+        [
+          "Lower shell",
+          0.0,
+          3.1896474764592577
+        ],
+        [
+          "LowerShellInstance",
+          0.0,
+          3.1896474764592577
+        ]
+      ]
+    }
+  ],
+  "approved_layout_datums": true,
+  "service_sequence": "Seat both GH3 plugs with the lower liner off. Lift the lower liner for straight latch access. Verify complete wire dress and liner seating during first assembly.",
+  "existing_passage_screen": {
+    "source_native_sha256": "c8748a4365db26d9c6bd5b4ffc736ba1ad4af0cf9c9d9226e4d0b2f88e372313",
+    "sweep_Z_range_mm": [
+      8.5,
+      25.5
+    ],
+    "insulation_OD_mm": 0.8382,
+    "routing_check": "three stationary passages through existing liner openings. Final arcs, strain relief, solder exits, handling and liner insertion excluded.",
+    "minimum_wire_pair_nominal_mm": 0.5618,
+    "sides": {
+      "Left": [
+        {
+          "center_XY_mm": [
+            -50.5,
+            25.2
+          ],
+          "checked_gaps": {
+            "LowerShell": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "LowerChamber": {
+              "gap_mm": 1.0808999999999997,
+              "overlap_mm3": 0
+            },
+            "LeftBracket": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "LeftHallPCBInstance": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            }
+          }
+        },
+        {
+          "center_XY_mm": [
+            -50.5,
+            26.6
+          ],
+          "checked_gaps": {
+            "LowerShell": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "LowerChamber": {
+              "gap_mm": 1.0808999999999997,
+              "overlap_mm3": 0
+            },
+            "LeftBracket": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "LeftHallPCBInstance": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            }
+          }
+        },
+        {
+          "center_XY_mm": [
+            -50.5,
+            28.0
+          ],
+          "checked_gaps": {
+            "LowerShell": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "LowerChamber": {
+              "gap_mm": 1.0808999999999997,
+              "overlap_mm3": 0
+            },
+            "LeftBracket": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "LeftHallPCBInstance": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            }
+          }
+        }
+      ],
+      "Right": [
+        {
+          "center_XY_mm": [
+            50.5,
+            25.2
+          ],
+          "checked_gaps": {
+            "LowerShell": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "LowerChamber": {
+              "gap_mm": 1.0808999999999997,
+              "overlap_mm3": 0
+            },
+            "RightBracket": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "RightHallPCBInstance": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            }
+          }
+        },
+        {
+          "center_XY_mm": [
+            50.5,
+            26.6
+          ],
+          "checked_gaps": {
+            "LowerShell": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "LowerChamber": {
+              "gap_mm": 1.0808999999999997,
+              "overlap_mm3": 0
+            },
+            "RightBracket": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "RightHallPCBInstance": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            }
+          }
+        },
+        {
+          "center_XY_mm": [
+            50.5,
+            28.0
+          ],
+          "checked_gaps": {
+            "LowerShell": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "LowerChamber": {
+              "gap_mm": 1.0808999999999997,
+              "overlap_mm3": 0
+            },
+            "RightBracket": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            },
+            "RightHallPCBInstance": {
+              "gap_mm": null,
+              "overlap_mm3": 0
+            }
+          }
+        }
+      ]
+    }
+  }
+}

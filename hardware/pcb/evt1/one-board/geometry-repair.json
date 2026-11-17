@@ -1,0 +1,234 @@
+{
+  "scope": "Repair seed native courtyards and avoid preserved USB D+ via. Board read-only in calculation.",
+  "source_pcb_sha256": "dfc8cadf20f9caa139db9b56bf41e511a96acd0278d3183bce92895e32e64214",
+  "reference_flange_sha256": "e9dd51fc7cb785c4587db269ce620c6098f2f0eff182cf3b3a7e7363c086e82d",
+  "physical_fixed_solids": [
+    "ProposedFlangeTray",
+    "ProposedRearHalf",
+    "PermanentSixOpeningDiaphragm",
+    "RevisedContinuousSkin",
+    "MovedSteelKeeper0",
+    "MovedSteelKeeper1",
+    "BoardScrew0",
+    "BoardScrew1",
+    "BoardScrew2",
+    "BoardScrew3",
+    "Actual_CT1",
+    "Actual_CT4",
+    "Actual_SW2",
+    "Actual_SW1",
+    "Actual_CT3",
+    "Actual_CT2",
+    "Actual_U71",
+    "Actual_F1",
+    "Actual_R36",
+    "Actual_R75",
+    "Actual_D71",
+    "Actual_U75",
+    "Actual_R33",
+    "Actual_C31",
+    "Actual_J4",
+    "Actual_C71",
+    "Actual_C84",
+    "Actual_C83",
+    "Actual_U81",
+    "Actual_R31",
+    "Actual_C34",
+    "Actual_D1",
+    "Actual_R76",
+    "Actual_R71",
+    "Actual_D73",
+    "Actual_C33",
+    "Actual_R37",
+    "Actual_C32",
+    "Actual_R39",
+    "Actual_D72",
+    "Actual_R38",
+    "Actual_R40",
+    "Actual_R32",
+    "Actual_U6",
+    "Actual_R35",
+    "Actual_R34",
+    "Actual_C82",
+    "Actual_C81",
+    "MetalBody",
+    "RearNutReference"
+  ],
+  "moves": {
+    "C30": {
+      "native_xz": [
+        -0.5,
+        4.75
+      ],
+      "fab_xz": [
+        -0.5,
+        4.75
+      ],
+      "courtyard_xz": [
+        -2.1250000000000058,
+        2.1750000000000056,
+        1.1250000000000058,
+        7.324999999999994
+      ],
+      "angle": 270,
+      "access_xz": null,
+      "distance2": 0.5625,
+      "old": {
+        "native_xz": [
+          -0.5,
+          5.5
+        ],
+        "fab_xz": [
+          -0.5,
+          5.5
+        ],
+        "angle": 180.0
+      },
+      "BRep_check": "max package dimensions, actual nominal STEP where available, installed connector mating envelope"
+    },
+    "C25": {
+      "native_xz": [
+        10.0,
+        8.75
+      ],
+      "fab_xz": [
+        10.0,
+        8.75
+      ],
+      "courtyard_xz": [
+        8.775,
+        6.374999999999995,
+        11.225,
+        11.125000000000005
+      ],
+      "angle": 270,
+      "access_xz": null,
+      "distance2": 0.3125,
+      "old": {
+        "native_xz": [
+          9.5,
+          8.5
+        ],
+        "fab_xz": [
+          9.5,
+          8.5
+        ],
+        "angle": -90.0
+      },
+      "BRep_check": "max package dimensions, actual nominal STEP where available, installed connector mating envelope"
+    },
+    "J3": {
+      "native_xz": [
+        -7.25,
+        -1.0499999999999972
+      ],
+      "fab_xz": [
+        -7.25,
+        -1.5
+      ],
+      "courtyard_xz": [
+        -10.274999999999997,
+        -4.455000000000004,
+        -4.225000000000003,
+        2.3549999999999955
+      ],
+      "angle": 180,
+      "access_xz": [
+        -8.85,
+        -9.024999999999997,
+        -5.65,
+        -3.574999999999997
+      ],
+      "distance2": 43.0625,
+      "old": {
+        "native_xz": [
+          -0.5499999999999972,
+          0.5
+        ],
+        "fab_xz": [
+          -1.0,
+          0.5
+        ],
+        "angle": 90.0
+      },
+      "BRep_check": "max package dimensions, actual nominal STEP where available, installed connector mating envelope"
+    },
+    "J8": {
+      "native_xz": [
+        -7.5,
+        -8.299999999999997
+      ],
+      "fab_xz": [
+        -7.5,
+        -8.75
+      ],
+      "courtyard_xz": [
+        -10.524999999999997,
+        -11.705000000000004,
+        -4.475000000000003,
+        -4.895000000000005
+      ],
+      "angle": 180,
+      "access_xz": [
+        -9.1,
+        -16.275,
+        -5.9,
+        -10.824999999999998
+      ],
+      "distance2": 14.3125,
+      "old": {
+        "native_xz": [
+          -8.0,
+          -4.549999999999997
+        ],
+        "fab_xz": [
+          -8.0,
+          -5.0
+        ],
+        "angle": 180.0
+      },
+      "BRep_check": "max package dimensions, actual nominal STEP where available, installed connector mating envelope"
+    },
+    "R4": {
+      "native_xz": [
+        3.0,
+        7.0
+      ],
+      "fab_xz": [
+        3.0,
+        7.0
+      ],
+      "courtyard_xz": [
+        1.9450000000000016,
+        6.404999999999996,
+        4.054999999999998,
+        7.595000000000004
+      ],
+      "angle": 180,
+      "access_xz": null,
+      "distance2": 0.25,
+      "old": {
+        "native_xz": [
+          3.5,
+          7.0
+        ],
+        "fab_xz": [
+          3.5,
+          7.0
+        ],
+        "angle": 180.0
+      },
+      "BRep_check": "max package dimensions, actual nominal STEP where available, installed connector mating envelope"
+    }
+  },
+  "notes": "For fixed transferred bodies the native courtyard bounds protect the geometry. Verify re-routed copper, connector withdrawal and mating with formed wires and traceable received parts separately.",
+  "native_DRC_scope": {
+    "tool": "10.0.8",
+    "fixed_courtyard_findings": 5,
+    "residual_courtyard_findings": 0,
+    "C25_to_preserved_USB_DP_CONTACT_findings": 0,
+    "repaired_native_copy_sha256": "4c4f3741d4da3783ccd87422a440ecc4a8838a4ac182442a7ea00ee4b5624bd2",
+    "limits": "Isolated placement seed with previous copper and without project-relative library paths. Final board routing, all DRC checks, project DRC and PCB/schematic parity need their own reports."
+  },
+  "mating_process_hold": "The two installed horizontal SH2 mates clear static native geometry. The closed-case independent 3 mm withdrawal screen found no joint fit for these six placement findings. Check mating on the bench before board loading, cover closure and actual wire bends; leave battery disconnected during closure trial."
+}

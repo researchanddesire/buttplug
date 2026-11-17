@@ -1,0 +1,44 @@
+metadata:
+  title: Dock Main to lid UV module
+  notes: Bench stock and pinout. Check both latch keys and the pin 1 datums.
+    Use the same pin number at both ends. Mark both ends of every conductor.
+    The final supply and return legs must each be 175 mm or shorter.
+options:
+  fontname: Arial
+connectors:
+  J622:
+    type: GH crimp housing
+    manufacturer: JST
+    mpn: GHR-08V-S
+    pins: [1, 2, 3, 4, 5, 6, 7, 8]
+    pinlabels: [UV_5V_SW, GND, UV_CTRL, LID_FB, LID_VOUT_DIV, NTC_LID, LID_THERM_SEND, LOOP_B_RAW]
+  J501:
+    type: GH crimp housing
+    manufacturer: JST
+    mpn: GHR-08V-S
+    pins: [1, 2, 3, 4, 5, 6, 7, 8]
+    pinlabels: [UV_5V_SW, GND, UV_CTRL, LID_FB, LID_VOUT_DIV, NTC_LID, LID_THERM_SEND, LOOP_B_RAW]
+cables:
+  UV:
+    category: bundle
+    type: PTFE stranded wire
+    wirecount: 8
+    wirelabels: [UV_5V_SW, GND, UV_CTRL, LID_FB, LID_VOUT_DIV, NTC_LID, LID_THERM_SEND, LOOP_B_RAW]
+    gauge: 26
+    gauge_unit: AWG
+    length: 0.225
+    length_unit: m
+    manufacturer: Allied Wire and Cable
+    mpn: 1371-26-7
+    notes: Eight 225 mm starting blanks for routing and handling. Trim to the
+      verified installed length. The 175 mm powered limit on pins 1 and 2
+      applies to the trimmed wire, including conductor within the terminals.
+connections:
+  - - J622: [1, 2, 3, 4, 5, 6, 7, 8]
+    - UV: [1, 2, 3, 4, 5, 6, 7, 8]
+    - J501: [1, 2, 3, 4, 5, 6, 7, 8]
+additional_bom_items:
+  - description: Tin-plated GH crimp contact
+    manufacturer: JST
+    mpn: SSHL-002T-P0.2
+    qty: 16

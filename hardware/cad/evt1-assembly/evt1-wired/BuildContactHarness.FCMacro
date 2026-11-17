@@ -1,0 +1,159 @@
+"""Install and verify the four source-bound dock pin wires in the wired product."""
+from pathlib import Path
+from hashlib import sha256
+import json, math, os, traceback
+import FreeCAD as App
+import FreeCADGui as Gui
+import Part
+from FreeCAD import Vector as V
+
+work=Path(os.environ.get('COMPASS_WIRED_DOCK_WORK','/tmp/compass-evt1-wired'))
+source=work/'dock/DockAssembly.FCStd'
+expected_sha='3d49b3b5a82073bdddcdd0a36c8e2106dce12b5e3eb2f99bd2bdb253f568e60d'
+final=source.parent/'DockAssembly-Routed.FCStd'
+
+def read_model(file):
+    Gui.activateWorkbench('AssemblyWorkbench')
+    d=App.openDocument(str(file));d.recompute()
+    return d
+
+
+def volume(a,b):
+    if not a.BoundBox.intersect(b.BoundBox):return 0.
+    return max(0.,a.common(b).Volume)
+
+
+RADIUS=.30
+
+
+def quarter_arc(center,start_radius,end_radius):
+    return Part.Arc(center+start_radius,center+(start_radius+end_radius)/math.sqrt(2),center+end_radius).toShape()
+
+
+def chain():
+    seg=[]
+    def line(p,q):
+        if (q-p).Length>1e-8:seg.append(Part.makeLine(p,q))
+    return seg,line
+
+
+def curve(points):
+    b=Part.BezierCurve();b.setPoles(points)
+    return b.toShape()
+
+
+def make_wire(n,config):
+    xj=-12.5+n*2.5
+    xm=-3.75+n*2.5
+    y,r,entry_y,z,upper_start_y,entry_end_x=config
+    x_a=-29.8+n*.75
+    x_b=x_a+r
+    y_a=entry_y-4
+    lower_z=z-4-r
+    route,line=chain()
+    p=V(xj,17.4962,43.8); q=V(xj,upper_start_y,43.8); line(p,q)
+    t=V(xj-4,upper_start_y-4,43.8)
+    route.append(quarter_arc(V(xj-4,upper_start_y,43.8),V(4,0,0),V(0,-4,0)))
+    mid_y=upper_start_y-4
+    end=V(x_a+4,mid_y,43.8)
+    line(t,end)
+    z_upper=43.8
+    route.append(quarter_arc(V(x_a+4,mid_y,z_upper-4),V(0,0,4),V(-4,0,0)))
+    top=V(x_a,mid_y,z_upper-4)
+    start=V(x_a,y_a,z+4)
+    span=top.z-start.z
+    route.append(curve([top,top+V(0,0,-span*.38),V(start.x,start.y,start.z+span*.38),start]))
+    upper_corner=V(x_a,entry_y,z)
+    route.append(quarter_arc(V(x_a,entry_y,z+4),V(0,-4,0),V(0,0,-4)))
+    line(upper_corner,V(x_a,y-4,z))
+    route.append(quarter_arc(V(x_a,y-4,z-4),V(0,0,4),V(0,4,0)))
+    route.append(quarter_arc(V(x_b,y,z-4),V(-r,0,0),V(0,0,-r)))
+    lower_start=V(x_b,y,lower_z)
+    angle=math.radians(61)
+    x0=entry_end_x
+    yc=y+4.2
+    fa=V(x0,y,lower_z)
+    cc=V(x0,yc,lower_z)
+    fb=cc+V(4.2*math.sin(angle),-4.2*math.cos(angle),0)
+    mm=cc+V(4.2*math.sin(angle/2),-4.2*math.cos(angle/2),0)
+    line(lower_start,fa)
+    route.append(Part.Arc(fa,mm,fb).toShape())
+    end_lower=V(xm,24,6.7)
+    d=(end_lower-fb).Length
+    controls=[fb,fb+V(math.cos(angle),math.sin(angle),0)*d*.34,V(end_lower.x-2.5,22.2,7.3),end_lower]
+    route.append(curve(controls))
+    wire=Part.Wire(route)
+    cross=Part.Wire([Part.makeCircle(RADIUS,p,V(0,-1,0))])
+    solid=wire.makePipeShell([cross],True,True)
+    curvatures=[]
+    for edge in route:
+        for k in range(61):
+            t=edge.FirstParameter+k*(edge.LastParameter-edge.FirstParameter)/60
+            curvatures.append(abs(edge.curvatureAt(t)))
+    return solid,wire,1/max(curvatures),len(curvatures),route
+
+
+def main():
+    assert sha256(source.read_bytes()).hexdigest()==expected_sha
+    cfg=((14.4,4.75,8.55,18.05,16.75,-13.45),(13.6,4.75,8.50,18.05,15.95,-12.50),(14.4,4,8.60,18.05,15.15,-9.65),(13.6,4,8.45,18.05,14.35,-8.85))
+    doc=read_model(source)
+    saved_wire_assembly=doc.addObject('App::Part','DockContactHarness');saved_wire_assembly.Label='J102 to J94 · four contact harness'
+    doc.BaseModule.addObject(saved_wire_assembly)
+    names=('Ground','UsbMinus','UsbPlus','Power')
+    colors=((.20,.24,.26),(.28,.72,.60),(.25,.60,.84),(.82,.32,.20))
+    exclusions={'DockContactHarness'}
+    obstacles=[]
+    for module in (doc.BaseModule,doc.LidModule):
+        for ob in module.Group:
+            if ob.Name not in exclusions and hasattr(ob,'Shape') and not ob.Shape.isNull():
+                obstacles.append((ob.Name,ob.Shape))
+    results={};wires=[];terminals=[]
+    for i in range(4):
+        sweep,spine,rad,n,edges=make_wire(i,cfg[i]); assert sweep.isValid() and len(sweep.Solids)==1 and rad>=4-1e-9
+        body=doc.addObject('PartDesign::Body','DockWire'+names[i]);saved_wire_assembly.addObject(body)
+        body.Label=f'{i+1} {names[i]} · Ø0.60 insulation envelope'
+        body.addProperty('App::PropertyString','WireSource','Harness')
+        body.WireSource='Accu-Glass 100690 28 AWG; insulation maximum OD 0.60 mm'
+        body.addProperty('App::PropertyString','ElectricalPath','Harness');body.ElectricalPath=f'J102.{i+1} → J94.{i+1}'
+        body.addProperty('App::PropertyLength','InstalledInsulationLength','Harness');body.InstalledInsulationLength=spine.Length
+        body.addProperty('App::PropertyLength','MinimumSampledBendRadius','Harness');body.MinimumSampledBendRadius=rad
+        axis=body.newObject('PartDesign::Feature','DockWire'+names[i]+'Spine');axis.Shape=spine
+        feature=body.newObject('PartDesign::Feature','DockWire'+names[i]+'InsulatedSweep');feature.Shape=sweep
+        body.Tip=feature;axis.Visibility=False;feature.ViewObject.ShapeColor=colors[i]
+        jt=Part.makeLine(V(-12.5+i*2.5,17.7962,43.8),V(-12.5+i*2.5,17.4962,43.8))
+        mt=Part.makeLine(V(-3.75+i*2.5,24,6.4),V(-3.75+i*2.5,24,6.7))
+        tip=doc.addObject('Part::Feature','DockWire'+names[i]+'PadTerminations');saved_wire_assembly.addObject(tip)
+        tip.Label=f'{i+1} solder plane references';tip.Shape=Part.makeCompound([jt,mt]);tip.Visibility=False
+        tested=0;collision=[]
+        for name,ob in obstacles:
+            left=[a for a in ob.Solids if a.BoundBox.intersect(sweep.BoundBox)]
+            for j,sol in enumerate(left):
+                tested+=1
+                overlap=volume(sweep,sol)
+                if overlap>1e-6:collision.append({'obstacle':name,'candidate':j,'volume':overlap})
+        result={'link':body.ElectricalPath,'insulated_length_mm':spine.Length,'nominal_pad_to_pad_with_0p30_mm_tail_each_mm':spine.Length+jt.Length+mt.Length,'sampled_min_radius_mm':rad,'samples':n,'exactObstaclePairs':tested,'overlaps':collision}
+        results[str(i+1)]=result
+        wires.append(sweep)
+        (work/'save-fit.json').write_text(json.dumps({'products':results,'obstacle_count':len(obstacles)},indent=2)+'\n')
+    from itertools import combinations
+    pairs={f'{a+1}/{b+1}':{'gap_mm':wires[a].distToShape(wires[b])[0],'overlap_mm3':volume(wires[a],wires[b])} for a,b in combinations(range(4),2)}
+    assert not any(v['overlaps'] for v in results.values()),results
+    assert min(row['gap_mm'] for row in pairs.values())>.13
+    doc.recompute();assert not [n.Name for n in doc.Objects if 'Error' in n.State or 'Invalid' in n.State]
+    doc.saveAs(str(final)); new_sha=sha256(final.read_bytes()).hexdigest()
+    for d in list(App.listDocuments().values()):App.closeDocument(d.Name)
+    readback=read_model(final)
+    grp=readback.DockContactHarness
+    assert grp in readback.BaseModule.Group and len(grp.Group)==8
+    for name in names:
+        wire=readback.getObject('DockWire'+name)
+        assert wire.Shape.isValid() and len(wire.Shape.Solids)==1
+    assert not [n.Name for n in readback.Objects if 'Error' in n.State or 'Invalid' in n.State]
+    document={'source_assembly_sha256':expected_sha,'output_assembly_sha256':new_sha,'scope':'Nominal installed solid verification in saved canonical dock at 0° with 0.60 mm insulating bodies. Pad-tail references are centerlines only. WireViz cut lengths remain measurement-bound starting stock. Between-pose fit, installed restraints, lid motion, wire wave/twist, solder fillet and powered USB remain unqualified.','groups':['BaseModule','LidModule'],'obstacles':len(obstacles),'wires':results,'spacing':pairs,'save_readback':True}
+    (work/'product-harness.json').write_text(json.dumps(document,indent=2)+'\n')
+    (work/'save-pass.txt').write_text('PASS\n')
+
+
+try:main()
+except BaseException:(work/'save-error.txt').write_text(traceback.format_exc())
+finally:os._exit(0)

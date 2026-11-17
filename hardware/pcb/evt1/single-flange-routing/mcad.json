@@ -1,9 +1,9 @@
 {
   "status": "exact native model pose handoff; no nominal package models substitute for received maximum qualification",
   "native_board": "hardware/pcb/evt1/single-flange-routing/single-flange.kicad_pcb",
-  "board_sha256": "b03c5ad9541e2e10d8a9097ae05d14ded36d2ebb1534d0a0c33b38f99a64f2b1",
+  "board_sha256": "bd1d834974698c49e7bfe886a0ead1d0fb34d7bce1f324bef01f03695cfb707a",
   "native_KiCad_STEP": "hardware/pcb/evt1/single-flange-routing/NativeKiCadRouted.step",
-  "native_KiCad_STEP_sha256": "d905f670c1a639ab778a1afa1400cfb44d172e078f3ccfdf470f3d69487bce57",
+  "native_KiCad_STEP_sha256": "bd6eaba8ec2eadfbe67fc10e68853dfa4d9575d310245305abebf9df8898b117",
   "board_thickness_mm": 1,
   "board_F_productY_mm": -26.952,
   "board_B_productY_mm": -25.952,
@@ -664,6 +664,14 @@
   ],
   "holes": [
     {
+      "ref": "CT1",
+      "product_XZ_mm": [
+        -16.0,
+        10.0
+      ],
+      "drill_mm": 1.02
+    },
+    {
       "ref": "MH3",
       "product_XZ_mm": [
         38.0,
@@ -688,12 +696,36 @@
       "drill_mm": 1.6
     },
     {
+      "ref": "CT4",
+      "product_XZ_mm": [
+        2.0,
+        10.0
+      ],
+      "drill_mm": 1.02
+    },
+    {
+      "ref": "CT3",
+      "product_XZ_mm": [
+        -4.0,
+        10.0
+      ],
+      "drill_mm": 1.02
+    },
+    {
       "ref": "MH2",
       "product_XZ_mm": [
         -38.0,
         10.0
       ],
       "drill_mm": 1.6
+    },
+    {
+      "ref": "CT2",
+      "product_XZ_mm": [
+        -10.0,
+        10.0
+      ],
+      "drill_mm": 1.02
     }
   ],
   "components": [
@@ -2939,15 +2971,16 @@
   "RF_copper_keepout": "all4Cu layers of antenna region plus actual open board edge notch;15mm full housing guidance and final range testing remain qualification requirements",
   "body_PCB_altered": false,
   "physical_fit_or_RF_acceptance": false,
-  "finished_board_local_STEP": "hardware/pcb/evt1/single-flange-study/FinishedPCB_local.step",
-  "finished_board_local_STEP_sha256": "a29bc30bc17893723fe0836699fb077f570896cee8fa1a0478d594afe0a51bc2",
-  "finished_board_native": "hardware/pcb/evt1/single-flange-study/SingleFlangePlacement.FCStd",
-  "finished_board_native_sha256": "21ed99819697ef668a5a3e19f48a63fcbc28680c610e4908bac894fefee451f6",
-  "finished_board_binding_sha256": "613f46961638939135f2ae43887d013a271b3d8d24020dccd57fded114a92d5f",
-  "finished_board_geometry_proof_sha256": "7b423b925a3efcae8e220ec83f3fe79ceef2657f76ad9121b8b36a980a0d6294",
-  "finished_board_binding_uses_frozen_geometry": true,
+  "finished_board_local_STEP": "hardware/pcb/evt1/single-flange-routing/FinishedPCB_local.step",
+  "finished_board_local_STEP_sha256": "55fdf7f498319da27a52662e22cf4806b07a496f866f0e72811b2384b2723103",
+  "finished_board_native": "hardware/pcb/evt1/single-flange-routing/SingleFlangeRouting.FCStd",
+  "finished_board_native_sha256": "3b222bb0cf4f61427b42bca78e4c8089ec9e59f23050ddafc6aa18b4473b7230",
+  "finished_board_binding": "hardware/pcb/evt1/single-flange-routing/finished-board.json",
+  "finished_board_binding_sha256": "04966b3436772e8463ff9ecd89bddf34d59dc56f16a670c0fa1b169b42bcf2c9",
+  "finished_board_geometry_proof_sha256": "8d9cd1b16aa1154887c0473937d8200215ef7f1c5477192e22b3299419006e4d",
+  "finished_board_binding_uses_frozen_geometry": false,
   "frozen_study_MCAD_sha256": "8dda2eaf21f807c8db826f6e73ade89361c89d9588d606d94cbf8a227998c84d",
   "authorized_clearance_repair_sha256": "1f325e2ece5c1f72b70d53244116f15a91e212e6be561b90036aeec57c00946e",
-  "mechanical_native_sha256": "43c1f8f625d1f53558c30ae5f21890313030d588ac70546fb2554a4f9125f704",
-  "mechanical_STEP_sha256": "bf74a6ba7e7e05833d2bc32d1e5d5858446ee502893c635c8efe28c274c5bf3d"
+  "mechanical_native_sha256": "3b222bb0cf4f61427b42bca78e4c8089ec9e59f23050ddafc6aa18b4473b7230",
+  "mechanical_STEP_sha256": "4f471c2a935bc842bb5bfcec6e9204f5eb15d05cf3005cfa8193b232779aceae"
 }

@@ -1,0 +1,92 @@
+{
+  "pass": true,
+  "scope": "Active wired Main hinge FFC and matched UV remote thermal wiring",
+  "main_to_lid_UI": {
+    "pin_signals": {
+      "1": "GND",
+      "2": "3V3_UI",
+      "3": "LCD_DB0",
+      "4": "LCD_DB1",
+      "5": "LCD_DB2",
+      "6": "LCD_DB3",
+      "7": "LCD_DB4",
+      "8": "LCD_DB5",
+      "9": "LCD_DB6",
+      "10": "LCD_DB7",
+      "11": "LCD_A0",
+      "12": "LCD_WRn",
+      "13": "LCD_CSn",
+      "14": "LCD_RESETn",
+      "15": "BTN_LEFTn",
+      "16": "BTN_CENTERn_RAW",
+      "17": "BTN_RIGHTn",
+      "18": "GND",
+      "19": "GND",
+      "20": "GND"
+    },
+    "FFC_mpn": "0151660220",
+    "installed_motion_checked": false,
+    "exports": {
+      "main-to-lid-ui.bom.tsv": "4de0575d4b6ecd24344b70b9fcb19849fe49cc9b1fe85cb7d35742e8f105f1b1",
+      "main-to-lid-ui.svg": "a1285b831a7c3fef5001aa9f28b53fac08cdd6e359288741e46477c25515e39c",
+      "main-to-lid-ui.png": "c1e3cb2190900a84f88342bc63c0116e05e398a5365eab1963e3955203982a67"
+    }
+  },
+  "remote_thermal": {
+    "base": {
+      "pcb_lands": {
+        "TP401": "NTC_BASE",
+        "TP402": "GND",
+        "TP403": "BASE_THERM_SEND",
+        "TP404": "LOOP_A_RAW"
+      },
+      "remote_parts": {
+        "TH401": "NTCLE413E2103F524A",
+        "S401": "67L045"
+      },
+      "stock_cutoff_wire_m": 0.2,
+      "exports": {
+        "uv-base-remote.bom.tsv": "271cc128a939c26426c178b2535d46cd92b590be251ddb44fa9f7369752aa66e",
+        "uv-base-remote.svg": "7923b2bc824fa1391d84a9d6f11b1c7c3a6d20297254a2a51c84b14778d9e331",
+        "uv-base-remote.png": "75894152d025b52c4df8480d0800fd58426f3410022baee543b4cb04f3fd0bfb"
+      }
+    },
+    "lid": {
+      "pcb_lands": {
+        "TP501": "NTC_LID",
+        "TP502": "GND",
+        "TP503": "LID_THERM_SEND",
+        "TP504": "LOOP_B_RAW"
+      },
+      "remote_parts": {
+        "TH501": "NTCLE413E2103F524A",
+        "S501": "67L045"
+      },
+      "stock_cutoff_wire_m": 0.2,
+      "exports": {
+        "uv-lid-remote.bom.tsv": "c5f36c1d57490f30c1dd6b4c1a41bf559db5c6d002d9bba26273fb6b1ae9f1a8",
+        "uv-lid-remote.svg": "8e775ecf75b9db60fcb1c1f2e6eb185c38c1d2d067d832a4bee8b3c6b746573e",
+        "uv-lid-remote.png": "cb921f68c21d3bccb18c4c35b65e1377de792f4134787fba5ac9c5242fb0440a"
+      }
+    }
+  },
+  "physical_validation": false,
+  "source_sha256": {
+    "hardware/cables/evt1/dock-main/hinge-flex/main-to-lid-ui.yml": "67400a84874f972bd0d889464d267db3f44e2c9c6ac544039bf7ddc02d8aac41",
+    "hardware/pcb/evt1/dock-control/pin-contract.json": "24756e7929caacedfe2c1b8e80992c07cbb3577d21c29b79f44c08f15ed0614a",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/dock-wired-system.kicad_pcb": "8900558ca63405ebd44074789897a87331e04c49b1205dbca6e6dea583d8e708",
+    "hardware/pcb/evt1/dock-control/lcd-socket-candidate/dock-lid-jst-candidate.kicad_pcb": "fbb712251fee3de42941a4081863d6af38ff0cb1c16a4a6933a278c477f43a7a",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/native.xml": "02013ae89f6103bbd447f3074c458a8d644645d8f7b9cdeb3c7ad420f5d5a081",
+    "hardware/pcb/evt1/dock-control/lcd-socket-candidate/dock-lid-ui-native.xml": "bbc6c35be8b7a105eea13cb85b7805dc4b4adfc7d1a992799ffa0d958d1afd28",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/active-routing.json": "c637a7be9094c3a16659eb17ee7e18deb4703c74c054f9b4fac7901ef2b0b99b",
+    "hardware/pcb/evt1/dock-control/lcd-socket-candidate/native-checks.json": "31d77e9b9f7c050b82cac92b777a847951eb7d0e54f2da5443baffaf4f9f385e",
+    "hardware/cables/evt1/dock-main/remote-thermal/uv-base-remote.yml": "a61c82255f022240e202a9dd8bc8eb23702454d5ec02499f5a3df1ec1bfb1724",
+    "hardware/pcb/evt1/case-radio-uv/base/pcb/dock-uv-base.kicad_pcb": "dd19e47f8c76bd5739bdc335979bb5f3d265bebc38f0d1592a666d80cfdb5364",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/uv-assembly/wired-main-uv-base-supplier-quote.zip": "22b58e6f39ff6da776a2ee47c367d8918a2cdafc2190789e8573a4c25ffb531e",
+    "hardware/cables/evt1/dock-main/remote-thermal/uv-lid-remote.yml": "991615f42e3f95ebc702b8286986a817e6c2c4d65e677ad4add23e26b8d85f75",
+    "hardware/pcb/evt1/case-radio-uv/lid/pcb/dock-uv-lid.kicad_pcb": "3b398d708bea7d392f5c02e7099b69e7d595c855c576e0a9233cf9ddab2c4c4c",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/uv-assembly/wired-main-uv-lid-supplier-quote.zip": "858c773070903590bc9f9f7bf8f70abc10e5a8b807c5d89d240f8df3206866d3",
+    "hardware/cables/evt1/dock-main/check_peripherals.py": "99b9262f2384870a6535b2088fde5e09e450a36aae4debd7749ff478891978e7",
+    "hardware/cables/evt1/dock-main/check_main_to_pins.py": "0c1f1a6a60bc5d6f5236b96d9597350fcb6752be9adc5156759f46f358898540"
+  }
+}

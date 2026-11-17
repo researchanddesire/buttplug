@@ -1,0 +1,53 @@
+"""Screen nominal installed Main solid against fixed dock bodies."""
+from pathlib import Path
+from hashlib import sha256
+from zipfile import ZipFile
+import json, os, traceback
+import FreeCAD as App
+import FreeCADGui as Gui
+import Part
+
+work=Path(os.environ.get('COMPASS_WIRED_DOCK_WORK','/tmp/compass-evt1-wired'))
+dock=work/'dock/DockAssembly.FCStd'
+report=work/'clash.json'
+
+
+def extent(shape):
+    b=shape.optimalBoundingBox(False,False)
+    return [round(getattr(b,n),6) for n in ('XMin','YMin','ZMin','XMax','YMax','ZMax')]
+
+
+def main():
+    Gui.activateWorkbench('AssemblyWorkbench')
+    doc=App.openDocument(str(dock));doc.recompute()
+    link=doc.USBBoardAssembly
+    baseline=json.loads((work/'integration.json').read_text())
+    actual=sha256(dock.read_bytes()).hexdigest()
+    assert actual==baseline['wired_assembly_native_sha256']
+    assert sha256(Path(link.LinkedObject.Document.FileName).read_bytes()).hexdigest()==baseline['wired_pcb_native_sha256']
+    assert link.Shape.isValid()
+    installed=link.Shape.Solids
+    adjacencies=['LowerShell','LowerChamber','UpperShell','UpperChamber','FrontClosureLowerPlug','FrontClosureUpperPlug']
+    adjacencies.extend(f'MainBoardScrew{i}' for i in range(6))
+    with ZipFile(dock) as z:
+        for name in ('ContactCarrier','ContactRetainer'):
+            if doc.getObject(name) is not None:adjacencies.append(name)
+    result={'assembly_sha256':actual,'model_sha256':baseline['wired_pcb_native_sha256'],'installed_main_solid_count':len(installed),'obstacles':{},'scope':'Closed nominal rigid BRep check at installed Main placement. No flexible wire, tolerance, loading/motion, thermals, or optical validation.'}
+    for n in adjacencies:
+        obj=doc.getObject(n)
+        assert obj is not None and obj.Shape.isValid(),n
+        obstacle=obj.Shape
+        bounds=obstacle.optimalBoundingBox(False,False)
+        left=[(i,s) for i,s in enumerate(installed) if s.optimalBoundingBox(False,False).intersect(bounds)]
+        collisions=[]
+        for i,s in left:
+            volume=s.common(obstacle).Volume
+            if volume>1e-5:collisions.append({'main_solid_index':i,'main_solid_bounds_mm':extent(s),'overlap_mm3':round(volume,8)})
+        result['obstacles'][n]={'total_pairs':len(installed),'exact_BRep_tests':len(left),'overlaps':collisions}
+        report.write_text(json.dumps(result,indent=2)+'\n')
+    (work/'clash-state.txt').write_text('PASS\n')
+
+
+try:main()
+except BaseException:(work/'clash-error.txt').write_text(traceback.format_exc())
+finally:os._exit(0)

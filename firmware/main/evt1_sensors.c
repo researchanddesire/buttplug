@@ -24,6 +24,11 @@ static uint64_t tip_ms, next_tip;
 static uint64_t tip_started_ms;
 static uint32_t tip_sequence;
 static bool tip_source_start, tip_source_end, tip_source_changed;
+#ifdef BOARD_EVT1_ONE_BOARD
+static bool pack_valid;
+static int pack_millic;
+static uint64_t pack_ms;
+#endif
 static esp_err_t read_reg(i2c_master_dev_handle_t dev, uint8_t reg, uint8_t *b, size_t n) {
     return i2c_master_transmit_receive(dev, &reg, 1, b, n, 30);
 }
@@ -66,15 +71,16 @@ static esp_err_t conversion(unsigned channel, int16_t *result) {
     } while ((uint64_t)esp_timer_get_time() < deadline);
     return ESP_ERR_TIMEOUT;
 }
-static bool tip_sample(int *millic) {
-    int16_t before = 0, tip = 0, after = 0;
+static bool ntc_sample(unsigned channel, bool (*to_temperature)(int16_t, int16_t, int16_t, int *),
+                       int *millic) {
+    int16_t before = 0, reading = 0, after = 0;
     gpio_set_level(CONFIG_R0_PIN_ACCEL_INT_N, 1); /* EVT1 GPIO10 = excitation. */
     vTaskDelay(pdMS_TO_TICKS(10));
-    bool ok = conversion(1, &before) == ESP_OK && conversion(0, &tip) == ESP_OK &&
+    bool ok = conversion(1, &before) == ESP_OK && conversion(channel, &reading) == ESP_OK &&
               conversion(1, &after) == ESP_OK;
     /* Every success/error/timeout path removes excitation before returning. */
     gpio_set_level(CONFIG_R0_PIN_ACCEL_INT_N, 0);
-    return ok && evt_ntc_temperature(tip, before, after, millic);
+    return ok && to_temperature(reading, before, after, millic);
 }
 esp_err_t r0_sensors_init(void) {
     gpio_set_level(CONFIG_R0_PIN_ACCEL_INT_N, 0);
@@ -134,12 +140,17 @@ void r0_sensors_sample(r0_sample_t *s) {
     if (now >= next_tip) {
         uint32_t edges_before = evt_console_source_snapshot(&tip_source_start);
         tip_started_ms = (uint64_t)esp_timer_get_time() / 1000;
-        tip_valid = tip_sample(&tip_millic);
+        tip_valid = ntc_sample(0, evt_ntc_temperature, &tip_millic);
         tip_ms = (uint64_t)esp_timer_get_time() / 1000;
         uint32_t edges_after = evt_console_source_snapshot(&tip_source_end);
         tip_source_changed = edges_before != edges_after || tip_source_start != tip_source_end;
         ++tip_sequence;
         next_tip = tip_ms + 1000;
+#ifdef BOARD_EVT1_ONE_BOARD
+        /* Timestamp the tip and its source observation before the separate pack read. */
+        pack_valid = ntc_sample(2, evt_pack_ntc_temperature, &pack_millic);
+        pack_ms = (uint64_t)esp_timer_get_time() / 1000;
+#endif
     }
     now = (uint64_t)esp_timer_get_time() / 1000;
     s->temperature_valid = tip_valid && now >= tip_ms && now - tip_ms <= 1500;
@@ -150,6 +161,11 @@ void r0_sensors_sample(r0_sample_t *s) {
     s->temperature_source_at_end = tip_source_end;
     s->temperature_source_changed = tip_source_changed;
     if (s->temperature_valid) s->temperature_millic = tip_millic;
+#ifdef BOARD_EVT1_ONE_BOARD
+    s->pack_temperature_valid = pack_valid && now >= pack_ms && now - pack_ms <= 1500;
+    s->pack_temperature_sampled_ms = pack_ms;
+    if (s->pack_temperature_valid) s->pack_temperature_millic = pack_millic;
+#endif
     uint8_t status, config, b[6];
     s->accel_valid = read_reg(accel, 0x20, &config, 1) == ESP_OK && config == 0x37 &&
         read_reg(accel, 0x23, &config, 1) == ESP_OK && config == 0x88 &&

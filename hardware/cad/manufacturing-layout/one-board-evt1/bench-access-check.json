@@ -1,0 +1,190 @@
+{
+  "board_sha256": "8781d4ef0d154d123faacffbb572742ac7f338872be392cb60f288f69a2a6916",
+  "native_cad_sha256": "e3a2e6605ed01b014352fa858980742550e0410965a506e8ecbec7fc8e783fd6",
+  "cold_readback": "pass",
+  "catalog": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+  "plug_geometry": "Drawing-based exposed 2.0 x 3.0 x 2.8 mm housing. This study does not qualify fit tolerances, contact engagement or extraction tools.",
+  "step_models_imported": 74,
+  "step_missing": "J112 shrouded selector and two L_Coilcraft_XxL4020 footprint instances have no resolved STEP model in this library set; all are beyond the reviewed clearance region.",
+  "ports": {
+    "J3": {
+      "mouth_center_step_xyz_mm": [
+        95.6,
+        -112.17500000000001,
+        3.165
+      ],
+      "wire_exits_step_xyz_mm": [
+        [
+          96.1,
+          -110.17500000000001,
+          3.165
+        ],
+        [
+          95.1,
+          -110.17500000000001,
+          3.165
+        ]
+      ],
+      "withdrawal_unit_vector": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "plug_external_face": [
+        94.1,
+        -112.17500000000001,
+        1.7449999999999997,
+        97.1,
+        -110.17500000000001,
+        4.545
+      ],
+      "wire_bend_radius_mm": 5.5,
+      "checks": {
+        "seated_housing": {
+          "closest": [
+            {
+              "part": "BenchCAD_PCB",
+              "gap_mm": 0.235,
+              "overlap_mm3": 0
+            }
+          ],
+          "clashes": []
+        },
+        "continuous_3_mm_housing_withdrawal": {
+          "closest": [
+            {
+              "part": "BenchCAD_PCB",
+              "gap_mm": 0.235,
+              "overlap_mm3": 0
+            }
+          ],
+          "clashes": []
+        },
+        "two_seated_wire_leads": [
+          {
+            "closest": [
+              {
+                "part": "BenchCAD_PCB",
+                "gap_mm": 1.355,
+                "overlap_mm3": 0
+              }
+            ],
+            "clashes": []
+          },
+          {
+            "closest": [
+              {
+                "part": "BenchCAD_PCB",
+                "gap_mm": 1.355,
+                "overlap_mm3": 0
+              },
+              {
+                "part": "SW_SPST_B3U-1000P003",
+                "gap_mm": 3.5001,
+                "overlap_mm3": 0
+              }
+            ],
+            "clashes": []
+          }
+        ],
+        "seated_wire_pair": {
+          "closest": [
+            {
+              "part": "J3 other wire",
+              "gap_mm": 0.4,
+              "overlap_mm3": 0
+            }
+          ],
+          "clashes": []
+        }
+      }
+    },
+    "J8": {
+      "mouth_center_step_xyz_mm": [
+        83.525,
+        -126.0,
+        3.165
+      ],
+      "wire_exits_step_xyz_mm": [
+        [
+          81.525,
+          -125.5,
+          3.165
+        ],
+        [
+          81.525,
+          -126.5,
+          3.165
+        ]
+      ],
+      "withdrawal_unit_vector": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "plug_external_face": [
+        81.525,
+        -127.5,
+        1.7449999999999997,
+        83.525,
+        -124.5,
+        4.545
+      ],
+      "wire_bend_radius_mm": 5.5,
+      "checks": {
+        "seated_housing": {
+          "closest": [
+            {
+              "part": "BenchCAD_PCB",
+              "gap_mm": 0.235,
+              "overlap_mm3": 0
+            }
+          ],
+          "clashes": []
+        },
+        "continuous_3_mm_housing_withdrawal": {
+          "closest": [
+            {
+              "part": "BenchCAD_PCB",
+              "gap_mm": 0.235,
+              "overlap_mm3": 0
+            }
+          ],
+          "clashes": []
+        },
+        "two_seated_wire_leads": [
+          {
+            "closest": [
+              {
+                "part": "BenchCAD_PCB",
+                "gap_mm": 1.38,
+                "overlap_mm3": 0
+              }
+            ],
+            "clashes": []
+          },
+          {
+            "closest": [
+              {
+                "part": "BenchCAD_PCB",
+                "gap_mm": 1.38,
+                "overlap_mm3": 0
+              }
+            ],
+            "clashes": []
+          }
+        ],
+        "seated_wire_pair": {
+          "closest": [
+            {
+              "part": "J8 other wire",
+              "gap_mm": 0.45,
+              "overlap_mm3": 0
+            }
+          ],
+          "clashes": []
+        }
+      }
+    }
+  }
+}

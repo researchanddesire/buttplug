@@ -1,6 +1,6 @@
 {
   "status": "pass: isolated decoder/cache candidate; not integrated/flashed or hardware enabled",
-  "checked_at_utc": "2026-11-13T04:48:18.921681+00:00",
+  "checked_at_utc": "2026-11-13T09:59:14.733808+00:00",
   "protocol": "hardware/pcb/evt1/case-telemetry-study/protocol-v1.json",
   "protocol_sha256": "4678caf5112116f93fc80a013288c87fad0e0572ccb57d29b35e8bd2dbe971a5",
   "host_behavior_groups": 20,
@@ -12,7 +12,7 @@
   "compiler": "arm-none-eabi-gcc (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 13.3.1 20240614",
   "compiler_binary_sha256": "2a447f8b93af6369ca0d165e713dd100f89b0681f98757f878e1e473fdc30f5f",
   "target": "Cortex-M0+ freestanding compile/link proof only; no vectors/startup/peripheral IO, no BIN/HEX",
-  "target_text_bytes": 7332,
+  "target_text_bytes": 7452,
   "target_data_bytes": 0,
   "target_bss_bytes": 6288,
   "target_reserved_stack_bytes": 2048,
@@ -45,25 +45,29 @@
     "sc16_bridge.h": "160105e256b589e379b92f4066ce9ab89609bf3eb6db5b8c556e8605b7b85603",
     "compile_only.c": "5639699426ddd52b9fce50ca0fd399de0abc54ce25d929e1b4c99b45a8637ba0",
     "radio_schedule.h": "7789b8019938eaf9fcf8268009a237a038f81f460c02c63be4d8b3fbc81151e9",
-    "case_link.h": "518dd86df138bd8cb5ef9ce84c745594d0889915a0c7f2d7d8df701e2474688e",
+    "case_link.h": "f378ba5971c8ef7be83f8bb9df6295118244553ca89cfcbaaac802cda51c3d4a",
     "stm32-sc16-i2c-validation.json": "463c05fe3a5adeaeb2591cfdb2bd1e1665d4f9e320bf0dbcc06e1f3fc4151ec1",
     "NINA-STARTUP.md": "6d6d26a01739d1b5751ee362113d76f749d31e8df7da01129a887d7840c3ffb0",
     "nina_gatt.c": "9a5c81f9daff5e81f489f4221ac6c16458301cf05c667dd395be6a0ec8159c79",
     "Makefile": "ba54716b378452c59249152cf4411cc23f4af14a3e7bc9e49932c6c81bd1a791",
     "RADIO-RUNTIME.md": "dbcd8f95ab5ae11aee07cbb7a9ccb63b0c860b3271c4845dea69495b70d7eeed",
     "nina_startup.c": "771d4af2e3d5971a7d7867ae35834ee45e4e045af9e1d66d857a6996ac2c6272",
+    "wired-cdc.mk": "bd08eb13fe4403fc960404e0a56a3d6dbdac1f9e65e75e988a2928ec0684b8bd",
     "nina-startup.mk": "a0de19d6ad30a42790d6c35a3813749acb84b7151458b5ffe8d317f129f94ef2",
     "test_sender_roundtrip.c": "30816d77b1916a087f26a3f04d4a8c1eaa57af85bf7896fb1d32faf0608015db",
     "radio-runtime.mk": "d81cf2c5a28dfa4dc4d031807bc240b4f05b1a1ae78a8589866d399b9b4e2daa",
+    "wired_cdc.h": "36a9880fffa48735eba3899d936dcef85da0ac0dc0c8aba41da2a197f0f14eea",
     "SC16-BRIDGE.md": "06e909d8de31d7f044d1e4f06a8435173cfbf338d619bf2afd2a1202bd204eb2",
+    "WIRED-CDC.md": "598da552c8ceeca03e6c13d8cd3d672ab9b1253eea4af143c813ff1720968851",
     "stm32_sc16_i2c.h": "8cd6a2c7be563ea839945c7cb62f9a65bb5c8d07d0d00d6b11dc0e1d5d6c8f3e",
     "test_sc16_bridge.c": "923043d47f424d2cbaeea920243b8fd46ea2f7dccfdeee44d676043dae837a4c",
     "test_radio_runtime.c": "15689673f8f21edaa39e2ad791cc40ea4198b1ce69996b4f8427ae8f09ed0a78",
     "README.md": "f1e05a6242be9d9668373330ef1ae4b68a9aeb7ac3e1c51e9b37e1f4bee1a2cc",
-    "validate.py": "27608c711ea2bfd37a7518333cece4e45b5b0d18e5c70572adad27cc10380227",
+    "test_wired_cdc.c": "5fb1c57d713e1c971bb68c69294897fe0252fe92c863967d8e136e699e591006",
+    "validate.py": "dd2435e8ab23626919644bf689bf7d62f084c0d8737e37aa9cc09cd9039616d7",
     "STM32-SC16-I2C.md": "8312f53fa0f73976c99a30476dbf13ea75986ecf7acbe3c406a7ec023cfd988f",
     "golden-vectors.json": "c16727ed9ab4def92362987b2a6170fe845ea4933a2315bfb5300007894d266e",
-    "case_link.c": "1a021b8585f37c9802d26cff0f55689446c3761934ac1190c191ef1c7e02972c",
+    "case_link.c": "426bdbe584aa1b44a2e768fb89691b1fc0c0d1d2cc80bad359c4877cd851679d",
     "nina-gatt.mk": "e348e38ff277c46703514e4c2594f06c8feba64000bba3a42664172f61c4063f",
     "sc16_bridge.c": "51fbbe70f2215431c28b2fec780b67b27baea76c240b19c6bfc053ba4d3a19fe",
     "generate_vectors.py": "44489ad4226bf114acc06fab775084f8d8ff8c58c84f64eefa45d75791a98a54",
@@ -71,6 +75,7 @@
     "compile_only.ld": "d0990cfbdc8b42c5d4bce8fc18ae78aea8b4f74f08d35327abe27f32cfa96850",
     "radio_main.c": "da47e29e83498d03eee8e691ea1722e4d73c995bea54a6d78a56b8c6fbfab448",
     "radio-runtime-validation.json": "4d87c73bf55e0dbb85fe0b02534892adb6a849abf88b6b9f2c3069be07ed3f52",
+    "wired_cdc.c": "5ddefad08ebba528cd6b8d8ddcf7007d5c3c2a1d37b0304e10643cf1dcc647de",
     "peer-review.json": "61dbc473efe999db93b3f862a0cc8a2ea319bf2c85e23a61e6be84a62af6e980",
     "test_stm32_sc16_i2c.c": "772c18e85020f6b892128b91cd774298d19574ce7d694cb98903718446fe1e0d",
     "nina_startup.h": "d000b1e74ce7d2d1ea68e4a8e8c556c486c4458e5191be9c2b76aa5aa5ae1e7f",
@@ -83,12 +88,12 @@
     "bridge-validation.json": "9a82b1f13051becd818b235c1fbe5c72aa1e381fa52990feaf43997f70e2399e"
   },
   "artifacts_sha256": {
-    "case_link.o": "b9e5bf4ed39fbcc81dd662bc2012028bb267f2b4e84c00ab6b8ce84a543a2a62",
-    "compile-only.elf": "b236249be215133d8cdbab8f5332c27f7ae1aa8ded04f5d3417b926676ffe9a2",
-    "compile-only.map": "a302a62af3a478be881cb80ec83ee351a0fe2bc78d388460380a8ab90d9e26e5",
-    "test-case-link": "de22e896329d3927419fa7b68326f14bfd5021caddd65aca9634f1bea7b760c3",
-    "test-sender-roundtrip": "a8fe175f17aa538dc79d4f5587423f354977979a5a06cd05d863b55a5642ef52",
-    "validation.log": "59a6b83e3c2bd9ffdcd361abbf5edda73133c89d397c6327926b20a105a2cb55"
+    "case_link.o": "259cd8ea463c8b713c97a6a6cdb62a4c88047b8c8c3fd37fe88ab16a26a76e45",
+    "compile-only.elf": "1d68f69fd7737fd7684097f94d6ea09b04fc8913f8d8dddb24e5090ab52d0b28",
+    "compile-only.map": "dde6ff79bdc2c8bad44ceb591711ce8f1f745d346a12a5371748552f8aac83ee",
+    "test-case-link": "d50c48d5a4d51194f74c78bb30c38d18c37930b255f21d0d949c2f05d54ead09",
+    "test-sender-roundtrip": "63289236a45c2cb4953f359f30fb1994dbe2983cb5cd5d492d8dea344643ba98",
+    "validation.log": "628f5be00580bb6646cafe4bf149d712c05e91e3b5942535bfb55d3b8291f72f"
   },
   "nonce_generation_clock_bounds_and_transport_qualified": false,
   "integrated_with_existing_safety_runtime": false,
@@ -99,9 +104,21 @@
     "post_authentication_only": true,
     "in_scheduled_runtime": false,
     "artifact_sha256": {
-      "nina_gatt.o": "57c5413aad1bd27adf5e3637901c8c9226a422da2a0fbec4b12aa6911c2ed21a",
-      "test-nina-gatt": "82fd46d3731c3462390f38b3e2bb666daad41d0882fe18449f3dd75c128bc368",
+      "nina_gatt.o": "bea441290ad53421d257ff7454402170b96179cfb92d133fdbf15724eb2bd4f1",
+      "test-nina-gatt": "8a18bf793fc9712d5e50b1eaaefcc48cc1db18c235316668eabee9a1a5904ea0",
       "nina-gatt-validation.log": "0dcbc61987da191033675282ca09e2f2bec83b5103304a7ea4202e6a069ec36d"
+    }
+  },
+  "wired_cdc": {
+    "host_sender_roundtrip": true,
+    "actual_console_capture_replayed": true,
+    "receiver_Cortex_M0_plus_objects": true,
+    "connected_USB_host": false,
+    "artifact_sha256": {
+      "wired_cdc.o": "66851d68c7e020dab33be38635295ac934b3b5cfab7bdff5a017841383f291f5",
+      "case_link-wired.o": "259cd8ea463c8b713c97a6a6cdb62a4c88047b8c8c3fd37fe88ab16a26a76e45",
+      "test-wired-cdc": "93f1f1d90669d3ff665bf6785897a63986fd66caff06052037592d1ef6c1d6c2",
+      "wired-cdc-validation.log": "9170edc8a17b506bba8fa6e0bfa1b1322499693850cb8ca9f8348f764d44e9ec"
     }
   }
 }

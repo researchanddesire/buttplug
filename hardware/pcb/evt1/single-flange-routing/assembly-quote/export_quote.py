@@ -30,6 +30,7 @@ TARGETS = ROOT / "hardware/cad/manufacturing-layout/evt1-integration/contact-mod
 LAYERS = ("F.Cu", "In1.Cu", "In2.Cu", "B.Cu")
 PLOT_LAYERS = LAYERS + ("F.Mask", "B.Mask", "F.Paste", "B.Paste", "F.SilkS", "B.SilkS", "Edge.Cuts")
 CONTACTS = dict(zip(("CT1", "CT2", "CT3", "CT4"), ("GND", "USB_DM_CONTACT", "USB_DP_CONTACT", "DOCK_5V")))
+CONTACT_DRILL_MM = Decimal("1.020")
 MOUNTS = {"MH1", "MH2", "MH3", "MH4"}
 
 
@@ -227,9 +228,13 @@ def make_quote(work):
         notes = sorted({selected[r]["assembly_note"] for r in refs if selected[r].get("assembly_note")})
         sources = {selected[r]["manufacturer_source"] for r in refs}
         assert len(sources) == 1
+        schematic_value = " / ".join(sorted({parts[r].findtext("value") for r in refs}))
+        if refs == ["C83"]:
+            assert mpn == "C2012X5R1E226M125AC"
+            notes.append("The native schematic's 10 V label is legacy metadata. The required exact TDK part is rated 25 V. Quote that MPN without substitution.")
         order_rows.append([
             maker, mpn, len(refs), " ".join(sorted(refs)),
-            " / ".join(sorted({parts[r].findtext("value") for r in refs})),
+            schematic_value,
             " / ".join(sorted({parts[r].findtext("footprint") for r in refs})),
             " ".join(notes), sources.pop(),
         ])
@@ -246,7 +251,7 @@ def make_quote(work):
         assert value == target["mpn"] and side == "top"
         pad, = sexp.children(footprints[ref][0], "pad")
         assert pad[2].value == "thru_hole"
-        assert float(sexp.value(pad, "drill")) == target["recommended_mounting_hole_mm"]
+        assert Decimal(sexp.value(pad, "drill")) == CONTACT_DRILL_MM
         assert [float(i.value) for i in sexp.child(pad, "size")[1:]] == [target["proposed_copper_land_mm"]] * 2
         target_rows.append([ref, target["manufacturer"], target["mpn"], 1, CONTACTS[ref], x, y, side, target["primary_catalog"]])
     write_csv(work / "single-flange-manual-targets.csv", [
@@ -255,9 +260,9 @@ def make_quote(work):
 
     pth = check_drill(work / "single-flange-PTH.drl")
     npth = check_drill(work / "single-flange-NPTH.drl")
-    assert {k: len(v) for k, v in pth.items()} == {Decimal(".200"): 91, Decimal(".864"): 4}
+    assert {k: len(v) for k, v in pth.items()} == {Decimal(".200"): 91, CONTACT_DRILL_MM: 4}
     assert {k: len(v) for k, v in npth.items()} == {Decimal("1.600"): 4}
-    for drill, refs in ((pth[Decimal(".864")], CONTACTS), (npth[Decimal("1.600")], MOUNTS)):
+    for drill, refs in ((pth[CONTACT_DRILL_MM], CONTACTS), (npth[Decimal("1.600")], MOUNTS)):
         assert set(drill) == {(Decimal(row[3]), Decimal(row[4])) for row in positions if row[0] in refs}
 
     job_path = work / "single-flange-job.gbrjob"
@@ -275,6 +280,12 @@ def make_quote(work):
         for layer in sexp.children(board_stack, "layer") if sexp.child(layer, "thickness")
     }
     assert abs(sum(stack_mm.values()) - general["BoardThickness"]) < 1e-9
+    mm_per_inch = Decimal("25.4")
+    recommended_tail_clearance_mm = Decimal(".004") * mm_per_inch
+    generic_tail_max_mm = (
+        Decimal(str(target["diameters_mm"]["tail"]))
+        + Decimal(str(target["published_generic_diameter_tolerance_mm"]))
+    )
     fab_request = work / "fabrication-request.json"
     write_json(fab_request, {
         "scope": "Bare board bench quote",
@@ -285,8 +296,23 @@ def make_quote(work):
         "finish_requested": "ENIG",
         "trace_width_clearance_min_mm": [design["rules"]["min_track_width"], design["rules"]["min_clearance"]],
         "via_diameter_drill_mm": [0.5, 0.2],
-        "target_hole_native_mm": target["recommended_mounting_hole_mm"],
-        "target_hole_excellon_mm": 0.864,
+        "target_hole_native_mm": float(CONTACT_DRILL_MM),
+        "target_hole_excellon_mm": float(CONTACT_DRILL_MM),
+        "target_hole_CAM_review": {
+            "references": list(CONTACTS),
+            "artwork_scope": "Excellon size is the nominal artwork callout. Finished hole limits after plating require fabricator confirmation.",
+            "target_mpn": target["mpn"],
+            "generic_maximum_tail_diameter_mm": float(generic_tail_max_mm),
+            "manufacturer_recommended_diametral_clearance_mm": float(recommended_tail_clearance_mm),
+            "worst_case_minimum_finished_hole_screen_mm": float(generic_tail_max_mm + recommended_tail_clearance_mm),
+            "nominal_artwork_radial_annular_ring_mm": (target["proposed_copper_land_mm"] - float(CONTACT_DRILL_MM)) / 2,
+            "manufacturer_source": "https://static6.arrow.com/aropdfconversion/90d71f3ebe495227f21cda68abc0144cdb9cadae/1946-0-00-15-00-00-03-0.pdf",
+            "supplier_response_before_bare_board_release": (
+                "Return planned tool diameter, plating compensation, guaranteed finished hole minimum and maximum, "
+                "and remaining annular ring for CT1–CT4. Compare the finished minimum with the generic maximum tail "
+                "screen or confirm a tighter lot-specific tail limit. Flag any CAM or artwork changes for review."
+            ),
+        },
         "target_copper_land_diameter_mm": target["proposed_copper_land_mm"],
         "mechanical_NPTH_mm": 1.6,
         "absolute_mm_plot_and_drill_origin": True,

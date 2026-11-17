@@ -3,8 +3,9 @@
 This separate STM32L071CBT6 target implements the dock's LCD, three buttons,
 interlock/fault display and UV trial timer. The existing device firmware stays
 in `../firmware/`. Programming this controller uses SWD; computer USB D+/D− go
-directly to the device ESP32-C3. The dock has no battery-state or programming-
-progress data channel and displays neither value.
+directly to the device ESP32-C3 on the default bench boards.
+A separate [wired Main profile](wired-main/README.md)
+requests standalone USB and displays fresh plug tip temperature.
 
 The code cross-compiles to ARM ELF/BIN/HEX with official Arm GNU13.3.Rel1.
 `validation.json` binds the exact source, selected hardware GPIO contract,

@@ -5,18 +5,25 @@
 - **Plug CAD.** Open `hardware/cad/manufacturing-layout/ManufacturingLayout.FCStd`
   for the turned body and cap. Open
   `hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/SingleFlangeBoardTrial.FCStd`
-  for the single-board flange, pack fit and silicone barrier.
-- **Plug PCBs.** Open `hardware/pcb/evt1/body/body-evt1.kicad_pro` for the retained
-  body board and `hardware/pcb/evt1/single-flange-routing/single-flange.kicad_pro`
-  for the routed flange. The combined schematic is `single-flange-system.kicad_pro`
-  in the same folder.
-- **Dock CAD.** Start with `hardware/cad/evt1-assembly/review-051/README.md`.
-  Extract the entire review ZIP before opening `DockAssembly.FCStd`. That candidate has the
-  recentered carrier and a known LCD/lid-board collision. The saved
-  `hardware/cad/evt1-assembly/DockAssembly.FCStd` uses the earlier contact row.
-- **Dock PCBs.** Open `hardware/pcb/evt1/dock-system/dock-system.kicad_pro` for
-  the combined schematic and `hardware/pcb/evt1/dock-main/dock-main.kicad_pro`
-  for the routed Main board. The JST lid remains a separate candidate at
+  for the earlier single-flange and silicone-barrier study. The
+  [one-board CAD studies](https://github.com/researchanddesire/buttplug/tree/codex/project-setup/hardware/cad/manufacturing-layout/one-board-evt1)
+  cover the bulb pack and the Compact and Master Bench connector fits.
+- **Plug PCBs.** Open `hardware/pcb/evt1/one-board/compass-one-board.kicad_pro`
+  for the integrated first-article PCB. Open
+  `hardware/pcb/evt1/one-board-dev/compass-one-board-dev.kicad_pro` for the
+  master bench board with keyed PC/dock selector. The separate body and single-flange projects are source
+  references. See [Bulb battery and one-board EVT](one-board.md).
+- **Direct PC evaluation.** Use `hardware/cad/evt1-assembly/direct-pc-fixture/`
+  and the `hardware/pcb/evt1/direct-pc-contact-adapter/` KiCad project. The
+  keyed saddle takes the compact contact row and leaves both buttons open to
+  a recovery probe. See the [bench test and ordering guide](https://github.com/researchanddesire/buttplug/blob/codex/project-setup/hardware/design/evt1-bench-ordering/master-bench-eval/README.md).
+- **Dock CAD.** Open `hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd`
+  in FreeCAD. Keep its `pcb/` and `sources/` folders beside it. This links the
+  wired Main StepUp model, recentered contacts and JST display lid.
+- **Dock PCBs.** Open
+  `hardware/pcb/evt1/case-telemetry-study/wired-main/dock-wired-system.kicad_pro`
+  for the wired Main schematic and active PCB. The adjacent
+  `dock-wired-transport.kicad_pro` opens the complete interboard circuit. The JST lid source is
   `hardware/pcb/evt1/dock-control/lcd-socket-candidate/dock-lid-jst-candidate.kicad_pro`.
 - **Wiring and firmware.** Start with `hardware/cables/evt1/README.md` for the
   WireViz sources. Use `firmware/` for the plug and `dock-firmware/` for the case.
@@ -28,25 +35,35 @@ Drive with the Git revision and the specific assembly or board tested.
 
 | Area | Source / status |
 | --- | --- |
-| Saved dock master | `hardware/cad/evt1-assembly/DockAssembly.FCStd` and adjacent `README.md` document the editable bodies, StepUp links and earlier contact row. The separate 051 rebuild below uses the newer carrier. |
-| Single flange PCB revision | `hardware/pcb/evt1/single-flange-routing/SingleFlangeRouting.FCStd` and adjacent KiCad source: one39-part flange board with contacts, switches and compass; body PCB retained. Native10 DRC0/0, ERC and163-pad parity pass with no ignored checks. Two bounded component moves clear the actual J7 mate;59 connector/tool poses pass. Matching rigid halves/skin/barrier native: `hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/`. Wire service/retention, full integration and fabrication acceptance remain open. Prior placement/source kits are preserved. |
-| Local case telemetry study | `hardware/pcb/evt1/case-telemetry-study/PROPOSAL.md`: independent case/plug link and charge-observability candidates, preserving computer USB data/programming and ROM recovery. The case radio schematic passes native ERC and pin checks, including switched isolation of IRQ, SDA and SCL. Routing, coupled power, case runtime and physical operation remain open. |
+| Active dock assembly | `hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd` integrates the wired Main, recentered carrier, four installed contact wires, JST lid and clamshell. The contact wires clear the closed assembly at nominal dimensions. Trim, strain relief, loading, hinge wiring and physical checks remain open. |
+| Product enclosure quote | `hardware/design/evt1-bench-ordering/dock-enclosure/` contains 28 checked STEP files for 33 custom pieces, including the Hall brackets, magnet carriers, backers, screw spacers and machined UV spreaders and thermostat bars. Price the liners separately while the moving UV passages and printable Hall pocket web are being resolved. |
+| Integrated flange first article | `hardware/pcb/evt1/one-board/` combines the charger, motor drive, ESP32, controls, compass and contacts. [Native board checks and fabrication notes](one-board.md) apply to this layout. Earlier flange and rigid halves remain reference geometry in `hardware/pcb/evt1/single-flange-routing/` and `hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/`. |
+| Flange thermal isolation trial | `hardware/pcb/evt1/single-flange-thermal-trial/` is the separate order-review variant with two battery-side 0402s, local no-pour windows on all four layers and dedicated sensor returns to body J2.2S. `hardware/pcb/evt1/thermal-isolation-coupon/` compares intact laminate against a routed sensor neck. Check pad force and PCB temperature bias on an inert surrogate, then qualify both charge paths on the battery simulator before using either sensor for battery protection. |
+| Pack restraint and loom closure | `hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/pack-loom-trial/closed-tray-restraint/` contains the editable shared-screw cover trial. At an 8 mm opening the saved loom needs at least 6.540 mm extra free length at the modeled bend radius and connector exits. The `j6-dry-support/` fixture holds the retained board at its live datum for the unpowered cover and slack trial. Cover geometry and fitted wire lengths are under review. |
+| Local case telemetry | `hardware/pcb/evt1/case-telemetry-study/WIRED-USB.md` uses the four contacts for standalone dock USB telemetry and direct PC programming/ROM recovery. The cradle has no radio. `wired-main/dock-wired-system.kicad_pro` opens the active Main schematic and PCB. KiCad reports 13 opens, zero other PCB design-rule findings and zero schematic parity findings. The PC recovery lock is routed. The separate transport view traces the lid and UV boards. `dock-firmware/wired-main/` documents both processor targets, the screen link and USB retry. The two Hall receiver sheets and contact limiter are staged under `hardware/pcb/evt1/dock-safety/wired-hall-head/main-integration/`. |
+| Four-contact first article | `hardware/design/evt1-bench-ordering/contact-interface/` has the shop quote ZIP for the revision 051 carrier, retainer and keeper samples, both matching PCB quote links, and exact hardware. The STEP parts are checked against saved native geometry. Measure pogo travel, keeper retention and wired USB through the actual contacts. Enter manual ROM off-dock for the seated recovery trial because the carrier covers both plug buttons. |
 | Display connector candidate | `hardware/pcb/evt1/dock-control/lcd-socket-candidate/`: JST 27FLZ-RSM2-TB routed lid candidate passes native DRC/ERC and 109-pad checks. Original lid artwork is preserved. `tools/build_evt1_dock_lcd_socket_replacement.py` authors the native received-fit fixture. Loaded contact height, cable tolerance/numbering and complete-case fit remain open; no invented internal socket cavity or full order release. |
-| Bench ordering | `hardware/design/evt1-bench-ordering/` lists samples, incoming checks and the pre-radio Main, UV and populated JST lid quotes. The separate J302-only fabrication quote supports the unpowered fit fixture. |
+| Lid cutoff | `hardware/pcb/evt1/dock-safety/wired-hall-head/wired-hall-head.kicad_pro` holds the routed Hall head. Both heads, brackets and captive targets are installed in the product CAD and clear 16 sampled lid positions per side. Check received attachment and release, integrate both Main receivers, preserve independent hardware thermal cutoff and measure UV-C leakage on each finished unit. See `hardware/cad/evt1-assembly/lid-jst-integration/hall-lid-study.md` for field and optical measurements. |
+| Hall Main routing | `hardware/pcb/evt1/dock-safety/wired-hall-head/main-integration/copper-placement/receiver-routes/window-supply/` has the staged Hall and thermal interlock layout with 178 opens, 12 rule findings and zero schematic parity findings. It includes window comparator links, local 5 V distribution and the U659 ground repair. The routed Hall heads and matched UV modules have independent quote packages. Complete the Main routing before ordering Main. |
+| Lid button mechanics | `hardware/cad/evt1-assembly/button-mechanics-trial/` contains the editable three-button coupon and its print quote ZIP. Measure cap travel and shoe force on the coupon while the retained buttons and JST lid fit are being integrated. |
+| Dock hinge flex | The `route-join/shared-base-review/` trial under the dock harness keeper study shifts the lid UV wire outlet 9.5 mm left. The eight equal-length moving wires clear the linked assembly at six isolated angles. The shifted keeper needs the old opening closed and the inner nut installed before routing the stationary J401 UV loom. Use an empty dock for tool access. The separate `shifted-motion-refit/` has the editable lower liner and two keeper Bodies with checked STEP exports. The aligned moving wires clear sampled early, middle and late travel through 110°. The repaired upper liner passes a cold native check and STEP readback. The unpowered hinge quote packet contains the checked exchange files and specimen parts list. Between-sample motion, physical restraint, tolerance and UV containment remain open. |
+| UV plug clearance | `hardware/cad/evt1-assembly/evt1-wired/README.md` shows the 1.30 mm dry-side pocket at J401 and the eight stationary UV leads. The closed native check found 0.25 mm housing clearance and 0.70 mm nominal liner wall. Seat the liner before final dressing of the J102 contact wires. Installed tolerance, lid wiring and UV containment remain open. |
+| Display fit | `hardware/cad/evt1-assembly/evt1-wired/README.md` shows the 1.50 mm lid PCB shim, both liner passages and the editable linked 20-way hinge flex in the closed pose. The fixed flex clears the UV backing by 0.1895 mm. The moving span uses 59.119 mm of stock and clears 25 exact modeled poses. Check supplier end dimensions, actual retention and travel with the UV wires, then measure light leakage at the hinge and rear seam. |
+| Bench ordering | `hardware/design/evt1-bench-ordering/` lists samples and incoming checks. The body/cap feasibility ZIP contains the checked metal STEPs and inspection worksheet. The screw-closed inert flange quote includes the drilled cover and matched mold tools. The direct-pass-through Main, matching UV modules and populated JST lid have separate quotes. |
 | Single flange PCB quote | `hardware/pcb/evt1/single-flange-routing/assembly-quote/`: four-layer fabrication files, 35 SMT positions on 21 part lines and four separate through-hole targets. |
 | Recentered dock interface | `hardware/cad/evt1-assembly/recentered-carrier-trial/RecenteredCarrierTrial.FCStd`: revised native carrier/retainer and pin board clear the supplied case/device context through 49 docking poses and two 12-angle sweeps. The spring C0 diagnostic remains explicit. The isolated full dock rebuild in `hardware/cad/evt1-assembly/review-051/` passed sampled loading; the LCD/lid PCB still overlaps. The dock master is unchanged. |
 | Current mechanical study | `hardware/cad/manufacturing-layout/ManufacturingLayout.FCStd` |
 | Part exchange | `MetalBody.step`, `MotorThermistorCap.step`, `FlangeTray.step`, `RearCover.step`; additional `ThinRearNut.step` envelope |
 | Plastic study prints | `FlangeTray.stl`, `RearCover.stl`; slicer/physical trial pending |
 | Detailed DFM / evidence | Adjacent `README.md`, `DFM.md` and `review.json`; prior stock-nut screen preserved under `archive/ring-lock-screen/` |
-| Rear nut/tool trial | `hardware/cad/manufacturing-layout/evt1-integration/rear-joint-trial/`: selected ifmE10028 nut reconstruction and editable two-jaw axial-driver proposal;143 tool poses/61 nut orientations pass nominal checks. Separate from the product native; nut locking, received fit, material/torque and strength qualification remain open. |
+| Rear nut/tool trial | `hardware/cad/manufacturing-layout/evt1-integration/rear-joint-trial/`: selected ifmE10028 nut reconstruction and editable two-jaw axial-driver proposal;143 tool poses/61 nut orientations pass nominal checks. The adjacent `torque-coupon/` provides a shortened inert stub, the full tray context and a six-pair quote basis. Received fit, torque and material qualification remain open. |
 | Overmold / clamshell proposal | `hardware/cad/manufacturing-layout/concepts/overmold-cradle/README.md`; process notes and generated illustration, not full skin/tool/dock CAD |
-| Inert overmold trial | `hardware/cad/manufacturing-layout/overmold-trial/README.md`; editable `OvermoldTrial.FCStd`, skin/tool STEP and three print STLs. Closed solid dummy, no internals/feedthroughs/buttons; not physically built. |
+| Inert overmold trial | `hardware/cad/manufacturing-layout/overmold-trial/README.md`; editable `OvermoldTrial.FCStd`, skin/tool STEP and three print STLs. The original solid dummy supports fill and demolding. The newer `overmold-interface-review/rear-insert-candidate/` has a shop quote packet with the two-half tool, four-face insert, diaphragm tool and shortened metal root. The rear insert candidate includes a dry rear-stop measurement procedure, an editable probe-access review and a worksheet for the four received target faces. |
 | Dock / contact prototype | `hardware/cad/manufacturing-layout/charging-dock/README.md`; editable `ChargingDock.FCStd`, STEP and print kit. Clamshell/nest/pin carrier, fixed target posts/rear half/skin and removable face mask. Two routed cradle PCBs now drive the case/mount datums; no physical result. |
 | Actual device-board integration | `hardware/cad/manufacturing-layout/evt1-integration/README.md`; editable `EVT1Product.FCStd`, four STEP parts and two dry-fit plastic STLs. Actual board outlines/component envelopes, integral sensor bosses and nominal loading checks; full package remains unfinished. |
 | Rebuild / verify | `tools/build_manufacturing_layout.py`, `tools/verify_manufacturing_layout.py` |
 | Earlier five-board baseline | `hardware/pcb/evt1/system-evt1.kicad_pro` and `pcb-ordering.csv` cover the retained body plus the earlier flange, separate compass sensor, USB and pin boards. Saved native DRC and pad/netlist checks cover those five boards. Use the single-flange and dock sources above for the revised integration. |
-| Protected-pack request | `hardware/pcb/evt1/PACK-RFQ.md` / `pack-spec.json`: factory-protected1.5A pack,33×21×6.3mm maximum, six conductors including two dry NTC pairs. Requested pack/NTC/growth geometry fits; supplier acceptance and retention/lead process pending. |
+| Protected-pack request | `hardware/pcb/evt1/pack-lead-feasibility/`: 1.5 A factory-protected pack, 33×21×6.3 mm maximum, with two ~42 mm factory leads for the horizontal disconnect. The two dry NTC pairs are device-side. The factory exit shares growth space and needs supplier review. `PACK-RFQ.md` records the prior short-lead baseline. |
 | Prior electrical reference | `hardware/pcb/pack-pigtail-r35/candidate-f/system-r35.kicad_pro`; NTC/tabs not revised |
 | Required compass sensing | LSM303AGR circuit/code is retained. The accepted single flange board replaces the earlier routed12×10mm daughterboard/two-boss mount; new rigid registration, package-axis transform, factory calibration, C83 effective capacitance and magnetic survey remain to qualify. |
 | Required cradle interface | Four external contacts: 5V/GND/USB D+/D-; separate prototype CAD exists. Device circuit, routed cradle PCBs and wake/recovery code exist. Product PCB layouts, feedthrough sealing and physical USB qualification pending. |
@@ -126,8 +143,9 @@ actual LCD/buttons, independent lid/thermal/watchdog/latch/cuts and two UV
 drivers. Native combined ERC passes with zero errors/warnings and812 conserved
 terminals. The routed shared Main board combines source, controller and safety.
 The UV module boards are under `hardware/pcb/evt1/dock-uv/`. The 051 CAD rebuild
-uses the Main board placement snapshot and the earlier Molex lid. The routed JST
-lid candidate and its received-fit fixture are separate. Dock firmware has ARM
+uses the Main board placement snapshot and the earlier Molex lid. The isolated
+JST trial links the revised lid board and passes the nominal board clearance
+screen. Confirm loaded socket fit with the received parts. Dock firmware has ARM
 build and host-test evidence. Integrated case fit, supplier acceptance, powered
 operation and optical/cleaning validation remain open.
 

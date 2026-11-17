@@ -111,7 +111,11 @@ static void conversions(void){
  assert(dock_ntc_centi_c(1678,&temp) && temp==3500);
  assert(dock_ntc_centi_c(1507,&temp) && temp==4000);
  assert(!dock_ntc_centi_c(0,&temp) && !dock_ntc_centi_c(4095,&temp));
- assert(dock_ads_decode(0,12800,&value) && value>=54794 && value<=54795);
+#ifdef DOCK_WIRED_MAIN
+ assert(dock_ads_decode(0,12800,&value) && value==47393);
+#else
+ assert(dock_ads_decode(0,12800,&value) && value==54794);
+#endif
  assert(dock_ads_decode(2,19866,&value) && value>38990 && value<39010);
  assert(dock_ads_decode(3,32767,&value) && value>64000); /* No32-bit overflow. */
  assert(dock_ads_decode(0,-1,&value) && value==0);
@@ -129,6 +133,11 @@ void board_lcd_write(bool data,uint8_t v){
 }
 void board_lcd_reset(bool high){assert(high==(reset_count!=0));++reset_count;}
 void board_delay_ms(uint32_t ms){delay_ms+=ms;}
+static void save_display(const char *path){
+ FILE *f=fopen(path,"w");assert(f);fputs("P1\n512 256\n",f);
+ for(unsigned y=0;y<256;++y){for(unsigned x=0;x<512;++x){unsigned xx=x/4,yy=y/4;
+  fprintf(f,"%u ",(screen[(yy/8)*128+xx]>>(yy%8))&1u);}fputc('\n',f);}fclose(f);
+}
 static void display_trace(void){
  lcd_init(0x10);const uint8_t start_trace[]={0xae,0xa2,0xa0,0xc8,0xa4,0x40,0x25,0x81,0x10,0x2f};
  assert(reset_count==2 && delay_ms==45 && data_count==1024);
@@ -146,9 +155,26 @@ static void display_trace(void){
  assert(!memcmp(full_screen,screen,sizeof(full_screen)));
  assert(!memcmp(full_commands,command_trace,sizeof(full_commands)));
  unsigned lit=0;for(unsigned j=0;j<1024;++j)lit+=screen[j]!=0;assert(lit>200);
- FILE *f=fopen("tests/.build/display-preview.pbm","w");assert(f);fputs("P1\n512 256\n",f);
- for(unsigned y=0;y<256;++y){for(unsigned x=0;x<512;++x){unsigned xx=x/4,yy=y/4;
-  fprintf(f,"%u ",(screen[(yy/8)*128+xx]>>(yy%8))&1u);}fputc('\n',f);}fclose(f);++scenarios;
+#ifdef DOCK_WIRED_MAIN
+ i.loop_a=i.loop_b=false;step(&a,&i);
+ assert(a.state==DOCK_FAULT && !a.arm && !a.stop_n);
+ lcd_render(&a,&i);commands=0;data_count=0;lcd_flush();
+ memcpy(full_screen,screen,sizeof(full_screen));
+ host_client host={.local_requested=true,.have_status=true,
+                   .flags=HOST_STATUS_LOCAL | HOST_STATUS_TIP_VALID,.tip_centi_c=2860};
+ lcd_render_host(&host,true,true);commands=0;data_count=0;lcd_flush();
+ assert(!memcmp(full_screen,screen,128) && !memcmp(full_screen+2*128,screen+2*128,3*128));
+ assert(!memcmp(full_screen+7*128,screen+7*128,128) && memcmp(full_screen+128,screen+128,128));
+ assert(memcmp(full_screen+5*128,screen+5*128,2*128));
+ uint8_t shown[128];memcpy(shown,screen+5*128,sizeof(shown));
+ save_display("tests/.build/display-wired-preview.pbm");
+ host.have_status=false;
+ lcd_render_host(&host,true,true);commands=0;data_count=0;lcd_flush();
+ assert(memcmp(shown,screen+5*128,sizeof(shown)));
+#else
+ save_display("tests/.build/display-preview.pbm");
+#endif
+ ++scenarios;
 }
 int main(void){startup_and_fresh_edges();interruption_and_pending_press();each_interruption();
  monitor_and_latch_faults();timeout_wrap_and_cancel();supervisor_and_rail_settling();menus_do_not_arm();conversions();display_trace();

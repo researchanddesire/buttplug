@@ -1,0 +1,32 @@
+{
+  "scope": "Schematic and WireViz bench harness only. Installed route and physical continuity open.",
+  "source_sha256": {
+    "hardware/pcb/evt1/case-telemetry-study/case-radio/case-radio-system-native.xml": "66f0e13daea9dd34e6cb4891113760f65af9b7b612425ac45bcc707d8896121e",
+    "hardware/cables/evt1/dock-main/radio/main-to-radio.yml": "347bcf45a1ab14e9ae5efca973efd4151dc44db789b8e71f7c7009608a66f428",
+    "hardware/pcb/evt1/case-telemetry-study/case-radio/native-checks.json": "7bf0893a2ac727aaea9d960288d87c44b18235a0a8dd9d4dc793302b92df8e21",
+    "hardware/cables/evt1/dock-main/radio/check_radio_harness.py": "9f27f23b3f68cea8db001a4e9ee11dd71de1f135ff1cac0df41d6610d5ea8066"
+  },
+  "connector_pins": {
+    "J150": {
+      "1": "RADIO_5V",
+      "2": "GND",
+      "3": "MON_I2C_SDA",
+      "4": "MON_I2C_SCL",
+      "5": "RADIO_IRQn",
+      "6": "RADIO_ACTIVE_EN"
+    },
+    "J901": {
+      "1": "RADIO_5V",
+      "2": "GND",
+      "3": "MON_I2C_SDA",
+      "4": "MON_I2C_SCL",
+      "5": "RADIO_IRQn",
+      "6": "RADIO_ACTIVE_EN"
+    }
+  },
+  "bench_stock": {
+    "GHR-06V-S": 2,
+    "SSHL-002T-P0.2": 12,
+    "1371-26-7_m": 1.05
+  }
+}

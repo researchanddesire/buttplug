@@ -1,0 +1,583 @@
+{
+  "scope": "Native footprint pad parity and STEP readback; no placed-board, routing, tolerance or solder qualification",
+  "solder_height_screen_mm": 0.05,
+  "host_window_mm": [
+    20,
+    20,
+    1.5
+  ],
+  "host_window_center_dock_xyz_mm": [
+    -21,
+    43,
+    5.4
+  ],
+  "host_window_nominal_floor_distance_mm": 2.4,
+  "source_sha256": {
+    "circuit-contract.json": "bd6fac097c73a2724aaa3d3d402695281610460638fdeaeca45f03b98c076aa9",
+    "space-check.json": "1c71a2fbfe507cf45c0ca089401b7679b9d1454ac999207d2a971aee5c81d1f4",
+    "check_package_models.py": "5ddb12be0bb1b65873a1dc23c4ca9d77afed830560271cc5546354a8296da5a5"
+  },
+  "selected_devices": {
+    "U151": {
+      "mpn": "FSUSB42MUX",
+      "package": "846AP",
+      "manufacturer_drawing": "https://www.onsemi.com/download/package-drawing/pdf/846ap.pdf",
+      "outline_limit_xyz_mm": [
+        4.9,
+        3.1,
+        1.1
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:Onsemi_846AP_MSOP10",
+      "footprint_sha256": "b0ec0d9dc38033705b950fc82fb39d9e5ccdb335002702bb65c428d2e685396d",
+      "package_limit_plus_solder_mm": 1.15,
+      "floor_clearance_at_package_limit_mm": 1.25,
+      "package_or_step_plus_solder_mm": 1.15,
+      "floor_clearance_including_step_mm": 1.25
+    },
+    "U152": {
+      "mpn": "TPD2EUSB30DRTR",
+      "package": "DRT",
+      "manufacturer_drawing": "https://www.ti.com/packaging/docs/searchtipackages.tsp?packageName=SO",
+      "outline_limit_xyz_mm": [
+        1.0,
+        1.0,
+        0.45
+      ],
+      "height_authority": "TI DRT-3 package table; product data sheet reports 1 mm by 1 mm footprint",
+      "footprint": "WiredMain:Texas_DRT-3",
+      "footprint_sha256": "15cde3ee13da0e0426038a0a17ee16c50edc6d100b64582166b4263d4e7cae17",
+      "package_limit_plus_solder_mm": 0.5,
+      "floor_clearance_at_package_limit_mm": 1.9,
+      "package_or_step_plus_solder_mm": 0.55,
+      "floor_clearance_including_step_mm": 1.85
+    },
+    "U153": {
+      "mpn": "TPS2553QDBVRQ1",
+      "package": "DBV0006A",
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/tps2553-q1.pdf",
+      "outline_limit_xyz_mm": [
+        3.0,
+        3.05,
+        1.45
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:SOT-23-6",
+      "footprint_sha256": "f341c73aac9dcb553456f68bf3fee3d26eb14acf6d8a1cae82b50418fe1d71ca",
+      "package_limit_plus_solder_mm": 1.5,
+      "floor_clearance_at_package_limit_mm": 0.9,
+      "package_or_step_plus_solder_mm": 1.6,
+      "floor_clearance_including_step_mm": 0.8
+    },
+    "U154": {
+      "mpn": "TPS7A2033PDBVR",
+      "package": "DBV0005A",
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+      "outline_limit_xyz_mm": [
+        3.0,
+        3.05,
+        1.45
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:SOT-23-5",
+      "footprint_sha256": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761",
+      "package_limit_plus_solder_mm": 1.5,
+      "floor_clearance_at_package_limit_mm": 0.9,
+      "package_or_step_plus_solder_mm": 1.6,
+      "floor_clearance_including_step_mm": 0.8
+    },
+    "U155": {
+      "mpn": "TPS389033DSER",
+      "package": "DSE0006A",
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/tps3890.pdf",
+      "outline_limit_xyz_mm": [
+        1.55,
+        1.55,
+        0.8
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:TI_DSE0006A",
+      "footprint_sha256": "93caf3c961110404336559a4e3d7eb56cacd21eb5b0fc785ce44977112f49446",
+      "package_limit_plus_solder_mm": 0.85,
+      "floor_clearance_at_package_limit_mm": 1.55,
+      "package_or_step_plus_solder_mm": 0.85,
+      "floor_clearance_including_step_mm": 1.55
+    },
+    "U156": {
+      "mpn": "TPS3808G01DBVR",
+      "package": "DBV0006A",
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "outline_limit_xyz_mm": [
+        3.0,
+        3.05,
+        1.45
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:SOT-23-6",
+      "footprint_sha256": "f341c73aac9dcb553456f68bf3fee3d26eb14acf6d8a1cae82b50418fe1d71ca",
+      "package_limit_plus_solder_mm": 1.5,
+      "floor_clearance_at_package_limit_mm": 0.9,
+      "package_or_step_plus_solder_mm": 1.6,
+      "floor_clearance_including_step_mm": 0.8
+    },
+    "U157": {
+      "mpn": "SN74HCS21PWR",
+      "package": "PW0014A",
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/sn74hcs21.pdf",
+      "outline_limit_xyz_mm": [
+        6.6,
+        5.1,
+        1.2
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:TSSOP-14_4.4x5mm_P0.65mm",
+      "footprint_sha256": "e4bf82cea6d3b3259ddf42469b1407628ad1181a28ae6f3f340190c0cca31ccd",
+      "package_limit_plus_solder_mm": 1.25,
+      "floor_clearance_at_package_limit_mm": 1.15,
+      "package_or_step_plus_solder_mm": 1.25,
+      "floor_clearance_including_step_mm": 1.15
+    },
+    "U158": {
+      "mpn": "SN74HCS00PWR",
+      "package": "PW0014A",
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/sn74hcs00.pdf",
+      "outline_limit_xyz_mm": [
+        6.6,
+        5.1,
+        1.2
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:TSSOP-14_4.4x5mm_P0.65mm",
+      "footprint_sha256": "e4bf82cea6d3b3259ddf42469b1407628ad1181a28ae6f3f340190c0cca31ccd",
+      "package_limit_plus_solder_mm": 1.25,
+      "floor_clearance_at_package_limit_mm": 1.15,
+      "package_or_step_plus_solder_mm": 1.25,
+      "floor_clearance_including_step_mm": 1.15
+    },
+    "U159": {
+      "mpn": "SN74LVC2G17DCKR",
+      "package": "DCK0006A",
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "outline_limit_xyz_mm": [
+        2.4,
+        2.15,
+        1.1
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:SOT-363_SC-70-6",
+      "footprint_sha256": "0659d885e00b786968c3ba29152b808777240a91c1fb49ab8d814eb03530115c",
+      "package_limit_plus_solder_mm": 1.15,
+      "floor_clearance_at_package_limit_mm": 1.25,
+      "package_or_step_plus_solder_mm": 1.15,
+      "floor_clearance_including_step_mm": 1.25
+    },
+    "U160": {
+      "mpn": "RP2040",
+      "package": "QFN-56 reduced EP",
+      "manufacturer_drawing": "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=608",
+      "outline_limit_xyz_mm": [
+        7.0,
+        7.0,
+        0.9
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm",
+      "footprint_sha256": "cd4fb53a6c4469b8d1ddc0fc4a50183990f7c46ba103308526761a1f0e915769",
+      "package_limit_plus_solder_mm": 0.95,
+      "floor_clearance_at_package_limit_mm": 1.45,
+      "package_or_step_plus_solder_mm": 0.95,
+      "floor_clearance_including_step_mm": 1.45
+    },
+    "U161": {
+      "mpn": "W25Q16JVUXIQ",
+      "package": "UX",
+      "manufacturer_drawing": "https://static.datasheets.com/doc/3906047-winbond-w25q16jvssiq-ds.pdf#page=67",
+      "outline_limit_xyz_mm": [
+        3.1,
+        2.1,
+        0.6
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:Winbond_USON-8_2x3mm_P0.5mm_UX",
+      "footprint_sha256": "e5f361c414866d6811d14940e4c313659a993669019e52adc0d7264e2105e609",
+      "package_limit_plus_solder_mm": 0.65,
+      "floor_clearance_at_package_limit_mm": 1.75,
+      "package_or_step_plus_solder_mm": 0.65,
+      "floor_clearance_including_step_mm": 1.75
+    },
+    "U162": {
+      "mpn": "TMUX1511RSVR",
+      "package": "RSV0016A",
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf",
+      "outline_limit_xyz_mm": [
+        1.85,
+        2.65,
+        0.55
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:TI_RSV0016A",
+      "footprint_sha256": "e37cb16fb96fa62a780fbab453393e3b017deb86ea86551501ed033548bf6226",
+      "package_limit_plus_solder_mm": 0.6,
+      "floor_clearance_at_package_limit_mm": 1.8,
+      "package_or_step_plus_solder_mm": 0.6,
+      "floor_clearance_including_step_mm": 1.8
+    },
+    "U163": {
+      "mpn": "SN74LVC2G17DCKR",
+      "package": "DCK0006A",
+      "manufacturer_drawing": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "outline_limit_xyz_mm": [
+        2.4,
+        2.15,
+        1.1
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:SOT-363_SC-70-6",
+      "footprint_sha256": "0659d885e00b786968c3ba29152b808777240a91c1fb49ab8d814eb03530115c",
+      "package_limit_plus_solder_mm": 1.15,
+      "floor_clearance_at_package_limit_mm": 1.25,
+      "package_or_step_plus_solder_mm": 1.15,
+      "floor_clearance_including_step_mm": 1.25
+    },
+    "Y151": {
+      "mpn": "ABM8-272-T3",
+      "package": "ABM8-272-T3",
+      "manufacturer_drawing": "https://abracon.com/datasheets/ABM8-272-T3.pdf",
+      "outline_limit_xyz_mm": [
+        3.4,
+        2.7,
+        0.8
+      ],
+      "height_authority": "manufacturer package drawing",
+      "footprint": "WiredMain:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "footprint_sha256": "7648bca15399a8bd7856b5da6a1d2bc3a87049dc63958f8e8a3ab7409941a8e4",
+      "package_limit_plus_solder_mm": 0.85,
+      "floor_clearance_at_package_limit_mm": 1.55,
+      "package_or_step_plus_solder_mm": 0.85,
+      "floor_clearance_including_step_mm": 1.55
+    }
+  },
+  "models": {
+    "Onsemi_846AP_MSOP10": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/Onsemi_846AP_MSOP10.step",
+      "stock_model": "Package_SO.3dshapes/MSOP-10_3x3mm_P0.5mm.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "b8f88eac3ce221c2ccb0b5048f9ad49c2ef4af148f8ae50c4e232e357683f547",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -2.45,
+        -1.5,
+        -0.0,
+        2.45,
+        1.5,
+        1.1
+      ],
+      "size_xyz_mm": [
+        4.9,
+        3.0,
+        1.1
+      ]
+    },
+    "Texas_DRT-3": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/Texas_DRT-3.step",
+      "stock_model": "Package_TO_SOT_SMD.3dshapes/Texas_DRT-3.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "826a53de4a90e738d560e4a906235ba95541b3da40b62f22d8f9e30fd9f39744",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -0.5,
+        -0.5,
+        -0.0,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "size_xyz_mm": [
+        1.0,
+        1.0,
+        0.5
+      ]
+    },
+    "SOT-23-6": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/SOT-23-6.step",
+      "stock_model": "Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -1.4,
+        -1.45,
+        0.0,
+        1.4,
+        1.45,
+        1.55
+      ],
+      "size_xyz_mm": [
+        2.8,
+        2.9,
+        1.55
+      ]
+    },
+    "SOT-23-5": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/SOT-23-5.step",
+      "stock_model": "Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -1.4,
+        -1.45,
+        0.0,
+        1.4,
+        1.45,
+        1.55
+      ],
+      "size_xyz_mm": [
+        2.8,
+        2.9,
+        1.55
+      ]
+    },
+    "TI_DSE0006A": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/TI_DSE0006A.step",
+      "stock_model": "Package_SON.3dshapes/WSON-6_1.5x1.5mm_P0.5mm.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "b286efb19ee878f7094913552ef4b3d65067278c4f8bce5547303f697797652f",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -0.75,
+        -0.74,
+        0.0,
+        0.75,
+        0.74,
+        0.77
+      ],
+      "size_xyz_mm": [
+        1.5,
+        1.48,
+        0.77
+      ]
+    },
+    "TSSOP-14_4.4x5mm_P0.65mm": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "stock_model": "Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -3.2,
+        -2.5,
+        -0.0,
+        3.2,
+        2.5,
+        1.0
+      ],
+      "size_xyz_mm": [
+        6.4,
+        5.0,
+        1.0
+      ]
+    },
+    "SOT-363_SC-70-6": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/SOT-363_SC-70-6.step",
+      "stock_model": "Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -1.05,
+        -1.0,
+        0.0,
+        1.05,
+        1.0,
+        1.1
+      ],
+      "size_xyz_mm": [
+        2.1,
+        2.0,
+        1.1
+      ]
+    },
+    "QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm.step",
+      "stock_model": "Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "010e8039ec6f28fb1c5f5c6d170757af464c82c200ecc655c8150398117e2283",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -3.5,
+        -3.5,
+        0.0,
+        3.5,
+        3.5,
+        0.9
+      ],
+      "size_xyz_mm": [
+        7.0,
+        7.0,
+        0.9
+      ]
+    },
+    "Winbond_USON-8_2x3mm_P0.5mm_UX": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/Winbond_USON-8_2x3mm_P0.5mm_UX.step",
+      "stock_model": "Package_SON.3dshapes/Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "a661d4f73911602c49ec0dbe79117eabfd4084bafc87c10d9a35acb96c4cf253",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -1.5,
+        -0.99,
+        0.0,
+        1.5,
+        0.99,
+        0.55
+      ],
+      "size_xyz_mm": [
+        3.0,
+        1.98,
+        0.55
+      ]
+    },
+    "TI_RSV0016A": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/TI_RSV0016A.step",
+      "stock_model": null,
+      "classification": "manufacturer drawing reconstruction",
+      "sha256": "8a0d2e3b6e9b0fbecbff739a0fbc60d856973785fac6801521f3564d8ea7d25f",
+      "valid_solids": 17,
+      "bounds_xyzxyz_mm": [
+        -0.9,
+        -1.3,
+        0.0,
+        0.9,
+        1.3,
+        0.5
+      ],
+      "size_xyz_mm": [
+        1.8,
+        2.6,
+        0.5
+      ]
+    },
+    "Crystal_SMD_3225-4Pin_3.2x2.5mm": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step",
+      "stock_model": "Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "d2a89df82ee5f0f56ef23ee59c8161b8d4e92af2b21959d72778316dde3f9f22",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -1.599301,
+        -1.251333,
+        0.0,
+        1.601128,
+        1.249506,
+        0.64
+      ],
+      "size_xyz_mm": [
+        3.200428,
+        2.500839,
+        0.64
+      ]
+    },
+    "C_0402_1005Metric": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/C_0402_1005Metric.step",
+      "stock_model": "Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -0.5,
+        -0.25,
+        0.0,
+        0.5,
+        0.25,
+        0.5
+      ],
+      "size_xyz_mm": [
+        1.0,
+        0.5,
+        0.5
+      ]
+    },
+    "C_0603_1608Metric": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/C_0603_1608Metric.step",
+      "stock_model": "Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -0.8,
+        -0.4,
+        0.0,
+        0.8,
+        0.4,
+        0.8
+      ],
+      "size_xyz_mm": [
+        1.6,
+        0.8,
+        0.8
+      ]
+    },
+    "C_0805_2012Metric": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/C_0805_2012Metric.step",
+      "stock_model": "Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -1.0,
+        -0.625,
+        0.0,
+        1.0,
+        0.625,
+        1.25
+      ],
+      "size_xyz_mm": [
+        2.0,
+        1.25,
+        1.25
+      ]
+    },
+    "R_0402_1005Metric": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/R_0402_1005Metric.step",
+      "stock_model": "Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -0.5,
+        -0.25,
+        -0.0,
+        0.5,
+        0.25,
+        0.35
+      ],
+      "size_xyz_mm": [
+        1.0,
+        0.5,
+        0.35
+      ]
+    },
+    "R_0603_1608Metric": {
+      "model_uri": "${KIPRJMOD}/WiredMain.3dshapes/R_0603_1608Metric.step",
+      "stock_model": "Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "classification": "KiCad package-family geometry",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "valid_solids": 1,
+      "bounds_xyzxyz_mm": [
+        -0.8,
+        -0.4,
+        -0.0,
+        0.8,
+        0.4,
+        0.45
+      ],
+      "size_xyz_mm": [
+        1.6,
+        0.8,
+        0.45
+      ]
+    }
+  },
+  "passive_models": "Package-family STEP for layout; exact passive MPN selection is pending."
+}

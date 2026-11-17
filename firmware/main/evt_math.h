@@ -5,6 +5,8 @@
 /* ADS1115 PGA +/-4.096 V (125 uV/count). Reference is excitation / 2. */
 bool evt_ntc_temperature(int16_t tip, int16_t reference_before,
                          int16_t reference_after, int *millic);
+bool evt_pack_ntc_temperature(int16_t pack, int16_t reference_before,
+                              int16_t reference_after, int *millic);
 
 /* Assembly calibration, registered to the molded flange/back arrow.
  * Includes separate package-axis registration and magnetic soft-iron correction.

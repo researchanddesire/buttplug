@@ -1,0 +1,51 @@
+metadata:
+  title: EVT1 dock UV base remote sensors
+  notes: Unpowered bench wiring. Solder to the designated rear lands. Identify the
+    separate NTC monitor and normally closed cutoff before attaching either to the heatspreader.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  UV_LANDS:
+    type: UV base PCB back solder lands
+    pins: ['TP401', 'TP402', 'TP403', 'TP404']
+    pinlabels: [NTC_BASE, GND, BASE_THERM_SEND, LOOP_A_RAW]
+    ignore_in_bom: true
+  TH401:
+    type: Dry thermistor with integral leads
+    pins: [1, 2]
+    pinlabels: [NTC_BASE, GND]
+    manufacturer: Vishay
+    mpn: NTCLE413E2103F524A
+  S401:
+    type: Normally closed 45 °C thermostat
+    pins: [1, 2]
+    pinlabels: [BASE_THERM_SEND, LOOP_A_RAW]
+    manufacturer: Sensata
+    mpn: '67L045'
+cables:
+  NTC_LEADS:
+    category: bundle
+    type: Integral two-wire NTC leads
+    wirecount: 2
+    colors: [BK, BK]
+    ignore_in_bom: true
+  CUTOFF:
+    category: bundle
+    type: Individually marked 28 AWG solder pigtails
+    wirecount: 2
+    colors: [BN, BN]
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.10
+    length_unit: m
+    manufacturer: Accu-Glass
+    mpn: '100690'
+    notes: Two 100 mm starting blanks for a bench coupon. Trim to the actual route.
+connections:
+  - - UV_LANDS: ['TP401', 'TP402']
+    - NTC_LEADS: [1, 2]
+    - TH401: [1, 2]
+  - - UV_LANDS: ['TP403', 'TP404']
+    - CUTOFF: [1, 2]
+    - S401: [1, 2]

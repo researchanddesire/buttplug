@@ -1,0 +1,328 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-13T20:14:35",
+    "ignored_checks": [
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "dock-wired-system.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [RP_RUN] on B.Cu, length 0.5527 mm",
+                    "pos": {
+                        "x": 83.6,
+                        "y": 157.9625
+                    },
+                    "uuid": "c3ca3f34-3c65-4642-a40d-01b6c5ee44a1"
+                },
+                {
+                    "description": "Pad 1 [RP_RUN] of U162 on B.Cu",
+                    "pos": {
+                        "x": 71.4,
+                        "y": 158.0
+                    },
+                    "uuid": "7e8b17fd-2826-4211-a50b-b891914575d8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [USB_HOST_3V3] on B.Cu, length 1.2176 mm",
+                    "pos": {
+                        "x": 71.72,
+                        "y": 159.6
+                    },
+                    "uuid": "98468337-a3fe-4e77-ab55-4f8abaac56f6"
+                },
+                {
+                    "description": "Pad 16 [USB_HOST_3V3] of U162 on B.Cu",
+                    "pos": {
+                        "x": 72.0,
+                        "y": 157.8
+                    },
+                    "uuid": "af9cfac9-24d8-4938-87b9-70e39207bd08"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [RP_SDA] of U162 on B.Cu",
+                    "pos": {
+                        "x": 70.6,
+                        "y": 158.0
+                    },
+                    "uuid": "cc2d153f-ee43-4e89-865e-51370c486195"
+                },
+                {
+                    "description": "Pad 2 [RP_SDA] of U160 on B.Cu",
+                    "pos": {
+                        "x": 78.3625,
+                        "y": 163.6
+                    },
+                    "uuid": "8dcac49b-9a4b-42c5-91fb-43c724d5f91b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 6 [RP_SCL] of U162 on B.Cu",
+                    "pos": {
+                        "x": 69.6,
+                        "y": 157.4
+                    },
+                    "uuid": "ec1048bd-8642-4b13-ad7a-d94e8bff89e1"
+                },
+                {
+                    "description": "Pad 3 [RP_SCL] of U160 on B.Cu",
+                    "pos": {
+                        "x": 78.3625,
+                        "y": 163.2
+                    },
+                    "uuid": "0d0b186f-7efb-4198-93f5-f23d1e50f009"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 9 [RP_CONTACT_OK] of U162 on B.Cu",
+                    "pos": {
+                        "x": 70.2,
+                        "y": 156.4
+                    },
+                    "uuid": "20e1edd3-06e5-40b5-9e24-ba1497d09179"
+                },
+                {
+                    "description": "Pad 1 [RP_CONTACT_OK] of R169 on B.Cu",
+                    "pos": {
+                        "x": 71.89,
+                        "y": 160.8
+                    },
+                    "uuid": "b32d7962-2571-49b1-be50-e82fe62d012d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [RP_CONTACT_OK] of R169 on B.Cu",
+                    "pos": {
+                        "x": 71.89,
+                        "y": 160.8
+                    },
+                    "uuid": "b32d7962-2571-49b1-be50-e82fe62d012d"
+                },
+                {
+                    "description": "Pad 6 [RP_CONTACT_OK] of U160 on B.Cu",
+                    "pos": {
+                        "x": 78.3625,
+                        "y": 162.0
+                    },
+                    "uuid": "75801adc-ea74-40a9-b75a-e9133f559547"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [USB_HOST_1V1] on B.Cu, length 0.6395 mm",
+                    "pos": {
+                        "x": 81.6,
+                        "y": 164.8375
+                    },
+                    "uuid": "80372640-52df-4451-92df-5e77d7078f70"
+                },
+                {
+                    "description": "Pad 1 [USB_HOST_1V1] of C178 on B.Cu",
+                    "pos": {
+                        "x": 77.3,
+                        "y": 169.22
+                    },
+                    "uuid": "e44f1c97-b922-4bb1-92a0-c9ebe478186c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [USB_HOST_1V1] on B.Cu, length 1.5660 mm",
+                    "pos": {
+                        "x": 85.7,
+                        "y": 156.6625
+                    },
+                    "uuid": "ba563941-c19f-4d0f-9e15-6b081933174e"
+                },
+                {
+                    "description": "Track [USB_HOST_1V1] on B.Cu, length 1.0398 mm",
+                    "pos": {
+                        "x": 87.0,
+                        "y": 161.025
+                    },
+                    "uuid": "8510292d-544f-4657-8b01-e4e90a96b23a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [RP_USB_BREAK] of R160 on B.Cu",
+                    "pos": {
+                        "x": 74.69,
+                        "y": 157.0
+                    },
+                    "uuid": "cfa32082-b8a6-43ae-b7aa-4c6aa578d236"
+                },
+                {
+                    "description": "Pad 3 [RP_USB_BREAK] of U159 on B.Cu",
+                    "pos": {
+                        "x": 70.55,
+                        "y": 154.8375
+                    },
+                    "uuid": "0fd3b502-1f14-45e2-b069-2bf35d0a9cea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 5 [RP_USB_BREAK] of U160 on B.Cu",
+                    "pos": {
+                        "x": 78.3625,
+                        "y": 162.4
+                    },
+                    "uuid": "499a9280-b546-45c9-b721-420ce17d2276"
+                },
+                {
+                    "description": "Pad 1 [RP_USB_BREAK] of R160 on B.Cu",
+                    "pos": {
+                        "x": 74.69,
+                        "y": 157.0
+                    },
+                    "uuid": "cfa32082-b8a6-43ae-b7aa-4c6aa578d236"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 4 [RP_LOCAL_READY] of U160 on B.Cu",
+                    "pos": {
+                        "x": 78.3625,
+                        "y": 162.8
+                    },
+                    "uuid": "98a65b23-275d-464d-9ae2-11441d69d16e"
+                },
+                {
+                    "description": "Track [RP_LOCAL_READY] on B.Cu, length 1.3461 mm",
+                    "pos": {
+                        "x": 74.1,
+                        "y": 153.8
+                    },
+                    "uuid": "8867fa98-0674-4c2f-985b-fe18a08cc8c7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 4 [RP_BREAK_AON] of U159 on B.Cu",
+                    "pos": {
+                        "x": 70.55,
+                        "y": 153.1625
+                    },
+                    "uuid": "b8e2bb76-48b3-45b1-81ca-4b6388d0540e"
+                },
+                {
+                    "description": "Pad 2 [RP_BREAK_AON] of U158 on B.Cu",
+                    "pos": {
+                        "x": 73.1375,
+                        "y": 138.3
+                    },
+                    "uuid": "e487d320-43b0-429d-ab05-2034be0541fb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [RP_SWCLK] of TP154 on B.Cu",
+                    "pos": {
+                        "x": 76.6,
+                        "y": 143.4
+                    },
+                    "uuid": "1947c0a0-ceb5-4098-a617-12c5c95b3cc4"
+                },
+                {
+                    "description": "Pad 24 [RP_SWCLK] of U160 on B.Cu",
+                    "pos": {
+                        "x": 82.8,
+                        "y": 157.9625
+                    },
+                    "uuid": "a0e4be21-3d0c-487e-a948-c82fb41e55cc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

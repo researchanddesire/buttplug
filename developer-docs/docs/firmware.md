@@ -10,6 +10,7 @@ loom, final seals and complete compass behavior.
 | --- | --- |
 | `evt1` | `hardware/pcb/evt1/`: two-wire NTC, ADS1115, fixed LSM303AGR, four contacts and independent reset circuit. |
 | `prototype-r0` | Former TMP117 and MC3635 hardware. GPIO10 is an interrupt input; this profile does not operate the EVT1 thermistor circuit. |
+| `evt1-one-board` | Bulb battery candidate and debug PCB. GPIO10 also excites the pack monitor NTC. ADS1115 AIN2 reports `pack_temperature_millic` with its own monotonic sample timestamp in device status. |
 
 ```sh
 pio run -d firmware -e evt1
@@ -28,8 +29,11 @@ Motor output is disabled by default until pack, motor and thermal limits are
 configured from measurements. Local arming, bounded duty/lease, sensor validity,
 watchdog and the hardware dock inhibit remain. A direction-pulse candidate and
 configurable mapping/wear-accounting helpers now have host tests. Factory
-calibration, measured magnetic settling/accuracy and full template application
-remain unfinished. The primary Rad UI is the [plug template editor](plug-templates.md);
+calibration uses the [assembled-device procedure](evt1-electrical.md#factory-compass-calibration).
+The EVT1 status characteristic holds a consistent snapshot across BLE read
+fragments and exposes the sensor acquisition time and accelerometer validity.
+Physical calibration, magnetic settling/accuracy and full template application
+remain open. The primary Rad UI is the [plug template editor](plug-templates.md);
 its wear-credit boundary is not connected to an actual Lockbox timer.
 
 On EVT1, hold Power for at least7.5s to request an independent hardware reset;
@@ -54,9 +58,8 @@ The pad gate uses the audited ESP32-C3 ESP-IDF 5.5.3 LL, retains the console bus
 clock, and changes no GPIO18/19 pull overrides or eFuses. Host boundary tests
 exercise startup, bounce, partial/queued commands, detach during driver/read/NVS
 entry, failed installation, redocking and sleep/shutdown. The preserved USB
-audit is in `hardware/pcb/evt1/offdock-usb-audit/implementation/validation.json`;
-the current EVT1 and legacy build binding is
-`firmware/case-link-validation/validation.json`.
+audit is in `hardware/pcb/evt1/offdock-usb-audit/implementation/validation.json`.
+The earlier case-link build binding is `firmware/case-link-validation/validation.json`.
 ROM, early boot/reset, a hung CPU and actual exposed-contact voltage/current
 remain outside this application-only result; USB enumeration/flashing and
 received contact-module leakage still require bench measurements.
@@ -79,33 +82,38 @@ reconnection and ring limits. This does not implement a wear classifier or
 thermal Ready threshold. See `firmware/main/thermal_history.h` and the case
 telemetry proposal listed in [hardware sources](hardware.md).
 
-The EVT1 candidate adds an authenticated BLE case service for timestamped
-temperature, measured battery voltage, power-good and retained source-loss
-records. It leaves uninstrumented charger fields unavailable. Its commands
-read snapshots, exchange timing and retrieve history; the case service has no
-actuator or charger commands. The plug builds and C3-to-STM32 decoder roundtrip
-pass digitally. The case radio circuit/transport, pairing and powered
-interoperability remain open. Computer USB programming uses the separate native
-USB path.
+The plug also serves framed case telemetry over its qualified USB console. Send
+`case-v1 <40 hex digits>` followed by LF or CRLF, with the existing 20-byte
+case command as the hex payload. The plug returns a bounded batch of
+`case-v1 <kind> <8 hex nonce> <4 hex request ID> <40 hex digits>` lines.
+Kind 5 is the final application result. An incomplete batch can be retried with
+the same command and identity. The plug preserves each acquisition time and
+clears its case peer on detected USB reset, host disconnect or loss of PGOOD.
+The wired RP2040 retrieves the latest retained source-loss event after
+reconnect and keeps its historical readings separate from the live tip value.
+Replay uses plug boot-relative timestamps. The screen continues to show
+only the fresh tip reading. See `dock-firmware/wired-main/README.md` for the
+dock host behavior and build.
+The existing console commands and native PC programming still use this CDC
+interface.
 
-The alternate dock radio runtime (`dock-firmware/case-link-candidate/RADIO-RUNTIME.md`)
-services the monitor and control outputs before scheduling the LCD and UART
-bridge in 10 ms target frames. It links for the STM32L071 and verifies the
-NINA command channel and UART profile in host tests. It expects the 4.22 Ω UV
-resistors of the radio schematic. The separate GATT transport now passes a
-host UART roundtrip with the actual plug sender for service discovery,
-subscriptions, snapshot and time sync. See
-`dock-firmware/case-link-candidate/NINA-GATT.md`. Peer commissioning, runtime
-integration, board timing and powered verification remain open.
+The command set reads snapshots, exchanges timing and replays retained
+source-loss records. The charge payload carries calibrated VBAT and stable PGOOD
+from an actual acquisition group. ISET, TS, CHG and CE remain unavailable, so the
+case cannot show confirmed charge completion from this producer. Post-loss
+thermal attempts are available on USB after a same-boot reconnect. See the
+[wired dock proposal listed in the hardware sources](hardware.md)
+for the case host and switch work. Prior BLE case transport remains a separate
+firmware study.
 
 The [legacy R0 bench guide](archive/r0-bench-firmware.md) preserves detailed
 radio protocol, bench commissioning and TMP117/MC3635 reference instructions.
 
 The dock has a separate STM32L071CBT6 target in `dock-firmware/`. It drives the
 selected ST7565R reflective LCD, three controls, interlock/fault display and
-30/60/120-second **unqualified UV trial timers**. USB data passes directly to
-the device ESP32-C3; the dock displays neither battery state nor programming
-progress because it has no corresponding data channel.
+30/60/120-second **unqualified UV trial timers**. The default bench profile
+uses direct USB pass-through. The wired Main profile adds standalone tip
+telemetry. Charge-state sensing and programming progress remain open.
 
 ```sh
 make -C dock-firmware test
@@ -121,3 +129,15 @@ hardware functions. A heartbeat pulse follows a completed healthy main loop.
 Read `dock-firmware/README.md` and `validation.json` for the exact GPIO/ADC/LCD
 contract, binaries, tests and limits. No dock board has been flashed or powered,
 and completing a timer establishes no optical dose or cleaning result.
+
+The wired telemetry receiver is in
+`dock-firmware/case-link-candidate/WIRED-CDC.md`. It decodes tagged CDC
+response batches using the existing temperature, charge and source-history
+records. The RP2040 wired Main build in `dock-firmware/wired-main/` accepts a
+time-limited local USB request on the isolated I²C control bus and clears live
+values on detach or handoff. The separate STM32 `PROFILE=wired` target can
+request local mode and show fresh tip temperature. Its EVT gesture is a
+two-second Right hold with both lid/thermal loops open and the UV trial
+stopped. This target requires the matching 4.22 Ω UV boards. Both processor
+images build and the host checks exercise switching and stale data.
+Powered screen, USB handoff and ROM-recovery checks remain open.

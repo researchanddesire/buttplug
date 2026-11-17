@@ -1,0 +1,340 @@
+{
+  "baseline_quote_pcb_sha256": "16a072366370ea09300e0904d51c785487c3eed0a7352444bd7538840e7611cc",
+  "revised_pcb_sha256": "c4aa7c5c5366577e00d5ed6ffef6f2e6950fc053451ebee058746eb755d85344",
+  "native_DRC_ERC": "KiCad 10.0.8, all severities, fresh fill and schematic parity; no findings or ignored checks",
+  "source_PCB_format": 20221018,
+  "changed_footprint_poses_native_PCB_xy_mm_deg": {
+    "R2": {
+      "before": [
+        97.5,
+        106.5,
+        90.0
+      ],
+      "after": [
+        96.8,
+        103.9
+      ],
+      "side": "B.Cu"
+    },
+    "R36": {
+      "before": [
+        88.0,
+        98.0
+      ],
+      "after": [
+        88.0,
+        96.65
+      ],
+      "side": "B.Cu"
+    },
+    "J3": {
+      "before": [
+        92.75,
+        101.05,
+        180.0
+      ],
+      "after": [
+        90.75,
+        100.75
+      ],
+      "side": "B.Cu"
+    },
+    "J8": {
+      "before": [
+        92.5,
+        108.3,
+        180.0
+      ],
+      "after": [
+        94.55,
+        107.75
+      ],
+      "side": "B.Cu"
+    }
+  },
+  "unchanged_track_and_via_objects": 2098,
+  "removed_route_objects": {
+    "3V3": 9,
+    "GND": 8,
+    "I2C_SCL": 3,
+    "I2C_SDA": 3,
+    "MODE_N": 13,
+    "MOTOR_N": 3,
+    "MOTOR_P": 3,
+    "PACK_MON_NTC": 7,
+    "POWER_N": 4,
+    "POWER_SWITCH_N": 2
+  },
+  "added_route_objects": {
+    "3V3": 8,
+    "CHG_ILIM": 6,
+    "GND": 9,
+    "I2C_SCL": 4,
+    "I2C_SDA": 4,
+    "MODE_N": 8,
+    "MOTOR_N": 12,
+    "MOTOR_P": 9,
+    "PACK_MON_NTC": 9,
+    "POWER_N": 9,
+    "POWER_SWITCH_N": 2
+  },
+  "added_route_detail": {
+    "3V3": {
+      "added_centerline_mm": 10.998,
+      "layers": [
+        "In2.Cu",
+        "B.Cu"
+      ],
+      "added_through_vias": [
+        {
+          "center_mm": [
+            90.88,
+            96.16
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        }
+      ]
+    },
+    "CHG_ILIM": {
+      "added_centerline_mm": 5.534,
+      "layers": [
+        "B.Cu",
+        "In2.Cu"
+      ],
+      "added_through_vias": [
+        {
+          "center_mm": [
+            96.34,
+            103.48
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        },
+        {
+          "center_mm": [
+            97.54,
+            107.68
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        }
+      ]
+    },
+    "GND": {
+      "added_centerline_mm": 9.776,
+      "layers": [
+        "F.Cu",
+        "B.Cu",
+        "In2.Cu"
+      ],
+      "added_through_vias": [
+        {
+          "center_mm": [
+            91.54,
+            99.28
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        }
+      ]
+    },
+    "I2C_SCL": {
+      "added_centerline_mm": 2.487,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "added_through_vias": [
+        {
+          "center_mm": [
+            96.82,
+            104.56
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        }
+      ]
+    },
+    "I2C_SDA": {
+      "added_centerline_mm": 11.56,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "added_through_vias": [
+        {
+          "center_mm": [
+            94.72,
+            105.22
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        }
+      ]
+    },
+    "MODE_N": {
+      "added_centerline_mm": 8.583,
+      "layers": [
+        "B.Cu",
+        "In2.Cu",
+        "F.Cu"
+      ],
+      "added_through_vias": [
+        {
+          "center_mm": [
+            88.66,
+            96.76
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        },
+        {
+          "center_mm": [
+            89.86,
+            100.06
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        }
+      ]
+    },
+    "MOTOR_N": {
+      "added_centerline_mm": 11.037,
+      "layers": [
+        "F.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ],
+      "added_through_vias": [
+        {
+          "center_mm": [
+            95.13,
+            97.06
+          ],
+          "copper_dia_mm": 0.55,
+          "drill_mm": 0.25
+        },
+        {
+          "center_mm": [
+            90.4,
+            97.7
+          ],
+          "copper_dia_mm": 0.65,
+          "drill_mm": 0.3
+        },
+        {
+          "center_mm": [
+            91.18,
+            102.64
+          ],
+          "copper_dia_mm": 0.65,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    "MOTOR_P": {
+      "added_centerline_mm": 10.627,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "added_through_vias": [
+        {
+          "center_mm": [
+            93.82,
+            99.64
+          ],
+          "copper_dia_mm": 0.65,
+          "drill_mm": 0.3
+        },
+        {
+          "center_mm": [
+            89.5,
+            103.48
+          ],
+          "copper_dia_mm": 0.65,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    "PACK_MON_NTC": {
+      "added_centerline_mm": 22.512,
+      "layers": [
+        "In2.Cu",
+        "F.Cu",
+        "B.Cu"
+      ],
+      "added_through_vias": [
+        {
+          "center_mm": [
+            103.96,
+            104.98
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        },
+        {
+          "center_mm": [
+            94.3,
+            110.32
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        }
+      ]
+    },
+    "POWER_N": {
+      "added_centerline_mm": 14.447,
+      "layers": [
+        "F.Cu",
+        "In2.Cu"
+      ],
+      "added_through_vias": [
+        {
+          "center_mm": [
+            93.52,
+            102.1
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        },
+        {
+          "center_mm": [
+            86.56,
+            100.12
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        },
+        {
+          "center_mm": [
+            91.48,
+            100.06
+          ],
+          "copper_dia_mm": 0.5,
+          "drill_mm": 0.2
+        }
+      ]
+    },
+    "POWER_SWITCH_N": {
+      "added_centerline_mm": 1.5,
+      "layers": [
+        "B.Cu"
+      ],
+      "added_through_vias": []
+    }
+  },
+  "unchanged_manufacturing_geometry_and_zone_rules": true,
+  "unchanged_USB_tracks_and_vias_by_net": {
+    "USB_DM": 23,
+    "USB_DM_CONTACT": 22,
+    "USB_DP": 15,
+    "USB_DP_CONTACT": 21
+  },
+  "unchanged_In1_signal_copper": true,
+  "In1_single_polygon_baseline_and_revised": true,
+  "USB_return_plane_sample_count": 27170,
+  "changed_USB_return_plane_samples": [],
+  "physical_scope": "PCB digital checks. Test assembled motor load, true connector and lead handling, charge guard, telemetry, and installed USB and RF."
+}

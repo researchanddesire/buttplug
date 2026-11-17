@@ -1,0 +1,230 @@
+{
+  "frozen_reference_cad_file": "Compass EVT1 - First Article.FCStd",
+  "frozen_reference_cad_sha256": "dbb65886f471d7dd81b26527b15d09a18d52ef775a269dc8ea4572220c20a544",
+  "active_pcb": "hardware/pcb/evt1/one-board/compass-one-board.kicad_pcb",
+  "active_pcb_sha256": "16a072366370ea09300e0904d51c785487c3eed0a7352444bd7538840e7611cc",
+  "orientation_transform": {
+    "board_x_to_product_x_offset_mm": -100,
+    "board_y_to_product_z": "100 - PCB Y",
+    "component_seating_plane_product_y_mm": -25.952
+  },
+  "notes": "Resistors use datasheet maximum 2.20 \u00d7 1.45 \u00d7 0.60 mm package; C43 is a conservative 0603 envelope. Compact board and molded enclosure assembly remain nominal; this local check excludes solder stand-off, stack tolerances and flexible harnesses.",
+  "published_hard_solids": 84,
+  "placements": {
+    "R43": {
+      "at": [
+        126.625,
+        90.775,
+        90.0
+      ],
+      "lwh": [
+        2.2,
+        1.45,
+        0.6
+      ],
+      "side": "B.Cu",
+      "native_footprint": "Selected:RESI_PTFR0805_C16003",
+      "native_land_local_x_mm": [
+        -1.3,
+        1.3
+      ],
+      "native_land_size_mm": [
+        1.4,
+        1.65
+      ],
+      "closest_actual_solids": [
+        {
+          "role": "Current_R45",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 0.75
+        },
+        {
+          "role": "ProposedRearHalf",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.248
+        },
+        {
+          "role": "Current_C21",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.400893
+        },
+        {
+          "role": "Current_Q1",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.875
+        },
+        {
+          "role": "Current_R44",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 2.338402
+        },
+        {
+          "role": "RevisedContinuousSkin",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 2.748
+        },
+        {
+          "role": "Current_C44",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 2.871084
+        },
+        {
+          "role": "ProposedFlangeTray",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 4.755831
+        }
+      ],
+      "exact_checks": 8,
+      "box_separation_over_3mm": 76
+    },
+    "R21": {
+      "at": [
+        124.64,
+        99.19,
+        90.0
+      ],
+      "lwh": [
+        2.2,
+        1.45,
+        0.6
+      ],
+      "side": "B.Cu",
+      "native_footprint": "Selected:RESI_PTFR0805_C16003",
+      "native_land_local_x_mm": [
+        -1.3,
+        1.3
+      ],
+      "native_land_size_mm": [
+        1.4,
+        1.65
+      ],
+      "closest_actual_solids": [
+        {
+          "role": "Current_R22",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 0.735
+        },
+        {
+          "role": "ProposedRearHalf",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.248
+        },
+        {
+          "role": "Current_JP1",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.265
+        },
+        {
+          "role": "Current_Q1",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.84
+        },
+        {
+          "role": "Current_R12",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.91
+        },
+        {
+          "role": "Current_R11",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 2.04654
+        },
+        {
+          "role": "Current_U9",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 2.139001
+        },
+        {
+          "role": "Current_U8",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 2.461747
+        },
+        {
+          "role": "RevisedContinuousSkin",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 2.748
+        },
+        {
+          "role": "Current_R44",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 3.199895
+        },
+        {
+          "role": "ProposedFlangeTray",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 12.728409
+        }
+      ],
+      "exact_checks": 11,
+      "box_separation_over_3mm": 73
+    },
+    "C43": {
+      "at": [
+        129.25,
+        88.625,
+        -90.0
+      ],
+      "lwh": [
+        1.7,
+        0.95,
+        0.9
+      ],
+      "side": "B.Cu",
+      "native_footprint": "PrototypeR0:Murata_GRM18_0603_Reflow",
+      "closest_actual_solids": [
+        {
+          "role": "Current_R23",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.151629
+        },
+        {
+          "role": "ProposedRearHalf",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.248
+        },
+        {
+          "role": "Current_R25",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.275
+        },
+        {
+          "role": "Current_R45",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 1.725
+        },
+        {
+          "role": "Current_R42",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 2.725115
+        },
+        {
+          "role": "RevisedContinuousSkin",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 2.748
+        },
+        {
+          "role": "ProposedFlangeTray",
+          "overlap_mm3": 0.0,
+          "clearance_mm": 3.059694
+        }
+      ],
+      "exact_checks": 7,
+      "box_separation_over_3mm": 77
+    }
+  },
+  "changed_to_changed": {
+    "R43 vs R21": [
+      0.0,
+      6.237984
+    ],
+    "R43 vs C43": [
+      0.0,
+      1.438967
+    ],
+    "R21 vs C43": [
+      0.0,
+      9.265329
+    ]
+  },
+  "clashes": []
+}

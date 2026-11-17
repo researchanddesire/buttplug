@@ -1,0 +1,1319 @@
+{
+  "status": "Wired Main pin and power contract; see native-checks.json for schematic verification",
+  "builder_sha256": "bc2f68a4c28cede40e2b4ae3fbb3b857e08ae24121aaa389f9e8ee5c83ab9660",
+  "source_sha256": {
+    "hardware/pcb/evt1/dock-system/native.xml": "51266fd7d71651ff813d76d9298a986301f619e6f8eed8ed9af64ca797a1630c",
+    "hardware/pcb/evt1/dock-control/pin-contract.json": "24756e7929caacedfe2c1b8e80992c07cbb3577d21c29b79f44c08f15ed0614a",
+    "hardware/pcb/evt1/dock-ui/pin-contract.json": "a73770fd9e55eedb3f2f551ab624a1514d669ca4bcd6e901b942df56971a03e0",
+    "hardware/pcb/evt1/dock-safety/power-budget.json": "aa6b03156f494c8640d7c4f1f622bfdb080d30c9a9c07262faff435cdc9c3d04",
+    "hardware/pcb/evt1/dock-main/dock-main.kicad_pcb": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b"
+  },
+  "native_baseline_retained_terminals": {
+    "J101.A6": "USB_DP",
+    "J101.B6": "USB_DP",
+    "J101.A7": "USB_DM",
+    "J101.B7": "USB_DM",
+    "U121.1": "USB_DM",
+    "U121.6": "USB_DM",
+    "U121.3": "USB_DP",
+    "U121.4": "USB_DP",
+    "U121.5": "HOST_5V",
+    "J102.1": "GND",
+    "J102.4": "CONTACT_5V"
+  },
+  "native_baseline_terminal_changes": {
+    "J102.2": [
+      "USB_DM",
+      "PLUG_USB_DM"
+    ],
+    "J102.3": [
+      "USB_DP",
+      "PLUG_USB_DP"
+    ],
+    "U201.5": [
+      null,
+      "USB_HOST_SCL"
+    ],
+    "U201.6": [
+      null,
+      "USB_HOST_SDA"
+    ]
+  },
+  "devices": {
+    "U151": {
+      "mpn": "FSUSB42MUX",
+      "manufacturer": "onsemi",
+      "footprint": "WiredMain:Onsemi_846AP_MSOP10",
+      "source": "https://www.onsemi.com/pdf/datasheet/fsusb42-d.pdf",
+      "pins": {
+        "1": [
+          "VCC",
+          "3V3",
+          "power_in"
+        ],
+        "2": [
+          "SEL",
+          "USB_LOCAL_SEL",
+          "input"
+        ],
+        "3": [
+          "D+",
+          "PLUG_USB_DP",
+          "passive"
+        ],
+        "4": [
+          "D\u2212",
+          "PLUG_USB_DM",
+          "passive"
+        ],
+        "5": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "6": [
+          "HSD1\u2212",
+          "USB_DM",
+          "passive"
+        ],
+        "7": [
+          "HSD1+",
+          "USB_DP",
+          "passive"
+        ],
+        "8": [
+          "HSD2\u2212",
+          "USB_LOCAL_DM",
+          "passive"
+        ],
+        "9": [
+          "HSD2+",
+          "USB_LOCAL_DP",
+          "passive"
+        ],
+        "10": [
+          "OE",
+          "USB_OEn",
+          "input"
+        ]
+      }
+    },
+    "U152": {
+      "mpn": "TPD2EUSB30DRTR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Package_TO_SOT_SMD:Texas_DRT-3",
+      "source": "https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf",
+      "pins": {
+        "1": [
+          "D+",
+          "PLUG_USB_DP",
+          "passive"
+        ],
+        "2": [
+          "D\u2212",
+          "PLUG_USB_DM",
+          "passive"
+        ],
+        "3": [
+          "GND",
+          "GND",
+          "power_in"
+        ]
+      }
+    },
+    "U153": {
+      "mpn": "TPS2553QDBVRQ1",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "source": "https://www.ti.com/lit/ds/symlink/tps2553-q1.pdf",
+      "pins": {
+        "1": [
+          "IN",
+          "HOST_5V",
+          "power_in"
+        ],
+        "2": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "3": [
+          "EN",
+          "USB_HOST_PWR_EN",
+          "input"
+        ],
+        "4": [
+          "FAULTn",
+          "RP_LIMIT_FAULTn",
+          "open_collector"
+        ],
+        "5": [
+          "ILIM",
+          "HOST_5V",
+          "passive"
+        ],
+        "6": [
+          "OUT",
+          "USB_HOST_5V",
+          "power_out"
+        ]
+      }
+    },
+    "U154": {
+      "mpn": "TPS7A2033PDBVR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "source": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+      "pins": {
+        "1": [
+          "IN",
+          "USB_HOST_5V",
+          "power_in"
+        ],
+        "2": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "3": [
+          "EN",
+          "USB_HOST_5V",
+          "input"
+        ],
+        "4": [
+          "NC",
+          null,
+          "no_connect"
+        ],
+        "5": [
+          "OUT",
+          "USB_HOST_3V3",
+          "power_out"
+        ]
+      }
+    },
+    "U155": {
+      "mpn": "TPS389033DSER",
+      "manufacturer": "Texas Instruments",
+      "footprint": "WiredMain:TI_DSE0006A",
+      "source": "https://www.ti.com/lit/ds/symlink/tps3890.pdf",
+      "pins": {
+        "1": [
+          "SENSE",
+          "USB_HOST_3V3",
+          "input"
+        ],
+        "2": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "3": [
+          "MRn",
+          "3V3",
+          "input"
+        ],
+        "4": [
+          "VDD",
+          "3V3",
+          "power_in"
+        ],
+        "5": [
+          "CT",
+          "RP_RST_CT",
+          "passive"
+        ],
+        "6": [
+          "RESETn",
+          "RP_RUN",
+          "open_collector"
+        ]
+      }
+    },
+    "U156": {
+      "mpn": "TPS3808G01DBVR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "pins": {
+        "1": [
+          "RESETn",
+          "CONTACT_VBUS_OK",
+          "open_collector"
+        ],
+        "2": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "3": [
+          "MRn",
+          "HOST_5V",
+          "input"
+        ],
+        "4": [
+          "CT",
+          null,
+          "passive"
+        ],
+        "5": [
+          "SENSE",
+          "CONTACT_VBUS_SENSE",
+          "input"
+        ],
+        "6": [
+          "VDD",
+          "HOST_5V",
+          "power_in"
+        ]
+      }
+    },
+    "U157": {
+      "mpn": "SN74HCS21PWR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74hcs21.pdf",
+      "pins": {
+        "1": [
+          "1A",
+          "SOURCE_OK",
+          "input"
+        ],
+        "2": [
+          "1B",
+          "SAFE_RESETn",
+          "input"
+        ],
+        "3": [
+          "NC",
+          null,
+          "no_connect"
+        ],
+        "4": [
+          "1C",
+          "PC_LOCKn",
+          "input"
+        ],
+        "5": [
+          "1D",
+          "CC_ENABLE",
+          "input"
+        ],
+        "6": [
+          "1Y",
+          "USB_HOST_PWR_EN",
+          "output"
+        ],
+        "7": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "8": [
+          "2Y",
+          "USB_LOCAL_SEL",
+          "output"
+        ],
+        "9": [
+          "2A",
+          "USB_HOST_PWR_EN",
+          "input"
+        ],
+        "10": [
+          "2B",
+          "RP_READY_AON",
+          "input"
+        ],
+        "11": [
+          "NC",
+          null,
+          "no_connect"
+        ],
+        "12": [
+          "2C",
+          "CONTACT_VBUS_OK",
+          "input"
+        ],
+        "13": [
+          "2D",
+          "RP_RUN_AON",
+          "input"
+        ],
+        "14": [
+          "VCC",
+          "3V3",
+          "power_in"
+        ]
+      }
+    },
+    "U158": {
+      "mpn": "SN74HCS00PWR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74hcs00.pdf",
+      "pins": {
+        "1": [
+          "1A",
+          "USB_HOST_PWR_EN",
+          "input"
+        ],
+        "2": [
+          "1B",
+          "RP_BREAK_AON",
+          "input"
+        ],
+        "3": [
+          "1Y",
+          "USB_BREAKn",
+          "output"
+        ],
+        "4": [
+          "2A",
+          "CC_ENABLE",
+          "input"
+        ],
+        "5": [
+          "2B",
+          "USB_BREAKn",
+          "input"
+        ],
+        "6": [
+          "2Y",
+          "USB_OEn",
+          "output"
+        ],
+        "7": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "8": [
+          "3Y",
+          null,
+          "output"
+        ],
+        "9": [
+          "3A",
+          "GND",
+          "input"
+        ],
+        "10": [
+          "3B",
+          "GND",
+          "input"
+        ],
+        "11": [
+          "4Y",
+          null,
+          "output"
+        ],
+        "12": [
+          "4A",
+          "GND",
+          "input"
+        ],
+        "13": [
+          "4B",
+          "GND",
+          "input"
+        ],
+        "14": [
+          "VCC",
+          "3V3",
+          "power_in"
+        ]
+      }
+    },
+    "U159": {
+      "mpn": "SN74LVC2G17DCKR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "pins": {
+        "1": [
+          "1A",
+          "RP_LOCAL_READY",
+          "input"
+        ],
+        "2": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "3": [
+          "2A",
+          "RP_USB_BREAK",
+          "input"
+        ],
+        "4": [
+          "2Y",
+          "RP_BREAK_AON",
+          "output"
+        ],
+        "5": [
+          "VCC",
+          "3V3",
+          "power_in"
+        ],
+        "6": [
+          "1Y",
+          "RP_READY_AON",
+          "output"
+        ]
+      }
+    },
+    "U160": {
+      "mpn": "RP2040",
+      "manufacturer": "Raspberry Pi",
+      "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm",
+      "source": "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf",
+      "pins": {
+        "1": [
+          "IOVDD",
+          "USB_HOST_3V3",
+          "power_in"
+        ],
+        "2": [
+          "GPIO0_I2C0_SDA",
+          "RP_SDA",
+          "bidirectional"
+        ],
+        "3": [
+          "GPIO1_I2C0_SCL",
+          "RP_SCL",
+          "bidirectional"
+        ],
+        "4": [
+          "GPIO2",
+          "RP_LOCAL_READY",
+          "output"
+        ],
+        "5": [
+          "GPIO3",
+          "RP_USB_BREAK",
+          "output"
+        ],
+        "6": [
+          "GPIO4",
+          "RP_CONTACT_OK",
+          "input"
+        ],
+        "7": [
+          "GPIO5",
+          "RP_LIMIT_FAULTn",
+          "input"
+        ],
+        "8": [
+          "GPIO6",
+          null,
+          "bidirectional"
+        ],
+        "9": [
+          "GPIO7",
+          null,
+          "bidirectional"
+        ],
+        "10": [
+          "IOVDD",
+          "USB_HOST_3V3",
+          "power_in"
+        ],
+        "11": [
+          "GPIO8",
+          null,
+          "bidirectional"
+        ],
+        "12": [
+          "GPIO9",
+          null,
+          "bidirectional"
+        ],
+        "13": [
+          "GPIO10",
+          null,
+          "bidirectional"
+        ],
+        "14": [
+          "GPIO11",
+          null,
+          "bidirectional"
+        ],
+        "15": [
+          "GPIO12",
+          null,
+          "bidirectional"
+        ],
+        "16": [
+          "GPIO13",
+          null,
+          "bidirectional"
+        ],
+        "17": [
+          "GPIO14",
+          null,
+          "bidirectional"
+        ],
+        "18": [
+          "GPIO15",
+          null,
+          "bidirectional"
+        ],
+        "19": [
+          "TESTEN",
+          "GND",
+          "input"
+        ],
+        "20": [
+          "XIN",
+          "RP_XIN",
+          "input"
+        ],
+        "21": [
+          "XOUT",
+          "RP_XOUT",
+          "output"
+        ],
+        "22": [
+          "IOVDD",
+          "USB_HOST_3V3",
+          "power_in"
+        ],
+        "23": [
+          "DVDD",
+          "USB_HOST_1V1",
+          "power_in"
+        ],
+        "24": [
+          "SWCLK",
+          "RP_SWCLK",
+          "input"
+        ],
+        "25": [
+          "SWD",
+          "RP_SWDIO",
+          "bidirectional"
+        ],
+        "26": [
+          "RUN",
+          "RP_RUN",
+          "input"
+        ],
+        "27": [
+          "GPIO16",
+          null,
+          "bidirectional"
+        ],
+        "28": [
+          "GPIO17",
+          null,
+          "bidirectional"
+        ],
+        "29": [
+          "GPIO18",
+          null,
+          "bidirectional"
+        ],
+        "30": [
+          "GPIO19",
+          null,
+          "bidirectional"
+        ],
+        "31": [
+          "GPIO20",
+          null,
+          "bidirectional"
+        ],
+        "32": [
+          "GPIO21",
+          null,
+          "bidirectional"
+        ],
+        "33": [
+          "IOVDD",
+          "USB_HOST_3V3",
+          "power_in"
+        ],
+        "34": [
+          "GPIO22",
+          null,
+          "bidirectional"
+        ],
+        "35": [
+          "GPIO23",
+          null,
+          "bidirectional"
+        ],
+        "36": [
+          "GPIO24",
+          null,
+          "bidirectional"
+        ],
+        "37": [
+          "GPIO25",
+          null,
+          "bidirectional"
+        ],
+        "38": [
+          "GPIO26",
+          null,
+          "bidirectional"
+        ],
+        "39": [
+          "GPIO27",
+          null,
+          "bidirectional"
+        ],
+        "40": [
+          "GPIO28",
+          null,
+          "bidirectional"
+        ],
+        "41": [
+          "GPIO29",
+          null,
+          "bidirectional"
+        ],
+        "42": [
+          "IOVDD",
+          "USB_HOST_3V3",
+          "power_in"
+        ],
+        "43": [
+          "ADC_AVDD",
+          "USB_HOST_3V3",
+          "power_in"
+        ],
+        "44": [
+          "VREG_VIN",
+          "USB_HOST_3V3",
+          "power_in"
+        ],
+        "45": [
+          "VREG_VOUT",
+          "USB_HOST_1V1",
+          "power_out"
+        ],
+        "46": [
+          "USB_DM",
+          "RP_USB_DM",
+          "bidirectional"
+        ],
+        "47": [
+          "USB_DP",
+          "RP_USB_DP",
+          "bidirectional"
+        ],
+        "48": [
+          "USB_VDD",
+          "USB_HOST_3V3",
+          "power_in"
+        ],
+        "49": [
+          "IOVDD",
+          "USB_HOST_3V3",
+          "power_in"
+        ],
+        "50": [
+          "DVDD",
+          "USB_HOST_1V1",
+          "power_in"
+        ],
+        "51": [
+          "QSPI_SD3",
+          "RP_QSPI_SD3",
+          "bidirectional"
+        ],
+        "52": [
+          "QSPI_SCLK",
+          "RP_QSPI_SCK",
+          "output"
+        ],
+        "53": [
+          "QSPI_SD0",
+          "RP_QSPI_SD0",
+          "bidirectional"
+        ],
+        "54": [
+          "QSPI_SD2",
+          "RP_QSPI_SD2",
+          "bidirectional"
+        ],
+        "55": [
+          "QSPI_SD1",
+          "RP_QSPI_SD1",
+          "bidirectional"
+        ],
+        "56": [
+          "QSPI_CSn",
+          "RP_QSPI_CSn",
+          "output"
+        ],
+        "57": [
+          "GND_EP",
+          "GND",
+          "power_in"
+        ]
+      }
+    },
+    "U161": {
+      "mpn": "W25Q16JVUXIQ",
+      "manufacturer": "Winbond",
+      "footprint": "WiredMain:Winbond_USON-8_2x3mm_P0.5mm_UX",
+      "source": "https://www.winbond.com/export/sites/winbond/product-selection-guide/file/2025-Product-Selection-Guide-Winbond-Code-Storage-Flash-Memory.pdf",
+      "pins": {
+        "1": [
+          "CSn",
+          "RP_QSPI_CSn",
+          "input"
+        ],
+        "2": [
+          "IO1",
+          "RP_QSPI_SD1",
+          "bidirectional"
+        ],
+        "3": [
+          "IO2",
+          "RP_QSPI_SD2",
+          "bidirectional"
+        ],
+        "4": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "5": [
+          "IO0",
+          "RP_QSPI_SD0",
+          "bidirectional"
+        ],
+        "6": [
+          "CLK",
+          "RP_QSPI_SCK",
+          "input"
+        ],
+        "7": [
+          "IO3",
+          "RP_QSPI_SD3",
+          "bidirectional"
+        ],
+        "8": [
+          "VCC",
+          "USB_HOST_3V3",
+          "power_in"
+        ],
+        "9": [
+          "EP",
+          null,
+          "no_connect"
+        ]
+      }
+    },
+    "U162": {
+      "mpn": "TMUX1511RSVR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Radio:TI_RSV0016A",
+      "source": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf",
+      "pins": {
+        "1": [
+          "SEL1",
+          "RP_RUN",
+          "input"
+        ],
+        "2": [
+          "S1",
+          "USB_HOST_SDA",
+          "passive"
+        ],
+        "3": [
+          "D1",
+          "RP_SDA",
+          "passive"
+        ],
+        "4": [
+          "SEL2",
+          "RP_RUN",
+          "input"
+        ],
+        "5": [
+          "S2",
+          "USB_HOST_SCL",
+          "passive"
+        ],
+        "6": [
+          "D2",
+          "RP_SCL",
+          "passive"
+        ],
+        "7": [
+          "NC",
+          null,
+          "no_connect"
+        ],
+        "8": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "9": [
+          "D3",
+          "RP_CONTACT_OK",
+          "passive"
+        ],
+        "10": [
+          "S3",
+          "CONTACT_VBUS_OK",
+          "passive"
+        ],
+        "11": [
+          "SEL3",
+          "RP_RUN",
+          "input"
+        ],
+        "12": [
+          "NC",
+          null,
+          "no_connect"
+        ],
+        "13": [
+          "D4",
+          "GND",
+          "passive"
+        ],
+        "14": [
+          "S4",
+          "GND",
+          "passive"
+        ],
+        "15": [
+          "SEL4",
+          "GND",
+          "input"
+        ],
+        "16": [
+          "VDD",
+          "USB_HOST_3V3",
+          "power_in"
+        ]
+      }
+    },
+    "U163": {
+      "mpn": "SN74LVC2G17DCKR",
+      "manufacturer": "Texas Instruments",
+      "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "pins": {
+        "1": [
+          "1A",
+          "RP_RUN",
+          "input"
+        ],
+        "2": [
+          "GND",
+          "GND",
+          "power_in"
+        ],
+        "3": [
+          "2A",
+          "GND",
+          "input"
+        ],
+        "4": [
+          "2Y",
+          null,
+          "output"
+        ],
+        "5": [
+          "VCC",
+          "3V3",
+          "power_in"
+        ],
+        "6": [
+          "1Y",
+          "RP_RUN_AON",
+          "output"
+        ]
+      }
+    },
+    "Y151": {
+      "mpn": "ABM8-272-T3",
+      "manufacturer": "Abracon",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "source": "https://abracon.com/datasheets/ABM8-272-T3.pdf",
+      "pins": {
+        "1": [
+          "X1",
+          "RP_XIN",
+          "passive"
+        ],
+        "2": [
+          "GND",
+          "GND",
+          "passive"
+        ],
+        "3": [
+          "X2",
+          "RP_XTAL_OUT",
+          "passive"
+        ],
+        "4": [
+          "GND",
+          "GND",
+          "passive"
+        ]
+      }
+    }
+  },
+  "passives": {
+    "R151": [
+      "27 ohm 1%, 0402",
+      "RP_USB_DP",
+      "USB_LOCAL_DP"
+    ],
+    "R152": [
+      "27 ohm 1%, 0402",
+      "RP_USB_DM",
+      "USB_LOCAL_DM"
+    ],
+    "R153": [
+      "97.6k 0.1% 25ppm/K, 0603",
+      "CONTACT_5V",
+      "CONTACT_VBUS_SENSE"
+    ],
+    "R154": [
+      "10.5k 0.1% 25ppm/K, 0603",
+      "CONTACT_VBUS_SENSE",
+      "GND"
+    ],
+    "R155": [
+      "47k 1%",
+      "3V3",
+      "CONTACT_VBUS_OK"
+    ],
+    "R156": [
+      "100k 1%",
+      "3V3",
+      "PC_LOCKn"
+    ],
+    "R157": [
+      "10k 1%",
+      "USB_HOST_3V3",
+      "RP_RUN"
+    ],
+    "R158": [
+      "100k 1%",
+      "RP_RUN",
+      "GND"
+    ],
+    "R159": [
+      "100k 1%",
+      "RP_LOCAL_READY",
+      "GND"
+    ],
+    "R160": [
+      "100k 1%",
+      "RP_USB_BREAK",
+      "GND"
+    ],
+    "R161": [
+      "100k 1%",
+      "USB_LOCAL_SEL",
+      "GND"
+    ],
+    "R162": [
+      "100k 1%",
+      "USB_OEn",
+      "3V3"
+    ],
+    "R163": [
+      "100k 1%",
+      "USB_HOST_PWR_EN",
+      "GND"
+    ],
+    "R164": [
+      "4.7k 1%",
+      "USB_HOST_SCL",
+      "3V3"
+    ],
+    "R165": [
+      "4.7k 1%",
+      "USB_HOST_SDA",
+      "3V3"
+    ],
+    "R166": [
+      "47k 1%",
+      "RP_LIMIT_FAULTn",
+      "USB_HOST_3V3"
+    ],
+    "R167": [
+      "1k 1%",
+      "RP_XOUT",
+      "RP_XTAL_OUT"
+    ],
+    "R168": [
+      "1k 1%",
+      "RP_QSPI_CSn",
+      "RP_BOOTSEL_PAD"
+    ],
+    "R169": [
+      "100k 1%",
+      "RP_CONTACT_OK",
+      "GND"
+    ],
+    "R170": [
+      "10k 1%",
+      "USB_HOST_3V3",
+      "RP_QSPI_CSn",
+      "U161.1"
+    ],
+    "C151": [
+      "100nF 16V X7R",
+      "3V3",
+      "GND",
+      "U151.1"
+    ],
+    "C152": [
+      "100nF 16V X7R",
+      "HOST_5V",
+      "GND",
+      "U153.1"
+    ],
+    "C153": [
+      "2.2uF 16V X5R",
+      "USB_HOST_5V",
+      "GND",
+      "U154.1"
+    ],
+    "C154": [
+      "10uF 16V X5R",
+      "USB_HOST_3V3",
+      "GND",
+      "U154.5"
+    ],
+    "C155": [
+      "100nF 16V X7R",
+      "3V3",
+      "GND",
+      "U155.4"
+    ],
+    "C156": [
+      "10nF 16V X7R",
+      "RP_RST_CT",
+      "GND",
+      "U155.5"
+    ],
+    "C157": [
+      "100nF 16V X7R",
+      "HOST_5V",
+      "GND",
+      "U156.6"
+    ],
+    "C158": [
+      "1nF 16V C0G",
+      "CONTACT_VBUS_SENSE",
+      "GND",
+      "U156.5"
+    ],
+    "C159": [
+      "100nF 16V X7R",
+      "3V3",
+      "GND",
+      "U157.14"
+    ],
+    "C160": [
+      "100nF 16V X7R",
+      "3V3",
+      "GND",
+      "U158.14"
+    ],
+    "C161": [
+      "100nF 16V X7R",
+      "3V3",
+      "GND",
+      "U159.5"
+    ],
+    "C162": [
+      "100nF 16V X7R",
+      "3V3",
+      "GND",
+      "U163.5"
+    ],
+    "C163": [
+      "100nF 16V X7R",
+      "USB_HOST_3V3",
+      "GND",
+      "U162.16"
+    ],
+    "C164": [
+      "100nF 16V X7R",
+      "USB_HOST_3V3",
+      "GND",
+      "U161.8"
+    ],
+    "C165": [
+      "1uF 16V X5R",
+      "USB_HOST_3V3",
+      "GND",
+      "U160.44"
+    ],
+    "C166": [
+      "1uF 16V X5R",
+      "USB_HOST_1V1",
+      "GND",
+      "U160.45"
+    ],
+    "C167": [
+      "15pF 50V C0G 5%",
+      "RP_XIN",
+      "GND",
+      "U160.20"
+    ],
+    "C168": [
+      "15pF 50V C0G 5%",
+      "RP_XTAL_OUT",
+      "GND",
+      "Y151.3"
+    ],
+    "C169": [
+      "100nF 16V X7R",
+      "USB_HOST_3V3",
+      "GND",
+      "U160.1"
+    ],
+    "C170": [
+      "100nF 16V X7R",
+      "USB_HOST_3V3",
+      "GND",
+      "U160.10"
+    ],
+    "C171": [
+      "100nF 16V X7R",
+      "USB_HOST_3V3",
+      "GND",
+      "U160.22"
+    ],
+    "C172": [
+      "100nF 16V X7R",
+      "USB_HOST_3V3",
+      "GND",
+      "U160.33"
+    ],
+    "C173": [
+      "100nF 16V X7R",
+      "USB_HOST_3V3",
+      "GND",
+      "U160.42"
+    ],
+    "C174": [
+      "100nF 16V X7R",
+      "USB_HOST_3V3",
+      "GND",
+      "U160.49"
+    ],
+    "C175": [
+      "100nF 16V X7R",
+      "USB_HOST_3V3",
+      "GND",
+      "U160.43"
+    ],
+    "C176": [
+      "100nF 16V X7R",
+      "USB_HOST_3V3",
+      "GND",
+      "U160.48"
+    ],
+    "C177": [
+      "100nF 16V X7R",
+      "USB_HOST_1V1",
+      "GND",
+      "U160.23"
+    ],
+    "C178": [
+      "100nF 16V X7R",
+      "USB_HOST_1V1",
+      "GND",
+      "U160.50"
+    ]
+  },
+  "power": {
+    "legacy_USB100": {
+      "total_steady_mA": 81.0,
+      "host_branch_enabled": false,
+      "suspend_inrush_and_depleted_battery_validated": false
+    },
+    "new_host_branch": {
+      "limiter": "TPS2553QDBVRQ1, ILIM directly to IN",
+      "DC_limit_min_typ_max_mA": [
+        50,
+        75,
+        100
+      ],
+      "allocated_mA": 104.0,
+      "always_on_only_allocated_mA": 1.0,
+      "normal_increment_target_mA": 40.0,
+      "normal_margin_to_min_limit_mA": 10.0,
+      "normal_current_and_inrush_verified": false
+    },
+    "wired_coexistence": {
+      "R107_kohm": 40.2,
+      "R107_mpn": "RT0603BRD0740K2L",
+      "R401_R501_ohm_each": 4.22,
+      "R401_R501_mpn": "CRCW08054R22FKEA",
+      "UV_current_nom_mA_per_string": 47.39336492890995,
+      "UV_current_max_mA_per_string": 49.32778798723282,
+      "UV_input_required_mA": 563.6299860205146,
+      "UV_limiter_min_mA": 589.4974431202584,
+      "UV_limiter_max_mA": 715.828309127611,
+      "UV_limiter_min_margin_mA": 25.867457099743774,
+      "normal_total_with_full_host_allocation_mA": 1332.2952432439115,
+      "hard_source_total_mA": 1484.4935663510078,
+      "hard_source_margin_mA": 15.506433648992243,
+      "driver_input_conservative_V": 4.258659942171445,
+      "driver_floor_V": 4.1,
+      "frozen_UV_with_added_host_total_mA": 1588.4444105716284
+    },
+    "contact_voltage_monitor": {
+      "falling_threshold_calc_min_max_V": [
+        4.058013652107623,
+        4.282384844207584
+      ],
+      "rising_estimated_upper_V": 4.408265323743102,
+      "note": "Monitor at J102.4; physical contact-side VBUS, USB compliance and dynamic detach require test."
+    },
+    "host_voltage_monitor": {
+      "falling_spec_min_max_V": [
+        3.1383,
+        3.2016999999999998
+      ],
+      "rising_spec_min_max_V": [
+        3.15711,
+        3.2208900000000003
+      ],
+      "LDO_regulated_spec_min_max_V": [
+        3.2504999999999997,
+        3.3494999999999995
+      ],
+      "RP2040_USB_VDD_min_V": 3.135,
+      "note": "Check fast droops at USB_VDD directly. Supervisor response is finite."
+    }
+  },
+  "combinational_logic_vectors_checked": 256,
+  "always_on_logic": {
+    "USB_HOST_PWR_EN": "SOURCE_OK & SAFE_RESETn & PC_LOCKn & CC_ENABLE",
+    "USB_LOCAL_SEL": "USB_HOST_PWR_EN & RP_READY_AON & CONTACT_VBUS_OK & RP_RUN_AON",
+    "USB_OEn": "!CC_ENABLE | (USB_HOST_PWR_EN & RP_BREAK_AON)"
+  },
+  "service": {
+    "PC_lock": "short PC_LOCKn to GND before boot; 100k pull-up to 3V3; physical access open",
+    "RP_SWD": [
+      "USB_HOST_3V3 VTREF",
+      "RP_SWDIO",
+      "RP_SWCLK",
+      "RP_RUN",
+      "GND"
+    ],
+    "RP_BOOTSEL": "RP_QSPI_CSn via 1k to service pad; assert to ground at RP_RUN release",
+    "bridge_bus": "U201 PH0 SCL / PH1 SDA, two-wire open-drain isolated from MON_I2C",
+    "bridge_target_address_7bit": "0x38",
+    "planned_USB_disconnect_ms": 100
+  }
+}

@@ -1,26 +1,29 @@
 #include "case_runtime.h"
 #include <string.h>
 
-static ct_peer_t *peer(ct_runtime_t *r, uint16_t connection) {
-    for(size_t i=0;i<CT_PEER_CAPACITY;++i)
+static ct_peer_t *peer(ct_runtime_t *r, uint32_t connection) {
+    for(size_t i=0;i<CT_RUNTIME_CAPACITY;++i)
         if(r->peers[i].active&&r->peers[i].connection==connection)return &r->peers[i];
     return NULL;
 }
 void ct_runtime_init(ct_runtime_t *r) { memset(r,0,sizeof(*r)); }
-void ct_runtime_close(ct_runtime_t *r,uint16_t connection) {
+void ct_runtime_close(ct_runtime_t *r,uint32_t connection) {
     ct_peer_t *p=peer(r,connection);if(p)memset(p,0,sizeof(*p));
 }
-bool ct_runtime_open(ct_runtime_t *r,uint16_t connection) {
+bool ct_runtime_open(ct_runtime_t *r,uint32_t connection) {
+    if(connection>CT_USB_CONNECTION)return false;
     ct_runtime_close(r,connection);
-    for(size_t i=0;i<CT_PEER_CAPACITY;++i)if(!r->peers[i].active) {
+    size_t first=connection==CT_USB_CONNECTION?CT_PEER_CAPACITY:0;
+    size_t end=connection==CT_USB_CONNECTION?CT_RUNTIME_CAPACITY:CT_PEER_CAPACITY;
+    for(size_t i=first;i<end;++i)if(!r->peers[i].active) {
         ct_peer_t *p=&r->peers[i];memset(p,0,sizeof(*p));
         p->active=true;p->connection=connection;p->epoch=++r->next_epoch;return true;
     }
     return false;
 }
-bool ct_runtime_read(const ct_runtime_t *r,uint16_t connection,uint8_t kind,uint8_t out[CT_WIRE_BYTES]) {
+bool ct_runtime_read(const ct_runtime_t *r,uint32_t connection,uint8_t kind,uint8_t out[CT_WIRE_BYTES]) {
     if(!r->ready||kind<1||kind>6||kind==CT_COMMAND)return false;
-    for(size_t i=0;i<CT_PEER_CAPACITY;++i) {
+    for(size_t i=0;i<CT_RUNTIME_CAPACITY;++i) {
         const ct_peer_t *p=&r->peers[i];if(!p->active||p->connection!=connection)continue;
         if(kind==CT_RESULT) {
             if(!p->have_result)return false;
@@ -30,12 +33,12 @@ bool ct_runtime_read(const ct_runtime_t *r,uint16_t connection,uint8_t kind,uint
     }
     return false;
 }
-bool ct_runtime_enqueue(ct_runtime_t *r,uint16_t connection,const uint8_t data[CT_WIRE_BYTES],uint64_t rx) {
+bool ct_runtime_enqueue(ct_runtime_t *r,uint32_t connection,const uint8_t data[CT_WIRE_BYTES],uint64_t rx) {
     ct_command_t command;
     if(!r->ready||!ct_parse_command(data,CT_WIRE_BYTES,&command))return false;
     ct_peer_t *p=peer(r,connection);
-    if(!p||p->request_queued||p->reply_next<p->reply.count||r->command_count==CT_PEER_CAPACITY)return false;
-    ct_pending_t *q=&r->commands[(r->command_next+r->command_count)%CT_PEER_CAPACITY];
+    if(!p||p->request_queued||p->reply_next<p->reply.count||r->command_count==CT_RUNTIME_CAPACITY)return false;
+    ct_pending_t *q=&r->commands[(r->command_next+r->command_count)%CT_RUNTIME_CAPACITY];
     q->slot=(size_t)(p-r->peers);q->epoch=p->epoch;q->received_ms=rx;memcpy(q->data,data,CT_WIRE_BYTES);
     ++r->command_count;p->request_queued=true;return true;
 }
@@ -50,7 +53,7 @@ void ct_runtime_update(ct_runtime_t *r,const thermal_history_t *h,const ct_charg
     r->ready=true;
     while(r->command_count) {
         ct_pending_t q=r->commands[r->command_next];
-        r->command_next=(r->command_next+1)%CT_PEER_CAPACITY;--r->command_count;
+        r->command_next=(r->command_next+1)%CT_RUNTIME_CAPACITY;--r->command_count;
         ct_peer_t *p=&r->peers[q.slot];
         if(!p->active||p->epoch!=q.epoch)continue;
         p->request_queued=false;
@@ -62,7 +65,7 @@ void ct_runtime_update(ct_runtime_t *r,const thermal_history_t *h,const ct_charg
         }
     }
 }
-bool ct_runtime_peek(ct_runtime_t *r,uint16_t connection,uint8_t subscribed,uint64_t now,ct_transmission_t *t) {
+bool ct_runtime_peek(ct_runtime_t *r,uint32_t connection,uint8_t subscribed,uint64_t now,ct_transmission_t *t) {
     ct_peer_t *p=peer(r,connection);if(!p||!r->ready)return false;
     while(p->reply_next<p->reply.count) {
         ct_packet_t *f=&p->reply.frames[p->reply_next];
@@ -70,6 +73,7 @@ bool ct_runtime_peek(ct_runtime_t *r,uint16_t connection,uint8_t subscribed,uint
         *t=(ct_transmission_t){.packet=*f,.epoch=p->epoch,.token=p->reply_serial,
             .index=p->reply_next,.command_reply=true};return true;
     }
+    if(connection==CT_USB_CONNECTION)return false;
     if(now>=p->next_routine_ms) {
         p->routine_pending=0;
         for(unsigned kind=1;kind<=6;++kind)
@@ -83,7 +87,7 @@ bool ct_runtime_peek(ct_runtime_t *r,uint16_t connection,uint8_t subscribed,uint
     }
     return false;
 }
-void ct_runtime_sent(ct_runtime_t *r,uint16_t connection,const ct_transmission_t *t) {
+void ct_runtime_sent(ct_runtime_t *r,uint32_t connection,const ct_transmission_t *t) {
     ct_peer_t *p=peer(r,connection);if(!p||p->epoch!=t->epoch)return;
     if(t->command_reply) {
         if(p->reply_serial==t->token&&p->reply_next==t->index&&p->reply_next<p->reply.count)++p->reply_next;

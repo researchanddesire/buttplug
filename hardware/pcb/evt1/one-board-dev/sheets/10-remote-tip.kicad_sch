@@ -1,0 +1,59 @@
+(kicad_sch
+  (version 20230121)
+  (generator build_evt1_electrical)
+  (uuid f2e53901-fdd6-5e3c-8206-d72b72f8de5e)
+  (paper "A3")
+  (title_block
+    (title "Potted two-wire tip NTC")
+    (date "2026-11-12")
+    (rev "EVT1 electrical candidate")
+    (company "Research and Desire")
+    (comment 1 "LAYOUT INTEGRATION REQUIRED BEFORE PCB ORDER"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:NTC_TDK"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "NTC_TDK" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "NTC_TDK_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "NTC_TDK_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016))))))))
+  (symbol
+    (lib_id "PrototypeR0:NTC_TDK")
+    (at 76.2 63.5 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid 76af7fc8-08e9-55fa-928d-8ad8863dd1c2)
+    (property "Reference" "TH101" (at 76.2 53.34 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "B57540G1103F000 / 10k 1% / curve8307" (at 76.2 55.88 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "Datasheet"
+      "https://www.tdk-electronics.tdk.com/inf/50/db/ntc_09/Glass_enc_Sensors__B57540__G540__G1540.pdf"
+      (at 76.2 63.5 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "REMOTE_TIP" (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "Glass bead in cap thermal pocket, two insulated leads to body J5." (at 76.2 63.5 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid bf08e0f9-f7cb-5ab0-b505-8248e3ef2418))
+    (pin "2" (uuid b64e67e9-da23-5c3e-8399-12aa61fa07d2))
+    (instances
+      (project "compass-one-board-dev" (path "/fc3429d2-e1e3-5cc3-a60d-bb279cd52395/9c04410f-94ef-590f-8462-1bee6558065d" (reference "TH101") (unit 1)))))
+  (wire (pts (xy 76.2 58.42) (xy 76.2 53.34)) (stroke (width 0) (type default)) (uuid aca2693c-b3d2-5325-af36-0e9913cdd7a0))
+  (global_label "TIP_NTC" (shape input) (at 76.2 53.34 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 54779e59-fdc8-582a-9a24-52ae116bf55c))
+  (wire (pts (xy 76.2 68.58) (xy 76.2 73.66)) (stroke (width 0) (type default)) (uuid 8b3635fb-58ff-5f47-9fff-eb46e11c7226))
+  (global_label "GND" (shape input) (at 76.2 73.66 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 03afee35-9b44-5039-97f2-f56dfd533326))
+  (text
+    "The two-wire thermistor replaces the old four-wire TMP117 assembly.\nUse manufacturer curve8307 and calibrate the assembled thermal path.\nElectrical checks do not qualify potting, sealing or temperature response."
+    (at 40.64 111.76 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid c594814a-855d-53ae-9da5-806ebd3ca702))
+  (sheet_instances (path "/" (page "1"))))

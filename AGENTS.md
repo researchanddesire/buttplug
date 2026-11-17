@@ -75,6 +75,8 @@ docs; do not copy child cable BOM details into `hardware/bom.csv`.
   optical/cleaning validation; do not claim sterilization. Plastics target MJF
   or SLA; use multiaxis CNC-lathe or casting constraints for metal parts.
 - Keep changes reviewable and scoped to the request.
+- Advance the actual EVT PCB and FreeCAD assembly directly. Keep earlier
+  fixture and routing studies as reference evidence.
 - Use the existing Compass doc in the R+D project Drive folder for design
   reviews and physical bench results. Identify the Git commit and the specific
   native assembly or board revision in each entry.
@@ -143,9 +145,55 @@ docs; do not copy child cable BOM details into `hardware/bom.csv`.
   parameters are assumed, not measured. Temperature alone is not qualified
   rectal-presence or removal evidence; exposed copper's antimicrobial benefit
   does not establish mucosal safety or replace cleaning.
-- Case data-link/thermal direction: preserve general bidirectional PC ↔ case ↔
-  plug USB communication for firmware updates/ROM recovery, configuration,
-  diagnostics, logs/telemetry and future commands; add local case-controller/plug communication.
+- Case data-link/thermal direction: use the same four wired contacts for local
+  dock-to-plug USB telemetry and direct PC-to-plug USB programming, recovery,
+  configuration and diagnostics. The dock is a USB host in standalone mode.
+  Give the plug's D+/D− pair to one host at a time and preserve a direct PC
+  recovery mode. Study the Main PCB before changing enclosure geometry. The
+  cradle has no radio or antenna. The case-radio and antenna-pocket studies are
+  historical candidates.
+  The active Main electrical source is `wired-main/dock-wired-system.kicad_pro`
+  with the schematic and PCB in the same project. The active dock native is
+  `hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd` with adjacent
+  relative links. Continue these directly. Native PCB DRC has 13 opens and zero
+  other rule findings. Main-only schematic parity is zero. The separate
+  `dock-wired-transport` root shares the leaf sources and carries the lid/UV
+  sheets for the system ERC and harness checks.
+  The four J102–J94 wire sweeps are now installed in the product native and pass
+  closed-pose nominal clearance. Measure trim, restraint and USB on the build.
+  The approved 1.30 mm dry-side J401 pocket leaves 0.70 mm nominal liner wall
+  and 0.25 mm housing clearance. Seat the lower liner over the fixed UV harness
+  before final contact-wire dressing. Use the 1.50 mm loaded display PCB shim
+  and two flex passages. The linked custom J201–J301 flex shows the closed
+  route. A 59.119 mm moving span at R5 minimum clears 25 exact sampled poses.
+  Verify cable guides, received fit, full hinge travel with UV wiring and UV-C
+  leakage at both liner passages.
+  `hardware/design/evt1-bench-ordering/dock-enclosure/` holds the enclosure
+  STEP quote ZIP exported from the wired FreeCAD assembly, including the
+  approved pair of blind Hall recesses, the J401 pocket and flex passages.
+  Each Hall board has 0.312 mm nominal clearance and a 0.48 mm checked web
+  under the cut. Both Hall brackets use the approved integral lip (0.75 mm
+  capture, 0.90 mm slot for a 0.80 mm board). Slide the boards in before
+  mounting the pairs. Confirm as-printed fit and withdrawal restraint.
+  The native has both linked PCBs and captured magnets in the active base and
+  lid modules. The quote includes their custom parts. Re-export changed bodies before
+  using the packet after an enclosure geometry change.
+  Hall Main positions are approved at dock X−44.50/Y39.00 (J630, 270°) and
+  X40.50/Y19.00 (J650, 90°), both on F.Cu. Seat their plugs before installing
+  the lower liner. Check wire dressing and liner installation on the build.
+  The PCB retains
+  the original enclosure and board datums, with the 62 added package models
+  checked nominally and U158 at its reviewed position. The oscillator and
+  MCU_STOPn, MON_I2C_SCL, SOURCE_OK and PC_LOCKn are routed at fixed footprints. In1
+  remains continuous with the limiter fault readback, USB enable pull-down
+  and host I²C clock/data networks routed. Finish the RP2040 power, run
+  control and other I²C links. Prior routing checkpoints and
+  rejected routes live under `layout-candidate/`. The lower shell blocks direct
+  axial access to all seven underside service pads. An installed PC-lock
+  access path is still open. The candidate also has
+  matched 4.22 Ω UV board quotes and compiled RP2040/STM32 targets for fresh
+  tip readings. The matched Main uses R107 at 40.2 kΩ. Complete host routing
+  and installed USB/UV checks remain open.
   Record docked tip-temperature history and a fresh, timestamped removal baseline,
   even if removed early. Distinguish Charging / Charged — cooling / Ready using
   confirmed charge state and qualified thermal criteria, including UV heat.
@@ -234,17 +282,28 @@ docs; do not copy child cable BOM details into `hardware/bom.csv`.
   0.3mm rearward, leaving0.95mm nominal passage behind the stub for sensor wires.
   Do not directly overmold/immerse/hard-pot the NTCs. Retention, soft supports
   and actual lead routing remain to design; RFQ has not been sent or accepted.
-- User direction is ONE flange PCB carrying the contact targets, Power/Mode
-  switches and compass sensing, with molded silicone bosses pressing through
-  plastic openings. Keep the existing body PCB. The actual flange radio is
-  U6 ESP32-C3-MINI-1-N4X with an integrated antenna; reserve its primary RF
-  keepout rather than assuming a separate antenna can sit under the battery.
-  Study battery/growth space beneath the board using actual parts/clearances.
-  PCB plane/outline and flange axial depth may be studied; preserve88x32 outside,
-  15mm neck and the saved rear joint. Quantify any contact/dock datum changes.
-  No contact daughterboard is intended. Earlier individual-nut/daughterboard
-  contact studies remain references. The new mechanical/electrical studies are
-  `evt1-integration/contact-module-trial/` and `hardware/pcb/evt1/single-flange-study/`.
+- The first-article device direction combines the former body and flange
+  circuitry on one PCB in `hardware/pcb/evt1/one-board/`. The low, offset
+  protected pack goes in the bulb. TH1 and TH2 retain independent hardware
+  charge-temperature paths, and TH3 reports separate pack temperature through
+  J8 and the ADS1115. Build `evt1-one-board` for this PCB. The larger
+  `hardware/pcb/evt1/one-board-dev/` retains the circuit and adds rail
+  isolation, thermistor simulation and probe access. Both use 44.7 µF
+  nominal SYS population, with C12 and C22 left empty.
+  The master bench J112 uses one polarized PC or DOCK key for VBUS, D− and
+  D+; remove all power to swap keys. J111 takes the external dock host.
+  Compact changes hosts by physically withdrawing the first mate; the direct
+  PC saddle shares the dock seat and retains button access. The `direct-pc-fixture/`
+  FreeCAD assembly and `direct-pc-contact-adapter/` KiCad project are eval
+  sources. Check physical contact sequencing and USB before live insertion.
+  Quote CT1–CT4 and J2 as vendor operations; see `master-bench-eval/` under
+  `hardware/design/evt1-bench-ordering/` for the acceptance and upload files.
+  Preserve the U6 integrated antenna keepout, 88×32 outside flange, Ø15 neck,
+  rear joint and the four dock datums. CT1–CT4 keep Ø1.02 mm nominal plated
+  artwork on Ø3.2 mm lands. Check the finished hole range and fixture the
+  shoulders square to the laminate before soldering. The separate body
+  and `single-flange-routing/` boards are source references. See
+  `developer-docs/docs/one-board.md` for native checks and first-article limits.
   Provide positive local load support, whole-board loading/halves closure,
   silicone/cavity sealing and molding-mask removal. Solder/PCB flex is not
   credited as a docking-load stop, nor PCB encapsulation as a proven liquid seal.
@@ -295,15 +354,24 @@ docs; do not copy child cable BOM details into `hardware/bom.csv`.
   in RAM, using actual start/completion times and per-boot identity. USB
   `thermal-status` reports the latest baseline/trend and first valid conversion
   begun after observed loss. Raw PGOOD edges may coalesce; source loss is not
-  confirmed removal. Reboot/deep sleep discards history. Local BLE, charge/UV
-  state, durable logging and qualified Ready criteria remain open. Host timing,
+  confirmed removal. Reboot/deep sleep discards history. Installed wired USB,
+  charge/UV state, durable logging and qualified Ready criteria remain open. Host timing,
   invalid/stale, straddle, reconnection and ring-limit tests pass.
 - Cradle styling: rounded Pocket Neopet-like clamshell for dry storage, charging
   and computer USB. Working screen, three buttons and UV-C cleaning LEDs are
   required for this EVT. The new authoring source is `hardware/cad/evt1-assembly/`;
   the prior box-shaped dock remains a reference. UV is not a sterilization claim: opaque
   enclosure, hardware lid-open cutoff, dose/efficacy, leakage, heat and material
-  aging need validation. The selected display/contact/LED geometry and UI power
+  aging need validation. Study two contactless Hall cutoff channels with
+  independent hardware and thermal paths at the existing left/right stations.
+  Qualify release during opening and measure finished-unit UV-C leakage.
+  Standalone probe and removable fixture quotes cover the initial magnet
+  and threshold measurements on a separate bench supply. The routed probe
+  has zero native rule findings; measurements and installed cutoff remain open.
+  The Hall case-fit quote joins the hinge shell and liner set to the close
+  1 mm captured target. A separate driver-free adapter has an audited window
+  calculation; actual contact loading and fault/shutdown timing remain open.
+  The selected display/contact/LED geometry and UI power
   design remain integration work, not a powered release. Current native dock
   readback has32bodies/1435nominalpairs and119sampled loading/access poses;
   relative source links also pass cold relocation/reopen. Four liner mounts

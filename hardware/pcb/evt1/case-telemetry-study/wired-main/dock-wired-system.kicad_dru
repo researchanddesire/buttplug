@@ -1,0 +1,7 @@
+(version 1)
+# Manufacturer USB4105 locating-hole/pad pattern has0.1751mm nominal copper
+# separation. This bounded exception preserves that pattern; fabricator
+# acceptance is still required. All other holes retain0.20mm minimum.
+(rule "USB4105 manufacturer locating-hole pattern"
+ (condition "A.memberOfFootprint('J101') && B.memberOfFootprint('J101')")
+ (constraint hole_clearance (min 0.15mm)))

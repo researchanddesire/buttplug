@@ -1,0 +1,15 @@
+#ifndef COMPASS_HOST_TUSB_CONFIG_H
+#define COMPASS_HOST_TUSB_CONFIG_H
+#define CFG_TUSB_MCU OPT_MCU_RP2040
+#define CFG_TUSB_OS OPT_OS_PICO
+#define CFG_TUH_ENABLED 1
+#define CFG_TUH_MAX_SPEED OPT_MODE_FULL_SPEED
+#define CFG_TUH_DEVICE_MAX 1
+#define CFG_TUH_CDC 1
+#define CFG_TUH_HUB 0
+#define CFG_TUH_ENUMERATION_BUFSIZE 256
+#define CFG_TUH_CDC_RX_BUFSIZE 256
+#define CFG_TUH_CDC_TX_BUFSIZE 64
+/* Keep native CDC control lines untouched during enumeration. */
+#define CFG_TUH_CDC_LINE_CONTROL_ON_ENUM 0
+#endif

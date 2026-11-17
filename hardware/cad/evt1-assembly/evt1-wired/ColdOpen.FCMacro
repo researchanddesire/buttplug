@@ -1,0 +1,85 @@
+"""Reopen the saved wired dock and separately verify its external dependencies."""
+from hashlib import sha256
+import json, os, sys, traceback
+from pathlib import Path
+from zipfile import ZipFile
+import xml.etree.ElementTree as ET
+import FreeCAD as App
+import FreeCADGui as Gui
+
+work=Path(os.environ.get('COMPASS_WIRED_DOCK_WORK','/tmp/compass-evt1-wired'))
+old_dir=Path(os.environ.get('COMPASS_JST_DOCK_SOURCE','/tmp/compass-hall-jst-native'))
+assembly=work/'dock/DockAssembly.FCStd'
+
+
+def sha(path):
+    return sha256(path.read_bytes()).hexdigest()
+
+
+def extent(shape):
+    box=shape.optimalBoundingBox(False,False)
+    return [round(getattr(box,n),6) for n in ('XMin','YMin','ZMin','XMax','YMax','ZMax')]
+
+
+def read_xml(path):
+    with ZipFile(path) as z:
+        return ET.fromstring(z.read('Document.xml'))
+
+
+def xlinks(doc):
+    values={}
+    for o in doc.findall('./ObjectData/Object'):
+        external=o.find("Properties/Property[@name='LinkedObject']/XLink")
+        if external is not None and external.get('file'):
+            values[o.get('name')]=dict(external.attrib)
+    return values
+
+
+def body_specs(root):
+    keep={'App::PropertyPlacement','App::PropertyExpressionEngine','App::PropertyLink','App::PropertyLinkList','App::PropertyDistance','App::PropertyLength','App::PropertyAngle'}
+    exclude={'Material','Origin'}
+    shapes={}
+    for obj in root.findall('./ObjectData/Object'):
+        n=obj.get('name')
+        if n!='USBBoardAssembly':
+            shapes[n]={p.get('name'):ET.tostring(p,encoding='unicode').strip() for p in obj.findall('./Properties/Property') if p.get('type') in keep and p.get('name') not in exclude}
+    return shapes
+
+
+def run():
+    Gui.activateWorkbench('AssemblyWorkbench')
+    source=json.loads((work/'inputs.json').read_text())
+    old=old_dir/'DockAssembly.FCStd'; assert sha(old)==source['legacy_assembly_sha256']
+    old_xml,new_xml=read_xml(old),read_xml(assembly)
+    before,after=xlinks(old_xml),xlinks(new_xml)
+    assert set(before)==set(after)
+    stable=lambda row:{k:v for k,v in row.items() if k!='stamp'}
+    assert [n for n in before if stable(before[n])!=stable(after[n])]==['USBBoardAssembly']
+    assert after['USBBoardAssembly']['file']=='pcb/MainPCB-Wired.FCStd'
+    for name,expected in source['retained_dependency_hashes'].items():assert sha(work/'dock'/name)==expected,name
+    doc=App.openDocument(str(assembly));doc.recompute()
+    link=doc.USBBoardAssembly
+    assert link.TypeId=='App::Link' and link.LinkedObject.Document!=doc
+    p=link.LinkPlacement
+    assert [round(n,9) for n in (p.Base.x,p.Base.y,p.Base.z,*p.Rotation.Q)]==[0,32,6.4,0,0,0,1]
+    assert doc.RearHinge.JointType=='Revolute' and link in doc.BaseModule.Group
+    assert not [o.Name for o in doc.Objects if 'Error' in o.State or 'Invalid' in o.State]
+    src=link.LinkedObject.Document
+    assert link.Shape.isValid() and len(link.Shape.Solids)>200
+    assert len(link.Shape.Solids)==len(link.LinkedObject.Shape.Solids)
+    assert Path(src.FileName).resolve()==(assembly.parent/after['USBBoardAssembly']['file']).resolve()
+    names=('LowerShell','LowerChamber','UpperShell','UpperChamber','FrontClosureLowerPlug','FrontClosureUpperPlug')
+    rigid={n:{'bounds':extent(doc.getObject(n).Shape),'volume':doc.getObject(n).Shape.Volume} for n in names}
+    initial,changed=body_specs(old_xml),body_specs(new_xml)
+    tracked_changed=sorted(n for n in (set(initial)|set(changed)) if initial.get(n)!=changed.get(n))
+    assert not tracked_changed,tracked_changed
+    result={'source':source,'legacy_main_link':before['USBBoardAssembly'],'current_main_link':after['USBBoardAssembly'],'retained_external_links':len(after)-1,'native_name':doc.Name,'wired_assembly_native_sha256':sha(assembly),'wired_pcb_native_sha256':sha(Path(src.FileName)),'wired_main_solid_count':len(link.Shape.Solids),'wired_main_extent':extent(link.Shape),'link_placement_mm_q':[0,32,6.4,0,0,0,1],'frozen_primary_shells_and_baffles':rigid,'changed_tracked_properties_excluding_main_link':tracked_changed,'cold_reopen':True,'product_hall_installed':False,'physical_fit':False}
+    Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+    Gui.activeDocument().activeView().saveImage(str(work/'WiredDock.png'),1200,900,'Current')
+    (work/'integration.json').write_text(json.dumps(result,indent=2)+'\n')
+    (work/'cold-state.txt').write_text('PASS\n')
+
+
+try:run()
+except BaseException:(work/'cold-error.txt').write_text(traceback.format_exc())
+finally:os._exit(0)

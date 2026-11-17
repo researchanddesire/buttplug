@@ -1,0 +1,41 @@
+metadata:
+  title: Dock Main J630 to left Hall head
+  notes: Channel A. Both ends are numbered 1 feed, 2 signature, 3 dedicated return.
+    Mark the housing and each wire. Fit the route before final trimming and
+    crimping. Keep the return isolated from system ground along the loom.
+options:
+  fontname: Arial
+connectors:
+  J630:
+    type: GH receptacle housing at Main J630
+    manufacturer: JST
+    mpn: GHR-03V-S
+    pins: [1, 2, 3]
+    pinlabels: [FEED, SIG, RETURN]
+  Left_J1:
+    type: Left Hall head front copper solder lands
+    pins: [1, 2, 3]
+    pinlabels: [HEAD_FEED, SIG, "GND (remote RETURN)"]
+    ignore_in_bom: true
+cables:
+  Hall_A:
+    category: bundle
+    type: Individually marked PTFE stranded wires
+    wirecount: 3
+    wirelabels: [A1 FEED, A2 SIG, A3 RETURN]
+    gauge: 26
+    gauge_unit: AWG
+    length: 0.25
+    length_unit: m
+    manufacturer: Allied Wire and Cable
+    mpn: 1371-26-7
+    notes: Three 250 mm stock blanks. Set finished length in the assembled dock.
+connections:
+  - - J630: [1, 2, 3]
+    - Hall_A: [1, 2, 3]
+    - Left_J1: [1, 2, 3]
+additional_bom_items:
+  - description: Tin-plated GH crimp contact
+    manufacturer: JST
+    mpn: SSHL-002T-P0.2
+    qty: 3

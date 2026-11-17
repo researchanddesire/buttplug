@@ -1,0 +1,36 @@
+metadata:
+  title: EVT1 dock Main to lid UI flex
+  notes: One received Molex Type D cable. Confirm numeric pad-to-pad continuity with
+    the intended socket entry and cable orientation before connecting a powered board.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J201:
+    type: Main bottom-contact FH12 socket
+    pins: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    pinlabels: &signals [GND, 3V3_UI, LCD_DB0, LCD_DB1, LCD_DB2, LCD_DB3, LCD_DB4, LCD_DB5, LCD_DB6, LCD_DB7, LCD_A0, LCD_WRn, LCD_CSn, LCD_RESETn, BTN_LEFTn, BTN_CENTERn_RAW, BTN_RIGHTn, GND, GND, GND]
+    ignore_in_bom: true
+  J301:
+    type: Lid bottom-contact FH12 socket
+    pins: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    pinlabels: *signals
+    ignore_in_bom: true
+cables:
+  UI_FFC:
+    type: 20-way 0.50 mm pitch opposite-contact FFC
+    wirecount: 20
+    length: 0.203
+    length_unit: m
+    ignore_in_bom: true
+    notes: Molex 0151660220, one 203 mm stock jumper.
+connections:
+  - - J201: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    - UI_FFC: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    - J301: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+additional_bom_items:
+  - description: 20-way 0.50 mm pitch 203 mm Type D FFC
+    qty: 1
+    unit: pcs
+    manufacturer: Molex
+    mpn: '0151660220'

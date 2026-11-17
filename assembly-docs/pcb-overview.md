@@ -1,11 +1,24 @@
 # PCB Overview
 
-The current electrical source is [`hardware/pcb/evt1/`](../hardware/pcb/evt1/README.md).
-Five routed PCBs pass source-bound native DRC and pad/netlist parity; system
-and body ERC pass. The body uses ADS1115/two-wire NTC, the flange has native
-USB/wake/recovery, and the fixed LSM303AGR daughterboard mounts to integral tray
-bosses. Use matching EVT1 firmware. R35F and the routing records below are prior
-references, not EVT1 fabrication files.
+For the merged-board prototypes, use the [Master Bench and Compact evaluation
+packet](../hardware/design/evt1-bench-ordering/master-bench-eval/README.md).
+The supplier assembly sheet includes J2 pigtails, the compact four contact
+targets and the bench's preassembled PC and DOCK selector keys. The sections
+below describe the split-board EVT and the modular dock.
+
+Use the retained [body PCB](../hardware/pcb/evt1/body/assembly-quote/README.md),
+the [single flange PCB](../hardware/pcb/evt1/single-flange-routing/assembly-quote/README.md)
+and the [wired dock Main project](../hardware/pcb/evt1/case-telemetry-study/wired-main/README.md)
+for the current EVT integration. The body reads the tip NTC. One flange
+board carries the four contact targets, switches and LSM303AGR. The
+[editable dock assembly](../hardware/cad/evt1-assembly/evt1-wired/README.md)
+links the wired Main, JST display lid, contact and UV PCB geometry. Main has
+13 open connections. Both lid stations use the same routed
+[Hall sensor head](../hardware/pcb/evt1/dock-safety/wired-hall-head/README.md).
+Remaining Main routing, the two Hall receivers and physical verification
+precede dock fabrication release.
+
+## Earlier five-board EVT1 reference
 
 Actual device-board/component/mate envelopes fit
 `hardware/cad/manufacturing-layout/evt1-integration/EVT1Product.FCStd`; nominal

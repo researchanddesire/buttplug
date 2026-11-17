@@ -1,0 +1,241 @@
+{
+  "status": "native circuit candidate; PCB and physical validation pending",
+  "schematic": "wired-hall-head.kicad_sch",
+  "library": "WiredHallHead",
+  "parts": [
+    {
+      "reference": "J1",
+      "value": "Direct solder",
+      "manufacturer": "manual copper",
+      "mpn": "WirePads_3_P1.35mm",
+      "footprint": "WiredHallHead:WirePads_3_P1.35mm",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_FEED",
+        "2": "SIG",
+        "3": "GND"
+      },
+      "primary_source": "Native footprint geometry in local library; manual PCB feature",
+      "note": ""
+    },
+    {
+      "reference": "U1",
+      "value": "DRV5021A2QDBZR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "DRV5021A2QDBZR",
+      "footprint": "WiredHallHead:SOT-23",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_FEED",
+        "2": "HALL_OUTn",
+        "3": "GND"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/drv5021.pdf",
+      "note": "A2 is an electrical candidate. A3 uses the same DBZ footprint and is the leading modeled magnetic candidate. Do not order by this annotation."
+    },
+    {
+      "reference": "U2",
+      "value": "TPS3808G01DBVR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS3808G01DBVR",
+      "footprint": "WiredHallHead:SOT-23-6",
+      "offboard": false,
+      "pins": {
+        "6": "HEAD_FEED",
+        "5": "HEAD_SENSE",
+        "3": "HEAD_FEED",
+        "1": "HEAD_VALID",
+        "2": "GND",
+        "4": null
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+      "note": "CT open: published 12\u201328 ms release"
+    },
+    {
+      "reference": "U3",
+      "value": "SN74LVC1G58DBVR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC1G58DBVR",
+      "footprint": "WiredHallHead:SOT-23-6",
+      "offboard": false,
+      "pins": {
+        "1": "GND",
+        "3": "HALL_OUTn",
+        "6": "HEAD_VALID",
+        "4": "HEAD_SINK",
+        "5": "HEAD_FEED",
+        "2": "GND"
+      },
+      "primary_source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g58.pdf",
+      "note": ""
+    },
+    {
+      "reference": "Q1",
+      "value": "DMG1012T-7",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "DMG1012T-7",
+      "footprint": "WiredHallHead:SOT-523",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_SINK",
+        "2": "GND",
+        "3": "SINK_DRAIN"
+      },
+      "primary_source": "https://www.diodes.com/datasheet/download/DMG1012T.pdf",
+      "note": ""
+    },
+    {
+      "reference": "R1",
+      "value": "100k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "WiredHallHead:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_FEED",
+        "2": "HALL_OUTn"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R2",
+      "value": "100k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "WiredHallHead:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_FEED",
+        "2": "HEAD_VALID"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "note": ""
+    },
+    {
+      "reference": "R3",
+      "value": "53.6k 0.1% 25ppm/K",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0753K6L",
+      "footprint": "WiredHallHead:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_FEED",
+        "2": "HEAD_SENSE"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0753K6L",
+      "note": ""
+    },
+    {
+      "reference": "R4",
+      "value": "10k 0.1% 25ppm/K",
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710KL",
+      "footprint": "WiredHallHead:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_SENSE",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0710KL",
+      "note": ""
+    },
+    {
+      "reference": "R5",
+      "value": "5.62k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-075K62L",
+      "footprint": "WiredHallHead:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "SIG",
+        "2": "SINK_DRAIN"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-075K62L",
+      "note": ""
+    },
+    {
+      "reference": "R6",
+      "value": "150k 1%",
+      "manufacturer": "Yageo",
+      "mpn": "RC0603FR-07150KL",
+      "footprint": "WiredHallHead:R_0603_1608Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_SINK",
+        "2": "GND"
+      },
+      "primary_source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07150KL",
+      "note": ""
+    },
+    {
+      "reference": "C1",
+      "value": "220nF 35V X7R",
+      "manufacturer": "TDK",
+      "mpn": "C1005X7R1V224K050BC",
+      "footprint": "WiredHallHead:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_FEED",
+        "2": "GND"
+      },
+      "primary_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1V224K050BC",
+      "note": "At U1.1. Verify at least 100nF effective at the installed bias and over temperature/age."
+    },
+    {
+      "reference": "C2",
+      "value": "100nF 16V X7R",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "WiredHallHead:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_FEED",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": "At U2.6."
+    },
+    {
+      "reference": "C3",
+      "value": "100nF 16V X7R",
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "footprint": "WiredHallHead:C_0402_1005Metric",
+      "offboard": false,
+      "pins": {
+        "1": "HEAD_FEED",
+        "2": "GND"
+      },
+      "primary_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88D",
+      "note": "At U3.5."
+    }
+  ],
+  "footprint_provenance": {
+    "WirePads_3_P1.35mm": {
+      "manufacturer_drawing": "Direct soldered wire lands. No connector, pad drill or paste.",
+      "sha256": "c112ee71aba4b39de6f6493c9f90a3cdf2e7f317b5c8607ca8aa968770cae5fe"
+    },
+    "SOT-23": {
+      "source": "/private/tmp/compass-kicad10/mount/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+      "sha256": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15"
+    },
+    "SOT-23-6": {
+      "source": "/private/tmp/compass-kicad10/mount/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+      "sha256": "f341c73aac9dcb553456f68bf3fee3d26eb14acf6d8a1cae82b50418fe1d71ca"
+    },
+    "SOT-523": {
+      "source": "/private/tmp/compass-kicad10/mount/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-523.kicad_mod",
+      "sha256": "5d0927f8dc2a6c4941e9071255bad427c5dbfac3151a661e0c463059d72a7a2a"
+    },
+    "R_0603_1608Metric": {
+      "source": "/private/tmp/compass-kicad10/mount/KiCad/KiCad.app/Contents/SharedSupport/footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23"
+    },
+    "C_0402_1005Metric": {
+      "source": "/private/tmp/compass-kicad10/mount/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod",
+      "sha256": "0403382fc4583ed510b461b1fa4a36dfaec6f4c0d9b1a67e6b0027837a54e1b5"
+    }
+  },
+  "full_product_order_ready": false
+}

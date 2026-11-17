@@ -36,6 +36,9 @@ static const ble_uuid128_t command_uuid = BLE_UUID128_INIT(0x02,0xf0,0x52,0x4c,0
 #ifdef BOARD_EVT1
 /* Bounded app snapshot; legacy USB/bench JSON remains on ...f001. */
 static const ble_uuid128_t compass_uuid = BLE_UUID128_INIT(0x03,0xf0,0x52,0x4c,0x16,0x52,0x46,0x95,0x8c,0x4f,0x94,0x2d,0xe0,0x96,0x14,0x93);
+static char status_read_snapshot[R0_STATUS_JSON_CAPACITY];
+static size_t status_read_length;
+static uint16_t status_read_connection = BLE_HS_CONN_HANDLE_NONE;
 static char compass_read_snapshot[512];
 static size_t compass_read_length;
 static uint16_t compass_read_connection = BLE_HS_CONN_HANDLE_NONE;
@@ -70,8 +73,17 @@ static int access_cb(uint16_t conn, uint16_t attr, struct ble_gatt_access_ctxt *
     }
 #endif
     if (ctxt->op == BLE_GATT_ACCESS_OP_READ_CHR && ble_uuid_cmp(ctxt->chr->uuid, &status_uuid.u) == 0) {
+#ifdef BOARD_EVT1
+        /* The off-dock calibration capture also uses fragmented ATT reads. */
+        if (ctxt->offset == 0 || status_read_connection != conn) {
+            status_read_length = r0_status_json(status_read_snapshot, sizeof(status_read_snapshot));
+            status_read_connection = conn;
+        }
+        return os_mbuf_append(ctxt->om, status_read_snapshot, status_read_length) == 0 ? 0 : BLE_ATT_ERR_INSUFFICIENT_RES;
+#else
         char json[R0_STATUS_JSON_CAPACITY]; size_t n = r0_status_json(json, sizeof(json));
         return os_mbuf_append(ctxt->om, json, n) == 0 ? 0 : BLE_ATT_ERR_INSUFFICIENT_RES;
+#endif
     }
     if (ctxt->op == BLE_GATT_ACCESS_OP_WRITE_CHR && ble_uuid_cmp(ctxt->chr->uuid, &command_uuid.u) == 0) {
         uint8_t bytes[6]; uint16_t n;
@@ -110,6 +122,7 @@ static int gap_event(struct ble_gap_event *event, void *arg) {
         break;
     case BLE_GAP_EVENT_DISCONNECT:
 #ifdef BOARD_EVT1
+        status_read_connection = BLE_HS_CONN_HANDLE_NONE;
         compass_read_connection = BLE_HS_CONN_HANDLE_NONE;
         wear_read_connection = BLE_HS_CONN_HANDLE_NONE;
 #endif
@@ -155,6 +168,7 @@ static void on_sync(void) {
 }
 static void on_reset(int reason) {
 #ifdef BOARD_EVT1
+    status_read_connection = BLE_HS_CONN_HANDLE_NONE;
     evt_case_radio_reset();
 #endif
     r0_enqueue(R0_CMD_LINK_LOST, 0); ESP_LOGE(TAG, "BLE reset: %d", reason);

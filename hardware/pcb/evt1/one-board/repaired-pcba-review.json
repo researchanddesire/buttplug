@@ -1,0 +1,11 @@
+{
+  "scope": "Body component translations/rotations from actual PCB placement and five checked repair deltas; installed static geometry only.",
+  "native_sha256": "ce9f8bc03a9e48c7df9df0d26d22da1977bbeb09ef6ba5d36b34dd0b894aeb3a",
+  "source_placement_sha256": "6352eb279e212e079acfe2d20a24e12631b2fdac149fb60e8b883d8de14bc110",
+  "geometry_repair_sha256": "89e61add30959597e40f663b9610791e9f8b1be4fe8f0bffd90f2705d1d735c1",
+  "tested_pairs": 9775,
+  "findings": [],
+  "cold_readback": "70 source positions and 3 mate solids are valid",
+  "check_limits": "Connector travel/human tool access, wire bend clearance and cover sequence need fit tests. Chassis/loom geometry matches the prior flange native, no pack inside flange.",
+  "native_fit_status": "all checked static pairs clear"
+}

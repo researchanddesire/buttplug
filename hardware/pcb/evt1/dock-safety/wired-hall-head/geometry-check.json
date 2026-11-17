@@ -1,0 +1,99 @@
+{
+  "method": "OpenCASCADE BRep intersections of shaped board and full top envelope in saved closed pose",
+  "coordinate_units": "mm",
+  "polygon_local_mm": [
+    [
+      -3.5,
+      -13.5
+    ],
+    [
+      3.5,
+      -13.5
+    ],
+    [
+      4.4,
+      -12.0
+    ],
+    [
+      4.4,
+      2.5
+    ],
+    [
+      -4.4,
+      2.5
+    ],
+    [
+      -4.4,
+      -12.0
+    ]
+  ],
+  "station_board_top_datums_mm": [
+    [
+      -50.5,
+      37.55,
+      34.85
+    ],
+    [
+      50.5,
+      37.55,
+      34.85
+    ]
+  ],
+  "substrate_mm": 0.8,
+  "top_envelope_mm": 1.5,
+  "pose": "nominal closed",
+  "missing_qualification": [
+    "minimum gap and tolerances",
+    "full motion",
+    "installed solder and wire strain relief",
+    "magnetic and optical qualification"
+  ],
+  "sources": {
+    "closed_source": {
+      "path": "hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd",
+      "sha256": "d1d3bd100dafc00097f10b02af68c29657ecfefe40f08ba8603f4c5393264ce4"
+    },
+    "reference_bracket_source": {
+      "path": "hardware/cad/evt1-assembly/lid-jst-integration/hall-probe-fixture/close-target-trial/CompassHallCloseTarget.FCStd",
+      "sha256": "831febda20237bd0f39d818896c224eccd0e53bd1601173f488682d524b231cc"
+    }
+  },
+  "solid_interface_overlap_mm3": {
+    "Left_substrate": {
+      "LowerShell": 0.0,
+      "LowerChamber": 0.0,
+      "UpperShell": 0.0,
+      "UpperChamber": 0.0,
+      "LeftBracket": 0.0,
+      "LeftCloseCarrier": 0.0,
+      "LeftMagnet": 0.0
+    },
+    "Left_top_envelope": {
+      "LowerShell": 0.0,
+      "LowerChamber": 0.0,
+      "UpperShell": 0.0,
+      "UpperChamber": 0.0,
+      "LeftBracket": 0.0,
+      "LeftCloseCarrier": 0.0,
+      "LeftMagnet": 0.0
+    },
+    "Right_substrate": {
+      "LowerShell": 0.0,
+      "LowerChamber": 0.0,
+      "UpperShell": 0.0,
+      "UpperChamber": 0.0,
+      "RightBracket": 0.0,
+      "RightCloseCarrier": 0.0,
+      "RightMagnet": 0.0
+    },
+    "Right_top_envelope": {
+      "LowerShell": 0.0,
+      "LowerChamber": 0.0,
+      "UpperShell": 0.0,
+      "UpperChamber": 0.0,
+      "RightBracket": 0.0,
+      "RightCloseCarrier": 0.0,
+      "RightMagnet": 0.0
+    }
+  }
+}

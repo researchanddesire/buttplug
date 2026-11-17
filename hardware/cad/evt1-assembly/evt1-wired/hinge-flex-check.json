@@ -1,0 +1,919 @@
+{
+  "product_native": {
+    "sha256": "c8748a4365db26d9c6bd5b4ffc736ba1ad4af0cf9c9d9226e4d0b2f88e372313",
+    "source_assembly_sha256": "54a40bb0d1c7e6e77da54b0a5f9f9df0cc7c551f96d4bc81822f8f4403044346",
+    "relative_links": {
+      "PinBoardAssembly": "pcb/PinPCB.FCStd#Board_319a",
+      "UVBaseBoardAssembly": "pcb/UVBase.FCStd#Board_957f",
+      "UVLidBoardAssembly": "pcb/UVLid.FCStd#Board_308",
+      "UIBoardAssembly": "pcb/LidUI-JST.FCStd#Board_806",
+      "USBBoardAssembly": "pcb/MainPCB-Wired.FCStd#Board_d5a2",
+      "DeviceMetalBody": "sources/SingleFlangeExterior.FCStd#MetalBody",
+      "DeviceMotorThermistorCap": "sources/SingleFlangeExterior.FCStd#MotorThermistorCap",
+      "DeviceContinuousSkin": "sources/SingleFlangeExterior.FCStd#ContinuousSkin",
+      "DeviceContact_GND": "sources/SingleFlangeExterior.FCStd#Contact_GND",
+      "DeviceContact_USB_DM": "sources/SingleFlangeExterior.FCStd#Contact_USB_DM",
+      "DeviceContact_USB_DP": "sources/SingleFlangeExterior.FCStd#Contact_USB_DP",
+      "DeviceContact_DOCK_5V": "sources/SingleFlangeExterior.FCStd#Contact_DOCK_5V",
+      "DeviceSteelKeeper0": "sources/SingleFlangeExterior.FCStd#SteelKeeper0",
+      "DeviceSteelKeeper1": "sources/SingleFlangeExterior.FCStd#SteelKeeper1",
+      "StationaryBaseUVHarnessInstance": "sources/BaseUVHarness.FCStd#StationaryBaseUVHarness",
+      "DisplayHingeFlexInstance": "sources/DisplayHingeFlex.FCStd#DisplayHingeFlex",
+      "LeftHallPCBInstance": "pcb/WiredHallHead.FCStd#HallPCB",
+      "RightHallPCBInstance": "pcb/WiredHallHead.FCStd#HallPCB"
+    },
+    "original_camera_and_thumbnail_preserved": true,
+    "dock_added_objects": [
+      "DisplayHingeFlexInstance"
+    ],
+    "route_source_sha256": "0e2531cea0116064d5b633199022defece3dadc18195b02fe2a5625764369c91",
+    "prior_assembly_sha256": "23aa0206c921cce6f2764a1080e04cbf5594ae0a3fb14fa37e5ba9c8af29242e",
+    "hall_liner_recheck": {
+      "j401_gap_mm": 0.2500000000000089,
+      "wire_gap_rechecks": 12,
+      "flex_pocket_checks": {
+        "FlexSegment1 Left": 40.5,
+        "FlexSegment1 Right": 40.5,
+        "FlexSegment2 Left": 40.5,
+        "FlexSegment2 Right": 40.5,
+        "FlexSegment3 Left": 40.5,
+        "FlexSegment3 Right": 40.5,
+        "FlexSegment4 Left": 39.465713849304535,
+        "FlexSegment4 Right": 14.465713849304539,
+        "FlexSegment5 Left": 65.5,
+        "FlexSegment5 Right": 15.5,
+        "FlexSegment6 Left": 65.5,
+        "FlexSegment6 Right": 15.5,
+        "FlexSegment7 Left": 65.5,
+        "FlexSegment7 Right": 15.5,
+        "FlexSegment8 Left": 65.5,
+        "FlexSegment8 Right": 15.5,
+        "FlexSegment9 Left": 65.5,
+        "FlexSegment9 Right": 15.5,
+        "FlexSegment10 Left": 65.5,
+        "FlexSegment10 Right": 15.499999999999996
+      }
+    },
+    "hall_hardware_recheck": {
+      "preexisting_geometrical_deltas_mm3": {
+        "DockButtonLeftCap.Shape.brp": 0.0,
+        "DockButtonLeftCapIntegralReturnArms.Shape.brp": 0.0,
+        "DockButtonLeftCapIntegralContactTip.Shape.brp": 0.0,
+        "DockButtonCenterCap.Shape.brp": 0.0,
+        "DockButtonCenterCapIntegralReturnArms.Shape.brp": 0.0,
+        "DockButtonCenterCapIntegralContactTip.Shape.brp": 0.0,
+        "DockButtonRightCap.Shape.brp": 0.0,
+        "DockButtonRightCapIntegralReturnArms.Shape.brp": 0.0,
+        "DockButtonRightCapIntegralContactTip.Shape.brp": 0.0,
+        "LowerChamber.Shape.brp": 0.0,
+        "DockWireGround.Shape.brp": 0.0,
+        "DockWireGroundInsulatedSweep.Shape.brp": 0.0,
+        "DockWireUsbMinus.Shape.brp": 3.552713678800501e-15,
+        "DockWireUsbMinusInsulatedSweep.Shape.brp": 3.552713678800501e-15,
+        "HallHeadLinerRelief.Shape.brp": 0.0
+      },
+      "minimum_separation_mm": {
+        "Left station": 20.622145913815377,
+        "Left station target": 30.101914650337875,
+        "Right station": 40.82795180344183,
+        "Right station target": 44.27638303278752,
+        "LeftHallStation closed flex gap": 56.087429081747004,
+        "RightHallStation closed flex gap": 56.087429081747004,
+        "LeftHallTarget closed flex gap": 59.98068008838458,
+        "RightHallTarget closed flex gap": 59.98068008838458
+      }
+    },
+    "hall_bracket_capture_recheck": {
+      "prior_assembly_sha256": "eb41c7e2bb6a3cfd7697749cf433c42682b35fb13d76aebc95b6e42a3631e8c4",
+      "changed_existing_geometry": [
+        "LeftBracket.Shape.brp",
+        "RightBracket.Shape.brp"
+      ],
+      "minimum_spacings_mm": {
+        "Left": {
+          "LowerChamber": 3.1622776601683786,
+          "LowerShell": 9.958806714685887,
+          "InstalledJ401PlugHousing": 105.07390506210379,
+          "DockBaseUVSpreader6061": 51.23143566210106,
+          "UpperChamber": 7.450000000000003,
+          "UpperShell": 12.877652686366577,
+          "stationary_harness_min": 32.89773612514664,
+          "closed_display_flex_min": 57.79782003674532,
+          "moving_display_flex_x_separation": 68.87
+        },
+        "Right": {
+          "LowerChamber": 3.1622776601683786,
+          "LowerShell": 9.958806714685872,
+          "InstalledJ401PlugHousing": 105.07390506210379,
+          "DockBaseUVSpreader6061": 51.23143566210106,
+          "UpperChamber": 7.450000000000003,
+          "UpperShell": 12.877652686366606,
+          "stationary_harness_min": 41.17936582949026,
+          "closed_display_flex_min": 57.79782003674532,
+          "moving_display_flex_x_separation": 18.869999999999997
+        }
+      }
+    }
+  },
+  "closed_fit": {
+    "native_sha256": "c8748a4365db26d9c6bd5b4ffc736ba1ad4af0cf9c9d9226e4d0b2f88e372313",
+    "harness_sha256": "6a1181650a9edcbb538749a61cfbb3799de7c5a993efcc0a3431fd03e70563bd",
+    "relative_links": {
+      "PinBoardAssembly": "pcb/PinPCB.FCStd",
+      "UVBaseBoardAssembly": "pcb/UVBase.FCStd",
+      "UVLidBoardAssembly": "pcb/UVLid.FCStd",
+      "UIBoardAssembly": "pcb/LidUI-JST.FCStd",
+      "USBBoardAssembly": "pcb/MainPCB-Wired.FCStd",
+      "DeviceMetalBody": "sources/SingleFlangeExterior.FCStd",
+      "DeviceMotorThermistorCap": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContinuousSkin": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_GND": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_USB_DM": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_USB_DP": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_DOCK_5V": "sources/SingleFlangeExterior.FCStd",
+      "DeviceSteelKeeper0": "sources/SingleFlangeExterior.FCStd",
+      "DeviceSteelKeeper1": "sources/SingleFlangeExterior.FCStd",
+      "StationaryBaseUVHarnessInstance": "sources/BaseUVHarness.FCStd",
+      "DisplayHingeFlexInstance": "sources/DisplayHingeFlex.FCStd",
+      "LeftHallPCBInstance": "pcb/WiredHallHead.FCStd",
+      "RightHallPCBInstance": "pcb/WiredHallHead.FCStd"
+    },
+    "kernel": [
+      "1",
+      "1",
+      "4"
+    ],
+    "physical_fit": false,
+    "scope": "Exact saved closed-position stationary base UV and spring-pin wire checks. Fitted JST housings, wire guides/strain relief, wire loading, hinge travel and powered UV are separate.",
+    "rigid_obstacle_objects": 82,
+    "wires": [
+      {
+        "wire": "J401.1\u2013J621.1",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.2\u2013J621.2",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.3\u2013J621.3",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.4\u2013J621.4",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.5\u2013J621.5",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.6\u2013J621.6",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.7\u2013J621.7",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.8\u2013J621.8",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.1\u2013J94.1",
+        "exact_pairs": 60,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.2\u2013J94.2",
+        "exact_pairs": 64,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.3\u2013J94.3",
+        "exact_pairs": 67,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.4\u2013J94.4",
+        "exact_pairs": 67,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      }
+    ],
+    "j401_housing": {
+      "liner_gap_mm": 0.2500000000000089,
+      "liner_overlap_mm3": 0.0,
+      "spreader_gap_mm": 0.949999999999994,
+      "lower_shell_gap_mm": 4.899999999999986
+    },
+    "wire_spacing": {
+      "J401.1\u2013J621.1 / J401.2\u2013J621.2": {
+        "gap_mm": 0.4117999999999526,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.3\u2013J621.3": {
+        "gap_mm": 1.6617999999999635,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.4\u2013J621.4": {
+        "gap_mm": 2.9117999999999618,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.5\u2013J621.5": {
+        "gap_mm": 4.161799999999956,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.6\u2013J621.6": {
+        "gap_mm": 5.411799999999962,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.7\u2013J621.7": {
+        "gap_mm": 6.661799999999963,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.8\u2013J621.8": {
+        "gap_mm": 7.91179999999996,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.1\u2013J94.1": {
+        "gap_mm": 54.9929373517275,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.2\u2013J94.2": {
+        "gap_mm": 53.491538751338496,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.3\u2013J94.3": {
+        "gap_mm": 52.066588718692074,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.4\u2013J94.4": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.3\u2013J621.3": {
+        "gap_mm": 0.41179999999996936,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.4\u2013J621.4": {
+        "gap_mm": 1.661799999999973,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.5\u2013J621.5": {
+        "gap_mm": 2.9117999999999697,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.6\u2013J621.6": {
+        "gap_mm": 4.161799999999967,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.7\u2013J621.7": {
+        "gap_mm": 5.411799999999972,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.8\u2013J621.8": {
+        "gap_mm": 6.66179999999997,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.1\u2013J94.1": {
+        "gap_mm": 54.233074458747346,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.2\u2013J94.2": {
+        "gap_mm": 52.76910961199146,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.3\u2013J94.3": {
+        "gap_mm": 51.38479857937949,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.4\u2013J94.4": {
+        "gap_mm": 50.08679331920704,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.4\u2013J621.4": {
+        "gap_mm": 0.4117999999999682,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.5\u2013J621.5": {
+        "gap_mm": 1.6617999999999742,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.6\u2013J621.6": {
+        "gap_mm": 2.9117999999999697,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.7\u2013J621.7": {
+        "gap_mm": 4.161799999999973,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.8\u2013J621.8": {
+        "gap_mm": 5.4117999999999675,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.1\u2013J94.1": {
+        "gap_mm": 53.491538751338496,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.2\u2013J94.2": {
+        "gap_mm": 52.06658871869208,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.3\u2013J94.3": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.4\u2013J94.4": {
+        "gap_mm": 49.472308776651076,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.5\u2013J621.5": {
+        "gap_mm": 0.4117999999999675,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.6\u2013J621.6": {
+        "gap_mm": 1.6617999999999606,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.7\u2013J621.7": {
+        "gap_mm": 2.9117999999999706,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.8\u2013J621.8": {
+        "gap_mm": 4.161799999999969,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.1\u2013J94.1": {
+        "gap_mm": 52.76910961199145,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.2\u2013J94.2": {
+        "gap_mm": 51.38479857937949,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.3\u2013J94.3": {
+        "gap_mm": 50.08679331920704,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.4\u2013J94.4": {
+        "gap_mm": 48.88201032428509,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J401.6\u2013J621.6": {
+        "gap_mm": 0.4117999999999536,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J401.7\u2013J621.7": {
+        "gap_mm": 1.6617999999999675,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J401.8\u2013J621.8": {
+        "gap_mm": 2.9117999999999697,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.1\u2013J94.1": {
+        "gap_mm": 52.066588718692074,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.2\u2013J94.2": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.3\u2013J94.3": {
+        "gap_mm": 49.472308776651076,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.4\u2013J94.4": {
+        "gap_mm": 48.31678852356099,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J401.7\u2013J621.7": {
+        "gap_mm": 0.41179999999996664,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J401.8\u2013J621.8": {
+        "gap_mm": 1.6617999999999613,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.1\u2013J94.1": {
+        "gap_mm": 51.38479857937949,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.2\u2013J94.2": {
+        "gap_mm": 50.086793319207054,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.3\u2013J94.3": {
+        "gap_mm": 48.88201032428509,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.4\u2013J94.4": {
+        "gap_mm": 47.77753711726888,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J401.8\u2013J621.8": {
+        "gap_mm": 0.411799999999968,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.1\u2013J94.1": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.2\u2013J94.2": {
+        "gap_mm": 49.47230877665108,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.3\u2013J94.3": {
+        "gap_mm": 48.316788523561,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.4\u2013J94.4": {
+        "gap_mm": 47.26514840531732,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.1\u2013J94.1": {
+        "gap_mm": 50.086793319207054,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.2\u2013J94.2": {
+        "gap_mm": 48.882010324285105,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.3\u2013J94.3": {
+        "gap_mm": 47.77753711726888,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.4\u2013J94.4": {
+        "gap_mm": 46.78050812759573,
+        "overlap_mm3": 0.0
+      },
+      "J102.1\u2013J94.1 / J102.2\u2013J94.2": {
+        "gap_mm": 0.14219125860946544,
+        "overlap_mm3": 0.0
+      },
+      "J102.1\u2013J94.1 / J102.3\u2013J94.3": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      },
+      "J102.1\u2013J94.1 / J102.4\u2013J94.4": {
+        "gap_mm": 0.4965856099730645,
+        "overlap_mm3": 0.0
+      },
+      "J102.2\u2013J94.2 / J102.3\u2013J94.3": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      },
+      "J102.2\u2013J94.2 / J102.4\u2013J94.4": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      },
+      "J102.3\u2013J94.3 / J102.4\u2013J94.4": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      }
+    },
+    "cold_reopened": true
+  },
+  "hinge_flex_closed_fit": {
+    "native_sha256": "c8748a4365db26d9c6bd5b4ffc736ba1ad4af0cf9c9d9226e4d0b2f88e372313",
+    "route_source_sha256": "0e2531cea0116064d5b633199022defece3dadc18195b02fe2a5625764369c91",
+    "resolved_object": "DisplayHingeFlexInstance",
+    "native_cold_open": true,
+    "geometry": {
+      "free_length_mm": 178.16353855664858,
+      "bridge_length_mm": 59.11877856282236,
+      "nominal_stiffened_tail_thickness_mm": 0.3
+    },
+    "fit_objects": 95,
+    "fit_segments": [
+      {
+        "wire": "Base tail",
+        "exact_pairs": 9,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Base rise",
+        "exact_pairs": 10,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Before offset",
+        "exact_pairs": 10,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "25 mm offset",
+        "exact_pairs": 10,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "After offset",
+        "exact_pairs": 10,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Base elbow",
+        "exact_pairs": 12,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Lid tail",
+        "exact_pairs": 2,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Lid straight",
+        "exact_pairs": 2,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Lid elbow",
+        "exact_pairs": 5,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Moving bridge",
+        "exact_pairs": 4,
+        "overlaps_mm3": {}
+      }
+    ]
+  },
+  "hinge_flex_motion": {
+    "verification_input_geometry_sha256": "072f456fcc2adfeb6a7a2b3980f462972b960c81674828602920cd92c5e40388",
+    "axis_origin_mm": [
+      0,
+      164.4,
+      40.15
+    ],
+    "axis_direction": [
+      1,
+      0,
+      0
+    ],
+    "material_length_mm": 59.11877856282237,
+    "arc_count": 42,
+    "sample_spacing_deg": 0.5,
+    "modeled_samples": 221,
+    "min_sampled_radius_mm": 4.999999999999728,
+    "exact_ribbon_envelope_mm": [
+      11.06,
+      0.621
+    ],
+    "exact_posed_replay": {
+      "0.0": {
+        "gap_mm": 2.1137191844164906,
+        "nearest": "MotorThermistorCap",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282236,
+        "minimum_centerline_radius_mm": 5.000000000000002
+      },
+      "67.5": {
+        "gap_mm": 3.5911081585644866,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282231,
+        "minimum_centerline_radius_mm": 4.99999999999973
+      },
+      "72.5": {
+        "gap_mm": 1.7092486685362935,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.118778562822335,
+        "minimum_centerline_radius_mm": 5.540255829530438
+      },
+      "82.5": {
+        "gap_mm": 1.786397549210005,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282235,
+        "minimum_centerline_radius_mm": 6.585722319701921
+      },
+      "90.0": {
+        "gap_mm": 0.681746875862538,
+        "nearest": "LowerShell",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282213,
+        "minimum_centerline_radius_mm": 5.19815361305451
+      },
+      "105.0": {
+        "gap_mm": 0.8884578359558886,
+        "nearest": "LowerShell",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282164,
+        "minimum_centerline_radius_mm": 5.118738836817296
+      },
+      "110.0": {
+        "gap_mm": 0.7009727255002636,
+        "nearest": "LowerShell",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282256,
+        "minimum_centerline_radius_mm": 5.5035455045572785
+      },
+      "17.5": {
+        "gap_mm": 3.0707948717557927,
+        "nearest": "MotorThermistorCap",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282238,
+        "minimum_centerline_radius_mm": 4.999999999999986
+      },
+      "25.5": {
+        "gap_mm": 3.4553812860500606,
+        "nearest": "MotorThermistorCap",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.118778562822364,
+        "minimum_centerline_radius_mm": 5.033472870933706
+      },
+      "33.5": {
+        "gap_mm": 3.591108158564514,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.118778562822335,
+        "minimum_centerline_radius_mm": 5.0
+      },
+      "36.5": {
+        "gap_mm": 3.591108158564508,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282235,
+        "minimum_centerline_radius_mm": 5.00023557196763
+      },
+      "47.5": {
+        "gap_mm": 3.591108158564507,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.118778562822264,
+        "minimum_centerline_radius_mm": 5.342073812387945
+      },
+      "61.5": {
+        "gap_mm": 3.591108158564538,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282238,
+        "minimum_centerline_radius_mm": 6.471910171040564
+      },
+      "65.5": {
+        "gap_mm": 3.591108158564527,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282243,
+        "minimum_centerline_radius_mm": 9.774996517704594
+      },
+      "70.5": {
+        "gap_mm": 1.984932722412797,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282238,
+        "minimum_centerline_radius_mm": 5.0778576008722025
+      },
+      "74.5": {
+        "gap_mm": 0.9823953209124796,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.118778562821966,
+        "minimum_centerline_radius_mm": 5.635770411725364
+      },
+      "76.5": {
+        "gap_mm": 1.0141971700690042,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282236,
+        "minimum_centerline_radius_mm": 5.259409798907107
+      },
+      "80.5": {
+        "gap_mm": 1.6941746171322642,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.118778562822435,
+        "minimum_centerline_radius_mm": 6.4944119669251705
+      },
+      "84.5": {
+        "gap_mm": 1.6392302370809049,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282235,
+        "minimum_centerline_radius_mm": 6.3202913820925755
+      },
+      "88.5": {
+        "gap_mm": 0.905935152294958,
+        "nearest": "LowerShell",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.118778562822314,
+        "minimum_centerline_radius_mm": 5.390906062836107
+      },
+      "90.5": {
+        "gap_mm": 0.6635541785288344,
+        "nearest": "LowerShell",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282256,
+        "minimum_centerline_radius_mm": 5.14150164553299
+      },
+      "95.5": {
+        "gap_mm": 0.9730649842699064,
+        "nearest": "LowerShell",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282243,
+        "minimum_centerline_radius_mm": 5.0
+      },
+      "100.5": {
+        "gap_mm": 1.0918312808019903,
+        "nearest": "UpperChamber",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282309,
+        "minimum_centerline_radius_mm": 5.0
+      },
+      "105.5": {
+        "gap_mm": 0.8787204780873856,
+        "nearest": "LowerShell",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282229,
+        "minimum_centerline_radius_mm": 5.140410428136294
+      },
+      "109.5": {
+        "gap_mm": 0.7759726921059898,
+        "nearest": "LowerShell",
+        "hits_mm3": {},
+        "centerline_length_mm": 59.11877856282239,
+        "minimum_centerline_radius_mm": 5.4617244859565695
+      }
+    },
+    "minimum_exact_gap_mm_deg_part": [
+      0.6635541785288344,
+      90.5,
+      "LowerShell"
+    ],
+    "archived_moving_uv_clearance": {
+      "display_left_x_mm": 19.47,
+      "wire_max_radius_mm": 0.4191,
+      "moving_uv_centerline_extents_max_x_mm": {
+        "bow_0": 7.024265433040108,
+        "bow_45": 7.2875892490986995,
+        "bow_60": 7.471251829397199,
+        "bow_75": 6.7042005769622195,
+        "bow_90": 5.305922450555155,
+        "bow_110": 4.3792392867058,
+        "shifted_closed": 5.633413851185534
+      },
+      "minimum_lateral_clearance_mm": [
+        11.5796481706028,
+        "bow_60"
+      ],
+      "source_sha256": {
+        "bow-summary.json": "f5173b1e8972e445e2897476c5c30aceb5962a468cae02b065d3cfed30aa2426",
+        "closed-fit.json": "eb77485d9f6335e4c382ded5c749cbed998c2dbd5edca91943e4ecb67b5529ef"
+      },
+      "proof_scope": "Eight existing UV leads, six archived measured-bound bow poses and one separately screened shifted closed candidate. Installed motion and guides remain open."
+    },
+    "scope": "Deterministic constant-length path family sampled numerically at 221 angles and exact nominal solids at 25 selected angles. Actual retained motion, physical insertion, guides and flex cycle life remain open.",
+    "saved_control_source": {
+      "file": "sources/DisplayHingeFlexMotion.json",
+      "sha256": "644e3b2af5fe0dba1ec0715ea2753adcb438670b216341d070efa808cfa1854e"
+    }
+  },
+  "socket_nominal_reference": {
+    "J201": {
+      "package_bounds": [
+        -7.05,
+        61.0,
+        6.4,
+        7.05,
+        67.4,
+        8.40000000000033
+      ],
+      "clearance_starting_0.001_mm_outside_nominal_mouth": 0.00509901951359083,
+      "screened_insertion_planar_modeled_overlap_mm3": {
+        "0.25": 0.0,
+        "0.5": 0.0,
+        "1.0": 0.0,
+        "1.5": 1.3125,
+        "2.0": 2.625,
+        "2.5": 3.9374999999999996,
+        "3.0": 5.25,
+        "3.5": 0.3150000000000049,
+        "4.0": 1.102500000000007
+      },
+      "package_label": "J201_Hirose_FH12_xxS_0_5SH_Parametric_v0_1_71b9e4bca4b5",
+      "board_document": "pcb/MainPCB-Wired.FCStd"
+    },
+    "J301": {
+      "package_bounds": [
+        17.949999999999996,
+        111.0,
+        60.0,
+        32.05,
+        117.4,
+        62.00000000000033
+      ],
+      "clearance_starting_0.001_mm_outside_nominal_mouth": 0.005099019513586475,
+      "screened_insertion_planar_modeled_overlap_mm3": {
+        "0.25": 0.0,
+        "0.5": 0.0,
+        "1.0": 0.0,
+        "1.5": 1.3124999999999876,
+        "2.0": 2.625,
+        "2.5": 3.9374999999999627,
+        "3.0": 5.25,
+        "3.5": 0.31500000000000117,
+        "4.0": 1.1024999999999812
+      },
+      "package_label": "J301_Hirose_FH12_xxS_0_5SH_Parametric_v0_1_58f55d62c0b7",
+      "board_document": "pcb/LidUI-JST.FCStd"
+    }
+  },
+  "parked_lid_angle_deg": 0,
+  "production_blank_length_status": "178.16354 mm between the mouths; add actual measured J201 and J301 insertion depths. Pin-for-pin, opposite-face terminals; selected supplier artwork and stackup pending.",
+  "retained_shape_readback": {
+    "UpperShell": {
+      "binary_identical": true
+    },
+    "LowerShell": {
+      "binary_identical": true
+    },
+    "LowerChamber": {
+      "binary_identical": false,
+      "volume_mm3_difference": 0.0,
+      "center_mm_difference": 0.0,
+      "bounds_max_mm_difference": 0.0,
+      "faces": 201
+    },
+    "UpperChamber": {
+      "binary_identical": false,
+      "volume_mm3_difference": 0.0,
+      "center_mm_difference": 0.0,
+      "bounds_max_mm_difference": 0.0,
+      "faces": 108
+    },
+    "InstalledJ401PlugHousing": {
+      "binary_identical": true
+    },
+    "BaseDisplayFlexPassage": {
+      "binary_identical": false,
+      "volume_mm3_difference": 0.0,
+      "center_mm_difference": 0.0,
+      "bounds_max_mm_difference": 0.0,
+      "faces": 201
+    },
+    "LidDisplayFlexPassage": {
+      "binary_identical": false,
+      "volume_mm3_difference": 0.0,
+      "center_mm_difference": 0.0,
+      "bounds_max_mm_difference": 0.0,
+      "faces": 108
+    },
+    "DockWireGroundInsulatedSweep": {
+      "binary_identical": false,
+      "volume_mm3_difference": 3.552713678800501e-15,
+      "center_mm_difference": 5.0242958677880805e-15,
+      "bounds_max_mm_difference": 0.0,
+      "faces": 14
+    },
+    "DockWireUsbMinusInsulatedSweep": {
+      "binary_identical": false,
+      "volume_mm3_difference": -3.552713678800501e-15,
+      "center_mm_difference": 3.552713678800501e-15,
+      "bounds_max_mm_difference": 0.0,
+      "faces": 14
+    },
+    "DockWireUsbPlusInsulatedSweep": {
+      "binary_identical": true
+    },
+    "DockWirePowerInsulatedSweep": {
+      "binary_identical": true
+    }
+  },
+  "section_png": {
+    "file": "DisplayHingeFlex.png",
+    "sha256": "e1ab0399ff7df6927716f234a62a415ff11bf27182b95a22f13447d94d641ad5"
+  }
+}

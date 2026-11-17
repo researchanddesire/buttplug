@@ -4,9 +4,28 @@ Start with `developer-docs/docs/prototype-build-handoff.md` and the current
 source table in `developer-docs/docs/hardware.md`. The accepted single-flange
 candidate is `hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/SingleFlangeBoardTrial.FCStd`;
 it retains the body PCB. The original `ManufacturingLayout.FCStd` remains the
-metal/joint source. Earlier product/dock natives remain preserved references;
-the revised complete dock is being integrated separately in the FreeCAD VM.
-This checkpoint is an engineering study, not a fabrication or human-use release.
+metal/joint source. The active dock is
+`hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd`. Its linked Main
+matches the active KiCad project under `case-telemetry-study/wired-main/`.
+The closed assembly has verified nominal rigid and four-contact wire clearance.
+Final wire dressing, Main routing, the Hall cutoff and physical acceptance
+still gate a build release. Main-only schematic parity passes. The active
+lower liner has the approved 1.30 mm pocket. The seated J401 housing and
+eight stationary UV wires clear the saved case at nominal dimensions. Seat
+the lower liner before dressing the four contact wires, which otherwise
+intersect its lift path.
+The active assembly uses the selected 1.50 mm loaded lid PCB shim and two
+liner passages. The fixed flex clears the UV backing by 0.1895 mm with the
+glass at its original datum. The custom J201–J301 flex is linked at the closed
+pose. Its constant-length model clears 25 exact geometry checks across
+0–110°. Verify socket seating, guide retention and combined hinge motion on
+received parts, then measure UV-C leakage on finished units.
+The approved blind lower-liner pockets give 0.312 mm nominal clearance at
+each front station. The revised enclosure quote includes both recesses.
+Verify the pocket floors with the print shop. Both Hall boards, brackets
+and captured targets are fitted in the current CAD at the inherited switch
+stations. Check retention, stud fit and measured lid release on the received
+parts. Complete both Main receivers before UV commissioning.
 
 ## Case data-link and thermal handoff
 
@@ -16,9 +35,9 @@ the active **Continue Buttplug Compass work** task (`01a1ccb7-22b0-7cf3-b73d-7d9
 
 - Keep a general bidirectional computer ↔ case ↔ plug USB connection through
   the four contacts: firmware updates/ROM recovery, configuration, diagnostics,
-  log/telemetry access and future device commands. Add a local case-controller/plug link for
-  temperature/charging status without a computer. Pass-through USB alone does
-  not provide that case-controller link; topology remains to select.
+  log/telemetry access and future device commands. The dock hosts USB on the
+  same pair for standalone temperature and charge observations. See the
+  wired Main proposal in `hardware/pcb/evt1/case-telemetry-study/WIRED-USB.md`.
 - Log tip temperature while docked and capture timestamped, validity-tagged
   pre/post-removal samples and trend, including removal before full charge.
   Source loss must not silently become confirmed physical removal.
@@ -26,8 +45,9 @@ the active **Continue Buttplug Compass work** task (`01a1ccb7-22b0-7cf3-b73d-7d9
   readiness additionally needs qualified thermal measurements, a settled baseline
   and sufficient warming contrast. Account for UV heat and stale/missing data.
 - `CHARGE_STATUS_N` currently connects only U1 pin9/R5 pin2, with no MCU input.
-  Case firmware has no plug telemetry channel; base/lid NTCs monitor UV modules.
-  Charge sensing, communications, ambient reference and case UI remain open.
+  The wired RP2040 candidate reads plug telemetry through the contact USB pair.
+  The STM32 wired profile shows fresh tip temperature. Base/lid NTCs monitor
+  UV modules. Charge sensing and an ambient reference remain open.
 - Plug firmware now keeps 64 actual NTC attempts/16 source-loss candidates in
   RAM. Original start/completion times, invalid attempts, last fresh docked
   sample/trend and first valid post-loss conversion are retained separately.
@@ -35,8 +55,9 @@ the active **Continue Buttplug Compass work** task (`01a1ccb7-22b0-7cf3-b73d-7d9
   `thermal-status` exposes the latest summary over qualified docked USB;
   `firmware/thermal-history-validation/validation.json` binds 50 source inputs,
   host tests, both warning-free builds and the linked normal USB ISR audit.
-  History resets at boot/deep sleep; no full-ring BLE transfer, durable storage,
-  charge/UV state, Ready threshold or physical validation is implemented.
+  History resets at boot/deep sleep. Full history retrieval over wired USB,
+  durable storage, charge/UV state, Ready thresholds and physical validation
+  remain open.
 - A small fan is a candidate, not an adopted part. Compare passive/fan cooling
   with a real heat-rejection path, UV-opaque vents if needed, and source/startup
   budgeting. The current worst-case UV/device allocation leaves only15.56mA
@@ -45,10 +66,10 @@ the active **Continue Buttplug Compass work** task (`01a1ccb7-22b0-7cf3-b73d-7d9
 Detailed acceptance and evidence are in
 `developer-docs/docs/thermal-presence-study.md#charging-case-baseline-and-cooldown`
 and PRD-26/27. Preserve the thermal study and these requirements when updating
-shared case/electrical/firmware sources. The separate radio/charge-instrumentation
-candidates are under `hardware/pcb/evt1/case-telemetry-study/`; original body,
-flange and Main artwork remain preserved. No fan or powered telemetry hardware
-result is implied by the circuit candidates or firmware checks.
+shared case/electrical/firmware sources. The wired Main and charge-instrumentation
+studies are under `hardware/pcb/evt1/case-telemetry-study/`. That directory also
+preserves the historical radio study. The frozen Main implements direct PC USB
+pass-through. Powered standalone telemetry and fan trials remain open.
 
 ## Saved versus discussed
 

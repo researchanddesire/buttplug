@@ -1,11 +1,11 @@
 # Buttplug Compass
 
-Start with the [manufacturing design proposal](prototype-build-handoff.md).
-It replaces the earlier scaffold with four main mechanical pieces: turned body with indexed collar flats,
-CNC-turned motor/thermistor cap, flange tray and rear plastic half. The two flange
-halves close before a continuous silicone overmold. A separate inert casting
-trial now has native skin/split-tool CAD and print STLs; contact/button tooling
-and material/process trials remain open. Standard insulation/foam remain.
+Start with the [active hardware source list](hardware.md) or the
+[manufacturing design proposal](prototype-build-handoff.md). The device has
+four main mechanical pieces: turned body with indexed collar flats, turned
+motor/thermistor cap, flange tray and rear plastic half. Both flange halves
+close before the continuous silicone overmold. Contact and button sealing
+and the molding process still need qualification.
 
 | Page | Use it for |
 | --- | --- |
@@ -16,6 +16,7 @@ and material/process trials remain open. Standard insulation/foam remain.
 | [Thermal study](thermal-presence-study.md) | Modeled sensor warm-up, metal comparison and presence-detection limits |
 | [Firmware](firmware.md) | EVT1 and legacy profiles, build and compatibility |
 | [EVT1 electrical](evt1-electrical.md) | Four-contact circuit, thermistor, compass and USB recovery |
+| [Bulb battery and one-board EVT](one-board.md) | Device PCB, bench board, pack telemetry and fabrication checks |
 | [Validation](testing.md) | Evidence, limits and required next checks |
 
 The previous P1 dry-fit kit is withdrawn as the recommended build. The metal CAD remains
@@ -23,7 +24,8 @@ a manufacturing study. All five EVT1 PCBs now pass native DRC and pad/netlist
 parity. A separate actual-board assembly native adds the flange-fixed compass
 mount and passes nominal loading/clearance checks. Thermistor/compass firmware
 and hardware wake/recovery are implemented candidates. The complete orderable
-product, accepted pack/retention, loom, nut lock and final button/seal tooling remain unfinished.
+product, accepted pack/retention, loom, rear nut torque and threadlocker
+qualification, and final button/seal tooling remain unfinished.
 Exact PCB parts and assembly quote ZIPs plus a protected-pack RFQ are prepared.
 No physical build, powered operation or wear validation exists.
 

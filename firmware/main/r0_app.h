@@ -27,10 +27,10 @@ esp_err_t r0_wifi_session(bool enabled);
 bool r0_wifi_active(void);
 #ifdef BOARD_EVT1
 #include "case_runtime.h"
-bool r0_case_connected(uint16_t connection);
-void r0_case_disconnected(uint16_t connection);
-bool r0_case_read(uint16_t connection, uint8_t kind, uint8_t out[CT_WIRE_BYTES]);
-bool r0_case_command(uint16_t connection, const uint8_t data[CT_WIRE_BYTES], uint64_t received_ms);
-bool r0_case_next(uint16_t connection, uint8_t subscribed, uint64_t now_ms, ct_transmission_t *transmission);
-void r0_case_sent(uint16_t connection, const ct_transmission_t *transmission);
+bool r0_case_connected(uint32_t connection);
+void r0_case_disconnected(uint32_t connection);
+bool r0_case_read(uint32_t connection, uint8_t kind, uint8_t out[CT_WIRE_BYTES]);
+bool r0_case_command(uint32_t connection, const uint8_t data[CT_WIRE_BYTES], uint64_t received_ms);
+bool r0_case_next(uint32_t connection, uint8_t subscribed, uint64_t now_ms, ct_transmission_t *transmission);
+void r0_case_sent(uint32_t connection, const ct_transmission_t *transmission);
 #endif

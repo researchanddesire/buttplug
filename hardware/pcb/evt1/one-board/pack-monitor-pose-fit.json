@@ -1,0 +1,597 @@
+{
+  "native_sha256": "509cf5b53515692313601f9962f68d08be5583c18544a320bde610a7a98ee87c",
+  "third_thermistor": "TH3 / NTCLE413E2103F524A / 3 mm x 10 mm envelope",
+  "scope": "Closed pose; routed to naked neck end; no retained wiring, assembly motion or physical test.",
+  "nominal": [
+    {
+      "new": "NominalHead",
+      "against": "MetalBody",
+      "distance_mm": 6.85,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "MotorThermistorCap",
+      "distance_mm": 5.391892061234166,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialMotor",
+      "distance_mm": 14.0,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialMotorP",
+      "distance_mm": 8.06371633817599,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialMotorN",
+      "distance_mm": 8.06371633817599,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialTipS",
+      "distance_mm": 11.585682483447853,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialTipR",
+      "distance_mm": 12.012321492382572,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialNTC1S",
+      "distance_mm": 9.361718738961258,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialNTC1SAtGrowth",
+      "distance_mm": 9.819877163837193,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialNTC1R",
+      "distance_mm": 9.106192319854543,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialNTC1RAtGrowth",
+      "distance_mm": 9.574105484626054,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialNTC2S",
+      "distance_mm": 9.106192319854543,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialNTC2SAtGrowth",
+      "distance_mm": 9.574105484626054,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialNTC2R",
+      "distance_mm": 9.361718738961258,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialNTC2RAtGrowth",
+      "distance_mm": 9.81987716383718,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialPackP",
+      "distance_mm": 11.609387929852623,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialPackN",
+      "distance_mm": 11.609387929852623,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialPack",
+      "distance_mm": 2.755455298081545e-16,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialPackNTC1",
+      "distance_mm": 7.046392387319935,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalHead",
+      "against": "BodyPackTrialPackNTC2",
+      "distance_mm": 7.046392387319935,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "MetalBody",
+      "distance_mm": 2.3052221542610636,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "MotorThermistorCap",
+      "distance_mm": 13.35887106284138,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialMotor",
+      "distance_mm": 24.0,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialMotorP",
+      "distance_mm": 4.521425541369486,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialMotorN",
+      "distance_mm": 4.603117960849914,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialTipS",
+      "distance_mm": 6.896799575902554,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialTipR",
+      "distance_mm": 7.336313231265146,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialNTC1S",
+      "distance_mm": 5.1132059893745145,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialNTC1SAtGrowth",
+      "distance_mm": 5.1132059893745145,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialNTC1R",
+      "distance_mm": 4.635157014263642,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialNTC1RAtGrowth",
+      "distance_mm": 4.635157014263642,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialNTC2S",
+      "distance_mm": 4.495110997747679,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialNTC2SAtGrowth",
+      "distance_mm": 4.495110997747679,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialNTC2R",
+      "distance_mm": 5.094558938385657,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialNTC2RAtGrowth",
+      "distance_mm": 5.094558938385657,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialPackP",
+      "distance_mm": 1.1607549648176307,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialPackN",
+      "distance_mm": 1.3975756098540921,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialPack",
+      "distance_mm": 0.7751734741295321,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialPackNTC1",
+      "distance_mm": 8.172019995940222,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "BodyPackTrialPackNTC2",
+      "distance_mm": 8.47441081101697,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "MetalBody",
+      "distance_mm": 2.305221998392467,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "MotorThermistorCap",
+      "distance_mm": 13.35887106284138,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialMotor",
+      "distance_mm": 24.0,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialMotorP",
+      "distance_mm": 4.603117960849914,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialMotorN",
+      "distance_mm": 4.521425541369484,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialTipS",
+      "distance_mm": 6.580063920164361,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialTipR",
+      "distance_mm": 6.941520114138716,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialNTC1S",
+      "distance_mm": 5.683339889669134,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialNTC1SAtGrowth",
+      "distance_mm": 5.683339889669134,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialNTC1R",
+      "distance_mm": 5.147194039802796,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialNTC1RAtGrowth",
+      "distance_mm": 5.147194039802796,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialNTC2S",
+      "distance_mm": 3.9072789011007756,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialNTC2SAtGrowth",
+      "distance_mm": 3.9072789011007756,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialNTC2R",
+      "distance_mm": 4.456617231389891,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialNTC2RAtGrowth",
+      "distance_mm": 4.456617231389892,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialPackP",
+      "distance_mm": 1.3975756098540926,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialPackN",
+      "distance_mm": 1.160754964817631,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialPack",
+      "distance_mm": 0.7751734741295321,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialPackNTC1",
+      "distance_mm": 8.47441081101697,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalReturn",
+      "against": "BodyPackTrialPackNTC2",
+      "distance_mm": 8.172019995940222,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "NominalSense",
+      "against": "NominalReturn",
+      "distance_mm": 0.33999999999999986,
+      "common_mm3": 0.0
+    }
+  ],
+  "growth": [
+    {
+      "new": "GrowthHead",
+      "against": "MetalBody",
+      "distance_mm": 6.3,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "MotorThermistorCap",
+      "distance_mm": 4.874935897014444,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "BodyPackTrialMotor",
+      "distance_mm": 14.0,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "BodyPackTrialMotorP",
+      "distance_mm": 8.612991885140406,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "BodyPackTrialMotorN",
+      "distance_mm": 8.612991885140406,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "BodyPackTrialTipS",
+      "distance_mm": 12.045518139075567,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "BodyPackTrialTipR",
+      "distance_mm": 12.4583367594655,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "BodyPackTrialPackP",
+      "distance_mm": 11.75630972343782,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "BodyPackTrialPackN",
+      "distance_mm": 11.75630972343782,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "BodyPackTrialGrowth",
+      "distance_mm": 2.755455298081545e-16,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "BodyPackTrialPackNTC1AtGrowth",
+      "distance_mm": 8.072488428533125,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthHead",
+      "against": "BodyPackTrialPackNTC2AtGrowth",
+      "distance_mm": 8.072488428533125,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "MetalBody",
+      "distance_mm": 2.1488654852303575,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "MotorThermistorCap",
+      "distance_mm": 13.106678777006813,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "BodyPackTrialMotor",
+      "distance_mm": 24.003903715899003,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "BodyPackTrialMotorP",
+      "distance_mm": 4.521425541369486,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "BodyPackTrialMotorN",
+      "distance_mm": 4.603117960849914,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "BodyPackTrialTipS",
+      "distance_mm": 6.896799575902553,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "BodyPackTrialTipR",
+      "distance_mm": 7.336313231265147,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "BodyPackTrialPackP",
+      "distance_mm": 1.1607549648176316,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "BodyPackTrialPackN",
+      "distance_mm": 1.3975756098540926,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "BodyPackTrialGrowth",
+      "distance_mm": 0.6026305373653081,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "BodyPackTrialPackNTC1AtGrowth",
+      "distance_mm": 9.211663493271944,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "BodyPackTrialPackNTC2AtGrowth",
+      "distance_mm": 9.486059914247964,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "MetalBody",
+      "distance_mm": 2.1488653314260944,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "MotorThermistorCap",
+      "distance_mm": 13.106678777006813,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "BodyPackTrialMotor",
+      "distance_mm": 24.003903715899003,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "BodyPackTrialMotorP",
+      "distance_mm": 4.603117960849914,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "BodyPackTrialMotorN",
+      "distance_mm": 4.521425541369484,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "BodyPackTrialTipS",
+      "distance_mm": 6.580063920164362,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "BodyPackTrialTipR",
+      "distance_mm": 6.941520114138716,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "BodyPackTrialPackP",
+      "distance_mm": 1.3975756098540926,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "BodyPackTrialPackN",
+      "distance_mm": 1.1607549648176316,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "BodyPackTrialGrowth",
+      "distance_mm": 0.6026305373653104,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "BodyPackTrialPackNTC1AtGrowth",
+      "distance_mm": 9.486059914247964,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthReturn",
+      "against": "BodyPackTrialPackNTC2AtGrowth",
+      "distance_mm": 9.211663493271944,
+      "common_mm3": 0.0
+    },
+    {
+      "new": "GrowthSense",
+      "against": "GrowthReturn",
+      "distance_mm": 0.33999999999999997,
+      "common_mm3": 0.0
+    }
+  ]
+}

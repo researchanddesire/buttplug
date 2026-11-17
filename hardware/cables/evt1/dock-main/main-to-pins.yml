@@ -1,0 +1,38 @@
+metadata:
+  title: EVT1 dock Main to spring-pin PCB
+  notes: Match pad numbers across the different PCB views.
+    Pair USB D− and D+. Keep their exposed leads short. Use strain relief in the
+    installed assembly and qualify USB operation on the received hardware.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J102:
+    type: Dock Main front copper solder lands
+    pins: [1, 2, 3, 4]
+    pinlabels: [GND, PLUG_USB_DM, PLUG_USB_DP, CONTACT_5V]
+    ignore_in_bom: true
+  J94:
+    type: Spring-pin PCB rear copper solder lands
+    pins: [1, 2, 3, 4]
+    pinlabels: [GND, DOCK_DM, DOCK_DP, DOCK_5V]
+    ignore_in_bom: true
+cables:
+  DK:
+    category: bundle
+    type: Individually marked 28 AWG wire
+    wirecount: 4
+    colors: [BN, BN, BN, BN]
+    wirelabels: [GND, D−, D+, 5V]
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    manufacturer: Accu-Glass
+    mpn: '100690'
+    notes: Four 150 mm starting blanks. Trim to the fitted dock route.
+      Use at least 4 mm centerline bend radius and inspect insulation OD at 0.60 mm maximum.
+connections:
+  - - J102: [1, 2, 3, 4]
+    - DK: [1, 2, 3, 4]
+    - J94: [1, 2, 3, 4]

@@ -230,9 +230,14 @@ def package(work):
                     LID / "native-checks.json", *(SYSTEM / "sheets").glob("*.kicad_sch"),
                     SYSTEM / "dock-system.kicad_sch", SYSTEM / "dock-system.kicad_pro", Path(__file__)]
     manifest = {
-        "scope": "Populated JST lid for pre-radio dock bench quote",
+        "scope": "Populated JST lid PCB engineering quote for the wired dock",
         "kicad_version": VERSION, "onboard_smt_positions": 28, "top": 17, "bottom": 11,
-        "manufacturer_part_numbers": 8, "offboard": {"LCD301": "NHD-C12864B2Z-RN-FBW", "hinge_link": "0151660220"},
+        "manufacturer_part_numbers": 8,
+        "offboard": {
+            "LCD301": "NHD-C12864B2Z-RN-FBW",
+            "exposed_board_hinge_link": "Molex 0151660220",
+            "installed_hinge_link": "Separate 20-way opposite-face custom flex feasibility quote",
+        },
         "drc_violations": 0, "drc_unconnected": 0, "whole_system_erc_violations": 0,
         "whole_system_terminal_checks": 812, "lid_physical_pad_checks": 109,
         "fab_geometry_matches_bare_fit_quote": True,

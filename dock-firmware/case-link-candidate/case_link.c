@@ -118,7 +118,7 @@ static bool extend(case_link *s,uint32_t raw,int64_t *out) {
 }
 static void commit_tick(case_link *s,int64_t tick){if(!s->tick_known||tick>s->tick_reference)s->tick_reference=tick;s->tick_known=true;}
 /* -1 older, 0 same, 1 newest. Excessive gaps force resnapshot/anchor. */
-static int order(case_link *s,cl_order *o,uint16_t sequence,uint64_t now) {
+static int order(case_link *s,cl_order *o,uint16_t sequence,uint64_t now,bool polled) {
     if(!o->known){o->known=true;o->newest=sequence;o->received=now;return 1;}
     uint16_t delta=(uint16_t)(sequence-o->newest);
     if(delta==32768){need_resync(s);return -2;}
@@ -126,7 +126,7 @@ static int order(case_link *s,cl_order *o,uint16_t sequence,uint64_t now) {
     if(!delta)return 0;
     if(delta<32768){
         if(delta>1){s->missing_sequences+=(uint32_t)delta-1;s->history_continuous=false;}
-        if(delta>s->policy.max_sequence_advance){need_resync(s);return -2;}
+        if(!polled&&delta>s->policy.max_sequence_advance){need_resync(s);return -2;}
         o->newest=sequence;o->received=now;return 1;
     }
     return -1;
@@ -151,7 +151,7 @@ static bool same_frame(const cl_frame *a,const cl_frame *b) {
     if(a->kind==CL_SOURCE||a->kind==CL_FIRST_VALID)return a->data.event.flags==b->data.event.flags&&a->data.event.loss==b->data.event.loss&&a->data.event.started==b->data.event.started&&a->data.event.completed==b->data.event.completed;
     return false;
 }
-static cl_receive store_ring(case_link *s,cl_record *ring,unsigned cap,uint8_t *next,cl_order *o,const cl_frame *f,uint64_t now) {
+static cl_receive store_ring(case_link *s,cl_record *ring,unsigned cap,uint8_t *next,cl_order *o,const cl_frame *f,uint64_t now,bool polled) {
     int64_t tick;if(!record_time(s,f,&tick)){++s->protocol_faults;return CL_REJECTED;}
     for(unsigned i=0;i<cap;i++)if(ring[i].used&&ring[i].timing_epoch==s->timing_epoch&&ring[i].frame.sequence==f->sequence) {
         if(same_frame(&ring[i].frame,f))return CL_IGNORED;
@@ -166,7 +166,7 @@ static cl_receive store_ring(case_link *s,cl_record *ring,unsigned cap,uint8_t *
     }
     const cl_record *prior=NULL;
     if(o->known)for(unsigned i=0;i<cap;i++)if(ring[i].used&&ring[i].timing_epoch==s->timing_epoch&&ring[i].frame.sequence==o->newest)prior=&ring[i];
-    int direction=order(s,o,f->sequence,now);if(direction==-2)return CL_RESYNC;
+    int direction=order(s,o,f->sequence,now,polled);if(direction==-2)return CL_RESYNC;
     if(prior&&((direction>0&&tick<prior->completed)||(direction<0&&tick>prior->completed))){++s->protocol_faults;need_resync(s);return CL_RESYNC;}
     if(direction<0&&s->tick_reference-tick>(int64_t)s->policy.max_gap_ms)return CL_IGNORED;
     ring[*next]=(cl_record){.used=true,.timing_epoch=s->timing_epoch,.frame=*f,.completed=tick,.received=now};*next=(uint8_t)((*next+1)%cap);
@@ -199,7 +199,7 @@ static cl_receive store_event(case_link *s,const cl_frame *f,uint64_t now) {
         }
     }
     cl_order *o=f->kind==CL_SOURCE?&s->source_order:&s->valid_order;
-    if(order(s,o,f->sequence,now)==-2)return CL_RESYNC;
+    if(order(s,o,f->sequence,now,false)==-2)return CL_RESYNC;
     *r=(cl_record){.used=true,.timing_epoch=s->timing_epoch,.frame=*f,.completed=tick,.received=now};
     commit_tick(s,tick);
     if(f->kind==CL_SOURCE)e->have_source=true;else e->have_valid=true;
@@ -227,16 +227,23 @@ static cl_receive result(case_link *s,const cl_frame *f,uint64_t now) {
     commit_tick(s,t2);
     return CL_ACCEPTED;
 }
-cl_receive case_link_feed(case_link *s,uint32_t epoch,cl_kind kind,const uint8_t *bytes,size_t n,uint64_t now) {
+static cl_receive feed(case_link *s,uint32_t epoch,cl_kind kind,const uint8_t *bytes,size_t n,uint64_t now,bool polled) {
     if(!s||!s->connected||epoch!=s->link_epoch||!case_link_poll(s,now))return CL_REJECTED;
     cl_frame f;cl_receive decoded=case_link_decode(kind,bytes,n,&f);
     if(decoded==CL_REJECTED||kind==CL_COMMAND){++s->protocol_faults;return CL_REJECTED;}
     if(f.field_faults)++s->protocol_faults;
     if(kind==CL_RESULT)return result(s,&f,now);
     if(!adopt_boot(s,f.boot_id))return CL_IGNORED;
-    if(kind==CL_THERMAL)return store_ring(s,s->thermal,CL_THERMAL_CAP,&s->thermal_next,&s->thermal_order,&f,now);
-    if(kind==CL_CHARGE)return store_ring(s,s->charge,CL_CHARGE_CAP,&s->charge_next,&s->charge_order,&f,now);
+    if(kind==CL_THERMAL)return store_ring(s,s->thermal,CL_THERMAL_CAP,&s->thermal_next,&s->thermal_order,&f,now,polled);
+    if(kind==CL_CHARGE)return store_ring(s,s->charge,CL_CHARGE_CAP,&s->charge_next,&s->charge_order,&f,now,polled);
     return store_event(s,&f,now);
+}
+cl_receive case_link_feed(case_link *s,uint32_t epoch,cl_kind kind,const uint8_t *bytes,size_t n,uint64_t now) {
+    return feed(s,epoch,kind,bytes,n,now,false);
+}
+cl_receive case_link_feed_polled_sample(case_link *s,uint32_t epoch,cl_kind kind,const uint8_t *bytes,size_t n,uint64_t now) {
+    if(kind!=CL_THERMAL&&kind!=CL_CHARGE)return CL_REJECTED;
+    return feed(s,epoch,kind,bytes,n,now,true);
 }
 bool case_link_command(case_link *s,uint8_t opcode,uint32_t a,uint32_t b,uint64_t now,uint8_t out[20]) {
     if(!s||!out||!case_link_poll(s,now)||!s->connected||s->pending.active||opcode<1||opcode>4||s->next_request_id>UINT16_MAX)return false;

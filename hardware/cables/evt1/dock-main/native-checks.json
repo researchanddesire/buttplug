@@ -1,0 +1,51 @@
+{
+  "pass": true,
+  "scope": "J102 to J94 pinout, assembly stock and nominal closed-pose FreeCAD route",
+  "conductors": [
+    {
+      "pin": 1,
+      "main": "GND",
+      "pin_board": "GND",
+      "spring": "P91"
+    },
+    {
+      "pin": 2,
+      "main": "PLUG_USB_DM",
+      "pin_board": "DOCK_DM",
+      "spring": "P92"
+    },
+    {
+      "pin": 3,
+      "main": "PLUG_USB_DP",
+      "pin_board": "DOCK_DP",
+      "spring": "P93"
+    },
+    {
+      "pin": 4,
+      "main": "CONTACT_5V",
+      "pin_board": "DOCK_5V",
+      "spring": "P94"
+    }
+  ],
+  "stock_m_per_harness": 0.6,
+  "nominal_closed_pose_route_checked": true,
+  "physical_validation": false,
+  "source_sha256": {
+    "hardware/cables/evt1/dock-main/main-to-pins.yml": "aecf6038bb04ce2597f160ffd7b23f60dd8c2b9ae3c28ed04468c8cd23ac091e",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/dock-wired-system.kicad_pcb": "8900558ca63405ebd44074789897a87331e04c49b1205dbca6e6dea583d8e708",
+    "hardware/pcb/evt1/pins/pins-evt1.kicad_pcb": "3faea1fc2400a41d702ec16b7dd0f9865fa4372babbb825ed40c61603e8f49fa",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/native.xml": "02013ae89f6103bbd447f3074c458a8d644645d8f7b9cdeb3c7ad420f5d5a081",
+    "hardware/pcb/evt1/pins/pins-native.xml": "0b79c9d8ee6c55b8e3bca0699bb4624734d2b7b03987fe3cd9f01639f7410228",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/active-routing.json": "c637a7be9094c3a16659eb17ee7e18deb4703c74c054f9b4fac7901ef2b0b99b",
+    "hardware/pcb/evt1/pins/mcad.json": "85004c375ea2c0b9fe350e0f015bcb71cc3944297c6933f38d12ab444d4d3b3c",
+    "hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd": "c8748a4365db26d9c6bd5b4ffc736ba1ad4af0cf9c9d9226e4d0b2f88e372313",
+    "hardware/cad/evt1-assembly/evt1-wired/contact-harness-check.json": "3f53e222b1be6258afe0559c532e830ce6aca22c80c67acf69536d73f325f592",
+    "hardware/cad/evt1-assembly/evt1-wired/hinge-flex-check.json": "e12c13c1f609400fa630e9b37e9f855650c9548476a6ac4487cfce5779b08018",
+    "hardware/cables/evt1/dock-main/check_main_to_pins.py": "0c1f1a6a60bc5d6f5236b96d9597350fcb6752be9adc5156759f46f358898540"
+  },
+  "export_sha256": {
+    "main-to-pins.bom.tsv": "8cee97c8ef18d7a7e46db17ddb0b008529c930a269f8a72bd4ec9cec8c0bf858",
+    "main-to-pins.svg": "1a61f000dddc64f19280d50780879d6b13138f4851f06d1a380a0f3247867790",
+    "main-to-pins.png": "467e45bfd022ad2dc2bf3f2367970774549f2a8b0fcc3655ac1304297c652d94"
+  }
+}

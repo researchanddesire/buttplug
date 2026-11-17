@@ -1,0 +1,98 @@
+{
+  "C1": {
+    "mpn": "GRM21BR71C475KE51L",
+    "jlc": "C408144",
+    "source": "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BR71C475KE51%22%5D",
+    "note": "0805 X7R 4.7uF +/-10%, 16V. Confirm 1.40mm maximum installed height. Verify C1 biased input bypass and contact inrush, and C2 BAT bias and battery simulator transients with JP1 open.",
+    "value": "4.7uF 16V X7R",
+    "replaces": "4.7uF 10V X7R"
+  },
+  "C2": {
+    "mpn": "GRM21BR71C475KE51L",
+    "jlc": "C408144",
+    "source": "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BR71C475KE51%22%5D",
+    "note": "0805 X7R 4.7uF +/-10%, 16V. Confirm 1.40mm maximum installed height. Verify C1 biased input bypass and contact inrush, and C2 BAT bias and battery simulator transients with JP1 open.",
+    "value": "4.7uF 16V X7R",
+    "replaces": "4.7uF 10V"
+  },
+  "C51": {
+    "mpn": "CL10A106KP8NNNC",
+    "jlc": "C19702",
+    "source": "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106KP8NNN",
+    "note": "0603 X5R 10uF +/-10%, 10V, 0.90mm maximum. Local HF bypass beside the regulator and PGND. At 25C, typical after bias is 4.43uF at 3.3V, 3.97uF at 3.68V and 3.28uF at 4.4V. Verify installed bulk plus HF capacitance, startup and load-step behavior.",
+    "replaces": "10uF 10V X5R 0603 HF",
+    "value": "10uF 10V X5R 0603 HF"
+  },
+  "C52": {
+    "mpn": "CL10A106KP8NNNC",
+    "jlc": "C19702",
+    "source": "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106KP8NNN",
+    "note": "0603 X5R 10uF +/-10%, 10V, 0.90mm maximum. Local HF bypass beside the regulator and PGND. At 25C, typical after bias is 4.43uF at 3.3V, 3.97uF at 3.68V and 3.28uF at 4.4V. Verify installed bulk plus HF capacitance, startup and load-step behavior.",
+    "replaces": "10uF 10V X5R 0603 HF",
+    "value": "10uF 10V X5R 0603 HF"
+  },
+  "C53": {
+    "mpn": "CL10A106KP8NNNC",
+    "jlc": "C19702",
+    "source": "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106KP8NNN",
+    "note": "0603 X5R 10uF +/-10%, 10V, 0.90mm maximum. Local HF bypass beside the regulator and PGND. At 25C, typical after bias is 4.43uF at 3.3V, 3.97uF at 3.68V and 3.28uF at 4.4V. Verify installed bulk plus HF capacitance, startup and load-step behavior.",
+    "replaces": "10uF 10V X5R 0603 HF",
+    "value": "10uF 10V X5R 0603 HF"
+  },
+  "C54": {
+    "mpn": "CL10A106KP8NNNC",
+    "jlc": "C19702",
+    "source": "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106KP8NNN",
+    "note": "0603 X5R 10uF +/-10%, 10V, 0.90mm maximum. Local HF bypass beside the regulator and PGND. At 25C, typical after bias is 4.43uF at 3.3V, 3.97uF at 3.68V and 3.28uF at 4.4V. Verify installed bulk plus HF capacitance, startup and load-step behavior.",
+    "replaces": "10uF 10V X5R 0603 HF",
+    "value": "10uF 10V X5R 0603 HF"
+  },
+  "C33": {
+    "mpn": "C1608X7R1V105K080AC",
+    "jlc": "C2172920",
+    "source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1V105K080AC",
+    "note": "TDK 0603 X7R 1uF +/-10%, 35V and 0.90mm maximum. Source through authorized distribution. Verify biased capacitance, MCU_EN reset pulse and ROM recovery timing on the assembled board.",
+    "replaces": "1uF",
+    "value": "1uF"
+  },
+  "R75": {
+    "mpn": "RC0402FR-0722RL",
+    "jlc": "C114765",
+    "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0722RL",
+    "note": "Fit both USB series positions with the same Yageo 0402 22ohm +/-1% part. Verify USB enumeration, ROM recovery and transfers through assembled dock contacts.",
+    "replaces": "22R",
+    "value": "22R"
+  },
+  "R76": {
+    "mpn": "RC0402FR-0722RL",
+    "jlc": "C114765",
+    "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0722RL",
+    "note": "Fit both USB series positions with the same Yageo 0402 22ohm +/-1% part. Verify USB enumeration, ROM recovery and transfers through assembled dock contacts.",
+    "replaces": "22R",
+    "value": "22R"
+  },
+  "R11": {
+    "mpn": "RT0603BRD07312KL",
+    "jlc": "C861315",
+    "source": "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07312KL/5927923",
+    "note": "Exact 312k ratio preserved with 0603 thin film +/-0.1%, +/-25ppm/K, 0.55mm maximum. Verify cold-start and regulated 3V3 under the normal power sources.",
+    "replaces": "312k 0.1%",
+    "value": "312k 0.1%"
+  },
+  "R43": {
+    "mpn": "ERA-6AEB7153V",
+    "jlc": "C2087398",
+    "source": "https://industrial.panasonic.com/ww/products/pt/high-precision-chip-resistors/models/ERA6AEB7153V",
+    "note": "Exact 715k hot guard resistor, 0805 +/-0.1%, +/-25ppm/K, 0.60mm maximum. Source through authorized distribution. Verify both thermal guard trips before closing JP1.",
+    "replaces": "715k 0.1%",
+    "value": "715k 0.1%"
+  },
+  "R21": {
+    "mpn": "ERA-6AEB364V",
+    "jlc": "C473324",
+    "source": "https://industrial.panasonic.com/ww/products/pt/high-precision-chip-resistors/models/ERA6AEB364V",
+    "note": "0805 thin film 360k +/-0.1%, +/-25ppm/K. With R22 at 100k, nominal MOTOR_3V7 is 3.680V. Source through authorized distribution. Verify loaded motor terminal voltage and first-pulse behavior over the intended SYS range and confirm accepted limits for the received motor.",
+    "value": "360k 0.1%",
+    "replaces": "362k 0.1%"
+  }
+}

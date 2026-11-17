@@ -1,0 +1,42 @@
+metadata:
+  title: Dock Main lid switch loop B
+  notes: Bench stock and pinout. Mark the housing pin 1.
+    Use the switch COM and NO markings and check both lever states.
+    Leave NC open and insulate it.
+options:
+  fontname: Arial
+connectors:
+  J602:
+    type: GH crimp housing
+    manufacturer: JST
+    mpn: GHR-02V-S
+    pins: [1, 2]
+    pinlabels: [LOOP_5V, LID_THERM_SEND]
+  S602:
+    type: Offboard lid switch terminals
+    manufacturer: Omron
+    mpn: D2F-01L
+    pins: [C, "NO", NC]
+    pinlabels: [COM, Normally open, Leave open]
+cables:
+  LOOP:
+    category: bundle
+    type: PTFE stranded wire
+    wirecount: 2
+    wirelabels: [LOOP_5V, LID_THERM_SEND]
+    gauge: 26
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    manufacturer: Allied Wire and Cable
+    mpn: 1371-26-7
+    notes: Two 150 mm starting blanks assumed for bench layout. Trim to fit.
+connections:
+  - - J602: [1, 2]
+    - LOOP: [1, 2]
+    - S602: [C, "NO"]
+additional_bom_items:
+  - description: Tin-plated GH crimp contact
+    manufacturer: JST
+    mpn: SSHL-002T-P0.2
+    qty: 2

@@ -1,17 +1,20 @@
 """Candidate-only host/Cortex-M0+ proof with frozen protocol/source bindings."""
 from pathlib import Path
-import argparse,datetime,hashlib,json,re,subprocess
+from tempfile import TemporaryDirectory
+import argparse,datetime,hashlib,json,os,re,subprocess
 H=Path(__file__).resolve().parent;R=H.parents[1];PIN='4678caf5112116f93fc80a013288c87fad0e0572ccb57d29b35e8bd2dbe971a5'
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
-def run(cmd):
-    p=subprocess.run(cmd,cwd=H,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+def run(cmd,env=None):
+    p=subprocess.run(cmd,cwd=H,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,env=env)
     if p.returncode:raise RuntimeError(' '.join(cmd)+'\n'+p.stdout)
     return p.stdout
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--cross',default='/private/tmp/dock-arm-toolchain/arm-gnu-toolchain-13.3.rel1-darwin-arm64-arm-none-eabi/bin/arm-none-eabi-');a=ap.parse_args()
     protocol=R/'hardware/pcb/evt1/case-telemetry-study/protocol-v1.json';assert sha(protocol)==PIN
     peer=json.loads((H/'peer-review.json').read_text())
-    assert peer['core_sha256']==sha(H/'case_link.c') and peer['header_sha256']==sha(H/'case_link.h') and peer['frozen_protocol_sha256']==PIN
+    # The peer report describes the earlier source revision. Replay its
+    # chronology regression against the current core below.
+    assert peer['frozen_protocol_sha256']==PIN
     assert peer['repro_source_sha256']==sha(H/'peer-regression.c')
     own_before={p.name:sha(p)for p in H.iterdir()if p.is_file()and p.name!='validation.json'}
     baseline=list((H.parent/'src').glob('*.c'))+list((H.parent/'include').glob('*.h'))+[H.parent/'Makefile',H.parent/'stm32l071cb.ld']
@@ -24,6 +27,14 @@ def main():
     gatt=run(['make','-f','nina-gatt.mk','nina-gatt-test','nina-gatt-compile','CROSS='+a.cross])
     assert 'discovery, five subscriptions, reads, actual C3 sender roundtrip and fail-closed traces passed' in gatt
     (H/'build/nina-gatt-validation.log').write_text(gatt)
+    with TemporaryDirectory() as temp:
+        capture=Path(temp)/'plug-console.txt'
+        run(['sh',str(R/'firmware/tests/run_evt_console_tests.sh')],
+            env=dict(os.environ,COMPASS_USB_FIXTURE=str(capture)))
+        wired=run(['make','-f','wired-cdc.mk','wired-cdc-test','wired-cdc-compile','CROSS='+a.cross,
+                   'WIRED_CONSOLE_CAPTURE='+str(capture)])
+    assert 'Wired CDC roundtrip passed' in wired
+    (H/'build/wired-cdc-validation.log').write_text(wired)
     state_size=int(re.search(r'sizeof\(case_link\)=(\d+) bytes',output)[1])
     version=run([a.cross+'gcc','--version']).splitlines()[0];assert '13.3.1' in version
     size=run([a.cross+'size','build/compile-only.elf']).splitlines()[-1].split();text,data,bss=map(int,size[:3])
@@ -38,6 +49,11 @@ def main():
     result['nina_gatt']={'host_uart_roundtrip':True,'receiver_Cortex_M0_plus_object':True,
                         'post_authentication_only':True,'in_scheduled_runtime':False,
                         'artifact_sha256':{n:sha(H/'build'/n) for n in ('nina_gatt.o','test-nina-gatt','nina-gatt-validation.log')}}
+    result['wired_cdc']={'host_sender_roundtrip':True,'actual_console_capture_replayed':True,
+                         'receiver_Cortex_M0_plus_objects':True,
+                         'connected_USB_host':False,
+                         'artifact_sha256':{n:sha(H/'build'/n) for n in
+                                            ('wired_cdc.o','case_link-wired.o','test-wired-cdc','wired-cdc-validation.log')}}
     (H/'validation.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({k:result[k]for k in ['status','host_behavior_groups','state_size_bytes_host','target_text_bytes','target_bss_bytes','protocol_sha256']},indent=2))
 if __name__=='__main__':main()

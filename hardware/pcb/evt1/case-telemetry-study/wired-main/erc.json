@@ -1,0 +1,81 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-13T16:49:28",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/c05cdebc-c490-5e46-9878-35048c9e9e5a",
+            "violations": []
+        },
+        {
+            "path": "/dock-controller/",
+            "uuid_path": "/c05cdebc-c490-5e46-9878-35048c9e9e5a/07223842-8706-5c10-8745-ada101396c63",
+            "violations": []
+        },
+        {
+            "path": "/dock-ui-source/",
+            "uuid_path": "/c05cdebc-c490-5e46-9878-35048c9e9e5a/4d107732-0853-52d7-a3da-56dfb646d99f",
+            "violations": []
+        },
+        {
+            "path": "/wired-usb-data/",
+            "uuid_path": "/c05cdebc-c490-5e46-9878-35048c9e9e5a/52cee4be-873c-5896-9069-ad6c0543430d",
+            "violations": []
+        },
+        {
+            "path": "/dock-lid-ui/",
+            "uuid_path": "/c05cdebc-c490-5e46-9878-35048c9e9e5a/7974da35-f9dc-5114-b1b9-7f0e1c34deb0",
+            "violations": []
+        },
+        {
+            "path": "/dock-uv-base/",
+            "uuid_path": "/c05cdebc-c490-5e46-9878-35048c9e9e5a/98529f94-9517-5dfe-893e-74388b4aedf8",
+            "violations": []
+        },
+        {
+            "path": "/wired-usb-host/",
+            "uuid_path": "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525",
+            "violations": []
+        },
+        {
+            "path": "/dock-safety/",
+            "uuid_path": "/c05cdebc-c490-5e46-9878-35048c9e9e5a/662f5c7c-b554-5549-bd90-ee44d543ac66",
+            "violations": []
+        },
+        {
+            "path": "/dock-uv-lid/",
+            "uuid_path": "/c05cdebc-c490-5e46-9878-35048c9e9e5a/915c3357-4a33-515d-8a9d-6f91b88d73fd",
+            "violations": []
+        },
+        {
+            "path": "/wired-usb-passives/",
+            "uuid_path": "/c05cdebc-c490-5e46-9878-35048c9e9e5a/b8c93e90-7904-514d-93aa-f56f3ca91a8a",
+            "violations": []
+        }
+    ],
+    "source": "dock-wired-transport.kicad_sch"
+}

@@ -1,0 +1,139 @@
+{
+  "scope": "Compiled wired dock firmware on both processors. Installed and powered tests pending.",
+  "sdk_commit": "a1438dff1d38bd9c65dbd693f0e5db4b9ae91779",
+  "tinyusb_commit": "86ad6e56c1700e85f1c5678607a762cfe3aa2f47",
+  "compiler": "arm-none-eabi-gcc (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 13.3.1 20240614",
+  "cmake_options": [
+    "-DPICO_BOARD=pico",
+    "-DPICO_NO_PICOTOOL=1",
+    "-DCOMPASS_WIRED_MAIN=ON"
+  ],
+  "sources_sha256": {
+    "dock-firmware/wired-host-bench/CMakeLists.txt": "04b4712786ec584ec7c12c6b1e1951d8b7405be5805ad055ccd20f6f8e16b1cf",
+    "dock-firmware/wired-host-bench/tusb_config.h": "0e0dee982b3a8f3c174a046b3dd5982c22a35e6f19d6f3a8edeb1875319cc0b1",
+    "dock-firmware/wired-host-bench/main.c": "b35df17996ae377935f54e3e45aa9cfe70c4775fcc792f96f8199dbcefcb91d9",
+    "dock-firmware/case-link-candidate/case_link.c": "426bdbe584aa1b44a2e768fb89691b1fc0c0d1d2cc80bad359c4877cd851679d",
+    "dock-firmware/case-link-candidate/case_link.h": "f378ba5971c8ef7be83f8bb9df6295118244553ca89cfcbaaac802cda51c3d4a",
+    "dock-firmware/case-link-candidate/wired_cdc.c": "d41000b634e7cbe03a16f17c7f917f9a057672d4428db868e7b33b84133569da",
+    "dock-firmware/case-link-candidate/wired_cdc.h": "28fe5aca8b6656bed99c88575c5c1973dabfb86b8c02698c369c50e7e2f64068",
+    "dock-firmware/wired-main/host_bridge.h": "2dac6b1c9ae0510b33b8c90f3dbf13de17a7f7f475dd4b16ffbfc425e8a81e7f",
+    "dock-firmware/wired-main/host_bridge_rp2040.c": "8b279381d3d0d76f066c0ad8d64e9db8ff297b5a2ab33f500a541328b1893410",
+    "dock-firmware/wired-main/host_control.c": "42ba2c94ad0afd231ffda743fdc8499d07e11d6b8ee2489c5e6540af4e75c3ff",
+    "dock-firmware/wired-main/host_control.h": "a85145d4929fdf53673c0dbcb1b37c614597f94a69dc2ad52338874bf8d2f33b",
+    "dock-firmware/wired-main/test_host_control.c": "70d6e995fcc7d371a58b7ff2859f7c8f457726699f3720f4893e7221d3d8caa7"
+  },
+  "arm_size_bytes": {
+    "text": 42976,
+    "data": 0,
+    "bss": 9704
+  },
+  "required_symbols_linked": [
+    "host_bridge_init",
+    "host_bridge_select",
+    "host_bridge_publish",
+    "host_control_step",
+    "i2c_slave_init",
+    "tuh_cdc_mount_cb",
+    "wired_cdc_receive",
+    "watchdog_enable",
+    "set_sys_clock_48mhz",
+    "tuh_cdc_read_clear",
+    "tuh_cdc_write_clear",
+    "case_link_new_session",
+    "wired_cdc_next_request"
+  ],
+  "absent_symbols_verified": [
+    "stdio_uart_init",
+    "tuh_cdc_set_control_line_state"
+  ],
+  "artifacts_sha256": {
+    "compass_wired_host.bin": "7e848e447d1c2985fa0ba27a180bd27d69fa43111f18fedae2253482b1136e5d",
+    "compass_wired_host.hex": "994cb9a731a737d42005de5fd3ebea83ed5bcf0bb4332b8d2871321c2a484cfa",
+    "compass_wired_host.elf": "4c77aabd30a33a6acd96c25ea905511a07246ce302a9c188b644caf73e762e09"
+  },
+  "host_control_test": "passed with Clang UBSan and -Wall -Wextra -Werror",
+  "stock_bench_bin_and_hex": "both variants rebuilt byte-identical",
+  "stm32": {
+    "profile": "wired",
+    "sense_milliohm": 4220,
+    "arm_size_bytes": {
+      "text": 7972,
+      "data": 4,
+      "bss": 1076
+    },
+    "required_symbols_linked": [
+      "board_host_bus_init",
+      "board_host_bus_transfer",
+      "host_client_step",
+      "lcd_render_host",
+      "dock_step",
+      "board_watchdog_heartbeat"
+    ],
+    "artifacts_sha256": {
+      "dock-evt1.bin": "9764c13ae022fb934584f8349b722d209810c25fa035616a930a40301100d4df",
+      "dock-evt1.hex": "dba0fb8660b666a40024fce6339bbbbeee3550d03c20191f32928f454cecbab6",
+      "dock-evt1.elf": "0b495037fa19dd2e359a0f1630e4c569d3301662b461381b81f53789a332b559"
+    },
+    "source_sha256": {
+      "dock-firmware/Makefile": "70086a68ad24b11d4319bd2f3888c6e8ac3f43df654af836811bada0f9bcd9be",
+      "dock-firmware/include/board.h": "2bec4079bbbc3bab8906e5f6d47b7b2cee873416467f8dbe525df444c9855e65",
+      "dock-firmware/include/board_pins.h": "50b8100ca8064fa83b7c08c8e56defd781b94098325d6c68aa9fac78760322ab",
+      "dock-firmware/include/dock_app.h": "7820b81f1770be8cb34fe269a7a0ad8d7fe497013b9e1194e46036d9e574d01e",
+      "dock-firmware/include/lcd.h": "ff1b9925343436d393a9226e597f4ec96c6e5abecb085de0c5454dd1fb173091",
+      "dock-firmware/src/board_stm32l071.c": "4ae9bc81367c94de16cb25b67560ecda0a4ff333ca4523a2ba94672b4ee866e2",
+      "dock-firmware/src/dock_app.c": "8e2203485aca0e891592767b24d5599b71161a0f868c3b19dd4be62d7127fdba",
+      "dock-firmware/src/host_bus_stm32.c": "144a36413d50504610af22089780e87a103733a0f6a0a06389d02a91ac213cea",
+      "dock-firmware/src/lcd.c": "dff97a19733fb7b2e218d3777c5e5e36c993d62353ac821910b780814dae1541",
+      "dock-firmware/src/main.c": "10ec43c82006d0358b9bbca01d094c0d981711790f94052231c9dda060e5216c",
+      "dock-firmware/src/ntc.c": "115c46a355b7d27ae498d3c559cb1ce5a5f395f91e659f728905ad93be8cf845",
+      "dock-firmware/src/runtime.c": "bf0abc090687222416ebf6df000735d95ce5b4b1019aad7f2c84317a6d9736ea",
+      "dock-firmware/src/startup.c": "339e52dac6e51770db504a56a7857844781052dee293f589aa61b6cf797dbaca",
+      "dock-firmware/stm32l071cb.ld": "afa88f4347d4b8571bb1b5cc6da3401c65eeaed159885ad729e992a8220b6020",
+      "dock-firmware/tests/run.sh": "1b00163079da8a4dc16cd2ba9496ba4fcbb8db4f0af7f50b117f0b88aaa44265",
+      "dock-firmware/tests/test_behavior.c": "d40af97aecfd74d13e9cf6bf47da9d07f4e394b6c4bd1a8131441bbf3762f159",
+      "dock-firmware/wired-main/check_builds.py": "701c4a7d26b84db60edbe6aac85141a0ebcee8b369b8f961788502c94010154b",
+      "dock-firmware/wired-main/host_client.c": "56a7328c268cf9956a0d58a60dffa644f980e0722bfecc694f05d948cdeed1ad",
+      "dock-firmware/wired-main/host_client.h": "4dc12fedd5f999a1d3bd33d1047657e42d1859667e6402eca7ea8c67e936208f",
+      "dock-firmware/wired-main/test_host_client.c": "cffb14085abf7f54f6e5361995e5bf65853bf6faedd4f237d6b053a32ac5b4f3"
+    },
+    "default_direct_image_bin_unchanged": true
+  },
+  "schematic_binding": {
+    "native_xml_sha256": "02013ae89f6103bbd447f3074c458a8d644645d8f7b9cdeb3c7ad420f5d5a081",
+    "terminals": {
+      "U201.5": "USB_HOST_SCL",
+      "U201.6": "USB_HOST_SDA",
+      "U162.2": "USB_HOST_SDA",
+      "U162.3": "RP_SDA",
+      "U162.5": "USB_HOST_SCL",
+      "U162.6": "RP_SCL",
+      "U160.2": "RP_SDA",
+      "U160.3": "RP_SCL",
+      "U160.4": "RP_LOCAL_READY",
+      "U160.5": "RP_USB_BREAK",
+      "U160.6": "RP_CONTACT_OK",
+      "U160.7": "RP_LIMIT_FAULTn"
+    },
+    "matched_MPNs": {
+      "R107": "RT0603BRD0740K2L",
+      "R401": "CRCW08054R22FKEA",
+      "R501": "CRCW08054R22FKEA"
+    }
+  },
+  "retained_event_replay": {
+    "host_actual_sender_roundtrip": true,
+    "tested": [
+      "long-gap reconnect",
+      "invalid attempt followed by valid reading",
+      "rapid redock",
+      "different retained event rejected",
+      "plug reboot"
+    ],
+    "source_sha256": {
+      "dock-firmware/case-link-candidate/test_wired_cdc.c": "6242ad0cec9db849702622c21d7678f5e4b882c5bf8655d1a0e5a6653da9be89",
+      "dock-firmware/case-link-candidate/wired-cdc.mk": "1f15c7964e035a28bcfa772506eee7eb4cb607e7cbae5138c36df672e686e64d",
+      "firmware/main/case_telemetry.c": "1a5078f1ffe9b1527b62c689c85e003ed24f2eebb002f4fbaa6e3e556d1efef0",
+      "firmware/main/thermal_history.c": "ed64c9bbe5414a608d83e1f6fff479e8b463771a8b9ffd44d55d8444ae970988"
+    }
+  }
+}

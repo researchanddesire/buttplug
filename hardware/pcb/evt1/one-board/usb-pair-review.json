@@ -1,0 +1,275 @@
+{
+  "scope": "EVT1 one-board product, ESP32 U6 USB connection to the R75/R76 series resistors. Coordinates are KiCad board mm.",
+  "source_bindings": {
+    "pre_route_board_sha256": "78699058c97173d1063be70d810b691ec977230c2e9b0772c55c384de2020d94",
+    "routed_board_sha256": "518e77b054693c97eb66c22584b5243ed0e12db436e873c057fdaf5758731029",
+    "unchanged_project_sha256": "477505e8cbcba289de73469ae7f4a40ddd92504078506c1e52a470e83bf50aa8",
+    "native_drc_sha256": "87337acea6714f27567e2dd74d9724d278579d644961c40f769912c5a43a1484",
+    "native_pad_contract_sha256": "2b75e1bf4b0c5962398422db5df606b774f8adc9381b604e96c05583f1b4cbe4"
+  },
+  "geometry": {
+    "paths": {
+      "USB_DP": {
+        "module_to_series_resistor_F_Cu": {
+          "width_mm": 0.15,
+          "ordered_points_mm": [
+            [
+              72.4,
+              105.0
+            ],
+            [
+              72.4,
+              104.7
+            ],
+            [
+              74.0,
+              103.1
+            ],
+            [
+              76.2,
+              103.1
+            ],
+            [
+              77.5,
+              101.8
+            ],
+            [
+              77.5,
+              95.9
+            ],
+            [
+              79.9,
+              93.5
+            ]
+          ],
+          "centerline_mm": 15.895332,
+          "In1_plane_projection_covered_mm": 15.06698
+        },
+        "module_B_Cu": {
+          "ordered_points_mm": [
+            [
+              72.4,
+              105.9
+            ],
+            [
+              72.4,
+              105.0
+            ]
+          ],
+          "centerline_mm": 0.9,
+          "In2_plane_projection_covered_mm": 0.4995
+        },
+        "series_resistor_B_Cu": {
+          "ordered_points_mm": [
+            [
+              79.9,
+              93.5
+            ],
+            [
+              80.69,
+              93.5
+            ]
+          ],
+          "centerline_mm": 0.79
+        },
+        "J4_service_branch_In2_Cu": {
+          "ordered_points_mm": [
+            [
+              72.4,
+              105
+            ],
+            [
+              73.6,
+              103.7
+            ],
+            [
+              84,
+              103.7
+            ],
+            [
+              85,
+              104.7
+            ]
+          ],
+          "centerline_mm": 13.583394,
+          "existing_B_Cu_from_via_to_pad_mm": 1.3
+        }
+      },
+      "USB_DM": {
+        "module_to_series_resistor_F_Cu": {
+          "width_mm": 0.15,
+          "ordered_points_mm": [
+            [
+              73.2,
+              105
+            ],
+            [
+              73.2,
+              104.395
+            ],
+            [
+              74.145,
+              103.45
+            ],
+            [
+              76.345,
+              103.45
+            ],
+            [
+              77.85,
+              101.945
+            ],
+            [
+              77.85,
+              101.5
+            ],
+            [
+              78.05,
+              101.3
+            ],
+            [
+              79.55,
+              101.3
+            ],
+            [
+              79.75,
+              101.1
+            ],
+            [
+              79.75,
+              99.9
+            ],
+            [
+              79.55,
+              99.7
+            ],
+            [
+              78.05,
+              99.7
+            ],
+            [
+              77.85,
+              99.5
+            ],
+            [
+              77.85,
+              98.55
+            ],
+            [
+              79.9,
+              96.5
+            ]
+          ],
+          "centerline_mm": 15.895332,
+          "In1_plane_projection_covered_mm": 15.094332
+        },
+        "module_B_Cu": {
+          "ordered_points_mm": [
+            [
+              73.2,
+              105.9
+            ],
+            [
+              73.2,
+              105
+            ]
+          ],
+          "centerline_mm": 0.9,
+          "In2_plane_projection_covered_mm": 0.4995
+        },
+        "series_resistor_B_Cu": {
+          "ordered_points_mm": [
+            [
+              79.9,
+              96.5
+            ],
+            [
+              80.69,
+              96.5
+            ]
+          ],
+          "centerline_mm": 0.79
+        },
+        "J4_service_branch_In2_Cu": {
+          "ordered_points_mm": [
+            [
+              73.2,
+              105
+            ],
+            [
+              73.9,
+              105.7
+            ],
+            [
+              85,
+              105.7
+            ],
+            [
+              86,
+              104.7
+            ]
+          ],
+          "centerline_mm": 13.504163,
+          "existing_B_Cu_from_via_to_pad_mm": 1.3
+        }
+      }
+    },
+    "minimum_F_Cu_edge_spacing_mm": 0.2,
+    "added_ground_via": {
+      "center_mm": [
+        72.9,
+        103.4
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2
+    },
+    "ground_stitches_in_filled_In1_and_In2_mm": [
+      [
+        71.2,
+        104.5
+      ],
+      [
+        72.9,
+        103.4
+      ],
+      [
+        80.3,
+        95
+      ]
+    ],
+    "removed_redundant_module_via_centers_mm": [
+      [
+        72.4,
+        107.1
+      ],
+      [
+        73.2,
+        107.1
+      ]
+    ],
+    "measured_plane_gaps": "Projection gaps on F at the two signal via antipads only. The J4 service branch remains on In2."
+  },
+  "preserved": {
+    "USB_DP_CONTACT_copper_items": 21,
+    "USB_DM_CONTACT_copper_items": 22,
+    "other_non_ground_copper_items": 1482,
+    "existing_ground_copper_items": 380,
+    "zone_definitions": 27,
+    "footprint_records": 112,
+    "native_project_bytes": true
+  },
+  "verification": {
+    "pcbnew_replay": "Identical normalized copper after replay with apply_usb_pair.py. New UUIDs are assigned by KiCad.",
+    "kicad_version": "10.0.8",
+    "native_DRC_violations": 6,
+    "native_DRC_unconnected": 1,
+    "native_DRC_schematic_parity": 0,
+    "native_DRC_USB_findings": 0,
+    "placement_pad_contract": "108 designators, 356 logical assignments, 402 physical pad occurrences, zero value/library mismatches."
+  },
+  "pending": [
+    "Confirm controlled-impedance fabrication stack and coupon.",
+    "Check installed USB enumerate, ROM recovery and data under contact variation.",
+    "Measure the installed route with the J4 branch and connector present."
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "status": "pass: frozen geometry exact except the authorized U75/U71 translations",
+  "status": "pass: frozen geometry exact except authorized U75/U71 translations and CT1\u2013CT4 drill diameters",
   "frozen_study_board_sha256": "dbee456340fed934cc351033cd21c931a020539e8d5de89ccaff7029eafef284",
-  "routed_candidate_board_sha256": "b03c5ad9541e2e10d8a9097ae05d14ded36d2ebb1534d0a0c33b38f99a64f2b1",
+  "routed_candidate_board_sha256": "bd1d834974698c49e7bfe886a0ead1d0fb34d7bce1f324bef01f03695cfb707a",
   "preserved_electrical_positions": 37,
   "authorized_position_exceptions": {
     "U75": {
@@ -26,8 +26,19 @@
     }
   },
   "authorized_repair_sha256": "1f325e2ece5c1f72b70d53244116f15a91e212e6be561b90036aeec57c00946e",
+  "authorized_target_drill_mm": {
+    "references": [
+      "CT1",
+      "CT2",
+      "CT3",
+      "CT4"
+    ],
+    "from": 0.8636,
+    "to": 1.02,
+    "unchanged_land_diameter": 3.2
+  },
   "preserved_mechanical_NPTH": 4,
-  "footprint_and_pad_and_model_tokens_exact_except_schematic_path_and_two_authorized_global_positions": true,
+  "footprint_pad_and_model_tokens_exact_except_schematic_path_and_authorized_position_and_drill_changes": true,
   "outline_edge_UUIDs_and_geometry_exact": true,
   "nominal_board_mm": 1,
   "Cu_layers": 4,
@@ -37,7 +48,7 @@
     "Selected.pretty/C_0805_2012Metric.kicad_mod": "840765237e65f871e4fe355261b5c25f07f55fb2679f64bb97e07d574fe08fc1",
     "Selected.pretty/Espressif_ESP32-C3-MINI-1_53Pads.kicad_mod": "5c86b48520e4c45bd275220b81ab26beb120dd09e1cb0f3fe2de82f81c70a6c8",
     "Selected.pretty/Diodes_B140HW_SOD123_A1_K2.kicad_mod": "bc7ee774059bea3901892208809ea3a9238f37ccd1f22bac73233f436ded2317",
-    "Selected.pretty/MillMax_1946_0_PTH_Study.kicad_mod": "5105d36c3cdf4656e8b87ad9e70407c4de3ced209b7db7cee1be6c3f2643bd5b",
+    "Selected.pretty/MillMax_1946_0_PTH_Study.kicad_mod": "3f2e4202a661c51336e8200461e0515d3b75a65fbf1bc8d97ebee8fd83d1469c",
     "Selected.pretty/JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal.kicad_mod": "849733b56a0929464f2640134e65a9b6572547af656b1065a9a882eff35190a6",
     "Selected.pretty/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.kicad_mod": "e48875ebefc87c73ce227138bcc914a31f04d29864789d1d4edf6e9a1195f2ea",
     "Selected.pretty/LGA-12_2x2mm_P0.5mm.kicad_mod": "951f30297b11a9c5d22361c8e17776a1d531f1c8f79a38a8f1360cadbe7a5173",

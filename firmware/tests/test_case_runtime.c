@@ -70,8 +70,20 @@ int main(void) {
     assert(ct_runtime_read(&runtime,1,CT_RESULT,out)&&out[1]==CT_OK);
     command(bytes,2,1,500);assert(ct_runtime_enqueue(&runtime,1,bytes,now));
     assert(ct_runtime_open(&runtime,2)&&ct_runtime_open(&runtime,3)&&!ct_runtime_open(&runtime,4));
-    assert(ct_runtime_enqueue(&runtime,2,bytes,now)&&ct_runtime_enqueue(&runtime,3,bytes,now));
-    assert(runtime.command_count==CT_PEER_CAPACITY);update();assert(runtime.command_count==0);
-    puts("Case runtime: peer isolation, handle epochs, dead queued requests, bounded backpressure/retry, subscription filtering and1Hz coalescing pass.");
+    ct_runtime_close(&runtime,3);
+    assert(ct_runtime_open(&runtime,0) && !ct_runtime_open(&runtime,CT_USB_CONNECTION+1));
+    assert(ct_runtime_open(&runtime,CT_USB_CONNECTION));
+    assert(ct_runtime_enqueue(&runtime,2,bytes,now)&&ct_runtime_enqueue(&runtime,0,bytes,now));
+    assert(!ct_runtime_peek(&runtime,CT_USB_CONNECTION,CT_ROUTINE_MASK,now,&tx));
+    command(bytes,2,1,234);
+    assert(ct_runtime_enqueue(&runtime,CT_USB_CONNECTION,bytes,now));
+    assert(runtime.command_count==CT_RUNTIME_CAPACITY);update();assert(runtime.command_count==0);
+    assert(ct_runtime_read(&runtime,0,CT_RESULT,out)&&out[16]==244);
+    assert(ct_runtime_peek(&runtime,CT_USB_CONNECTION,UINT8_MAX,now,&tx)&&tx.packet.data[16]==234);
+    ct_runtime_sent(&runtime,CT_USB_CONNECTION,&tx);
+    assert(!ct_runtime_peek(&runtime,CT_USB_CONNECTION,UINT8_MAX,now,&tx));
+    ct_runtime_close(&runtime,CT_USB_CONNECTION);
+    assert(ct_runtime_read(&runtime,0,CT_RESULT,out)&&out[16]==244);
+    puts("Case runtime: BLE/USB peer isolation, handle epochs, dead queued requests, bounded backpressure/retry, subscription filtering and1Hz coalescing pass.");
     return 0;
 }

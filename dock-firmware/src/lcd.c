@@ -84,3 +84,54 @@ void lcd_render(const dock_app *a,const dock_inputs *i){
     text(6,0,a->state==DOCK_RUNNING?"CENTER: STOP":"HOLD L+R: CONTRAST");
     text(7,0,"UNQUALIFIED UV TRIAL");
 }
+#ifdef DOCK_WIRED_MAIN
+static void clear_row(unsigned row)
+{
+    for (unsigned x = 0; x < 128; ++x) pixels[row * 128 + x] = 0;
+}
+
+void lcd_render_host(const host_client *host, bool qualified, bool mode_access)
+{
+    if (!mode_access && !host->local_requested) return;
+    if (mode_access) {
+        clear_row(1);
+        text(1, 0, "UV INTERLOCK OPEN");
+    }
+    clear_row(5);
+    if (!qualified) {
+        text(5, 0, "USB: PC");
+    } else if (host->mode_pending ||
+               (host->have_status && ((host->flags & HOST_STATUS_TRANSITION) ||
+                (!host->local_requested && (host->flags & HOST_STATUS_LOCAL))))) {
+        text(5, 0, "USB: SWITCHING");
+    } else if (!host->local_requested) {
+        text(5, 0, "HOLD R: LOCAL USB");
+    } else if (host->have_status && (host->flags & HOST_STATUS_TIP_VALID)) {
+        int32_t centi = host->tip_centi_c;
+        unsigned col = 4;
+        text(5, 0, "TIP");
+        if (centi < 0) {
+            text(5, col++, "-");
+            centi = -centi;
+        }
+        unsigned whole = (unsigned)centi / 100u;
+        number(5, col, whole);
+        col += whole >= 100 ? 3 : (whole >= 10 ? 2 : 1);
+        text(5, col, ".");
+        number(5, col + 1, ((unsigned)centi / 10u) % 10u);
+        text(5, col + 3, "C");
+    } else if (host->have_status && (host->flags & HOST_STATUS_FAULT)) {
+        text(5, 0, "USB HOST FAULT");
+    } else if (!host->have_status || !(host->flags & HOST_STATUS_LOCAL)) {
+        text(5, 0, "LOCAL USB WAIT");
+    } else if (!(host->flags & HOST_STATUS_ATTACHED)) {
+        text(5, 0, "WAIT FOR USB DEVICE");
+    } else {
+        text(5, 0, "TIP: NO FRESH DATA");
+    }
+    if (qualified && mode_access && host->local_requested) {
+        clear_row(6);
+        text(6, 0, "HOLD R: PC USB");
+    }
+}
+#endif

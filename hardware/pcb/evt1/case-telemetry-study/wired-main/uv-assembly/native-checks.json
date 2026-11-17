@@ -1,0 +1,176 @@
+{
+  "native_KiCad": "10.0.8",
+  "sources_sha256": {
+    "dock-firmware/Makefile": "70086a68ad24b11d4319bd2f3888c6e8ac3f43df654af836811bada0f9bcd9be",
+    "dock-firmware/include/dock_app.h": "7820b81f1770be8cb34fe269a7a0ad8d7fe497013b9e1194e46036d9e574d01e",
+    "dock-firmware/src/dock_app.c": "8e2203485aca0e891592767b24d5599b71161a0f868c3b19dd4be62d7127fdba",
+    "hardware/pcb/evt1/case-radio-uv/base/case-radio-uv-base-supplier-quote.zip": "b3bc81f57c92e2be90d7f7e91d6eb2def2f231833f63bb917a81a0e2e7b5357a",
+    "hardware/pcb/evt1/case-radio-uv/base/pcb/dock-uv-base.kicad_pcb": "dd19e47f8c76bd5739bdc335979bb5f3d265bebc38f0d1592a666d80cfdb5364",
+    "hardware/pcb/evt1/case-radio-uv/base/pcb/dock-uv-base.kicad_pro": "1567d62de60ba8100a4a22a052a4ae59ac4e9d84ae1fb22b888af5def5b545bc",
+    "hardware/pcb/evt1/case-radio-uv/base/pcb/native-drc.json": "f2902f8aace28cdecf0e9896b06f097686b2b33539b319ff55fb017351ae1bb6",
+    "hardware/pcb/evt1/case-radio-uv/build_quotes.py": "24c8999f8db35c2d31d4ca2518d87247dd2938351276693793ec115318d07ffc",
+    "hardware/pcb/evt1/case-radio-uv/lid/case-radio-uv-lid-supplier-quote.zip": "a357593f2e72b7828a450e88350b73e99b81a8a1d64a019205a7f3d943128c83",
+    "hardware/pcb/evt1/case-radio-uv/lid/pcb/dock-uv-lid.kicad_pcb": "3b398d708bea7d392f5c02e7099b69e7d595c855c576e0a9233cf9ddab2c4c4c",
+    "hardware/pcb/evt1/case-radio-uv/lid/pcb/dock-uv-lid.kicad_pro": "15ca47e1def54f5fde78bb9450de79cae378df2e832895af79bc8f84a3932ffc",
+    "hardware/pcb/evt1/case-radio-uv/lid/pcb/native-drc.json": "9f99a3fd42f91151ac8cb982f35474620e3bc4fa9b59c571430e5bc00cdb4c44",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/circuit-contract.json": "bd6fac097c73a2724aaa3d3d402695281610460638fdeaeca45f03b98c076aa9",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/native-checks.json": "b242d32027db657d324ff96e66ac44180b14a94914c84e59d579ce1fd2ff5f7c",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/native.xml": "02013ae89f6103bbd447f3074c458a8d644645d8f7b9cdeb3c7ad420f5d5a081",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/uv-assembly/build_quotes.py": "59f1cf5ceb225891bbf145263ac1f9552617ea929b1ef0baa7d864131effbb23",
+    "hardware/pcb/evt1/dock-uv/base/pcb/fabrication-review/uv-base-supplier-review.zip": "1796dd17995982aebd785a51ffe999ca60fc40806c72d901d814c7fa111c2bac",
+    "hardware/pcb/evt1/dock-uv/lid/pcb/fabrication-review/uv-lid-supplier-review.zip": "43714892cd98cd11f8dec67706a84524949f32026781ad65a3c552a170416aa0"
+  },
+  "runtime": {
+    "command": "make -C dock-firmware PROFILE=wired",
+    "sense_milliohm": 4220,
+    "fallback_direct_profile_milliohm": 3650,
+    "compile_flags_replayed": true
+  },
+  "boards": {
+    "base": {
+      "scope": "Wired Main UV base engineering quote",
+      "board_sha256": "dd19e47f8c76bd5739bdc335979bb5f3d265bebc38f0d1592a666d80cfdb5364",
+      "wired_native_netlist_sha256": "02013ae89f6103bbd447f3074c458a8d644645d8f7b9cdeb3c7ad420f5d5a081",
+      "coupled_configuration": {
+        "Main_R107": {
+          "resistance_ohm": 40200,
+          "mpn": "RT0603BRD0740K2L"
+        },
+        "UV_R401_R501": {
+          "resistance_ohm": 4.22,
+          "mpn": "CRCW08054R22FKEA"
+        },
+        "firmware_profile": "wired",
+        "sense_milliohm": 4220
+      },
+      "populated_sense_reference": "R401",
+      "purchased_placements": 20,
+      "remote_parts": 2,
+      "physical_pads_checked": 61,
+      "native_drc_errors": 0,
+      "native_drc_unconnected": 0,
+      "inherited_DRC_ignored_checks": [
+        "missing_courtyard",
+        "track_not_centered_on_via",
+        "tuning_profile_track_geometries",
+        "footprint_filters_mismatch",
+        "pth_inside_courtyard",
+        "npth_inside_courtyard",
+        "footprint_type_mismatch"
+      ],
+      "identical_fabrication_files": [
+        "dock-uv-base-B_Cu.gbl",
+        "dock-uv-base-B_Mask.gbs",
+        "dock-uv-base-B_Paste.gbp",
+        "dock-uv-base-B_Silkscreen.gbo",
+        "dock-uv-base-Edge_Cuts.gm1",
+        "dock-uv-base-F_Cu.gtl",
+        "dock-uv-base-F_Mask.gts",
+        "dock-uv-base-F_Paste.gtp",
+        "dock-uv-base-F_Silkscreen.gto",
+        "dock-uv-base-NPTH.drl",
+        "dock-uv-base-PTH.drl",
+        "dock-uv-base-job.gbrjob",
+        "drill-report.txt"
+      ],
+      "files_sha256": {
+        "README.md": "7c9c322f12544cbeeb44415411efd9f01dd26cae2f91170e0df0a10779592701",
+        "checks/native-drc.json": "f2902f8aace28cdecf0e9896b06f097686b2b33539b319ff55fb017351ae1bb6",
+        "checks/wired-pad-net-parity.json": "434842be837704c018cb719f807b6ad1874e84ef971306e65fe7f910a7fdbeff",
+        "dock-uv-base-B_Cu.gbl": "1e90ac4692a4aa39614fd85a9c45ab02499d81467aceeffb4a96179a01092206",
+        "dock-uv-base-B_Mask.gbs": "38473b6bbf46ae0bfcff5f3b937c4d99605a6a9e8160b68c7fe52bf8b5c0e805",
+        "dock-uv-base-B_Paste.gbp": "63a74bf862ef41a97ccd2911478363b06de8a2aac0f1590ebf4d2f7637912c28",
+        "dock-uv-base-B_Silkscreen.gbo": "b4d93513a9286cf9e7ce4dd90d4cb0746cc298cbccc3f823c6910a36b3cb3ecc",
+        "dock-uv-base-Edge_Cuts.gm1": "a1fac865e2611b25a61b99933e7f815fe138beada685650a20903a83399bc6bd",
+        "dock-uv-base-F_Cu.gtl": "b51ec822aeeab5eeba9ddba03c4b6a494e5291e54bca16affc71a4e5ce8cf136",
+        "dock-uv-base-F_Mask.gts": "612dd76c08fc316685752d111ee2d5064c4c93257d5dd5a92741c484f6b21265",
+        "dock-uv-base-F_Paste.gtp": "1233f42d5952e0ec70a0e095d1cd13e98847bd8d78f6e1ca4894f7d3ca0f316c",
+        "dock-uv-base-F_Silkscreen.gto": "a88a6f4e1542d9081b9f40c97248c608badcd272a42e6bc2b96419a6c73e81da",
+        "dock-uv-base-NPTH.drl": "94532132e0f351e4b55f4da799fa774022c1811f95fd1de7afc31b135d508903",
+        "dock-uv-base-PTH.drl": "db4d26a9372020c213e95d19aa05c286c7e41705851731c61899aa58498bc0ff",
+        "dock-uv-base-job.gbrjob": "1a972743eaabbfbdce51b97d8a2a0f179d571792b6b578237a4ab49a7579ee7a",
+        "drill-report.txt": "dfcf38090664f5c9a55cb606dfff8d3348780bd771b0ce9ac979c5fd0e3b15ac",
+        "native-all-positions.csv": "f4a23671586c09b9bc81415b3b9e243a623bd2c334fcbbb6e90f937431af8dbb",
+        "onboard-selected-parts.csv": "7cbd84a9b59e9b727ee991d97311ce74f51eaf78098e239fc9d23fcd96e700b3",
+        "purchased-positions.csv": "0a0f8f727c5977da5b70726b58ffb715f3cf91632a7a6c044945e7d2a76a17fc",
+        "remote-thermal-parts.csv": "b57788e77f90f6bd2c5e4ec0ae0f5fdb321cec79b472447ebe63492ac7be623f"
+      },
+      "supplier_acceptance": false,
+      "powered_validation": false,
+      "quote_sha256": "22b58e6f39ff6da776a2ee47c367d8918a2cdafc2190789e8573a4c25ffb531e"
+    },
+    "lid": {
+      "scope": "Wired Main UV lid engineering quote",
+      "board_sha256": "3b398d708bea7d392f5c02e7099b69e7d595c855c576e0a9233cf9ddab2c4c4c",
+      "wired_native_netlist_sha256": "02013ae89f6103bbd447f3074c458a8d644645d8f7b9cdeb3c7ad420f5d5a081",
+      "coupled_configuration": {
+        "Main_R107": {
+          "resistance_ohm": 40200,
+          "mpn": "RT0603BRD0740K2L"
+        },
+        "UV_R401_R501": {
+          "resistance_ohm": 4.22,
+          "mpn": "CRCW08054R22FKEA"
+        },
+        "firmware_profile": "wired",
+        "sense_milliohm": 4220
+      },
+      "populated_sense_reference": "R501",
+      "purchased_placements": 20,
+      "remote_parts": 2,
+      "physical_pads_checked": 61,
+      "native_drc_errors": 0,
+      "native_drc_unconnected": 0,
+      "inherited_DRC_ignored_checks": [
+        "missing_courtyard",
+        "track_not_centered_on_via",
+        "tuning_profile_track_geometries",
+        "footprint_filters_mismatch",
+        "pth_inside_courtyard",
+        "npth_inside_courtyard",
+        "footprint_type_mismatch"
+      ],
+      "identical_fabrication_files": [
+        "dock-uv-lid-B_Cu.gbl",
+        "dock-uv-lid-B_Mask.gbs",
+        "dock-uv-lid-B_Paste.gbp",
+        "dock-uv-lid-B_Silkscreen.gbo",
+        "dock-uv-lid-Edge_Cuts.gm1",
+        "dock-uv-lid-F_Cu.gtl",
+        "dock-uv-lid-F_Mask.gts",
+        "dock-uv-lid-F_Paste.gtp",
+        "dock-uv-lid-F_Silkscreen.gto",
+        "dock-uv-lid-NPTH.drl",
+        "dock-uv-lid-PTH.drl",
+        "dock-uv-lid-job.gbrjob",
+        "drill-report.txt"
+      ],
+      "files_sha256": {
+        "README.md": "e11e9beddb81bcacab8c9f191c3329d6c13948dd078f973cee711fdd70f5d46e",
+        "checks/native-drc.json": "9f99a3fd42f91151ac8cb982f35474620e3bc4fa9b59c571430e5bc00cdb4c44",
+        "checks/wired-pad-net-parity.json": "86f5433de548600c9a2ceab8279acbe4202b7f38b69b874dd7f333af9eb06adc",
+        "dock-uv-lid-B_Cu.gbl": "37efb3c727856fd6633e080356270873f08d0b4c69124d58932c06061bd4bdc4",
+        "dock-uv-lid-B_Mask.gbs": "e86ba798020ac55d36421a36e5ac265306d339f65f96a448c73fb12d0f8cc5c6",
+        "dock-uv-lid-B_Paste.gbp": "b3521c290c2c59d4a3cf7dbc730d405dac4c0c9d21c12fe5e3d410be8c74404b",
+        "dock-uv-lid-B_Silkscreen.gbo": "12894270d127927b23eeed65d4d34a21ee37c7f078c0e0f6b7fc9cb94446934b",
+        "dock-uv-lid-Edge_Cuts.gm1": "a9eab707e6b1e6f04d4317970ce884a6a477adc3d5dd76a4e29f1699f7d06dfd",
+        "dock-uv-lid-F_Cu.gtl": "1a29deb8c188e1e92620d07c33a76b5dcc515f5f188dcf2ef7a15f198661dd27",
+        "dock-uv-lid-F_Mask.gts": "2f5a461f3996ddb2cca490cd1f8a45f26b2f1630a7e8c9dbbb0b1906f9ad3586",
+        "dock-uv-lid-F_Paste.gtp": "ea5467fb92ca1df3ce031a4ef2ec937d4f6fa99e36f1bc71bb4f86faf8065f6c",
+        "dock-uv-lid-F_Silkscreen.gto": "8642d6ed9f1d575832677c60b3b80ca4abc0cf4a1b168c7cc3bf0dbca438af2d",
+        "dock-uv-lid-NPTH.drl": "85188c282644e072b22c4f1731c1a603301f202b6cebadbc8bc4a3bdf5032f27",
+        "dock-uv-lid-PTH.drl": "b546ac4a488c8ce8df6942784dde779f813b2eed8fc00e3f4be6999833ed86ee",
+        "dock-uv-lid-job.gbrjob": "dfc047100f7746976755e6548c2f01009de99e9e03057fc9eadd474836675835",
+        "drill-report.txt": "c76fb94f3de01d5e65944b2f44192f231fde906ef9b204647458dc4b99ab1228",
+        "native-all-positions.csv": "3155d61f5e5d3c2f1c82cbd57dfc130b33906bae385bae7176323575d361420c",
+        "onboard-selected-parts.csv": "fb40af1b4fe3dad9bc526534983e3e8d1e9fc8a6a87713ec2a351303f45abe78",
+        "purchased-positions.csv": "1f6ccc9a0761adcf24fc5ec712e9a4929a5951ff25b3789dba18c983d6a49a05",
+        "remote-thermal-parts.csv": "1a61cafc6eae8bbfcc11517b06c5cb464d48ec05d58d371318a913edd596f1f7"
+      },
+      "supplier_acceptance": false,
+      "powered_validation": false,
+      "quote_sha256": "858c773070903590bc9f9f7bf8f70abc10e5a8b807c5d89d240f8df3206866d3"
+    }
+  },
+  "full_product_order_ready": false
+}

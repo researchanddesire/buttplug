@@ -1,0 +1,80 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-17T01:03:10",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1",
+            "violations": []
+        },
+        {
+            "path": "/Power path and 3V3/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/0e1734e7-6479-5038-8bf4-20788a49f023",
+            "violations": []
+        },
+        {
+            "path": "/Radio, MCU and controls/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/4de10528-269c-50c3-9cf4-1171b9e7fcb5",
+            "violations": []
+        },
+        {
+            "path": "/Independent hardware charge guard/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/6e114022-030f-5f1f-b243-3744e289d51c",
+            "violations": []
+        },
+        {
+            "path": "/Hard reset and ROM recovery/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/aa2dff6b-6434-5b81-accb-d1008f16e662",
+            "violations": []
+        },
+        {
+            "path": "/Four fixed targets/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/0a6bdc28-b053-5ca4-8553-b57027137482",
+            "violations": []
+        },
+        {
+            "path": "/Pack hardware thermistors / off PCB/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/d47ebf4e-0378-5e29-9057-041626c7487c",
+            "violations": []
+        },
+        {
+            "path": "/Motor and hardware inhibit/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/177b4981-c584-5394-a79d-932476b2a253",
+            "violations": []
+        },
+        {
+            "path": "/Tip and pack temperature ADC/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/20197bba-f17c-5b8c-ac90-afb70402abe9",
+            "violations": []
+        },
+        {
+            "path": "/USB and contact protection/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/c05e54d6-7ee3-50ad-87d1-db8f3f2a757c",
+            "violations": []
+        },
+        {
+            "path": "/Compass and local decoupling/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/b19d363e-cc3a-5fbc-9f58-552ed03cf219",
+            "violations": []
+        },
+        {
+            "path": "/Tip thermistor / off PCB/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/9c04410f-94ef-590f-8462-1bee6558065d",
+            "violations": []
+        },
+        {
+            "path": "/Pack diagnostic thermistor / off PCB/",
+            "uuid_path": "/6cd3f177-dbbc-5f4d-ae7f-8944df2c05b1/50b002dc-c1c1-5634-b139-f2d19c083d5b",
+            "violations": []
+        }
+    ],
+    "source": "compass-one-board.kicad_sch"
+}

@@ -1,0 +1,229 @@
+{
+  "scope": "Single device PCB candidate. Read-only source masters.",
+  "source_sha256": {
+    "hardware/pcb/evt1/body/01-power.kicad_sch": "7df99f13e91ef7bb0ddcdf6dab2a70ef7afc8f72afce0907b9f634e50ca2be08",
+    "hardware/pcb/evt1/body/02-motor.kicad_sch": "8dafe8579c6dce347d6965269b0c1588911936a51a3ec70db935886872ce96d1",
+    "hardware/pcb/evt1/single-flange-routing/sheets/03-control.kicad_sch": "f2cb4759a78c7906e7e4b040d8c155a6cc4047656c201e63d7c03f2a8e9cbeb0",
+    "hardware/pcb/evt1/body/04-sensors.kicad_sch": "562626eb8ea093d1e375a8288ca83005ccb2f4aeb7e0511c1ab5c421d5e9ab48",
+    "hardware/pcb/evt1/body/05-charge-guard.kicad_sch": "399db55afdee82fa7a511fad911bcea51af7b9ce0f809e0c150db03facb4e3c8",
+    "hardware/pcb/evt1/single-flange-routing/sheets/01-power.kicad_sch": "3daea1ed1bfce72e6875739597d24d36d157d618dd9aa1f4603d14b667827b94",
+    "hardware/pcb/evt1/single-flange-routing/sheets/07-recovery.kicad_sch": "3e25a90390f1fc66627790a60db2bff81c3ef534ac34b2c00fc0385ac4edd023",
+    "hardware/pcb/evt1/single-flange-routing/sheets/08-compass.kicad_sch": "49ee7f06c318fc68c36fa48cbb4fc7bf862d6a9aaa354999626232333c8df713",
+    "hardware/pcb/evt1/single-flange-routing/sheets/04-targets.kicad_sch": "e7a92930d38da5c58dc1f9fafb23218124a9b0c2e9a3ea6e3553dac5892d4174",
+    "hardware/pcb/evt1/external-04-sensors.kicad_sch": "acab98582bcf27539a358ee433e09ad2f65f910deb5850534f37bda38dadf373",
+    "hardware/pcb/evt1/external-05-charge-guard.kicad_sch": "ebcf2b4a189c25ee55749a5e6c84d63a4bec7830393e20d663d8815c9107ecac",
+    "hardware/pcb/evt1/body/06-interboard.kicad_sch": "ef113cc432083bea6d9937cbe17c98d71e785a2c386343d1c4fb7abc85b6d933",
+    "hardware/pcb/evt1/single-flange-routing/sheets/06-interboard.kicad_sch": "bc8812252c87e87ced9fa307a68a4c8d3dd7ba89dea89a0aecfd3c877700772b"
+  },
+  "removed": {
+    "J6": "body interboard",
+    "J7": "flange interboard",
+    "J81": "retired discrete compass harness"
+  },
+  "selected_additions": {
+    "R88": {
+      "mpn": "TNPW040210K0BEED",
+      "value": "10k 0.1%",
+      "footprint": "EVT1:R_0402_1005Metric",
+      "source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    "C88": {
+      "mpn": "GRM155R71H103KA88D",
+      "value": "10nF 50V X7R",
+      "footprint": "EVT1:C_0402_1005Metric",
+      "source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71H103KA88%23"
+    },
+    "J8": {
+      "mpn": "SM02B-SRSS-TB(LF)(SN)",
+      "value": "PACK MONITOR NTC / GND",
+      "footprint": "PrototypeR0:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+    },
+    "TH3": {
+      "mpn": "NTCLE413E2103F524A",
+      "value": "NTCLE413E2103F524A",
+      "footprint": "",
+      "source": "https://www.vishay.com/docs/29078/ntcle413.pdf"
+    }
+  },
+  "source_substitutions": {
+    "C1": {
+      "replaces": "4.7uF 10V X7R",
+      "value": "4.7uF 16V X7R",
+      "mpn": "GRM21BR71C475KE51L",
+      "jlc": "C408144",
+      "source": "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BR71C475KE51%22%5D",
+      "note": "0805 X7R 4.7uF +/-10%, 16V. Confirm 1.40mm maximum installed height. Verify C1 biased input bypass and contact inrush, and C2 BAT bias and battery simulator transients with JP1 open."
+    },
+    "C2": {
+      "replaces": "4.7uF 10V",
+      "value": "4.7uF 16V X7R",
+      "mpn": "GRM21BR71C475KE51L",
+      "jlc": "C408144",
+      "source": "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BR71C475KE51%22%5D",
+      "note": "0805 X7R 4.7uF +/-10%, 16V. Confirm 1.40mm maximum installed height. Verify C1 biased input bypass and contact inrush, and C2 BAT bias and battery simulator transients with JP1 open."
+    },
+    "C3": {
+      "replaces": "10uF 10V",
+      "value": "4.7uF 16V X7R",
+      "mpn": "GRM21BR71C475KE51L",
+      "jlc": "C408144",
+      "source": "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM21BR71C475KE51%22%5D",
+      "note": "Local BQ24074 OUT bypass. With C12 and C22 empty the shared SYS bank is 44.7uF nominal. Verify SYS at USB100 startup and during converter load steps."
+    },
+    "C51": {
+      "replaces": "10uF 10V X5R 0603 HF",
+      "value": "10uF 10V X5R 0603 HF",
+      "mpn": "CL10A106KP8NNNC",
+      "jlc": "C19702",
+      "source": "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106KP8NNN",
+      "note": "0603 X5R 10uF +/-10%, 10V, 0.90mm maximum. Local HF bypass beside the regulator and PGND. At 25C, typical after bias is 4.43uF at 3.3V, 3.97uF at 3.68V and 3.28uF at 4.4V. Verify installed bulk plus HF capacitance, startup and load-step behavior."
+    },
+    "C52": {
+      "replaces": "10uF 10V X5R 0603 HF",
+      "value": "10uF 10V X5R 0603 HF",
+      "mpn": "CL10A106KP8NNNC",
+      "jlc": "C19702",
+      "source": "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106KP8NNN",
+      "note": "0603 X5R 10uF +/-10%, 10V, 0.90mm maximum. Local HF bypass beside the regulator and PGND. At 25C, typical after bias is 4.43uF at 3.3V, 3.97uF at 3.68V and 3.28uF at 4.4V. Verify installed bulk plus HF capacitance, startup and load-step behavior."
+    },
+    "C53": {
+      "replaces": "10uF 10V X5R 0603 HF",
+      "value": "10uF 10V X5R 0603 HF",
+      "mpn": "CL10A106KP8NNNC",
+      "jlc": "C19702",
+      "source": "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106KP8NNN",
+      "note": "0603 X5R 10uF +/-10%, 10V, 0.90mm maximum. Local HF bypass beside the regulator and PGND. At 25C, typical after bias is 4.43uF at 3.3V, 3.97uF at 3.68V and 3.28uF at 4.4V. Verify installed bulk plus HF capacitance, startup and load-step behavior."
+    },
+    "C54": {
+      "replaces": "10uF 10V X5R 0603 HF",
+      "value": "10uF 10V X5R 0603 HF",
+      "mpn": "CL10A106KP8NNNC",
+      "jlc": "C19702",
+      "source": "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106KP8NNN",
+      "note": "0603 X5R 10uF +/-10%, 10V, 0.90mm maximum. Local HF bypass beside the regulator and PGND. At 25C, typical after bias is 4.43uF at 3.3V, 3.97uF at 3.68V and 3.28uF at 4.4V. Verify installed bulk plus HF capacitance, startup and load-step behavior."
+    },
+    "C33": {
+      "replaces": "1uF",
+      "value": "1uF",
+      "mpn": "CGA3E1X7R1V105KT000N",
+      "jlc": "C342956",
+      "source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E1X7R1V105KT000N",
+      "note": "TDK 0603 X7R 1uF +/-10%, 35V and 0.90mm maximum. Verify biased capacitance, MCU_EN reset pulse and ROM recovery timing on the assembled board."
+    },
+    "R1": {
+      "replaces": "8.87k 1% / ~100mA",
+      "value": "8.87k 1% / ~100mA",
+      "mpn": "TC0210B8871TCC",
+      "jlc": "C517790",
+      "source": "https://datasheet.lcsc.com/datasheet/pdf/d0d02de47642fe4f4639912f1a5cccad.pdf?productCode=C517790",
+      "note": "Fit the 0402 +/-0.1%, +/-10 ppm/K selection to preserve ISET resistance margin. The schematic value is the inherited circuit label; use the exact MPN for assembly."
+    },
+    "R2": {
+      "replaces": "3.24k 1%",
+      "value": "3.24k 1%",
+      "mpn": "RT0402BRD073K24L",
+      "jlc": "C852760",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RT0402BRD073K24L",
+      "note": "0402 thin film, +/-0.1%, +/-25 ppm/K. Preserve the current-limit resistor value and USB100 straps."
+    },
+    "R75": {
+      "replaces": "22R",
+      "value": "22R",
+      "mpn": "RC0402FR-0722RL",
+      "jlc": "C114765",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0722RL",
+      "note": "Fit both USB series positions with the same Yageo 0402 22ohm +/-1% part. Verify USB enumeration, ROM recovery and transfers through assembled dock contacts."
+    },
+    "R76": {
+      "replaces": "22R",
+      "value": "22R",
+      "mpn": "RC0402FR-0722RL",
+      "jlc": "C114765",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-0722RL",
+      "note": "Fit both USB series positions with the same Yageo 0402 22ohm +/-1% part. Verify USB enumeration, ROM recovery and transfers through assembled dock contacts."
+    },
+    "R11": {
+      "replaces": "312k 0.1%",
+      "value": "312k 0.1%",
+      "mpn": "RT0603BRD07312KL",
+      "jlc": "C861315",
+      "source": "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07312KL/5927923",
+      "note": "Exact 312k ratio preserved with 0603 thin film +/-0.1%, +/-25ppm/K, 0.55mm maximum. Verify cold-start and regulated 3V3 under the normal power sources."
+    },
+    "R43": {
+      "replaces": "715k 0.1%",
+      "value": "715k 0.1%",
+      "mpn": "PTFR0805B715KP9",
+      "jlc": "C2849329",
+      "source": "https://s.resistor.today/shop/products/epdf/PTFR.pdf",
+      "footprint": "Selected:RESI_PTFR0805_C16003",
+      "note": "Exact 715k hot guard resistor, 0805 +/-0.1%, +/-25 ppm/K. Verify both thermal guard trips before closing JP1."
+    },
+    "R21": {
+      "replaces": "362k 0.1%",
+      "value": "360k 0.1%",
+      "mpn": "PTFR0805B360KN9",
+      "jlc": "C351576",
+      "source": "https://s.resistor.today/shop/products/epdf/PTFR.pdf",
+      "footprint": "Selected:RESI_PTFR0805_C16003",
+      "note": "0805 thin film 360k +/-0.1%, +/-10 ppm/K. With R22 at 100k, nominal MOTOR_3V7 is 3.680V. Check loaded motor voltage and first-pulse behavior."
+    },
+    "R45": {
+      "replaces": "200k 0.1%",
+      "value": "200k 0.1%",
+      "mpn": "ERA3AEB204V",
+      "jlc": "C473261",
+      "source": "https://industrial.panasonic.com/ww/products/pt/high-precision-chip-resistors/models/ERA3AEB204V",
+      "note": "0603 thin film 200k +/-0.1%, +/-25 ppm/K. Verify both thermal guard trips before closing JP1."
+    },
+    "R46": {
+      "replaces": "11k 1%",
+      "value": "11k 1%",
+      "mpn": "RT0402BRD0711KL",
+      "jlc": "C705064",
+      "source": "https://yageogroup.com/component-documentation/download/specsheet/RT0402BRD0711KL",
+      "note": "0402 thin film 11k +/-0.1%, +/-25 ppm/K. The dock-powered pull-up stays above 10k; no change to the guard permission logic."
+    },
+    "C83": {
+      "replaces": "22uF 10V / Ceff>=10uF at3V3",
+      "value": "47uF 10V / Ceff>=10uF at3V3",
+      "mpn": "MSASL21GBB5476MTNA01",
+      "jlc": "C386058",
+      "source": "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MSASL21GBB5476MTNA01&u=M",
+      "note": "Same 0805 footprint and maximum package envelope. Accept at least 10uF effective at 3.3V over operating temperature and aging. Measure startup and 3V3 stability through the retained TPS63070/USB100 power path."
+    },
+    "U6": {
+      "replaces": "ESP32-C3-MINI-1-N4X candidate",
+      "mpn": "ESP32-C3-MINI-1-H4X",
+      "jlc": "C41349510",
+      "source": "https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html",
+      "note": "Same 4 MB flash, silicon v1.1, module dimensions and recommended 53-pad land pattern. H4X extends the module ambient upper range to 105\u00b0C."
+    },
+    "U9": {
+      "replaces": "TPS3808G33DBVR",
+      "mpn": "TPS3808G33QDBVRQ1",
+      "jlc": "C414616",
+      "source": "https://www.ti.com/lit/ds/symlink/tps3808-q1.pdf",
+      "note": "Same DBV pin map, 3.07 V threshold and open-CT delay. VDD is VBUS_CHG, SENSE is 3V3. The automotive VDD operating floor is 1.8 V, below the BQ24074 input UVLO. JP1 ships open. Qualify CE isolation on VBUS/3V3 startup and brownout before closing JP1."
+    }
+  },
+  "source_metadata_changes": {
+    "JP1": "exclude from BOM; retain open copper jumper on PCB",
+    "C12": "Leave empty on the first article. Footprint retained for U2 SYS bulk tuning.",
+    "C22": "Leave empty on the first article. Footprint retained for U3 SYS bulk tuning."
+  },
+  "telemetry": {
+    "adc": "U7 ADS1115 / 0x48 / AIN2 pin 6 / MUX 110",
+    "reference": "U7 AIN1 pin 5 / TIP_EXC_HALF",
+    "unused": "U7 AIN3 pin 7 remains grounded",
+    "excitation": "U6 GPIO10 module pin 16 / TIP_EXC_EN high only for conversions",
+    "sense_net": "PACK_MON_NTC",
+    "J8": {
+      "1": "PACK_MON_NTC",
+      "2": "GND"
+    },
+    "dnp": [],
+    "hardware_charge_permission": "independent existing circuits"
+  }
+}

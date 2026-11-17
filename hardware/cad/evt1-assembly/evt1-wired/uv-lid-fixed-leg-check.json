@@ -1,0 +1,146 @@
+{
+  "scope": "Closed-pose exact native FreeCAD Booleans for both fixed UV loom legs. Geometry review on the active assembly, no product geometry edit.",
+  "source_sha256": {
+    "DockAssembly.FCStd": "c8748a4365db26d9c6bd5b4ffc736ba1ad4af0cf9c9d9226e4d0b2f88e372313",
+    "MainPCB-Wired.FCStd": "1956be83465e1a8cc22856be587ffb00582fe910b0a44245aeb0996dbb129c0a",
+    "DisplayHingeFlex.FCStd": "0e2531cea0116064d5b633199022defece3dadc18195b02fe2a5625764369c91",
+    "BaseUVHarness.FCStd": "6a1181650a9edcbb538749a61cfbb3799de7c5a993efcc0a3431fd03e70563bd",
+    "SharedBaseWireReview.FCStd": "4127882461ee75f3f7d35fb9c579f18368241ef8c20fba29924315789c4db48b",
+    "LidUVWireEntry.FCStd": "fd56250f8519d089936faf36f688adbea15e43fbe76c31163e953019b0cd2d0f"
+  },
+  "comparison_cutter_bounds_XYZ_mm": {
+    "base_slot": [
+      -14.6,
+      146.43554445662275,
+      10.75,
+      -4.4,
+      148.13554445662277,
+      13.25
+    ],
+    "lid_slot": [
+      -5.1,
+      145.8,
+      52.3,
+      5.1,
+      148.0,
+      58.0
+    ],
+    "lid_entry_relief": [
+      -5.1,
+      136.82,
+      56.75,
+      5.1,
+      139.25,
+      58.3
+    ]
+  },
+  "comparison_material_removed_mm3": {
+    "base_slot": 34.68009038195305,
+    "lid_slot": 44.880168076764676,
+    "lid_entry_relief": 18.589620638471388
+  },
+  "checks": {
+    "current_lower_liner_and_lid_wires": {
+      "pair_count": 8,
+      "minimum_clearance_mm": 0.0,
+      "interfering_pairs": 8,
+      "max_overlap_mm3": 1.1036088894743514
+    },
+    "lower_slot_and_lid_wires": {
+      "pair_count": 8,
+      "minimum_clearance_mm": 0.3058999999999994,
+      "interfering_pairs": 0,
+      "max_overlap_mm3": 0.0
+    },
+    "current_base_trunk_and_lid_wires": {
+      "pair_count": 64,
+      "minimum_clearance_mm": 0.0,
+      "interfering_pairs": 64,
+      "max_overlap_mm3": 0.41041561918934144
+    },
+    "lowered_base_trunk_and_lid_wires": {
+      "pair_count": 64,
+      "minimum_clearance_mm": 0.41778819167562653,
+      "interfering_pairs": 0,
+      "max_overlap_mm3": 0.0
+    },
+    "current_upper_liner_and_lid_tail": {
+      "pair_count": 8,
+      "minimum_clearance_mm": 0.0,
+      "interfering_pairs": 8,
+      "max_overlap_mm3": 1.2786297150050858
+    },
+    "upper_slot_only_and_lid_tail": {
+      "pair_count": 8,
+      "minimum_clearance_mm": 0.0,
+      "interfering_pairs": 8,
+      "max_overlap_mm3": 0.10341497926967225
+    },
+    "upper_slot_and_entry_relief_and_lid_tail": {
+      "pair_count": 8,
+      "minimum_clearance_mm": 0.1848714928671138,
+      "interfering_pairs": 0,
+      "max_overlap_mm3": 0.0
+    },
+    "lowered_base_trunk_and_new_lower_liner": {
+      "pair_count": 8,
+      "minimum_clearance_mm": 0.9298573309892487,
+      "interfering_pairs": 0,
+      "max_overlap_mm3": 0.0
+    },
+    "lowered_base_trunk_and_lower_shell": {
+      "pair_count": 8,
+      "minimum_clearance_mm": 0.3808999999999929,
+      "interfering_pairs": 0,
+      "max_overlap_mm3": 0.0
+    },
+    "lowered_base_trunk_and_J401_housing": {
+      "pair_count": 8,
+      "minimum_clearance_mm": 0.0,
+      "interfering_pairs": 0,
+      "max_overlap_mm3": 0.0
+    },
+    "closed_display_flex_and_both_lid_legs": {
+      "pair_count": 16,
+      "minimum_clearance_mm": 3.0203999999999995,
+      "interfering_pairs": 0,
+      "max_overlap_mm3": 0.0
+    }
+  },
+  "physical_validation": false,
+  "moving_span_or_FFC_motion_checked": false,
+  "UV_leak_tested": false,
+  "closed_straight_ray_screen": {
+    "scope": "100 sampled closed empty-dock straight rays to the two proposed UV through passages. Nominal emitter center origins and opaque solid model only. No reflections, transmission, open lid or validation of UV exposure.",
+    "results": {
+      "base_slot": {
+        "current": {
+          "samples": 50,
+          "reach_enclosed_dry_side": 0,
+          "direct_exterior_samples": 0,
+          "following_barriers": []
+        },
+        "proposed": {
+          "samples": 50,
+          "reach_enclosed_dry_side": 0,
+          "direct_exterior_samples": 0,
+          "following_barriers": []
+        }
+      },
+      "lid_slot": {
+        "current": {
+          "samples": 50,
+          "reach_enclosed_dry_side": 0,
+          "direct_exterior_samples": 0,
+          "following_barriers": []
+        },
+        "proposed": {
+          "samples": 50,
+          "reach_enclosed_dry_side": 0,
+          "direct_exterior_samples": 0,
+          "following_barriers": []
+        }
+      }
+    }
+  }
+}

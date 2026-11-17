@@ -1,0 +1,58 @@
+{
+  "scope": "Compiled stock Pico firmware variants for the wired host bench. No flashed or connected result.",
+  "sdk_commit": "a1438dff1d38bd9c65dbd693f0e5db4b9ae91779",
+  "tinyusb_commit": "86ad6e56c1700e85f1c5678607a762cfe3aa2f47",
+  "compiler": "arm-none-eabi-gcc (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 13.3.1 20240614",
+  "sources_sha256": {
+    "dock-firmware/wired-host-bench/CMakeLists.txt": "04b4712786ec584ec7c12c6b1e1951d8b7405be5805ad055ccd20f6f8e16b1cf",
+    "dock-firmware/wired-host-bench/tusb_config.h": "0e0dee982b3a8f3c174a046b3dd5982c22a35e6f19d6f3a8edeb1875319cc0b1",
+    "dock-firmware/wired-host-bench/main.c": "b35df17996ae377935f54e3e45aa9cfe70c4775fcc792f96f8199dbcefcb91d9",
+    "dock-firmware/case-link-candidate/case_link.c": "426bdbe584aa1b44a2e768fb89691b1fc0c0d1d2cc80bad359c4877cd851679d",
+    "dock-firmware/case-link-candidate/case_link.h": "f378ba5971c8ef7be83f8bb9df6295118244553ca89cfcbaaac802cda51c3d4a",
+    "dock-firmware/case-link-candidate/wired_cdc.c": "d41000b634e7cbe03a16f17c7f917f9a057672d4428db868e7b33b84133569da",
+    "dock-firmware/case-link-candidate/wired_cdc.h": "28fe5aca8b6656bed99c88575c5c1973dabfb86b8c02698c369c50e7e2f64068"
+  },
+  "variants": {
+    "host": {
+      "text_bytes": 49120,
+      "data_bytes": 0,
+      "bss_bytes": 9448,
+      "checked_symbols": [
+        "tuh_cdc_mount_cb",
+        "tuh_cdc_read",
+        "tuh_cdc_write",
+        "hcd_init",
+        "wired_cdc_receive",
+        "case_link_feed_polled_sample"
+      ],
+      "cdc_control_line_state_code_linked": false,
+      "artifacts_sha256": {
+        "compass_wired_host.elf": "d028cd86d679942ee42e97d6c072ebc077549883e5755960aff632da3a6f765f",
+        "compass_wired_host.bin": "ed797b86b77b8193070e4052a92fe13d92b6a4c9b4275f343d007888de077a15",
+        "compass_wired_host.hex": "1f698bb2654b05dcdab87038b26097002dc9e5e9a333520200ad1cb3ddaa8d7f",
+        "compass-wired-host.uf2": "e577578f9279e43eaf71a90d58dee8472a8ef410e9733ff48a2372dcba1a8013"
+      },
+      "uf2_verified_blocks": 176
+    },
+    "smoke": {
+      "text_bytes": 45496,
+      "data_bytes": 0,
+      "bss_bytes": 3320,
+      "checked_symbols": [
+        "tuh_cdc_mount_cb",
+        "tuh_cdc_read",
+        "tuh_cdc_write",
+        "hcd_init"
+      ],
+      "cdc_control_line_state_code_linked": false,
+      "artifacts_sha256": {
+        "compass_wired_host.elf": "f277e3d4900747dfd0617bdce65032edb7825062d825f46d44e2abf0b78bd3b4",
+        "compass_wired_host.bin": "872785f6d0809a8521e2254878bce3816b1f957376f82385a47e5731ba347b03",
+        "compass_wired_host.hex": "136ec33a562914106f64aa6b93ffc7ab4f0345a00e729fd6e64b146ccce7c219",
+        "compass-wired-smoke.uf2": "cd3777bc86757474afde4d886c53c726608d7366395a27ae186c533500fc8a6b"
+      },
+      "uf2_verified_blocks": 162
+    }
+  },
+  "uf2_converter_commit": "70fdee51cf15a487526e88ada2d52346596f80af"
+}

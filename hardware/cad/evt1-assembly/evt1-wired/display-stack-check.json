@@ -1,0 +1,1986 @@
+{
+  "product_native": {
+    "sha256": "54a40bb0d1c7e6e77da54b0a5f9f9df0cc7c551f96d4bc81822f8f4403044346",
+    "new_objects": [
+      "BaseDisplayFlexPassage",
+      "BaseDisplayFlexPassageOutline",
+      "LidDisplayFlexPassage",
+      "LidDisplayFlexPassageOutline"
+    ],
+    "relative_links": [
+      [
+        "PinBoardAssembly",
+        "pcb/PinPCB.FCStd",
+        "Board_319a"
+      ],
+      [
+        "UVBaseBoardAssembly",
+        "pcb/UVBase.FCStd",
+        "Board_957f"
+      ],
+      [
+        "UVLidBoardAssembly",
+        "pcb/UVLid.FCStd",
+        "Board_308"
+      ],
+      [
+        "UIBoardAssembly",
+        "pcb/LidUI-JST.FCStd",
+        "Board_806"
+      ],
+      [
+        "USBBoardAssembly",
+        "pcb/MainPCB-Wired.FCStd",
+        "Board_d5a2"
+      ],
+      [
+        "DeviceMetalBody",
+        "sources/SingleFlangeExterior.FCStd",
+        "MetalBody"
+      ],
+      [
+        "DeviceMotorThermistorCap",
+        "sources/SingleFlangeExterior.FCStd",
+        "MotorThermistorCap"
+      ],
+      [
+        "DeviceContinuousSkin",
+        "sources/SingleFlangeExterior.FCStd",
+        "ContinuousSkin"
+      ],
+      [
+        "DeviceContact_GND",
+        "sources/SingleFlangeExterior.FCStd",
+        "Contact_GND"
+      ],
+      [
+        "DeviceContact_USB_DM",
+        "sources/SingleFlangeExterior.FCStd",
+        "Contact_USB_DM"
+      ],
+      [
+        "DeviceContact_USB_DP",
+        "sources/SingleFlangeExterior.FCStd",
+        "Contact_USB_DP"
+      ],
+      [
+        "DeviceContact_DOCK_5V",
+        "sources/SingleFlangeExterior.FCStd",
+        "Contact_DOCK_5V"
+      ],
+      [
+        "DeviceSteelKeeper0",
+        "sources/SingleFlangeExterior.FCStd",
+        "SteelKeeper0"
+      ],
+      [
+        "DeviceSteelKeeper1",
+        "sources/SingleFlangeExterior.FCStd",
+        "SteelKeeper1"
+      ],
+      [
+        "StationaryBaseUVHarnessInstance",
+        "sources/BaseUVHarness.FCStd",
+        "StationaryBaseUVHarness"
+      ]
+    ],
+    "restored_saved_camera": true,
+    "view_records_before": 1898,
+    "view_records_after": 1902,
+    "retained_screen_thumbnail": true,
+    "new_view_resources": [
+      "J401View-BaseDisplayFlexPassage-J401View-BaseUVPlugPocket-LineColorArray804",
+      "J401View-BaseDisplayFlexPassage-J401View-BaseUVPlugPocket-PointColorArray804",
+      "J401View-BaseDisplayFlexPassage-J401View-BaseUVPlugPocket-ShapeAppearance1273",
+      "J401View-BaseDisplayFlexPassageOutline-J401View-BaseUVPlugPocketOutline-LineColorArray803",
+      "J401View-BaseDisplayFlexPassageOutline-J401View-BaseUVPlugPocketOutline-PointColorArray803",
+      "J401View-LidDisplayFlexPassage-J401View-BaseUVPlugPocket-LineColorArray804",
+      "J401View-LidDisplayFlexPassage-J401View-BaseUVPlugPocket-PointColorArray804",
+      "J401View-LidDisplayFlexPassage-J401View-BaseUVPlugPocket-ShapeAppearance1273",
+      "J401View-LidDisplayFlexPassageOutline-J401View-BaseUVPlugPocketOutline-LineColorArray803",
+      "J401View-LidDisplayFlexPassageOutline-J401View-BaseUVPlugPocketOutline-PointColorArray803"
+    ]
+  },
+  "closed_fit": {
+    "native_sha256": "54a40bb0d1c7e6e77da54b0a5f9f9df0cc7c551f96d4bc81822f8f4403044346",
+    "harness_sha256": "6a1181650a9edcbb538749a61cfbb3799de7c5a993efcc0a3431fd03e70563bd",
+    "relative_links": {
+      "PinBoardAssembly": "pcb/PinPCB.FCStd",
+      "UVBaseBoardAssembly": "pcb/UVBase.FCStd",
+      "UVLidBoardAssembly": "pcb/UVLid.FCStd",
+      "UIBoardAssembly": "pcb/LidUI-JST.FCStd",
+      "USBBoardAssembly": "pcb/MainPCB-Wired.FCStd",
+      "DeviceMetalBody": "sources/SingleFlangeExterior.FCStd",
+      "DeviceMotorThermistorCap": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContinuousSkin": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_GND": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_USB_DM": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_USB_DP": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_DOCK_5V": "sources/SingleFlangeExterior.FCStd",
+      "DeviceSteelKeeper0": "sources/SingleFlangeExterior.FCStd",
+      "DeviceSteelKeeper1": "sources/SingleFlangeExterior.FCStd",
+      "StationaryBaseUVHarnessInstance": "sources/BaseUVHarness.FCStd"
+    },
+    "kernel": [
+      "1",
+      "1",
+      "4"
+    ],
+    "physical_fit": false,
+    "scope": "Exact saved closed-position stationary base UV and spring-pin wire checks. Fitted JST housings, wire guides/strain relief, wire loading, hinge travel and powered UV are separate.",
+    "rigid_obstacle_objects": 82,
+    "wires": [
+      {
+        "wire": "J401.1\u2013J621.1",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.2\u2013J621.2",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.3\u2013J621.3",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.4\u2013J621.4",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.5\u2013J621.5",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.6\u2013J621.6",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.7\u2013J621.7",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.8\u2013J621.8",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.1\u2013J94.1",
+        "exact_pairs": 60,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.2\u2013J94.2",
+        "exact_pairs": 64,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.3\u2013J94.3",
+        "exact_pairs": 67,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.4\u2013J94.4",
+        "exact_pairs": 67,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      }
+    ],
+    "j401_housing": {
+      "liner_gap_mm": 0.2500000000000089,
+      "liner_overlap_mm3": 0.0,
+      "spreader_gap_mm": 0.949999999999994,
+      "lower_shell_gap_mm": 4.899999999999986
+    },
+    "wire_spacing": {
+      "J401.1\u2013J621.1 / J401.2\u2013J621.2": {
+        "gap_mm": 0.4117999999999526,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.3\u2013J621.3": {
+        "gap_mm": 1.6617999999999635,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.4\u2013J621.4": {
+        "gap_mm": 2.9117999999999618,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.5\u2013J621.5": {
+        "gap_mm": 4.161799999999956,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.6\u2013J621.6": {
+        "gap_mm": 5.411799999999962,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.7\u2013J621.7": {
+        "gap_mm": 6.661799999999963,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.8\u2013J621.8": {
+        "gap_mm": 7.91179999999996,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.1\u2013J94.1": {
+        "gap_mm": 54.9929373517275,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.2\u2013J94.2": {
+        "gap_mm": 53.491538751338496,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.3\u2013J94.3": {
+        "gap_mm": 52.066588718692074,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.4\u2013J94.4": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.3\u2013J621.3": {
+        "gap_mm": 0.41179999999996936,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.4\u2013J621.4": {
+        "gap_mm": 1.661799999999973,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.5\u2013J621.5": {
+        "gap_mm": 2.9117999999999697,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.6\u2013J621.6": {
+        "gap_mm": 4.161799999999967,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.7\u2013J621.7": {
+        "gap_mm": 5.411799999999972,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.8\u2013J621.8": {
+        "gap_mm": 6.66179999999997,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.1\u2013J94.1": {
+        "gap_mm": 54.233074458747346,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.2\u2013J94.2": {
+        "gap_mm": 52.76910961199146,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.3\u2013J94.3": {
+        "gap_mm": 51.38479857937949,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.4\u2013J94.4": {
+        "gap_mm": 50.08679331920704,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.4\u2013J621.4": {
+        "gap_mm": 0.4117999999999682,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.5\u2013J621.5": {
+        "gap_mm": 1.6617999999999742,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.6\u2013J621.6": {
+        "gap_mm": 2.9117999999999697,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.7\u2013J621.7": {
+        "gap_mm": 4.161799999999973,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.8\u2013J621.8": {
+        "gap_mm": 5.4117999999999675,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.1\u2013J94.1": {
+        "gap_mm": 53.491538751338496,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.2\u2013J94.2": {
+        "gap_mm": 52.06658871869208,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.3\u2013J94.3": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.4\u2013J94.4": {
+        "gap_mm": 49.472308776651076,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.5\u2013J621.5": {
+        "gap_mm": 0.4117999999999675,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.6\u2013J621.6": {
+        "gap_mm": 1.6617999999999606,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.7\u2013J621.7": {
+        "gap_mm": 2.9117999999999706,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.8\u2013J621.8": {
+        "gap_mm": 4.161799999999969,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.1\u2013J94.1": {
+        "gap_mm": 52.76910961199145,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.2\u2013J94.2": {
+        "gap_mm": 51.38479857937949,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.3\u2013J94.3": {
+        "gap_mm": 50.08679331920704,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.4\u2013J94.4": {
+        "gap_mm": 48.88201032428509,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J401.6\u2013J621.6": {
+        "gap_mm": 0.4117999999999536,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J401.7\u2013J621.7": {
+        "gap_mm": 1.6617999999999675,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J401.8\u2013J621.8": {
+        "gap_mm": 2.9117999999999697,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.1\u2013J94.1": {
+        "gap_mm": 52.066588718692074,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.2\u2013J94.2": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.3\u2013J94.3": {
+        "gap_mm": 49.472308776651076,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.4\u2013J94.4": {
+        "gap_mm": 48.31678852356099,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J401.7\u2013J621.7": {
+        "gap_mm": 0.41179999999996664,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J401.8\u2013J621.8": {
+        "gap_mm": 1.6617999999999613,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.1\u2013J94.1": {
+        "gap_mm": 51.38479857937949,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.2\u2013J94.2": {
+        "gap_mm": 50.086793319207054,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.3\u2013J94.3": {
+        "gap_mm": 48.88201032428509,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.4\u2013J94.4": {
+        "gap_mm": 47.77753711726888,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J401.8\u2013J621.8": {
+        "gap_mm": 0.411799999999968,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.1\u2013J94.1": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.2\u2013J94.2": {
+        "gap_mm": 49.47230877665108,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.3\u2013J94.3": {
+        "gap_mm": 48.316788523561,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.4\u2013J94.4": {
+        "gap_mm": 47.26514840531732,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.1\u2013J94.1": {
+        "gap_mm": 50.086793319207054,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.2\u2013J94.2": {
+        "gap_mm": 48.882010324285105,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.3\u2013J94.3": {
+        "gap_mm": 47.77753711726888,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.4\u2013J94.4": {
+        "gap_mm": 46.78050812759573,
+        "overlap_mm3": 0.0
+      },
+      "J102.1\u2013J94.1 / J102.2\u2013J94.2": {
+        "gap_mm": 0.14219125860946544,
+        "overlap_mm3": 0.0
+      },
+      "J102.1\u2013J94.1 / J102.3\u2013J94.3": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      },
+      "J102.1\u2013J94.1 / J102.4\u2013J94.4": {
+        "gap_mm": 0.4965856099730645,
+        "overlap_mm3": 0.0
+      },
+      "J102.2\u2013J94.2 / J102.3\u2013J94.3": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      },
+      "J102.2\u2013J94.2 / J102.4\u2013J94.4": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      },
+      "J102.3\u2013J94.3 / J102.4\u2013J94.4": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      }
+    },
+    "cold_reopened": true
+  },
+  "mechanical_display_stack": {
+    "native_sha256": "54a40bb0d1c7e6e77da54b0a5f9f9df0cc7c551f96d4bc81822f8f4403044346",
+    "FreeCAD": [
+      "1",
+      "1",
+      "4"
+    ],
+    "display_planes_mm": {
+      "board_z": 60.0,
+      "glass_z": 68.8,
+      "actual_path_mm": 65.00000000000041,
+      "ribbon_tip_y": 112.575,
+      "minimum_tail_z": 61.199999999999996
+    },
+    "oem_fold": {
+      "wire": "65 mm OEM LCD folded tail",
+      "exact_pairs": 4,
+      "overlaps_mm3": {}
+    },
+    "center_button": [
+      {
+        "travel_mm": 0.25,
+        "gap_mm": 1.2950370083375102,
+        "overlap_mm3": 0.0
+      },
+      {
+        "travel_mm": 0.5,
+        "gap_mm": 1.2925880620832118,
+        "overlap_mm3": 0.0
+      },
+      {
+        "travel_mm": 0.75,
+        "gap_mm": 1.2925880620832118,
+        "overlap_mm3": 0.0
+      },
+      {
+        "travel_mm": 1.0,
+        "gap_mm": 1.2925880620832118,
+        "overlap_mm3": 0.0
+      }
+    ],
+    "hinge_flex_fixed_tails": [
+      {
+        "wire": "Base tail",
+        "exact_pairs": 1,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Base rise",
+        "exact_pairs": 2,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Before offset",
+        "exact_pairs": 2,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "25 mm offset",
+        "exact_pairs": 2,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "After offset",
+        "exact_pairs": 2,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Base elbow",
+        "exact_pairs": 4,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Lid tail",
+        "exact_pairs": 2,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Lid straight",
+        "exact_pairs": 2,
+        "overlaps_mm3": {}
+      },
+      {
+        "wire": "Lid elbow",
+        "exact_pairs": 5,
+        "overlaps_mm3": {}
+      }
+    ],
+    "hinge_flex_nominal_gap_to_uv_backing_mm": {
+      "Lid straight": 0.18949999999999534,
+      "Lid elbow": 0.18950000000000244
+    },
+    "hinge_flex_nominal_free_length_mm": 178.1635385566486,
+    "scope": "Closed-position nominal installed stack, fixed flex tails only. Fit of received sockets, repeated motion and UV leakage remain to check."
+  },
+  "view_geometry_delta": {
+    "native_sha256": "54a40bb0d1c7e6e77da54b0a5f9f9df0cc7c551f96d4bc81822f8f4403044346",
+    "input_sha256": "6927ffc7139e505a61f698d761e484acad89901da74b48cce2b6058c5599f436",
+    "byte_identical_shape_streams": {
+      "UpperShell": true,
+      "LowerShell": true,
+      "DockLidUVSpreader6061": true,
+      "DockBaseUVSpreader6061": true,
+      "InstalledJ401PlugHousing": true,
+      "BaseUVPlugPocket": false,
+      "DockWireGroundInsulatedSweep": false,
+      "DockWireUsbMinusInsulatedSweep": false,
+      "DockWireUsbPlusInsulatedSweep": true,
+      "DockWirePowerInsulatedSweep": true
+    },
+    "reencoded_stream_equivalence_checks": {
+      "BaseUVPlugPocket": {
+        "volume_difference_mm3": 0.0,
+        "center_difference_mm": 0.0,
+        "edge_count": [
+          519,
+          519
+        ],
+        "face_count": [
+          197,
+          197
+        ]
+      },
+      "DockWireGroundInsulatedSweep": {
+        "volume_difference_mm3": 0.0,
+        "center_difference_mm": 0.0,
+        "edge_count": [
+          25,
+          25
+        ],
+        "face_count": [
+          14,
+          14
+        ],
+        "boolean_symmetric_difference_mm3": [
+          0.0,
+          0.0
+        ]
+      },
+      "DockWireUsbMinusInsulatedSweep": {
+        "volume_difference_mm3": 3.552713678800501e-15,
+        "center_difference_mm": 3.552713678800501e-15,
+        "edge_count": [
+          25,
+          25
+        ],
+        "face_count": [
+          14,
+          14
+        ],
+        "boolean_symmetric_difference_mm3": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "unchanged_placements": {
+      "USBBoardAssembly": true,
+      "PinBoardAssembly": true,
+      "UVBaseBoardAssembly": true,
+      "UVLidBoardAssembly": true,
+      "DockLCDInstance": true,
+      "StationaryBaseUVHarnessInstance": true
+    }
+  },
+  "finite_direct_light": {
+    "input_native_sha256": {
+      "prior": "6927ffc7139e505a61f698d761e484acad89901da74b48cce2b6058c5599f436",
+      "current": "54a40bb0d1c7e6e77da54b0a5f9f9df0cc7c551f96d4bc81822f8f4403044346"
+    },
+    "aperture_report": {
+      "Lower": {
+        "rays": [
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              20.32,
+              137.96599999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              20.32,
+              139.27499999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              20.32,
+              140.584,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              22.66,
+              137.96599999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              22.66,
+              139.27499999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              22.66,
+              140.584,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "LowerShell"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              25.0,
+              137.96599999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              25.0,
+              139.27499999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              25.0,
+              140.584,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "LowerShell"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              27.34,
+              137.96599999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              27.34,
+              139.27499999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              27.34,
+              140.584,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "LowerShell"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              29.68,
+              137.96599999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              29.68,
+              139.27499999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              53.524
+            ],
+            "target": [
+              29.68,
+              140.584,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "LowerShell"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              20.32,
+              137.96599999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              20.32,
+              139.27499999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              20.32,
+              140.584,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "LowerShell"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              22.66,
+              137.96599999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              22.66,
+              139.27499999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              22.66,
+              140.584,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "LowerShell"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              25.0,
+              137.96599999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              25.0,
+              139.27499999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              25.0,
+              140.584,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "LowerShell"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              27.34,
+              137.96599999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              27.34,
+              139.27499999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              27.34,
+              140.584,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "LowerShell"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              29.68,
+              137.96599999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              29.68,
+              139.27499999999998,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              53.524
+            ],
+            "target": [
+              29.68,
+              140.584,
+              10.9
+            ],
+            "prior": {
+              "dry_side_blocker": "LowerChamber",
+              "long_path_blocker": "LowerChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "LowerShell"
+            }
+          }
+        ],
+        "count": 30,
+        "newly_reaching_dry_side": 9,
+        "new_exterior_lines": 0,
+        "final_clear_exterior_count": 0
+      },
+      "Upper": {
+        "rays": [
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              20.32,
+              139.406,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              20.32,
+              140.375,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              20.32,
+              141.344,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              22.66,
+              139.406,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              22.66,
+              140.375,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              22.66,
+              141.344,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "UpperShell"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              25.0,
+              139.406,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              25.0,
+              140.375,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              25.0,
+              141.344,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "UpperShell"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              27.34,
+              139.406,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              27.34,
+              140.375,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              27.34,
+              141.344,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "UpperShell"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              29.68,
+              139.406,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              29.68,
+              140.375,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              -42,
+              94,
+              14.976
+            ],
+            "target": [
+              29.68,
+              141.344,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "UpperShell"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              20.32,
+              139.406,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              20.32,
+              140.375,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              20.32,
+              141.344,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "UpperShell"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              22.66,
+              139.406,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              22.66,
+              140.375,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              22.66,
+              141.344,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "UpperShell"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              25.0,
+              139.406,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              25.0,
+              140.375,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              25.0,
+              141.344,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "UpperShell"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              27.34,
+              139.406,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              27.34,
+              140.375,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              27.34,
+              141.344,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "UpperShell"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              29.68,
+              139.406,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              29.68,
+              140.375,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            }
+          },
+          {
+            "source": [
+              42,
+              94,
+              14.976
+            ],
+            "target": [
+              29.68,
+              141.344,
+              57.6
+            ],
+            "prior": {
+              "dry_side_blocker": "UpperChamber",
+              "long_path_blocker": "UpperChamber"
+            },
+            "current": {
+              "dry_side_blocker": null,
+              "long_path_blocker": "UpperShell"
+            }
+          }
+        ],
+        "count": 30,
+        "newly_reaching_dry_side": 9,
+        "new_exterior_lines": 0,
+        "final_clear_exterior_count": 0
+      }
+    },
+    "scope": "60 nominal emitter-center-to-aperture rays in closed empty dock. Exact opaque-body intersection extends sampled line 500 mm after aperture. No UV optical qualification, transmission, reflection, tolerance or other exterior angles."
+  },
+  "longer_exact_witness": {
+    "prior": {
+      "available": [
+        "LowerShell",
+        "UpperShell",
+        "LowerChamber",
+        "UpperChamber",
+        "ScallopedBezel",
+        "DockBaseUVSpreader6061",
+        "DockLidUVSpreader6061",
+        "CustomHingePin",
+        "HingeRetainingWasher"
+      ],
+      "tested": {
+        "LowerShell": 0.0,
+        "UpperShell": 3.6838590175809713,
+        "LowerChamber": 0.0,
+        "UpperChamber": 4.409018964003806,
+        "ScallopedBezel": 0.0,
+        "DockBaseUVSpreader6061": 0,
+        "DockLidUVSpreader6061": 0.0,
+        "CustomHingePin": 0.0,
+        "HingeRetainingWasher": 0.0
+      }
+    },
+    "current": {
+      "available": [
+        "LowerShell",
+        "UpperShell",
+        "LowerChamber",
+        "UpperChamber",
+        "ScallopedBezel",
+        "DockBaseUVSpreader6061",
+        "DockLidUVSpreader6061",
+        "CustomHingePin",
+        "HingeRetainingWasher"
+      ],
+      "tested": {
+        "LowerShell": 0.0,
+        "UpperShell": 3.6838590175809713,
+        "LowerChamber": 0.0,
+        "UpperChamber": 0.0,
+        "ScallopedBezel": 0.0,
+        "DockBaseUVSpreader6061": 0,
+        "DockLidUVSpreader6061": 0.0,
+        "CustomHingePin": 0.0,
+        "HingeRetainingWasher": 0.0
+      }
+    },
+    "fixed_tail_60.0": {
+      "Base tail": 0,
+      "Base rise": 0,
+      "Before offset": 0,
+      "25 mm offset": 0,
+      "After offset": 0,
+      "Base elbow": 0.0,
+      "Lid tail": 0.0,
+      "Lid straight": 0.0,
+      "Lid elbow": 0.9153901351963469
+    },
+    "fixed_tail_60.5": {
+      "Base tail": 0,
+      "Base rise": 0,
+      "Before offset": 0,
+      "25 mm offset": 0,
+      "After offset": 0,
+      "Base elbow": 0.0,
+      "Lid tail": 0.0,
+      "Lid straight": 0.0,
+      "Lid elbow": 0.9177710380664337
+    },
+    "geometry": {
+      "emitter_mm": [
+        -42,
+        94,
+        15.025
+      ],
+      "aperture_mm": [
+        25,
+        140.375,
+        56.5
+      ],
+      "upper_shell_intersection_start_mm": [
+        34.86482438922212,
+        147.20307807537574,
+        62.60662076929832
+      ],
+      "upper_shell_intersection_end_mm": [
+        37.56430018681788,
+        149.07155852483103,
+        64.27767686937719
+      ],
+      "entry_exit_dist_from_source_mm": [
+        104.89413415493644,
+        108.57799317251744
+      ],
+      "shell_intersection_midpoint_solid_classification": "inside"
+    }
+  },
+  "remaining": [
+    "J201\u2013J301 hinge bridge has no installed native link. Fixed tail shapes were checked against the closed saved assembly.",
+    "OEM J302 fold uses unmeasured nominal seated plane and tip stop.",
+    "Nominal emitter-center ray screen treats materials as opaque and excludes reflection and transmission. Measure finished-unit light leakage."
+  ]
+}

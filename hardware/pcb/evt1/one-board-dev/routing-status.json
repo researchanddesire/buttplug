@@ -1,0 +1,202 @@
+{
+  "kicad_version": "10.0.8",
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity": 0,
+  "erc": 0,
+  "ignored_drc_checks": [],
+  "ignored_erc_checks": [],
+  "copper": {
+    "previous_board_sha256": "6772789226ad0fe9f5b6893d8e1aacbad63f40d7a9ca0b81c08adb67e32d8fa4",
+    "unchanged_objects": 2064,
+    "old_local_segments_replaced": 2,
+    "new_local_segments": 4,
+    "changed_nets": [
+      "PACK_MON_NTC"
+    ],
+    "new_through_vias": 0,
+    "tracks_by_layer": {
+      "B.Cu": 610,
+      "F.Cu": 410,
+      "In1.Cu": 519,
+      "In3.Cu": 304,
+      "In4.Cu": 66
+    },
+    "tracks": 1909,
+    "vias": 159
+  },
+  "J110_centroid_mm_deg": [
+    110.5,
+    74.25,
+    180.0
+  ],
+  "J112_pad1_mm_deg": [
+    118.3,
+    83.54,
+    0.0
+  ],
+  "sha256": {
+    "compass-one-board-dev.kicad_pcb": "8781d4ef0d154d123faacffbb572742ac7f338872be392cb60f288f69a2a6916",
+    "compass-one-board-dev.kicad_pro": "ae8d756ff8f10343875b9c5f9849789b7e8b106e4df1c23498f85cc1f0f495c0",
+    "compass-one-board-dev-native.xml": "59e2cc7db02e1eb91190e4e2c0b3f098f72bcc9adb4c6a4e857e9ba6ecf08de1",
+    "drc.json": "39fa55eaaacfe7cf9e393ff5240b8b2761a5b7016f247dc36dfae33fa789a675",
+    "erc.json": "142b01473dcf95b5b7d0415e0b17f0ad070bdbbab114b6d98a7a4c2bf1f7d50f",
+    "contract.json": "62d3b62dbc9567dfd5ceac201004f9fe44df9d43b2346398abf48cc5d475d00a",
+    "host-key-contract.json": "87fc416ca6d74e4b0fd6d90ab4b58e72a83c922eb403cafc779493542a0a7197",
+    "host-key-geometry.json": "1a57b435a7730f5b3048072258804ae61f42074061981b362becbf1a9fc8223a"
+  },
+  "usb_trace_centerlines_mm": {
+    "J110_A_orientation_to_J112_D_negative_positive": [
+      11.075,
+      17.378
+    ],
+    "J110_B_orientation_to_J112_D_negative_positive": [
+      10.075,
+      14.825
+    ],
+    "J111_to_J112_D_negative_positive": [
+      15.538,
+      14.873
+    ],
+    "J112_to_R75_R76_contact_side_D_negative_positive": [
+      42.763,
+      44.401
+    ],
+    "scope": "Shortest planar pad-center routes. Excludes via-barrel length, external harness and the 34 mm loopback. USB qualification is an installed measurement."
+  },
+  "host_key_copper_revision": {
+    "previous_board_sha256": "d214362d098d8b967affbaac9ebed7d9a015521cf75327338bf6e8b5e0a4a1cd",
+    "unchanged_objects": 2046,
+    "old_local_segments_replaced": 27,
+    "new_local_segments": 18,
+    "changed_nets": [
+      "DEV_DOCK_5V",
+      "DEV_DOCK_DM",
+      "DEV_DOCK_DP",
+      "DEV_USB_5V",
+      "DEV_USB_DM",
+      "DEV_USB_DP",
+      "USB_DM_CONTACT",
+      "USB_DP_CONTACT"
+    ],
+    "new_through_vias": 0,
+    "tracks_by_layer": {
+      "F.Cu": 408,
+      "In1.Cu": 519,
+      "In3.Cu": 304,
+      "In4.Cu": 66,
+      "B.Cu": 608
+    },
+    "tracks": 1905,
+    "vias": 159
+  },
+  "resistor_land_revision": {
+    "manufacturer_reference": "RESI PTFR C16003 V8, p. 2",
+    "datasheet": "https://s.resistor.today/shop/products/epdf/PTFR.pdf",
+    "footprint": "Selected:RESI_PTFR0805_C16003",
+    "footprint_sha256": "95df05d3d58f55494b6d1c04b1243c59b49cc54acc5a7cd4288a94054eab1448",
+    "lands_mm_span_width_gap": [
+      4.0,
+      1.65,
+      1.2
+    ],
+    "pad_size_mm": [
+      1.4,
+      1.65
+    ],
+    "poses_B_Cu_xy_mm_deg": {
+      "C23": {
+        "before": [
+          96.55,
+          113.2,
+          180.0
+        ],
+        "after": [
+          96.55,
+          112.72,
+          180.0
+        ]
+      },
+      "R21": {
+        "before": [
+          96.6125,
+          115.35,
+          0
+        ],
+        "after": [
+          96.6125,
+          115.17,
+          0
+        ]
+      },
+      "R43": {
+        "before": [
+          103.05,
+          133.25,
+          0
+        ],
+        "after": [
+          108.75,
+          133.25,
+          180.0
+        ]
+      }
+    },
+    "removed_segment_uuid": [
+      "33d05743-6bf1-442b-828a-06d07aea12af"
+    ],
+    "added_segment_uuids": [
+      "1ded82b1-30f9-58bf-a459-6944c96f6d7c",
+      "5dd8aa5c-5bdc-5f48-ab4c-b8dfcd39b063",
+      "c30f489b-19a4-597f-9664-61c72ad4cfdb"
+    ],
+    "copper": {
+      "previous_board_sha256": "028f1de1dc6251edb37b6552e959f5243742918805c26fec0884e0126e034b02",
+      "unchanged_objects": 2063,
+      "old_local_segments_replaced": 1,
+      "new_local_segments": 3,
+      "changed_nets": [
+        "PACK_GUARD",
+        "TEMP_HOT_IN"
+      ],
+      "new_through_vias": 0,
+      "tracks_by_layer": {
+        "B.Cu": 610,
+        "F.Cu": 408,
+        "In1.Cu": 519,
+        "In3.Cu": 304,
+        "In4.Cu": 66
+      },
+      "tracks": 1907,
+      "vias": 159
+    }
+  },
+  "J8_outward_rotation": {
+    "side": "F.Cu",
+    "previous_pose_xy_mm_deg": [
+      86.0,
+      126.0,
+      90.0
+    ],
+    "new_pose_xy_mm_deg": [
+      86.0,
+      126.0,
+      -90.0
+    ],
+    "mouth_direction_board_xy": [
+      -1,
+      0
+    ],
+    "removed_segment_uuids": [
+      "1b5f001f-9c3c-4150-83b4-c8c4f3feb25f",
+      "f706a1d7-b14c-4e18-b0ef-682bedb437d1"
+    ],
+    "added_segment_uuids": [
+      "01a16da8-bf98-4cfd-b186-44b740cabf76",
+      "12a0fb3c-f867-4aed-b3c0-f5ee2c74c94c",
+      "8c305f9c-854b-4918-bfc7-312f4291867b",
+      "e5c8d857-f04f-4d02-beaa-5139fae524ce"
+    ],
+    "pcb_only_scope": "Connector and nominal board geometry. Jig access and physical fit are separate."
+  }
+}

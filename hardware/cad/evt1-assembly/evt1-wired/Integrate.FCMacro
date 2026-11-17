@@ -1,0 +1,137 @@
+from hashlib import sha256
+import json, os, re, sys, traceback
+from pathlib import Path
+from zipfile import ZipFile
+import xml.etree.ElementTree as ET
+import FreeCAD as App
+import FreeCADGui as Gui
+
+work=Path(os.environ.get('COMPASS_WIRED_DOCK_WORK','/tmp/compass-evt1-wired'))
+assembly_file=work/'dock/DockAssembly.FCStd'
+board_file=work/'kicad/dock-main-wired.kicad_pcb'
+main_file=work/'dock/pcb/MainPCB-Wired.FCStd'
+
+
+def sha(path):
+    return sha256(path.read_bytes()).hexdigest()
+
+
+def bounds(shape):
+    b=shape.optimalBoundingBox(False,False)
+    return [round(getattr(b,n),6) for n in ('XMin','YMin','ZMin','XMax','YMax','ZMax')]
+
+
+def place(obj):
+    p=obj.LinkPlacement
+    return [round(x,12) for x in (p.Base.x,p.Base.y,p.Base.z,*p.Rotation.Q)]
+
+
+def stage(message):
+    (work/'state.txt').write_text(message+'\n')
+
+
+def board_datum(doc):
+    matches=[o for o in doc.Objects if o.Name.startswith('Pcb_') and getattr(o,'Shape',None) is not None and o.Shape.Solids]
+    assert len(matches)==1,[m.Name for m in matches]
+    return matches[0]
+
+
+def external_links(doc):
+    return {o.Name:[os.path.relpath(o.LinkedObject.Document.FileName,assembly_file.parent),o.LinkedObject.Name,place(o)]
+            for o in doc.Objects if o.TypeId=='App::Link' and o.LinkedObject is not None and o.LinkedObject.Document!=doc}
+
+
+def static_data(path):
+    """Fingerprint shape streams by each object's saved Part::PropertyPartShape."""
+    with ZipFile(path) as z:
+        root=ET.fromstring(z.read('Document.xml'))
+        rows={}
+        for node in root.findall('./ObjectData/Object'):
+            p=node.find("./Properties/Property[@name='Shape']/Part")
+            if p is not None and p.get('file') and p.get('file') in z.namelist():
+                rows[node.get('name')]=sha256(z.read(p.get('file'))).hexdigest()
+    return rows
+
+
+def frozen_shapes(doc,names):
+    return {n:{'bounds':bounds(doc.getObject(n).Shape),'vol':doc.getObject(n).Shape.Volume} for n in names}
+
+
+def verify_installed_board(wired_shape,old_shape,installed):
+    assert bounds(wired_shape)==bounds(old_shape),(bounds(wired_shape),bounds(old_shape))
+    w=wired_shape.copy(); w.Placement=installed.multiply(w.Placement)
+    assert abs(w.BoundBox.ZMin-5.4)<1e-6 and abs(w.BoundBox.ZMax-6.4)<1e-6
+    return {'front_z':w.BoundBox.ZMax,'back_z':w.BoundBox.ZMin,'local_bounds':bounds(wired_shape),'installed_bounds':bounds(w)}
+
+
+def main():
+    source=json.loads((work/'inputs.json').read_text())
+    assert sha(assembly_file)==source['legacy_assembly_sha256']
+    assert sha(board_file)==source['staged_board_sha256']
+    for item in source['models'].values(): assert sha(work/'kicad'/item['staged'])==item['sha256']
+    Lib='/home/cad/CompassEVT/workbench/kicadStepUpMod'
+    sys.path.insert(0,Lib)
+    import kicadStepUptools as stepup
+    Gui.activateWorkbench('AssemblyWorkbench')
+    stage('Import the authoring PCB and 200 catalog models through StepUp')
+    prefs=App.ParamGet('User parameter:BaseApp/Preferences/Mod/kicadStepUpGui')
+    prefs.SetInt('pcb_placement',2);prefs.SetBool('help_warning_enabled',False)
+    stepup.cfg_read_all();stepup.show_messages=False
+    App.setActiveDocument('');stepup.open(str(board_file));board=App.ActiveDocument
+    roots=[o for o in board.Objects if o.TypeId=='App::Part' and not any(p.Document==board for p in o.InList)]
+    assert len(roots)==1,[o.Name for o in roots]
+    root=roots[0]; board.recompute()
+    assert root.Shape.isValid() and len(root.Shape.Solids)>200
+    models={}
+    for ref in source['models']:
+        pattern=re.compile(r'(?<![A-Za-z0-9])'+re.escape(ref)+r'(?![0-9])')
+        hits=[o.Name for o in board.Objects if hasattr(o,'Shape') and not o.Shape.isNull() and pattern.search(o.Name+' '+o.Label)]
+        assert hits,(ref,'StepUp did not import its selected model')
+        models[ref]=hits
+    root.Label='Wired Dock Main PCB through KiCad StepUp'
+    root.Visibility=False;board.saveAs(str(main_file))
+    source_shapes=static_data(assembly_file)
+    stage('Relink the existing USBBoardAssembly object at its saved placement')
+    doc=App.openDocument(str(assembly_file));doc.recompute()
+    assert doc.USBBoardAssembly in doc.BaseModule.Group
+    old=doc.USBBoardAssembly.LinkedObject.Document
+    assert Path(old.FileName).name=='MainPCB.FCStd'
+    old_links=external_links(doc)
+    link=doc.USBBoardAssembly;installed=link.LinkPlacement
+    assert place(link)==[0,32,6.4,0,0,0,1]
+    shape_names=('LowerShell','LowerChamber','UpperShell','UpperChamber','FrontClosureLowerPlug','FrontClosureUpperPlug')
+    before=frozen_shapes(doc,shape_names)
+    datum=verify_installed_board(board_datum(board).Shape,board_datum(old).Shape,installed)
+    legacy_root=link.LinkedObject
+    assert len(legacy_root.Shape.Solids)>100
+    link.setLink(root);link.LinkPlacement=installed
+    link.ElectricalRevision='Wired dock Main authoring PCB through KiCad StepUp. Geometry follows the source-bound layout. Routing, product Hall cutoff and powered UV are open.'
+    doc.recompute()
+    assert link.Shape.isValid() and len(link.Shape.Solids)==len(root.Shape.Solids)
+    assert all(no==external_links(doc).get(n) for n,no in old_links.items() if n!='USBBoardAssembly')
+    assert frozen_shapes(doc,shape_names)==before
+    board.save();doc.save()
+    processed=static_data(assembly_file)
+    delta={n for n in set(source_shapes)|set(processed) if source_shapes.get(n)!=processed.get(n)}
+    native_root_name=root.Name
+    stage('Cold-verify the external wired board and unchanged product components')
+    for opened in list(App.listDocuments().values()):App.closeDocument(opened.Name)
+    doc=App.openDocument(str(assembly_file));doc.recompute()
+    cold=external_links(doc)
+    assert all(no==cold.get(n) for n,no in old_links.items() if n!='USBBoardAssembly')
+    assert cold['USBBoardAssembly'][:2]==['pcb/MainPCB-Wired.FCStd',native_root_name]
+    assert cold['USBBoardAssembly'][2]==old_links['USBBoardAssembly'][2]
+    assert len(cold)==len(old_links)
+    assert frozen_shapes(doc,shape_names)==before
+    assert doc.RearHinge.JointType=='Revolute'
+    assert doc.USBBoardAssembly.Shape.isValid()
+    status=[o.Name for o in doc.Objects if 'Error' in o.State or 'Invalid' in o.State]
+    assert not status,status
+    result={'source':source,'imported_models':models,'FreeCAD':App.Version(),'stepup':str(stepup.__file__),'wired_pcb_native_sha256':sha(main_file),'wired_assembly_native_sha256':sha(assembly_file),'legacy_main_link':old_links['USBBoardAssembly'],'current_main_link':cold['USBBoardAssembly'],'main_board_datum':datum,'frozen_shape_checks':before,'changed_saved_shape_stream_names':sorted(delta),'other_links_preserved':len(cold)-1,'solid_count':len(doc.USBBoardAssembly.Shape.Solids),'cold_reopen':True,'physical_fit':False,'product_hall_installed':False}
+    (work/'integration.json').write_text(json.dumps(result,indent=2)+'\n')
+    stage('PASS')
+
+
+try:main()
+except BaseException:(work/'error.txt').write_text(traceback.format_exc())
+finally:os._exit(0)

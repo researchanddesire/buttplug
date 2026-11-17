@@ -1,8 +1,6 @@
 """Final native pad/netlist, critical-copper, geometry and source-conservation audit."""
 from pathlib import Path
 import hashlib,json,sys,xml.etree.ElementTree as ET
-import wx
-APP=wx.App(False)
 import pcbnew as k
 H=Path(__file__).resolve().parent;ROOT=H.parents[3];S=H.parent/'single-flange-study';P=H/'single-flange.kicad_pcb';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 sys.path.insert(0,str(ROOT/'tools'));import kicad_sexp as s
@@ -34,10 +32,10 @@ tracks={t.m_Uuid.AsString():t for t in b.GetTracks()};critical=json.loads((H/'cr
 for q in critical['objects']:
  t=tracks[q['uuid']];assert t.IsLocked()and t.GetNetname()==q['net']
  def point(v):return k.VECTOR2I(round((100+v[0])*1e6),round((100-v[1])*1e6))
- if q['kind']=='via':assert isinstance(t,k.PCB_VIA)and t.GetPosition()==point(q['product_XZ_mm'])and t.GetWidth()==round(q['diameter_mm']*1e6)and t.GetDrillValue()==round(q['drill_mm']*1e6)
+ if q['kind']=='via':assert isinstance(t,k.PCB_VIA)and t.GetPosition()==point(q['product_XZ_mm'])and t.GetWidth(k.F_Cu)==round(q['diameter_mm']*1e6)and t.GetDrillValue()==round(q['drill_mm']*1e6)
  else:assert not isinstance(t,k.PCB_VIA)and t.GetLayer()==b.GetLayerID(q['layer'])and t.GetStart()==point(q['start'])and t.GetEnd()==point(q['end'])and t.GetWidth()==round(q['width_mm']*1e6)
 assert all(isinstance(t,k.PCB_VIA)or(t.GetLayer()!=k.In1_Cu and t.GetWidth()>=150000)for t in tracks.values())
-assert all(t.GetDrillValue()>=200000 and t.GetWidth()>=500000 for t in tracks.values()if isinstance(t,k.PCB_VIA))
+assert all(t.GetDrillValue()>=200000 and t.GetWidth(k.F_Cu)>=500000 for t in tracks.values()if isinstance(t,k.PCB_VIA))
 assert b.GetDesignSettings().GetBoardThickness()==1000000
 original=json.loads((S/'native-checks.json').read_text());assert sha(S/'native-checks.json')==state['frozen_study_checks_sha256']
 for p,v in original['all_local_source_sha256'].items():assert sha(S/p)==v,('frozen study modified',p)
@@ -49,5 +47,9 @@ pose=json.loads((H/'native-step-pose-checks.json').read_text());assert pose['sta
 for key,field in [('mechanical_native','mechanical_native_sha256'),('mechanical_STEP','mechanical_STEP_sha256'),('native_KiCad_STEP','native_KiCad_STEP_sha256'),('finished_board_local_STEP','finished_board_local_STEP_sha256')]:assert sha(ROOT/mcad[key])==mcad[field]
 assert sha(P)==before
 report={'status':'pass: native merged39-part routed candidate, not a fabrication or powered release','board_sha256':before,'native_KiCad_DRC_version':drc['kicad_version'],'DRC_violations':0,'unconnected_items':0,'ignored_checks':drc.get('ignored_checks',[]),'DRC_exclusions':[],'native_refs':39,'mechanical_NPTH':4,'logical_terminal_contracts':155,'physical_pad_instances':len(rows),'mechanical_hold_down_pads':mechanical_hold_down_pads,'native_pad_contracts':rows,'tracks':sum(not isinstance(t,k.PCB_VIA)for t in tracks.values()),'vias':sum(isinstance(t,k.PCB_VIA)for t in tracks.values()),'locked_critical_objects':len(critical['objects']),'PCB_layers':4,'nominal_finished_mm':1,'In1_signal_tracks':0,'nominal_minimum_trace_clearance_mm':[.15,.15],'minimum_via_diameter_drill_mm':[.5,.2],'geometry_exceptions':geom['authorized_position_exceptions'],'frozen_geometry_parity_sha256':sha(H/'geometry-parity.json'),'original_body69_source_and_artwork_unchanged':True,'frozen_study_unchanged':True,'J7_numeric_interface_preserved':True,'independent_retained_endpoint_net_type_function_checks':376,'full_device_ERC_errors':0,'full_device_ERC_warnings':0,'body_PCBA_or_factory_artwork_replacement':False,'fabrication_supplier_acceptance':False,'USB_RF_magnetic_thermal_molding_physical_qualification':False,'reports_sha256':{p:sha(H/p)for p in('drc.json','schematic-checks.json','geometry-parity.json','system-native.xml','single-flange-native.xml','system-erc.json','connector-clearance-repair.json','critical-copper.json','mcad.json','native-step-pose-checks.json','single-flange-independent-terminal-review.json')},'source_invariant_sha256':original['source_invariant_sha256']}
-report['all_local_source_sha256']={str(p.relative_to(H)):sha(p)for p in sorted(H.rglob('*'))if p.is_file()and p.name not in('native-checks.json',)and'__pycache__'not in p.parts and not p.name.endswith(('.pyc','.FCStd1'))}
+for ref in ('CT1','CT2','CT3','CT4'):
+ pad,=fps[ref].Pads();assert pad.GetAttribute()==k.PAD_ATTRIB_PTH
+ assert tuple(pad.GetDrillSize())==(1020000,1020000) and tuple(pad.GetSize())==(3200000,3200000)
+report['target_drills_mm']=geom['authorized_target_drill_mm']
+report['all_local_source_sha256']={str(p.relative_to(H)):sha(p)for p in sorted(H.rglob('*'))if p.is_file()and p.name!='native-checks.json' and not {'__pycache__','assembly-quote'}.intersection(p.relative_to(H).parts) and not p.name.endswith(('.pyc','.FCStd1','.kicad_prl'))}
 (H/'native-checks.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({k:report[k]for k in('status','board_sha256','DRC_violations','unconnected_items','native_refs','physical_pad_instances','tracks','vias','locked_critical_objects')}))

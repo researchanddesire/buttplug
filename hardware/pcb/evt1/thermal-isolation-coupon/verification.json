@@ -1,0 +1,62 @@
+{
+  "tool": "KiCad 7.0.7",
+  "drc": {
+    "violations": 0,
+    "unconnected_pads": 0,
+    "footprint_errors": 0
+  },
+  "sha256": {
+    "thermal-isolation-coupon.kicad_pcb": "7dbcc9fb21899044fc34513e29d42c225581a917f36d52a022b50bf25731a74a",
+    "thermal-isolation-coupon.kicad_pro": "018cc1cf3c74191ab544b3646e2f26e726cd6ce2253200f0c2e95ba67d013386",
+    "thermal-isolation-coupon-fabrication.zip": "65cfb746de9c189112c2d435b29de04045e22e7f1d87fabc868b2778e54fb1d7",
+    "placements.csv": "3e199528f6033201d2b2a9c0a2c41428ed5e1648aafffac7a9073a3f95869754",
+    "drc.rpt": "8575258b5c506b7ac6e37d6f1a18365e72433ccef1137141e78eeb15aa954b26",
+    "assembly-parts.csv": "bc72dbf499b13f97dce2f17958d86fbe235a87bb3432d0a94d9794bb0d52c1f7"
+  },
+  "archive_members_sha256": {
+    "FABRICATION.txt": "fbb5ecd01e6dc51dcbba2000e6cafb87b2be6fafb32bcf1681eec70ed1c73327",
+    "thermal-isolation-coupon-B_Cu.gbl": "b0c917f0096d7a756dbb604bc411c6e82b3a9652e4f03c80b93f2dc241acdea6",
+    "thermal-isolation-coupon-B_Mask.gbs": "ec444f8297e143cf1669cddf19e52167fe6e5181917a86845dcd7e7fdd547ae0",
+    "thermal-isolation-coupon-B_Paste.gbp": "1f353221a4a226f1017a8166ffc5f29c83510a8b4fab3ada148bdebbdd89ca80",
+    "thermal-isolation-coupon-B_Silkscreen.gbo": "9f101dc5aea8fd0649b569a0d38d31049af87306df0c36b04ccd345390137a1a",
+    "thermal-isolation-coupon-Edge_Cuts.gm1": "ec7d8bf77fd6d738614083a47885b3a17abdcbb68963c1c6f2efef1eb23f9308",
+    "thermal-isolation-coupon-F_Cu.gtl": "84bbb3ae04d8466111e908a41df6e88fd66ff221b242799ae8aac3262b7a7de4",
+    "thermal-isolation-coupon-F_Mask.gts": "1cca95d5c185f9337b55a839e81be364831a955f2441920b31f4a252ceab0450",
+    "thermal-isolation-coupon-F_Silkscreen.gto": "558f474e8af6423f645252d863acbe9a51b27beb98cb11e35a76ca8771b6fd8a",
+    "thermal-isolation-coupon-In1_Cu.g2": "f56d635bf0340dffbe0d0ea96c1281219e75576e00fbd9f70886030689361ef8",
+    "thermal-isolation-coupon-In2_Cu.g3": "3b493bc36a1db8545404bc3ec502ba8293c6d19eb4059b6c13317e30defa418b",
+    "thermal-isolation-coupon-NPTH.drl": "dd6c8624e13c756f5e79f2d3f2b161567eb4ddeb36748654b7ae4d5a21463298",
+    "thermal-isolation-coupon-PTH.drl": "1f3443d2843ece82f57c3ce9bc3eba3449cb1fbb9e985179ebc3e91f6dab3f17",
+    "thermal-isolation-coupon-job.gbrjob": "8508f6f8126dee859f37def9ec0c51e5275de1182bb1ef2ae7c4d6b7fdb5f8fb"
+  },
+  "saved_board_readback": {
+    "outline_loops": 1,
+    "interior_routed_loops": 1,
+    "sample_grid_spacing_mm": 0.25,
+    "samples_per_site_per_pour": 625,
+    "sampled_pours_clear_of_both_pad_footprints": [
+      "B.Cu",
+      "In1.Cu",
+      "In2.Cu"
+    ],
+    "signal_width_mm": 0.15,
+    "pin_map": {
+      "J901": {
+        "1": "A_SENSE",
+        "2": "A_RETURN"
+      },
+      "TH902": {
+        "1": "B_SENSE",
+        "2": "B_RETURN"
+      },
+      "TH901": {
+        "1": "A_SENSE",
+        "2": "A_RETURN"
+      },
+      "J902": {
+        "1": "B_SENSE",
+        "2": "B_RETURN"
+      }
+    }
+  }
+}

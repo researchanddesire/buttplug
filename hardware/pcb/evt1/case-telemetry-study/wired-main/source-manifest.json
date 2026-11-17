@@ -1,0 +1,219 @@
+{
+  "inputs_sha256": {
+    "hardware/pcb/evt1/dock-system/sheets/dock-controller.kicad_sch": "2ea64034c047ce5d5d0a87a5a34a0fd2116ee015c2be218d85e3e2be634293f4",
+    "hardware/pcb/evt1/dock-system/sheets/dock-lid-ui.kicad_sch": "f981ce4b102ce00b3544d37557b0e61fe972ce839db580ecdf283159edd6b42c",
+    "hardware/pcb/evt1/dock-system/sheets/dock-safety.kicad_sch": "9b4769f1aca3122ad514d4dd624e3a6c2d7662c367f00f5e5bbac4abdc31383f",
+    "hardware/pcb/evt1/dock-system/sheets/dock-ui-source.kicad_sch": "655306c3703c52e3dc8143286a9288be307cbbfe31ddfea653a85e713279181d",
+    "hardware/pcb/evt1/dock-system/sheets/dock-uv-base.kicad_sch": "6f248ad200b0c087c78b8945a523f9f9d3c9acf28a3ceb74ab609348885152b2",
+    "hardware/pcb/evt1/dock-system/sheets/dock-uv-lid.kicad_sch": "56b25970e502c3375241f33d8af9afe4bce57af237963e969ce8363152505361",
+    "hardware/pcb/evt1/dock-system/native.xml": "51266fd7d71651ff813d76d9298a986301f619e6f8eed8ed9af64ca797a1630c",
+    "hardware/pcb/evt1/dock-system/sym-lib-table": "f0a88ccb36a633e3017339a0834eb513ec5cbae3533c9d7ceb77b94984651707",
+    "hardware/pcb/evt1/dock-system/fp-lib-table": "338f33dcd45ada81d59d10617dcdd3d680040a7d04af4731fe14237a319dd472",
+    "hardware/pcb/evt1/dock-system/erc.json": "160e6e29c3e488b6b216c517e93a04f44564c426111ddf3db98a48100a0ada8a",
+    "hardware/pcb/evt1/dock-system/dock-system.kicad_pro": "917574ea556461ca9302a2b59ee910f243a62c1b3b62833008e965a7b6383655",
+    "tools/electronics_r0_generate.py": "d04c15a6a24f9b94eca66d22a9bb003a11235d5ffa3374fc70dd80600ef81cdc",
+    "tools/kicad_sexp.py": "e994d65ca0487b08c75ffbce5449b492e32832abc948300c1c61407684efb5b0",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/contract.py": "bc2f68a4c28cede40e2b4ae3fbb3b857e08ae24121aaa389f9e8ee5c83ab9660",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/circuit-contract.json": "bd6fac097c73a2724aaa3d3d402695281610460638fdeaeca45f03b98c076aa9",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/WiredMain.pretty/Onsemi_846AP_MSOP10.kicad_mod": "b0ec0d9dc38033705b950fc82fb39d9e5ccdb335002702bb65c428d2e685396d",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/WiredMain.pretty/TI_DSE0006A.kicad_mod": "93caf3c961110404336559a4e3d7eb56cacd21eb5b0fc785ce44977112f49446",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/WiredMain.pretty/Winbond_USON-8_2x3mm_P0.5mm_UX.kicad_mod": "e5f361c414866d6811d14940e4c313659a993669019e52adc0d7264e2105e609"
+  },
+  "builder_sha256": "ab8edbca57be9f09b4739b0538f2952baaf7689ed9a414fefe7f1727f9aaa348",
+  "local_footprint_sources": {
+    "C_0402_1005Metric.kicad_mod": {
+      "source_library": "Capacitor_SMD",
+      "sha256": "0403382fc4583ed510b461b1fa4a36dfaec6f4c0d9b1a67e6b0027837a54e1b5"
+    },
+    "C_0603_1608Metric.kicad_mod": {
+      "source_library": "Capacitor_SMD",
+      "sha256": "fe0dbfefbb181a0466f93a8de52d84ba7b00fcd9acdbb69575f4128a0af4e405"
+    },
+    "C_0805_2012Metric.kicad_mod": {
+      "source_library": "Capacitor_SMD",
+      "sha256": "62775a51fe74ba7f1b572de327bdbd3fc92582721b2abcaa47787865590d89cb"
+    },
+    "Crystal_SMD_3225-4Pin_3.2x2.5mm.kicad_mod": {
+      "source_library": "Crystal",
+      "sha256": "7648bca15399a8bd7856b5da6a1d2bc3a87049dc63958f8e8a3ab7409941a8e4"
+    },
+    "QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm.kicad_mod": {
+      "source_library": "Package_DFN_QFN",
+      "sha256": "cd4fb53a6c4469b8d1ddc0fc4a50183990f7c46ba103308526761a1f0e915769"
+    },
+    "TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": {
+      "source_library": "Package_SO",
+      "sha256": "e4bf82cea6d3b3259ddf42469b1407628ad1181a28ae6f3f340190c0cca31ccd"
+    },
+    "SOT-23-5.kicad_mod": {
+      "source_library": "Package_TO_SOT_SMD",
+      "sha256": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761"
+    },
+    "SOT-23-6.kicad_mod": {
+      "source_library": "Package_TO_SOT_SMD",
+      "sha256": "f341c73aac9dcb553456f68bf3fee3d26eb14acf6d8a1cae82b50418fe1d71ca"
+    },
+    "SOT-363_SC-70-6.kicad_mod": {
+      "source_library": "Package_TO_SOT_SMD",
+      "sha256": "0659d885e00b786968c3ba29152b808777240a91c1fb49ab8d814eb03530115c"
+    },
+    "Texas_DRT-3.kicad_mod": {
+      "source_library": "Package_TO_SOT_SMD",
+      "sha256": "15cde3ee13da0e0426038a0a17ee16c50edc6d100b64582166b4263d4e7cae17"
+    },
+    "TI_RSV0016A.kicad_mod": {
+      "source_library": "Radio",
+      "sha256": "e37cb16fb96fa62a780fbab453393e3b017deb86ea86551501ed033548bf6226"
+    },
+    "R_0402_1005Metric.kicad_mod": {
+      "source_library": "Resistor_SMD",
+      "sha256": "e05c7605248c220836f642ed1f526133edf0374acdfd5bb2631e58b4e377acfb"
+    },
+    "R_0603_1608Metric.kicad_mod": {
+      "source_library": "Resistor_SMD",
+      "sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23"
+    },
+    "TestPoint_Pad_D1.5mm.kicad_mod": {
+      "source_library": "TestPoint",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042"
+    },
+    "Onsemi_846AP_MSOP10.kicad_mod": {
+      "source_library": "WiredMain",
+      "sha256": "b0ec0d9dc38033705b950fc82fb39d9e5ccdb335002702bb65c428d2e685396d"
+    },
+    "TI_DSE0006A.kicad_mod": {
+      "source_library": "WiredMain",
+      "sha256": "93caf3c961110404336559a4e3d7eb56cacd21eb5b0fc785ce44977112f49446"
+    },
+    "Winbond_USON-8_2x3mm_P0.5mm_UX.kicad_mod": {
+      "source_library": "WiredMain",
+      "sha256": "e5f361c414866d6811d14940e4c313659a993669019e52adc0d7264e2105e609"
+    }
+  },
+  "new_reference_footprints": {
+    "U151": "WiredMain:Onsemi_846AP_MSOP10",
+    "U152": "WiredMain:Texas_DRT-3",
+    "U153": "WiredMain:SOT-23-6",
+    "U154": "WiredMain:SOT-23-5",
+    "U155": "WiredMain:TI_DSE0006A",
+    "U156": "WiredMain:SOT-23-6",
+    "U157": "WiredMain:TSSOP-14_4.4x5mm_P0.65mm",
+    "U158": "WiredMain:TSSOP-14_4.4x5mm_P0.65mm",
+    "U159": "WiredMain:SOT-363_SC-70-6",
+    "U162": "WiredMain:TI_RSV0016A",
+    "U163": "WiredMain:SOT-363_SC-70-6",
+    "U160": "WiredMain:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm",
+    "U161": "WiredMain:Winbond_USON-8_2x3mm_P0.5mm_UX",
+    "Y151": "WiredMain:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+    "TP151": "WiredMain:TestPoint_Pad_D1.5mm",
+    "TP152": "WiredMain:TestPoint_Pad_D1.5mm",
+    "TP153": "WiredMain:TestPoint_Pad_D1.5mm",
+    "TP154": "WiredMain:TestPoint_Pad_D1.5mm",
+    "TP155": "WiredMain:TestPoint_Pad_D1.5mm",
+    "TP156": "WiredMain:TestPoint_Pad_D1.5mm",
+    "TP157": "WiredMain:TestPoint_Pad_D1.5mm",
+    "R151": "WiredMain:R_0402_1005Metric",
+    "R152": "WiredMain:R_0402_1005Metric",
+    "R153": "WiredMain:R_0603_1608Metric",
+    "R154": "WiredMain:R_0603_1608Metric",
+    "R155": "WiredMain:R_0402_1005Metric",
+    "R156": "WiredMain:R_0402_1005Metric",
+    "R157": "WiredMain:R_0402_1005Metric",
+    "R158": "WiredMain:R_0402_1005Metric",
+    "R159": "WiredMain:R_0402_1005Metric",
+    "R160": "WiredMain:R_0402_1005Metric",
+    "R161": "WiredMain:R_0402_1005Metric",
+    "R162": "WiredMain:R_0402_1005Metric",
+    "R163": "WiredMain:R_0402_1005Metric",
+    "R164": "WiredMain:R_0402_1005Metric",
+    "R165": "WiredMain:R_0402_1005Metric",
+    "R166": "WiredMain:R_0402_1005Metric",
+    "R167": "WiredMain:R_0402_1005Metric",
+    "R168": "WiredMain:R_0402_1005Metric",
+    "R169": "WiredMain:R_0402_1005Metric",
+    "R170": "WiredMain:R_0402_1005Metric",
+    "C151": "WiredMain:C_0402_1005Metric",
+    "C152": "WiredMain:C_0402_1005Metric",
+    "C153": "WiredMain:C_0603_1608Metric",
+    "C154": "WiredMain:C_0805_2012Metric",
+    "C155": "WiredMain:C_0402_1005Metric",
+    "C156": "WiredMain:C_0402_1005Metric",
+    "C157": "WiredMain:C_0402_1005Metric",
+    "C158": "WiredMain:C_0402_1005Metric",
+    "C159": "WiredMain:C_0402_1005Metric",
+    "C160": "WiredMain:C_0402_1005Metric",
+    "C161": "WiredMain:C_0402_1005Metric",
+    "C162": "WiredMain:C_0402_1005Metric",
+    "C163": "WiredMain:C_0402_1005Metric",
+    "C164": "WiredMain:C_0402_1005Metric",
+    "C165": "WiredMain:C_0603_1608Metric",
+    "C166": "WiredMain:C_0603_1608Metric",
+    "C167": "WiredMain:C_0402_1005Metric",
+    "C168": "WiredMain:C_0402_1005Metric",
+    "C169": "WiredMain:C_0402_1005Metric",
+    "C170": "WiredMain:C_0402_1005Metric",
+    "C171": "WiredMain:C_0402_1005Metric",
+    "C172": "WiredMain:C_0402_1005Metric",
+    "C173": "WiredMain:C_0402_1005Metric",
+    "C174": "WiredMain:C_0402_1005Metric",
+    "C175": "WiredMain:C_0402_1005Metric",
+    "C176": "WiredMain:C_0402_1005Metric",
+    "C177": "WiredMain:C_0402_1005Metric",
+    "C178": "WiredMain:C_0402_1005Metric"
+  },
+  "copied_context_leaves": [
+    "dock-controller.kicad_sch",
+    "dock-lid-ui.kicad_sch",
+    "dock-safety.kicad_sch",
+    "dock-ui-source.kicad_sch",
+    "dock-uv-base.kicad_sch",
+    "dock-uv-lid.kicad_sch"
+  ],
+  "new_leaves": [
+    "wired-usb-data.kicad_sch",
+    "wired-usb-host.kicad_sch",
+    "wired-usb-passives.kicad_sch"
+  ],
+  "main_schematic": "dock-wired-system.kicad_sch",
+  "transport_schematic": "dock-wired-transport.kicad_sch",
+  "off_main_board_leaves": [
+    "dock-lid-ui.kicad_sch",
+    "dock-uv-base.kicad_sch",
+    "dock-uv-lid.kicad_sch"
+  ],
+  "declared_terminal_changes": {
+    "J102.2": [
+      "USB_DM",
+      "PLUG_USB_DM"
+    ],
+    "J102.3": [
+      "USB_DP",
+      "PLUG_USB_DP"
+    ],
+    "U201.5": [
+      null,
+      "USB_HOST_SCL"
+    ],
+    "U201.6": [
+      null,
+      "USB_HOST_SDA"
+    ]
+  },
+  "declared_resistor_changes": {
+    "R107": [
+      "40.2k 0.1% 25ppm/K",
+      "RT0603BRD0740K2L",
+      "Yageo"
+    ],
+    "R401": [
+      "4.22ohm 1% 100ppm/K",
+      "CRCW08054R22FKEA",
+      "Vishay"
+    ],
+    "R501": [
+      "4.22ohm 1% 100ppm/K",
+      "CRCW08054R22FKEA",
+      "Vishay"
+    ]
+  }
+}

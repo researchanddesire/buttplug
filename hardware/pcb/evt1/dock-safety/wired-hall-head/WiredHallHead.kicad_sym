@@ -1,0 +1,160 @@
+(kicad_symbol_lib
+  (version 20220914)
+  (generator dock_candidate)
+  (symbol
+    "C"
+    (pin_names hide)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol
+      "C_0_1"
+      (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+      (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+      (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+      (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol
+      "C_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "DMG1012T"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "DMG1012T" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.diodes.com/datasheet/download/DMG1012T.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Low-voltage N-channel switch, body diode points from local return to drain" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "DMG1012T_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "DMG1012T_1_1"
+      (pin input line (at -20.32 2.54 0) (length 5.08) (name "G" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "S" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 2.54 180) (length 5.08) (name "D" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "DRV5021"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "DRV5021" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5021.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Unipolar Hall switch" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "DRV5021_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "DRV5021_1_1"
+      (pin power_in line (at -20.32 2.54 0) (length 5.08) (name "VCC" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at -20.32 -2.54 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        open_collector
+        line
+        (at 20.32 2.54 180)
+        (length 5.08)
+        (name "OUT" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "PWR_FLAG"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "PWR_FLAG" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Explicit external supply contract; annotation only, not a component" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "PWR_FLAG_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "PWR_FLAG_1_1"
+      (pin
+        power_out
+        line
+        (at -20.32 2.54 0)
+        (length 5.08)
+        (name "EXTERNAL_RAIL" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "R"
+    (pin_names hide)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol
+      "R_1_1"
+      (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "SN74LVC1G58"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SN74LVC1G58" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g58.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Local head valid AND Hall low" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "SN74LVC1G58_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "SN74LVC1G58_1_1"
+      (pin input line (at -20.32 5.08 0) (length 5.08) (name "IN0" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 0.0 0) (length 5.08) (name "IN1" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 -5.08 0) (length 5.08) (name "IN2" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+      (pin output line (at 20.32 5.08 180) (length 5.08) (name "Y" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "VCC" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 -5.08 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "TPS3808G01"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TPS3808G01" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3808.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Local head supply monitor" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "TPS3808G01_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "TPS3808G01_1_1"
+      (pin power_in line (at -20.32 5.08 0) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 0.0 0) (length 5.08) (name "SENSE" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+      (pin input line (at -20.32 -5.08 0) (length 5.08) (name "MRn" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+      (pin
+        open_collector
+        line
+        (at 20.32 5.08 180)
+        (length 5.08)
+        (name "RESETn" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016)))))
+      (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at 20.32 -5.08 180) (length 5.08) (name "CT" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))))
+  (symbol
+    "WirePads"
+    (pin_names (offset 0.762))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "WirePads" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Direct soldered head wires, with separate loom strain relief" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "WirePads_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol
+      "WirePads_1_1"
+      (pin
+        passive
+        line
+        (at -20.32 5.08 0)
+        (length 5.08)
+        (name "HEAD_FEED" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 0.0 0) (length 5.08) (name "SIG" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+      (pin passive line (at -20.32 -5.08 0) (length 5.08) (name "RETURN" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016))))))))

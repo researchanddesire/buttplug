@@ -1,0 +1,660 @@
+{
+  "product_native": {
+    "sha256": "6927ffc7139e505a61f698d761e484acad89901da74b48cce2b6058c5599f436",
+    "new_objects": [
+      "BaseUVPlugPocket",
+      "BaseUVPlugPocketOutline",
+      "InstalledBaseUVHarness",
+      "InstalledJ401PlugHousing",
+      "Origin238",
+      "Origin239",
+      "StationaryBaseUVHarnessInstance",
+      "XY_Plane119",
+      "XZ_Plane119",
+      "X_Axis119",
+      "YZ_Plane119",
+      "Y_Axis119",
+      "Z_Axis119"
+    ],
+    "relative_links": [
+      [
+        "PinBoardAssembly",
+        "pcb/PinPCB.FCStd",
+        "Board_319a"
+      ],
+      [
+        "UVBaseBoardAssembly",
+        "pcb/UVBase.FCStd",
+        "Board_957f"
+      ],
+      [
+        "UVLidBoardAssembly",
+        "pcb/UVLid.FCStd",
+        "Board_308"
+      ],
+      [
+        "UIBoardAssembly",
+        "pcb/LidUI-JST.FCStd",
+        "Board_806"
+      ],
+      [
+        "USBBoardAssembly",
+        "pcb/MainPCB-Wired.FCStd",
+        "Board_d5a2"
+      ],
+      [
+        "DeviceMetalBody",
+        "sources/SingleFlangeExterior.FCStd",
+        "MetalBody"
+      ],
+      [
+        "DeviceMotorThermistorCap",
+        "sources/SingleFlangeExterior.FCStd",
+        "MotorThermistorCap"
+      ],
+      [
+        "DeviceContinuousSkin",
+        "sources/SingleFlangeExterior.FCStd",
+        "ContinuousSkin"
+      ],
+      [
+        "DeviceContact_GND",
+        "sources/SingleFlangeExterior.FCStd",
+        "Contact_GND"
+      ],
+      [
+        "DeviceContact_USB_DM",
+        "sources/SingleFlangeExterior.FCStd",
+        "Contact_USB_DM"
+      ],
+      [
+        "DeviceContact_USB_DP",
+        "sources/SingleFlangeExterior.FCStd",
+        "Contact_USB_DP"
+      ],
+      [
+        "DeviceContact_DOCK_5V",
+        "sources/SingleFlangeExterior.FCStd",
+        "Contact_DOCK_5V"
+      ],
+      [
+        "DeviceSteelKeeper0",
+        "sources/SingleFlangeExterior.FCStd",
+        "SteelKeeper0"
+      ],
+      [
+        "DeviceSteelKeeper1",
+        "sources/SingleFlangeExterior.FCStd",
+        "SteelKeeper1"
+      ],
+      [
+        "StationaryBaseUVHarnessInstance",
+        "sources/BaseUVHarness.FCStd",
+        "StationaryBaseUVHarness"
+      ]
+    ],
+    "restored_saved_camera": true,
+    "view_records_before": 1893,
+    "view_records_after": 1898,
+    "retained_screen_thumbnail": true,
+    "new_view_resources": [
+      "J401View-BaseUVPlugPocket-LineColorArray804",
+      "J401View-BaseUVPlugPocket-PointColorArray804",
+      "J401View-BaseUVPlugPocket-ShapeAppearance1273",
+      "J401View-BaseUVPlugPocketOutline-LineColorArray803",
+      "J401View-BaseUVPlugPocketOutline-PointColorArray803",
+      "J401View-InstalledJ401PlugHousing-LineColorArray805",
+      "J401View-InstalledJ401PlugHousing-PointColorArray805",
+      "J401View-InstalledJ401PlugHousing-ShapeAppearance1281"
+    ]
+  },
+  "pocket": {
+    "prior_assembly_sha256": "d1d3bd100dafc00097f10b02af68c29657ecfefe40f08ba8603f4c5393264ce4",
+    "harness_source_sha256": "6a1181650a9edcbb538749a61cfbb3799de7c5a993efcc0a3431fd03e70563bd",
+    "housing_source_assembly_sha256": "7bba02126774da26afda49ff4be751ce67ae2895475130178a1d18198af72537",
+    "removed_mm3": 89.5717256359733,
+    "liner_symmetric_difference_mm3": [
+      0.0,
+      0.0
+    ],
+    "depth_mm": 1.3000000000000078,
+    "minimum_web_design_mm": 0.7,
+    "checked_web_layer_mm": 0.68,
+    "previous_tip": "UVSeamLowerLinerLoadingSlots",
+    "pre_view_restoration_assembly_sha256": "8acb33fe0f747abeeacd8a1faf49a5ef04c49ff200e950102211d4b130943759"
+  },
+  "closed_fit": {
+    "native_sha256": "6927ffc7139e505a61f698d761e484acad89901da74b48cce2b6058c5599f436",
+    "harness_sha256": "6a1181650a9edcbb538749a61cfbb3799de7c5a993efcc0a3431fd03e70563bd",
+    "relative_links": {
+      "PinBoardAssembly": "pcb/PinPCB.FCStd",
+      "UVBaseBoardAssembly": "pcb/UVBase.FCStd",
+      "UVLidBoardAssembly": "pcb/UVLid.FCStd",
+      "UIBoardAssembly": "pcb/LidUI-JST.FCStd",
+      "USBBoardAssembly": "pcb/MainPCB-Wired.FCStd",
+      "DeviceMetalBody": "sources/SingleFlangeExterior.FCStd",
+      "DeviceMotorThermistorCap": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContinuousSkin": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_GND": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_USB_DM": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_USB_DP": "sources/SingleFlangeExterior.FCStd",
+      "DeviceContact_DOCK_5V": "sources/SingleFlangeExterior.FCStd",
+      "DeviceSteelKeeper0": "sources/SingleFlangeExterior.FCStd",
+      "DeviceSteelKeeper1": "sources/SingleFlangeExterior.FCStd",
+      "StationaryBaseUVHarnessInstance": "sources/BaseUVHarness.FCStd"
+    },
+    "kernel": [
+      "1",
+      "1",
+      "4"
+    ],
+    "physical_fit": false,
+    "scope": "Exact saved closed-position stationary base UV and spring-pin wire checks. Fitted JST housings, wire guides/strain relief, wire loading, hinge travel and powered UV are separate.",
+    "rigid_obstacle_objects": 82,
+    "wires": [
+      {
+        "wire": "J401.1\u2013J621.1",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.2\u2013J621.2",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.3\u2013J621.3",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.4\u2013J621.4",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.5\u2013J621.5",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.6\u2013J621.6",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.7\u2013J621.7",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J401.8\u2013J621.8",
+        "exact_pairs": 5,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.9298573309892487,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.1\u2013J94.1",
+        "exact_pairs": 60,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.2\u2013J94.2",
+        "exact_pairs": 64,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.3\u2013J94.3",
+        "exact_pairs": 67,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      },
+      {
+        "wire": "J102.4\u2013J94.4",
+        "exact_pairs": 67,
+        "overlaps_mm3": {},
+        "liner_gap_mm": 0.29999999999999893,
+        "housing_overlap_mm3": 0.0
+      }
+    ],
+    "j401_housing": {
+      "liner_gap_mm": 0.2500000000000089,
+      "liner_overlap_mm3": 0.0,
+      "spreader_gap_mm": 0.949999999999994,
+      "lower_shell_gap_mm": 4.899999999999986
+    },
+    "wire_spacing": {
+      "J401.1\u2013J621.1 / J401.2\u2013J621.2": {
+        "gap_mm": 0.4117999999999526,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.3\u2013J621.3": {
+        "gap_mm": 1.6617999999999635,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.4\u2013J621.4": {
+        "gap_mm": 2.9117999999999618,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.5\u2013J621.5": {
+        "gap_mm": 4.161799999999956,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.6\u2013J621.6": {
+        "gap_mm": 5.411799999999962,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.7\u2013J621.7": {
+        "gap_mm": 6.661799999999963,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J401.8\u2013J621.8": {
+        "gap_mm": 7.91179999999996,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.1\u2013J94.1": {
+        "gap_mm": 54.9929373517275,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.2\u2013J94.2": {
+        "gap_mm": 53.491538751338496,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.3\u2013J94.3": {
+        "gap_mm": 52.066588718692074,
+        "overlap_mm3": 0.0
+      },
+      "J401.1\u2013J621.1 / J102.4\u2013J94.4": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.3\u2013J621.3": {
+        "gap_mm": 0.41179999999996936,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.4\u2013J621.4": {
+        "gap_mm": 1.661799999999973,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.5\u2013J621.5": {
+        "gap_mm": 2.9117999999999697,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.6\u2013J621.6": {
+        "gap_mm": 4.161799999999967,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.7\u2013J621.7": {
+        "gap_mm": 5.411799999999972,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J401.8\u2013J621.8": {
+        "gap_mm": 6.66179999999997,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.1\u2013J94.1": {
+        "gap_mm": 54.233074458747346,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.2\u2013J94.2": {
+        "gap_mm": 52.76910961199146,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.3\u2013J94.3": {
+        "gap_mm": 51.38479857937949,
+        "overlap_mm3": 0.0
+      },
+      "J401.2\u2013J621.2 / J102.4\u2013J94.4": {
+        "gap_mm": 50.08679331920704,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.4\u2013J621.4": {
+        "gap_mm": 0.4117999999999682,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.5\u2013J621.5": {
+        "gap_mm": 1.6617999999999742,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.6\u2013J621.6": {
+        "gap_mm": 2.9117999999999697,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.7\u2013J621.7": {
+        "gap_mm": 4.161799999999973,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J401.8\u2013J621.8": {
+        "gap_mm": 5.4117999999999675,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.1\u2013J94.1": {
+        "gap_mm": 53.491538751338496,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.2\u2013J94.2": {
+        "gap_mm": 52.06658871869208,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.3\u2013J94.3": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.3\u2013J621.3 / J102.4\u2013J94.4": {
+        "gap_mm": 49.472308776651076,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.5\u2013J621.5": {
+        "gap_mm": 0.4117999999999675,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.6\u2013J621.6": {
+        "gap_mm": 1.6617999999999606,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.7\u2013J621.7": {
+        "gap_mm": 2.9117999999999706,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J401.8\u2013J621.8": {
+        "gap_mm": 4.161799999999969,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.1\u2013J94.1": {
+        "gap_mm": 52.76910961199145,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.2\u2013J94.2": {
+        "gap_mm": 51.38479857937949,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.3\u2013J94.3": {
+        "gap_mm": 50.08679331920704,
+        "overlap_mm3": 0.0
+      },
+      "J401.4\u2013J621.4 / J102.4\u2013J94.4": {
+        "gap_mm": 48.88201032428509,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J401.6\u2013J621.6": {
+        "gap_mm": 0.4117999999999536,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J401.7\u2013J621.7": {
+        "gap_mm": 1.6617999999999675,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J401.8\u2013J621.8": {
+        "gap_mm": 2.9117999999999697,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.1\u2013J94.1": {
+        "gap_mm": 52.066588718692074,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.2\u2013J94.2": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.3\u2013J94.3": {
+        "gap_mm": 49.472308776651076,
+        "overlap_mm3": 0.0
+      },
+      "J401.5\u2013J621.5 / J102.4\u2013J94.4": {
+        "gap_mm": 48.31678852356099,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J401.7\u2013J621.7": {
+        "gap_mm": 0.41179999999996664,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J401.8\u2013J621.8": {
+        "gap_mm": 1.6617999999999613,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.1\u2013J94.1": {
+        "gap_mm": 51.38479857937949,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.2\u2013J94.2": {
+        "gap_mm": 50.086793319207054,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.3\u2013J94.3": {
+        "gap_mm": 48.88201032428509,
+        "overlap_mm3": 0.0
+      },
+      "J401.6\u2013J621.6 / J102.4\u2013J94.4": {
+        "gap_mm": 47.77753711726888,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J401.8\u2013J621.8": {
+        "gap_mm": 0.411799999999968,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.1\u2013J94.1": {
+        "gap_mm": 50.7245806953228,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.2\u2013J94.2": {
+        "gap_mm": 49.47230877665108,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.3\u2013J94.3": {
+        "gap_mm": 48.316788523561,
+        "overlap_mm3": 0.0
+      },
+      "J401.7\u2013J621.7 / J102.4\u2013J94.4": {
+        "gap_mm": 47.26514840531732,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.1\u2013J94.1": {
+        "gap_mm": 50.086793319207054,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.2\u2013J94.2": {
+        "gap_mm": 48.882010324285105,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.3\u2013J94.3": {
+        "gap_mm": 47.77753711726888,
+        "overlap_mm3": 0.0
+      },
+      "J401.8\u2013J621.8 / J102.4\u2013J94.4": {
+        "gap_mm": 46.78050812759573,
+        "overlap_mm3": 0.0
+      },
+      "J102.1\u2013J94.1 / J102.2\u2013J94.2": {
+        "gap_mm": 0.14219125860946544,
+        "overlap_mm3": 0.0
+      },
+      "J102.1\u2013J94.1 / J102.3\u2013J94.3": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      },
+      "J102.1\u2013J94.1 / J102.4\u2013J94.4": {
+        "gap_mm": 0.4965856099730645,
+        "overlap_mm3": 0.0
+      },
+      "J102.2\u2013J94.2 / J102.3\u2013J94.3": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      },
+      "J102.2\u2013J94.2 / J102.4\u2013J94.4": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      },
+      "J102.3\u2013J94.3 / J102.4\u2013J94.4": {
+        "gap_mm": 0.14999999999999858,
+        "overlap_mm3": 0.0
+      }
+    },
+    "cold_reopened": true
+  },
+  "loading": {
+    "source_rounded_liner_bounds_mm": [
+      -61.70000000000002,
+      -1.700000000000017,
+      10.999999999999998,
+      61.70000000000002,
+      156.70000000000002,
+      37.0
+    ],
+    "prior_native_sha256": "d1d3bd100dafc00097f10b02af68c29657ecfefe40f08ba8603f4c5393264ce4",
+    "harness_sha256": "6a1181650a9edcbb538749a61cfbb3799de7c5a993efcc0a3431fd03e70563bd",
+    "preexisting_rounded_liner_source": "cbfa0f86576d7f23796db4fe9bd3cf653fa05fe5109b90833f3cd1b13ed79cc0",
+    "tested_lower_liner_removal_mm": [
+      0,
+      0.25,
+      0.5,
+      1,
+      1.5,
+      2,
+      3,
+      4,
+      6,
+      8,
+      12,
+      20,
+      30,
+      40,
+      60
+    ],
+    "parts": [
+      "J401 housing",
+      "J401.1\u2013J621.1",
+      "J401.2\u2013J621.2",
+      "J401.3\u2013J621.3",
+      "J401.4\u2013J621.4",
+      "J401.5\u2013J621.5",
+      "J401.6\u2013J621.6",
+      "J401.7\u2013J621.7",
+      "J401.8\u2013J621.8",
+      "J102.1\u2013J94.1",
+      "J102.2\u2013J94.2",
+      "J102.3\u2013J94.3",
+      "J102.4\u2013J94.4"
+    ],
+    "sampled_intersections": {
+      "3 mm / J102.2\u2013J94.2": 0.020740009742046286,
+      "3 mm / J102.4\u2013J94.4": 0.020740009742046282,
+      "4 mm / J102.1\u2013J94.1": 0.020143032238973575,
+      "4 mm / J102.2\u2013J94.2": 0.315078411727008,
+      "4 mm / J102.3\u2013J94.3": 0.020143032238973582,
+      "4 mm / J102.4\u2013J94.4": 0.315078411727008,
+      "6 mm / J102.1\u2013J94.1": 2.0981477471702705,
+      "6 mm / J102.2\u2013J94.2": 1.9429588703030933,
+      "6 mm / J102.3\u2013J94.3": 2.084010577687587,
+      "6 mm / J102.4\u2013J94.4": 1.9570960190788258,
+      "8 mm / J102.1\u2013J94.1": 0.6816566359889022,
+      "8 mm / J102.2\u2013J94.2": 0.6816566360382058,
+      "8 mm / J102.3\u2013J94.3": 0.6816566359888951,
+      "8 mm / J102.4\u2013J94.4": 0.6816566359888749,
+      "12 mm / J102.1\u2013J94.1": 0.5812436056192156,
+      "12 mm / J102.2\u2013J94.2": 0.5784229997100168,
+      "12 mm / J102.3\u2013J94.3": 0.5768877498309217,
+      "12 mm / J102.4\u2013J94.4": 0.5749203246970109,
+      "20 mm / J102.1\u2013J94.1": 0.5770430199699262,
+      "20 mm / J102.2\u2013J94.2": 0.5595616578751768,
+      "20 mm / J102.3\u2013J94.3": 0.5167073585101468,
+      "20 mm / J102.4\u2013J94.4": 0.5044623228752801,
+      "30 mm / J102.1\u2013J94.1": 0.678020297294557,
+      "30 mm / J102.2\u2013J94.2": 0.706065974866589,
+      "30 mm / J102.3\u2013J94.3": 0.7060659748666105,
+      "30 mm / J102.4\u2013J94.4": 0.7060660342365985
+    },
+    "j102_to_base_uv_spacing_mm": {
+      "J102.1\u2013J94.1 / J401 housing": 109.73752391314297,
+      "J102.1\u2013J94.1 / J401.1\u2013J621.1": 54.992937351727484,
+      "J102.1\u2013J94.1 / J401.2\u2013J621.2": 54.233074458747346,
+      "J102.1\u2013J94.1 / J401.3\u2013J621.3": 53.491538751338496,
+      "J102.1\u2013J94.1 / J401.4\u2013J621.4": 52.76910961199146,
+      "J102.1\u2013J94.1 / J401.5\u2013J621.5": 52.06658871869208,
+      "J102.1\u2013J94.1 / J401.6\u2013J621.6": 51.38479857937949,
+      "J102.1\u2013J94.1 / J401.7\u2013J621.7": 50.7245806953228,
+      "J102.1\u2013J94.1 / J401.8\u2013J621.8": 50.086793319207054,
+      "J102.2\u2013J94.2 / J401 housing": 109.73752391314297,
+      "J102.2\u2013J94.2 / J401.1\u2013J621.1": 53.4915387513385,
+      "J102.2\u2013J94.2 / J401.2\u2013J621.2": 52.76910961199146,
+      "J102.2\u2013J94.2 / J401.3\u2013J621.3": 52.066588718692074,
+      "J102.2\u2013J94.2 / J401.4\u2013J621.4": 51.38479857937949,
+      "J102.2\u2013J94.2 / J401.5\u2013J621.5": 50.7245806953228,
+      "J102.2\u2013J94.2 / J401.6\u2013J621.6": 50.086793319207054,
+      "J102.2\u2013J94.2 / J401.7\u2013J621.7": 49.47230877665108,
+      "J102.2\u2013J94.2 / J401.8\u2013J621.8": 48.8820103242851,
+      "J102.3\u2013J94.3 / J401 housing": 109.73752391314297,
+      "J102.3\u2013J94.3 / J401.1\u2013J621.1": 52.066588718692074,
+      "J102.3\u2013J94.3 / J401.2\u2013J621.2": 51.38479857937949,
+      "J102.3\u2013J94.3 / J401.3\u2013J621.3": 50.7245806953228,
+      "J102.3\u2013J94.3 / J401.4\u2013J621.4": 50.08679331920704,
+      "J102.3\u2013J94.3 / J401.5\u2013J621.5": 49.472308776651076,
+      "J102.3\u2013J94.3 / J401.6\u2013J621.6": 48.88201032428509,
+      "J102.3\u2013J94.3 / J401.7\u2013J621.7": 48.316788523561,
+      "J102.3\u2013J94.3 / J401.8\u2013J621.8": 47.77753711726888,
+      "J102.4\u2013J94.4 / J401 housing": 109.73752391314297,
+      "J102.4\u2013J94.4 / J401.1\u2013J621.1": 50.7245806953228,
+      "J102.4\u2013J94.4 / J401.2\u2013J621.2": 50.08679331920704,
+      "J102.4\u2013J94.4 / J401.3\u2013J621.3": 49.472308776651076,
+      "J102.4\u2013J94.4 / J401.4\u2013J621.4": 48.88201032428509,
+      "J102.4\u2013J94.4 / J401.5\u2013J621.5": 48.31678852356099,
+      "J102.4\u2013J94.4 / J401.6\u2013J621.6": 47.77753711726888,
+      "J102.4\u2013J94.4 / J401.7\u2013J621.7": 47.26514840531732,
+      "J102.4\u2013J94.4 / J401.8\u2013J621.8": 46.78050812759573
+    }
+  },
+  "save_delta": {
+    "prior_sha256": "d1d3bd100dafc00097f10b02af68c29657ecfefe40f08ba8603f4c5393264ce4",
+    "shape_streams_match": {
+      "UpperShell": false,
+      "LowerShell": false,
+      "UpperChamber": false,
+      "ContactCarrier": false,
+      "ContactRetainer": false,
+      "DockBaseUVSpreader6061": false,
+      "DockLidUVSpreader6061": false,
+      "DockWireGroundInsulatedSweep": false,
+      "DockWireUsbMinusInsulatedSweep": false,
+      "DockWireUsbPlusInsulatedSweep": false,
+      "DockWirePowerInsulatedSweep": false
+    },
+    "placements_and_expressions_match": {
+      "BaseAssembly": true,
+      "LidAssembly": true,
+      "LowerChamberInstance": true,
+      "USBBoardAssembly": true,
+      "UIBoardAssembly": true,
+      "PinBoardAssembly": true,
+      "UVBaseBoardAssembly": true,
+      "UVLidBoardAssembly": true,
+      "DockLCDInstance": true
+    },
+    "active_has_gui_document": false,
+    "pre_view_restoration_assembly_sha256": "8acb33fe0f747abeeacd8a1faf49a5ef04c49ff200e950102211d4b130943759"
+  },
+  "cautions": [
+    "Shape stream bytes were reserialized by host FreeCAD; native placement and expression values match and the cold geometry was checked directly.",
+    "The existing thumbnail retains the approved exterior view. The section shows the changed hidden liner.",
+    "Five product objects and eight FreeCAD origin helpers were added.",
+    "J621 mated housing and termination access were excluded from the active check."
+  ]
+}

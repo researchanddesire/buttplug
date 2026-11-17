@@ -1,0 +1,113 @@
+{
+  "scope": "Two nominal keeper solids in the drilled cover and Rev051 docking frame",
+  "source_sha256": {
+    "hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/exterior/SingleFlangeExterior.FCStd": "4b9471fea1af7ace656350d1bc001c665d675ac7fe8014103637b7c204a3b7c5",
+    "hardware/cad/manufacturing-layout/evt1-integration/contact-module-trial/single-board/closure-review/FlangeClosureReview.FCStd": "c711cf11e407516fe9d364a06a273c51768c9f43b645f23be659b0daba4b4116",
+    "hardware/cad/evt1-assembly/review-051/DockAssembly-051-review.zip": "acff43efd0931cb934289eac634ac99e0ca303b2b43b86f4be757a2f9b97c20f",
+    "hardware/design/evt1-bench-ordering/contact-interface/exchange-check.json": "2d7d893be248790e8c44f1a04ab85beddeff1cb9c914daf1b5edc160c45d4088",
+    "hardware/design/evt1-bench-ordering/contact-interface/keeper-samples/check_keepers.py": "1108fb004d0f66b21d2c19b9809a0a53f2283c7d324b9195b657d04989725b73"
+  },
+  "keepers": {
+    "SteelKeeper0": {
+      "product_bounds_mm": [
+        -18.5,
+        -28.3,
+        -12.0,
+        -10.5,
+        -27.3,
+        -4.0
+      ],
+      "dock_bounds_mm": [
+        -18.5,
+        24.900000000000002,
+        20.0,
+        -10.5,
+        25.900000000000002,
+        28.0
+      ],
+      "keeper_to_magnet_face_mm": 2.7,
+      "cover_minimum_gap_mm": 0.0,
+      "cover_overlap_mm3": 0.0,
+      "skin_minimum_gap_mm": 0.4,
+      "skin_overlap_mm3": 0.0,
+      "maximum_trial_disc_clears_drilled_cover_and_PCB": true,
+      "pocket_gauge_8p19_diameter_1p098_depth_clears": true,
+      "PCB_clearance_to_maximum_trial_disc_mm": 0.298,
+      "identical_to_neutral_export": {
+        "volume_mm3": 50.26548245743669,
+        "bounds_mm": [
+          -4.0,
+          -8.8e-16,
+          -4.0,
+          4.0,
+          1.0000000000000009,
+          4.0
+        ],
+        "max_bound_error_mm": 0.0,
+        "volume_difference_mm3": 0.0
+      }
+    },
+    "SteelKeeper1": {
+      "product_bounds_mm": [
+        -1.0,
+        -28.3,
+        -14.5,
+        7.0,
+        -27.3,
+        -6.5
+      ],
+      "dock_bounds_mm": [
+        -1.0,
+        24.900000000000002,
+        17.5,
+        7.0,
+        25.900000000000002,
+        25.5
+      ],
+      "keeper_to_magnet_face_mm": 2.7,
+      "cover_minimum_gap_mm": 0.0,
+      "cover_overlap_mm3": 0.0,
+      "skin_minimum_gap_mm": 0.4,
+      "skin_overlap_mm3": 0.0,
+      "maximum_trial_disc_clears_drilled_cover_and_PCB": true,
+      "pocket_gauge_8p19_diameter_1p098_depth_clears": true,
+      "PCB_clearance_to_maximum_trial_disc_mm": 0.298,
+      "identical_to_neutral_export": {
+        "volume_mm3": 50.26548245743669,
+        "bounds_mm": [
+          -4.0,
+          -8.8e-16,
+          -4.0,
+          4.0,
+          1.0000000000000009,
+          4.0
+        ],
+        "max_bound_error_mm": 8.881784197001252e-16,
+        "volume_difference_mm3": 5.684341886080802e-14
+      }
+    }
+  },
+  "maximum_trial_disc_mm": [
+    8.05,
+    1.05
+  ],
+  "physical_validation": false,
+  "exchange": {
+    "sha256": "6e307873812998efbafed83e2d96fe57e2829842e802bbbd9a7dd417ba9d9be6",
+    "solids": {
+      "SteelKeeper": {
+        "volume_mm3": 50.26548245743669,
+        "bounds_mm": [
+          -4.0,
+          -8.8e-16,
+          -4.0,
+          4.0,
+          1.0000000000000009,
+          4.0
+        ],
+        "max_bound_error_mm": 0.0,
+        "volume_difference_mm3": 1.2079226507921703e-13
+      }
+    }
+  }
+}

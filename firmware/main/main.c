@@ -26,7 +26,11 @@
 #include "thermal_history.h"
 _Static_assert(R0_THERMAL_JSON_CAPACITY >= THERMAL_STATUS_JSON_CAPACITY, "thermal snapshot buffer too small");
 #include "esp_random.h"
+#ifdef BOARD_EVT1_ONE_BOARD
+#define HARDWARE_PROFILE "evt1-one-board"
+#else
 #define HARDWARE_PROFILE "evt1"
+#endif
 static evt_compass_cal_t compass_cal;
 static int heading_mdeg;
 static bool heading_valid;
@@ -57,31 +61,31 @@ static bool pwm_ready;
 static atomic_bool stop_requested;
 uint64_t r0_now_ms(void) { return (uint64_t)esp_timer_get_time() / 1000; }
 #ifdef BOARD_EVT1
-bool r0_case_connected(uint16_t connection) {
+bool r0_case_connected(uint32_t connection) {
     if(!status_lock)return false;
     xSemaphoreTake(status_lock,portMAX_DELAY);bool ok=ct_runtime_open(&case_runtime,connection);
     xSemaphoreGive(status_lock);return ok;
 }
-void r0_case_disconnected(uint16_t connection) {
+void r0_case_disconnected(uint32_t connection) {
     if(!status_lock)return;
     xSemaphoreTake(status_lock,portMAX_DELAY);ct_runtime_close(&case_runtime,connection);xSemaphoreGive(status_lock);
 }
-bool r0_case_read(uint16_t connection,uint8_t kind,uint8_t out[CT_WIRE_BYTES]) {
+bool r0_case_read(uint32_t connection,uint8_t kind,uint8_t out[CT_WIRE_BYTES]) {
     if(!status_lock)return false;
     xSemaphoreTake(status_lock,portMAX_DELAY);bool ok=ct_runtime_read(&case_runtime,connection,kind,out);
     xSemaphoreGive(status_lock);return ok;
 }
-bool r0_case_command(uint16_t connection,const uint8_t data[CT_WIRE_BYTES],uint64_t rx) {
+bool r0_case_command(uint32_t connection,const uint8_t data[CT_WIRE_BYTES],uint64_t rx) {
     if(!status_lock)return false;
     xSemaphoreTake(status_lock,portMAX_DELAY);bool ok=ct_runtime_enqueue(&case_runtime,connection,data,rx);
     xSemaphoreGive(status_lock);return ok;
 }
-bool r0_case_next(uint16_t connection,uint8_t subscribed,uint64_t now,ct_transmission_t *tx) {
+bool r0_case_next(uint32_t connection,uint8_t subscribed,uint64_t now,ct_transmission_t *tx) {
     if(!status_lock)return false;
     xSemaphoreTake(status_lock,portMAX_DELAY);bool ok=ct_runtime_peek(&case_runtime,connection,subscribed,now,tx);
     xSemaphoreGive(status_lock);return ok;
 }
-void r0_case_sent(uint16_t connection,const ct_transmission_t *tx) {
+void r0_case_sent(uint32_t connection,const ct_transmission_t *tx) {
     if(!status_lock)return;
     xSemaphoreTake(status_lock,portMAX_DELAY);ct_runtime_sent(&case_runtime,connection,tx);xSemaphoreGive(status_lock);
 }
@@ -256,14 +260,23 @@ static void publish_compass(uint64_t now) {
 #endif
 static void publish(uint64_t now) {
     xSemaphoreTake(status_lock, portMAX_DELAY);
+#ifdef BOARD_EVT1_ONE_BOARD
+    char pack_temperature[16] = "null";
+    if (sample.pack_temperature_valid && now >= sample.pack_temperature_sampled_ms &&
+        now - sample.pack_temperature_sampled_ms <= 1500)
+        snprintf(pack_temperature, sizeof(pack_temperature), "%d", sample.pack_temperature_millic);
+#endif
     snprintf(status_json, sizeof(status_json),
         "{\"protocol\":\"r0\",\"hardware\":\"" HARDWARE_PROFILE "\",\"uptime_ms\":%" PRIu64 ",\"armed\":%s,\"faults\":%" PRIu32
         ",\"docked\":%s,\"limits_ready\":%s,\"duty_percent\":%u,\"temperature_millic\":%d,"
         "\"battery_mv\":%d,\"sensor_age_ms\":%" PRIu64 ",\"sensor_valid\":%s,"
         "\"accel_raw\":[%d,%d,%d],\"adc_calibrated\":%s,\"wifi\":%s"
 #ifdef BOARD_EVT1
-        ",\"mag_raw\":[%d,%d,%d],\"mag_valid\":%s,\"compass_calibrated\":%s,"
+        ",\"sample_uptime_ms\":%" PRIu64 ",\"accel_valid\":%s,\"mag_raw\":[%d,%d,%d],\"mag_valid\":%s,\"compass_calibrated\":%s,"
         "\"heading_valid\":%s,\"heading_mdeg\":%d"
+#ifdef BOARD_EVT1_ONE_BOARD
+        ",\"pack_temperature_millic\":%s,\"pack_temperature_sampled_ms\":%" PRIu64
+#endif
 #else
         ",\"accel_int_n\":%d"
 #endif
@@ -274,9 +287,13 @@ static void publish(uint64_t now) {
         control.inputs.sensors_valid ? "true" : "false", sample.accel[0], sample.accel[1], sample.accel[2],
         sample.adc_calibrated ? "true" : "false", r0_wifi_active() ? "true" : "false"
 #ifdef BOARD_EVT1
-        , sample.mag[0], sample.mag[1], sample.mag[2], sample.mag_valid ? "true" : "false",
+        , sample_ms, sample.accel_valid ? "true" : "false", sample.mag[0], sample.mag[1], sample.mag[2],
+        sample.mag_valid ? "true" : "false",
         evt_compass_cal_valid(&compass_cal) ? "true" : "false",
         heading_valid ? "true" : "false", heading_valid ? heading_mdeg : 0
+#ifdef BOARD_EVT1_ONE_BOARD
+        , pack_temperature, sample.pack_temperature_sampled_ms
+#endif
 #else
         , gpio_get_level(CONFIG_R0_PIN_ACCEL_INT_N)
 #endif
@@ -354,7 +371,6 @@ void app_main(void) {
     for (;;) {
         uint64_t now = r0_now_ms();
 #ifdef BOARD_EVT1
-        bool sensor_acquired=false;
         err = evt_console_transport_tick(now);
         if (err != ESP_OK) ESP_LOGE(TAG, "USB command receiver: %s", esp_err_to_name(err));
         observe_thermal_source(now);
@@ -363,15 +379,31 @@ void app_main(void) {
 #ifdef BOARD_EVT1
             uint32_t tip_before = sample.temperature_sequence;
             uint32_t loss_before = thermal.event_sequence;
+            bool charge_source_before;
+            uint32_t charge_edges_before = evt_console_source_snapshot(&charge_source_before);
 #endif
             r0_sensors_sample(&sample);
-#ifdef BOARD_EVT1
-            sensor_acquired=true;
-            if (sample.temperature_sequence != tip_before) temperature_loss_sequence_at_start = loss_before;
-#endif
             now = r0_now_ms();
             sample_ms = now;
 #ifdef BOARD_EVT1
+            if (sample.temperature_sequence != tip_before) temperature_loss_sequence_at_start = loss_before;
+            bool charge_source_after;
+            uint32_t charge_edges_after = evt_console_source_snapshot(&charge_source_after);
+            ++case_charge.sequence;
+            case_charge.acquired = true;
+            case_charge.completed_ms = sample_ms;
+            /* The original-body profile observes only PGOOD and calibrated VBAT. */
+            case_charge.validity = CT_MEASUREMENT_GAP;
+            case_charge.raw_status = 0;
+            case_charge.current_0p1_ma = case_charge.ts_mv = case_charge.vbat_mv = UINT16_MAX;
+            if (charge_source_before == charge_source_after && charge_edges_before == charge_edges_after) {
+                case_charge.validity |= CT_PGOOD_VALID;
+                if (charge_source_after) case_charge.raw_status |= 4u;
+            }
+            if (sample.battery_valid && sample.battery_mv >= 0 && sample.battery_mv < UINT16_MAX) {
+                case_charge.validity |= CT_VBAT_VALID;
+                case_charge.vbat_mv = (uint16_t)sample.battery_mv;
+            }
             next_sample = now + 100; /* Motion10Hz; driver pulses NTC only1Hz. */
 #else
             next_sample = now + CONFIG_R0_SAMPLE_PERIOD_MS;
@@ -394,22 +426,6 @@ void app_main(void) {
                 .source_at_start = sample.temperature_source_at_start,
                 .source_changed = sample.temperature_source_changed,
                 .source_at_end = sample.temperature_source_at_end}, now);
-        if(sensor_acquired) {
-            ++case_charge.sequence;case_charge.acquired=true;
-            case_charge.completed_ms=r0_now_ms();
-            /* This original-body profile has no CHG/CE/ISET/TS monitor. Only
-             * actual PGOOD/VBAT observations are available; no Done or SOC. */
-            case_charge.validity=CT_MEASUREMENT_GAP;
-            case_charge.raw_status=0;case_charge.current_0p1_ma=case_charge.ts_mv=case_charge.vbat_mv=0xffff;
-            if(thermal.source_known&&!thermal.clock_fault) {
-                case_charge.validity|=CT_PGOOD_VALID;
-                if(thermal.source_present)case_charge.raw_status|=4u;
-            }
-            if(sample.battery_valid&&sample.battery_mv>=0&&sample.battery_mv<65535&&
-                case_charge.completed_ms>=sample_ms&&case_charge.completed_ms-sample_ms<=250) {
-                case_charge.validity|=CT_VBAT_VALID;case_charge.vbat_mv=(uint16_t)sample.battery_mv;
-            }
-        }
 #endif
         r0_control_tick(&control, in, now);
         uint64_t held;

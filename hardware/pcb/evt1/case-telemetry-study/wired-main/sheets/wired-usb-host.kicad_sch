@@ -1,0 +1,1082 @@
+(kicad_sch
+  (version 20230121)
+  (generator electronics_r0_generate)
+  (uuid ffbbd8b2-6bc9-51a1-9376-cde6b3236b86)
+  (paper "A2")
+  (title_block
+    (title "RP2040 host, flash, clock and service")
+    (date "2026-10-30")
+    (rev "R0 candidate")
+    (company "Research and Desire")
+    (comment 1 "BENCH DEVELOPMENT — NOT FABRICATION OR WEAR RELEASE"))
+  (lib_symbols
+    (symbol
+      "WiredMain:ServicePad"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "ServicePad" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "Exposed copper service pad" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "ServicePad_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "ServicePad_1_1"
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "Pad" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "WiredMain:U160_RP2040"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 81.28 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "U160_RP2040" (at 0 78.74000000000001 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "Manufacturer package pin map" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "U160_RP2040_0_1" (rectangle (start -15.24 76.2) (end 15.24 -76.2) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "U160_RP2040_1_1"
+        (pin power_in line (at -20.32 71.12 0) (length 5.08) (name "IOVDD" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 66.04 0)
+          (length 5.08)
+          (name "GPIO0_I2C0_SDA" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 60.96000000000001 0)
+          (length 5.08)
+          (name "GPIO1_I2C0_SCL" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016)))))
+        (pin output line (at -20.32 55.88 0) (length 5.08) (name "GPIO2" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at -20.32 50.800000000000004 0)
+          (length 5.08)
+          (name "GPIO3" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 45.720000000000006 0)
+          (length 5.08)
+          (name "GPIO4" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 40.64 0) (length 5.08) (name "GPIO5" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 35.56 0)
+          (length 5.08)
+          (name "GPIO6" (effects (font (size 1.016 1.016))))
+          (number "8" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 30.480000000000004 0)
+          (length 5.08)
+          (name "GPIO7" (effects (font (size 1.016 1.016))))
+          (number "9" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 25.400000000000006 0)
+          (length 5.08)
+          (name "IOVDD" (effects (font (size 1.016 1.016))))
+          (number "10" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 20.320000000000007 0)
+          (length 5.08)
+          (name "GPIO8" (effects (font (size 1.016 1.016))))
+          (number "11" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 15.240000000000002 0)
+          (length 5.08)
+          (name "GPIO9" (effects (font (size 1.016 1.016))))
+          (number "12" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 10.160000000000004 0)
+          (length 5.08)
+          (name "GPIO10" (effects (font (size 1.016 1.016))))
+          (number "13" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 5.079999999999998 0)
+          (length 5.08)
+          (name "GPIO11" (effects (font (size 1.016 1.016))))
+          (number "14" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 0.0 0)
+          (length 5.08)
+          (name "GPIO12" (effects (font (size 1.016 1.016))))
+          (number "15" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -5.079999999999998 0)
+          (length 5.08)
+          (name "GPIO13" (effects (font (size 1.016 1.016))))
+          (number "16" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -10.159999999999997 0)
+          (length 5.08)
+          (name "GPIO14" (effects (font (size 1.016 1.016))))
+          (number "17" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -15.239999999999995 0)
+          (length 5.08)
+          (name "GPIO15" (effects (font (size 1.016 1.016))))
+          (number "18" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 -20.319999999999993 0)
+          (length 5.08)
+          (name "TESTEN" (effects (font (size 1.016 1.016))))
+          (number "19" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 -25.39999999999999 0)
+          (length 5.08)
+          (name "XIN" (effects (font (size 1.016 1.016))))
+          (number "20" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at -20.32 -30.47999999999999 0)
+          (length 5.08)
+          (name "XOUT" (effects (font (size 1.016 1.016))))
+          (number "21" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at -20.32 -35.56 0)
+          (length 5.08)
+          (name "IOVDD" (effects (font (size 1.016 1.016))))
+          (number "22" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at -20.32 -40.64 0) (length 5.08) (name "DVDD" (effects (font (size 1.016 1.016)))) (number "23" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -45.72 0) (length 5.08) (name "SWCLK" (effects (font (size 1.016 1.016)))) (number "24" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -50.8 0)
+          (length 5.08)
+          (name "SWD" (effects (font (size 1.016 1.016))))
+          (number "25" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 -55.879999999999995 0)
+          (length 5.08)
+          (name "RUN" (effects (font (size 1.016 1.016))))
+          (number "26" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -60.96000000000001 0)
+          (length 5.08)
+          (name "GPIO16" (effects (font (size 1.016 1.016))))
+          (number "27" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -66.03999999999999 0)
+          (length 5.08)
+          (name "GPIO17" (effects (font (size 1.016 1.016))))
+          (number "28" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -71.12 0)
+          (length 5.08)
+          (name "GPIO18" (effects (font (size 1.016 1.016))))
+          (number "29" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 71.12 180)
+          (length 5.08)
+          (name "GPIO19" (effects (font (size 1.016 1.016))))
+          (number "30" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 66.04 180)
+          (length 5.08)
+          (name "GPIO20" (effects (font (size 1.016 1.016))))
+          (number "31" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 60.96000000000001 180)
+          (length 5.08)
+          (name "GPIO21" (effects (font (size 1.016 1.016))))
+          (number "32" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 55.88 180)
+          (length 5.08)
+          (name "IOVDD" (effects (font (size 1.016 1.016))))
+          (number "33" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 50.800000000000004 180)
+          (length 5.08)
+          (name "GPIO22" (effects (font (size 1.016 1.016))))
+          (number "34" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 45.720000000000006 180)
+          (length 5.08)
+          (name "GPIO23" (effects (font (size 1.016 1.016))))
+          (number "35" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 40.64 180)
+          (length 5.08)
+          (name "GPIO24" (effects (font (size 1.016 1.016))))
+          (number "36" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 35.56 180)
+          (length 5.08)
+          (name "GPIO25" (effects (font (size 1.016 1.016))))
+          (number "37" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 30.480000000000004 180)
+          (length 5.08)
+          (name "GPIO26" (effects (font (size 1.016 1.016))))
+          (number "38" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 25.400000000000006 180)
+          (length 5.08)
+          (name "GPIO27" (effects (font (size 1.016 1.016))))
+          (number "39" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 20.320000000000007 180)
+          (length 5.08)
+          (name "GPIO28" (effects (font (size 1.016 1.016))))
+          (number "40" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 15.240000000000002 180)
+          (length 5.08)
+          (name "GPIO29" (effects (font (size 1.016 1.016))))
+          (number "41" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 10.160000000000004 180)
+          (length 5.08)
+          (name "IOVDD" (effects (font (size 1.016 1.016))))
+          (number "42" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 5.079999999999998 180)
+          (length 5.08)
+          (name "ADC_AVDD" (effects (font (size 1.016 1.016))))
+          (number "43" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 0.0 180)
+          (length 5.08)
+          (name "VREG_VIN" (effects (font (size 1.016 1.016))))
+          (number "44" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_out
+          line
+          (at 20.32 -5.079999999999998 180)
+          (length 5.08)
+          (name "VREG_VOUT" (effects (font (size 1.016 1.016))))
+          (number "45" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -10.159999999999997 180)
+          (length 5.08)
+          (name "USB_DM" (effects (font (size 1.016 1.016))))
+          (number "46" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -15.239999999999995 180)
+          (length 5.08)
+          (name "USB_DP" (effects (font (size 1.016 1.016))))
+          (number "47" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -20.319999999999993 180)
+          (length 5.08)
+          (name "USB_VDD" (effects (font (size 1.016 1.016))))
+          (number "48" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -25.39999999999999 180)
+          (length 5.08)
+          (name "IOVDD" (effects (font (size 1.016 1.016))))
+          (number "49" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -30.47999999999999 180)
+          (length 5.08)
+          (name "DVDD" (effects (font (size 1.016 1.016))))
+          (number "50" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -35.56 180)
+          (length 5.08)
+          (name "QSPI_SD3" (effects (font (size 1.016 1.016))))
+          (number "51" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at 20.32 -40.64 180)
+          (length 5.08)
+          (name "QSPI_SCLK" (effects (font (size 1.016 1.016))))
+          (number "52" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -45.72 180)
+          (length 5.08)
+          (name "QSPI_SD0" (effects (font (size 1.016 1.016))))
+          (number "53" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -50.8 180)
+          (length 5.08)
+          (name "QSPI_SD2" (effects (font (size 1.016 1.016))))
+          (number "54" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -55.879999999999995 180)
+          (length 5.08)
+          (name "QSPI_SD1" (effects (font (size 1.016 1.016))))
+          (number "55" (effects (font (size 1.016 1.016)))))
+        (pin
+          output
+          line
+          (at 20.32 -60.96000000000001 180)
+          (length 5.08)
+          (name "QSPI_CSn" (effects (font (size 1.016 1.016))))
+          (number "56" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -66.03999999999999 180)
+          (length 5.08)
+          (name "GND_EP" (effects (font (size 1.016 1.016))))
+          (number "57" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "WiredMain:U161_W25Q16JVUXIQ"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "U161_W25Q16JVUXIQ" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "Datasheet"
+        "https://www.winbond.com/export/sites/winbond/product-selection-guide/file/2025-Product-Selection-Guide-Winbond-Code-Storage-Flash-Memory.pdf"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "Manufacturer package pin map" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "U161_W25Q16JVUXIQ_0_1" (rectangle (start -15.24 15.24) (end 15.24 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "U161_W25Q16JVUXIQ_1_1"
+        (pin input line (at -20.32 10.16 0) (length 5.08) (name "CSn" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 5.08 0)
+          (length 5.08)
+          (name "IO1" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin bidirectional line (at -20.32 0.0 0) (length 5.08) (name "IO2" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at -20.32 -5.08 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -10.16 0)
+          (length 5.08)
+          (name "IO0" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin input line (at 20.32 10.16 180) (length 5.08) (name "CLK" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 5.08 180)
+          (length 5.08)
+          (name "IO3" (effects (font (size 1.016 1.016))))
+          (number "7" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "VCC" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 1.016 1.016)))))
+        (pin no_connect line (at 20.32 -5.08 180) (length 5.08) (name "EP" (effects (font (size 1.016 1.016)))) (number "9" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "WiredMain:Y151_ABM8_272_T3"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Y151_ABM8_272_T3" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "Manufacturer package pin map" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "Y151_ABM8_272_T3_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Y151_ABM8_272_T3_1_1"
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "X1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 20.32 2.54 180) (length 5.08) (name "X2" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 20.32 -2.54 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016))))))))
+  (text
+    "Native USB host and separate point-to-point I2C. Keep the XOSC circuit and USB series resistors close to U160.\nService pads require fixture access. Provide each marked capacitor near its specified supply pin."
+    (at 25.4 12.7 0)
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid f6d3e47f-6ef8-5137-9262-5ebbd075b0bf))
+  (symbol
+    (lib_id "WiredMain:U160_RP2040")
+    (at 114.3 165.1 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 0871a9fc-9d06-5e62-acbe-2545d3694227)
+    (property "Reference" "U160" (at 114.3 83.82 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "RP2040" (at 114.3 86.36 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "WiredMain:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm" (at 114.3 165.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf" (at 114.3 165.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 114.3 165.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 114.3 165.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 114.3 165.1 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 7f51afbc-e2ab-59d5-a627-7087fd1b8910))
+    (pin "2" (uuid 5f9b652e-6f0d-5461-825a-89084bb7ad83))
+    (pin "3" (uuid b8ad09e5-8793-5062-bca0-803c7c95f2fe))
+    (pin "4" (uuid 06316468-22a6-56dd-a210-9cae468db53e))
+    (pin "5" (uuid 578d50cf-00b6-5d2c-bae6-1288a4aac58b))
+    (pin "6" (uuid f854e2e9-f5c0-5118-a62f-abecf4c5ef2f))
+    (pin "7" (uuid 4fc906e4-6aeb-51a8-921d-7fdb31d10d62))
+    (pin "8" (uuid 5d463749-e9ef-593e-addb-4ed44250e880))
+    (pin "9" (uuid 972fe1cf-adaf-5601-9186-79112366702f))
+    (pin "10" (uuid 565e6860-f156-5bcd-a533-1d38f6abc22d))
+    (pin "11" (uuid c0c1e000-f185-5f49-853a-c8c096465cf7))
+    (pin "12" (uuid b18162bc-8d12-56a1-96cf-3fc9b80015ed))
+    (pin "13" (uuid bbfc8d61-cb2f-5fee-8db0-ae7b29d4c695))
+    (pin "14" (uuid 1559105d-3e2d-5516-b089-99543aec594b))
+    (pin "15" (uuid f68e0ae0-ecc5-5ff1-b1d9-33848473d281))
+    (pin "16" (uuid 23ce2a34-a8d4-5b77-b918-01027eb68917))
+    (pin "17" (uuid f551fcfb-0bae-5850-9849-e596d398abf8))
+    (pin "18" (uuid 1c227c56-f6a3-58c0-8c73-3cdfe1ff7fd1))
+    (pin "19" (uuid 43559318-1dda-5014-8158-8fd6fde6d1aa))
+    (pin "20" (uuid caaafb57-8877-5790-a953-d1c80d15b41a))
+    (pin "21" (uuid 15d60cd0-8354-5a31-997f-dd957eae4ae9))
+    (pin "22" (uuid 80e10edb-c56c-5bcd-b343-1e85efaf82bf))
+    (pin "23" (uuid e78df4bd-40e1-5811-9f3d-5657432272e5))
+    (pin "24" (uuid 29d4ebec-1189-5fd5-991a-a76a7e97b6fb))
+    (pin "25" (uuid 40564ffd-d191-5f67-aef3-5dc784a63d0e))
+    (pin "26" (uuid d53e6f6c-e5f0-5120-b375-5f962193295d))
+    (pin "27" (uuid 34ef5b9c-36e5-5cdf-b148-ce6976d21ae3))
+    (pin "28" (uuid c4534486-0359-5de9-837a-8fc05c3c03a4))
+    (pin "29" (uuid c8b651b6-a503-5e89-80bb-7d767b72c27e))
+    (pin "30" (uuid 0bf45b51-a84d-535c-aa88-edb519b3415b))
+    (pin "31" (uuid 4786b0d7-8ba1-5748-9c38-7a934a88f4d3))
+    (pin "32" (uuid 9f525aca-7049-57dd-8df9-ed99bf6fd78d))
+    (pin "33" (uuid 286fd834-21bb-5955-94c3-0f712faac6ce))
+    (pin "34" (uuid daa0b00d-3aca-5e61-bd19-604a884e0626))
+    (pin "35" (uuid 1de87a1c-417a-5672-92d7-3450876c12f1))
+    (pin "36" (uuid 07949648-9e14-5fb4-83b0-60b381061a3a))
+    (pin "37" (uuid 9e56b686-28a6-5e69-bdea-5f99de08dac7))
+    (pin "38" (uuid b346cb47-07ea-5f04-b66f-43b2d90926c6))
+    (pin "39" (uuid e51133ac-43d9-5773-a5e3-d7a5676e6cce))
+    (pin "40" (uuid abb7ff78-8b87-5765-9678-a39be5c40a8f))
+    (pin "41" (uuid 35292885-901a-5ab6-87fd-a6a7ca68f3c9))
+    (pin "42" (uuid 204fa1f7-e9d2-5f6e-a871-93846a2fa78b))
+    (pin "43" (uuid 0f326ea2-8841-581d-9ab7-1b7f268aa9b3))
+    (pin "44" (uuid 71b90694-19a0-5ffc-87e6-916b3f8109ff))
+    (pin "45" (uuid c9b52ebd-3e4f-5c15-a9ff-198a96849196))
+    (pin "46" (uuid 11755c44-fc0a-5fb3-aac7-a9416411adf8))
+    (pin "47" (uuid 19c3a2b2-4f33-5b83-bd1b-aa14f7e073c6))
+    (pin "48" (uuid efab9294-da60-538a-8c79-1b2dd2dd30c7))
+    (pin "49" (uuid 8de66ecc-447d-50e1-a851-e54c9974c618))
+    (pin "50" (uuid 2d49c354-45cd-586d-acb2-faa1c97bb99a))
+    (pin "51" (uuid 96eb9bc6-c9f3-56ba-938b-581d49391375))
+    (pin "52" (uuid a4f2ad11-c995-5775-992e-57850e6c324c))
+    (pin "53" (uuid bdd791ba-66e2-5681-b7fe-c237396144e3))
+    (pin "54" (uuid 1b6edfb1-c6c8-53c3-b636-afe8fe389519))
+    (pin "55" (uuid 4f6877cb-8594-57fa-8cca-44f53b82b0cf))
+    (pin "56" (uuid 9a902ed7-661a-5b0e-82b5-77bf50d93326))
+    (pin "57" (uuid 75e9914c-937b-542a-81ca-2a19a2ca55fe))
+    (instances
+      (project "dock-wired-system" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "U160") (unit 1)))
+      (project "dock-wired-transport" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "U160") (unit 1))))
+    (property "MPN" "RP2040" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Raspberry Pi" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 93.98 93.98) (xy 88.9 93.98)) (stroke (width 0) (type default)) (uuid 53234348-cde7-5df3-8ad8-b10660e33329))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 88.9 93.98 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 5d3f1eeb-6938-591d-8548-a43e76c81549))
+  (wire (pts (xy 93.98 99.06) (xy 88.9 99.06)) (stroke (width 0) (type default)) (uuid 29ae5b79-907f-5eea-abd6-f6c89f932c40))
+  (global_label "RP_SDA" (shape input) (at 88.9 99.06 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid b01e4d20-bba9-5073-a0e9-623073b583c1))
+  (wire (pts (xy 93.98 104.14) (xy 88.9 104.14)) (stroke (width 0) (type default)) (uuid 799ec8a4-f575-5cf3-b391-c23ef9b8468b))
+  (global_label "RP_SCL" (shape input) (at 88.9 104.14 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 1ac0fac3-b03b-5d7f-ad94-9c3c94cf7b7b))
+  (wire (pts (xy 93.98 109.22) (xy 88.9 109.22)) (stroke (width 0) (type default)) (uuid f0044128-da5c-51d0-b557-0627cbf9baa4))
+  (global_label
+    "RP_LOCAL_READY"
+    (shape input)
+    (at 88.9 109.22 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid c4ac0f6a-9d23-55fb-b2a6-83442faf2076))
+  (wire (pts (xy 93.98 114.3) (xy 88.9 114.3)) (stroke (width 0) (type default)) (uuid 20a83513-12ce-54ff-8e24-bdb72d56f77e))
+  (global_label
+    "RP_USB_BREAK"
+    (shape input)
+    (at 88.9 114.3 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid a8ab943e-8fb9-5489-85ec-fb792a306e92))
+  (wire (pts (xy 93.98 119.38) (xy 88.9 119.38)) (stroke (width 0) (type default)) (uuid 6dfe3934-1a6e-5e2e-87cd-72e89f99b084))
+  (global_label
+    "RP_CONTACT_OK"
+    (shape input)
+    (at 88.9 119.38 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid c0435eb8-41d7-5a6c-8492-121178fb15fa))
+  (wire (pts (xy 93.98 124.46) (xy 88.9 124.46)) (stroke (width 0) (type default)) (uuid f2a5a8c3-c77a-5b90-8da2-6e4d3deed622))
+  (global_label
+    "RP_LIMIT_FAULTn"
+    (shape input)
+    (at 88.9 124.46 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 1dbbaee8-beff-50bf-a5ba-fbea5db9c30e))
+  (no_connect (at 93.98 129.54) (uuid 6cdd701c-4081-5466-8d9e-bb352cc4b1ae))
+  (no_connect (at 93.98 134.62) (uuid 288418e0-2361-5c8b-8d28-486f9b81e03f))
+  (wire (pts (xy 93.98 139.7) (xy 88.9 139.7)) (stroke (width 0) (type default)) (uuid ab65e46a-2ec7-5a26-be33-ce5a30e34018))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 88.9 139.7 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 886230d2-5007-5d1d-ae85-51e0f33b8573))
+  (no_connect (at 93.98 144.78) (uuid 3d080f62-96cb-5329-be37-bbb936d991b4))
+  (no_connect (at 93.98 149.86) (uuid 2b1a95c9-1ad8-54d2-a6d4-da933bb51048))
+  (no_connect (at 93.98 154.94) (uuid 547f620c-0d7f-5035-90ca-88c119f2fa22))
+  (no_connect (at 93.98 160.02) (uuid 317b57a3-2557-5f43-87cb-213f4550a4bb))
+  (no_connect (at 93.98 165.1) (uuid e68aed29-e548-53cc-8db3-d5d6f3145b03))
+  (no_connect (at 93.98 170.18) (uuid 27c91a4b-cf09-5c10-8009-44a7564b2979))
+  (no_connect (at 93.98 175.26) (uuid dbc33dd6-0c33-5ed1-9832-cb499189c8f1))
+  (no_connect (at 93.98 180.34) (uuid 78ff217e-5b0f-5d1e-95c3-53e1874bb9e6))
+  (wire (pts (xy 93.98 185.42) (xy 88.9 185.42)) (stroke (width 0) (type default)) (uuid 48b535ce-9109-534f-b490-f857f6be76e6))
+  (global_label "GND" (shape input) (at 88.9 185.42 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 8f207552-0ec3-5474-96d6-a481d9708718))
+  (wire (pts (xy 93.98 190.5) (xy 88.9 190.5)) (stroke (width 0) (type default)) (uuid ac1401d4-d966-56e4-b706-c0d73a365f0d))
+  (global_label "RP_XIN" (shape input) (at 88.9 190.5 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid b5778049-e9df-5ac3-97d6-826224fef407))
+  (wire (pts (xy 93.98 195.58) (xy 88.9 195.58)) (stroke (width 0) (type default)) (uuid edfd2910-dfb0-5030-80ad-4402570c8a0a))
+  (global_label
+    "RP_XOUT"
+    (shape input)
+    (at 88.9 195.58 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 0502c932-baf0-5f7b-b7b1-e60f0a3391c1))
+  (wire (pts (xy 93.98 200.66) (xy 88.9 200.66)) (stroke (width 0) (type default)) (uuid 2e08256e-1d22-5af7-a98b-8f8dea78aa60))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 88.9 200.66 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 02d70070-9753-5b24-9b91-5a98cf76c3d9))
+  (wire (pts (xy 93.98 205.74) (xy 88.9 205.74)) (stroke (width 0) (type default)) (uuid b728b4a6-7bdb-5c73-9628-2e2329f428c0))
+  (global_label
+    "USB_HOST_1V1"
+    (shape input)
+    (at 88.9 205.74 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 7172564b-fb9e-5fb9-929c-f8bf09a29190))
+  (wire (pts (xy 93.98 210.82) (xy 88.9 210.82)) (stroke (width 0) (type default)) (uuid c0b82ec1-9ac2-52fd-b5a4-f5dc03ab0b15))
+  (global_label
+    "RP_SWCLK"
+    (shape input)
+    (at 88.9 210.82 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 9bf1ba0d-45c4-597f-bc93-a6c5edef1c07))
+  (wire (pts (xy 93.98 215.9) (xy 88.9 215.9)) (stroke (width 0) (type default)) (uuid 2d57c11e-c932-5271-8fea-2a757d103cab))
+  (global_label
+    "RP_SWDIO"
+    (shape input)
+    (at 88.9 215.9 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid bc03f8c9-5dbe-51b8-a9bb-1f184b835df6))
+  (wire (pts (xy 93.98 220.98) (xy 88.9 220.98)) (stroke (width 0) (type default)) (uuid a28a9916-2988-5734-9993-20c0ba5a76c3))
+  (global_label "RP_RUN" (shape input) (at 88.9 220.98 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 39d0b846-d23e-5c99-989c-eec5c15787b2))
+  (no_connect (at 93.98 226.06) (uuid 0ad485a3-e57c-5a65-a6ed-c89fa5e8c1de))
+  (no_connect (at 93.98 231.14) (uuid 4f14fc48-365e-55fe-aa3f-dd7f755fd0b6))
+  (no_connect (at 93.98 236.22) (uuid 09b92e52-516d-52a2-8719-5e3cf6db2ce3))
+  (no_connect (at 134.62 93.98) (uuid fa7e85b9-e391-58da-9d9d-c42305e0ce30))
+  (no_connect (at 134.62 99.06) (uuid 7d7ba4fe-cf89-5dc8-baaa-71e712f7ca73))
+  (no_connect (at 134.62 104.14) (uuid 49025450-afa3-5ccd-a6c5-f614d2d3a5e8))
+  (wire (pts (xy 134.62 109.22) (xy 139.7 109.22)) (stroke (width 0) (type default)) (uuid 742b7f07-64f6-5f91-8010-b831fd72be8f))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 139.7 109.22 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 0f91fe7a-38c8-5dd8-b164-ffc25022f14b))
+  (no_connect (at 134.62 114.3) (uuid fa0bd3f1-ed24-5747-b06e-54822a6ea70b))
+  (no_connect (at 134.62 119.38) (uuid b0c9c55d-ced2-5832-9f95-814bcbde2d4c))
+  (no_connect (at 134.62 124.46) (uuid d8d68fe9-a8a5-50ab-92da-f81d7ceeb262))
+  (no_connect (at 134.62 129.54) (uuid 4156251e-1c12-5cb9-a649-21290c154bf1))
+  (no_connect (at 134.62 134.62) (uuid d705be39-5235-5538-89e8-764c4c2c9284))
+  (no_connect (at 134.62 139.7) (uuid 56e4ec52-ccb3-51f9-aee7-76b4ccb1a70b))
+  (no_connect (at 134.62 144.78) (uuid 02cbadc3-2cc2-571e-ab87-278baed7a6ff))
+  (no_connect (at 134.62 149.86) (uuid 20f8c831-3462-58ad-8412-ef9492305535))
+  (wire (pts (xy 134.62 154.94) (xy 139.7 154.94)) (stroke (width 0) (type default)) (uuid 2c8abce5-8ba1-57f3-8462-f0a65fb86f60))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 139.7 154.94 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid c823ce0a-6150-503b-bea6-b8c9279669fe))
+  (wire (pts (xy 134.62 160.02) (xy 139.7 160.02)) (stroke (width 0) (type default)) (uuid 04b02114-7ee7-5c90-b8d4-c9b515b22d06))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 139.7 160.02 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 194f26e3-8a45-5806-8e9d-81f24517a623))
+  (wire (pts (xy 134.62 165.1) (xy 139.7 165.1)) (stroke (width 0) (type default)) (uuid 4247e9bd-5793-55c8-a84a-ef038ef12794))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 139.7 165.1 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 717d17f5-be55-5f56-806d-265e38b75e31))
+  (wire (pts (xy 134.62 170.18) (xy 139.7 170.18)) (stroke (width 0) (type default)) (uuid 827237da-6d72-5db3-9ee8-326d3e337a7d))
+  (global_label
+    "USB_HOST_1V1"
+    (shape input)
+    (at 139.7 170.18 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid aa3d4712-b09b-54d0-93d7-3047450e0498))
+  (wire (pts (xy 134.62 175.26) (xy 139.7 175.26)) (stroke (width 0) (type default)) (uuid 4b624228-f60e-5683-bd2f-becca1719625))
+  (global_label
+    "RP_USB_DM"
+    (shape input)
+    (at 139.7 175.26 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid c3b88a9b-a49d-50fc-bc8d-0b94083583cd))
+  (wire (pts (xy 134.62 180.34) (xy 139.7 180.34)) (stroke (width 0) (type default)) (uuid f8725687-1e40-51ef-b96a-dd9dd07fe2e4))
+  (global_label
+    "RP_USB_DP"
+    (shape input)
+    (at 139.7 180.34 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid d56f4657-3b16-5216-9512-293cf38ae663))
+  (wire (pts (xy 134.62 185.42) (xy 139.7 185.42)) (stroke (width 0) (type default)) (uuid 9bb183c8-3dc9-549f-9304-a7b9d3453ec8))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 139.7 185.42 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 87ec6015-c301-5ec6-b976-69abecd44f97))
+  (wire (pts (xy 134.62 190.5) (xy 139.7 190.5)) (stroke (width 0) (type default)) (uuid 9df2dff0-ea8f-5da1-bf2c-f778e0ccf733))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 139.7 190.5 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid cf1b4299-6070-50a4-9a9e-100348b7d407))
+  (wire (pts (xy 134.62 195.58) (xy 139.7 195.58)) (stroke (width 0) (type default)) (uuid 1d8fcb1d-5d59-5eec-b17f-d7b3ce6d5bc5))
+  (global_label
+    "USB_HOST_1V1"
+    (shape input)
+    (at 139.7 195.58 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 197137ba-0ac1-52cf-9cbb-0e6ec10a03f1))
+  (wire (pts (xy 134.62 200.66) (xy 139.7 200.66)) (stroke (width 0) (type default)) (uuid 9de4064a-2d03-52b6-a407-1adcda1182bd))
+  (global_label
+    "RP_QSPI_SD3"
+    (shape input)
+    (at 139.7 200.66 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 267186b1-9d58-5e83-8f5f-80456cf7e3fb))
+  (wire (pts (xy 134.62 205.74) (xy 139.7 205.74)) (stroke (width 0) (type default)) (uuid 960d4335-b154-5211-92da-5b5408162bb4))
+  (global_label
+    "RP_QSPI_SCK"
+    (shape input)
+    (at 139.7 205.74 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid edd0ab36-07db-52cc-b3c5-f39b6d17dc86))
+  (wire (pts (xy 134.62 210.82) (xy 139.7 210.82)) (stroke (width 0) (type default)) (uuid e3d6abc9-ed06-56c0-bb15-e50359679568))
+  (global_label
+    "RP_QSPI_SD0"
+    (shape input)
+    (at 139.7 210.82 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid aa08ce2a-aa8a-5a3d-adfb-05f9c7751065))
+  (wire (pts (xy 134.62 215.9) (xy 139.7 215.9)) (stroke (width 0) (type default)) (uuid f21524f8-43b8-5d3d-b570-9fa319bd2d7f))
+  (global_label
+    "RP_QSPI_SD2"
+    (shape input)
+    (at 139.7 215.9 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 82ef5b2c-fb0b-5fc4-841b-5ecb46a6dd2e))
+  (wire (pts (xy 134.62 220.98) (xy 139.7 220.98)) (stroke (width 0) (type default)) (uuid 1e784596-f808-51ec-af24-11eb4bdfee13))
+  (global_label
+    "RP_QSPI_SD1"
+    (shape input)
+    (at 139.7 220.98 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid f6dc0220-7054-5c27-8526-27aba2bfda4b))
+  (wire (pts (xy 134.62 226.06) (xy 139.7 226.06)) (stroke (width 0) (type default)) (uuid 04139007-6bba-5f48-9e87-6726496d5336))
+  (global_label
+    "RP_QSPI_CSn"
+    (shape input)
+    (at 139.7 226.06 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid dbe783aa-fb78-5efe-aecc-b436fd9bfead))
+  (wire (pts (xy 134.62 231.14) (xy 139.7 231.14)) (stroke (width 0) (type default)) (uuid 1b64bf85-72ae-5caa-ad42-366a82454aa4))
+  (global_label "GND" (shape input) (at 139.7 231.14 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid db441ce6-4fdb-5c12-86c6-8c0412d397bc))
+  (symbol
+    (lib_id "WiredMain:U161_W25Q16JVUXIQ")
+    (at 279.4 93.98 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 47215116-2094-53f5-aef8-380f3ae3d4c8)
+    (property "Reference" "U161" (at 279.4 73.66000000000001 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "W25Q16JVUXIQ" (at 279.4 76.20000000000002 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "WiredMain:Winbond_USON-8_2x3mm_P0.5mm_UX" (at 279.4 93.98 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "Datasheet"
+      "https://www.winbond.com/export/sites/winbond/product-selection-guide/file/2025-Product-Selection-Guide-Winbond-Code-Storage-Flash-Memory.pdf"
+      (at 279.4 93.98 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 279.4 93.98 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 279.4 93.98 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 279.4 93.98 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid f093cc52-991b-5d4a-a981-43d5f0b81013))
+    (pin "2" (uuid dc1c81f0-3902-5cf4-aced-0b0eccc0f6e3))
+    (pin "3" (uuid 070a37d7-09c3-50ed-928d-a28b5f9f1a3a))
+    (pin "4" (uuid d6ba5724-3b6c-5493-a5da-22e524a63618))
+    (pin "5" (uuid 600734f1-2d89-5136-a84d-b9f2e7cf307e))
+    (pin "6" (uuid a94b1a9d-bd47-5c53-97c2-03bb8a88e5a5))
+    (pin "7" (uuid 7347e2c7-4fe4-5ec7-9a81-3d6f35f2ee2d))
+    (pin "8" (uuid 36fa85ff-21b7-5118-82d6-60e62fb45344))
+    (pin "9" (uuid 666dc3bb-2010-5a93-bdb5-91932c0a5406))
+    (instances
+      (project "dock-wired-system" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "U161") (unit 1)))
+      (project "dock-wired-transport" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "U161") (unit 1))))
+    (property "MPN" "W25Q16JVUXIQ" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Winbond" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 259.08 83.82) (xy 254.0 83.82)) (stroke (width 0) (type default)) (uuid 6639404c-117e-55c7-87cf-23feef1bc4d1))
+  (global_label
+    "RP_QSPI_CSn"
+    (shape input)
+    (at 254.0 83.82 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 3674865f-2bbc-5af2-9855-a82036318f57))
+  (wire (pts (xy 259.08 88.9) (xy 254.0 88.9)) (stroke (width 0) (type default)) (uuid 8bb76f43-7683-503b-a19f-1f86a0b9d500))
+  (global_label
+    "RP_QSPI_SD1"
+    (shape input)
+    (at 254.0 88.9 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid aa822004-13e8-5877-af00-9ca0ea31f29d))
+  (wire (pts (xy 259.08 93.98) (xy 254.0 93.98)) (stroke (width 0) (type default)) (uuid f7ce8375-0b03-5ff8-a66c-04fff65cf1ae))
+  (global_label
+    "RP_QSPI_SD2"
+    (shape input)
+    (at 254.0 93.98 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 41d805a7-7296-57a8-b1ab-6140a2276db2))
+  (wire (pts (xy 259.08 99.06) (xy 254.0 99.06)) (stroke (width 0) (type default)) (uuid 6097db33-4c3f-5c5a-b298-4c6126b1b782))
+  (global_label "GND" (shape input) (at 254.0 99.06 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid bb469d71-bf83-5648-a4aa-ea692ae41015))
+  (wire (pts (xy 259.08 104.14) (xy 254.0 104.14)) (stroke (width 0) (type default)) (uuid 3f01b36c-d822-509d-acbf-410ff8f1db89))
+  (global_label
+    "RP_QSPI_SD0"
+    (shape input)
+    (at 254.0 104.14 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 037e15b3-c619-5b10-88eb-b47d7e292f04))
+  (wire (pts (xy 299.72 83.82) (xy 304.8 83.82)) (stroke (width 0) (type default)) (uuid 90f00f7d-722e-5886-bbcf-365c19dfe876))
+  (global_label
+    "RP_QSPI_SCK"
+    (shape input)
+    (at 304.8 83.82 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 88fa36cb-40a4-5a53-aa58-38917b199f2e))
+  (wire (pts (xy 299.72 88.9) (xy 304.8 88.9)) (stroke (width 0) (type default)) (uuid d0d6b2cd-0503-5ca0-a579-0f7c3aaa3985))
+  (global_label
+    "RP_QSPI_SD3"
+    (shape input)
+    (at 304.8 88.9 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid eacabc66-623f-5c58-8b54-83d652d470ce))
+  (wire (pts (xy 299.72 93.98) (xy 304.8 93.98)) (stroke (width 0) (type default)) (uuid 73523915-86d1-5dd6-80b3-2207f0f1144f))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 304.8 93.98 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid b32df63d-4e13-5807-bd09-c7c24e00dc69))
+  (symbol
+    (lib_id "WiredMain:Y151_ABM8_272_T3")
+    (at 279.4 154.94 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 43090ff6-3b48-5f79-8864-9a263296332d)
+    (property "Reference" "Y151" (at 279.4 142.23999999999998 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ABM8-272-T3" (at 279.4 144.77999999999997 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "WiredMain:Crystal_SMD_3225-4Pin_3.2x2.5mm" (at 279.4 154.94 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf" (at 279.4 154.94 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 279.4 154.94 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 279.4 154.94 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 279.4 154.94 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid edb5313e-bea6-5891-beee-79fec7aa3848))
+    (pin "2" (uuid bfbddda4-863d-5c7c-ba9f-81bd812cd0b9))
+    (pin "3" (uuid 883ec4a4-5955-5a0f-8a49-14550a98e623))
+    (pin "4" (uuid 94c27e40-286d-55f7-933e-cdee278c8dd8))
+    (instances
+      (project "dock-wired-system" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "Y151") (unit 1)))
+      (project "dock-wired-transport" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "Y151") (unit 1))))
+    (property "MPN" "ABM8-272-T3" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Abracon" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 259.08 152.4) (xy 254.0 152.4)) (stroke (width 0) (type default)) (uuid 1b99f550-49f8-5973-ad29-f48785edcae5))
+  (global_label "RP_XIN" (shape input) (at 254.0 152.4 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 493f79a7-bfac-52c8-a86c-a2220f8663ee))
+  (wire (pts (xy 259.08 157.48) (xy 254.0 157.48)) (stroke (width 0) (type default)) (uuid f7d9634a-9f0a-5f49-8cee-c4cc100e3f42))
+  (global_label "GND" (shape input) (at 254.0 157.48 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid c6590d2a-abea-5ecc-a802-f9db12fde887))
+  (wire (pts (xy 299.72 152.4) (xy 304.8 152.4)) (stroke (width 0) (type default)) (uuid 83b6fd46-ade1-52a6-9841-1603681f5190))
+  (global_label
+    "RP_XTAL_OUT"
+    (shape input)
+    (at 304.8 152.4 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid e7a1f230-9869-505c-994d-4ab8d427e870))
+  (wire (pts (xy 299.72 157.48) (xy 304.8 157.48)) (stroke (width 0) (type default)) (uuid a785c3c7-a456-53d8-a9c8-cd16c0360d01))
+  (global_label "GND" (shape input) (at 304.8 157.48 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 4b796b38-6fde-5359-a528-d3d9123ba613))
+  (symbol
+    (lib_id "WiredMain:ServicePad")
+    (at 431.8 60.96 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid 25a440f7-cc00-53e2-bd2c-04597fb4fa55)
+    (property "Reference" "TP151" (at 431.8 48.260000000000005 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "PC_LOCKn" (at 431.8 50.800000000000004 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "WiredMain:TestPoint_Pad_D1.5mm" (at 431.8 60.96 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 431.8 60.96 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 431.8 60.96 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 431.8 60.96 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 431.8 60.96 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid a88a46fb-ee7e-5e66-a12f-bb8f6cfa4ffa))
+    (instances
+      (project "dock-wired-system" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP151") (unit 1)))
+      (project "dock-wired-transport" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP151") (unit 1))))
+    (property "Manufacturer" "manual copper" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 411.48 58.42) (xy 406.4 58.42)) (stroke (width 0) (type default)) (uuid 1c743600-337c-574b-b56b-e67fccd9c019))
+  (global_label
+    "PC_LOCKn"
+    (shape input)
+    (at 406.4 58.42 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 4c303acf-9271-525a-9c54-bafd37a56e91))
+  (symbol
+    (lib_id "WiredMain:ServicePad")
+    (at 431.8 91.44 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid 8e60ee83-b904-560b-99e3-538c69aef94d)
+    (property "Reference" "TP152" (at 431.8 78.74 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "GND" (at 431.8 81.28 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "WiredMain:TestPoint_Pad_D1.5mm" (at 431.8 91.44 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 431.8 91.44 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 431.8 91.44 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 431.8 91.44 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 431.8 91.44 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 8e06b272-6ff1-5d60-9cd0-e32c1d002664))
+    (instances
+      (project "dock-wired-system" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP152") (unit 1)))
+      (project "dock-wired-transport" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP152") (unit 1))))
+    (property "Manufacturer" "manual copper" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 411.48 88.9) (xy 406.4 88.9)) (stroke (width 0) (type default)) (uuid b6663ca0-bc5b-5389-9ea2-9c393f17ed98))
+  (global_label "GND" (shape input) (at 406.4 88.9 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 8eeddeb2-2579-580d-8724-b39ce6918917))
+  (symbol
+    (lib_id "WiredMain:ServicePad")
+    (at 431.8 121.92 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid ff1e2dbd-bb43-57c5-bda1-fe8b8f8a170f)
+    (property "Reference" "TP153" (at 431.8 109.22 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "RP_SWDIO" (at 431.8 111.76 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "WiredMain:TestPoint_Pad_D1.5mm" (at 431.8 121.92 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 431.8 121.92 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 431.8 121.92 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 431.8 121.92 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 431.8 121.92 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 5199aae2-def1-5b22-9287-87978073603a))
+    (instances
+      (project "dock-wired-system" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP153") (unit 1)))
+      (project "dock-wired-transport" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP153") (unit 1))))
+    (property "Manufacturer" "manual copper" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 411.48 119.38) (xy 406.4 119.38)) (stroke (width 0) (type default)) (uuid 964b8d87-7b0a-5dc7-8d55-8683145216f5))
+  (global_label
+    "RP_SWDIO"
+    (shape input)
+    (at 406.4 119.38 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid e9df89b3-f775-52eb-adc3-6f8b969ded75))
+  (symbol
+    (lib_id "WiredMain:ServicePad")
+    (at 431.8 152.4 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid b397fd26-339f-5731-9f1a-1503885fbbc4)
+    (property "Reference" "TP154" (at 431.8 139.7 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "RP_SWCLK" (at 431.8 142.23999999999998 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "WiredMain:TestPoint_Pad_D1.5mm" (at 431.8 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 431.8 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 431.8 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 431.8 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 431.8 152.4 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 95fce76f-b58e-57f3-8442-309f8a256769))
+    (instances
+      (project "dock-wired-system" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP154") (unit 1)))
+      (project "dock-wired-transport" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP154") (unit 1))))
+    (property "Manufacturer" "manual copper" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 411.48 149.86) (xy 406.4 149.86)) (stroke (width 0) (type default)) (uuid 356de053-cbd6-5a8a-8854-7002d0c856aa))
+  (global_label
+    "RP_SWCLK"
+    (shape input)
+    (at 406.4 149.86 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid ad43e134-d245-5f72-8d08-462313d7b43a))
+  (symbol
+    (lib_id "WiredMain:ServicePad")
+    (at 431.8 182.88 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid 89eeb93b-5554-53e5-b0c5-9de627e87d6f)
+    (property "Reference" "TP155" (at 431.8 170.17999999999998 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "RP_RUN" (at 431.8 172.71999999999997 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "WiredMain:TestPoint_Pad_D1.5mm" (at 431.8 182.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 431.8 182.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 431.8 182.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 431.8 182.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 431.8 182.88 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 6496b9eb-2a61-55c4-a8d0-1ff4f35a759c))
+    (instances
+      (project "dock-wired-system" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP155") (unit 1)))
+      (project "dock-wired-transport" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP155") (unit 1))))
+    (property "Manufacturer" "manual copper" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 411.48 180.34) (xy 406.4 180.34)) (stroke (width 0) (type default)) (uuid 7a95abca-b7a6-5662-97cc-95b315abb8cd))
+  (global_label
+    "RP_RUN"
+    (shape input)
+    (at 406.4 180.34 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid b5e27d7a-89f0-554b-bc52-1517f3edeff8))
+  (symbol
+    (lib_id "WiredMain:ServicePad")
+    (at 431.8 213.36 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid f1f2a5c6-2be7-5f18-b363-ebe7b87dc783)
+    (property "Reference" "TP156" (at 431.8 200.66 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "USB_HOST_3V3" (at 431.8 203.2 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "WiredMain:TestPoint_Pad_D1.5mm" (at 431.8 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 431.8 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 431.8 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 431.8 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 431.8 213.36 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 47a0cadb-6be3-526b-b072-b63ae2d68462))
+    (instances
+      (project "dock-wired-system" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP156") (unit 1)))
+      (project "dock-wired-transport" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP156") (unit 1))))
+    (property "Manufacturer" "manual copper" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 411.48 210.82) (xy 406.4 210.82)) (stroke (width 0) (type default)) (uuid 19bf14f7-999b-5e07-b5d6-cc39d6d08993))
+  (global_label
+    "USB_HOST_3V3"
+    (shape input)
+    (at 406.4 210.82 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 611f6554-35b2-5b1b-aa8b-e5ac0d2bda2e))
+  (symbol
+    (lib_id "WiredMain:ServicePad")
+    (at 431.8 243.84 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid 382e2eb6-2b99-5e74-b7ac-57029d967aed)
+    (property "Reference" "TP157" (at 431.8 231.14 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "RP_BOOTSEL_PAD" (at 431.8 233.67999999999998 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "WiredMain:TestPoint_Pad_D1.5mm" (at 431.8 243.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 431.8 243.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 431.8 243.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 431.8 243.84 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 431.8 243.84 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 5bff3be9-78e8-51a9-859f-ab0a7a01cab2))
+    (instances
+      (project "dock-wired-system" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP157") (unit 1)))
+      (project "dock-wired-transport" (path "/c05cdebc-c490-5e46-9878-35048c9e9e5a/cf452967-2e68-5bf2-b1c8-8662489b7525" (reference "TP157") (unit 1))))
+    (property "Manufacturer" "manual copper" (at 0 0 0) (effects (font (size 1.27 1.27)) hide)))
+  (wire (pts (xy 411.48 241.3) (xy 406.4 241.3)) (stroke (width 0) (type default)) (uuid 0c5c58b0-87cb-5c66-8152-8d2f554daf3a))
+  (global_label
+    "RP_BOOTSEL_PAD"
+    (shape input)
+    (at 406.4 241.3 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 9f94a974-1167-5793-bd24-61138184cb50))
+  (sheet_instances (path "/" (page "1"))))

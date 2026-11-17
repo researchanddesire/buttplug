@@ -1,0 +1,715 @@
+{
+  "scope": "Solder approach clearance against nominal rigid dock and head geometry. Open empty work area. This geometric tool envelope excludes the soldering operator, workholding, temperatures, molten solder, other loose wires and the exact tip. Verify process on received unpowered parts.",
+  "source_sha256": {
+    "DockAssembly.FCStd": "c8748a4365db26d9c6bd5b4ffc736ba1ad4af0cf9c9d9226e4d0b2f88e372313",
+    "hall-lead-routes.json": "8302eaa979f27fcce740098aa6cb31133bf3c4d6264ee450db23942aaeef44a4",
+    "pcb/WiredHallHead.FCStd": "6be58f5a76425eeb708099268965592b7b8a7b3bdc1b80aa3db086bcc3205215"
+  },
+  "approach_from": "toward the front and up; angle above the Hall laminate",
+  "cone_origin_offset_from_pad_mm": 0.5,
+  "nose_length_mm": 12,
+  "nose_entry_diameter_mm": 0.7,
+  "barrel_diameter_mm": 4.3,
+  "barrel_length_mm": 7,
+  "check_format": [
+    "native_part",
+    "gap_mm",
+    "overlap_mm3"
+  ],
+  "sides": {
+    "Left": [
+      {
+        "pin": 1,
+        "poses": [
+          {
+            "angle_deg": 45,
+            "clearance": [
+              [
+                "LowerChamber",
+                0.7388314482263392,
+                0.0
+              ],
+              [
+                "LowerShell",
+                0.0,
+                1.4148179006751853
+              ],
+              [
+                "ContactCarrier",
+                3.700000000000003,
+                0
+              ],
+              [
+                "LeftBracket",
+                0.9560660171779887,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                0.8001034749744428,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 60,
+            "clearance": [
+              [
+                "LowerChamber",
+                1.4487285543753172,
+                0.0
+              ],
+              [
+                "LowerShell",
+                1.4882707685899046,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                3.700000000000003,
+                0
+              ],
+              [
+                "LeftBracket",
+                1.1080127018922212,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                0.7858014568374534,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 75,
+            "clearance": [
+              [
+                "LowerChamber",
+                1.9337224301850167,
+                0.0
+              ],
+              [
+                "LowerShell",
+                3.1646128692702686,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                3.700000000000003,
+                0
+              ],
+              [
+                "LeftBracket",
+                1.2423762473586493,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                0.7912157532038698,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 90,
+            "clearance": [
+              [
+                "LowerChamber",
+                2.2051077071199994,
+                0.0
+              ],
+              [
+                "LowerShell",
+                4.121081323153565,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                4.233723834211563,
+                0
+              ],
+              [
+                "LeftBracket",
+                1.3500000000000014,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                0.7957105372837648,
+                0.0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "pin": 2,
+        "poses": [
+          {
+            "angle_deg": 45,
+            "clearance": [
+              [
+                "LowerChamber",
+                1.621268345977779,
+                0.0
+              ],
+              [
+                "LowerShell",
+                0.07944149590758531,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                2.3500000000000014,
+                0
+              ],
+              [
+                "LeftBracket",
+                1.4674808325888684,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                1.9702259180340715,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 60,
+            "clearance": [
+              [
+                "LowerChamber",
+                2.490030862224038,
+                0.0
+              ],
+              [
+                "LowerShell",
+                2.4651834686039935,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                2.3500000000000014,
+                0
+              ],
+              [
+                "LeftBracket",
+                1.556580954608191,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                1.8429593416167571,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 75,
+            "clearance": [
+              [
+                "LowerChamber",
+                3.060792681665055,
+                0.0
+              ],
+              [
+                "LowerShell",
+                4.26488637132967,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                2.3500000000000014,
+                0
+              ],
+              [
+                "LeftBracket",
+                1.6242308665626568,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                1.6908014100451263,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 90,
+            "clearance": [
+              [
+                "LowerChamber",
+                3.1503968004046756,
+                0.0
+              ],
+              [
+                "LowerShell",
+                5.29352540984892,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                3.017438710785739,
+                0
+              ],
+              [
+                "LeftBracket",
+                1.6507574019219164,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                1.5266239083391278,
+                0.0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "pin": 3,
+        "poses": [
+          {
+            "angle_deg": 45,
+            "clearance": [
+              [
+                "LowerChamber",
+                2.4733551741957918,
+                0.0
+              ],
+              [
+                "LowerShell",
+                0.9480824107698087,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                1.0,
+                0
+              ],
+              [
+                "LeftBracket",
+                2.576656564220977,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                0.6694605401188823,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 60,
+            "clearance": [
+              [
+                "LowerChamber",
+                3.511591311803568,
+                0.0
+              ],
+              [
+                "LowerShell",
+                3.420672344354459,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                1.0,
+                0
+              ],
+              [
+                "LeftBracket",
+                2.6223941035871334,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                0.6808666447718988,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 75,
+            "clearance": [
+              [
+                "LowerChamber",
+                4.174516660898389,
+                0.0
+              ],
+              [
+                "LowerShell",
+                5.350643462646088,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                1.0,
+                0
+              ],
+              [
+                "LeftBracket",
+                2.6549900088852225,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                0.6950647518851005,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 90,
+            "clearance": [
+              [
+                "LowerChamber",
+                4.316537964619334,
+                0.0
+              ],
+              [
+                "LowerShell",
+                6.455509367680735,
+                0.0
+              ],
+              [
+                "ContactCarrier",
+                1.8817323500901812,
+                0
+              ],
+              [
+                "LeftBracket",
+                2.6669270706189154,
+                0
+              ],
+              [
+                "LeftHallPCBInstance",
+                0.7184882215043963,
+                0.0
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "Right": [
+      {
+        "pin": 1,
+        "poses": [
+          {
+            "angle_deg": 45,
+            "clearance": [
+              [
+                "LowerChamber",
+                2.473355174195788,
+                0.0
+              ],
+              [
+                "LowerShell",
+                0.94808241076981,
+                0.0
+              ],
+              [
+                "RightBracket",
+                2.576656564220977,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                0.8001034749744428,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 60,
+            "clearance": [
+              [
+                "LowerChamber",
+                3.511591311803569,
+                0.0
+              ],
+              [
+                "LowerShell",
+                3.4206723443544527,
+                0.0
+              ],
+              [
+                "RightBracket",
+                2.6223941035871334,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                0.7858014568374534,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 75,
+            "clearance": [
+              [
+                "LowerChamber",
+                4.174516660898383,
+                0.0
+              ],
+              [
+                "LowerShell",
+                5.3506434626460795,
+                0.0
+              ],
+              [
+                "RightBracket",
+                2.6549900088852283,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                0.7912157532038698,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 90,
+            "clearance": [
+              [
+                "LowerChamber",
+                4.316537964619334,
+                0.0
+              ],
+              [
+                "LowerShell",
+                6.455509367680724,
+                0.0
+              ],
+              [
+                "RightBracket",
+                2.6669270706189154,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                0.7957105372837648,
+                0.0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "pin": 2,
+        "poses": [
+          {
+            "angle_deg": 45,
+            "clearance": [
+              [
+                "LowerChamber",
+                1.6212683459777824,
+                0.0
+              ],
+              [
+                "LowerShell",
+                0.07944149590758087,
+                0.0
+              ],
+              [
+                "RightBracket",
+                1.4674808325888684,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                1.9702259180340715,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 60,
+            "clearance": [
+              [
+                "LowerChamber",
+                2.4900308622240375,
+                0.0
+              ],
+              [
+                "LowerShell",
+                2.465183468603982,
+                0.0
+              ],
+              [
+                "RightBracket",
+                1.556580954608191,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                1.8429593416167571,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 75,
+            "clearance": [
+              [
+                "LowerChamber",
+                3.0607926816650566,
+                0.0
+              ],
+              [
+                "LowerShell",
+                4.26488637132967,
+                0.0
+              ],
+              [
+                "RightBracket",
+                1.6242308665626568,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                1.6908014100451263,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 90,
+            "clearance": [
+              [
+                "LowerChamber",
+                3.1503968004046756,
+                0.0
+              ],
+              [
+                "LowerShell",
+                5.293525409848902,
+                0.0
+              ],
+              [
+                "RightBracket",
+                1.6507574019219164,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                1.5266239083391278,
+                0.0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "pin": 3,
+        "poses": [
+          {
+            "angle_deg": 45,
+            "clearance": [
+              [
+                "LowerChamber",
+                0.7388314482263344,
+                0.0
+              ],
+              [
+                "LowerShell",
+                0.0,
+                1.4148199652371658
+              ],
+              [
+                "RightBracket",
+                0.9560660171779887,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                0.6694605401188823,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 60,
+            "clearance": [
+              [
+                "LowerChamber",
+                1.4487285543753157,
+                0.0
+              ],
+              [
+                "LowerShell",
+                1.4882707685898995,
+                0.0
+              ],
+              [
+                "RightBracket",
+                1.1080127018922212,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                0.6808666447718988,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 75,
+            "clearance": [
+              [
+                "LowerChamber",
+                1.93372243018502,
+                0.0
+              ],
+              [
+                "LowerShell",
+                3.1646128692702717,
+                0.0
+              ],
+              [
+                "RightBracket",
+                1.2423762473586493,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                0.6950647518851005,
+                0.0
+              ]
+            ]
+          },
+          {
+            "angle_deg": 90,
+            "clearance": [
+              [
+                "LowerChamber",
+                2.2051077071199994,
+                0.0
+              ],
+              [
+                "LowerShell",
+                4.121081323153545,
+                0.0
+              ],
+              [
+                "RightBracket",
+                1.3500000000000014,
+                0
+              ],
+              [
+                "RightHallPCBInstance",
+                0.7184882215043963,
+                0.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

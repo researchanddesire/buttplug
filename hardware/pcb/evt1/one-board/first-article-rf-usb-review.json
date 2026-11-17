@@ -1,0 +1,35 @@
+{
+  "source_sha256": "2add4bb74cee10e0cf0f19a338894792dc2dbb94ca2c85f1b17c1a8d9a640ad1",
+  "checked_sha256": "af7c15be69705ec35adc1a2e601d0210265dc4b28a102613c891d8f57a75ea3b",
+  "usb_unchanged_net_geometry": {
+    "USB_DP": 15,
+    "USB_DM": 23,
+    "USB_DP_CONTACT": 21,
+    "USB_DM_CONTACT": 22
+  },
+  "usb_exact_pad_instances_unchanged": 14,
+  "antenna_zone_unchanged": {
+    "layers": [
+      "B.Cu",
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu"
+    ],
+    "bbox_mm": [
+      59.0,
+      93.4,
+      64.4,
+      106.6
+    ],
+    "rules": {
+      "copperpour": "not_allowed",
+      "footprints": "not_allowed",
+      "pads": "not_allowed",
+      "tracks": "not_allowed",
+      "vias": "not_allowed"
+    }
+  },
+  "antenna_filled_polygon_point_checks": 21945,
+  "covered_points": 0,
+  "scope": "Exact named USB segment/via/pad signatures compared. Native DRC verifies all rule areas. Antenna plane scan uses a 0.10 mm rectangle raster on native 10 fills. RF range and fabrication impedance need installed validation."
+}

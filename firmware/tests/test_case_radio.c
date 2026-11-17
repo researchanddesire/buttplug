@@ -22,12 +22,12 @@ static thermal_history_t history;
 static uint64_t tick;
 
 uint64_t r0_now_ms(void) { return tick++; }
-bool r0_case_connected(uint16_t c) { return ct_runtime_open(&runtime,c); }
-void r0_case_disconnected(uint16_t c) { ct_runtime_close(&runtime,c); }
-bool r0_case_read(uint16_t c,uint8_t k,uint8_t out[20]) { return ct_runtime_read(&runtime,c,k,out); }
-bool r0_case_command(uint16_t c,const uint8_t p[20],uint64_t rx) { return ct_runtime_enqueue(&runtime,c,p,rx); }
-bool r0_case_next(uint16_t c,uint8_t mask,uint64_t now,ct_transmission_t *t) { return ct_runtime_peek(&runtime,c,mask,now,t); }
-void r0_case_sent(uint16_t c,const ct_transmission_t *t) { ct_runtime_sent(&runtime,c,t); }
+bool r0_case_connected(uint32_t c) { return ct_runtime_open(&runtime,c); }
+void r0_case_disconnected(uint32_t c) { ct_runtime_close(&runtime,c); }
+bool r0_case_read(uint32_t c,uint8_t k,uint8_t out[20]) { return ct_runtime_read(&runtime,c,k,out); }
+bool r0_case_command(uint32_t c,const uint8_t p[20],uint64_t rx) { return ct_runtime_enqueue(&runtime,c,p,rx); }
+bool r0_case_next(uint32_t c,uint8_t mask,uint64_t now,ct_transmission_t *t) { return ct_runtime_peek(&runtime,c,mask,now,t); }
+void r0_case_sent(uint32_t c,const ct_transmission_t *t) { ct_runtime_sent(&runtime,c,t); }
 int ble_gap_conn_find(uint16_t c,struct ble_gap_conn_desc *out) {
     if(c>=8||!alive[c])return 1;*out=connections[c];return 0;
 }

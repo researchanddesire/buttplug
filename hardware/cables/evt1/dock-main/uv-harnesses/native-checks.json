@@ -1,0 +1,181 @@
+{
+  "pass": true,
+  "scope": "Active wired Main to matched 4.22-ohm UV modules",
+  "installed_route_checked": false,
+  "physical_validation": false,
+  "harnesses": [
+    {
+      "recipe": "uv-base-gh8.yml",
+      "conductors": [
+        [
+          "J621",
+          1,
+          1,
+          "J401",
+          1
+        ],
+        [
+          "J621",
+          2,
+          2,
+          "J401",
+          2
+        ],
+        [
+          "J621",
+          3,
+          3,
+          "J401",
+          3
+        ],
+        [
+          "J621",
+          4,
+          4,
+          "J401",
+          4
+        ],
+        [
+          "J621",
+          5,
+          5,
+          "J401",
+          5
+        ],
+        [
+          "J621",
+          6,
+          6,
+          "J401",
+          6
+        ],
+        [
+          "J621",
+          7,
+          7,
+          "J401",
+          7
+        ],
+        [
+          "J621",
+          8,
+          8,
+          "J401",
+          8
+        ]
+      ],
+      "signals": [
+        "UV_5V_SW",
+        "GND",
+        "UV_CTRL",
+        "BASE_FB",
+        "BASE_VOUT_DIV",
+        "NTC_BASE",
+        "BASE_THERM_SEND",
+        "LOOP_A_RAW"
+      ],
+      "starting_blank_mm": 175,
+      "finished_power_leg_max_mm": 175
+    },
+    {
+      "recipe": "uv-lid-gh8.yml",
+      "conductors": [
+        [
+          "J622",
+          1,
+          1,
+          "J501",
+          1
+        ],
+        [
+          "J622",
+          2,
+          2,
+          "J501",
+          2
+        ],
+        [
+          "J622",
+          3,
+          3,
+          "J501",
+          3
+        ],
+        [
+          "J622",
+          4,
+          4,
+          "J501",
+          4
+        ],
+        [
+          "J622",
+          5,
+          5,
+          "J501",
+          5
+        ],
+        [
+          "J622",
+          6,
+          6,
+          "J501",
+          6
+        ],
+        [
+          "J622",
+          7,
+          7,
+          "J501",
+          7
+        ],
+        [
+          "J622",
+          8,
+          8,
+          "J501",
+          8
+        ]
+      ],
+      "signals": [
+        "UV_5V_SW",
+        "GND",
+        "UV_CTRL",
+        "LID_FB",
+        "LID_VOUT_DIV",
+        "NTC_LID",
+        "LID_THERM_SEND",
+        "LOOP_B_RAW"
+      ],
+      "starting_blank_mm": 225,
+      "finished_power_leg_max_mm": 175
+    }
+  ],
+  "incoming_wire_max_ohm_per_m_at20C": 0.135,
+  "allied_wire_published_max_ohm_per_m_at20C": 0.12696850393700787,
+  "allied_wire_published_max_OD_mm": 0.8382,
+  "modeled_allied_supply_return_hot_ohm": 0.05491768700787401,
+  "complete_branch_resistance_max_ohm": 0.29,
+  "source_sha256": {
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/native.xml": "02013ae89f6103bbd447f3074c458a8d644645d8f7b9cdeb3c7ad420f5d5a081",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/active-routing.json": "c637a7be9094c3a16659eb17ee7e18deb4703c74c054f9b4fac7901ef2b0b99b",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/dock-wired-system.kicad_pcb": "8900558ca63405ebd44074789897a87331e04c49b1205dbca6e6dea583d8e708",
+    "hardware/pcb/evt1/dock-safety/power-budget.json": "aa6b03156f494c8640d7c4f1f622bfdb080d30c9a9c07262faff435cdc9c3d04",
+    "hardware/pcb/evt1/dock-safety/parts-selection.json": "c77f9fcee9349fd42d004a06ce52e2e9a1362034cabc350213223c1e35edf953",
+    "hardware/cables/evt1/dock-main/uv-harnesses/check_uv_harnesses.py": "aaf1bed8e99b85b0f7007d09ed4d67206e458e8e30deea74194f55b70df3a424",
+    "hardware/pcb/evt1/case-radio-uv/base/pcb/dock-uv-base.kicad_pcb": "dd19e47f8c76bd5739bdc335979bb5f3d265bebc38f0d1592a666d80cfdb5364",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/uv-assembly/wired-main-uv-base-supplier-quote.zip": "22b58e6f39ff6da776a2ee47c367d8918a2cdafc2190789e8573a4c25ffb531e",
+    "hardware/cables/evt1/dock-main/uv-harnesses/uv-base-gh8.yml": "10c8e9dd7aae181b4153b59883bae512bf6676931aedd0bc027e4e42b266ab3f",
+    "hardware/pcb/evt1/case-radio-uv/lid/pcb/dock-uv-lid.kicad_pcb": "3b398d708bea7d392f5c02e7099b69e7d595c855c576e0a9233cf9ddab2c4c4c",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/uv-assembly/wired-main-uv-lid-supplier-quote.zip": "858c773070903590bc9f9f7bf8f70abc10e5a8b807c5d89d240f8df3206866d3",
+    "hardware/cables/evt1/dock-main/uv-harnesses/uv-lid-gh8.yml": "365e40a5f60051037cacb637293279b1f325ee7ceddd86f761a464b166946be0"
+  },
+  "export_sha256": {
+    "uv-base-gh8.bom.tsv": "fa17fca766fb911ad2b40222da38d1bc36708b07162847f696cb57dfc5c871e3",
+    "uv-base-gh8.svg": "38dc587aeb4e9c9652575021115342c7df7dc27f8e7d11e3d628dc6ac27e48cc",
+    "uv-base-gh8.png": "abfb62dca5014b59f596e1c5c3c8ef47b53a53313e9ecb26248dc9c1360fa53d",
+    "uv-lid-gh8.bom.tsv": "a519dd67eceb1dec91cf8921f277b8f7419b7b1d166786b4f73d5ab575c23247",
+    "uv-lid-gh8.svg": "ba809e22e6b6f53484f865195c25ca624668ad7b09f2db9990dfaa5dbe89df4d",
+    "uv-lid-gh8.png": "788dc27276118908c792c7ff52a5d346062b33127fad9b76efc3f04e4244fecc"
+  }
+}

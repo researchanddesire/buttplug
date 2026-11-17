@@ -85,6 +85,11 @@ bool case_link_poll(case_link *state, uint64_t now_ms);
 cl_receive case_link_decode(cl_kind kind, const uint8_t *data, size_t length, cl_frame *frame);
 cl_receive case_link_feed(case_link *state, uint32_t link_epoch, cl_kind kind,
                           const uint8_t *data, size_t length, uint64_t received_ms);
+/* Explicit USB snapshot polling intentionally skips intermediate thermal
+ * and charge acquisitions. Preserve the original sequence and acquisition
+ * time, and record missing history without dropping the clock anchor. */
+cl_receive case_link_feed_polled_sample(case_link *state, uint32_t link_epoch, cl_kind kind,
+                                        const uint8_t *data, size_t length, uint64_t received_ms);
 /* At most one pending request. IDs survive disconnects under the same nonce;
  * rotate the caller nonce before the 16-bit ID space is exhausted. A snapshot
  * result must be accepted before making an anchor request. ATT success alone

@@ -1,0 +1,137 @@
+{
+  "status": "Native ERC and terminal/value conservation passed; routed and powered verification pending",
+  "kicad_version": "10.0.8",
+  "retained_refs": 234,
+  "retained_terminals": 812,
+  "exact_declared_terminal_changes": {
+    "J102.2": [
+      "USB_DM",
+      "PLUG_USB_DM"
+    ],
+    "J102.3": [
+      "USB_DP",
+      "PLUG_USB_DP"
+    ],
+    "U201.5": [
+      null,
+      "USB_HOST_SCL"
+    ],
+    "U201.6": [
+      null,
+      "USB_HOST_SDA"
+    ]
+  },
+  "exact_declared_resistor_changes": {
+    "R107": [
+      "40.2k 0.1% 25ppm/K",
+      "RT0603BRD0740K2L",
+      "Yageo"
+    ],
+    "R401": [
+      "4.22ohm 1% 100ppm/K",
+      "CRCW08054R22FKEA",
+      "Vishay"
+    ],
+    "R501": [
+      "4.22ohm 1% 100ppm/K",
+      "CRCW08054R22FKEA",
+      "Vishay"
+    ]
+  },
+  "new_refs": 69,
+  "new_terminals": 265,
+  "new_footprint_pin_checks": 69,
+  "total_refs": 303,
+  "total_terminals": 1077,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "ERC_exclusions": [],
+  "inherited_ERC_ignored_checks": [
+    "single_global_label",
+    "four_way_junction",
+    "simulation_model_issue",
+    "footprint_filter"
+  ],
+  "source_hashes": {
+    "sheets/dock-controller.kicad_sch": "b5f2cdbf3e61725e7e1154fdf790c1dc0c770b6397d5b3daf3712d6c541bfdad",
+    "sheets/dock-lid-ui.kicad_sch": "92837a328fba59d5655fff9e5e00da386e2d15dd2b1243d0c77fa0ac20f12427",
+    "sheets/dock-safety.kicad_sch": "ff4c4cf41a885dc5229c7876c4aa7d12691a33f12c025d9832f224eb9435133e",
+    "sheets/dock-ui-source.kicad_sch": "2725faa74f30884bb8b29620460f81c80edb5dd6b4f13f4701ca71ceb85f2f4a",
+    "sheets/dock-uv-base.kicad_sch": "e39846f13d2c3defbd839aec9097b959b170034160293714fae5d494cd6520c0",
+    "sheets/dock-uv-lid.kicad_sch": "7291173f46c09788f19852ec5038e1dddcb65ceb4d414e3a015029c0b5e315e3",
+    "sheets/wired-usb-data.kicad_sch": "a73b826395eb0920a8955d67e12eb5bd8b5904ce5ccc1358007525f827473b06",
+    "sheets/wired-usb-host.kicad_sch": "086db5531c0094b1b59278e7c921c016a87361c09b18ff31a36f89ff76ca36fc",
+    "sheets/wired-usb-passives.kicad_sch": "43e60326e73d2d775f4c4bbc4e901a71b2a79ab42da71ea40d381dbeca39a575",
+    "WiredMain.pretty/C_0402_1005Metric.kicad_mod": "0403382fc4583ed510b461b1fa4a36dfaec6f4c0d9b1a67e6b0027837a54e1b5",
+    "WiredMain.pretty/C_0603_1608Metric.kicad_mod": "fe0dbfefbb181a0466f93a8de52d84ba7b00fcd9acdbb69575f4128a0af4e405",
+    "WiredMain.pretty/C_0805_2012Metric.kicad_mod": "62775a51fe74ba7f1b572de327bdbd3fc92582721b2abcaa47787865590d89cb",
+    "WiredMain.pretty/Crystal_SMD_3225-4Pin_3.2x2.5mm.kicad_mod": "7648bca15399a8bd7856b5da6a1d2bc3a87049dc63958f8e8a3ab7409941a8e4",
+    "WiredMain.pretty/MSOP-10_3x3mm_P0.5mm.kicad_mod": "c179dbee33613027667b07b4dba02648f193fc65f63616c9d73d6f1162c6bb9d",
+    "WiredMain.pretty/Onsemi_846AP_MSOP10.kicad_mod": "b0ec0d9dc38033705b950fc82fb39d9e5ccdb335002702bb65c428d2e685396d",
+    "WiredMain.pretty/QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm.kicad_mod": "cd4fb53a6c4469b8d1ddc0fc4a50183990f7c46ba103308526761a1f0e915769",
+    "WiredMain.pretty/R_0402_1005Metric.kicad_mod": "e05c7605248c220836f642ed1f526133edf0374acdfd5bb2631e58b4e377acfb",
+    "WiredMain.pretty/R_0603_1608Metric.kicad_mod": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+    "WiredMain.pretty/SOT-23-5.kicad_mod": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761",
+    "WiredMain.pretty/SOT-23-6.kicad_mod": "f341c73aac9dcb553456f68bf3fee3d26eb14acf6d8a1cae82b50418fe1d71ca",
+    "WiredMain.pretty/SOT-363_SC-70-6.kicad_mod": "0659d885e00b786968c3ba29152b808777240a91c1fb49ab8d814eb03530115c",
+    "WiredMain.pretty/TI_DSE0006A.kicad_mod": "93caf3c961110404336559a4e3d7eb56cacd21eb5b0fc785ce44977112f49446",
+    "WiredMain.pretty/TI_RSV0016A.kicad_mod": "e37cb16fb96fa62a780fbab453393e3b017deb86ea86551501ed033548bf6226",
+    "WiredMain.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": "e4bf82cea6d3b3259ddf42469b1407628ad1181a28ae6f3f340190c0cca31ccd",
+    "WiredMain.pretty/TestPoint_Pad_D1.5mm.kicad_mod": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+    "WiredMain.pretty/Texas_DRT-3.kicad_mod": "15cde3ee13da0e0426038a0a17ee16c50edc6d100b64582166b4263d4e7cae17",
+    "WiredMain.pretty/WSON-6_1.5x1.5mm_P0.5mm.kicad_mod": "88df8d2d991122b023fd5b662e8456cbd9c23e90a114c566b140885634666949",
+    "WiredMain.pretty/Winbond_USON-8_2x3mm_P0.5mm_UX.kicad_mod": "e5f361c414866d6811d14940e4c313659a993669019e52adc0d7264e2105e609",
+    "dock-wired-system.kicad_sch": "7f4d24bd13ddf21a3561affe682d57a474090fb604a085d8fb0cd629455fabf8",
+    "dock-wired-system.kicad_pro": "5612d7911b3027f2f7c847eb13bbfbdd494edc87b757563743de251670d9ff38",
+    "dock-wired-transport.kicad_sch": "ad474e451984f45ec354db476bc0375b41c444bcbb62569a97a57dd029389fe2",
+    "dock-wired-transport.kicad_pro": "ae82373e7d2f026619796837f9a36ad7a89b296e43d00f071b0b0211f5e9526f",
+    "WiredMain.kicad_sym": "bc2a3a0db0c0406e2160fed23e35e173b41075e325fd763af677dc48291e03be",
+    "fp-lib-table": "e429d2daa4ed93ae034815c621a3f05da11baf33497f2e294f71b05a432c0c8c",
+    "sym-lib-table": "ac8a93c2e52e81f1f7a95c611225d159cba8f320fd5357192edd2d459af8cb98",
+    "source-manifest.json": "868ef2a60ab1105bff46df6585847e92ebe65d498d5b864aa59717e54126cc23",
+    "circuit-contract.json": "bd6fac097c73a2724aaa3d3d402695281610460638fdeaeca45f03b98c076aa9",
+    "build_source.py": "ab8edbca57be9f09b4739b0538f2952baaf7689ed9a414fefe7f1727f9aaa348",
+    "contract.py": "bc2f68a4c28cede40e2b4ae3fbb3b857e08ae24121aaa389f9e8ee5c83ab9660",
+    "check_native.py": "53232b49f12db078f759a986ccb78fccc91d9fd9f7423c3d1f7d3edf8245a269"
+  },
+  "baseline_and_contract_hashes": {
+    "hardware/pcb/evt1/dock-system/sheets/dock-controller.kicad_sch": "2ea64034c047ce5d5d0a87a5a34a0fd2116ee015c2be218d85e3e2be634293f4",
+    "hardware/pcb/evt1/dock-system/sheets/dock-lid-ui.kicad_sch": "f981ce4b102ce00b3544d37557b0e61fe972ce839db580ecdf283159edd6b42c",
+    "hardware/pcb/evt1/dock-system/sheets/dock-safety.kicad_sch": "9b4769f1aca3122ad514d4dd624e3a6c2d7662c367f00f5e5bbac4abdc31383f",
+    "hardware/pcb/evt1/dock-system/sheets/dock-ui-source.kicad_sch": "655306c3703c52e3dc8143286a9288be307cbbfe31ddfea653a85e713279181d",
+    "hardware/pcb/evt1/dock-system/sheets/dock-uv-base.kicad_sch": "6f248ad200b0c087c78b8945a523f9f9d3c9acf28a3ceb74ab609348885152b2",
+    "hardware/pcb/evt1/dock-system/sheets/dock-uv-lid.kicad_sch": "56b25970e502c3375241f33d8af9afe4bce57af237963e969ce8363152505361",
+    "hardware/pcb/evt1/dock-system/native.xml": "51266fd7d71651ff813d76d9298a986301f619e6f8eed8ed9af64ca797a1630c",
+    "hardware/pcb/evt1/dock-system/sym-lib-table": "f0a88ccb36a633e3017339a0834eb513ec5cbae3533c9d7ceb77b94984651707",
+    "hardware/pcb/evt1/dock-system/fp-lib-table": "338f33dcd45ada81d59d10617dcdd3d680040a7d04af4731fe14237a319dd472",
+    "hardware/pcb/evt1/dock-system/erc.json": "160e6e29c3e488b6b216c517e93a04f44564c426111ddf3db98a48100a0ada8a",
+    "hardware/pcb/evt1/dock-system/dock-system.kicad_pro": "917574ea556461ca9302a2b59ee910f243a62c1b3b62833008e965a7b6383655",
+    "tools/electronics_r0_generate.py": "d04c15a6a24f9b94eca66d22a9bb003a11235d5ffa3374fc70dd80600ef81cdc",
+    "tools/kicad_sexp.py": "e994d65ca0487b08c75ffbce5449b492e32832abc948300c1c61407684efb5b0",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/contract.py": "bc2f68a4c28cede40e2b4ae3fbb3b857e08ae24121aaa389f9e8ee5c83ab9660",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/circuit-contract.json": "bd6fac097c73a2724aaa3d3d402695281610460638fdeaeca45f03b98c076aa9",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/WiredMain.pretty/Onsemi_846AP_MSOP10.kicad_mod": "b0ec0d9dc38033705b950fc82fb39d9e5ccdb335002702bb65c428d2e685396d",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/WiredMain.pretty/TI_DSE0006A.kicad_mod": "93caf3c961110404336559a4e3d7eb56cacd21eb5b0fc785ce44977112f49446",
+    "hardware/pcb/evt1/case-telemetry-study/wired-main/WiredMain.pretty/Winbond_USON-8_2x3mm_P0.5mm_UX.kicad_mod": "e5f361c414866d6811d14940e4c313659a993669019e52adc0d7264e2105e609",
+    "hardware/pcb/evt1/dock-control/pin-contract.json": "24756e7929caacedfe2c1b8e80992c07cbb3577d21c29b79f44c08f15ed0614a",
+    "hardware/pcb/evt1/dock-ui/pin-contract.json": "a73770fd9e55eedb3f2f551ab624a1514d669ca4bcd6e901b942df56971a03e0",
+    "hardware/pcb/evt1/dock-safety/power-budget.json": "aa6b03156f494c8640d7c4f1f622bfdb080d30c9a9c07262faff435cdc9c3d04",
+    "hardware/pcb/evt1/dock-main/dock-main.kicad_pcb": "e10043f2fa456c4a88848a612f13ad501c49fdee64e4a509484fa86a7a5c674b"
+  },
+  "native_report_schematic": "dock-wired-transport.kicad_sch",
+  "main_view": {
+    "source": "dock-wired-system.kicad_sch",
+    "ERC_errors": 0,
+    "ERC_warnings": 0,
+    "refs": 222,
+    "terminals": 829,
+    "equal_to_transport_subset": true
+  },
+  "native_report_hashes": {
+    "native.xml": "02013ae89f6103bbd447f3074c458a8d644645d8f7b9cdeb3c7ad420f5d5a081",
+    "erc.json": "2a9b6e20423578312b8db7bec2fb35760faf0ddfec35aca4e9654314953c8983"
+  },
+  "PCB_validated_by_this_check": false,
+  "powered_validation": false,
+  "assembly_release": false
+}

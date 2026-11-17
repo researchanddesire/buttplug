@@ -1,0 +1,82 @@
+{
+  "status": "pass: editable 1 mm laminate with four updated target drills",
+  "board_sha256": "bd1d834974698c49e7bfe886a0ead1d0fb34d7bce1f324bef01f03695cfb707a",
+  "native_source": "hardware/pcb/evt1/single-flange-routing/SingleFlangeRouting.FCStd",
+  "native_source_sha256": "3b222bb0cf4f61427b42bca78e4c8089ec9e59f23050ddafc6aa18b4473b7230",
+  "Body": "PCB",
+  "Tip": "FinishedPCB",
+  "profile": "BoardOutlineAndHoles",
+  "fully_constrained_profile": true,
+  "Pad_Length_mm": 1.0,
+  "STEP": "hardware/pcb/evt1/single-flange-routing/FinishedPCB_local.step",
+  "STEP_sha256": "55fdf7f498319da27a52662e22cf4806b07a496f866f0e72811b2384b2723103",
+  "STEP_bounds_local_mm": [
+    -41.0,
+    -13.0,
+    -2.6380994529680773e-16,
+    41.0,
+    13.0,
+    1.0000000000000002
+  ],
+  "solid_count": 1,
+  "volume_mm3": 2022.617038168936,
+  "nominal_target_drill_diameter_mm": 1.02,
+  "target_holes": [
+    {
+      "ref": "CT1",
+      "center_product_XZ_mm": [
+        -16,
+        10
+      ]
+    },
+    {
+      "ref": "CT2",
+      "center_product_XZ_mm": [
+        -10,
+        10
+      ]
+    },
+    {
+      "ref": "CT3",
+      "center_product_XZ_mm": [
+        -4,
+        10
+      ]
+    },
+    {
+      "ref": "CT4",
+      "center_product_XZ_mm": [
+        2,
+        10
+      ]
+    }
+  ],
+  "laminate_removed_mm3": 0.925497613447078,
+  "proper_local_to_product_matrix4": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      -25.952
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "physical_acceptance": false
+}

@@ -1,0 +1,218 @@
+{
+  "source_assembly_sha256": "3d49b3b5a82073bdddcdd0a36c8e2106dce12b5e3eb2f99bd2bdb253f568e60d",
+  "output_assembly_sha256": "d1d3bd100dafc00097f10b02af68c29657ecfefe40f08ba8603f4c5393264ce4",
+  "scope": "Nominal installed solid verification in saved canonical dock at 0\u00b0 with 0.60 mm insulating bodies. Pad-tail references are centerlines only. WireViz cut lengths remain measurement-bound starting stock. Between-pose fit, installed restraints, lid motion, wire wave/twist, solder fillet and powered USB remain unqualified.",
+  "groups": [
+    "BaseModule",
+    "LidModule"
+  ],
+  "obstacles": 82,
+  "wires": {
+    "1": {
+      "link": "J102.1 \u2192 J94.1",
+      "insulated_length_mm": 90.51906895598665,
+      "nominal_pad_to_pad_with_0p30_mm_tail_each_mm": 91.11906895598665,
+      "sampled_min_radius_mm": 3.9999999999999982,
+      "samples": 488,
+      "exactObstaclePairs": 54,
+      "overlaps": []
+    },
+    "2": {
+      "link": "J102.2 \u2192 J94.2",
+      "insulated_length_mm": 93.73466962422586,
+      "nominal_pad_to_pad_with_0p30_mm_tail_each_mm": 94.33466962422585,
+      "sampled_min_radius_mm": 3.9999999999999982,
+      "samples": 488,
+      "exactObstaclePairs": 57,
+      "overlaps": []
+    },
+    "3": {
+      "link": "J102.3 \u2192 J94.3",
+      "insulated_length_mm": 97.70255264574392,
+      "nominal_pad_to_pad_with_0p30_mm_tail_each_mm": 98.30255264574392,
+      "sampled_min_radius_mm": 3.999999999999999,
+      "samples": 488,
+      "exactObstaclePairs": 63,
+      "overlaps": []
+    },
+    "4": {
+      "link": "J102.4 \u2192 J94.4",
+      "insulated_length_mm": 101.10933884836439,
+      "nominal_pad_to_pad_with_0p30_mm_tail_each_mm": 101.70933884836438,
+      "sampled_min_radius_mm": 4.0,
+      "samples": 488,
+      "exactObstaclePairs": 65,
+      "overlaps": []
+    }
+  },
+  "spacing": {
+    "1/2": {
+      "gap_mm": 0.1421912586094679,
+      "overlap_mm3": 0.0
+    },
+    "1/3": {
+      "gap_mm": 0.14999999999999858,
+      "overlap_mm3": 0.0
+    },
+    "1/4": {
+      "gap_mm": 0.4965856099730656,
+      "overlap_mm3": 0.0
+    },
+    "2/3": {
+      "gap_mm": 0.14999999999999858,
+      "overlap_mm3": 0.0
+    },
+    "2/4": {
+      "gap_mm": 0.14999999999999858,
+      "overlap_mm3": 0.0
+    },
+    "3/4": {
+      "gap_mm": 0.14999999999999858,
+      "overlap_mm3": 0.0
+    }
+  },
+  "save_readback": true,
+  "new_objects": [
+    "DockContactHarness",
+    "DockWireGround",
+    "DockWireGroundInsulatedSweep",
+    "DockWireGroundPadTerminations",
+    "DockWireGroundSpine",
+    "DockWirePower",
+    "DockWirePowerInsulatedSweep",
+    "DockWirePowerPadTerminations",
+    "DockWirePowerSpine",
+    "DockWireUsbMinus",
+    "DockWireUsbMinusInsulatedSweep",
+    "DockWireUsbMinusPadTerminations",
+    "DockWireUsbMinusSpine",
+    "DockWireUsbPlus",
+    "DockWireUsbPlusInsulatedSweep",
+    "DockWireUsbPlusPadTerminations",
+    "DockWireUsbPlusSpine",
+    "Origin228",
+    "Origin229",
+    "Origin230",
+    "Origin231",
+    "Origin232",
+    "Origin233",
+    "Origin234",
+    "Origin235",
+    "Origin236",
+    "Origin237",
+    "XY_Plane114",
+    "XY_Plane115",
+    "XY_Plane116",
+    "XY_Plane117",
+    "XY_Plane118",
+    "XZ_Plane114",
+    "XZ_Plane115",
+    "XZ_Plane116",
+    "XZ_Plane117",
+    "XZ_Plane118",
+    "X_Axis114",
+    "X_Axis115",
+    "X_Axis116",
+    "X_Axis117",
+    "X_Axis118",
+    "YZ_Plane114",
+    "YZ_Plane115",
+    "YZ_Plane116",
+    "YZ_Plane117",
+    "YZ_Plane118",
+    "Y_Axis114",
+    "Y_Axis115",
+    "Y_Axis116",
+    "Y_Axis117",
+    "Y_Axis118",
+    "Z_Axis114",
+    "Z_Axis115",
+    "Z_Axis116",
+    "Z_Axis117",
+    "Z_Axis118"
+  ],
+  "verified_unchanged_rigid_shape_streams": {
+    "LowerShell": "edbdc734658a9cbc2c9ed5faf2a2a6d535591ec9a1c3afdc3778a82208737f93",
+    "LowerChamber": "e4510cf11aa46a0042a5bc6b4e4f1f8608b8af7ad03d4edec8a8c136ccf0fba9",
+    "UpperShell": "ec4e88162ea95134b3c4a6e76f60fe20b9dbf443215b9b4a91105c69fa9f1026",
+    "UpperChamber": "725e5cdab7b5983091f37a4a7cc5dad96c2575b74033832641bad2704ab5a3f9",
+    "ContactCarrier": "6fb80f492889bc06417f6284b4409415947b86a311353e592c1a7f2fab8c9ae8",
+    "ContactRetainer": "7a81f5e0d7b49e98089a33cd9cc9c3d50d0ff36c2dad864eddfc590628f47799",
+    "FrontClosureLowerPlug": "83708eafa615ab1dc8fc27b9a600d3e485c772e6f647ac1e972b7a340ce3a7d0",
+    "FrontClosureUpperPlug": "3d2bf3dbd94e24b925be3325cd95c5598376b6fa363169afec82237a4e4887c6"
+  },
+  "verified_unchanged_external_links": {
+    "PinBoardAssembly": "pcb/PinPCB.FCStd#Board_319a",
+    "UVBaseBoardAssembly": "pcb/UVBase.FCStd#Board_957f",
+    "UVLidBoardAssembly": "pcb/UVLid.FCStd#Board_308",
+    "UIBoardAssembly": "pcb/LidUI-JST.FCStd#Board_806",
+    "USBBoardAssembly": "pcb/MainPCB-Wired.FCStd#Board_d5a2",
+    "DeviceMetalBody": "sources/SingleFlangeExterior.FCStd#MetalBody",
+    "DeviceMotorThermistorCap": "sources/SingleFlangeExterior.FCStd#MotorThermistorCap",
+    "DeviceContinuousSkin": "sources/SingleFlangeExterior.FCStd#ContinuousSkin",
+    "DeviceContact_GND": "sources/SingleFlangeExterior.FCStd#Contact_GND",
+    "DeviceContact_USB_DM": "sources/SingleFlangeExterior.FCStd#Contact_USB_DM",
+    "DeviceContact_USB_DP": "sources/SingleFlangeExterior.FCStd#Contact_USB_DP",
+    "DeviceContact_DOCK_5V": "sources/SingleFlangeExterior.FCStd#Contact_DOCK_5V",
+    "DeviceSteelKeeper0": "sources/SingleFlangeExterior.FCStd#SteelKeeper0",
+    "DeviceSteelKeeper1": "sources/SingleFlangeExterior.FCStd#SteelKeeper1"
+  },
+  "checked_original_object_placement_or_expression_deltas": [],
+  "exact_obstacle_pairs": 239,
+  "render_png_sha256": "e7fa0459e1d27280db2a6b14549dd4298312222a1da322ae993ce0c6c1aaaab8",
+  "source_macro_sha256": "fe55641f395fe5ca9b5bc49cadb6be47a5c6ea42bcd155c4276deefa4f22e30c",
+  "current_after_base_uv": {
+    "native_sha256": "6927ffc7139e505a61f698d761e484acad89901da74b48cce2b6058c5599f436",
+    "cold_reopened": true,
+    "relative_links": 15,
+    "exact_obstacle_pairs": 258,
+    "wire_overlap_count": 0,
+    "stationary_uv_spacing_mm": 46.78050812759573,
+    "record": "base-uv-check.json"
+  },
+  "current_after_display": {
+    "native_sha256": "54a40bb0d1c7e6e77da54b0a5f9f9df0cc7c551f96d4bc81822f8f4403044346",
+    "cold_reopened": true,
+    "relative_links": 15,
+    "exact_obstacle_pairs": 258,
+    "wire_overlap_count": 0,
+    "stationary_uv_spacing_mm": 46.78050812759573,
+    "record": "display-stack-check.json"
+  },
+  "current_after_hinge_flex": {
+    "native_sha256": "849f1597a79a713266fb0c6936ec8fdef6634c8c3538933336277ebe2931b535",
+    "cold_reopened": true,
+    "relative_links": 16,
+    "exact_obstacle_pairs": 258,
+    "wire_overlap_count": 0,
+    "stationary_uv_spacing_mm": 46.78050812759573,
+    "record": "hinge-flex-check.json"
+  },
+  "current_after_hall_liner_relief": {
+    "native_sha256": "23aa0206c921cce6f2764a1080e04cbf5594ae0a3fb14fa37e5ba9c8af29242e",
+    "cold_reopened": true,
+    "relative_links": 16,
+    "exact_obstacle_pairs": 258,
+    "wire_overlap_count": 0,
+    "stationary_uv_spacing_mm": 46.78050812759573,
+    "record": "hinge-flex-check.json"
+  },
+  "current_after_hall_hardware": {
+    "native_sha256": "eb41c7e2bb6a3cfd7697749cf433c42682b35fb13d76aebc95b6e42a3631e8c4",
+    "cold_reopened": true,
+    "relative_links": 18,
+    "exact_obstacle_pairs": 258,
+    "wire_overlap_count": 0,
+    "stationary_uv_spacing_mm": 46.78050812759573,
+    "record": "hinge-flex-check.json"
+  },
+  "current_after_hall_capture_lips": {
+    "native_sha256": "c8748a4365db26d9c6bd5b4ffc736ba1ad4af0cf9c9d9226e4d0b2f88e372313",
+    "cold_reopened": true,
+    "relative_links": 18,
+    "exact_obstacle_pairs": 258,
+    "wire_overlap_count": 0,
+    "stationary_uv_spacing_mm": 46.78050812759573,
+    "record": "hinge-flex-check.json"
+  }
+}

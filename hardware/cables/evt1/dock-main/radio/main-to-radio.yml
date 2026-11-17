@@ -1,0 +1,37 @@
+metadata:
+  title: Dock Main to radio add-on
+  notes: Straight-through bench harness. Identify pin 1 from each board and
+    housing drawing. Six 175 mm starting blanks. Trim to the installed route
+    after pocket, entry and restraint are decided.
+options:
+  fontname: Arial
+connectors:
+  J150: &gh6
+    type: GH crimp housing
+    manufacturer: JST
+    mpn: GHR-06V-S
+    pins: [1, 2, 3, 4, 5, 6]
+    pinlabels: [RADIO_5V, GND, MON_I2C_SDA, MON_I2C_SCL, RADIO_IRQn, RADIO_ACTIVE_EN]
+  J901: *gh6
+cables:
+  Radio:
+    category: bundle
+    type: PTFE stranded wire
+    wirecount: 6
+    wirelabels: [RADIO_5V, GND, MON_I2C_SDA, MON_I2C_SCL, RADIO_IRQn, RADIO_ACTIVE_EN]
+    gauge: 26
+    gauge_unit: AWG
+    length: 0.175
+    length_unit: m
+    manufacturer: Allied Wire and Cable
+    mpn: 1371-26-7
+    notes: Existing dock wire stock for a loose bench lead.
+connections:
+  - - J150: [1, 2, 3, 4, 5, 6]
+    - Radio: [1, 2, 3, 4, 5, 6]
+    - J901: [1, 2, 3, 4, 5, 6]
+additional_bom_items:
+  - description: Tin-plated GH crimp contact
+    manufacturer: JST
+    mpn: SSHL-002T-P0.2
+    qty: 12

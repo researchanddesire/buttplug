@@ -1,0 +1,367 @@
+{
+  "scope": "Wired Main candidate passive purchase supplement. Quantities are fitted units per board, before assembler attrition or packaging minimums. Parts and supplier availability require the assembly quote. This is separate from native symbol fields and frozen order packages.",
+  "source_sha256": {
+    "case-telemetry-study/wired-main/circuit-contract.json": "bd6fac097c73a2724aaa3d3d402695281610460638fdeaeca45f03b98c076aa9",
+    "case-telemetry-study/wired-main/source-manifest.json": "868ef2a60ab1105bff46df6585847e92ebe65d498d5b864aa59717e54126cc23",
+    "case-telemetry-study/wired-main/dock-wired-system.kicad_sch": "7f4d24bd13ddf21a3561affe682d57a474090fb604a085d8fb0cd629455fabf8",
+    "parts-selection.json": "41047c4a6a6c5f2a1de48918d1fa903048433dcbaa6c83ddff48a617731d1da2",
+    "case-telemetry-study/wired-main/sheets/wired-usb-passives.kicad_sch": "43e60326e73d2d775f4c4bbc4e901a71b2a79ab42da71ea40d381dbeca39a575",
+    "case-telemetry-study/wired-main/sheets/dock-ui-source.kicad_sch": "2725faa74f30884bb8b29620460f81c80edb5dd6b4f13f4701ca71ceb85f2f4a",
+    "case-telemetry-study/wired-main/sheets/dock-uv-base.kicad_sch": "e39846f13d2c3defbd839aec9097b959b170034160293714fae5d494cd6520c0",
+    "case-telemetry-study/wired-main/sheets/dock-uv-lid.kicad_sch": "7291173f46c09788f19852ec5038e1dddcb65ceb4d414e3a015029c0b5e315e3"
+  },
+  "native_reference_value_package_parity": {
+    "added_passive_positions": 48,
+    "added_passive_purchase_lines": 15,
+    "existing_project_parts_reused": 5,
+    "changed_power_passive_positions": 3,
+    "service_copper_positions": 7,
+    "added_active_crystal_positions_covered_by_circuit_contract": 14
+  },
+  "added_passives": [
+    {
+      "board": "Main",
+      "references": [
+        "R151",
+        "R152"
+      ],
+      "quantity_per_board": 2,
+      "manufacturer": "Vishay",
+      "mpn": "CRCW040227R0FKED",
+      "schematic_value": "27 ohm 1%, 0402",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "maximum_body_height_mm": 0.4,
+      "tolerance_percent": 1,
+      "resistance_ohm": 27,
+      "tcr_ppm_per_K": 100,
+      "note": "Keep close to RP2040 USB pads; preserve identical series parts."
+    },
+    {
+      "board": "Main",
+      "references": [
+        "R153"
+      ],
+      "quantity_per_board": 1,
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0797K6L",
+      "schematic_value": "97.6k 0.1% 25ppm/K, 0603",
+      "footprint": "WiredMain:R_0603_1608Metric",
+      "manufacturer_source": "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RT_Series_Rev3.pdf",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 0.1,
+      "resistance_ohm": 97600,
+      "tcr_ppm_per_K": 25,
+      "note": "Divider upper resistor. Tolerance and TCR are inputs to contact rail thresholds."
+    },
+    {
+      "board": "Main",
+      "references": [
+        "R154"
+      ],
+      "quantity_per_board": 1,
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0710K5L",
+      "schematic_value": "10.5k 0.1% 25ppm/K, 0603",
+      "footprint": "WiredMain:R_0603_1608Metric",
+      "manufacturer_source": "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RT_Series_Rev3.pdf",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 0.1,
+      "resistance_ohm": 10500,
+      "tcr_ppm_per_K": 25,
+      "note": "Divider lower resistor. Tolerance and TCR are inputs to contact rail thresholds."
+    },
+    {
+      "board": "Main",
+      "references": [
+        "R155",
+        "R166"
+      ],
+      "quantity_per_board": 2,
+      "manufacturer": "Vishay",
+      "mpn": "TNPW040247K0BEED",
+      "schematic_value": "47k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 0.1,
+      "resistance_ohm": 47000,
+      "tcr_ppm_per_K": 25,
+      "note": "Tighter tolerance than required; same TNPW series as existing product values."
+    },
+    {
+      "board": "Main",
+      "references": [
+        "R156",
+        "R158",
+        "R159",
+        "R160",
+        "R161",
+        "R162",
+        "R163",
+        "R169"
+      ],
+      "quantity_per_board": 8,
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0402100KBEED",
+      "schematic_value": "100k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 0.1,
+      "resistance_ohm": 100000,
+      "tcr_ppm_per_K": 25,
+      "reused_project_selection": "evt1/body:R23"
+    },
+    {
+      "board": "Main",
+      "references": [
+        "R157",
+        "R170"
+      ],
+      "quantity_per_board": 2,
+      "manufacturer": "Vishay",
+      "mpn": "TNPW040210K0BEED",
+      "schematic_value": "10k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 0.1,
+      "resistance_ohm": 10000,
+      "tcr_ppm_per_K": 25,
+      "reused_project_selection": "evt1/body:R3"
+    },
+    {
+      "board": "Main",
+      "references": [
+        "R164",
+        "R165"
+      ],
+      "quantity_per_board": 2,
+      "manufacturer": "Vishay",
+      "mpn": "TNPW04024K70BEED",
+      "schematic_value": "4.7k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 0.1,
+      "resistance_ohm": 4700,
+      "tcr_ppm_per_K": 25,
+      "note": "Tighter tolerance than required. Validate SCL/SDA rise and fall times with installed bus capacitance."
+    },
+    {
+      "board": "Main",
+      "references": [
+        "R167",
+        "R168"
+      ],
+      "quantity_per_board": 2,
+      "manufacturer": "Vishay",
+      "mpn": "TNPW04021K00BEED",
+      "schematic_value": "1k 1%",
+      "footprint": "WiredMain:R_0402_1005Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 0.1,
+      "resistance_ohm": 1000,
+      "tcr_ppm_per_K": 25,
+      "reused_project_selection": "evt1/body:R47"
+    },
+    {
+      "board": "Main",
+      "references": [
+        "C151",
+        "C152",
+        "C155",
+        "C157",
+        "C159",
+        "C160",
+        "C161",
+        "C162",
+        "C163",
+        "C164",
+        "C169",
+        "C170",
+        "C171",
+        "C172",
+        "C173",
+        "C174",
+        "C175",
+        "C176",
+        "C177",
+        "C178"
+      ],
+      "quantity_per_board": 20,
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71C104KA88D",
+      "schematic_value": "100nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer_source": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R71C104KA88%23",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 10,
+      "capacitance_F": 1e-07,
+      "rated_voltage_V": 16,
+      "dielectric": "X7R",
+      "reused_project_selection": "evt1/body:C28"
+    },
+    {
+      "board": "Main",
+      "references": [
+        "C153"
+      ],
+      "quantity_per_board": 1,
+      "manufacturer": "TDK",
+      "mpn": "C1608X5R1C225K080AB",
+      "schematic_value": "2.2uF 16V X5R",
+      "footprint": "WiredMain:C_0603_1608Metric",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1C225K080AB",
+      "maximum_body_height_mm": 0.9,
+      "tolerance_percent": 10,
+      "capacitance_F": 2.2e-06,
+      "rated_voltage_V": 16,
+      "dielectric": "X5R",
+      "note": "Confirm >=1 uF effective at LDO IN over actual rail, temperature and aging. Verify branch startup."
+    },
+    {
+      "board": "Main",
+      "references": [
+        "C154"
+      ],
+      "quantity_per_board": 1,
+      "manufacturer": "TDK",
+      "mpn": "CGA4J1X5R1C106K125AC",
+      "schematic_value": "10uF 16V X5R",
+      "footprint": "WiredMain:C_0805_2012Metric",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA4J1X5R1C106K125AC",
+      "maximum_body_height_mm": 1.45,
+      "tolerance_percent": 10,
+      "capacitance_F": 1e-05,
+      "rated_voltage_V": 16,
+      "dielectric": "X5R",
+      "note": "1.45 mm maximum plus 0.05 mm solder allowance uses the full 1.50 mm package allowance. Confirm >=1 uF effective at LDO OUT over actual rail, temperature and aging. Verify branch startup."
+    },
+    {
+      "board": "Main",
+      "references": [
+        "C156"
+      ],
+      "quantity_per_board": 1,
+      "manufacturer": "Murata",
+      "mpn": "GRM155R71H103KA88D",
+      "schematic_value": "10nF 16V X7R",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer_source": "https://www.farnell.com/datasheets/1747449.pdf",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 10,
+      "capacitance_F": 1e-08,
+      "rated_voltage_V": 50,
+      "dielectric": "X7R",
+      "note": "Higher rated voltage in same size; verify installed reset timing.",
+      "reused_project_selection": "evt1/body:C62"
+    },
+    {
+      "board": "Main",
+      "references": [
+        "C158"
+      ],
+      "quantity_per_board": 1,
+      "manufacturer": "TDK",
+      "mpn": "CGA2B2C0G1H102J050BA",
+      "schematic_value": "1nF 16V C0G",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B2C0G1H102J050BA",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 5,
+      "capacitance_F": 1e-09,
+      "rated_voltage_V": 50,
+      "dielectric": "C0G",
+      "note": "Higher rated voltage in same size; preserve C0G for the sense filter."
+    },
+    {
+      "board": "Main",
+      "references": [
+        "C165",
+        "C166"
+      ],
+      "quantity_per_board": 2,
+      "manufacturer": "TDK",
+      "mpn": "C1608X5R1C105K080AA",
+      "schematic_value": "1uF 16V X5R",
+      "footprint": "WiredMain:C_0603_1608Metric",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1C105K080AA",
+      "maximum_body_height_mm": 0.9,
+      "tolerance_percent": 10,
+      "capacitance_F": 1e-06,
+      "rated_voltage_V": 16,
+      "dielectric": "X5R",
+      "note": "Keep VREG input and output loops local. Verify regulator startup and rail behavior with received parts."
+    },
+    {
+      "board": "Main",
+      "references": [
+        "C167",
+        "C168"
+      ],
+      "quantity_per_board": 2,
+      "manufacturer": "TDK",
+      "mpn": "CGA2B2C0G1H150J050BA",
+      "schematic_value": "15pF 50V C0G 5%",
+      "footprint": "WiredMain:C_0402_1005Metric",
+      "manufacturer_source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B2C0G1H150J050BA",
+      "maximum_body_height_mm": 0.55,
+      "tolerance_percent": 5,
+      "capacitance_F": 1.5e-11,
+      "rated_voltage_V": 50,
+      "dielectric": "C0G",
+      "note": "Use the same MPN at both crystal loads. Two nominal 15 pF capacitors give 7.5 pF in series plus actual PCB/pin stray. Verify start and clock tolerance on routed hardware."
+    }
+  ],
+  "matched_power_population": [
+    {
+      "reference": "R107",
+      "board": "Main",
+      "quantity_per_board": 1,
+      "manufacturer": "Yageo",
+      "mpn": "RT0603BRD0740K2L",
+      "schematic_value": "40.2k 0.1% 25ppm/K",
+      "footprint": "DockUI:R_0603_1608Metric",
+      "manufacturer_source": "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/RT_Series_Rev3.pdf"
+    },
+    {
+      "reference": "R401",
+      "board": "UV Base",
+      "quantity_per_board": 1,
+      "manufacturer": "Vishay",
+      "mpn": "CRCW08054R22FKEA",
+      "schematic_value": "4.22ohm 1% 100ppm/K",
+      "footprint": "DockUV:R_0805_2012Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    },
+    {
+      "reference": "R501",
+      "board": "UV Lid",
+      "quantity_per_board": 1,
+      "manufacturer": "Vishay",
+      "mpn": "CRCW08054R22FKEA",
+      "schematic_value": "4.22ohm 1% 100ppm/K",
+      "footprint": "DockUV:R_0805_2012Metric",
+      "manufacturer_source": "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    }
+  ],
+  "power_population_note": "Fit all three substitutions together for the wired host/UV 1.5 A candidate. Use the matching 4.22 ohm UV current conversion in dock firmware. The frozen direct-pass-through quote keeps its own distinct 34.8k / 3.65 ohm population.",
+  "dnp_added_passive_references": [],
+  "service_copper_no_purchased_parts": {
+    "TP151": "PC_LOCKn",
+    "TP152": "GND",
+    "TP153": "RP_SWDIO",
+    "TP154": "RP_SWCLK",
+    "TP155": "RP_RUN",
+    "TP156": "USB_HOST_3V3",
+    "TP157": "RP_BOOTSEL_PAD"
+  },
+  "procurement_status": {
+    "price_and_stock_verified": false,
+    "assembly_quote_released": false,
+    "powered_validation": false
+  }
+}

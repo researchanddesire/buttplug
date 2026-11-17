@@ -1,0 +1,373 @@
+{
+  "native_sha256": "f82feaae4ca32b315453fd5e8960b40aa940c67c57bb35bd13c44fc67d94b47b",
+  "frozen_assembly_sha256": "dbb65886f471d7dd81b26527b15d09a18d52ef775a269dc8ea4572220c20a544",
+  "pcb_sha256": "c4aa7c5c5366577e00d5ed6ffef6f2e6950fc053451ebee058746eb755d85344",
+  "fixture_xy_rotation_mm_deg": {
+    "J3": [
+      90.75,
+      100.75,
+      0
+    ],
+    "J8": [
+      94.55,
+      107.75,
+      0
+    ],
+    "R36": [
+      88.0,
+      96.65,
+      0
+    ],
+    "R2": [
+      96.8,
+      103.9,
+      0
+    ]
+  },
+  "approximation": "JST SM02B-SRSS-TB fixed header saved geometry; SHR-02V-S exposed nominal 3.0 mm \u00d7 2.0 mm \u00d7 2.8 mm with 3 mm suppressed engagement by catalog dimensions.",
+  "rigid_nominal": {
+    "J3": {
+      "pcb_xy_angle": [
+        90.75,
+        100.75,
+        0
+      ],
+      "header_seat_clearance_under_0p65_mm": [],
+      "sweep_clearance_under_0p65_mm": [
+        [
+          "Actual_R33_Solid0",
+          0.0,
+          0.45
+        ],
+        [
+          "Actual_R36_Solid0",
+          0.0,
+          0.45
+        ],
+        [
+          "ProposedFlangeTray",
+          0.0,
+          0.575
+        ]
+      ],
+      "sweep_against_dressed_peer_lead_near_mm": []
+    },
+    "J8": {
+      "pcb_xy_angle": [
+        94.55,
+        107.75,
+        0
+      ],
+      "header_seat_clearance_under_0p65_mm": [],
+      "sweep_clearance_under_0p65_mm": [
+        [
+          "Current_C30",
+          0.0,
+          0.2
+        ],
+        [
+          "Current_R2",
+          0.0,
+          0.25
+        ],
+        [
+          "Current_J3",
+          0.0,
+          0.3
+        ]
+      ],
+      "sweep_against_dressed_peer_lead_near_mm": []
+    }
+  },
+  "wire": {
+    "J3Pin1": {
+      "poles": [
+        [
+          -9.75,
+          -24.382,
+          4.055000000000004
+        ],
+        [
+          -9.75,
+          -24.382,
+          9.055000000000003
+        ],
+        [
+          -6.0,
+          -22.0,
+          11.0
+        ],
+        [
+          -1.0,
+          -19.0,
+          10.0
+        ],
+        [
+          -0.52,
+          -21.6,
+          2.35
+        ],
+        [
+          -0.52,
+          -14.600000000000003,
+          2.35
+        ]
+      ],
+      "length_mm": 20.285539463942754,
+      "minimum_radius_mm": 4.139974257050225,
+      "od_mm": 0.6,
+      "start": [
+        -9.75,
+        -24.382,
+        4.055000000000004
+      ],
+      "end": [
+        -0.52,
+        -14.600000000000003,
+        2.35
+      ],
+      "hits": [],
+      "nearest_fixed_under_0p65_mm": [
+        [
+          "ProposedFlangeTray",
+          0.0,
+          0.16994
+        ],
+        [
+          "BodyPackTrialMotorN",
+          0.0,
+          0.44
+        ]
+      ],
+      "tray_centerline_minus_wire_radius_401_samples_capped_mm": 0.170056,
+      "tray_brep_clearance_mm": 0.16994,
+      "tail_joint_gap_mm": 0.0
+    },
+    "J3Pin2": {
+      "poles": [
+        [
+          -8.75,
+          -24.382,
+          4.055000000000004
+        ],
+        [
+          -8.741999999999999,
+          -24.382,
+          7.91610432965182
+        ],
+        [
+          -6.37576864291709,
+          -20.52455483861428,
+          9.927228482719903
+        ],
+        [
+          -0.14315302194318058,
+          -21.750748966012686,
+          9.694411754393824
+        ],
+        [
+          0.512,
+          -21.63165636535592,
+          2.35
+        ],
+        [
+          0.52,
+          -14.600000000000003,
+          2.35
+        ]
+      ],
+      "length_mm": 19.406130304578785,
+      "minimum_radius_mm": 4.01930789597799,
+      "od_mm": 0.6,
+      "start": [
+        -8.75,
+        -24.382,
+        4.055000000000004
+      ],
+      "end": [
+        0.52,
+        -14.600000000000003,
+        2.35
+      ],
+      "hits": [],
+      "nearest_fixed_under_0p65_mm": [
+        [
+          "ProposedFlangeTray",
+          0.0,
+          0.151067
+        ],
+        [
+          "BodyPackTrialMotorP",
+          0.0,
+          0.44
+        ]
+      ],
+      "tray_centerline_minus_wire_radius_401_samples_capped_mm": 0.151242,
+      "tray_brep_clearance_mm": 0.151067,
+      "tail_joint_gap_mm": 0.0
+    },
+    "J8Pin1": {
+      "poles": [
+        [
+          -5.950000000000003,
+          -24.382,
+          -2.944999999999994
+        ],
+        [
+          -5.950000000000003,
+          -24.382,
+          -0.44499999999999407
+        ],
+        [
+          -4.0,
+          -21.0,
+          1.0
+        ],
+        [
+          -4.0,
+          -20.0,
+          -3.0
+        ],
+        [
+          -0.4,
+          -17.6,
+          -2.7
+        ],
+        [
+          -0.4,
+          -14.600000000000001,
+          -2.7
+        ]
+      ],
+      "length_mm": 12.820387494733103,
+      "minimum_radius_mm": 2.0012046602673204,
+      "od_mm": 0.55,
+      "start": [
+        -5.950000000000003,
+        -24.382,
+        -2.944999999999994
+      ],
+      "end": [
+        -0.4,
+        -14.600000000000001,
+        -2.7
+      ],
+      "hits": [],
+      "nearest_fixed_under_0p65_mm": [
+        [
+          "TH3Return",
+          0.0,
+          0.295
+        ]
+      ],
+      "tray_centerline_minus_wire_radius_401_samples_capped_mm": 0.725,
+      "tray_brep_clearance_mm": 7.820846,
+      "tail_joint_gap_mm": 0.0
+    },
+    "J8Pin2": {
+      "poles": [
+        [
+          -4.950000000000003,
+          -24.382,
+          -2.944999999999994
+        ],
+        [
+          -4.990000000000003,
+          -24.382,
+          -0.44499999999999407
+        ],
+        [
+          -3.08,
+          -22.0,
+          1.0
+        ],
+        [
+          -2.12,
+          -19.0,
+          -2.0
+        ],
+        [
+          0.44000000000000006,
+          -17.6,
+          -2.7
+        ],
+        [
+          0.4,
+          -14.6,
+          -2.7
+        ]
+      ],
+      "length_mm": 12.878965646221491,
+      "minimum_radius_mm": 2.0511005816984174,
+      "od_mm": 0.55,
+      "start": [
+        -4.950000000000003,
+        -24.382,
+        -2.944999999999994
+      ],
+      "end": [
+        0.4000000000000001,
+        -14.6,
+        -2.7
+      ],
+      "hits": [],
+      "nearest_fixed_under_0p65_mm": [
+        [
+          "Current_C30",
+          0.0,
+          0.275156
+        ],
+        [
+          "TH3Sense",
+          0.0,
+          0.295047
+        ]
+      ],
+      "tray_centerline_minus_wire_radius_401_samples_capped_mm": 0.725,
+      "tray_brep_clearance_mm": 7.820835,
+      "tail_joint_gap_mm": 0.0
+    }
+  },
+  "wire_pair_clearance_mm": {
+    "J3Pin1 to J3Pin2": 0.118781,
+    "J3Pin1 to J8Pin1": 4.476426,
+    "J3Pin1 to J8Pin2": 4.352942,
+    "J3Pin2 to J8Pin1": 4.558118,
+    "J3Pin2 to J8Pin2": 4.457025,
+    "J8Pin1 to J8Pin2": 0.250026
+  },
+  "wire_scope": "Analytical Bezier body and 801-sample bend radius; the naked-neck seam is nominal. Connector movement is screened against the dressed peer leads only. Fasteners, flex retention, terminal lock, material bend qualification and tolerance stack-up remain open.",
+  "j2_j4_scope": "J2 pigtail and J4 service volumes are reference keepout envelopes, with J4's existing housing hard solid preserved.",
+  "cold_reopen": {
+    "J3SHR02VS": {
+      "type": "Part::Cut",
+      "one_valid_solid": true,
+      "volume_mm3": 14.738801
+    },
+    "J8SHR02VS": {
+      "type": "Part::Cut",
+      "one_valid_solid": true,
+      "volume_mm3": 14.738801
+    },
+    "J3Pin1": {
+      "type": "Part::Sweep",
+      "one_valid_solid": true,
+      "volume_mm3": 5.735608
+    },
+    "J3Pin2": {
+      "type": "Part::Sweep",
+      "one_valid_solid": true,
+      "volume_mm3": 5.486962
+    },
+    "J8Pin1": {
+      "type": "Part::Sweep",
+      "one_valid_solid": true,
+      "volume_mm3": 3.045876
+    },
+    "J8Pin2": {
+      "type": "Part::Sweep",
+      "one_valid_solid": true,
+      "volume_mm3": 3.05977
+    }
+  }
+}

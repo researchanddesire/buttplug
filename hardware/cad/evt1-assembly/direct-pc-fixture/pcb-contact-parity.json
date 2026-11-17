@@ -1,0 +1,271 @@
+{
+  "status": "pass",
+  "sources": {
+    "active compact": {
+      "file": "hardware/pcb/evt1/one-board/compass-one-board.kicad_pcb",
+      "sha256": "99e7d81165d12de7459e1b6d8281e1089b14746a6c58c402fc3aec5e8a383ba0"
+    },
+    "approved contact datum reference": {
+      "file": "hardware/pcb/evt1/single-flange-routing/single-flange.kicad_pcb",
+      "sha256": "bd1d834974698c49e7bfe886a0ead1d0fb34d7bce1f324bef01f03695cfb707a"
+    },
+    "dock pin PCB": {
+      "file": "hardware/pcb/evt1/pins/pins-evt1.kicad_pcb",
+      "sha256": "3faea1fc2400a41d702ec16b7dd0f9865fa4372babbb825ed40c61603e8f49fa"
+    }
+  },
+  "target_contacts": {
+    "CT1": {
+      "library": "Selected:MillMax_1946_0_PTH_Study",
+      "at_mm_deg": [
+        84.0,
+        90.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm_deg": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            3.2,
+            3.2
+          ],
+          "drill_mm": 1.02,
+          "net": "GND"
+        }
+      ]
+    },
+    "CT2": {
+      "library": "Selected:MillMax_1946_0_PTH_Study",
+      "at_mm_deg": [
+        90.0,
+        90.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm_deg": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            3.2,
+            3.2
+          ],
+          "drill_mm": 1.02,
+          "net": "USB_DM_CONTACT"
+        }
+      ]
+    },
+    "CT3": {
+      "library": "Selected:MillMax_1946_0_PTH_Study",
+      "at_mm_deg": [
+        96.0,
+        90.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm_deg": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            3.2,
+            3.2
+          ],
+          "drill_mm": 1.02,
+          "net": "USB_DP_CONTACT"
+        }
+      ]
+    },
+    "CT4": {
+      "library": "Selected:MillMax_1946_0_PTH_Study",
+      "at_mm_deg": [
+        102.0,
+        90.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm_deg": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            3.2,
+            3.2
+          ],
+          "drill_mm": 1.02,
+          "net": "DOCK_5V"
+        }
+      ]
+    }
+  },
+  "pin_module": {
+    "J94": {
+      "library": "Contact_Loom_4Land",
+      "at_mm_deg": [
+        107.5,
+        108.5
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "at_mm_deg": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.8,
+            1.8
+          ],
+          "drill_mm": null,
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "at_mm_deg": [
+            2.5,
+            0.0
+          ],
+          "size_mm": [
+            1.8,
+            1.8
+          ],
+          "drill_mm": null,
+          "net": "DOCK_DM"
+        },
+        {
+          "number": "3",
+          "type": "smd",
+          "at_mm_deg": [
+            5.0,
+            0.0
+          ],
+          "size_mm": [
+            1.8,
+            1.8
+          ],
+          "drill_mm": null,
+          "net": "DOCK_DP"
+        },
+        {
+          "number": "4",
+          "type": "smd",
+          "at_mm_deg": [
+            7.5,
+            0.0
+          ],
+          "size_mm": [
+            1.8,
+            1.8
+          ],
+          "drill_mm": null,
+          "net": "DOCK_5V"
+        }
+      ]
+    },
+    "P91": {
+      "library": "MillMax_0906_2",
+      "at_mm_deg": [
+        104.0,
+        106.7
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm_deg": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": 0.6,
+          "net": "GND"
+        }
+      ]
+    },
+    "P92": {
+      "library": "MillMax_0906_2",
+      "at_mm_deg": [
+        110.0,
+        106.7
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm_deg": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": 0.6,
+          "net": "DOCK_DM"
+        }
+      ]
+    },
+    "P93": {
+      "library": "MillMax_0906_2",
+      "at_mm_deg": [
+        116.0,
+        106.7
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm_deg": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": 0.6,
+          "net": "DOCK_DP"
+        }
+      ]
+    },
+    "P94": {
+      "library": "MillMax_0906_2",
+      "at_mm_deg": [
+        122.0,
+        106.7
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "at_mm_deg": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.5,
+            1.5
+          ],
+          "drill_mm": 0.6,
+          "net": "DOCK_5V"
+        }
+      ]
+    }
+  },
+  "scope": "Four artwork contact datums and the pin-board net map. Package-height fit is separate."
+}

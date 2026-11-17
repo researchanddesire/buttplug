@@ -1,0 +1,75 @@
+{
+  "active_board": "hardware/pcb/evt1/single-flange-routing/single-flange.kicad_pcb",
+  "active_board_sha256": "bd1d834974698c49e7bfe886a0ead1d0fb34d7bce1f324bef01f03695cfb707a",
+  "active_schematic_root_sha256": "9d9f7d2ae18ab07fb8fcdb99ec2d7e7ab812e1d4dacb18f81505a07ed8afddf6",
+  "removed_in2_3V3_segment_uuids": [
+    "91d6116d-322d-422e-aeb6-0d9926756562",
+    "e9bae103-0e0c-4af3-9b55-62922aa9c6ec"
+  ],
+  "in2_3V3_detour_native_mm": [
+    [
+      101.49,
+      107.744
+    ],
+    [
+      112.1,
+      107.744
+    ],
+    [
+      115.0,
+      110.644
+    ],
+    [
+      122.0,
+      110.644
+    ],
+    [
+      123.65,
+      108.994
+    ],
+    [
+      123.65,
+      104.7258
+    ],
+    [
+      130.2515,
+      98.1243
+    ]
+  ],
+  "shipped_sensor_sites": [
+    {
+      "ref": "TH1",
+      "pair": "J83",
+      "native_xy": [
+        117.75,
+        94.25
+      ],
+      "signals": [
+        "PACK_NTC",
+        "PACK_NTC_RET"
+      ],
+      "body_signal": "J2.3",
+      "body_return": "J2.2S"
+    },
+    {
+      "ref": "TH2",
+      "pair": "J84",
+      "native_xy": [
+        117.75,
+        105.75
+      ],
+      "signals": [
+        "PACK_GUARD",
+        "PACK_GUARD_RET"
+      ],
+      "body_signal": "J2.4",
+      "body_return": "J2.2S"
+    }
+  ],
+  "thermal_window_native_x_mm": [
+    114.5,
+    122.0
+  ],
+  "thermal_window_half_y_mm": 3.75,
+  "stock_pours_preserved": "All existing zones retained and refilled after adding no-pour areas."
+}
