@@ -1,5 +1,9 @@
 # EVT1 looms
 
+> These seven sources describe the two-board EVT1 device (body and flange PCBs,
+> two tape-on pack NTCs). The compact one-board device uses the generated set in
+> [one-board/](one-board/README.md) instead.
+
 These sources use `hardware/pcb/evt1/` native netlists, not the older R35F/P1
 recipes. Seven WireViz diagrams separate the device, contact and cradle looms.
 Generated diagrams and detailed child BOMs stay outside Git. The human-owned

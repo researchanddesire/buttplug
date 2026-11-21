@@ -1,5 +1,27 @@
 # EVT1 cable harnesses
 
+## One-board device
+
+The compact one-board device (`hardware/pcb/evt1/one-board/`) has its own
+generated set in `hardware/cables/evt1/one-board/`, written by
+`build_harnesses.py` from the live netlist. The two-board looms below (interboard,
+compass, flange contacts, two tape-on pack NTCs) do not apply to it.
+
+| Harness | Editable source under `hardware/cables/evt1/one-board/` | Detailed child BOM |
+| --- | --- | --- |
+| 3-wire protected pack into J2 | `pack-one-board.yml`; pack's factory JST SH 3P plug into the SM03B header, nothing bought | [TSV](../hardware/pcb/evt1/one-board/build/cables/export/pack-one-board.bom.tsv) |
+| Motor | `motor-one-board.yml`; J3 SH2 to the NFP-E1015 leads | [TSV](../hardware/pcb/evt1/one-board/build/cables/export/motor-one-board.bom.tsv) |
+| Tip NTC | `tip-one-board.yml`; J5 SH2 to the TDK glass bead | [TSV](../hardware/pcb/evt1/one-board/build/cables/export/tip-one-board.bom.tsv) |
+| Bench service | `service-one-board.yml`; J4 SH6 to the programming fixture, not a product part | [TSV](../hardware/pcb/evt1/one-board/build/cables/export/service-one-board.bom.tsv) |
+
+Blanks are 120 mm (motor), 150 mm (tip, service) starting stock from the
+modelled paths plus 20 mm; the pack leads are the pack's own. Child BOMs are
+regenerated with `build_harnesses.py --render` and are not committed. Plug
+the pack into J2 after the cap is threaded; check its pinout first. See the
+[source README](../hardware/cables/evt1/one-board/README.md).
+
+## Two-board EVT1 looms
+
 Use `hardware/cables/evt1/` with the current EVT1 boards. The P1/R35F recipes
 below are prior studies; the current product has a two-wire tip thermistor
 and four-contact USB dock. No physical harness has been accepted.

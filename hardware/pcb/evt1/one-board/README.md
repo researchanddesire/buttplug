@@ -7,11 +7,34 @@ charger, motor driver, sensors, ESP32, controls and four dock contacts on one
 82 × 26 mm board. See [schematic-checks.json](schematic-checks.json) for the
 retained terminal and hardware charge-gate checks.
 
-The bulb pack uses the two independent hardware NTCs and a third dry NTC that
-reports pouch temperature. J8 pin 1 is PACK_MON_NTC and pin 2 is GND. R88 and C88
-condition the signal for U7 AIN2. The `evt1-one-board` firmware uses the two
-AIN1 reference conversions around each AIN2 reading. It reports the pack
-temperature separately from tip temperature. JP1 starts open for bench testing.
+The pack is a 3-wire protected 1S LiPo (EEMB LP502030-PCM-NTC-LD class,
+decided 2026-11-18): red P+, black P- and one internal NTC lead (10 kΩ at
+25 °C, B 3435 typical; confirm from the chosen part). J2 is the three-land
+PACK_P / GND / PACK_NTC interface (a JST SH 3-pin header since 2026-11-19, below). The pack NTC drives the BQ24074 TS pin
+(the hardware charge-temperature cutoff, 0.3 V hot / 2.1 V cold at its
+72..78 µA bias) and is read by the firmware on U7 AIN2 through R88 (series
+10 k) and C88. R42 (470 k to 3V3) adds about 5 µA so the node can be read off
+the dock as well; the firmware computes R = AIN2 / (I_TS + (3V3 − AIN2) / 470 k)
+with I_TS = 75 µA while charging and 0 otherwise (AIN2 below about 0.28 V means
+no charger bias; use the ±256 mV range off dock). The former second NTC
+(PACK_GUARD, U8 window comparator with R43/R44/R45) and the dry pouch NTC
+(J8, TH3) are gone: U8, R43, R44 and R45 are DNP, J8 and TH3 are removed,
+and U9 plus JP1 remain the charge-permission chain. The pack request is
+[PACK-RFQ.md](PACK-RFQ.md) with [pack-spec.json](pack-spec.json)
+(BC-PACK-EVT1-002, 2026-11-21): a protected high-rate pack with its own 10 k
+B 3435 NTC bonded to the cell and returned to P−, and a JST SH 3P plug wired
+1 P+, 2 P−, 3 NTC. The JST SH contacts are rated 1 A, below the 1.5 A
+continuous load the earlier pack request carried, so measure the real battery
+current before ordering. JP1 starts open for bench testing.
+
+Since 2026-11-19 J2 is a JST SM03B-SRSS-TB 1.0 mm 3-pin side-entry header
+on B.Cu at the top edge, next to J3, so a stock 3-wire pack with a JST SH 3P
+plug plugs in and nobody solders the battery. J3 moved 0.2 mm and J5
+0.15 mm to make room; the old solder lands are gone. Pinout 1 PACK_P,
+2 GND, 3 PACK_NTC. Since 2026-11-20 J5 (tip NTC) is a side-entry SM02B,
+the same part as J3, instead of the vertical BM02B, whose mated plug hit
+the flange tray; all three plugs now lie in the tray's wire trough. The
+board passes DRC with schematic parity (0 errors, 0 unconnected).
 
 The four contacts carry GND, D−, D+ and 5 V from either the dock or the
 direct PC contact fixture. The compact board uses one device USB path. The
@@ -19,6 +42,39 @@ fixtures are mutually exclusive at the plug; completely withdraw one before
 attaching the other. The [evaluation guide](../../../design/evt1-bench-ordering/master-bench-eval/README.md)
 defines recovery, source-change and contact acceptance tests. The catalog
 substitutions retain the four dock contact datums and their USB routes.
+
+## Compact relayout (2026-11-18)
+
+The board is now 52 × 20 mm, four layers, 1.0 mm, assembled on both sides
+(regulators, inductors, the ESP32-C3 module and all connectors on the back;
+the dock contacts, buttons, charger, sensors and logic on the front). The
+82 × 26 mm first article is kept in git (commit e274ccb) and in
+`backup/compass-one-board-82x26-20261118.kicad_pcb`; its mechanical fit
+reports, the quote kit and the sha-bound review files above describe that
+board and are stale for this one. The dock contact pitch, the antenna keepout
+and the J3/J8 facing are unchanged; MH2 and MH4 were dropped (two provisional
+M1.4 holes remain), and the flange tray has to be redesigned around the new
+outline. Design rules were tightened to the fab's base-price limits: 0.1 mm
+clearance and minimum track, 0.45/0.2 mm vias, one thermal spoke accepted.
+
+`compact_layout.py` rebuilds the placement from the backup and the table in
+`build/plan.py`; `build/finish.sh` imports a Freerouting session, closes the
+leftovers with the grid router in `build/mini_route.py`, stitches ground and
+runs DRC. The saved board passes DRC with schematic parity (0 errors, 0
+unconnected); remaining warnings are short dangling stubs from the router.
+The USB pair is routed single-ended at 0.15 mm (D+ 44.6 mm, D− 35.6 mm
+total over their three-pin nets); review it before relying on the interface.
+
+## Cable harnesses
+
+`build_harnesses.py` generates the WireViz sources for everything that leaves
+this board: the pack's factory JST SH 3P plug into J2, the J3 motor and
+J5 tip pigtails, and a bench service cable on J4. It exports the native
+netlist, checks each off-board pin against it and writes the sources, a
+wire-stock worksheet and `logical-source.json` to
+[hardware/cables/evt1/one-board/](../../../cables/evt1/one-board/README.md);
+`--render` compiles them with WireViz 0.4.1 into `build/cables/export/` and
+checks the child BOMs. Nominal wire paths come from `mech/internals-fit.json`.
 
 ## Reproduce the design checks
 

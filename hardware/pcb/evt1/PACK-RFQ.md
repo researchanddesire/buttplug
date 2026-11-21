@@ -1,3 +1,5 @@
+> **Superseded for the one-board device (2026-11-21).** The one-board uses a 3-wire pack whose own NTC does the battery temperature sensing: see [one-board/PACK-RFQ.md](one-board/PACK-RFQ.md) (BC-PACK-EVT1-002). This file and `pack-spec.json` stay unchanged as the two-board EVT1 record; its CAD tools read `pack-spec.json` and check its hash.
+
 # EVT1 protected battery request
 
 Request samples of **BC-PACK-EVT1-001**, a factory-built protected 1S pack using

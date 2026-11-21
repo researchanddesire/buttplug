@@ -268,7 +268,11 @@ docs; do not copy child cable BOM details into `hardware/bom.csv`.
   Wire STEP conversion is withdrawn; failed comparison/exports are archived
   and excluded from build kits. Other installed routes, egress/crimps, restraint
   and physical assembly remain open; path code requires the neck-facing J7.
-- `hardware/pcb/evt1/pack-spec.json` / `PACK-RFQ.md` define the requested
+- One-board device: `hardware/pcb/evt1/one-board/pack-spec.json` / `PACK-RFQ.md`
+  define BC-PACK-EVT1-002, a 3-wire protected pack whose own NTC drives the
+  BQ24074 TS cutoff and the AIN2 reading, with a JST SH 3P plug (1 P+, 2 P−, 3 NTC).
+  The SH contacts' 1 A rating against the 1.5 A load request is open.
+- Two-board EVT1 record: `hardware/pcb/evt1/pack-spec.json` / `PACK-RFQ.md` define the requested
   BC-PACK-EVT1-001 factory-protected EEMB LP502030HA pack:1.5A continuous,
   2A/100ms pulse,33x21x6.3mm maximum, PCM/lead exit toward the neck. Published
   A25357 is only1A continuous and is a construction reference, not this selection.

@@ -1,0 +1,44 @@
+{
+  "pack": "Protected 502030-class 1S LiPo with built-in NTC, three leads (P, N, NTC), e.g. EEMB LP502030-PCM-NTC-LD; finished maximum 33 x 21 x 6.3",
+  "board_interface": "J2 JST SH 3-pin side-entry header (SM03B-SRSS-TB) on B.Cu, 1 PACK_P / 2 GND / 3 PACK_NTC; the pack plugs in with its factory SHR-03V-S plug (2026-11-19, replaced the solder lands)",
+  "items": [
+    "Pack 3-wire PCM+NTC 21x33x6.3",
+    "Pack PCM strip",
+    "Battery support pad 1 (unselected soft stock)",
+    "Battery support pad 2 (unselected soft stock)",
+    "Motor NFP-E1015",
+    "Tip NTC head",
+    "Tip NTC potting",
+    "J3 plug SHR-02V-S (motor)",
+    "J2 plug SHR-03V-S (pack, factory)",
+    "J5 plug SHR-02V-S (tip NTC)",
+    "Motor P",
+    "Motor N",
+    "Tip NTC S",
+    "Tip NTC R",
+    "Pack P",
+    "Pack N",
+    "Pack NTC"
+  ],
+  "wire_lengths_mm": {
+    "Motor P": 95.3,
+    "Motor N": 95.4,
+    "Tip NTC S": 130.9,
+    "Tip NTC R": 130.8,
+    "Pack P": 66.0,
+    "Pack N": 65.9,
+    "Pack NTC": 65.9
+  },
+  "minimum_bend_radius_mm": {
+    "Motor P": 1.5,
+    "Motor N": 1.5,
+    "Tip NTC S": 1.5,
+    "Tip NTC R": 1.5,
+    "Pack P": 1.24,
+    "Pack N": 1.237,
+    "Pack NTC": 1.235
+  },
+  "battery_support": "Two 14 x 4 x 1.2 mm soft pad envelopes; material, compression, ageing and pack swelling response unqualified. Guide captures the pouch above; band slots provide optional secondary restraint.",
+  "overlaps": [],
+  "scope": "Provisional component envelopes and guided seven-wire paths. Radii are nominal geometry, not cable supplier approval. Slack, restraint, cap rotation/free tails, received terminal shape and physical installation need trial."
+}

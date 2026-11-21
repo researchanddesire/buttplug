@@ -1,0 +1,235 @@
+{
+  "inputs_sha256": {
+    "InternalCradle": "26d754a4d3d75bb651640ecbe01f7429d23591b831d81872f73b69ebba24072c",
+    "CradleWireGuide": "bf245090c289aec98755bcd62782dbe9578fcdd2c4c41e1ea0eb1c7045ee6703",
+    "MetalBody": "5e10ec6e9262e9ae31bc9de3f677502385ef96dab46dc34b1af3ceabf53ad6dd",
+    "MotorThermistorCap": "85d1ed65131e144f911907fdd296d569567a265ba7d4b693c232ed86fe6c0fb7"
+  },
+  "growth_screen_mm": {
+    "side_each": 0.25,
+    "upper": 1.1,
+    "lower": 1.1,
+    "axial": 0
+  },
+  "checks": {
+    "pack_nominal_plus_Z_loading": {
+      "poses": 81,
+      "max_overlap_mm3": 0.0,
+      "hits": []
+    },
+    "guide_plus_Z_removal_over_nominal_pack": {
+      "poses": 81,
+      "max_overlap_mm3": 0.0,
+      "hits": []
+    },
+    "guide_plus_Z_removal_over_lower_frame_nominal": {
+      "poses": 81,
+      "max_overlap_mm3": 0.0,
+      "hits": []
+    },
+    "pack_screening_growth_plus_Z_loading": {
+      "poses": 81,
+      "max_overlap_mm3": 0.0,
+      "hits": []
+    },
+    "guide_plus_Z_removal_over_screening_growth_pack": {
+      "poses": 81,
+      "max_overlap_mm3": 0.0,
+      "hits": []
+    },
+    "guide_plus_Z_removal_over_lower_frame_screening_growth": {
+      "poses": 81,
+      "max_overlap_mm3": 0.0,
+      "hits": []
+    },
+    "cap_helical_closure_loaded_rigid_parts": {
+      "poses": 101,
+      "max_overlap_mm3": 0.0,
+      "hits": []
+    },
+    "cradle_axial_capture_offsets": [
+      {
+        "offset_Y_mm": -0.3,
+        "body_overlap_mm3": 0.034203,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.0,
+        "motor_gap_mm": 0.55
+      },
+      {
+        "offset_Y_mm": -0.275,
+        "body_overlap_mm3": 0.011197,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.0,
+        "motor_gap_mm": 0.525
+      },
+      {
+        "offset_Y_mm": -0.25,
+        "body_overlap_mm3": 0.000713,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.0,
+        "motor_gap_mm": 0.5
+      },
+      {
+        "offset_Y_mm": -0.225,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.006989,
+        "motor_gap_mm": 0.475
+      },
+      {
+        "offset_Y_mm": -0.2,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.017537,
+        "motor_gap_mm": 0.45
+      },
+      {
+        "offset_Y_mm": -0.175,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.028081,
+        "motor_gap_mm": 0.425
+      },
+      {
+        "offset_Y_mm": -0.15,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.038622,
+        "motor_gap_mm": 0.4
+      },
+      {
+        "offset_Y_mm": -0.125,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.049159,
+        "motor_gap_mm": 0.375
+      },
+      {
+        "offset_Y_mm": -0.1,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.059693,
+        "motor_gap_mm": 0.35
+      },
+      {
+        "offset_Y_mm": -0.075,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.070223,
+        "motor_gap_mm": 0.325
+      },
+      {
+        "offset_Y_mm": -0.05,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.08075,
+        "motor_gap_mm": 0.3
+      },
+      {
+        "offset_Y_mm": -0.025,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.091273,
+        "motor_gap_mm": 0.275
+      },
+      {
+        "offset_Y_mm": 0.0,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.101793,
+        "motor_gap_mm": 0.25
+      },
+      {
+        "offset_Y_mm": 0.025,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.112309,
+        "motor_gap_mm": 0.225
+      },
+      {
+        "offset_Y_mm": 0.05,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.122822,
+        "motor_gap_mm": 0.2
+      },
+      {
+        "offset_Y_mm": 0.075,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.133331,
+        "motor_gap_mm": 0.175
+      },
+      {
+        "offset_Y_mm": 0.1,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.143836,
+        "motor_gap_mm": 0.15
+      },
+      {
+        "offset_Y_mm": 0.125,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.154338,
+        "motor_gap_mm": 0.125
+      },
+      {
+        "offset_Y_mm": 0.15,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.164836,
+        "motor_gap_mm": 0.1
+      },
+      {
+        "offset_Y_mm": 0.175,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.17533,
+        "motor_gap_mm": 0.075
+      },
+      {
+        "offset_Y_mm": 0.2,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.185821,
+        "motor_gap_mm": 0.05
+      },
+      {
+        "offset_Y_mm": 0.225,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.196308,
+        "motor_gap_mm": 0.025
+      },
+      {
+        "offset_Y_mm": 0.25,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 0.0,
+        "body_gap_mm": 0.206791,
+        "motor_gap_mm": 0.0
+      },
+      {
+        "offset_Y_mm": 0.275,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 1.952261,
+        "body_gap_mm": 0.217271,
+        "motor_gap_mm": 0.0
+      },
+      {
+        "offset_Y_mm": 0.3,
+        "body_overlap_mm3": 0.0,
+        "motor_overlap_mm3": 3.904522,
+        "body_gap_mm": 0.227747,
+        "motor_gap_mm": 0.0
+      }
+    ],
+    "cradle_first_rear_taper_contact_mm": -0.242426,
+    "cradle_first_motor_stop_contact_mm": 0.25
+  },
+  "limits": [
+    "Nominal rigid CAD only. Growth box is an explicit screening allowance, not a supplier swelling specification.",
+    "Cap closure sweep checks cradle,guide,pack,motor solids; cap-mounted NTC and flexible wires excluded. Thread tolerances/engagement not modeled.",
+    "No band,cushion,screw-head or actual motor-terminal geometry included in these independent checks."
+  ]
+}

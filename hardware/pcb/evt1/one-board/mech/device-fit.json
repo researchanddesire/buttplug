@@ -1,0 +1,240 @@
+{
+  "pcb_step": "compass-one-board.step",
+  "pcb_placement": "X = kx - 100, Z = 100 - ky, F.Cu face at Y -21.00",
+  "flange_outline_mm": [
+    56.0,
+    32.0
+  ],
+  "board_mm": [
+    52.0,
+    20.0,
+    1.0
+  ],
+  "hard_part_overlaps": [],
+  "connector_withdrawal": [
+    {
+      "ref": "J4",
+      "z_top_mm": 11.9,
+      "tray_overlap_mm3": 0.0,
+      "nut_overlap_mm3": 0.0,
+      "inside_cavity": true
+    },
+    {
+      "ref": "J3",
+      "z_top_mm": 11.9,
+      "tray_overlap_mm3": 0.0,
+      "nut_overlap_mm3": 0.0,
+      "inside_cavity": true
+    },
+    {
+      "ref": "J2",
+      "z_top_mm": 11.9,
+      "tray_overlap_mm3": 0.0,
+      "nut_overlap_mm3": 0.0,
+      "inside_cavity": true
+    },
+    {
+      "ref": "J5",
+      "z_top_mm": 11.9,
+      "tray_overlap_mm3": 0.0,
+      "nut_overlap_mm3": 0.0,
+      "inside_cavity": true
+    }
+  ],
+  "buttons_pressed": [
+    {
+      "button": "ButtonSW1",
+      "travel_mm": 0.25,
+      "cover_overlap_mm3": 0.0,
+      "board_solids_touched_xz": [
+        [
+          -19.0,
+          -1.25,
+          -15.0,
+          1.25
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "button": "ButtonSW2",
+      "travel_mm": 0.25,
+      "cover_overlap_mm3": 0.0,
+      "board_solids_touched_xz": [
+        [
+          -11.0,
+          -1.25,
+          -7.0,
+          1.25
+        ]
+      ],
+      "ok": true
+    }
+  ],
+  "clearances": {
+    "nut_face_to_tallest_B_part_mm": 2.95,
+    "stub_tip_to_board_B_face_mm": 5.75,
+    "contact_tip_proud_of_cover_mm": -0.47,
+    "contact_tip_below_skin_face_mm": 1.77,
+    "antenna_end_to_nut_corner_mm": 6.74,
+    "flange_depth_mm": 16.6,
+    "button_pretravel_mm": 0.1,
+    "button_total_travel_mm": 0.25,
+    "button_head_proud_of_cover_mm": 0.4,
+    "silicone_over_button_head_mm": 0.9,
+    "button_flange_to_switch_body_pressed_mm": 0.46,
+    "button_boss_underside_above_fcu_mm": 1.6,
+    "button_radial_clearance_mm": 0.2,
+    "device_length_mm": 124.0
+  },
+  "internals": {
+    "pack": "Protected 502030-class 1S LiPo with built-in NTC, three leads (P, N, NTC), e.g. EEMB LP502030-PCM-NTC-LD; finished maximum 33 x 21 x 6.3",
+    "board_interface": "J2 JST SH 3-pin side-entry header (SM03B-SRSS-TB) on B.Cu, 1 PACK_P / 2 GND / 3 PACK_NTC; the pack plugs in with its factory SHR-03V-S plug (2026-11-19, replaced the solder lands)",
+    "items": [
+      "Pack 3-wire PCM+NTC 21x33x6.3",
+      "Pack PCM strip",
+      "Battery support pad 1 (unselected soft stock)",
+      "Battery support pad 2 (unselected soft stock)",
+      "Motor NFP-E1015",
+      "Tip NTC head",
+      "Tip NTC potting",
+      "J3 plug SHR-02V-S (motor)",
+      "J2 plug SHR-03V-S (pack, factory)",
+      "J5 plug SHR-02V-S (tip NTC)",
+      "Motor P",
+      "Motor N",
+      "Tip NTC S",
+      "Tip NTC R",
+      "Pack P",
+      "Pack N",
+      "Pack NTC"
+    ],
+    "wire_lengths_mm": {
+      "Motor P": 95.3,
+      "Motor N": 95.4,
+      "Tip NTC S": 130.9,
+      "Tip NTC R": 130.8,
+      "Pack P": 66.0,
+      "Pack N": 65.9,
+      "Pack NTC": 65.9
+    },
+    "minimum_bend_radius_mm": {
+      "Motor P": 1.5,
+      "Motor N": 1.5,
+      "Tip NTC S": 1.5,
+      "Tip NTC R": 1.5,
+      "Pack P": 1.24,
+      "Pack N": 1.237,
+      "Pack NTC": 1.235
+    },
+    "battery_support": "Two 14 x 4 x 1.2 mm soft pad envelopes; material, compression, ageing and pack swelling response unqualified. Guide captures the pouch above; band slots provide optional secondary restraint.",
+    "overlaps": [],
+    "scope": "Provisional component envelopes and guided seven-wire paths. Radii are nominal geometry, not cable supplier approval. Slack, restraint, cap rotation/free tails, received terminal shape and physical installation need trial."
+  },
+  "nose_seal": {
+    "candidate_ring_mm": {
+      "ID": 32.0,
+      "section": 1.0
+    },
+    "gland_mm": {
+      "ID": 31.6,
+      "OD": 34.8,
+      "depth": 0.78,
+      "face_Y": 64.0
+    },
+    "installed_section_mm": {
+      "radial_width": 1.282051282051282,
+      "axial_height": 0.78
+    },
+    "installed_bbox_mm": [
+      -17.141026,
+      63.22,
+      -17.141026,
+      17.141026,
+      64.0,
+      17.141026
+    ],
+    "nominal_squeeze_percent": 22.0,
+    "nominal_volume_mm3": 81.424236,
+    "saved_step_volume_mm3": 81.424236,
+    "valid_saved_step": true,
+    "metal_inputs_sha256": {
+      "MetalBody.step": "5e10ec6e9262e9ae31bc9de3f677502385ef96dab46dc34b1af3ceabf53ad6dd",
+      "MotorThermistorCap.step": "85d1ed65131e144f911907fdd296d569567a265ba7d4b693c232ed86fe6c0fb7"
+    },
+    "scope": "Volume-preserving installed envelope. Rubber grade, actual deformation/contact, swell, tolerances, assembly torque and sealing are not validated.",
+    "assembly_checks": [
+      {
+        "other": "MetalBody",
+        "overlap_mm3": 0.0,
+        "gap_mm": 0.0
+      },
+      {
+        "other": "MotorThermistorCap",
+        "overlap_mm3": 0.0,
+        "gap_mm": 0.0
+      },
+      {
+        "other": "Internals",
+        "overlap_mm3": 0.0,
+        "gap_mm": 4.568602
+      }
+    ]
+  },
+  "cradle": {
+    "status": "candidate, nominal CAD checks only",
+    "source_native": "/Users/lucianchapar/Backplane/buttplug-compass/hardware/pcb/evt1/one-board/mech/InternalCradle.FCStd",
+    "single_valid_solid": true,
+    "saved_step_volume_delta_mm3": 1e-06,
+    "checks": [
+      {
+        "part": "MetalBody",
+        "overlap_mm3": 0.0,
+        "gap_mm": 0.101793
+      },
+      {
+        "part": "MotorThermistorCap",
+        "overlap_mm3": 0.0,
+        "gap_mm": 0.281709
+      },
+      {
+        "part": "Pack maximum",
+        "overlap_mm3": 0.0,
+        "gap_mm": 0.25
+      },
+      {
+        "part": "Motor",
+        "overlap_mm3": 0.0,
+        "gap_mm": 0.25
+      }
+    ],
+    "dimensions": {
+      "pack_mm": [
+        21.0,
+        33.0,
+        6.3
+      ],
+      "side_gap_mm": 0.3,
+      "pack_rear_gap_mm": 0.25,
+      "pack_front_gap_mm": 0.3,
+      "under_pack_mm": 1.2,
+      "above_pack_to_track_mm": 1.35,
+      "motor_rear_gap_mm": 0.25,
+      "cable_track_clear_width_mm": 4.8,
+      "wall_min_design_mm": 1.0
+    },
+    "source_sha256": {
+      "MetalBody.step": "5e10ec6e9262e9ae31bc9de3f677502385ef96dab46dc34b1af3ceabf53ad6dd",
+      "MotorThermistorCap.step": "85d1ed65131e144f911907fdd296d569567a265ba7d4b693c232ed86fe6c0fb7",
+      "internal_cradle.py": "01c8983c9168a3c43aee65a46c458d093837312f75626211ae6cc458c9680ebc"
+    },
+    "open": [
+      "Soft band and cushioning material, tension and swelling response unqualified",
+      "Motor terminal envelope and seating tolerances need received parts",
+      "Removable guide uses four provisional M1.4 x 5 screws; pilot/engagement require print trial",
+      "Guided wire routing and cap installation checks follow in the assembly",
+      "No mechanical strength, vibration, creep, heat, sealing or physical assembly result"
+    ]
+  },
+  "scope": "Nominal rigid geometry only. Wire dressing, tolerances, nut torque access, screw engagement, skin tooling and the dock mate are not checked here."
+}

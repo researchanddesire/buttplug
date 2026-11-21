@@ -1,0 +1,18 @@
+(footprint
+  "Pack_Pigtail_3Net_4Land"
+  (version 20211014)
+  (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd exclude_from_bom)
+  (descr "Three-net four-land soldered pack interface for a 3-wire protected pack (P+, P-, internal NTC); two distinct GND pad2 lands; no populated header or paste")
+  (fp_text reference "REF**" (at 0 1.4) (layer "F.Fab") (effects (font (size 1 1) (thickness .15))))
+  (fp_text value "Pack_Pigtail_3Net_4Land" (at 0 2.8) (layer "F.Fab") (effects (font (size 1 1) (thickness .15))))
+  (fp_text user "SG" (at 0 1.2 90) (layer "F.Fab") (effects (font (size .8 .8) (thickness .12))))
+  (pad "1" smd roundrect (at -2.25 -2.795) (size 0.6 1.0) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25))
+  (pad "2" smd roundrect (at -0.75 -2.795) (size 0.6 1.0) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25))
+  (pad "3" smd roundrect (at 0.75 -2.795) (size 0.6 1.0) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25))
+  (pad "2" smd roundrect (at -1.4 -2.58) (size 0.5 0.5) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (zone_connect 2))
+  (fp_line (start -2.8 -3.545) (end 2.8 -3.545) (layer "F.CrtYd") (width .05))
+  (fp_line (start 2.8 -3.545) (end 2.8 -2.045) (layer "F.CrtYd") (width .05))
+  (fp_line (start 2.8 -2.045) (end -2.8 -2.045) (layer "F.CrtYd") (width .05))
+  (fp_line (start -2.8 -2.045) (end -2.8 -3.545) (layer "F.CrtYd") (width .05)))

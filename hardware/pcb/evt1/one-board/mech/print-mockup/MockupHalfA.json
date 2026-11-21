@@ -1,0 +1,57 @@
+{
+  "valid": true,
+  "native_solids": 1,
+  "mesh_watertight": true,
+  "mesh_components": 1,
+  "triangles": 27346,
+  "assembled_bounds_mm": [
+    -29.6,
+    -26.393785,
+    -0.0,
+    29.6,
+    98.099998,
+    20.002443
+  ],
+  "print_bounds_mm": [
+    -29.6,
+    -26.393785,
+    -0.0,
+    29.6,
+    98.099998,
+    20.002443
+  ],
+  "sources_sha256": {
+    "MetalBody.step": "5e10ec6e9262e9ae31bc9de3f677502385ef96dab46dc34b1af3ceabf53ad6dd",
+    "MotorThermistorCap.step": "85d1ed65131e144f911907fdd296d569567a265ba7d4b693c232ed86fe6c0fb7",
+    "FlangeSkin.step": "9329db8320260163cf64b62717c781c09f012c1942ae9a4c85214307cc696189",
+    "compass_datums.py": "2cc0a756778b56173491fad499aec932f2e7b90bfede486f6e66932df03760bf"
+  },
+  "features": {
+    "volume_cm3": 55.018184,
+    "area_cm2": 120.654013,
+    "size_x_mm": 124.493784,
+    "size_y_mm": 59.200001,
+    "size_z_mm": 20.002443
+  },
+  "quantity": 1,
+  "print_mesh": "print-mockup/MockupHalfA.stl",
+  "physical_print_verified": false,
+  "hole_diameter_mm": 3.3,
+  "blind_hole_depth_mm": 4.3,
+  "hole_centers_XY_mm": [
+    [
+      -15.0,
+      -14.0
+    ],
+    [
+      15.0,
+      -14.0
+    ],
+    [
+      0.0,
+      55.0
+    ]
+  ],
+  "split_plane": "Z=0",
+  "print_orientation": "Flat split face down"
+}

@@ -1,0 +1,109 @@
+metadata:
+  title: One-board tip thermistor / J5 to the two-wire glass bead
+  notes: EVT one-board first article. Native numeric pin map; verify mating marks
+    and continuity. Nominal paths are centreline lengths from the mechanical internals
+    model, not finished cut lengths; blanks are starting stock. No physical crimp,
+    current or fit acceptance. OEM thermistor leads are supplied with the part. Individually
+    insulate each solder lap; do not ordinary-crimp the bead's leads. The bead sits
+    in the cap's thermal pocket.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J5:
+    type: 'JST SH2 socket to the board''s SM02B
+
+      side-entry header'
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - TIP_NTC
+    - GND
+    ignore_in_bom: false
+    manufacturer: JST
+    mpn: SHR-02V-S
+  TIP_NTC:
+    type: OEM glass-bead NTC, 10 k 1%
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - TIP_NTC
+    - GND
+    ignore_in_bom: false
+    manufacturer: TDK
+    mpn: B57540G1103F000
+cables:
+  T1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - TIP_NTC
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150 mm starting stock. Maximum insulated OD 0.55 mm.
+
+      Centreline bend at least 2 mm.
+
+      Nominal installed path 129.4 mm from mech/internals-fit.json,
+
+      blank = path + 20 mm rounded up to 10 mm.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+  T2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - GND
+    gauge: 32
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150 mm starting stock. Maximum insulated OD 0.55 mm.
+
+      Centreline bend at least 2 mm.
+
+      Nominal installed path 129.8 mm from mech/internals-fit.json,
+
+      blank = path + 20 mm rounded up to 10 mm.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '113094'
+connections:
+- - J5:
+    - 1
+  - T1:
+    - 1
+  - TIP_NTC:
+    - 1
+- - J5:
+    - 2
+  - T2:
+    - 1
+  - TIP_NTC:
+    - 2
+additional_bom_items:
+- description: SH socket crimp contact; crimp the pigtail, then solder to the OEM
+    lead
+  qty: 2
+  unit: pcs
+  manufacturer: JST
+  mpn: SSH-003T-P0.2-H

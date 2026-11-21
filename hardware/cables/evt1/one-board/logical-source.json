@@ -1,0 +1,163 @@
+{
+  "scope": "Four native-pin-map WireViz sources for the one-board device: pack, motor, tip and bench service. Nominal paths come from the mechanical internals model; blanks are starting stock. No physical harness, crimp, current or fit result is claimed.",
+  "schematic_sha256": {
+    "hardware/pcb/evt1/one-board/compass-one-board.kicad_sch": "c54e01a7c8bdcfb920a0302760c70d13f3e24aef2251b35a56d16004e724b6da",
+    "hardware/pcb/evt1/one-board/sheets/01-power.kicad_sch": "92c9a0d85aea5018a73f11ae7a10ff4942ceeea08f7f2283f4f0049440935d21",
+    "hardware/pcb/evt1/one-board/sheets/02-motor.kicad_sch": "bf4c1c6d0e26805a06b9600956bb1340ce014e46d9e24e92d02ed3086e4f7fa3",
+    "hardware/pcb/evt1/one-board/sheets/03-control.kicad_sch": "60a0447ed2c7be3bbcda3e9ed0901557c7989ec5b605bcff4a829a876016c460",
+    "hardware/pcb/evt1/one-board/sheets/04-analog-sensors.kicad_sch": "943d0c309d712e3d1145712aabe53197304b56692f215af92afc3e37be3e69bb",
+    "hardware/pcb/evt1/one-board/sheets/05-charge-guard.kicad_sch": "b9ef158934b88fec099df4954dfe0f9d3fbf9d3de26d8421cfc68ec509cc64d7",
+    "hardware/pcb/evt1/one-board/sheets/06-contact-protection.kicad_sch": "0d1877671c02373facb66b771bb582f65d43ae76ee26044217b7d6a9d0464622",
+    "hardware/pcb/evt1/one-board/sheets/07-recovery.kicad_sch": "ea00d64b4913ac088ae035e9f6a00988fc432a9b37913bdd74d557cb744b5398",
+    "hardware/pcb/evt1/one-board/sheets/08-compass.kicad_sch": "67de9f490ba848e671b24b2af9f2bed525c9063596d8c3e027503584db2d0612",
+    "hardware/pcb/evt1/one-board/sheets/09-fixed-targets.kicad_sch": "e7a69086ec770840c781549310740b0276f54b65331079d9cba5df81bd44b71d",
+    "hardware/pcb/evt1/one-board/sheets/10-remote-tip.kicad_sch": "2615fd1979e3483d88679bb63def378883a313e9767b3bb9d5853a92fed0d32c",
+    "hardware/pcb/evt1/one-board/sheets/11-remote-pack-guards.kicad_sch": "58370e39df26a17da9ff4ac08beb7476c96b1fd4a90a27c691cc3f9c3356165b"
+  },
+  "netlist_export": {
+    "tool": "Eeschema 10.99.0-bp.12.5",
+    "sha256_without_date": "471173c98767e5342d16a754bee40c97876f294ebf0a17cc6e14de9daa717984"
+  },
+  "pack_footprint_sha256": "40263873b129bf9fc6fca9c5d7a3bd4bfbbe6e4f0456a85ce9140ee784803407",
+  "internals_fit_sha256": "6e5f6f87d669e5a4b2031e80ab2b8bb4d1760c30d08f7870fe9c447678dd321a",
+  "nominal_paths_mm": {
+    "Motor P": 98.7,
+    "Motor N": 98.7,
+    "Tip NTC S": 129.4,
+    "Tip NTC R": 129.8,
+    "Pack P": 70.4,
+    "Pack N": 70.3,
+    "Pack NTC": 70.2
+  },
+  "blank_rule": "path + 20 mm rounded up to 10 mm; bench service 150 mm",
+  "builder_sha256": "f4ed477f33b39cb3dfa7c7f0d54e94b7470b8fc14f1e5ef2f1a885a59d3b27ce",
+  "pin_contracts": [
+    {
+      "harness": "W-PACK-ONE-BOARD",
+      "from": [
+        "J2",
+        "3"
+      ],
+      "to": [
+        "TH1",
+        "1"
+      ],
+      "net": "PACK_NTC"
+    },
+    {
+      "harness": "W-PACK-ONE-BOARD",
+      "from": [
+        "J2",
+        "2"
+      ],
+      "to": [
+        "TH1",
+        "2"
+      ],
+      "net": "GND"
+    },
+    {
+      "harness": "W-TIP-ONE-BOARD",
+      "from": [
+        "J5",
+        "1"
+      ],
+      "to": [
+        "TH101",
+        "1"
+      ],
+      "net": "TIP_NTC"
+    },
+    {
+      "harness": "W-TIP-ONE-BOARD",
+      "from": [
+        "J5",
+        "2"
+      ],
+      "to": [
+        "TH101",
+        "2"
+      ],
+      "net": "GND"
+    }
+  ],
+  "connector_pins": {
+    "J2": {
+      "1": "PACK_P",
+      "2": "GND",
+      "3": "PACK_NTC"
+    },
+    "J3": {
+      "1": "MOTOR_P",
+      "2": "MOTOR_N"
+    },
+    "J4": {
+      "1": "GND",
+      "2": "USB_DM",
+      "3": "USB_DP",
+      "4": "MCU_EN",
+      "5": "BOOT_N",
+      "6": "UART_TX"
+    },
+    "J5": {
+      "1": "TIP_NTC",
+      "2": "GND"
+    },
+    "TH1": {
+      "1": "PACK_NTC",
+      "2": "GND"
+    },
+    "TH101": {
+      "1": "TIP_NTC",
+      "2": "GND"
+    }
+  },
+  "files": {
+    "pack-one-board.yml": "568ea13514a4b6db61d3e6fd90fa5c0062495b063a9127482a1a2daedfa9eb7a",
+    "motor-one-board.yml": "0dd5c0cdef04c4fbd27e152b76a4330cad8b05d352862b1bf7de14016bcc7333",
+    "tip-one-board.yml": "665b8c5ec52497e50e4445a5023c4592f3336bb330439f6f59a698edd8f885d9",
+    "service-one-board.yml": "e1bbfa98e77a39b03a3e74e308eb9621b33825100cade8482ad4e593282a3037"
+  },
+  "wire_stock_sha256": "97936dd2a8cabefb1b56509c132f392680333eef1e608b3bfa25d5f72ebc45ea",
+  "render": {
+    "directory": "/Users/lucianchapar/Backplane/buttplug-compass/hardware/pcb/evt1/one-board/build/cables/export",
+    "files_sha256": {
+      "pack-one-board.svg": "11926cf68a7535abcb91743d0b9dd05de0e208024c929cd608cbcac5955476cb",
+      "pack-one-board.png": "bd7a26e3b77bc1ee28fe43e58958a41d845deab7510643e8c8f09677c4369503",
+      "pack-one-board.bom.tsv": "5398f54318de70d42b5f1a717f0f1741f6d8b21be48728a7409c8faa00964e17",
+      "motor-one-board.svg": "4f546de433bf4aa653470f5c78d85f3885e571c3a94666aaa699a24646d6fa0a",
+      "motor-one-board.png": "9ebd3fcd47cad8a2ac019be18bc07d465d4f964617f8a55eb51ba605e71e7745",
+      "motor-one-board.bom.tsv": "3197d725dd943f41184a7b66c7b99211c2341f8e8d2afef91176d036dcf3263e",
+      "tip-one-board.svg": "9868bc42c5281162d1583707d9698182c661d7ba6d100e79ac3e2aa3b30eda8c",
+      "tip-one-board.png": "8eb29cab83747eaeeb0503e71bdae6ff03321bcf18069e02e8da019c81d68384",
+      "tip-one-board.bom.tsv": "9d96659074a8935b06f4a41a47931e4508a142b56c9e5766fe03d1a21b09b4a5",
+      "service-one-board.svg": "df99636c754ae2b1a4c86913aa20c61c7f7c56cd859032418894c99e104ce838",
+      "service-one-board.png": "b151af5ecb53d385165d14c55dcd9e76b841f78e0fda405d6ee95477699f3e5b",
+      "service-one-board.bom.tsv": "7e24c9d9904819ad5213c0c84cf88b0b2eff3aa52e488a0f58c63db7fd8e6f4e"
+    },
+    "harnesses": {
+      "pack-one-board": {
+        "conductors": 3,
+        "purchased_MPNs": 0,
+        "child_BOM_matches_source": true
+      },
+      "motor-one-board": {
+        "conductors": 2,
+        "purchased_MPNs": 4,
+        "child_BOM_matches_source": true
+      },
+      "tip-one-board": {
+        "conductors": 2,
+        "purchased_MPNs": 4,
+        "child_BOM_matches_source": true
+      },
+      "service-one-board": {
+        "conductors": 6,
+        "purchased_MPNs": 3,
+        "child_BOM_matches_source": true
+      }
+    }
+  },
+  "physical_validation": false,
+  "full_product_order_ready": false
+}

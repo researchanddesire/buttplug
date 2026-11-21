@@ -19,7 +19,7 @@ PCB parts are selected; non-PCB hardware, loom, factory axes and the full build 
 | `native-checks.json` | Native ERC/DRC report hashes bound to exact schematics, libraries, boards, rules and exported netlists. |
 | `parts-selection.json`, `pcb-ordering.csv` | Exact selections for114 purchased PCB positions/53 order lines. Eight copper-only interfaces/jumpers are assembly operations. Per-complete-device-and-dock quantities; not the human-owned product BOM. |
 | `parts-validation.json` | All122 native PCB positions accounted for; independent passive MPN/case/value/rating/tolerance checks and ordering parity pass. |
-| `pack-spec.json`, `PACK-RFQ.md` | BC-PACK-EVT1-001 protected-pack RFQ:1.5A continuous,2A/100ms pulse,33×21×6.3mm maximum, two dry external NTCs. Supplier acceptance and retention/lead process pending. |
+| `pack-spec.json`, `PACK-RFQ.md` | BC-PACK-EVT1-001 protected-pack RFQ for the two-board EVT1:1.5A continuous,2A/100ms pulse,33×21×6.3mm maximum, two dry external NTCs. Superseded for the one-board device by `one-board/PACK-RFQ.md` (BC-PACK-EVT1-002, 3-wire pack with its own NTC and a JST SH 3P plug). |
 
 All five PCBs pass KiCad10.0.8 DRC with zero violations/unconnected items.
 Both cradle boards also pass ERC with zero errors/warnings.

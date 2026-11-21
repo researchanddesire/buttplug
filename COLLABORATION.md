@@ -148,7 +148,8 @@ pass-through. Powered standalone telemetry and fan trials remain open.
   workflow, compass-driven haptics and assembled magnetic testing remain open.
 - Exact PCB parts/positions and five assembly quote ZIPs are prepared:
   114 purchased positions/53 order lines. BC-PACK-EVT1-001 is a defined1.5A
-  protected-pack RFQ; requested pack/two dry NTC/growth geometry fits, but supplier
+  protected-pack RFQ for the two-board design (the one-board uses the 3-wire
+  BC-PACK-EVT1-002 in `hardware/pcb/evt1/one-board/PACK-RFQ.md`); requested pack/two dry NTC/growth geometry fits, but supplier
   acceptance and retention remain pending.
 - Finished materials, full boot/seals, actual loom and
   motor fit remain open. The human-owned BOM stays header-only.

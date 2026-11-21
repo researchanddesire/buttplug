@@ -1,0 +1,63 @@
+{
+  "parts": {
+    "InternalCradle": {
+      "native": "/Users/lucianchapar/Backplane/buttplug-compass/hardware/pcb/evt1/one-board/mech/InternalCradle.FCStd",
+      "valid": true,
+      "volume_delta_mm3": -1e-06,
+      "body_type": "PartDesign::Body"
+    },
+    "CradleWireGuide": {
+      "native": "/Users/lucianchapar/Backplane/buttplug-compass/hardware/pcb/evt1/one-board/mech/CradleWireGuide.FCStd",
+      "valid": true,
+      "volume_delta_mm3": -0.0,
+      "body_type": "PartDesign::Body"
+    }
+  },
+  "assembly_links": {
+    "InternalCradle": "/Users/lucianchapar/Backplane/buttplug-compass/hardware/pcb/evt1/one-board/mech/InternalCradle.FCStd",
+    "CradleWireGuide": "/Users/lucianchapar/Backplane/buttplug-compass/hardware/pcb/evt1/one-board/mech/CradleWireGuide.FCStd"
+  },
+  "outputs": {
+    "InternalCradle.FCStd": {
+      "sha256": "0de1c7dff31a328b2d8fc333db50c3a2915cd23b68dbe3a4e37bd089c326dc6f",
+      "bytes": 260125
+    },
+    "InternalCradle.step": {
+      "sha256": "26d754a4d3d75bb651640ecbe01f7429d23591b831d81872f73b69ebba24072c",
+      "bytes": 118513
+    },
+    "CradleWireGuide.FCStd": {
+      "sha256": "765619d55ff81489e082da3e0a52ce722d8fbeadeac946124a81a1e0537a9892",
+      "bytes": 119165
+    },
+    "CradleWireGuide.step": {
+      "sha256": "bf245090c289aec98755bcd62782dbe9578fcdd2c4c41e1ea0eb1c7045ee6703",
+      "bytes": 54284
+    },
+    "Internals.FCStd": {
+      "sha256": "92f3588f7372fb71e30b534167a56a2112ff4babb7bdef5acb5cf00f7494f630",
+      "bytes": 50242
+    },
+    "Internals.step": {
+      "sha256": "539814705e2482d854d325df34af08f450329c11de37cc728ee968012da64920",
+      "bytes": 206882
+    },
+    "compass-device.FCStd": {
+      "sha256": "d2f2b637df8e4e4c9563e18baeef7bbb3eb5e97fa31fa57708ec482e9628d988",
+      "bytes": 2529007
+    },
+    "compass-device.step": {
+      "sha256": "67364ad7bd3731f06915a6e9c611f19e8ac6576126cde4039cffea6187916fc4",
+      "bytes": 12595962
+    },
+    "compass-device-cutaway.step": {
+      "sha256": "74bb4cfe803862a72499c92fbb8eb303ffb4c52c8ca311065123854f0af925a3",
+      "bytes": 11849364
+    },
+    "compass-internal-module.step": {
+      "sha256": "faf69b3afe4f766cc7fdc69d207c86ea54491c365189312f890caa82d8665cc9",
+      "bytes": 378381
+    }
+  },
+  "pass": true
+}

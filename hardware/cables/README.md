@@ -1,5 +1,10 @@
 # Cable harnesses
 
+The [one-board device harnesses](evt1/one-board/README.md) are the current
+set for the compact single-PCB device: pack leads to J2, motor, tip and a bench
+service cable. They are generated from the live netlist by
+`hardware/pcb/evt1/one-board/build_harnesses.py`; edit the generator, not the YAML.
+
 Current work is the [EVT1 loom set](evt1/README.md), using the five current
 EVT1 PCB netlists. It has separate interboard, compass, pack/dual-NTC, motor,
 two-wire tip, four-contact and cradle sources. See
