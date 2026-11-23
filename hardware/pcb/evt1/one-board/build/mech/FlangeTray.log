@@ -1,0 +1,9 @@
+valid True bbox [-28.0, -23.0, -16.0, 28.0, -8.0, 16.0] {'volume_cm3': 10.12, 'area_cm2': 66.18, 'size_x_mm': 56.0, 'size_y_mm': 32.0, 'size_z_mm': 15.0}
+round-over: ends R 10.0 sides R 1.6 ; wall from the rounded front to the cavity 1.51 to the nut well 1.7 to the screw pilots 2.18
+cavity floor at Y -16.0 = 0.95 over the tallest B.Cu part; bowl R 4.0 ; wire trough {'x': (3.0, 20.6), 'y': -17.8, 'z': 10.0, 'r': 4.4} top Y -13.4 Z max 14.4
+thinnest wall between the cavity and the outside 1.25
+dock-side round-over: ends R 3.0 sides R 0.8 ; cover seat spans X to 27.65 Z to 16.0 (cavity 26.4 14.4 )
+nut well leaves 0.1 mm beside the cavity wall (plus 1.6 wall)
+nut face -14.0 to tallest B.Cu part -16.95 gap 2.95
+stub tip -14.25 to board B.Cu face -20.0 gap 5.75
+OK

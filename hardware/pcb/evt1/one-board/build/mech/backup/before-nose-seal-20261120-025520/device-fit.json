@@ -1,0 +1,154 @@
+{
+  "pcb_step": "compass-one-board.step",
+  "pcb_placement": "X = kx - 100, Z = 100 - ky, F.Cu face at Y -21.00",
+  "flange_outline_mm": [
+    56.0,
+    32.0
+  ],
+  "board_mm": [
+    52.0,
+    20.0,
+    1.0
+  ],
+  "hard_part_overlaps": [],
+  "connector_withdrawal": [
+    {
+      "ref": "J4",
+      "z_top_mm": 11.9,
+      "tray_overlap_mm3": 0.0,
+      "nut_overlap_mm3": 0.0,
+      "inside_cavity": true
+    },
+    {
+      "ref": "J3",
+      "z_top_mm": 11.9,
+      "tray_overlap_mm3": 0.0,
+      "nut_overlap_mm3": 0.0,
+      "inside_cavity": true
+    },
+    {
+      "ref": "J2",
+      "z_top_mm": 11.9,
+      "tray_overlap_mm3": 0.0,
+      "nut_overlap_mm3": 0.0,
+      "inside_cavity": true
+    },
+    {
+      "ref": "J5",
+      "z_top_mm": 11.9,
+      "tray_overlap_mm3": 0.0,
+      "nut_overlap_mm3": 0.0,
+      "inside_cavity": true
+    }
+  ],
+  "buttons_pressed": [
+    {
+      "button": "ButtonSW1",
+      "travel_mm": 0.25,
+      "cover_overlap_mm3": 0.0,
+      "board_solids_touched_xz": [
+        [
+          -19.0,
+          -1.25,
+          -15.0,
+          1.25
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "button": "ButtonSW2",
+      "travel_mm": 0.25,
+      "cover_overlap_mm3": 0.0,
+      "board_solids_touched_xz": [
+        [
+          -11.0,
+          -1.25,
+          -7.0,
+          1.25
+        ]
+      ],
+      "ok": true
+    }
+  ],
+  "clearances": {
+    "nut_face_to_tallest_B_part_mm": 2.95,
+    "stub_tip_to_board_B_face_mm": 5.75,
+    "contact_tip_proud_of_cover_mm": -0.47,
+    "contact_tip_below_skin_face_mm": 1.77,
+    "antenna_end_to_nut_corner_mm": 6.74,
+    "flange_depth_mm": 16.6,
+    "button_pretravel_mm": 0.1,
+    "button_total_travel_mm": 0.25,
+    "button_head_proud_of_cover_mm": 0.4,
+    "silicone_over_button_head_mm": 0.9,
+    "button_flange_to_switch_body_pressed_mm": 0.46,
+    "button_boss_underside_above_fcu_mm": 1.6,
+    "button_radial_clearance_mm": 0.2,
+    "device_length_mm": 124.0
+  },
+  "internals": {
+    "pack": "Protected 502030-class 1S LiPo with built-in NTC, three leads (P, N, NTC), e.g. EEMB LP502030-PCM-NTC-LD; finished maximum 33 x 21 x 6.3",
+    "board_interface": "J2 JST SH 3-pin side-entry header (SM03B-SRSS-TB) on B.Cu, 1 PACK_P / 2 GND / 3 PACK_NTC; the pack plugs in with its factory SHR-03V-S plug (2026-11-19, replaced the solder lands)",
+    "items": [
+      "Pack 3-wire PCM+NTC 21x33x6.3",
+      "Pack PCM strip",
+      "Motor NFP-E1015",
+      "Tip NTC head",
+      "Tip NTC potting",
+      "J3 plug SHR-02V-S (motor)",
+      "J2 plug SHR-03V-S (pack, factory)",
+      "J5 plug SHR-02V-S (tip NTC)",
+      "Motor P",
+      "Motor N",
+      "Tip NTC S",
+      "Tip NTC R",
+      "Pack P",
+      "Pack N",
+      "Pack NTC"
+    ],
+    "wire_lengths_mm": {
+      "Motor P": 98.7,
+      "Motor N": 98.7,
+      "Tip NTC S": 129.4,
+      "Tip NTC R": 129.8,
+      "Pack P": 70.4,
+      "Pack N": 70.3,
+      "Pack NTC": 70.2
+    },
+    "overlaps": [
+      {
+        "a": "Tip NTC S",
+        "b": "Tip NTC R",
+        "mm3": 0.077
+      },
+      {
+        "a": "Tip NTC S",
+        "b": "Pack P",
+        "mm3": 0.169
+      },
+      {
+        "a": "Tip NTC S",
+        "b": "Pack N",
+        "mm3": 0.285
+      },
+      {
+        "a": "Tip NTC R",
+        "b": "Pack P",
+        "mm3": 0.156
+      },
+      {
+        "a": "Tip NTC R",
+        "b": "Pack N",
+        "mm3": 0.151
+      },
+      {
+        "a": "Tip NTC R",
+        "b": "Pack NTC",
+        "mm3": 0.177
+      }
+    ],
+    "scope": "Provisional envelopes and nominal wire paths from the body pack trial, extended to the compact board. Bend radii, slack, splices, insulation and installation are not checked."
+  },
+  "scope": "Nominal rigid geometry only. Wire dressing, tolerances, nut torque access, screw engagement, skin tooling and the dock mate are not checked here."
+}

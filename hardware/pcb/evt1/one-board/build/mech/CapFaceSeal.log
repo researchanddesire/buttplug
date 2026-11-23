@@ -1,0 +1,35 @@
+ellipse radii 0.6410256410256423 0.39000000000000057; bounding box BoundBox (-17.141, 63.22, -17.141, 17.141, 64, 17.141)
+{
+  "candidate_ring_mm": {
+    "ID": 32.0,
+    "section": 1.0
+  },
+  "gland_mm": {
+    "ID": 31.6,
+    "OD": 34.8,
+    "depth": 0.78,
+    "face_Y": 64.0
+  },
+  "installed_section_mm": {
+    "radial_width": 1.282051282051282,
+    "axial_height": 0.78
+  },
+  "installed_bbox_mm": [
+    -17.141026,
+    63.22,
+    -17.141026,
+    17.141026,
+    64.0,
+    17.141026
+  ],
+  "nominal_squeeze_percent": 22.0,
+  "nominal_volume_mm3": 81.424236,
+  "saved_step_volume_mm3": 81.424236,
+  "valid_saved_step": true,
+  "metal_inputs_sha256": {
+    "MetalBody.step": "5e10ec6e9262e9ae31bc9de3f677502385ef96dab46dc34b1af3ceabf53ad6dd",
+    "MotorThermistorCap.step": "85d1ed65131e144f911907fdd296d569567a265ba7d4b693c232ed86fe6c0fb7"
+  },
+  "scope": "Volume-preserving installed envelope. Rubber grade, actual deformation/contact, swell, tolerances, assembly torque and sealing are not validated."
+}
+OK
