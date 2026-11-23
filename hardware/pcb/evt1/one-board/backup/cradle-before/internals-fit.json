@@ -1,0 +1,63 @@
+{
+  "pack": "Protected 502030-class 1S LiPo with built-in NTC, three leads (P, N, NTC), e.g. EEMB LP502030-PCM-NTC-LD; finished maximum 33 x 21 x 6.3",
+  "board_interface": "J2 JST SH 3-pin side-entry header (SM03B-SRSS-TB) on B.Cu, 1 PACK_P / 2 GND / 3 PACK_NTC; the pack plugs in with its factory SHR-03V-S plug (2026-11-19, replaced the solder lands)",
+  "items": [
+    "Pack 3-wire PCM+NTC 21x33x6.3",
+    "Pack PCM strip",
+    "Motor NFP-E1015",
+    "Tip NTC head",
+    "Tip NTC potting",
+    "J3 plug SHR-02V-S (motor)",
+    "J2 plug SHR-03V-S (pack, factory)",
+    "J5 plug SHR-02V-S (tip NTC)",
+    "Motor P",
+    "Motor N",
+    "Tip NTC S",
+    "Tip NTC R",
+    "Pack P",
+    "Pack N",
+    "Pack NTC"
+  ],
+  "wire_lengths_mm": {
+    "Motor P": 98.7,
+    "Motor N": 98.7,
+    "Tip NTC S": 129.4,
+    "Tip NTC R": 129.8,
+    "Pack P": 70.4,
+    "Pack N": 70.3,
+    "Pack NTC": 70.2
+  },
+  "overlaps": [
+    {
+      "a": "Tip NTC S",
+      "b": "Tip NTC R",
+      "mm3": 0.077
+    },
+    {
+      "a": "Tip NTC S",
+      "b": "Pack P",
+      "mm3": 0.169
+    },
+    {
+      "a": "Tip NTC S",
+      "b": "Pack N",
+      "mm3": 0.285
+    },
+    {
+      "a": "Tip NTC R",
+      "b": "Pack P",
+      "mm3": 0.156
+    },
+    {
+      "a": "Tip NTC R",
+      "b": "Pack N",
+      "mm3": 0.151
+    },
+    {
+      "a": "Tip NTC R",
+      "b": "Pack NTC",
+      "mm3": 0.177
+    }
+  ],
+  "scope": "Provisional envelopes and nominal wire paths from the body pack trial, extended to the compact board. Bend radii, slack, splices, insulation and installation are not checked."
+}
