@@ -1255,16 +1255,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 129.54) (xy 106.68 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "846058b6-1291-516f-a617-43b9234d1469")
-	)
-	(wire
-		(pts
 			(xy 86.36 76.2) (xy 81.28 76.2)
 		)
 		(stroke
@@ -1813,28 +1803,6 @@
 		(uuid "7fc40531-c6eb-5885-b8a3-51a84211e0cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.64 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "PACK_GUARD"
-		(shape input)
-		(at 106.68 124.46 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "803d3c5c-1c93-5036-b307-bfe53d155141")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

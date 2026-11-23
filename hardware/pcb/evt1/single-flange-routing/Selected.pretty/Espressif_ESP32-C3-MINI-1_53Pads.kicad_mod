@@ -611,4 +611,4 @@
     (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
     (polygon (pts (xy -6.6 -11) (xy 6.6 -11) (xy 6.6 -5.6) (xy -6.6 -5.6))))
-  (model "${KIPRJMOD}/Selected.3dshapes/ESP32-C3-MINI-1-OEM.step" (offset (xyz -6.6 -5.6 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0))))
+  (model "${KIPRJMOD}/../single-flange-routing/Selected.3dshapes/ESP32-C3-MINI-1-OEM.step" (offset (xyz -6.6 -5.6 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0))))
