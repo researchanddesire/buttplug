@@ -1,9 +1,20 @@
 nav:
-  - Overview: index.md
-  - Build proposal: prototype-build-handoff.md
-  - Requirements: prd.md
-  - Architecture: architecture.md
-  - Hardware: hardware.md
+  - Home: index.md
+  - Device:
+      - How it works: device.md
+      - Mechanical design: mechanical.md
+      - Seals: seals.md
+      - Electronics: electronics.md
+      - Engineering drawings: drawings.md
+  - Charging dock: charging-dock.md
+  - Assembly guide: assembly-guide.md
   - Firmware: firmware.md
-  - Validation: testing.md
+  - Project status: status.md
+  - Reference:
+      - Requirements: prd.md
+      - Design decisions: architecture.md
+      - Source files: hardware.md
+      - Compass calibration: evt1-electrical.md
+      - Thermal study: thermal-presence-study.md
+      - Rad integration: plug-templates.md
   - Archive: archive

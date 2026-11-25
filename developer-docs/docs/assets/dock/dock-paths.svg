@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="590" viewBox="0 0 1120 590" role="img" aria-labelledby="title desc">
+<title id="title">Wired dock USB ownership and power paths</title>
+<desc id="desc">A mux selects either PC USB or the RP2040 host for the plug. STM32 requests local mode over I2C. Protected USB-C power feeds the contact supply and an independent hardware-cut UV branch.</desc>
+<defs><marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2563a6"/></marker><marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#bd671c"/></marker><marker id="green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#377964"/></marker></defs>
+<rect width="1120" height="590" rx="16" fill="#f6f8fb"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#213246">
+<text x="38" y="38" font-size="25" font-weight="700">One plug USB device, two exclusive host choices</text>
+<g fill="#fff" stroke="#c6d2de" stroke-width="2">
+<rect x="40" y="80" width="190" height="90" rx="12"/>
+<rect x="340" y="80" width="220" height="90" rx="12"/>
+<rect x="665" y="80" width="170" height="90" rx="12"/>
+<rect x="910" y="80" width="170" height="90" rx="12"/>
+<rect x="340" y="250" width="220" height="90" rx="12"/>
+<rect x="40" y="250" width="190" height="90" rx="12"/>
+<rect x="910" y="250" width="170" height="90" rx="12"/>
+<rect x="40" y="430" width="190" height="90" rx="12"/>
+<rect x="340" y="430" width="220" height="90" rx="12"/>
+<rect x="665" y="430" width="170" height="90" rx="12"/>
+<rect x="910" y="430" width="170" height="90" rx="12"/>
+</g>
+<g text-anchor="middle" font-size="21" font-weight="700">
+<text x="135" y="119">PC USB</text><text x="450" y="119">Main USB mux</text><text x="750" y="119">Plug contacts</text><text x="995" y="119">Plug ESP32-C3</text>
+<text x="450" y="289">RP2040 host</text><text x="135" y="289">STM32 UI</text><text x="995" y="289">Lid + thermal</text>
+<text x="135" y="469">USB-C power</text><text x="450" y="469">Power protection</text><text x="750" y="469">Contact 5 V</text><text x="995" y="469">UV power cut</text>
+</g>
+<g text-anchor="middle" font-size="17">
+<text x="135" y="146">reset default</text><text x="450" y="146">open before switching</text><text x="750" y="146">D−/D+, GND, 5 V</text><text x="995" y="146">USB device</text>
+<text x="450" y="316">standalone telemetry</text><text x="135" y="316">screen / controls</text><text x="995" y="316">hardware permits</text>
+<text x="135" y="496">source-qualified</text><text x="450" y="496">limits + branch gates</text><text x="750" y="496">charger supply</text><text x="995" y="496">then LED drivers</text>
+</g>
+<g fill="none" stroke-width="3.5" stroke="#2563a6" marker-start="url(#blue)" marker-end="url(#blue)">
+<path d="M234 125H330"/><path d="M565 125H655"/><path d="M840 125H900"/><path d="M450 245V180"/>
+</g>
+<g fill="none" stroke-width="3" stroke="#377964" marker-end="url(#green)"><path d="M230 295H330"/><path d="M995 340V420"/></g>
+<g fill="none" stroke-width="3.5" stroke="#bd671c" marker-end="url(#orange)"><path d="M450 430V350"/><path d="M230 475H330"/><path d="M560 475H655"/><path d="M750 430V180"/><path d="M450 520V555H995V528"/></g>
+<g font-size="17"><text x="468" y="402" fill="#bd671c">gated host rail</text><text x="248" y="278" fill="#377964">I²C request</text><text x="468" y="213" fill="#2563a6">local selected</text><text x="764" y="382" fill="#bd671c">protected VBUS</text></g>
+<text x="40" y="583" font-size="18">Blue: USB data</text><text x="230" y="583" font-size="18">Green: control / permits</text><text x="495" y="583" font-size="18">Orange: power</text>
+</g></svg>

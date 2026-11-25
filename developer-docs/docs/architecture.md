@@ -1,39 +1,57 @@
-# Architecture
+# Design decisions
 
-Two CNC-turned metal parts—body and nose cap—join a plastic flange tray,
-rear cover and silicone boot. Preserve the 15 mm neck. The polymer flange
-provides the antenna region. See the [proposal](prototype-build-handoff.md).
+## Packaging before layout release
 
-## Mechanical paths
+The device uses bulb volume for the battery and a thin flange for electronics.
+One integrated PCB removes the neck interboard loom, while a separate cradle
+and removable guide support the pack and dress seven conductors. The metal
+body/cap, flange joint, buttons and skin are designed as an assembly rather
+than as independent envelopes. See [How the device works](device.md).
 
-- Vibration: motor case → cap pocket → threaded/shouldered metal body.
-  The motor has a metal stop; the offset potted NTC and PCB carry no seating load.
-- Axial body retention: turned rear shoulder → tray root pad → standard
-  retaining ring in the spigot groove. Cover screws close plastic only.
-- Torque: bonded spigot/socket. The retaining ring does not resist rotation.
-- Wet boundary: cap face O-ring and a silicone cuff bonded to a recessed rear
-  metal land. Complete boot, rear closure and contact/button seals are unfinished.
+## Power and sensing
 
-The motor, NTC and insulated body PCB form a prewired cap module; foam pads
-extend into the cap counterbore. Flange tails stay disconnected while that
-module turns into the body. The ring installs through the open tray before
-flange electronics. Proposed PCB tabs clear the ring and its access area.
-Pack supports retain an unselected size reference, not an adopted battery.
+The protected 1S pack feeds the charger/power path and separate logic/motor
+rails. Dock 5 V supplies the charger; the pack's PCM provides discharge
+protection. The motor driver retains hardware docking inhibition and firmware
+arming/lease limits.
 
-The body/tray bond is a factory subassembly. Battery service must use the rear
-cover through the boot's rear closure; that closure is not yet designed.
-Actual assembly, loom travel, bond durability and removal remain unproven.
+There are two temperature jobs. The cap NTC measures the tip beside the motor;
+its pulsed ADC acquisition supports thermal history. The pack's built-in NTC
+serves the charger TS hardware cutoff and ADC AIN2. Sharing that NTC reduces
+cell-side wiring, but requires a different conversion from the old pulsed
+pack divider. That firmware change remains open.
 
-## Electrical reference and required change
+<span id="smart-cradle-and-four-contact-interface"></span>
 
-| Function | Status |
-| --- | --- |
-| Controller/radio | ESP32-C3-MINI-1 reference; BLE/WiFi bench code exists, radio behavior untested. |
-| Power/motor | Existing separate rails, driver and PWM/ARM/dock gate remain references. |
-| Charging/pack | Single-cell charger/power path, protected-pack requirement and two pack-NTC channels; battery open. |
-| Tip sensing | Offset two-wire potted NTC; analogue circuit, calibration and fault handling required. Former TMP117/I²C circuit/code is incompatible. |
-| Motion | MC3635 reference. |
-| Controls | Silicone acts directly on flange switches; boot geometry unfinished. |
+## USB ownership
 
-R35F and firmware are prior electrical work. NTC, board tabs, loom and charger
-mate need integration together. No heating or wear-duration claim is introduced.
+The same four contacts provide power and native ESP32-C3 USB in both dock modes.
+Main switches the data pair between the PC and a local RP2040 host; the STM32
+owns the dock UI and UV controls. PC is the reset default, with a hardware
+recovery lock. This gives standalone telemetry without adding a dock radio.
+The [dock page](charging-dock.md#usb-pc-mode-and-local-mode) explains the paths and switching.
+
+## Compass mode
+
+LSM303AGR accelerometer and magnetometer frames register to the flange's −X
+arrow. Tilt compensation uses gravity; magnetic calibration corrects the
+assembled device separately. Cap thread clocking is not the heading reference.
+Motor current, metal and dock magnets require a field survey, not an assumed
+software correction. Output is suppressed when known calibration, age, field,
+motion or motor/settling conditions make heading unusable.
+
+## Thermal history and readiness
+
+Keep source loss, physical removal and thermal readiness as separate facts.
+The plug's RAM history preserves timed NTC attempts and source-loss candidates;
+the wired host can replay same-boot records. Reboot/deep sleep discards them.
+
+The required Charging → Charged—cooling → Ready flow additionally needs
+confirmed charge state, contact-region temperatures and qualified thermal
+criteria that include UV heat. The current screen's UV-arm READY state is a
+different state. Details are in the [dock page](charging-dock.md#screen-and-buttons)
+and [thermal study](thermal-presence-study.md#charging-case-baseline-and-cooldown).
+
+The [Rad template integration](plug-templates.md) controls the app-facing design.
+No qualified wear classifier or live Lockbox credit follows from temperature,
+motion or these source-loss records.

@@ -1,13 +1,18 @@
 site_name: Buttplug Compass Developer Docs
-site_description: Current prototype requirements, design, hardware and bench firmware.
+site_description: How the Compass device and charging dock are built, how they work, and how to assemble them.
+site_url: https://researchanddesire.github.io/buttplug/
 repo_url: https://github.com/researchanddesire/buttplug
 edit_uri: edit/main/developer-docs/docs/
 use_directory_urls: false
+hooks:
+  - assembly_source.py
 theme:
   name: material
   features:
     - navigation.top
     - navigation.footer
+    - navigation.sections
+    - toc.follow
     - search.highlight
     - content.code.copy
 plugins:
@@ -15,6 +20,10 @@ plugins:
   - awesome-pages
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
   - pymdownx.details
   - pymdownx.superfences
   - tables

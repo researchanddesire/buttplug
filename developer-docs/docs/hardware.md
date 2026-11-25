@@ -1,48 +1,43 @@
-# Hardware
+# Source files
 
-| Area | Source / status |
-| --- | --- |
-| Current mechanical study | `hardware/cad/manufacturing-layout/ManufacturingLayout.FCStd` |
-| Part exchange | `MetalBody.step`, `MotorThermistorCap.step`, `FlangeTray.step`, `RearCover.step` in that folder |
-| Plastic study prints | `FlangeTray.stl`, `RearCover.stl`; slicer/physical trial pending |
-| Detailed DFM / evidence | Adjacent `README.md`, `DFM.md` and `review.json` |
-| Rebuild / verify | `tools/build_manufacturing_layout.py`, `tools/verify_manufacturing_layout.py` |
-| Prior electrical reference | `hardware/pcb/pack-pigtail-r35/candidate-f/system-r35.kicad_pro`; NTC/tabs not revised |
-| Bench code | `firmware/`; former TMP117 interface |
-| Product BOM | `hardware/bom.csv`, human-owned and header-only |
+Browse the [hardware development branch](https://github.com/researchanddesire/buttplug/tree/backplane/trial) for the checked-in design sources.
 
-![Turned metal and flange joint](assets/manufacturing-layout.png)
+Paths are repository-relative. Use native CAD and KiCad sources for changes;
+reports apply only to the revision they bind.
 
-## Current interfaces
+## Device
 
-Two custom metal parts: turned body and cap. Body features include Ø15 neck,
-Ø12 passage, straight Ø28 front bore and turned rear shoulder/spigot/ring groove.
-Cap has rear-access bores, a metal motor stop and one offset sensor drill.
-Motor pocket Ø11.1 is a nominal reference, with actual fit/force still open.
+| Subsystem | Editable source | Evidence / specification |
+| --- | --- | --- |
+| Integrated PCB | `hardware/pcb/evt1/one-board/compass-one-board.kicad_pro` | Adjacent layout reports; refresh after edits |
+| Full assembly | `hardware/pcb/evt1/one-board/mech/compass-device.FCStd` | `device-fit.json`, cutaway/open STEP exports |
+| Named mechanical parts | Same `mech/` folder: `compass_datums.py` and one script/native per part | `README.md`, `body-profile.json`, `cap-seal-fit.json` |
+| Pack support and wiring | `InternalCradle.FCStd`, `CradleWireGuide.FCStd`, `Internals.FCStd` in that folder | `cradle-fit.json`, `cradle-installation-fit.json`, `internals-fit.json` |
+| Pack | `hardware/pcb/evt1/one-board/pack-spec.json` | Adjacent `PACK-RFQ.md`, BC-PACK-EVT1-002 |
+| Harnesses | `hardware/pcb/evt1/one-board/build_harnesses.py` | Generated `hardware/cables/evt1/one-board/` |
+| Plug firmware | `firmware/` | `platformio.ini`, `main/`, `tests/` |
+| Metal drawings | `developer-docs/tools/figures/make_drawings.py` | Sheets in `developer-docs/docs/assets/drawings/` (SVG, PDF, PNG) |
 
-Nose joint: provisional M30×1.5 and a candidate 32×1 face O-ring. Thread teeth
-are represented by pilot/root envelopes; supplier-reviewed callouts and
-seal/closure tolerances must control machining.
+## Dock
 
-Rear: Ø24 shoulder, Ø18 bonded spigot, Ø18.2 tray socket and DIN47118×1.2 ring
-candidate. The ring retains axially; socket bond resists torque. Boot cuff
-bonds to a recessed Ø19.5 land and finishes at the Ø21 upper shoulder.
-The full boot/rear service closure is unfinished. Cover screws now engage
-plastic only. Flange PCB tabs moved away from ring/tool space; CAD-only proposal.
+| Subsystem | Editable source | Evidence / specification |
+| --- | --- | --- |
+| Wired assembly | `hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd` | Adjacent `README.md`, linked `pcb/` and `sources/`, fit reports |
+| Main PCB | `hardware/pcb/evt1/case-telemetry-study/wired-main/dock-wired-system.kicad_pro` | `active-routing.json`, package/parity records |
+| System tracing | `dock-wired-transport.kicad_pro` in that same folder | Shared leaf sheets and system netlist |
+| USB host and UI | `dock-firmware/wired-main/`, `dock-firmware/` | Target READMEs, `BRINGUP.md`, build reports |
+| Compact dock fit studies | `hardware/pcb/evt1/one-board/mech/CompactDockFit.FCStd`, `CompactMagneticDock.FCStd`, `CompactFlushContactSection.FCStd` | Adjacent fit JSON files and STEP exports |
+| Hall cutoff | `hardware/pcb/evt1/dock-safety/wired-hall-head/` | Head, Main receiver and fault-budget studies |
+| UV modules | `hardware/pcb/evt1/dock-uv/` | Matched population and power-budget sources |
+| Enclosure quote | `hardware/design/evt1-bench-ordering/dock-enclosure/` | Re-export after geometry changes |
 
-Body PCB uses a sleeve/two foam pads, with no rigid cage. The 33×8×20 mm pack
-remains an unselected size reference. Charging target axes remain X−32,
-Z8/GND and Z12/DOCK_5V; the prior charger needs the revised magnet positions.
+## Shared records
 
-## Compatibility
+- Assembly instructions: `assembly-docs/assembly-guide.md`, also shown in this site's [assembly guide](assembly-guide.md).
+- Open questions and next steps: [Project status](status.md).
+- Product BOM: `hardware/bom.csv`, human-owned.
+- Reviews and physical bench records: existing Compass doc in R+D Drive; identify Git, board and native assembly revisions.
+- Images: every render, drawing and diagram on this site is regenerated from the CAD by the scripts in `developer-docs/tools/figures/` (see its README).
 
-The two-wire NTC needs a new analogue input, calibration and fault handling;
-it does not connect to the former J5 I²C interface as-is. Cap/board loom turns
-with flange tails disconnected. Actual retention, loom motion and service
-need a trial. No physical assembly or seal result exists. Old P1 kits are historical.
-
-The current source-backed DFM review covers Protolabs/Fictiv/HLH guidance,
-Sandvik tooling, source-access limits, setup candidates and tolerance budgets.
-Net metal volume is about32.8 cm³; material and total weight remain to decide.
-
-![Native sections and sensor tool reservation](assets/manufacturing-sections.png)
+Earlier manufacturing, split-board and single-flange studies remain references;
+their fit counts and quote packages do not describe the compact device.

@@ -1,17 +1,15 @@
 # Assembly documentation
 
-The current manufacturing direction uses two CNC-turned metal parts—body and motor/thermistor cap—plus an
-open flange tray and rear cover, plus a silicone outer boot. Start with the
-[assembly direction](assembly-guide.md) and the native CAD/README under
-`hardware/cad/manufacturing-layout/`.
+![Compass device, exploded](../developer-docs/docs/assets/device/device-exploded.jpg)
 
-This is not a released build. The earlier scaffold/P1 fit kit is superseded.
-The NTC circuit/firmware, PCB tabs, rotating module loom, cap thread/seals,
-boot/buttons and matching charger still need integration and validation.
+The [assembly guide](assembly-guide.md) builds the compact Compass device and its
+wired charging dock step by step, with an image for every step.
 
-- [PCB reference](pcb-overview.md)
-- [Harness reference](cable-harnesses.md)
-- [Human-owned BOM](bom.md)
+- [Assembly guide](assembly-guide.md): tools, part preparation, device steps 1 to 10, dock steps D1 to D9.
+- [PCB overview](pcb-overview.md): the boards and their KiCad sources.
+- [Cable harnesses](cable-harnesses.md): pin contracts, wire stock and termination.
+- [Bill of materials](bom.md): the human-owned product BOM, plus tools and shop supplies.
 
-Earlier module pages are historical/reference studies, not current build steps.
-No component is approved for purchase by appearing in a diagram or CAD model.
+Device CAD: `hardware/pcb/evt1/one-board/mech/`. Dock CAD:
+`hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd`. The developer site
+explains how the parts work: `developer-docs/docs/`.

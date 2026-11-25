@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="t d">
+<title id="t">Compass device electronics</title>
+<desc id="d">Dock power charges the battery through the BQ24074 power path; two buck-boost converters make the 3.3 V logic rail and the 3.7 V motor rail; the ESP32-C3 talks USB through the dock contacts and reads the ADC and compass over I2C; a logic gate only lets the motor run when armed and off the dock.</desc>
+<defs><marker id="mp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#bd671c"/></marker><marker id="md" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2563a6"/></marker><marker id="mc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#377964"/></marker></defs>
+<rect width="1200" height="690" rx="16" fill="#f6f8fb"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#213246">
+<text x="30" y="48" font-size="25" font-weight="700">Device electronics on the 52 × 20 mm board</text>
+<rect x="30" y="80" width="200" height="226" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="130" y="117" text-anchor="middle" font-size="19" font-weight="700">Dock contacts</text>
+<rect x="290" y="80" width="180" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="380" y="117" text-anchor="middle" font-size="19" font-weight="700">F1 + D1</text>
+<text x="380" y="142" text-anchor="middle" font-size="15.5">PTC fuse, diode</text>
+<rect x="530" y="80" width="200" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="630" y="117" text-anchor="middle" font-size="19" font-weight="700">U1 BQ24074</text>
+<text x="630" y="142" text-anchor="middle" font-size="15.5">charger, power path</text>
+<rect x="800" y="80" width="200" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="900" y="117" text-anchor="middle" font-size="19" font-weight="700">Battery (J2)</text>
+<text x="900" y="142" text-anchor="middle" font-size="15.5">1S LiPo, PCM, NTC</text>
+<rect x="290" y="220" width="180" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="380" y="257" text-anchor="middle" font-size="19" font-weight="700">U75 USBLC6</text>
+<text x="380" y="282" text-anchor="middle" font-size="15.5">USB ESD clamp</text>
+<rect x="530" y="220" width="200" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="630" y="257" text-anchor="middle" font-size="19" font-weight="700">Charge permit</text>
+<text x="630" y="282" text-anchor="middle" font-size="15.5">U9 + JP1 + Q1</text>
+<rect x="800" y="220" width="200" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="900" y="257" text-anchor="middle" font-size="19" font-weight="700">U2 TPS63070</text>
+<text x="900" y="282" text-anchor="middle" font-size="15.5">3.3 V logic rail</text>
+<rect x="30" y="360" width="200" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="130" y="397" text-anchor="middle" font-size="19" font-weight="700">SW1 / SW2</text>
+<text x="130" y="422" text-anchor="middle" font-size="15.5">power, mode</text>
+<rect x="290" y="360" width="180" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="380" y="397" text-anchor="middle" font-size="19" font-weight="700">U71 TPS3422</text>
+<text x="380" y="422" text-anchor="middle" font-size="15.5">hold 7.5 s: reset</text>
+<rect x="530" y="360" width="200" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="630" y="397" text-anchor="middle" font-size="19" font-weight="700">U6 ESP32-C3</text>
+<text x="630" y="422" text-anchor="middle" font-size="15.5">MCU, BLE, native USB</text>
+<rect x="800" y="360" width="200" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="900" y="397" text-anchor="middle" font-size="19" font-weight="700">U3 TPS63070</text>
+<text x="900" y="422" text-anchor="middle" font-size="15.5">3.7 V motor rail</text>
+<rect x="30" y="500" width="200" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="130" y="537" text-anchor="middle" font-size="19" font-weight="700">Tip NTC (J5)</text>
+<text x="130" y="562" text-anchor="middle" font-size="15.5">in the nose cap</text>
+<rect x="290" y="500" width="180" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="380" y="537" text-anchor="middle" font-size="19" font-weight="700">U7 ADS1115</text>
+<text x="380" y="562" text-anchor="middle" font-size="15.5">ADC: tip + pack NTC</text>
+<rect x="530" y="500" width="200" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="630" y="537" text-anchor="middle" font-size="19" font-weight="700">U81 LSM303AGR</text>
+<text x="630" y="562" text-anchor="middle" font-size="15.5">accel + compass</text>
+<rect x="800" y="500" width="200" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="900" y="537" text-anchor="middle" font-size="19" font-weight="700">U4 + U5</text>
+<text x="900" y="562" text-anchor="middle" font-size="15.5">interlock, DRV8212</text>
+<rect x="1050" y="500" width="120" height="86" rx="12" fill="#fff" stroke="#c6d2de" stroke-width="2"/>
+<text x="1110" y="537" text-anchor="middle" font-size="19" font-weight="700">Motor</text>
+<text x="1110" y="562" text-anchor="middle" font-size="15.5">J3</text>
+<text x="130" y="145" text-anchor="middle" font-size="15.5">5 V, GND</text>
+<text x="130" y="268" text-anchor="middle" font-size="15.5">D−, D+</text>
+<text x="130" y="190" text-anchor="middle" font-size="13" fill="#5b6b7b">four Mill-Max targets</text>
+<path d="M230 123H284" fill="none" stroke="#bd671c" stroke-width="3.2" marker-end="url(#mp)"/>
+<path d="M470 123H524" fill="none" stroke="#bd671c" stroke-width="3.2" marker-end="url(#mp)"/>
+<path d="M736 108H794" fill="none" stroke="#bd671c" stroke-width="3.2" marker-end="url(#mp)" marker-start="url(#mp)"/>
+<text x="765" y="100" font-size="15" fill="#bd671c" text-anchor="middle">BAT</text>
+<path d="M630 80V60H1040V403H1006" fill="none" stroke="#bd671c" stroke-width="3.2" marker-end="url(#mp)"/>
+<path d="M1040 263H1006" fill="none" stroke="#bd671c" stroke-width="3.2" marker-end="url(#mp)"/>
+<text x="1048" y="56" font-size="15" fill="#bd671c" text-anchor="start">SYS</text>
+<path d="M800 285H765V395H736" fill="none" stroke="#bd671c" stroke-width="3.2" marker-end="url(#mp)"/>
+<text x="770" y="340" font-size="15" fill="#bd671c" text-anchor="start">3.3 V</text>
+<path d="M900 446V494" fill="none" stroke="#bd671c" stroke-width="3.2" marker-end="url(#mp)"/>
+<text x="910" y="476" font-size="15" fill="#bd671c" text-anchor="start">3.7 V</text>
+<path d="M1000 543H1044" fill="none" stroke="#bd671c" stroke-width="3.2" marker-end="url(#mp)"/>
+<path d="M230 263H284" fill="none" stroke="#2563a6" stroke-width="3.2" marker-end="url(#md)"/>
+<path d="M470 263H500V378H524" fill="none" stroke="#2563a6" stroke-width="3.2" marker-end="url(#md)"/>
+<text x="492" y="340" font-size="15" fill="#2563a6" text-anchor="end">USB</text>
+<path d="M630 446V494" fill="none" stroke="#2563a6" stroke-width="3.2" marker-end="url(#md)"/>
+<path d="M630 470H380V494" fill="none" stroke="#2563a6" stroke-width="3.2" marker-end="url(#md)"/>
+<text x="640" y="476" font-size="15" fill="#2563a6" text-anchor="start">I²C</text>
+<path d="M230 543H284" fill="none" stroke="#2563a6" stroke-width="3.2" marker-end="url(#md)"/>
+<path d="M630 220V172" fill="none" stroke="#377964" stroke-width="3.2" marker-end="url(#mc)"/>
+<text x="640" y="200" font-size="15" fill="#377964" text-anchor="start">CE</text>
+<path d="M230 403H284" fill="none" stroke="#377964" stroke-width="3.2" marker-end="url(#mc)"/>
+<path d="M470 418H524" fill="none" stroke="#377964" stroke-width="3.2" marker-end="url(#mc)"/>
+<text x="497" y="440" font-size="15" fill="#377964" text-anchor="middle">EN</text>
+<path d="M736 430H770V520H794" fill="none" stroke="#377964" stroke-width="3.2" marker-end="url(#mc)"/>
+<text x="752" y="470" font-size="15" fill="#377964" text-anchor="end">PWM, arm</text>
+<text x="30" y="628" font-size="15.5">Orange: power. Blue: data. Green: control. U4 passes the motor command only when the firmware has armed the motor and the device is off the dock.</text>
+<text x="30" y="654" font-size="15.5">The pack NTC feeds the charger TS pin (hardware charge-temperature cutoff) and ADC input AIN2. JP1 is open on the bench build.</text>
+</g></svg>

@@ -22,8 +22,11 @@ platformio_private.ini
 /hardware/cables/prototype-r0/*.html
 /hardware/cables/prototype-r0/*.bom.tsv
 
-# Regenerable manufacturing-study view meshes
+# Regenerable manufacturing-study view meshes and section cache
 /hardware/cad/manufacturing-layout/*-view.stl
+/hardware/cad/manufacturing-layout/section-data.json
+/hardware/cad/manufacturing-layout/overmold-trial/*-view.stl
+/hardware/cad/manufacturing-layout/charging-dock/*-view.stl
 
 # Generated cable artifacts are rebuilt from WireViz recipes.
 /hardware/cables/**/*.svg
@@ -31,3 +34,6 @@ platformio_private.ini
 /hardware/cables/**/*.html
 /hardware/cables/**/*.bom.tsv
 /cable-export/
+
+# Docs figure pipeline caches (meshes, raw renders); regenerate with developer-docs/tools/figures/
+/developer-docs/.cache/

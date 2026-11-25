@@ -1,40 +1,67 @@
-# P1 cable harnesses
+# EVT1 cable harnesses
 
-> The current cap/body-PCB module needs revised flange tails and a two-wire NTC loom. The P1 recipes below remain prior references; they are not a released loom for the manufacturing layout.
+## One-board device
 
-Use the current native R35F pin map. P1 keeps the separate body and flange
-boards, wired tip sensor and removable protected-pack interface. Individual
-insulated joints and simple accessible wire restraint replace the later
-comb/cage experiments. No harness has been physically assembled.
+The compact one-board device (`hardware/pcb/evt1/one-board/`) has its own
+generated set in `hardware/cables/evt1/one-board/`, written by
+`build_harnesses.py` from the live netlist. The two-board looms below (interboard,
+compass, flange contacts, two tape-on pack NTCs) do not apply to it.
 
-| Harness | Editable source | Connection / starting material |
+| Harness | Editable source under `hardware/cables/evt1/one-board/` | Detailed child BOM |
 | --- | --- | --- |
-| Body to flange | `hardware/cables/interboard-r29/interboard-r29.yml` | J6 to J7, ten wires, numeric 1:1; ten 120 mm starting blanks. |
-| Tip sensor | `hardware/cables/tip-r26/tip-sensor-r26.yml` | J5 to J101, four wires; four 80 mm starting blanks. |
-| Pack and two NTCs | `hardware/cables/pack-adapter-r37/pack-adapter-r37.yml` | R35F J2 lands; five 150 mm and two 30 mm blanks plus included OEM leads. Battery choice open. |
-| Motor | `hardware/cables/prototype-r0/motor-r0.yml` | J3.1 to motor P; J3.2 to motor N. Reuse OEM leads and trim after fitting. MOTOR_N is not ground. |
-| Charging contacts | `hardware/cables/charging-p1/charging-p1.yml` | J1.1 to isolated positive target; J1.2 to ground target. Two 100 mm blanks included in a prewired SH2 mate candidate. |
-| External charging cable | `hardware/cables/charging-p1/charging-cable-p1.yml` | Regulated 5V/GND lead to separate spring contacts in the matching P1 housing. Exact lead remains open. |
+| 3-wire protected pack into J2 | `pack-one-board.yml`; pack's factory JST SH 3P plug into the SM03B header, nothing bought | [TSV](../hardware/pcb/evt1/one-board/build/cables/export/pack-one-board.bom.tsv) |
+| Motor | `motor-one-board.yml`; J3 SH2 to the NFP-E1015 leads | [TSV](../hardware/pcb/evt1/one-board/build/cables/export/motor-one-board.bom.tsv) |
+| Tip NTC | `tip-one-board.yml`; J5 SH2 to the TDK glass bead | [TSV](../hardware/pcb/evt1/one-board/build/cables/export/tip-one-board.bom.tsv) |
+| Bench service | `service-one-board.yml`; J4 SH6 to the programming fixture, not a product part | [TSV](../hardware/pcb/evt1/one-board/build/cables/export/service-one-board.bom.tsv) |
 
-All lengths above are starting material, not finished cut lengths. Confirm
-actual mating pin 1, wire OD, bend/strip lengths and ratings before finishing.
-Close the hub with loose flange ends, then form and terminate the flange loop.
-Keep sensor and power returns separate until their respective body-board lands.
+Blanks are 120 mm (motor), 150 mm (tip, service) starting stock from the
+modelled paths plus 20 mm; the pack leads are the pack's own. Child BOMs are
+regenerated with `build_harnesses.py --render` and are not committed. Plug
+the pack into J2 after the cap is threaded; check its pinout first. See the
+[source README](../hardware/cables/evt1/one-board/README.md).
 
-Charging review outputs: [SVG](/private/tmp/buttplug-p1-cables/charging-p1.svg),
-[PNG](/private/tmp/buttplug-p1-cables/charging-p1.png),
-[detailed child BOM](/private/tmp/buttplug-p1-cables/charging-p1.bom.tsv).
-The source README gives the regeneration command. The logical review matches
-J1's native DOCK_5V/GND nets and counts included wires only once. The physical
-contact seats and wire paths now exist in P1. Use the dry-fit kit to check
-actual leads, bends and cover service. Seals remain open. External-cable
-[child BOM](/private/tmp/buttplug-p1-cables/charging-cable-p1.bom.tsv) and the
-two independent source-to-J1 paths are recorded in its source-folder review.
-Keep child
-BOMs out of the human-owned `hardware/bom.csv`.
+## Two-board EVT1 looms
 
-The notes below preserve earlier source studies; they do not override the P1
-assembly order or adopt the R38/R39 retainers.
+Use `hardware/cables/evt1/` with the current EVT1 boards. The P1/R35F recipes
+below are prior studies; the current product has a two-wire tip thermistor
+and four-contact USB dock. No physical harness has been accepted.
+
+| Harness | Editable source under `hardware/cables/evt1/` | Detailed child BOM |
+| --- | --- | --- |
+| Body J6 to flange J7 | `interboard-evt1.yml`; ten numeric1:1 wires | [TSV](/private/tmp/compass-evt1/cable-export/interboard-evt1.bom.tsv) |
+| Body J81 to compass J82 | `compass-evt1.yml`; four independent wires | [TSV](/private/tmp/compass-evt1/cable-export/compass-evt1.bom.tsv) |
+| Protected pack and two NTCs | `pack-evt1.yml`; ACH power disconnect and separate NTC returns | [TSV](/private/tmp/compass-evt1/cable-export/pack-evt1.bom.tsv) |
+| Local motor | `motor-evt1.yml`; J3 to both bridge outputs | [TSV](/private/tmp/compass-evt1/cable-export/motor-evt1.bom.tsv) |
+| Two-wire tip NTC | `tip-evt1.yml`; J5 to TDK NTC | [TSV](/private/tmp/compass-evt1/cable-export/tip-evt1.bom.tsv) |
+| Four fixed targets | `contacts-evt1.yml`; GND/D−/D+/5V to flange J1 | [TSV](/private/tmp/compass-evt1/cable-export/contacts-evt1.bom.tsv) |
+| Cradle USB to pins | `dock-evt1.yml`; J93 to J94, four numeric1:1 wires | [TSV](/private/tmp/compass-evt1/cable-export/dock-evt1.bom.tsv) |
+
+`wire-stock.csv` lists starting blanks. The ten saved interboard forms pass
+nominal bend/part/wire checks, with free paths62.865–63.788mm. Keep120mm blanks
+for the first article. Other installed routes and all finished cut/strip
+dimensions remain unfinished. Use received connector/crimp egress and fixtures
+before fixing lengths. Wire STEP conversion is withdrawn; use the editable
+native and checked preview. Interboard pin10 is TIP_EXC_EN. USB stays on the
+flange; no USB pair passes through the neck.
+
+Use the without-protrusions SH housings and specified contacts. Prewire the
+rotating cap/body-board module with numbered free flange ends; insert the J7
+housing only after threading. Connect pack power afterward. Keep both NTC
+returns independent until J2's2S land; power return uses2P. Both are native
+logical pin2. Do not pre-tin ordinary crimp strands or ordinary-crimp factory
+thermistor leads. MOTOR_N is not ground.
+
+The contact and cradle D−/D+ conductors stay paired with minimal end fanout;
+no90ohm impedance or powered USB claim follows. Solder/clean/cool fixed posts
+before fitting their inner rings. Complete strain relief and connected loading
+trials before closing the rigid halves or molding a continuous skin.
+
+The [source README](../hardware/cables/evt1/README.md) gives regeneration,
+parts and assembly order. Generated diagrams/child BOMs live in the temporary
+external folder above and are reproducible with WireViz0.4.1; do not commit
+them or copy child rows into the human-owned `hardware/bom.csv`. Factory leads
+and the pack socket are included with their assemblies, not extra loose buys.
+Current logical and geometry status is in the source-folder review files.
 
 # Earlier cable development notes
 

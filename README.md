@@ -1,44 +1,39 @@
 # Buttplug Compass
 
+[Read the illustrated engineering and assembly docs](https://researchanddesire.github.io/buttplug/)
+
 For AJ and other collaborators: start with [the checkpoint handoff](COLLABORATION.md).
-It distinguishes the saved CAD from the newer keyed-collar/nut/locking proposals.
+It distinguishes the saved threaded-stub CAD from unresolved locking/tooling choices.
 
-Current direction: **[manufacturing design proposal](developer-docs/docs/prototype-build-handoff.md)**
-and **[native mechanical study](hardware/cad/manufacturing-layout/README.md)**.
+Compass is a smart plug and charging dock. The device is a turned stainless
+steel body and nose cap with a cast silicone flange. One 52 × 20 mm board in the
+flange carries the ESP32-C3, charger, motor driver, temperature sensing and
+compass. A protected LiPo and the vibration motor sit in the bulb. The clamshell
+dock charges it through four contacts, connects it to a computer over USB, and
+has a screen, three buttons and UV-C LEDs.
 
-Four main mechanical pieces: CNC-turned body, CNC-turned motor/thermistor cap,
-open flange tray and rear cover. The 15 mm neck remains. A separate silicone
-boot and standard insulation/foam replace the former multi-piece scaffold.
-Battery selection and the human-owned product BOM remain open.
+![Compass device](developer-docs/docs/assets/device/device-hero.jpg)
 
-![Current manufacturing layout](developer-docs/docs/assets/manufacturing-layout.png)
+**Status:** EVT1 design in CAD and KiCad. The current device and dock still
+need assembly and bench commissioning. See [Project status](developer-docs/docs/status.md).
 
-The cap has an integral motor pocket and a potted tip thermistor. The body
-PCB is foam-supported in the cap as a prewired module; flange tails connect
-only after it is threaded into the body. A turned shoulder/spigot and standard retaining ring capture the flange tray;
-a bonded socket resists torque and a silicone cuff covers the wet-side joint.
-The cover screws now close plastic only. See the [DFM review](hardware/cad/manufacturing-layout/DFM.md)
-for machining sources, tool/setup candidates and tolerance budgets.
-
-**Status:** mechanical DFM study, not a build/tooling release. The old P1 fit
-kit is superseded. NTC circuit/firmware, PCB mounting features, cap thread/seal
-detail, loom, boot/buttons, charger magnets and physical validation remain open.
-No fabrication, powered operation, seal or wear result is claimed.
-
-| Purpose | Source |
+| Start here | |
 | --- | --- |
-| Current design and remaining work | [Proposal](developer-docs/docs/prototype-build-handoff.md) |
-| Native CAD, four STEP parts and two plastic study STLs | [Manufacturing layout](hardware/cad/manufacturing-layout/README.md) |
-| Proposed assembly | [Assembly guide](assembly-docs/assembly-guide.md) |
-| Prior circuit/routed-board reference | [R35F project](hardware/pcb/pack-pigtail-r35/candidate-f/system-r35.kicad_pro) |
-| Existing bench code and compatibility limits | [Firmware](developer-docs/docs/firmware.md) |
-| Requirements | [PRD](developer-docs/docs/prd.md) |
+| How the device works | [developer-docs/docs/device.md](developer-docs/docs/device.md) |
+| Step-by-step assembly | [assembly-docs/assembly-guide.md](assembly-docs/assembly-guide.md) |
+| Metal part drawings | [developer-docs/docs/drawings.md](developer-docs/docs/drawings.md) |
+| Charging dock | [developer-docs/docs/charging-dock.md](developer-docs/docs/charging-dock.md) |
+| Device CAD (FreeCAD scripts, STEP) | [hardware/pcb/evt1/one-board/mech/](https://github.com/researchanddesire/buttplug/blob/backplane/trial/hardware/pcb/evt1/one-board/mech/README.md) |
+| Device board (KiCad) | [hardware/pcb/evt1/one-board/](https://github.com/researchanddesire/buttplug/blob/backplane/trial/hardware/pcb/evt1/one-board/README.md) |
+| Dock CAD | [hardware/cad/evt1-assembly/evt1-wired/](https://github.com/researchanddesire/buttplug/blob/backplane/trial/hardware/cad/evt1-assembly/evt1-wired/README.md) |
+| Firmware | [developer-docs/docs/firmware.md](developer-docs/docs/firmware.md) |
+| Requirements | [developer-docs/docs/prd.md](developer-docs/docs/prd.md) |
 | Human-owned BOM | [hardware/bom.csv](hardware/bom.csv) |
 
-Keep the seven current developer pages updated in place. Use Git history and
-[targeted archived studies](developer-docs/docs/archive/index.md) for earlier work.
-No auto-commit or publication. See [developer site setup](developer-docs/README.md).
+Use Git history and [archived studies](developer-docs/docs/archive/index.md)
+for earlier work.
+The docs build automatically when changes land on `main`. See [developer site setup](developer-docs/README.md).
 
 Forked from [researchanddesire/rad-project-template](https://github.com/researchanddesire/rad-project-template).
 Repository: `researchanddesire/buttplug`; the local folder keeps its earlier name.
-Publication and licenses remain pending. See [LICENSE](LICENSE).
+Product release and license selection remain pending. See [LICENSE](LICENSE).
