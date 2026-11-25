@@ -1,0 +1,109 @@
+metadata:
+  title: One-board motor / J3 to both bridge outputs
+  notes: EVT one-board first article. Native numeric pin map; verify mating marks
+    and continuity. Nominal paths are centreline lengths from the mechanical internals
+    model, not finished cut lengths; blanks are starting stock. No physical crimp,
+    current or fit acceptance. OEM motor leads are supplied with the motor, not separate
+    wire stock. Solder and insulate the pigtail transition, inspect and strain-relieve.
+    MOTOR_N is a bridge output, not ground.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J3:
+    type: 'JST SH2 socket to the board''s SM02B
+
+      side-entry header'
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - MOTOR_P
+    - MOTOR_N
+    ignore_in_bom: false
+    manufacturer: JST
+    mpn: SHR-02V-S
+  MOTOR:
+    type: OEM leaded vibration motor
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - MOTOR_P
+    - MOTOR_N
+    ignore_in_bom: false
+    manufacturer: NFP
+    mpn: NFP-E1015 3.7V
+cables:
+  M1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - MOTOR_P
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120 mm starting stock. Maximum insulated OD 0.6 mm.
+
+      Centreline bend at least 4 mm.
+
+      Nominal installed path 95.3 mm from mech/internals-fit.json,
+
+      blank = path + 20 mm rounded up to 10 mm.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  M2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - MOTOR_N
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.12
+    length_unit: m
+    ignore_in_bom: false
+    notes: '120 mm starting stock. Maximum insulated OD 0.6 mm.
+
+      Centreline bend at least 4 mm.
+
+      Nominal installed path 95.4 mm from mech/internals-fit.json,
+
+      blank = path + 20 mm rounded up to 10 mm.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+connections:
+- - J3:
+    - 1
+  - M1:
+    - 1
+  - MOTOR:
+    - 1
+- - J3:
+    - 2
+  - M2:
+    - 1
+  - MOTOR:
+    - 2
+additional_bom_items:
+- description: SH socket crimp contact; crimp the pigtail, then solder to the OEM
+    lead
+  qty: 2
+  unit: pcs
+  manufacturer: JST
+  mpn: SSH-003T-P0.2-H

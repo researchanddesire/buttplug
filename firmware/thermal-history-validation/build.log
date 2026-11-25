@@ -1,0 +1,81 @@
+Processing prototype-r0 (platform: espressif32@6.13.0; board: esp32-c3-devkitm-1; framework: espidf)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-c3-devkitm-1.html
+PLATFORM: Espressif 32 (6.13.0) > Espressif ESP32-C3-DevKitM-1
+HARDWARE: ESP32C3 160MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-espidf @ 3.50503.0 (5.5.3) 
+ - tool-cmake @ 3.30.2 
+ - tool-esp-rom-elfs @ 0.0.1+20241011 
+ - tool-esptoolpy @ 2.41100.260830 (4.11.0) 
+ - tool-ninja @ 1.13.2 
+ - tool-riscv32-esp-elf-gdb @ 12.1.0+20221002 
+ - tool-xtensa-esp-elf-gdb @ 12.1.0+20221002 
+ - toolchain-esp32ulp @ 1.23800.240113 (2.38.0) 
+ - toolchain-riscv32-esp @ 14.2.0+20251107
+Reading CMake configuration...
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 0 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling /private/tmp/compass-thermal-build/prototype-r0/main/main.c.o
+Linking /private/tmp/compass-thermal-build/prototype-r0/firmware.elf
+Retrieving maximum program size /private/tmp/compass-thermal-build/prototype-r0/firmware.elf
+Checking size /private/tmp/compass-thermal-build/prototype-r0/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  10.2% (used 33468 bytes from 327680 bytes)
+Flash: [====      ]  35.3% (used 1109432 bytes from 3145728 bytes)
+Building /private/tmp/compass-thermal-build/prototype-r0/firmware.bin
+esptool.py v4.11.0
+Creating esp32c3 image...
+Merged 2 ELF sections
+Successfully created esp32c3 image.
+========================= [SUCCESS] Took 11.22 seconds =========================
+
+Processing evt1 (platform: espressif32@6.13.0; board: esp32-c3-devkitm-1; framework: espidf)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-c3-devkitm-1.html
+PLATFORM: Espressif 32 (6.13.0) > Espressif ESP32-C3-DevKitM-1
+HARDWARE: ESP32C3 160MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-espidf @ 3.50503.0 (5.5.3) 
+ - tool-cmake @ 3.30.2 
+ - tool-esp-rom-elfs @ 0.0.1+20241011 
+ - tool-esptoolpy @ 2.41100.260830 (4.11.0) 
+ - tool-ninja @ 1.13.2 
+ - tool-riscv32-esp-elf-gdb @ 12.1.0+20221002 
+ - tool-xtensa-esp-elf-gdb @ 12.1.0+20221002 
+ - toolchain-esp32ulp @ 1.23800.240113 (2.38.0) 
+ - toolchain-riscv32-esp @ 14.2.0+20251107
+Reading CMake configuration...
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 0 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling /private/tmp/compass-thermal-build/evt1/main/main.c.o
+Linking /private/tmp/compass-thermal-build/evt1/firmware.elf
+Retrieving maximum program size /private/tmp/compass-thermal-build/evt1/firmware.elf
+Checking size /private/tmp/compass-thermal-build/evt1/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  12.7% (used 41716 bytes from 327680 bytes)
+Flash: [====      ]  36.6% (used 1150710 bytes from 3145728 bytes)
+Building /private/tmp/compass-thermal-build/evt1/firmware.bin
+esptool.py v4.11.0
+Creating esp32c3 image...
+Merged 2 ELF sections
+Successfully created esp32c3 image.
+========================= [SUCCESS] Took 9.26 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+prototype-r0   SUCCESS   00:00:11.217
+evt1           SUCCESS   00:00:09.261
+========================= 2 succeeded in 00:00:20.478 =========================

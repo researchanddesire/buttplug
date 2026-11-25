@@ -1,0 +1,8 @@
+(footprint "MillMax_0906_2" (version 20221018) (generator build_evt1_electrical)
+      (layer "F.Cu") (attr through_hole)
+      (descr "0906-2 tail0.4318mm, barrel1.8288mm; verify against manufacturer drawing")
+      (fp_text reference "REF**" (at 0 -1.8) (layer "F.SilkS") (effects (font (size .7 .7) (thickness .12))))
+      (fp_text value "0906-2" (at 0 1.8) (layer "F.Fab") (effects (font (size .7 .7) (thickness .12))))
+      (fp_circle (center 0 0) (end .9144 0) (stroke (width .1) (type solid)) (fill none) (layer "F.Fab"))
+      (fp_circle (center 0 0) (end 1.2 0) (stroke (width .05) (type solid)) (fill none) (layer "F.CrtYd"))
+      (pad "1" thru_hole circle (at 0 0) (size 1.5 1.5) (drill .6) (layers "*.Cu" "*.Mask")))

@@ -1,0 +1,54 @@
+{
+  "scope": "Digital firmware build/host checks; no hardware flash or powered validation",
+  "command": "pio run -d firmware -e evt1",
+  "result": "passed",
+  "platform": "espressif32@6.13.0",
+  "idf": "5.5.3",
+  "platformio": "6.1.19",
+  "ram_static_bytes": 34628,
+  "app_bytes": 1136580,
+  "firmware_bin_sha256": "0f510ddf2db15d57c62dfc29faefa6ef05e088f6cf1d23013cbdf06d629e023e",
+  "firmware_elf_sha256": "cadd05434ace3ff7ca12ee8d771a01e78218e4f94328edd98cbc02733dbb4429",
+  "build_log_sha256": "a65734b8f2038444fadedd1c71b6abf17a231b7a86c09f2d408502a9bbec6a66",
+  "source_sha256": {
+    "firmware/main/proto_control.h": "e3c54a729d7201b83272baee6870d604fc80130c0f7e3aecfcde4e6344e75144",
+    "firmware/main/evt_console.h": "3d7624843e416c964860d96f469b4d846e7061b4775ac464d3aea71d65e683ba",
+    "firmware/main/r0_sensors.h": "7d6999102686aae8554bc99691a0692c8df558f7b30c9d3ed8d28fabf18b9e16",
+    "firmware/main/r0_app.h": "a75070498f333982573dfaa344176be10a2eb30609b8e32dfd77381a3e3ffd42",
+    "firmware/main/evt_math.c": "8ad44ad86cc8aa4844ca9930b79fd9b91ffc4c3534f319c956656b4b985beee4",
+    "firmware/main/main.c": "da35f414f6d4c09cee3ff7c6a57281dc919b2cc849fa23fd36072800ab0ed2bf",
+    "firmware/main/proto_control.c": "08326dca041f62ede3039ce8ac0f02aa6bbdf71c38258e00eba11d70e96a54a8",
+    "firmware/main/r0_sensors.c": "bba7274e39a09dd36a58eeb6d411e2882f0780e9ac020aa70415b7935c6266be",
+    "firmware/main/evt_console.c": "f25776bb50d3dd9d1c2496895a5312bd2dc7ef986b1ffbb2ce60d82ecaf188d1",
+    "firmware/main/evt1_sensors.c": "5942d105854ece128ac86f0ad50c8c8b927918038db0026b658336e762c0cfce",
+    "firmware/main/evt_math.h": "5af99ae7a0866635430b5acfab890bdfea9c4c07be964ad599ac62edcff06531",
+    "firmware/main/r0_radio.c": "19a305004efc631f23bba3186e2fe64b6671496fd711f3ab477c173b32091ada",
+    "firmware/main/CMakeLists.txt": "e4bfce5a3cd88424af6e961e1bad7268dcf4cd32ea2cf1a1916fdf761d14b882",
+    "firmware/main/Kconfig.projbuild": "2313f2f3fecd9eee616e820e144c7f494538d4e38e2affcb98875613df527060",
+    "firmware/CMakeLists.txt": "1227e111dd39ebddde3d43c8ca77679ec5afe55c13503946dc2a7b460d2c0249",
+    "firmware/platformio.ini": "ebb7539a52032f63767e3058cd75a0c8b118cf01d8f93088e5869fb65987da31",
+    "firmware/sdkconfig.defaults": "ae3054a8fb78762affdb53da8ba063f4f81ea8283f6706bde765c064cbb8b4e9",
+    "firmware/partitions.csv": "6e730e4068bd2552cc5a2a7cfee39f6256c9435842a385656a83fe6dc8a8505e",
+    "firmware/version.txt": "c2ef39e09593cca70be98a0fb0ab435b53e2eb3c3d4e812cd7d43794eafa7728",
+    "firmware/sdkconfig.evt1": "e1ed2fe57a4040a38d2ab045af0784fcff7df62ea7a411ebeca561396e1be9f2"
+  },
+  "legacy_profile_build": {
+    "result": "passed",
+    "clean_build_seconds": 58.04,
+    "version": "0.1.0-dev",
+    "log_sha256": "bf568757b367b5b0750fa668e50435f095477f55deab720af34dc380cb4899fd",
+    "firmware_bin_sha256": "f32a630eaf95b7213fab17bc0a2105d6296fb5f4956475bcfe89a08c0ec5344c"
+  },
+  "host_checks": [
+    "control faults/gates/lease/staleness",
+    "thermistor resistor fixtures/open/short/rail/drift/monotonicity",
+    "1680 known compass poses/calibrations plus invalid-data gates"
+  ],
+  "limits": [
+    "No I2C, radio, USB enumeration/recovery, timing, flashing, current or thermal hardware result",
+    "Compass haptic behavior and factory fixture/calibration workflow incomplete"
+  ],
+  "environment_note": "Clean EVT build passed in 53.624s after quarantining a stalled generated build cache. Explicit version.txt avoids a whole-repository Git dirty-version scan. Prior validated artifacts remain under the ignored generated-build directory. Clean legacy build also passed in 58.040s.",
+  "version": "0.1.0-dev",
+  "clean_build_seconds": 53.624
+}

@@ -1,0 +1,54 @@
+{
+  "sources_sha256": {
+    "MetalBody.step": "5e10ec6e9262e9ae31bc9de3f677502385ef96dab46dc34b1af3ceabf53ad6dd",
+    "MotorThermistorCap.step": "85d1ed65131e144f911907fdd296d569567a265ba7d4b693c232ed86fe6c0fb7",
+    "FlangeSkin.step": "9329db8320260163cf64b62717c781c09f012c1942ae9a4c85214307cc696189",
+    "compass_datums.py": "2cc0a756778b56173491fad499aec932f2e7b90bfede486f6e66932df03760bf"
+  },
+  "assembled_bounds_mm": [
+    -29.6,
+    -26.393785,
+    -20.002443,
+    29.6,
+    98.099998,
+    20.002443
+  ],
+  "parts": {
+    "MockupHalfA": 1,
+    "MockupHalfB": 1,
+    "MockupAlignmentPin": 3
+  },
+  "valid_saved_step": true,
+  "saved_step_solids": 5,
+  "nominal_pin_diametral_clearance_mm": 0.3,
+  "nominal_pin_total_axial_clearance_mm": 0.6,
+  "product_sources_modified": false,
+  "physical_print_verified": false,
+  "bambu_studio": {
+    "version": "2.8.2.61",
+    "verification": "GUI preview displayed Slice ok",
+    "objects": 5,
+    "layers": 125,
+    "estimated_filament_g": 50.0,
+    "estimated_filament_m": 16.76,
+    "estimated_total_minutes": 142,
+    "printer": "Bambu Lab P2S",
+    "nozzle_mm": 0.4,
+    "flow": "Standard",
+    "layer_height_mm": 0.16,
+    "supports": false,
+    "print_sent": false,
+    "project_sha256": "ab261e94934a50f54005a4c91306d5bde495b97591e05248ad01202bfe9769ca",
+    "cli_note": "CLI encountered stock Invalid T command (T65535); fresh GUI slice displayed Slice ok. Deliverable is the editable print project, with no standalone machine G-code."
+  },
+  "native_assembly_relocation_check": {
+    "passed": true,
+    "links": 5,
+    "all_sources_resolve_within_bundle": true
+  },
+  "live_mech_viewer": {
+    "requested_saved_path": "/Users/lucianchapar/Backplane/buttplug-compass/hardware/pcb/evt1/one-board/mech/MockupAssembly.step",
+    "refresh_acknowledged": false,
+    "rendered_preview_verified": true
+  }
+}

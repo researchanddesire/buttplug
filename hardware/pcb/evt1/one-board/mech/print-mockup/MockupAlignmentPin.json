@@ -1,0 +1,39 @@
+{
+  "valid": true,
+  "native_solids": 1,
+  "mesh_watertight": true,
+  "mesh_components": 1,
+  "triangles": 1084,
+  "assembled_bounds_mm": [
+    -1.5,
+    -1.499086,
+    -0.0,
+    1.5,
+    1.499086,
+    8.0
+  ],
+  "print_bounds_mm": [
+    -1.5,
+    -1.499086,
+    -0.0,
+    1.5,
+    1.499086,
+    8.0
+  ],
+  "sources_sha256": {
+    "MetalBody.step": "5e10ec6e9262e9ae31bc9de3f677502385ef96dab46dc34b1af3ceabf53ad6dd",
+    "MotorThermistorCap.step": "85d1ed65131e144f911907fdd296d569567a265ba7d4b693c232ed86fe6c0fb7",
+    "FlangeSkin.step": "9329db8320260163cf64b62717c781c09f012c1942ae9a4c85214307cc696189",
+    "compass_datums.py": "2cc0a756778b56173491fad499aec932f2e7b90bfede486f6e66932df03760bf"
+  },
+  "features": {
+    "volume_cm3": 0.055175,
+    "area_cm2": 0.847023,
+    "size_x_mm": 8.0,
+    "size_y_mm": 3.0,
+    "size_z_mm": 2.998173
+  },
+  "quantity": 3,
+  "print_mesh": "print-mockup/MockupAlignmentPin.stl",
+  "physical_print_verified": false
+}
