@@ -1,0 +1,248 @@
+{
+  "sources": {
+    "hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd": "c8748a4365db26d9c6bd5b4ffc736ba1ad4af0cf9c9d9226e4d0b2f88e372313",
+    "hardware/pcb/evt1/one-board/mech/compass-device.FCStd": "d2f2b637df8e4e4c9563e18baeef7bbb3eb5e97fa31fa57708ec482e9628d988"
+  },
+  "existing_body_translation_xyz_mm": [
+    0.0,
+    53.2,
+    32.0
+  ],
+  "compact_target_faces_xyz_mm": [
+    [
+      2.0,
+      -24.133,
+      -7.5
+    ],
+    [
+      8.0,
+      -24.133,
+      -7.5
+    ],
+    [
+      14.0,
+      -24.133,
+      -7.5
+    ],
+    [
+      20.0,
+      -24.133,
+      -7.5
+    ]
+  ],
+  "existing_loaded_pin_faces_xyz_mm": [
+    [
+      -16.0,
+      23.2,
+      42.0
+    ],
+    [
+      -10.0,
+      23.2,
+      42.0
+    ],
+    [
+      -4.0,
+      23.2,
+      42.0
+    ],
+    [
+      2.0,
+      23.2,
+      42.0
+    ]
+  ],
+  "compact_targets_below_flat_skin_face_mm": 1.767,
+  "forced_alignment": {
+    "translation_xyz_mm": [
+      -18.0,
+      47.333,
+      49.5
+    ],
+    "overlaps": [
+      {
+        "plug": "FlangeSkin",
+        "dock": "ContactCarrierInstance",
+        "volume_mm3": 887.74562
+      },
+      {
+        "plug": "FlangeSkin",
+        "dock": "UpperChamberInstance",
+        "volume_mm3": 686.85978
+      },
+      {
+        "plug": "FlangeSkin",
+        "dock": "UpperShellInstance",
+        "volume_mm3": 2909.46544
+      },
+      {
+        "plug": "FlangeTray",
+        "dock": "UpperChamberInstance",
+        "volume_mm3": 487.7599
+      },
+      {
+        "plug": "FlangeTray",
+        "dock": "UpperShellInstance",
+        "volume_mm3": 961.03622
+      },
+      {
+        "plug": "MetalBody",
+        "dock": "UVLidBoardAssembly",
+        "volume_mm3": 7.53841
+      },
+      {
+        "plug": "MetalBody",
+        "dock": "UpperChamberInstance",
+        "volume_mm3": 1213.62098
+      },
+      {
+        "plug": "MetalBody",
+        "dock": "UpperShellInstance",
+        "volume_mm3": 491.0398
+      },
+      {
+        "plug": "MotorThermistorCap",
+        "dock": "LidUVThermalModuleInstance",
+        "volume_mm3": 88.46473
+      },
+      {
+        "plug": "MotorThermistorCap",
+        "dock": "UVLidBoardAssembly",
+        "volume_mm3": 170.93199
+      },
+      {
+        "plug": "MotorThermistorCap",
+        "dock": "UpperChamberInstance",
+        "volume_mm3": 671.91427
+      },
+      {
+        "plug": "MotorThermistorCap",
+        "dock": "UpperShellInstance",
+        "volume_mm3": 522.03982
+      },
+      {
+        "plug": "RearCover",
+        "dock": "ContactCarrierInstance",
+        "volume_mm3": 215.88283
+      },
+      {
+        "plug": "RearCover",
+        "dock": "UpperChamberInstance",
+        "volume_mm3": 177.74648
+      },
+      {
+        "plug": "RearCover",
+        "dock": "UpperShellInstance",
+        "volume_mm3": 98.95186
+      }
+    ]
+  },
+  "existing_body_overlaps": [
+    {
+      "plug": "FlangeSkin",
+      "dock": "DeviceSeatingModuleInstance",
+      "volume_mm3": 11.29536
+    },
+    {
+      "plug": "FlangeSkin",
+      "dock": "LowerChamberInstance",
+      "volume_mm3": 323.50249
+    }
+  ],
+  "revised_row": {
+    "plug_translation_xyz_mm": [
+      0.0,
+      53.2,
+      33.5
+    ],
+    "removed_from_fit_context": [
+      "ContactCarrierInstance",
+      "ContactRetainerInstance",
+      "DeviceSeatingModuleInstance"
+    ],
+    "retained_case_overlaps": [],
+    "selected_closed_clearances": [
+      {
+        "plug": "FlangeSkin",
+        "dock": "LowerChamberInstance",
+        "gap_mm": 0.849567
+      },
+      {
+        "plug": "FlangeSkin",
+        "dock": "UpperChamberInstance",
+        "gap_mm": 2.0
+      },
+      {
+        "plug": "MetalBody",
+        "dock": "UVLidBoardAssembly",
+        "gap_mm": 11.366167
+      },
+      {
+        "plug": "MotorThermistorCap",
+        "dock": "UVLidBoardAssembly",
+        "gap_mm": 5.099446
+      }
+    ],
+    "target_faces_xyz_mm": [
+      [
+        2.0,
+        29.067,
+        26.0
+      ],
+      [
+        8.0,
+        29.067,
+        26.0
+      ],
+      [
+        14.0,
+        29.067,
+        26.0
+      ],
+      [
+        20.0,
+        29.067,
+        26.0
+      ]
+    ],
+    "loaded_pin_shift_xyz_mm": [
+      18.0,
+      5.867,
+      -16.0
+    ],
+    "stop_od_mm": 2.4,
+    "stop_id_mm": 1.8,
+    "stop_radial_margin_on_target_mm": 0.3875,
+    "nominal_pin_compression_mm": 0.6,
+    "noncontact_body_to_stop_or_pin_overlaps": [],
+    "stop_to_pin_overlaps": [],
+    "stop_or_pin_to_retained_dock_overlaps": [],
+    "stop_ring_slide_samples": [
+      {
+        "slide_offset_mm": 3.0,
+        "overlaps": []
+      },
+      {
+        "slide_offset_mm": 2.0,
+        "overlaps": []
+      },
+      {
+        "slide_offset_mm": 1.0,
+        "overlaps": []
+      },
+      {
+        "slide_offset_mm": 0.6,
+        "overlaps": []
+      },
+      {
+        "slide_offset_mm": 0.3,
+        "overlaps": []
+      },
+      {
+        "slide_offset_mm": 0.0,
+        "overlaps": []
+      }
+    ]
+  },
+  "scope": "Saved nominal solids, selected closed dock obstacles and sampled axial approach to revised stop rings. The revised row is a geometric fit envelope. The carrier, mount and nest changes, wire/PCB placement, retention, user loading, physical contact sequencing, UV coverage and powered behavior need validation."
+}
