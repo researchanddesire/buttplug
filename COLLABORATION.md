@@ -1,57 +1,24 @@
 # Collaboration checkpoint
 
-Start with `developer-docs/docs/prototype-build-handoff.md` and open
-`hardware/cad/manufacturing-layout/ManufacturingLayout.FCStd` in FreeCAD.
-This checkpoint is an engineering study, not a fabrication or human-use release.
+Start with the [developer docs](developer-docs/docs/index.md) for the device,
+dock and [project status](developer-docs/docs/status.md). The [source
+map](developer-docs/docs/hardware.md) identifies the native projects and reports.
 
-## Saved versus discussed
+## Current sources
 
-- **Saved CAD:** two CNC metal parts, 15 mm neck, cap-mounted motor and offset
-  potted NTC, separate body/flange boards, plastic tray/cover and a boot-root section.
-- **Saved rear joint:** round spigot, retaining ring and bonded socket. Its
-  clearance/rotation limitations motivated the subsequent discussion below.
-- **Next joint direction, not modeled:** keyed rear collar (hex or opposing
-  flats), short rear thread and thin clamp nut. No separate compression limiter
-  is selected. A keyed tab washer is a candidate positive nut lock; safety wire
-  and rivets are alternatives discussed, not adopted parts. Check tightness
-  and separation independently, including loss of preload and plastic pull-through.
-- **Electrical reference:** `hardware/pcb/pack-pigtail-r35/candidate-f/` (R35F).
-  It and the bench firmware still use TMP117/I2C; the new NTC circuit and code
-  are not integrated. CAD PCB tabs are not implemented in the routed boards.
-- Battery selection, finished materials, full boot/seals, actual loom and
-  motor fit remain open. The human-owned BOM stays header-only.
+- [Compact device PCB](hardware/pcb/evt1/one-board/compass-one-board.kicad_pro)
+  and [FreeCAD assembly](hardware/pcb/evt1/one-board/mech/compass-device.FCStd).
+  The existing split-board and single-flange studies are design references.
+- [Three-wire pack request](hardware/pcb/evt1/one-board/PACK-RFQ.md)
+  BC-PACK-EVT1-002 and [device wiring](hardware/cables/evt1/one-board/README.md).
+- [Wired dock assembly](hardware/cad/evt1-assembly/evt1-wired/DockAssembly.FCStd)
+  and [compact fit studies](developer-docs/docs/charging-dock.md#compact-fit-studies).
+  The wired seat needs a revised carrier and nest for this plug. The compact
+  magnetic dock and flush-contact section are separate proposals.
 
-## What is included
+## Next build
 
-Current mechanical native/STEP/STL files and review figures; the verified P1
-native/review used as builder input; R35F native schematics/boards and their
-custom library dependencies; bench firmware; cable recipes; development tools;
-and current/archived documentation. The prior manufacturing native is marked
-superseded in its adjacent archive.
-
-Local intermediate CAD/PCB iterations, rendering caches, withdrawn P1 print-kit
-exports, downloaded reference PDFs and generated cable outputs are not part of
-this focused checkpoint. Historical docs/scripts may refer to those local-only
-artifacts; use the current paths above for an editable starting point.
-
-## Checks and rebuilding
-
-- Developer site: `mkdocs build --strict -f developer-docs/mkdocs.yml`
-  after installing `developer-docs/requirements.txt`.
-- Firmware host tests: `sh firmware/tests/run_host_tests.sh`. No flashing.
-- BOM: `python3 .github/workflows/scripts/bom_lint.py`.
-- Mechanical builder: run `tools/build_manufacturing_layout.py` with FreeCAD's
-  Python, the included P1 native as argument1 and a scratch output folder as
-  argument2. Then run `tools/verify_manufacturing_layout.py OUTPUT` with that
-  runtime. Configure visibility with `tools/configure_manufacturing_view.py`.
-  Renderers require NumPy/Pillow, plus PyMuPDF for the section sheet. Scripts
-  currently assume the macOS FreeCAD library path; other hosts need that path
-  adapted. The advanced verifier also needs PythonOCC in the FreeCAD runtime.
-
-Native hashes and scoped checks are in `review.json`. A fresh rebuild produces
-new file hashes; do not overwrite original provenance to imply a new physical
-result. KiCad footprint tables resolve repository-local libraries; standard
-3D models still require an installed KiCad library/model path.
-
-License selection remains pending. This branch is shared development progress;
-no product release or external documentation-site publication is implied.
+Use the [illustrated assembly guide](assembly-docs/assembly-guide.md) for the
+unpowered device trial and dock bench sequence. Record the Git commit and
+native revision with bench results. Review the [validation
+plan](developer-docs/docs/testing.md) before powered bring-up.

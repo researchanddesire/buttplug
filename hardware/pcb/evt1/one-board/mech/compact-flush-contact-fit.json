@@ -1,0 +1,121 @@
+{
+  "native_sha256": "99bfecc24108b97131a69f435d5538622c8984c4a32df1e34dbdd27feaf6f2de",
+  "step_sha256": "26159c7f5aad1f6d4bc64cc0857d946ba0390528b7f541ec5eacc8c7ba1fd40d",
+  "source_device_sha256": "d2f2b637df8e4e4c9563e18baeef7bbb3eb5e97fa31fa57708ec482e9628d988",
+  "source_dock_sha256": "b69118d1e60b734a7f84188429bd73049b4b7622a0da13e662f9d8f7c4e80b58",
+  "source_dock_fit_sha256": "e82907d6ed6e9439491f7c1af665f67ab04d5b8ab8a68af593a028bcbcd115fa",
+  "native_section_solid_count": 20,
+  "contact_pitch_mm": 6.0,
+  "target_face_diameter_mm": 3.175,
+  "contact_to_contact_metal_edge_gap_mm": 2.825,
+  "nominal_face_to_pcb_F_Cu_mm": 4.9,
+  "stamped_clip_envelope_thickness_mm": 0.3,
+  "face_seal": {
+    "free_id_mm": 1.8,
+    "free_section_mm": 0.4,
+    "gland_depth_mm": 0.3,
+    "gland_od_mm": 2.8,
+    "nominal_squeeze_pct": 25.00000000000001,
+    "nominal_cover_bearing_land_mm2_per_contact": 1.75978,
+    "illustrative_bearing_pressure_MPa_at_0p8N": 0.4546
+  },
+  "contacts": [
+    {
+      "net": "GND",
+      "axis_xz_mm": [
+        2.0,
+        -7.5
+      ],
+      "outer_face_y_mm": -25.9,
+      "extension_from_saved_target_mm": 1.767,
+      "loaded_dock_gap_mm": 0.0,
+      "head_to_cover_gap_mm": 0.0,
+      "seal_envelope_volume_fill_pct": 72.03,
+      "pair_overlap_mm3": {
+        "target_cover": 0.0,
+        "target_skin": 0.0,
+        "target_laminate": 0.0,
+        "target_pogo": 0.0,
+        "seal_cover": 0.0,
+        "seal_target": 0.0,
+        "clip_cover": 0.0,
+        "clip_target": 0.0,
+        "target_adjacent_pcb_packages": 0.0,
+        "clip_adjacent_pcb_packages": 0.0
+      }
+    },
+    {
+      "net": "USB D\u2212",
+      "axis_xz_mm": [
+        8.0,
+        -7.5
+      ],
+      "outer_face_y_mm": -25.9,
+      "extension_from_saved_target_mm": 1.767,
+      "loaded_dock_gap_mm": 0.0,
+      "head_to_cover_gap_mm": 0.0,
+      "seal_envelope_volume_fill_pct": 72.03,
+      "pair_overlap_mm3": {
+        "target_cover": 0.0,
+        "target_skin": 0.0,
+        "target_laminate": 0.0,
+        "target_pogo": 0.0,
+        "seal_cover": 0.0,
+        "seal_target": 0.0,
+        "clip_cover": 0.0,
+        "clip_target": 0.0,
+        "target_adjacent_pcb_packages": 0.0,
+        "clip_adjacent_pcb_packages": 0.0
+      }
+    },
+    {
+      "net": "USB D+",
+      "axis_xz_mm": [
+        14.0,
+        -7.5
+      ],
+      "outer_face_y_mm": -25.9,
+      "extension_from_saved_target_mm": 1.767,
+      "loaded_dock_gap_mm": 0.0,
+      "head_to_cover_gap_mm": 0.0,
+      "seal_envelope_volume_fill_pct": 72.03,
+      "pair_overlap_mm3": {
+        "target_cover": 0.0,
+        "target_skin": 0.0,
+        "target_laminate": 0.0,
+        "target_pogo": 0.0,
+        "seal_cover": 0.0,
+        "seal_target": 0.0,
+        "clip_cover": 0.0,
+        "clip_target": 0.0,
+        "target_adjacent_pcb_packages": 0.0,
+        "clip_adjacent_pcb_packages": 0.0
+      }
+    },
+    {
+      "net": "5 V",
+      "axis_xz_mm": [
+        20.0,
+        -7.5
+      ],
+      "outer_face_y_mm": -25.9,
+      "extension_from_saved_target_mm": 1.767,
+      "loaded_dock_gap_mm": 0.0,
+      "head_to_cover_gap_mm": 0.0,
+      "seal_envelope_volume_fill_pct": 72.03,
+      "pair_overlap_mm3": {
+        "target_cover": 0.0,
+        "target_skin": 0.0,
+        "target_laminate": 0.0,
+        "target_pogo": 0.0,
+        "seal_cover": 0.0,
+        "seal_target": 0.0,
+        "clip_cover": 0.0,
+        "clip_target": 0.0,
+        "target_adjacent_pcb_packages": 0.0,
+        "clip_adjacent_pcb_packages": 0.0
+      }
+    }
+  ],
+  "scope": "Nominal section and interference screen. Target, seal and clip are proposed geometry. The silicone overlap, overmold flash, clip installation and retention, plate strength, unmated wash seal, wet bridging, contact wear and USB require prototype checks. The dock head and keeper pockets are unchanged concepts awaiting hardware selection."
+}

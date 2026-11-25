@@ -1,0 +1,147 @@
+{
+  "source": {
+    "file": "compass-device.FCStd",
+    "sha256": "d2f2b637df8e4e4c9563e18baeef7bbb3eb5e97fa31fa57708ec482e9628d988"
+  },
+  "case_closed_width_depth_height_mm": [
+    84.0,
+    171.3,
+    58.0
+  ],
+  "modeled_custom_rigid_dock_parts": [
+    "base with integral nest",
+    "lid with seam skirt",
+    "bottom cover"
+  ],
+  "face_extension_mm": [
+    1.767,
+    1.767,
+    1.767,
+    1.767
+  ],
+  "contact_centers_mm": [
+    [
+      2.0,
+      0,
+      23.5
+    ],
+    [
+      8.0,
+      0,
+      23.5
+    ],
+    [
+      14.0,
+      0,
+      23.5
+    ],
+    [
+      20.0,
+      0,
+      23.5
+    ]
+  ],
+  "loaded_pin_to_target_gap_mm": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "maximum_sampled_lid_open_deg": 105,
+  "minimum_closed_plug_to_lid_mm": 1.223,
+  "load_poses": 17,
+  "lid_poses": 11,
+  "load_overlaps": [],
+  "lid_overlaps": [],
+  "head_overlaps": [],
+  "uv_c": {
+    "file": "dock-uv/base/pcb/dock-uv-base.step",
+    "sha256": "52c1b5f82f3f41d22065ed1889aa4cb3af9bcb385ba9f1fe45d42b9605f533da",
+    "mpn": "VLMU35CB20-275-120",
+    "source_optical_plane_mm": 2.755,
+    "emitters": [
+      {
+        "side": "left",
+        "height": "high",
+        "optical_center_mm": [
+          -25.975,
+          55.0,
+          42.0
+        ],
+        "optical_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "side": "left",
+        "height": "low",
+        "optical_center_mm": [
+          -25.975,
+          103.0,
+          20.0
+        ],
+        "optical_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "side": "right",
+        "height": "high",
+        "optical_center_mm": [
+          25.975,
+          103.0,
+          42.0
+        ],
+        "optical_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "side": "right",
+        "height": "low",
+        "optical_center_mm": [
+          25.975,
+          55.0,
+          20.0
+        ],
+        "optical_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "hall_stations": [
+      {
+        "side": "left",
+        "sensor_and_target_xy_mm": [
+          -36.5,
+          -9.2
+        ],
+        "closed_target_to_component_envelope_mm": 1.88
+      },
+      {
+        "side": "right",
+        "sensor_and_target_xy_mm": [
+          36.5,
+          -9.2
+        ],
+        "closed_target_to_component_envelope_mm": 1.88
+      }
+    ],
+    "fixed_rails": 2,
+    "separate_hall_stations": 2,
+    "underfloor_free_height_mm": 4.1,
+    "chamber_floor_over_bay_mm": 1.9,
+    "minimum_closed_plug_to_uv_hardware_mm": 4.8,
+    "mount_overlaps": [],
+    "scope": "Source Vishay geometry. Rail PCBs, thermal attachment, cable feedthroughs and Hall integration are packaging candidates."
+  },
+  "scope": "Nominal fit of the source plug exterior, contact interface and UV hardware. Physical fit, cutoff, thermal behavior, leakage and cleaning efficacy require measurement."
+}

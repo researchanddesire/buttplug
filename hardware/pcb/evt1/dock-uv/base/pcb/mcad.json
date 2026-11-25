@@ -1,0 +1,94 @@
+{
+  "status": "pass: actual STEP valid and selected LED terminal/optical planes verified",
+  "board_file": "dock-uv-base.kicad_pcb",
+  "board_sha256": "2869e1102f18f18faf50fb3c7566a9f70aed2cd1d5c648f97af3ad59ab63ff70",
+  "STEP_file": "dock-uv-base.step",
+  "STEP_sha256": "52c1b5f82f3f41d22065ed1889aa4cb3af9bcb385ba9f1fe45d42b9605f533da",
+  "checker_sha256": "5177e0aac5a0f5a64f2f82e23ea1aab54e81c90ce051a042e050572edefe9bc3",
+  "valid_solid_count": 41,
+  "core_bounds_mm": [
+    -49.0,
+    86.0,
+    0.0,
+    49.0,
+    135.0,
+    0.86
+  ],
+  "CLI_source_planar_origin_mm": [
+    100,
+    200
+  ],
+  "CLI_STEP_planar_center_mm": [
+    0,
+    110.5
+  ],
+  "CLI_STEP_F_copper_plane_Z_mm": 0.93,
+  "CLI_STEP_B_copper_plane_Z_mm": -0.07,
+  "CLI_STEP_F_package_mount_Z_mm": 0.98,
+  "CLI_STEP_B_package_mount_Z_mm": -0.12,
+  "CLI_STEP_LED_optical_top_Z_mm": 2.755,
+  "CLI_STEP_LED_active_optical_normal": [
+    0,
+    0,
+    1
+  ],
+  "CLI_STEP_solder_standoff_mm": 0.05,
+  "CLI_STEP_to_dock_rigid_4x4": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      12.27
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "StepUp_expected_centered_Fplane0_to_dock_rigid_4x4": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      110.5
+    ],
+    [
+      0,
+      0,
+      1,
+      13.2
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "StepUp_note": "The centered StepUp convention must be checked after native import; do not apply it directly to this uncentered CLI STEP. Lid is Ry180, not a mirror; X-site references intentionally exchange.",
+  "selected_models_manifest_sha256": "194de367a06436233722888d5cb3207c032ef23cf328a25cd44f30022252db87",
+  "remote_parts": "NTC and67L045 are not solder-mounted PCB bodies; their thermal attachment/retention is separate.",
+  "physical_fit": false,
+  "thermal_validation": false,
+  "optical_validation": false
+}
