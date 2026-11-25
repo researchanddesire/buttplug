@@ -1,0 +1,274 @@
+{
+  "recorded_utc": "2026-11-13T03:56:30.624339+00:00",
+  "platformio_espressif32": "6.13.0",
+  "esp_idf": "5.5.3",
+  "source_hashes_relative_to_firmware": {
+    "CMakeLists.txt": "1227e111dd39ebddde3d43c8ca77679ec5afe55c13503946dc2a7b460d2c0249",
+    "main/CMakeLists.txt": "f8555a40f42b5252406bc05ed13265bba44ea8aba275d8fff578dd805e42b12e",
+    "main/Kconfig.projbuild": "2313f2f3fecd9eee616e820e144c7f494538d4e38e2affcb98875613df527060",
+    "main/case_runtime.c": "ac0e296e6efe6e8fcbeb8d4f8e736b0e4b421805700513f1ce8edf2080b7a464",
+    "main/case_runtime.h": "ce4693ad9535671ff3bd9fff48dde50cb9ad8cfb9ed50efa89e66f54ebdd3232",
+    "main/case_telemetry.c": "1a5078f1ffe9b1527b62c689c85e003ed24f2eebb002f4fbaa6e3e556d1efef0",
+    "main/case_telemetry.h": "54eb8b65c73171be20b4be5bd1c0d65dfeeb6ed4556113ccfd8c90efa9ca5576",
+    "main/compass_control.c": "ec2bd5ce84bbdbaa4d8ad4154738e9736e61ee2d1054e2dad8e3a76de7e96d6d",
+    "main/compass_control.h": "d2c9fb83962610f6749006bef2b776ef7b0bd73c4ee736a98cdfe5630b0e7a33",
+    "main/compass_protocol.c": "7fd54c56d3885d3ddc89eaf260ed948025ff5ad8e597f088c76f1fc316bc819f",
+    "main/compass_protocol.h": "0c97ae67b30b74845cbad28bddcd968a9a2f3e42fa5ddf7887dbfd5badaf02a6",
+    "main/evt1_sensors.c": "1f7206d1b73c945bfd5edd46a524d720f1cdc5d372a1b8adecef447e46f58988",
+    "main/evt_case_radio.c": "1d690a57a37d02727d4f26da54a2c47b90fdf7559a4b4dd0c87a8195b5355c71",
+    "main/evt_case_radio.h": "9172834d95ca7710588c7b301f56e49c85fbc0a592b2b634adfcbc6bb91723a2",
+    "main/evt_console.c": "a9cb9813846c12d84fdd97372eaa8e70d70bd752968617de565f711f1cb815f3",
+    "main/evt_console.h": "2d7cfab9d9927b6f6340962c5cc127daf874625125a0961ad128e5efc983f6b3",
+    "main/evt_math.c": "8ad44ad86cc8aa4844ca9930b79fd9b91ffc4c3534f319c956656b4b985beee4",
+    "main/evt_math.h": "5af99ae7a0866635430b5acfab890bdfea9c4c07be964ad599ac62edcff06531",
+    "main/main.c": "9fff1a804a5e3d891531ea9c7c2771a0ccf96461e182e09c70d5063d1aba011c",
+    "main/plug_runtime.c": "c0448e17e202eb42eb9590b3b9f10526033d4c95506c5d9f0135b94ab6551103",
+    "main/plug_runtime.h": "51657d88d913d59cbe5b7d13d07f59a0f96d3b9c13c095c064b8e037cb124ad8",
+    "main/proto_control.c": "08326dca041f62ede3039ce8ac0f02aa6bbdf71c38258e00eba11d70e96a54a8",
+    "main/proto_control.h": "e3c54a729d7201b83272baee6870d604fc80130c0f7e3aecfcde4e6344e75144",
+    "main/r0_app.h": "76d64654d6cf5904ed09777e5e7a94acca6d8b073d5e1afd409fc5061fc7c67d",
+    "main/r0_radio.c": "a4d827dd75292ba6b676e471cbf366df1482c6a86cb1ebe7924482b4b1220e5d",
+    "main/r0_sensors.c": "bba7274e39a09dd36a58eeb6d411e2882f0780e9ac020aa70415b7935c6266be",
+    "main/r0_sensors.h": "d95474c5fe8f35c96e73a68c66aed10c91b4519ac18c3fcd7e74ed06cb8cd00c",
+    "main/thermal_history.c": "ed64c9bbe5414a608d83e1f6fff479e8b463771a8b9ffd44d55d8444ae970988",
+    "main/thermal_history.h": "5cd0585e2b5c5ea342ad6103fe8eea6e8753e39a16ab8628127063230325a5f1",
+    "partitions.csv": "6e730e4068bd2552cc5a2a7cfee39f6256c9435842a385656a83fe6dc8a8505e",
+    "platformio.ini": "ebb7539a52032f63767e3058cd75a0c8b118cf01d8f93088e5869fb65987da31",
+    "sdkconfig.defaults": "ae3054a8fb78762affdb53da8ba063f4f81ea8283f6706bde765c064cbb8b4e9",
+    "sdkconfig.evt1": "e1ed2fe57a4040a38d2ab045af0784fcff7df62ea7a411ebeca561396e1be9f2",
+    "sdkconfig.prototype-r0": "e1ed2fe57a4040a38d2ab045af0784fcff7df62ea7a411ebeca561396e1be9f2",
+    "version.txt": "c2ef39e09593cca70be98a0fb0ab435b53e2eb3c3d4e812cd7d43794eafa7728"
+  },
+  "host_input_hashes": {
+    "firmware/tests/case-radio-stubs/host/ble_gap.h": "da81cdb2d76056773a0f256e1f4117345fabb254af220cff706769d8c2048bc2",
+    "firmware/tests/case-radio-stubs/host/ble_hs.h": "fc0effd6c591ccfb9194a3bffd07134a5d5124164b3eff40d72446ef60c63db1",
+    "firmware/tests/case-radio-stubs/host/ble_hs_mbuf.h": "66f6e95aa8be26156229547e36d255dd7f0e36021b700e6551bfbc00c1d38ebc",
+    "firmware/tests/case-radio-stubs/host/ble_uuid.h": "73ed23101cdf3fa0caae782a34c8540c153f1f62ab9492db4836cc74e1a97785",
+    "firmware/tests/case-radio-stubs/nimble/nimble_npl.h": "8089db5c878e30b015c610a512506d4d1c889c123e4f4490a2fe4f018ab043cd",
+    "firmware/tests/case-radio-stubs/nimble/nimble_port.h": "e939cd62710c469a219f7b466c49bdeed09156fdf093cdf972f74ab772acbcdc",
+    "firmware/tests/console-stubs/cJSON.h": "eff9b20391600b33ab4d1efce8dade2863410827fe6600161f2ea9c53196015c",
+    "firmware/tests/console-stubs/driver/gpio.h": "e41199af1d7b8993078f45a3ec28af89934a4500a4ffaeba38f58ea6a5e236a4",
+    "firmware/tests/console-stubs/driver/usb_serial_jtag.h": "363b97c77da5cdb0b315d19e9b059349173669a0e167f65402f76bba3fc30492",
+    "firmware/tests/console-stubs/esp_attr.h": "eeb17565d81d387240a34f855611453654e19d747bd5a19c81765840ad0a331c",
+    "firmware/tests/console-stubs/esp_err.h": "1563878bdd8bc4ae80f67bd5b9c9d4ce34917e7dc5025df5b8a03758a9c28b01",
+    "firmware/tests/console-stubs/esp_idf_version.h": "f6a09f3501ffe43dc64c00bf5aff9f8edb0705f3c40daf2b8fd93d8e6f7e2f9c",
+    "firmware/tests/console-stubs/esp_intr_alloc.h": "400607144e4a3758ffbad27b4dfca51c82abc00be4e739b8a2c43cc41012483b",
+    "firmware/tests/console-stubs/esp_system.h": "c3dd31c4181d3d05d46c1f3750f4efa93f7e7cd2e36fdbef5fee140d26b58006",
+    "firmware/tests/console-stubs/freertos/FreeRTOS.h": "8bafb997e5418402ba857229a7bc9fb82fe2cf33973ac50b3fd80092fe2afe79",
+    "firmware/tests/console-stubs/hal/usb_serial_jtag_ll.h": "4fe157ffb086d452846d24941efbf716e444f75df7d1b0c2763ee5eeb019dee8",
+    "firmware/tests/console-stubs/nvs.h": "3b5e01e63bb546108df5ad078ce00e2cc3ea644514af400c0576692005cdcfa3",
+    "firmware/tests/console-stubs/sdkconfig.h": "621ecd392577415db44ae4eebeda2e1511a390d4fb1692258db310a309c288c3",
+    "firmware/tests/run_case_radio_tests.sh": "1cd5306ccd376e9612908ebc6f2bdec49d5bc16278fa0019bb1aef778178b2a0",
+    "firmware/tests/run_evt_console_tests.sh": "09e65214c94efcdbe3f22d74c29447a052cd32ccc68603204da8bd18689b78d8",
+    "firmware/tests/run_host_tests.sh": "14a01dfe0e604c26b02bdf7a39cc6332e9309d67ad2ae493d1702d3c8f7963d6",
+    "firmware/tests/test_case_radio.c": "362ed545e71e3ead7fd705efa8bd91cb6f61f3367ccf474b470a6e1b0ec862a7",
+    "firmware/tests/test_case_runtime.c": "d1ea54b1962f248bbd2966ab77cc1d26fb3cab8a130773269dbfc56b68f43221",
+    "firmware/tests/test_case_telemetry.c": "4ab4982df6fe2a76e3fd6879725a5296bec99fcdd602598c88dfa5166a5afca1",
+    "firmware/tests/test_compass_control.c": "46460d9e2e335cc0b8ce7cf64ed0e19da6c595e2e979b1c16bae7c27def7bffd",
+    "firmware/tests/test_control.c": "6f760e5c67d66b8bca0223f2bbc5cc286de2666dfbd323db2772a75c002c24d9",
+    "firmware/tests/test_evt_console.c": "877febaf9ee610bd19c8c8753ec92b7824c32c5c1172762482435486a1453ea2",
+    "firmware/tests/test_evt_math.c": "a5b145e9b11d60cc521e51fde727bd8a0053e0f732694dd71873f6c9426039cb",
+    "firmware/tests/test_plug_runtime.c": "7c5f1f7eff3c168fc9b9f687a67c5c0cd3e67a2a5e527d95040eeebf2f96dd78",
+    "firmware/tests/test_thermal_history.c": "204b5319d15562de78a048f55b7a34909fc2982849b4c923ae880961a311e2df"
+  },
+  "receiver_input_hashes": {
+    "dock-firmware/case-link-candidate/Makefile": "ba54716b378452c59249152cf4411cc23f4af14a3e7bc9e49932c6c81bd1a791",
+    "dock-firmware/case-link-candidate/README.md": "f1e05a6242be9d9668373330ef1ae4b68a9aeb7ac3e1c51e9b37e1f4bee1a2cc",
+    "dock-firmware/case-link-candidate/case_link.c": "1a021b8585f37c9802d26cff0f55689446c3761934ac1190c191ef1c7e02972c",
+    "dock-firmware/case-link-candidate/case_link.h": "518dd86df138bd8cb5ef9ce84c745594d0889915a0c7f2d7d8df701e2474688e",
+    "dock-firmware/case-link-candidate/compile_only.c": "5639699426ddd52b9fce50ca0fd399de0abc54ce25d929e1b4c99b45a8637ba0",
+    "dock-firmware/case-link-candidate/compile_only.ld": "d0990cfbdc8b42c5d4bce8fc18ae78aea8b4f74f08d35327abe27f32cfa96850",
+    "dock-firmware/case-link-candidate/generate_vectors.py": "44489ad4226bf114acc06fab775084f8d8ff8c58c84f64eefa45d75791a98a54",
+    "dock-firmware/case-link-candidate/golden-vectors.json": "c16727ed9ab4def92362987b2a6170fe845ea4933a2315bfb5300007894d266e",
+    "dock-firmware/case-link-candidate/peer-regression.c": "f893aa00299512f168b687d6f36b9744b683dddc0a19371c3493de0c39a39cf6",
+    "dock-firmware/case-link-candidate/peer-review.json": "61dbc473efe999db93b3f862a0cc8a2ea319bf2c85e23a61e6be84a62af6e980",
+    "dock-firmware/case-link-candidate/test_case_link.c": "7b004ba536fe46f19e5989cd3c1f66eca7a73ebccc8cdff16d6c5ae32916fca6",
+    "dock-firmware/case-link-candidate/test_sender_roundtrip.c": "30816d77b1916a087f26a3f04d4a8c1eaa57af85bf7896fb1d32faf0608015db",
+    "dock-firmware/case-link-candidate/test_vectors.h": "aba9f272647d5147d14ac325b25bc938db899c0f05efaa84f77e74c5880ee115",
+    "dock-firmware/case-link-candidate/validate.py": "d3ea0795f8260245b20db337be869658213f8e7936fbd51001482863f4e9d783",
+    "dock-firmware/case-link-candidate/validation.json": "8f9e1e86aff210a271901325dcdd837965223f0f9d0ecd027f66950233c8e241"
+  },
+  "protocol": {
+    "path": "/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/evt1/case-telemetry-study/protocol-v1.json",
+    "sha256": "4678caf5112116f93fc80a013288c87fad0e0572ccb57d29b35e8bd2dbe971a5",
+    "bytes": 16804
+  },
+  "prior_thermal_artifacts_verified_unchanged": true,
+  "audited_SDK_primary_hashes_match": true,
+  "linked_EVT1_case_symbols": [
+    "evt_case_radio_init",
+    "evt_case_service_uuid",
+    "ct_runtime_update",
+    "ct_execute"
+  ],
+  "linked_legacy_case_symbols": [],
+  "normal_path_USB_detach_ISR": {
+    "functions": {
+      "pad_off_locked": {
+        "address": "403802de",
+        "section": ".iram0.text",
+        "size_hex": "0000001a"
+      },
+      "dock_detached": {
+        "address": "403802f8",
+        "section": ".iram0.text",
+        "size_hex": "00000022"
+      },
+      "gpio_isr_loop": {
+        "address": "40380662",
+        "section": ".iram0.text",
+        "size_hex": "000000da"
+      },
+      "gpio_intr_service": {
+        "address": "4038073c",
+        "section": ".iram0.text",
+        "size_hex": "0000002a"
+      },
+      "xPortSetInterruptMaskFromISR": {
+        "address": "4038d98e",
+        "section": ".iram0.text",
+        "size_hex": "0000001a"
+      },
+      "vPortEnterCritical": {
+        "address": "4038d9b8",
+        "section": ".iram0.text",
+        "size_hex": "00000030"
+      },
+      "vPortExitCritical": {
+        "address": "4038d9e8",
+        "section": ".iram0.text",
+        "size_hex": "00000060"
+      },
+      "vPortClearInterruptMaskFromISR": {
+        "address": "4038d9a8",
+        "section": ".iram0.text",
+        "size_hex": "00000010"
+      }
+    },
+    "data": {
+      "detach_generation": {
+        "address": "3fca6d58",
+        "section": ".dram0.bss"
+      },
+      "gpio_context": {
+        "address": "3fc9bf98",
+        "section": ".dram0.data"
+      },
+      "port_uxCriticalNesting": {
+        "address": "3fca6fa8",
+        "section": ".dram0.bss"
+      },
+      "port_uxOldInterruptState": {
+        "address": "3fca6fa4",
+        "section": ".dram0.bss"
+      }
+    },
+    "direct_calls": [
+      "vPortEnterCritical",
+      "pad_off_locked",
+      "vPortExitCritical"
+    ],
+    "pad_off_no_calls": true
+  },
+  "build_artifacts": [
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build/evt1/firmware.elf",
+      "sha256": "08ac2cc0fe9fc529463d654cd527b75182dbd54bd88066ae107700ba7880c89b",
+      "bytes": 11752496
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build/evt1/firmware.bin",
+      "sha256": "71623f007df98b58cfa8816b89fdaea5c1440212755dbb8faf14678158512372",
+      "bytes": 1159152
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build/evt1/bootloader.bin",
+      "sha256": "0f4c76bcf8a8f1e15485af5d46f846a325edb957d01dd62572031ea3ccd13249",
+      "bytes": 21008
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build/evt1/partitions.bin",
+      "sha256": "73c0b5c3e5fcba3a151cc70c453c93dd5f4798899e7f2f8cca76da1f32ffc501",
+      "bytes": 3072
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build/evt1/config/sdkconfig.h",
+      "sha256": "e754acc1bf10e1c4513f8faaf5778c6131b71769902dc05caae979ae7862861b",
+      "bytes": 51934
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build/prototype-r0/firmware.elf",
+      "sha256": "f7bfdc367dfe4c3284fbcfd168721a89e6b5046f1a50da4cbf0e8f5b42a328e9",
+      "bytes": 11374084
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build/prototype-r0/firmware.bin",
+      "sha256": "3ac327e7f9e942bc5cac74517c161ce34e5eed3eb5b399511e2b83318ec97ab1",
+      "bytes": 1109856
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build/prototype-r0/bootloader.bin",
+      "sha256": "c4328b65269c2e253b5d11020e43109ee5f7397b1389969f815dddc4905e14f7",
+      "bytes": 21008
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build/prototype-r0/partitions.bin",
+      "sha256": "73c0b5c3e5fcba3a151cc70c453c93dd5f4798899e7f2f8cca76da1f32ffc501",
+      "bytes": 3072
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build/prototype-r0/config/sdkconfig.h",
+      "sha256": "e754acc1bf10e1c4513f8faaf5778c6131b71769902dc05caae979ae7862861b",
+      "bytes": 51934
+    }
+  ],
+  "check_outputs": [
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/host.log",
+      "sha256": "e1df7d9ca1f5ce100f81ea188000100f1932d2ec1244f191ca58e2b71fa1135c",
+      "bytes": 1111
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/gatt.log",
+      "sha256": "71efd5ef9674ba9cddad742731e68ed8fb63d461834ccb27cd6ad7a7654630f0",
+      "bytes": 174
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/console.log",
+      "sha256": "c1decd4a10692eb8e339c5545d579f9602a68db13ce490cdf575b4fed16de70d",
+      "bytes": 355
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/roundtrip.log",
+      "sha256": "50d30798b2eafa87acb5c9e070296eb284c43e176d6e12e349d471a7eab4c89a",
+      "bytes": 172
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/receiver.log",
+      "sha256": "4eb94f02b0925d5b7803bf5bf3b8e0a17715c3c7ea5fad048367063b4a32c8d0",
+      "bytes": 59
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/build.log",
+      "sha256": "c90627f1aae955cd5c18f6230854e259c1da8842daafe016000e4aae3c5f3083",
+      "bytes": 288906
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/evt1-symbols.txt",
+      "sha256": "32a5a6877c57a9899c8dbb1814a5e963e6d76ce255482504791697d5854822cb",
+      "bytes": 357648
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/prototype-r0-symbols.txt",
+      "sha256": "6fe9086edd48d4f269483be874e0ab6a0ce0840a9e4e92264785975343f49522",
+      "bytes": 350390
+    },
+    {
+      "path": "/private/tmp/compass-case-link-verify.vxgtOv/isr-disassembly.txt",
+      "sha256": "0004e4c788e82465792202338e951688be863c0c0cfe2b092f87bc8bbc860d4f",
+      "bytes": 11300
+    }
+  ],
+  "physical_validation": false,
+  "flashed": false
+}

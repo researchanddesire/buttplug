@@ -1,0 +1,74 @@
+{
+  "part_number": "BC-PACK-EVT1-002",
+  "supersedes": "BC-PACK-EVT1-001 (hardware/pcb/evt1/pack-spec.json): 2-wire pack, two separate tape-on NTCs and a JST ACH disconnect, for the two-board EVT1. Kept as that design's record.",
+  "description": "Factory-built protected 1S high-rate LiPo pack with an internal 10 k NTC and three leads ending in a JST SH 3-pin plug, for the one-board Compass device",
+  "status": "Defined for RFQ; not submitted, no supplier accepted, no sample received",
+  "why_three_wires": "The pack's own NTC is the battery temperature sensor: it drives the BQ24074 TS pin (hardware charge cutoff, no firmware involved) and is read by the firmware on U7 AIN2 through R88/C88. It replaces the two separately bought, tape-coupled Vishay NTCs of BC-PACK-EVT1-001.",
+  "reference_cell": "EEMB LP502030HA (high-rate)",
+  "reference_cell_source": "https://www.eemb.com/product-248",
+  "reference_3wire_construction": "EEMB LP502030-PCM-NTC-LD: size, PCM and NTC wiring reference only; confirm its continuous rating against this request before offering it",
+  "nominal_voltage_V": 3.7,
+  "nominal_capacity_mAh": 230,
+  "minimum_capacity_mAh": 200,
+  "charge_voltage_V": 4.2,
+  "normal_charge_current_A": 0.1,
+  "charge_current_capability_min_A": 0.2,
+  "continuous_discharge_min_A": 1.5,
+  "pulse_discharge_A": 2.0,
+  "pulse_duration_ms": 100,
+  "pulse_repeat_period_min_ms": 1000,
+  "load_note": "Carried over from BC-PACK-EVT1-001: motor converter plus ESP32-C3 radio peaks at a low pack voltage. The board's JST SH connector is rated 1 A per contact, below this; see open_items.",
+  "normal_operation_temperature_C": [0, 45],
+  "protection_requirements": {
+    "factory_integrated": true,
+    "overcharge_detection_V": [4.25, 4.33],
+    "overdischarge_detection_V": [2.8, 3.0],
+    "overcurrent_and_short": "Supplier to give thresholds, delays, FET loss and temperature, recovery behaviour and evidence for the continuous and pulse load. Do not derive trip values from the cell's headline C rating.",
+    "charge_recovery": "Recover from undervoltage protection by a 4.2 V-limited charger on P+/P-; give the exact recovery conditions."
+  },
+  "thermistor": {
+    "type": "NTC, 10 kOhm +/-1 % at 25 C, B25/85 3435 K +/-1 % (103AT-2 class)",
+    "R25_ohm": 10000,
+    "R25_tolerance_percent": 1,
+    "B25_85_K": 3435,
+    "B_tolerance_percent": 1,
+    "mount": "Bonded to the cell's broad face under the pack wrap, away from the PCM, so it reads cell temperature, not PCM self-heating.",
+    "wiring": "Between the NTC lead (pin 3) and P- (the protected output negative, pin 2). It must not return to cell B- ahead of the PCM FETs (their drop shifts the reading at load), and the PCM must not load or share it.",
+    "device_use": "BQ24074 TS: 75 uA (72..78) bias, charge stops above 0.3 V hot / 2.1 V cold, about 0 C to 51 C with this curve (R42 470 k to 3V3 shifts the hot trip about +2 C). Firmware reads the same node on U7 AIN2."
+  },
+  "finished_pack_maximum_XYZ_mm": [21.0, 33.0, 6.3],
+  "device_frame_envelope_mm": {
+    "min_XYZ": [-10.5, 31.75, -4.15],
+    "size_XYZ": [21.0, 33.0, 6.3],
+    "note": "One-board device frame (hardware/pcb/evt1/one-board/mech/compass_datums.py): Y along the body axis toward the tip, pack in the body bulb, PCM and lead end at Y 31.75 facing the neck. Same 33 x 21 x 6.3 maximum as BC-PACK-EVT1-001."
+  },
+  "leads": {
+    "count": 3,
+    "P+": {"colour": "red", "awg": 28, "connector_pin": 1},
+    "P-": {"colour": "black", "awg": 28, "connector_pin": 2},
+    "NTC": {"colour": "white or yellow", "awg": "28 or 30", "connector_pin": 3},
+    "insulation_OD_mm": [0.5, 0.8],
+    "exit": "PCM short end, facing the neck (device -Y), near the pack's centre line",
+    "finished_length_min_mm": 90,
+    "length_note": "Modelled path from the pack to J2 is about 70 mm (mech/internals-fit.json); 90 mm minimum allows dressing. Length is from the pack case to the back of the plug housing."
+  },
+  "connector": {
+    "manufacturer": "JST",
+    "series": "SH, 1.0 mm pitch",
+    "housing": "SHR-03V-S",
+    "contacts": "SSH-003T-P0.2-H, crimped with JST tooling (wire range AWG 28..32)",
+    "quantity_contacts": 3,
+    "pin1": "Protected P+",
+    "pin2": "Protected P-",
+    "pin3": "NTC",
+    "mates_with": "J2, JST SM03B-SRSS-TB side-entry header on the one-board B.Cu",
+    "polarity_note": "There is no polarity standard for 3-pin battery plugs. The pinout above is mandatory; the supplier confirms it on the drawing and every sample is checked with a meter before the first mate.",
+    "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+  },
+  "assembly_reason": "The cap/body module threads with the pack leads free; the pack is plugged into J2 afterwards. Nobody solders the pack.",
+  "open_items": [
+    "Contact current: JST SH is rated 1 A per contact, below the 1.5 A continuous / 2 A pulse request. Before ordering, measure the real continuous battery current with the motor running and the radio active. If it can exceed 1 A, J2 and the plug need a higher-rated connector that still fits the 4 mm cavity.",
+    "Supplier drawing must confirm the NTC part, its curve, mounting and its return to P-.",
+    "Transport documents (UN 38.3 summary) for the finished pack."
+  ]
+}

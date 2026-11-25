@@ -1,0 +1,5 @@
+(footprint "NPTH_1.8mm_LocatingPin" (version 20221018) (generator build_evt1_device_pcbs)
+      (layer "F.Cu") (attr exclude_from_bom exclude_from_pos_files)
+      (fp_text reference "REF**" (at 0 0) (layer "F.Fab") (effects (font (size .8 .8) (thickness .12))))
+      (fp_text value "NPTH_1.8mm_LocatingPin" (at 0 0) (layer "F.Fab") (effects (font (size .8 .8) (thickness .12))))
+      (pad "" np_thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1.8) (layers "*.Cu" "*.Mask")))

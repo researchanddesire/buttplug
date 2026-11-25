@@ -1,0 +1,242 @@
+metadata:
+  title: One-board service / J4 to the bench programming fixture
+  notes: 'EVT one-board first article. Native numeric pin map; verify mating marks
+    and continuity. Nominal paths are centreline lengths from the mechanical internals
+    model, not finished cut lengths; blanks are starting stock. No physical crimp,
+    current or fit acceptance. Bench only; not part of the product. Self-powered interface:
+    the board is powered from its pack or dock contacts and no VBUS is supplied here.
+    The fixture end is open (flying leads to a USB breakout and EN/BOOT/TX test points);
+    number every lead.'
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J4:
+    type: 'JST SH6 socket to the board''s SM06B
+
+      side-entry header'
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    pinlabels:
+    - GND
+    - USB_DM
+    - USB_DP
+    - MCU_EN
+    - BOOT_N
+    - UART_TX
+    ignore_in_bom: false
+    manufacturer: JST
+    mpn: SHR-06V-S
+  FIXTURE:
+    type: Bench fixture / numbered flying leads
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    pinlabels:
+    - GND
+    - USB_DM
+    - USB_DP
+    - MCU_EN
+    - BOOT_N
+    - UART_TX
+    ignore_in_bom: true
+    notes: 'Keep D-/D+ together with minimal fanout. No 90 ohm or
+
+      signal-integrity claim.'
+cables:
+  S1:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - GND
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150 mm starting stock. Maximum insulated OD 0.6 mm.
+
+      Centreline bend at least 4 mm.
+
+      Installed route not modelled; bench length.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  S2:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - USB_DM
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150 mm starting stock. Maximum insulated OD 0.6 mm.
+
+      Centreline bend at least 4 mm.
+
+      Installed route not modelled; bench length.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  S3:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - USB_DP
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150 mm starting stock. Maximum insulated OD 0.6 mm.
+
+      Centreline bend at least 4 mm.
+
+      Installed route not modelled; bench length.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  S4:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - MCU_EN
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150 mm starting stock. Maximum insulated OD 0.6 mm.
+
+      Centreline bend at least 4 mm.
+
+      Installed route not modelled; bench length.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  S5:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - BOOT_N
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150 mm starting stock. Maximum insulated OD 0.6 mm.
+
+      Centreline bend at least 4 mm.
+
+      Installed route not modelled; bench length.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+  S6:
+    category: bundle
+    type: Individual stranded Kapton wire / trim on first article
+    wirecount: 1
+    colors:
+    - BN
+    wirelabels:
+    - UART_TX
+    gauge: 28
+    gauge_unit: AWG
+    length: 0.15
+    length_unit: m
+    ignore_in_bom: false
+    notes: '150 mm starting stock. Maximum insulated OD 0.6 mm.
+
+      Centreline bend at least 4 mm.
+
+      Installed route not modelled; bench length.
+
+      Do not pre-tin strands before ordinary crimping.
+
+      Supplier sets strip/crimp from controlled tooling data.'
+    manufacturer: Accu-Glass
+    mpn: '100690'
+connections:
+- - J4:
+    - 1
+  - S1:
+    - 1
+  - FIXTURE:
+    - 1
+- - J4:
+    - 2
+  - S2:
+    - 1
+  - FIXTURE:
+    - 2
+- - J4:
+    - 3
+  - S3:
+    - 1
+  - FIXTURE:
+    - 3
+- - J4:
+    - 4
+  - S4:
+    - 1
+  - FIXTURE:
+    - 4
+- - J4:
+    - 5
+  - S5:
+    - 1
+  - FIXTURE:
+    - 5
+- - J4:
+    - 6
+  - S6:
+    - 1
+  - FIXTURE:
+    - 6
+additional_bom_items:
+- description: SH socket crimp contact
+  qty: 6
+  unit: pcs
+  manufacturer: JST
+  mpn: SSH-003T-P0.2-H

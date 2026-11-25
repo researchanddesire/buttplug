@@ -1,0 +1,158 @@
+metadata:
+  title: One-board protected pack / factory JST SH 3P plug into J2
+  notes: 'EVT one-board first article. Native numeric pin map; verify mating marks
+    and continuity. Nominal paths are centreline lengths from the mechanical internals
+    model, not finished cut lengths; blanks are starting stock. No physical crimp,
+    current or fit acceptance. The pack (3-wire protected 1S LiPo with internal 10
+    k NTC, 502030 class) is bought with its three factory leads already crimped into
+    a JST SH 1.0 mm 3-pin plug (SHR-03V-S); nothing here is bought as loose cable
+    and nobody solders the pack. The pack is a human-owned BOM/RFQ line. Plug it into
+    J2 after the cap is threaded. There is no polarity standard for 3-pin battery
+    plugs: order the pinout below and check it with a meter before the first mate.'
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J2:
+    type: 'JST SH 3-pin side-entry header on the board,
+
+      SM03B-SRSS-TB'
+    pins:
+    - 1
+    - 2
+    - 3
+    pinlabels:
+    - PACK_P
+    - GND
+    - PACK_NTC
+    ignore_in_bom: true
+    manufacturer: JST
+    mpn: SM03B-SRSS-TB(LF)(SN)
+    notes: 'Board part (PCB BOM, assembled by the fab), not a cable part. Pin
+
+      1 PACK_P, 2 GND, 3 PACK_NTC. Rated 1 A per contact.'
+  PLUG:
+    type: Pack's factory JST SH 3P plug
+    pins:
+    - 1
+    - 2
+    - 3
+    pinlabels:
+    - Protected P+
+    - Protected P-
+    - NTC
+    ignore_in_bom: true
+    manufacturer: JST
+    mpn: SHR-03V-S
+    notes: 'Supplied fitted on the pack with three SSH-003T-P0.2-H contacts.
+
+      Specify 1 red P+, 2 black P-, 3 white/yellow NTC.'
+  PACK:
+    type: Factory-protected 1S pack with internal NTC
+    pins:
+    - 1
+    - 2
+    - 3
+    pinlabels:
+    - Protected P+
+    - Protected P-
+    - Internal NTC (to P-)
+    ignore_in_bom: true
+    manufacturer: Pack RFQ
+    mpn: BC-PACK-EVT1-002
+    notes: 'Pack RFQ item (one-board/PACK-RFQ.md), not a cable part. Its own
+
+      10 k B 3435 NTC is bonded to the cell and returns to P-: the
+
+      battery temperature sensor for the BQ24074 TS cutoff and the AIN2
+
+      reading. Leads at least 90 mm.
+
+      Pin 3 lead is white or yellow on typical packs.'
+cables:
+  PK1:
+    category: bundle
+    type: Included OEM lead
+    wirecount: 1
+    colors:
+    - RD
+    wirelabels:
+    - PACK_P
+    gauge: 26
+    gauge_unit: AWG
+    length: 0.066
+    length_unit: m
+    ignore_in_bom: true
+    notes: 'Factory pack lead crimped into the SH plug; gauge and length per the pack
+      RFQ.
+
+      Nominal installed path 66.0 mm; the factory lead must cover it with slack.'
+  PK2:
+    category: bundle
+    type: Included OEM lead
+    wirecount: 1
+    colors:
+    - BK
+    wirelabels:
+    - GND
+    gauge: 26
+    gauge_unit: AWG
+    length: 0.0659
+    length_unit: m
+    ignore_in_bom: true
+    notes: 'Factory pack lead crimped into the SH plug; gauge and length per the pack
+      RFQ.
+
+      Nominal installed path 65.9 mm; the factory lead must cover it with slack.'
+  PK3:
+    category: bundle
+    type: Included OEM lead
+    wirecount: 1
+    colors:
+    - WH
+    wirelabels:
+    - PACK_NTC
+    gauge: 26
+    gauge_unit: AWG
+    length: 0.0659
+    length_unit: m
+    ignore_in_bom: true
+    notes: 'Factory pack lead crimped into the SH plug; gauge and length per the pack
+      RFQ.
+
+      Nominal installed path 65.9 mm; the factory lead must cover it with slack.'
+connections:
+- - PLUG:
+    - 1
+  - PK1:
+    - 1
+  - PACK:
+    - 1
+- - PLUG:
+    - 1
+  - -->
+  - J2:
+    - 1
+- - PLUG:
+    - 2
+  - PK2:
+    - 1
+  - PACK:
+    - 2
+- - PLUG:
+    - 2
+  - -->
+  - J2:
+    - 2
+- - PLUG:
+    - 3
+  - PK3:
+    - 1
+  - PACK:
+    - 3
+- - PLUG:
+    - 3
+  - -->
+  - J2:
+    - 3
+additional_bom_items: []

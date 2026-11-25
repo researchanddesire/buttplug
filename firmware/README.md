@@ -1,12 +1,22 @@
-# R0 firmware
+# Compass device firmware
 
 Native ESP-IDF C firmware for the **candidate** ESP32-C3 hardware. This is a bench
 prototype, not a released product controller. No hardware has been flashed or
 validated. The default build reads sensors and exposes telemetry; **motor output
 is locked off** until explicit engineering bench limits are configured.
 
+The `evt1` profile also keeps a bounded per-boot thermal history. `thermal-status`
+over qualified docked USB reports the current reading and latest source-loss
+candidate with original measurement times, sample age/trend and first fresh
+post-loss conversion. PGOOD is a power observation, not physical removal;
+charging/UV state remain unknown. The 64-attempt/16-event RAM rings reset at boot,
+perform no per-sample flash writes and do not establish thermal readiness.
+
 See [the firmware prototype record](../developer-docs/docs/firmware.md)
 for wiring, controls, protocol, limits and outstanding checks.
+The [factory compass calibration procedure](../developer-docs/docs/evt1-electrical.md#factory-compass-calibration)
+uses `fit_compass_calibration.py` to generate the existing USB upload command
+from measured off-dock poses and separate verification data.
 
 ## Build without flashing
 
@@ -16,9 +26,24 @@ and its required IntelHex dependency in the same Python environment, or use
 root (the verified build host uses Python 3.11):
 
 ```sh
-pio run -d firmware -e prototype-r0
+pio run -d firmware -e evt1
+pio run -d firmware -e evt1-one-board
 firmware/tests/run_host_tests.sh
+sh firmware/tests/run_evt_console_tests.sh
+sh firmware/tests/run_case_radio_tests.sh
 ```
+
+Use `prototype-r0` for the earlier TMP117/MC3635 boards. For an EVT1 board,
+use the generated `firmware/.pio/build/evt1/` bootloader, partition table and
+application images from the same build. `flasher_args.json` records their
+flash offsets. For docked USB programming and recovery, follow the [wired dock acceptance
+procedure](../dock-firmware/wired-main/BRINGUP.md).
+
+Use `evt1-one-board` on the bulb battery product PCB and its debug PCB. This
+profile samples the dry pack monitor thermistor on ADS1115 AIN2 and reports
+`pack_temperature_millic` and `pack_temperature_sampled_ms` in device status.
+An open, shorted, unstable or stale reading reports `null`. The two hardware
+charge temperature paths still operate independently of this report.
 
 `platformio.ini` pins the Espressif platform to 6.13.0, which supplies ESP-IDF 5.5.3.
 The `esp32-c3-devkitm-1` definition provides the ESP32-C3/4 MB build target; it does

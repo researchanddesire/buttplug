@@ -1,0 +1,240 @@
+{
+  "scope": "Thermal RAM history, USB source snapshot/debug command, host boundaries and two cross-builds; no flashed/powered result",
+  "recorded_UTC": "2026-11-13T03:14:06.030050+00:00",
+  "pass": true,
+  "source_sha256": {
+    "firmware/main/thermal_history.h": "ed36b9b27f0e21e4e2b5733bd7d0655bd209db1508db684380c2997ed60fda2b",
+    "firmware/main/proto_control.h": "e3c54a729d7201b83272baee6870d604fc80130c0f7e3aecfcde4e6344e75144",
+    "firmware/main/plug_runtime.h": "51657d88d913d59cbe5b7d13d07f59a0f96d3b9c13c095c064b8e037cb124ad8",
+    "firmware/main/CMakeLists.txt": "c05eb0ccba64386fc905221e1bd532c691713802cf130a4e2c2d422e30419790",
+    "firmware/main/evt_console.h": "2d7cfab9d9927b6f6340962c5cc127daf874625125a0961ad128e5efc983f6b3",
+    "firmware/main/r0_sensors.h": "1852b11c9f6d92d4fd7c3d8bfc5c41d894dd5ebdb2f2e542d4015a4dadc1826e",
+    "firmware/main/r0_app.h": "d5d5846c5c9757bf89ad1e65fd9d3d930d855c5822d9cc77bbb8a2a09739ddbf",
+    "firmware/main/evt_math.c": "8ad44ad86cc8aa4844ca9930b79fd9b91ffc4c3534f319c956656b4b985beee4",
+    "firmware/main/compass_control.c": "ec2bd5ce84bbdbaa4d8ad4154738e9736e61ee2d1054e2dad8e3a76de7e96d6d",
+    "firmware/main/compass_protocol.c": "7fd54c56d3885d3ddc89eaf260ed948025ff5ad8e597f088c76f1fc316bc819f",
+    "firmware/main/main.c": "812c93d6dd6cbe64d98b7e7faf531d18fbe6c10973d18fed2fda50fa42bbec1b",
+    "firmware/main/thermal_history.c": "40be7c8babc937555560321b0bbe96a7d48470b6a39152cbeeef324d6bd1f421",
+    "firmware/main/proto_control.c": "08326dca041f62ede3039ce8ac0f02aa6bbdf71c38258e00eba11d70e96a54a8",
+    "firmware/main/r0_sensors.c": "bba7274e39a09dd36a58eeb6d411e2882f0780e9ac020aa70415b7935c6266be",
+    "firmware/main/evt_console.c": "a9cb9813846c12d84fdd97372eaa8e70d70bd752968617de565f711f1cb815f3",
+    "firmware/main/plug_runtime.c": "c0448e17e202eb42eb9590b3b9f10526033d4c95506c5d9f0135b94ab6551103",
+    "firmware/main/evt1_sensors.c": "efb3ea123189e3b8f5e34913e63095b62017ccc59a134fdb934f13687d1ecbac",
+    "firmware/main/compass_protocol.h": "0c97ae67b30b74845cbad28bddcd968a9a2f3e42fa5ddf7887dbfd5badaf02a6",
+    "firmware/main/evt_math.h": "5af99ae7a0866635430b5acfab890bdfea9c4c07be964ad599ac62edcff06531",
+    "firmware/main/Kconfig.projbuild": "2313f2f3fecd9eee616e820e144c7f494538d4e38e2affcb98875613df527060",
+    "firmware/main/compass_control.h": "d2c9fb83962610f6749006bef2b776ef7b0bd73c4ee736a98cdfe5630b0e7a33",
+    "firmware/main/r0_radio.c": "7ca08c9afab36f1b2aee932bdd7b386fccfa80bb8b6675529ed3436f918e3cdd",
+    "firmware/tests/test_control.c": "6f760e5c67d66b8bca0223f2bbc5cc286de2666dfbd323db2772a75c002c24d9",
+    "firmware/tests/run_evt_console_tests.sh": "09e65214c94efcdbe3f22d74c29447a052cd32ccc68603204da8bd18689b78d8",
+    "firmware/tests/test_thermal_history.c": "bdcdcb8fcfe0230695b1a6ff2b443464fedd67f822c1f0f829df78934f87b298",
+    "firmware/tests/test_evt_math.c": "a5b145e9b11d60cc521e51fde727bd8a0053e0f732694dd71873f6c9426039cb",
+    "firmware/tests/test_evt_console.c": "877febaf9ee610bd19c8c8753ec92b7824c32c5c1172762482435486a1453ea2",
+    "firmware/tests/run_host_tests.sh": "57f94b59f338c83b40592914298def14c572a053dbda4cca86479f66f178121f",
+    "firmware/tests/test_compass_control.c": "46460d9e2e335cc0b8ce7cf64ed0e19da6c595e2e979b1c16bae7c27def7bffd",
+    "firmware/tests/test_plug_runtime.c": "7c5f1f7eff3c168fc9b9f687a67c5c0cd3e67a2a5e527d95040eeebf2f96dd78",
+    "firmware/tests/console-stubs/nvs.h": "3b5e01e63bb546108df5ad078ce00e2cc3ea644514af400c0576692005cdcfa3",
+    "firmware/tests/console-stubs/cJSON.h": "eff9b20391600b33ab4d1efce8dade2863410827fe6600161f2ea9c53196015c",
+    "firmware/tests/console-stubs/sdkconfig.h": "621ecd392577415db44ae4eebeda2e1511a390d4fb1692258db310a309c288c3",
+    "firmware/tests/console-stubs/esp_system.h": "c3dd31c4181d3d05d46c1f3750f4efa93f7e7cd2e36fdbef5fee140d26b58006",
+    "firmware/tests/console-stubs/esp_intr_alloc.h": "400607144e4a3758ffbad27b4dfca51c82abc00be4e739b8a2c43cc41012483b",
+    "firmware/tests/console-stubs/esp_err.h": "1563878bdd8bc4ae80f67bd5b9c9d4ce34917e7dc5025df5b8a03758a9c28b01",
+    "firmware/tests/console-stubs/esp_idf_version.h": "f6a09f3501ffe43dc64c00bf5aff9f8edb0705f3c40daf2b8fd93d8e6f7e2f9c",
+    "firmware/tests/console-stubs/esp_attr.h": "eeb17565d81d387240a34f855611453654e19d747bd5a19c81765840ad0a331c",
+    "firmware/tests/console-stubs/hal/usb_serial_jtag_ll.h": "4fe157ffb086d452846d24941efbf716e444f75df7d1b0c2763ee5eeb019dee8",
+    "firmware/tests/console-stubs/driver/gpio.h": "e41199af1d7b8993078f45a3ec28af89934a4500a4ffaeba38f58ea6a5e236a4",
+    "firmware/tests/console-stubs/driver/usb_serial_jtag.h": "363b97c77da5cdb0b315d19e9b059349173669a0e167f65402f76bba3fc30492",
+    "firmware/tests/console-stubs/freertos/FreeRTOS.h": "8bafb997e5418402ba857229a7bc9fb82fe2cf33973ac50b3fd80092fe2afe79",
+    "firmware/CMakeLists.txt": "1227e111dd39ebddde3d43c8ca77679ec5afe55c13503946dc2a7b460d2c0249",
+    "firmware/platformio.ini": "ebb7539a52032f63767e3058cd75a0c8b118cf01d8f93088e5869fb65987da31",
+    "firmware/sdkconfig.defaults": "ae3054a8fb78762affdb53da8ba063f4f81ea8283f6706bde765c064cbb8b4e9",
+    "firmware/sdkconfig.evt1": "e1ed2fe57a4040a38d2ab045af0784fcff7df62ea7a411ebeca561396e1be9f2",
+    "firmware/sdkconfig.prototype-r0": "e1ed2fe57a4040a38d2ab045af0784fcff7df62ea7a411ebeca561396e1be9f2",
+    "firmware/partitions.csv": "6e730e4068bd2552cc5a2a7cfee39f6256c9435842a385656a83fe6dc8a8505e",
+    "firmware/version.txt": "c2ef39e09593cca70be98a0fb0ab435b53e2eb3c3d4e812cd7d43794eafa7728",
+    "firmware/thermal-history-validation/validate.py": "317352b9c4a2dea03786593bb488eb9ec8bdd838e44b426099209bcaf7117b3f"
+  },
+  "host_tests": "PASS with UBSan; actual console LL/GPIO/driver/NVS boundary stubs plus existing control/compass/thermistor/wear and new timing/history tests",
+  "cross_build": {
+    "evt1": "PASS",
+    "prototype-r0": "PASS",
+    "warnings": 0,
+    "build_directory": "/private/tmp/compass-thermal-build"
+  },
+  "ISR": {
+    "functions": {
+      "pad_off_locked": {
+        "address": "403802de",
+        "section": ".iram0.text",
+        "size_hex": "0000001a"
+      },
+      "dock_detached": {
+        "address": "403802f8",
+        "section": ".iram0.text",
+        "size_hex": "00000022"
+      },
+      "gpio_isr_loop": {
+        "address": "40380662",
+        "section": ".iram0.text",
+        "size_hex": "000000da"
+      },
+      "gpio_intr_service": {
+        "address": "4038073c",
+        "section": ".iram0.text",
+        "size_hex": "0000002a"
+      },
+      "xPortSetInterruptMaskFromISR": {
+        "address": "4038d98e",
+        "section": ".iram0.text",
+        "size_hex": "0000001a"
+      },
+      "vPortEnterCritical": {
+        "address": "4038d9b8",
+        "section": ".iram0.text",
+        "size_hex": "00000030"
+      },
+      "vPortExitCritical": {
+        "address": "4038d9e8",
+        "section": ".iram0.text",
+        "size_hex": "00000060"
+      },
+      "vPortClearInterruptMaskFromISR": {
+        "address": "4038d9a8",
+        "section": ".iram0.text",
+        "size_hex": "00000010"
+      }
+    },
+    "direct_calls": [
+      "vPortEnterCritical",
+      "pad_off_locked",
+      "vPortExitCritical"
+    ],
+    "data": {
+      "detach_generation": {
+        "address": "3fca4df0",
+        "section": ".dram0.bss"
+      },
+      "gpio_context": {
+        "address": "3fc9beb8",
+        "section": ".dram0.data"
+      },
+      "port_uxCriticalNesting": {
+        "address": "3fca5040",
+        "section": ".dram0.bss"
+      },
+      "port_uxOldInterruptState": {
+        "address": "3fca503c",
+        "section": ".dram0.bss"
+      }
+    },
+    "pad_off_no_calls": true
+  },
+  "inherited_USB_SDK_audit": {
+    "path": "hardware/pcb/evt1/offdock-usb-audit/implementation/validation.json",
+    "SHA256": "1cf68e2620a89b8e11319dee32fad23eb5cf18f7731c2a3fc9a9771d8df5ab44",
+    "bytes": 26994
+  },
+  "SDK_primary_hashes_rechecked": true,
+  "boot_tag_entropy": {
+    "generated_after_NimBLE_init": true,
+    "BT_modem_sleep_disabled": true,
+    "PM_disabled": true,
+    "width_bits": 32,
+    "global_uniqueness_guaranteed": false,
+    "source": "https://docs.espressif.com/projects/esp-idf/en/v5.5.3/esp32c3/api-reference/system/random.html"
+  },
+  "build_artifacts": [
+    {
+      "path": "/private/tmp/compass-thermal-build/evt1/firmware.elf",
+      "SHA256": "35261e0603f1ce664b0210f4575653fff76e0d459924576652f58adc666ba8e3",
+      "bytes": 11691692
+    },
+    {
+      "path": "/private/tmp/compass-thermal-build/evt1/firmware.bin",
+      "SHA256": "1c5abbb6958a5004ec7fbcfcd8f11443ccdb23600ae12a60c4522a882b4ad50a",
+      "bytes": 1151136
+    },
+    {
+      "path": "/private/tmp/compass-thermal-build/evt1/bootloader.bin",
+      "SHA256": "f142560554a533ea6c650bd8cc0ac7c98415128eb3723aae17e89f4582cf79f1",
+      "bytes": 21008
+    },
+    {
+      "path": "/private/tmp/compass-thermal-build/evt1/partitions.bin",
+      "SHA256": "73c0b5c3e5fcba3a151cc70c453c93dd5f4798899e7f2f8cca76da1f32ffc501",
+      "bytes": 3072
+    },
+    {
+      "path": "/private/tmp/compass-thermal-build/evt1/config/sdkconfig.h",
+      "SHA256": "e754acc1bf10e1c4513f8faaf5778c6131b71769902dc05caae979ae7862861b",
+      "bytes": 51934
+    },
+    {
+      "path": "/private/tmp/compass-thermal-build/prototype-r0/firmware.elf",
+      "SHA256": "12fd308050166ae403523527dcbb235170028e1957e390fcef79cfb2f9a8d7ba",
+      "bytes": 11373972
+    },
+    {
+      "path": "/private/tmp/compass-thermal-build/prototype-r0/firmware.bin",
+      "SHA256": "873a539d7d2f7ad3ec392d67b9eb8d7e2c68069bb2bf23f69ba5ff29c447aec8",
+      "bytes": 1109856
+    },
+    {
+      "path": "/private/tmp/compass-thermal-build/prototype-r0/bootloader.bin",
+      "SHA256": "8e29062868eeb5e8253341e8de59bdfc954a49c01970bba92c2b6e29a4f09761",
+      "bytes": 21008
+    },
+    {
+      "path": "/private/tmp/compass-thermal-build/prototype-r0/partitions.bin",
+      "SHA256": "73c0b5c3e5fcba3a151cc70c453c93dd5f4798899e7f2f8cca76da1f32ffc501",
+      "bytes": 3072
+    },
+    {
+      "path": "/private/tmp/compass-thermal-build/prototype-r0/config/sdkconfig.h",
+      "SHA256": "e754acc1bf10e1c4513f8faaf5778c6131b71769902dc05caae979ae7862861b",
+      "bytes": 51934
+    }
+  ],
+  "evidence": [
+    {
+      "path": "firmware/thermal-history-validation/source-snapshot.json",
+      "SHA256": "c4583f21e91da80ba18faa43c67747e0477c969f395637e82dd07e51bc40a164",
+      "bytes": 5315
+    },
+    {
+      "path": "firmware/thermal-history-validation/host.log",
+      "SHA256": "551d729046dcbf76fc159e4b8372b5953ba5199219b08b2e65e129f5a3016103",
+      "bytes": 795
+    },
+    {
+      "path": "firmware/thermal-history-validation/console.log",
+      "SHA256": "c1decd4a10692eb8e339c5545d579f9602a68db13ce490cdf575b4fed16de70d",
+      "bytes": 355
+    },
+    {
+      "path": "firmware/thermal-history-validation/build.log",
+      "SHA256": "9f14360ad478ac3ab91bab46dba879615fce11e664d3005e3af012d23b2a90e0",
+      "bytes": 4227
+    },
+    {
+      "path": "firmware/thermal-history-validation/isr-disassembly.txt",
+      "SHA256": "96a4381a27a8536ce3c33d5ee8c89a70b4fdc81b22bc73a4d918251bf6898854",
+      "bytes": 11162
+    },
+    {
+      "path": "firmware/thermal-history-validation/symbols.txt",
+      "SHA256": "c92c469dd90e060fb8a8a4c33f45d72c2d4d47fa7858eef07a2c9196d3751b52",
+      "bytes": 642922
+    }
+  ],
+  "limits": [
+    "RAM history resets at boot/deep sleep; no UTC or durable baseline",
+    "Raw PGOOD loss is not physical removal; unobserved edges can coalesce",
+    "Charge/UV state remains unknown; no Ready threshold or wear classifier",
+    "Case BLE, charge instrumentation, full history transfer and UI remain separate integration work",
+    "No physical USB/pin latency, leakage, sensor timing, thermal or powered validation"
+  ],
+  "flash_performed": false,
+  "physical_validation": false,
+  "full_product_order_ready": false
+}
